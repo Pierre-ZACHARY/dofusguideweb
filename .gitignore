@@ -6,6 +6,10 @@ coverage/
 .env
 *.log
 *.sql
+!drizzle/
+!drizzle/*.sql
+!drizzle-user/
+!drizzle-user/*.sql
 
 data/raw/**
 !data/raw/.gitkeep
