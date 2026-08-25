@@ -7,7 +7,7 @@ features que j'aimerais bien rajouter au guide web :
 - [x] partager sa progression avec ses potes / la voir évoluer en direct avec l'icone de leur personnage sur l'étapes où ils sont rendus
 
 - [] Ajouter le nom du serveur au profil 
-- [] générer tous les tutoriels ia; avec deepseek on dirait qu'il manque des étapes par rapport à gpt 5.6 sol
+- [] générer tous les tutoriels ia
 - [] import des archi metamob via l'api et mettre à jour automatiquement lors de la capture de boss ou d'archi de zones 
 
 - [] mise à jour automatique de l'outil ( scrap dofusdb + dofusguide + dofus pour les noobs ), version docker compose ( scrapper job, backend, db ), le scrapper job pourrait tourner dans des GitHub action scheduled et output une grosse archive avec toute la data 
@@ -16,7 +16,7 @@ features que j'aimerais bien rajouter au guide web :
 - [] import des avis de recherche 
 
 
-- déploiement cloudflare + D1
+- [] déploiement cloudflare + D1
 - sentry open source
 - user metrics
 - profil publique et partage "X joueurs sont à cette étape" et voir les joueurs connecté qui partagent leurs profiles

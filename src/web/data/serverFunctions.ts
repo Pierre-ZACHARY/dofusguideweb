@@ -6,7 +6,14 @@ import type { GuideRecord, QuestRecord } from "../../repositories/contracts.js";
 import type { ChapterDto, GuideSummaryDto, QuestDto } from "./models.js";
 import type { JsonValue } from "./models.js";
 
-const databasePath = () => process.env.DOFUSGUIDE_DB ?? "data/dofusguide.sqlite";
+function databasePath(): string {
+  const configured = process.env.DOFUSGUIDE_DB?.trim();
+  if (configured) return configured;
+  if (process.env.NODE_ENV === "production") {
+    throw new Error("DOFUSGUIDE_DB doit être défini en production");
+  }
+  return "data/dofusguide.sqlite";
+}
 
 async function withRepository<T>(callback: (repository: import("../../repositories/contracts.js").DofusGuideRepository) => T): Promise<T> {
   const { SqliteDofusGuideRepository } = await import("../../repositories/sqliteDofusGuideRepository.js");

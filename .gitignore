@@ -12,5 +12,6 @@ data/raw/**
 data/*.sqlite
 data/*.sqlite-*
 data/.*.sqlite*
+!data/dofusguide.sqlite
 data/generated/**
 !data/generated/.gitkeep

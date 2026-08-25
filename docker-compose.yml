@@ -1,0 +1,42 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dofusguide-app
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      NODE_ENV: production
+      HOST: 0.0.0.0
+      PORT: "3000"
+      NITRO_HOST: 0.0.0.0
+      NITRO_PORT: "3000"
+      DOFUSGUIDE_DB: /app/data/dofusguide.sqlite
+      DOFUSGUIDE_USER_DATABASE_URL: postgresql://dofusguide:dofusguide@db:5432/dofusguide_user
+    ports:
+      - "3003:3000"
+    restart: unless-stopped
+
+  db:
+    image: postgres:17-alpine
+    container_name: dofusguide-db
+    environment:
+      POSTGRES_DB: dofusguide_user
+      POSTGRES_USER: dofusguide
+      POSTGRES_PASSWORD: dofusguide
+    volumes:
+      - dofusguide-postgres-data:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U dofusguide -d dofusguide_user"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 5s
+    restart: unless-stopped
+
+volumes:
+  dofusguide-postgres-data:

@@ -180,6 +180,28 @@ npm run web:start
 ```
 
 `npm run serve` reste réservé à l’API Fastify historique. La base web peut être surchargée côté serveur avec `DOFUSGUIDE_DB`. Le navigateur ne lit ni SQLite ni `data/raw`.
+La base comptes peut rester locale (`DOFUSGUIDE_USER_DB`) ou pointer vers PostgreSQL via `DOFUSGUIDE_USER_DATABASE_URL`.
+
+### Exécution Docker (WSL)
+
+Le dépôt inclut un `Dockerfile` multi-stage et un `docker-compose.yml` qui démarre :
+
+- l’application SSR sur le port hôte `3003` ;
+- PostgreSQL pour la base comptes (partage/suivi/progression connectée).
+
+L’image contient la base documentaire versionnée `data/dofusguide.sqlite`, les
+données préparées sous `data/` et les assets de `public/`. Cette base est ouverte
+en lecture seule par l’application web et peut être remplacée au déploiement en
+surchargeant `DOFUSGUIDE_DB`. La base utilisateurs locale et les secrets ne sont
+jamais intégrés à l’image ; Compose utilise PostgreSQL pour ces données.
+
+```powershell
+wsl docker compose up --build -d
+wsl docker compose ps
+wsl docker compose logs -f app
+```
+
+Ensuite ouvrir `http://127.0.0.1:3003`.
 
 ### Ressources DofusDB locales
 
@@ -230,6 +252,7 @@ Google Identity Services permet d’enregistrer la progression dans une base uti
 ```powershell
 $env:GOOGLE_CLIENT_ID = "votre-client-id.apps.googleusercontent.com"
 $env:DOFUSGUIDE_USER_DB = "data/user-data.sqlite" # valeur par défaut
+$env:DOFUSGUIDE_USER_DATABASE_URL = "postgresql://dofusguide:dofusguide@db:5432/dofusguide_user" # optionnel
 npm run dev
 ```
 
