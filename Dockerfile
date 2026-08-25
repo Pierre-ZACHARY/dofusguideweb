@@ -13,20 +13,9 @@ RUN apt-get update \
 
 ENV PYTHON=/usr/bin/python3
 
-COPY package.json yarn.lock* package-lock.json* pnpm-lock.yaml* .npmrc* ./
+COPY package.json package-lock.json ./
 
-RUN --mount=type=cache,target=/root/.npm \
-    --mount=type=cache,target=/usr/local/share/.cache/yarn \
-    --mount=type=cache,target=/root/.local/share/pnpm/store \
-  if [ -f package-lock.json ]; then \
-    npm ci --no-audit --no-fund; \
-  elif [ -f yarn.lock ]; then \
-    corepack enable yarn && yarn install --frozen-lockfile; \
-  elif [ -f pnpm-lock.yaml ]; then \
-    corepack enable pnpm && pnpm install --frozen-lockfile; \
-  else \
-    echo "No lockfile found." && exit 1; \
-  fi
+RUN npm ci --no-audit --no-fund
 
 # ============================================
 # Stage 2: Build SSR application
@@ -40,15 +29,7 @@ COPY . .
 
 ENV NODE_ENV=production
 
-RUN if [ -f package-lock.json ]; then \
-    npm run web:build; \
-  elif [ -f yarn.lock ]; then \
-    corepack enable yarn && yarn web:build; \
-  elif [ -f pnpm-lock.yaml ]; then \
-    corepack enable pnpm && pnpm web:build; \
-  else \
-    echo "No lockfile found." && exit 1; \
-  fi
+RUN npm run web:build
 
 # ============================================
 # Stage 3: Runtime
