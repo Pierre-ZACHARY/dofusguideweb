@@ -59,6 +59,7 @@ const userDatabase = new cloudflare.D1Database("user-database", {
   accountId,
   name: workerName + "-users",
   jurisdiction: "eu",
+  readReplication: { mode: "disabled" },
 });
 
 const workerDeployment = new command.local.Command("worker-deployment", {
