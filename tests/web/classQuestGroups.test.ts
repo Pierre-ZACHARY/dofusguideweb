@@ -1,8 +1,12 @@
-import { readFile } from "node:fs/promises";
-import { describe, expect, it } from "vitest";
+import { afterAll, describe, expect, it } from "vitest";
 import { extractClassQuestGroups } from "../../src/web/components/classQuestGroups.js";
 import type { GuideElementDto } from "../../src/web/data/models.js";
 import type { GuideElement } from "../../src/types/dofusGuide.js";
+import { SqliteDofusGuideRepository } from "../../src/repositories/sqliteDofusGuideRepository.js";
+
+const repository = new SqliteDofusGuideRepository("data/dofusguide.sqlite");
+
+afterAll(() => repository.close());
 
 function dto(element: GuideElement, sourceOrder: number): GuideElementDto {
   return {
@@ -23,8 +27,10 @@ function dto(element: GuideElement, sourceOrder: number): GuideElementDto {
 }
 
 describe("class quest grouping", () => {
-  it("regroupe les 19 triplets réels de l’étape 16 sans exposer le marqueur CAC", async () => {
-    const raw = JSON.parse(await readFile("data/raw/guides/-1/steps/0016.json", "utf8")) as GuideElement[];
+  it("regroupe les 19 triplets réels de l’étape 16 sans exposer le marqueur CAC", () => {
+    const step = repository.getGuideStep(-1, 16);
+    if (step === undefined) throw new Error("Missing archived guide step 16");
+    const raw = step.raw as GuideElement[];
     const result = extractClassQuestGroups(raw.map(dto));
 
     expect(result.groups).toHaveLength(19);
