@@ -12,6 +12,7 @@ tests
 .web-validation.out.log
 .tanstack
 .output
+.wrangler
 todo.md
 data/raw
 data/cache

@@ -2,7 +2,7 @@ import { createFileRoute, notFound } from "@tanstack/react-router";
 import { ChapterCard, DofusProgressList } from "../components/GuideComponents.js";
 import { WorldTourProgress } from "../components/WorldTourProgress.js";
 import { NotFoundPanel } from "../components/NotFoundPanel.js";
-import { getGuideData, getHomeData } from "../data/serverFunctions.js";
+import { getGuideData, getHomeData } from "../data/staticContentClient.js";
 
 export const Route = createFileRoute("/")({
   loader: async () => {

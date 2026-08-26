@@ -1,21 +1,25 @@
 import { createServerFn } from "@tanstack/react-start";
-import { deleteCookie, getCookie, getRequestProtocol, setCookie } from "@tanstack/start-server-core";
+import { deleteCookie, getCookie, getRequestProtocol, setCookie } from "@tanstack/start-server-core/request-response";
 import { z } from "zod";
-import { createAccountRepository, type AccountRepository } from "../../accounts/accountRepository.js";
-import { findProfileAvatar, loadProfileAvatars } from "../../accounts/avatarCatalog.js";
+import type { AccountRepository } from "../../accounts/accountRepository.js";
 import { verifyGoogleCredential } from "../../accounts/googleIdentity.js";
 import {
   storedProgressProfileSchema,
   type AccountSession,
-  type ProfileGender,
 } from "../../accounts/types.js";
+import {
+  createRuntimeAccountRepository,
+  googleClientId,
+  profileAvatarUrl,
+  publishProfileChanged,
+} from "./runtime.js";
 
 const SESSION_COOKIE = "dofusguide_session";
 const profileNameSchema = z.string().trim().min(1).max(40);
 const avatarSchema = z.object({ breedId: z.number().int().positive(), gender: z.enum(["MALE", "FEMALE"]) });
 
 async function withAccounts<T>(callback: (repository: AccountRepository) => Promise<T> | T): Promise<T> {
-  const repository = await createAccountRepository();
+  const repository = await createRuntimeAccountRepository();
   try {
     return await callback(repository);
   } finally {
@@ -44,12 +48,8 @@ function setSessionCookie(token: string): void {
   });
 }
 
-async function avatarUrl(breedId: number, gender: ProfileGender): Promise<string | null> {
-  return findProfileAvatar(await loadProfileAvatars(), breedId, gender)?.imageUrl ?? null;
-}
-
-export const getGoogleAuthConfig = createServerFn({ method: "GET" }).handler(() => {
-  const clientId = process.env.GOOGLE_CLIENT_ID?.trim() ?? "";
+export const getGoogleAuthConfig = createServerFn({ method: "GET" }).handler(async () => {
+  const clientId = await googleClientId();
   return { enabled: clientId.length > 0, clientId };
 });
 
@@ -59,10 +59,10 @@ const loginInput = z.object({
 });
 
 export const loginWithGoogle = createServerFn({ method: "POST" }).validator(loginInput).handler(async ({ data }) => {
-  const clientId = process.env.GOOGLE_CLIENT_ID?.trim();
+  const clientId = await googleClientId();
   if (!clientId) throw new Error("GOOGLE_CLIENT_ID n’est pas configuré");
   const identity = await verifyGoogleCredential(data.credential, clientId);
-  const defaultAvatarUrl = await avatarUrl(9, "MALE");
+  const defaultAvatarUrl = profileAvatarUrl(9, "MALE");
   return withAccounts(async (repository) => {
     const userId = await repository.upsertGoogleUser(identity, data.localProgress, defaultAvatarUrl);
     const token = await repository.createSession(userId);
@@ -97,7 +97,7 @@ export const logoutAccount = createServerFn({ method: "POST" }).handler(() => wi
 
 const createProfileInput = z.object({ name: profileNameSchema, avatar: avatarSchema });
 export const createPlayerProfile = createServerFn({ method: "POST" }).validator(createProfileInput).handler(async ({ data }) => {
-  const selectedAvatar = await avatarUrl(data.avatar.breedId, data.avatar.gender);
+  const selectedAvatar = profileAvatarUrl(data.avatar.breedId, data.avatar.gender);
   return withAccounts(async (repository) => {
     const userId = await requireUserId(repository);
     const profile = await repository.createProfile(userId, data.name, data.avatar.breedId, data.avatar.gender, selectedAvatar);
@@ -108,10 +108,11 @@ export const createPlayerProfile = createServerFn({ method: "POST" }).validator(
 
 const updateProfileInput = z.object({ profileId: z.string().uuid(), name: profileNameSchema, avatar: avatarSchema });
 export const updatePlayerProfile = createServerFn({ method: "POST" }).validator(updateProfileInput).handler(async ({ data }) => {
-  const selectedAvatar = await avatarUrl(data.avatar.breedId, data.avatar.gender);
+  const selectedAvatar = profileAvatarUrl(data.avatar.breedId, data.avatar.gender);
   return withAccounts(async (repository) => {
     const userId = await requireUserId(repository);
     await repository.updateProfile(userId, data.profileId, data.name, data.avatar.breedId, data.avatar.gender, selectedAvatar);
+    await publishProfileChanged(data.profileId);
     return (await repository.getAccount(userId))!;
   });
 });
@@ -130,11 +131,10 @@ export const savePlayerProgress = createServerFn({ method: "POST" }).validator(s
   withAccounts(async (repository) => {
     const userId = await requireUserId(repository);
     await repository.saveProgress(userId, data.profileId, data.progress);
+    await publishProfileChanged(data.profileId);
     return { savedAt: new Date().toISOString() };
   }),
 );
-
-export const listProfileAvatars = createServerFn({ method: "GET" }).handler(() => loadProfileAvatars());
 
 export const sharePlayerProfile = createServerFn({ method: "POST" }).validator(selectProfileInput).handler(({ data }) =>
   withAccounts(async (repository) => {

@@ -2,6 +2,7 @@ import { Link, createFileRoute, notFound } from "@tanstack/react-router";
 import { CheckCircle2, UserPlus } from "lucide-react";
 import { useState } from "react";
 import { useAccount } from "../accounts/AccountProvider.js";
+import { useProfileEvents } from "../accounts/profileEventsClient.js";
 import { ProfileAvatarImage } from "../accounts/ProfileEditor.js";
 import { NotFoundPanel } from "../components/NotFoundPanel.js";
 import { getSharedPlayerProfile } from "../accounts/serverFunctions.js";
@@ -18,10 +19,16 @@ export const Route = createFileRoute("/shared/$shareToken")({
 });
 
 function SharedProfilePage() {
-  const shared = Route.useLoaderData();
+  const loadedShared = Route.useLoaderData();
   const params = Route.useParams();
   const { account, followShare } = useAccount();
+  const [shared, setShared] = useState(loadedShared);
   const [followed, setFollowed] = useState(account?.following.some((profile) => profile.id === shared.id) ?? false);
+  useProfileEvents([shared.id], () => {
+    void getSharedPlayerProfile({ data: { shareToken: params.shareToken } }).then((next) => {
+      if (next !== null) setShared(next);
+    });
+  });
   const completedSteps = Object.values(shared.progress.steps).filter((status) => status === "COMPLETED").length;
   return (
     <div className="mx-auto max-w-xl">

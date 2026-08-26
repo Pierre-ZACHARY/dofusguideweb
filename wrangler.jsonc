@@ -1,0 +1,37 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "dofusguideweb",
+  "main": "src/web/server.ts",
+  "compatibility_date": "2026-08-26",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 0.1
+  },
+  "vars": {
+    "GOOGLE_CLIENT_ID": ""
+  },
+  "d1_databases": [
+    {
+      "binding": "USER_DB",
+      "database_name": "dofusguideweb-users",
+      "database_id": "00000000-0000-0000-0000-000000000000",
+      "migrations_dir": "drizzle-user"
+    }
+  ],
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "PROFILE_EVENTS",
+        "class_name": "ProfileEvents"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": ["ProfileEvents"]
+    }
+  ]
+}

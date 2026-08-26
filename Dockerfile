@@ -29,7 +29,7 @@ COPY . .
 
 ENV NODE_ENV=production
 
-RUN npm run web:build
+RUN npm run web:build:node
 
 # ============================================
 # Stage 3: Runtime
@@ -43,11 +43,8 @@ ENV HOST=0.0.0.0
 ENV PORT=3000
 ENV NITRO_HOST=0.0.0.0
 ENV NITRO_PORT=3000
-ENV DOFUSGUIDE_DB=/app/data/dofusguide.sqlite
 
 COPY --from=builder --chown=node:node /app/.output ./.output
-COPY --from=builder --chown=node:node /app/public ./public
-COPY --from=builder --chown=node:node /app/data ./data
 COPY --from=builder --chown=node:node /app/drizzle-user ./drizzle-user
 
 USER node

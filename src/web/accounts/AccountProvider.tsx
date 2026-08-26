@@ -4,7 +4,6 @@ import {
   createPlayerProfile,
   followSharedPlayerProfile,
   getAccountState,
-  listProfileAvatars,
   loginWithGoogle,
   logoutAccount,
   savePlayerProgress,
@@ -13,6 +12,8 @@ import {
   unfollowPlayerProfile,
   updatePlayerProfile,
 } from "./serverFunctions.js";
+import { getProfileAvatars } from "../data/staticContentClient.js";
+import { useProfileEvents } from "./profileEventsClient.js";
 
 interface AccountContextValue {
   loading: boolean;
@@ -59,13 +60,17 @@ export function AccountProvider({ children }: Readonly<{ children: ReactNode }>)
   useEffect(() => {
     void Promise.all([
       refresh(),
-      listProfileAvatars().then(setAvatars).catch(() => setAvatars([])),
+      getProfileAvatars().then(setAvatars).catch(() => setAvatars([])),
     ]);
   }, [refresh]);
 
+  useProfileEvents(account?.following.map((profile) => profile.id) ?? [], () => void refresh());
+
   useEffect(() => {
     if (account === null) return;
-    const timer = window.setInterval(() => void refresh(), 3_000);
+    // Presence and network-recovery fallback; profile changes arrive over the
+    // Durable Object WebSocket instead of waiting for this timer.
+    const timer = window.setInterval(() => void refresh(), 30_000);
     return () => window.clearInterval(timer);
   }, [account !== null, refresh]);
 

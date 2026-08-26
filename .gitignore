@@ -2,6 +2,7 @@ node_modules/
 dist/
 .output/
 .tanstack/
+.wrangler/
 coverage/
 .env
 *.log
@@ -19,3 +20,8 @@ data/.*.sqlite*
 !data/dofusguide.sqlite
 data/generated/**
 !data/generated/.gitkeep
+public/generated/dofusguide/
+
+# Pulumi stack configuration stays local. CI receives credentials through
+# GitHub Actions secrets and uses the public defaults from infra/index.ts.
+infra/Pulumi.*.yaml

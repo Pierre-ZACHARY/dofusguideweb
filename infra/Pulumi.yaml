@@ -1,0 +1,9 @@
+name: dofusguideweb-cloudflare
+description: Cloudflare Workers, D1 and custom domains for DofusGuideWeb
+runtime:
+  name: nodejs
+  options:
+    typescript: true
+main: index.ts
+backend:
+  url: https://api.pulumi.com

@@ -2,7 +2,8 @@ import { Link } from "@tanstack/react-router";
 import { Search, X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import type { QuestDto } from "../data/models.js";
-import { searchQuestsData } from "../data/serverFunctions.js";
+import { questKeyToRouteParam } from "../data/questRoute.js";
+import { searchQuestsData } from "../data/staticContentClient.js";
 import { QuestAvatar } from "./QuestAvatar.js";
 
 export function SearchCommand({ compact = false }: Readonly<{ compact?: boolean }>) {
@@ -78,7 +79,7 @@ export function SearchCommand({ compact = false }: Readonly<{ compact?: boolean 
           {query.trim() === "" && <p className="p-6 text-center text-sm opacity-60">Saisissez le nom d’une quête. <kbd className="kbd kbd-sm">Esc</kbd> ferme cette fenêtre.</p>}
           {query.trim() !== "" && !loading && results.length === 0 && <div className="alert alert-info"><span>Aucune quête trouvée.</span></div>}
           {results.length > 0 && <ul className="menu gap-1 rounded-box">
-            {results.map((quest) => <li key={quest.questKey}><Link to="/quests/$questKey" params={{ questKey: quest.questKey }} onClick={close} className="grid grid-cols-[auto_1fr_auto] items-center gap-3">
+            {results.map((quest) => <li key={quest.questKey}><Link to="/quests/$questKey" params={{ questKey: questKeyToRouteParam(quest.questKey) }} onClick={close} className="grid grid-cols-[auto_1fr_auto] items-center gap-3">
               <QuestAvatar src={quest.npcImageUrl} name={quest.npcName ?? quest.originalName ?? quest.questKey} />
               <span className="min-w-0"><span className="block truncate font-semibold">{quest.originalName ?? quest.questKey}</span><span className="block truncate text-xs opacity-65">{quest.npcName ?? "PNJ inconnu"}{quest.startMap ? " · " + quest.startMap : ""}</span></span>
               {quest.category && <span className="badge badge-outline badge-sm">{quest.category}</span>}

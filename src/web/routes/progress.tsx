@@ -1,6 +1,6 @@
 import { Link, createFileRoute } from "@tanstack/react-router";
 import { CheckCircle2, CircleDashed, Flag, ScrollText } from "lucide-react";
-import { getGuideData, getHomeData } from "../data/serverFunctions.js";
+import { getGuideData, getHomeData } from "../data/staticContentClient.js";
 import { getStepProgress, useProgress } from "../progress/progressStore.js";
 
 export const Route = createFileRoute("/progress")({

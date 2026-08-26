@@ -8,7 +8,7 @@ import { QuestChecklist } from "../components/QuestChecklist.js";
 import { ClassQuestGrid } from "../components/ClassQuestGrid.js";
 import { extractClassQuestGroups } from "../components/classQuestGroups.js";
 import { DungeonCard } from "../components/DungeonCard.js";
-import { getStepData } from "../data/serverFunctions.js";
+import { getStepData } from "../data/staticContentClient.js";
 import { summarizeChapterProgress } from "../progress/chapterProgress.js";
 import { getStepProgress, isObjectiveCompleted, useProgress, type ObjectiveIdentity } from "../progress/progressStore.js";
 import { useAccount } from "../accounts/AccountProvider.js";
