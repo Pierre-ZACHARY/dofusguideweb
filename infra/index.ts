@@ -66,15 +66,19 @@ const workerDeployment = new command.local.Command("worker-deployment", {
   dir: projectRoot,
   create: "node scripts/deploy-cloudflare.mjs",
   update: "node scripts/deploy-cloudflare.mjs",
-  delete: "npx wrangler delete " + workerName + " --force",
   environment: {
     CLOUDFLARE_ACCOUNT_ID: accountId,
     CLOUDFLARE_API_TOKEN: apiToken,
     D1_DATABASE_ID: userDatabase.uuid,
+    DEPLOYMENT_SOURCE_HASH: sourceHash.digest("hex"),
     GOOGLE_CLIENT_ID: googleClientId,
   },
-  triggers: [sourceHash.digest("hex"), userDatabase.uuid, googleClientId],
-}, { dependsOn: [userDatabase] });
+}, {
+  dependsOn: [userDatabase],
+  // A deployment command has no backing cloud resource to destroy. Retaining it
+  // also protects the Worker during the one-time transition away from triggers.
+  retainOnDelete: true,
+});
 
 const apexDomain = new cloudflare.WorkersCustomDomain("apex-domain", {
   accountId,
