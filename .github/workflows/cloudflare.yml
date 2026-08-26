@@ -28,6 +28,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          lfs: true
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -37,6 +39,9 @@ jobs:
           cache-dependency-path: |
             package-lock.json
             infra/package-lock.json
+
+      - name: Use stable npm version
+        run: npm install --global npm@11.19.0
 
       - name: Install application dependencies
         run: npm ci --no-audit --no-fund

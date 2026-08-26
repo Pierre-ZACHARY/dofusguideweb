@@ -22,6 +22,9 @@ function GuideHomePage() {
     <div className="space-y-8">
       <div>
         <h1 className="text-3xl font-bold">{guide.name}</h1>
+        <p className="mt-1 text-sm text-base-content/70">
+          Guide écrit par <a className="link link-primary font-medium" href="https://www.twitch.tv/magem" target="_blank" rel="noreferrer">Magem</a>
+        </p>
         <p className="mt-2 opacity-70">{chapters.length} chapitres · {steps.length} étapes</p>
       </div>
       <WorldTourProgress guideId={guide.id} tracks={worldTour} />

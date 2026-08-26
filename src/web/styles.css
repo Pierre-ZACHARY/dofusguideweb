@@ -32,6 +32,11 @@
 }
 
 @layer components {
+  .featured-dungeon > .card {
+    border-color: var(--color-warning);
+    box-shadow: 0 0.75rem 1.5rem rgb(196 128 0 / 18%);
+  }
+
   .follower-tooltip::before,
   .follower-tooltip::after {
     z-index: 100;

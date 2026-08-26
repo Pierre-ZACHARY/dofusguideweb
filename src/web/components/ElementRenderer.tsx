@@ -11,7 +11,7 @@ function TextElement({ element }: Readonly<{ element: GuideElementDto }>) {
   const chapter = extractChapterMarker(element.value);
   const level = extractRecommendedLevelRange(element.value);
   if (chapter) return <h2 className="text-2xl font-bold"><DofusMarkup value={element.value} /></h2>;
-  if (level) return <span className="badge badge-secondary badge-lg">Niveau {level.min}{level.max === level.min ? "" : ` → ${level.max}`}</span>;
+  if (level) return <span className="badge badge-secondary badge-lg whitespace-nowrap">Niveau {level.min}{level.max === level.min ? "" : ` → ${level.max}`}</span>;
   const font = asObject(element.font);
   const size = typeof font?.size === "number" ? font.size : 0;
   const bold = font?.bold === "1";

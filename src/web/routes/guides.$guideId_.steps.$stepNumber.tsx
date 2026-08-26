@@ -108,7 +108,7 @@ function StepPage() {
               <p className="mt-1 text-sm opacity-65">Étape {step.stepNumber} · {step.totalSteps} étapes documentées</p>
               <div className="mt-3 flex flex-wrap gap-2">
                 {step.levelMin !== null && (
-                  <span className="badge badge-secondary">
+                  <span className="badge badge-secondary whitespace-nowrap">
                     Niveau {step.levelMin}{step.levelMax !== step.levelMin ? " → " + step.levelMax : ""}
                   </span>
                 )}

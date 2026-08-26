@@ -27,12 +27,12 @@ export function ChapterCard({ chapter, guideId, steps }: Readonly<{ chapter: Cha
       </div>
     )}
     <div className={"card-body gap-4 p-5 transition-opacity " + (isCompleted ? "opacity-45" : "")}>
-      <div className="flex items-start justify-between gap-3">
-        <div>
+      <div className="flex flex-wrap items-start justify-between gap-3">
+        <div className="min-w-0 flex-1">
           <span className="badge badge-primary badge-outline">Chapitre {chapter.chapterNumber}</span>
           <h3 className="card-title mt-2">{chapter.name}</h3>
         </div>
-        {chapter.levelMin !== null && <span className="badge badge-secondary">Niv. {chapter.levelMin}{chapter.levelMax !== chapter.levelMin ? "–" + chapter.levelMax : ""}</span>}
+        {chapter.levelMin !== null && <span className="badge badge-secondary shrink-0 whitespace-nowrap">Niv. {chapter.levelMin}{chapter.levelMax !== chapter.levelMin ? "–" + chapter.levelMax : ""}</span>}
       </div>
       <div className={"relative " + (reserveFollowerLane ? "pt-11" : "")}>
         {reserveFollowerLane && <FollowerProgressMarkers profiles={chapterFollowers} percentFor={(friend) => chapterPercentForProfile(friend, guideId, chapter, steps)} />}
@@ -61,9 +61,9 @@ export function ChapterCard({ chapter, guideId, steps }: Readonly<{ chapter: Cha
 export function DofusProgressList({ guideId, dofus }: Readonly<{ guideId: number; dofus: DofusProgressDto[] }>) {
   const { profile } = useProgress();
   return <section aria-labelledby="dofus-progress-title">
-    <div className="mb-3 flex items-end justify-between gap-3">
-      <div><h2 id="dofus-progress-title" className="text-xl font-bold">Progression par Dofus</h2><p className="text-sm opacity-65">Quêtes accomplies dans chaque aventure</p></div>
-      <span className="badge badge-outline">{dofus.length} parcours</span>
+    <div className="mb-3 flex flex-wrap items-end justify-between gap-3">
+      <div className="min-w-0"><h2 id="dofus-progress-title" className="text-xl font-bold">Progression par Dofus</h2><p className="text-sm opacity-65">Quêtes accomplies dans chaque aventure</p></div>
+      <span className="badge badge-outline shrink-0 whitespace-nowrap">{dofus.length} parcours</span>
     </div>
     <div className="overflow-x-auto overflow-y-hidden rounded-box border border-base-300 bg-base-100 p-3">
       <ul className="grid grid-flow-col auto-cols-[8.5rem] gap-3">

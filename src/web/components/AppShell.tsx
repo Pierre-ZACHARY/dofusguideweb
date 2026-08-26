@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Compass, Focus, Home, PictureInPicture2, Search, X } from "lucide-react";
+import { Focus, Home, PictureInPicture2, Search, X } from "lucide-react";
 import type { ReactNode } from "react";
 import { useDocumentOverlay } from "./DocumentOverlay.js";
 import { SearchCommand } from "./SearchCommand.js";
@@ -10,11 +10,14 @@ export function AppShell({ children }: Readonly<{ children: ReactNode }>) {
   const overlay = useDocumentOverlay();
   return (
     <div className="flex min-h-screen flex-col">
-      <header className="navbar sticky top-0 z-40 border-b border-base-300 bg-base-100/95 shadow-sm backdrop-blur">
+      <header className="navbar sticky top-0 z-40 border-b border-base-300 bg-base-100 shadow-sm">
         <div className="mx-auto flex w-full max-w-7xl px-3 sm:px-6">
-          <Link to="/" className="btn btn-ghost gap-2 px-2 text-lg">
-            <Compass className="text-primary" aria-hidden="true" />
-            <span>DofusGuide <span className="badge badge-primary badge-outline align-middle">WEB</span></span>
+          <Link to="/" className="btn btn-ghost gap-2 px-2 text-lg" aria-label="DofusGuide Web — Accueil">
+            <img src="/favicon.png" alt="" className="h-8 w-8 rounded-lg object-cover" aria-hidden="true" />
+            <span className="hidden items-center gap-1.5 leading-none sm:inline-flex">
+              <span>DofusGuide</span>
+              <span className="badge badge-primary badge-outline whitespace-nowrap align-middle leading-none">WEB</span>
+            </span>
           </Link>
           <div className="ml-auto flex items-center gap-1">
             <AccountMenu />
@@ -52,15 +55,21 @@ export function AppShell({ children }: Readonly<{ children: ReactNode }>) {
         <main className="mx-auto w-full max-w-7xl flex-1 px-4 py-6 pb-24 sm:px-6 sm:py-9 lg:pb-10">{children}</main>
       )}
       <footer className="footer footer-center border-t border-base-300 bg-base-100 px-4 py-5 pb-24 text-xs text-base-content/65 lg:pb-5">
-        <div className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1">
-          <span>
-            Données issues de <a className="link link-hover font-medium" href="https://dofusdb.fr/" target="_blank" rel="noreferrer">DofusDB</a>.
-            {" "}Utilisation soumise à la <a className="link link-hover font-medium" href="https://api.dofusdb.fr/" target="_blank" rel="noreferrer">LPNC-IA 1.0</a>.
-          </span>
-          <span aria-hidden="true">·</span>
-          <a className="link link-hover" href="https://policies.google.com/terms?hl=fr" target="_blank" rel="noreferrer">Conditions d’utilisation de Google</a>
-          <span aria-hidden="true">·</span>
-          <a className="link link-hover" href="https://policies.google.com/privacy?hl=fr" target="_blank" rel="noreferrer">Règles de confidentialité Google</a>
+        <div className="max-w-5xl space-y-2 text-center">
+          <p>
+            Données des guides issues de <a className="link link-hover font-medium" href="https://dofusguide.fr/" target="_blank" rel="noreferrer">DofusGuide.fr</a>.
+            {" "}Merci à <a className="link link-hover font-medium" href="https://www.twitch.tv/magem" target="_blank" rel="noreferrer">Magem</a> pour la rédaction des guides, et à Sbarb et Steodec pour la création de DofusGuide.fr.
+          </p>
+          <div className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1">
+            <span>
+              Données issues de <a className="link link-hover font-medium" href="https://dofusdb.fr/" target="_blank" rel="noreferrer">DofusDB</a>.
+              {" "}Utilisation soumise à la <a className="link link-hover font-medium" href="https://api.dofusdb.fr/" target="_blank" rel="noreferrer">LPNC-IA 1.0</a>.
+            </span>
+            <span aria-hidden="true">·</span>
+            <a className="link link-hover" href="https://policies.google.com/terms?hl=fr" target="_blank" rel="noreferrer">Conditions d’utilisation de Google</a>
+            <span aria-hidden="true">·</span>
+            <a className="link link-hover" href="https://policies.google.com/privacy?hl=fr" target="_blank" rel="noreferrer">Règles de confidentialité Google</a>
+          </div>
         </div>
       </footer>
       <nav className="dock z-40 border-t border-base-300 bg-base-100 lg:hidden" aria-label="Navigation mobile">

@@ -13,6 +13,8 @@ RUN apt-get update \
 
 ENV PYTHON=/usr/bin/python3
 
+RUN npm install --global npm@11.19.0
+
 COPY package.json package-lock.json ./
 
 RUN npm ci --no-audit --no-fund

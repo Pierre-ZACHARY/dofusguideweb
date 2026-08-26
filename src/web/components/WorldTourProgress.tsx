@@ -12,12 +12,12 @@ export function WorldTourProgress({
   if (tracks.length === 0) return null;
   return (
     <section className="space-y-4" aria-labelledby="world-tour-title">
-      <div className="flex items-center justify-between gap-3">
-        <div>
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <div className="min-w-0">
           <h2 id="world-tour-title" className="flex items-center gap-2 text-xl font-bold"><Skull aria-hidden="true" /> Le tour du monde</h2>
           <p className="text-sm opacity-65">Votre progression dans les deux grandes tournées de donjons</p>
         </div>
-        <span className="badge badge-outline">{tracks.reduce((total, track) => total + track.dungeons.length, 0)} donjons</span>
+        <span className="badge badge-outline shrink-0 whitespace-nowrap">{tracks.reduce((total, track) => total + track.dungeons.length, 0)} donjons</span>
       </div>
       <div className="space-y-4">
         {tracks.map((track) => {
