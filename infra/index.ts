@@ -47,6 +47,7 @@ for (const source of [
   "src/web",
   "src/cloudflare-env.d.ts",
   "public",
+  "data/generated",
   "data/dofusguide.sqlite",
   "data/dofusdb/breeds.json",
   "drizzle-user",
@@ -63,6 +64,9 @@ const userDatabase = new cloudflare.D1Database("user-database", {
 });
 
 const workerDeployment = new command.local.Command("worker-deployment", {
+  // Build output can be very large. Reinjecting it into the next command's
+  // environment eventually exceeds Linux's argument/environment size limit.
+  addPreviousOutputInEnv: false,
   dir: projectRoot,
   create: "node scripts/deploy-cloudflare.mjs",
   update: "node scripts/deploy-cloudflare.mjs",
