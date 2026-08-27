@@ -2,7 +2,943 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 59,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-27T13:41:45.084Z",
+  "summaries": [
+    {
+      "overview": "Pat Akess vous confie une série de six donjons à accomplir dans un ordre imposé. Après chaque victoire, revenez le voir en [5,0] pour obtenir la clef de l'étape suivante. Le parcours vous mène successivement au Scarabosse Doré, au Coffre des Forgerons, à la Bworkette, à la Shin Larve, au Rakoopeur puis au Craqueleur Légendaire. Une fois la série terminée, rendez-vous auprès de Chris de Naire pour conclure la quête.",
+      "recommendedLevel": 30,
+      "prerequisites": [
+        "Être de niveau supérieur à 29.",
+        "Avoir terminé la quête Le maître des clefs."
+      ],
+      "rewards": [
+        "3 303 660 XP.",
+        "54 192 Kamas.",
+        "1 x Viscères du Scarabosse Doré.",
+        "1 x Poil de Bworkette.",
+        "1 x Dent de Shin Larve.",
+        "1 x Méga Pierre du Craqueleur Légendaire."
+      ],
+      "preparation": [
+        "Prévoir de terminer le Donjon des Scarafeuilles.",
+        "Prévoir de terminer le Donjon des Forgerons.",
+        "Prévoir de terminer le Donjon des Bworks.",
+        "Prévoir de terminer le Donjon des Larves.",
+        "Prévoir de terminer le Refuge Sylvestre.",
+        "Prévoir de terminer les Pitons Rocheux des Craqueleurs."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Pat Akess et choisissez « Merci, c’est exactement ce qu’il me faut » pour commencer la quête.",
+          "position": "[5,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Terminez le Donjon des Scarafeuilles et vainquez le Scarabosse Doré.",
+          "position": "[1,26]",
+          "zoneHint": null,
+          "warning": "Combat de donjon obligatoire contre le Scarabosse Doré.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez voir Pat Akess afin de recevoir la clef du prochain donjon.",
+          "position": "[5,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Terminez le Donjon des Forgerons et vainquez le Coffre des Forgerons.",
+          "position": "[13,21]",
+          "zoneHint": null,
+          "warning": "Combat de donjon obligatoire contre le Coffre des Forgerons.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez auprès de Pat Akess pour obtenir la clef suivante.",
+          "position": "[5,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Terminez le Donjon des Bworks et vainquez la Bworkette.",
+          "position": "[-5,10]",
+          "zoneHint": null,
+          "warning": "Combat de donjon obligatoire contre la Bworkette.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Revenez voir Pat Akess pour récupérer la prochaine clef.",
+          "position": "[5,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Terminez le Donjon des Larves et vainquez la Shin Larve.",
+          "position": "[-2,-5]",
+          "zoneHint": null,
+          "warning": "Combat de donjon obligatoire contre la Shin Larve.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez auprès de Pat Akess afin qu'il vous remette la clef suivante.",
+          "position": "[5,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous sur l'archipel de Valonia, terminez le Refuge Sylvestre et vainquez le Rakoopeur. L'archipel est accessible en bateau depuis Amakna en [10,-3].",
+          "position": "[40,-84]",
+          "zoneHint": "Archipel de Valonia",
+          "warning": "Combat de donjon obligatoire contre le Rakoopeur.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez voir Pat Akess pour recevoir la dernière clef.",
+          "position": "[5,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Terminez les Pitons Rocheux des Craqueleurs et vainquez le Craqueleur Légendaire.",
+          "position": "[-3,-7]",
+          "zoneHint": null,
+          "warning": "Combat de donjon obligatoire contre le Craqueleur Légendaire.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez auprès de Pat Akess. Il n'a plus de donjon à vous confier et vous envoie vers un autre interlocuteur.",
+          "position": "[5,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Chris de Naire et choisissez « Calmez-vous, je m’en vais » pour terminer la quête.",
+          "position": "[-29,-47]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête débloque ensuite Un juge hystérique.",
+        "Les six donjons doivent être accomplis dans l'ordre indiqué, avec un retour auprès de Pat Akess entre chaque étape."
+      ],
+      "npcs": [
+        "Pat Akess",
+        "Chris de Naire"
+      ],
+      "items": [
+        {
+          "name": "Viscères du Scarabosse Doré",
+          "itemId": 8137,
+          "imageUrl": "/items/8137.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8137"
+        },
+        {
+          "name": "Poil de Bworkette",
+          "itemId": 8389,
+          "imageUrl": "/items/8389.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8389"
+        },
+        {
+          "name": "Dent de Shin Larve",
+          "itemId": 8386,
+          "imageUrl": "/items/8386.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8386"
+        },
+        {
+          "name": "Méga Pierre du Craqueleur Légendaire",
+          "itemId": 8394,
+          "imageUrl": "/items/8394.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8394"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 284,
+            "name": "Donjon des Bworks",
+            "coordinates": [
+              "-5,10"
+            ]
+          },
+          {
+            "id": 528,
+            "name": "Donjon des Forgerons",
+            "coordinates": [
+              "13,21"
+            ]
+          },
+          {
+            "id": 491,
+            "name": "Donjon des Larves",
+            "coordinates": [
+              "-2,-5"
+            ]
+          },
+          {
+            "id": 297,
+            "name": "Donjon des Scarafeuilles",
+            "coordinates": [
+              "1,26"
+            ]
+          },
+          {
+            "id": 1026,
+            "name": "Futaie enneigée",
+            "coordinates": [
+              "40,-84"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-29,-47"
+            ]
+          },
+          {
+            "id": 243,
+            "name": "Pitons Rocheux des Craqueleurs",
+            "coordinates": [
+              "-3,-7"
+            ]
+          },
+          {
+            "id": 1,
+            "name": "Port de Madrestam",
+            "coordinates": [
+              "10,-3"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "5,0"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2332,
+            "name": "Larchimaide la Poussée",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2332.png"
+          },
+          {
+            "id": 2331,
+            "name": "Larvapstrè le Subjectif",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2331.png"
+          },
+          {
+            "id": 2339,
+            "name": "Larvomatik le Propre",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2339.png"
+          },
+          {
+            "id": 2574,
+            "name": "Larvonika l'Instrument",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2574.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 155,
+                "name": "Bandit du clan des Roublards",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/155.png"
+              },
+              {
+                "id": 153,
+                "name": "Boulanger Sombre",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/153.png"
+              },
+              {
+                "id": 119,
+                "name": "Forgeron Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/119.png"
+              },
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 182,
+            "name": "Bworks d'Amakna",
+            "monsters": [
+              {
+                "id": 876,
+                "name": "Bwork",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/876.png"
+              },
+              {
+                "id": 74,
+                "name": "Bwork Archer",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/74.png"
+              },
+              {
+                "id": 53,
+                "name": "Bwork Mage",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/53.png"
+              }
+            ]
+          },
+          {
+            "id": 186,
+            "name": "Craqueleurs",
+            "monsters": [
+              {
+                "id": 483,
+                "name": "Craqueboule",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/483.png"
+              },
+              {
+                "id": 106,
+                "name": "Craqueleur",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/106.png"
+              },
+              {
+                "id": 293,
+                "name": "Craqueleur des Plaines",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/293.png"
+              },
+              {
+                "id": 4570,
+                "name": "Élémenterre",
+                "level": 59,
+                "imageUrl": "/bestiary/monsters/4570.png"
+              },
+              {
+                "id": 4573,
+                "name": "Craquelope",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4573.png"
+              }
+            ]
+          },
+          {
+            "id": 1667,
+            "name": "Grosses Larves",
+            "monsters": [
+              {
+                "id": 456,
+                "name": "Larve Dorée",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/456.png"
+              },
+              {
+                "id": 413,
+                "name": "Larve Rubis",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/413.png"
+              },
+              {
+                "id": 412,
+                "name": "Larve Saphir",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/412.png"
+              },
+              {
+                "id": 414,
+                "name": "Larve Émeraude",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/414.png"
+              }
+            ]
+          },
+          {
+            "id": 203,
+            "name": "Larves",
+            "monsters": [
+              {
+                "id": 31,
+                "name": "Larve Bleue",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/31.png"
+              },
+              {
+                "id": 46,
+                "name": "Larve Orange",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/46.png"
+              },
+              {
+                "id": 34,
+                "name": "Larve Verte",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/34.png"
+              },
+              {
+                "id": 5225,
+                "name": "Larve Jaune",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/5225.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 5910,
+            "name": "Rebelles de la Futaie",
+            "monsters": [
+              {
+                "id": 7192,
+                "name": "Timongouste",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7192.png"
+              },
+              {
+                "id": 7193,
+                "name": "Thomondor",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7193.png"
+              },
+              {
+                "id": 7194,
+                "name": "Buffalourd",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7194.png"
+              },
+              {
+                "id": 7195,
+                "name": "Grolours",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7195.png"
+              }
+            ]
+          },
+          {
+            "id": 181,
+            "name": "Scarafeuilles",
+            "monsters": [
+              {
+                "id": 198,
+                "name": "Scarafeuille Bleu",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/198.png"
+              },
+              {
+                "id": 241,
+                "name": "Scarafeuille Blanc",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/241.png"
+              },
+              {
+                "id": 798,
+                "name": "Scarafeuille Immature",
+                "level": 30,
+                "imageUrl": "/bestiary/monsters/798.png"
+              },
+              {
+                "id": 795,
+                "name": "Scarafeuille Noir",
+                "level": 36,
+                "imageUrl": "/bestiary/monsters/795.png"
+              },
+              {
+                "id": 194,
+                "name": "Scarafeuille Rouge",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/194.png"
+              },
+              {
+                "id": 240,
+                "name": "Scarafeuille Vert",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/240.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:72",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/les-sbires-du-maitre.html",
+      "sourceTitle": "Les sbires du maître",
+      "sourceHash": "7c10eda9882de09ddfc4382dd7b1a19975b0d440cb5650952c88bd9090327f17",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Hönger Lébaï vous envoie prêter main-forte à la scierie d'Albuera. Après avoir rencontré le médecin Judeau Keuter puis la contremaître Bryra Borouié, vous devez nettoyer trois tas de sciure avec un balai équipé, dont l'un déclenche un combat. Vous récupérez ensuite des planches à livrer à Ragnar Tisan avant de retourner auprès de Hönger Lébaï pour achever ce premier travail sur l'archipel.",
+      "recommendedLevel": 50,
+      "prerequisites": [],
+      "rewards": [
+        "203 765 XP.",
+        "3 480 Kamas.",
+        "3 x Plume de thomondor."
+      ],
+      "preparation": [
+        "Prévoir 1 combat réalisable en groupe.",
+        "Prévoir un emplacement d'arme permettant d'équiper le Balai rudimentaire pendant le nettoyage de la scierie."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Hönger Lébaï et choisissez « Tiquer avant d'acquiescer » pour accepter le travail à la scierie.",
+          "position": "[38,-77]",
+          "zoneHint": "Nouvelle Albuera",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Devant la scierie, parlez à Judeau Keuter. Lorsque vous expliquez vos motivations, choisissez « Répondre que vous êtes à la recherche de quelques kamas contre du travail honnête » ; l'autre choix proposé fonctionne également.",
+          "position": "[39,-80]",
+          "zoneHint": "Scierie d'Albuera",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la scierie et parlez à Bryra Borouié. Acceptez de commencer le nettoyage avec « Se mettre au travail sans tarder ».",
+          "position": "[39,-80]",
+          "zoneHint": "Scierie d'Albuera",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez le Balai rudimentaire posé contre le trio de troncs au centre de l'atelier puis équipez-le à la place de votre arme de corps à corps.",
+          "position": "[39,-80]",
+          "zoneHint": "Scierie d'Albuera",
+          "warning": "Le balai doit être équipé pour pouvoir nettoyer les tas de sciure et sert aussi à achever les ennemis du combat.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez sur le tas de sciures situé en bas à gauche de l'atelier pour le balayer.",
+          "position": "[39,-80]",
+          "zoneHint": "Scierie d'Albuera",
+          "warning": "Gardez le Balai rudimentaire équipé.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez sur le tas de sciures situé en haut à droite de l'atelier.",
+          "position": "[39,-80]",
+          "zoneHint": "Scierie d'Albuera",
+          "warning": "Gardez le Balai rudimentaire équipé.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez sur le tas de sciures situé en haut à gauche. Cette interaction lance un combat contre 3 Tas de sciure d'environ 500 PV chacun. Réduisez-les à 1 PV avec vos sorts, puis terminez-les avec une attaque d'arme.",
+          "position": "[39,-80]",
+          "zoneHint": "Scierie d'Albuera",
+          "warning": "Combat réalisable en groupe. À 1 PV, chaque Tas de sciure obtient 100 % de Résistance aux sorts pour le reste du combat : il faut donc l'achever avec une arme de corps à corps, notamment le balai s'il est toujours équipé.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Une fois les trois tas nettoyés, reparlez à Bryra Borouié et acceptez de livrer les planches avec « Partir livrer les planches sans trop rechigner ».",
+          "position": "[39,-80]",
+          "zoneHint": "Scierie d'Albuera",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez sur le tas de planches situé à gauche dans l'atelier pour récupérer les planches en bois de pin.",
+          "position": "[39,-80]",
+          "zoneHint": "Scierie d'Albuera",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Remettez les planches à Ragnar Tisan.",
+          "position": "[36,-77]",
+          "zoneHint": "Nouvelle Albuera",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Hönger Lébaï, puis saluez Thorbjarn en choisissant « Saluer le colosse en vous inclinant bien bas » pour conclure la quête.",
+          "position": "[38,-77]",
+          "zoneHint": "Nouvelle Albuera",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les deux réponses proposées à Judeau Keuter concernant vos motivations permettent de poursuivre la quête.",
+        "Lors du combat, les Tas de sciure lancent Salissure au début du combat, ce qui fixe leur seuil à 1 PV ; une fois ce seuil atteint, ils deviennent résistants aux sorts.",
+        "La quête débloque Colonie de vaillance en parlant à Thorbjarn."
+      ],
+      "npcs": [
+        "Hönger Lébaï",
+        "Judeau Keuter",
+        "Bryra Borouié",
+        "Ragnar Tisan",
+        "Thorbjarn"
+      ],
+      "items": [
+        {
+          "name": "Balai rudimentaire",
+          "itemId": 27645,
+          "imageUrl": "/items/27645.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/27645"
+        },
+        {
+          "name": "Planches en bois de pin",
+          "itemId": 27501,
+          "imageUrl": "/items/27501.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/27501"
+        },
+        {
+          "name": "Plume de thomondor",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 1026,
+            "name": "Futaie enneigée",
+            "coordinates": [
+              "39,-80"
+            ]
+          },
+          {
+            "id": 1024,
+            "name": "Nouvelle Albuera",
+            "coordinates": [
+              "38,-77",
+              "36,-77"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 5910,
+            "name": "Rebelles de la Futaie",
+            "monsters": [
+              {
+                "id": 7192,
+                "name": "Timongouste",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7192.png"
+              },
+              {
+                "id": 7193,
+                "name": "Thomondor",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7193.png"
+              },
+              {
+                "id": 7194,
+                "name": "Buffalourd",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7194.png"
+              },
+              {
+                "id": 7195,
+                "name": "Grolours",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7195.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1421",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/dis-scierie.html",
+      "sourceTitle": "Dis, scierie ?",
+      "sourceHash": "963de61d8ba394030658277dda8d09aefb3e7e5506ce04bfd94e10b2660f9770",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après Dis, scierie ?, Thorbjarn vous charge de repousser des Thomondors qui empêchent l'exploitation de la carrière d'Albuera. Deux combats de groupe sont nécessaires, puis vous devez rencontrer le barde Beauraim D'Or-Ange et terminer la soirée à la taverne avec Thorbjarn. La quête coûte au total 120 kamas pour commander les deux pintes demandées.",
+      "recommendedLevel": 50,
+      "prerequisites": [
+        "Avoir terminé la quête Dis, scierie ?."
+      ],
+      "rewards": [
+        "203 765 XP.",
+        "3 480 Kamas.",
+        "3 x Fourrure de timongouste."
+      ],
+      "preparation": [
+        "Prévoir 2 combats réalisables en groupe.",
+        "Prévoir 120 kamas pour commander deux pintes à la taverne."
+      ],
+      "actions": [
+        {
+          "instruction": "À la suite de Dis, scierie ?, parlez à Thorbjarn pour accepter d'aller repousser les Thomondors de la carrière.",
+          "position": "[38,-77]",
+          "zoneHint": "Nouvelle Albuera",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Leichäf Odäg, le contremaître de la carrière, afin de recevoir les consignes pour faire fuir les Thomondors sans les tuer.",
+          "position": "[34,-81]",
+          "zoneHint": "Carrière d'Albuera",
+          "warning": "L'objectif est de repousser les oiseaux, même si la progression passe par des combats.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Thomondor pâle et choisissez « Effrayer les thomondors pour les faire fuir de la carrière » pour lancer le premier combat.",
+          "position": "[36,-81]",
+          "zoneHint": "Carrière d'Albuera",
+          "warning": "Combat réalisable en groupe ; la quête se met à jour pour tous les participants concernés.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire, parlez au Thomondor blafard et choisissez « Engager le combat contre les thomondors » pour lancer le second affrontement.",
+          "position": "[36,-82]",
+          "zoneHint": "Carrière d'Albuera",
+          "warning": "Combat réalisable en groupe ; la quête se met à jour pour tous les participants concernés.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez voir Leichäf Odäg pour lui confirmer que les Thomondors ont été chassés de la carrière.",
+          "position": "[34,-81]",
+          "zoneHint": "Carrière d'Albuera",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Thorbjarn et acceptez son invitation à boire une pinte avec « Répondre que vous acceptez avec plaisir ».",
+          "position": "[36,-77]",
+          "zoneHint": "Nouvelle Albuera",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sur la place des Contes et Légendes, parlez à Beauraim D'Or-Ange et choisissez « Lancer un kama aux pieds du ménestrel ».",
+          "position": "[37,-78]",
+          "zoneHint": "Place des Contes et Légendes",
+          "warning": "Le kama lancé au barde fait partie du déroulement de la quête, mais la source ne détaille pas séparément cette dépense par rapport aux 120 kamas annoncés à prévoir.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Poursuivez le dialogue avec Beauraim D'Or-Ange. Après la première chanson, vous pouvez indiquer que vous connaissez ou non les paroles ; les deux choix fonctionnent. Demandez-lui ensuite de chanter à nouveau, puis répondez qu'après réflexion vous n'avez pas compris grand-chose.",
+          "position": "[37,-78]",
+          "zoneHint": "Place des Contes et Légendes",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la taverne d'Albuera et commandez deux pintes auprès d'Arvid Tachöp pour 120 kamas.",
+          "position": "[38,-78]",
+          "zoneHint": "Taverne d'Albuera",
+          "warning": "Dépense obligatoire de 120 kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Thorbjarn, offrez-lui une chope d'hydromiel et poursuivez la conversation. Le choix concernant sa blague n'a pas d'effet sur la progression.",
+          "position": "[38,-78]",
+          "zoneHint": "Taverne d'Albuera",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les Thomondors disposent notamment d'attaques air et feu, de poussées, d'attirances, de soins et de bonus de PM.",
+        "La première rencontre avec les Thomondors et la seconde peuvent être faites en groupe.",
+        "La quête débloque Dans la gueule du Trankilou."
+      ],
+      "npcs": [
+        "Thorbjarn",
+        "Leichäf Odäg",
+        "Thomondor pâle",
+        "Thomondor blafard",
+        "Beauraim D'Or-Ange",
+        "Arvid Tachöp"
+      ],
+      "items": [
+        {
+          "name": "Fourrure de timongouste",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Chope d'hydromiel",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 1026,
+            "name": "Futaie enneigée",
+            "coordinates": [
+              "34,-81",
+              "36,-81",
+              "36,-82"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "37,-78"
+            ]
+          },
+          {
+            "id": 1024,
+            "name": "Nouvelle Albuera",
+            "coordinates": [
+              "38,-77",
+              "36,-77"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "38,-78"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 5910,
+            "name": "Rebelles de la Futaie",
+            "monsters": [
+              {
+                "id": 7192,
+                "name": "Timongouste",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7192.png"
+              },
+              {
+                "id": 7193,
+                "name": "Thomondor",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7193.png"
+              },
+              {
+                "id": 7194,
+                "name": "Buffalourd",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7194.png"
+              },
+              {
+                "id": 7195,
+                "name": "Grolours",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7195.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1422",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/colonie-de-vaillance.html",
+      "sourceTitle": "Colonie de vaillance",
+      "sourceHash": "039f4fc80fddf49f2a4fc306b1c806e47fc7226ea314c0fc6ee38ba276beb7ce",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Regrouper les déplacements sur Valonia",
+      "description": "Les sbires du maître vous conduit au Refuge Sylvestre sur l'archipel de Valonia, tandis que Dis, scierie ? se déroule à Nouvelle Albuera. Si les deux quêtes sont disponibles, profitez du même séjour sur l'archipel pour avancer ces objectifs avant de retourner sur le continent.",
+      "questKeys": [
+        "quest:72",
+        "quest:1421"
+      ],
+      "actions": [
+        "Lors de l'étape du Refuge Sylvestre de Les sbires du maître, restez sur l'archipel après le donjon au lieu de repartir immédiatement si Dis, scierie ? est disponible.",
+        "Rendez-vous ensuite à Nouvelle Albuera en [38,-77] pour avancer Dis, scierie ?, puis reprenez le parcours de Les sbires du maître avec le retour auprès de Pat Akess en [5,0]."
+      ]
+    }
+  ]
 }

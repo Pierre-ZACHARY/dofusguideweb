@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 43,
-  "updatedAt": "2026-08-27T12:54:00.498Z",
+  "updatedAt": "2026-08-27T13:32:16.746Z",
   "summaries": [
     {
       "overview": "Icar Mélite souhaite obtenir des ailes de Scarafeuilles en parfait état. Il faut combattre les quatre couleurs de Scarafeuilles dans la Plaine des Scarafeuilles, récupérer 5 ailes intactes de chaque couleur, puis revenir les lui remettre.",
@@ -430,8 +430,8 @@
         "quest:644"
       ],
       "actions": [
-        "Lancer quest:644 auprès de Jemas Kooc en [16,25] en choisissant de traquer les Scarafeuilles.",
-        "Lancer quest:1065 auprès de Icar Mélite en [0,24].",
+        "Lancer Pattes aux oeufs frais auprès de Jemas Kooc en [16,25] en choisissant de traquer les Scarafeuilles.",
+        "Lancer Vol au-dessus d'un coucou auprès de Icar Mélite en [0,24].",
         "Dans la Plaine des Scarafeuilles, poursuivre les combats jusqu'à avoir 5 œufs et 5 ailes intactes de chacune des quatre couleurs.",
         "Rendre ensuite chaque quête à son PNJ respectif."
       ]

@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 22,
-  "updatedAt": "2026-08-27T12:53:57.690Z",
+  "updatedAt": "2026-08-27T13:32:12.365Z",
   "summaries": [
     {
       "overview": "Aidez Vaiguy dans les Champs d'Astrub en éliminant plusieurs plantes pour récupérer automatiquement leurs objets de quête, puis défendez-la contre la Poupée Champêtre et les plantes qui l'accompagnent. La récompense comprend notamment une Clef des Champs.",
@@ -384,9 +384,9 @@
         "quest:1223"
       ],
       "actions": [
-        "Effectuer les combats de plantes de quest:1203 pendant votre passage dans les Champs d'Astrub.",
-        "Valider ensuite les étapes de quest:1203 auprès de Vaiguy en [5,-22].",
-        "Rejoindre [7,-24] pour lancer ou poursuivre quest:1223 et effectuer la Grange du Tournesol Affamé."
+        "Effectuer les combats de plantes de Déjeuner à la fourchette pendant votre passage dans les Champs d'Astrub.",
+        "Valider ensuite les étapes de Déjeuner à la fourchette auprès de Vaiguy en [5,-22].",
+        "Rejoindre [7,-24] pour lancer ou poursuivre [TDM] Le tour du monde et effectuer la Grange du Tournesol Affamé."
       ]
     }
   ]

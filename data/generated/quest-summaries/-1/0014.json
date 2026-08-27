@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 14,
-  "updatedAt": "2026-08-27T12:53:56.251Z",
+  "updatedAt": "2026-08-27T13:32:10.634Z",
   "summaries": [
     {
       "overview": "Vermô vous charge de réunir des Rabmablagues afin d'obtenir l'attitude Facepaume. Après avoir interrogé Kerubim Crépin, vous devrez récupérer les 8 blagues de chacune des 6 variétés de Barres Rabmarac, soit 48 blagues différentes, puis les rapporter au Sanctuaire de l'Almanax. Les barres ordinaires proviennent des monstres du Monde des Douze et les Nougat des boss de donjon.",
@@ -1695,9 +1695,9 @@
         "quest:1197"
       ],
       "actions": [
-        "Pour quest:656, monter au premier étage et récupérer le balai contre le mur lorsque l'enquête sur Essiac d'Engrape vous y envoie.",
-        "Pour quest:474, acheter 1 x Bière d'Astrub à Tek Abir pour 40 kamas si nécessaire, puis la donner à Acidrik Fenlapanse.",
-        "Pour quest:1197, interroger Tek Abir sur la personne correspondant à la description de Maître Larry Heux."
+        "Pour Scène de ménage, monter au premier étage et récupérer le balai contre le mur lorsque l'enquête sur Essiac d'Engrape vous y envoie.",
+        "Pour Attention à la Bête !, acheter 1 x Bière d'Astrub à Tek Abir pour 40 kamas si nécessaire, puis la donner à Acidrik Fenlapanse.",
+        "Pour Ça tombe à l'eau, interroger Tek Abir sur la personne correspondant à la description de Maître Larry Heux."
       ]
     }
   ]

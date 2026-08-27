@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { readdir } from "node:fs/promises";
-import { loadQuestGuideSummaries } from "../../src/questGuides/resolveQuestGuides.js";
+import { loadQuestGuideStepArchive, loadQuestGuideSummaries } from "../../src/questGuides/resolveQuestGuides.js";
 
 describe("versioned quest guide summaries", () => {
   it("ships AI tutorials and their bestiary enrichment with the application", async () => {
@@ -17,5 +17,18 @@ describe("versioned quest guide summaries", () => {
           || bestiary.archmonsters.length > 0
           || bestiary.achievements.some((achievement) => achievement.monsters.length > 0));
     })).toBe(true);
+
+    const technicalTipReferences: string[] = [];
+    for (const stepFile of stepFiles) {
+      const stepNumber = Number.parseInt(stepFile, 10);
+      const archive = await loadQuestGuideStepArchive(-1, stepNumber);
+      for (const [tipIndex, tip] of (archive?.tips ?? []).entries()) {
+        const prose = [tip.title, tip.description, ...tip.actions];
+        if (prose.some((value) => /\bquest:\d+\b/u.test(value))) {
+          technicalTipReferences.push(stepFile + "#tip-" + tipIndex);
+        }
+      }
+    }
+    expect(technicalTipReferences).toEqual([]);
   });
 });

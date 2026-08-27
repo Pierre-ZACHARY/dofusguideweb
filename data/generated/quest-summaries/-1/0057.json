@@ -2,7 +2,455 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 57,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-27T14:09:31.013Z",
+  "summaries": [
+    {
+      "overview": "Alain Deix vous envoie interroger le Kanniboul Ebil sur la magie du Moon. Après avoir accepté la mission dans la taverne d'Amakna, rejoignez l'île de Moon, terminez le donjon Village Kanniboul et battez le Kanniboul Ebil, puis revenez faire votre rapport à Alain Deix.",
+      "recommendedLevel": 40,
+      "prerequisites": [
+        "Être de niveau supérieur à 39.",
+        "Avoir terminé Entre quatre blops.",
+        "Avoir terminé Partir un jour sans retour afin de pouvoir accéder à l'île de Moon par le canon."
+      ],
+      "rewards": [
+        "732 110 XP.",
+        "11 472 kamas.",
+        "1 x Cagoule du Kanniboul Ebil."
+      ],
+      "preparation": [
+        "Prévoir 1 x Donjon Village Kanniboul.",
+        "Alain Deix fournit une clef du donjon ; si le trousseau de clef est disponible, il est préférable de l'utiliser à la place."
+      ],
+      "actions": [
+        {
+          "instruction": "Dans la taverne d'Amakna, prenez l'entrée du milieu puis la salle de gauche et parlez à Alain Deix. Acceptez d'aller rencontrer le Kanniboul Ebil pour chercher des informations sur le maître de l'île de Moon.",
+          "position": "[2,-1]",
+          "zoneHint": "Village d'Amakna",
+          "warning": "La suite exige l'accès à l'île de Moon : Partir un jour sans retour doit être terminée pour pouvoir prendre le canon.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à l'entrée du Village Kanniboul et effectuez le donjon Village Kanniboul jusqu'au Kanniboul Ebil.",
+          "position": "[29,9]",
+          "zoneHint": "Village Kanniboul",
+          "warning": "Un donjon est nécessaire. Alain Deix vous a donné une clef, mais vous pouvez utiliser le trousseau de clef s'il est disponible.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Vainquez le Kanniboul Ebil afin de poursuivre l'enquête sur la magie du Moon.",
+          "position": "[29,9]",
+          "zoneHint": "Village Kanniboul",
+          "warning": "Combat de boss du donjon Village Kanniboul.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez dans la taverne d'Amakna auprès d'Alain Deix et expliquez-lui que le Kanniboul Ebil ne vous a pas permis d'obtenir davantage d'informations sur la magie du Moon. La quête se termine à cet instant.",
+          "position": "[2,-1]",
+          "zoneHint": "Village d'Amakna",
+          "warning": "Continuer ensuite la discussion avec Alain Deix permet de lancer la quête suivante, Le Wa Pythie ; ce lancement n'est pas nécessaire pour terminer Un Kanniboul versé.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête se termine au retour auprès d'Alain Deix après la victoire sur le Kanniboul Ebil."
+      ],
+      "npcs": [
+        "Alain Deix",
+        "Kanniboul Ebil"
+      ],
+      "items": [
+        {
+          "name": "Clef du donjon Village Kanniboul",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Cagoule du Kanniboul Ebil",
+          "itemId": 11696,
+          "imageUrl": "/items/11696.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11696"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "2,-1"
+            ]
+          },
+          {
+            "id": 700,
+            "name": "Village Kanniboul",
+            "coordinates": [
+              "29,9"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 168,
+            "name": "Kannibouls",
+            "monsters": [
+              {
+                "id": 211,
+                "name": "Kanniboul Ark",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/211.png"
+              },
+              {
+                "id": 213,
+                "name": "Kanniboul Jav",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/213.png"
+              },
+              {
+                "id": 214,
+                "name": "Kanniboul Sarbak",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/214.png"
+              },
+              {
+                "id": 212,
+                "name": "Kanniboul Eth",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/212.png"
+              },
+              {
+                "id": 4151,
+                "name": "Kanniboul Tam",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/4151.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:606",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/un-kanniboul-verseacute.html",
+      "sourceTitle": "Un Kanniboul versé",
+      "sourceHash": "05416dd3a69fb57fd5997cfb5d245726a1a553d4c03176936d725153b884497d",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Cette étape correspond à la fin de Le Tabi d'Amayiro, commencée à l'étape précédente. Il faut obtenir une Huile de Blop Royal dans le Clos des Blops et fabriquer une Bouillie de Fleurs de Blop avec les quatre Bouts de Blop demandés, puis remettre les deux objets à Amayiro à la milice de Bonta.",
+      "recommendedLevel": 49,
+      "prerequisites": [
+        "Avoir terminé La foire du Trool suspectée.",
+        "Avoir lancé Le Tabi d'Amayiro auprès d'Amayiro à l'étape précédente."
+      ],
+      "rewards": [
+        "690 595 XP."
+      ],
+      "preparation": [
+        "Prévoir 1 x Donjon Clos des blops.",
+        "Prévoir 1 x Bout de Blop Griotte.",
+        "Prévoir 1 x Bout de Blop Coco.",
+        "Prévoir 1 x Bout de Blop Indigo.",
+        "Prévoir 1 x Bout de Blop Reinette."
+      ],
+      "actions": [
+        {
+          "instruction": "Effectuez le donjon Clos des Blops et affrontez l'un des quatre Blops Royal. L'Huile de Blop Royal est obtenue automatiquement pendant ce combat.",
+          "position": "[-7,-43]",
+          "zoneHint": "Clos des Blops",
+          "warning": "Un donjon et un combat contre l'un des quatre Blops Royal sont nécessaires pour obtenir automatiquement l'Huile de Blop Royal.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "À l'atelier des forgemages, utilisez le Concasseur avec l'option « Fusionner des ressources » pour fabriquer 1 x Bouillie de Fleurs de Blop avec 1 x Bout de Blop Reinette, 1 x Bout de Blop Coco, 1 x Bout de Blop Griotte et 1 x Bout de Blop Indigo.",
+          "position": "[-29,-57]",
+          "zoneHint": null,
+          "warning": "La fabrication consomme les quatre Bouts de Blop, un de chaque type indiqué.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez à la milice de Bonta et donnez à Amayiro 1 x Bouillie de Fleurs de Blop et 1 x Huile de Blop Royal pour terminer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": "La remise des deux objets termine Le Tabi d'Amayiro et débloque la quête d'alignement suivante, Le fantôme de Tsog.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le fantôme de Tsog ne doit être commencé qu'après avoir terminé cette remise à Amayiro."
+      ],
+      "npcs": [
+        "Amayiro"
+      ],
+      "items": [
+        {
+          "name": "Huile de Blop Royal",
+          "itemId": 16356,
+          "imageUrl": "/items/16356.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16356"
+        },
+        {
+          "name": "Bouillie de Fleurs de Blop",
+          "itemId": 1882,
+          "imageUrl": "/items/1882.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1882"
+        },
+        {
+          "name": "Bout de Blop Reinette",
+          "itemId": 1773,
+          "imageUrl": "/items/1773.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1773"
+        },
+        {
+          "name": "Bout de Blop Coco",
+          "itemId": 1770,
+          "imageUrl": "/items/1770.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1770"
+        },
+        {
+          "name": "Bout de Blop Griotte",
+          "itemId": 1775,
+          "imageUrl": "/items/1775.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1775"
+        },
+        {
+          "name": "Bout de Blop Indigo",
+          "itemId": 1777,
+          "imageUrl": "/items/1777.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1777"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 493,
+            "name": "Clos des Blops",
+            "coordinates": [
+              "-7,-43"
+            ]
+          },
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-29,-57"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 210,
+            "name": "Blops",
+            "monsters": [
+              {
+                "id": 273,
+                "name": "Blop Coco",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/273.png"
+              },
+              {
+                "id": 275,
+                "name": "Blop Griotte",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/275.png"
+              },
+              {
+                "id": 274,
+                "name": "Blop Indigo",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/274.png"
+              },
+              {
+                "id": 276,
+                "name": "Blop Reinette",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/276.png"
+              },
+              {
+                "id": 1182,
+                "name": "Blopignon",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/1182.png"
+              },
+              {
+                "id": 1181,
+                "name": "Gloutoblop",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/1181.png"
+              },
+              {
+                "id": 1183,
+                "name": "Tronkoblop",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/1183.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:21",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-tabi-damayiro.html",
+      "sourceTitle": "Alignement 19 : Le Tabi d'Amayiro",
+      "sourceHash": "c54b7fb68f3865aec1add801b2c8ef6155bfd4476b1d9a73673b5afd14fef148",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

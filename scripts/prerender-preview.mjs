@@ -1,12 +1,20 @@
 import http from "node:http";
 
+// Nitro's Vite adapter proxies to `localhost`. Listen on the IPv6 wildcard so
+// both ::1 and 127.0.0.1 reach the child server on Windows and buildx/QEMU.
+process.env.HOST ??= "::";
+process.env.NITRO_HOST ??= "::";
+
 const originalEmit = http.Server.prototype.emit;
 let activeRequests = 0;
 let idleTimer;
 
 function scheduleExit() {
   clearTimeout(idleTimer);
-  idleTimer = setTimeout(() => process.exit(0), 2_000);
+  // TanStack's startup probes wait 10 seconds after an expected failure. Keep
+  // Nitro alive across that gap; otherwise Vite keeps proxying to a child that
+  // exited successfully and every following prerender request returns 500.
+  idleTimer = setTimeout(() => process.exit(0), 15_000);
 }
 
 http.Server.prototype.emit = function emit(event, ...args) {

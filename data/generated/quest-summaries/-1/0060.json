@@ -2,7 +2,479 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 60,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-27T14:09:34.129Z",
+  "summaries": [
+    {
+      "overview": "Hönger Lébaï vous charge de relever trois pièges à Trankilou dans la forêt d'Albuera. Après deux pièges vides, le troisième mène sur la piste d'un animal blessé et jusqu'à une cache souterraine où Rakoopeur soigne Bentlaitue. La rencontre dégénère en combat contre les animaux de la forêt. Après la victoire, vous découvrez un plan du barrage d'Albuera puis retournez prévenir Hönger et Thorbjarn. L'arrivée d'Aster Bou révèle qu'une attaque vient justement d'avoir lieu au barrage.",
+      "recommendedLevel": 50,
+      "prerequisites": [
+        "Colonie de vaillance."
+      ],
+      "rewards": [
+        "203 765 XP.",
+        "3 480 Kamas.",
+        "3 x Corne de buffalourd."
+      ],
+      "preparation": [
+        "Prévoir 1 combat réalisable en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Hönger Lébaï pour accepter de relever les pièges à Trankilou du trappeur malade.",
+          "position": "[38,-77]",
+          "zoneHint": "Nouvelle Albuera",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez sur le piège au sol au pied du tronc en bas à gauche. Il est vide.",
+          "position": "[37,-79]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Vérifiez le piège placé au pied du sapin de gauche dans la neige. Il est également vide.",
+          "position": "[39,-81]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Après avoir contrôlé les deux premiers pièges, examinez les traces de griffes sur l'arbre au centre de la zone. Le piège a disparu et les traces indiquent qu'un animal s'est débattu avant de fuir.",
+          "position": "[37,-82]",
+          "zoneHint": null,
+          "warning": "Cette étape n'est disponible qu'après avoir vérifié les deux premiers pièges.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Suivez la piste jusqu'à cette position puis empruntez la trappe cachée au centre de la zone.",
+          "position": "[38,-83]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la cache souterraine, parlez à Rakoopeur, qui tente de soigner Bentlaitue. Essayez de l'apaiser en lui expliquant que la situation doit changer dans l'intérêt des deux camps. Les deux choix proposés permettent de poursuivre.",
+          "position": null,
+          "zoneHint": "Cache souterraine",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Trankilou furieux et choisissez de vous défendre face à la menace animale.",
+          "position": null,
+          "zoneHint": "Cache souterraine",
+          "warning": "Le combat peut être réalisé en groupe. La zone de combat est signalée comme instanciée et il semble que seuls les personnages au même niveau de quête puissent rejoindre.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat et la disparition de Rakoopeur et Bentlaitue, cliquez sur le parchemin situé sous la tente pour découvrir qu'il s'agit d'un plan du barrage d'Albuera.",
+          "position": null,
+          "zoneHint": "Cache souterraine",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Hönger Lébaï et racontez-lui la rencontre, le combat et la découverte du plan du barrage.",
+          "position": "[36,-77]",
+          "zoneHint": "Nouvelle Albuera",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Thorbjarn et montrez-lui les plans. Il explique qu'ils pourraient permettre de saboter le barrage et mettre toute la colonie en danger.",
+          "position": "[36,-77]",
+          "zoneHint": "Nouvelle Albuera",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Écoutez l'arrivée d'Aster Bou puis l'interrogatoire mené par Thorbjarn. Aster Bou explique que trois ouvriers ont été attaqués par surprise par une douzaine de bêtes au barrage.",
+          "position": "[36,-77]",
+          "zoneHint": "Nouvelle Albuera",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le dernier piège en [37,-82] ne peut être examiné qu'après les deux premiers.",
+        "Pendant le combat, plusieurs attaques appliquent des malus de Résistance élémentaire cumulables entre la cible et le lanceur.",
+        "La fin de la quête débloque Association de fureteurs."
+      ],
+      "npcs": [
+        "Hönger Lébaï",
+        "Rakoopeur",
+        "Bentlaitue",
+        "Trankilou furieux",
+        "Thorbjarn",
+        "Aster Bou"
+      ],
+      "items": [
+        {
+          "name": "Plan du barrage d'Albuera",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Corne de buffalourd",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 1026,
+            "name": "Futaie enneigée",
+            "coordinates": [
+              "37,-79",
+              "38,-83"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "39,-81"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "37,-82"
+            ]
+          },
+          {
+            "id": 1024,
+            "name": "Nouvelle Albuera",
+            "coordinates": [
+              "38,-77",
+              "36,-77"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 5910,
+            "name": "Rebelles de la Futaie",
+            "monsters": [
+              {
+                "id": 7192,
+                "name": "Timongouste",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7192.png"
+              },
+              {
+                "id": 7193,
+                "name": "Thomondor",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7193.png"
+              },
+              {
+                "id": 7194,
+                "name": "Buffalourd",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7194.png"
+              },
+              {
+                "id": 7195,
+                "name": "Grolours",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7195.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1423",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/dans-la-gueule-du-trankilou.html",
+      "sourceTitle": "Dans la gueule du Trankilou",
+      "sourceHash": "77f6f7131a32defeb334e30813a2c33df83261a78e6bd2048ee644f0fa3a5624",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après l'attaque du barrage, Thorbjarn vous demande d'assister Judeau Keuter et les ouvriers blessés. Vous constatez que le barrage a été saboté et récupérez en urgence de la kole Onialiste auprès de Leichäf Odäg afin de le consolider. Thorbjarn vous envoie ensuite parlementer avec Rakoopeur au Refuge Sylvestre, ce qui impose de vaincre le boss du donjon. Rakoopeur nie être responsable du sabotage et propose un échange : soigner Bentlaitue contre des informations sur des réunions secrètes d'Albuerans. Après les soins, Bentlaitue accepte de vous conduire vers leur lieu de rendez-vous.",
+      "recommendedLevel": 50,
+      "prerequisites": [
+        "Dans la gueule du Trankilou."
+      ],
+      "rewards": [
+        "407 531 XP.",
+        "6 960 Kamas.",
+        "5 x Croc de trankilou."
+      ],
+      "preparation": [
+        "Prévoir 1 Donjon Refuge Sylvestre.",
+        "Prévoir éventuellement 100 kamas pour utiliser deux fois le transport rapide d'Edmön Taägnard, à raison de 50 kamas par trajet."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Thorbjarn. Il vous demande de trouver Judeau Keuter, de le conduire au barrage et de le protéger pendant qu'il soigne les blessés.",
+          "position": "[36,-77]",
+          "zoneHint": "Nouvelle Albuera",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Prévenez Judeau Keuter de l'attaque. Il part immédiatement vers le barrage.",
+          "position": "[36,-78]",
+          "zoneHint": "Nouvelle Albuera",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez Judeau Keuter sur le lieu de l'attaque. Un trajet rapide consiste à rejoindre Edmön Taägnard en [37,-77], qui peut vous téléporter en [34,-83] contre 50 kamas, puis à aller à droite.",
+          "position": "[35,-83]",
+          "zoneHint": null,
+          "warning": "Le transport rapide proposé par Edmön Taägnard coûte 50 kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Bjarni Amblok, qui explique avoir été assommé par les nombreux assaillants.",
+          "position": "[35,-83]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Arfinn Hékipe. Il révèle que les assaillants ont aussi endommagé le barrage et craint sa rupture.",
+          "position": "[35,-83]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Examinez les rondins soutenant le barrage afin de constater qu'ils ont été abîmés à leur base.",
+          "position": "[35,-83]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparlez à Bjarni Amblok. Il explique que le barrage doit être consolidé avec de la kole et vous oriente vers Leichäf Odäg.",
+          "position": "[35,-83]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Demandez de la kole en urgence à Leichäf Odäg. Il vous remet un baril de kole Onialiste.",
+          "position": "[34,-81]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez au barrage et cliquez sur les rondins pour les consolider avec la kole Onialiste.",
+          "position": "[35,-83]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Judeau Keuter. Il reste soigner les ouvriers et vous confie un baume régénérant destiné à Aster Bou.",
+          "position": "[35,-83]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Thorbjarn et résumez la situation. Pour un trajet rapide, passez par Edmön Taägnard en [34,-83], qui vous téléporte en [37,-77] contre 50 kamas, puis allez à gauche.",
+          "position": "[36,-77]",
+          "zoneHint": "Nouvelle Albuera",
+          "warning": "Le transport rapide proposé par Edmön Taägnard coûte 50 kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Écoutez Thorbjarn expliquer que les attaques des rebelles de la futaie deviennent plus violentes. Il vous demande ensuite d'aller parlementer avec Rakoopeur.",
+          "position": "[36,-77]",
+          "zoneHint": "Nouvelle Albuera",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au Refuge Sylvestre et vainquez Rakoopeur dans le donjon.",
+          "position": "[40,-84]",
+          "zoneHint": "Refuge Sylvestre",
+          "warning": "Le passage par le Donjon Refuge Sylvestre est obligatoire. Une sauvegarde directement au boss met bien la quête à jour.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après sa défaite, accusez Rakoopeur d'avoir organisé le sabotage. Il nie et explique qu'une rupture du barrage détruirait aussi l'habitat souterrain de ses semblables.",
+          "position": "[40,-84]",
+          "zoneHint": "Refuge Sylvestre",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Acceptez le marché de Rakoopeur : soigner Bentlaitue en échange d'informations. Utilisez le baume régénérant que vous n'avez pas pu remettre à Aster Bou.",
+          "position": "[40,-84]",
+          "zoneHint": "Refuge Sylvestre",
+          "warning": "Le baume régénérant confié auparavant par Judeau Keuter est utilisé ici pour soigner Bentlaitue.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Bentlaitue et appliquez le baume sur sa cheville blessée.",
+          "position": "[40,-84]",
+          "zoneHint": "Refuge Sylvestre",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Rakoopeur. Il révèle qu'un petit groupe d'Albuerans tient des réunions secrètes sur les hauteurs de l'île et emprunte un passage dérobé.",
+          "position": "[40,-84]",
+          "zoneHint": "Refuge Sylvestre",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Bentlaitue, désormais rétabli. Pour vous remercier, il propose de vous accompagner jusqu'au lieu de rendez-vous secret des Albuerans suspects.",
+          "position": "[40,-84]",
+          "zoneHint": "Refuge Sylvestre",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparlez à Rakoopeur pour achever la quête et poursuivre la discussion qui débloque La complote des P.O.M.S.",
+          "position": "[40,-84]",
+          "zoneHint": "Refuge Sylvestre",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les deux occurrences START et FINISH de la source correspondent à la même quête quest:1424 et au même contenu.",
+        "Le passage par le Refuge Sylvestre intervient après la réparation provisoire du barrage et le retour auprès de Thorbjarn.",
+        "La fin de la quête débloque La complote des P.O.M.S."
+      ],
+      "npcs": [
+        "Thorbjarn",
+        "Judeau Keuter",
+        "Bjarni Amblok",
+        "Arfinn Hékipe",
+        "Leichäf Odäg",
+        "Edmön Taägnard",
+        "Aster Bou",
+        "Rakoopeur",
+        "Bentlaitue"
+      ],
+      "items": [
+        {
+          "name": "Baril de kole Onialiste",
+          "itemId": 27506,
+          "imageUrl": "/items/27506.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/27506"
+        },
+        {
+          "name": "Baume régénérant",
+          "itemId": 27505,
+          "imageUrl": "/items/27505.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/27505"
+        },
+        {
+          "name": "Croc de trankilou",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 1023,
+            "name": "Ancienne Albuera",
+            "coordinates": [
+              "34,-83"
+            ]
+          },
+          {
+            "id": 1026,
+            "name": "Futaie enneigée",
+            "coordinates": [
+              "35,-83",
+              "34,-81"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "35,-83"
+            ]
+          },
+          {
+            "id": 1024,
+            "name": "Nouvelle Albuera",
+            "coordinates": [
+              "36,-77",
+              "36,-78",
+              "37,-77",
+              "34,-83"
+            ]
+          },
+          {
+            "id": 1022,
+            "name": "Refuge sylvestre",
+            "coordinates": [
+              "40,-84"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 5910,
+            "name": "Rebelles de la Futaie",
+            "monsters": [
+              {
+                "id": 7192,
+                "name": "Timongouste",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7192.png"
+              },
+              {
+                "id": 7193,
+                "name": "Thomondor",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7193.png"
+              },
+              {
+                "id": 7194,
+                "name": "Buffalourd",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7194.png"
+              },
+              {
+                "id": 7195,
+                "name": "Grolours",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7195.png"
+              },
+              {
+                "id": 7196,
+                "name": "Trankilou",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7196.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1424",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/association-de-fureteurs.html",
+      "sourceTitle": "Association de fureteurs",
+      "sourceHash": "52577b7b9e80d24fa1a37f659d0f577d3f78e1b85bee8b92a073c518bed551cb",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

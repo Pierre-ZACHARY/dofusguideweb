@@ -2,7 +2,627 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 58,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-27T14:09:32.345Z",
+  "summaries": [
+    {
+      "overview": "Amayiro vous charge de contacter le fantôme du capitaine Tsog afin de récupérer les informations qu'il voulait transmettre avant sa mort. Après avoir localisé sa tombe dans le Cimetière des Héros et écouté son fantôme, vous devrez retrouver à Sufokia le coffre qu'il a dissimulé, en utilisant impérativement une Pelle de Boisaille équipée avant d'entrer sur la carte concernée, puis rapporter le coffre à Amayiro.",
+      "recommendedLevel": 50,
+      "prerequisites": [
+        "Avoir terminé Le Tabi d'Amayiro."
+      ],
+      "rewards": [
+        "362 568 XP.",
+        "Déblocage de l'Alignement 21 : Des anneaux sur le bout des doigts.",
+        "Déblocage de l'accès aux trois ordres de niveau 1 : Ordre du Coeur Vaillant, Ordre de l'Oeil Attentif et Ordre de l'Esprit Salvateur."
+      ],
+      "preparation": [
+        "Prévoir 1 x Pelle de Boisaille.",
+        "La Pelle de Boisaille peut être achetée ou fabriquée par un forgeron niveau 6 minimum avec 3 x Peau de Gloot et 3 x Bois de Frêne."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Amayiro dans la milice de Bonta pour commencer la quête et accepter de rechercher un moyen de contacter le capitaine Tsog.",
+          "position": "[-32,-57]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Demandez au Capitaine Alrok où Tsog a été enterré.",
+          "position": "[-31,-56]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à la tombe de Tsog, puis cliquez sur le caveau situé au centre pour descendre.",
+          "position": "[-21,-61]",
+          "zoneHint": "Cimetière des Héros",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans le caveau de Tsog, placez-vous exactement sur la même cellule que le fantôme de Tsog afin de pouvoir écouter ses paroles, puis parlez-lui pour obtenir les Paroles de Tsog et apprendre qu'un coffre est caché à Sufokia.",
+          "position": "[-21,-61]",
+          "zoneHint": "Caveau de Tsog",
+          "warning": "Il faut être placé exactement sur la cellule du fantôme pour pouvoir progresser.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Procurez-vous 1 x Pelle de Boisaille si vous ne l'avez pas encore, puis rendez-vous en [22,21] via le zaapi du Quai de la voie du temple.",
+          "position": "[22,21]",
+          "zoneHint": "Quai de la voie du temple",
+          "warning": "La Pelle de Boisaille doit être équipée à la place de votre arme avant d'arriver sur la carte contenant l'urne.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Depuis le zaapi, montez d'une carte, entrez dans le tunnel et avancez encore d'une carte.",
+          "position": null,
+          "zoneHint": "Tunnel",
+          "warning": "N'entrez pas sur la carte finale sans avoir déjà équipé la Pelle de Boisaille, sinon l'urne ne pourra pas être utilisée.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez sur l'urne pour récupérer le Coffre caché de Tsog.",
+          "position": null,
+          "zoneHint": "Tunnel",
+          "warning": "La Pelle de Boisaille doit avoir été équipée avant l'arrivée sur cette carte.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Amayiro et remettez-lui le Coffre caché de Tsog pour terminer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête suit directement Le Tabi d'Amayiro et précède Des anneaux sur le bout des doigts.",
+        "Les trois quêtes d'apprentissage d'ordre débloquées sont Apprentissage : Disciple de Ménalt, Apprentissage : Disciple de Silvosse et Apprentissage : Disciple de Jiva."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Capitaine Alrok",
+        "Tsog"
+      ],
+      "items": [
+        {
+          "name": "Pelle de Boisaille",
+          "itemId": 153,
+          "imageUrl": "/items/153.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/153"
+        },
+        {
+          "name": "Peau de Gloot",
+          "itemId": 16522,
+          "imageUrl": "/items/16522.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16522"
+        },
+        {
+          "name": "Bois de Frêne",
+          "itemId": 303,
+          "imageUrl": "/items/303.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/303"
+        },
+        {
+          "name": "Paroles de Tsog",
+          "itemId": 2121,
+          "imageUrl": "/items/2121.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2121"
+        },
+        {
+          "name": "Coffre caché de Tsog",
+          "itemId": 2040,
+          "imageUrl": "/items/2040.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2040"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 1119,
+            "name": "Bassin des Muldos",
+            "coordinates": [
+              "22,21"
+            ]
+          },
+          {
+            "id": 59,
+            "name": "Cimetière des Héros",
+            "coordinates": [
+              "-21,-61"
+            ]
+          },
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57",
+              "-31,-56"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2320,
+            "name": "Chafmarcel le Fêtard",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2320.png"
+          },
+          {
+            "id": 2422,
+            "name": "Chafrit le Barbare",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2422.png"
+          },
+          {
+            "id": 2322,
+            "name": "Chalan le Commerçant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2322.png"
+          },
+          {
+            "id": 2589,
+            "name": "Ougaould le Parasite",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2589.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 9048,
+            "name": "Chafers des cités",
+            "monsters": [
+              {
+                "id": 3239,
+                "name": "Chafer Draugr",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/3239.png"
+              },
+              {
+                "id": 291,
+                "name": "Chafer Archer",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/291.png"
+              },
+              {
+                "id": 292,
+                "name": "Chafer d'Élite",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/292.png"
+              },
+              {
+                "id": 290,
+                "name": "Chafer Lancier",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/290.png"
+              }
+            ]
+          },
+          {
+            "id": 9047,
+            "name": "Muldos sauvages",
+            "monsters": [
+              {
+                "id": 4438,
+                "name": "Muldo doré sauvage",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4438.png"
+              },
+              {
+                "id": 4434,
+                "name": "Muldo indigo sauvage",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4434.png"
+              },
+              {
+                "id": 4436,
+                "name": "Muldo orchidée sauvage",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4436.png"
+              },
+              {
+                "id": 4437,
+                "name": "Muldo pourpre sauvage",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4437.png"
+              },
+              {
+                "id": 4435,
+                "name": "Muldo ébène sauvage",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4435.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:22",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-fantocircme-de-tsog.html",
+      "sourceTitle": "Alignement 20 : Le fantôme de Tsog",
+      "sourceHash": "6cd13cb8dcda8e6b0908cc1d155a5c677e36693b3a2c0dc70dca69b6acc001e6",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après Le fantôme de Tsog, Amayiro demande d'abord 20 Anneaux d'Agilité, puis cherche à obtenir une dizaine de dragodindes pour la milice. Vous devrez négocier avec Hogias et Farle ou Shika Ingalsse, éliminer des larves dans trois champs au cours de trois combats en solo, puis confirmer successivement l'accord obtenu auprès des différents PNJ avant de revenir à Amayiro.",
+      "recommendedLevel": 51,
+      "prerequisites": [
+        "Avoir terminé Le fantôme de Tsog."
+      ],
+      "rewards": [
+        "528 549 XP.",
+        "Déblocage de l'Alignement 22 : La fureur du Holbaïd."
+      ],
+      "preparation": [
+        "Prévoir 20 x Anneau d'Agilité.",
+        "Chaque Anneau d'Agilité peut être fabriqué par un bijoutier niveau 9 minimum avec 1 x Fer et 3 x Relique d'Incarnam.",
+        "Prévoir 3 combats obligatoires en solo.",
+        "Pour parler à Farle Ingalsse, avoir au minimum 101 d'Intelligence. Shika Ingalsse constitue une alternative avec une autre condition de caractéristique non précisément connue dans la source."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Amayiro dans la milice de Bonta pour lancer la quête. Il vous demande de lui rapporter 20 Anneaux d'Agilité.",
+          "position": "[-32,-57]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Achetez ou fabriquez 20 Anneaux d'Agilité, puis donnez-les à Amayiro. Il vous demande ensuite de contacter Hogias afin d'obtenir une dizaine de dragodindes.",
+          "position": "[-32,-57]",
+          "zoneHint": null,
+          "warning": "La fabrication de 20 anneaux nécessite au total 20 x Fer et 60 x Relique d'Incarnam.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Hogias des besoins de la milice en dragodindes. Il accepte d'en fournir à condition d'obtenir un meilleur prix pour le fourrage des Ingalsses.",
+          "position": "[-30,-58]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Farle ou Shika Ingalsse et expliquez le problème d'Hogias. Ils acceptent de fournir le fourrage si vous débarrassez leurs champs des larves nuisibles.",
+          "position": "[5,6]",
+          "zoneHint": null,
+          "warning": "Pour parler à Farle Ingalsse, il faut au minimum 101 d'Intelligence. La condition exacte permettant de passer par Shika Ingalsse n'est pas connue dans la source, qui indique seulement une probable condition de 101 dans une autre caractéristique.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez sur le foin pour faire apparaître les larves et remportez le premier combat.",
+          "position": "[8,5]",
+          "zoneHint": null,
+          "warning": "Combat obligatoire et réalisable uniquement en solo.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Cliquez sur le foin pour faire apparaître les larves et remportez le deuxième combat.",
+          "position": "[10,8]",
+          "zoneHint": null,
+          "warning": "Combat obligatoire et réalisable uniquement en solo.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Cliquez sur le foin pour faire apparaître les larves et remportez le troisième combat.",
+          "position": "[7,9]",
+          "zoneHint": null,
+          "warning": "Combat obligatoire et réalisable uniquement en solo.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Retournez voir Farle ou Shika Ingalsse et annoncez que les trois champs ont été débarrassés des larves. Le fourrage sera alors livré gratuitement à Bonta avant la fin de la journée.",
+          "position": "[5,6]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès d'Hogias et annoncez-lui qu'il recevra son fourrage gratuitement.",
+          "position": "[-30,-58]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Revenez voir Amayiro et informez-le qu'il recevra les dragodindes fortes et endurantes demandées afin de terminer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Cette quête suit immédiatement Le fantôme de Tsog dans la progression d'alignement et débloque La fureur du Holbaïd.",
+        "Les trois positions de combat doivent être effectuées dans l'ordre indiqué par le parcours de la source."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Hogias",
+        "Farle Ingalsse",
+        "Shika Ingalsse"
+      ],
+      "items": [
+        {
+          "name": "Anneau d'Agilité",
+          "itemId": 121,
+          "imageUrl": "/items/121.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/121"
+        },
+        {
+          "name": "Fer",
+          "itemId": 312,
+          "imageUrl": "/items/312.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/312"
+        },
+        {
+          "name": "Relique d'Incarnam",
+          "itemId": 16524,
+          "imageUrl": "/items/16524.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16524"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 3,
+            "name": "Champ des Ingalsse",
+            "coordinates": [
+              "5,6",
+              "8,5",
+              "10,8",
+              "7,9"
+            ]
+          },
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-30,-58"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3525,
+            "name": "Ambi Guman",
+            "level": 30,
+            "imageUrl": "/bestiary/monsters/3525.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2355,
+            "name": "Tofuldebeu l'Explosif",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2355.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 205,
+            "name": "Tofus",
+            "monsters": [
+              {
+                "id": 804,
+                "name": "Tofoune",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/804.png"
+              },
+              {
+                "id": 796,
+                "name": "Tofu Noir",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/796.png"
+              },
+              {
+                "id": 806,
+                "name": "Tofukaz",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/806.png"
+              },
+              {
+                "id": 98,
+                "name": "Tofu",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/98.png"
+              },
+              {
+                "id": 4824,
+                "name": "Tofu Mutant",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/4824.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:23",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/des-anneaux-sur-le-bout-des-doigts.html",
+      "sourceTitle": "Alignement 21 : Des anneaux sur le bout des doigts",
+      "sourceHash": "d00c76bfa35503e00057bc91906a6c4642fdd38c44f4f386095eae13bc220cf8",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 19,
-  "updatedAt": "2026-08-27T12:53:57.583Z",
+  "updatedAt": "2026-08-27T13:32:12.162Z",
   "summaries": [
     {
       "overview": "Snori Nairb vous demande de vous renseigner sur les tensions entre Bonta et Brâkmar à Astrub. Après avoir parlé aux deux agentes de recrutement des cités rivales, la quête s'achève.",
@@ -1430,8 +1430,8 @@
         "quest:1184"
       ],
       "actions": [
-        "Pour quest:1211, parlez à Aisling en [7,-19] lorsque la quête est disponible.",
-        "Pour quest:1184, parlez à la Recrue Mercenaire en [7,-19] lorsque la quête est disponible.",
+        "Pour Restauration rapide, parlez à Aisling en [7,-19] lorsque la quête est disponible.",
+        "Pour Balade en forêt, parlez à la Recrue Mercenaire en [7,-19] lorsque la quête est disponible.",
         "Ne forcez pas ce regroupement si leurs prérequis respectifs, L'histoire en mouvement et Ça sent le gaz, ne sont pas encore terminés."
       ]
     }

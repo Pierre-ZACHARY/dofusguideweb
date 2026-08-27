@@ -2,123 +2,141 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 114,
-  "updatedAt": "2026-08-27T12:55:04.293Z",
+  "updatedAt": "2026-08-27T14:18:22.421Z",
   "summaries": [
     {
-      "overview": "Lancez la quête auprès de Kal Vissi en [-19,30] aux Terres Désacrées, puis enchaînez cinq donjons : Bibliothèque du Maître Corbac, Serre du Royalmouth, Labyrinthe du Minotoror, Tofulailler Royal et Antre de Crocabulia. Après chaque donjon, retournez voir Kal Vissi pour obtenir la clé du suivant.",
-      "recommendedLevel": 50,
+      "overview": "Kal Vissi vous confie une succession de cinq donjons à terminer dans un ordre précis. Après chaque victoire, retournez le voir en [-19,30] afin de recevoir la clef permettant de poursuivre. Vous devrez vaincre successivement le Maître Corbac, le Royalmouth, le Minotoror, le Tofu Royal puis Crocabulia. Une fois ces missions accomplies, Kal Vissi vous envoie auprès du Maître des clefs en [-6,-37] pour conclure la quête et poursuivre la série avec « La voie du guerrier ».",
+      "recommendedLevel": null,
       "prerequisites": [
-        "Niveau supérieur à 29",
-        "Quête Un juge hystérique"
+        "Niveau > 29.",
+        "Avoir terminé « Un juge hystérique ».",
+        "Pour accéder à la Serre du Royalmouth, avoir accès à Frigost I ; lors du premier voyage, prendre le bateau en [-34,-16] et être au minimum niveau 50."
       ],
       "rewards": [
-        "18 651 520 XP",
-        "195 360 Kamas",
-        "1 x Clakoss",
-        "1 x Queue du Royalmouth",
-        "1 x Corne Brûlée du Minotoror",
-        "1 x Plume Vibrante du Tofu Royal",
-        "1 x Corne brisée de Crocabulia"
+        "18 651 520 XP.",
+        "195 360 Kamas.",
+        "1 x Clakoss.",
+        "1 x Queue du Royalmouth.",
+        "1 x Corne Brûlée du Minotoror.",
+        "1 x Plume Vibrante du Tofu Royal.",
+        "1 x Corne brisée de Crocabulia."
       ],
       "preparation": [
-        "Donjon Bibliothèque du Maître Corbac",
-        "Donjon Serre du Royalmouth",
-        "Donjon Labyrinthe du Minotoror",
-        "Donjon Tofulailler Royal",
-        "Antre de Crocabulia (donjon)"
+        "Prévoir 1 x Donjon Bibliothèque du Maître Corbac.",
+        "Prévoir 1 x Donjon Serre du Royalmouth.",
+        "Prévoir 1 x Donjon Labyrinthe du Minotoror.",
+        "Prévoir 1 x Donjon Tofulailler Royal.",
+        "Prévoir 1 x Antre de Crocabulia."
       ],
       "actions": [
         {
-          "instruction": "Aller en [-19,30] et parler à Kal Vissi pour lancer la quête.",
+          "instruction": "Parlez à Kal Vissi et acceptez sa mission.",
           "position": "[-19,30]",
           "zoneHint": "Terres Désacrées",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller en [-15,-62] dans le donjon Bibliothèque du Maître Corbac et vaincre le Maître Corbac.",
+          "instruction": "Terminez la Bibliothèque du Maître Corbac et vainquez le Maître Corbac.",
           "position": "[-15,-62]",
           "zoneHint": null,
-          "warning": "Combat de donjon contre le Maître Corbac.",
+          "warning": "Un combat de donjon est nécessaire.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Retourner en [-19,30] parler à Kal Vissi pour obtenir la clé du prochain donjon.",
+          "instruction": "Retournez voir Kal Vissi afin de recevoir la clef du prochain donjon.",
           "position": "[-19,30]",
           "zoneHint": "Terres Désacrées",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller en [-34,-16] prendre le bateau pour Frigost I.",
-          "position": "[-34,-16]",
-          "zoneHint": null,
-          "warning": "Niveau 50 minimum requis pour accéder à Frigost I.",
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller en [-84,-49] dans le donjon Serre du Royalmouth et vaincre le Royalmouth.",
+          "instruction": "Terminez la Serre du Royalmouth et vainquez le Royalmouth.",
           "position": "[-84,-49]",
           "zoneHint": null,
-          "warning": "Combat de donjon contre le Royalmouth.",
+          "warning": "L'accès nécessite Frigost I. Pour un premier accès à l'île, utilisez le bateau en [-34,-16] et soyez au minimum niveau 50.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Retourner en [-19,30] parler à Kal Vissi pour obtenir la clé du prochain donjon.",
+          "instruction": "Retournez voir Kal Vissi afin de recevoir la clef du prochain donjon.",
           "position": "[-19,30]",
           "zoneHint": "Terres Désacrées",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller en [-42,-17] dans le donjon Labyrinthe du Minotoror et vaincre le Minotoror.",
+          "instruction": "Terminez le Labyrinthe du Minotoror et vainquez le Minotoror.",
           "position": "[-42,-17]",
           "zoneHint": null,
-          "warning": "Combat de donjon contre le Minotoror. Il est recommandé d'entrer dans la salle du Minotot avant de quitter pour obtenir une sauvegarde utile pour une prochaine quête.",
+          "warning": "Un combat de donjon est nécessaire.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Retourner en [-19,30] parler à Kal Vissi pour obtenir la clé du prochain donjon.",
+          "instruction": "Avant de quitter le donjon, vous pouvez entrer dans la salle du Minotot afin d'obtenir une sauvegarde vers cette salle, qui sera utile dans une prochaine quête.",
+          "position": "[-42,-17]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Kal Vissi afin de recevoir la clef du prochain donjon.",
           "position": "[-19,30]",
           "zoneHint": "Terres Désacrées",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller dans le donjon Tofulailler Royal et vaincre le Tofu Royal.",
-          "position": null,
+          "instruction": "Terminez le Tofulailler Royal et vainquez le Tofu Royal.",
+          "position": "[5,6]",
           "zoneHint": null,
-          "warning": "Combat de donjon contre le Tofu Royal.",
+          "warning": "Un combat de donjon est nécessaire.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Retourner en [-19,30] parler à Kal Vissi pour obtenir la clé du prochain donjon.",
+          "instruction": "Retournez voir Kal Vissi afin de recevoir la clef du prochain donjon.",
           "position": "[-19,30]",
           "zoneHint": "Terres Désacrées",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller dans l'Antre de Crocabulia et vaincre Crocabulia.",
-          "position": null,
+          "instruction": "Rejoignez l'Antre de Crocabulia. Pour trouver l'entrée, descendez d'abord dans le sanctuaire en [-4,24] et parlez à Ziho.",
+          "position": "[-4,24]",
           "zoneHint": null,
-          "warning": "Combat de donjon contre Crocabulia.",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Terminez l'Antre de Crocabulia et vainquez Crocabulia.",
+          "position": "[-2,25]",
+          "zoneHint": null,
+          "warning": "Un combat de donjon est nécessaire.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Retourner en [-19,30] parler à Kal Vissi pour terminer la quête.",
+          "instruction": "Retournez auprès de Kal Vissi. Il vous demande alors de rejoindre le Maître des clefs.",
           "position": "[-19,30]",
           "zoneHint": "Terres Désacrées",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Maître des clefs et prétendez avoir saisi le message pour terminer la quête. En poursuivant la discussion, vous pourrez obtenir « La voie du guerrier ».",
+          "position": "[-6,-37]",
+          "zoneHint": null,
           "warning": null,
           "combat": "NONE"
         }
       ],
       "notes": [
-        "Il est recommandé d'entrer dans la salle du Minotot avant de quitter le Labyrinthe du Minotoror pour obtenir une sauvegarde utile dans une prochaine quête.",
-        "L'accès à Frigost I nécessite le bateau en [-34,-16] et un niveau minimum de 50."
+        "Les cinq donjons doivent être effectués dans l'ordre indiqué par Kal Vissi.",
+        "Après chaque donjon, le retour auprès de Kal Vissi en [-19,30] est nécessaire avant de poursuivre.",
+        "Dans le Labyrinthe du Minotoror, entrer dans la salle du Minotot avant de partir permet d'obtenir une sauvegarde utile pour une quête ultérieure."
       ],
       "npcs": [
-        "Kal Vissi"
+        "Kal Vissi",
+        "Ziho",
+        "Maître des clefs"
       ],
       "items": [
         {
@@ -155,17 +173,18 @@
       "bestiary": {
         "zones": [
           {
-            "id": 334,
-            "name": "Baie de Cania",
+            "id": 325,
+            "name": "Antre de Crocabulia",
             "coordinates": [
-              "-34,-16"
+              "-4,24",
+              "-2,25"
             ]
           },
           {
-            "id": 1038,
-            "name": "Bibliothèque du Maître Corbac",
+            "id": 209,
+            "name": "Île du Minotoror",
             "coordinates": [
-              "-15,-62"
+              "-42,-17"
             ]
           },
           {
@@ -176,10 +195,19 @@
             ]
           },
           {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-15,-62",
+              "-6,-37"
+            ]
+          },
+          {
             "id": 617,
             "name": "Serre du Royalmouth",
             "coordinates": [
-              "-84,-49"
+              "-84,-49",
+              "-34,-16"
             ]
           },
           {
@@ -188,52 +216,41 @@
             "coordinates": [
               "-19,30"
             ]
+          },
+          {
+            "id": 780,
+            "name": "Tofulailler Royal",
+            "coordinates": [
+              "5,6"
+            ]
           }
         ],
         "bounties": [
           {
-            "id": 552,
-            "name": "Musha L'Oni",
-            "level": 80,
-            "imageUrl": "/bestiary/monsters/552.png"
+            "id": 5074,
+            "name": "Vashkiwi",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/5074.png"
           }
         ],
         "archmonsters": [
           {
-            "id": 2391,
-            "name": "Ameur la Laide",
-            "level": 35,
-            "imageUrl": "/bestiary/monsters/2391.png"
+            "id": 2529,
+            "name": "Mandalo l'Aqueuse",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/2529.png"
           },
           {
-            "id": 2433,
-            "name": "Codenlgaz le Problème",
-            "level": 35,
-            "imageUrl": "/bestiary/monsters/2433.png"
-          },
-          {
-            "id": 2508,
-            "name": "Kiroyal le Sirupeux",
-            "level": 35,
-            "imageUrl": "/bestiary/monsters/2508.png"
-          },
-          {
-            "id": 2525,
-            "name": "Let le Rond",
-            "level": 35,
-            "imageUrl": "/bestiary/monsters/2525.png"
-          },
-          {
-            "id": 2289,
-            "name": "Susbewl l'Hypocrite",
-            "level": 35,
-            "imageUrl": "/bestiary/monsters/2289.png"
-          },
-          {
-            "id": 2437,
-            "name": "Corpat le Vampire",
+            "id": 2533,
+            "name": "Minoskour le Sauveur",
             "level": 102,
-            "imageUrl": "/bestiary/monsters/2437.png"
+            "imageUrl": "/bestiary/monsters/2533.png"
+          },
+          {
+            "id": 2521,
+            "name": "Krapahut le Randonneur",
+            "level": 110,
+            "imageUrl": "/bestiary/monsters/2521.png"
           },
           {
             "id": 2615,
@@ -286,92 +303,38 @@
             ]
           },
           {
-            "id": 211,
-            "name": "Corbacs",
+            "id": 178,
+            "name": "Dragoeufs Protecteurs",
             "monsters": [
               {
-                "id": 818,
-                "name": "Corbac Apprivoisé",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/818.png"
+                "id": 853,
+                "name": "Dragnarok",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/853.png"
               },
               {
-                "id": 819,
-                "name": "Buveur",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/819.png"
+                "id": 862,
+                "name": "Draguaindrop",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/862.png"
               },
               {
-                "id": 281,
-                "name": "Corbac",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/281.png"
+                "id": 855,
+                "name": "Dragueuse",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/855.png"
               },
               {
-                "id": 824,
-                "name": "Horace le Corbac Apprivoisé",
-                "level": 110,
-                "imageUrl": "/bestiary/monsters/824.png"
+                "id": 5804,
+                "name": "Dragacé",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/5804.png"
               },
               {
-                "id": 825,
-                "name": "Kapotie le Buveur",
-                "level": 110,
-                "imageUrl": "/bestiary/monsters/825.png"
-              },
-              {
-                "id": 820,
-                "name": "Renarbo",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/820.png"
-              },
-              {
-                "id": 823,
-                "name": "Rono le Renarbo",
-                "level": 110,
-                "imageUrl": "/bestiary/monsters/823.png"
-              }
-            ]
-          },
-          {
-            "id": 1068,
-            "name": "Dopeuls",
-            "monsters": [
-              {
-                "id": 385,
-                "name": "Amlub",
-                "level": 35,
-                "imageUrl": "/bestiary/monsters/385.png"
-              },
-              {
-                "id": 386,
-                "name": "Codem",
-                "level": 35,
-                "imageUrl": "/bestiary/monsters/386.png"
-              },
-              {
-                "id": 570,
-                "name": "Idemas",
-                "level": 35,
-                "imageUrl": "/bestiary/monsters/570.png"
-              },
-              {
-                "id": 388,
-                "name": "Kirevam",
-                "level": 35,
-                "imageUrl": "/bestiary/monsters/388.png"
-              },
-              {
-                "id": 389,
-                "name": "Let Emoliug",
-                "level": 35,
-                "imageUrl": "/bestiary/monsters/389.png"
-              },
-              {
-                "id": 393,
-                "name": "Susej",
-                "level": 35,
-                "imageUrl": "/bestiary/monsters/393.png"
+                "id": 5805,
+                "name": "Dragmatique",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/5805.png"
               }
             ]
           },
@@ -406,6 +369,42 @@
             ]
           },
           {
+            "id": 206,
+            "name": "Gros Tofus",
+            "monsters": [
+              {
+                "id": 3302,
+                "name": "Tofu Dodu",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3302.png"
+              },
+              {
+                "id": 3301,
+                "name": "Tofubine",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3301.png"
+              },
+              {
+                "id": 3300,
+                "name": "Tofutoflamme",
+                "level": 108,
+                "imageUrl": "/bestiary/monsters/3300.png"
+              },
+              {
+                "id": 807,
+                "name": "Tofuzmo",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/807.png"
+              },
+              {
+                "id": 3299,
+                "name": "Vilain Petit Tofu",
+                "level": 103,
+                "imageUrl": "/bestiary/monsters/3299.png"
+              }
+            ]
+          },
+          {
             "id": 173,
             "name": "Minos",
             "monsters": [
@@ -420,6 +419,24 @@
                 "name": "Déminoboule",
                 "level": 108,
                 "imageUrl": "/bestiary/monsters/832.png"
+              },
+              {
+                "id": 836,
+                "name": "Kraméléhon",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/836.png"
+              },
+              {
+                "id": 835,
+                "name": "Mandrine",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/835.png"
+              },
+              {
+                "id": 834,
+                "name": "Minoskito",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/834.png"
               },
               {
                 "id": 831,
@@ -440,6 +457,18 @@
                 "imageUrl": "/bestiary/monsters/829.png"
               }
             ]
+          },
+          {
+            "id": 205,
+            "name": "Tofus",
+            "monsters": [
+              {
+                "id": 98,
+                "name": "Tofu",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/98.png"
+              }
+            ]
           }
         ]
       },
@@ -447,8 +476,8 @@
       "sourceUrl": "https://www.dofuspourlesnoobs.com/des-donjons-encore-des-donjons.html",
       "sourceTitle": "Des donjons, encore des donjons",
       "sourceHash": "b13c418c97b8d82cbf9ac712ef9e4a15acc8ffba6cd80d25800afbac9ac64d98",
-      "generatedAt": "2026-08-24T18:04:12.264Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     }
   ],
   "tips": []

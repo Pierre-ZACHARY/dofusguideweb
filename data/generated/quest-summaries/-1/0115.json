@@ -2,106 +2,144 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 115,
-  "updatedAt": "2026-08-27T12:55:04.469Z",
+  "updatedAt": "2026-08-27T15:07:26.510Z",
   "summaries": [
     {
-      "overview": "Mériana vous révèle que le Dofus Pourpre est gardé par le Minotoror. Pour vous en emparer, il vous faut le Livre des Taures. Elle ignore où en trouver, vous devez donc faire le tour des bibliothèques de Bonta, Brakmar, Sufokia, Amakna, Pandala et Astrub pour en dénicher un exemplaire avant d'affronter le Donjon Bibliothèque du Maitre Corbac.",
+      "overview": "Mériana vous met sur la piste du Livre des Taures, nécessaire pour poursuivre la recherche du Dofus Pourpre. Il faut interroger successivement plusieurs bibliothécaires à Bonta, Brakmar, Sufokia, Amakna, Pandala puis Astrub. Après une attaque de roublards à Astrub, retournez auprès de Mériana, puis partez à la Bibliothèque du Maître Corbac pour obtenir le Livre des Taures ainsi qu'un Os avant de les lui rapporter.",
       "recommendedLevel": 110,
       "prerequisites": [
-        "La magicienne des marécages"
+        "La magicienne des marécages."
       ],
       "rewards": [
-        "3 116 628 XP",
-        "34 272 kamas",
-        "3 x Tissu Sombre"
+        "3 116 628 XP.",
+        "34 272 kamas.",
+        "3 x Tissu Sombre."
       ],
       "preparation": [
-        "1 x combat (seul)",
-        "1 x Donjon Bibliothèque du Maitre Corbac"
+        "Prévoir 1 combat seul.",
+        "Prévoir 1 passage dans le donjon Bibliothèque du Maitre Corbac."
       ],
       "actions": [
         {
-          "instruction": "Allez en [-6,-3] aux Marécages nauséabonds et parlez à Mériana du Dofus Pourpre.",
+          "instruction": "Parlez à Mériana au sujet du Dofus Pourpre. Elle vous demande de rechercher le Livre des Taures.",
           "position": "[-6,-3]",
           "zoneHint": "Marécages nauséabonds",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Allez à la bibliothèque de Bonta en [-35,-57] et parlez à Marcelle Rouste du Livre des Taures.",
+          "instruction": "Rendez-vous à la bibliothèque de Bonta et interrogez Marcelle Rouste au sujet du Livre des Taures.",
           "position": "[-35,-57]",
           "zoneHint": "Bonta",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Allez à Brakmar en [-24,39] et parlez à Jean-Sol Patre du Livre des Taures.",
+          "instruction": "Allez à la bibliothèque de Brakmar et demandez à Jean-Sol Patre des informations sur le Livre des Taures.",
           "position": "[-24,39]",
           "zoneHint": "Brakmar",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Allez à Sufokia en [20,25] et parlez au Docteur Hou du Livre des Taures.",
+          "instruction": "Rendez-vous à Sufokia et questionnez le Docteur Hou à propos du Livre des Taures.",
           "position": "[20,25]",
           "zoneHint": "Sufokia",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Allez à la bibliothèque d'Amakna pour chercher le Livre des Taures.",
-          "position": null,
+          "instruction": "Allez à la bibliothèque d'Amakna et parlez à Harry Stote. Il vous oriente vers Astrub.",
+          "position": "[4,1]",
           "zoneHint": "Amakna",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Allez à la bibliothèque de Pandala pour chercher le Livre des Taures.",
-          "position": null,
+          "instruction": "Avant Astrub, faites un détour par Pandala et interrogez Narber Rihen Levihawa au sujet du grimoire.",
+          "position": "[21,-27]",
           "zoneHint": "Pandala",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Allez à la bibliothèque d'Astrub pour chercher le Livre des Taures.",
-          "position": null,
+          "instruction": "Rendez-vous dans le grenier de la bibliothèque d'Astrub et parlez à Oz Dralett. Il vous indique que le Livre des Taures se trouve dans la Bibliothèque du Maître Corbac, puis des roublards vous attaquent.",
+          "position": "[7,-19]",
           "zoneHint": "Astrub",
+          "warning": "Le combat s'effectue seul. Une défaite n'empêche pas la quête de se mettre à jour.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Retournez voir Mériana et reparlez-lui du Maître Corbac. Elle vous demande de terrasser le Maître Corbac et de lui rapporter également un Os.",
+          "position": "[-6,-3]",
+          "zoneHint": "Marécages nauséabonds",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Affrontez le Donjon Bibliothèque du Maitre Corbac en combat seul.",
-          "position": null,
-          "zoneHint": null,
-          "warning": "Combat en solo obligatoire.",
-          "combat": "SOLO"
+          "instruction": "Partez dans la Bibliothèque du Maitre Corbac et accomplissez le donjon afin d'obtenir le Livre des Taures. Assurez-vous également d'avoir l'Os demandé par Mériana.",
+          "position": "[-15,-62]",
+          "zoneHint": "Bibliothèque du Maitre Corbac",
+          "warning": "Passage en donjon et combat contre le Maître Corbac requis.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Lorsque vous possédez le Livre des Taures et l'Os, retournez auprès de Mériana et remettez-lui les deux objets pour terminer la quête.",
+          "position": "[-6,-3]",
+          "zoneHint": "Marécages nauséabonds",
+          "warning": null,
+          "combat": "NONE"
         }
       ],
       "notes": [
-        "Pour vous rendre en [-6,-3], utilisez le dossier \"Chemin vers Mériana\"."
+        "Pour rejoindre Mériana en [-6,-3], la source mentionne le chemin vers Mériana.",
+        "Après cette quête, poursuivre la discussion avec Mériana permet d'obtenir Taures et détours."
       ],
       "npcs": [
         "Mériana",
         "Marcelle Rouste",
         "Jean-Sol Patre",
-        "Docteur Hou"
+        "Docteur Hou",
+        "Harry Stote",
+        "Narber Rihen Levihawa",
+        "Oz Dralett"
       ],
       "items": [
-        {
-          "name": "Tissu Sombre",
-          "itemId": 2285,
-          "imageUrl": "/items/2285.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2285"
-        },
         {
           "name": "Livre des Taures",
           "itemId": 15417,
           "imageUrl": "/items/15417.png",
           "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15417"
+        },
+        {
+          "name": "Os",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Tissu Sombre",
+          "itemId": 2285,
+          "imageUrl": "/items/2285.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2285"
         }
       ],
       "bestiary": {
         "zones": [
+          {
+            "id": 1038,
+            "name": "Bibliothèque du Maître Corbac",
+            "coordinates": [
+              "-15,-62"
+            ]
+          },
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "7,-19"
+            ]
+          },
           {
             "id": 975,
             "name": "Cœur immaculé",
@@ -129,9 +167,30 @@
             "coordinates": [
               "20,25"
             ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "4,1"
+            ]
+          },
+          {
+            "id": 951,
+            "name": "Village de Pandala",
+            "coordinates": [
+              "21,-27"
+            ]
           }
         ],
-        "bounties": [],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
         "archmonsters": [
           {
             "id": 2343,
@@ -186,9 +245,63 @@
             "name": "Crok le Beau",
             "level": 61,
             "imageUrl": "/bestiary/monsters/2428.png"
+          },
+          {
+            "id": 2437,
+            "name": "Corpat le Vampire",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2437.png"
           }
         ],
         "achievements": [
+          {
+            "id": 211,
+            "name": "Corbacs",
+            "monsters": [
+              {
+                "id": 818,
+                "name": "Corbac Apprivoisé",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/818.png"
+              },
+              {
+                "id": 819,
+                "name": "Buveur",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/819.png"
+              },
+              {
+                "id": 281,
+                "name": "Corbac",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/281.png"
+              },
+              {
+                "id": 824,
+                "name": "Horace le Corbac Apprivoisé",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/824.png"
+              },
+              {
+                "id": 825,
+                "name": "Kapotie le Buveur",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/825.png"
+              },
+              {
+                "id": 820,
+                "name": "Renarbo",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/820.png"
+              },
+              {
+                "id": 823,
+                "name": "Rono le Renarbo",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/823.png"
+              }
+            ]
+          },
           {
             "id": 208,
             "name": "Gadouilleux",
@@ -267,66 +380,126 @@
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-livre-des-taures.html",
       "sourceTitle": "Le livre des Taures",
       "sourceHash": "ec9079fe1d4ccfcdedd8914b002159a9d67eeafbc3b43af72535d48d877571e5",
-      "generatedAt": "2026-08-24T17:42:28.356Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     },
     {
-      "overview": "Natacha Manka, près des Pénates du Corbac, a perdu son sac de soins lors d'un combat. Récupérez-le et aidez-la à pratiquer un rituel de divination en collectant du bois de corbac dans la zone.",
+      "overview": "Natacha Manka a perdu son sac après une altercation et vous demande d'abord de le récupérer avec des Sauges. Vous l'aidez ensuite à préparer un rituel en collectant du Bois de Corbac et diverses ressources, dont cinq Rondins Enchantés fabriqués avec son atelier. Après le rituel, vous transportez des lettres entre Natacha et Yova Etna, puis rejoignez Natacha à la Bibliothèque du Maître Corbac.",
       "recommendedLevel": 110,
       "prerequisites": [],
       "rewards": [
-        "1 298 594 XP",
-        "14 280 kamas",
-        "10 x Coeur de Brandon"
+        "1 298 594 XP.",
+        "14 280 kamas.",
+        "10 x Coeur de Brandon."
       ],
       "preparation": [
-        "40 x Sauge",
-        "5 x Patte de Corbac",
-        "5 x Plume de Buveur",
-        "5 x Poil de Renarbo",
-        "50 x Bois de Bombu",
-        "5 x Plume de Corbac Apprivoisé"
+        "40 x Sauge.",
+        "5 x Patte de Corbac.",
+        "5 x Plume de Buveur.",
+        "5 x Poil de Renarbo.",
+        "50 x Bois de Bombu.",
+        "5 x Plume de Corbac Apprivoisé."
       ],
       "actions": [
         {
-          "instruction": "Allez aux Pénates du Corbac et parlez à Natacha Manka. Elle vous explique avoir perdu son sac de soins lors d'un combat contre les créatures des environs.",
+          "instruction": "Parlez à Natacha Manka. Elle vous explique avoir perdu son sac contenant du matériel de soin.",
           "position": "[-12,-60]",
           "zoneHint": "Pénates du Corbac",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Allez récupérer le Sac de Natacha Manka en cliquant sur le sac à côté du puits.",
+          "instruction": "Récupérez le Sac de Natacha Manka en cliquant sur le sac situé à côté du puits.",
           "position": "[-13,-61]",
           "zoneHint": "Pénates du Corbac",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Retournez voir Natacha Manka et donnez-lui son sac ainsi que 40 x Sauge. Questionnez-la sur les raisons de sa présence.",
+          "instruction": "Retournez auprès de Natacha avec son sac et 40 x Sauge, puis donnez-lui le tout.",
           "position": "[-12,-60]",
           "zoneHint": "Pénates du Corbac",
-          "warning": "Dépense : 40 x Sauge.",
+          "warning": "40 x Sauge sont nécessaires. La source indique qu'il est possible d'en récolter dans la zone.",
           "combat": "NONE"
         },
         {
-          "instruction": "Récupérez 3 x Bois de Corbac en cliquant sur les troncs d'arbre aux trois positions indiquées.",
-          "position": "[-15,-60], [-12,-62], [-14,-62]",
+          "instruction": "Récupérez un Bois de Corbac en cliquant sur le tronc d'arbre.",
+          "position": "[-15,-60]",
           "zoneHint": "Pénates du Corbac",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Ramenez le Bois de Corbac à Natacha Manka. Elle vous demande de l'aider à tailler des rondins enchantés.",
+          "instruction": "Récupérez un Bois de Corbac en cliquant sur le tronc d'arbre.",
+          "position": "[-12,-62]",
+          "zoneHint": "Pénates du Corbac",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récupérez un Bois de Corbac en cliquant sur le tronc d'arbre.",
+          "position": "[-14,-62]",
+          "zoneHint": "Pénates du Corbac",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rapportez les 3 Bois de Corbac à Natacha Manka.",
           "position": "[-12,-60]",
           "zoneHint": "Pénates du Corbac",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Utilisez l'atelier de Natacha Manka pour fabriquer 5 Rondins Enchantés. Chaque rondin demande 10 x Bois de Bombu et 1 x Plume de Corbac Apprivoisé.",
+          "position": "[-12,-60]",
+          "zoneHint": "Pénates du Corbac",
+          "warning": "La fabrication des 5 Rondins Enchantés consomme au total 50 x Bois de Bombu et 5 x Plume de Corbac Apprivoisé.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparlez à Natacha avec 5 x Patte de Corbac, 5 x Plume de Buveur, 5 x Poil de Renarbo et 5 x Rondin Enchanté.",
+          "position": "[-12,-60]",
+          "zoneHint": "Pénates du Corbac",
+          "warning": "Toutes les ressources demandées doivent être réunies.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez Natacha Manka pour le rituel et parlez-lui. Après son sommeil divinatoire, elle vous remet une Lettre de Natacha Manka.",
+          "position": "[-11,-62]",
+          "zoneHint": "Pénates du Corbac",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Apportez la Lettre de Natacha Manka à Yova Etna et donnez-la-lui. Elle vous remet une Lettre de Yova Etna et peut vous proposer une téléportation vers les pénates du corbac.",
+          "position": "[-9,-40]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Remettez la Lettre de Yova Etna à Natacha Manka.",
+          "position": "[-13,-61]",
+          "zoneHint": "Pénates du Corbac",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à la Bibliothèque du Maître Corbac et parlez à Natacha Manka pour terminer la quête.",
+          "position": "[-15,-62]",
+          "zoneHint": "Bibliothèque du Maître Corbac",
           "warning": null,
           "combat": "NONE"
         }
       ],
-      "notes": [],
+      "notes": [
+        "Après la remise de la première lettre, Yova Etna propose une téléportation vers les pénates du corbac.",
+        "En continuant de parler à Natacha Manka à la fin, vous obtenez la quête Voler dans les plumes."
+      ],
       "npcs": [
-        "Natacha Manka"
+        "Natacha Manka",
+        "Yova Etna"
       ],
       "items": [
         {
@@ -366,6 +539,12 @@
           "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8250"
         },
         {
+          "name": "Rondin Enchanté",
+          "itemId": 18203,
+          "imageUrl": "/items/18203.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18203"
+        },
+        {
           "name": "Bois de Bombu",
           "itemId": 2358,
           "imageUrl": "/items/2358.png",
@@ -378,6 +557,18 @@
           "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8252"
         },
         {
+          "name": "Lettre de Natacha Manka",
+          "itemId": 18204,
+          "imageUrl": "/items/18204.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18204"
+        },
+        {
+          "name": "Lettre de Yova Etna",
+          "itemId": 18205,
+          "imageUrl": "/items/18205.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18205"
+        },
+        {
           "name": "Coeur de Brandon",
           "itemId": null,
           "imageUrl": null,
@@ -387,6 +578,13 @@
       "bestiary": {
         "zones": [
           {
+            "id": 1038,
+            "name": "Bibliothèque du Maître Corbac",
+            "coordinates": [
+              "-15,-62"
+            ]
+          },
+          {
             "id": 55,
             "name": "Pénates du Corbac",
             "coordinates": [
@@ -394,7 +592,9 @@
               "-13,-61",
               "-15,-60",
               "-12,-62",
-              "-14,-62"
+              "-14,-62",
+              "-11,-62",
+              "-9,-40"
             ]
           }
         ],
@@ -431,10 +631,28 @@
                 "imageUrl": "/bestiary/monsters/281.png"
               },
               {
+                "id": 824,
+                "name": "Horace le Corbac Apprivoisé",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/824.png"
+              },
+              {
+                "id": 825,
+                "name": "Kapotie le Buveur",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/825.png"
+              },
+              {
                 "id": 820,
                 "name": "Renarbo",
                 "level": 102,
                 "imageUrl": "/bestiary/monsters/820.png"
+              },
+              {
+                "id": 823,
+                "name": "Rono le Renarbo",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/823.png"
               }
             ]
           }
@@ -444,83 +662,75 @@
       "sourceUrl": "https://www.dofuspourlesnoobs.com/oiseau-de-mauvais-augure.html",
       "sourceTitle": "Oiseau de mauvais augure",
       "sourceHash": "57d2ec52504a3bdf0a429c0451bdd6d2c6b82376b766eb118acf70cf44899702",
-      "generatedAt": "2026-08-24T18:29:08.397Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     },
     {
-      "overview": "À la suite d'Oiseau de mauvais augure, aidez Natacha Manka à explorer la Bibliothèque du Maître Corbac pour y trouver un ouvrage, puis éliminez Capsaaloocke et le Maître Corbac avant de conclure au Bois du Litneg.",
+      "overview": "Après Oiseau de mauvais augure, accompagnez Natacha Manka dans la Bibliothèque du Maître Corbac. Vous devez la retrouver en salle 2 puis en salle 7, vaincre Capsaaloocke, poursuivre jusqu'au Maître Corbac et le vaincre pour obtenir un Guide du Maître Corbac. Remettez ensuite le guide à Natacha avant de sortir et rejoignez-la au Bois du Litneg pour terminer la quête.",
       "recommendedLevel": 110,
       "prerequisites": [
-        "Oiseau de mauvais augure"
+        "Oiseau de mauvais augure."
       ],
       "rewards": [
-        "2 597 190 XP",
-        "28 560 kamas",
-        "3 × Poil de Capsaaloocke",
-        "1 × Donjon Bibliothèque du Maître Corbac"
+        "2 597 190 XP.",
+        "28 560 kamas.",
+        "3 x Poil de Capsaaloocke."
       ],
       "preparation": [
-        "Avoir terminé la quête Oiseau de mauvais augure."
+        "Prévoir 1 passage dans le donjon Bibliothèque du Maitre Corbac."
       ],
       "actions": [
         {
-          "instruction": "Allez aux Pénates du Corbac en [-15,-62] et parlez à Natacha Manka pour lancer la quête.",
+          "instruction": "Après Oiseau de mauvais augure, parlez à Natacha Manka et proposez-lui votre aide.",
           "position": "[-15,-62]",
           "zoneHint": "Pénates du Corbac",
-          "warning": null,
+          "warning": "Oiseau de mauvais augure doit être terminé.",
           "combat": "NONE"
         },
         {
-          "instruction": "Entrez dans le donjon Bibliothèque du Maître Corbac et frayez-vous un chemin jusqu'à la Salle 2. Affrontez le groupe de Renarbo au passage.",
-          "position": null,
+          "instruction": "Entrez dans le donjon du Maître Corbac et progressez jusqu'à la salle 2, puis parlez à Natacha Manka.",
+          "position": "[-15,-62]",
           "zoneHint": "Bibliothèque du Maître Corbac",
-          "warning": "Combat obligatoire contre le groupe de Renarbo pour accéder à la Salle 2.",
+          "warning": "Pour atteindre la salle 2, il faut affronter le groupe de Renarbo.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Dans la Salle 2, parlez à Natacha Manka.",
+          "instruction": "Progressez jusqu'à la salle 7 et parlez à Natacha Manka. Elle vous demande de vous débarrasser de Capsaaloocke.",
           "position": null,
-          "zoneHint": "Bibliothèque du Maître Corbac",
+          "zoneHint": "Bibliothèque du Maître Corbac - salle 7",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Poursuivez jusqu'à la Salle 7 et parlez à Natacha Manka. Elle vous demande de l'aider à vous débarrasser de Capsaaloocke.",
-          "position": null,
-          "zoneHint": "Bibliothèque du Maître Corbac",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Trouvez et vaincre Capsaaloocke dans le donjon.",
+          "instruction": "Trouvez et vainquez Capsaaloocke dans le donjon.",
           "position": null,
           "zoneHint": "Bibliothèque du Maître Corbac",
           "warning": "Combat obligatoire contre Capsaaloocke.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Après la défaite de Capsaaloocke, vous êtes téléporté dans la salle du boss. Parlez à Natacha Manka.",
+          "instruction": "Après la victoire contre Capsaaloocke, vous êtes téléporté dans la salle du boss. Parlez à Natacha Manka.",
           "position": null,
-          "zoneHint": "Bibliothèque du Maître Corbac",
+          "zoneHint": "Bibliothèque du Maître Corbac - salle du boss",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Vaincre le Maître Corbac pour obtenir le Guide du Maître Corbac dans votre inventaire de quête.",
+          "instruction": "Vainquez le Maître Corbac. Vous obtenez alors un Guide du Maître Corbac dans votre inventaire de quête.",
           "position": null,
-          "zoneHint": "Bibliothèque du Maître Corbac",
+          "zoneHint": "Bibliothèque du Maître Corbac - salle du boss",
           "warning": "Combat obligatoire contre le Maître Corbac.",
           "combat": "GROUP"
         },
         {
           "instruction": "Avant de quitter le donjon, parlez à Natacha Manka et remettez-lui le Guide du Maître Corbac.",
           "position": null,
-          "zoneHint": "Bibliothèque du Maître Corbac",
-          "warning": null,
+          "zoneHint": "Bibliothèque du Maître Corbac - salle du boss",
+          "warning": "Parlez à Natacha avant de sortir du donjon.",
           "combat": "NONE"
         },
         {
-          "instruction": "Rendez-vous au Bois du Litneg en [-13,-59] et parlez à Natacha Manka. La quête se termine et débloque Jeu de Trooll.",
+          "instruction": "Rendez-vous au Bois du Litneg et parlez à Natacha Manka pour terminer la quête.",
           "position": "[-13,-59]",
           "zoneHint": "Bois du Litneg",
           "warning": null,
@@ -528,11 +738,13 @@
         }
       ],
       "notes": [
-        "Quête également disponible en version sans images sur la page du succès Ça en valait la plaine.",
-        "Débloque la quête suivante : Jeu de Trooll."
+        "La quête commence dans la continuité directe de Oiseau de mauvais augure.",
+        "La fin de la quête débloque Jeu de Trooll."
       ],
       "npcs": [
-        "Natacha Manka"
+        "Natacha Manka",
+        "Capsaaloocke",
+        "Maître Corbac"
       ],
       "items": [
         {
@@ -540,6 +752,12 @@
           "itemId": 18206,
           "imageUrl": "/items/18206.png",
           "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18206"
+        },
+        {
+          "name": "Poil de Capsaaloocke",
+          "itemId": 8321,
+          "imageUrl": "/items/8321.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8321"
         }
       ],
       "bestiary": {
@@ -547,7 +765,9 @@
           {
             "id": 1038,
             "name": "Bibliothèque du Maître Corbac",
-            "coordinates": []
+            "coordinates": [
+              "-15,-62"
+            ]
           },
           {
             "id": 69,
@@ -755,9 +975,23 @@
       "sourceUrl": "https://www.dofuspourlesnoobs.com/voler-dans-les-plumes.html",
       "sourceTitle": "Voler dans les plumes",
       "sourceHash": "cb6241fac9c0ff7d5f65415a3084fd0ca6b4c540409d162630c4f69976516d5c",
-      "generatedAt": "2026-08-24T18:09:05.033Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     }
   ],
-  "tips": []
+  "tips": [
+    {
+      "title": "Regrouper la Bibliothèque du Maître Corbac",
+      "description": "Le livre des Taures et Voler dans les plumes demandent tous deux un passage dans la Bibliothèque du Maître Corbac et impliquent de vaincre le Maître Corbac. Si les deux quêtes sont arrivées à ce point, profitez du même passage dans le donjon pour avancer leurs objectifs.",
+      "questKeys": [
+        "quest:806",
+        "quest:1025"
+      ],
+      "actions": [
+        "Avancez Le livre des Taures jusqu'à l'objectif demandant de vous rendre dans la Bibliothèque du Maître Corbac.",
+        "Terminez Oiseau de mauvais augure puis lancez Voler dans les plumes auprès de Natacha.",
+        "Effectuez ensuite la Bibliothèque du Maître Corbac en suivant les étapes de Voler dans les plumes et profitez de la victoire contre le Maître Corbac pour avancer aussi Le livre des Taures."
+      ]
+    }
+  ]
 }

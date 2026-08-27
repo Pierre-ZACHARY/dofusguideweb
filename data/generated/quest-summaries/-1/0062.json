@@ -2,7 +2,1181 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 62,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-27T14:18:17.708Z",
+  "summaries": [
+    {
+      "overview": "Aidez Gropinson Cruaulé à préparer une lotion répulsive contre les Kannibouls afin de poursuivre la recherche du Dokoko. Vous devrez récolter plusieurs ingrédients sur la Plage de la Tortue, vaincre des Grokoko pour faire apparaître un vieux Grokoko, puis rapporter sa feuille à Gropinson.",
+      "recommendedLevel": 50,
+      "prerequisites": [
+        "Partir un jour sans retour."
+      ],
+      "rewards": [
+        "203 765 XP.",
+        "3 480 kamas.",
+        "3 x Kokopaille.",
+        "3 x Lait de Tortue."
+      ],
+      "preparation": [
+        "Prévoir des combats sur la Plage de la Tortue.",
+        "Obtenir 4 x Pulpe macérée de nodkoko sur les Nodkoko, avec un taux de drop de base de 50%.",
+        "Obtenir 4 x Huile de foie de tortue sur les Tortues de la plage, avec un taux de drop de base de 50%.",
+        "Récolter les feuilles de salace marine aux positions [34,12], [32,11], [34,5] et [36,5]."
+      ],
+      "actions": [
+        {
+          "instruction": "Depuis l'employée de l'agence Touriste, allez sur la carte de gauche et parlez à Gropinson Cruaulé. Proposez-lui de vous associer à lui pour rechercher le Dokoko.",
+          "position": "[33,12]",
+          "zoneHint": "Plage de la Tortue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Combattez les Nodkoko jusqu'à obtenir 4 x Pulpe macérée de nodkoko.",
+          "position": null,
+          "zoneHint": "Plage de la Tortue",
+          "warning": "Le taux de drop de base est de 50%.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Combattez les Tortues de la plage jusqu'à obtenir 4 x Huile de foie de tortue.",
+          "position": null,
+          "zoneHint": "Plage de la Tortue",
+          "warning": "Le taux de drop de base est de 50%.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Récoltez une feuille de salace marine à cet emplacement.",
+          "position": "[34,12]",
+          "zoneHint": "Plage de la Tortue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récoltez une feuille de salace marine à cet emplacement.",
+          "position": "[32,11]",
+          "zoneHint": "Plage de la Tortue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récoltez une feuille de salace marine à cet emplacement.",
+          "position": "[34,5]",
+          "zoneHint": "Plage de la Tortue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récoltez une feuille de salace marine à cet emplacement.",
+          "position": "[36,5]",
+          "zoneHint": "Plage de la Tortue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Gropinson Cruaulé et donnez-lui tous les ingrédients nécessaires à la lotion.",
+          "position": "[33,12]",
+          "zoneHint": "Plage de la Tortue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Tuez 3 Grokoko sur la plage afin de faire sortir un vieux Grokoko de sa cachette.",
+          "position": null,
+          "zoneHint": "Plage de la Tortue",
+          "warning": "Les 3 Grokoko doivent être vaincus avant de pouvoir trouver le vieux Grokoko.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Rendez-vous auprès du vieux Grokoko et attaquez-le.",
+          "position": "[32,7]",
+          "zoneHint": "Plage de la Tortue",
+          "warning": "Le combat peut être réalisé à plusieurs.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire, récupérez la Feuille de vieux grokoko obtenue en fin de combat.",
+          "position": "[32,7]",
+          "zoneHint": "Plage de la Tortue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Gropinson Cruaulé et montrez-lui la Feuille de vieux grokoko. Il vous remet sa lotion, que vous devez appliquer sur tout votre corps.",
+          "position": "[33,12]",
+          "zoneHint": "Plage de la Tortue",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête se termine après l'application de la lotion.",
+        "En poursuivant la conversation avec Gropinson Cruaulé, vous débloquez Un indigeste chez les indigènes."
+      ],
+      "npcs": [
+        "Employée de l'agence Touriste",
+        "Gropinson Cruaulé"
+      ],
+      "items": [
+        {
+          "name": "Pulpe macérée de nodkoko",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Huile de foie de tortue",
+          "itemId": 17163,
+          "imageUrl": "/items/17163.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17163"
+        },
+        {
+          "name": "Feuille de salace marine",
+          "itemId": 17210,
+          "imageUrl": "/items/17210.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17210"
+        },
+        {
+          "name": "Feuille de vieux grokoko",
+          "itemId": 17165,
+          "imageUrl": "/items/17165.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17165"
+        },
+        {
+          "name": "Lotion",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 93,
+            "name": "Plage de la Tortue",
+            "coordinates": [
+              "33,12",
+              "34,12",
+              "32,11",
+              "34,5",
+              "36,5",
+              "32,7"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2573,
+            "name": "Koktèle le Secoué",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2573.png"
+          },
+          {
+            "id": 2541,
+            "name": "Nodkoku le Trahi",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2541.png"
+          },
+          {
+            "id": 2292,
+            "name": "Tikosto le Mousse",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2292.png"
+          },
+          {
+            "id": 2295,
+            "name": "Tortenssia la Fleurie",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2295.png"
+          },
+          {
+            "id": 2298,
+            "name": "Torthur la Lutte",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2298.png"
+          },
+          {
+            "id": 2296,
+            "name": "Tortilleur le Coulé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2296.png"
+          },
+          {
+            "id": 2297,
+            "name": "Tortorak le Cornu",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2297.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 5817,
+            "name": "Palmikos",
+            "monsters": [
+              {
+                "id": 218,
+                "name": "Nodkoko",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/218.png"
+              },
+              {
+                "id": 208,
+                "name": "Tikoko",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/208.png"
+              },
+              {
+                "id": 209,
+                "name": "Kokoko",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/209.png"
+              },
+              {
+                "id": 4152,
+                "name": "Grokoko",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/4152.png"
+              }
+            ]
+          },
+          {
+            "id": 171,
+            "name": "Tortues de Moon",
+            "monsters": [
+              {
+                "id": 221,
+                "name": "Tortue Bleue",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/221.png"
+              },
+              {
+                "id": 223,
+                "name": "Tortue Jaune",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/223.png"
+              },
+              {
+                "id": 220,
+                "name": "Tortue Rouge",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/220.png"
+              },
+              {
+                "id": 222,
+                "name": "Tortue Verte",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/222.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:932",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/un-parfum-de-vacances.html",
+      "sourceTitle": "Un parfum de vacances",
+      "sourceHash": "90627b618e1720a262e8ee5c0e2d9b8bfd1d01960b436be194bf06079e0d68aa",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Kara Hibe vous demande de récupérer des masques sur les Kannibouls de la Forêt des Masques. Il faut obtenir 5 exemplaires de chaque type de masque demandé en combattant les différents Kannibouls, puis revenir les lui remettre dans l'épave de la plage.",
+      "recommendedLevel": 60,
+      "prerequisites": [],
+      "rewards": [
+        "305 046 XP.",
+        "4 780 kamas.",
+        "3 x Poupée Vaudou Jav.",
+        "3 x Poupée Vaudou Sarbak."
+      ],
+      "preparation": [
+        "Prévoir des combats contre les monstres de la Forêt des Masques.",
+        "Les masques de Kannibouls sont des objets de quête et ne peuvent pas être achetés en HDV.",
+        "Le taux de drop de base des masques est de 20%.",
+        "Obtenir 5 masques de chaque type de Kanniboul présent dans la Forêt des Masques."
+      ],
+      "actions": [
+        {
+          "instruction": "Entrez dans l'épave de la plage et parlez à Kara Hibe, qui vous propose de lui rapporter des masques de Kannibouls contre une récompense.",
+          "position": "[35,5]",
+          "zoneHint": "Plage de la Tortue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous dans la Forêt des Masques et combattez les différents types de Kannibouls jusqu'à obtenir 5 masques de chaque type demandé.",
+          "position": null,
+          "zoneHint": "Forêt des Masques",
+          "warning": "Chaque masque a un taux de drop de base de 20% et, en tant qu'objet de quête, ne peut pas être acheté en HDV.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Lorsque vous possédez tous les masques nécessaires, retournez auprès de Kara Hibe.",
+          "position": "[35,5]",
+          "zoneHint": "Plage de la Tortue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Donnez les masques de Kannibouls à Kara Hibe pour terminer la quête et recevoir votre récompense.",
+          "position": "[35,5]",
+          "zoneHint": "Plage de la Tortue",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête se termine après la remise des masques à Kara Hibe."
+      ],
+      "npcs": [
+        "Kara Hibe"
+      ],
+      "items": [
+        {
+          "name": "Masques de Kannibouls",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Poupée Vaudou Jav",
+          "itemId": 2626,
+          "imageUrl": "/items/2626.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2626"
+        },
+        {
+          "name": "Poupée Vaudou Sarbak",
+          "itemId": 2627,
+          "imageUrl": "/items/2627.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2627"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 166,
+            "name": "Forêt des Masques",
+            "coordinates": []
+          },
+          {
+            "id": 93,
+            "name": "Plage de la Tortue",
+            "coordinates": [
+              "35,5"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2573,
+            "name": "Koktèle le Secoué",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2573.png"
+          },
+          {
+            "id": 2541,
+            "name": "Nodkoku le Trahi",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2541.png"
+          },
+          {
+            "id": 2292,
+            "name": "Tikosto le Mousse",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2292.png"
+          },
+          {
+            "id": 2295,
+            "name": "Tortenssia la Fleurie",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2295.png"
+          },
+          {
+            "id": 2298,
+            "name": "Torthur la Lutte",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2298.png"
+          },
+          {
+            "id": 2296,
+            "name": "Tortilleur le Coulé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2296.png"
+          },
+          {
+            "id": 2297,
+            "name": "Tortorak le Cornu",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2297.png"
+          },
+          {
+            "id": 2505,
+            "name": "Kannémik le Maigre",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2505.png"
+          },
+          {
+            "id": 2502,
+            "name": "Kannibal le Lecteur",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2502.png"
+          },
+          {
+            "id": 2506,
+            "name": "Kannisterik le Forcené",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2506.png"
+          },
+          {
+            "id": 2507,
+            "name": "Kapota la Fraise",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2507.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 168,
+            "name": "Kannibouls",
+            "monsters": [
+              {
+                "id": 211,
+                "name": "Kanniboul Ark",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/211.png"
+              },
+              {
+                "id": 213,
+                "name": "Kanniboul Jav",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/213.png"
+              },
+              {
+                "id": 214,
+                "name": "Kanniboul Sarbak",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/214.png"
+              },
+              {
+                "id": 212,
+                "name": "Kanniboul Eth",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/212.png"
+              }
+            ]
+          },
+          {
+            "id": 5817,
+            "name": "Palmikos",
+            "monsters": [
+              {
+                "id": 218,
+                "name": "Nodkoko",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/218.png"
+              },
+              {
+                "id": 208,
+                "name": "Tikoko",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/208.png"
+              },
+              {
+                "id": 209,
+                "name": "Kokoko",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/209.png"
+              },
+              {
+                "id": 4152,
+                "name": "Grokoko",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/4152.png"
+              }
+            ]
+          },
+          {
+            "id": 171,
+            "name": "Tortues de Moon",
+            "monsters": [
+              {
+                "id": 221,
+                "name": "Tortue Bleue",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/221.png"
+              },
+              {
+                "id": 223,
+                "name": "Tortue Jaune",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/223.png"
+              },
+              {
+                "id": 220,
+                "name": "Tortue Rouge",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/220.png"
+              },
+              {
+                "id": 222,
+                "name": "Tortue Verte",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/222.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:939",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/bas-les-masques.html",
+      "sourceTitle": "Bas les masques",
+      "sourceHash": "1c35efb29f99f7b4082829044b98a24d401ee226c1fcf3c8dc157b0c2c06d29e",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Aidez Kaponor à terminer son radeau pour quitter l'île de Moon. Il faut réunir des cordes en liane, des troncs de Kokoko, un Pavillon noir, des tonneaux kannibouls et une toile, puis fabriquer des planches et des poutres en bois de kokoko. Une partie des ressources nécessite le Bateau du Chouque.",
+      "recommendedLevel": 50,
+      "prerequisites": [],
+      "rewards": [
+        "2 047 500 XP.",
+        "23 960 kamas.",
+        "1 x Nomoon."
+      ],
+      "preparation": [
+        "Prévoir des combats.",
+        "Effectuer 1 x donjon Bateau du Chouque.",
+        "Prévoir 11 x Tronc de Kokoko.",
+        "Prévoir 10 x Kole.",
+        "Prévoir 6 x Rhum de qualité.",
+        "Obtenir 8 x Corde en liane.",
+        "Obtenir 8 x Crâne de pirate pour les échanger contre 4 x Tonneau kanniboul.",
+        "Obtenir 1 x Pavillon noir sur le Chouque.",
+        "Fabriquer 6 x Planche en bois de kokoko et 2 x Poutre en bois de kokoko."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Kaponor et acceptez de l'aider à réunir les matériaux nécessaires à son radeau.",
+          "position": "[36,11]",
+          "zoneHint": "Plage de la Tortue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Combattez des Kannibouls afin d'obtenir 8 x Corde en liane.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Le taux de drop de base est de 10% sur les Kannibouls normaux et de 40% sur Kanniboul Ebil. Les cordes ne s'achètent pas en HDV.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Récupérez au total 11 x Tronc de Kokoko sur les monstres Kokoko ou achetez-les en HDV.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Le taux de drop de base indiqué est de 10 à 14%. Gardez 10 troncs pour les fabrications ultérieures.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Effectuez le Bateau du Chouque et vainquez le Chouque pour obtenir le Pavillon noir.",
+          "position": null,
+          "zoneHint": "Bateau du Chouque",
+          "warning": "Le Pavillon noir ne peut pas être acheté en HDV. Profitez du donjon pour récupérer également 6 x Rhum de qualité sur les Ivremor et 8 x Crâne de pirate sur les pirates.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Pendant le Bateau du Chouque, combattez les Ivremor jusqu'à obtenir 6 x Rhum de qualité si vous ne les possédez pas déjà.",
+          "position": null,
+          "zoneHint": "Bateau du Chouque",
+          "warning": "Les Ivremor indiqués dans la source sont présents uniquement dans ce donjon.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Pendant le donjon, ou ensuite dans le Chemin du Crâne si nécessaire, obtenez 8 x Crâne de pirate en combattant des pirates.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Il faut exactement 8 Crânes de pirate pour obtenir les 4 tonneaux nécessaires.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Allez voir Kanniboul Khau avec les 8 Crânes de pirate.",
+          "position": "[31,10]",
+          "zoneHint": "Forêt des Masques",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Échangez les Crânes de pirate à Kanniboul Khau, à raison de 2 crânes contre 1 tonneau, pour obtenir 4 x Tonneau kanniboul.",
+          "position": "[31,10]",
+          "zoneHint": "Forêt des Masques",
+          "warning": "L'échange consomme les 8 Crânes de pirate.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Avec 6 x Rhum de qualité, allez voir Issé Heau et dites-lui que vous recherchez un voile de bateau.",
+          "position": "[34,6]",
+          "zoneHint": null,
+          "warning": "L'échange consomme les 6 x Rhum de qualité.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Donnez les 6 bouteilles de Rhum de qualité à Issé Heau pour obtenir la toile nécessaire au radeau.",
+          "position": "[34,6]",
+          "zoneHint": null,
+          "warning": "Si vous n'avez pas récupéré les rhums dans le Bateau du Chouque, la source indique qu'ils peuvent aussi être achetés en HDV ressources.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Utilisez l'établi pour fabriquer 6 x Planche en bois de kokoko. Chaque planche demande 1 x Tronc de kokoko et 1 x Kole, soit 6 troncs et 6 Koles au total.",
+          "position": "[36,11]",
+          "zoneHint": "Plage de la Tortue",
+          "warning": "Cette fabrication consomme 6 x Tronc de kokoko et 6 x Kole.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Toujours à l'établi, fabriquez 2 x Poutre en bois de kokoko. Chaque poutre demande 2 x Tronc de kokoko et 2 x Kole, soit 4 troncs et 4 Koles au total.",
+          "position": "[36,11]",
+          "zoneHint": "Plage de la Tortue",
+          "warning": "Cette fabrication consomme 4 x Tronc de kokoko et 4 x Kole.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Une fois tous les matériaux réunis, donnez-les à Kaponor pour achever son radeau.",
+          "position": "[36,11]",
+          "zoneHint": "Plage de la Tortue",
+          "warning": "La remise consomme les matériaux demandés pour le radeau.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Recevez le petit singe Nomoon que Kaponor vous offre en remerciement.",
+          "position": "[36,11]",
+          "zoneHint": "Plage de la Tortue",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La source conseille de lancer Squelettes et amulettes avant le Bateau du Chouque et de prendre Serrons-nous la main à la fin du donjon, mais ces quêtes ne font pas partie des tutoriels générés pour cette étape.",
+        "La quête se termine après la remise des matériaux à Kaponor."
+      ],
+      "npcs": [
+        "Kaponor",
+        "Kanniboul Khau",
+        "Issé Heau"
+      ],
+      "items": [
+        {
+          "name": "Corde en liane",
+          "itemId": 1004,
+          "imageUrl": "/items/1004.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1004"
+        },
+        {
+          "name": "Tronc de Kokoko",
+          "itemId": 1002,
+          "imageUrl": "/items/1002.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1002"
+        },
+        {
+          "name": "Pavillon noir",
+          "itemId": 17384,
+          "imageUrl": "/items/17384.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17384"
+        },
+        {
+          "name": "Crâne de pirate",
+          "itemId": 1009,
+          "imageUrl": "/items/1009.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1009"
+        },
+        {
+          "name": "Tonneau kanniboul",
+          "itemId": 1000,
+          "imageUrl": "/items/1000.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1000"
+        },
+        {
+          "name": "Rhum de qualité",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Toile peu ragoutante",
+          "itemId": 999,
+          "imageUrl": "/items/999.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/999"
+        },
+        {
+          "name": "Kole",
+          "itemId": 1018,
+          "imageUrl": "/items/1018.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1018"
+        },
+        {
+          "name": "Planche en bois de kokoko",
+          "itemId": 1001,
+          "imageUrl": "/items/1001.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1001"
+        },
+        {
+          "name": "Poutre en bois de kokoko",
+          "itemId": 1003,
+          "imageUrl": "/items/1003.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1003"
+        },
+        {
+          "name": "Nomoon",
+          "itemId": 6716,
+          "imageUrl": "/items/6716.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6716"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 846,
+            "name": "Bateau du Chouque",
+            "coordinates": [
+              "34,6"
+            ]
+          },
+          {
+            "id": 166,
+            "name": "Forêt des Masques",
+            "coordinates": [
+              "31,10"
+            ]
+          },
+          {
+            "id": 93,
+            "name": "Plage de la Tortue",
+            "coordinates": [
+              "36,11",
+              "34,6"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2573,
+            "name": "Koktèle le Secoué",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2573.png"
+          },
+          {
+            "id": 2541,
+            "name": "Nodkoku le Trahi",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2541.png"
+          },
+          {
+            "id": 2292,
+            "name": "Tikosto le Mousse",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2292.png"
+          },
+          {
+            "id": 2295,
+            "name": "Tortenssia la Fleurie",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2295.png"
+          },
+          {
+            "id": 2298,
+            "name": "Torthur la Lutte",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2298.png"
+          },
+          {
+            "id": 2296,
+            "name": "Tortilleur le Coulé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2296.png"
+          },
+          {
+            "id": 2297,
+            "name": "Tortorak le Cornu",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2297.png"
+          },
+          {
+            "id": 2505,
+            "name": "Kannémik le Maigre",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2505.png"
+          },
+          {
+            "id": 2502,
+            "name": "Kannibal le Lecteur",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2502.png"
+          },
+          {
+            "id": 2506,
+            "name": "Kannisterik le Forcené",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2506.png"
+          },
+          {
+            "id": 2507,
+            "name": "Kapota la Fraise",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2507.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 168,
+            "name": "Kannibouls",
+            "monsters": [
+              {
+                "id": 211,
+                "name": "Kanniboul Ark",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/211.png"
+              },
+              {
+                "id": 213,
+                "name": "Kanniboul Jav",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/213.png"
+              },
+              {
+                "id": 214,
+                "name": "Kanniboul Sarbak",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/214.png"
+              },
+              {
+                "id": 212,
+                "name": "Kanniboul Eth",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/212.png"
+              }
+            ]
+          },
+          {
+            "id": 5817,
+            "name": "Palmikos",
+            "monsters": [
+              {
+                "id": 218,
+                "name": "Nodkoko",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/218.png"
+              },
+              {
+                "id": 208,
+                "name": "Tikoko",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/208.png"
+              },
+              {
+                "id": 209,
+                "name": "Kokoko",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/209.png"
+              },
+              {
+                "id": 4152,
+                "name": "Grokoko",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/4152.png"
+              }
+            ]
+          },
+          {
+            "id": 169,
+            "name": "Pirates de Moon",
+            "monsters": [
+              {
+                "id": 228,
+                "name": "Boomba",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/228.png"
+              },
+              {
+                "id": 231,
+                "name": "Canondorf",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/231.png"
+              },
+              {
+                "id": 229,
+                "name": "Nakunbra",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/229.png"
+              },
+              {
+                "id": 4160,
+                "name": "Ricanif",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4160.png"
+              },
+              {
+                "id": 4161,
+                "name": "Ivremor",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4161.png"
+              }
+            ]
+          },
+          {
+            "id": 171,
+            "name": "Tortues de Moon",
+            "monsters": [
+              {
+                "id": 221,
+                "name": "Tortue Bleue",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/221.png"
+              },
+              {
+                "id": 223,
+                "name": "Tortue Jaune",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/223.png"
+              },
+              {
+                "id": 220,
+                "name": "Tortue Rouge",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/220.png"
+              },
+              {
+                "id": 222,
+                "name": "Tortue Verte",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/222.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:936",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-radeau-ivre.html",
+      "sourceTitle": "Le radeau ivre",
+      "sourceHash": "ccda00edff9b1e5446ba4e8d9d78703bc551f07ecc544dfda931e6143155d54a",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après avoir utilisé la lotion obtenue auprès de Gropinson Cruaulé, pénétrez dans la Forêt des Masques et effectuez le donjon Village Kanniboul. Après avoir vaincu Kanniboul Ebil, restez dans le donjon pour lui parler et lui remettre la Feuille de vieux grokoko, puis rendez-vous auprès de Mamie Voudou pour poursuivre la quête du Dokoko.",
+      "recommendedLevel": 60,
+      "prerequisites": [
+        "Un parfum de vacances."
+      ],
+      "rewards": [
+        "610 092 XP.",
+        "9 560 kamas.",
+        "5 x Boules de Kanniboul."
+      ],
+      "preparation": [
+        "Avoir terminé Un parfum de vacances et appliqué la lotion.",
+        "Conserver la Feuille de vieux grokoko obtenue pendant Un parfum de vacances.",
+        "Prévoir 1 x donjon Village Kanniboul."
+      ],
+      "actions": [
+        {
+          "instruction": "Après avoir appliqué la lotion, rendez-vous auprès du Gentil Organisateur Kanniboul.",
+          "position": "[29,9]",
+          "zoneHint": "Forêt des Masques",
+          "warning": "Un parfum de vacances doit être terminé avant cette quête.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans le donjon Village Kanniboul et progressez jusqu'au combat final.",
+          "position": "[29,9]",
+          "zoneHint": "Village Kanniboul",
+          "warning": "Cette étape nécessite d'effectuer le donjon Village Kanniboul.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Vainquez Kanniboul Ebil à la fin du donjon.",
+          "position": null,
+          "zoneHint": "Village Kanniboul",
+          "warning": "Ne quittez pas le donjon après le combat.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, restez dans le donjon et parlez à Kanniboul Ebil.",
+          "position": null,
+          "zoneHint": "Village Kanniboul",
+          "warning": "Ne sortez pas avant d'avoir effectué cette conversation.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Offrez à Shaman Ebil la Feuille de vieux grokoko. Il vous explique que Moon possède le Dokoko et vous remet une graine destinée à être déposée aux pieds de Moon si elle germe.",
+          "position": null,
+          "zoneHint": "Village Kanniboul",
+          "warning": "La Feuille de vieux grokoko est remise à Ebil.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sortez du donjon et allez voir Mamie Voudou.",
+          "position": "[31,9]",
+          "zoneHint": "Forêt des Masques",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dites à Mamie Voudou que vous souhaitez vous attirer la faveur des esprits. Elle vous propose d'utiliser la magie de la lune pour faire germer rapidement la graine confiée par Ebil.",
+          "position": "[31,9]",
+          "zoneHint": "Forêt des Masques",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête se termine après la conversation avec Mamie Voudou.",
+        "Cette quête débloque Squelettes et amulettes."
+      ],
+      "npcs": [
+        "Gentil Organisateur Kanniboul",
+        "Kanniboul Ebil",
+        "Shaman Ebil",
+        "Mamie Voudou"
+      ],
+      "items": [
+        {
+          "name": "Feuille de vieux grokoko",
+          "itemId": 17165,
+          "imageUrl": "/items/17165.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17165"
+        },
+        {
+          "name": "Graine confiée par Ebil",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Boules de Kanniboul",
+          "itemId": 14282,
+          "imageUrl": "/items/14282.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/14282"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 166,
+            "name": "Forêt des Masques",
+            "coordinates": [
+              "29,9",
+              "31,9"
+            ]
+          },
+          {
+            "id": 700,
+            "name": "Village Kanniboul",
+            "coordinates": [
+              "29,9"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2505,
+            "name": "Kannémik le Maigre",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2505.png"
+          },
+          {
+            "id": 2502,
+            "name": "Kannibal le Lecteur",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2502.png"
+          },
+          {
+            "id": 2506,
+            "name": "Kannisterik le Forcené",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2506.png"
+          },
+          {
+            "id": 2507,
+            "name": "Kapota la Fraise",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2507.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 168,
+            "name": "Kannibouls",
+            "monsters": [
+              {
+                "id": 211,
+                "name": "Kanniboul Ark",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/211.png"
+              },
+              {
+                "id": 213,
+                "name": "Kanniboul Jav",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/213.png"
+              },
+              {
+                "id": 214,
+                "name": "Kanniboul Sarbak",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/214.png"
+              },
+              {
+                "id": 212,
+                "name": "Kanniboul Eth",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/212.png"
+              },
+              {
+                "id": 4151,
+                "name": "Kanniboul Tam",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/4151.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:933",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/un-indigeste-chez-les-indigegravenes.html",
+      "sourceTitle": "Un indigeste chez les indigènes",
+      "sourceHash": "d6a63fbe7c08f03cf3296e7fcc23a5cc6d7d9c546cb8353b8670de5471cc84ef",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Regrouper les combats contre les Kannibouls",
+      "description": "Bas les masques et Le radeau ivre demandent tous deux de combattre des Kannibouls. Vous pouvez avancer simultanément sur les drops de masques et de Cordes en liane lorsque vous combattez ces monstres dans les zones concernées.",
+      "questKeys": [
+        "quest:939",
+        "quest:936"
+      ],
+      "actions": [
+        "Activez Bas les masques et Le radeau ivre avant de consacrer une session aux Kannibouls.",
+        "Pendant les combats, progressez à la fois sur les 5 masques de chaque type demandés par Kara Hibe et sur les 8 Cordes en liane nécessaires à Kaponor."
+      ]
+    },
+    {
+      "title": "Enchaîner la progression autour de la Forêt des Masques",
+      "description": "Une fois Un parfum de vacances terminé, vous pouvez enchaîner Un indigeste chez les indigènes tout en profitant de vos passages dans la Forêt des Masques pour avancer Bas les masques et certaines ressources de Le radeau ivre.",
+      "questKeys": [
+        "quest:932",
+        "quest:933",
+        "quest:939",
+        "quest:936"
+      ],
+      "actions": [
+        "Terminez d'abord Un parfum de vacances afin de débloquer Un indigeste chez les indigènes.",
+        "Lors de vos déplacements vers la Forêt des Masques et le Village Kanniboul, gardez actives Bas les masques et Le radeau ivre pour rentabiliser les combats contre les Kannibouls.",
+        "Si vous possédez déjà les 8 Crânes de pirate de Le radeau ivre, profitez d'un passage en Forêt des Masques pour effectuer l'échange auprès de Kanniboul Khau en [31,10]."
+      ]
+    }
+  ]
 }

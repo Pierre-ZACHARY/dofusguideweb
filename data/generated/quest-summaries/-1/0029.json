@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 29,
-  "updatedAt": "2026-08-27T12:53:58.761Z",
+  "updatedAt": "2026-08-27T13:32:13.972Z",
   "summaries": [
     {
       "overview": "À Tainéla, Jeffrey Baratourte demande d'éliminer plusieurs variétés de bouftous. Il faut vaincre exactement 4 Boufton Blanc, 4 Boufton Noir, 3 Bouftou et 1 Chef de Guerre Bouftou dans la zone, puis revenir auprès de lui pour terminer la quête et obtenir notamment la Clef de la Cour du Bouftou.",
@@ -520,8 +520,8 @@
         "quest:1219"
       ],
       "actions": [
-        "À Tainéla, privilégier les groupes contenant un Chef de Guerre Bouftou afin de viser à la fois le quota de quest:1204 et les prélèvements de quest:1219.",
-        "Compléter en parallèle les 4 Boufton Blanc, 4 Boufton Noir et 3 Bouftou demandés par quest:1204 avant de quitter Tainéla."
+        "À Tainéla, privilégier les groupes contenant un Chef de Guerre Bouftou afin de viser à la fois le quota de La coupe des vices et les prélèvements de Le génie se meut.",
+        "Compléter en parallèle les 4 Boufton Blanc, 4 Boufton Noir et 3 Bouftou demandés par La coupe des vices avant de quitter Tainéla."
       ]
     }
   ]

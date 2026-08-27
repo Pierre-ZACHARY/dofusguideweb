@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 20,
-  "updatedAt": "2026-08-27T12:53:57.608Z",
+  "updatedAt": "2026-08-27T13:32:12.195Z",
   "summaries": [
     {
       "overview": "Badufron vous confie quatre missions de mercenaire à accomplir auprès de quatre habitants d'Astrub et de ses environs. La quête reste ouverte pendant que vous terminez Les as de la cambriole, Déjeuner à la fourchette, Comme un pichon hors de l'eau et La coupe des vices, puis se conclut en faisant votre rapport à Badufron.",
@@ -645,9 +645,9 @@
         "quest:598"
       ],
       "actions": [
-        "Validez les 12 pichons requis pour quest:1202 et rendez la quête à Bart Cousti en [11,-24].",
+        "Validez les 12 pichons requis pour Comme un pichon hors de l'eau et rendez la quête à Bart Cousti en [11,-24].",
         "Récupérez la Clef du Château Ensablé.",
-        "Enchaînez avec le Château Ensablé en [13,-28] pour avancer quest:598."
+        "Enchaînez avec le Château Ensablé en [13,-28] pour avancer [TDM] Donjon en mousse."
       ]
     }
   ]

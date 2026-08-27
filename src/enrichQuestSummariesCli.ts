@@ -49,7 +49,7 @@ try {
     ...(stepMax === undefined ? {} : { stepMax }),
   });
   console.info("[enrichment] " + result.filesWritten + " files · " + result.summariesProcessed + " summaries");
-  console.info("[enrichment] " + result.sourceMetadataRepaired + " source metadata repaired · " + result.itemsResolved + " items resolved");
+  console.info("[enrichment] " + result.sourceMetadataRepaired + " source metadata repaired · " + result.questReferencesResolved + " quest references resolved · " + result.itemsResolved + " items resolved");
   if (result.unresolvedItems.length > 0) {
     console.warn("[enrichment] " + result.unresolvedItems.length + " unresolved items:");
     for (const item of result.unresolvedItems) console.warn("- step " + item.stepNumber + " · " + item.questKey + " · " + item.itemName);

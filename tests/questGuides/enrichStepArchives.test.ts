@@ -4,11 +4,32 @@ import path from "node:path";
 import { describe, expect, it, vi } from "vitest";
 import type { DofusGuideRepository, GuideStepRecord } from "../../src/repositories/contracts.js";
 import { cacheSourceArticle } from "../../src/questGuides/dplnArticleCache.js";
-import { enrichStepArchives } from "../../src/questGuides/enrichStepArchives.js";
+import { enrichStepArchives, resolveQuestTipReferences } from "../../src/questGuides/enrichStepArchives.js";
 import { questGuideStepPath } from "../../src/questGuides/resolveQuestGuides.js";
 import { atomicWriteFile } from "../../src/utils/fs.js";
 
 describe("enrichStepArchives", () => {
+  it("replaces technical quest keys in tip prose with local quest names", () => {
+    const quests = new Map([
+      ["quest:1211", { originalName: "L'histoire en mouvement" }],
+      ["quest:1184", { originalName: "Ça sent le gaz" }],
+    ]);
+    const resolved = resolveQuestTipReferences({
+      title: "Faire quest:1211 et quest:1184 ensemble",
+      description: "Commencez quest:1211 avant quest:1184.",
+      questKeys: ["quest:1211", "quest:1184"],
+      actions: ["Pour quest:1211, parlez à Aisling.", "Terminez quest:1184."],
+    }, { getQuest: (questKey) => quests.get(questKey) } as Pick<DofusGuideRepository, "getQuest">);
+
+    expect(resolved.replacements).toBe(6);
+    expect(resolved.tip).toMatchObject({
+      title: "Faire L'histoire en mouvement et Ça sent le gaz ensemble",
+      description: "Commencez L'histoire en mouvement avant Ça sent le gaz.",
+      questKeys: ["quest:1211", "quest:1184"],
+      actions: ["Pour L'histoire en mouvement, parlez à Aisling.", "Terminez Ça sent le gaz."],
+    });
+  });
+
   it("repairs source metadata and enriches items before an atomic validated write", async () => {
     const root = await mkdtemp(path.join(tmpdir(), "dofusguide-enrichment-"));
     const input = path.join(root, "summaries");
@@ -57,13 +78,19 @@ describe("enrichStepArchives", () => {
         publicItemDirectory: items, itemFetch, itemDelayMs: 0,
       });
       const archive = JSON.parse(await readFile(questGuideStepPath(-1, 9, input), "utf8"));
-      expect(result).toMatchObject({ filesWritten: 1, summariesProcessed: 1, sourceMetadataRepaired: 1, itemsResolved: 1, unresolvedItems: [] });
+      expect(result).toMatchObject({ filesWritten: 1, summariesProcessed: 1, sourceMetadataRepaired: 1, questReferencesResolved: 0, itemsResolved: 1, unresolvedItems: [] });
       expect(archive.summaries[0]).toMatchObject({
         sourceUrl, sourceTitle: "Quête test", sourceHash: "a".repeat(64),
         items: [{ name: "Objet test", itemId: 42, imageUrl: "/items/42.png", dofusDbUrl: "https://dofusdb.fr/fr/database/item/42" }],
         bestiary: { zones: [], bounties: [], archmonsters: [], achievements: [] },
       });
       expect([...await readFile(path.join(items, "42.png"))]).toEqual([1, 2, 3]);
+
+      const unchanged = await enrichStepArchives(repository, {
+        guideId: -1, inputDirectory: input, sourceCacheDirectory: cache, bestiaryCatalogPath: catalog,
+        publicItemDirectory: items, itemFetch, itemDelayMs: 0,
+      });
+      expect(unchanged.filesWritten).toBe(0);
     } finally {
       await rm(root, { recursive: true, force: true });
     }

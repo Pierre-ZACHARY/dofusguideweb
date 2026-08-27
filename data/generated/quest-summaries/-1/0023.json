@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 23,
-  "updatedAt": "2026-08-27T12:53:57.893Z",
+  "updatedAt": "2026-08-27T13:32:12.867Z",
   "summaries": [
     {
       "overview": "Aidez Vaiguy à réunir des ingrédients végétaux dans les Champs d'Astrub, puis protégez-la contre une Poupée Champêtre et les plantes qui l'accompagnent. Cette quête, commencée à l'étape précédente, se termine auprès de Vaiguy et permet de poursuivre Combat de rue.",
@@ -794,7 +794,7 @@
         "quest:1218"
       ],
       "actions": [
-        "Pendant les combats contre Pissenlit Diabolique, Rose Démoniaque, Tournesol Sauvage et Épouvanteur pour quest:1203, conserver leurs ressources ordinaires utiles à quest:1218.",
+        "Pendant les combats contre Pissenlit Diabolique, Rose Démoniaque, Tournesol Sauvage et Épouvanteur pour Déjeuner à la fourchette, conserver leurs ressources ordinaires utiles à Qui sème le vent récolte l'Artempeth.",
         "Avant d'aller voir Nibé Lulle en [3,-21], vérifier que vous avez 1 Fleur de Pissenlit Diabolique, 1 Pétale de Rose Démoniaque, 1 Pétale de Tournesol Sauvage et 1 Langue d’Épouvanteur."
       ]
     }

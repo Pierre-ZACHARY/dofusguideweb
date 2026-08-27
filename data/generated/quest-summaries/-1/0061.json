@@ -2,7 +2,925 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 61,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-27T14:18:12.068Z",
+  "summaries": [
+    {
+      "overview": "Enquêtez sur le sabotage du barrage d'Albuera avec l'aide de Bentlaitue. Vous découvrirez une réunion secrète des P.O.M.S, affronterez ses membres puis ramènerez les responsables à Thorbjarn afin d'établir leur culpabilité et d'amorcer une entente avec les animaux de la forêt.",
+      "recommendedLevel": 50,
+      "prerequisites": [
+        "Association de fureteurs."
+      ],
+      "rewards": [
+        "203 765 XP.",
+        "3 480 Kamas.",
+        "4 x Griffe de grolours."
+      ],
+      "preparation": [
+        "Prévoir 1 combat réalisable en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Rakoopeur pour lancer la quête et confirmer que vous allez rechercher les responsables du sabotage du barrage.",
+          "position": "[40,-84]",
+          "zoneHint": "Refuge Sylvestre",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez les hauteurs d'Albuera et examinez le sandwich posé au sol près de la première marche en rondin afin de rechercher un indice sur le passage secret.",
+          "position": "[37,-84]",
+          "zoneHint": "hauteurs d'Albuera",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Quand quelqu'un approche, cachez-vous derrière le rocher où se trouve un corbac, à droite de la zone, en vous plaçant exactement sur la cellule avec le crâne du squelette.",
+          "position": "[37,-84]",
+          "zoneHint": "hauteurs d'Albuera",
+          "warning": "Le placement indiqué doit être respecté pour poursuivre l'espionnage.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Espionnez Bjarni Amblok lorsqu'il apparaît et observez-le emprunter un passage secret entre deux rochers.",
+          "position": "[37,-84]",
+          "zoneHint": "hauteurs d'Albuera",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez sur l'énorme rocher à gauche pour suivre Bjarni Amblok dans le passage secret.",
+          "position": "[37,-84]",
+          "zoneHint": "hauteurs d'Albuera",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la salle secrète, écoutez discrètement Aster Bou et la réunion des Partisans de l'Oblitération Manigancée des Sauvages, les P.O.M.S. Vous découvrez qu'ils ont saboté le barrage et veulent éliminer les animaux de la forêt.",
+          "position": null,
+          "zoneHint": "salle secrète",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Après avoir été repéré, affrontez Aster Bou et ses acolytes.",
+          "position": null,
+          "zoneHint": "salle secrète",
+          "warning": "Combat obligatoire, réalisable en groupe. Les adversaires disposent notamment de boucliers, bonus de puissance, tacle et PM ainsi que d'attaques eau, air et terre.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, reparlez à Aster Bou. Vous pouvez lui rétorquer que vous avez vaincu des adversaires bien plus coriaces ; l'autre choix proposé fonctionne également.",
+          "position": null,
+          "zoneHint": "salle secrète",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Bentlaitue. Il propose de laisser les animaux de la forêt faire disparaître les saboteurs plutôt que de les remettre à Thorbjarn.",
+          "position": null,
+          "zoneHint": "salle secrète",
+          "warning": "La proposition de Bentlaitue est évoquée dans le dialogue, mais les traîtres sont ensuite ligotés et ramenés à Thorbjarn.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Écoutez Aster Bou, qui préfère affronter la colère de Thorbjarn plutôt que de mourir aux mains des animaux.",
+          "position": null,
+          "zoneHint": "salle secrète",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Après avoir ligoté les traîtres, retournez voir Thorbjarn et racontez-lui ce que vous avez découvert sur les P.O.M.S et le sabotage.",
+          "position": "[36,-77]",
+          "zoneHint": "Nouvelle Albuera",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Écoutez Aster Bou tenter de se faire passer pour une victime en accusant les rebelles de la Futaie.",
+          "position": "[36,-77]",
+          "zoneHint": "Nouvelle Albuera",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Exposez à Thorbjarn votre rencontre avec Rakoopeur et le contenu de la réunion secrète. Il finit par reconnaître la crédibilité de votre récit et comprend que les ouvriers ont mis la colonie en danger.",
+          "position": "[36,-77]",
+          "zoneHint": "Nouvelle Albuera",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Écoutez Bentlaitue défendre Rakoopeur et proposer une entente entre les animaux de la forêt et la colonie.",
+          "position": "[36,-77]",
+          "zoneHint": "Nouvelle Albuera",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Écoutez Thorbjarn s'engager à réduire la chasse contre les animaux de la forêt.",
+          "position": "[36,-77]",
+          "zoneHint": "Nouvelle Albuera",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Écoutez Bentlaitue se réjouir de cet engagement avant de repartir prévenir Rakoopeur.",
+          "position": "[36,-77]",
+          "zoneHint": "Nouvelle Albuera",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez une dernière fois à Thorbjarn. Il vous remercie et vous reconnaît désormais une place au sein de la communauté. La quête se termine ; reparlez-lui ensuite pour débloquer Un événement inattendu.",
+          "position": "[36,-77]",
+          "zoneHint": "Nouvelle Albuera",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête commence immédiatement après Association de fureteurs auprès de Rakoopeur.",
+        "Les deux réponses proposées lors du dialogue avec Aster Bou après le combat permettent de continuer.",
+        "Reparler à Thorbjarn après la fin de la quête débloque Un événement inattendu."
+      ],
+      "npcs": [
+        "Rakoopeur",
+        "Bentlaitue",
+        "Bjarni Amblok",
+        "Aster Bou",
+        "Thorbjarn"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 1026,
+            "name": "Futaie enneigée",
+            "coordinates": [
+              "37,-84"
+            ]
+          },
+          {
+            "id": 1024,
+            "name": "Nouvelle Albuera",
+            "coordinates": [
+              "36,-77"
+            ]
+          },
+          {
+            "id": 1022,
+            "name": "Refuge sylvestre",
+            "coordinates": [
+              "40,-84"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 5910,
+            "name": "Rebelles de la Futaie",
+            "monsters": [
+              {
+                "id": 7192,
+                "name": "Timongouste",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7192.png"
+              },
+              {
+                "id": 7193,
+                "name": "Thomondor",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7193.png"
+              },
+              {
+                "id": 7194,
+                "name": "Buffalourd",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7194.png"
+              },
+              {
+                "id": 7195,
+                "name": "Grolours",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7195.png"
+              },
+              {
+                "id": 7196,
+                "name": "Trankilou",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7196.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1426",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-complote-des-poms.html",
+      "sourceTitle": "La complote des P.O.M.S",
+      "sourceHash": "2921562b283ce815f5a2c731881321155b82b825fadf5e7659fbcefdd3aa879d",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Enchaînez six donjons imposés par Pat Akess en revenant auprès de lui entre chaque étape : Scarafeuilles, Forgerons, Bworks, Larves, Refuge Sylvestre puis Pitons Rocheux des Craqueleurs. Après le dernier retour, rendez-vous auprès de Chris de Naire pour terminer la quête.",
+      "recommendedLevel": 30,
+      "prerequisites": [
+        "Niveau supérieur à 29.",
+        "Le maître des clefs."
+      ],
+      "rewards": [
+        "3 303 660 XP.",
+        "54 192 Kamas.",
+        "1 x Viscères du Scarabosse Doré.",
+        "1 x Poil de Bworkette.",
+        "1 x Dent de Shin Larve.",
+        "1 x Méga Pierre du Craqueleur Légendaire."
+      ],
+      "preparation": [
+        "Prévoir le Donjon des Scarafeuilles.",
+        "Prévoir le Donjon des Forgerons.",
+        "Prévoir le Donjon des Bworks.",
+        "Prévoir le Donjon des Larves.",
+        "Prévoir le Donjon Refuge Sylvestre.",
+        "Prévoir le Donjon Pitons Rocheux des Craqueleurs."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Pat Akess et choisissez « Merci, c’est exactement ce qu’il me faut » pour lancer la série de donjons.",
+          "position": "[5,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuez le Donjon des Scarafeuilles et vainquez le Scarabosse Doré.",
+          "position": "[1,26]",
+          "zoneHint": null,
+          "warning": "Donjon obligatoire.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez auprès de Pat Akess afin d'obtenir la clef du prochain donjon.",
+          "position": "[5,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuez le Donjon des Forgerons et vainquez le Coffre des Forgerons.",
+          "position": "[13,21]",
+          "zoneHint": null,
+          "warning": "Donjon obligatoire.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez auprès de Pat Akess pour recevoir la prochaine clef.",
+          "position": "[5,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuez le Donjon des Bworks et vainquez la Bworkette.",
+          "position": "[-5,10]",
+          "zoneHint": null,
+          "warning": "Donjon obligatoire.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez auprès de Pat Akess afin de recevoir la clef suivante.",
+          "position": "[5,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuez le Donjon des Larves et vainquez la Shin Larve.",
+          "position": "[-2,-5]",
+          "zoneHint": null,
+          "warning": "Donjon obligatoire.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez auprès de Pat Akess pour obtenir la clef du prochain donjon.",
+          "position": "[5,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuez le Refuge Sylvestre et vainquez Rakoopeur.",
+          "position": "[40,-84]",
+          "zoneHint": "Refuge Sylvestre",
+          "warning": "Donjon obligatoire. L'archipel de Valonia est accessible en bateau depuis Amakna en [10,-3].",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez auprès de Pat Akess afin d'obtenir la clef du dernier donjon.",
+          "position": "[5,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuez le donjon Pitons Rocheux des Craqueleurs et vainquez le Craqueleur Légendaire.",
+          "position": "[-3,-7]",
+          "zoneHint": null,
+          "warning": "Donjon obligatoire.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez une dernière fois auprès de Pat Akess. Il n'a plus de donjon à vous confier et vous oriente vers une autre personne.",
+          "position": "[5,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir Chris de Naire et choisissez « Calmez-vous, je m’en vais ». La quête se termine et Un juge hystérique est débloquée.",
+          "position": "[-29,-47]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "L'ordre des six donjons est imposé par les retours successifs auprès de Pat Akess.",
+        "Pour rejoindre l'archipel de Valonia et le Refuge Sylvestre, le bateau part d'Amakna en [10,-3]."
+      ],
+      "npcs": [
+        "Pat Akess",
+        "Chris de Naire",
+        "Scarabosse Doré",
+        "Coffre des Forgerons",
+        "Bworkette",
+        "Shin Larve",
+        "Rakoopeur",
+        "Craqueleur Légendaire"
+      ],
+      "items": [
+        {
+          "name": "Viscères du Scarabosse Doré",
+          "itemId": 8137,
+          "imageUrl": "/items/8137.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8137"
+        },
+        {
+          "name": "Poil de Bworkette",
+          "itemId": 8389,
+          "imageUrl": "/items/8389.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8389"
+        },
+        {
+          "name": "Dent de Shin Larve",
+          "itemId": 8386,
+          "imageUrl": "/items/8386.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8386"
+        },
+        {
+          "name": "Méga Pierre du Craqueleur Légendaire",
+          "itemId": 8394,
+          "imageUrl": "/items/8394.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8394"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 284,
+            "name": "Donjon des Bworks",
+            "coordinates": [
+              "-5,10"
+            ]
+          },
+          {
+            "id": 528,
+            "name": "Donjon des Forgerons",
+            "coordinates": [
+              "13,21"
+            ]
+          },
+          {
+            "id": 491,
+            "name": "Donjon des Larves",
+            "coordinates": [
+              "-2,-5"
+            ]
+          },
+          {
+            "id": 297,
+            "name": "Donjon des Scarafeuilles",
+            "coordinates": [
+              "1,26"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-29,-47"
+            ]
+          },
+          {
+            "id": 243,
+            "name": "Pitons Rocheux des Craqueleurs",
+            "coordinates": [
+              "-3,-7"
+            ]
+          },
+          {
+            "id": 1022,
+            "name": "Refuge sylvestre",
+            "coordinates": [
+              "40,-84",
+              "10,-3"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "5,0"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 155,
+                "name": "Bandit du clan des Roublards",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/155.png"
+              },
+              {
+                "id": 153,
+                "name": "Boulanger Sombre",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/153.png"
+              },
+              {
+                "id": 119,
+                "name": "Forgeron Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/119.png"
+              },
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 182,
+            "name": "Bworks d'Amakna",
+            "monsters": [
+              {
+                "id": 876,
+                "name": "Bwork",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/876.png"
+              },
+              {
+                "id": 74,
+                "name": "Bwork Archer",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/74.png"
+              },
+              {
+                "id": 53,
+                "name": "Bwork Mage",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/53.png"
+              }
+            ]
+          },
+          {
+            "id": 186,
+            "name": "Craqueleurs",
+            "monsters": [
+              {
+                "id": 483,
+                "name": "Craqueboule",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/483.png"
+              },
+              {
+                "id": 106,
+                "name": "Craqueleur",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/106.png"
+              },
+              {
+                "id": 293,
+                "name": "Craqueleur des Plaines",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/293.png"
+              },
+              {
+                "id": 4570,
+                "name": "Élémenterre",
+                "level": 59,
+                "imageUrl": "/bestiary/monsters/4570.png"
+              },
+              {
+                "id": 4573,
+                "name": "Craquelope",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4573.png"
+              }
+            ]
+          },
+          {
+            "id": 1667,
+            "name": "Grosses Larves",
+            "monsters": [
+              {
+                "id": 456,
+                "name": "Larve Dorée",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/456.png"
+              },
+              {
+                "id": 413,
+                "name": "Larve Rubis",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/413.png"
+              },
+              {
+                "id": 412,
+                "name": "Larve Saphir",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/412.png"
+              },
+              {
+                "id": 414,
+                "name": "Larve Émeraude",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/414.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 5910,
+            "name": "Rebelles de la Futaie",
+            "monsters": [
+              {
+                "id": 7192,
+                "name": "Timongouste",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7192.png"
+              },
+              {
+                "id": 7193,
+                "name": "Thomondor",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7193.png"
+              },
+              {
+                "id": 7194,
+                "name": "Buffalourd",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7194.png"
+              },
+              {
+                "id": 7195,
+                "name": "Grolours",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7195.png"
+              },
+              {
+                "id": 7196,
+                "name": "Trankilou",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7196.png"
+              }
+            ]
+          },
+          {
+            "id": 181,
+            "name": "Scarafeuilles",
+            "monsters": [
+              {
+                "id": 198,
+                "name": "Scarafeuille Bleu",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/198.png"
+              },
+              {
+                "id": 241,
+                "name": "Scarafeuille Blanc",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/241.png"
+              },
+              {
+                "id": 798,
+                "name": "Scarafeuille Immature",
+                "level": 30,
+                "imageUrl": "/bestiary/monsters/798.png"
+              },
+              {
+                "id": 795,
+                "name": "Scarafeuille Noir",
+                "level": 36,
+                "imageUrl": "/bestiary/monsters/795.png"
+              },
+              {
+                "id": 194,
+                "name": "Scarafeuille Rouge",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/194.png"
+              },
+              {
+                "id": 240,
+                "name": "Scarafeuille Vert",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/240.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:72",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/les-sbires-du-maitre.html",
+      "sourceTitle": "Les sbires du maître",
+      "sourceHash": "7c10eda9882de09ddfc4382dd7b1a19975b0d440cb5650952c88bd9090327f17",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Achetez un voyage promotionnel vers l'île de Moon auprès de l'agence Touriste, équipez le Ticket pour l'île de Moon ainsi qu'un Casque et des Ailes en bois, puis utilisez le canon. Une fois arrivé sur l'île, discutez avec l'employée de l'agence afin de découvrir les lieux et terminer la quête.",
+      "recommendedLevel": 50,
+      "prerequisites": [],
+      "rewards": [
+        "101 882 XP.",
+        "1 740 kamas.",
+        "2 x Noix de Kokoko."
+      ],
+      "preparation": [
+        "Prévoir 1 000 kamas pour acheter le voyage.",
+        "Prévoir 1 x Casque.",
+        "Prévoir 1 x Ailes en bois.",
+        "La source mentionne pour la préparation du Casque et des Ailes : 1 x Bois Vermoulu, 1 x Coton Ancestral, 2 x Substrat de Buisson et 1 x Fil de soie."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à la représentante de l'agence Touriste dans la Clairière de Brouce Boulgoure. Elle vous propose un voyage vers l'île de Moon à moitié prix.",
+          "position": "[11,10]",
+          "zoneHint": "Clairière de Brouce Boulgoure",
+          "warning": "Le voyage coûte 1 000 kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Achetez le voyage pour recevoir un Ticket pour l'île de Moon.",
+          "position": "[11,10]",
+          "zoneHint": "Clairière de Brouce Boulgoure",
+          "warning": "Dépense obligatoire de 1 000 kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Équipez-vous du Ticket pour l'île de Moon, d'un Casque et d'Ailes en bois.",
+          "position": "[11,10]",
+          "zoneHint": "Clairière de Brouce Boulgoure",
+          "warning": "Les trois éléments doivent être équipés avant d'utiliser le mécanisme du canon.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Actionnez le mécanisme du canon pour voyager jusqu'à l'Île de Moon.",
+          "position": "[11,10]",
+          "zoneHint": "Clairière de Brouce Boulgoure",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À votre arrivée, parlez à l'employée de l'agence Touriste afin de vous renseigner sur les habitants et sur l'île.",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez-la sur les activités disponibles. Elle évoque notamment la plage, les Kannibouls, la zone contrôlée par les pirates et la jungle tropicale.",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Terminez la discussion pour achever la quête. En poursuivant ensuite la conversation, vous débloquez Un parfum de vacances.",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le voyage vers l'île de Moon est annoncé à 50 % de son tarif habituel et coûte ici 1 000 kamas.",
+        "Continuer la discussion après la fin de la quête débloque Un parfum de vacances."
+      ],
+      "npcs": [
+        "Représentante de l'agence Touriste",
+        "Employée de l'agence Touriste"
+      ],
+      "items": [
+        {
+          "name": "Ticket pour l'île de Moon",
+          "itemId": 1089,
+          "imageUrl": "/items/1089.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1089"
+        },
+        {
+          "name": "Casque",
+          "itemId": 2158,
+          "imageUrl": "/items/2158.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2158"
+        },
+        {
+          "name": "Ailes en bois",
+          "itemId": 2160,
+          "imageUrl": "/items/2160.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2160"
+        },
+        {
+          "name": "Bois Vermoulu",
+          "itemId": 16487,
+          "imageUrl": "/items/16487.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16487"
+        },
+        {
+          "name": "Coton Ancestral",
+          "itemId": 641,
+          "imageUrl": "/items/641.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/641"
+        },
+        {
+          "name": "Substrat de Buisson",
+          "itemId": 2539,
+          "imageUrl": "/items/2539.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2539"
+        },
+        {
+          "name": "Fil de soie",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 481,
+            "name": "Clairière de Brouce Boulgoure",
+            "coordinates": [
+              "11,10"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2336,
+            "name": "Mosketère le Dévoué",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2336.png"
+          },
+          {
+            "id": 2353,
+            "name": "Sangria le Fruité",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2353.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 104,
+                "name": "Sanglier",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/104.png"
+              }
+            ]
+          },
+          {
+            "id": 1602,
+            "name": "Vermines des champs",
+            "monsters": [
+              {
+                "id": 4819,
+                "name": "Campagnoll",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/4819.png"
+              },
+              {
+                "id": 61,
+                "name": "Moskito",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/61.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:931",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/partir-un-jour-sans-retour.html",
+      "sourceTitle": "Partir un jour sans retour",
+      "sourceHash": "a7c9d6644c8d53cfc2a7b44afe26f386c47ca2136e6acfb593abfe7ec1d5709e",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Profiter du Refuge Sylvestre",
+      "description": "Si Les sbires du maître est déjà rendu à l'étape demandant de vaincre Rakoopeur, profitez de votre passage au Refuge Sylvestre autour de La complote des P.O.M.S pour regrouper les objectifs liés à ce lieu.",
+      "questKeys": [
+        "quest:1426",
+        "quest:72"
+      ],
+      "actions": [
+        "Vérifiez que Les sbires du maître demande actuellement de vaincre Rakoopeur avant d'entrer dans le Refuge Sylvestre.",
+        "Effectuez le Refuge Sylvestre et validez la victoire sur Rakoopeur pour [TDM] Les sbires du maître.",
+        "Poursuivez ensuite La complote des P.O.M.S auprès de Rakoopeur en [40,-84] si son étape de lancement est disponible."
+      ]
+    }
+  ]
 }

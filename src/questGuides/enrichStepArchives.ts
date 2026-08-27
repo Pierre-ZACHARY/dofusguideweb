@@ -9,7 +9,13 @@ import { cacheSourceArticle, canonicalSourceUrl, loadCachedSourceArticle } from 
 import { fetchDplnArticle } from "./fetchDplnArticle.js";
 import { resolveQuestGuideItems, type ResolveDofusDbItemsOptions } from "./resolveDofusDbItems.js";
 import { resolveGuideStepItems } from "./resolveGuideStepItems.js";
-import { questGuideContentSchema, questGuideStepArchiveSchema, questGuideStepTipSchema, type QuestGuideSummary } from "./types.js";
+import {
+  questGuideContentSchema,
+  questGuideStepArchiveSchema,
+  questGuideStepTipSchema,
+  type QuestGuideStepTip,
+  type QuestGuideSummary,
+} from "./types.js";
 import { questGuideStepPath } from "./resolveQuestGuides.js";
 
 const rawArchiveSchema = z.object({
@@ -40,12 +46,35 @@ export interface EnrichStepArchivesResult {
   filesWritten: number;
   summariesProcessed: number;
   sourceMetadataRepaired: number;
+  questReferencesResolved: number;
   itemsResolved: number;
   unresolvedItems: Array<{ stepNumber: number; questKey: string; itemName: string }>;
 }
 
 function sameSourceMetadata(raw: Record<string, unknown>, article: { sourceUrl: string; title: string; sourceHash: string }): boolean {
   return raw.sourceUrl === article.sourceUrl && raw.sourceTitle === article.title && raw.sourceHash === article.sourceHash;
+}
+
+export function resolveQuestTipReferences(
+  tip: QuestGuideStepTip,
+  repository: Pick<DofusGuideRepository, "getQuest">,
+): { tip: QuestGuideStepTip; replacements: number } {
+  let replacements = 0;
+  const replace = (value: string): string => value.replace(/\bquest:\d+\b/gu, (questKey) => {
+    const questName = repository.getQuest(questKey)?.originalName?.trim();
+    if (!questName) return questKey;
+    replacements += 1;
+    return questName;
+  });
+  return {
+    tip: {
+      ...tip,
+      title: replace(tip.title),
+      description: replace(tip.description),
+      actions: tip.actions.map(replace),
+    },
+    replacements,
+  };
 }
 
 export async function enrichStepArchives(
@@ -60,6 +89,7 @@ export async function enrichStepArchives(
     filesWritten: 0,
     summariesProcessed: 0,
     sourceMetadataRepaired: 0,
+    questReferencesResolved: 0,
     itemsResolved: 0,
     unresolvedItems: [],
   };
@@ -124,13 +154,30 @@ export async function enrichStepArchives(
       result.summariesProcessed += 1;
     }
 
-    const archive = questGuideStepArchiveSchema.parse({
+    const tips = rawArchive.tips.map((tip) => {
+      const resolved = resolveQuestTipReferences(tip, repository);
+      result.questReferencesResolved += resolved.replacements;
+      return resolved.tip;
+    });
+    const contents = {
       version: 2,
       guideId: options.guideId,
       stepNumber: step.stepNumber,
-      updatedAt: new Date().toISOString(),
       summaries,
+      tips,
+    } as const;
+    const previousContents = {
+      version: rawArchive.version,
+      guideId: rawArchive.guideId,
+      stepNumber: rawArchive.stepNumber,
+      summaries: rawArchive.summaries,
       tips: rawArchive.tips,
+    };
+    if (JSON.stringify(contents) === JSON.stringify(previousContents)) continue;
+
+    const archive = questGuideStepArchiveSchema.parse({
+      ...contents,
+      updatedAt: new Date().toISOString(),
     });
     await atomicWriteFile(filePath, Buffer.from(JSON.stringify(archive, null, 2) + "\n", "utf8"));
     result.filesWritten += 1;

@@ -2,106 +2,143 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 116,
-  "updatedAt": "2026-08-27T12:55:04.720Z",
+  "updatedAt": "2026-08-27T15:07:29.342Z",
   "summaries": [
     {
-      "overview": "Mériana vous révèle que le Dofus Pourpre est gardé par le Minotoror. Pour vous en emparer, il vous faut le Livre des Taures. Elle ignore où en trouver, vous devez donc faire le tour des bibliothèques de Bonta, Brakmar, Sufokia, Amakna, Pandala et Astrub pour en dénicher un exemplaire avant d'affronter le Donjon Bibliothèque du Maitre Corbac.",
+      "overview": "Mériana vous charge de retrouver le Livre des Taures afin de poursuivre votre recherche du Dofus Pourpre. Après une tournée de plusieurs bibliothèques, la piste mène à la Bibliothèque du Maître Corbac. Il faut ensuite y récupérer le Livre des Taures ainsi qu'un Os, puis rapporter les deux objets à Mériana.",
       "recommendedLevel": 110,
       "prerequisites": [
-        "La magicienne des marécages"
+        "La magicienne des marécages."
       ],
       "rewards": [
-        "3 116 628 XP",
-        "34 272 kamas",
-        "3 x Tissu Sombre"
+        "3 116 628 XP.",
+        "34 272 kamas.",
+        "3 x Tissu Sombre."
       ],
       "preparation": [
-        "1 x combat (seul)",
-        "1 x Donjon Bibliothèque du Maitre Corbac"
+        "Prévoir 1 combat en solo.",
+        "Prévoir 1 passage dans le Donjon Bibliothèque du Maitre Corbac."
       ],
       "actions": [
         {
-          "instruction": "Allez en [-6,-3] aux Marécages nauséabonds et parlez à Mériana du Dofus Pourpre.",
+          "instruction": "Parlez à Mériana du Dofus Pourpre afin qu'elle vous demande de retrouver le Livre des Taures.",
           "position": "[-6,-3]",
           "zoneHint": "Marécages nauséabonds",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Allez à la bibliothèque de Bonta en [-35,-57] et parlez à Marcelle Rouste du Livre des Taures.",
+          "instruction": "Rendez-vous à la bibliothèque de Bonta et interrogez Marcelle Rouste au sujet du Livre des Taures.",
           "position": "[-35,-57]",
           "zoneHint": "Bonta",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Allez à Brakmar en [-24,39] et parlez à Jean-Sol Patre du Livre des Taures.",
+          "instruction": "Allez à la bibliothèque de Brakmar et questionnez Jean-Sol Patre sur le livre.",
           "position": "[-24,39]",
           "zoneHint": "Brakmar",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Allez à Sufokia en [20,25] et parlez au Docteur Hou du Livre des Taures.",
+          "instruction": "Poursuivez vos recherches à Sufokia auprès du Docteur Hou.",
           "position": "[20,25]",
           "zoneHint": "Sufokia",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Allez à la bibliothèque d'Amakna pour chercher le Livre des Taures.",
-          "position": null,
+          "instruction": "Interrogez Harry Stote à la bibliothèque d'Amakna.",
+          "position": "[4,1]",
           "zoneHint": "Amakna",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Allez à la bibliothèque de Pandala pour chercher le Livre des Taures.",
-          "position": null,
+          "instruction": "Faites un détour par Pandala et demandez des informations à Narber Rihen Levihawa.",
+          "position": "[21,-27]",
           "zoneHint": "Pandala",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Allez à la bibliothèque d'Astrub pour chercher le Livre des Taures.",
-          "position": null,
+          "instruction": "Rendez-vous dans le grenier de la bibliothèque d'Astrub et parlez à Oz Dralett. La discussion déclenche une attaque de roublards.",
+          "position": "[7,-19]",
           "zoneHint": "Astrub",
+          "warning": "Le combat s'effectue seul. Une défaite n'empêche pas la quête de se mettre à jour.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Retournez voir Mériana et parlez-lui du Maître Corbac.",
+          "position": "[-6,-3]",
+          "zoneHint": "Marécages nauséabonds",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Affrontez le Donjon Bibliothèque du Maitre Corbac en combat seul.",
-          "position": null,
-          "zoneHint": null,
-          "warning": "Combat en solo obligatoire.",
-          "combat": "SOLO"
+          "instruction": "Parcourez la Bibliothèque du Maitre Corbac afin d'obtenir le Livre des Taures et l'Os demandés par Mériana.",
+          "position": "[-15,-62]",
+          "zoneHint": "Bibliothèque du Maitre Corbac",
+          "warning": "Cette étape nécessite le donjon Bibliothèque du Maitre Corbac.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Une fois le Livre des Taures et l'Os en votre possession, retournez auprès de Mériana et donnez-lui les deux objets pour terminer la quête.",
+          "position": "[-6,-3]",
+          "zoneHint": "Marécages nauséabonds",
+          "warning": null,
+          "combat": "NONE"
         }
       ],
       "notes": [
-        "Pour vous rendre en [-6,-3], utilisez le dossier \"Chemin vers Mériana\"."
+        "Après la remise des objets, vous pouvez poursuivre la discussion avec Mériana pour obtenir la quête Taures et détours."
       ],
       "npcs": [
         "Mériana",
         "Marcelle Rouste",
         "Jean-Sol Patre",
-        "Docteur Hou"
+        "Docteur Hou",
+        "Harry Stote",
+        "Narber Rihen Levihawa",
+        "Oz Dralett"
       ],
       "items": [
-        {
-          "name": "Tissu Sombre",
-          "itemId": 2285,
-          "imageUrl": "/items/2285.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2285"
-        },
         {
           "name": "Livre des Taures",
           "itemId": 15417,
           "imageUrl": "/items/15417.png",
           "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15417"
+        },
+        {
+          "name": "Os",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Tissu Sombre",
+          "itemId": 2285,
+          "imageUrl": "/items/2285.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2285"
         }
       ],
       "bestiary": {
         "zones": [
+          {
+            "id": 1038,
+            "name": "Bibliothèque du Maître Corbac",
+            "coordinates": [
+              "-15,-62"
+            ]
+          },
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "7,-19"
+            ]
+          },
           {
             "id": 975,
             "name": "Cœur immaculé",
@@ -129,9 +166,30 @@
             "coordinates": [
               "20,25"
             ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "4,1"
+            ]
+          },
+          {
+            "id": 951,
+            "name": "Village de Pandala",
+            "coordinates": [
+              "21,-27"
+            ]
           }
         ],
-        "bounties": [],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
         "archmonsters": [
           {
             "id": 2343,
@@ -186,9 +244,63 @@
             "name": "Crok le Beau",
             "level": 61,
             "imageUrl": "/bestiary/monsters/2428.png"
+          },
+          {
+            "id": 2437,
+            "name": "Corpat le Vampire",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2437.png"
           }
         ],
         "achievements": [
+          {
+            "id": 211,
+            "name": "Corbacs",
+            "monsters": [
+              {
+                "id": 818,
+                "name": "Corbac Apprivoisé",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/818.png"
+              },
+              {
+                "id": 819,
+                "name": "Buveur",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/819.png"
+              },
+              {
+                "id": 281,
+                "name": "Corbac",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/281.png"
+              },
+              {
+                "id": 824,
+                "name": "Horace le Corbac Apprivoisé",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/824.png"
+              },
+              {
+                "id": 825,
+                "name": "Kapotie le Buveur",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/825.png"
+              },
+              {
+                "id": 820,
+                "name": "Renarbo",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/820.png"
+              },
+              {
+                "id": 823,
+                "name": "Rono le Renarbo",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/823.png"
+              }
+            ]
+          },
           {
             "id": 208,
             "name": "Gadouilleux",
@@ -267,124 +379,125 @@
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-livre-des-taures.html",
       "sourceTitle": "Le livre des Taures",
       "sourceHash": "ec9079fe1d4ccfcdedd8914b002159a9d67eeafbc3b43af72535d48d877571e5",
-      "generatedAt": "2026-08-24T17:42:28.356Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     },
     {
-      "overview": "Lancez la quête auprès de Kal Vissi en [-19,30] aux Terres Désacrées, puis enchaînez cinq donjons : Bibliothèque du Maître Corbac, Serre du Royalmouth, Labyrinthe du Minotoror, Tofulailler Royal et Antre de Crocabulia. Après chaque donjon, retournez voir Kal Vissi pour obtenir la clé du suivant.",
-      "recommendedLevel": 50,
+      "overview": "Kal Vissi vous confie une série de cinq donjons à accomplir successivement : Bibliothèque du Maître Corbac, Serre du Royalmouth, Labyrinthe du Minotoror, Tofulailler Royal et Antre de Crocabulia. Après chaque victoire, il faut revenir auprès de Kal Vissi avant de partir vers le donjon suivant. La quête s'achève auprès du Maître des clefs.",
+      "recommendedLevel": 30,
       "prerequisites": [
-        "Niveau supérieur à 29",
-        "Quête Un juge hystérique"
+        "Niveau > 29.",
+        "Un juge hystérique."
       ],
       "rewards": [
-        "18 651 520 XP",
-        "195 360 Kamas",
-        "1 x Clakoss",
-        "1 x Queue du Royalmouth",
-        "1 x Corne Brûlée du Minotoror",
-        "1 x Plume Vibrante du Tofu Royal",
-        "1 x Corne brisée de Crocabulia"
+        "18 651 520 XP.",
+        "195 360 Kamas.",
+        "1 x Clakoss.",
+        "1 x Queue du Royalmouth.",
+        "1 x Corne Brûlée du Minotoror.",
+        "1 x Plume Vibrante du Tofu Royal.",
+        "1 x Corne brisée de Crocabulia."
       ],
       "preparation": [
-        "Donjon Bibliothèque du Maître Corbac",
-        "Donjon Serre du Royalmouth",
-        "Donjon Labyrinthe du Minotoror",
-        "Donjon Tofulailler Royal",
-        "Antre de Crocabulia (donjon)"
+        "Prévoir 1 Donjon Bibliothèque du Maître Corbac.",
+        "Prévoir 1 Donjon Serre du Royalmouth.",
+        "Prévoir 1 Donjon Labyrinthe du Minotoror.",
+        "Prévoir 1 Donjon Tofulailler Royal.",
+        "Prévoir 1 Antre de Crocabulia."
       ],
       "actions": [
         {
-          "instruction": "Aller en [-19,30] et parler à Kal Vissi pour lancer la quête.",
+          "instruction": "Parlez à Kal Vissi et acceptez sa mission.",
           "position": "[-19,30]",
           "zoneHint": "Terres Désacrées",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller en [-15,-62] dans le donjon Bibliothèque du Maître Corbac et vaincre le Maître Corbac.",
+          "instruction": "Vainquez le Maître Corbac dans la Bibliothèque du Maître Corbac.",
           "position": "[-15,-62]",
-          "zoneHint": null,
-          "warning": "Combat de donjon contre le Maître Corbac.",
+          "zoneHint": "Bibliothèque du Maître Corbac",
+          "warning": "Donjon requis.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Retourner en [-19,30] parler à Kal Vissi pour obtenir la clé du prochain donjon.",
+          "instruction": "Retournez auprès de Kal Vissi afin de recevoir la clef du prochain donjon.",
           "position": "[-19,30]",
           "zoneHint": "Terres Désacrées",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller en [-34,-16] prendre le bateau pour Frigost I.",
-          "position": "[-34,-16]",
-          "zoneHint": null,
-          "warning": "Niveau 50 minimum requis pour accéder à Frigost I.",
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller en [-84,-49] dans le donjon Serre du Royalmouth et vaincre le Royalmouth.",
+          "instruction": "Vainquez le Royalmouth dans la Serre du Royalmouth.",
           "position": "[-84,-49]",
-          "zoneHint": null,
-          "warning": "Combat de donjon contre le Royalmouth.",
+          "zoneHint": "Serre du Royalmouth",
+          "warning": "L'accès nécessite Frigost I. Pour un premier voyage vers Frigost, le bateau se prend en [-34,-16] et nécessite au minimum le niveau 50.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Retourner en [-19,30] parler à Kal Vissi pour obtenir la clé du prochain donjon.",
+          "instruction": "Retournez auprès de Kal Vissi afin de recevoir la clef du prochain donjon.",
           "position": "[-19,30]",
           "zoneHint": "Terres Désacrées",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller en [-42,-17] dans le donjon Labyrinthe du Minotoror et vaincre le Minotoror.",
+          "instruction": "Vainquez le Minotoror dans le Labyrinthe du Minotoror.",
           "position": "[-42,-17]",
-          "zoneHint": null,
-          "warning": "Combat de donjon contre le Minotoror. Il est recommandé d'entrer dans la salle du Minotot avant de quitter pour obtenir une sauvegarde utile pour une prochaine quête.",
+          "zoneHint": "Labyrinthe du Minotoror",
+          "warning": "La source recommande d'entrer dans la salle du Minotot avant de quitter le donjon afin d'obtenir une sauvegarde utile pour une quête ultérieure.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Retourner en [-19,30] parler à Kal Vissi pour obtenir la clé du prochain donjon.",
+          "instruction": "Retournez auprès de Kal Vissi afin de recevoir la clef du prochain donjon.",
           "position": "[-19,30]",
           "zoneHint": "Terres Désacrées",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller dans le donjon Tofulailler Royal et vaincre le Tofu Royal.",
-          "position": null,
-          "zoneHint": null,
-          "warning": "Combat de donjon contre le Tofu Royal.",
+          "instruction": "Vainquez le Tofu Royal dans le Tofulailler Royal.",
+          "position": "[5,6]",
+          "zoneHint": "Tofulailler Royal",
+          "warning": "Donjon requis.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Retourner en [-19,30] parler à Kal Vissi pour obtenir la clé du prochain donjon.",
+          "instruction": "Retournez auprès de Kal Vissi afin de recevoir la clef du prochain donjon.",
           "position": "[-19,30]",
           "zoneHint": "Terres Désacrées",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller dans l'Antre de Crocabulia et vaincre Crocabulia.",
-          "position": null,
-          "zoneHint": null,
-          "warning": "Combat de donjon contre Crocabulia.",
+          "instruction": "Vainquez Crocabulia dans l'Antre de Crocabulia.",
+          "position": "[-2,25]",
+          "zoneHint": "Antre de Crocabulia",
+          "warning": "Pour atteindre l'entrée, descendez d'abord dans le sanctuaire en [-4,24] et parlez à Ziho.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Retourner en [-19,30] parler à Kal Vissi pour terminer la quête.",
+          "instruction": "Après le dernier donjon, retournez auprès de Kal Vissi. Il vous demande alors de rejoindre le Maître des clefs.",
           "position": "[-19,30]",
           "zoneHint": "Terres Désacrées",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Maître des clefs et poursuivez votre quête pour terminer cette mission.",
+          "position": "[-6,-37]",
+          "zoneHint": null,
           "warning": null,
           "combat": "NONE"
         }
       ],
       "notes": [
-        "Il est recommandé d'entrer dans la salle du Minotot avant de quitter le Labyrinthe du Minotoror pour obtenir une sauvegarde utile dans une prochaine quête.",
-        "L'accès à Frigost I nécessite le bateau en [-34,-16] et un niveau minimum de 50."
+        "En poursuivant la discussion avec le Maître des clefs après la fin, vous obtenez la quête La voie du guerrier."
       ],
       "npcs": [
-        "Kal Vissi"
+        "Kal Vissi",
+        "Ziho",
+        "Maître des clefs"
       ],
       "items": [
         {
@@ -421,10 +534,11 @@
       "bestiary": {
         "zones": [
           {
-            "id": 334,
-            "name": "Baie de Cania",
+            "id": 325,
+            "name": "Antre de Crocabulia",
             "coordinates": [
-              "-34,-16"
+              "-2,25",
+              "-4,24"
             ]
           },
           {
@@ -442,10 +556,18 @@
             ]
           },
           {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-6,-37"
+            ]
+          },
+          {
             "id": 617,
             "name": "Serre du Royalmouth",
             "coordinates": [
-              "-84,-49"
+              "-84,-49",
+              "-34,-16"
             ]
           },
           {
@@ -454,47 +576,17 @@
             "coordinates": [
               "-19,30"
             ]
-          }
-        ],
-        "bounties": [
+          },
           {
-            "id": 552,
-            "name": "Musha L'Oni",
-            "level": 80,
-            "imageUrl": "/bestiary/monsters/552.png"
+            "id": 780,
+            "name": "Tofulailler Royal",
+            "coordinates": [
+              "5,6"
+            ]
           }
         ],
+        "bounties": [],
         "archmonsters": [
-          {
-            "id": 2391,
-            "name": "Ameur la Laide",
-            "level": 35,
-            "imageUrl": "/bestiary/monsters/2391.png"
-          },
-          {
-            "id": 2433,
-            "name": "Codenlgaz le Problème",
-            "level": 35,
-            "imageUrl": "/bestiary/monsters/2433.png"
-          },
-          {
-            "id": 2508,
-            "name": "Kiroyal le Sirupeux",
-            "level": 35,
-            "imageUrl": "/bestiary/monsters/2508.png"
-          },
-          {
-            "id": 2525,
-            "name": "Let le Rond",
-            "level": 35,
-            "imageUrl": "/bestiary/monsters/2525.png"
-          },
-          {
-            "id": 2289,
-            "name": "Susbewl l'Hypocrite",
-            "level": 35,
-            "imageUrl": "/bestiary/monsters/2289.png"
-          },
           {
             "id": 2437,
             "name": "Corpat le Vampire",
@@ -600,44 +692,38 @@
             ]
           },
           {
-            "id": 1068,
-            "name": "Dopeuls",
+            "id": 178,
+            "name": "Dragoeufs Protecteurs",
             "monsters": [
               {
-                "id": 385,
-                "name": "Amlub",
-                "level": 35,
-                "imageUrl": "/bestiary/monsters/385.png"
+                "id": 853,
+                "name": "Dragnarok",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/853.png"
               },
               {
-                "id": 386,
-                "name": "Codem",
-                "level": 35,
-                "imageUrl": "/bestiary/monsters/386.png"
+                "id": 862,
+                "name": "Draguaindrop",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/862.png"
               },
               {
-                "id": 570,
-                "name": "Idemas",
-                "level": 35,
-                "imageUrl": "/bestiary/monsters/570.png"
+                "id": 855,
+                "name": "Dragueuse",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/855.png"
               },
               {
-                "id": 388,
-                "name": "Kirevam",
-                "level": 35,
-                "imageUrl": "/bestiary/monsters/388.png"
+                "id": 5804,
+                "name": "Dragacé",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/5804.png"
               },
               {
-                "id": 389,
-                "name": "Let Emoliug",
-                "level": 35,
-                "imageUrl": "/bestiary/monsters/389.png"
-              },
-              {
-                "id": 393,
-                "name": "Susej",
-                "level": 35,
-                "imageUrl": "/bestiary/monsters/393.png"
+                "id": 5805,
+                "name": "Dragmatique",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/5805.png"
               }
             ]
           },
@@ -668,6 +754,42 @@
                 "name": "Goultime",
                 "level": 200,
                 "imageUrl": "/bestiary/monsters/4880.png"
+              }
+            ]
+          },
+          {
+            "id": 206,
+            "name": "Gros Tofus",
+            "monsters": [
+              {
+                "id": 3302,
+                "name": "Tofu Dodu",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3302.png"
+              },
+              {
+                "id": 3301,
+                "name": "Tofubine",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3301.png"
+              },
+              {
+                "id": 3300,
+                "name": "Tofutoflamme",
+                "level": 108,
+                "imageUrl": "/bestiary/monsters/3300.png"
+              },
+              {
+                "id": 807,
+                "name": "Tofuzmo",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/807.png"
+              },
+              {
+                "id": 3299,
+                "name": "Vilain Petit Tofu",
+                "level": 103,
+                "imageUrl": "/bestiary/monsters/3299.png"
               }
             ]
           },
@@ -706,6 +828,18 @@
                 "imageUrl": "/bestiary/monsters/829.png"
               }
             ]
+          },
+          {
+            "id": 205,
+            "name": "Tofus",
+            "monsters": [
+              {
+                "id": 98,
+                "name": "Tofu",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/98.png"
+              }
+            ]
           }
         ]
       },
@@ -713,73 +847,96 @@
       "sourceUrl": "https://www.dofuspourlesnoobs.com/des-donjons-encore-des-donjons.html",
       "sourceTitle": "Des donjons, encore des donjons",
       "sourceHash": "b13c418c97b8d82cbf9ac712ef9e4a15acc8ffba6cd80d25800afbac9ac64d98",
-      "generatedAt": "2026-08-24T18:04:12.264Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     },
     {
-      "overview": "Quête du succès « Tu peux toujours te gratter ». Le Docteur Gaw vous demande de récolter 5 Oeufs d'Ecaflipuce dans les Pierres de l'élévation à Ecaflipus, puis de les remettre au sergent Blaste.",
+      "overview": "Le Docteur Gaw vous demande de récupérer cinq oeufs d'Ecaflipuces dans les Pierres de l'élévation d'Ecaflipus. Les oeufs sont prélevés sur cinq points de collecte et chaque interaction peut provoquer une agression par une Ecaflipuce vigilante. Une fois les cinq oeufs réunis, remettez-les au sergent Blaste.",
       "recommendedLevel": 110,
-      "prerequisites": [
-        "Niveau recommandé 110"
-      ],
+      "prerequisites": [],
       "rewards": [
-        "1 298 594 XP",
-        "14 280 kamas",
-        "15 x Orichor",
-        "5 x Patte de Pupuce"
+        "1 298 594 XP.",
+        "14 280 kamas.",
+        "15 x Orichor.",
+        "5 x Patte de Pupuce."
       ],
       "preparation": [
-        "Prévoir des combats aléatoires contre des Ecaflipuces vigilantes"
+        "Prévoir des combats aléatoires pendant la collecte."
       ],
       "actions": [
         {
-          "instruction": "Aller en Routes Rocailleuses [-22,-24] et parler au Docteur Gaw pour accepter la quête.",
+          "instruction": "Parlez au Docteur Gaw après lui avoir indiqué votre intention de rejoindre Ecaflipus. Il vous demande cinq oeufs d'Ecaflipuces.",
           "position": "[-22,-24]",
           "zoneHint": "Routes Rocailleuses",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Se rendre à Ecaflipus, dans la zone des Pierres de l'élévation. Cliquer sur les trous au sol pour récolter 5 Oeufs d'Ecaflipuce. Positions des trous : [-2,-7], [-1,-7], [-1,-8], [0,-7], [2,-8].",
+          "instruction": "Rendez-vous à Ecaflipus, dans les Pierres de l'élévation, et récupérez un oeuf d'Ecaflipuce sur le point de collecte.",
           "position": "[-2,-7]",
           "zoneHint": "Pierres de l'élévation",
-          "warning": "Combats aléatoires possibles contre une Ecaflipuce vigilante en cliquant sur les trous.",
-          "combat": "SOLO"
+          "warning": "Une Ecaflipuce vigilante peut vous agresser pendant la collecte.",
+          "combat": "CHOICE"
         },
         {
-          "instruction": "Aller voir le sergent Blaste en [-1,-6] et lui remettre les 5 Oeufs d'Ecaflipuce pour terminer la quête.",
+          "instruction": "Récupérez un autre oeuf d'Ecaflipuce sur le point de collecte.",
+          "position": "[-1,-7]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": "Une Ecaflipuce vigilante peut vous agresser pendant la collecte.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Récupérez un autre oeuf d'Ecaflipuce sur le point de collecte.",
+          "position": "[-1,-8]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": "Une Ecaflipuce vigilante peut vous agresser pendant la collecte.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Récupérez un autre oeuf d'Ecaflipuce sur le point de collecte.",
+          "position": "[0,-7]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": "Une Ecaflipuce vigilante peut vous agresser pendant la collecte.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Récupérez le dernier oeuf d'Ecaflipuce sur le point de collecte.",
+          "position": "[2,-8]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": "Une Ecaflipuce vigilante peut vous agresser pendant la collecte.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Lorsque vous avez les cinq oeufs, allez voir le sergent Blaste et remettez-les-lui pour terminer la quête.",
           "position": "[-1,-6]",
           "zoneHint": "Pierres de l'élévation",
           "warning": null,
           "combat": "NONE"
         }
       ],
-      "notes": [
-        "La quête fait partie du succès « Tu peux toujours te gratter ».",
-        "Après avoir terminé cette quête, vous pouvez poursuivre les autres quêtes du succès."
-      ],
+      "notes": [],
       "npcs": [
         "Docteur Gaw",
-        "Sergent Blaste"
+        "sergent Blaste"
       ],
       "items": [
         {
-          "name": "Oeuf d'Ecaflipuce",
+          "name": "oeuf d'Ecaflipuce",
           "itemId": null,
           "imageUrl": null,
           "dofusDbUrl": null
-        },
-        {
-          "name": "Patte de Pupuce",
-          "itemId": 17609,
-          "imageUrl": "/items/17609.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17609"
         },
         {
           "name": "Orichor",
           "itemId": 15206,
           "imageUrl": "/items/15206.png",
           "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15206"
+        },
+        {
+          "name": "Patte de Pupuce",
+          "itemId": 17609,
+          "imageUrl": "/items/17609.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17609"
         }
       ],
       "bestiary": {
@@ -958,114 +1115,133 @@
       "sourceUrl": "https://www.dofuspourlesnoobs.com/ccedila-saute-aux-oeufs.html",
       "sourceTitle": "Ça saute aux oeufs",
       "sourceHash": "d032b6d6049e2f0a9561f6c3cac489678827a5c87a8e03d11ae4b4e7c429c669",
-      "generatedAt": "2026-08-24T17:15:25.152Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     },
     {
-      "overview": "Aidez le Major Qiu à retrouver son chacha Chester perdu en Ecaflipus. Consultez trois spécialistes des chachas pour obtenir des conseils et objets, capturez une Souris chicoteuse, puis explorez l'Ecaflipus pour suivre la piste de Chester jusqu'à la Lande Poilue.",
-      "recommendedLevel": 100,
+      "overview": "Le Major Qiu vous demande de retrouver son chacha Chester, perdu dans Ecaflipus. Avant de partir, vous devez obtenir plusieurs moyens de l'attirer : une Balle à grelots, une Souris chicoteuse et de l'Herbe à chacha. Une fois à Ecaflipus, vous suivez plusieurs traces laissées par Chester jusqu'à Chaknoris, qui conditionne ses informations à une nouvelle mission.",
+      "recommendedLevel": 110,
       "prerequisites": [
-        "Niveau recommandé : 100 à 200",
-        "Quête Voyage, voyage terminée"
+        "Voyage, voyage."
       ],
       "rewards": [
-        "2 625 000 XP",
-        "43 980 Kamas",
-        "50 x Orichor"
+        "2 625 000 XP.",
+        "43 980 Kamas.",
+        "50 x Orichor."
       ],
       "preparation": [
-        "1 x Herbe à chacha"
+        "Prévoir 1 x Herbe à chacha.",
+        "Prévoir plusieurs combats."
       ],
       "actions": [
         {
-          "instruction": "Allez à la Route de la Roche [-22,-24] et parlez au Major Qiu pour commencer la quête.",
+          "instruction": "Parlez au Major Qiu de la dimension Ecaflipus et acceptez de l'aider à retrouver Chester.",
           "position": "[-22,-24]",
           "zoneHint": "Route de la Roche",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Rendez-vous au chanil en [9,21] et demandez à Oshimo comment attraper un chacha. Vous obtenez une Balle à grelots.",
+          "instruction": "Rendez-vous au chanil et demandez à Oshimo comment attirer un chacha. Il vous remet une Balle à grelots.",
           "position": "[9,21]",
           "zoneHint": null,
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Allez au temple Osamodas en [8,2] et parlez à Zeurg. Il vous conseille d'attraper une Souris chicoteuse.",
+          "instruction": "Allez au temple Osamodas et interrogez Zeurg. Il vous recommande de capturer une souris chicoteuse.",
           "position": "[8,2]",
-          "zoneHint": null,
+          "zoneHint": "temple Osamodas",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Rendez-vous au temple Ecaflip en [1,-5] et demandez à Filgar Feel son secret. Il vous propose un pile ou face : Pile = perdre 100 kamas, Face = il révèle qu'il faut de l'Herbe à chacha.",
+          "instruction": "Rendez-vous au temple Ecaflip et interrogez Filgar Feel. Jouez à pile ou face pour obtenir son conseil : utiliser de l'Herbe à chacha.",
           "position": "[1,-5]",
-          "zoneHint": null,
-          "warning": "Pile ou face : Pile vous fait perdre 100 kamas, Face révèle le secret.",
-          "combat": "NONE"
+          "zoneHint": "temple Ecaflip",
+          "warning": "Selon le résultat du pile ou face, vous pouvez devoir donner 100 kamas à Filgar Feel.",
+          "combat": "CHOICE"
         },
         {
-          "instruction": "Allez au bateau en [13,0], entrez et combattez la Souris chicoteuse. Gardez vos distances car elle n'attaque qu'au corps à corps. Vous obtenez une Souris chicoteuse.",
+          "instruction": "Entrez dans le bateau et combattez la souris chicoteuse afin de la capturer.",
           "position": "[13,0]",
-          "zoneHint": null,
-          "warning": "La Souris chicoteuse n'attaque qu'au corps à corps.",
+          "zoneHint": "bateau",
+          "warning": "La souris chicoteuse attaque au corps à corps ; garder ses distances permet d'éviter ses attaques.",
           "combat": "SOLO"
         },
         {
-          "instruction": "Si vous n'avez pas d'Herbe à chacha, allez à la maison de la fleuriste en [6,-21] et achetez-en une pour 1000 kamas.",
+          "instruction": "Si vous n'avez pas d'Herbe à chacha, achetez-en une dans la maison de la fleuriste.",
           "position": "[6,-21]",
-          "zoneHint": null,
-          "warning": "Dépense de 1000 kamas.",
+          "zoneHint": "maison de la fleuriste",
+          "warning": "L'achat coûte 1000 kamas.",
           "combat": "NONE"
         },
         {
-          "instruction": "Retournez voir le Major Qiu en [-22,-24] sur la Route de la Roche.",
+          "instruction": "Retournez voir le Major Qiu après avoir rencontré les spécialistes et réuni les éléments nécessaires.",
           "position": "[-22,-24]",
           "zoneHint": "Route de la Roche",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Lancez une recherche de portail Ecaflipus depuis la pièce précédente, puis franchissez le portail. À l'avant-poste, parlez au Sergent Baste.",
+          "instruction": "Lancez une recherche de portail vers Ecaflipus depuis la pièce précédente, puis franchissez le portail trouvé.",
           "position": null,
-          "zoneHint": "Ecaflipus",
+          "zoneHint": null,
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Explorez la position [1,-5] en Ecaflipus. Un combat se lance contre un Aventurier Frénétique. Vous devez avoir 1 x Herbe à chacha sur vous. Vous obtenez de l'Herbe à chacha mâchouillée.",
+          "instruction": "À l'avant-poste, parlez au Sergent Baste pour annoncer votre recherche de Chester et obtenir les lieux où il a été aperçu.",
+          "position": "[-1,-6]",
+          "zoneHint": "avant-poste",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Explorez le premier lieu signalé. Un combat se déclenche contre un Aventurier Frénétique si vous avez l'Herbe à chacha sur vous.",
           "position": "[1,-5]",
-          "zoneHint": "Ecaflipus",
-          "warning": "Nécessite 1 x Herbe à chacha dans l'inventaire.",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": "Vous devez avoir 1 x Herbe à chacha sur vous. Le premier tour, les dommages reçus par l'Aventurier Frénétique le soignent ; au second tour, ses dommages reçus sont augmentés à 200%.",
           "combat": "SOLO"
         },
         {
-          "instruction": "Allez en [3,-9] en Ecaflipus et cliquez sur le rocher. Un combat se lance.",
-          "position": "[3,-9]",
-          "zoneHint": "Ecaflipus",
-          "warning": null,
-          "combat": "SOLO"
-        },
-        {
-          "instruction": "Rendez-vous en [-7,-11] en Ecaflipus. Utilisez la Balle à grelots dans votre inventaire de quête en double-cliquant dessus.",
-          "position": "[-7,-11]",
-          "zoneHint": "Ecaflipus",
+          "instruction": "Après le combat, récupérez l'Herbe à chacha mâchouillée obtenue.",
+          "position": "[1,-5]",
+          "zoneHint": "Pierres de l'élévation",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Descendez vers la Lande Poilue en [1,0] et parlez à Chaknoris. Il accepte de vous aider à condition de résoudre son problème avec les Matougarous. La quête se termine et débloque Question de réputation.",
+          "instruction": "Explorez le deuxième lieu en cliquant sur le rocher, ce qui déclenche un combat.",
+          "position": "[3,-9]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": "L'adversaire peut appliquer Ectoparasite au corps à corps, donnant -200 fuite ainsi que les états Pesanteur et indéplaçable.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Rendez-vous au troisième lieu aperçu par Chester.",
+          "position": "[-7,-11]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Utilisez la Balle à grelots depuis votre inventaire de quête. Elle tombe dans le ravin.",
+          "position": "[-7,-11]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Descendez dans la Lande Poilue et parlez à Chaknoris pour lui demander s'il a vu Chester.",
           "position": "[1,0]",
           "zoneHint": "Lande Poilue",
-          "warning": null,
+          "warning": "Chaknoris ne révèle pas immédiatement la position de Chester : il demande d'abord votre aide contre les Matougarous qui le harcèlent.",
           "combat": "NONE"
         }
       ],
       "notes": [
-        "Plusieurs combats à effectuer au cours de la quête.",
-        "La quête suivante, Question de réputation, est débloquée à la fin.",
-        "L'Herbe à chacha peut être achetée à la fleuriste en [6,-21] pour 1000 kamas si vous n'en avez pas."
+        "La quête se termine auprès de Chaknoris et débloque Question de réputation."
       ],
       "npcs": [
         "Major Qiu",
@@ -1083,22 +1259,28 @@
           "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17556"
         },
         {
-          "name": "Herbe à chacha",
-          "itemId": 1324,
-          "imageUrl": "/items/1324.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1324"
-        },
-        {
           "name": "Souris chicoteuse",
           "itemId": 17555,
           "imageUrl": "/items/17555.png",
           "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17555"
         },
         {
+          "name": "Herbe à chacha",
+          "itemId": 2210,
+          "imageUrl": "/items/2210.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2210"
+        },
+        {
           "name": "Herbe à chacha mâchouillée",
           "itemId": 17557,
           "imageUrl": "/items/17557.png",
           "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17557"
+        },
+        {
+          "name": "Orichor",
+          "itemId": 15206,
+          "imageUrl": "/items/15206.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15206"
         }
       ],
       "bestiary": {
@@ -1125,6 +1307,13 @@
             ]
           },
           {
+            "id": 911,
+            "name": "Jardins à la Crème",
+            "coordinates": [
+              "-1,-6"
+            ]
+          },
+          {
             "id": 856,
             "name": "Lande Poilue",
             "coordinates": [
@@ -1139,9 +1328,11 @@
             ]
           },
           {
-            "id": 169,
-            "name": "Orée de la forêt des Abraknydes",
+            "id": 855,
+            "name": "Pierres de l'élévation",
             "coordinates": [
+              "1,-5",
+              "3,-9",
               "-7,-11"
             ]
           },
@@ -1150,13 +1341,6 @@
             "name": "Port de Madrestam",
             "coordinates": [
               "13,0"
-            ]
-          },
-          {
-            "id": 173,
-            "name": "Prairies d'Astrub",
-            "coordinates": [
-              "3,-9"
             ]
           },
           {
@@ -1173,12 +1357,6 @@
             "name": "Fouduglen l'Écureuil",
             "level": 20,
             "imageUrl": "/bestiary/monsters/463.png"
-          },
-          {
-            "id": 4266,
-            "name": "Sam Sagaz",
-            "level": 20,
-            "imageUrl": "/bestiary/monsters/4266.png"
           }
         ],
         "archmonsters": [
@@ -1273,30 +1451,6 @@
             "imageUrl": "/bestiary/monsters/2353.png"
           },
           {
-            "id": 2299,
-            "name": "Tronkoneuz la Tranchante",
-            "level": 33,
-            "imageUrl": "/bestiary/monsters/2299.png"
-          },
-          {
-            "id": 2309,
-            "name": "Abrakroc l'édenté",
-            "level": 38,
-            "imageUrl": "/bestiary/monsters/2309.png"
-          },
-          {
-            "id": 2311,
-            "name": "Arabord la Cruche",
-            "level": 40,
-            "imageUrl": "/bestiary/monsters/2311.png"
-          },
-          {
-            "id": 2385,
-            "name": "Abrakadnuzar",
-            "level": 42,
-            "imageUrl": "/bestiary/monsters/2385.png"
-          },
-          {
             "id": 2367,
             "name": "Kwakamole l'Appétissant",
             "level": 42,
@@ -1346,30 +1500,6 @@
           }
         ],
         "achievements": [
-          {
-            "id": 174,
-            "name": "Abraknydiens",
-            "monsters": [
-              {
-                "id": 650,
-                "name": "Abrakne",
-                "level": 42,
-                "imageUrl": "/bestiary/monsters/650.png"
-              },
-              {
-                "id": 47,
-                "name": "Abraknyde",
-                "level": 38,
-                "imageUrl": "/bestiary/monsters/47.png"
-              },
-              {
-                "id": 256,
-                "name": "Tronknyde",
-                "level": 33,
-                "imageUrl": "/bestiary/monsters/256.png"
-              }
-            ]
-          },
           {
             "id": 1600,
             "name": "Animaux de la forêt",
@@ -1455,20 +1585,32 @@
             ]
           },
           {
-            "id": 187,
-            "name": "Gobelins d'Amakna",
+            "id": 1432,
+            "name": "Ecaflipuces",
             "monsters": [
               {
-                "id": 178,
-                "name": "Gobet",
-                "level": 32,
-                "imageUrl": "/bestiary/monsters/178.png"
+                "id": 4291,
+                "name": "Pupuce",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4291.png"
               },
               {
-                "id": 62,
-                "name": "Gob-trotteur",
-                "level": 32,
-                "imageUrl": "/bestiary/monsters/62.png"
+                "id": 4292,
+                "name": "Morcac",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4292.png"
+              },
+              {
+                "id": 4293,
+                "name": "Pikbul",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4293.png"
+              },
+              {
+                "id": 4294,
+                "name": "Gériatique",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4294.png"
               }
             ]
           },
@@ -1718,9 +1860,34 @@
       "sourceUrl": "https://www.dofuspourlesnoobs.com/chacun-cherche-son-chacha.html",
       "sourceTitle": "Chacun cherche son chacha",
       "sourceHash": "5288e29831530d09241889eb5d9c11a82194f2f8795c765eaea97492b796e3ab",
-      "generatedAt": "2026-08-24T17:17:36.040Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     }
   ],
-  "tips": []
+  "tips": [
+    {
+      "title": "Mutualiser la Bibliothèque du Maître Corbac",
+      "description": "Le livre des Taures et Des donjons, encore des donjons demandent tous deux de passer par la Bibliothèque du Maître Corbac. Si les deux objectifs sont actifs au même moment, profitez du même passage dans le donjon pour avancer les deux quêtes.",
+      "questKeys": [
+        "quest:806",
+        "quest:74"
+      ],
+      "actions": [
+        "Avant d'entrer dans la Bibliothèque du Maître Corbac en [-15,-62], vérifiez que les deux quêtes sont arrivées à leur objectif lié au donjon.",
+        "Effectuez le donjon et validez les objectifs nécessaires à Le livre des Taures ainsi que la victoire contre le Maître Corbac demandée par [TDM] Des donjons, encore des donjons."
+      ]
+    },
+    {
+      "title": "Regrouper les objectifs dans les Pierres de l'élévation",
+      "description": "Ça saute aux oeufs et Chacun cherche son chacha comportent plusieurs objectifs dans les Pierres de l'élévation. Lorsque les deux quêtes sont actives, les déplacements peuvent être regroupés pour limiter les allers-retours.",
+      "questKeys": [
+        "quest:947",
+        "quest:948"
+      ],
+      "actions": [
+        "Pendant votre passage dans les Pierres de l'élévation pour Chacun cherche son chacha, récupérez également les oeufs de Ça saute aux oeufs aux positions [-2,-7], [-1,-7], [-1,-8], [0,-7] et [2,-8].",
+        "Profitez de votre passage à l'avant-poste en [-1,-6] pour gérer les objectifs des deux quêtes auprès du Sergent Baste ou du sergent Blaste selon la quête."
+      ]
+    }
+  ]
 }
