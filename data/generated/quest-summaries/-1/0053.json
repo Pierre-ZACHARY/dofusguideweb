@@ -2,7 +2,1024 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 53,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-27T13:13:57.726Z",
+  "summaries": [
+    {
+      "overview": "Aidez Steff Taff à retrouver ses souvenirs. Après lui avoir apporté une Pomme, récupérez trois de ses anciennes créations dispersées dans la région, en affrontant les créatures qui les protègent, puis rapportez-les-lui.",
+      "recommendedLevel": 30,
+      "prerequisites": [
+        "Mieux vaut ne pas se fier à la première impression."
+      ],
+      "rewards": [
+        "71 795 XP.",
+        "1 480 kamas.",
+        "Masque de Taff."
+      ],
+      "preparation": [
+        "Prévoir 1 x Pomme.",
+        "Prévoir trois combats."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Steff Taff pour lancer la quête. Il vous demande de lui procurer une Pomme afin de raviver ses souvenirs.",
+          "position": "[7,25]",
+          "zoneHint": "Sufokia",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Procurez-vous 1 x Pomme, notamment via l'hôtel de vente ou comme récompense des quêtes Charger la mule, Épicerie fine ou Course polaire, puis remettez-la à Steff Taff.",
+          "position": "[7,25]",
+          "zoneHint": "Sufokia",
+          "warning": "La Pomme doit être obtenue avant de poursuivre.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez sur la roche située en bas à gauche de la zone pour récupérer un Skarab. Un Mal de Kwoan vous attaque immédiatement.",
+          "position": "[1,26]",
+          "zoneHint": null,
+          "warning": "Combat obligatoire contre un Mal de Kwoan. Céphaleine inflige des dégâts air ; Migre Haine inflige des dégâts feu et peut retirer 2 PM esquivables.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Cliquez sur la cage en bois située sous le chacha rose pour récupérer une Ardoiz. Un nouveau Mal de Kwoan vous attaque.",
+          "position": "[9,21]",
+          "zoneHint": null,
+          "warning": "Combat obligatoire contre un Mal de Kwoan.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Entrez par l'ouverture au pied de la statue Wabbit en haut à gauche, descendez puis cliquez sur la petite statue Wabbit près du gros trou afin d'obtenir une Pierre Spécieuse.",
+          "position": "[7,16]",
+          "zoneHint": null,
+          "warning": "Après avoir récupéré la Pierre Spécieuse, un combat obligatoire se lance contre deux Mal de Kwoan.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Retournez auprès de Steff Taff et remettez-lui le Skarab, l'Ardoiz et la Pierre Spécieuse. Ses souvenirs reviennent et la quête se termine.",
+          "position": "[7,25]",
+          "zoneHint": "Sufokia",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [],
+      "npcs": [
+        "Steff Taff"
+      ],
+      "items": [
+        {
+          "name": "Pomme",
+          "itemId": 281,
+          "imageUrl": "/items/281.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/281"
+        },
+        {
+          "name": "Skarab",
+          "itemId": 13208,
+          "imageUrl": "/items/13208.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/13208"
+        },
+        {
+          "name": "Ardoiz",
+          "itemId": 13206,
+          "imageUrl": "/items/13206.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/13206"
+        },
+        {
+          "name": "Pierre Spécieuse",
+          "itemId": 13207,
+          "imageUrl": "/items/13207.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/13207"
+        },
+        {
+          "name": "Masque de Taff",
+          "itemId": 13209,
+          "imageUrl": "/items/13209.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/13209"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 4,
+            "name": "Forêt d'Amakna",
+            "coordinates": [
+              "9,21",
+              "7,16"
+            ]
+          },
+          {
+            "id": 170,
+            "name": "Plaine des Scarafeuilles",
+            "coordinates": [
+              "1,26"
+            ]
+          },
+          {
+            "id": 32,
+            "name": "Sufokia",
+            "coordinates": [
+              "7,25"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2323,
+            "name": "Chamchie le Difficile",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2323.png"
+          },
+          {
+            "id": 2349,
+            "name": "Preskapwal le Tendancieux",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2349.png"
+          },
+          {
+            "id": 2353,
+            "name": "Sangria le Fruité",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2353.png"
+          },
+          {
+            "id": 2280,
+            "name": "Scapé l'Epée",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2280.png"
+          },
+          {
+            "id": 2283,
+            "name": "Scaramel le Fondant",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2283.png"
+          },
+          {
+            "id": 2281,
+            "name": "Scarfayss le Balafré",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2281.png"
+          },
+          {
+            "id": 2282,
+            "name": "Scarouarze l'Epopée",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2282.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 103,
+                "name": "Prespic",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/103.png"
+              },
+              {
+                "id": 104,
+                "name": "Sanglier",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/104.png"
+              }
+            ]
+          },
+          {
+            "id": 212,
+            "name": "Dragodindes",
+            "monsters": [
+              {
+                "id": 171,
+                "name": "Dragodinde amande sauvage",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/171.png"
+              },
+              {
+                "id": 200,
+                "name": "Dragodinde rousse sauvage",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/200.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 181,
+            "name": "Scarafeuilles",
+            "monsters": [
+              {
+                "id": 198,
+                "name": "Scarafeuille Bleu",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/198.png"
+              },
+              {
+                "id": 241,
+                "name": "Scarafeuille Blanc",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/241.png"
+              },
+              {
+                "id": 194,
+                "name": "Scarafeuille Rouge",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/194.png"
+              },
+              {
+                "id": 240,
+                "name": "Scarafeuille Vert",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/240.png"
+              }
+            ]
+          },
+          {
+            "id": 1602,
+            "name": "Vermines des champs",
+            "monsters": [
+              {
+                "id": 59,
+                "name": "Champ Champ",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/59.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:627",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/a-la-recherche-des-instants-perdus.html",
+      "sourceTitle": "À la recherche des instants perdus",
+      "sourceHash": "938c142333e2c44eb44a33a5b5e799b775b541aa614ad8a96c813fe14d43c7a9",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Le Capitaine Kradoc accepte de préparer son navire pour un voyage vers l'île d'Otomaï à condition que vous lui fournissiez les ressources nécessaires à l'armement et à son repas.",
+      "recommendedLevel": 35,
+      "prerequisites": [],
+      "rewards": [
+        "95 458 XP.",
+        "1 905 kamas."
+      ],
+      "preparation": [
+        "Prévoir 2 x Miséricorde du Chafer d'Élite.",
+        "Prévoir 1 x Gros Boulet.",
+        "Prévoir 1 x Oreille de Foufayteur.",
+        "Prévoir 1 x Huile de Sésame."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez au Capitaine Kradoc pour lancer la quête. Il vous demande plusieurs ressources avant d'accepter de préparer son navire.",
+          "position": "[15,28]",
+          "zoneHint": "Sufokia",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Réunissez 2 x Miséricorde du Chafer d'Élite, 1 x Gros Boulet, 1 x Oreille de Foufayteur et 1 x Huile de Sésame.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Les quatre types de ressources sont nécessaires pour terminer la quête.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir le Capitaine Kradoc et donnez-lui toutes les ressources. Il prépare le navire et la quête se termine.",
+          "position": "[15,28]",
+          "zoneHint": "Sufokia",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Après la fin de la quête, reparlez au Capitaine Kradoc pour commencer la traversée indispensable à la quête L'île des naufragés."
+      ],
+      "npcs": [
+        "Capitaine Kradoc"
+      ],
+      "items": [
+        {
+          "name": "Miséricorde du Chafer d'Élite",
+          "itemId": 429,
+          "imageUrl": "/items/429.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/429"
+        },
+        {
+          "name": "Gros Boulet",
+          "itemId": 2553,
+          "imageUrl": "/items/2553.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2553"
+        },
+        {
+          "name": "Oreille de Foufayteur",
+          "itemId": 2551,
+          "imageUrl": "/items/2551.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2551"
+        },
+        {
+          "name": "Huile de Sésame",
+          "itemId": 399,
+          "imageUrl": "/items/399.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/399"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 32,
+            "name": "Sufokia",
+            "coordinates": [
+              "15,28"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:103",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-nouveau-monde.html",
+      "sourceTitle": "Le nouveau monde",
+      "sourceHash": "8ef245c96b0348c17a10f99bebbcab357b5d056522f1f0b2fcac017e2f0a7354",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après avoir préparé le voyage avec le Capitaine Kradoc, défendez son navire pendant la traversée. L'équipage s'échoue ensuite sur l'île des Naufragés, où vous devez récupérer quatre ressources afin de réparer le bateau et poursuivre vers l'île d'Otomaï.",
+      "recommendedLevel": 35,
+      "prerequisites": [
+        "Le nouveau monde."
+      ],
+      "rewards": [
+        "95 458 XP.",
+        "1 905 kamas."
+      ],
+      "preparation": [
+        "Il est conseillé de disposer à l'avance de 1 x Tronc de Koko, 1 x Tranche de Nodkoko, 1 x Kokopaille et 1 x Coffret maudit du Flib.",
+        "Prévoir trois combats réalisables en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Après avoir terminé Le nouveau monde, reparlez au Capitaine Kradoc pour embarquer en direction de l'île d'Otomaï.",
+          "position": "[15,28]",
+          "zoneHint": "Sufokia",
+          "warning": "Cette traversée est indispensable pour accéder au véritable lancement de L'île des naufragés.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Pendant la traversée, remportez successivement les trois combats qui servent à défendre le navire : un Boomba rachitique, un Nakumbra rachitique puis un Canon Dorf rachitique.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Les trois combats sont obligatoires et peuvent être réalisés en groupe. Le Nakumbra rachitique peut tuer une cible ayant moins de 50 % de ses PV lorsqu'il attaque en mêlée.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après les trois combats, reparlez au Capitaine Kradoc pour poursuivre la traversée.",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Une fois échoué sur l'île des Naufragés, parlez au Capitaine Kradoc. La quête commence alors réellement et il vous demande des matériaux pour réparer le navire.",
+          "position": null,
+          "zoneHint": "Île des Naufragés",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Réunissez 1 x Tronc de Koko, 1 x Tranche de Nodkoko, 1 x Kokopaille et 1 x Coffret maudit du Flib. Ces ressources peuvent être obtenues sur les monstres de l'île.",
+          "position": null,
+          "zoneHint": "Île des Naufragés",
+          "warning": "Les quatre ressources sont nécessaires pour réparer le navire.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Rapportez les quatre ressources au Capitaine Kradoc afin qu'il répare le navire. La quête se termine et le voyage vers l'île d'Otomaï peut ensuite reprendre en lui parlant de nouveau.",
+          "position": "[-43,2]",
+          "zoneHint": "Île des Naufragés",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Une fois arrivé sur l'île d'Otomaï, le zaap du village côtier se trouve en [-46,18]."
+      ],
+      "npcs": [
+        "Capitaine Kradoc"
+      ],
+      "items": [
+        {
+          "name": "Tronc de Koko",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Tranche de Nodkoko",
+          "itemId": 2617,
+          "imageUrl": "/items/2617.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2617"
+        },
+        {
+          "name": "Kokopaille",
+          "itemId": 2618,
+          "imageUrl": "/items/2618.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2618"
+        },
+        {
+          "name": "Coffret maudit du Flib",
+          "itemId": 8759,
+          "imageUrl": "/items/8759.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8759"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 451,
+            "name": "Île des naufragés",
+            "coordinates": [
+              "-43,2"
+            ]
+          },
+          {
+            "id": 32,
+            "name": "Sufokia",
+            "coordinates": [
+              "15,28"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2573,
+            "name": "Koktèle le Secoué",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2573.png"
+          },
+          {
+            "id": 2541,
+            "name": "Nodkoku le Trahi",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2541.png"
+          },
+          {
+            "id": 2292,
+            "name": "Tikosto le Mousse",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2292.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 5817,
+            "name": "Palmikos",
+            "monsters": [
+              {
+                "id": 218,
+                "name": "Nodkoko",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/218.png"
+              },
+              {
+                "id": 208,
+                "name": "Tikoko",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/208.png"
+              },
+              {
+                "id": 209,
+                "name": "Kokoko",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/209.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:104",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/licircle-des-naufrageacutes.html",
+      "sourceTitle": "L'île des naufragés",
+      "sourceHash": "eade5f151dbfa99c6efb3c10183a31e142668ddec706973ad744f98b030b0a94",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Mériana vous révèle qu'Otomaï est le gardien du Dofus Ocre et vous conseille de l'aider afin de gagner sa confiance. Une fois l'accès à son île débloqué, il suffit de le rejoindre au sommet de l'arbre Hakam.",
+      "recommendedLevel": 40,
+      "prerequisites": [
+        "La magicienne des marécages.",
+        "L'île des naufragés doit être terminée pour accéder à une étape de la quête."
+      ],
+      "rewards": [
+        "76 280 XP.",
+        "1 428 kamas."
+      ],
+      "preparation": [
+        "Avoir accès à l'île d'Otomaï, ce qui nécessite d'avoir terminé Le nouveau monde et L'île des naufragés.",
+        "Une Potion de Mériana peut être utilisée pour rejoindre plus rapidement Mériana."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Mériana et choisissez de parler du Dofus Ocre. Elle vous apprend que l'alchimiste Otomaï en est le gardien et vous invite à aller à sa rencontre.",
+          "position": "[-6,-3]",
+          "zoneHint": "Marécages nauséabonds",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Assurez-vous d'avoir terminé Le nouveau monde et L'île des naufragés afin de disposer de l'accès nécessaire à l'île d'Otomaï.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "La progression est bloquée sans accès à l'île d'Otomaï.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez Otomaï tout en haut de l'arbre Hakam et engagez la conversation avec lui. La quête se termine automatiquement.",
+          "position": "[-55,15]",
+          "zoneHint": "Arbre Hakam",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "En poursuivant la conversation avec Otomaï et en choisissant d'en savoir plus sur lui, il est possible de lancer L'éternelle moisson et La raison du plus fort."
+      ],
+      "npcs": [
+        "Mériana",
+        "Otomaï"
+      ],
+      "items": [
+        {
+          "name": "Potion de Mériana",
+          "itemId": 20221,
+          "imageUrl": "/items/20221.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/20221"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 472,
+            "name": "Feuillage de l'arbre Hakam",
+            "coordinates": [
+              "-55,15"
+            ]
+          },
+          {
+            "id": 232,
+            "name": "Marécages nauséabonds",
+            "coordinates": [
+              "-6,-3"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2549,
+            "name": "Boostif l'Affamé",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2549.png"
+          },
+          {
+            "id": 2439,
+            "name": "Crolnareff l'Exilé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2439.png"
+          },
+          {
+            "id": 2428,
+            "name": "Crok le Beau",
+            "level": 61,
+            "imageUrl": "/bestiary/monsters/2428.png"
+          },
+          {
+            "id": 2383,
+            "name": "Poolopo la Traditionnelle",
+            "level": 142,
+            "imageUrl": "/bestiary/monsters/2383.png"
+          },
+          {
+            "id": 2382,
+            "name": "Toutouf le Velu",
+            "level": 144,
+            "imageUrl": "/bestiary/monsters/2382.png"
+          },
+          {
+            "id": 2570,
+            "name": "Kaskapointhe la Couverte",
+            "level": 152,
+            "imageUrl": "/bestiary/monsters/2570.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 208,
+            "name": "Gadouilleux",
+            "monsters": [
+              {
+                "id": 263,
+                "name": "Chef Crocodaille",
+                "level": 61,
+                "imageUrl": "/bestiary/monsters/263.png"
+              },
+              {
+                "id": 261,
+                "name": "Crocodaille",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/261.png"
+              },
+              {
+                "id": 112,
+                "name": "Boo",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/112.png"
+              },
+              {
+                "id": 4833,
+                "name": "Arakne Olithique",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4833.png"
+              }
+            ]
+          },
+          {
+            "id": 162,
+            "name": "Peuple de l'Arbre",
+            "monsters": [
+              {
+                "id": 1020,
+                "name": "Bitouf Aérien",
+                "level": 144,
+                "imageUrl": "/bestiary/monsters/1020.png"
+              },
+              {
+                "id": 1044,
+                "name": "Kaskargo",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/1044.png"
+              },
+              {
+                "id": 1043,
+                "name": "Poolay",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/1043.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1031",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-dofus-et-l-alchimiste.html",
+      "sourceTitle": "Le Dofus et l'alchimiste",
+      "sourceHash": "7bd8f08b7db889e0ef2b928dc2a5e33d56af408a34869bfadbd295e6c9080be8",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Cette étape sert à lancer La raison du plus fort auprès d'Otomaï. Il vous confie une enquête sur les événements inquiétants de la Forêt Maléfique et vous demande de commencer par retrouver les Bworks qui en ont été chassés. La suite et la fin de cette quête appartiennent à l'étape suivante.",
+      "recommendedLevel": 40,
+      "prerequisites": [
+        "Le Dofus et l'alchimiste.",
+        "L'éternelle moisson doit être lancée.",
+        "Attention à la Bête ! bloque une étape ultérieure.",
+        "Protéger et sévir bloque une étape ultérieure."
+      ],
+      "rewards": [
+        "305 121 XP.",
+        "5 712 Kamas.",
+        "1 x Potion d'Otomaï."
+      ],
+      "preparation": [
+        "Lancer L'éternelle moisson si ce n'est pas déjà fait afin de pouvoir obtenir le dialogue requis avec Otomaï.",
+        "La quête complète demandera plus tard 1 x Donjon Akadémie des Gobs et 2 x combats seul."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Otomaï au sommet de l'arbre Hakam. Si L'éternelle moisson n'est pas encore lancée, demandez d'abord à en savoir plus sur lui, proposez votre aide puis acceptez de l'interroger sur son rôle de gardien du Dofus Ocre. Si elle est déjà lancée, interrogez directement Otomaï sur son rôle de gardien. Poursuivez ensuite le dialogue jusqu'à accepter d'alléger son fardeau.",
+          "position": "[-55,15]",
+          "zoneHint": "Village de la Canopée",
+          "warning": "L'éternelle moisson doit être lancée pour cette séquence. Cette étape ne couvre que le lancement de La raison du plus fort ; sa progression et sa fin sont prévues à l'étape suivante.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Otomaï vous charge d'enquêter sur la Forêt Maléfique, où un ancien mal enfermé par Terrakourial pourrait être menacé.",
+        "La prochaine partie de la quête commence par la recherche des Bworks chassés de la Forêt Maléfique."
+      ],
+      "npcs": [
+        "Otomaï"
+      ],
+      "items": [
+        {
+          "name": "Potion d'Otomaï",
+          "itemId": 26362,
+          "imageUrl": "/items/26362.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26362"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 469,
+            "name": "Village de la Canopée",
+            "coordinates": [
+              "-55,15"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 5076,
+            "name": "Darma",
+            "level": 140,
+            "imageUrl": "/bestiary/monsters/5076.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2562,
+            "name": "Diskord le Belliqueux",
+            "level": 114,
+            "imageUrl": "/bestiary/monsters/2562.png"
+          },
+          {
+            "id": 2566,
+            "name": "Gastroth la Contagieuse",
+            "level": 117,
+            "imageUrl": "/bestiary/monsters/2566.png"
+          },
+          {
+            "id": 2569,
+            "name": "Guerumoth le Collant",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/2569.png"
+          },
+          {
+            "id": 2587,
+            "name": "Seripoth l'Ennemi",
+            "level": 123,
+            "imageUrl": "/bestiary/monsters/2587.png"
+          },
+          {
+            "id": 2578,
+            "name": "Don Kizoth l'Obstiné",
+            "level": 126,
+            "imageUrl": "/bestiary/monsters/2578.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1067,
+            "name": "Zoths",
+            "monsters": [
+              {
+                "id": 1055,
+                "name": "Disciple Zoth",
+                "level": 114,
+                "imageUrl": "/bestiary/monsters/1055.png"
+              },
+              {
+                "id": 1053,
+                "name": "Gamine Zoth",
+                "level": 117,
+                "imageUrl": "/bestiary/monsters/1053.png"
+              },
+              {
+                "id": 1054,
+                "name": "Guerrier Zoth",
+                "level": 120,
+                "imageUrl": "/bestiary/monsters/1054.png"
+              },
+              {
+                "id": 1056,
+                "name": "Sergent Zoth",
+                "level": 123,
+                "imageUrl": "/bestiary/monsters/1056.png"
+              },
+              {
+                "id": 1052,
+                "name": "Maître Zoth",
+                "level": 126,
+                "imageUrl": "/bestiary/monsters/1052.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1403",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-raison-du-plus-fort.html",
+      "sourceTitle": "La raison du plus fort",
+      "sourceHash": "05b543618bc0c39e6828b49a607231e06d4716d6ccddf7dcfbdd36a5cb597b2a",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

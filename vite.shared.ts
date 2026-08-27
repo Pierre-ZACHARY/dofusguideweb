@@ -43,7 +43,10 @@ export function webPlugins(command: string, pages = prerenderPages()) {
           enabled: true,
           autoStaticPathsDiscovery: false,
           crawlLinks: false,
-          concurrency: 4,
+          // Each rendered route loads the generated JSON through the preview
+          // server. Keeping two slots free prevents the outer prerender queue
+          // from starving those nested asset requests on slower CI runners.
+          concurrency: 2,
           failOnError: true,
           retryCount: 0,
         },
