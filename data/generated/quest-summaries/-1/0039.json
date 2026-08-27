@@ -1,0 +1,823 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 39,
+  "updatedAt": "2026-08-27T12:53:59.607Z",
+  "summaries": [
+    {
+      "overview": "Aidez à sécuriser et réparer l'accès à Pandala, faites préparer un sérum contre la Pandrista puis traversez le pont. Une fois sur l'île, buvez le lait de bambou fermenté proposé par le Garde Chopynju afin de percevoir les esprits et rencontrer Doukwang.",
+      "recommendedLevel": 30,
+      "prerequisites": [
+        "Niveau recommandé : 30."
+      ],
+      "rewards": [
+        "71 795 XP.",
+        "1 480 Kamas."
+      ],
+      "preparation": [
+        "5 x Laine de Boufton Noir.",
+        "50 x Ortie.",
+        "Prévoir des combats contre les monstres de la Carrière d'Astrub."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Moktwa devant le pont d'accès à Pandala pour lancer la quête et accepter de repousser les Sidoas qui gênent les ouvriers.",
+          "position": "[12,-21]",
+          "zoneHint": "Carrière d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la Carrière d'Astrub, battez exactement 5 Martoa, 5 Sherpoa, 5 Douzdoa et 5 Pikdoa.",
+          "position": null,
+          "zoneHint": "Carrière d'Astrub",
+          "warning": "Il faut vaincre 5 exemplaires de chacun des quatre types de Sidoas demandés.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez voir Moktwa après avoir rempli les quatre objectifs de combat. Il vous recommande alors de vous faire vacciner contre la Pandrista avant de traverser.",
+          "position": "[12,-21]",
+          "zoneHint": "Carrière d'Astrub",
+          "warning": "Le vaccin doit être obtenu avant la traversée vers Pandala.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans le dispensaire et parlez à Nepra Lido pour demander un sérum contre la Pandrista. Son stock étant vide, elle vous envoie chercher une autre solution.",
+          "position": "[3,-21]",
+          "zoneHint": "Dispensaire",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sortez du dispensaire puis entrez dans l'atelier des alchimistes de la même carte. Parlez à Nibé Lulle : il vous demande de réunir les ingrédients nécessaires à la fabrication du sérum.",
+          "position": "[3,-21]",
+          "zoneHint": "Atelier des alchimistes",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Sel Dawa et demandez à prélever un peu de son sang. Après l'avoir rassuré, vous obtenez 1 Échantillon sanguin de Sel Dawa.",
+          "position": "[6,-18]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans un atelier des alchimistes, fabriquez 1 Sérum contre la Pandrista avec 5 Laine de Boufton Noir, 50 Ortie et 1 Échantillon sanguin de Sel Dawa.",
+          "position": null,
+          "zoneHint": "Atelier des alchimistes",
+          "warning": "La fabrication consomme 5 Laine de Boufton Noir, 50 Ortie et 1 Échantillon sanguin de Sel Dawa.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez au dispensaire auprès de Nepra Lido, annoncez que vous avez parlé à Nibé Lulle et faites-vous vacciner avec le sérum fabriqué.",
+          "position": "[3,-21]",
+          "zoneHint": "Dispensaire",
+          "warning": "Cette étape valide la vaccination nécessaire avant l'accès à Pandala.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Revenez au début du pont puis traversez jusqu'à Pandala et rejoignez le Garde Chopynju.",
+          "position": "[19,-28]",
+          "zoneHint": "Pandala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Garde Chopynju. Il vous propose de boire une pinte de lait de bambou fermenté afin de vous ouvrir à la perception des esprits.",
+          "position": "[19,-28]",
+          "zoneHint": "Pandala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Utilisez la Pinte de lait de bambou fermenté présente dans votre inventaire de quête. Vous perdez connaissance et vous réveillez dans une pièce où un esprit devient visible.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "L'utilisation de la pinte fait avancer immédiatement la quête vers la rencontre avec l'esprit.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Doukwang dans la pièce où vous vous réveillez, puis sortez pour vous retrouver devant le Pandazaap et terminer la quête.",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La fin de la quête donne accès à toute l'île de Pandala et à ses quêtes.",
+        "La suite de la série principale de Pandala est « À la croisée des mondes »."
+      ],
+      "npcs": [
+        "Moktwa",
+        "Nepra Lido",
+        "Nibé Lulle",
+        "Sel Dawa",
+        "Garde Chopynju",
+        "Doukwang"
+      ],
+      "items": [
+        {
+          "name": "Laine de Boufton Noir",
+          "itemId": 885,
+          "imageUrl": "/items/885.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/885"
+        },
+        {
+          "name": "Ortie",
+          "itemId": 421,
+          "imageUrl": "/items/421.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/421"
+        },
+        {
+          "name": "Échantillon sanguin de Sel Dawa",
+          "itemId": 23038,
+          "imageUrl": "/items/23038.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23038"
+        },
+        {
+          "name": "Sérum contre la Pandrista",
+          "itemId": 23039,
+          "imageUrl": "/items/23039.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23039"
+        },
+        {
+          "name": "Pinte de lait de bambou fermenté",
+          "itemId": 23043,
+          "imageUrl": "/items/23043.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23043"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 96,
+            "name": "Carrière d'Astrub",
+            "coordinates": [
+              "12,-21"
+            ]
+          },
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "3,-21",
+              "6,-18"
+            ]
+          },
+          {
+            "id": 951,
+            "name": "Village de Pandala",
+            "coordinates": [
+              "19,-28"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 1670,
+            "name": "Sidoas",
+            "monsters": [
+              {
+                "id": 5228,
+                "name": "Martoa",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/5228.png"
+              },
+              {
+                "id": 5229,
+                "name": "Sherpoa",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/5229.png"
+              },
+              {
+                "id": 5230,
+                "name": "Douzdoa",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/5230.png"
+              },
+              {
+                "id": 5231,
+                "name": "Pikdoa",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/5231.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1314",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-reveil-de-pandala.html",
+      "sourceTitle": "Le réveil de Pandala",
+      "sourceHash": "368416839ea37d7d398ebc6ecf251ef125c608ccc89751d7e779f7958aaf322f",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Amayiro vous impose une nouvelle épreuve d'alignement : affronter Torche, le frère de Tarche. Le duel doit être effectué seul, puis il faut rapporter à Amayiro la preuve de votre victoire.",
+      "recommendedLevel": 35,
+      "prerequisites": [
+        "Niveau recommandé 35.",
+        "Ned le dentiste."
+      ],
+      "rewards": [
+        "28 365 XP."
+      ],
+      "preparation": [
+        "Prévoir 1 combat à effectuer seul."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Amayiro dans la milice de Bonta pour recevoir l'ordre d'affronter Torche.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": "Cette quête suit « Ned le dentiste » dans la série d'alignement.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez Torche et parlez-lui pour lui laisser une chance de venger son frère. Le combat démarre immédiatement.",
+          "position": "[-29,-59]",
+          "zoneHint": null,
+          "warning": "Le combat contre Torche doit obligatoirement être effectué seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après la victoire, retournez à la milice de Bonta et parlez à Amayiro pour lui montrer les cheveux arrachés à Torche.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Torche peut poser un glyphe de feu et appliquer un poison avec Inflammation.",
+        "Trancher inflige des dégâts feu et peut retirer 2 PM esquivables.",
+        "Hallebarde inflige des dégâts terre dans une zone en ligne perpendiculaire de taille 3.",
+        "La quête débloque « Cartes spéciales d'Amayiro »."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Torche"
+      ],
+      "items": [
+        {
+          "name": "Cheveux de Torche",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-29,-59"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:7",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/entraicircnement-avec-torche.html",
+      "sourceTitle": "Alignement 5 : Entraînement avec Torche",
+      "sourceHash": "2157c3773d5cb281a59bae69bb6c6906bdad1c8d377cb772d1f5cc0ba4cfb5a6",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Récupérez auprès de Nek Feubuk la carte qu'il doit à Amayiro, achetez en même temps une Bière du Feubuk, puis rapportez les deux objets à la milice de Bonta.",
+      "recommendedLevel": 36,
+      "prerequisites": [
+        "Niveau recommandé 36.",
+        "Entraînement avec Torche."
+      ],
+      "rewards": [
+        "30 496 XP."
+      ],
+      "preparation": [
+        "Prévoir 20 kamas pour acheter 1 x Bière du Feubuk."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Amayiro dans la milice de Bonta afin qu'il vous charge de récupérer une carte auprès d'un tavernier.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": "Cette quête suit « Entraînement avec Torche » dans la série d'alignement.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez à la Taverne du Feubuk et parlez à Nek Feubuk pour obtenir la Carte spéciale. Avant de partir, achetez-lui aussi 1 Bière du Feubuk pour 20 kamas.",
+          "position": "[-35,-56]",
+          "zoneHint": "Taverne du Feubuk",
+          "warning": "Dépense obligatoire de 20 kamas pour la Bière du Feubuk. Si vous revenez sans elle, Amayiro vous demandera de retourner à la taverne.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez à la milice de Bonta et remettez à Amayiro la Carte spéciale ainsi que la Bière du Feubuk.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête débloque « À vol d'oiseau »."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Nek Feubuk"
+      ],
+      "items": [
+        {
+          "name": "Carte spéciale",
+          "itemId": 1878,
+          "imageUrl": "/items/1878.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1878"
+        },
+        {
+          "name": "Bière du Feubuk",
+          "itemId": 1895,
+          "imageUrl": "/items/1895.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1895"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "-35,-56"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:8",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/cartes-speacuteciales-damayiro.html",
+      "sourceTitle": "Alignement 6 : Cartes spéciales d'Amayiro",
+      "sourceHash": "70b80a253530cf81736e112452445251c495f21c660cecc42e28cabc0e0e2d6c",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Retrouvez le Corbac Égaré qui a volé le collier d'une jeune Bontarienne, battez-le pour récupérer le bijou, puis faites réparer le collier endommagé avant de le rendre à Amayiro.",
+      "recommendedLevel": 37,
+      "prerequisites": [
+        "Niveau recommandé 37.",
+        "Cartes spéciales d'Amayiro."
+      ],
+      "rewards": [
+        "31 729 XP."
+      ],
+      "preparation": [
+        "Prévoir 1 combat réalisable en groupe.",
+        "Prévoir 1000 kamas pour la réparation du collier."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Amayiro dans la milice de Bonta. Il vous charge de retrouver un corbac ayant volé un collier.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": "Cette quête suit « Cartes spéciales d'Amayiro » dans la série d'alignement.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous devant le Palais de Bonta et parlez au Corbac Égaré. Affrontez-le afin de récupérer le collier.",
+          "position": "[-36,-60]",
+          "zoneHint": "Palais de Bonta",
+          "warning": "Le combat peut être effectué à plusieurs.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, rapportez le collier à Amayiro. Comme il a été abîmé pendant l'affrontement, il vous demande de le faire réparer.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": "Le collier récupéré doit être réparé avant de pouvoir terminer la quête.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez à l'atelier des bijoutiers et parlez à Marge Gondersun. Payez-lui 1000 kamas pour remettre le collier en état.",
+          "position": "[-33,-55]",
+          "zoneHint": "Atelier des bijoutiers",
+          "warning": "Dépense obligatoire de 1000 kamas pour réparer le collier.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez à la milice de Bonta et remettez le collier réparé à Amayiro pour terminer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le Corbac Égaré dispose d'une attaque air qui désenvoûte sa cible et d'un lancer d'œuf terre utilisable jusqu'à 7 PO.",
+        "La quête débloque « Pas de fainéants dans les rangs ! »."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Corbac Égaré",
+        "Marge Gondersun"
+      ],
+      "items": [
+        {
+          "name": "Collier",
+          "itemId": 1871,
+          "imageUrl": "/items/1871.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1871"
+        },
+        {
+          "name": "Collier réparé",
+          "itemId": 1883,
+          "imageUrl": "/items/1883.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1883"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-33,-55"
+            ]
+          },
+          {
+            "id": 976,
+            "name": "Promontoire des cieux",
+            "coordinates": [
+              "-36,-60"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:9",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/agrave-vol-doiseau.html",
+      "sourceTitle": "Alignement 7 : À vol d'oiseau",
+      "sourceHash": "3e6e7fc5e93569a6d2038a3706f11d310fdab89f9fe3fccd4cd7eb68f353e073",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": []
+}

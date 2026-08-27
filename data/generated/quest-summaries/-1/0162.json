@@ -1,0 +1,228 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 162,
+  "updatedAt": "2026-08-27T12:55:08.619Z",
+  "summaries": [
+    {
+      "overview": "Mériana vous révèle que le Dofus Turquoise est retourné à Aguabrial, le Dragon originel. Pour prouver votre valeur et en devenir le prochain gardien, vous devez réunir deux clefs détenues par les anciens protecteurs du Dofus : le Dragon Cochon et le Chêne Mou.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "La magicienne des marécages"
+      ],
+      "rewards": [
+        "5 174 164 XP",
+        "53 712 kamas",
+        "1 x Bourgeon du Chêne Mou",
+        "1 x Crâne du Dragon Cochon"
+      ],
+      "preparation": [
+        "1 x Donjon Antre du Dragon Cochon",
+        "1 x Donjon Clairière du Chêne Mou",
+        "2 x combats (réalisable en groupe)"
+      ],
+      "actions": [
+        {
+          "instruction": "Allez voir la sorcière Mériana et parlez-lui du Dofus Turquoise.",
+          "position": "[-6,-3]",
+          "zoneHint": "Marécages nauséabonds",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Vaincre le Dragon Cochon dans l'Antre du Dragon Cochon, puis récupérer la Clef Dentée à gauche du trône dans la salle de sortie.",
+          "position": "[-1,33]",
+          "zoneHint": "Antre du Dragon Cochon",
+          "warning": "Vous devez obligatoirement tuer le Dragon Cochon dans son donjon et non en pda pour accéder à la salle de sortie et récupérer la Clef Dentée.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Vaincre le Chêne Mou dans la Clairière du Chêne Mou, puis passer derrière le grand arbre pour atteindre la salle cachée et récupérer la clef sur la stèle.",
+          "position": "[-14,-13]",
+          "zoneHint": "Clairière du Chêne Mou",
+          "warning": "Vous devez obligatoirement tuer le Chêne Mou dans son donjon et non en pda pour accéder à la salle de sortie. Il n'est pas nécessaire d'attaquer les arbres du bosquet, passez directement derrière le grand arbre.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "Les deux combats sont réalisables en groupe.",
+        "Vous devez impérativement faire les donjons et non les combats en pda pour pouvoir récupérer les clefs dans les salles de sortie.",
+        "Dans le donjon du Chêne Mou, il est inutile d'attaquer les arbres du bosquet."
+      ],
+      "npcs": [
+        "Mériana"
+      ],
+      "items": [
+        {
+          "name": "Clef Dentée",
+          "itemId": 16899,
+          "imageUrl": "/items/16899.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16899"
+        },
+        {
+          "name": "Bourgeon du Chêne Mou",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Crâne du Dragon Cochon",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 154,
+            "name": "Antre du Dragon Cochon",
+            "coordinates": [
+              "-1,33"
+            ]
+          },
+          {
+            "id": 781,
+            "name": "Clairière du Chêne Mou",
+            "coordinates": [
+              "-14,-13"
+            ]
+          },
+          {
+            "id": 232,
+            "name": "Marécages nauséabonds",
+            "coordinates": [
+              "-6,-3"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2549,
+            "name": "Boostif l'Affamé",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2549.png"
+          },
+          {
+            "id": 2439,
+            "name": "Crolnareff l'Exilé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2439.png"
+          },
+          {
+            "id": 2428,
+            "name": "Crok le Beau",
+            "level": 61,
+            "imageUrl": "/bestiary/monsters/2428.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1202,
+            "name": "Abraknydiens Irascibles",
+            "monsters": [
+              {
+                "id": 992,
+                "name": "Abrakne Sombre Irascible",
+                "level": 128,
+                "imageUrl": "/bestiary/monsters/992.png"
+              },
+              {
+                "id": 991,
+                "name": "Abraknyde Sombre Irascible",
+                "level": 124,
+                "imageUrl": "/bestiary/monsters/991.png"
+              },
+              {
+                "id": 990,
+                "name": "Araknotron Irascible",
+                "level": 126,
+                "imageUrl": "/bestiary/monsters/990.png"
+              },
+              {
+                "id": 260,
+                "name": "Branche Soignante",
+                "level": 136,
+                "imageUrl": "/bestiary/monsters/260.png"
+              },
+              {
+                "id": 258,
+                "name": "Branche Invocatrice",
+                "level": 136,
+                "imageUrl": "/bestiary/monsters/258.png"
+              }
+            ]
+          },
+          {
+            "id": 208,
+            "name": "Gadouilleux",
+            "monsters": [
+              {
+                "id": 263,
+                "name": "Chef Crocodaille",
+                "level": 61,
+                "imageUrl": "/bestiary/monsters/263.png"
+              },
+              {
+                "id": 261,
+                "name": "Crocodaille",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/261.png"
+              },
+              {
+                "id": 112,
+                "name": "Boo",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/112.png"
+              },
+              {
+                "id": 4833,
+                "name": "Arakne Olithique",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4833.png"
+              }
+            ]
+          },
+          {
+            "id": 185,
+            "name": "Porcos",
+            "monsters": [
+              {
+                "id": 603,
+                "name": "Cochon de Farle",
+                "level": 90,
+                "imageUrl": "/bestiary/monsters/603.png"
+              },
+              {
+                "id": 601,
+                "name": "Don Dorgan",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/601.png"
+              },
+              {
+                "id": 600,
+                "name": "Don Duss Ang",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/600.png"
+              },
+              {
+                "id": 3304,
+                "name": "Porsalu",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/3304.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:919",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/plongeon-et-dragon.html",
+      "sourceTitle": "Plongeon et dragon",
+      "sourceHash": "82815b8dccd0d26146e10e885d411aa0b05872dfba72008392f32418c8d60b9a",
+      "generatedAt": "2026-08-24T17:58:11.993Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    }
+  ],
+  "tips": []
+}

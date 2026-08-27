@@ -1,0 +1,393 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 22,
+  "updatedAt": "2026-08-27T12:53:57.690Z",
+  "summaries": [
+    {
+      "overview": "Aidez Vaiguy dans les Champs d'Astrub en éliminant plusieurs plantes pour récupérer automatiquement leurs objets de quête, puis défendez-la contre la Poupée Champêtre et les plantes qui l'accompagnent. La récompense comprend notamment une Clef des Champs.",
+      "recommendedLevel": 20,
+      "prerequisites": [
+        "Niveau recommandé : 20.",
+        "Combat de rue lancé."
+      ],
+      "rewards": [
+        "34 398 XP.",
+        "780 kamas.",
+        "1 x Clef des Champs."
+      ],
+      "preparation": [
+        "Prévoir des combats contre des monstres des Champs d'Astrub.",
+        "Prévoir 1 combat réalisable en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Vaiguy et acceptez de partir combattre les plantes pour récupérer les ingrédients nécessaires.",
+          "position": "[5,-22]",
+          "zoneHint": "Champs d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans les Champs d'Astrub, vainquez 2 Épouvanteurs, 2 Pissenlits Diaboliques, 2 Roses Démoniaques et 2 Tournesols Sauvages. Les « poires » de quête sont obtenues automatiquement et ne peuvent pas être achetées.",
+          "position": null,
+          "zoneHint": "Champs d'Astrub",
+          "warning": "Les objets recherchés sont des objets de quête obtenus automatiquement en combat.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Revenez voir Vaiguy pour lui remettre les ingrédients récoltés.",
+          "position": "[5,-22]",
+          "zoneHint": "Champs d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à la Poupée Champêtre et défendez Vaiguy contre la créature et les plantes qui l'accompagnent.",
+          "position": "[5,-22]",
+          "zoneHint": "Champs d'Astrub",
+          "warning": "Un combat se déclenche et peut être effectué à plusieurs.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire, reparlez à Vaiguy pour terminer la quête et recevoir la Clef des Champs.",
+          "position": "[5,-22]",
+          "zoneHint": "Champs d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les quatre types de plantes nécessaires sont présents dans l'ensemble des Champs d'Astrub.",
+        "La créature affrontée à la fin provient habituellement de la grange de Mawy Ingalsse.",
+        "La quête débloque une nouvelle étape de Combat de rue."
+      ],
+      "npcs": [
+        "Vaiguy",
+        "Poupée Champêtre",
+        "Mawy Ingalsse"
+      ],
+      "items": [
+        {
+          "name": "Poires",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Clef des Champs",
+          "itemId": 8143,
+          "imageUrl": "/items/8143.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8143"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 98,
+            "name": "Champs d'Astrub",
+            "coordinates": [
+              "5,-22"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2348,
+            "name": "Pissdane l'Insipide",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2348.png"
+          },
+          {
+            "id": 2352,
+            "name": "Roz la Magicienne",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2352.png"
+          },
+          {
+            "id": 2358,
+            "name": "Tour le Vice",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2358.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 204,
+            "name": "Plantes des champs",
+            "monsters": [
+              {
+                "id": 79,
+                "name": "Pissenlit Diabolique",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/79.png"
+              },
+              {
+                "id": 78,
+                "name": "Rose Démoniaque",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/78.png"
+              },
+              {
+                "id": 48,
+                "name": "Tournesol Sauvage",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/48.png"
+              },
+              {
+                "id": 4820,
+                "name": "Épouvanteur",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/4820.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1203",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/dejeuner-a-la-fourchette.html",
+      "sourceTitle": "Déjeuner à la fourchette",
+      "sourceHash": "0a29596435c9992b2d13b04fb144298fd8fab0ab901c3a302fddcb47afe02c34",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Metag Robill vous propose une série d'épreuves contre de puissants monstres en échange de sa relique familiale. Cette première mission consiste à terminer la Grange du Tournesol Affamé et à vaincre le Tournesol Affamé avant de retrouver Metag à la taverne d'Astrub.",
+      "recommendedLevel": 15,
+      "prerequisites": [
+        "Niveau > 14.",
+        "Être abonné."
+      ],
+      "rewards": [
+        "1 872 kamas.",
+        "82 555 XP."
+      ],
+      "preparation": [
+        "Prévoir de terminer 1 x Donjon Grange du Tournesol Affamé."
+      ],
+      "actions": [
+        {
+          "instruction": "Dans l'atelier des paysans, parlez à Metag Robill et acceptez son épreuve.",
+          "position": "[7,-24]",
+          "zoneHint": "Champs d'Astrub",
+          "warning": "La quête exige un abonnement.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la Grange du Tournesol Affamé et terminez le donjon afin de vaincre le Tournesol Affamé.",
+          "position": "[7,-24]",
+          "zoneHint": "Grange du Tournesol Affamé",
+          "warning": "Il faut effectuer le donjon Grange du Tournesol Affamé.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le donjon, rendez-vous à la taverne d'Astrub et parlez à Metag Robill, qui s'y est déplacé, pour valider l'épreuve.",
+          "position": "[6,-18]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Metag Robill n'est plus à son point de départ après le donjon : il faut le retrouver dans la taverne d'Astrub en [6,-18].",
+        "La fin de cette quête débloque Revenons à nos bouftons, qui appartient à l'étape suivante."
+      ],
+      "npcs": [
+        "Metag Robill",
+        "Tournesol Affamé"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 98,
+            "name": "Champs d'Astrub",
+            "coordinates": [
+              "7,-24"
+            ]
+          },
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "6,-18"
+            ]
+          },
+          {
+            "id": 306,
+            "name": "Grange du Tournesol Affamé",
+            "coordinates": [
+              "7,-24"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2348,
+            "name": "Pissdane l'Insipide",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2348.png"
+          },
+          {
+            "id": 2352,
+            "name": "Roz la Magicienne",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2352.png"
+          },
+          {
+            "id": 2358,
+            "name": "Tour le Vice",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2358.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 204,
+            "name": "Plantes des champs",
+            "monsters": [
+              {
+                "id": 79,
+                "name": "Pissenlit Diabolique",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/79.png"
+              },
+              {
+                "id": 78,
+                "name": "Rose Démoniaque",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/78.png"
+              },
+              {
+                "id": 48,
+                "name": "Tournesol Sauvage",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/48.png"
+              },
+              {
+                "id": 4820,
+                "name": "Épouvanteur",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/4820.png"
+              },
+              {
+                "id": 4821,
+                "name": "Gardienne Champêtre",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/4821.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1223",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-tour-du-monde.html",
+      "sourceTitle": "Le tour du monde",
+      "sourceHash": "2dab4be619672cfb3a0687ca1f60abb255739d7fece358270c5391cc3521c6b7",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Enchaîner les Champs et la Grange",
+      "description": "Les deux quêtes se déroulent dans les Champs d'Astrub et convergent vers la Grange du Tournesol Affamé. Terminer d'abord les combats de Déjeuner à la fourchette évite des allers-retours avant de rejoindre [7,-24] pour poursuivre Le tour du monde.",
+      "questKeys": [
+        "quest:1203",
+        "quest:1223"
+      ],
+      "actions": [
+        "Effectuer les combats de plantes de quest:1203 pendant votre passage dans les Champs d'Astrub.",
+        "Valider ensuite les étapes de quest:1203 auprès de Vaiguy en [5,-22].",
+        "Rejoindre [7,-24] pour lancer ou poursuivre quest:1223 et effectuer la Grange du Tournesol Affamé."
+      ]
+    }
+  ]
+}

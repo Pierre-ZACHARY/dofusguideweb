@@ -1,0 +1,533 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 10,
+  "updatedAt": "2026-08-27T12:53:54.631Z",
+  "summaries": [
+    {
+      "overview": "Acceptez une offre de dératisation à la taverne d'Incarnam, achetez une limonade à Grobid, utilisez-la dans la cave pour faire sortir le Rat Soiffé, éliminez-le puis rendez compte à l'aubergiste.",
+      "recommendedLevel": 7,
+      "prerequisites": [],
+      "rewards": [
+        "3 330 XP.",
+        "84 Kamas.",
+        "2 x Poudre de Perlinpainpain.",
+        "2 x Pétale Diaphane."
+      ],
+      "preparation": [
+        "Prévoir 1 Kama pour acheter une Limonade d'Incarnam.",
+        "Prévoir un combat contre le Rat Soiffé."
+      ],
+      "actions": [
+        {
+          "instruction": "Sur la façade de la Taverne, cliquez sur l'Offre d'emploi recherchant un dératiseur afin d'accepter la mission.",
+          "position": "[0,-3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la Taverne, parlez à Grobid et achetez-lui une limonade.",
+          "position": "[0,-3]",
+          "zoneHint": "Taverne",
+          "warning": "L'achat de la Limonade d'Incarnam coûte 1 Kama et elle est nécessaire pour faire apparaître le rat.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Descendez dans la cave de la Taverne, ciblez la tireuse avec la Limonade d'Incarnam puis cliquez sur la tireuse pour faire sortir le Rat Soiffé.",
+          "position": "[0,-3]",
+          "zoneHint": "Cave de la Taverne",
+          "warning": "Cette action consomme l'étape nécessitant la limonade achetée précédemment et déclenche l'apparition du Rat Soiffé.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Lancez le combat contre le Rat Soiffé et battez-le.",
+          "position": "[0,-3]",
+          "zoneHint": "Cave de la Taverne",
+          "warning": "Combat obligatoire. Le Rat Soiffé utilise Mordillage, qui inflige environ 10 dégâts neutres uniquement au corps à corps.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Remontez au rez-de-chaussée et parlez à Grobid pour lui annoncer que le rat a été éliminé.",
+          "position": "[0,-3]",
+          "zoneHint": "Taverne",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [],
+      "npcs": [
+        "Grobid",
+        "Rat Soiffé"
+      ],
+      "items": [
+        {
+          "name": "Limonade d'Incarnam",
+          "itemId": 8543,
+          "imageUrl": "/items/8543.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8543"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "0,-3"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": []
+      },
+      "questKey": "quest:900",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/mort-au-rat.html",
+      "sourceTitle": "Mort au rat !",
+      "sourceHash": "b3fbb782e19b87d6f4cd51e8eee8ff2a6bc6f7d2485083a64de89681e1e9b0d5",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Marylork manque de pigment vert pour peindre. Après avoir lancé la quête, entrez dans la Mine d'Incarnam et combattez des Aminites jusqu'à obtenir 3 Poudres d'Aminite, puis rapportez-les au peintre.",
+      "recommendedLevel": 10,
+      "prerequisites": [],
+      "rewards": [
+        "2 867 XP.",
+        "68 Kamas.",
+        "5 x Plume Chimérique."
+      ],
+      "preparation": [
+        "Prévoir plusieurs combats contre des Aminites dans la Mine d'Incarnam.",
+        "Il faut obtenir 3 x Poudre d'Aminite ; le butin n'est disponible qu'après le lancement de la quête."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Marylork et acceptez de lui procurer de la poudre d'Aminite pour remplacer sa Gouache verte.",
+          "position": "[3,-5]",
+          "zoneHint": null,
+          "warning": "Les Poudres d'Aminite nécessaires ne peuvent être obtenues pour cette quête qu'après l'avoir lancée.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez l'entrée de la Mine d'Incarnam et entrez-y.",
+          "position": "[2,-4]",
+          "zoneHint": "Mine d'Incarnam",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la mine, affrontez des Aminites jusqu'à récupérer exactement 3 x Poudre d'Aminite.",
+          "position": "[2,-4]",
+          "zoneHint": "Mine d'Incarnam",
+          "warning": "Combats obligatoires jusqu'à l'obtention des 3 poudres. Le taux de butin indiqué est de 40 à 44 % par Aminite.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Retournez voir Marylork et remettez-lui les 3 Poudres d'Aminite.",
+          "position": "[3,-5]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [],
+      "npcs": [
+        "Marylork",
+        "Aminite"
+      ],
+      "items": [
+        {
+          "name": "Poudre d'Aminite",
+          "itemId": 16999,
+          "imageUrl": "/items/16999.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16999"
+        },
+        {
+          "name": "Gouache verte",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 180,
+            "name": "Château d'Amakna",
+            "coordinates": [
+              "3,-5"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "3,-5"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "2,-4"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": []
+      },
+      "questKey": "quest:921",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/un-peu-de-pigment.html",
+      "sourceTitle": "Un peu de pigment",
+      "sourceHash": "1cef3985fb1b367fd2d6576d4b3c4845d51627359a5307a181fb822c886a2363",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Regnator s'est fait voler sa panoplie et cherche de quoi se couvrir. Nina Chichi propose de lui confectionner un vêtement : procurez une Plume Chimérique, échangez-la contre une Ficelle de Vigne, ramassez une Grande Feuille Verte, puis faites fabriquer et livrez la Culotte en feuille.",
+      "recommendedLevel": 6,
+      "prerequisites": [],
+      "rewards": [
+        "3 530 XP.",
+        "2 x Peau de Gloot."
+      ],
+      "preparation": [
+        "Prévoir 1 x Plume Chimérique, à obtenir sur un Tofu Chimérique dans les Champs d'Incarnam."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Regnator, camouflé près de l'arbre en haut à droite de la zone, et acceptez de lui trouver de quoi se vêtir.",
+          "position": "[0,0]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir Nina Chichi et expliquez-lui la situation de Regnator.",
+          "position": "[0,-2]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans les Champs d'Incarnam, obtenez 1 x Plume Chimérique sur un Tofu Chimérique.",
+          "position": null,
+          "zoneHint": "Champs d'Incarnam",
+          "warning": "L'obtention de la Plume Chimérique nécessite de combattre un Tofu Chimérique si vous ne possédez pas déjà cette ressource.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Apportez la Plume Chimérique à Anta Brok et échangez-la contre une Ficelle de Vigne.",
+          "position": "[1,-2]",
+          "zoneHint": null,
+          "warning": "L'échange remet la Plume Chimérique à Anta Brok pour obtenir la Ficelle de Vigne.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Descendez jusqu'au vieil Orme et ramassez une Grande Feuille Verte à son pied.",
+          "position": "[0,1]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Nina Chichi avec la Ficelle de Vigne et la Grande Feuille Verte afin qu'elle confectionne une Culotte en feuille.",
+          "position": "[0,-2]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramenez la Culotte en feuille à Regnator et donnez-la-lui pour terminer la quête.",
+          "position": "[0,0]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [],
+      "npcs": [
+        "Regnator",
+        "Nina Chichi",
+        "Anta Brok",
+        "Tofu Chimérique"
+      ],
+      "items": [
+        {
+          "name": "Plume Chimérique",
+          "itemId": 16512,
+          "imageUrl": "/items/16512.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16512"
+        },
+        {
+          "name": "Ficelle de Vigne",
+          "itemId": 12794,
+          "imageUrl": "/items/12794.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/12794"
+        },
+        {
+          "name": "Grande Feuille Verte",
+          "itemId": 12793,
+          "imageUrl": "/items/12793.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/12793"
+        },
+        {
+          "name": "Culotte en feuille",
+          "itemId": 12795,
+          "imageUrl": "/items/12795.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/12795"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 444,
+            "name": "Champs",
+            "coordinates": []
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "0,0"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "0,-2",
+              "1,-2",
+              "0,1"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:530",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-fin-du-regravegne.html",
+      "sourceTitle": "La fin du règne",
+      "sourceHash": "12fcd34bb67fc382bf552b71073a0faa0fdbc906d9f2778ec43c6e1bee1d3e2e",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après avoir terminé « Dans la gueule du Milimilou », Fécaline vous autorise à quitter Incarnam. Rejoignez Maître Anemo, confirmez votre départ vers le Monde des Douze, empruntez le Portail vers Astrub puis parlez à l'Envoyée des Douze dans le Temple des Douze.",
+      "recommendedLevel": 10,
+      "prerequisites": [
+        "Dans la gueule du Milimilou."
+      ],
+      "rewards": [
+        "3 474 XP.",
+        "84 Kamas.",
+        "1 x Bouclier d'Incarnam."
+      ],
+      "preparation": [
+        "Terminer les autres activités souhaitées à Incarnam avant le départ si vous ne voulez pas quitter l'île immédiatement."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Fécaline pour apprendre que vous pouvez désormais quitter Incarnam.",
+          "position": "[2,-3]",
+          "zoneHint": null,
+          "warning": "Cette quête mène au départ d'Incarnam vers Astrub ; terminez auparavant les quêtes locales que vous souhaitez faire immédiatement.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez Maître Anemo et dites que vous voulez partir explorer le Monde des Douze, puis choisissez de vous approcher du portail.",
+          "position": "[4,-3]",
+          "zoneHint": null,
+          "warning": "Ce choix engage la progression vers Astrub.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez sur le Portail vers Astrub pour quitter Incarnam et rejoindre Astrub.",
+          "position": "[4,-3]",
+          "zoneHint": null,
+          "warning": "Vous quittez Incarnam pour Astrub.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Une fois arrivé dans le Temple des Douze, parlez à l'Envoyée des Douze pour terminer la quête.",
+          "position": null,
+          "zoneHint": "Temple des Douze",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Cette quête débloque ensuite « Les principes d'Archie m'aident »."
+      ],
+      "npcs": [
+        "Fécaline",
+        "Maître Anemo",
+        "Envoyée des Douze"
+      ],
+      "items": [
+        {
+          "name": "Bouclier d'Incarnam",
+          "itemId": 12660,
+          "imageUrl": "/items/12660.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/12660"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "2,-3"
+            ]
+          },
+          {
+            "id": 479,
+            "name": "Rivière Kawaii",
+            "coordinates": [
+              "4,-3"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2310,
+            "name": "Arakule la Revancharde",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2310.png"
+          },
+          {
+            "id": 2323,
+            "name": "Chamchie le Difficile",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2323.png"
+          },
+          {
+            "id": 2336,
+            "name": "Mosketère le Dévoué",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2336.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              }
+            ]
+          },
+          {
+            "id": 1602,
+            "name": "Vermines des champs",
+            "monsters": [
+              {
+                "id": 4819,
+                "name": "Campagnoll",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/4819.png"
+              },
+              {
+                "id": 59,
+                "name": "Champ Champ",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/59.png"
+              },
+              {
+                "id": 61,
+                "name": "Moskito",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/61.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1222",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/destination-astrub.html",
+      "sourceTitle": "Destination Astrub",
+      "sourceHash": "40f5630e645bf383638d249261f3ef29be2aaf1f343a733a7b0d384e60ba4f7f",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": []
+}

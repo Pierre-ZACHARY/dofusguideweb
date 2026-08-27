@@ -1,0 +1,859 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 102,
+  "updatedAt": "2026-08-27T12:55:02.917Z",
+  "summaries": [
+    {
+      "overview": "Aider le cuisinier Rei Nisuc à la milice de Bonta en allant chercher des ingrédients sur l'île de Moon : 3 Boule de Trukikol sur les Trukikol et 1 Cervelle de Tortue périssable sur les Tortues.",
+      "recommendedLevel": 67,
+      "prerequisites": [
+        "Des badges pour la bonne cause"
+      ],
+      "rewards": [
+        "1 120 294 XP"
+      ],
+      "preparation": [
+        "Il faudra combattre des Trukikol et des Tortues"
+      ],
+      "actions": [
+        {
+          "instruction": "Parler à Amayiro à la milice de Bonta.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller aux cuisines de la milice (deux fois à droite depuis Amayiro) et parler à Rei Nisuc. Accepter de l'aider.",
+          "position": null,
+          "zoneHint": "Cuisines de la milice",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrer dans la jungle profonde de Moon et combattre des Trukikol pour obtenir 3 Boule de Trukikol.",
+          "position": null,
+          "zoneHint": "Jungle profonde de Moon",
+          "warning": "Combat contre des Trukikol.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Dans la jungle profonde de Moon, combattre des Tortues pour obtenir 1 Cervelle de Tortue.",
+          "position": null,
+          "zoneHint": "Jungle profonde de Moon",
+          "warning": "Taux de drop de base : 50 %. La Cervelle de Tortue devient inutilisable après 5 minutes dans l'inventaire. La dropper en dernier et la rapporter immédiatement au cuisinier.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner à la milice de Bonta et donner la Cervelle de Tortue à Rei Nisuc.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête débloque la quête suivante : Alignement 38 - Ras le bol de Lenglad."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Rei Nisuc"
+      ],
+      "items": [
+        {
+          "name": "Boule de Trukikol",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Cervelle de Tortue",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:39",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/leccedilon-de-cuisine.html",
+      "sourceTitle": "Alignement 37 : Leçon de cuisine",
+      "sourceHash": "b77e3cd3cac1ab12ec5b4a7593a298c68c11a7a239eb8d461a982e733eb15728",
+      "generatedAt": "2026-08-24T17:42:32.439Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Anne Ullaire vous envoie fouiller le donjon Goulet du Rasboul à la recherche d'un Dofus sur l'île d'Otomaï. Une fois Silf le Rasboul Majeur vaincu, rapportez-lui que le Dofus n'était pas là.",
+      "recommendedLevel": 90,
+      "prerequisites": [
+        "Niveau > 89",
+        "Tour d'horizon"
+      ],
+      "rewards": [
+        "3 116 628 XP",
+        "34 272 kamas",
+        "1 x Queue emplumée du Rasboul Majeur"
+      ],
+      "preparation": [
+        "1 x Donjon Goulet du Rasboul"
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Anne Ullaire en [-45,19] et acceptez la quête.",
+          "position": "[-45,19]",
+          "zoneHint": "Village côtier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez en [-51,9] et effectuez le donjon Goulet du Rasboul. Battez Silf le Rasboul Majeur.",
+          "position": "[-51,9]",
+          "zoneHint": "Goulet du Rasboul",
+          "warning": "Combat de donjon en groupe contre Silf le Rasboul Majeur. Anne vous donne une clef du donjon, mais préférez utiliser le Trousseau de clef si disponible.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez voir Anne Ullaire en [-45,19] pour lui annoncer que le Dofus n'était pas sur l'île d'Otomaï.",
+          "position": "[-45,19]",
+          "zoneHint": "Village côtier",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Si vous continuez la discussion avec Anne Ullaire après la fin de la quête, elle vous confiera la quête suivante : Tour de table."
+      ],
+      "npcs": [
+        "Anne Ullaire",
+        "Silf le Rasboul Majeur"
+      ],
+      "items": [
+        {
+          "name": "Queue emplumée du Rasboul Majeur",
+          "itemId": 8798,
+          "imageUrl": "/items/8798.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8798"
+        },
+        {
+          "name": "Clef du donjon",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Trousseau de clef",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 470,
+            "name": "Goulet du Rasboul",
+            "coordinates": [
+              "-51,9"
+            ]
+          },
+          {
+            "id": 466,
+            "name": "Village côtier",
+            "coordinates": [
+              "-45,19"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 166,
+            "name": "Herboricoles",
+            "monsters": [
+              {
+                "id": 1019,
+                "name": "Bitouf des Plaines",
+                "level": 97,
+                "imageUrl": "/bestiary/monsters/1019.png"
+              },
+              {
+                "id": 1026,
+                "name": "Craqueboule Poli",
+                "level": 93,
+                "imageUrl": "/bestiary/monsters/1026.png"
+              },
+              {
+                "id": 1025,
+                "name": "Craqueleur Poli",
+                "level": 96,
+                "imageUrl": "/bestiary/monsters/1025.png"
+              },
+              {
+                "id": 1069,
+                "name": "Kido",
+                "level": 95,
+                "imageUrl": "/bestiary/monsters/1069.png"
+              },
+              {
+                "id": 1070,
+                "name": "Kilibriss",
+                "level": 98,
+                "imageUrl": "/bestiary/monsters/1070.png"
+              },
+              {
+                "id": 1068,
+                "name": "Mufafah",
+                "level": 94,
+                "imageUrl": "/bestiary/monsters/1068.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:613",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/tour-agrave-tour.html",
+      "sourceTitle": "Tour à tour",
+      "sourceHash": "5b897aef656b644a34e3b32ffc8be5d9fa64f71daa4706ffdee9fbb0a97ce02e",
+      "generatedAt": "2026-08-24T18:06:50.600Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Éliminer William Lenglad et son groupe qui perturbent les habitants de Bonta, puis rapporter la preuve à Amayiro.",
+      "recommendedLevel": 68,
+      "prerequisites": [
+        "Leçon de cuisine"
+      ],
+      "rewards": [
+        "289 375 XP"
+      ],
+      "preparation": [
+        "Combattre 3 PNJ dans un combat"
+      ],
+      "actions": [
+        {
+          "instruction": "Se rendre à la Milice de Bonta et parler à Amayiro pour lancer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller en [-35,-58] et attaquer William Lenglad.",
+          "position": "[-35,-58]",
+          "zoneHint": null,
+          "warning": "Combat contre 3 PNJ, possible à plusieurs.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner à la Milice de Bonta et donner le Hood troué à Amayiro.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Débloque la quête d'alignement Bontarien niveau 39 : Dapyus n'est pas doué."
+      ],
+      "npcs": [
+        "Amayiro",
+        "William Lenglad"
+      ],
+      "items": [
+        {
+          "name": "Hood troué",
+          "itemId": 1877,
+          "imageUrl": "/items/1877.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1877"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 976,
+            "name": "Promontoire des cieux",
+            "coordinates": [
+              "-35,-58"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:40",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/ras-le-bol-de-lenglad.html",
+      "sourceTitle": "Alignement 38 : Ras le bol de Lenglad",
+      "sourceHash": "274e7ad2c711d8f27b62a6acef5944e809f1e343fd7ffbca0d375c8c0df649f2",
+      "generatedAt": "2026-08-24T17:59:57.336Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Se rendre à la milice de Bonta parler à Amayiro, qui vous envoie libérer le milicien Houé Dapyus capturé dans la prison de Brâkmar. Traverser la prison jusqu'à sa cellule, monter à l'étage vaincre 5 gardes, activer le levier, redescendre vite libérer Houé avant que la grille ne se referme, puis le ramener à Amayiro.",
+      "recommendedLevel": 69,
+      "prerequisites": [
+        "Ras le bol de Lenglad"
+      ],
+      "rewards": [
+        "1 178 337 XP"
+      ],
+      "preparation": [
+        "Combattre 5 Gardes de la prison de Brâkmar"
+      ],
+      "actions": [
+        {
+          "instruction": "Se rendre à la milice de Bonta et parler à Amayiro pour lancer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller à la prison de Brâkmar. Depuis la salle principale, monter les escaliers trois fois et parler à Houé Dapyus le milicien capturé.",
+          "position": "[-25,33]",
+          "zoneHint": "Prison de Brâkmar",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Monter à l'étage, vaincre les 5 Gardes de la prison de Brâkmar, puis actionner le levier.",
+          "position": null,
+          "zoneHint": "Prison de Brâkmar",
+          "warning": "Combat contre 5 Gardes de la prison de Brâkmar. Possible à plusieurs. Les gardes frappent environ 50 dégâts Terre au corps à corps (Laminage) et 60 dégâts Agilité en zone autour d'eux (Virevolte).",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Redescendre rapidement pour libérer Houé Dapyus avant que la grille ne se referme. Il devient alors un personnage suiveur.",
+          "position": null,
+          "zoneHint": "Prison de Brâkmar",
+          "warning": "La grille se referme rapidement après l'activation du levier.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramener Houé Dapyus auprès d'Amayiro à la milice de Bonta pour terminer la quête et débloquer la suite.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Débloque la quête d'alignement Bontarien niveau 40 : C'est stupéfiant."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Houé Dapyus",
+        "Garde de la prison de Brâkmar"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 977,
+            "name": "La Cuirasse",
+            "coordinates": [
+              "-25,33"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:41",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/dapyus-nest-pas-doueacute.html",
+      "sourceTitle": "Alignement 39 : Dapyus n'est pas doué",
+      "sourceHash": "1671003d0f43b6387900a7fa5183745f72c39f89cc8844c96a6425a347135b65",
+      "generatedAt": "2026-08-24T17:18:52.537Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Mériana vous révèle que le Dofus Turquoise est retourné à Aguabrial, le Dragon originel. Pour prouver votre valeur et en devenir le prochain gardien, vous devez réunir deux clefs détenues par les anciens protecteurs du Dofus : le Dragon Cochon et le Chêne Mou.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "La magicienne des marécages"
+      ],
+      "rewards": [
+        "5 174 164 XP",
+        "53 712 kamas",
+        "1 x Bourgeon du Chêne Mou",
+        "1 x Crâne du Dragon Cochon"
+      ],
+      "preparation": [
+        "1 x Donjon Antre du Dragon Cochon",
+        "1 x Donjon Clairière du Chêne Mou",
+        "2 x combats (réalisable en groupe)"
+      ],
+      "actions": [
+        {
+          "instruction": "Allez voir la sorcière Mériana et parlez-lui du Dofus Turquoise.",
+          "position": "[-6,-3]",
+          "zoneHint": "Marécages nauséabonds",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Vaincre le Dragon Cochon dans l'Antre du Dragon Cochon, puis récupérer la Clef Dentée à gauche du trône dans la salle de sortie.",
+          "position": "[-1,33]",
+          "zoneHint": "Antre du Dragon Cochon",
+          "warning": "Vous devez obligatoirement tuer le Dragon Cochon dans son donjon et non en pda pour accéder à la salle de sortie et récupérer la Clef Dentée.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Vaincre le Chêne Mou dans la Clairière du Chêne Mou, puis passer derrière le grand arbre pour atteindre la salle cachée et récupérer la clef sur la stèle.",
+          "position": "[-14,-13]",
+          "zoneHint": "Clairière du Chêne Mou",
+          "warning": "Vous devez obligatoirement tuer le Chêne Mou dans son donjon et non en pda pour accéder à la salle de sortie. Il n'est pas nécessaire d'attaquer les arbres du bosquet, passez directement derrière le grand arbre.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "Les deux combats sont réalisables en groupe.",
+        "Vous devez impérativement faire les donjons et non les combats en pda pour pouvoir récupérer les clefs dans les salles de sortie.",
+        "Dans le donjon du Chêne Mou, il est inutile d'attaquer les arbres du bosquet."
+      ],
+      "npcs": [
+        "Mériana"
+      ],
+      "items": [
+        {
+          "name": "Clef Dentée",
+          "itemId": 16899,
+          "imageUrl": "/items/16899.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16899"
+        },
+        {
+          "name": "Bourgeon du Chêne Mou",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Crâne du Dragon Cochon",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 154,
+            "name": "Antre du Dragon Cochon",
+            "coordinates": [
+              "-1,33"
+            ]
+          },
+          {
+            "id": 781,
+            "name": "Clairière du Chêne Mou",
+            "coordinates": [
+              "-14,-13"
+            ]
+          },
+          {
+            "id": 232,
+            "name": "Marécages nauséabonds",
+            "coordinates": [
+              "-6,-3"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2549,
+            "name": "Boostif l'Affamé",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2549.png"
+          },
+          {
+            "id": 2439,
+            "name": "Crolnareff l'Exilé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2439.png"
+          },
+          {
+            "id": 2428,
+            "name": "Crok le Beau",
+            "level": 61,
+            "imageUrl": "/bestiary/monsters/2428.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1202,
+            "name": "Abraknydiens Irascibles",
+            "monsters": [
+              {
+                "id": 992,
+                "name": "Abrakne Sombre Irascible",
+                "level": 128,
+                "imageUrl": "/bestiary/monsters/992.png"
+              },
+              {
+                "id": 991,
+                "name": "Abraknyde Sombre Irascible",
+                "level": 124,
+                "imageUrl": "/bestiary/monsters/991.png"
+              },
+              {
+                "id": 990,
+                "name": "Araknotron Irascible",
+                "level": 126,
+                "imageUrl": "/bestiary/monsters/990.png"
+              },
+              {
+                "id": 260,
+                "name": "Branche Soignante",
+                "level": 136,
+                "imageUrl": "/bestiary/monsters/260.png"
+              },
+              {
+                "id": 258,
+                "name": "Branche Invocatrice",
+                "level": 136,
+                "imageUrl": "/bestiary/monsters/258.png"
+              }
+            ]
+          },
+          {
+            "id": 208,
+            "name": "Gadouilleux",
+            "monsters": [
+              {
+                "id": 263,
+                "name": "Chef Crocodaille",
+                "level": 61,
+                "imageUrl": "/bestiary/monsters/263.png"
+              },
+              {
+                "id": 261,
+                "name": "Crocodaille",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/261.png"
+              },
+              {
+                "id": 112,
+                "name": "Boo",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/112.png"
+              },
+              {
+                "id": 4833,
+                "name": "Arakne Olithique",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4833.png"
+              }
+            ]
+          },
+          {
+            "id": 185,
+            "name": "Porcos",
+            "monsters": [
+              {
+                "id": 603,
+                "name": "Cochon de Farle",
+                "level": 90,
+                "imageUrl": "/bestiary/monsters/603.png"
+              },
+              {
+                "id": 601,
+                "name": "Don Dorgan",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/601.png"
+              },
+              {
+                "id": 600,
+                "name": "Don Duss Ang",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/600.png"
+              },
+              {
+                "id": 3304,
+                "name": "Porsalu",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/3304.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:919",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/plongeon-et-dragon.html",
+      "sourceTitle": "Plongeon et dragon",
+      "sourceHash": "82815b8dccd0d26146e10e885d411aa0b05872dfba72008392f32418c8d60b9a",
+      "generatedAt": "2026-08-24T17:58:11.993Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    }
+  ],
+  "tips": []
+}

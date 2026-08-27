@@ -1,0 +1,1644 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 8,
+  "updatedAt": "2026-08-27T12:53:54.412Z",
+  "summaries": [
+    {
+      "overview": "Le Capitaine des Kerubims vous confie une dernière mission : éliminer les différents types de chafers du cimetière, retrouver Percy Klop dans son tombeau et récupérer le Sac de Bijoux qu'il a volé avant de le rapporter à la milice.",
+      "recommendedLevel": 9,
+      "prerequisites": [
+        "Leçon d'humilité."
+      ],
+      "rewards": [
+        "4 733 XP.",
+        "120 Kamas.",
+        "5 x Os de Chafer."
+      ],
+      "preparation": [
+        "Prévoir des combats contre les chafers du cimetière.",
+        "Prévoir un combat contre Percy Klop."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez au Capitaine des Kerubims pour accepter sa dernière mission.",
+          "position": "[0,-4]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au cimetière et éliminez un chafer de chaque espèce demandée par la quête.",
+          "position": null,
+          "zoneHint": "Cimetière",
+          "warning": "Plusieurs combats contre des chafers sont nécessaires.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Rejoignez le Tombeau de Percy Klop.",
+          "position": "[4,1]",
+          "zoneHint": "Cimetière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans le tombeau, cliquez sur la tombe puis parlez à Percy Klop lorsqu'il apparaît afin de l'attaquer.",
+          "position": "[4,1]",
+          "zoneHint": "Tombeau de Percy Klop",
+          "warning": "Un combat contre Percy Klop est obligatoire.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Battez Percy Klop pour récupérer le Sac de Bijoux.",
+          "position": "[4,1]",
+          "zoneHint": "Tombeau de Percy Klop",
+          "warning": "Percy Klop utilise Estocrâme, qui frappe dans l'élément feu, et Coup du Chafer, une attaque de corps à corps dans l'élément terre.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Retournez auprès du Capitaine des Kerubims et rendez-lui le Sac de Bijoux.",
+          "position": "[0,-4]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête se termine après la restitution du Sac de Bijoux et débloque un succès."
+      ],
+      "npcs": [
+        "Capitaine des Kerubims",
+        "Percy Klop"
+      ],
+      "items": [
+        {
+          "name": "Sac de Bijoux",
+          "itemId": 16540,
+          "imageUrl": "/items/16540.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16540"
+        },
+        {
+          "name": "Os de Chafer",
+          "itemId": 310,
+          "imageUrl": "/items/310.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/310"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 6,
+            "name": "Cimetière",
+            "coordinates": []
+          },
+          {
+            "id": 449,
+            "name": "Cimetière",
+            "coordinates": [
+              "4,1"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "0,-4",
+              "4,1"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4270,
+            "name": "Roub' Ignolles",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/4270.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2321,
+            "name": "Chafalfer l'Optimiste",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2321.png"
+          },
+          {
+            "id": 2319,
+            "name": "Chafemal le Bagarreur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2319.png"
+          },
+          {
+            "id": 2522,
+            "name": "Kwoanneur le Frimeur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2522.png"
+          },
+          {
+            "id": 2357,
+            "name": "Tofumanchou l'Empereur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2357.png"
+          },
+          {
+            "id": 2421,
+            "name": "Chaffoin le Sournois",
+            "level": 33,
+            "imageUrl": "/bestiary/monsters/2421.png"
+          },
+          {
+            "id": 2276,
+            "name": "Ribibi le Cher",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2276.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 193,
+            "name": "Bêtes de la nuit",
+            "monsters": [
+              {
+                "id": 154,
+                "name": "Kwoan",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/154.png"
+              },
+              {
+                "id": 111,
+                "name": "Tofu Maléfique",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/111.png"
+              }
+            ]
+          },
+          {
+            "id": 191,
+            "name": "Chafers d'Amakna",
+            "monsters": [
+              {
+                "id": 54,
+                "name": "Chafer",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/54.png"
+              },
+              {
+                "id": 110,
+                "name": "Chafer Invisible",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/110.png"
+              },
+              {
+                "id": 396,
+                "name": "Chafer Fantassin",
+                "level": 33,
+                "imageUrl": "/bestiary/monsters/396.png"
+              },
+              {
+                "id": 108,
+                "name": "Rib",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/108.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:914",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/des-chafers-qui-marchent.html",
+      "sourceTitle": "Des chafers qui marchent",
+      "sourceHash": "f0da0e5581f312162a61de7d4ab9cad978ec1b2c834ce77cf6863f1347a8031c",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lykhen vous oriente vers Ternette Nhin, la maire d'Incarnam. Elle vous demande de rencontrer plusieurs figures importantes du village, puis vous envoie à la bibliothèque auprès de Fécaline pour commencer à en apprendre davantage sur les Dofus.",
+      "recommendedLevel": 3,
+      "prerequisites": [
+        "Réponses à tout."
+      ],
+      "rewards": [
+        "673 XP.",
+        "14 Kamas.",
+        "5 x Cendres Éternelles."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parlez à Lykhen et répondez que vous préférez apprendre par vous-même, puis demandez où trouver Ternette.",
+          "position": "[-2,-3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir Ternette Nhin près du zaap et présentez-vous à elle.",
+          "position": "[-1,-3]",
+          "zoneHint": "Village",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rencontrez Berb Nhin. Vous pouvez lui demander comment devenir Fils d'Incarnam, ce qui permet de lancer la quête Produits naturels.",
+          "position": "[0,-3]",
+          "zoneHint": "Village",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la taverne et parlez à Grobid.",
+          "position": "[0,-3]",
+          "zoneHint": "Taverne",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Hollie, la jeune commerçante Eniripsa.",
+          "position": "[1,-3]",
+          "zoneHint": "Village",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans le bâtiment de la Milice et présentez-vous au Capitaine des Kerubims.",
+          "position": "[0,-4]",
+          "zoneHint": "Milice",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Ternette Nhin après avoir rencontré les quatre personnes demandées.",
+          "position": "[-1,-3]",
+          "zoneHint": "Village",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à la bibliothèque.",
+          "position": "[2,-3]",
+          "zoneHint": "Bibliothèque",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la bibliothèque et parlez à Fécaline.",
+          "position": "[2,-3]",
+          "zoneHint": "Bibliothèque",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "En continuant la discussion avec Fécaline à la fin de la quête, vous obtenez Espoirs et tragédies.",
+        "Parler à Berb Nhin pendant le parcours peut lancer Produits naturels.",
+        "Proposer vos services au Capitaine des Kerubims peut lancer la série débutant par Mise à l'épreuve."
+      ],
+      "npcs": [
+        "Lykhen",
+        "Ternette Nhin",
+        "Berb Nhin",
+        "Grobid",
+        "Hollie",
+        "Capitaine des Kerubims",
+        "Fécaline"
+      ],
+      "items": [
+        {
+          "name": "Cendres Éternelles",
+          "itemId": 1984,
+          "imageUrl": "/items/1984.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1984"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 479,
+            "name": "Rivière Kawaii",
+            "coordinates": [
+              "2,-3"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "0,-3"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "-2,-3",
+              "-1,-3",
+              "0,-3",
+              "1,-3",
+              "0,-4"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2310,
+            "name": "Arakule la Revancharde",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2310.png"
+          },
+          {
+            "id": 2323,
+            "name": "Chamchie le Difficile",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2323.png"
+          },
+          {
+            "id": 2336,
+            "name": "Mosketère le Dévoué",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2336.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 1602,
+            "name": "Vermines des champs",
+            "monsters": [
+              {
+                "id": 4819,
+                "name": "Campagnoll",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/4819.png"
+              },
+              {
+                "id": 59,
+                "name": "Champ Champ",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/59.png"
+              },
+              {
+                "id": 61,
+                "name": "Moskito",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/61.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:899",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-village-dans-les-nuages.html",
+      "sourceTitle": "Le village dans les nuages",
+      "sourceHash": "0bf27093a72e01ba055a19a0a437d70870826ef0de4e37ebfb3cc6529c781042",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Fécaline vous fait découvrir la légende de Rykke Errel puis vous demande d'interroger trois anciens chercheurs de Dofus. Votre enquête vous mène auprès de Lykhen, Aléha et Oskar Khas, avec un combat contre un Feu Maléfique avant votre retour à la bibliothèque.",
+      "recommendedLevel": 5,
+      "prerequisites": [
+        "Le village dans les nuages."
+      ],
+      "rewards": [
+        "2 576 XP.",
+        "63 Kamas.",
+        "5 x Queue de Chapardam."
+      ],
+      "preparation": [
+        "Prévoir 1 combat effectué seul."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Fécaline puis cliquez sur le livre situé dans le coin bas de la bibliothèque pour lire la légende de Rykke Errel.",
+          "position": "[2,-3]",
+          "zoneHint": "Bibliothèque",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparlez à Fécaline après avoir lu le livre.",
+          "position": "[2,-3]",
+          "zoneHint": "Bibliothèque",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez parler à Lykhen Lesurviven et écoutez son récit sur sa recherche des Dofus.",
+          "position": "[-2,-3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la taverne et parlez à Aléha, puis lancez les dés lorsqu'elle vous le propose.",
+          "position": "[0,-3]",
+          "zoneHint": "Taverne",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Demandez à Oskar Khas pourquoi il se trouve sous forme de fantôme.",
+          "position": "[2,-1]",
+          "zoneHint": null,
+          "warning": "Un Feu Maléfique apparaît au cours du dialogue et vous attaque.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Battez le Feu Maléfique.",
+          "position": "[2,-1]",
+          "zoneHint": null,
+          "warning": "Le Feu Maléfique utilise Volfeu, qui frappe dans l'élément feu et attire de 1 case, ainsi que Brûlure Maléfique, qui frappe dans l'élément feu.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après avoir parlé aux trois chercheurs et remporté le combat, retournez auprès de Fécaline.",
+          "position": "[2,-3]",
+          "zoneHint": "Bibliothèque",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "En continuant à parler à Fécaline après la fin de la quête, vous débloquez Dans la gueule du Milimilou."
+      ],
+      "npcs": [
+        "Fécaline",
+        "Lykhen Lesurviven",
+        "Aléha",
+        "Oskar Khas"
+      ],
+      "items": [
+        {
+          "name": "Queue de Chapardam",
+          "itemId": 16515,
+          "imageUrl": "/items/16515.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16515"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 479,
+            "name": "Rivière Kawaii",
+            "coordinates": [
+              "2,-3"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "0,-3"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "-2,-3",
+              "2,-1"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2310,
+            "name": "Arakule la Revancharde",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2310.png"
+          },
+          {
+            "id": 2323,
+            "name": "Chamchie le Difficile",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2323.png"
+          },
+          {
+            "id": 2336,
+            "name": "Mosketère le Dévoué",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2336.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 1602,
+            "name": "Vermines des champs",
+            "monsters": [
+              {
+                "id": 4819,
+                "name": "Campagnoll",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/4819.png"
+              },
+              {
+                "id": 59,
+                "name": "Champ Champ",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/59.png"
+              },
+              {
+                "id": 61,
+                "name": "Moskito",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/61.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:901",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/espoirs-et-trageacutedies.html",
+      "sourceTitle": "Espoirs et tragédies",
+      "sourceHash": "cc9b24767d050ea6752aaf196a1cea61e6a7355de6c51d1245cdf2f2010294ae",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Berb Nhin évalue vos compétences d'artisan en vous demandant de fabriquer trois consommables d'Incarnam. Rassemblez du Blé, des Goujons et des Orties, utilisez les trois ateliers correspondants puis rapportez vos créations à Berb.",
+      "recommendedLevel": 5,
+      "prerequisites": [],
+      "rewards": [
+        "1 748 XP.",
+        "38 Kamas.",
+        "5 x Eau Potable.",
+        "5 x Poudre de Perlinpainpain."
+      ],
+      "preparation": [
+        "4 x Blé.",
+        "4 x Goujon.",
+        "4 x Ortie.",
+        "Les ressources peuvent être récoltées avec les métiers de niveau 1 ou achetées en HDV."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Berb Nhin, demandez-lui comment devenir un Fils d'Incarnam puis dites que vous êtes prêt à prouver votre valeur.",
+          "position": "[0,-3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Réunissez 4 x Blé, notamment dans le nord d'Incarnam et les Champs d'Incarnam.",
+          "position": null,
+          "zoneHint": "Champs d'Incarnam",
+          "warning": "L'achat en HDV est possible si vous ne souhaitez pas récolter.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Réunissez 4 x Goujon aux abords du Lac d'Incarnam.",
+          "position": null,
+          "zoneHint": "Lac d'Incarnam",
+          "warning": "L'achat en HDV est possible si vous ne souhaitez pas pêcher.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Réunissez 4 x Ortie, présentes dans la plupart des zones d'Incarnam sauf le cimetière et plus fréquentes dans la Forêt.",
+          "position": null,
+          "zoneHint": "Forêt",
+          "warning": "L'achat en HDV est possible si vous ne souhaitez pas récolter.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À l'atelier des Paysans, utilisez le four pour fabriquer 1 x Pain d'Incarnam avec 4 x Blé.",
+          "position": "[-1,-4]",
+          "zoneHint": "Atelier des Paysans",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À l'atelier des Alchimistes, utilisez l'Alambic pour fabriquer 1 x Potion de Mini Soin avec 4 x Ortie.",
+          "position": "[-2,-2]",
+          "zoneHint": "Atelier des Alchimistes",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À l'atelier des Pêcheurs, utilisez le Plan de Travail pour fabriquer 1 x Goujon en Tranche avec 4 x Goujon.",
+          "position": "[0,-1]",
+          "zoneHint": "Atelier des Pêcheurs",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rapportez les trois produits fabriqués à Berb Nhin.",
+          "position": "[0,-3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête débloque Le métier des aventuriers."
+      ],
+      "npcs": [
+        "Berb Nhin"
+      ],
+      "items": [
+        {
+          "name": "Blé",
+          "itemId": 289,
+          "imageUrl": "/items/289.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/289"
+        },
+        {
+          "name": "Goujon",
+          "itemId": 1782,
+          "imageUrl": "/items/1782.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1782"
+        },
+        {
+          "name": "Ortie",
+          "itemId": 421,
+          "imageUrl": "/items/421.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/421"
+        },
+        {
+          "name": "Pain d'Incarnam",
+          "itemId": 468,
+          "imageUrl": "/items/468.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/468"
+        },
+        {
+          "name": "Potion de Mini Soin",
+          "itemId": 1182,
+          "imageUrl": "/items/1182.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1182"
+        },
+        {
+          "name": "Goujon en Tranche",
+          "itemId": 1813,
+          "imageUrl": "/items/1813.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1813"
+        },
+        {
+          "name": "Eau Potable",
+          "itemId": 311,
+          "imageUrl": "/items/311.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/311"
+        },
+        {
+          "name": "Poudre de Perlinpainpain",
+          "itemId": 519,
+          "imageUrl": "/items/519.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/519"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 444,
+            "name": "Champs",
+            "coordinates": []
+          },
+          {
+            "id": 443,
+            "name": "Forêt",
+            "coordinates": []
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": []
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "0,-3",
+              "-1,-4",
+              "-2,-2",
+              "0,-1"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:915",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/produits-naturels.html",
+      "sourceTitle": "Produits naturels",
+      "sourceHash": "dfc03511c1f75a574e8a82e160f64b1691cc3584aa834d94a9a063d439a947f7",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Anta Brok vous demande de préparer une galette à partir d'une recette secrète. Après avoir réuni les ingrédients et consulté la recette, fabriquez la galette, puis échangez 5 Orties contre un Pot de Confiture Maison auprès de Pipelette avant de tout rapporter à Anta.",
+      "recommendedLevel": 7,
+      "prerequisites": [],
+      "rewards": [
+        "3 330 XP.",
+        "84 Kamas.",
+        "5 x Oeuf de Tofu."
+      ],
+      "preparation": [
+        "10 x Blé.",
+        "4 x Poudre de Perlinpainpain.",
+        "2 x Œuf Chimérique.",
+        "1 x Lailait.",
+        "4 x Cendres Éternelles.",
+        "4 x Bave de Bouftou.",
+        "5 x Ortie."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Anta Brok pour accepter de l'aider à réaliser son dessert et obtenir la recette de la galette.",
+          "position": "[1,-2]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Consultez impérativement la recette présente dans votre inventaire de quête avant de fabriquer la galette.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Si vous fabriquez la galette avant d'avoir consulté la recette, la quête ne se met pas à jour et vous devrez en fabriquer une nouvelle.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Réunissez 10 x Blé, 4 x Poudre de Perlinpainpain, 2 x Œuf Chimérique, 1 x Lailait, 4 x Cendres Éternelles et 4 x Bave de Bouftou. Les ingrédients peuvent aussi être achetés en HDV lorsque disponible.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Les Œufs Chimériques ne s'obtiennent sur le Tofu Chimérique que lorsque la quête est en cours.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Achetez 1 x Lailait à Grobid dans la taverne pour 4 kamas si vous ne l'avez pas déjà.",
+          "position": "[0,-3]",
+          "zoneHint": "Taverne",
+          "warning": "Dépense : 4 kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à l'atelier des Paysans et utilisez l'atelier de cuisson pour fabriquer la galette avec 10 x Blé, 4 x Poudre de Perlinpainpain, 2 x Œuf Chimérique, 1 x Lailait, 4 x Cendres Éternelles et 4 x Bave de Bouftou.",
+          "position": "[-1,-4]",
+          "zoneHint": "Atelier des Paysans",
+          "warning": "La recette étant secrète, l'objet ne s'affiche pas dans l'atelier. Une erreur de combinaison ne consomme pas les ingrédients.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rapportez la Galette à Anta Brok.",
+          "position": "[1,-2]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir Pipelette pour obtenir de la confiture.",
+          "position": "[2,-3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Réunissez 5 x Ortie puis reparlez à Pipelette et donnez-les-lui pour recevoir un Pot de Confiture Maison.",
+          "position": "[2,-3]",
+          "zoneHint": null,
+          "warning": "Les 5 Orties sont consommées lors de l'échange.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rapportez le Pot de Confiture Maison à Anta Brok et donnez-le-lui.",
+          "position": "[1,-2]",
+          "zoneHint": null,
+          "warning": "Après avoir goûté la confiture, vous recevez la malédiction Nausée et restez vert jusqu'à avoir effectué 1 combat.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La Poudre de Perlinpainpain se récupère sur les monstres des Champs, sauf les Tofus.",
+        "L'Œuf Chimérique se récupère sur le Tofu Chimérique uniquement avec la quête en cours.",
+        "Les Cendres Éternelles se récupèrent dans la Forêt d'Incarnam.",
+        "Les Baves de Bouftou se récupèrent sur les Bouftous des Pâturages.",
+        "Le Pot de Confiture Maison conservé après la quête peut servir dans Dans la gueule du Milimilou pour éviter le combat contre le Milimilou."
+      ],
+      "npcs": [
+        "Anta Brok",
+        "Grobid",
+        "Pipelette"
+      ],
+      "items": [
+        {
+          "name": "Blé",
+          "itemId": 289,
+          "imageUrl": "/items/289.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/289"
+        },
+        {
+          "name": "Poudre de Perlinpainpain",
+          "itemId": 519,
+          "imageUrl": "/items/519.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/519"
+        },
+        {
+          "name": "Œuf Chimérique",
+          "itemId": 28256,
+          "imageUrl": "/items/28256.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/28256"
+        },
+        {
+          "name": "Lailait",
+          "itemId": 6765,
+          "imageUrl": "/items/6765.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6765"
+        },
+        {
+          "name": "Cendres Éternelles",
+          "itemId": 1984,
+          "imageUrl": "/items/1984.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1984"
+        },
+        {
+          "name": "Bave de Bouftou",
+          "itemId": 385,
+          "imageUrl": "/items/385.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/385"
+        },
+        {
+          "name": "Ortie",
+          "itemId": 421,
+          "imageUrl": "/items/421.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/421"
+        },
+        {
+          "name": "Galette",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Pot de Confiture Maison",
+          "itemId": 16509,
+          "imageUrl": "/items/16509.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16509"
+        },
+        {
+          "name": "Oeuf de Tofu",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 479,
+            "name": "Rivière Kawaii",
+            "coordinates": [
+              "2,-3"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "0,-3"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "1,-2",
+              "-1,-4"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2310,
+            "name": "Arakule la Revancharde",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2310.png"
+          },
+          {
+            "id": 2323,
+            "name": "Chamchie le Difficile",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2323.png"
+          },
+          {
+            "id": 2336,
+            "name": "Mosketère le Dévoué",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2336.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 1602,
+            "name": "Vermines des champs",
+            "monsters": [
+              {
+                "id": 4819,
+                "name": "Campagnoll",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/4819.png"
+              },
+              {
+                "id": 59,
+                "name": "Champ Champ",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/59.png"
+              },
+              {
+                "id": 61,
+                "name": "Moskito",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/61.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:903",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-galette-secregravete.html",
+      "sourceTitle": "La galette secrète",
+      "sourceHash": "99991cb13f8b365220bad3468e7493f6586ba52418cdb3a59b2ccd743d40de02",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Fécaline vous envoie enquêter sur Hargnok et le Milimilou. Après avoir interrogé Klasmor au cimetière, entrez dans l'antre par la vieille grille et affrontez le Milimilou, ou évitez le combat avec le Pot de Confiture Maison obtenu dans La galette secrète, puis retournez voir Fécaline.",
+      "recommendedLevel": 8,
+      "prerequisites": [
+        "Espoirs et tragédies."
+      ],
+      "rewards": [
+        "5 085 XP.",
+        "122 Kamas.",
+        "1 x Tête de Marteau en Jade."
+      ],
+      "preparation": [
+        "Prévoir 1 combat seul, sauf si vous utilisez le Pot de Confiture Maison obtenu après avoir terminé La galette secrète."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Fécaline pour en apprendre davantage sur Hargnok et le Milimilou.",
+          "position": "[2,-3]",
+          "zoneHint": "Bibliothèque",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous auprès de Klasmor le fossoyeur et renseignez-vous sur le Milimilou.",
+          "position": "[5,-1]",
+          "zoneHint": "Cimetière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Depuis la zone de Klasmor, allez sur la map de gauche et cliquez sur la vieille grille du tombeau pour entrer directement dans l'antre.",
+          "position": null,
+          "zoneHint": "Cimetière",
+          "warning": "Klasmor indique aussi qu'il est possible d'atteindre le Milimilou après le donjon qu'il garde.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Milimilou. Choisissez de le combattre ou, si La galette secrète est terminée et que vous possédez le Pot de Confiture Maison, donnez-lui ce pot pour éviter le combat.",
+          "position": null,
+          "zoneHint": "Antre du Milimilou",
+          "warning": "Le choix permet soit un combat seul, soit l'utilisation du Pot de Confiture Maison pour l'éviter.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Si vous choisissez le combat, battez le Milimilou en restant autant que possible hors de son corps à corps.",
+          "position": null,
+          "zoneHint": "Antre du Milimilou",
+          "warning": "Grognement lui donne 2 PM pour 1 tour. Éventration frappe au corps à corps dans l'élément neutre.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après la confrontation, écoutez Hargnok lorsqu'il apparaît et découvrez ce qui lui est arrivé.",
+          "position": null,
+          "zoneHint": "Antre du Milimilou",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Fécaline la Sage pour terminer la quête.",
+          "position": "[2,-3]",
+          "zoneHint": "Bibliothèque",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête se termine auprès de Fécaline et débloque Destination Astrub.",
+        "Le Pot de Confiture Maison nécessaire pour éviter le combat provient de La galette secrète, qui doit être terminée avant de pouvoir l'utiliser ainsi."
+      ],
+      "npcs": [
+        "Fécaline",
+        "Klasmor",
+        "Milimilou",
+        "Hargnok"
+      ],
+      "items": [
+        {
+          "name": "Pot de Confiture Maison",
+          "itemId": 16509,
+          "imageUrl": "/items/16509.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16509"
+        },
+        {
+          "name": "Tête de Marteau en Jade",
+          "itemId": 16526,
+          "imageUrl": "/items/16526.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16526"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 449,
+            "name": "Cimetière",
+            "coordinates": [
+              "5,-1"
+            ]
+          },
+          {
+            "id": 6,
+            "name": "Cimetière",
+            "coordinates": []
+          },
+          {
+            "id": 479,
+            "name": "Rivière Kawaii",
+            "coordinates": [
+              "2,-3"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4270,
+            "name": "Roub' Ignolles",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/4270.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2310,
+            "name": "Arakule la Revancharde",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2310.png"
+          },
+          {
+            "id": 2323,
+            "name": "Chamchie le Difficile",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2323.png"
+          },
+          {
+            "id": 2336,
+            "name": "Mosketère le Dévoué",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2336.png"
+          },
+          {
+            "id": 2321,
+            "name": "Chafalfer l'Optimiste",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2321.png"
+          },
+          {
+            "id": 2319,
+            "name": "Chafemal le Bagarreur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2319.png"
+          },
+          {
+            "id": 2522,
+            "name": "Kwoanneur le Frimeur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2522.png"
+          },
+          {
+            "id": 2357,
+            "name": "Tofumanchou l'Empereur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2357.png"
+          },
+          {
+            "id": 2421,
+            "name": "Chaffoin le Sournois",
+            "level": 33,
+            "imageUrl": "/bestiary/monsters/2421.png"
+          },
+          {
+            "id": 2276,
+            "name": "Ribibi le Cher",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2276.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              }
+            ]
+          },
+          {
+            "id": 193,
+            "name": "Bêtes de la nuit",
+            "monsters": [
+              {
+                "id": 154,
+                "name": "Kwoan",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/154.png"
+              },
+              {
+                "id": 111,
+                "name": "Tofu Maléfique",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/111.png"
+              }
+            ]
+          },
+          {
+            "id": 191,
+            "name": "Chafers d'Amakna",
+            "monsters": [
+              {
+                "id": 54,
+                "name": "Chafer",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/54.png"
+              },
+              {
+                "id": 110,
+                "name": "Chafer Invisible",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/110.png"
+              },
+              {
+                "id": 396,
+                "name": "Chafer Fantassin",
+                "level": 33,
+                "imageUrl": "/bestiary/monsters/396.png"
+              },
+              {
+                "id": 108,
+                "name": "Rib",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/108.png"
+              }
+            ]
+          },
+          {
+            "id": 1602,
+            "name": "Vermines des champs",
+            "monsters": [
+              {
+                "id": 4819,
+                "name": "Campagnoll",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/4819.png"
+              },
+              {
+                "id": 59,
+                "name": "Champ Champ",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/59.png"
+              },
+              {
+                "id": 61,
+                "name": "Moskito",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/61.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:902",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/dans-la-gueule-du-milimilou.html",
+      "sourceTitle": "Dans la gueule du Milimilou",
+      "sourceHash": "e23e9ffc3ab50571aa5f84f288584846cd20840acbad81a44815fe0d43c56266",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Enchaîner Fécaline sans détour",
+      "description": "Le village dans les nuages se termine auprès de Fécaline à la bibliothèque, et Espoirs et tragédies démarre au même endroit. Vous pouvez poursuivre immédiatement la discussion pour éviter un aller-retour inutile.",
+      "questKeys": [
+        "quest:899",
+        "quest:901"
+      ],
+      "actions": [
+        "Terminez Le village dans les nuages auprès de Fécaline en [2,-3].",
+        "Continuez immédiatement la conversation pour lancer Espoirs et tragédies."
+      ]
+    },
+    {
+      "title": "Préparer la confiture avant le Milimilou",
+      "description": "La galette secrète permet d'obtenir le Pot de Confiture Maison utilisable dans Dans la gueule du Milimilou. Terminer cette quête en premier vous donne la possibilité d'éviter le combat contre le Milimilou.",
+      "questKeys": [
+        "quest:903",
+        "quest:902"
+      ],
+      "actions": [
+        "Terminez La galette secrète avant d'aller confronter le Milimilou.",
+        "Conservez le Pot de Confiture Maison.",
+        "Dans l'antre du Milimilou, donnez-lui le pot si vous souhaitez éviter le combat."
+      ]
+    },
+    {
+      "title": "Regrouper les passages au village",
+      "description": "Plusieurs quêtes de l'étape passent par le centre d'Incarnam, notamment autour de [0,-3], [-1,-3] et [2,-3]. Profitez d'un même passage pour avancer les dialogues de Le village dans les nuages, Produits naturels, Espoirs et tragédies et La galette secrète lorsque leurs objectifs sont actifs.",
+      "questKeys": [
+        "quest:899",
+        "quest:915",
+        "quest:901",
+        "quest:903"
+      ],
+      "actions": [
+        "À [0,-3], regroupez les échanges avec Berb Nhin, Grobid et Aléha selon vos objectifs actifs.",
+        "À [-1,-3], validez les passages auprès de Ternette Nhin.",
+        "À [2,-3], regroupez les passages auprès de Fécaline et Pipelette lorsqu'ils sont disponibles."
+      ]
+    }
+  ]
+}

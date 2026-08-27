@@ -13,7 +13,7 @@ const { values } = parseArgs({ options: {
   concurrency: { type: "string", default: "1" },
   "summary-timeout-ms": { type: "string", default: "660000" },
   db: { type: "string", default: "data/dofusguide.sqlite" },
-  output: { type: "string", default: "data/generated/quest-summaries.json" },
+  output: { type: "string", default: "prompt/legacy/quest-summaries.json" },
   model: { type: "string" },
   limit: { type: "string" },
   "delay-ms": { type: "string", default: "1000" },
@@ -53,6 +53,7 @@ if (selections !== 1) throw new Error("Choose exactly one of --all, --quest-key,
 if (values.provider !== "openai" && values.provider !== "cline") throw new Error("--provider must be openai or cline");
 
 const repository = new SqliteDofusGuideRepository(values.db);
+console.warn("[summary] legacy per-quest generation writes an aggregate that the web app does not consume; prefer npm run generate-quest-prompts");
 let targets: QuestGuideTarget[] = [];
 try {
   if (values["quest-key"] !== undefined) {

@@ -1,0 +1,210 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 99,
+  "updatedAt": "2026-08-27T12:55:01.872Z",
+  "summaries": [
+    {
+      "overview": "Lancez la quête auprès du Captain Amakna au Village d'Amakna, puis rendez-vous au donjon Théâtre de Dramak en [21,7] pour vaincre Dramak. Interrogez-le sur le traité des Six et Makia Vhel avant de sortir, puis retournez annoncer votre victoire au Captain Amakna.",
+      "recommendedLevel": 80,
+      "prerequisites": [
+        "Niveau supérieur à 79",
+        "Quelque chose de pourri au royaume d'Amakna"
+      ],
+      "rewards": [
+        "2 457 000 XP",
+        "28 752 Kamas",
+        "Brandir son bouclier (attitude)"
+      ],
+      "preparation": [
+        "3 combats (seul)",
+        "1 Donjon Théâtre de Dramak"
+      ],
+      "actions": [
+        {
+          "instruction": "Parler au Captain Amakna pour lancer la quête.",
+          "position": "[0,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Se rendre à l'entrée du donjon de Dramak.",
+          "position": "[21,7]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuer le donjon Théâtre de Dramak, vaincre Dramak, puis lui parler du traité des Six et de Makia Vhel.",
+          "position": "[21,7]",
+          "zoneHint": "Théâtre de Dramak",
+          "warning": "Ne pas sortir du donjon avant d'avoir parlé à Dramak.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Retourner voir le Captain Amakna et lui annoncer la victoire.",
+          "position": "[0,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête se termine après avoir annoncé la victoire au Captain Amakna.",
+        "L'attitude Brandir son bouclier est apprise à la fin de la quête."
+      ],
+      "npcs": [
+        "Captain Amakna",
+        "Dramak"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 799,
+            "name": "Île de Kartonpath",
+            "coordinates": [
+              "21,7"
+            ]
+          },
+          {
+            "id": 800,
+            "name": "Théâtre de Dramak",
+            "coordinates": [
+              "21,7"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "0,0"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4027,
+            "name": "Naganita",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/4027.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 1018,
+            "name": "Serviteurs de Dramak",
+            "monsters": [
+              {
+                "id": 3487,
+                "name": "Bouledogre",
+                "level": 89,
+                "imageUrl": "/bestiary/monsters/3487.png"
+              },
+              {
+                "id": 3486,
+                "name": "Gobvious",
+                "level": 90,
+                "imageUrl": "/bestiary/monsters/3486.png"
+              },
+              {
+                "id": 3485,
+                "name": "Molette",
+                "level": 91,
+                "imageUrl": "/bestiary/monsters/3485.png"
+              },
+              {
+                "id": 3484,
+                "name": "Rhinoféroce",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3484.png"
+              },
+              {
+                "id": 3482,
+                "name": "Dramak",
+                "level": 100,
+                "imageUrl": "/bestiary/monsters/3482.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:723",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/ainsi-font-les-petites-marionnettes.html",
+      "sourceTitle": "Ainsi font les petites marionnettes",
+      "sourceHash": "7d1a62c874f0310ad3e91d300e0bd232163012a543f71703e2e85e19f5894530",
+      "generatedAt": "2026-08-24T17:10:55.455Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    }
+  ],
+  "tips": []
+}

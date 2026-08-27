@@ -4,6 +4,7 @@ dist/
 .tanstack/
 .wrangler/
 coverage/
+prompt/
 .env
 *.log
 *.sql

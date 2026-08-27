@@ -1,0 +1,309 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 27,
+  "updatedAt": "2026-08-27T12:53:58.290Z",
+  "summaries": [
+    {
+      "overview": "Phite Pouque veut confectionner des perruques et demande des échantillons de cheveux de toutes les classes. Fabriquez d'abord une Paire de ciseaux en fer, placez-la dans votre barre d'accès rapide, puis utilisez-la sur des joueurs des classes demandées avant de rapporter les touffes à Phite Pouque.",
+      "recommendedLevel": 15,
+      "prerequisites": [],
+      "rewards": [
+        "10 378 XP.",
+        "252 Kamas.",
+        "4 x Plume de Piou Rouge."
+      ],
+      "preparation": [
+        "Prévoir 1 x Huile de Sésame.",
+        "Prévoir 5 x Fer."
+      ],
+      "actions": [
+        {
+          "instruction": "En [2,-19], parlez à Phite Pouque et proposez de l'aider afin de lancer la collecte des échantillons de cheveux.",
+          "position": "[2,-19]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à l'atelier des forgerons en [7,-16] et utilisez l'enclume pour fabriquer 1 x Paire de ciseaux en fer avec 1 x Huile de Sésame et 5 x Fer.",
+          "position": "[7,-16]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": "La fabrication consomme 1 x Huile de Sésame et 5 x Fer.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Placez la Paire de ciseaux en fer obtenue dans l'inventaire de quête sur votre barre d'accès rapide.",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Avec les ciseaux, ciblez des personnages joueurs afin d'obtenir au moins une Touffe de chacune des 19 classes suivantes : Crâ, Ecaflip, Eliotrope, Eniripsa, Enutrof, Feca, Forgelance, Huppermage, Iop, Ouginak, Osamodas, Pandawa, Roublard, Sacri, Sadida, Sram, Steamer, Xélor et Zobal.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Les doublons d'une même classe sont possibles mais inutiles : il faut des classes différentes.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Une fois la collecte demandée terminée, retournez voir Phite Pouque en [2,-19] et remettez-lui les touffes pour achever la quête.",
+          "position": "[2,-19]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": "La source indique à ce stade « 18 touffes différentes obtenues », alors qu'elle énumère auparavant 19 classes à collecter.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les touffes obtenues sont stockées dans l'inventaire de quête.",
+        "La source énumère explicitement 19 classes, mais mentionne ensuite un retour après 18 touffes différentes ; cette incohérence est conservée comme avertissement plutôt que corrigée."
+      ],
+      "npcs": [
+        "Phite Pouque"
+      ],
+      "items": [
+        {
+          "name": "Huile de Sésame",
+          "itemId": 399,
+          "imageUrl": "/items/399.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/399"
+        },
+        {
+          "name": "Fer",
+          "itemId": 312,
+          "imageUrl": "/items/312.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/312"
+        },
+        {
+          "name": "Paire de ciseaux en fer",
+          "itemId": 19740,
+          "imageUrl": "/items/19740.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19740"
+        },
+        {
+          "name": "Touffe de Crâ",
+          "itemId": 6687,
+          "imageUrl": "/items/6687.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6687"
+        },
+        {
+          "name": "Touffe d'Ecaflip",
+          "itemId": 6684,
+          "imageUrl": "/items/6684.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6684"
+        },
+        {
+          "name": "Touffe d'Eliotrope",
+          "itemId": 19745,
+          "imageUrl": "/items/19745.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19745"
+        },
+        {
+          "name": "Touffe d'Eniripsa",
+          "itemId": 6685,
+          "imageUrl": "/items/6685.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6685"
+        },
+        {
+          "name": "Touffe d'Enutrof",
+          "itemId": 6681,
+          "imageUrl": "/items/6681.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6681"
+        },
+        {
+          "name": "Touffe de Feca",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Touffe de Forgelance",
+          "itemId": 27703,
+          "imageUrl": "/items/27703.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/27703"
+        },
+        {
+          "name": "Touffe de Huppermage",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Touffe de Iop",
+          "itemId": 6686,
+          "imageUrl": "/items/6686.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6686"
+        },
+        {
+          "name": "Touffe d'Ouginak",
+          "itemId": 19747,
+          "imageUrl": "/items/19747.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19747"
+        },
+        {
+          "name": "Touffe d'Osamodas",
+          "itemId": 6680,
+          "imageUrl": "/items/6680.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6680"
+        },
+        {
+          "name": "Touffe de Pandawa",
+          "itemId": 19741,
+          "imageUrl": "/items/19741.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19741"
+        },
+        {
+          "name": "Touffe de Roublard",
+          "itemId": 19742,
+          "imageUrl": "/items/19742.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19742"
+        },
+        {
+          "name": "Touffe de Sacri",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Touffe de Sadida",
+          "itemId": 6688,
+          "imageUrl": "/items/6688.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6688"
+        },
+        {
+          "name": "Touffe de Sram",
+          "itemId": 6682,
+          "imageUrl": "/items/6682.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6682"
+        },
+        {
+          "name": "Touffe de Steamer",
+          "itemId": 19744,
+          "imageUrl": "/items/19744.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19744"
+        },
+        {
+          "name": "Touffe de Xélor",
+          "itemId": 6683,
+          "imageUrl": "/items/6683.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6683"
+        },
+        {
+          "name": "Touffe de Zobal",
+          "itemId": 19743,
+          "imageUrl": "/items/19743.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19743"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "2,-19",
+              "7,-16"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1215",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/les-touffes-des-heros.html",
+      "sourceTitle": "Les touffes des héros",
+      "sourceHash": "e525016376d23e87838430e33573731b0142a269003cf483b6d5916df3330403",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": []
+}

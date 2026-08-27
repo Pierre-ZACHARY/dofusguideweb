@@ -1,0 +1,475 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 41,
+  "updatedAt": "2026-08-27T12:54:00.014Z",
+  "summaries": [
+    {
+      "overview": "Aidez Gob Ross à récupérer son pinceau fétiche à l'Akadémie des Gobs, puis réunissez les ingrédients nécessaires à sa peinture. Après avoir protégé son matériel contre de jeunes gobelins, convainquez-le finalement de devenir professeur de dessin à l'Akadémie.",
+      "recommendedLevel": 30,
+      "prerequisites": [
+        "Niveau recommandé : 30."
+      ],
+      "rewards": [
+        "254 268 XP.",
+        "4 760 Kamas.",
+        "3 x Os rongé de Gobichon."
+      ],
+      "preparation": [
+        "25 x Menthe Sauvage.",
+        "10 x Noix de Cajou.",
+        "5 x Poils de Barbe du Bwork Mage.",
+        "Effectuer 1 x Donjon Akadémie des Gobs.",
+        "Prévoir 1 x combat réalisable en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Gob Ross et interrogez-le sur sa peinture. Il vous explique que son pinceau fétiche a été confisqué lorsqu'il étudiait à l'Akadémie des Gobs.",
+          "position": "[-4,4]",
+          "zoneHint": "Campement des Gobelins",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans l'Akadémie des Gobs et terminez le donjon en vainquant le Directeur Grunob.",
+          "position": "[-5,3]",
+          "zoneHint": "Akadémie des Gobs",
+          "warning": "Si vous avancez aussi « La raison de plus fort », prévoyez de mettre les deux quêtes à jour avant de quitter le donjon.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, parlez au Directeur Grunob de la part de Gob Ross. Lorsqu'il vous autorise à consulter les objets confisqués, fouillez l'armoire située en haut à droite de la salle pour récupérer le pinceau dégarni.",
+          "position": "[-5,3]",
+          "zoneHint": "Akadémie des Gobs",
+          "warning": "Ne quittez pas immédiatement le donjon si « La raison de plus fort » est en cours : une autre option de dialogue avec Grunob est nécessaire pour cette quête.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparlez au Directeur Grunob pour confirmer que vous avez récupéré le pinceau, puis quittez les lieux lorsque vos éventuelles autres mises à jour de quête sont terminées.",
+          "position": "[-5,3]",
+          "zoneHint": "Akadémie des Gobs",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Gob Ross, rendez-lui son pinceau et transmettez-lui les nouvelles du Directeur Grunob. Suggérez-lui de devenir professeur de dessin ; il demande d'abord des ressources pour refaire ses peintures et réparer son pinceau.",
+          "position": "[-4,4]",
+          "zoneHint": "Campement des Gobelins",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Réunissez exactement 25 x Menthe Sauvage, 10 x Noix de Cajou et 5 x Poils de Barbe du Bwork Mage.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Ces ressources doivent être remises à Gob Ross pour poursuivre la quête.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Remettez à Gob Ross les 25 x Menthe Sauvage, 10 x Noix de Cajou et 5 x Poils de Barbe du Bwork Mage.",
+          "position": "[-4,4]",
+          "zoneHint": "Campement des Gobelins",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à un Gobichon intrigué et distribuez des patates aux gobelins pour les éloigner de la peinture. Un combat se déclenche.",
+          "position": "[-4,4]",
+          "zoneHint": "Campement des Gobelins",
+          "warning": "Le combat est obligatoire mais peut être réalisé en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire, reparlez à Gob Ross. Proposez-lui de nouveau d'enseigner la peinture à l'Akadémie ; il accepte cette fois-ci, ce qui termine la quête.",
+          "position": "[-4,4]",
+          "zoneHint": "Campement des Gobelins",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Lors du combat final, les adversaires disposent notamment d'attaques de Terre, Feu et Eau, de poussée, de vol de vie et d'un effet de bouclier.",
+        "Le pinceau est récupéré dans l'armoire de la salle du Directeur Grunob après avoir obtenu son autorisation."
+      ],
+      "npcs": [
+        "Gob Ross",
+        "Directeur Grunob",
+        "Gobichon intrigué"
+      ],
+      "items": [
+        {
+          "name": "Pinceau dégarni",
+          "itemId": 26665,
+          "imageUrl": "/items/26665.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26665"
+        },
+        {
+          "name": "Menthe Sauvage",
+          "itemId": 380,
+          "imageUrl": "/items/380.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/380"
+        },
+        {
+          "name": "Noix de Cajou",
+          "itemId": 391,
+          "imageUrl": "/items/391.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/391"
+        },
+        {
+          "name": "Poils de Barbe du Bwork Mage",
+          "itemId": 409,
+          "imageUrl": "/items/409.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/409"
+        },
+        {
+          "name": "Os rongé de Gobichon",
+          "itemId": 2656,
+          "imageUrl": "/items/2656.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2656"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 1018,
+            "name": "Akadémie des Gobs",
+            "coordinates": [
+              "-5,3"
+            ]
+          },
+          {
+            "id": 276,
+            "name": "Campement des Gobelins",
+            "coordinates": [
+              "-4,4"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2430,
+            "name": "Chevaustine le Reconstruit",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2430.png"
+          },
+          {
+            "id": 2494,
+            "name": "Gobstiniais le Têtu",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2494.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 187,
+            "name": "Gobelins d'Amakna",
+            "monsters": [
+              {
+                "id": 178,
+                "name": "Gobet",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/178.png"
+              },
+              {
+                "id": 62,
+                "name": "Gob-trotteur",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/62.png"
+              },
+              {
+                "id": 6902,
+                "name": "Gobaladée",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/6902.png"
+              },
+              {
+                "id": 6901,
+                "name": "Gobaliste",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/6901.png"
+              },
+              {
+                "id": 6900,
+                "name": "Gobichon",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/6900.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1415",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/de-joyeux-petits-arbres.html",
+      "sourceTitle": "De joyeux petits arbres",
+      "sourceHash": "e28f30ef79d1347d930e10419e98f5fc13a06160b466e4e46d9fd4d90f1bfecc",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Emma Tompouce soupçonne les œufs gardés par le Kwakwa d'être des Dofus. Acceptez son enquête, terminez le Nid du Kwakwa pour vaincre son gardien, puis revenez à Astrub lui annoncer le résultat.",
+      "recommendedLevel": 30,
+      "prerequisites": [
+        "Niveau > 29.",
+        "Donjon éducatif."
+      ],
+      "rewards": [
+        "489 037 XP.",
+        "8 352 kamas.",
+        "1 x Bec du Kwakwa."
+      ],
+      "preparation": [
+        "Effectuer 1 x Donjon Nid du Kwakwa."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Emma Tompouce et acceptez d'aller vérifier si les œufs protégés par le Kwakwa sont des Dofus.",
+          "position": "[1,-15]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au Nid du Kwakwa et effectuez le donjon jusqu'à vaincre le Kwakwa.",
+          "position": "[-4,-7]",
+          "zoneHint": "Nid du Kwakwa",
+          "warning": "Emma Tompouce fournit une clef du donjon. Si votre trousseau de clefs est disponible, vous pouvez l'utiliser à la place.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez auprès d'Emma Tompouce et faites-lui votre rapport sur le Nid du Kwakwa pour terminer la quête.",
+          "position": "[1,-15]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": "Continuer la discussion après la validation peut lancer la quête suivante « Donjon magistral ».",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête consiste à lancer la mission auprès d'Emma Tompouce, vaincre le Kwakwa dans son donjon, puis revenir lui faire un rapport."
+      ],
+      "npcs": [
+        "Emma Tompouce",
+        "Kwakwa"
+      ],
+      "items": [
+        {
+          "name": "Clef du Nid du Kwakwa",
+          "itemId": 12017,
+          "imageUrl": "/items/12017.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/12017"
+        },
+        {
+          "name": "Bec du Kwakwa",
+          "itemId": 12015,
+          "imageUrl": "/items/12015.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/12015"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "1,-15"
+            ]
+          },
+          {
+            "id": 755,
+            "name": "Nid du Kwakwa",
+            "coordinates": [
+              "-4,-7"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 188,
+            "name": "Bwaks",
+            "monsters": [
+              {
+                "id": 3283,
+                "name": "Bwak de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/3283.png"
+              },
+              {
+                "id": 3282,
+                "name": "Bwak de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/3282.png"
+              },
+              {
+                "id": 3284,
+                "name": "Bwak de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/3284.png"
+              },
+              {
+                "id": 3281,
+                "name": "Bwak de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/3281.png"
+              }
+            ]
+          },
+          {
+            "id": 190,
+            "name": "Kwakeres",
+            "monsters": [
+              {
+                "id": 269,
+                "name": "Kwakere de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/269.png"
+              },
+              {
+                "id": 271,
+                "name": "Kwakere de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/271.png"
+              },
+              {
+                "id": 270,
+                "name": "Kwakere de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/270.png"
+              },
+              {
+                "id": 272,
+                "name": "Kwakere de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/272.png"
+              }
+            ]
+          },
+          {
+            "id": 189,
+            "name": "Kwaks",
+            "monsters": [
+              {
+                "id": 83,
+                "name": "Kwak de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/83.png"
+              },
+              {
+                "id": 84,
+                "name": "Kwak de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/84.png"
+              },
+              {
+                "id": 235,
+                "name": "Kwak de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/235.png"
+              },
+              {
+                "id": 81,
+                "name": "Kwak de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/81.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:600",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/donjon-douillet.html",
+      "sourceTitle": "Donjon douillet",
+      "sourceHash": "f595f4752d9c2a2fdd23704c86655d47579f72e639bde6b85325724a2cf01347",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": []
+}

@@ -1,0 +1,1082 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 13,
+  "updatedAt": "2026-08-27T12:53:54.958Z",
+  "summaries": [
+    {
+      "overview": "À votre arrivée à Astrub, l’Envoyée des Douze vous oriente vers la Conseillère Archie. Cette courte quête sert d’introduction à la ville et ouvre la suite de l’enquête sur les faux Dofus.",
+      "recommendedLevel": 15,
+      "prerequisites": [],
+      "rewards": [
+        "6 226 XP.",
+        "151 kamas.",
+        "4 x Plume de Piou Violet."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Dans le Temple des Douze, parlez à l’Envoyée des Douze, choisissez d’en apprendre davantage sur Astrub puis acceptez de suivre sa suggestion et d’aller rencontrer Archie.",
+          "position": "[6,-19]",
+          "zoneHint": "Temple des Douze",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à la Tour du conseil et parlez à la Conseillère Archie. Approuvez son point de vue sur la discipline puis acceptez sans hésiter d’enquêter sur l’affaire des prétendus œufs de dragon.",
+          "position": "[4,-19]",
+          "zoneHint": "Tour du conseil",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La conversation avec Archie permet ensuite de lancer On marche sur des oeufs.",
+        "Cette quête débloque également l’accès à Ça tombe à l’eau.",
+        "Le portail présent dans la salle de l’Envoyée des Douze permet de retourner à Incarnam."
+      ],
+      "npcs": [
+        "Envoyée des Douze",
+        "Conseillère Archie"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "6,-19",
+              "4,-19"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1181",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/les-principes-d-archie-m-aident.html",
+      "sourceTitle": "Les principes d'Archie m'aident",
+      "sourceHash": "3a2e709f870c4dcfa7827a21392f3b36aaffa247981ed72df22599fdcd14f71b",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Infiltrez un trafic de faux Dofus pour le compte de la Conseillère Archie. L’enquête passe par la taverne, une rencontre avec le trafiquant Nowa, un combat puis son transfert à la Milice avant le compte rendu final à Archie.",
+      "recommendedLevel": 15,
+      "prerequisites": [
+        "Les principes d'Archie m'aident."
+      ],
+      "rewards": [
+        "12 454 XP.",
+        "303 kamas.",
+        "1 x Dofawa."
+      ],
+      "preparation": [
+        "Prévoir 40 x Kamas pour commander une bière à Tek Abir.",
+        "Prévoir 1 x combat, réalisable en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "À la suite de la quête précédente, poursuivez le dialogue avec la Conseillère Archie et acceptez d’infiltrer le trafic de faux Dofus en vous faisant passer pour un acheteur.",
+          "position": "[4,-19]",
+          "zoneHint": "Tour du conseil",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À la taverne, parlez à Tek Abir et commandez une bière, puis donnez-la à Acidrik Fenlapanse en lui disant que vous recherchez les Dofus.",
+          "position": "[6,-18]",
+          "zoneHint": "Taverne d'Astrub",
+          "warning": "La bière coûte 40 kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montez au premier étage de la taverne, parlez à Huze Belli, dites que vous cherchez les Dofus puis prétendez avoir hérité d’un joli magot de votre tatie Nadielle afin qu’elle vous indique le rendez-vous.",
+          "position": "[6,-18]",
+          "zoneHint": "Taverne d'Astrub - premier étage",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Nowa et donnez-lui le mot de passe. Lorsqu’il réclame 10 000 kamas, menacez-le avec votre arme au lieu de payer puis refusez son pot-de-vin de 10 kamas en répondant que vous êtes incorruptible.",
+          "position": "[2,-15]",
+          "zoneHint": null,
+          "warning": "Ne payez pas les 10 000 kamas demandés par Nowa. Le dialogue mène obligatoirement au combat en suivant ce parcours.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Affrontez Nowa lorsqu’il tente de s’enfuir.",
+          "position": "[2,-15]",
+          "zoneHint": null,
+          "warning": "Combat réalisable en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire, reparlez à Nowa afin de l’escorter jusqu’à la Milice.",
+          "position": "[2,-15]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la Milice et remettez Nowa à Badufron. Le faux Dofus vous est laissé à l’issue de l’arrestation.",
+          "position": "[5,-19]",
+          "zoneHint": "Milice d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de la Conseillère Archie et annoncez qu’un trafiquant pandawa est désormais sous les verrous.",
+          "position": "[4,-19]",
+          "zoneHint": "Tour du conseil",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le passage auprès de Badufron débloque Bière qui roule n'amasse pas mousse avant même la fin de cette quête.",
+        "En poursuivant la conversation finale avec Archie, vous obtenez ensuite Conseil de classe."
+      ],
+      "npcs": [
+        "Conseillère Archie",
+        "Tek Abir",
+        "Acidrik Fenlapanse",
+        "Huze Belli",
+        "Nowa",
+        "Badufron"
+      ],
+      "items": [
+        {
+          "name": "Bière",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Dofawa",
+          "itemId": 7113,
+          "imageUrl": "/items/7113.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/7113"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "4,-19",
+              "2,-15",
+              "5,-19"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "6,-18"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1182",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/on-marche-sur-des-oeufs.html",
+      "sourceTitle": "On marche sur des oeufs",
+      "sourceHash": "e2d655f9eff1f66ba18e8c2e446c904d643ee8b010a520effc931a6522a22e55",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Cette entrée sert d’aiguillage vers une quête de dévotion différente selon la classe du personnage. La source fournie ne décrit pas le déroulement de ces quêtes individuelles, uniquement la correspondance entre classe et quête.",
+      "recommendedLevel": null,
+      "prerequisites": [],
+      "rewards": [],
+      "preparation": [
+        "Identifiez la classe de votre personnage afin de choisir la quête de dévotion correspondante."
+      ],
+      "actions": [
+        {
+          "instruction": "Choisissez la quête correspondant exactement à votre classe : Crâ — Dévotion à Crâ ; Ecaflip — Dévotion à Ecaflip ; Eliotrope — Dévotion au Roi-Dieu ; Eniripsa — Dévotion à Eniripsa ; Enutrof — Dévotion à Enutrof ; Féca — Dévotion à Féca ; Forgelance — Dévotion à la Lance Originelle ; Huppermage — Dévotion à la Balance Krosmique ; Iop — Dévotion à Iop ; Ouginak — Dévotion à Ouginak ; Osamodas — Dévotion à Osamodas ; Pandawa — Dévotion à Pandawa ; Roublard — Dévotion à Dralbour ; Sacrieur — Dévotion à Sacrieur ; Sadida — Dévotion à Sadida ; Sram — Dévotion à Sram ; Steamer — Dévotion à Oktapodas ; Xélor — Dévotion à Xélor ; Zobal — Dévotion à Sadida (Zobal).",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Le choix dépend de la classe du personnage ; la source fournie ne contient pas le tutoriel détaillé des quêtes de dévotion individuelles.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [],
+      "npcs": [],
+      "items": [],
+      "bestiary": {
+        "zones": [],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": []
+      },
+      "questKey": "quest:1446",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/quetes-de-devotion.html",
+      "sourceTitle": "Quêtes de dévotion",
+      "sourceHash": "5ed2a6621d2681d1fa6d1cdfea7773f74112b6baaa486940f4e7f9eeb618a6d2",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Badufron vous confie une première mission de mercenariat très simple : lui rapporter une bière d’Astrub. Cette quête devient accessible pendant On marche sur des oeufs, dès votre rencontre avec Badufron.",
+      "recommendedLevel": 15,
+      "prerequisites": [
+        "On marche sur des œufs jusqu’à rencontrer Badufron."
+      ],
+      "rewards": [
+        "5 189 XP.",
+        "126 kamas.",
+        "4 x Plume de Piou Bleu."
+      ],
+      "preparation": [
+        "Prévoir 40 x Kamas."
+      ],
+      "actions": [
+        {
+          "instruction": "Dans la Milice, parlez à Badufron, demandez-lui une mission de mercenariat puis acceptez de partir lui chercher une bière.",
+          "position": "[5,-19]",
+          "zoneHint": "Milice d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À la taverne, parlez directement à Tek Abir et choisissez de payer 40 kamas pour obtenir la bière demandée.",
+          "position": "[6,-18]",
+          "zoneHint": "Taverne d'Astrub",
+          "warning": "Dépense de 40 kamas. Il faut obtenir la bière par le dialogue avec Tek Abir, et non via son interface d’achat.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez à la Milice et donnez la bière à Badufron.",
+          "position": "[5,-19]",
+          "zoneHint": "Milice d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "En poursuivant la discussion avec Badufron après la remise de la bière, vous obtenez Combat de rue."
+      ],
+      "npcs": [
+        "Badufron",
+        "Tek Abir"
+      ],
+      "items": [
+        {
+          "name": "Bière d'Astrub",
+          "itemId": 6857,
+          "imageUrl": "/items/6857.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6857"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "5,-19"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "6,-18"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1200",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/biere-qui-roule-n-amasse-pas-mousse.html",
+      "sourceTitle": "Bière qui roule n'amasse pas mousse",
+      "sourceHash": "26ba8196c7f1be0133c3c69db618406dfba67517341cb5e53f378fb1979a6449",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Aidez Soki, un chacha déprimé, en lui apportant à manger, en lui faisant visiter plusieurs endroits d’Astrub puis en lui donnant l’occasion d’impressionner une chachatte rose grâce à une Sousouris capturée dans une cave.",
+      "recommendedLevel": 15,
+      "prerequisites": [],
+      "rewards": [
+        "10 378 XP.",
+        "252 kamas.",
+        "4 x Plume de Piou Rose."
+      ],
+      "preparation": [
+        "Prévoir 1 x Lailait.",
+        "Prévoir 1 x Goujon.",
+        "Prévoir 1 x combat, réalisable en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Soki, caressez le chacha puis décidez de lui apporter un Goujon et un Lailait pour tenter de lui remonter le moral.",
+          "position": "[7,-20]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Procurez-vous 1 x Lailait et 1 x Goujon. Le Lailait peut être acheté à la taverne pour 4 kamas ; le Goujon peut être acheté ou pêché.",
+          "position": "[6,-18]",
+          "zoneHint": "Taverne d'Astrub",
+          "warning": "L’achat du Lailait à la taverne coûte 4 kamas ; le prix éventuel du Goujon dépend de son mode d’obtention.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Soki et donnez-lui le Lailait et le Goujon.",
+          "position": "[7,-20]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Emmenez Soki visiter la place du Temple des Douze.",
+          "position": "[6,-19]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Emmenez ensuite Soki devant l’hôtel de vente des consommables.",
+          "position": "[3,-19]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Poursuivez la promenade devant la boutique de Kerubim.",
+          "position": "[3,-17]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Terminez les quatre visites devant l’hôtel de vente des équipements.",
+          "position": "[6,-17]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramenez Soki à son point de départ et constatez qu’il reste déprimé ; il cherche en réalité à impressionner la chachatte rose.",
+          "position": "[7,-20]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Descendez à la maison située sur la gauche puis entrez et gagnez la cave.",
+          "position": "[7,-19]",
+          "zoneHint": "Cave de la maison",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la cave, parlez à l’une des Sousouris et attaquez-la.",
+          "position": "[7,-19]",
+          "zoneHint": "Cave de la maison",
+          "warning": "Combat réalisable en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, revenez auprès de Soki et donnez-lui la Sousouris afin qu’il puisse impressionner la chachatte rose.",
+          "position": "[7,-20]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [],
+      "npcs": [
+        "Soki",
+        "Sousouris"
+      ],
+      "items": [
+        {
+          "name": "Lailait",
+          "itemId": 6765,
+          "imageUrl": "/items/6765.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6765"
+        },
+        {
+          "name": "Goujon",
+          "itemId": 1782,
+          "imageUrl": "/items/1782.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1782"
+        },
+        {
+          "name": "Sousouris",
+          "itemId": 19763,
+          "imageUrl": "/items/19763.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19763"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "7,-20",
+              "3,-19",
+              "3,-17",
+              "7,-19"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "6,-19"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "6,-17"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "6,-18"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1214",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/chacha-blues.html",
+      "sourceTitle": "Chacha Blues",
+      "sourceHash": "d44f2dc4a1aadf92c6461f6d7ddbea1a5619624cc88bae1a357085ceaa602232",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Le Mage Ax vous fait découvrir le fonctionnement de l’Almanax et du Bibliotemple. Le parcours mène au Zaap de l’Almanax, au Sanctuaire puis aux différents membres de la famille Ax, avant de visiter les salles correspondant aux quatre saisons.",
+      "recommendedLevel": 12,
+      "prerequisites": [],
+      "rewards": [
+        "9 084 XP.",
+        "218 Kamas."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Dans l’atelier Alchimiste, parlez au Mage Ax, demandez ce qui le rend de si bonne humeur puis acceptez sa proposition de découvrir l’Almanax et partez vers le nord-ouest.",
+          "position": "[3,-21]",
+          "zoneHint": "Atelier Alchimiste",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au Zaap de l’Almanax afin de le découvrir.",
+          "position": "[-5,-23]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans le Sanctuaire de l’Almanax et parlez à Théodoran Ax pour annoncer que vous êtes prêt à honorer les Mérydes.",
+          "position": "[-4,-24]",
+          "zoneHint": "Sanctuaire de l'Almanax",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Passez dans la seconde salle du Sanctuaire et parlez à Xanamla pour découvrir que les Almatons obtenus grâce aux offrandes quotidiennes peuvent être échangés contre des récompenses.",
+          "position": "[-4,-24]",
+          "zoneHint": "Sanctuaire de l'Almanax - seconde salle",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Revenez dans la première salle et parlez à Yacinthe Ax pour vous renseigner sur les livres du Bibliotemple.",
+          "position": "[-4,-24]",
+          "zoneHint": "Sanctuaire de l'Almanax - première salle",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Visitez successivement les salles correspondant aux quatre saisons de l’année en entrant dans chacune d’elles. La quête se termine après la visite des quatre salles.",
+          "position": "[-4,-24]",
+          "zoneHint": "Sanctuaire de l'Almanax - salles des saisons",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les offrandes quotidiennes aux Mérydes permettent d’obtenir des Almatons.",
+        "Après une offrande, la salle dans laquelle il faut prier dépend de la saison de l’année."
+      ],
+      "npcs": [
+        "Mage Ax",
+        "Théodoran Ax",
+        "Xanamla",
+        "Yacinthe Ax"
+      ],
+      "items": [
+        {
+          "name": "Almaton",
+          "itemId": 13330,
+          "imageUrl": "/items/13330.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/13330"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "3,-21"
+            ]
+          },
+          {
+            "id": 178,
+            "name": "Plaine des Porkass",
+            "coordinates": [
+              "-5,-23",
+              "-4,-24"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          },
+          {
+            "id": 4272,
+            "name": "Bouss Baybe",
+            "level": 50,
+            "imageUrl": "/bestiary/monsters/4272.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2279,
+            "name": "Sampi l'Eternel",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/2279.png"
+          },
+          {
+            "id": 2420,
+            "name": "Cavordemal le Sorcier",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2420.png"
+          },
+          {
+            "id": 2325,
+            "name": "Chonstip la Passagère",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2325.png"
+          },
+          {
+            "id": 2397,
+            "name": "Porfavor le Quémandeur",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2397.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 214,
+            "name": "Porkass",
+            "monsters": [
+              {
+                "id": 344,
+                "name": "Berger Porkass",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/344.png"
+              },
+              {
+                "id": 343,
+                "name": "Cavalier Porkass",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/343.png"
+              },
+              {
+                "id": 297,
+                "name": "Sanglier des Plaines",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/297.png"
+              },
+              {
+                "id": 123,
+                "name": "Cochon de Lait",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/123.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1447",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/l-almanax-du-mage-ax.html",
+      "sourceTitle": "L'Almanax du Mage Ax",
+      "sourceHash": "1a4dd05ee91b1a4b9407325c5d6318aae42d0a4b2b2bd89681135ff6e7af65f9",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Regrouper les passages à la taverne",
+      "description": "On marche sur des oeufs, Bière qui roule n'amasse pas mousse et Chacha Blues utilisent tous la taverne d’Astrub en [6,-18]. Après avoir débloqué la mission de Badufron pendant On marche sur des oeufs, profitez d’un même passage pour gérer les achats et dialogues disponibles afin de réduire les allers-retours.",
+      "questKeys": [
+        "quest:1182",
+        "quest:1200",
+        "quest:1214"
+      ],
+      "actions": [
+        "Pendant On marche sur des oeufs, terminez d’abord l’étape qui conduit Nowa à Badufron en [5,-19] afin de rendre Bière qui roule n'amasse pas mousse accessible.",
+        "Lors de votre passage suivant en [6,-18], commandez la bière requise par Bière qui roule n'amasse pas mousse et profitez-en pour acheter le Lailait de Chacha Blues si vous ne l’avez pas déjà.",
+        "Effectuez aussi les dialogues de taverne nécessaires à On marche sur des oeufs lorsqu’ils sont encore en cours avant de repartir."
+      ]
+    }
+  ]
+}

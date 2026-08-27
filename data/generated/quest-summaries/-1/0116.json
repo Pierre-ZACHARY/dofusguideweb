@@ -1,0 +1,1726 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 116,
+  "updatedAt": "2026-08-27T12:55:04.720Z",
+  "summaries": [
+    {
+      "overview": "Mériana vous révèle que le Dofus Pourpre est gardé par le Minotoror. Pour vous en emparer, il vous faut le Livre des Taures. Elle ignore où en trouver, vous devez donc faire le tour des bibliothèques de Bonta, Brakmar, Sufokia, Amakna, Pandala et Astrub pour en dénicher un exemplaire avant d'affronter le Donjon Bibliothèque du Maitre Corbac.",
+      "recommendedLevel": 110,
+      "prerequisites": [
+        "La magicienne des marécages"
+      ],
+      "rewards": [
+        "3 116 628 XP",
+        "34 272 kamas",
+        "3 x Tissu Sombre"
+      ],
+      "preparation": [
+        "1 x combat (seul)",
+        "1 x Donjon Bibliothèque du Maitre Corbac"
+      ],
+      "actions": [
+        {
+          "instruction": "Allez en [-6,-3] aux Marécages nauséabonds et parlez à Mériana du Dofus Pourpre.",
+          "position": "[-6,-3]",
+          "zoneHint": "Marécages nauséabonds",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez à la bibliothèque de Bonta en [-35,-57] et parlez à Marcelle Rouste du Livre des Taures.",
+          "position": "[-35,-57]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez à Brakmar en [-24,39] et parlez à Jean-Sol Patre du Livre des Taures.",
+          "position": "[-24,39]",
+          "zoneHint": "Brakmar",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez à Sufokia en [20,25] et parlez au Docteur Hou du Livre des Taures.",
+          "position": "[20,25]",
+          "zoneHint": "Sufokia",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez à la bibliothèque d'Amakna pour chercher le Livre des Taures.",
+          "position": null,
+          "zoneHint": "Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez à la bibliothèque de Pandala pour chercher le Livre des Taures.",
+          "position": null,
+          "zoneHint": "Pandala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez à la bibliothèque d'Astrub pour chercher le Livre des Taures.",
+          "position": null,
+          "zoneHint": "Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Affrontez le Donjon Bibliothèque du Maitre Corbac en combat seul.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Combat en solo obligatoire.",
+          "combat": "SOLO"
+        }
+      ],
+      "notes": [
+        "Pour vous rendre en [-6,-3], utilisez le dossier \"Chemin vers Mériana\"."
+      ],
+      "npcs": [
+        "Mériana",
+        "Marcelle Rouste",
+        "Jean-Sol Patre",
+        "Docteur Hou"
+      ],
+      "items": [
+        {
+          "name": "Tissu Sombre",
+          "itemId": 2285,
+          "imageUrl": "/items/2285.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2285"
+        },
+        {
+          "name": "Livre des Taures",
+          "itemId": 15417,
+          "imageUrl": "/items/15417.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15417"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-35,-57"
+            ]
+          },
+          {
+            "id": 978,
+            "name": "L'Ancre",
+            "coordinates": [
+              "-24,39"
+            ]
+          },
+          {
+            "id": 232,
+            "name": "Marécages nauséabonds",
+            "coordinates": [
+              "-6,-3"
+            ]
+          },
+          {
+            "id": 32,
+            "name": "Sufokia",
+            "coordinates": [
+              "20,25"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2549,
+            "name": "Boostif l'Affamé",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2549.png"
+          },
+          {
+            "id": 2439,
+            "name": "Crolnareff l'Exilé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2439.png"
+          },
+          {
+            "id": 2428,
+            "name": "Crok le Beau",
+            "level": 61,
+            "imageUrl": "/bestiary/monsters/2428.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 208,
+            "name": "Gadouilleux",
+            "monsters": [
+              {
+                "id": 263,
+                "name": "Chef Crocodaille",
+                "level": 61,
+                "imageUrl": "/bestiary/monsters/263.png"
+              },
+              {
+                "id": 261,
+                "name": "Crocodaille",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/261.png"
+              },
+              {
+                "id": 112,
+                "name": "Boo",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/112.png"
+              },
+              {
+                "id": 4833,
+                "name": "Arakne Olithique",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4833.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:806",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-livre-des-taures.html",
+      "sourceTitle": "Le livre des Taures",
+      "sourceHash": "ec9079fe1d4ccfcdedd8914b002159a9d67eeafbc3b43af72535d48d877571e5",
+      "generatedAt": "2026-08-24T17:42:28.356Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Lancez la quête auprès de Kal Vissi en [-19,30] aux Terres Désacrées, puis enchaînez cinq donjons : Bibliothèque du Maître Corbac, Serre du Royalmouth, Labyrinthe du Minotoror, Tofulailler Royal et Antre de Crocabulia. Après chaque donjon, retournez voir Kal Vissi pour obtenir la clé du suivant.",
+      "recommendedLevel": 50,
+      "prerequisites": [
+        "Niveau supérieur à 29",
+        "Quête Un juge hystérique"
+      ],
+      "rewards": [
+        "18 651 520 XP",
+        "195 360 Kamas",
+        "1 x Clakoss",
+        "1 x Queue du Royalmouth",
+        "1 x Corne Brûlée du Minotoror",
+        "1 x Plume Vibrante du Tofu Royal",
+        "1 x Corne brisée de Crocabulia"
+      ],
+      "preparation": [
+        "Donjon Bibliothèque du Maître Corbac",
+        "Donjon Serre du Royalmouth",
+        "Donjon Labyrinthe du Minotoror",
+        "Donjon Tofulailler Royal",
+        "Antre de Crocabulia (donjon)"
+      ],
+      "actions": [
+        {
+          "instruction": "Aller en [-19,30] et parler à Kal Vissi pour lancer la quête.",
+          "position": "[-19,30]",
+          "zoneHint": "Terres Désacrées",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller en [-15,-62] dans le donjon Bibliothèque du Maître Corbac et vaincre le Maître Corbac.",
+          "position": "[-15,-62]",
+          "zoneHint": null,
+          "warning": "Combat de donjon contre le Maître Corbac.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner en [-19,30] parler à Kal Vissi pour obtenir la clé du prochain donjon.",
+          "position": "[-19,30]",
+          "zoneHint": "Terres Désacrées",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller en [-34,-16] prendre le bateau pour Frigost I.",
+          "position": "[-34,-16]",
+          "zoneHint": null,
+          "warning": "Niveau 50 minimum requis pour accéder à Frigost I.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller en [-84,-49] dans le donjon Serre du Royalmouth et vaincre le Royalmouth.",
+          "position": "[-84,-49]",
+          "zoneHint": null,
+          "warning": "Combat de donjon contre le Royalmouth.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner en [-19,30] parler à Kal Vissi pour obtenir la clé du prochain donjon.",
+          "position": "[-19,30]",
+          "zoneHint": "Terres Désacrées",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller en [-42,-17] dans le donjon Labyrinthe du Minotoror et vaincre le Minotoror.",
+          "position": "[-42,-17]",
+          "zoneHint": null,
+          "warning": "Combat de donjon contre le Minotoror. Il est recommandé d'entrer dans la salle du Minotot avant de quitter pour obtenir une sauvegarde utile pour une prochaine quête.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner en [-19,30] parler à Kal Vissi pour obtenir la clé du prochain donjon.",
+          "position": "[-19,30]",
+          "zoneHint": "Terres Désacrées",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller dans le donjon Tofulailler Royal et vaincre le Tofu Royal.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Combat de donjon contre le Tofu Royal.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner en [-19,30] parler à Kal Vissi pour obtenir la clé du prochain donjon.",
+          "position": "[-19,30]",
+          "zoneHint": "Terres Désacrées",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller dans l'Antre de Crocabulia et vaincre Crocabulia.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Combat de donjon contre Crocabulia.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner en [-19,30] parler à Kal Vissi pour terminer la quête.",
+          "position": "[-19,30]",
+          "zoneHint": "Terres Désacrées",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Il est recommandé d'entrer dans la salle du Minotot avant de quitter le Labyrinthe du Minotoror pour obtenir une sauvegarde utile dans une prochaine quête.",
+        "L'accès à Frigost I nécessite le bateau en [-34,-16] et un niveau minimum de 50."
+      ],
+      "npcs": [
+        "Kal Vissi"
+      ],
+      "items": [
+        {
+          "name": "Clakoss",
+          "itemId": 2527,
+          "imageUrl": "/items/2527.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2527"
+        },
+        {
+          "name": "Queue du Royalmouth",
+          "itemId": 11219,
+          "imageUrl": "/items/11219.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11219"
+        },
+        {
+          "name": "Corne Brûlée du Minotoror",
+          "itemId": 1680,
+          "imageUrl": "/items/1680.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1680"
+        },
+        {
+          "name": "Plume Vibrante du Tofu Royal",
+          "itemId": 8387,
+          "imageUrl": "/items/8387.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8387"
+        },
+        {
+          "name": "Corne brisée de Crocabulia",
+          "itemId": 8365,
+          "imageUrl": "/items/8365.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8365"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 334,
+            "name": "Baie de Cania",
+            "coordinates": [
+              "-34,-16"
+            ]
+          },
+          {
+            "id": 1038,
+            "name": "Bibliothèque du Maître Corbac",
+            "coordinates": [
+              "-15,-62"
+            ]
+          },
+          {
+            "id": 319,
+            "name": "Labyrinthe du Minotoror",
+            "coordinates": [
+              "-42,-17"
+            ]
+          },
+          {
+            "id": 617,
+            "name": "Serre du Royalmouth",
+            "coordinates": [
+              "-84,-49"
+            ]
+          },
+          {
+            "id": 517,
+            "name": "Terres Désacrées",
+            "coordinates": [
+              "-19,30"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 552,
+            "name": "Musha L'Oni",
+            "level": 80,
+            "imageUrl": "/bestiary/monsters/552.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2391,
+            "name": "Ameur la Laide",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2391.png"
+          },
+          {
+            "id": 2433,
+            "name": "Codenlgaz le Problème",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2433.png"
+          },
+          {
+            "id": 2508,
+            "name": "Kiroyal le Sirupeux",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2508.png"
+          },
+          {
+            "id": 2525,
+            "name": "Let le Rond",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2525.png"
+          },
+          {
+            "id": 2289,
+            "name": "Susbewl l'Hypocrite",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2289.png"
+          },
+          {
+            "id": 2437,
+            "name": "Corpat le Vampire",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2437.png"
+          },
+          {
+            "id": 2615,
+            "name": "Scaratyn l'Huître",
+            "level": 110,
+            "imageUrl": "/bestiary/monsters/2615.png"
+          },
+          {
+            "id": 2568,
+            "name": "Germinol l'Indigent",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/2568.png"
+          },
+          {
+            "id": 2287,
+            "name": "Serpistule le Purulent",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/2287.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 156,
+            "name": "Boufmouths",
+            "monsters": [
+              {
+                "id": 2850,
+                "name": "Boufmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2850.png"
+              },
+              {
+                "id": 2851,
+                "name": "Boufmouth de guerre",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2851.png"
+              },
+              {
+                "id": 2852,
+                "name": "Boufmouth légendaire",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2852.png"
+              },
+              {
+                "id": 2853,
+                "name": "Bouftonmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2853.png"
+              }
+            ]
+          },
+          {
+            "id": 211,
+            "name": "Corbacs",
+            "monsters": [
+              {
+                "id": 818,
+                "name": "Corbac Apprivoisé",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/818.png"
+              },
+              {
+                "id": 819,
+                "name": "Buveur",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/819.png"
+              },
+              {
+                "id": 281,
+                "name": "Corbac",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/281.png"
+              },
+              {
+                "id": 824,
+                "name": "Horace le Corbac Apprivoisé",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/824.png"
+              },
+              {
+                "id": 825,
+                "name": "Kapotie le Buveur",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/825.png"
+              },
+              {
+                "id": 820,
+                "name": "Renarbo",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/820.png"
+              },
+              {
+                "id": 823,
+                "name": "Rono le Renarbo",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/823.png"
+              }
+            ]
+          },
+          {
+            "id": 1068,
+            "name": "Dopeuls",
+            "monsters": [
+              {
+                "id": 385,
+                "name": "Amlub",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/385.png"
+              },
+              {
+                "id": 386,
+                "name": "Codem",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/386.png"
+              },
+              {
+                "id": 570,
+                "name": "Idemas",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/570.png"
+              },
+              {
+                "id": 388,
+                "name": "Kirevam",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/388.png"
+              },
+              {
+                "id": 389,
+                "name": "Let Emoliug",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/389.png"
+              },
+              {
+                "id": 393,
+                "name": "Susej",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/393.png"
+              }
+            ]
+          },
+          {
+            "id": 1612,
+            "name": "Goules",
+            "monsters": [
+              {
+                "id": 4878,
+                "name": "Kérigoule",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/4878.png"
+              },
+              {
+                "id": 4881,
+                "name": "Pipisteuse",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/4881.png"
+              },
+              {
+                "id": 4879,
+                "name": "Gouligane",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/4879.png"
+              },
+              {
+                "id": 4880,
+                "name": "Goultime",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/4880.png"
+              }
+            ]
+          },
+          {
+            "id": 173,
+            "name": "Minos",
+            "monsters": [
+              {
+                "id": 668,
+                "name": "Gamino",
+                "level": 120,
+                "imageUrl": "/bestiary/monsters/668.png"
+              },
+              {
+                "id": 832,
+                "name": "Déminoboule",
+                "level": 108,
+                "imageUrl": "/bestiary/monsters/832.png"
+              },
+              {
+                "id": 831,
+                "name": "Mominotor",
+                "level": 108,
+                "imageUrl": "/bestiary/monsters/831.png"
+              },
+              {
+                "id": 830,
+                "name": "Scaratos",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/830.png"
+              },
+              {
+                "id": 829,
+                "name": "Serpiplume",
+                "level": 120,
+                "imageUrl": "/bestiary/monsters/829.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:74",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/des-donjons-encore-des-donjons.html",
+      "sourceTitle": "Des donjons, encore des donjons",
+      "sourceHash": "b13c418c97b8d82cbf9ac712ef9e4a15acc8ffba6cd80d25800afbac9ac64d98",
+      "generatedAt": "2026-08-24T18:04:12.264Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Quête du succès « Tu peux toujours te gratter ». Le Docteur Gaw vous demande de récolter 5 Oeufs d'Ecaflipuce dans les Pierres de l'élévation à Ecaflipus, puis de les remettre au sergent Blaste.",
+      "recommendedLevel": 110,
+      "prerequisites": [
+        "Niveau recommandé 110"
+      ],
+      "rewards": [
+        "1 298 594 XP",
+        "14 280 kamas",
+        "15 x Orichor",
+        "5 x Patte de Pupuce"
+      ],
+      "preparation": [
+        "Prévoir des combats aléatoires contre des Ecaflipuces vigilantes"
+      ],
+      "actions": [
+        {
+          "instruction": "Aller en Routes Rocailleuses [-22,-24] et parler au Docteur Gaw pour accepter la quête.",
+          "position": "[-22,-24]",
+          "zoneHint": "Routes Rocailleuses",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Se rendre à Ecaflipus, dans la zone des Pierres de l'élévation. Cliquer sur les trous au sol pour récolter 5 Oeufs d'Ecaflipuce. Positions des trous : [-2,-7], [-1,-7], [-1,-8], [0,-7], [2,-8].",
+          "position": "[-2,-7]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": "Combats aléatoires possibles contre une Ecaflipuce vigilante en cliquant sur les trous.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Aller voir le sergent Blaste en [-1,-6] et lui remettre les 5 Oeufs d'Ecaflipuce pour terminer la quête.",
+          "position": "[-1,-6]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête fait partie du succès « Tu peux toujours te gratter ».",
+        "Après avoir terminé cette quête, vous pouvez poursuivre les autres quêtes du succès."
+      ],
+      "npcs": [
+        "Docteur Gaw",
+        "Sergent Blaste"
+      ],
+      "items": [
+        {
+          "name": "Oeuf d'Ecaflipuce",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Patte de Pupuce",
+          "itemId": 17609,
+          "imageUrl": "/items/17609.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17609"
+        },
+        {
+          "name": "Orichor",
+          "itemId": 15206,
+          "imageUrl": "/items/15206.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15206"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 855,
+            "name": "Pierres de l'élévation",
+            "coordinates": [
+              "-2,-7",
+              "-1,-7",
+              "-1,-8",
+              "0,-7",
+              "2,-8",
+              "-1,-6"
+            ]
+          },
+          {
+            "id": 525,
+            "name": "Routes Rocailleuses",
+            "coordinates": [
+              "-22,-24"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2503,
+            "name": "Kanasukr le Mielleux",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2503.png"
+          },
+          {
+            "id": 2359,
+            "name": "Maître Champeur le Sabreur",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2359.png"
+          },
+          {
+            "id": 2445,
+            "name": "Fouflay le Retombé",
+            "level": 64,
+            "imageUrl": "/bestiary/monsters/2445.png"
+          },
+          {
+            "id": 2455,
+            "name": "Vétaurine l'Énergisé",
+            "level": 66,
+            "imageUrl": "/bestiary/monsters/2455.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 213,
+            "name": "Animaux des Champs",
+            "monsters": [
+              {
+                "id": 288,
+                "name": "Serpentin",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/288.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 259,
+                "name": "Arakne Majeure",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/259.png"
+              }
+            ]
+          },
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 186,
+            "name": "Craqueleurs",
+            "monsters": [
+              {
+                "id": 293,
+                "name": "Craqueleur des Plaines",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/293.png"
+              },
+              {
+                "id": 4571,
+                "name": "Craquelourd",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4571.png"
+              },
+              {
+                "id": 4573,
+                "name": "Craquelope",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4573.png"
+              }
+            ]
+          },
+          {
+            "id": 1432,
+            "name": "Ecaflipuces",
+            "monsters": [
+              {
+                "id": 4291,
+                "name": "Pupuce",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4291.png"
+              },
+              {
+                "id": 4292,
+                "name": "Morcac",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4292.png"
+              },
+              {
+                "id": 4293,
+                "name": "Pikbul",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4293.png"
+              },
+              {
+                "id": 4294,
+                "name": "Gériatique",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4294.png"
+              }
+            ]
+          },
+          {
+            "id": 1518,
+            "name": "Ruffians de Cania",
+            "monsters": [
+              {
+                "id": 4574,
+                "name": "Foufayteur",
+                "level": 64,
+                "imageUrl": "/bestiary/monsters/4574.png"
+              },
+              {
+                "id": 4575,
+                "name": "Vétauran",
+                "level": 66,
+                "imageUrl": "/bestiary/monsters/4575.png"
+              },
+              {
+                "id": 287,
+                "name": "Kanigrou",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/287.png"
+              },
+              {
+                "id": 371,
+                "name": "Maître Bolet",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/371.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:947",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/ccedila-saute-aux-oeufs.html",
+      "sourceTitle": "Ça saute aux oeufs",
+      "sourceHash": "d032b6d6049e2f0a9561f6c3cac489678827a5c87a8e03d11ae4b4e7c429c669",
+      "generatedAt": "2026-08-24T17:15:25.152Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Aidez le Major Qiu à retrouver son chacha Chester perdu en Ecaflipus. Consultez trois spécialistes des chachas pour obtenir des conseils et objets, capturez une Souris chicoteuse, puis explorez l'Ecaflipus pour suivre la piste de Chester jusqu'à la Lande Poilue.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Niveau recommandé : 100 à 200",
+        "Quête Voyage, voyage terminée"
+      ],
+      "rewards": [
+        "2 625 000 XP",
+        "43 980 Kamas",
+        "50 x Orichor"
+      ],
+      "preparation": [
+        "1 x Herbe à chacha"
+      ],
+      "actions": [
+        {
+          "instruction": "Allez à la Route de la Roche [-22,-24] et parlez au Major Qiu pour commencer la quête.",
+          "position": "[-22,-24]",
+          "zoneHint": "Route de la Roche",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au chanil en [9,21] et demandez à Oshimo comment attraper un chacha. Vous obtenez une Balle à grelots.",
+          "position": "[9,21]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez au temple Osamodas en [8,2] et parlez à Zeurg. Il vous conseille d'attraper une Souris chicoteuse.",
+          "position": "[8,2]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au temple Ecaflip en [1,-5] et demandez à Filgar Feel son secret. Il vous propose un pile ou face : Pile = perdre 100 kamas, Face = il révèle qu'il faut de l'Herbe à chacha.",
+          "position": "[1,-5]",
+          "zoneHint": null,
+          "warning": "Pile ou face : Pile vous fait perdre 100 kamas, Face révèle le secret.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez au bateau en [13,0], entrez et combattez la Souris chicoteuse. Gardez vos distances car elle n'attaque qu'au corps à corps. Vous obtenez une Souris chicoteuse.",
+          "position": "[13,0]",
+          "zoneHint": null,
+          "warning": "La Souris chicoteuse n'attaque qu'au corps à corps.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Si vous n'avez pas d'Herbe à chacha, allez à la maison de la fleuriste en [6,-21] et achetez-en une pour 1000 kamas.",
+          "position": "[6,-21]",
+          "zoneHint": null,
+          "warning": "Dépense de 1000 kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir le Major Qiu en [-22,-24] sur la Route de la Roche.",
+          "position": "[-22,-24]",
+          "zoneHint": "Route de la Roche",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Lancez une recherche de portail Ecaflipus depuis la pièce précédente, puis franchissez le portail. À l'avant-poste, parlez au Sergent Baste.",
+          "position": null,
+          "zoneHint": "Ecaflipus",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Explorez la position [1,-5] en Ecaflipus. Un combat se lance contre un Aventurier Frénétique. Vous devez avoir 1 x Herbe à chacha sur vous. Vous obtenez de l'Herbe à chacha mâchouillée.",
+          "position": "[1,-5]",
+          "zoneHint": "Ecaflipus",
+          "warning": "Nécessite 1 x Herbe à chacha dans l'inventaire.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Allez en [3,-9] en Ecaflipus et cliquez sur le rocher. Un combat se lance.",
+          "position": "[3,-9]",
+          "zoneHint": "Ecaflipus",
+          "warning": null,
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Rendez-vous en [-7,-11] en Ecaflipus. Utilisez la Balle à grelots dans votre inventaire de quête en double-cliquant dessus.",
+          "position": "[-7,-11]",
+          "zoneHint": "Ecaflipus",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Descendez vers la Lande Poilue en [1,0] et parlez à Chaknoris. Il accepte de vous aider à condition de résoudre son problème avec les Matougarous. La quête se termine et débloque Question de réputation.",
+          "position": "[1,0]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Plusieurs combats à effectuer au cours de la quête.",
+        "La quête suivante, Question de réputation, est débloquée à la fin.",
+        "L'Herbe à chacha peut être achetée à la fleuriste en [6,-21] pour 1000 kamas si vous n'en avez pas."
+      ],
+      "npcs": [
+        "Major Qiu",
+        "Oshimo",
+        "Zeurg",
+        "Filgar Feel",
+        "Sergent Baste",
+        "Chaknoris"
+      ],
+      "items": [
+        {
+          "name": "Balle à grelots",
+          "itemId": 17556,
+          "imageUrl": "/items/17556.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17556"
+        },
+        {
+          "name": "Herbe à chacha",
+          "itemId": 1324,
+          "imageUrl": "/items/1324.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1324"
+        },
+        {
+          "name": "Souris chicoteuse",
+          "itemId": 17555,
+          "imageUrl": "/items/17555.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17555"
+        },
+        {
+          "name": "Herbe à chacha mâchouillée",
+          "itemId": 17557,
+          "imageUrl": "/items/17557.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17557"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 485,
+            "name": "Campagne d'Amakna",
+            "coordinates": [
+              "8,2"
+            ]
+          },
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "6,-21"
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Forêt d'Amakna",
+            "coordinates": [
+              "9,21"
+            ]
+          },
+          {
+            "id": 856,
+            "name": "Lande Poilue",
+            "coordinates": [
+              "1,0"
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Montagne des Craqueleurs",
+            "coordinates": [
+              "1,-5"
+            ]
+          },
+          {
+            "id": 169,
+            "name": "Orée de la forêt des Abraknydes",
+            "coordinates": [
+              "-7,-11"
+            ]
+          },
+          {
+            "id": 1,
+            "name": "Port de Madrestam",
+            "coordinates": [
+              "13,0"
+            ]
+          },
+          {
+            "id": 173,
+            "name": "Prairies d'Astrub",
+            "coordinates": [
+              "3,-9"
+            ]
+          },
+          {
+            "id": 525,
+            "name": "Routes Rocailleuses",
+            "coordinates": [
+              "-22,-24"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          },
+          {
+            "id": 4266,
+            "name": "Sam Sagaz",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/4266.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2310,
+            "name": "Arakule la Revancharde",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2310.png"
+          },
+          {
+            "id": 2323,
+            "name": "Chamchie le Difficile",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2323.png"
+          },
+          {
+            "id": 2332,
+            "name": "Larchimaide la Poussée",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2332.png"
+          },
+          {
+            "id": 2331,
+            "name": "Larvapstrè le Subjectif",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2331.png"
+          },
+          {
+            "id": 2339,
+            "name": "Larvomatik le Propre",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2339.png"
+          },
+          {
+            "id": 2574,
+            "name": "Larvonika l'Instrument",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2574.png"
+          },
+          {
+            "id": 2336,
+            "name": "Mosketère le Dévoué",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2336.png"
+          },
+          {
+            "id": 2349,
+            "name": "Preskapwal le Tendancieux",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2349.png"
+          },
+          {
+            "id": 2353,
+            "name": "Sangria le Fruité",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2353.png"
+          },
+          {
+            "id": 2299,
+            "name": "Tronkoneuz la Tranchante",
+            "level": 33,
+            "imageUrl": "/bestiary/monsters/2299.png"
+          },
+          {
+            "id": 2309,
+            "name": "Abrakroc l'édenté",
+            "level": 38,
+            "imageUrl": "/bestiary/monsters/2309.png"
+          },
+          {
+            "id": 2311,
+            "name": "Arabord la Cruche",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/2311.png"
+          },
+          {
+            "id": 2385,
+            "name": "Abrakadnuzar",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2385.png"
+          },
+          {
+            "id": 2367,
+            "name": "Kwakamole l'Appétissant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2367.png"
+          },
+          {
+            "id": 2369,
+            "name": "Kwaké le Piraté",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2369.png"
+          },
+          {
+            "id": 2451,
+            "name": "Kwakolak le Chocolaté",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2451.png"
+          },
+          {
+            "id": 2368,
+            "name": "Kwakwatique le Trempé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2368.png"
+          },
+          {
+            "id": 2503,
+            "name": "Kanasukr le Mielleux",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2503.png"
+          },
+          {
+            "id": 2359,
+            "name": "Maître Champeur le Sabreur",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2359.png"
+          },
+          {
+            "id": 2445,
+            "name": "Fouflay le Retombé",
+            "level": 64,
+            "imageUrl": "/bestiary/monsters/2445.png"
+          },
+          {
+            "id": 2455,
+            "name": "Vétaurine l'Énergisé",
+            "level": 66,
+            "imageUrl": "/bestiary/monsters/2455.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 174,
+            "name": "Abraknydiens",
+            "monsters": [
+              {
+                "id": 650,
+                "name": "Abrakne",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/650.png"
+              },
+              {
+                "id": 47,
+                "name": "Abraknyde",
+                "level": 38,
+                "imageUrl": "/bestiary/monsters/47.png"
+              },
+              {
+                "id": 256,
+                "name": "Tronknyde",
+                "level": 33,
+                "imageUrl": "/bestiary/monsters/256.png"
+              }
+            ]
+          },
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 103,
+                "name": "Prespic",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/103.png"
+              },
+              {
+                "id": 104,
+                "name": "Sanglier",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/104.png"
+              }
+            ]
+          },
+          {
+            "id": 213,
+            "name": "Animaux des Champs",
+            "monsters": [
+              {
+                "id": 288,
+                "name": "Serpentin",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/288.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              },
+              {
+                "id": 259,
+                "name": "Arakne Majeure",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/259.png"
+              }
+            ]
+          },
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 186,
+            "name": "Craqueleurs",
+            "monsters": [
+              {
+                "id": 293,
+                "name": "Craqueleur des Plaines",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/293.png"
+              },
+              {
+                "id": 4571,
+                "name": "Craquelourd",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4571.png"
+              },
+              {
+                "id": 4573,
+                "name": "Craquelope",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4573.png"
+              }
+            ]
+          },
+          {
+            "id": 187,
+            "name": "Gobelins d'Amakna",
+            "monsters": [
+              {
+                "id": 178,
+                "name": "Gobet",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/178.png"
+              },
+              {
+                "id": 62,
+                "name": "Gob-trotteur",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/62.png"
+              }
+            ]
+          },
+          {
+            "id": 190,
+            "name": "Kwakeres",
+            "monsters": [
+              {
+                "id": 269,
+                "name": "Kwakere de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/269.png"
+              },
+              {
+                "id": 271,
+                "name": "Kwakere de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/271.png"
+              },
+              {
+                "id": 270,
+                "name": "Kwakere de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/270.png"
+              },
+              {
+                "id": 272,
+                "name": "Kwakere de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/272.png"
+              }
+            ]
+          },
+          {
+            "id": 189,
+            "name": "Kwaks",
+            "monsters": [
+              {
+                "id": 83,
+                "name": "Kwak de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/83.png"
+              },
+              {
+                "id": 84,
+                "name": "Kwak de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/84.png"
+              },
+              {
+                "id": 235,
+                "name": "Kwak de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/235.png"
+              },
+              {
+                "id": 81,
+                "name": "Kwak de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/81.png"
+              }
+            ]
+          },
+          {
+            "id": 203,
+            "name": "Larves",
+            "monsters": [
+              {
+                "id": 31,
+                "name": "Larve Bleue",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/31.png"
+              },
+              {
+                "id": 46,
+                "name": "Larve Orange",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/46.png"
+              },
+              {
+                "id": 34,
+                "name": "Larve Verte",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/34.png"
+              },
+              {
+                "id": 5225,
+                "name": "Larve Jaune",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/5225.png"
+              }
+            ]
+          },
+          {
+            "id": 1433,
+            "name": "Matougarous",
+            "monsters": [
+              {
+                "id": 4296,
+                "name": "Chasquatch",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4296.png"
+              },
+              {
+                "id": 4297,
+                "name": "Chacrebleu",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4297.png"
+              },
+              {
+                "id": 4298,
+                "name": "Chakichan",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4298.png"
+              },
+              {
+                "id": 4299,
+                "name": "Chargus",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4299.png"
+              }
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Mulous",
+            "monsters": [
+              {
+                "id": 102,
+                "name": "Mulou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/102.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 214,
+            "name": "Porkass",
+            "monsters": [
+              {
+                "id": 123,
+                "name": "Cochon de Lait",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/123.png"
+              }
+            ]
+          },
+          {
+            "id": 1518,
+            "name": "Ruffians de Cania",
+            "monsters": [
+              {
+                "id": 4574,
+                "name": "Foufayteur",
+                "level": 64,
+                "imageUrl": "/bestiary/monsters/4574.png"
+              },
+              {
+                "id": 4575,
+                "name": "Vétauran",
+                "level": 66,
+                "imageUrl": "/bestiary/monsters/4575.png"
+              },
+              {
+                "id": 287,
+                "name": "Kanigrou",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/287.png"
+              },
+              {
+                "id": 371,
+                "name": "Maître Bolet",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/371.png"
+              }
+            ]
+          },
+          {
+            "id": 1602,
+            "name": "Vermines des champs",
+            "monsters": [
+              {
+                "id": 4819,
+                "name": "Campagnoll",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/4819.png"
+              },
+              {
+                "id": 59,
+                "name": "Champ Champ",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/59.png"
+              },
+              {
+                "id": 61,
+                "name": "Moskito",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/61.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:948",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/chacun-cherche-son-chacha.html",
+      "sourceTitle": "Chacun cherche son chacha",
+      "sourceHash": "5288e29831530d09241889eb5d9c11a82194f2f8795c765eaea97492b796e3ab",
+      "generatedAt": "2026-08-24T17:17:36.040Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    }
+  ],
+  "tips": []
+}

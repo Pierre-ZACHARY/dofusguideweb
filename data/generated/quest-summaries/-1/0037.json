@@ -1,0 +1,159 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 37,
+  "updatedAt": "2026-08-27T12:53:59.308Z",
+  "summaries": [
+    {
+      "overview": "Amayiro demande de ravitailler les miliciens de Bonta. Procurez-vous exactement 20 Fougasses, puis rapportez-les à la milice. Cette quête d'alignement se termine immédiatement après la remise des pains et permet d'enchaîner avec « Ned le dentiste ».",
+      "recommendedLevel": 33,
+      "prerequisites": [
+        "Avoir terminé « La serveuse Dame Cloude ».",
+        "Être engagé dans la suite des quêtes d'alignement de Bonta."
+      ],
+      "rewards": [
+        "100 932 XP.",
+        "2 000 kamas remis par Amayiro."
+      ],
+      "preparation": [
+        "Prévoir 20 x Fougasse.",
+        "Les Fougasses peuvent être achetées en HDV.",
+        "Un Paysan de niveau 30 minimum peut fabriquer une Fougasse avec 1 x Ortie et 5 x Orge."
+      ],
+      "actions": [
+        {
+          "instruction": "Parler à Amayiro dans la milice de Bonta pour recevoir la demande de ravitaillement des miliciens.",
+          "position": "[-32,-57]",
+          "zoneHint": null,
+          "warning": "La quête nécessite d'avoir terminé « La serveuse Dame Cloude ».",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Obtenir 20 x Fougasse, par achat en HDV ou par fabrication avec un Paysan de niveau 30 minimum.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Prévoir exactement les 20 Fougasses nécessaires à la remise.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner voir Amayiro et lui remettre les 20 x Fougasse pour terminer la quête et débloquer « Ned le dentiste ».",
+          "position": "[-32,-57]",
+          "zoneHint": null,
+          "warning": "Les 20 Fougasses sont consommées lors de la remise.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La fabrication d'une Fougasse demande 1 x Ortie et 5 x Orge.",
+        "Terminer cette quête est indispensable avant de pouvoir lancer « Ned le dentiste »."
+      ],
+      "npcs": [
+        "Amayiro"
+      ],
+      "items": [
+        {
+          "name": "Fougasse",
+          "itemId": 524,
+          "imageUrl": "/items/524.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/524"
+        },
+        {
+          "name": "Ortie",
+          "itemId": 421,
+          "imageUrl": "/items/421.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/421"
+        },
+        {
+          "name": "Orge",
+          "itemId": 400,
+          "imageUrl": "/items/400.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/400"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": []
+      },
+      "questKey": "quest:5",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/du-pain-pour-les-braves.html",
+      "sourceTitle": "Alignement 3 : Du pain pour les braves",
+      "sourceHash": "44b4bcae2a59b9124dee7cf54631b3f9121496e1219bf068cb60de904cc55f88",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après « Du pain pour les braves », Amayiro confie une nouvelle mission liée aux dents de Chafers. À cette étape du guide, il faut surtout lancer la quête. Sa collecte de 32 dents et sa remise à Ned Etsith interviennent ensuite ; ne dépassez surtout pas 32 dents lorsque vous effectuerez cette partie.",
+      "recommendedLevel": 34,
+      "prerequisites": [
+        "Avoir terminé « Du pain pour les braves »."
+      ],
+      "rewards": [
+        "108 862 XP à la fin de la quête."
+      ],
+      "preparation": [
+        "La suite de la quête demandera de vaincre exactement 32 Chafers afin d'obtenir 32 dents.",
+        "Les dents de Chafer ont un taux d'obtention de base de 100 %.",
+        "Les Chafers concernés peuvent notamment être trouvés au Cimetière des Héros, au Bois de Litneg, au Cimetière (Amakna) et au Cimetière des Torturés."
+      ],
+      "actions": [
+        {
+          "instruction": "Après avoir terminé « Du pain pour les braves », parler à Amayiro dans la milice de Bonta pour lancer « Ned le dentiste ». Il explique que Ned souhaite fabriquer un dentier à partir de dents de Chafers.",
+          "position": "[-32,-57]",
+          "zoneHint": null,
+          "warning": "Cette quête est séquentielle : elle ne peut être lancée qu'après « Du pain pour les braves ». La collecte et la remise des dents sont à effectuer lors de la suite du parcours.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Lors de la phase de collecte ultérieure, il faudra obtenir exactement 32 dents de Chafer : dépasser ce nombre oblige à recommencer la collecte depuis zéro.",
+        "Les Chafers valides comprennent notamment les Chafers simple, fantassin, invisible, primitif, lancier, draugr, d'élite, archer ainsi que Rönin.",
+        "Pour suivre facilement le compteur lors de la collecte, les dents peuvent être placées dans la barre de raccourcis.",
+        "La remise finale des 32 dents se fera à Ned Etsith en [-30,-52]."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Ned Etsith",
+        "Tarche"
+      ],
+      "items": [
+        {
+          "name": "Dent de Chafer",
+          "itemId": 1870,
+          "imageUrl": "/items/1870.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1870"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": []
+      },
+      "questKey": "quest:6",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/ned-le-dentiste.html",
+      "sourceTitle": "Alignement 4 : Ned le dentiste",
+      "sourceHash": "7cff1f88f29bc259f57ef6fc8935ea61a8ebe1b1cd0fde799ab518ce9ec1c70a",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": []
+}

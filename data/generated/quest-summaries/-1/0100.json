@@ -1,0 +1,658 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 100,
+  "updatedAt": "2026-08-27T12:55:01.918Z",
+  "summaries": [
+    {
+      "overview": "Anne Ullaire, au Village côtier, vous envoie sur l'île de Moon enquêter sur les pouvoirs divins attribués à Moon. Rendez-vous au donjon Arbre de Moon, vainquez Moon, puis revenez lui faire votre rapport.",
+      "recommendedLevel": 80,
+      "prerequisites": [
+        "Tour de marionnettes"
+      ],
+      "rewards": [
+        "1 x Étoffe Magique de Moon"
+      ],
+      "preparation": [
+        "1 x Donjon Arbre de Moon"
+      ],
+      "actions": [
+        {
+          "instruction": "Allez au Village côtier et parlez à Anne Ullaire en [-45,19]. Acceptez la quête.",
+          "position": "[-45,19]",
+          "zoneHint": "Village côtier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous en [29,6] sur l'île de Moon et effectuez le donjon Arbre de Moon. Vainquez Moon.",
+          "position": "[29,6]",
+          "zoneHint": "Île de Moon",
+          "warning": "Combat de donjon. Utilisez de préférence le Trousseau de Clefs pour économiser la clef remise par Anne Ullaire.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez voir Anne Ullaire en [-45,19] et faites votre rapport.",
+          "position": "[-45,19]",
+          "zoneHint": "Village côtier",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête se termine après avoir fait votre rapport à Anne Ullaire.",
+        "En continuant la discussion avec Anne Ullaire, elle vous confie la quête suivante : Tour à tour."
+      ],
+      "npcs": [
+        "Anne Ullaire",
+        "Moon"
+      ],
+      "items": [
+        {
+          "name": "Étoffe Magique de Moon",
+          "itemId": 8384,
+          "imageUrl": "/items/8384.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8384"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 165,
+            "name": "Jungle Interdite",
+            "coordinates": [
+              "29,6"
+            ]
+          },
+          {
+            "id": 466,
+            "name": "Village côtier",
+            "coordinates": [
+              "-45,19"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4240,
+            "name": "Trukipik",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/4240.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2484,
+            "name": "Fourapin le Chaud",
+            "level": 92,
+            "imageUrl": "/bestiary/monsters/2484.png"
+          },
+          {
+            "id": 2495,
+            "name": "Gloubibou le Gars",
+            "level": 92,
+            "imageUrl": "/bestiary/monsters/2495.png"
+          },
+          {
+            "id": 2301,
+            "name": "Trukul le Lent",
+            "level": 92,
+            "imageUrl": "/bestiary/monsters/2301.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 170,
+            "name": "Monstres de la Jungle Interdite",
+            "monsters": [
+              {
+                "id": 217,
+                "name": "Fourbasse",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/217.png"
+              },
+              {
+                "id": 216,
+                "name": "Gloutovore",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/216.png"
+              },
+              {
+                "id": 215,
+                "name": "Trukikol",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/215.png"
+              },
+              {
+                "id": 4162,
+                "name": "Dostrogo",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/4162.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:612",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/tour-dhorizon.html",
+      "sourceTitle": "Tour d'horizon",
+      "sourceHash": "5328852d6431ed1288ec9f481ffab2ee5fcbf6e48800ee702709aa6a3ff61553",
+      "generatedAt": "2026-08-24T18:06:50.709Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Lancez la quête auprès du Captain Amakna au Village d'Amakna, puis rendez-vous au donjon Théâtre de Dramak en [21,7] pour vaincre Dramak. Interrogez-le sur le traité des Six et Makia Vhel avant de sortir, puis retournez annoncer votre victoire au Captain Amakna.",
+      "recommendedLevel": 80,
+      "prerequisites": [
+        "Niveau supérieur à 79",
+        "Quelque chose de pourri au royaume d'Amakna"
+      ],
+      "rewards": [
+        "2 457 000 XP",
+        "28 752 Kamas",
+        "Brandir son bouclier (attitude)"
+      ],
+      "preparation": [
+        "3 combats (seul)",
+        "1 Donjon Théâtre de Dramak"
+      ],
+      "actions": [
+        {
+          "instruction": "Parler au Captain Amakna pour lancer la quête.",
+          "position": "[0,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Se rendre à l'entrée du donjon de Dramak.",
+          "position": "[21,7]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuer le donjon Théâtre de Dramak, vaincre Dramak, puis lui parler du traité des Six et de Makia Vhel.",
+          "position": "[21,7]",
+          "zoneHint": "Théâtre de Dramak",
+          "warning": "Ne pas sortir du donjon avant d'avoir parlé à Dramak.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Retourner voir le Captain Amakna et lui annoncer la victoire.",
+          "position": "[0,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête se termine après avoir annoncé la victoire au Captain Amakna.",
+        "L'attitude Brandir son bouclier est apprise à la fin de la quête."
+      ],
+      "npcs": [
+        "Captain Amakna",
+        "Dramak"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 799,
+            "name": "Île de Kartonpath",
+            "coordinates": [
+              "21,7"
+            ]
+          },
+          {
+            "id": 800,
+            "name": "Théâtre de Dramak",
+            "coordinates": [
+              "21,7"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "0,0"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4027,
+            "name": "Naganita",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/4027.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 1018,
+            "name": "Serviteurs de Dramak",
+            "monsters": [
+              {
+                "id": 3487,
+                "name": "Bouledogre",
+                "level": 89,
+                "imageUrl": "/bestiary/monsters/3487.png"
+              },
+              {
+                "id": 3486,
+                "name": "Gobvious",
+                "level": 90,
+                "imageUrl": "/bestiary/monsters/3486.png"
+              },
+              {
+                "id": 3485,
+                "name": "Molette",
+                "level": 91,
+                "imageUrl": "/bestiary/monsters/3485.png"
+              },
+              {
+                "id": 3484,
+                "name": "Rhinoféroce",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3484.png"
+              },
+              {
+                "id": 3482,
+                "name": "Dramak",
+                "level": 100,
+                "imageUrl": "/bestiary/monsters/3482.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:723",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/ainsi-font-les-petites-marionnettes.html",
+      "sourceTitle": "Ainsi font les petites marionnettes",
+      "sourceHash": "7d1a62c874f0310ad3e91d300e0bd232163012a543f71703e2e85e19f5894530",
+      "generatedAt": "2026-08-24T17:10:55.455Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Danathor (ou Larry Poller selon vos choix antérieurs) vous confie une mission : aider Grace Malcean dont le tabi a été piqué par un scorbute. Après avoir consulté Merlan l'Enchaîneur, vous obtiendrez un pouvoir miraculeux auprès d'un écureuil dans le Bois de Litneg en échange d'un gland, puis retournerez soigner le tabi.",
+      "recommendedLevel": 65,
+      "prerequisites": [
+        "La lettre anonyme"
+      ],
+      "rewards": [
+        "532 084 XP"
+      ],
+      "preparation": [
+        "1 Gland"
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Danathor en [-36,-60] (si vous avez empoisonné Rimaraf dans la quête Au service de Danathor) ou à Larry Poller en [-34,-58] (si vous ne l'avez pas empoisonné).",
+          "position": "[-36,-60] ou [-34,-58]",
+          "zoneHint": "Bonta",
+          "warning": "Le PNJ de lancement dépend du choix fait dans la quête Au service de Danathor : Danathor si Rimaraf a été empoisonné, Larry Poller sinon.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir Grace Malcean en [-34,-61] et proposez-lui d'aider son tabi, piqué par un scorbute.",
+          "position": "[-34,-61]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir Merlan l'Enchaîneur en [-29,-54].",
+          "position": "[-29,-54]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous dans le Bois de Litneg en [-15,-59] avec un Gland dans l'inventaire. Parlez à l'écureuil miraculeux dans son langage pour obtenir un pouvoir miraculeux.",
+          "position": "[-15,-59]",
+          "zoneHint": "Bois de Litneg",
+          "warning": "Ne lancez pas de combat avant d'avoir soigné le tabi, sinon vous perdrez le pouvoir miraculeux et devrez redonner un Gland pour le récupérer.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès du tabi de Grace Malcean en [-34,-61] et touchez l'animal pour le soigner.",
+          "position": "[-34,-61]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Quête d'alignement Bontarien niveau 35.",
+        "Débloque la quête suivante : Alignement 36 - Des badges pour la bonne cause."
+      ],
+      "npcs": [
+        "Danathor",
+        "Larry Poller",
+        "Grace Malcean",
+        "Merlan l'Enchaîneur",
+        "Écureuil miraculeux"
+      ],
+      "items": [
+        {
+          "name": "Gland",
+          "itemId": 393,
+          "imageUrl": "/items/393.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/393"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 69,
+            "name": "Bois de Litneg",
+            "coordinates": [
+              "-15,-59"
+            ]
+          },
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-29,-54"
+            ]
+          },
+          {
+            "id": 976,
+            "name": "Promontoire des cieux",
+            "coordinates": [
+              "-36,-60",
+              "-34,-58",
+              "-34,-61"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 459,
+            "name": "Padgref Demoël",
+            "level": 130,
+            "imageUrl": "/bestiary/monsters/459.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2321,
+            "name": "Chafalfer l'Optimiste",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2321.png"
+          },
+          {
+            "id": 2319,
+            "name": "Chafemal le Bagarreur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2319.png"
+          },
+          {
+            "id": 2421,
+            "name": "Chaffoin le Sournois",
+            "level": 33,
+            "imageUrl": "/bestiary/monsters/2421.png"
+          },
+          {
+            "id": 2276,
+            "name": "Ribibi le Cher",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2276.png"
+          },
+          {
+            "id": 2320,
+            "name": "Chafmarcel le Fêtard",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2320.png"
+          },
+          {
+            "id": 2322,
+            "name": "Chalan le Commerçant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2322.png"
+          },
+          {
+            "id": 2300,
+            "name": "Trooyé l'Oxydé",
+            "level": 112,
+            "imageUrl": "/bestiary/monsters/2300.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 191,
+            "name": "Chafers d'Amakna",
+            "monsters": [
+              {
+                "id": 54,
+                "name": "Chafer",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/54.png"
+              },
+              {
+                "id": 110,
+                "name": "Chafer Invisible",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/110.png"
+              },
+              {
+                "id": 396,
+                "name": "Chafer Fantassin",
+                "level": 33,
+                "imageUrl": "/bestiary/monsters/396.png"
+              },
+              {
+                "id": 108,
+                "name": "Rib",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/108.png"
+              }
+            ]
+          },
+          {
+            "id": 9048,
+            "name": "Chafers des cités",
+            "monsters": [
+              {
+                "id": 291,
+                "name": "Chafer Archer",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/291.png"
+              },
+              {
+                "id": 290,
+                "name": "Chafer Lancier",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/290.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 1520,
+            "name": "Troolls de Litneg",
+            "monsters": [
+              {
+                "id": 233,
+                "name": "Troollaraj",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/233.png"
+              },
+              {
+                "id": 4538,
+                "name": "Troolligark",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/4538.png"
+              },
+              {
+                "id": 4540,
+                "name": "Troollogram",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/4540.png"
+              },
+              {
+                "id": 4539,
+                "name": "Troolléolé",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/4539.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:37",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/tabi-ta-fleuri.html",
+      "sourceTitle": "Alignement 35 : Tabi t'a fleuri ?",
+      "sourceHash": "106f43a9aa67d701f0e29c173707b4aa2a205ef9358c5b53589df935f8ac99ea",
+      "generatedAt": "2026-08-24T18:04:09.098Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    }
+  ],
+  "tips": []
+}

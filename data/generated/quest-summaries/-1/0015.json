@@ -1,0 +1,789 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 15,
+  "updatedAt": "2026-08-27T12:53:56.307Z",
+  "summaries": [
+    {
+      "overview": "Kerubim Crépin craint que Gralahad, chasseur de Shushu venu de Bonta, découvre que sa maison est le Shushu Luis. Après avoir espionné Gralahad, vous participez à un stratagème impliquant Gilou Aychwesh et un faux Shushu, puis aidez Gralahad lors d'un combat avant de recevoir un ticket donnant accès aux diligences d'Astrub.",
+      "recommendedLevel": 25,
+      "prerequisites": [
+        "Niveau recommandé : 25.",
+        "Avoir terminé « Scène de ménage »."
+      ],
+      "rewards": [
+        "50 026 XP.",
+        "1 105 kamas.",
+        "Accès aux diligences depuis [0,-18], avec des trajets aller simple vers le Domaine des Fungus [-12,29], la Baie de Cania [-29,-12] et le Cimetière des Héros [-21,-58]."
+      ],
+      "preparation": [
+        "Prévoir 1 x Bière d'Astrub ou 40 kamas pour l'acheter à Tek Abir.",
+        "Prévoir un combat réalisable en groupe contre Gilou Aychwesh.",
+        "Prévoir un combat seul, avec Gralahad comme allié."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Kerubim Crépin et demandez-lui si quelque chose le tracasse, puis acceptez d'enquêter sur la présence de Gralahad à Astrub.",
+          "position": "[3,-17]",
+          "zoneHint": "Astrub",
+          "warning": "La quête nécessite d'avoir terminé « Scène de ménage ».",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la taverne d'Astrub et achetez 1 x Bière d'Astrub à Tek Abir pour 40 kamas si vous n'en avez pas déjà une, puis donnez-la à Gralahad afin qu'il révèle qu'il recherche un Shushu caché à Astrub.",
+          "position": "[6,-18]",
+          "zoneHint": "Taverne d'Astrub",
+          "warning": "Dépense possible : 40 kamas pour 1 x Bière d'Astrub.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Kerubim Crépin et rapportez-lui la raison de la présence de Gralahad. Il met alors au point un faux Shushu destiné à détourner le chasseur de Luis.",
+          "position": "[3,-17]",
+          "zoneHint": "Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Gilou Aychwesh pour l'emmener de force avec vous et remportez le combat.",
+          "position": "[4,-15]",
+          "zoneHint": "Astrub",
+          "warning": "Combat réalisable en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez auprès de Kerubim Crépin et poussez Gilou Aychwesh dans la pièce afin de poursuivre le plan d'échange entre la valise du faux Shushu et la capture de Gilou.",
+          "position": "[3,-17]",
+          "zoneHint": "Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir Gralahad et annoncez-lui que le Shushu recherché est apparu dans la maison de Marp.",
+          "position": "[6,-18]",
+          "zoneHint": "Taverne d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la maison de Marp, parlez à Gralahad puis combattez le faux Shushu à ses côtés.",
+          "position": "[1,-19]",
+          "zoneHint": "Maison de Marp",
+          "warning": "Le combat s'effectue seul, mais Gralahad combat à vos côtés.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après le combat, reparlez à Gralahad, puis parlez au tonneau contenant Kerubim Crépin Toflé. Il vous remet un ticket pour les transports.",
+          "position": "[1,-19]",
+          "zoneHint": "Maison de Marp",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Présentez le ticket de Kerubim Crépin à Hassen Cehef pour terminer la quête et débloquer les diligences.",
+          "position": "[0,-18]",
+          "zoneHint": "Astrub",
+          "warning": "Les diligences permettent des trajets aller simple vers le Domaine des Fungus [-12,29], la Baie de Cania [-29,-12] et le Cimetière des Héros [-21,-58].",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Gilou Aychwesh utilise notamment Délinquance, Lancer de Caillasse et Jvétfumay.",
+        "Lors du second combat, le Shushu attaque au contact avec Shushupe ; Gralahad peut donner 3 PM aux alliés avec Volonté Inébranlable et infliger de lourds dégâts avec Koupendeu."
+      ],
+      "npcs": [
+        "Kerubim Crépin",
+        "Tek Abir",
+        "Gralahad",
+        "Gilou Aychwesh",
+        "Kerubim Crépin Toflé",
+        "Hassen Cehef"
+      ],
+      "items": [
+        {
+          "name": "Bière d'Astrub",
+          "itemId": 6857,
+          "imageUrl": "/items/6857.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6857"
+        },
+        {
+          "name": "Ticket de Kerubim Crépin",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 334,
+            "name": "Baie de Cania",
+            "coordinates": [
+              "-29,-12"
+            ]
+          },
+          {
+            "id": 59,
+            "name": "Cimetière des Héros",
+            "coordinates": [
+              "-21,-58"
+            ]
+          },
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "3,-17",
+              "4,-15",
+              "1,-19"
+            ]
+          },
+          {
+            "id": 889,
+            "name": "Domaine des Fungus",
+            "coordinates": [
+              "-12,29"
+            ]
+          },
+          {
+            "id": 97,
+            "name": "Forêt d'Astrub",
+            "coordinates": [
+              "0,-18"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "6,-18"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          },
+          {
+            "id": 460,
+            "name": "Frakacia Leukocytine",
+            "level": 30,
+            "imageUrl": "/bestiary/monsters/460.png"
+          },
+          {
+            "id": 552,
+            "name": "Musha L'Oni",
+            "level": 80,
+            "imageUrl": "/bestiary/monsters/552.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2333,
+            "name": "Milipatte la Griffe",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2333.png"
+          },
+          {
+            "id": 2349,
+            "name": "Preskapwal le Tendancieux",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2349.png"
+          },
+          {
+            "id": 2353,
+            "name": "Sangria le Fruité",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2353.png"
+          },
+          {
+            "id": 2391,
+            "name": "Ameur la Laide",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2391.png"
+          },
+          {
+            "id": 2433,
+            "name": "Codenlgaz le Problème",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2433.png"
+          },
+          {
+            "id": 2508,
+            "name": "Kiroyal le Sirupeux",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2508.png"
+          },
+          {
+            "id": 2525,
+            "name": "Let le Rond",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2525.png"
+          },
+          {
+            "id": 2289,
+            "name": "Susbewl l'Hypocrite",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2289.png"
+          },
+          {
+            "id": 2320,
+            "name": "Chafmarcel le Fêtard",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2320.png"
+          },
+          {
+            "id": 2422,
+            "name": "Chafrit le Barbare",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2422.png"
+          },
+          {
+            "id": 2322,
+            "name": "Chalan le Commerçant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2322.png"
+          },
+          {
+            "id": 2589,
+            "name": "Ougaould le Parasite",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2589.png"
+          },
+          {
+            "id": 2553,
+            "name": "Chamilero le Malchanceux",
+            "level": 172,
+            "imageUrl": "/bestiary/monsters/2553.png"
+          },
+          {
+            "id": 2600,
+            "name": "Champmé le Méchant",
+            "level": 172,
+            "imageUrl": "/bestiary/monsters/2600.png"
+          },
+          {
+            "id": 2551,
+            "name": "Champolyon le Polyglotte",
+            "level": 172,
+            "imageUrl": "/bestiary/monsters/2551.png"
+          },
+          {
+            "id": 2601,
+            "name": "Tromplamor le Survivant",
+            "level": 172,
+            "imageUrl": "/bestiary/monsters/2601.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 4823,
+                "name": "Écurouille",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/4823.png"
+              },
+              {
+                "id": 159,
+                "name": "Milimulou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/159.png"
+              },
+              {
+                "id": 103,
+                "name": "Prespic",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/103.png"
+              },
+              {
+                "id": 104,
+                "name": "Sanglier",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/104.png"
+              }
+            ]
+          },
+          {
+            "id": 9048,
+            "name": "Chafers des cités",
+            "monsters": [
+              {
+                "id": 3239,
+                "name": "Chafer Draugr",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/3239.png"
+              },
+              {
+                "id": 291,
+                "name": "Chafer Archer",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/291.png"
+              },
+              {
+                "id": 292,
+                "name": "Chafer d'Élite",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/292.png"
+              },
+              {
+                "id": 290,
+                "name": "Chafer Lancier",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/290.png"
+              }
+            ]
+          },
+          {
+            "id": 1068,
+            "name": "Dopeuls",
+            "monsters": [
+              {
+                "id": 385,
+                "name": "Amlub",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/385.png"
+              },
+              {
+                "id": 386,
+                "name": "Codem",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/386.png"
+              },
+              {
+                "id": 570,
+                "name": "Idemas",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/570.png"
+              },
+              {
+                "id": 388,
+                "name": "Kirevam",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/388.png"
+              },
+              {
+                "id": 389,
+                "name": "Let Emoliug",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/389.png"
+              },
+              {
+                "id": 393,
+                "name": "Susej",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/393.png"
+              }
+            ]
+          },
+          {
+            "id": 202,
+            "name": "Fungus",
+            "monsters": [
+              {
+                "id": 1158,
+                "name": "Champ à Gnons",
+                "level": 172,
+                "imageUrl": "/bestiary/monsters/1158.png"
+              },
+              {
+                "id": 1154,
+                "name": "Champaknyde",
+                "level": 172,
+                "imageUrl": "/bestiary/monsters/1154.png"
+              },
+              {
+                "id": 1156,
+                "name": "Champmane",
+                "level": 172,
+                "imageUrl": "/bestiary/monsters/1156.png"
+              },
+              {
+                "id": 1153,
+                "name": "Tromperelle",
+                "level": 172,
+                "imageUrl": "/bestiary/monsters/1153.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:658",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/shushu-et-lulu.html",
+      "sourceTitle": "Shushu et Lulu",
+      "sourceHash": "0357f69a966ed7c38bff0fb7f6c172d7f184b2923935ff94034405c0ae45fc67",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "À la suite de « On marche sur des œufs », la Conseillère Archie vous demande de rencontrer le responsable correspondant à votre classe. Sa position dépend de votre classe. Une simple présentation auprès de ce PNJ termine la quête et débloque la quête de classe correspondante.",
+      "recommendedLevel": 20,
+      "prerequisites": [
+        "Niveau recommandé : 20.",
+        "Avoir terminé « On marche sur des œufs »."
+      ],
+      "rewards": [
+        "10 319 XP.",
+        "Déblocage de la quête correspondant à votre classe."
+      ],
+      "preparation": [
+        "Vérifiez votre classe afin de vous rendre directement au bon responsable."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à la Conseillère Archie à la suite de « On marche sur des œufs ». Elle vous envoie auprès du responsable de votre classe.",
+          "position": "[4,-19]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": "Cette quête s'enchaîne directement après « On marche sur des œufs ».",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous êtes Crâ, rendez-vous auprès du responsable Crâ et présentez-vous.",
+          "position": "[2,-16]",
+          "zoneHint": "Astrub",
+          "warning": "Cette destination ne concerne que les personnages Crâ.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous êtes Ecaflip, rendez-vous auprès du responsable Ecaflip et présentez-vous.",
+          "position": "[6,-18]",
+          "zoneHint": "Astrub",
+          "warning": "Cette destination ne concerne que les personnages Ecaflip.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous êtes Eliotrope, rendez-vous auprès du responsable Eliotrope et présentez-vous.",
+          "position": "[7,-19]",
+          "zoneHint": "Astrub",
+          "warning": "Cette destination ne concerne que les personnages Eliotrope.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous êtes Eniripsa, rendez-vous auprès du responsable Eniripsa et présentez-vous.",
+          "position": "[3,-21]",
+          "zoneHint": "Astrub",
+          "warning": "Cette destination ne concerne que les personnages Eniripsa.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous êtes Enutrof, rendez-vous auprès du responsable Enutrof et présentez-vous.",
+          "position": "[1,-17]",
+          "zoneHint": "Astrub",
+          "warning": "Cette destination ne concerne que les personnages Enutrof.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous êtes Feca, rendez-vous auprès du responsable Feca et présentez-vous.",
+          "position": "[4,-15]",
+          "zoneHint": "Astrub",
+          "warning": "Cette destination ne concerne que les personnages Feca.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous êtes Forgelance, montez à l'étage de la tour du conseil, rendez-vous auprès du responsable Forgelance et présentez-vous.",
+          "position": "[4,-19]",
+          "zoneHint": "Tour du conseil",
+          "warning": "Cette destination ne concerne que les personnages Forgelance.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous êtes Huppermage, rendez-vous auprès du responsable Huppermage et présentez-vous.",
+          "position": "[6,-17]",
+          "zoneHint": "Astrub",
+          "warning": "Cette destination ne concerne que les personnages Huppermage.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous êtes Iop, rendez-vous auprès du responsable Iop et présentez-vous.",
+          "position": "[5,-19]",
+          "zoneHint": "Astrub",
+          "warning": "Cette destination ne concerne que les personnages Iop.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous êtes Ouginak, rendez-vous auprès du responsable Ouginak et présentez-vous.",
+          "position": "[4,-15]",
+          "zoneHint": "Astrub",
+          "warning": "Cette destination ne concerne que les personnages Ouginak.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous êtes Osamodas, rendez-vous auprès du responsable Osamodas et présentez-vous.",
+          "position": "[2,-15]",
+          "zoneHint": "Astrub",
+          "warning": "Cette destination ne concerne que les personnages Osamodas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous êtes Pandawa, rendez-vous auprès du responsable Pandawa et présentez-vous.",
+          "position": "[6,-18]",
+          "zoneHint": "Astrub",
+          "warning": "Cette destination ne concerne que les personnages Pandawa.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous êtes Roublard, rendez-vous auprès du responsable Roublard et présentez-vous.",
+          "position": "[5,-15]",
+          "zoneHint": "Astrub",
+          "warning": "Cette destination ne concerne que les personnages Roublard.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous êtes Sacri, rendez-vous auprès du responsable Sacri et présentez-vous.",
+          "position": "[5,-20]",
+          "zoneHint": "Astrub",
+          "warning": "Cette destination ne concerne que les personnages Sacrieur.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous êtes Sadida, rendez-vous auprès du responsable Sadida et présentez-vous.",
+          "position": "[1,-16]",
+          "zoneHint": "Astrub",
+          "warning": "Cette destination ne concerne que les personnages Sadida.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous êtes Sram, rendez-vous auprès du responsable Sram et présentez-vous.",
+          "position": "[3,-16]",
+          "zoneHint": "Astrub",
+          "warning": "Cette destination ne concerne que les personnages Sram.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous êtes Steamer, rendez-vous auprès du responsable Steamer et présentez-vous.",
+          "position": "[1,-21]",
+          "zoneHint": "Astrub",
+          "warning": "Cette destination ne concerne que les personnages Steamer.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous êtes Xélor, rendez-vous auprès du responsable Xélor et présentez-vous.",
+          "position": "[4,-19]",
+          "zoneHint": "Astrub",
+          "warning": "Cette destination ne concerne que les personnages Xélor.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous êtes Zobal, rendez-vous auprès du responsable Zobal et présentez-vous.",
+          "position": "[7,-15]",
+          "zoneHint": "Astrub",
+          "warning": "Cette destination ne concerne que les personnages Zobal.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête débloquée dépend de la classe : Crâ « C'est pour ta pomme » ; Ecaflip « Au petit malheur la chance » ; Eliotrope « Un rayon de soleil » ; Eniripsa « Piques de solution » ; Enutrof « La fête de la chocopépite » ; Feca « Tournée d'inspection » ; Forgelance « La routine anodine du chevalier citadin » ; Huppermage « Les paroles s'envolent, les aigris restent » ; Iop « Iop et hop » ; Ouginak « Une vie de milichien » ; Osamodas « Série animalière » ; Pandawa « Trempette dans un verre d'eau » ; Roublard « Braquage à la Roublard » ; Sacrieur « Souffre-douleur » ; Sadida « C'est pourtant naturel » ; Sram « Crime et châtiment » ; Steamer « L'étrange créature de l'étang bleu » ; Xélor « Tarot, t'es très fort » ; Zobal « Zobal Hibaba et les 40 Roublards »."
+      ],
+      "npcs": [
+        "Conseillère Archie",
+        "Responsable de classe"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "4,-19",
+              "2,-16",
+              "6,-18",
+              "7,-19",
+              "3,-21",
+              "1,-17",
+              "4,-15",
+              "6,-17",
+              "5,-19",
+              "2,-15",
+              "5,-15",
+              "5,-20",
+              "1,-16",
+              "3,-16",
+              "1,-21",
+              "7,-15"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1227",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/conseil-de-classe.html",
+      "sourceTitle": "Conseil de classe",
+      "sourceHash": "61b00abaf152f7a3bf9585cb86c3d361b3292dfafb0c3301498a40857c0b3c94",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": []
+}

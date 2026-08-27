@@ -1,0 +1,317 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 33,
+  "updatedAt": "2026-08-27T12:53:58.959Z",
+  "summaries": [
+    {
+      "overview": "À la suite de De vrais rats de bibliothèque, découvrez l'histoire de Rathrosk et du chevalier de l'automne. Vous devrez accompagner le dragon jusqu'au Cimetière d'Astrub, réunir de la terre, une relique de spectre et 3 Ceintures de Gargrouille, préparer l'Urne bénie puis rejoindre une tombe cachée afin que Rathrosk puisse retrouver son ancien ami.",
+      "recommendedLevel": 40,
+      "prerequisites": [
+        "Avoir terminé De vrais rats de bibliothèque."
+      ],
+      "rewards": [
+        "63 567 XP.",
+        "1 190 Kamas.",
+        "1 x Chienchiens de guerre.",
+        "Débloque le succès : La grande biblioquête."
+      ],
+      "preparation": [
+        "Prévoir 1 combat contre les spectres de l’Aurore Pourpre, réalisable en groupe.",
+        "Prévoir des combats contre des Gargrouilles du Cimetière d'Astrub afin d'obtenir 3 x Ceinture de Gargrouille."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Prim, parcourez le premier exemplaire du livre qu'il vient d'imprimer, puis remontez au premier étage pour parler à Aisling du contenu de l'ouvrage.",
+          "position": "[7,-19]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": "La quête commence directement à la suite de De vrais rats de bibliothèque.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Après avoir obtenu le Parchemin traduit par Aisling, consultez-le dans votre inventaire de quête.",
+          "position": "[7,-19]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir Rathrosk. Il souhaite retrouver le chevalier de l'automne, son ancien ami, afin de raviver ses souvenirs.",
+          "position": "[4,-19]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au Cimetière d'Astrub. En arrivant sur la carte, Rathrosk part vers le sud-est.",
+          "position": "[-1,-14]",
+          "zoneHint": "Cimetière d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retrouvez Rathrosk près de la tombe du chevalier. Il vous demande l'aide d'un vieil homme pour pouvoir communiquer avec le défunt.",
+          "position": "[2,-10]",
+          "zoneHint": "Cimetière d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Nistracolamus du sommeil éternel du chevalier de l'automne. Il vous indique les ressources à réunir et à mélanger dans une urne.",
+          "position": "[2,-14]",
+          "zoneHint": "Cimetière d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez sur le banc devant la crypte de Brutas pour ramasser la terre nécessaire au rituel.",
+          "position": "[0,-10]",
+          "zoneHint": "Cimetière d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Spectre de l’Aurore Pourpre et remportez le combat afin d'obtenir la Relique de spectre revanchard.",
+          "position": "[0,-12]",
+          "zoneHint": "Cimetière d'Astrub",
+          "warning": "Combat réalisable en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Combattez des Gargrouilles dans le Cimetière d'Astrub jusqu'à obtenir 3 x Ceinture de Gargrouille.",
+          "position": null,
+          "zoneHint": "Cimetière d'Astrub",
+          "warning": "Les 3 Ceintures de Gargrouille ont un taux de drop de base de 100 % et ne s'achètent pas en Hôtel de Vente.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Une fois la terre, la Relique de spectre revanchard et les 3 Ceintures de Gargrouille réunies, ouvrez l'inventaire de quête et double-cliquez sur l'Urne bénie pour effectuer le mélange.",
+          "position": null,
+          "zoneHint": "Cimetière d'Astrub",
+          "warning": "N'effectuez cette étape qu'après avoir réuni les trois types de ressources demandés.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Depuis cette carte, cliquez sur la cellule située en bas au milieu pour descendre vers la carte cachée, puis cliquez sur la tombe.",
+          "position": "[2,-11]",
+          "zoneHint": "Cimetière d'Astrub",
+          "warning": "L'accès à la tombe passe par une carte cachée.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Rathrosk devant la tombe. Laissez-le terminer sa conversation avec le chevalier de l'automne, puis reparlez-lui pour achever la quête.",
+          "position": null,
+          "zoneHint": "Cimetière d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le Spectre de l’Aurore Pourpre utilise notamment Explosion Fantômatique, Flèche Fantômatique, Tempête Fantômatique et Épée Fantômatique.",
+        "Rathrosk peut voir et entendre le chevalier de l'automne lors de la scène finale, contrairement au personnage joueur."
+      ],
+      "npcs": [
+        "Prim",
+        "Aisling",
+        "Rathrosk",
+        "Nistracolamus",
+        "Spectre de l’Aurore Pourpre"
+      ],
+      "items": [
+        {
+          "name": "Parchemin traduit par Aisling",
+          "itemId": 19691,
+          "imageUrl": "/items/19691.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19691"
+        },
+        {
+          "name": "Relique de spectre revanchard",
+          "itemId": 19703,
+          "imageUrl": "/items/19703.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19703"
+        },
+        {
+          "name": "Ceinture de Gargrouille",
+          "itemId": 19704,
+          "imageUrl": "/items/19704.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19704"
+        },
+        {
+          "name": "Urne bénie",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 102,
+            "name": "Cimetière d'Astrub",
+            "coordinates": [
+              "-1,-14",
+              "2,-10",
+              "2,-14",
+              "0,-10",
+              "0,-12",
+              "2,-11"
+            ]
+          },
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "7,-19",
+              "4,-19"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2486,
+            "name": "Garsim le Mort",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2486.png"
+          },
+          {
+            "id": 2524,
+            "name": "Ouassébo l'Esthète",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2524.png"
+          },
+          {
+            "id": 2616,
+            "name": "Ouature la Mobile",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2616.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1669,
+            "name": "Monstres du repos",
+            "monsters": [
+              {
+                "id": 495,
+                "name": "La Ouassingue",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/495.png"
+              },
+              {
+                "id": 496,
+                "name": "Le Ouassingue",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/496.png"
+              },
+              {
+                "id": 498,
+                "name": "Gargrouille",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/498.png"
+              },
+              {
+                "id": 5227,
+                "name": "Garglyphe",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/5227.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1213",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/legende-d-automne.html",
+      "sourceTitle": "Légende d'automne",
+      "sourceHash": "d941a77379630b3434e280034fc41aeab29692069a2b3aadcd12a398554da318",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": []
+}

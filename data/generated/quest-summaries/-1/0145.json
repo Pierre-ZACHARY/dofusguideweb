@@ -1,0 +1,138 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 145,
+  "updatedAt": "2026-08-27T12:55:08.462Z",
+  "summaries": [
+    {
+      "overview": "Parlez à Maire Cantille dans La bourgade, puis accomplissez cinq quêtes de pêche au lac gelé dans l'ordre imposé, et revenez la voir pour valider.",
+      "recommendedLevel": 140,
+      "prerequisites": [
+        "Bienvenue à Frigost"
+      ],
+      "rewards": [
+        "5 174 164 XP",
+        "53 712 kamas",
+        "1 x Kama de glace"
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parlez à Maire Cantille dans La bourgade pour accepter la quête.",
+          "position": "[-77,-42]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Accomplissez la quête « Pêche en eaux gelées ».",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Accomplissez la quête « La pêche à Mel ».",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Accomplissez la quête « Mel odieuse ».",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Accomplissez la quête « Mel au drame ».",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Accomplissez la quête « Il est frais mon pichon ».",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Maire Cantille dans La bourgade pour terminer la quête.",
+          "position": "[-77,-42]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Débloque la quête suivante : Les rescapés de Frigost."
+      ],
+      "npcs": [
+        "Maire Cantille"
+      ],
+      "items": [
+        {
+          "name": "Kama de glace",
+          "itemId": 11196,
+          "imageUrl": "/items/11196.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11196"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 601,
+            "name": "La Bourgade",
+            "coordinates": [
+              "-77,-42"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2913,
+                "name": "Chachachovage",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2913.png"
+              },
+              {
+                "id": 2893,
+                "name": "Crabe Hijacob",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2893.png"
+              },
+              {
+                "id": 2914,
+                "name": "Gélikan",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2914.png"
+              },
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:413",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/lessentiel-est-dans-le-lac-geleacute.html",
+      "sourceTitle": "L'essentiel est dans lac gelé",
+      "sourceHash": "bc113c65806309d11865b3ea67e7a4a81097e54f7037d150523264cc86404bda",
+      "generatedAt": "2026-08-24T17:37:29.926Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    }
+  ],
+  "tips": []
+}

@@ -1,0 +1,548 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 34,
+  "updatedAt": "2026-08-27T12:53:59.050Z",
+  "summaries": [
+    {
+      "overview": "Aidez Becky Gorr à comprendre pourquoi les créatures du Cimetière d'Astrub deviennent agressives. Après trois affrontements et l'inspection de tombes pillées, suivez la piste du profanateur avec Finney jusqu'à un caveau fermé, récupérez des outils de crochetage puis libérez Becky avant d'affronter les pilleurs.",
+      "recommendedLevel": 40,
+      "prerequisites": [
+        "Niveau recommandé : 40."
+      ],
+      "rewards": [
+        "127 134 XP.",
+        "2 380 kamas.",
+        "2 x Étoffe de Ouassingue.",
+        "2 x Cuir de Gargrouille."
+      ],
+      "preparation": [
+        "Prévoir 4 combats réalisables en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Becky Gorr et acceptez de l'aider à enquêter sur le comportement inhabituel des créatures du cimetière.",
+          "position": "[-1,-13]",
+          "zoneHint": "Cimetière d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à la Gargrouille en colère, remportez le combat puis inspectez la tombe pillée située plus haut sur la carte.",
+          "position": "[-3,-12]",
+          "zoneHint": "Cimetière d'Astrub",
+          "warning": "Combat réalisable en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Parlez à la Garglyphe en colère, remportez le combat puis inspectez la tombe pillée.",
+          "position": "[-1,-14]",
+          "zoneHint": "Cimetière d'Astrub",
+          "warning": "Combat réalisable en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Parlez à la Ouassingue en colère, remportez le combat puis inspectez la tombe pillée afin de récupérer l'indice constitué d'une étoffe déchirée.",
+          "position": "[0,-13]",
+          "zoneHint": "Cimetière d'Astrub",
+          "warning": "Combat réalisable en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez voir Becky Gorr, signalez les tombes profanées et l'étoffe retrouvée, puis parlez à Finney afin qu'il vous suive.",
+          "position": "[-1,-13]",
+          "zoneHint": "Cimetière d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Avec Finney, passez successivement par [0,-13], [0,-12], [0,-11] puis [1,-11]. Sur cette dernière carte, cliquez sur la grille fermée située à gauche.",
+          "position": "[1,-11]",
+          "zoneHint": "Cimetière d'Astrub",
+          "warning": "Respectez l'ordre des cartes pour suivre correctement la piste avec Finney.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Becky Gorr et parlez-lui du caveau suspect.",
+          "position": "[-1,-13]",
+          "zoneHint": "Cimetière d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez Becky Gorr devant le caveau. Parlez-lui : elle l'ouvre et entre, mais la grille se referme. Elle vous demande alors ses outils de crochetage.",
+          "position": "[1,-11]",
+          "zoneHint": "Cimetière d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la maison en bois et cliquez sur la caisse en bois pour récupérer les outils de crochetage de Becky Gorr.",
+          "position": "[-2,-14]",
+          "zoneHint": "Cimetière d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez devant le caveau et parlez à Finney, puis cliquez sur la grille pour entrer.",
+          "position": "[1,-11]",
+          "zoneHint": "Cimetière d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À l'intérieur du caveau, parlez à Becky Gorr, retrouvée assommée et ligotée.",
+          "position": "[1,-11]",
+          "zoneHint": "Caveau",
+          "warning": "Cette action se déroule à l'intérieur du caveau, distinct de l'extérieur du cimetière.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Selim Llenneb et affrontez les pilleurs. Les créatures en colère combattues auparavant participent à vos côtés.",
+          "position": "[1,-11]",
+          "zoneHint": "Caveau",
+          "warning": "Combat réalisable en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire, reparlez à Selim Llenneb pour le neutraliser, puis à Becky Gorr pour terminer la quête.",
+          "position": "[1,-11]",
+          "zoneHint": "Caveau",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les trois premiers ennemis rencontrés sont respectivement une Gargrouille en colère, une Garglyphe en colère et une Ouassingue en colère.",
+        "La piste de Finney impose de passer par [0,-13], [0,-12], [0,-11], puis [1,-11]."
+      ],
+      "npcs": [
+        "Becky Gorr",
+        "Gargrouille en colère",
+        "Garglyphe en colère",
+        "Ouassingue en colère",
+        "Finney",
+        "Selim Llenneb"
+      ],
+      "items": [
+        {
+          "name": "Étoffe déchirée",
+          "itemId": 19659,
+          "imageUrl": "/items/19659.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19659"
+        },
+        {
+          "name": "Outils de crochetage",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 102,
+            "name": "Cimetière d'Astrub",
+            "coordinates": [
+              "-1,-13",
+              "-3,-12",
+              "-1,-14",
+              "0,-13",
+              "1,-11",
+              "0,-12",
+              "0,-11",
+              "-2,-14"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2486,
+            "name": "Garsim le Mort",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2486.png"
+          },
+          {
+            "id": 2524,
+            "name": "Ouassébo l'Esthète",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2524.png"
+          },
+          {
+            "id": 2616,
+            "name": "Ouature la Mobile",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2616.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1669,
+            "name": "Monstres du repos",
+            "monsters": [
+              {
+                "id": 495,
+                "name": "La Ouassingue",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/495.png"
+              },
+              {
+                "id": 496,
+                "name": "Le Ouassingue",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/496.png"
+              },
+              {
+                "id": 498,
+                "name": "Gargrouille",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/498.png"
+              },
+              {
+                "id": 5227,
+                "name": "Garglyphe",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/5227.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1225",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/l-invasion-des-profanateurs-de-sepulture.html",
+      "sourceTitle": "L'invasion des profanateurs de sépulture",
+      "sourceHash": "11abfa5c96d9cf31914c1e79220e5ed9f254f8ea89c4be69523d9e2195163707",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Nistracolamus vous charge d'apaiser trois esprits réveillés dans le Cimetière d'Astrub. Rassemblez les ingrédients nécessaires à la fabrication de son eau bénite et de son encens, faites apparaître Judas Narschi, Guy Denoudeu et Klaüs Kobah, réglez leurs situations respectives puis revenez annoncer la réussite de l'exorcisme.",
+      "recommendedLevel": 40,
+      "prerequisites": [
+        "Niveau recommandé : 40."
+      ],
+      "rewards": [
+        "63 567 XP.",
+        "1 190 kamas.",
+        "2 x Cuir de Ouassingue.",
+        "2 x Dent de Garglyphe."
+      ],
+      "preparation": [
+        "3 x Poudre de Perlinpainpain.",
+        "3 x Ortie.",
+        "3 x Sauge.",
+        "3 x Trèfle à 5 feuilles.",
+        "3 x Eau Potable.",
+        "Prévoir 1 combat réalisable en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Nistracolamus, demandez si vous pouvez l'aider puis renseignez-vous sur la manière de dissiper les mauvaises énergies. Il vous demande des ingrédients pour préparer de l'eau bénite.",
+          "position": "[2,-14]",
+          "zoneHint": "Cimetière d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Procurez-vous 3 x Poudre de Perlinpainpain, 3 x Ortie, 3 x Sauge, 3 x Trèfle à 5 feuilles et 3 x Eau Potable.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Les quantités demandées sont obligatoires pour poursuivre.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rapportez tous les ingrédients à Nistracolamus et donnez-les-lui. Il fabrique l'Eau bénite de Nistracolamus ainsi que l'encens nécessaires aux exorcismes.",
+          "position": "[2,-14]",
+          "zoneHint": "Cimetière d'Astrub",
+          "warning": "Les ingrédients sont consommés lors de cette étape.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Double-cliquez sur l'Eau bénite de Nistracolamus dans votre inventaire de quête, puis parlez à Judas Narschi lorsqu'il apparaît afin de l'asperger d'encens et de le faire disparaître.",
+          "position": "[0,-14]",
+          "zoneHint": "Cimetière d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Double-cliquez sur l'Eau bénite de Nistracolamus puis parlez à Guy Denoudeu. Il refuse de disparaître tant que Guy Al'Eudroi ne lui aura pas rendu visite sur sa tombe.",
+          "position": "[-1,-11]",
+          "zoneHint": "Cimetière d'Astrub",
+          "warning": "Cette étape doit être effectuée avant d'aller convaincre Guy Al'Eudroi.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Guy Al'Eudroi et demandez-lui de venir rendre visite un jour à Guy Denoudeu sur sa tombe.",
+          "position": "[1,-20]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Guy Denoudeu et apprenez-lui que l'autre Guy viendra bientôt lui rendre visite, ce qui permet de le faire disparaître.",
+          "position": "[-1,-11]",
+          "zoneHint": "Cimetière d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Double-cliquez sur l'Eau bénite de Nistracolamus pour faire apparaître Klaüs Kobah, puis choisissez de défendre votre peau lorsqu'il refuse toute discussion.",
+          "position": "[-3,-9]",
+          "zoneHint": "Cimetière d'Astrub",
+          "warning": "Combat contre l'esprit et 5 créatures de type Chafer ; réalisable en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, reparlez à Klaüs Konbah. Il s'excuse et vous pouvez alors le faire disparaître.",
+          "position": "[-3,-9]",
+          "zoneHint": "Cimetière d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Nistracolamus et annoncez que votre travail d'exorcisme est terminé pour achever la quête.",
+          "position": "[2,-14]",
+          "zoneHint": "Cimetière d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "L'Eau bénite de Nistracolamus se trouve dans l'inventaire de quête et doit être utilisée sur chacune des trois cartes d'apparition des esprits.",
+        "La source nomme le troisième esprit « Klaüs Kobah » lors de son apparition puis « Klaüs Konbah » après le combat."
+      ],
+      "npcs": [
+        "Nistracolamus",
+        "Judas Narschi",
+        "Guy Denoudeu",
+        "Guy Al'Eudroi",
+        "Klaüs Kobah",
+        "Klaüs Konbah"
+      ],
+      "items": [
+        {
+          "name": "Poudre de Perlinpainpain",
+          "itemId": 519,
+          "imageUrl": "/items/519.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/519"
+        },
+        {
+          "name": "Ortie",
+          "itemId": 421,
+          "imageUrl": "/items/421.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/421"
+        },
+        {
+          "name": "Sauge",
+          "itemId": 428,
+          "imageUrl": "/items/428.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/428"
+        },
+        {
+          "name": "Trèfle à 5 feuilles",
+          "itemId": 395,
+          "imageUrl": "/items/395.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/395"
+        },
+        {
+          "name": "Eau Potable",
+          "itemId": 311,
+          "imageUrl": "/items/311.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/311"
+        },
+        {
+          "name": "Eau bénite de Nistracolamus",
+          "itemId": 19762,
+          "imageUrl": "/items/19762.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19762"
+        },
+        {
+          "name": "Encens",
+          "itemId": 12190,
+          "imageUrl": "/items/12190.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/12190"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 102,
+            "name": "Cimetière d'Astrub",
+            "coordinates": [
+              "2,-14",
+              "0,-14",
+              "-1,-11",
+              "-3,-9"
+            ]
+          },
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "1,-20"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2486,
+            "name": "Garsim le Mort",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2486.png"
+          },
+          {
+            "id": 2524,
+            "name": "Ouassébo l'Esthète",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2524.png"
+          },
+          {
+            "id": 2616,
+            "name": "Ouature la Mobile",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2616.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1669,
+            "name": "Monstres du repos",
+            "monsters": [
+              {
+                "id": 495,
+                "name": "La Ouassingue",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/495.png"
+              },
+              {
+                "id": 496,
+                "name": "Le Ouassingue",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/496.png"
+              },
+              {
+                "id": 498,
+                "name": "Gargrouille",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/498.png"
+              },
+              {
+                "id": 5227,
+                "name": "Garglyphe",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/5227.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1226",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-repos-est-dans-le-champ.html",
+      "sourceTitle": "Le repos est dans le champ",
+      "sourceHash": "9584e4fd3ba9756d1b1dcf520d1d74347ed219d217b064f71bd65495d39e56f7",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Regrouper les trajets dans le cimetière",
+      "description": "Les deux quêtes se déroulent en grande partie dans le Cimetière d'Astrub. Une fois les deux quêtes lancées et l'Eau bénite de Nistracolamus obtenue, profitez des déplacements de l'enquête de Becky Gorr pour traiter les esprits situés sur des cartes proches, sans modifier l'ordre obligatoire propre à chaque quête.",
+      "questKeys": [
+        "quest:1225",
+        "quest:1226"
+      ],
+      "actions": [
+        "Lors du passage de l'enquête par [0,-13], profitez de la proximité de [0,-14] pour exorciser Judas Narschi si l'Eau bénite de Nistracolamus est déjà disponible.",
+        "Quand vos déplacements vous amènent vers la partie nord-ouest du cimetière, regroupez autant que possible les objectifs de [-1,-11] et les étapes voisines de l'enquête, tout en respectant la séquence imposée par Finney."
+      ]
+    }
+  ]
+}

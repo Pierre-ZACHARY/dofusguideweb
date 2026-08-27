@@ -222,22 +222,77 @@ Les métadonnées complètes sont conservées sous `data/dofusdb/` et les images
 
 `scrape-world-tour` reconstruit localement les deux parcours de donjons de Metag Robill (27) et Emma Tompouce (29) depuis les hauts faits DofusDB 559 à 564. Il associe chaque donjon à sa première étape `DUNGEON` dans les archives du Guide Principal, télécharge le portrait du boss et conserve son niveau ainsi que ses points de vie. La page principale calcule ensuite la progression exclusivement depuis les étapes terminées du personnage actif. L’Antre du Kralamoure Géant reste le seul objectif non rattaché, car la quête correspondante n’est pas présente dans l’archive locale actuelle.
 
-### Résumés locaux des guides de quêtes
+### Tutoriels de quêtes générés par étape
 
-Les explications courtes affichées dans la checklist sont générées en amont, jamais pendant la consultation. Le pipeline télécharge les pages DofusPourLesNoobs à faible cadence, extrait leur texte en mémoire, demande une reformulation structurée à OpenAI ou au CLI Cline, puis ne sauvegarde que le résumé et le hash de la source. Le HTML et les images de la page ne sont ni archivés ni redistribués.
+Les tutoriels sont préparés en amont et l’application n’appelle jamais une IA,
+DofusDB ou DofusPourLesNoobs pendant la consultation. L’unité de génération est
+une étape complète : cela permet à un modèle de reconnaître les quêtes à faire
+en parallèle dans un même donjon ou une même zone, tout en laissant vides les
+conseils pour les suites strictement séquentielles comme les alignements.
+
+La commande suivante ne lance aucune IA. Elle télécharge à faible cadence le
+texte des pages DofusPourLesNoobs, met chaque source unique en cache local et
+écrit un prompt autonome par étape :
 
 ```powershell
-$env:OPENAI_API_KEY = "..."
-npm run summarize-quests -- --quest-key "quest:130"
-npm run summarize-quests -- --all --limit 10 --delay-ms 1000
-npm run summarize-quests -- --step-min 100 --step-max 125 --guide=-1 --provider cline --model cline-pass/deepseek-v4-pro --concurrency 3
+npm run generate-quest-prompts -- --guide=-1
+
+# Pour ne préparer qu'une étape ; les étapes précédente et suivante sont tout
+# de même incluses comme contexte.
+npm run generate-quest-prompts -- --guide=-1 --step-min 114 --step-max 114
 ```
 
-Le fournisseur par défaut est `openai`, avec le modèle `gpt-5.4-mini`. `--provider cline` utilise le compte ClinePass local et `cline-pass/deepseek-v4-pro` par défaut. `--concurrency` est plafonné à 3 ; seules les générations IA sont parallèles, tandis que l’enrichissement et l’écriture de l’archive restent séquentiels. Utiliser d’abord une petite valeur de `--limit` pour contrôler la qualité et le coût avant un traitement complet. `--force` régénère un résumé ; sans cette option, un hash source inchangé est ignoré et une passe interrompue reprend uniquement les pages manquantes.
+Les 326 prompts se trouvent sous `prompt/quest-tutorials/-1/NNNN.md`. Ils
+contiennent les textes sources complets des quêtes de l’étape actuelle, de
+l’étape précédente et de l’étape suivante. Les sections adjacentes sont
+explicitement marquées comme contexte uniquement. Le prompt demande une réponse
+JSON stricte comprenant un tutoriel par quête actuelle et, seulement lorsque
+c’est pertinent, des `tips` référençant au moins deux quêtes réalisables
+ensemble. Le chemin exact où sauvegarder la réponse est écrit au début de chaque
+prompt.
 
-Après la reformulation, le pipeline recherche chaque nom d’objet par correspondance exacte dans DofusDB, conserve son identifiant et télécharge son icône dans `public/items`. Il extrait ensuite toutes les coordonnées du tutoriel, les résout dans le catalogue local, puis fige dans le résumé les zones, avis de recherche, archimonstres et succès monstres applicables. Les portraits utiles sont archivés dans `public/bestiary/monsters`. Le rythme se règle avec `--item-delay-ms` (100 ms par défaut) et `--bestiary-image-delay-ms` (25 ms) ; `--metadata-only` conserve les métadonnées sans télécharger les images. L’application ne résout aucune zone et n’appelle ni DofusDB ni DofusPourLesNoobs lors de la consultation.
+Le dossier `prompt/`, y compris le cache `prompt/.cache/dofuspourlesnoobs`, est
+ignoré par Git. Il peut donc contenir le texte source nécessaire au modèle sans
+être distribué avec l’application. Une relance réutilise le cache ;
+`--refresh-sources` force son actualisation.
 
-Les sorties se trouvent dans `data/generated/quest-summaries.json`, ignoré par Git. L’UI affiche le résumé dans un collapse « Explications rapides » uniquement pour la quête courante et conserve toujours le bouton vers le guide original complet.
+Les réponses validées sont en revanche versionnées, dans un fichier par étape :
+
+```text
+data/generated/quest-summaries/-1/0001.json
+data/generated/quest-summaries/-1/0002.json
+...
+```
+
+Après avoir copié la réponse JSON brute d’un modèle dans le chemin indiqué par
+le prompt, lancer la passe déterministe d’enrichissement. Elle répare également
+les URL/titres que certaines interfaces de LLM transforment accidentellement en
+liens Markdown, résout les objets auprès de DofusDB, archive leurs icônes sous
+`public/items/` et reconstruit le bestiaire depuis le catalogue local :
+
+```powershell
+npm run enrich-quest-summaries -- --guide=-1 --step=9
+```
+
+Cette commande ne lance aucune IA. Elle utilise la base documentaire pour
+retrouver l’URL exacte de chaque `questKey`, le cache local créé avec les
+prompts pour le titre et le hash de la source, l’API DofusDB pour les objets et
+`data/dofusdb/bestiary.json` pour les zones et monstres. L’écriture d’un fichier
+d’étape est atomique et n’a lieu qu’après validation complète. Les objets sans
+correspondance exacte sont laissés à `null` et listés explicitement.
+
+Valider ensuite l’ensemble avec :
+
+```powershell
+npm run validate-quest-summaries -- --guide=-1
+```
+
+La validation contrôle le schéma, l’identité guide/étape, l’appartenance des
+quêtes à l’étape et la cohérence des URL sources. Elle indique aussi le nombre
+de tutoriels encore manquants, ce qui permet une génération progressive. Les
+anciens résumés, leurs objets DofusDB et leur bestiaire ont été conservés lors
+de la migration. L’interface continue d’afficher chaque tutoriel dans sa quête
+et présente les conseils multi-quêtes au-dessus de la checklist.
 
 ## Thèmes et progression
 

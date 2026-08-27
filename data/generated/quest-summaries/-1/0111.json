@@ -1,0 +1,887 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 111,
+  "updatedAt": "2026-08-27T12:55:03.999Z",
+  "summaries": [
+    {
+      "overview": "Quête d'alignement niveau 47 : enquêtez sur un traître à Bonta en remontant une piste qui mène à une cache de poison à Brâkmar. Nécessite un Saphir et un accompagnateur Sram ou de l'ordre de l'œil Attentif niveau 2.",
+      "recommendedLevel": 117,
+      "prerequisites": [
+        "Alimentaire mon cher"
+      ],
+      "rewards": [
+        "3 618 955 XP"
+      ],
+      "preparation": [
+        "1 x Saphir",
+        "Accompagnement d'un personnage Sram ou de l'ordre de l'œil Attentif de niveau 2 minimum"
+      ],
+      "actions": [
+        {
+          "instruction": "Lancer la quête auprès d'Amayiro à la Milice.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Se rendre au Temple Sram et parler à Rigal Main Crochue pour obtenir des informations sur un notable de Bonta dont le nom commence par un X.",
+          "position": "[-4,0]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller à Brâkmar voir l'espion Bishom Pot pour savoir où trouver les réserves de poison.",
+          "position": "[-28,32]",
+          "zoneHint": "Brâkmar",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Rekojel, choisir « Demander l'emplacement des réserves de poison », puis lui donner le Saphir pour obtenir l'information.",
+          "position": "[-29,36]",
+          "zoneHint": "Brâkmar",
+          "warning": "Dépense : 1 Saphir.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Se rendre à la cache du poison, entrer dans la maison centrale et descendre les escaliers. Éviter les cases rouges (cellules trouées et centre de la map) qui téléportent. Franchir la grille avec un accompagnateur Sram ou de l'ordre de l'œil Attentif niveau 2 minimum.",
+          "position": "[-23,39]",
+          "zoneHint": null,
+          "warning": "Pièges au sol : éviter les cases rouges. Nécessite impérativement un accompagnateur Sram ou œil Attentif niveau 2 minimum.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le texte source était tronqué ; la suite des étapes n'est pas disponible."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Rigal Main Crochue",
+        "Bishom Pot",
+        "Rekojel"
+      ],
+      "items": [
+        {
+          "name": "Saphir",
+          "itemId": 466,
+          "imageUrl": "/items/466.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/466"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 978,
+            "name": "L'Ancre",
+            "coordinates": [
+              "-23,39"
+            ]
+          },
+          {
+            "id": 982,
+            "name": "L'Enclume",
+            "coordinates": [
+              "-28,32",
+              "-29,36"
+            ]
+          },
+          {
+            "id": 480,
+            "name": "Montagne basse des Craqueleurs",
+            "coordinates": [
+              "-4,0"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2430,
+            "name": "Chevaustine le Reconstruit",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2430.png"
+          },
+          {
+            "id": 2494,
+            "name": "Gobstiniais le Têtu",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2494.png"
+          },
+          {
+            "id": 2417,
+            "name": "Barchwork le Multicolore",
+            "level": 37,
+            "imageUrl": "/bestiary/monsters/2417.png"
+          },
+          {
+            "id": 2416,
+            "name": "Bworkasse le Dégoutant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2416.png"
+          },
+          {
+            "id": 2418,
+            "name": "Bwormage le Respectueux",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2418.png"
+          },
+          {
+            "id": 2436,
+            "name": "Crakmitaine le Faucheur",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2436.png"
+          },
+          {
+            "id": 2543,
+            "name": "Craquecrac l'Endurant",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2543.png"
+          },
+          {
+            "id": 2326,
+            "name": "Craquetuss le Piquant",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2326.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              }
+            ]
+          },
+          {
+            "id": 182,
+            "name": "Bworks d'Amakna",
+            "monsters": [
+              {
+                "id": 876,
+                "name": "Bwork",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/876.png"
+              },
+              {
+                "id": 74,
+                "name": "Bwork Archer",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/74.png"
+              },
+              {
+                "id": 53,
+                "name": "Bwork Mage",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/53.png"
+              }
+            ]
+          },
+          {
+            "id": 186,
+            "name": "Craqueleurs",
+            "monsters": [
+              {
+                "id": 483,
+                "name": "Craqueboule",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/483.png"
+              },
+              {
+                "id": 106,
+                "name": "Craqueleur",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/106.png"
+              },
+              {
+                "id": 4570,
+                "name": "Élémenterre",
+                "level": 59,
+                "imageUrl": "/bestiary/monsters/4570.png"
+              },
+              {
+                "id": 4571,
+                "name": "Craquelourd",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4571.png"
+              }
+            ]
+          },
+          {
+            "id": 187,
+            "name": "Gobelins d'Amakna",
+            "monsters": [
+              {
+                "id": 178,
+                "name": "Gobet",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/178.png"
+              },
+              {
+                "id": 62,
+                "name": "Gob-trotteur",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/62.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:132",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/bouc-a-misere.html",
+      "sourceTitle": "Alignement 47 : Bouc à misère",
+      "sourceHash": "72dc9c695460577ec46a0b3797390e1e46221fbdd40e4a1bcfb9f8a5b27cc98b",
+      "generatedAt": "2026-08-24T17:13:34.702Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Enquêter sur Xarthan pour le compte d'Amayiro à la Milice de Bonta. Fouiller sa maison avec l'aide d'un Bricoleur, trouver un document compromettant, confronter Xarthan à la Tour des ordres, puis faire votre rapport.",
+      "recommendedLevel": 118,
+      "prerequisites": [
+        "Bouc à misère"
+      ],
+      "rewards": [
+        "1 860 658 XP"
+      ],
+      "preparation": [
+        "Un Bricoleur niveau 100 minimum (ou être soi-même Bricoleur niveau 100+)"
+      ],
+      "actions": [
+        {
+          "instruction": "Aller à la Milice en [-32,-57] et parler à Amayiro pour lancer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller en [-33,-53] avec un Bricoleur niveau 100. Placer le Bricoleur en diagonale de la porte et cliquer pour crocheter l'entrée de la maison de Xarthan. Monter à l'étage et cliquer sur la commode à côté du lit pour récupérer le document.",
+          "position": "[-33,-53]",
+          "zoneHint": null,
+          "warning": "Nécessite un Bricoleur niveau 100 minimum. Si vous êtes Bricoleur niveau 100+, placez-vous en diagonale de la porte pour crocheter seul.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller à la Tour des ordres en [-34,-58]. Depuis l'entrée principale, monter les escaliers, aller à gauche, monter de nouveau les escaliers et entrer dans la salle à gauche. Parler à Xarthan et choisir « Le croire sur parole ».",
+          "position": "[-34,-58]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner auprès d'Amayiro en [-32,-57] pour l'informer que Xarthan semble hors de cause. La quête se termine.",
+          "position": "[-32,-57]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Débloque la quête suivante : Alignement 49 : Quand y'en a marre de Brâkmar."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Xarthan"
+      ],
+      "items": [
+        {
+          "name": "Document",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "-33,-53"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 976,
+            "name": "Promontoire des cieux",
+            "coordinates": [
+              "-34,-58"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:133",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/flagrant-delire.html",
+      "sourceTitle": "Alignement 48 : Flagrant délire",
+      "sourceHash": "b194e388cc88b2f7a398425991a7e543e52fa37a2343055a34e2c99481b53e9f",
+      "generatedAt": "2026-08-24T17:34:53.228Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Enquête d'alignement Bonta : infiltrez Brâkmar pour interroger votre espion, les voleurs et le bijoutier Milone Corichel, puis rapportez vos découvertes à Amayiro.",
+      "recommendedLevel": 119,
+      "prerequisites": [
+        "Flagrant délire"
+      ],
+      "rewards": [
+        "3 778 404 XP"
+      ],
+      "preparation": [
+        "1 combat (groupe possible) ou 6 000 Kamas",
+        "10 000 Kamas"
+      ],
+      "actions": [
+        {
+          "instruction": "Aller à la Milice de Bonta et parler à Amayiro pour lancer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller à Brâkmar et parler au Guerrier Bishom Pot.",
+          "position": "[-28,32]",
+          "zoneHint": "Brâkmar",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller en [-27,34] à Brâkmar, entrer dans le repaire des voleurs par la porte en bas au centre, puis monter au premier étage.",
+          "position": "[-27,34]",
+          "zoneHint": "Brâkmar",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler au Chef des voleurs. Deux choix : « Monnayer l'information avec 6000 Kamas » (dire ensuite « S'en aller sans attirer l'attention ») ou « Monnayer l'information avec des baffes » (combat contre 5 voleurs, réalisable en groupe).",
+          "position": null,
+          "zoneHint": "Repaire des voleurs",
+          "warning": "Choisir entre payer 6 000 Kamas ou combattre 5 voleurs (groupe possible).",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Aller voir Milone Corichel à Brâkmar et choisir « Proposer 10000 Kamas » pour obtenir les informations.",
+          "position": "[-29,34]",
+          "zoneHint": "Brâkmar",
+          "warning": "Dépense obligatoire de 10 000 Kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner voir Amayiro à la Milice de Bonta pour terminer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Débloque la quête Alignement 50 : La capture."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Guerrier Bishom Pot",
+        "Chef des voleurs",
+        "Milone Corichel"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 982,
+            "name": "L'Enclume",
+            "coordinates": [
+              "-28,32",
+              "-27,34",
+              "-29,34"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:134",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/quand-y-en-a-marre-de-brakmar.html",
+      "sourceTitle": "Alignement 49 : Quand y’en a marre de Brâkmar",
+      "sourceHash": "5a253d5d5a05cff3abf0442809779f2b4edba9a45e9396eadb27e2e0181009cc",
+      "generatedAt": "2026-08-24T17:59:56.938Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Lancez la quête auprès d'Amayiro à la Milice de Bonta. Demandez à quatre miliciens de changer de poste pour surveiller la tour des ordres. Rendez-vous au dernier étage de la tour des ordres, affrontez le traître Xephirès, puis ramenez-le à Amayiro.",
+      "recommendedLevel": 120,
+      "prerequisites": [
+        "Quand y'en a marre de Brâkmar"
+      ],
+      "rewards": [
+        "3 883 723 XP"
+      ],
+      "preparation": [
+        "1 combat"
+      ],
+      "actions": [
+        {
+          "instruction": "Aller à la Milice de Bonta et parler à Amayiro pour lancer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller voir Trev Pelsantery et lui demander de changer de poste.",
+          "position": "[-30,-53]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller voir Sen Eiser et lui demander de changer de poste.",
+          "position": "[-31,-60]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller voir Ruth Banke et lui demander de changer de poste.",
+          "position": "[-33,-57]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller voir Galde Avout et lui demander de changer de poste.",
+          "position": "[-35,-57]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Se rendre à la tour des ordres, entrer par l'entrée haute, monter les escaliers, aller à gauche, monter de nouveau les escaliers, aller tout droit puis à gauche pour atteindre le grenier. Parler à Xephirès et l'attaquer.",
+          "position": "[-34,-58]",
+          "zoneHint": null,
+          "warning": "Combat contre Xephirès. Trait d'Expiation : 300 eau, pesanteur 1 tour. Trait Ralentissant : 300 eau zone cercle 2, retire 3 PA 1 tour. Trait Persécuteur : 150 feu et air. Trait Magique : 200 feu, vole 2 PO 1 tour. Possible en solo ou avec du renfort.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Amayiro à la Milice avec Xephirès vaincu pour terminer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Débloque la quête Alignement 51 : Le port salue."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Trev Pelsantery",
+        "Sen Eiser",
+        "Ruth Banke",
+        "Galde Avout",
+        "Xephirès"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57",
+              "-31,-60",
+              "-33,-57",
+              "-35,-57"
+            ]
+          },
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-30,-53"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 976,
+            "name": "Promontoire des cieux",
+            "coordinates": [
+              "-34,-58"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:135",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-capture.html",
+      "sourceTitle": "Alignement 50 : La capture",
+      "sourceHash": "ac4b98527f1f171bb4ee3d2f8256cf588c14d71190dc3fa7103510c225b85221",
+      "generatedAt": "2026-08-24T17:39:07.506Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    }
+  ],
+  "tips": []
+}

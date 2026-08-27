@@ -1,0 +1,1056 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 36,
+  "updatedAt": "2026-08-27T12:53:59.283Z",
+  "summaries": [
+    {
+      "overview": "Devenez Bontarien auprès d'Amayiro, puis affrontez Tarche en duel dans la milice de Bonta avant de rapporter la preuve de votre victoire. Cette première quête d'alignement débloque « La serveuse Dame Cloude » et permet aussi, sous conditions, d'accéder à « La destinée ».",
+      "recommendedLevel": 31,
+      "prerequisites": [
+        "Être d'alignement Bontarien pour lancer la quête.",
+        "Pour devenir Bontarien, remettre 10 x Épée de Boisaille à Amayiro dans la milice de Bonta en [-32,-57]."
+      ],
+      "rewards": [
+        "22 325 XP."
+      ],
+      "preparation": [
+        "Prévoir 10 x Épée de Boisaille pour rejoindre l'alignement Bontarien si ce n'est pas déjà fait.",
+        "Les Épée de Boisaille peuvent être achetées en HDV ou fabriquées par un Forgeron niveau 7 ou plus.",
+        "Recette d'une Épée de Boisaille : 3 x Bois de Frêne et 3 x Plume Chimérique.",
+        "Prévoir 1 combat effectué seul."
+      ],
+      "actions": [
+        {
+          "instruction": "Si vous n'êtes pas encore Bontarien, remettez 10 x Épée de Boisaille à Amayiro afin d'être recruté dans la milice de Bonta, puis reparlez-lui pour lancer « Entraînement avec Tarche ».",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": "Les 10 x Épée de Boisaille sont dépensées lors du recrutement Bontarien.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Traversez la pièce pour rejoindre Tarche et parlez-lui afin de le défier en duel.",
+          "position": "[-32,-57]",
+          "zoneHint": "Salle de Tarche dans la milice de Bonta",
+          "warning": "Le combat se déroule obligatoirement seul. Tarche peut retirer 2 PM esquivables avec Trancher et frappe aussi en zone avec Hallebarde.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après avoir vaincu Tarche, retournez dans la pièce précédente et parlez à Amayiro pour lui montrer les cheveux arrachés à Tarche et terminer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête suivante de l'alignement Bontarien est « La serveuse Dame Cloude ».",
+        "Après cette quête, « La destinée » peut aussi devenir accessible pour un Bontarien si elle n'a pas déjà été remplacée par « La fatalité » ou « La rivalité » selon un autre alignement. Elle n'est pas nécessaire pour poursuivre les quêtes d'alignement."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Tarche"
+      ],
+      "items": [
+        {
+          "name": "Épée de Boisaille",
+          "itemId": 44,
+          "imageUrl": "/items/44.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/44"
+        },
+        {
+          "name": "Bois de Frêne",
+          "itemId": 303,
+          "imageUrl": "/items/303.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/303"
+        },
+        {
+          "name": "Plume Chimérique",
+          "itemId": 16512,
+          "imageUrl": "/items/16512.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16512"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:3",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/entraicircnement-avec-tarche.html",
+      "sourceTitle": "Alignement 1 : Entraînement avec Tarche",
+      "sourceHash": "a36d61de22fef561c6e93e90c3449b5d5096b250185baf843995e804b5eab8a3",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Amayiro vous charge d'enquêter sur la réapparition de Frigost. Rejoignez l'île, interrogez Lucette Brifian puis la Maire Cantile, récupérez auprès d'Hugo Frais des archives sur l'histoire de Frigost et rapportez-les à Amayiro.",
+      "recommendedLevel": 50,
+      "prerequisites": [
+        "Être Bontarien.",
+        "Avoir terminé « Entraînement avec Tarche ».",
+        "« La terre banquise » peut bloquer la progression lors du trajet vers Frigost si elle n'a pas encore été effectuée."
+      ],
+      "rewards": [
+        "203 765 XP.",
+        "3 480 Kamas."
+      ],
+      "preparation": [
+        "Prévoir un moyen de rejoindre le bateau pour Frigost en [-34,-16] ou, si Frigost est déjà accessible, utiliser le zaap de Frigost pour rejoindre plus rapidement le Capitaine Ardier depuis l'île."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Amayiro et choisissez « Demander s'il a du travail pour vous » afin de lancer « La destinée ». L'autre choix correspond à la quête d'alignement 2.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta - Coeur immaculé",
+          "warning": "Cette quête existe en trois versions exclusives selon l'alignement : « La destinée » pour les Bontariens, « La fatalité » pour les Brâkmariens et « La rivalité » pour les Neutres. Si l'une des trois a déjà été accomplie, les deux autres ne peuvent plus être lancées.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au bateau vers Frigost et parlez au Capitaine Ardier pour traverser jusqu'à l'île.",
+          "position": "[-34,-16]",
+          "zoneHint": null,
+          "warning": "Si vous n'êtes jamais allé à Frigost, le Capitaine Ardier vous donne « La terre banquise », dont la traversée doit être effectuée avant de poursuivre cette étape.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À l'hôtel de ville de Frigost, parlez à Lucette Brifian et demandez ce qui s'est passé sur l'île afin de préparer votre rapport.",
+          "position": "[-77,-42]",
+          "zoneHint": "Rez-de-chaussée de l'hôtel de ville de Frigost",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montez au premier étage de l'hôtel de ville et parlez à la Maire Cantile en choisissant de poser des questions sur l'île pour votre rapport. Elle vous oriente vers Hugo Frais.",
+          "position": "[-77,-42]",
+          "zoneHint": "Premier étage de l'hôtel de ville de Frigost",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez à la tour des archives et parlez à Hugo Frais. Il vous remet un livre relatant les événements survenus à Frigost, notamment la trahison du Comte Harebourg et la reprise des liaisons avec le continent.",
+          "position": "[-78,-43]",
+          "zoneHint": "Tour des archives",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Amayiro et choisissez « Confier les archives à Amayiro » pour lui remettre les documents d'Hugo Frais et terminer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta - Coeur immaculé",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Cette quête est indépendante de la suite de l'alignement Bontarien : vous pouvez poursuivre « La serveuse Dame Cloude » sans la terminer.",
+        "En poursuivant la conversation avec Amayiro après la fin de la quête, vous débloquez « Malédiction ! ».",
+        "Pour un Brâkmarien, la variante est « La fatalité » en [-25,33] auprès de Oto Mustam. Pour un personnage Neutre, la variante est « La rivalité » en [4,-6] auprès de Emmie Nansgriz."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Capitaine Ardier",
+        "Lucette Brifian",
+        "Maire Cantile",
+        "Hugo Frais",
+        "Comte Harebourg",
+        "Oto Mustam",
+        "Emmie Nansgriz"
+      ],
+      "items": [
+        {
+          "name": "Archives données par Hugo Frais",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 334,
+            "name": "Baie de Cania",
+            "coordinates": [
+              "-34,-16"
+            ]
+          },
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 601,
+            "name": "La Bourgade",
+            "coordinates": [
+              "-77,-42",
+              "-78,-43"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 552,
+            "name": "Musha L'Oni",
+            "level": 80,
+            "imageUrl": "/bestiary/monsters/552.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2391,
+            "name": "Ameur la Laide",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2391.png"
+          },
+          {
+            "id": 2433,
+            "name": "Codenlgaz le Problème",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2433.png"
+          },
+          {
+            "id": 2508,
+            "name": "Kiroyal le Sirupeux",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2508.png"
+          },
+          {
+            "id": 2525,
+            "name": "Let le Rond",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2525.png"
+          },
+          {
+            "id": 2289,
+            "name": "Susbewl l'Hypocrite",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2289.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2913,
+                "name": "Chachachovage",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2913.png"
+              },
+              {
+                "id": 2893,
+                "name": "Crabe Hijacob",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2893.png"
+              },
+              {
+                "id": 2914,
+                "name": "Gélikan",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2914.png"
+              },
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          },
+          {
+            "id": 1068,
+            "name": "Dopeuls",
+            "monsters": [
+              {
+                "id": 385,
+                "name": "Amlub",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/385.png"
+              },
+              {
+                "id": 386,
+                "name": "Codem",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/386.png"
+              },
+              {
+                "id": 570,
+                "name": "Idemas",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/570.png"
+              },
+              {
+                "id": 388,
+                "name": "Kirevam",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/388.png"
+              },
+              {
+                "id": 389,
+                "name": "Let Emoliug",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/389.png"
+              },
+              {
+                "id": 393,
+                "name": "Susej",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/393.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:469",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-destinee.html",
+      "sourceTitle": "La destinée",
+      "sourceHash": "dee9d1cb9e6f31a3be7b297ffce2ea1258adb7058e09e8adbcecd57f6d91b74d",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Mousse Haka vous demande simplement d'aller rencontrer la mairesse de Frigost. Rendez-vous à l'hôtel de ville et parlez-lui à l'étage pour terminer la quête et débloquer deux nouvelles missions de la Bourgade.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Avoir terminé « La terre banquise »."
+      ],
+      "rewards": [
+        "307 125 XP."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parlez à Mousse Haka au Port de givre. Il vous demande d'aller rencontrer la mairesse de Frigost.",
+          "position": "[-81,-37]",
+          "zoneHint": "Port de givre",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à l'hôtel de ville en [-77,-42], montez à l'étage et adressez la parole à la mairesse pour terminer la quête.",
+          "position": "[-77,-42]",
+          "zoneHint": "Étage de l'hôtel de ville",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La fin de la quête débloque « Full contact » et « Bienvenue à Frigost »."
+      ],
+      "npcs": [
+        "Mousse Haka",
+        "Maire Cantile"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 601,
+            "name": "La Bourgade",
+            "coordinates": [
+              "-77,-42"
+            ]
+          },
+          {
+            "id": 600,
+            "name": "Port de givre",
+            "coordinates": [
+              "-81,-37"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2913,
+                "name": "Chachachovage",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2913.png"
+              },
+              {
+                "id": 2893,
+                "name": "Crabe Hijacob",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2893.png"
+              },
+              {
+                "id": 2914,
+                "name": "Gélikan",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2914.png"
+              },
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:380",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-maire-de-glace.html",
+      "sourceTitle": "La maire de glace",
+      "sourceHash": "d6b4105dcc071fd7c01eb4a0c645f1d517493eab0b67c98cb49c300e9f9763fd",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "La Maire Cantile vous demande de faire connaissance avec de nombreux habitants de la Bourgade. Suivez l'ordre du parcours entre l'hôtel de ville, la milice, les commerces, tavernes, ateliers et le phare, puis revenez lui faire votre rapport.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Avoir terminé « La maire de glace »."
+      ],
+      "rewards": [
+        "1 228 500 XP.",
+        "14 376 kamas."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parlez à la Maire Cantile pour lancer la tournée des habitants de la Bourgade.",
+          "position": "[-77,-42]",
+          "zoneHint": "Étage de l'hôtel de ville",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Descendez au rez-de-chaussée de l'hôtel de ville et parlez à Lucette Brifian.",
+          "position": "[-77,-42]",
+          "zoneHint": "Rez-de-chaussée de l'hôtel de ville",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à la milice et parlez successivement à Bonnie Barrow puis à Clyde Parker.",
+          "position": "[-76,-42]",
+          "zoneHint": "Milice",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir le Chef Rhonté.",
+          "position": "[-76,-33]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à la taverne et parlez à Jean-Pierre Kofkof.",
+          "position": "[-77,-38]",
+          "zoneHint": "Taverne",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Annette Daimpeau.",
+          "position": "[-72,-40]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez à la bibliothèque et parlez à Hyppolite Tairmy.",
+          "position": "[-79,-42]",
+          "zoneHint": "Bibliothèque",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous dans la Tour des archives et parlez à Hugo Frais.",
+          "position": "[-78,-43]",
+          "zoneHint": "Tour des archives",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la taverne et parlez d'abord à Walter Aygo.",
+          "position": "[-77,-44]",
+          "zoneHint": "Taverne",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Descendez dans la cave de la taverne et parlez à Germain Danlsak.",
+          "position": "[-77,-44]",
+          "zoneHint": "Cave de la taverne",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montez à l'étage de la taverne et parlez à Laurent Gebleuh puis à Paul Igam.",
+          "position": "[-77,-44]",
+          "zoneHint": "Étage de la taverne",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez à l'entrée de la Bourgade de Frigost et parlez à Casper Kolateur.",
+          "position": "[-76,-46]",
+          "zoneHint": "Entrée de la bourgade de Frigost",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous chez le docteur Albert Paisse et parlez-lui.",
+          "position": "[-80,-45]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Diana Jaune.",
+          "position": "[-81,-46]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous chez le fabricant de skis Justin Dwa et parlez-lui.",
+          "position": "[-82,-46]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez à l'atelier des alchimistes et parlez à Eric Azaraille.",
+          "position": "[-81,-44]",
+          "zoneHint": "Atelier des alchimistes",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à l'atelier des pécheurs et parlez à Clarisse Tosha.",
+          "position": "[-82,-42]",
+          "zoneHint": "Atelier des pécheurs",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez à la taverne et parlez à Quentin Flush puis à Firmin Tassion.",
+          "position": "[-81,-41]",
+          "zoneHint": "Taverne",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Descendez en [-81,-39] et parlez à Abdoul Heure.",
+          "position": "[-81,-39]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au phare et parlez au Capitaine Gneux.",
+          "position": "[-85,-36]",
+          "zoneHint": "Phare",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Une fois toutes les rencontres effectuées, retournez voir la Maire Cantile pour terminer la quête.",
+          "position": "[-77,-42]",
+          "zoneHint": "Étage de l'hôtel de ville",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [],
+      "npcs": [
+        "Maire Cantile",
+        "Lucette Brifian",
+        "Bonnie Barrow",
+        "Clyde Parker",
+        "Chef Rhonté",
+        "Jean-Pierre Kofkof",
+        "Annette Daimpeau",
+        "Hyppolite Tairmy",
+        "Hugo Frais",
+        "Walter Aygo",
+        "Germain Danlsak",
+        "Laurent Gebleuh",
+        "Paul Igam",
+        "Casper Kolateur",
+        "Albert Paisse",
+        "Diana Jaune",
+        "Justin Dwa",
+        "Eric Azaraille",
+        "Clarisse Tosha",
+        "Quentin Flush",
+        "Firmin Tassion",
+        "Abdoul Heure",
+        "Capitaine Gneux"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 602,
+            "name": "Champs de glace",
+            "coordinates": [
+              "-85,-36"
+            ]
+          },
+          {
+            "id": 601,
+            "name": "La Bourgade",
+            "coordinates": [
+              "-77,-42",
+              "-76,-42",
+              "-72,-40",
+              "-79,-42",
+              "-78,-43",
+              "-76,-46",
+              "-80,-45",
+              "-81,-46",
+              "-82,-46",
+              "-81,-44",
+              "-82,-42"
+            ]
+          },
+          {
+            "id": 600,
+            "name": "Port de givre",
+            "coordinates": [
+              "-76,-33",
+              "-81,-39"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "-77,-38",
+              "-77,-44",
+              "-81,-41"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2901,
+            "name": "Bouflouth",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/2901.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2913,
+                "name": "Chachachovage",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2913.png"
+              },
+              {
+                "id": 2893,
+                "name": "Crabe Hijacob",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2893.png"
+              },
+              {
+                "id": 2914,
+                "name": "Gélikan",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2914.png"
+              },
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          },
+          {
+            "id": 156,
+            "name": "Boufmouths",
+            "monsters": [
+              {
+                "id": 2850,
+                "name": "Boufmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2850.png"
+              },
+              {
+                "id": 2851,
+                "name": "Boufmouth de guerre",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2851.png"
+              },
+              {
+                "id": 2852,
+                "name": "Boufmouth légendaire",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2852.png"
+              },
+              {
+                "id": 2853,
+                "name": "Bouftonmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2853.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:381",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/full-contact.html",
+      "sourceTitle": "Full Contact",
+      "sourceHash": "f17bd4485f6c6e02b43637349ba46f76a1c35415284f1f139b2a8c74187cd097",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Amayiro vous envoie à la Taverne de la Bagrutte pour aider Dame Cloude. Récupérez auprès d'elle une lettre révélant l'identité de l'individu qui importune les serveuses, puis rapportez-la à Amayiro.",
+      "recommendedLevel": 32,
+      "prerequisites": [
+        "Avoir terminé « Entraînement avec Tarche »."
+      ],
+      "rewards": [
+        "24 164 XP."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parlez à Amayiro dans la milice de Bonta pour lancer la quête. Il vous demande d'enquêter à la Taverne de la Bagrutte.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à la Taverne de la Bagrutte et parlez à Dame Cloude. Elle vous remet une lettre contenant le nom de l'individu qui harcèle les femmes de la taverne.",
+          "position": "[-29,-59]",
+          "zoneHint": "Taverne de la Bagrutte",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez à la milice de Bonta et remettez la lettre de menace à Amayiro pour terminer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête suivante de l'alignement Bontarien est « Du pain pour les braves »."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Dame Cloude"
+      ],
+      "items": [
+        {
+          "name": "Lettre de menace",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "-29,-59"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:4",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-tenanciegravere-dame-cloude.html",
+      "sourceTitle": "Alignement 2 : La serveuse Dame Cloude",
+      "sourceHash": "2cf1346fdc8cf685498d1b4dc2bda52218c1e20ba8c7d7ff1a20556418866bad",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Regrouper les passages à l'hôtel de ville",
+      "description": "Si « La destinée » et « La maire de glace » sont toutes deux en cours, profitez du même déplacement vers l'hôtel de ville de Frigost en [-77,-42] pour avancer les deux quêtes : « La destinée » y demande de parler à Lucette Brifian puis à la Maire Cantile, tandis que « La maire de glace » se termine en parlant à la mairesse à l'étage.",
+      "questKeys": [
+        "quest:469",
+        "quest:380"
+      ],
+      "actions": [
+        "À votre arrivée en [-77,-42], effectuez d'abord l'étape de « La destinée » avec Lucette Brifian au rez-de-chaussée.",
+        "Montez ensuite à l'étage et validez les dialogues requis auprès de la Maire Cantile pour les deux quêtes avant de repartir vers la Tour des archives."
+      ]
+    }
+  ]
+}

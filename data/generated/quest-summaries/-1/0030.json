@@ -1,0 +1,624 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 30,
+  "updatedAt": "2026-08-27T12:53:58.805Z",
+  "summaries": [
+    {
+      "overview": "Metag Robill vous envoie rencontrer le Maître des clefs, qui vous fait enchaîner deux donjons. Vous devez vaincre le Chafer Rönin dans le Donjon des Squelettes, revenir chercher la mission suivante, puis vaincre le Batofu dans le Donjon des Tofus. Après un dernier retour au Maître des clefs, rendez-vous auprès de Pat Akess pour terminer la quête et débloquer « Les sbires du maître ».",
+      "recommendedLevel": 30,
+      "prerequisites": [
+        "Être de niveau supérieur à 29.",
+        "Avoir terminé « Revenons à nos bouftons »."
+      ],
+      "rewards": [
+        "610 242 XP.",
+        "11 424 kamas."
+      ],
+      "preparation": [
+        "Prévoir de terminer 1 x Donjon des Squelettes.",
+        "Prévoir de terminer 1 x Donjon des Tofus."
+      ],
+      "actions": [
+        {
+          "instruction": "Dans la taverne d’Astrub, parlez à Metag Robill et demandez une nouvelle mission, puis choisissez de vous rendre chez le Maître des clefs.",
+          "position": "[6,-18]",
+          "zoneHint": "taverne d’Astrub",
+          "warning": "Condition : être de niveau supérieur à 29 et avoir terminé « Revenons à nos bouftons ».",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Maître des clefs afin de recevoir la clef et l’objectif du prochain donjon.",
+          "position": "[-6,-37]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Terminez le Donjon des Squelettes et vainquez le Chafer Rönin.",
+          "position": "[10,15]",
+          "zoneHint": "Donjon des Squelettes",
+          "warning": "Un donjon complet et son combat contre le Chafer Rönin sont obligatoires.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez auprès du Maître des clefs pour valider cette étape et recevoir la clef du donjon suivant.",
+          "position": "[-6,-37]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Terminez le Donjon des Tofus et vainquez le Batofu.",
+          "position": "[5,6]",
+          "zoneHint": "Donjon des Tofus",
+          "warning": "Un second donjon complet et son combat contre le Batofu sont obligatoires.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez voir le Maître des clefs ; il vous dirige alors vers une nouvelle personne.",
+          "position": "[-6,-37]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rencontrez Pat Akess et choisissez « Merci, c’est exactement ce qu’il me faut » pour conclure la mission.",
+          "position": "[5,0]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête débloque ensuite « Les sbires du maître »."
+      ],
+      "npcs": [
+        "Metag Robill",
+        "Maître des clefs",
+        "Pat Akess"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 516,
+            "name": "Donjon des Squelettes",
+            "coordinates": [
+              "10,15"
+            ]
+          },
+          {
+            "id": 201,
+            "name": "Donjon des Tofus",
+            "coordinates": [
+              "5,6"
+            ]
+          },
+          {
+            "id": 56,
+            "name": "Lac de Cania",
+            "coordinates": [
+              "-6,-37"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "6,-18"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "5,0"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2400,
+            "name": "Bi le Partageur",
+            "level": 24,
+            "imageUrl": "/bestiary/monsters/2400.png"
+          },
+          {
+            "id": 2399,
+            "name": "Bilvoezé le Bonimenteur",
+            "level": 24,
+            "imageUrl": "/bestiary/monsters/2399.png"
+          },
+          {
+            "id": 2396,
+            "name": "Bistou le Quêteur",
+            "level": 24,
+            "imageUrl": "/bestiary/monsters/2396.png"
+          },
+          {
+            "id": 2401,
+            "name": "Bistou le Rieur",
+            "level": 24,
+            "imageUrl": "/bestiary/monsters/2401.png"
+          },
+          {
+            "id": 2407,
+            "name": "Blof l'Apathique",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2407.png"
+          },
+          {
+            "id": 2406,
+            "name": "Bloporte le Veule",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2406.png"
+          },
+          {
+            "id": 2405,
+            "name": "Blordur l'Infect",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2405.png"
+          },
+          {
+            "id": 2404,
+            "name": "Blorie l'Assourdissante",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2404.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 210,
+            "name": "Blops",
+            "monsters": [
+              {
+                "id": 278,
+                "name": "Biblop Coco",
+                "level": 24,
+                "imageUrl": "/bestiary/monsters/278.png"
+              },
+              {
+                "id": 279,
+                "name": "Biblop Griotte",
+                "level": 24,
+                "imageUrl": "/bestiary/monsters/279.png"
+              },
+              {
+                "id": 277,
+                "name": "Biblop Indigo",
+                "level": 24,
+                "imageUrl": "/bestiary/monsters/277.png"
+              },
+              {
+                "id": 280,
+                "name": "Biblop Reinette",
+                "level": 24,
+                "imageUrl": "/bestiary/monsters/280.png"
+              },
+              {
+                "id": 273,
+                "name": "Blop Coco",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/273.png"
+              },
+              {
+                "id": 275,
+                "name": "Blop Griotte",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/275.png"
+              },
+              {
+                "id": 274,
+                "name": "Blop Indigo",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/274.png"
+              },
+              {
+                "id": 276,
+                "name": "Blop Reinette",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/276.png"
+              }
+            ]
+          },
+          {
+            "id": 191,
+            "name": "Chafers d'Amakna",
+            "monsters": [
+              {
+                "id": 54,
+                "name": "Chafer",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/54.png"
+              },
+              {
+                "id": 110,
+                "name": "Chafer Invisible",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/110.png"
+              },
+              {
+                "id": 396,
+                "name": "Chafer Fantassin",
+                "level": 33,
+                "imageUrl": "/bestiary/monsters/396.png"
+              },
+              {
+                "id": 3240,
+                "name": "Chafer Primitif",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/3240.png"
+              },
+              {
+                "id": 108,
+                "name": "Rib",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/108.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 205,
+            "name": "Tofus",
+            "monsters": [
+              {
+                "id": 804,
+                "name": "Tofoune",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/804.png"
+              },
+              {
+                "id": 796,
+                "name": "Tofu Noir",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/796.png"
+              },
+              {
+                "id": 808,
+                "name": "Tofu Ventripotent",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/808.png"
+              },
+              {
+                "id": 806,
+                "name": "Tofukaz",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/806.png"
+              },
+              {
+                "id": 98,
+                "name": "Tofu",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/98.png"
+              },
+              {
+                "id": 4824,
+                "name": "Tofu Mutant",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/4824.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:71",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-maitre-des-clefs.html",
+      "sourceTitle": "Le maître des clefs",
+      "sourceHash": "239fee53928fc99563ec9bd8c7b16ce59e92255fae6af49d40162f2ef1d61b71",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Cindy Cah vous charge de récupérer des objets dérobés par les Vilinsekts. Procurez-vous une Baguette Rikiki, équipez-la pour pénétrer dans leurs planques, puis éliminez 15 Vilinsekts afin d’obtenir automatiquement 15 Caissettes de Babioles. Rapportez ensuite les caissettes à Cindy Cah pour recevoir une Clef de la Cache de Kankreblath et faire progresser « Combat de rue ».",
+      "recommendedLevel": 40,
+      "prerequisites": [
+        "Niveau recommandé : 40.",
+        "Avoir lancé « Combat de rue »."
+      ],
+      "rewards": [
+        "127 134 XP.",
+        "2 380 kamas.",
+        "1 x Clef de la Cache de Kankreblath."
+      ],
+      "preparation": [
+        "Fabriquer ou acheter 1 x Baguette Rikiki.",
+        "Équiper la Baguette Rikiki en arme pour entrer dans les planques des Vilinsekts."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Cindy Cah et acceptez de récupérer les objets volés dans les repaires des Vilinsekts.",
+          "position": "[5,-17]",
+          "zoneHint": null,
+          "warning": "Condition : « Combat de rue » doit être lancé.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Fabriquez ou achetez 1 x Baguette Rikiki, puis équipez-la à votre corps-à-corps avant d’entrer dans une planque.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Dépense possible si vous achetez la Baguette Rikiki. Elle doit être équipée pour franchir l’entrée des planques.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la planque accessible ici avec la Baguette Rikiki équipée. Une fois à l’intérieur, vous pouvez remettre votre arme habituelle. Combattez des Vilinsekts dans les planques jusqu’à avancer vers l’objectif des 15 Caissettes de Babioles.",
+          "position": "[6,-15]",
+          "zoneHint": "planque des Vilinsekts",
+          "warning": "Combats contre des Vilinsekts ; chaque Vilinsekt vaincu fournit automatiquement 1 Caissette de Babioles.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Cette seconde planque peut également servir à combattre des Vilinsekts et à poursuivre la collecte.",
+          "position": "[1,-16]",
+          "zoneHint": "planque des Vilinsekts",
+          "warning": "La Baguette Rikiki doit être équipée au moment d’entrer dans la planque.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Cette troisième planque permet aussi de poursuivre les combats jusqu’à obtenir le nombre requis de caissettes.",
+          "position": "[4,-19]",
+          "zoneHint": "planque des Vilinsekts",
+          "warning": "Objectif total : vaincre 15 Vilinsekts et obtenir 15 Caissettes de Babioles.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Utilisez cette quatrième planque si nécessaire pour terminer la collecte des 15 Caissettes de Babioles.",
+          "position": "[6,-21]",
+          "zoneHint": "planque des Vilinsekts",
+          "warning": "La Baguette Rikiki doit être équipée pour entrer ; elle peut être retirée après l’entrée.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Une fois les 15 Caissettes de Babioles obtenues, retournez auprès de Cindy Cah et rendez-lui les objets volés.",
+          "position": "[5,-17]",
+          "zoneHint": null,
+          "warning": "Il faut posséder les 15 Caissettes de Babioles avant de rendre la quête.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les 15 Caissettes de Babioles sont obtenues automatiquement en vainquant 15 Vilinsekts.",
+        "Les quatre planques indiquées sont des alternatives : il n’est pas nécessaire de toutes les utiliser si les 15 combats sont terminés.",
+        "La quête débloque une nouvelle étape de « Combat de rue »."
+      ],
+      "npcs": [
+        "Cindy Cah"
+      ],
+      "items": [
+        {
+          "name": "Baguette Rikiki",
+          "itemId": 15990,
+          "imageUrl": "/items/15990.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15990"
+        },
+        {
+          "name": "Caissette de Babioles",
+          "itemId": 19630,
+          "imageUrl": "/items/19630.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19630"
+        },
+        {
+          "name": "Clef de la Cache de Kankreblath",
+          "itemId": 15991,
+          "imageUrl": "/items/15991.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15991"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "5,-17"
+            ]
+          },
+          {
+            "id": 843,
+            "name": "Planque des Vilinsekts",
+            "coordinates": [
+              "6,-15",
+              "1,-16",
+              "4,-19",
+              "6,-21"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 1185,
+            "name": "Vilinsekts",
+            "monsters": [
+              {
+                "id": 3940,
+                "name": "Cafarcher",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/3940.png"
+              },
+              {
+                "id": 3941,
+                "name": "Pyrasite",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/3941.png"
+              },
+              {
+                "id": 3942,
+                "name": "Mirgrillon",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/3942.png"
+              },
+              {
+                "id": 3943,
+                "name": "Sakarien",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/3943.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1205",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/les-as-de-la-cambriole.html",
+      "sourceTitle": "Les as de la cambriole",
+      "sourceHash": "69e884bfd847fe1d010d607e453cb4c4432386a80ff5261b593528d4417edc56",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": []
+}

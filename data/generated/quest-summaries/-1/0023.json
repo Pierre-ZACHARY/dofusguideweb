@@ -1,0 +1,802 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 23,
+  "updatedAt": "2026-08-27T12:53:57.893Z",
+  "summaries": [
+    {
+      "overview": "Aidez Vaiguy à réunir des ingrédients végétaux dans les Champs d'Astrub, puis protégez-la contre une Poupée Champêtre et les plantes qui l'accompagnent. Cette quête, commencée à l'étape précédente, se termine auprès de Vaiguy et permet de poursuivre Combat de rue.",
+      "recommendedLevel": 20,
+      "prerequisites": [
+        "Niveau recommandé : 20.",
+        "Combat de rue lancé.",
+        "La quête a été lancée à l'étape précédente auprès de Vaiguy."
+      ],
+      "rewards": [
+        "34 398 XP.",
+        "780 kamas.",
+        "1 x Clef des Champs."
+      ],
+      "preparation": [
+        "Prévoir des combats contre les monstres des Champs d'Astrub.",
+        "Vaincre 2 x Épouvanteur, 2 x Pissenlit Diabolique, 2 x Rose Démoniaque et 2 x Tournesol Sauvage.",
+        "Prévoir un combat final réalisable en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Dans les Champs d'Astrub, vaincre 2 Épouvanteurs, 2 Pissenlits Diaboliques, 2 Roses Démoniaques et 2 Tournesols Sauvages afin d'obtenir automatiquement les objets de quête demandés.",
+          "position": null,
+          "zoneHint": "Champs d'Astrub",
+          "warning": "Les objets obtenus pour cette étape sont des objets de quête et ne s'achètent pas.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Vaiguy et lui remettre les ingrédients récoltés.",
+          "position": "[5,-22]",
+          "zoneHint": "Champs d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à la Poupée Champêtre et choisir de défendre Vaiguy contre la créature et les plantes qui l'accompagnent.",
+          "position": "[5,-22]",
+          "zoneHint": "Champs d'Astrub",
+          "warning": "Un combat se lance ; il peut être réalisé à plusieurs.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, reparler à Vaiguy pour terminer la quête et recevoir la Clef des Champs.",
+          "position": "[5,-22]",
+          "zoneHint": "Champs d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La fin de cette quête débloque une étape de Combat de rue.",
+        "Vaiguy indique que la créature affrontée provient normalement de la grange du Tournesol Affamé."
+      ],
+      "npcs": [
+        "Vaiguy",
+        "Poupée Champêtre"
+      ],
+      "items": [
+        {
+          "name": "Clef des Champs",
+          "itemId": 8143,
+          "imageUrl": "/items/8143.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8143"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 98,
+            "name": "Champs d'Astrub",
+            "coordinates": [
+              "5,-22"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2348,
+            "name": "Pissdane l'Insipide",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2348.png"
+          },
+          {
+            "id": 2352,
+            "name": "Roz la Magicienne",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2352.png"
+          },
+          {
+            "id": 2358,
+            "name": "Tour le Vice",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2358.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 204,
+            "name": "Plantes des champs",
+            "monsters": [
+              {
+                "id": 79,
+                "name": "Pissenlit Diabolique",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/79.png"
+              },
+              {
+                "id": 78,
+                "name": "Rose Démoniaque",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/78.png"
+              },
+              {
+                "id": 48,
+                "name": "Tournesol Sauvage",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/48.png"
+              },
+              {
+                "id": 4820,
+                "name": "Épouvanteur",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/4820.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1203",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/dejeuner-a-la-fourchette.html",
+      "sourceTitle": "Déjeuner à la fourchette",
+      "sourceHash": "0a29596435c9992b2d13b04fb144298fd8fab0ab901c3a302fddcb47afe02c34",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Metag Robill poursuit son défi du Tour du Monde : cette fois, il faut vaincre le Bouftou Royal dans la Cour du Bouftou Royal. Après le donjon, revenez à la taverne d'Astrub pour valider la quête et débloquer Le maître des clefs.",
+      "recommendedLevel": 20,
+      "prerequisites": [
+        "Niveau > 19.",
+        "Le tour du monde terminé."
+      ],
+      "rewards": [
+        "3 552 kamas.",
+        "172 311 XP.",
+        "1 x Laine de Bouftou Royal."
+      ],
+      "preparation": [
+        "Prévoir 1 x Donjon Cour du Bouftou Royal."
+      ],
+      "actions": [
+        {
+          "instruction": "Dans la taverne d'Astrub, parler à Metag Robill et accepter son nouveau défi en suggérant de préparer la rôtissoire car il y aura du bouftou à manger.",
+          "position": "[6,-18]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Se rendre à la Cour du Bouftou Royal et terminer le donjon en vainquant le Bouftou Royal.",
+          "position": "[2,-34]",
+          "zoneHint": "Cour du Bouftou Royal",
+          "warning": "Le passage par le donjon Cour du Bouftou Royal est obligatoire.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Une fois le donjon terminé, retourner auprès de Metag Robill dans la taverne d'Astrub pour achever la quête.",
+          "position": "[6,-18]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête suivante de la série est Le maître des clefs."
+      ],
+      "npcs": [
+        "Metag Robill",
+        "Bouftou Royal"
+      ],
+      "items": [
+        {
+          "name": "Laine de Bouftou Royal",
+          "itemId": 880,
+          "imageUrl": "/items/880.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/880"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "6,-18"
+            ]
+          },
+          {
+            "id": 82,
+            "name": "Cour du Bouftou Royal",
+            "coordinates": [
+              "2,-34"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 200,
+            "name": "Bouftous",
+            "monsters": [
+              {
+                "id": 134,
+                "name": "Boufton Blanc",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/134.png"
+              },
+              {
+                "id": 149,
+                "name": "Boufton Noir",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/149.png"
+              },
+              {
+                "id": 148,
+                "name": "Chef de Guerre Bouftou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/148.png"
+              },
+              {
+                "id": 101,
+                "name": "Bouftou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/101.png"
+              },
+              {
+                "id": 4822,
+                "name": "Bouftou Noir",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/4822.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1224",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/revenons-a-nos-bouftons.html",
+      "sourceTitle": "Revenons à nos bouftons",
+      "sourceHash": "498c8f4ac99446c5ce24776abeba491abfeda295eef681ad5fe679d9ef432e0b",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Erty Trapchet vous charge d'abord d'arroser ses plantes, puis vous entraîne dans une enquête sur les parasites qui infestent champs et greniers. Vous préparez et testez un vermifuge avec Nibé Lulle et Emia Elliesol, affrontez ensuite la Rose Artempeth dans le sous-sol d'Erty, puis terminez l'enquête après avoir interrogé Raymond Santho.",
+      "recommendedLevel": 20,
+      "prerequisites": [
+        "Niveau recommandé : 20."
+      ],
+      "rewards": [
+        "34 398 XP.",
+        "780 kamas.",
+        "2 x Pétale de Tournesol Sauvage.",
+        "2 x Langue d'Épouvanteur."
+      ],
+      "preparation": [
+        "5 x Eau potable.",
+        "1 x Fleur de Pissenlit Diabolique.",
+        "1 x Pétale de Rose Démoniaque.",
+        "1 x Pétale de Tournesol Sauvage.",
+        "1 x Langue d’Épouvanteur.",
+        "Prévoir 2 combats obligatoires réalisés seul."
+      ],
+      "actions": [
+        {
+          "instruction": "Parler à Erty Trapchet, accepter de nourrir Audrey et demander où trouver de l'eau pour arroser ses plantes.",
+          "position": "[0,-19]",
+          "zoneHint": "Forêt d'Astrub",
+          "warning": "Avoir 5 x Eau potable avant d'aller dans sa maison évite un aller-retour.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrer dans la maison d'Erty et cliquer sur les plantes en bas de la pièce pour les arroser.",
+          "position": "[1,-21]",
+          "zoneHint": null,
+          "warning": "Cette action consomme 1 x Eau potable.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Descendre au sous-sol de la maison et cliquer sur la plante située à droite des escaliers.",
+          "position": "[1,-21]",
+          "zoneHint": "Sous-sol de la maison d'Erty",
+          "warning": "Cette action nécessite 4 x Eau potable.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner auprès d'Erty Trapchet pour confirmer que les plantes ont été arrosées et recevoir la suite de l'enquête sur les parasites.",
+          "position": "[0,-19]",
+          "zoneHint": "Forêt d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Mawy Ingalsse de la recrudescence des parasites dans les champs et les greniers.",
+          "position": "[7,-24]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Emia Elliesol au même endroit ; elle cherche une solution contre les parasites des greniers.",
+          "position": "[7,-24]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller voir Nibé Lulle et discuter de l'infestation. Il demande les ingrédients nécessaires à son vermifuge.",
+          "position": "[3,-21]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Réunir 1 Fleur de Pissenlit Diabolique, 1 Pétale de Rose Démoniaque, 1 Pétale de Tournesol Sauvage et 1 Langue d’Épouvanteur, puis les montrer à Nibé Lulle.",
+          "position": "[3,-21]",
+          "zoneHint": null,
+          "warning": "Ces ressources peuvent être achetées en HDV ou obtenues en butin.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Utiliser l'Alambic avec les quatre ressources demandées et le mélange de Nibé Lulle afin de fabriquer le vermifuge.",
+          "position": "[3,-21]",
+          "zoneHint": null,
+          "warning": "Les ingrédients sont utilisés pour la fabrication du vermifuge.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner parler à Emia Elliesol ; elle demande de tester le vermifuge dans deux greniers infectés.",
+          "position": "[7,-24]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrer dans le grenier et cliquer sur le silo de blé pour effectuer le premier test.",
+          "position": "[6,-23]",
+          "zoneHint": "Grenier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrer dans l'autre grenier et cliquer sur le sac d'oranges. Affronter ensuite la larve et le moskito.",
+          "position": "[5,-26]",
+          "zoneHint": "Grenier",
+          "warning": "Le combat contre la larve et le moskito doit être effectué seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après les deux tests, rapporter leur déroulement à Nibé Lulle.",
+          "position": "[3,-21]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner voir Erty Trapchet. Il demande de récupérer son carnet de notes laissé chez lui.",
+          "position": "[0,-19]",
+          "zoneHint": "Forêt d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrer dans la maison d'Erty, descendre au sous-sol et parler à la Rose Artempeth.",
+          "position": "[1,-21]",
+          "zoneHint": "Sous-sol de la maison d'Erty",
+          "warning": "Combat obligatoire en solo. Pétale Empoisonné inflige un poison terre pendant 3 tours ; Rose Épineuse frappe eau et terre et peut retirer 1 PA/PM esquivable.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après avoir vaincu la Rose Artempeth, retourner voir Erty Trapchet pour lui rapporter la fleur.",
+          "position": "[0,-19]",
+          "zoneHint": "Forêt d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller parler à Raymond Santho, qui explique avoir proposé aux paysans d'Astrub des solutions contre les parasites.",
+          "position": "[5,-21]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner une dernière fois auprès d'Erty Trapchet. Il soupçonne les produits fournis par Raymond Santho et décide de chercher une solution avec Nibé Lulle, ce qui termine la quête.",
+          "position": "[0,-19]",
+          "zoneHint": "Forêt d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les 5 x Eau potable peuvent être achetées en HDV ou obtenues via un puits.",
+        "Après le combat contre la Rose Artempeth, le carnet demandé par Erty n'est pas rapporté ; le parcours continue directement avec Raymond Santho.",
+        "La quête se termine après le dernier dialogue avec Erty Trapchet."
+      ],
+      "npcs": [
+        "Erty Trapchet",
+        "Audrey",
+        "Mawy Ingalsse",
+        "Emia Elliesol",
+        "Nibé Lulle",
+        "Rose Artempeth",
+        "Raymond Santho"
+      ],
+      "items": [
+        {
+          "name": "Eau potable",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Fleur de Pissenlit Diabolique",
+          "itemId": 306,
+          "imageUrl": "/items/306.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/306"
+        },
+        {
+          "name": "Pétale de Rose Démoniaque",
+          "itemId": 309,
+          "imageUrl": "/items/309.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/309"
+        },
+        {
+          "name": "Pétale de Tournesol Sauvage",
+          "itemId": 2659,
+          "imageUrl": "/items/2659.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2659"
+        },
+        {
+          "name": "Langue d'Épouvanteur",
+          "itemId": 374,
+          "imageUrl": "/items/374.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/374"
+        },
+        {
+          "name": "Mélange de Nibé Lulle",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Vermifuge",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 444,
+            "name": "Champs",
+            "coordinates": [
+              "7,-24"
+            ]
+          },
+          {
+            "id": 98,
+            "name": "Champs d'Astrub",
+            "coordinates": [
+              "7,-24",
+              "6,-23",
+              "5,-26"
+            ]
+          },
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "1,-21",
+              "3,-21",
+              "5,-21"
+            ]
+          },
+          {
+            "id": 97,
+            "name": "Forêt d'Astrub",
+            "coordinates": [
+              "0,-19"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          },
+          {
+            "id": 460,
+            "name": "Frakacia Leukocytine",
+            "level": 30,
+            "imageUrl": "/bestiary/monsters/460.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2348,
+            "name": "Pissdane l'Insipide",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2348.png"
+          },
+          {
+            "id": 2352,
+            "name": "Roz la Magicienne",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2352.png"
+          },
+          {
+            "id": 2358,
+            "name": "Tour le Vice",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2358.png"
+          },
+          {
+            "id": 2333,
+            "name": "Milipatte la Griffe",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2333.png"
+          },
+          {
+            "id": 2349,
+            "name": "Preskapwal le Tendancieux",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2349.png"
+          },
+          {
+            "id": 2353,
+            "name": "Sangria le Fruité",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2353.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 4823,
+                "name": "Écurouille",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/4823.png"
+              },
+              {
+                "id": 159,
+                "name": "Milimulou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/159.png"
+              },
+              {
+                "id": 103,
+                "name": "Prespic",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/103.png"
+              },
+              {
+                "id": 104,
+                "name": "Sanglier",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/104.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 204,
+            "name": "Plantes des champs",
+            "monsters": [
+              {
+                "id": 79,
+                "name": "Pissenlit Diabolique",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/79.png"
+              },
+              {
+                "id": 78,
+                "name": "Rose Démoniaque",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/78.png"
+              },
+              {
+                "id": 48,
+                "name": "Tournesol Sauvage",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/48.png"
+              },
+              {
+                "id": 4820,
+                "name": "Épouvanteur",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/4820.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1218",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/qui-seme-le-vent-recolte-l-artempeth.html",
+      "sourceTitle": "Qui sème le vent récolte l'Artempeth",
+      "sourceHash": "42ba263496cb6878bfb5c05f87befe9d63c5c4773605f8db3f9dab9f253baded",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Rentabiliser les combats de plantes",
+      "description": "Les objectifs de Déjeuner à la fourchette et la préparation de Qui sème le vent récolte l'Artempeth concernent plusieurs des mêmes monstres des environs d'Astrub. Pendant les combats requis pour Vaiguy, profitez des butins ordinaires obtenus sur ces monstres pour réunir les quatre ressources demandées plus tard par Nibé Lulle.",
+      "questKeys": [
+        "quest:1203",
+        "quest:1218"
+      ],
+      "actions": [
+        "Pendant les combats contre Pissenlit Diabolique, Rose Démoniaque, Tournesol Sauvage et Épouvanteur pour quest:1203, conserver leurs ressources ordinaires utiles à quest:1218.",
+        "Avant d'aller voir Nibé Lulle en [3,-21], vérifier que vous avez 1 Fleur de Pissenlit Diabolique, 1 Pétale de Rose Démoniaque, 1 Pétale de Tournesol Sauvage et 1 Langue d’Épouvanteur."
+      ]
+    }
+  ]
+}

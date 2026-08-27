@@ -1,0 +1,573 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 123,
+  "updatedAt": "2026-08-27T12:55:08.029Z",
+  "summaries": [
+    {
+      "overview": "Bambelle, située dans les Champs de glace de Frigost, a besoin d'aide pour réparer sa scierie en panne. Elle vous envoie voir Francky à l'atelier des bricoleurs de la bourgade. Francky refuse de se déplacer mais fournit des plans et une liste de ressources à réunir. Une fois les matériaux rassemblés, retournez voir Bambelle pour la réparation.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Niveau supérieur à 99",
+        "Ne pas avoir la quête Bricole Girl en cours"
+      ],
+      "rewards": [
+        "3 236 435 XP",
+        "67 120 kamas",
+        "5 x Kama de glace",
+        "1 x Gland de l'Écumouth",
+        "5 x Queue d'Écumouth",
+        "1 x Dent de Smilomouth",
+        "5 x Poil de Smilomouth"
+      ],
+      "preparation": [
+        "1 x Marteau de Boisaille",
+        "4 x Huile de Koode",
+        "4 x Metaria rouge",
+        "5 x Bakélélite",
+        "5 x Pyrute",
+        "20 x Bois de Chêne",
+        "35 x Bois de Tremble",
+        "5 x Pizza au boudin de boufmouth"
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Bambelle. Elle vous explique que sa scierie est en panne et que personne n'ose s'aventurer jusque-là pour la réparer.",
+          "position": "[-64,-51]",
+          "zoneHint": "Champs de glace",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir Francky à l'atelier des bricoleurs de la bourgade et parlez-lui. Il refuse de se rendre à la scierie mais accepte de vous dessiner des plans et de vous fournir une liste de ressources nécessaires à la réparation.",
+          "position": "[-75,-38]",
+          "zoneHint": "Bourgade",
+          "warning": "La quête Bricole Girl ne doit pas être en cours, sinon Francky sera inaccessible.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Réunissez toutes les ressources demandées : Marteau de Boisaille, Huile de Koode, Metaria rouge, Bakélélite, Pyrute, Bois de Chêne, Bois de Tremble et Pizza au boudin de boufmouth.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Certaines ressources peuvent nécessiter de l'artisanat ou des achats en hôtel des ventes.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Achetez 5 Pizza au boudin de boufmouth à l'Épicerie d'Ernest.",
+          "position": "[-77,-45]",
+          "zoneHint": "Bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Bambelle et donnez-lui tout le matériel.",
+          "position": "[-64,-51]",
+          "zoneHint": "Champs de glace",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête Bricole Girl bloque l'accès à Francky : terminez-la ou ne la lancez pas avant de commencer cette quête.",
+        "Les Pizza au boudin de boufmouth sont disponibles à l'Épicerie d'Ernest en [-77,-45]."
+      ],
+      "npcs": [
+        "Bambelle",
+        "Francky",
+        "Ernest"
+      ],
+      "items": [
+        {
+          "name": "Marteau de Boisaille",
+          "itemId": 147,
+          "imageUrl": "/items/147.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/147"
+        },
+        {
+          "name": "Huile de Koode",
+          "itemId": 397,
+          "imageUrl": "/items/397.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/397"
+        },
+        {
+          "name": "Metaria rouge",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Bakélélite",
+          "itemId": 749,
+          "imageUrl": "/items/749.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/749"
+        },
+        {
+          "name": "Pyrute",
+          "itemId": 7035,
+          "imageUrl": "/items/7035.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/7035"
+        },
+        {
+          "name": "Bois de Chêne",
+          "itemId": 460,
+          "imageUrl": "/items/460.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/460"
+        },
+        {
+          "name": "Bois de Tremble",
+          "itemId": 11107,
+          "imageUrl": "/items/11107.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11107"
+        },
+        {
+          "name": "Pizza au boudin de boufmouth",
+          "itemId": 11568,
+          "imageUrl": "/items/11568.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11568"
+        },
+        {
+          "name": "Kama de glace",
+          "itemId": 11196,
+          "imageUrl": "/items/11196.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11196"
+        },
+        {
+          "name": "Gland de l'Écumouth",
+          "itemId": 11239,
+          "imageUrl": "/items/11239.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11239"
+        },
+        {
+          "name": "Queue d'Écumouth",
+          "itemId": 11238,
+          "imageUrl": "/items/11238.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11238"
+        },
+        {
+          "name": "Dent de Smilomouth",
+          "itemId": 11240,
+          "imageUrl": "/items/11240.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11240"
+        },
+        {
+          "name": "Poil de Smilomouth",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 602,
+            "name": "Champs de glace",
+            "coordinates": [
+              "-64,-51"
+            ]
+          },
+          {
+            "id": 601,
+            "name": "La Bourgade",
+            "coordinates": [
+              "-75,-38",
+              "-77,-45"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2901,
+            "name": "Bouflouth",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/2901.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2913,
+                "name": "Chachachovage",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2913.png"
+              },
+              {
+                "id": 2893,
+                "name": "Crabe Hijacob",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2893.png"
+              },
+              {
+                "id": 2914,
+                "name": "Gélikan",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2914.png"
+              },
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          },
+          {
+            "id": 156,
+            "name": "Boufmouths",
+            "monsters": [
+              {
+                "id": 2850,
+                "name": "Boufmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2850.png"
+              },
+              {
+                "id": 2851,
+                "name": "Boufmouth de guerre",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2851.png"
+              },
+              {
+                "id": 2852,
+                "name": "Boufmouth légendaire",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2852.png"
+              },
+              {
+                "id": 2853,
+                "name": "Bouftonmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2853.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:384",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/scierie-bambelle.html",
+      "sourceTitle": "Scierie Bambelle",
+      "sourceHash": "5c207f680d639c24ccd83fb9d58fbe1c77c10ede5e0a72347c4aa788864f2532",
+      "generatedAt": "2026-08-24T18:01:59.934Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Bisale Vinlenta a besoin de plantes pour ses croisements botaniques à Frigost. Récupérez 2 Perce-Neige, 40 Yucca Lélé sur les Boufmouths et 5 Tulipes Ossucion, puis rapportez-les-lui.",
+      "recommendedLevel": 110,
+      "prerequisites": [],
+      "rewards": [
+        "2 597 190 XP",
+        "28 560 Kamas",
+        "1 x Kama de Glace",
+        "5 x Oreille de Bouftonmouth"
+      ],
+      "preparation": [
+        "2 x Perce-Neige (HDV ou récolte par alchimiste niveau 200)",
+        "Combats contre des Boufmouths (Champ de glace ou donjon)"
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Bisale Vinlenta pour lancer la quête.",
+          "position": "[-72,-31]",
+          "zoneHint": "Champ de glace",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Obtenez 2 x Perce-Neige (achetez à l'HDV ou faites récolter par un alchimiste niveau 200).",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Achat à l'HDV ou nécessite un alchimiste niveau 200.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Combattez des Boufmouths dans le Champ de glace ou le donjon jusqu'à obtenir 40 x Yucca Lélé (drop à 100%).",
+          "position": null,
+          "zoneHint": "Champ de glace",
+          "warning": "Combats contre des monstres de la zone.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Récoltez 5 x Tulipe Ossucion aux positions suivantes : [-73,-33], [-68,-35], [-68,-38], [-69,-45], [-72,-45], [-75,-47], [-86,-44], [-87,-39], [-85,-36]. Temps de repop : 5 minutes.",
+          "position": "[-73,-33]",
+          "zoneHint": "Champ de glace",
+          "warning": "Dofus Touch : seulement 3 plantes aux positions [-68,-35], [-69,-45], [-85,-36]. Temps de repop de 5 minutes.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rapportez toutes les plantes à Bisale Vinlenta.",
+          "position": "[-72,-31]",
+          "zoneHint": "Champ de glace",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Temps de repop des Tulipes Ossucion : 5 minutes.",
+        "Dofus Touch : seulement 3 Tulipes Ossucion disponibles aux positions [-68,-35], [-69,-45], [-85,-36].",
+        "Quête suivante débloquée : Botanique-nique-nique."
+      ],
+      "npcs": [
+        "Bisale Vinlenta"
+      ],
+      "items": [
+        {
+          "name": "Perce-Neige",
+          "itemId": 11102,
+          "imageUrl": "/items/11102.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11102"
+        },
+        {
+          "name": "Yucca Lélé",
+          "itemId": 11156,
+          "imageUrl": "/items/11156.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11156"
+        },
+        {
+          "name": "Tulipe Ossucion",
+          "itemId": 11157,
+          "imageUrl": "/items/11157.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11157"
+        },
+        {
+          "name": "Kama de Glace",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Oreille de Bouftonmouth",
+          "itemId": 11119,
+          "imageUrl": "/items/11119.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11119"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "-72,-31",
+              "-73,-33",
+              "-68,-35",
+              "-68,-38",
+              "-69,-45",
+              "-72,-45",
+              "-75,-47",
+              "-86,-44",
+              "-87,-39",
+              "-85,-36"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": []
+      },
+      "questKey": "quest:335",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/cent-vingt-trois-fleurs-point-comme-les-autres.html",
+      "sourceTitle": "Cent vingt trois fleurs, point comme les autres",
+      "sourceHash": "96c3c6e8cf61fe68114e1cb6fe0df795291b737d0da3ed6818981b1955b0b393",
+      "generatedAt": "2026-08-24T17:15:26.381Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Récupérer 40 Roses Nelson en combattant les monstres de la Forêt des pins perdus et récolter 5 Mimes Osamodas à des emplacements précis, puis rapporter le tout à Bisale Vinlenta.",
+      "recommendedLevel": 120,
+      "prerequisites": [
+        "Cent vingt trois fleurs, point comme les autres"
+      ],
+      "rewards": [
+        "3 236 436 XP",
+        "33 560 Kamas",
+        "1 x Kama de glace",
+        "5 x Oreille percée du Fricochère"
+      ],
+      "preparation": [
+        "Prévoir des combats contre les monstres de la Forêt des pins perdus"
+      ],
+      "actions": [
+        {
+          "instruction": "Parler à Bisale Vinlenta en [-72,-31] pour lancer la quête.",
+          "position": "[-72,-31]",
+          "zoneHint": "Champs de glace",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Se rendre dans la Forêt des pins perdus et affronter 40 monstres pour obtenir 40 Roses Nelson.",
+          "position": null,
+          "zoneHint": "Forêt des pins perdus",
+          "warning": "40 combats nécessaires",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Récolter 5 Mimes Osamodas aux positions suivantes : [-66,-48], [-68,-47], [-63,-52], [-61,-52], [-60,-52], [-59,-62], [-56,-60], [-65,-61], [-71,-54]. Temps de repop : ~5 minutes.",
+          "position": null,
+          "zoneHint": "Forêt des pins perdus",
+          "warning": "Dofus Touch : seulement 3 plantes en [-66,-48], [-60,-52], [-59,-62]",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner parler à Bisale Vinlenta en [-72,-31] pour lui donner les fleurs et terminer la quête.",
+          "position": "[-72,-31]",
+          "zoneHint": "Champs de glace",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Débloque la quête suivante : A fleur de peau",
+        "Dofus Touch : seulement 3 Mimes Osamodas aux positions [-66,-48], [-60,-52], [-59,-62]"
+      ],
+      "npcs": [
+        "Bisale Vinlenta"
+      ],
+      "items": [
+        {
+          "name": "Rose Nelson",
+          "itemId": 11158,
+          "imageUrl": "/items/11158.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11158"
+        },
+        {
+          "name": "Mime Osamodas",
+          "itemId": 11159,
+          "imageUrl": "/items/11159.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11159"
+        },
+        {
+          "name": "Kama de glace",
+          "itemId": 11196,
+          "imageUrl": "/items/11196.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11196"
+        },
+        {
+          "name": "Oreille percée du Fricochère",
+          "itemId": 11247,
+          "imageUrl": "/items/11247.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11247"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 602,
+            "name": "Champs de glace",
+            "coordinates": [
+              "-72,-31"
+            ]
+          },
+          {
+            "id": 604,
+            "name": "Forêt des pins perdus",
+            "coordinates": [
+              "-66,-48",
+              "-68,-47",
+              "-63,-52",
+              "-61,-52",
+              "-60,-52",
+              "-59,-62",
+              "-56,-60",
+              "-65,-61",
+              "-71,-54"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2901,
+            "name": "Bouflouth",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/2901.png"
+          },
+          {
+            "id": 2903,
+            "name": "Katigrou",
+            "level": 140,
+            "imageUrl": "/bestiary/monsters/2903.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 156,
+            "name": "Boufmouths",
+            "monsters": [
+              {
+                "id": 2850,
+                "name": "Boufmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2850.png"
+              },
+              {
+                "id": 2851,
+                "name": "Boufmouth de guerre",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2851.png"
+              },
+              {
+                "id": 2852,
+                "name": "Boufmouth légendaire",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2852.png"
+              },
+              {
+                "id": 2853,
+                "name": "Bouftonmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2853.png"
+              }
+            ]
+          },
+          {
+            "id": 138,
+            "name": "Faune des Pins Perdus",
+            "monsters": [
+              {
+                "id": 2859,
+                "name": "Écumouth",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2859.png"
+              },
+              {
+                "id": 2846,
+                "name": "Fricochère",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2846.png"
+              },
+              {
+                "id": 2847,
+                "name": "Kaniglou",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2847.png"
+              },
+              {
+                "id": 2845,
+                "name": "Sanglacier",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2845.png"
+              },
+              {
+                "id": 2860,
+                "name": "Smilomouth",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2860.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:336",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/botanique-nique-nique.html",
+      "sourceTitle": "Botanique-nique-nique",
+      "sourceHash": "f4bb17db164d1c8881db75bd6672380cc579ec991263f205dc3501062ba7cf7a",
+      "generatedAt": "2026-08-24T17:13:33.112Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    }
+  ],
+  "tips": []
+}

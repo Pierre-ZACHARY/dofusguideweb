@@ -1,0 +1,740 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 40,
+  "updatedAt": "2026-08-27T12:54:00.000Z",
+  "summaries": [
+    {
+      "overview": "Amayiro vous charge de récupérer les badges de trois miliciens qui ont abandonné leur poste pour fréquenter les tavernes de Bonta. Visitez les trois établissements indiqués, récupérez chaque badge auprès du milicien concerné, puis rapportez l'ensemble à la milice.",
+      "recommendedLevel": 38,
+      "prerequisites": [
+        "Avoir terminé « À vol d'oiseau ».",
+        "Être engagé dans la suite des quêtes d'alignement de Bonta."
+      ],
+      "rewards": [
+        "68 028 XP."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "À la milice de Bonta, parlez à Amayiro pour accepter sa mission et commencer l'enquête sur les miliciens absents.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à la Taverne de la Tabasse et parlez à Allen Tokar afin de récupérer son badge.",
+          "position": "[-35,-55]",
+          "zoneHint": "Taverne de la Tabasse",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez à la Taverne du Feubuk et parlez à Bill Iédebar pour obtenir son badge.",
+          "position": "[-35,-56]",
+          "zoneHint": "Taverne du Feubuk",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Passez par la Taverne Alakarte et parlez à Tek Apout pour récupérer le troisième badge.",
+          "position": "[-36,-58]",
+          "zoneHint": "Taverne Alakarte",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Amayiro à la milice de Bonta et remettez-lui les trois badges pour terminer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Cette quête appartient à une suite d'alignement : elle débloque « Première visite à Brâkmar »."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Allen Tokar",
+        "Bill Iédebar",
+        "Tek Apout"
+      ],
+      "items": [
+        {
+          "name": "Badge d'Allen Tokar",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Badge de Bill Iédebar",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Badge de Tek Apout",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "-35,-55",
+              "-35,-56",
+              "-36,-58"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:10",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/pas-de-faineacuteants-dans-les-rangs.html",
+      "sourceTitle": "Alignement 8 : Pas de fainéants dans les rangs !",
+      "sourceHash": "a5e8e0adff4ed8131eea47402ca514163813579f2943d129e0b2fe96da3f8668",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Amayiro vous envoie reconnaître la porte de Brâkmar. Il faut éloigner le garde Brank Thoof en sollicitant Fulsura, profiter de son absence pour examiner le levier de la porte, puis revenir à Bonta transmettre les renseignements recueillis.",
+      "recommendedLevel": 39,
+      "prerequisites": [
+        "Avoir terminé « Pas de fainéants dans les rangs ! ».",
+        "Être engagé dans la suite des quêtes d'alignement de Bonta."
+      ],
+      "rewards": [
+        "141 332 XP."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "À la milice de Bonta, parlez à Amayiro afin de recevoir la mission de reconnaissance concernant la porte de Brâkmar.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous devant la porte de Brâkmar et parlez au Guerrier Brank Thoof pour chercher un moyen de l'éloigner de son poste.",
+          "position": "[-26,31]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Descendez en [-26,32] et parlez à Fulsura. Faites-lui des avances afin qu'elle fasse venir le garde.",
+          "position": "[-26,32]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Guerrier Brank Thoof après son arrivée auprès de Fulsura, puis remontez vers la porte pendant qu'il reste occupé.",
+          "position": "[-26,32]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "En [-26,31], cliquez sur le levier situé à gauche de la porte pour en étudier le fonctionnement.",
+          "position": "[-26,31]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez à la milice de Bonta et donnez à Amayiro les informations obtenues sur le mécanisme de la porte.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Cette quête doit être effectuée après « Pas de fainéants dans les rangs ! » et débloque « Un sanglier un peu trop agressif... »."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Guerrier Brank Thoof",
+        "Fulsura"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 977,
+            "name": "La Cuirasse",
+            "coordinates": [
+              "-26,31",
+              "-26,32"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:11",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/premiegravere-visite-agrave-bracirckmar.html",
+      "sourceTitle": "Alignement 9 : Première visite à Brâkmar",
+      "sourceHash": "41fd52327ec398b8e42b4f19053c9798fff8f4319ae5eb00d84d4395a157ff95",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Amayiro vous demande d'éliminer un Sanglier agressif qui ravage les Champs de Cania. Le monstre doit être recherché dans toute cette zone, car sa présence et sa position varient. Après l'avoir vaincu, rapportez sa défense à la milice de Bonta.",
+      "recommendedLevel": 40,
+      "prerequisites": [
+        "Avoir terminé « Première visite à Brâkmar ».",
+        "Être engagé dans la suite des quêtes d'alignement de Bonta."
+      ],
+      "rewards": [
+        "151 107 XP."
+      ],
+      "preparation": [
+        "Prévoir de parcourir les Champs de Cania pour trouver 1 x Sanglier agressif.",
+        "Le combat contre le Sanglier agressif peut être réalisé en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Amayiro à la milice de Bonta pour recevoir la mission d'élimination du Sanglier agressif.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parcourez les Champs de Cania jusqu'à trouver 1 x Sanglier agressif, puis battez-le pour récupérer sa défense.",
+          "position": null,
+          "zoneHint": "Champs de Cania",
+          "warning": "Le Sanglier agressif n'a pas de position fixe : il peut être absent s'il a été vaincu récemment ou apparaître en plusieurs exemplaires. Le combat est réalisable en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Une fois le Sanglier agressif vaincu, retournez auprès d'Amayiro et remettez-lui la défense récupérée pour terminer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Cette quête débloque la quête d'alignement suivante : « Du repos mais pas trop... »."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Sanglier agressif"
+      ],
+      "items": [
+        {
+          "name": "Défense du Sanglier agressif",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 68,
+            "name": "Champs de Cania",
+            "coordinates": []
+          },
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 366,
+            "name": "Sanglier agressif",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/366.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2446,
+            "name": "Bourde le Maladroit",
+            "level": 51,
+            "imageUrl": "/bestiary/monsters/2446.png"
+          },
+          {
+            "id": 2286,
+            "name": "Serpistol l'Illustre",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2286.png"
+          },
+          {
+            "id": 2447,
+            "name": "Souristiti l'Immortalisée",
+            "level": 54,
+            "imageUrl": "/bestiary/monsters/2447.png"
+          },
+          {
+            "id": 2448,
+            "name": "Larvaloeil l'Émue",
+            "level": 56,
+            "imageUrl": "/bestiary/monsters/2448.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 213,
+            "name": "Animaux des Champs",
+            "monsters": [
+              {
+                "id": 4547,
+                "name": "Bourdard",
+                "level": 51,
+                "imageUrl": "/bestiary/monsters/4547.png"
+              },
+              {
+                "id": 4548,
+                "name": "Larve Champêtre",
+                "level": 56,
+                "imageUrl": "/bestiary/monsters/4548.png"
+              },
+              {
+                "id": 288,
+                "name": "Serpentin",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/288.png"
+              },
+              {
+                "id": 294,
+                "name": "Souris Verte",
+                "level": 54,
+                "imageUrl": "/bestiary/monsters/294.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:12",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/un-sanglier-un-peu-trop-agressif.html",
+      "sourceTitle": "Alignement 10 : Un sanglier un peu trop agressif...",
+      "sourceHash": "45a78cfe9ec5f92d6d740554c956e47386e89ecca428e7501e2ca4cd89bc347f",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Captain Amakna vous demande de remettre de l'ordre dans le Village d'Amakna. Vous devez affronter successivement Vile Gredine, Méchant Garçon et Petite Frappe à trois positions distinctes, puis revenir auprès du Captain Amakna pour valider votre intervention.",
+      "recommendedLevel": 10,
+      "prerequisites": [
+        "Être de niveau supérieur à 9.",
+        "La quête est répétable quotidiennement."
+      ],
+      "rewards": [
+        "2 100 000 XP."
+      ],
+      "preparation": [
+        "Prévoir 3 combats obligatoires à effectuer seul."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Captain Amakna pour lancer la quête.",
+          "position": "[0,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": "La quête est répétable quotidiennement.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous en [-1,0], parlez à Vile Gredine puis battez-la.",
+          "position": "[-1,0]",
+          "zoneHint": null,
+          "warning": "Combat obligatoire à effectuer seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Allez en [3,1], parlez au Méchant Garçon puis battez-le.",
+          "position": "[3,1]",
+          "zoneHint": null,
+          "warning": "Combat obligatoire à effectuer seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Rendez-vous en [3,3], parlez à Petite Frappe puis remportez le combat.",
+          "position": "[3,3]",
+          "zoneHint": null,
+          "warning": "Combat obligatoire à effectuer seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Retournez auprès de Captain Amakna pour lui faire part de vos victoires et terminer la quête.",
+          "position": "[0,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La réussite de cette quête fournit un prérequis pour « Quelque chose de pourri au royaume d'Amakna »."
+      ],
+      "npcs": [
+        "Captain Amakna",
+        "Vile Gredine",
+        "Méchant Garçon",
+        "Petite Frappe"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "0,0",
+              "-1,0",
+              "3,1",
+              "3,3"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:721",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/proteacuteger-et-seacutevir.html",
+      "sourceTitle": "Protéger et sévir",
+      "sourceHash": "2deda09bf9e5990f9d9198fd119e9f41497dff333d9ffd4440bf7cbdd3630a62",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": []
+}

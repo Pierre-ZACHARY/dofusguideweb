@@ -1,0 +1,763 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 115,
+  "updatedAt": "2026-08-27T12:55:04.469Z",
+  "summaries": [
+    {
+      "overview": "Mériana vous révèle que le Dofus Pourpre est gardé par le Minotoror. Pour vous en emparer, il vous faut le Livre des Taures. Elle ignore où en trouver, vous devez donc faire le tour des bibliothèques de Bonta, Brakmar, Sufokia, Amakna, Pandala et Astrub pour en dénicher un exemplaire avant d'affronter le Donjon Bibliothèque du Maitre Corbac.",
+      "recommendedLevel": 110,
+      "prerequisites": [
+        "La magicienne des marécages"
+      ],
+      "rewards": [
+        "3 116 628 XP",
+        "34 272 kamas",
+        "3 x Tissu Sombre"
+      ],
+      "preparation": [
+        "1 x combat (seul)",
+        "1 x Donjon Bibliothèque du Maitre Corbac"
+      ],
+      "actions": [
+        {
+          "instruction": "Allez en [-6,-3] aux Marécages nauséabonds et parlez à Mériana du Dofus Pourpre.",
+          "position": "[-6,-3]",
+          "zoneHint": "Marécages nauséabonds",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez à la bibliothèque de Bonta en [-35,-57] et parlez à Marcelle Rouste du Livre des Taures.",
+          "position": "[-35,-57]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez à Brakmar en [-24,39] et parlez à Jean-Sol Patre du Livre des Taures.",
+          "position": "[-24,39]",
+          "zoneHint": "Brakmar",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez à Sufokia en [20,25] et parlez au Docteur Hou du Livre des Taures.",
+          "position": "[20,25]",
+          "zoneHint": "Sufokia",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez à la bibliothèque d'Amakna pour chercher le Livre des Taures.",
+          "position": null,
+          "zoneHint": "Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez à la bibliothèque de Pandala pour chercher le Livre des Taures.",
+          "position": null,
+          "zoneHint": "Pandala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez à la bibliothèque d'Astrub pour chercher le Livre des Taures.",
+          "position": null,
+          "zoneHint": "Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Affrontez le Donjon Bibliothèque du Maitre Corbac en combat seul.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Combat en solo obligatoire.",
+          "combat": "SOLO"
+        }
+      ],
+      "notes": [
+        "Pour vous rendre en [-6,-3], utilisez le dossier \"Chemin vers Mériana\"."
+      ],
+      "npcs": [
+        "Mériana",
+        "Marcelle Rouste",
+        "Jean-Sol Patre",
+        "Docteur Hou"
+      ],
+      "items": [
+        {
+          "name": "Tissu Sombre",
+          "itemId": 2285,
+          "imageUrl": "/items/2285.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2285"
+        },
+        {
+          "name": "Livre des Taures",
+          "itemId": 15417,
+          "imageUrl": "/items/15417.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15417"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-35,-57"
+            ]
+          },
+          {
+            "id": 978,
+            "name": "L'Ancre",
+            "coordinates": [
+              "-24,39"
+            ]
+          },
+          {
+            "id": 232,
+            "name": "Marécages nauséabonds",
+            "coordinates": [
+              "-6,-3"
+            ]
+          },
+          {
+            "id": 32,
+            "name": "Sufokia",
+            "coordinates": [
+              "20,25"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2549,
+            "name": "Boostif l'Affamé",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2549.png"
+          },
+          {
+            "id": 2439,
+            "name": "Crolnareff l'Exilé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2439.png"
+          },
+          {
+            "id": 2428,
+            "name": "Crok le Beau",
+            "level": 61,
+            "imageUrl": "/bestiary/monsters/2428.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 208,
+            "name": "Gadouilleux",
+            "monsters": [
+              {
+                "id": 263,
+                "name": "Chef Crocodaille",
+                "level": 61,
+                "imageUrl": "/bestiary/monsters/263.png"
+              },
+              {
+                "id": 261,
+                "name": "Crocodaille",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/261.png"
+              },
+              {
+                "id": 112,
+                "name": "Boo",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/112.png"
+              },
+              {
+                "id": 4833,
+                "name": "Arakne Olithique",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4833.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:806",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-livre-des-taures.html",
+      "sourceTitle": "Le livre des Taures",
+      "sourceHash": "ec9079fe1d4ccfcdedd8914b002159a9d67eeafbc3b43af72535d48d877571e5",
+      "generatedAt": "2026-08-24T17:42:28.356Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Natacha Manka, près des Pénates du Corbac, a perdu son sac de soins lors d'un combat. Récupérez-le et aidez-la à pratiquer un rituel de divination en collectant du bois de corbac dans la zone.",
+      "recommendedLevel": 110,
+      "prerequisites": [],
+      "rewards": [
+        "1 298 594 XP",
+        "14 280 kamas",
+        "10 x Coeur de Brandon"
+      ],
+      "preparation": [
+        "40 x Sauge",
+        "5 x Patte de Corbac",
+        "5 x Plume de Buveur",
+        "5 x Poil de Renarbo",
+        "50 x Bois de Bombu",
+        "5 x Plume de Corbac Apprivoisé"
+      ],
+      "actions": [
+        {
+          "instruction": "Allez aux Pénates du Corbac et parlez à Natacha Manka. Elle vous explique avoir perdu son sac de soins lors d'un combat contre les créatures des environs.",
+          "position": "[-12,-60]",
+          "zoneHint": "Pénates du Corbac",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez récupérer le Sac de Natacha Manka en cliquant sur le sac à côté du puits.",
+          "position": "[-13,-61]",
+          "zoneHint": "Pénates du Corbac",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Natacha Manka et donnez-lui son sac ainsi que 40 x Sauge. Questionnez-la sur les raisons de sa présence.",
+          "position": "[-12,-60]",
+          "zoneHint": "Pénates du Corbac",
+          "warning": "Dépense : 40 x Sauge.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récupérez 3 x Bois de Corbac en cliquant sur les troncs d'arbre aux trois positions indiquées.",
+          "position": "[-15,-60], [-12,-62], [-14,-62]",
+          "zoneHint": "Pénates du Corbac",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramenez le Bois de Corbac à Natacha Manka. Elle vous demande de l'aider à tailler des rondins enchantés.",
+          "position": "[-12,-60]",
+          "zoneHint": "Pénates du Corbac",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [],
+      "npcs": [
+        "Natacha Manka"
+      ],
+      "items": [
+        {
+          "name": "Sac de Natacha Manka",
+          "itemId": 18199,
+          "imageUrl": "/items/18199.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18199"
+        },
+        {
+          "name": "Sauge",
+          "itemId": 428,
+          "imageUrl": "/items/428.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/428"
+        },
+        {
+          "name": "Bois de Corbac",
+          "itemId": 18202,
+          "imageUrl": "/items/18202.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18202"
+        },
+        {
+          "name": "Patte de Corbac",
+          "itemId": 2060,
+          "imageUrl": "/items/2060.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2060"
+        },
+        {
+          "name": "Plume de Buveur",
+          "itemId": 8249,
+          "imageUrl": "/items/8249.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8249"
+        },
+        {
+          "name": "Poil de Renarbo",
+          "itemId": 8250,
+          "imageUrl": "/items/8250.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8250"
+        },
+        {
+          "name": "Bois de Bombu",
+          "itemId": 2358,
+          "imageUrl": "/items/2358.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2358"
+        },
+        {
+          "name": "Plume de Corbac Apprivoisé",
+          "itemId": 8252,
+          "imageUrl": "/items/8252.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8252"
+        },
+        {
+          "name": "Coeur de Brandon",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 55,
+            "name": "Pénates du Corbac",
+            "coordinates": [
+              "-12,-60",
+              "-13,-61",
+              "-15,-60",
+              "-12,-62",
+              "-14,-62"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2437,
+            "name": "Corpat le Vampire",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2437.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 211,
+            "name": "Corbacs",
+            "monsters": [
+              {
+                "id": 818,
+                "name": "Corbac Apprivoisé",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/818.png"
+              },
+              {
+                "id": 819,
+                "name": "Buveur",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/819.png"
+              },
+              {
+                "id": 281,
+                "name": "Corbac",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/281.png"
+              },
+              {
+                "id": 820,
+                "name": "Renarbo",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/820.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1024",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/oiseau-de-mauvais-augure.html",
+      "sourceTitle": "Oiseau de mauvais augure",
+      "sourceHash": "57d2ec52504a3bdf0a429c0451bdd6d2c6b82376b766eb118acf70cf44899702",
+      "generatedAt": "2026-08-24T18:29:08.397Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "À la suite d'Oiseau de mauvais augure, aidez Natacha Manka à explorer la Bibliothèque du Maître Corbac pour y trouver un ouvrage, puis éliminez Capsaaloocke et le Maître Corbac avant de conclure au Bois du Litneg.",
+      "recommendedLevel": 110,
+      "prerequisites": [
+        "Oiseau de mauvais augure"
+      ],
+      "rewards": [
+        "2 597 190 XP",
+        "28 560 kamas",
+        "3 × Poil de Capsaaloocke",
+        "1 × Donjon Bibliothèque du Maître Corbac"
+      ],
+      "preparation": [
+        "Avoir terminé la quête Oiseau de mauvais augure."
+      ],
+      "actions": [
+        {
+          "instruction": "Allez aux Pénates du Corbac en [-15,-62] et parlez à Natacha Manka pour lancer la quête.",
+          "position": "[-15,-62]",
+          "zoneHint": "Pénates du Corbac",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans le donjon Bibliothèque du Maître Corbac et frayez-vous un chemin jusqu'à la Salle 2. Affrontez le groupe de Renarbo au passage.",
+          "position": null,
+          "zoneHint": "Bibliothèque du Maître Corbac",
+          "warning": "Combat obligatoire contre le groupe de Renarbo pour accéder à la Salle 2.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Dans la Salle 2, parlez à Natacha Manka.",
+          "position": null,
+          "zoneHint": "Bibliothèque du Maître Corbac",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Poursuivez jusqu'à la Salle 7 et parlez à Natacha Manka. Elle vous demande de l'aider à vous débarrasser de Capsaaloocke.",
+          "position": null,
+          "zoneHint": "Bibliothèque du Maître Corbac",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Trouvez et vaincre Capsaaloocke dans le donjon.",
+          "position": null,
+          "zoneHint": "Bibliothèque du Maître Corbac",
+          "warning": "Combat obligatoire contre Capsaaloocke.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la défaite de Capsaaloocke, vous êtes téléporté dans la salle du boss. Parlez à Natacha Manka.",
+          "position": null,
+          "zoneHint": "Bibliothèque du Maître Corbac",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Vaincre le Maître Corbac pour obtenir le Guide du Maître Corbac dans votre inventaire de quête.",
+          "position": null,
+          "zoneHint": "Bibliothèque du Maître Corbac",
+          "warning": "Combat obligatoire contre le Maître Corbac.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Avant de quitter le donjon, parlez à Natacha Manka et remettez-lui le Guide du Maître Corbac.",
+          "position": null,
+          "zoneHint": "Bibliothèque du Maître Corbac",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au Bois du Litneg en [-13,-59] et parlez à Natacha Manka. La quête se termine et débloque Jeu de Trooll.",
+          "position": "[-13,-59]",
+          "zoneHint": "Bois du Litneg",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Quête également disponible en version sans images sur la page du succès Ça en valait la plaine.",
+        "Débloque la quête suivante : Jeu de Trooll."
+      ],
+      "npcs": [
+        "Natacha Manka"
+      ],
+      "items": [
+        {
+          "name": "Guide du Maître Corbac",
+          "itemId": 18206,
+          "imageUrl": "/items/18206.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18206"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 1038,
+            "name": "Bibliothèque du Maître Corbac",
+            "coordinates": []
+          },
+          {
+            "id": 69,
+            "name": "Bois de Litneg",
+            "coordinates": [
+              "-13,-59"
+            ]
+          },
+          {
+            "id": 55,
+            "name": "Pénates du Corbac",
+            "coordinates": [
+              "-15,-62"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 459,
+            "name": "Padgref Demoël",
+            "level": 130,
+            "imageUrl": "/bestiary/monsters/459.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2321,
+            "name": "Chafalfer l'Optimiste",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2321.png"
+          },
+          {
+            "id": 2319,
+            "name": "Chafemal le Bagarreur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2319.png"
+          },
+          {
+            "id": 2421,
+            "name": "Chaffoin le Sournois",
+            "level": 33,
+            "imageUrl": "/bestiary/monsters/2421.png"
+          },
+          {
+            "id": 2276,
+            "name": "Ribibi le Cher",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2276.png"
+          },
+          {
+            "id": 2320,
+            "name": "Chafmarcel le Fêtard",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2320.png"
+          },
+          {
+            "id": 2322,
+            "name": "Chalan le Commerçant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2322.png"
+          },
+          {
+            "id": 2437,
+            "name": "Corpat le Vampire",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2437.png"
+          },
+          {
+            "id": 2300,
+            "name": "Trooyé l'Oxydé",
+            "level": 112,
+            "imageUrl": "/bestiary/monsters/2300.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 191,
+            "name": "Chafers d'Amakna",
+            "monsters": [
+              {
+                "id": 54,
+                "name": "Chafer",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/54.png"
+              },
+              {
+                "id": 110,
+                "name": "Chafer Invisible",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/110.png"
+              },
+              {
+                "id": 396,
+                "name": "Chafer Fantassin",
+                "level": 33,
+                "imageUrl": "/bestiary/monsters/396.png"
+              },
+              {
+                "id": 108,
+                "name": "Rib",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/108.png"
+              }
+            ]
+          },
+          {
+            "id": 9048,
+            "name": "Chafers des cités",
+            "monsters": [
+              {
+                "id": 291,
+                "name": "Chafer Archer",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/291.png"
+              },
+              {
+                "id": 290,
+                "name": "Chafer Lancier",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/290.png"
+              }
+            ]
+          },
+          {
+            "id": 211,
+            "name": "Corbacs",
+            "monsters": [
+              {
+                "id": 818,
+                "name": "Corbac Apprivoisé",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/818.png"
+              },
+              {
+                "id": 819,
+                "name": "Buveur",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/819.png"
+              },
+              {
+                "id": 281,
+                "name": "Corbac",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/281.png"
+              },
+              {
+                "id": 824,
+                "name": "Horace le Corbac Apprivoisé",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/824.png"
+              },
+              {
+                "id": 825,
+                "name": "Kapotie le Buveur",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/825.png"
+              },
+              {
+                "id": 820,
+                "name": "Renarbo",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/820.png"
+              },
+              {
+                "id": 823,
+                "name": "Rono le Renarbo",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/823.png"
+              }
+            ]
+          },
+          {
+            "id": 1520,
+            "name": "Troolls de Litneg",
+            "monsters": [
+              {
+                "id": 233,
+                "name": "Troollaraj",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/233.png"
+              },
+              {
+                "id": 4538,
+                "name": "Troolligark",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/4538.png"
+              },
+              {
+                "id": 4540,
+                "name": "Troollogram",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/4540.png"
+              },
+              {
+                "id": 4539,
+                "name": "Troolléolé",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/4539.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1025",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/voler-dans-les-plumes.html",
+      "sourceTitle": "Voler dans les plumes",
+      "sourceHash": "cb6241fac9c0ff7d5f65415a3084fd0ca6b4c540409d162630c4f69976516d5c",
+      "generatedAt": "2026-08-24T18:09:05.033Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    }
+  ],
+  "tips": []
+}

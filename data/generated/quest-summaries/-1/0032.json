@@ -1,0 +1,906 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 32,
+  "updatedAt": "2026-08-27T12:53:58.842Z",
+  "summaries": [
+    {
+      "overview": "Aidez Cindy Cah à récupérer 15 Caissettes de Babioles volées par les Vilinsekts. Une Baguette Rikiki équipée permet d'entrer dans leurs quatre planques d'Astrub ; une fois à l'intérieur, vous pouvez reprendre votre arme habituelle. Après avoir vaincu 15 Vilinsekts et obtenu automatiquement les 15 caissettes, rapportez-les à Cindy Cah.",
+      "recommendedLevel": 40,
+      "prerequisites": [
+        "Niveau recommandé : 40.",
+        "Combat de rue lancé."
+      ],
+      "rewards": [
+        "127 134 XP.",
+        "2 380 kamas.",
+        "1 x Clef de la Cache de Kankreblath."
+      ],
+      "preparation": [
+        "Fabriquer ou acheter 1 x Baguette Rikiki.",
+        "Prévoir des combats contre 15 Vilinsekts."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Cindy Cah, acceptez de vous introduire dans les repaires des Vilinsekts et de récupérer les objets volés.",
+          "position": "[5,-17]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Équipez 1 x Baguette Rikiki à votre corps-à-corps avant d'entrer dans une planque. Les quatre entrées possibles se trouvent en [6,-15], [1,-16], [4,-19] et [6,-21].",
+          "position": null,
+          "zoneHint": "Cité d'Astrub",
+          "warning": "La Baguette Rikiki est obligatoire pour franchir l'entrée d'une planque ; elle peut être retirée une fois à l'intérieur.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans les planques, battez au total 15 Vilinsekts afin d'obtenir automatiquement 15 x Caissette de Babioles.",
+          "position": null,
+          "zoneHint": "Planques des Vilinsekts",
+          "warning": "Il faut vaincre 15 Vilinsekts ; les 15 Caissettes de Babioles sont obtenues automatiquement.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Lorsque vous possédez les 15 Caissettes de Babioles, retournez voir Cindy Cah et rendez-lui les objets volés.",
+          "position": "[5,-17]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Cette quête constitue l'une des quatre missions demandées dans Combat de rue.",
+        "Sa validation débloque une étape de Combat de rue."
+      ],
+      "npcs": [
+        "Cindy Cah"
+      ],
+      "items": [
+        {
+          "name": "Baguette Rikiki",
+          "itemId": 15990,
+          "imageUrl": "/items/15990.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15990"
+        },
+        {
+          "name": "Caissette de Babioles",
+          "itemId": 19630,
+          "imageUrl": "/items/19630.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19630"
+        },
+        {
+          "name": "Clef de la Cache de Kankreblath",
+          "itemId": 15991,
+          "imageUrl": "/items/15991.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15991"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "5,-17",
+              "6,-15",
+              "1,-16",
+              "4,-19",
+              "6,-21"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1205",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/les-as-de-la-cambriole.html",
+      "sourceTitle": "Les as de la cambriole",
+      "sourceHash": "69e884bfd847fe1d010d607e453cb4c4432386a80ff5261b593528d4417edc56",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Combat de rue se valide après avoir réglé les problèmes confiés par quatre habitants d'Astrub. À ce stade de finition, assurez-vous d'avoir terminé Les as de la cambriole, Déjeuner à la fourchette, Comme un pichon hors de l’eau et La coupe des vices, puis retournez faire votre rapport à Badufron.",
+      "recommendedLevel": 20,
+      "prerequisites": [
+        "Niveau recommandé : 20-40.",
+        "Bière qui roule n'amasse pas mousse.",
+        "Avoir lancé Combat de rue auprès de Badufron et pris sa liste de missions."
+      ],
+      "rewards": [
+        "254 268 XP.",
+        "4 760 kamas.",
+        "4 x Antennes de Vilinsekt.",
+        "Succès : Mercenaire d’acier."
+      ],
+      "preparation": [
+        "Terminer les quatre quêtes demandées avant de faire le rapport final."
+      ],
+      "actions": [
+        {
+          "instruction": "Vérifiez que Les as de la cambriole donnée par Cindy Cah est terminée.",
+          "position": "[5,-17]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": "Combat de rue ne peut pas être rendu tant que les quatre missions demandées ne sont pas terminées.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Vérifiez que Déjeuner à la fourchette donnée par Vaiguy est terminée.",
+          "position": "[5,-22]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Vérifiez que Comme un pichon hors de l’eau donnée par Bart Cousti est terminée.",
+          "position": "[11,-24]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Vérifiez que La coupe des vices donnée par Jeffrey Baratourte est terminée.",
+          "position": "[2,-31]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Une fois les quatre quêtes terminées, retournez auprès de Badufron et faites-lui votre rapport pour achever Combat de rue.",
+          "position": "[5,-19]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les quatre quêtes demandées sont Les as de la cambriole, Déjeuner à la fourchette, Comme un pichon hors de l’eau et La coupe des vices.",
+        "La validation finale débloque le succès Mercenaire d’acier."
+      ],
+      "npcs": [
+        "Badufron",
+        "Cindy Cah",
+        "Vaiguy",
+        "Bart Cousti",
+        "Jeffrey Baratourte"
+      ],
+      "items": [
+        {
+          "name": "Antennes de Vilinsekt",
+          "itemId": 16001,
+          "imageUrl": "/items/16001.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16001"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "5,-17",
+              "5,-22",
+              "5,-19"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "11,-24",
+              "2,-31"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1201",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/combat-de-rue.html",
+      "sourceTitle": "Combat de rue",
+      "sourceHash": "b655d9f4748ee4dc56fd91079f6fc1ac038c34e5b8317eb8bfc97946c1454d9c",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Emma Tompouce soupçonne la Maison Fantôme de la Foire du Trool de cacher quelque chose de plus qu'une attraction. Rendez-vous sur place, terminez le donjon Maison Fantôme et battez Boostache, puis revenez à Astrub pour lui faire votre rapport.",
+      "recommendedLevel": 30,
+      "prerequisites": [
+        "Niveau > 29.",
+        "Donjon rikiki."
+      ],
+      "rewards": [
+        "305 121 XP.",
+        "5 712 kamas.",
+        "1 x Moustache de Boostache."
+      ],
+      "preparation": [
+        "Prévoir 1 x Donjon Maison Fantôme.",
+        "Emma Tompouce fournit une clef du donjon ; le trousseau de clefs peut être utilisé à la place s'il est disponible."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Emma Tompouce et acceptez d'aller vérifier ce qui se passe dans la Maison Fantôme.",
+          "position": "[1,-15]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à la Maison Fantôme et effectuez le donjon jusqu'à vaincre Boostache.",
+          "position": "[-13,-41]",
+          "zoneHint": "Foire du Trool",
+          "warning": "Le donjon doit être terminé. Vous pouvez employer la clef donnée par Emma ou, s'il est disponible, votre trousseau de clefs.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire sur Boostache, retournez auprès d'Emma Tompouce et faites-lui votre rapport sur la Maison Fantôme.",
+          "position": "[1,-15]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Après avoir terminé cette quête, poursuivre la conversation avec Emma Tompouce permet d'obtenir la quête suivante, Donjon éducatif."
+      ],
+      "npcs": [
+        "Emma Tompouce",
+        "Boostache"
+      ],
+      "items": [
+        {
+          "name": "Clef de la Maison Fantôme",
+          "itemId": 11799,
+          "imageUrl": "/items/11799.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11799"
+        },
+        {
+          "name": "Moustache de Boostache",
+          "itemId": 11814,
+          "imageUrl": "/items/11814.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11814"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "1,-15"
+            ]
+          },
+          {
+            "id": 84,
+            "name": "Foire du Trool",
+            "coordinates": [
+              "-13,-41"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:599",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/donjon-en-lambeaux.html",
+      "sourceTitle": "Donjon en lambeaux",
+      "sourceHash": "3bacb255f859cb8203dd50de71de6811b0499ba4abed0d330c057117cc808fa2",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Cette étape correspond au lancement de Légende d'automne. Après De vrais rats de bibliothèque, échangez avec Prim au sujet du premier exemplaire imprimé et parcourez l'ouvrage. La suite de la quête, comprenant les recherches liées à Rathrosk et au chevalier de l'automne, appartient à l'étape suivante.",
+      "recommendedLevel": 40,
+      "prerequisites": [
+        "Niveau recommandé : 40.",
+        "De vrais rats de bibliothèque."
+      ],
+      "rewards": [
+        "63 567 XP.",
+        "1 190 Kamas.",
+        "1 x Chienchiens de guerre."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "À la suite de la quête précédente, parlez à Prim et demandez à parcourir le premier exemplaire du livre qu'il vient d'imprimer.",
+          "position": "[7,-19]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": "Ne poursuivez pas ici le parcours complet de Légende d'automne : sa réalisation et sa validation sont prévues à l'étape suivante.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête se poursuit à l'étape suivante du guide.",
+        "Les combats et collectes décrits dans la source ne sont donc pas à réaliser dans cette étape."
+      ],
+      "npcs": [
+        "Prim"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "7,-19"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1213",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/legende-d-automne.html",
+      "sourceTitle": "Légende d'automne",
+      "sourceHash": "d941a77379630b3434e280034fc41aeab29692069a2b3aadcd12a398554da318",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez Fantômes contre fantômes auprès d'Hanniboul Smisse, qui vous envoie visiter la Maison Fantôme. Le parcours demande ensuite de rejoindre la Foire du Trool, d'entrer dans le donjon avec une clef ou le trousseau et de vaincre Boostache avant de reparler au Gentil Organisateur Chafer.",
+      "recommendedLevel": 40,
+      "prerequisites": [
+        "Niveau recommandé : 40."
+      ],
+      "rewards": [
+        "254 268 XP.",
+        "Attitude : Pleurer."
+      ],
+      "preparation": [
+        "Prévoir 1 x Donjon Maison Fantôme.",
+        "Disposer du trousseau de clefs ou d'une clef permettant d'entrer dans la Maison Fantôme."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Hanniboul Smisse et acceptez sa proposition de visiter une Maison hantée.",
+          "position": "[-1,2]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à la Maison Fantôme, parlez au Gentil Organisateur Chafer et entrez dans le donjon avec le trousseau ou la clef. L'accès à la Foire du Trool peut se faire par le bas en [-11,-36].",
+          "position": "[-13,-41]",
+          "zoneHint": "Foire du Trool",
+          "warning": "Une clef ou le trousseau de clefs est nécessaire pour entrer dans le donjon.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parcourez le donjon Maison Fantôme et battez Boostache.",
+          "position": "[-13,-41]",
+          "zoneHint": "Maison Fantôme",
+          "warning": "Le donjon doit être terminé pour poursuivre la quête.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "À la fin du donjon, reparlez au Gentil Organisateur Chafer afin de sortir et d'obtenir l'attitude Pleurer.",
+          "position": "[-13,-41]",
+          "zoneHint": "Maison Fantôme",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête appartient au succès Destinations Aventure."
+      ],
+      "npcs": [
+        "Hanniboul Smisse",
+        "Gentil Organisateur Chafer",
+        "Boostache"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 84,
+            "name": "Foire du Trool",
+            "coordinates": [
+              "-13,-41",
+              "-11,-36"
+            ]
+          },
+          {
+            "id": 702,
+            "name": "Maison Fantôme",
+            "coordinates": [
+              "-13,-41"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "-1,2"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 193,
+            "name": "Bêtes de la nuit",
+            "monsters": [
+              {
+                "id": 154,
+                "name": "Kwoan",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/154.png"
+              },
+              {
+                "id": 127,
+                "name": "Vampire",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/127.png"
+              },
+              {
+                "id": 111,
+                "name": "Tofu Maléfique",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/111.png"
+              }
+            ]
+          },
+          {
+            "id": 1669,
+            "name": "Monstres du repos",
+            "monsters": [
+              {
+                "id": 498,
+                "name": "Gargrouille",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/498.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:437",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/fantomes-contre-fantomes.html",
+      "sourceTitle": "Fantômes contre fantômes",
+      "sourceHash": "0298a3fdc48867045cad6c043574591d6f618ed868719afc5f107e96e148f4fa",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Regrouper les deux passages à la Maison Fantôme",
+      "description": "Donjon en lambeaux et Fantômes contre fantômes demandent tous deux de terminer la Maison Fantôme et de vaincre Boostache. Lancez les deux quêtes avant de partir pour la Foire du Trool afin de profiter d'un même passage dans le donjon, puis effectuez les dialogues de validation propres à chacune.",
+      "questKeys": [
+        "quest:599",
+        "quest:437"
+      ],
+      "actions": [
+        "Lancer Donjon en lambeaux auprès d'Emma Tompouce en [1,-15].",
+        "Lancer Fantômes contre fantômes auprès d'Hanniboul Smisse en [-1,2].",
+        "Aller en [-13,-41], entrer dans la Maison Fantôme et vaincre Boostache.",
+        "Après le donjon, parler au Gentil Organisateur Chafer pour Fantômes contre fantômes, puis retourner en [1,-15] faire le rapport à Emma Tompouce pour Donjon en lambeaux."
+      ]
+    }
+  ]
+}

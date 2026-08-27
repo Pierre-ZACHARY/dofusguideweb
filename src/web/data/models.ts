@@ -26,6 +26,7 @@ export interface StepSummaryDto {
   title: string | null;
   levelMin: number | null;
   levelMax: number | null;
+  quests?: Array<{ questKey: string; relation: GuideRelation; sortOrder: number }>;
 }
 
 export interface DofusProgressDto {
@@ -97,6 +98,13 @@ export interface QuestGuideSummaryDto {
   };
 }
 
+export interface QuestGuideStepTipDto {
+  title: string;
+  description: string;
+  questKeys: string[];
+  actions: string[];
+}
+
 export interface BestiaryMonsterDto {
   id: number;
   name: string;
@@ -152,5 +160,6 @@ export interface StepDetailDto {
   nextStep: number | null;
   elements: GuideElementDto[];
   quests: StepQuestDto[];
+  tips: QuestGuideStepTipDto[];
   breeds: BreedDto[];
 }

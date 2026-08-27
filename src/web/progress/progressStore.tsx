@@ -107,7 +107,7 @@ function parseDungeonSuccessKey(key: string): DungeonSuccessIdentity | null {
   }
 }
 
-function parseObjectiveKey(key: string): ObjectiveIdentity | null {
+export function parseObjectiveKey(key: string): ObjectiveIdentity | null {
   try {
     const value = JSON.parse(key) as unknown;
     if (!Array.isArray(value) || value.length !== 5) return null;

@@ -1,0 +1,1876 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 110,
+  "updatedAt": "2026-08-27T12:55:03.817Z",
+  "summaries": [
+    {
+      "overview": "Vaincre 6 boss de donjons (Abraknyde Ancestral, Dragon Cochon, Koulosse, Meulou, Rat Blanc, Rat Noir) sur ordre de Chris de Naire, puis rencontrer Kal Vissi pour débloquer la quête suivante.",
+      "recommendedLevel": 30,
+      "prerequisites": [
+        "Niveau > 29",
+        "Les sbires du maître"
+      ],
+      "rewards": [
+        "Bourgeon d'Abraknyde Ancestral",
+        "Poil de Dragon Cochon",
+        "Pierre du Koulosse",
+        "Testicules Magiques du Meulou"
+      ],
+      "preparation": [
+        "1 x Donjon Domaine Ancestral",
+        "1 x Donjon Antre du Dragon Cochon",
+        "1 x Donjon Caverne du Koulosse",
+        "1 x Donjon Tanière du Meulou",
+        "1 x Donjon Garde-manger du Rat Blanc",
+        "1 x Donjon Sousouricière du Rat Noir"
+      ],
+      "actions": [
+        {
+          "instruction": "Se rendre en [-29,-47] (Champs de Cania), parler à Chris de Naire pour lancer la quête.",
+          "position": "[-29,-47]",
+          "zoneHint": "Champs de Cania",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller au donjon Domaine Ancestral en [-9,-14], vaincre l'Abraknyde Ancestral.",
+          "position": "[-9,-14]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
+          "position": "[-29,-47]",
+          "zoneHint": "Champs de Cania",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller au donjon Antre du Dragon Cochon en [-1,33], vaincre le Dragon Cochon.",
+          "position": "[-1,33]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
+          "position": "[-29,-47]",
+          "zoneHint": "Champs de Cania",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller au donjon Caverne du Koulosse en [-17,8], vaincre le Koulosse.",
+          "position": "[-17,8]",
+          "zoneHint": null,
+          "warning": "Il faut être devant le PNJ sur la corniche pour entrer dans le donjon.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
+          "position": "[-29,-47]",
+          "zoneHint": "Champs de Cania",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller au donjon Tanière du Meulou en [-23,0], vaincre le Meulou.",
+          "position": "[-23,0]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
+          "position": "[-29,-47]",
+          "zoneHint": "Champs de Cania",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller au donjon Garde-manger du Rat Blanc en [-36,-60] (entrer par le Palais en [-36,-60] et descendre par le vide à ordure des cuisines, ou entrer par les égouts en [-32,-58] puis traverser), vaincre le Rat Blanc.",
+          "position": "[-36,-60]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
+          "position": "[-29,-47]",
+          "zoneHint": "Champs de Cania",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller au donjon Sousouricière du Rat Noir en [-29,-35] (entrée via la bouche d'égout en [-29,35]), vaincre le Rat Noir.",
+          "position": "[-29,-35]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania). Il n'a plus de donjons à confier et oriente vers un autre commanditaire.",
+          "position": "[-29,-47]",
+          "zoneHint": "Champs de Cania",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller voir Kal Vissi en [-19,30], choisir « J'accepte cette mission » pour terminer la quête.",
+          "position": "[-19,30]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Terminer cette quête débloque la quête suivante : Des donjons, encore des donjons.",
+        "Étape 5 : deux chemins possibles pour accéder au Garde-manger du Rat Blanc — via le Palais en [-36,-60] (vide à ordure des cuisines) ou via les égouts en [-32,-58]."
+      ],
+      "npcs": [
+        "Chris de Naire",
+        "Kal Vissi",
+        "Abraknyde Ancestral",
+        "Dragon Cochon",
+        "Koulosse",
+        "Meulou",
+        "Rat Blanc",
+        "Rat Noir"
+      ],
+      "items": [
+        {
+          "name": "Bourgeon d'Abraknyde Ancestral",
+          "itemId": 8495,
+          "imageUrl": "/items/8495.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8495"
+        },
+        {
+          "name": "Poil de Dragon Cochon",
+          "itemId": 8393,
+          "imageUrl": "/items/8393.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8393"
+        },
+        {
+          "name": "Pierre du Koulosse",
+          "itemId": 8402,
+          "imageUrl": "/items/8402.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8402"
+        },
+        {
+          "name": "Testicules Magiques du Meulou",
+          "itemId": 2806,
+          "imageUrl": "/items/2806.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2806"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 154,
+            "name": "Antre du Dragon Cochon",
+            "coordinates": [
+              "-1,33"
+            ]
+          },
+          {
+            "id": 223,
+            "name": "Caverne du Koulosse",
+            "coordinates": [
+              "-17,8"
+            ]
+          },
+          {
+            "id": 68,
+            "name": "Champs de Cania",
+            "coordinates": [
+              "-29,-47"
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Domaine Ancestral",
+            "coordinates": [
+              "-9,-14"
+            ]
+          },
+          {
+            "id": 1013,
+            "name": "Garde-manger du Rat Blanc",
+            "coordinates": [
+              "-36,-60",
+              "-32,-58"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-19,30"
+            ]
+          },
+          {
+            "id": 1010,
+            "name": "Sousouricière du Rat Noir",
+            "coordinates": [
+              "-29,-35",
+              "-29,35"
+            ]
+          },
+          {
+            "id": 213,
+            "name": "Tanière du Meulou",
+            "coordinates": [
+              "-23,0"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 366,
+            "name": "Sanglier agressif",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/366.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2446,
+            "name": "Bourde le Maladroit",
+            "level": 51,
+            "imageUrl": "/bestiary/monsters/2446.png"
+          },
+          {
+            "id": 2286,
+            "name": "Serpistol l'Illustre",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2286.png"
+          },
+          {
+            "id": 2447,
+            "name": "Souristiti l'Immortalisée",
+            "level": 54,
+            "imageUrl": "/bestiary/monsters/2447.png"
+          },
+          {
+            "id": 2448,
+            "name": "Larvaloeil l'Émue",
+            "level": 56,
+            "imageUrl": "/bestiary/monsters/2448.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1201,
+            "name": "Abraknydiens Sombres",
+            "monsters": [
+              {
+                "id": 651,
+                "name": "Abrakne Sombre",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/651.png"
+              },
+              {
+                "id": 253,
+                "name": "Abraknyde Sombre",
+                "level": 78,
+                "imageUrl": "/bestiary/monsters/253.png"
+              },
+              {
+                "id": 254,
+                "name": "Abraknyde Vénérable",
+                "level": 74,
+                "imageUrl": "/bestiary/monsters/254.png"
+              },
+              {
+                "id": 917,
+                "name": "Araknotron",
+                "level": 76,
+                "imageUrl": "/bestiary/monsters/917.png"
+              }
+            ]
+          },
+          {
+            "id": 213,
+            "name": "Animaux des Champs",
+            "monsters": [
+              {
+                "id": 4547,
+                "name": "Bourdard",
+                "level": 51,
+                "imageUrl": "/bestiary/monsters/4547.png"
+              },
+              {
+                "id": 4548,
+                "name": "Larve Champêtre",
+                "level": 56,
+                "imageUrl": "/bestiary/monsters/4548.png"
+              },
+              {
+                "id": 288,
+                "name": "Serpentin",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/288.png"
+              },
+              {
+                "id": 294,
+                "name": "Souris Verte",
+                "level": 54,
+                "imageUrl": "/bestiary/monsters/294.png"
+              }
+            ]
+          },
+          {
+            "id": 221,
+            "name": "Boufcools",
+            "monsters": [
+              {
+                "id": 671,
+                "name": "Bouftou des cavernes",
+                "level": 84,
+                "imageUrl": "/bestiary/monsters/671.png"
+              }
+            ]
+          },
+          {
+            "id": 219,
+            "name": "Koalaks",
+            "monsters": [
+              {
+                "id": 747,
+                "name": "Dok Alako",
+                "level": 70,
+                "imageUrl": "/bestiary/monsters/747.png"
+              },
+              {
+                "id": 748,
+                "name": "Koalak Immature",
+                "level": 60,
+                "imageUrl": "/bestiary/monsters/748.png"
+              },
+              {
+                "id": 784,
+                "name": "Piralak",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/784.png"
+              },
+              {
+                "id": 746,
+                "name": "Warko Marron",
+                "level": 74,
+                "imageUrl": "/bestiary/monsters/746.png"
+              }
+            ]
+          },
+          {
+            "id": 5803,
+            "name": "Koalaks sauvages",
+            "monsters": [
+              {
+                "id": 763,
+                "name": "Drakoalak",
+                "level": 90,
+                "imageUrl": "/bestiary/monsters/763.png"
+              },
+              {
+                "id": 752,
+                "name": "Koalak Coco",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/752.png"
+              },
+              {
+                "id": 753,
+                "name": "Koalak Griotte",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/753.png"
+              },
+              {
+                "id": 751,
+                "name": "Koalak Indigo",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/751.png"
+              },
+              {
+                "id": 754,
+                "name": "Koalak Reinette",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/754.png"
+              },
+              {
+                "id": 755,
+                "name": "Mama Koalak",
+                "level": 90,
+                "imageUrl": "/bestiary/monsters/755.png"
+              }
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Mulous",
+            "monsters": [
+              {
+                "id": 102,
+                "name": "Mulou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/102.png"
+              },
+              {
+                "id": 4867,
+                "name": "Cocholou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/4867.png"
+              },
+              {
+                "id": 4868,
+                "name": "Mulounoké",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/4868.png"
+              },
+              {
+                "id": 4869,
+                "name": "Mergranlou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/4869.png"
+              },
+              {
+                "id": 4866,
+                "name": "Muloubard",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/4866.png"
+              }
+            ]
+          },
+          {
+            "id": 185,
+            "name": "Porcos",
+            "monsters": [
+              {
+                "id": 603,
+                "name": "Cochon de Farle",
+                "level": 90,
+                "imageUrl": "/bestiary/monsters/603.png"
+              },
+              {
+                "id": 601,
+                "name": "Don Dorgan",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/601.png"
+              },
+              {
+                "id": 600,
+                "name": "Don Duss Ang",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/600.png"
+              },
+              {
+                "id": 3304,
+                "name": "Porsalu",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/3304.png"
+              }
+            ]
+          },
+          {
+            "id": 5160,
+            "name": "Rats Bontariens",
+            "monsters": [
+              {
+                "id": 6743,
+                "name": "Chika Rat",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6743.png"
+              },
+              {
+                "id": 6744,
+                "name": "Aloevée Rate",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6744.png"
+              },
+              {
+                "id": 941,
+                "name": "Chak Rat",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/941.png"
+              },
+              {
+                "id": 938,
+                "name": "Scélée Rate",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/938.png"
+              },
+              {
+                "id": 942,
+                "name": "Capoei Rat",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/942.png"
+              }
+            ]
+          },
+          {
+            "id": 5159,
+            "name": "Rats Brâkmariens",
+            "monsters": [
+              {
+                "id": 6739,
+                "name": "Rate Atinée",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6739.png"
+              },
+              {
+                "id": 6742,
+                "name": "Rate Iboisée",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6742.png"
+              },
+              {
+                "id": 935,
+                "name": "Rat Plapla",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/935.png"
+              },
+              {
+                "id": 936,
+                "name": "Rat Li",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/936.png"
+              },
+              {
+                "id": 937,
+                "name": "Rat Sio",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/937.png"
+              }
+            ]
+          },
+          {
+            "id": 207,
+            "name": "Sidimonstres",
+            "monsters": [
+              {
+                "id": 299,
+                "name": "Croc Gland",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/299.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:73",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/un-juge-hysterique.html",
+      "sourceTitle": "Un juge hystérique",
+      "sourceHash": "5189a5003336188ba9c2062fbe1504352733438f35efd98131fb5f946b178711",
+      "generatedAt": "2026-08-24T18:32:41.222Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Amayiro de la Milice de Bonta vous charge d'enquêter sur une épée appartenant à un Ecaflip. Vous interrogez des témoins dans les tavernes de Bonta et à la sortie sud de la ville, puis récupérez des ressources pour le cadeau d'anniversaire du neveu d'Amayiro avant de les remettre à Bowisse.",
+      "recommendedLevel": 112,
+      "prerequisites": [
+        "Vin diou"
+      ],
+      "rewards": [
+        "3 261 192 XP"
+      ],
+      "preparation": [
+        "1 x Cuir de Porsalu",
+        "Combats contre des Draguaindrop dans le Sanctuaire des Dragoeufs"
+      ],
+      "actions": [
+        {
+          "instruction": "Aller à la Milice en [-32,-57] et parler à Amayiro pour lancer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller à la Taverne du Feubuk en [-35,-56] et parler à Nek Feubuk au sujet des Ecaflips.",
+          "position": "[-35,-56]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller à la Taverne de la Tabasse en [-35,-55] et parler à Garret Abass. Choisir « L'interroger au sujet de voyageurs Ecaflips ».",
+          "position": "[-35,-55]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller à la sortie Sud de Bonta en [-29,-53] et parler à Shere Hacanon.",
+          "position": "[-29,-53]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner auprès d'Amayiro en [-32,-57] pour lui rapporter les informations recueillies.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Obtenir 1 Cuir de Porsalu (acheter à l'HDV ou dropper sur les Porsalu).",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Achat à l'HDV ou drop sur Porsalu.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Aller dans le Sanctuaire des Dragoeufs et combattre des Draguaindrop pour obtenir 1 Écaille de Draguaindrop (drop à 100%).",
+          "position": null,
+          "zoneHint": "Sanctuaire des Dragoeufs",
+          "warning": "Combats contre des Draguaindrop.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Aller voir Bowisse en [5,1] et lui donner le Cuir de Porsalu et l'Écaille de Draguaindrop.",
+          "position": "[5,1]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "L'Écaille de Draguaindrop se drop à 100% sur les Draguaindrop dans le Sanctuaire des Dragoeufs.",
+        "Le Cuir de Porsalu peut être acheté à l'HDV pour éviter le combat."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Nek Feubuk",
+        "Garret Abass",
+        "Shere Hacanon",
+        "Bowisse",
+        "Draguaindrop"
+      ],
+      "items": [
+        {
+          "name": "Cuir de Porsalu",
+          "itemId": 14946,
+          "imageUrl": "/items/14946.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/14946"
+        },
+        {
+          "name": "Écaille de Draguaindrop",
+          "itemId": 17417,
+          "imageUrl": "/items/17417.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17417"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57",
+              "-35,-56"
+            ]
+          },
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-29,-53"
+            ]
+          },
+          {
+            "id": 974,
+            "name": "Havres d'ivoire",
+            "coordinates": [
+              "-35,-55"
+            ]
+          },
+          {
+            "id": 314,
+            "name": "Sanctuaire des Dragoeufs",
+            "coordinates": []
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "5,1"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2464,
+            "name": "Dragdikal le Décisif",
+            "level": 112,
+            "imageUrl": "/bestiary/monsters/2464.png"
+          },
+          {
+            "id": 2459,
+            "name": "Dragioli le Succulent",
+            "level": 112,
+            "imageUrl": "/bestiary/monsters/2459.png"
+          },
+          {
+            "id": 2452,
+            "name": "Dragobert le Monarque",
+            "level": 112,
+            "imageUrl": "/bestiary/monsters/2452.png"
+          },
+          {
+            "id": 2461,
+            "name": "Dragonienne l'Econome",
+            "level": 112,
+            "imageUrl": "/bestiary/monsters/2461.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 178,
+            "name": "Dragoeufs Protecteurs",
+            "monsters": [
+              {
+                "id": 853,
+                "name": "Dragnarok",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/853.png"
+              },
+              {
+                "id": 862,
+                "name": "Draguaindrop",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/862.png"
+              },
+              {
+                "id": 855,
+                "name": "Dragueuse",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/855.png"
+              },
+              {
+                "id": 5804,
+                "name": "Dragacé",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/5804.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:127",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/les-ecas-ne-flippent-pas.html",
+      "sourceTitle": "Alignement 42 : Les Ecas ne flippent pas",
+      "sourceHash": "9c0405bb98031eb27fbbfe357f85a2be353aff7b8e8f3a95e2034d4f131f3f3d",
+      "generatedAt": "2026-08-24T17:45:16.329Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Infiltrez le repaire des bandits Ecaflips à Bonta en remontant leur piste, en choisissant entre combat et bakchich, puis préparez-vous à y pénétrer avec une Corde d'escalade et un passe.",
+      "recommendedLevel": 113,
+      "prerequisites": [
+        "Niveau recommandé 113",
+        "Les Ecas ne flippent pas"
+      ],
+      "rewards": [
+        "3 313 535 XP"
+      ],
+      "preparation": [
+        "3 000 kamas ou 1 combat (réalisable en groupe)",
+        "1 Corde d'escalade (30 Chanvre + 5 Fil de Soie + 1 Fil de Néfileuse)"
+      ],
+      "actions": [
+        {
+          "instruction": "Lancer la quête à la Milice en [-32,-57] auprès d'Amayiro.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller en [-17,-41] parler au Bandit des plaines, puis choisir entre combattre trois bandits ou les soudoyer avec 1 000 kamas chacun (3 000 kamas au total).",
+          "position": "[-17,-41]",
+          "zoneHint": null,
+          "warning": "Dépense de 3 000 kamas si le joueur choisit de soudoyer au lieu de combattre.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Se rendre en [-30,-53] parler à Hersa Griffe Sombre pour obtenir la position du repaire.",
+          "position": "[-30,-53]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller en [-12,-44], cliquer sur le bois derrière les rochers avec la Corde d'escalade dans l'inventaire, puis tenter d'entrer dans la seconde salle et constater qu'un passe est requis.",
+          "position": "[-12,-44]",
+          "zoneHint": null,
+          "warning": "Nécessite 1 Corde d'escalade dans l'inventaire. Un passe est indispensable pour accéder à la seconde salle.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner à la Milice en [-32,-57] faire un récapitulatif à Amayiro.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La Corde d'escalade est conservée après la quête et servira pour d'autres quêtes.",
+        "Craft de la Corde d'escalade : 30 Chanvre, 5 Fil de Soie, 1 Fil de Néfileuse (Bricoleur niveau 1 minimum)."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Bandit des plaines",
+        "Hersa Griffe Sombre"
+      ],
+      "items": [
+        {
+          "name": "Corde d'escalade",
+          "itemId": 9935,
+          "imageUrl": "/items/9935.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9935"
+        },
+        {
+          "name": "Chanvre",
+          "itemId": 425,
+          "imageUrl": "/items/425.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/425"
+        },
+        {
+          "name": "Fil de Soie",
+          "itemId": 643,
+          "imageUrl": "/items/643.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/643"
+        },
+        {
+          "name": "Fil de Néfileuse",
+          "itemId": 16219,
+          "imageUrl": "/items/16219.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16219"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 523,
+            "name": "Cirque de Cania",
+            "coordinates": [
+              "-12,-44"
+            ]
+          },
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-30,-53"
+            ]
+          },
+          {
+            "id": 521,
+            "name": "Pics de Cania",
+            "coordinates": [
+              "-17,-41"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4015,
+            "name": "Fojumo",
+            "level": 140,
+            "imageUrl": "/bestiary/monsters/4015.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1519,
+            "name": "Bworks de Cania",
+            "monsters": [
+              {
+                "id": 4543,
+                "name": "Bizarbwork",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4543.png"
+              },
+              {
+                "id": 4544,
+                "name": "Krambwork",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4544.png"
+              },
+              {
+                "id": 4542,
+                "name": "Médibwork",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4542.png"
+              },
+              {
+                "id": 4541,
+                "name": "Mégabwork",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4541.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 1060,
+            "name": "Truches",
+            "monsters": [
+              {
+                "id": 3620,
+                "name": "Truchmuche",
+                "level": 113,
+                "imageUrl": "/bestiary/monsters/3620.png"
+              },
+              {
+                "id": 3621,
+                "name": "Truchideur",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3621.png"
+              },
+              {
+                "id": 3622,
+                "name": "Truchtine",
+                "level": 111,
+                "imageUrl": "/bestiary/monsters/3622.png"
+              },
+              {
+                "id": 3623,
+                "name": "Truchon",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/3623.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:128",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/plaine-de-chats.html",
+      "sourceTitle": "Alignement 43 : Plaine de chats",
+      "sourceHash": "aa8a8718aeb17975c3b487cd790e4c0b462a123c13673afa66bf2ec779dbd0a0",
+      "generatedAt": "2026-08-24T18:29:09.317Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Escorter un convoi de la Milice de Bonta vers Astrub en effectuant une reconnaissance le long d'un trajet à travers les plaines de Cania, puis affronter les bandits qui attaquent à l'arrivée.",
+      "recommendedLevel": 114,
+      "prerequisites": [
+        "Plaine de chats (quête d'alignement précédente)"
+      ],
+      "rewards": [
+        "3 410 118 XP",
+        "10 000 kamas (en fonction de vos choix)"
+      ],
+      "preparation": [
+        "1 combat réalisable en groupe"
+      ],
+      "actions": [
+        {
+          "instruction": "Parler à Amayiro à la Milice de Bonta pour lancer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller voir Gueurle, la chef du convoi, et proposer d'escorter le prochain convoi.",
+          "position": "[-29,-46]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Suivre le trajet de reconnaissance dans l'ordre : [-25,-45] → [-21,-42] → [-19,-37] → [-14,-36] → [-10,-35] → [-6,-31].",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sur la dernière carte, parler à Gueurle. Une attaque de bandits surgit. Vaincre les bandits (combat réalisable en groupe).",
+          "position": "[-6,-31]",
+          "zoneHint": null,
+          "warning": "Combat en groupe. Des choix peuvent influencer la récompense en kamas.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "Les ennemis utilisent des sorts variés : boosts (Flair Exacerbé, Discernement), frappes air/eau (Bleuph), air/érosion (Réactif), terre/repoussement (Prédestiné), terre/téléportation (Pensée Féline)."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Gueurle"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 68,
+            "name": "Champs de Cania",
+            "coordinates": [
+              "-29,-46",
+              "-25,-45",
+              "-21,-42"
+            ]
+          },
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 54,
+            "name": "Massif de Cania",
+            "coordinates": [
+              "-10,-35",
+              "-6,-31"
+            ]
+          },
+          {
+            "id": 521,
+            "name": "Pics de Cania",
+            "coordinates": [
+              "-19,-37",
+              "-14,-36"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 366,
+            "name": "Sanglier agressif",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/366.png"
+          },
+          {
+            "id": 554,
+            "name": "Marzwel le Gobelin",
+            "level": 60,
+            "imageUrl": "/bestiary/monsters/554.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2446,
+            "name": "Bourde le Maladroit",
+            "level": 51,
+            "imageUrl": "/bestiary/monsters/2446.png"
+          },
+          {
+            "id": 2286,
+            "name": "Serpistol l'Illustre",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2286.png"
+          },
+          {
+            "id": 2413,
+            "name": "Robocoop l'Échangé",
+            "level": 53,
+            "imageUrl": "/bestiary/monsters/2413.png"
+          },
+          {
+            "id": 2447,
+            "name": "Souristiti l'Immortalisée",
+            "level": 54,
+            "imageUrl": "/bestiary/monsters/2447.png"
+          },
+          {
+            "id": 2411,
+            "name": "Robiolego l'Assemblé",
+            "level": 55,
+            "imageUrl": "/bestiary/monsters/2411.png"
+          },
+          {
+            "id": 2448,
+            "name": "Larvaloeil l'Émue",
+            "level": 56,
+            "imageUrl": "/bestiary/monsters/2448.png"
+          },
+          {
+            "id": 2329,
+            "name": "Mallopiée l'Épineuse",
+            "level": 57,
+            "imageUrl": "/bestiary/monsters/2329.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 213,
+            "name": "Animaux des Champs",
+            "monsters": [
+              {
+                "id": 4547,
+                "name": "Bourdard",
+                "level": 51,
+                "imageUrl": "/bestiary/monsters/4547.png"
+              },
+              {
+                "id": 4548,
+                "name": "Larve Champêtre",
+                "level": 56,
+                "imageUrl": "/bestiary/monsters/4548.png"
+              },
+              {
+                "id": 288,
+                "name": "Serpentin",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/288.png"
+              },
+              {
+                "id": 294,
+                "name": "Souris Verte",
+                "level": 54,
+                "imageUrl": "/bestiary/monsters/294.png"
+              }
+            ]
+          },
+          {
+            "id": 1517,
+            "name": "Automates des Brigandins",
+            "monsters": [
+              {
+                "id": 4559,
+                "name": "Malle Outillée",
+                "level": 57,
+                "imageUrl": "/bestiary/monsters/4559.png"
+              },
+              {
+                "id": 4560,
+                "name": "Robionicle",
+                "level": 55,
+                "imageUrl": "/bestiary/monsters/4560.png"
+              },
+              {
+                "id": 4558,
+                "name": "Robot Fléau",
+                "level": 53,
+                "imageUrl": "/bestiary/monsters/4558.png"
+              },
+              {
+                "id": 4557,
+                "name": "Robot Pousse-Pousse",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/4557.png"
+              }
+            ]
+          },
+          {
+            "id": 1519,
+            "name": "Bworks de Cania",
+            "monsters": [
+              {
+                "id": 4543,
+                "name": "Bizarbwork",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4543.png"
+              },
+              {
+                "id": 4544,
+                "name": "Krambwork",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4544.png"
+              },
+              {
+                "id": 4542,
+                "name": "Médibwork",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4542.png"
+              },
+              {
+                "id": 4541,
+                "name": "Mégabwork",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4541.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:129",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/agrave-lendroit-agrave-lenvers.html",
+      "sourceTitle": "Alignement 44 : À l'endroit, à l'envers",
+      "sourceHash": "a04616afa047db754953eb7c9492d7b6c33845c258ed87965cdcb7f0f8f3a2d9",
+      "generatedAt": "2026-08-24T17:10:53.420Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Parler à Amayiro à la Milice de Bonta pour infiltrer le repaire des bandits et identifier le traître. Obtenir des informations sur Grimpill auprès de Hersa Griffe Sombre, d'Ecaline et du Capitaine Alrok, puis exiger la clef du repaire à Grimpill.",
+      "recommendedLevel": 115,
+      "prerequisites": [
+        "À l'endroit, à l'envers"
+      ],
+      "rewards": [
+        "3 464 019 XP"
+      ],
+      "preparation": [
+        "2 000 kamas",
+        "10 000 kamas ou 1 x combat (réalisable en groupe)",
+        "5 x Planche à Pâtisserie",
+        "1 x Corde d'escalade",
+        "1 x combat (réalisable en groupe)",
+        "Facultatif : 1 x Herbe Folle + 1 x Bakélélite par personnage accompagnant"
+      ],
+      "actions": [
+        {
+          "instruction": "Parler à Amayiro à la Milice pour lancer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Hersa Griffe Sombre pour obtenir des informations sur son ex-amant. Payer 2 000 kamas.",
+          "position": "[-30,-53]",
+          "zoneHint": null,
+          "warning": "Dépense de 2 000 kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Ecaline dans la Taverne de la Bagrutte.",
+          "position": "[-29,-59]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler au Capitaine Alrok au zaap de Bonta.",
+          "position": "[-31,-56]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Grimpill près de la tour des ordres et exiger une clef du repaire des bandits.",
+          "position": "[-32,-58]",
+          "zoneHint": null,
+          "warning": "Choix entre payer 10 000 kamas ou combattre (réalisable en groupe).",
+          "combat": "CHOICE"
+        }
+      ],
+      "notes": [
+        "Les Herbes Folles et Bakélélites sont facultatives et ne sont nécessaires que pour faire entrer d'autres personnages dans le combat."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Hersa Griffe Sombre",
+        "Ecaline",
+        "Capitaine Alrok",
+        "Grimpill"
+      ],
+      "items": [
+        {
+          "name": "Planche à Pâtisserie",
+          "itemId": 16495,
+          "imageUrl": "/items/16495.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16495"
+        },
+        {
+          "name": "Herbe Folle",
+          "itemId": 2665,
+          "imageUrl": "/items/2665.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2665"
+        },
+        {
+          "name": "Bakélélite",
+          "itemId": 749,
+          "imageUrl": "/items/749.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/749"
+        },
+        {
+          "name": "Corde d'escalade",
+          "itemId": 9935,
+          "imageUrl": "/items/9935.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9935"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57",
+              "-31,-56",
+              "-32,-58"
+            ]
+          },
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-30,-53"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "-29,-59"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:130",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/dans-la-gueule-du-chacha.html",
+      "sourceTitle": "Alignement 45 : Dans la gueule du chacha",
+      "sourceHash": "52c1b89ac810a3d003ff300a195290136272c21ecdb5e377aba74fb46bb41886",
+      "generatedAt": "2026-08-24T17:18:52.512Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Quête d'alignement Bonta niveau 46 consistant à ravitailler trois miliciens en Pemmican aux Haricots, puis tenter de récupérer un rapport confidentiel auprès de Ture Inge à la Milice de Bonta.",
+      "recommendedLevel": 116,
+      "prerequisites": [
+        "Dans la gueule du chacha"
+      ],
+      "rewards": [
+        "3 563 473 XP"
+      ],
+      "preparation": [
+        "9 x Pemmican aux Haricots",
+        "1 x Ceinture de Sécurité",
+        "Aide d'une personne"
+      ],
+      "actions": [
+        {
+          "instruction": "Aller à la Milice de Bonta en [-32,-57] et parler à Amayiro pour lancer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Se procurer 9 Pemmican aux Haricots, par achat en HDV ou par craft via un chasseur niveau 110 minimum.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Prévoir l'achat ou le craft des 9 Pemmican aux Haricots.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller en [-33,-56] et parler à Finche Aticus, choisir « Donner le repas » pour lui remettre 3 Pemmican aux Haricots.",
+          "position": "[-33,-56]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller en [-30,-53] et parler à Trev Pelsantery pour lui remettre 3 Pemmican aux Haricots. Il révèle qu'un rapport mettant en doute votre loyauté a été rédigé par le conseil et qu'il est consultable auprès de Ture Inge.",
+          "position": "[-30,-53]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller en [-29,-53] et parler à Shere Hacanon pour lui remettre 3 Pemmican aux Haricots.",
+          "position": "[-29,-53]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner à la Milice en [-32,-57], monter les escaliers depuis la salle principale, entrer dans la pièce de droite et parler à Ture Inge en ayant la Ceinture de Sécurité dans l'inventaire.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": "Prévoir 1 Ceinture de Sécurité. Ture Inge respecte les ordres et ne peut pas montrer le rapport.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Nécessite l'aide d'une autre personne.",
+        "Les Pemmican aux Haricots peuvent être achetés en HDV ou craftés par un chasseur niveau 110 minimum.",
+        "La Ceinture de Sécurité peut être achetée en HDV ou craftée par un cordonnier niveau 17 minimum."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Finche Aticus",
+        "Trev Pelsantery",
+        "Shere Hacanon",
+        "Ture Inge"
+      ],
+      "items": [
+        {
+          "name": "Pemmican aux Haricots",
+          "itemId": 17187,
+          "imageUrl": "/items/17187.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17187"
+        },
+        {
+          "name": "Ceinture de Sécurité",
+          "itemId": 734,
+          "imageUrl": "/items/734.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/734"
+        },
+        {
+          "name": "Viande Séchée",
+          "itemId": 17142,
+          "imageUrl": "/items/17142.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17142"
+        },
+        {
+          "name": "Lin",
+          "itemId": 423,
+          "imageUrl": "/items/423.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/423"
+        },
+        {
+          "name": "Haricot",
+          "itemId": 6671,
+          "imageUrl": "/items/6671.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6671"
+        },
+        {
+          "name": "Intestin d'Araknosé",
+          "itemId": 373,
+          "imageUrl": "/items/373.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/373"
+        },
+        {
+          "name": "Peau de Larve Jaune",
+          "itemId": 2563,
+          "imageUrl": "/items/2563.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2563"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57",
+              "-33,-56"
+            ]
+          },
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-30,-53",
+              "-29,-53"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:131",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/alimentaire-mon-cher.html",
+      "sourceTitle": "Alignement 46 : Alimentaire mon cher",
+      "sourceHash": "57a562f13a6c62247603d1a128adacf40eb5165785df2339f1fbb19fe732bcde",
+      "generatedAt": "2026-08-24T17:12:28.303Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    }
+  ],
+  "tips": []
+}

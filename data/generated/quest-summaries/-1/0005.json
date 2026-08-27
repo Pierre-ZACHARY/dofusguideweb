@@ -1,0 +1,219 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 5,
+  "updatedAt": "2026-08-27T12:53:53.925Z",
+  "summaries": [
+    {
+      "overview": "Poursuivez le tutoriel du temple céleste avec Ganymède puis Maître Hoboulo. Cette leçon introduit les métiers : récoltez cinq ressources différentes dans la salle prévue à cet effet, utilisez-les à l'atelier pour fabriquer un anneau, puis montrez votre création à Hoboulo. La discussion qui suit permet d'enchaîner directement sur « Sous le regard des dieux ».",
+      "recommendedLevel": 1,
+      "prerequisites": [
+        "Niveau 1 et +.",
+        "Premières armes."
+      ],
+      "rewards": [
+        "Aucune."
+      ],
+      "preparation": [
+        "Prévoir de récolter 1 x Ortie.",
+        "Prévoir de récolter 1 x Goujon.",
+        "Prévoir de récolter 1 x Bois de Frêne.",
+        "Prévoir de récolter 1 x Fer.",
+        "Prévoir de récolter 1 x Blé."
+      ],
+      "actions": [
+        {
+          "instruction": "Dans le tutoriel guidé du temple céleste, parlez à Ganymède et acceptez de commencer la nouvelle leçon. Il vous envoie rencontrer Maître Hoboulo.",
+          "position": null,
+          "zoneHint": "temple céleste",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez dans la salle située à droite et parlez à Maître Hoboulo. Il vous demande de fabriquer un anneau afin de découvrir les bases des métiers.",
+          "position": null,
+          "zoneHint": "temple céleste",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la salle de récolte, récupérez exactement 1 x Ortie, 1 x Goujon, 1 x Bois de Frêne, 1 x Fer et 1 x Blé sur les ressources disponibles.",
+          "position": null,
+          "zoneHint": "salle de récolte",
+          "warning": "Vérifiez que les cinq ressources sont bien présentes dans votre inventaire avant de passer à la fabrication.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez l'atelier et lancez la fabrication de l'anneau avec les cinq ressources récoltées. Vous pouvez sélectionner la recette puis utiliser la commande de fusion pour créer l'objet.",
+          "position": null,
+          "zoneHint": "atelier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparlez à Maître Hoboulo pour lui montrer l'anneau fabriqué et terminer la quête. Continuez ensuite la conversation avec lui pour lancer « Sous le regard des dieux ».",
+          "position": null,
+          "zoneHint": "temple céleste",
+          "warning": "« Sous le regard des dieux » ne devient disponible qu'après avoir terminé cette quête et poursuivi le dialogue avec Maître Hoboulo.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête se déroule entièrement dans le tutoriel guidé du temple céleste.",
+        "La quête suivante de la séquence est « Sous le regard des dieux »."
+      ],
+      "npcs": [
+        "Ganymède",
+        "Maître Hoboulo"
+      ],
+      "items": [
+        {
+          "name": "Ortie",
+          "itemId": 421,
+          "imageUrl": "/items/421.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/421"
+        },
+        {
+          "name": "Goujon",
+          "itemId": 1782,
+          "imageUrl": "/items/1782.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1782"
+        },
+        {
+          "name": "Bois de Frêne",
+          "itemId": 303,
+          "imageUrl": "/items/303.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/303"
+        },
+        {
+          "name": "Fer",
+          "itemId": 312,
+          "imageUrl": "/items/312.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/312"
+        },
+        {
+          "name": "Blé",
+          "itemId": 289,
+          "imageUrl": "/items/289.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/289"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 446,
+            "name": "Temple Céleste",
+            "coordinates": []
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": []
+      },
+      "questKey": "quest:896",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/l-anneau-de-tous-les-dangers.html",
+      "sourceTitle": "L'anneau de tous les dangers",
+      "sourceHash": "fb65ca3375d9a9c40ad7ed2d457ee6a8508989643ba74e3e733ef30fdf564f03",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après « L'anneau de tous les dangers », Maître Hoboulo vous dirige vers une épreuve de combat. Rejoignez Maître Darm, affrontez trois Chafers Célestes avec son soutien, puis reparlez-lui et terminez auprès de Ganymède. Cette conclusion du tutoriel débloque le succès « Sur de bonnes bases » et prépare la quête suivante, « Réponses à tout ».",
+      "recommendedLevel": 1,
+      "prerequisites": [
+        "Niveau 1 et +.",
+        "L'anneau de tous les dangers."
+      ],
+      "rewards": [
+        "Aucune.",
+        "Déblocage du succès Sur de bonnes bases, permettant de récupérer le Trousseau de Clef."
+      ],
+      "preparation": [
+        "Prévoir 1 x combat seul."
+      ],
+      "actions": [
+        {
+          "instruction": "Lancez la quête auprès de Maître Hoboulo dans le tutoriel guidé du temple céleste. Il vous demande d'aller tester votre équipement lors d'un combat avec Maître Darm.",
+          "position": null,
+          "zoneHint": "temple céleste",
+          "warning": "Cette quête nécessite d'avoir terminé « L'anneau de tous les dangers ».",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous dans la salle de combat située à droite et parlez à Maître Darm. Il vous propose de combattre avec son aide.",
+          "position": null,
+          "zoneHint": "salle de combat",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Chafer Éclaireur Céleste et choisissez d'engager le combat contre les trois monstres.",
+          "position": null,
+          "zoneHint": "salle de combat",
+          "warning": "Un combat est obligatoire. Vous êtes accompagné de Maître Darm pendant l'affrontement.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Vainquez les trois Chafers Célestes avec le soutien de Maître Darm, puis reparlez à Maître Darm une fois le combat terminé.",
+          "position": null,
+          "zoneHint": "salle de combat",
+          "warning": null,
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Lorsque Ganymède réapparaît, parlez-lui. Il conclut votre apprentissage et indique qu'un novice peut encore changer de classe auprès d'Andrée Inkarnay à l'entrée du temple céleste.",
+          "position": null,
+          "zoneHint": "temple céleste",
+          "warning": "Le changement de classe évoqué par Ganymède est réservé à la période où votre personnage est encore novice.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Terminez le dialogue avec Ganymède pour achever la quête. Le succès « Sur de bonnes bases » est alors débloqué et permet de récupérer le Trousseau de Clef. La suite du parcours commence avec « Réponses à tout ».",
+          "position": null,
+          "zoneHint": "temple céleste",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Maître Darm possède de fortes résistances et accompagne le personnage durant le combat.",
+        "Le Trousseau de Clef obtenu via le succès « Sur de bonnes bases » permet d'entrer dans les donjons sans utiliser de clef, avec une utilisation renouvelable une fois par semaine pour chaque donjon.",
+        "« Réponses à tout » appartient à l'étape suivante et ne doit être commencée qu'après avoir terminé cette quête."
+      ],
+      "npcs": [
+        "Maître Hoboulo",
+        "Maître Darm",
+        "Chafer Éclaireur Céleste",
+        "Ganymède",
+        "Andrée Inkarnay"
+      ],
+      "items": [
+        {
+          "name": "Trousseau de Clef",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 446,
+            "name": "Temple Céleste",
+            "coordinates": []
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": []
+      },
+      "questKey": "quest:897",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/sous-le-regard-des-dieux.html",
+      "sourceTitle": "Sous le regard des dieux",
+      "sourceHash": "d583df915b06247d194000d12de94ec7840d9c5fe47ea983368130718003a34c",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": []
+}

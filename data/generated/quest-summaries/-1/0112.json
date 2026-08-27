@@ -1,0 +1,363 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 112,
+  "updatedAt": "2026-08-27T12:55:04.123Z",
+  "summaries": [
+    {
+      "overview": "Dexter Minateur, un dératiseur de Brâkmar, vous engage pour vérifier ses pièges dans les égouts puis vous envoie affronter le Rat Noir dans la Sousouricière.",
+      "recommendedLevel": 110,
+      "prerequisites": [],
+      "rewards": [
+        "2 597 190 XP",
+        "28 560 Kamas",
+        "3 x Pistule de Rat Sio"
+      ],
+      "preparation": [
+        "3 x combats (réalisable en groupe)",
+        "1 x combat (seul)",
+        "1 x Donjon Sousouricière du Rat Noir"
+      ],
+      "actions": [
+        {
+          "instruction": "Se rendre à Brâkmar - La Marmite en [-23,37] et parler à Dexter Minateur.",
+          "position": "[-23,37]",
+          "zoneHint": "La Marmite",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrer dans les égouts par l'entrée en [-21,36]. Vérifier les pièges : en [-21,36] cliquer sur les deux tapettes (celle du haut avec le squelette lance un combat), en [-22,36] cliquer sur le piège avec un Brâkmarien, en [-22,37] vérifier le piège en haut à droite, en [-23,38] vérifier la tapette à droite, en [-28,37] vérifier les deux pièges devant le donjon.",
+          "position": "[-21,36]",
+          "zoneHint": "Égouts de Brâkmar",
+          "warning": "Combats en [-21,36] (tapette du haut), [-22,37] (piège en haut à droite) et [-28,37] (tapette du centre) contre 4 x Sousouris démineuse chacun, réalisables en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Dexter Minateur en [-23,37] à La Marmite.",
+          "position": "[-23,37]",
+          "zoneHint": "La Marmite",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller au donjon Sousouricière du Rat Noir et vaincre le Rat Noir.",
+          "position": null,
+          "zoneHint": "Sousouricière du Rat Noir",
+          "warning": "Combat seul contre le Rat Noir.",
+          "combat": "SOLO"
+        }
+      ],
+      "notes": [],
+      "npcs": [
+        "Dexter Minateur"
+      ],
+      "items": [
+        {
+          "name": "Pistule de Rat Sio",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 978,
+            "name": "L'Ancre",
+            "coordinates": [
+              "-23,38"
+            ]
+          },
+          {
+            "id": 982,
+            "name": "L'Enclume",
+            "coordinates": [
+              "-28,37"
+            ]
+          },
+          {
+            "id": 980,
+            "name": "La Marmite",
+            "coordinates": [
+              "-23,37",
+              "-21,36",
+              "-22,36",
+              "-22,37"
+            ]
+          },
+          {
+            "id": 1010,
+            "name": "Sousouricière du Rat Noir",
+            "coordinates": []
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 5159,
+            "name": "Rats Brâkmariens",
+            "monsters": [
+              {
+                "id": 6739,
+                "name": "Rate Atinée",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6739.png"
+              },
+              {
+                "id": 6742,
+                "name": "Rate Iboisée",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6742.png"
+              },
+              {
+                "id": 935,
+                "name": "Rat Plapla",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/935.png"
+              },
+              {
+                "id": 936,
+                "name": "Rat Li",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/936.png"
+              },
+              {
+                "id": 937,
+                "name": "Rat Sio",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/937.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1393",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/fait-comme-un-rat.html",
+      "sourceTitle": "Fait comme un rat",
+      "sourceHash": "d4ba1333fc485d1f57d0a0394efac191c23d33bdd3dc2d64447046b8b432920c",
+      "generatedAt": "2026-08-24T17:34:52.726Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Dras Fours, un rat dans les égouts de Brâkmar, n'ose plus retourner dans la mine de Brâkmar qu'il croit hantée par les fantômes des rats tombés dans la lave. Enquêtez sur les gémissements, gagnez la confiance d'une chachatonne égarée en lui prouvant votre courage face aux rats, puis explorez la mine pour découvrir la vérité.",
+      "recommendedLevel": 110,
+      "prerequisites": [
+        "Niveau recommandé : 110"
+      ],
+      "rewards": [
+        "1 298 594 XP",
+        "14 280 Kamas",
+        "3 x Vieux Bouquin de Rat Li"
+      ],
+      "preparation": [
+        "1 x Fragment de Pierre Pointue",
+        "1 x Bois de Châtaignier",
+        "1 x Ferrite",
+        "Combats contre les rats de la zone Entrailles de Brâkmar (drop à 100%)"
+      ],
+      "actions": [
+        {
+          "instruction": "Allez dans les égouts de Brâkmar en [-23,38] et parlez à Dras Fours pour lancer la quête.",
+          "position": "[-23,38]",
+          "zoneHint": "Entrailles de Brâkmar",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez en [-22,37] et cliquez sur la caisse de bombes roublardes au pied des roches en haut à gauche.",
+          "position": "[-22,37]",
+          "zoneHint": "Entrailles de Brâkmar",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à la Chachatonne égarée qui apparaît et choisissez « Tenter de caresser la chachatonne ».",
+          "position": "[-22,37]",
+          "zoneHint": "Entrailles de Brâkmar",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Combattez les rats de la zone Entrailles de Brâkmar jusqu'à obtenir 20 x Touffe de rat de Brâkmar (drop à 100% sur tous les rats de la zone).",
+          "position": null,
+          "zoneHint": "Entrailles de Brâkmar",
+          "warning": null,
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "Vous pouvez aussi droper les Touffes de rat de Brâkmar dans le donjon, mais pas sur le monstre unique du donjon."
+      ],
+      "npcs": [
+        "Dras Fours",
+        "Chachatonne égarée"
+      ],
+      "items": [
+        {
+          "name": "Fragment de Pierre Pointue",
+          "itemId": 2305,
+          "imageUrl": "/items/2305.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2305"
+        },
+        {
+          "name": "Bois de Châtaignier",
+          "itemId": 473,
+          "imageUrl": "/items/473.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/473"
+        },
+        {
+          "name": "Ferrite",
+          "itemId": 16440,
+          "imageUrl": "/items/16440.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16440"
+        },
+        {
+          "name": "Touffe de rat de Brâkmar",
+          "itemId": 26197,
+          "imageUrl": "/items/26197.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26197"
+        },
+        {
+          "name": "Vieux Bouquin de Rat Li",
+          "itemId": 25760,
+          "imageUrl": "/items/25760.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/25760"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 985,
+            "name": "Entrailles de Brâkmar",
+            "coordinates": [
+              "-23,38",
+              "-22,37"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 5159,
+            "name": "Rats Brâkmariens",
+            "monsters": [
+              {
+                "id": 6739,
+                "name": "Rate Atinée",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6739.png"
+              },
+              {
+                "id": 6742,
+                "name": "Rate Iboisée",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6742.png"
+              },
+              {
+                "id": 935,
+                "name": "Rat Plapla",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/935.png"
+              },
+              {
+                "id": 936,
+                "name": "Rat Li",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/936.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1397",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-lumiere-au-bout-des-egouts.html",
+      "sourceTitle": "La lumière au bout des égouts",
+      "sourceHash": "131270edc614be2e8f69417bbd21e673062d05abaac6327ab1607de5ecc8020a",
+      "generatedAt": "2026-08-24T17:39:08.618Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    }
+  ],
+  "tips": []
+}

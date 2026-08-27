@@ -1,0 +1,523 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 51,
+  "updatedAt": "2026-08-27T12:55:01.753Z",
+  "summaries": [
+    {
+      "overview": "Amayiro vous demande de vous entraîner contre les Chafers d’Élite afin d'apprendre à mieux affronter les troupes utilisées par Brâkmar. Il faut récupérer 15 Casques de Chafer d’Élite sur ces monstres, puis les rapporter à la milice de Bonta.",
+      "recommendedLevel": 47,
+      "prerequisites": [
+        "Avoir terminé D'égouts temps."
+      ],
+      "rewards": [
+        "319 529 XP."
+      ],
+      "preparation": [
+        "Prévoir des combats contre des Chafers d’Élite.",
+        "Libérer suffisamment de place dans l'inventaire pour conserver 15 Casques de Chafer d’Élite."
+      ],
+      "actions": [
+        {
+          "instruction": "À la milice de Bonta, parler à Amayiro pour recevoir la mission d'entraînement contre les Chafers d’Élite.",
+          "position": "[-32,-57]",
+          "zoneHint": null,
+          "warning": "Cette quête suit D'égouts temps dans la chaîne d'alignement de Bonta.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Combattre des Chafers d’Élite dans le Cimetière des Héros ou le Cimetière des Torturés jusqu'à obtenir 15 Casques de Chafer d’Élite. Les casques sont obtenus automatiquement sur les monstres correspondants.",
+          "position": null,
+          "zoneHint": "Cimetière des Héros ou Cimetière des Torturés",
+          "warning": "Plusieurs combats contre des monstres de la zone sont nécessaires.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner auprès d’Amayiro et lui remettre les 15 Casques de Chafer d’Élite pour terminer la mission.",
+          "position": "[-32,-57]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête débloque ensuite Alignement 18 : La foire du Trool suspectée."
+      ],
+      "npcs": [
+        "Amayiro"
+      ],
+      "items": [
+        {
+          "name": "Casque de Chafer d'Élite",
+          "itemId": 2065,
+          "imageUrl": "/items/2065.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2065"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 6,
+            "name": "Cimetière",
+            "coordinates": []
+          },
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4270,
+            "name": "Roub' Ignolles",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/4270.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2321,
+            "name": "Chafalfer l'Optimiste",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2321.png"
+          },
+          {
+            "id": 2319,
+            "name": "Chafemal le Bagarreur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2319.png"
+          },
+          {
+            "id": 2522,
+            "name": "Kwoanneur le Frimeur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2522.png"
+          },
+          {
+            "id": 2357,
+            "name": "Tofumanchou l'Empereur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2357.png"
+          },
+          {
+            "id": 2421,
+            "name": "Chaffoin le Sournois",
+            "level": 33,
+            "imageUrl": "/bestiary/monsters/2421.png"
+          },
+          {
+            "id": 2276,
+            "name": "Ribibi le Cher",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2276.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 193,
+            "name": "Bêtes de la nuit",
+            "monsters": [
+              {
+                "id": 154,
+                "name": "Kwoan",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/154.png"
+              },
+              {
+                "id": 111,
+                "name": "Tofu Maléfique",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/111.png"
+              }
+            ]
+          },
+          {
+            "id": 191,
+            "name": "Chafers d'Amakna",
+            "monsters": [
+              {
+                "id": 54,
+                "name": "Chafer",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/54.png"
+              },
+              {
+                "id": 110,
+                "name": "Chafer Invisible",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/110.png"
+              },
+              {
+                "id": 396,
+                "name": "Chafer Fantassin",
+                "level": 33,
+                "imageUrl": "/bestiary/monsters/396.png"
+              },
+              {
+                "id": 108,
+                "name": "Rib",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/108.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:19",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/leacutelite-squelettique.html",
+      "sourceTitle": "Alignement 17 : L'élite squelettique",
+      "sourceHash": "26d5d8696de983608dc61ba0d8762a59b9703a7741a0024cb7cd101061daeb0a",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Emma Tompouce vous envoie sur la plage de corail d'Otomaï pour vérifier si l'animation des coraux est liée à un Dofus. Après avoir terminé la Grotte Hesque et vaincu le Corailleur Magistral, vous devez lui faire votre rapport puis rencontrer Alain Deix dans la taverne d'Amakna.",
+      "recommendedLevel": 30,
+      "prerequisites": [
+        "Être de niveau supérieur à 29.",
+        "Avoir terminé Donjon douillet.",
+        "Avoir terminé Le nouveau monde afin d'avoir accès à l'île d'Otomaï.",
+        "Avoir terminé L'Île des naufragés afin de pouvoir poursuivre la quête."
+      ],
+      "rewards": [
+        "489 037 XP.",
+        "8 352 kamas.",
+        "1 x Corail Magistral."
+      ],
+      "preparation": [
+        "Prévoir de terminer 1 x Donjon Grotte Hesque.",
+        "Emma Tompouce fournit une clef du donjon ; si le trousseau de clefs est disponible, il peut être utilisé à la place."
+      ],
+      "actions": [
+        {
+          "instruction": "Parler à Emma Tompouce et accepter d'aller vérifier la présence éventuelle d'un Dofus sur la plage de corail d'Otomaï.",
+          "position": "[1,-15]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": "Pour poursuivre, l'accès à l'île d'Otomaï nécessite d'avoir terminé Le nouveau monde et L'Île des naufragés.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Se rendre à l'entrée de la Grotte Hesque et effectuer le donjon jusqu'à vaincre le Corailleur Magistral.",
+          "position": "[-59,15]",
+          "zoneHint": "Grotte Hesque",
+          "warning": "Le donjon est obligatoire. Une clef est fournie par Emma Tompouce, mais le trousseau de clefs peut être utilisé s'il est disponible.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Emma Tompouce et lui faire un rapport sur la Grotte Hesque après avoir constaté l'absence de Dofus.",
+          "position": "[1,-15]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller à la taverne d'Amakna, entrer par l'entrée du milieu puis gagner directement la salle de gauche.",
+          "position": "[2,-1]",
+          "zoneHint": "Taverne d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Alain Deix, expliquer qu'Emma Tompouce vous envoie et demander une nouvelle mission liée à la recherche des Dofus. La quête Donjon magistral se termine à cette étape.",
+          "position": "[2,-1]",
+          "zoneHint": "Taverne d'Amakna",
+          "warning": "Poursuivre ensuite la conversation avec Alain Deix lance la mission suivante, Entre quatre blops ; ne le faites que si vous souhaitez démarrer cette quête.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La victoire contre le Corailleur Magistral ne suffit pas à terminer la quête : il faut revenir auprès d'Emma Tompouce puis rencontrer Alain Deix.",
+        "La prochaine mission, Entre quatre blops, n'est obtenue qu'en continuant la discussion avec Alain Deix après la fin de Donjon magistral."
+      ],
+      "npcs": [
+        "Emma Tompouce",
+        "Alain Deix",
+        "Corailleur Magistral"
+      ],
+      "items": [
+        {
+          "name": "Corail Magistral",
+          "itemId": 8731,
+          "imageUrl": "/items/8731.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8731"
+        },
+        {
+          "name": "Clef de la Grotte Hesque",
+          "itemId": 8917,
+          "imageUrl": "/items/8917.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8917"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "1,-15"
+            ]
+          },
+          {
+            "id": 460,
+            "name": "Grotte Hesque",
+            "coordinates": [
+              "-59,15"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "2,-1"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 165,
+            "name": "Colonie du Magistral",
+            "monsters": [
+              {
+                "id": 1022,
+                "name": "Corailleur",
+                "level": 38,
+                "imageUrl": "/bestiary/monsters/1022.png"
+              },
+              {
+                "id": 1060,
+                "name": "Crustorail Kouraçao",
+                "level": 36,
+                "imageUrl": "/bestiary/monsters/1060.png"
+              },
+              {
+                "id": 1061,
+                "name": "Crustorail Malibout",
+                "level": 36,
+                "imageUrl": "/bestiary/monsters/1061.png"
+              },
+              {
+                "id": 1063,
+                "name": "Crustorail Morito",
+                "level": 36,
+                "imageUrl": "/bestiary/monsters/1063.png"
+              },
+              {
+                "id": 1062,
+                "name": "Crustorail Passaoh",
+                "level": 36,
+                "imageUrl": "/bestiary/monsters/1062.png"
+              },
+              {
+                "id": 1064,
+                "name": "Palmifleur Kouraçao",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/1064.png"
+              },
+              {
+                "id": 1065,
+                "name": "Palmifleur Malibout",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/1065.png"
+              },
+              {
+                "id": 1067,
+                "name": "Palmifleur Morito",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/1067.png"
+              },
+              {
+                "id": 1066,
+                "name": "Palmifleur Passaoh",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/1066.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:601",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/donjon-magistral.html",
+      "sourceTitle": "Donjon magistral",
+      "sourceHash": "cabeff56ad5188f4e95a005420fcb2a77640d4dd94fa55b4a55aab90d5abd50f",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": []
+}

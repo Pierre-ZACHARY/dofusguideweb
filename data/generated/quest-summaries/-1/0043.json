@@ -1,0 +1,440 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 43,
+  "updatedAt": "2026-08-27T12:54:00.498Z",
+  "summaries": [
+    {
+      "overview": "Icar Mélite souhaite obtenir des ailes de Scarafeuilles en parfait état. Il faut combattre les quatre couleurs de Scarafeuilles dans la Plaine des Scarafeuilles, récupérer 5 ailes intactes de chaque couleur, puis revenir les lui remettre.",
+      "recommendedLevel": 30,
+      "prerequisites": [
+        "Niveau recommandé 30-50."
+      ],
+      "rewards": [
+        "127 134 XP.",
+        "2 380 kamas.",
+        "2 x Carapace de Scarafeuille Blanc.",
+        "2 x Carapace de Scarafeuille Bleu.",
+        "2 x Carapace de Scarafeuille Rouge.",
+        "2 x Carapace de Scarafeuille Vert."
+      ],
+      "preparation": [
+        "Prévoir plusieurs combats contre des Scarafeuilles.",
+        "Obtenir 5 x Ailes intactes de Scarafeuille Bleu.",
+        "Obtenir 5 x Ailes intactes de Scarafeuille Blanc.",
+        "Obtenir 5 x Ailes intactes de Scarafeuille Vert.",
+        "Obtenir 5 x Ailes intactes de Scarafeuille Rouge.",
+        "Le taux de drop indiqué est de 20 % de base pour ces ailes."
+      ],
+      "actions": [
+        {
+          "instruction": "Parler à Icar Mélite, à droite du zaap des Scarafeuilles, pour lancer la quête et accepter de lui rapporter des ailes intactes.",
+          "position": "[0,24]",
+          "zoneHint": "Plaine des Scarafeuilles",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Combattre des Scarafeuilles Bleu, Blanc, Vert et Rouge jusqu'à obtenir 5 Ailes intactes de Scarafeuille de chacune des quatre couleurs.",
+          "position": null,
+          "zoneHint": "Plaine des Scarafeuilles",
+          "warning": "Combats obligatoires pour le drop ; taux de base indiqué : 20 %.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Icar Mélite et lui remettre toutes les ailes intactes demandées pour terminer la quête.",
+          "position": "[0,24]",
+          "zoneHint": "Plaine des Scarafeuilles",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Il faut exactement 5 ailes intactes pour chacune des couleurs Bleu, Blanc, Vert et Rouge."
+      ],
+      "npcs": [
+        "Icar Mélite"
+      ],
+      "items": [
+        {
+          "name": "Ailes intactes de Scarafeuille Bleu",
+          "itemId": 18457,
+          "imageUrl": "/items/18457.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18457"
+        },
+        {
+          "name": "Ailes intactes de Scarafeuille Blanc",
+          "itemId": 18458,
+          "imageUrl": "/items/18458.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18458"
+        },
+        {
+          "name": "Ailes intactes de Scarafeuille Vert",
+          "itemId": 18459,
+          "imageUrl": "/items/18459.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18459"
+        },
+        {
+          "name": "Ailes intactes de Scarafeuille Rouge",
+          "itemId": 18456,
+          "imageUrl": "/items/18456.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18456"
+        },
+        {
+          "name": "Carapace de Scarafeuille Blanc",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Carapace de Scarafeuille Bleu",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Carapace de Scarafeuille Rouge",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Carapace de Scarafeuille Vert",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 170,
+            "name": "Plaine des Scarafeuilles",
+            "coordinates": [
+              "0,24"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2280,
+            "name": "Scapé l'Epée",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2280.png"
+          },
+          {
+            "id": 2283,
+            "name": "Scaramel le Fondant",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2283.png"
+          },
+          {
+            "id": 2281,
+            "name": "Scarfayss le Balafré",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2281.png"
+          },
+          {
+            "id": 2282,
+            "name": "Scarouarze l'Epopée",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2282.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 212,
+            "name": "Dragodindes",
+            "monsters": [
+              {
+                "id": 171,
+                "name": "Dragodinde amande sauvage",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/171.png"
+              },
+              {
+                "id": 200,
+                "name": "Dragodinde rousse sauvage",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/200.png"
+              }
+            ]
+          },
+          {
+            "id": 181,
+            "name": "Scarafeuilles",
+            "monsters": [
+              {
+                "id": 198,
+                "name": "Scarafeuille Bleu",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/198.png"
+              },
+              {
+                "id": 241,
+                "name": "Scarafeuille Blanc",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/241.png"
+              },
+              {
+                "id": 194,
+                "name": "Scarafeuille Rouge",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/194.png"
+              },
+              {
+                "id": 240,
+                "name": "Scarafeuille Vert",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/240.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1065",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/vol-au-dessus-dun-coucou.html",
+      "sourceTitle": "Vol au-dessus d'un coucou",
+      "sourceHash": "042922eb14ce9e287e2c5b998851c8b7a631a83f2d053a3e1626bf0091c278d6",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Jemas Kooc propose deux travaux quotidiens. Pour cette quête, il faut choisir explicitement de traquer les Scarafeuilles, récupérer 5 œufs sur ces monstres dans la Plaine des Scarafeuilles, puis les rapporter à Sufokia.",
+      "recommendedLevel": 40,
+      "prerequisites": [
+        "Niveau recommandé 40.",
+        "Quête journalière."
+      ],
+      "rewards": [
+        "101 707 XP.",
+        "4 760 kamas."
+      ],
+      "preparation": [
+        "Prévoir des combats contre des Scarafeuilles.",
+        "Obtenir 5 œufs de Scarafeuilles.",
+        "Le taux de drop indiqué est de 50 % de base."
+      ],
+      "actions": [
+        {
+          "instruction": "Parler à Jemas Kooc afin qu'il propose un travail, puis choisir l'activité consistant à traquer les Scarafeuilles.",
+          "position": "[16,25]",
+          "zoneHint": "Sufokia",
+          "warning": "Il faut sélectionner le choix lié aux Scarafeuilles ; l'autre activité correspond à une autre quête.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Se rendre dans la Plaine des Scarafeuilles et combattre des Scarafeuilles jusqu'à récupérer 5 œufs de Scarafeuilles.",
+          "position": null,
+          "zoneHint": "Plaine des Scarafeuilles",
+          "warning": "Combats obligatoires pour le drop ; taux de base indiqué : 50 %.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Revenir auprès de Jemas Kooc avec les 5 œufs et les lui donner pour terminer la quête.",
+          "position": "[16,25]",
+          "zoneHint": "Sufokia",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Cette quête est journalière.",
+        "Les relations START et FINISH de l'étape décrivent la même quête et le même parcours ; un seul tutoriel est donc nécessaire."
+      ],
+      "npcs": [
+        "Jemas Kooc"
+      ],
+      "items": [
+        {
+          "name": "Œuf de Scarafeuille",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 170,
+            "name": "Plaine des Scarafeuilles",
+            "coordinates": []
+          },
+          {
+            "id": 32,
+            "name": "Sufokia",
+            "coordinates": [
+              "16,25"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2280,
+            "name": "Scapé l'Epée",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2280.png"
+          },
+          {
+            "id": 2283,
+            "name": "Scaramel le Fondant",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2283.png"
+          },
+          {
+            "id": 2281,
+            "name": "Scarfayss le Balafré",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2281.png"
+          },
+          {
+            "id": 2282,
+            "name": "Scarouarze l'Epopée",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2282.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 212,
+            "name": "Dragodindes",
+            "monsters": [
+              {
+                "id": 171,
+                "name": "Dragodinde amande sauvage",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/171.png"
+              },
+              {
+                "id": 200,
+                "name": "Dragodinde rousse sauvage",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/200.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 181,
+            "name": "Scarafeuilles",
+            "monsters": [
+              {
+                "id": 198,
+                "name": "Scarafeuille Bleu",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/198.png"
+              },
+              {
+                "id": 241,
+                "name": "Scarafeuille Blanc",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/241.png"
+              },
+              {
+                "id": 194,
+                "name": "Scarafeuille Rouge",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/194.png"
+              },
+              {
+                "id": 240,
+                "name": "Scarafeuille Vert",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/240.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:644",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/pattes-aux-oeufs-frais.html",
+      "sourceTitle": "Pattes aux œufs frais",
+      "sourceHash": "968c08d557f5f40256ae4dd2f513e4a893e26991ef9269d56d148e6d9b6b6e86",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Regrouper les drops Scarafeuilles",
+      "description": "Les deux quêtes demandent des combats dans la Plaine des Scarafeuilles. Après avoir lancé Pattes aux oeufs frais à Sufokia et Vol au-dessus d'un coucou en [0,24], effectuez une seule session de combats pour avancer simultanément sur les œufs et les quatre séries d'ailes intactes.",
+      "questKeys": [
+        "quest:1065",
+        "quest:644"
+      ],
+      "actions": [
+        "Lancer quest:644 auprès de Jemas Kooc en [16,25] en choisissant de traquer les Scarafeuilles.",
+        "Lancer quest:1065 auprès de Icar Mélite en [0,24].",
+        "Dans la Plaine des Scarafeuilles, poursuivre les combats jusqu'à avoir 5 œufs et 5 ailes intactes de chacune des quatre couleurs.",
+        "Rendre ensuite chaque quête à son PNJ respectif."
+      ]
+    }
+  ]
+}

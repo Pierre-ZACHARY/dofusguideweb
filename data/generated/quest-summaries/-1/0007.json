@@ -1,0 +1,894 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 7,
+  "updatedAt": "2026-08-27T12:53:54.192Z",
+  "summaries": [
+    {
+      "overview": "Proposez vos services au Capitaine des Kerubims puis passez son test d'aptitude en affrontant seul la Caporale Mynerve en haut de la tour. Une fois Mynerve vaincue, reparlez au Capitaine pour terminer la quête et accéder à la mission suivante, Champs de bataille.",
+      "recommendedLevel": 3,
+      "prerequisites": [],
+      "rewards": [
+        "556 XP.",
+        "12 Kamas.",
+        "5 x Feu Intérieur."
+      ],
+      "preparation": [
+        "Prévoir un combat en solo contre la Caporale Mynerve."
+      ],
+      "actions": [
+        {
+          "instruction": "En [0,-4], proposez vos services au Capitaine des Kerubims afin de passer le test nécessaire pour devenir suppléant de la milice.",
+          "position": "[0,-4]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montez les escaliers de la tour et parlez à la Caporale Mynerve. Annoncez que vous venez passer le test d'aptitude, puis battez-la.",
+          "position": "[0,-4]",
+          "zoneHint": null,
+          "warning": "Combat obligatoire effectué seul. Mynerve utilise notamment Bourrasque, qui frappe en ligne dans l'élément neutre et pousse de 3 cases.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après la victoire, reparlez au Capitaine des Kerubims pour recevoir votre première mission et terminer la quête.",
+          "position": "[0,-4]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "En continuant la discussion avec le Capitaine des Kerubims après la fin de la quête, vous obtenez Champs de bataille."
+      ],
+      "npcs": [
+        "Capitaine des Kerubims",
+        "Caporale Mynerve"
+      ],
+      "items": [
+        {
+          "name": "Feu Intérieur",
+          "itemId": 16518,
+          "imageUrl": "/items/16518.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16518"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "0,-4"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "0,-4"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:908",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/mise-agrave-leacutepreuve.html",
+      "sourceTitle": "Mise à l'épreuve",
+      "sourceHash": "bb3ee4a994e650f3ad580d4433a3564e610d2d683743da0a7e3e70360b2df6cc",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Le Capitaine des Kerubims vous charge de réguler les créatures non réincarnées présentes dans les Champs d'Incarnam. Battez une créature de chacune des espèces demandées par la quête, puis retournez auprès du Capitaine en [0,-4] pour faire votre rapport.",
+      "recommendedLevel": 5,
+      "prerequisites": [
+        "Mise à l'épreuve."
+      ],
+      "rewards": [
+        "2 127 XP.",
+        "52 Kamas.",
+        "5 x Pétale Diaphane."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parlez au Capitaine des Kerubims en [0,-4] pour recevoir la mission concernant les créatures qui errent dans les Champs d'Incarnam.",
+          "position": "[0,-4]",
+          "zoneHint": null,
+          "warning": "Cette quête suit directement Mise à l'épreuve.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans les Champs d'Incarnam, battez une créature de chaque espèce demandée par l'objectif de quête.",
+          "position": null,
+          "zoneHint": "Champs",
+          "warning": "Plusieurs combats contre les créatures de la zone sont nécessaires.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez voir le Capitaine des Kerubims en [0,-4] et annoncez-lui que la mission est accomplie.",
+          "position": "[0,-4]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La fin de la quête débloque Coups d'épée dans l'eau."
+      ],
+      "npcs": [
+        "Capitaine des Kerubims"
+      ],
+      "items": [
+        {
+          "name": "Pétale Diaphane",
+          "itemId": 16513,
+          "imageUrl": "/items/16513.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16513"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 444,
+            "name": "Champs",
+            "coordinates": [
+              "0,-4"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "0,-4"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:909",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/champs-de-bataille.html",
+      "sourceTitle": "Champs de bataille",
+      "sourceHash": "788d367fa407047885b045a861916df503e239f4a3be39a1e3b6e77f4e6d89d6",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Le Capitaine des Kerubims vous demande de calmer les Gloots qui importunent les habitants. Rendez-vous au Lac d'Incarnam et éliminez exactement 2 Petits Gloots, 2 Plikplok et 1 Grand Splatch, puis revenez faire votre rapport en [0,-4].",
+      "recommendedLevel": 6,
+      "prerequisites": [
+        "Champs de bataille."
+      ],
+      "rewards": [
+        "2 867 XP.",
+        "68 Kamas.",
+        "5 x Peau de Gloot."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parlez au Capitaine des Kerubims en [0,-4] pour recevoir la mission concernant les Gloots.",
+          "position": "[0,-4]",
+          "zoneHint": null,
+          "warning": "Cette quête nécessite d'avoir terminé Champs de bataille.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans le Lac d'Incarnam, battez 2 Petits Gloots, 2 Plikplok et 1 Grand Splatch.",
+          "position": null,
+          "zoneHint": "Lac",
+          "warning": "Les quantités demandées sont exactes : 2 Petits Gloots, 2 Plikplok et 1 Grand Splatch.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez auprès du Capitaine en [0,-4] pour lui annoncer que le problème est réglé.",
+          "position": "[0,-4]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La fin de la quête débloque Décime-moi des bouftous."
+      ],
+      "npcs": [
+        "Capitaine des Kerubims"
+      ],
+      "items": [
+        {
+          "name": "Peau de Gloot",
+          "itemId": 16522,
+          "imageUrl": "/items/16522.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16522"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 444,
+            "name": "Champs",
+            "coordinates": [
+              "0,-4"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": []
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "0,-4"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:910",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/coups-deacutepeacutee-dans-leau.html",
+      "sourceTitle": "Coups d'épée dans l'eau",
+      "sourceHash": "8994ea1da3757a8e0e6a89141c6e4c7561cec6709f137848ad5795b3ef85d474",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Le Capitaine vous envoie cette fois dans les Pâturages d'Incarnam afin de pousser les bouftous vers la réincarnation. Battez un bouftou de chaque race demandée par la quête puis revenez en [0,-4] auprès du Capitaine des Kerubims.",
+      "recommendedLevel": 7,
+      "prerequisites": [
+        "Coups d'épée dans l'eau."
+      ],
+      "rewards": [
+        "3 330 XP.",
+        "84 Kamas.",
+        "5 x Laine Céleste."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parlez au Capitaine des Kerubims en [0,-4] pour recevoir la mission concernant les bouftous.",
+          "position": "[0,-4]",
+          "zoneHint": null,
+          "warning": "Cette quête nécessite d'avoir terminé Coups d'épée dans l'eau.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans les Pâturages d'Incarnam, battez un bouftou de chaque race demandée dans l'objectif de quête.",
+          "position": null,
+          "zoneHint": "Pâturages",
+          "warning": "Plusieurs combats contre les bouftous de la zone sont nécessaires.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez voir le Capitaine des Kerubims en [0,-4] après avoir rempli tous les objectifs.",
+          "position": "[0,-4]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La fin de la quête débloque Chasse aux chapardams."
+      ],
+      "npcs": [
+        "Capitaine des Kerubims"
+      ],
+      "items": [
+        {
+          "name": "Laine Céleste",
+          "itemId": 16511,
+          "imageUrl": "/items/16511.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16511"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "0,-4"
+            ]
+          },
+          {
+            "id": 445,
+            "name": "Pâturages",
+            "coordinates": []
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "0,-4"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:911",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/deacutecime-moi-des-bouftous.html",
+      "sourceTitle": "Décime-moi des bouftous",
+      "sourceHash": "74f0948945245869d23cbaafda855a7e2f7e7943dcd144c91b154ddfd1e6b84c",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Les Chapardams commencent à tourmenter les feux spirituels. Pour les intimider avant qu'ils ne s'en prennent aux habitants, éliminez 2 Ronronchons, 2 Tigrimas et 2 Chakrobats, puis retournez auprès du Capitaine des Kerubims en [0,-4].",
+      "recommendedLevel": 8,
+      "prerequisites": [
+        "Décime-moi des bouftous."
+      ],
+      "rewards": [
+        "4 197 XP.",
+        "102 Kamas.",
+        "5 x Queue de Chapardam."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parlez au Capitaine des Kerubims en [0,-4] pour recevoir la mission contre les Chapardams.",
+          "position": "[0,-4]",
+          "zoneHint": null,
+          "warning": "Cette quête nécessite d'avoir terminé Décime-moi des bouftous.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Battez exactement 2 Ronronchons, 2 Tigrimas et 2 Chakrobats.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Les quantités demandées sont exactes : 2 Ronronchons, 2 Tigrimas et 2 Chakrobats.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez faire votre rapport au Capitaine des Kerubims en [0,-4].",
+          "position": "[0,-4]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La fin de la quête débloque Leçon d'humilité."
+      ],
+      "npcs": [
+        "Capitaine des Kerubims"
+      ],
+      "items": [
+        {
+          "name": "Queue de Chapardam",
+          "itemId": 16515,
+          "imageUrl": "/items/16515.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16515"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "0,-4"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "0,-4"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:912",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/chasse-aux-chapardams.html",
+      "sourceTitle": "Chasse aux chapardams",
+      "sourceHash": "9509b23e74dbab73757d910b6dc379d67e5887688a16bd359528f0ed5535f6f8",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Le Capitaine des Kerubims vous demande de neutraliser Kruella Freuz, une Osamodas qui s'en prend aux aventuriers. Rejoignez-la en [1,0], défiez-la et remportez le combat, puis retournez en [0,-4] annoncer votre succès. Cette quête clôt l'étape actuelle de la série avant Des chafers qui marchent.",
+      "recommendedLevel": 8,
+      "prerequisites": [
+        "Chasse aux chapardams."
+      ],
+      "rewards": [
+        "4 197 XP.",
+        "102 Kamas.",
+        "5 x Volve d'Aminite."
+      ],
+      "preparation": [
+        "Prévoir un combat contre Kruella Freuz et son invocation."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez au Capitaine des Kerubims en [0,-4] pour accepter la mission visant Kruella Freuz.",
+          "position": "[0,-4]",
+          "zoneHint": null,
+          "warning": "Cette quête nécessite d'avoir terminé Chasse aux chapardams.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous en [1,0], parlez à Kruella Freuz puis défiez-la.",
+          "position": "[1,0]",
+          "zoneHint": null,
+          "warning": "Combat obligatoire contre une Osamodas. Kruella peut invoquer un Bouftou, augmenter ses dommages de 10 pendant 1 tour et frapper avec Souffle Empoisonné. Son invocation utilise Contusion, qui frappe dans l'élément neutre et applique l'état pesanteur pendant 1 tour.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après avoir vaincu Kruella Freuz, retournez auprès du Capitaine des Kerubims en [0,-4] et annoncez-lui le succès de la mission.",
+          "position": "[0,-4]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La fin de cette quête débloque Des chafers qui marchent, qui appartient à l'étape suivante et n'est donc pas détaillée ici."
+      ],
+      "npcs": [
+        "Capitaine des Kerubims",
+        "Kruella Freuz"
+      ],
+      "items": [
+        {
+          "name": "Volve d'Aminite",
+          "itemId": 16523,
+          "imageUrl": "/items/16523.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16523"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "0,-4"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "1,0",
+              "0,-4"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:913",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/leccedilon-dhumiliteacute.html",
+      "sourceTitle": "Leçon d'humilité",
+      "sourceHash": "673c0c848f172f67c28c3b851057071d606898169e8fa69a3fdbe677d4ed5527",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": []
+}

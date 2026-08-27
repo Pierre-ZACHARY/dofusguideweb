@@ -1,0 +1,1704 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 14,
+  "updatedAt": "2026-08-27T12:53:56.251Z",
+  "summaries": [
+    {
+      "overview": "Vermô vous charge de réunir des Rabmablagues afin d'obtenir l'attitude Facepaume. Après avoir interrogé Kerubim Crépin, vous devrez récupérer les 8 blagues de chacune des 6 variétés de Barres Rabmarac, soit 48 blagues différentes, puis les rapporter au Sanctuaire de l'Almanax. Les barres ordinaires proviennent des monstres du Monde des Douze et les Nougat des boss de donjon.",
+      "recommendedLevel": 10,
+      "prerequisites": [],
+      "rewards": [
+        "5 250 000 XP.",
+        "Attitude : Facepaume.",
+        "Recueil de Rabmablagues."
+      ],
+      "preparation": [
+        "Prévoir des combats contre des monstres du Monde des Douze.",
+        "Prévoir des donjons pour obtenir les Barres Rabmarac Nougat.",
+        "Réunir jusqu'à 48 blagues différentes : 8 pour chacune des 6 variétés de Rabmarac."
+      ],
+      "actions": [
+        {
+          "instruction": "Dans le Sanctuaire de l'Almanax, parler à Vermô, demander des informations sur Rabmarac puis accepter de lui ramener des blagues.",
+          "position": "[-4,-24]",
+          "zoneHint": "Sanctuaire de l'Almanax",
+          "warning": "La quête doit être active pour pouvoir obtenir les Barres Rabmarac sur les monstres et boss concernés.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Se rendre chez Kerubim Crépin et lui demander où trouver des Rabmablagues.",
+          "position": "[3,-17]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Combattre des monstres du Monde des Douze afin d'obtenir des Barres Rabmarac Caramel, Fraise, Citron, Orange et Kola, puis les ouvrir pour révéler leurs blagues.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Il faut obtenir 8 blagues différentes pour chacune de ces 5 variétés. Les doublons peuvent être échangés avec d'autres joueurs.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Affronter des boss de donjon pour tenter d'obtenir des Barres Rabmarac Nougat, dont le taux de base indiqué est de 5 %, puis les ouvrir jusqu'à réunir les 8 blagues Nougat différentes.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Les Barres Rabmarac Nougat proviennent uniquement des boss de donjon lorsque la quête est active.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Retourner auprès de Vermô et lui remettre les blagues réunies. Il est également possible de remettre seulement une série complète parmi les 6 variétés.",
+          "position": "[-4,-24]",
+          "zoneHint": "Sanctuaire de l'Almanax",
+          "warning": "Une fois la quête terminée, vous ne pourrez plus obtenir de Rabmarac par drop.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Confirmer à Vermô que la mission est accomplie afin de terminer la quête et d'obtenir l'attitude Facepaume.",
+          "position": "[-4,-24]",
+          "zoneHint": "Sanctuaire de l'Almanax",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Il existe 6 variétés de Barres Rabmarac : Caramel, Fraise, Citron, Orange, Kola et Nougat.",
+        "Chaque variété possède 8 blagues distinctes, pour un total de 48.",
+        "Les doublons de blagues peuvent être échangés avec d'autres joueurs."
+      ],
+      "npcs": [
+        "Vermô",
+        "Kerubim Crépin"
+      ],
+      "items": [
+        {
+          "name": "Barre Rabmarac Caramel",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Barre Rabmarac Fraise",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Barre Rabmarac Citron",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Barre Rabmarac Orange",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Barre Rabmarac Kola",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Barre Rabmarac Nougat",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Recueil de Rabmablagues",
+          "itemId": 13660,
+          "imageUrl": "/items/13660.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/13660"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "3,-17"
+            ]
+          },
+          {
+            "id": 178,
+            "name": "Plaine des Porkass",
+            "coordinates": [
+              "-4,-24"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          },
+          {
+            "id": 4272,
+            "name": "Bouss Baybe",
+            "level": 50,
+            "imageUrl": "/bestiary/monsters/4272.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2279,
+            "name": "Sampi l'Eternel",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/2279.png"
+          },
+          {
+            "id": 2420,
+            "name": "Cavordemal le Sorcier",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2420.png"
+          },
+          {
+            "id": 2325,
+            "name": "Chonstip la Passagère",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2325.png"
+          },
+          {
+            "id": 2397,
+            "name": "Porfavor le Quémandeur",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2397.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 214,
+            "name": "Porkass",
+            "monsters": [
+              {
+                "id": 344,
+                "name": "Berger Porkass",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/344.png"
+              },
+              {
+                "id": 343,
+                "name": "Cavalier Porkass",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/343.png"
+              },
+              {
+                "id": 297,
+                "name": "Sanglier des Plaines",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/297.png"
+              },
+              {
+                "id": 123,
+                "name": "Cochon de Lait",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/123.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:655",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/du-rire-en-barre.html",
+      "sourceTitle": "Du rire en barre",
+      "sourceHash": "f487b204069e9d445d5278d02996691f77a5f9fb3fa055de5b8613991519f72d",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Kerubim Crépin vous fait découvrir Ecaflipus. Une fois dans la dimension, éliminez 5 Ecaflipuces irritantes réparties sur trois cartes, puis rejoignez Kerubim et utilisez successivement les longues-vues afin d'observer plusieurs lieux d'Ecaflipus. Les combats se font seul et les Ecaflipuces s'adaptent à votre niveau.",
+      "recommendedLevel": null,
+      "prerequisites": [],
+      "rewards": [
+        "2 500 000 XP au niveau 200.",
+        "43 980 kamas au niveau 200."
+      ],
+      "preparation": [
+        "Aucun prérequis indiqué ; la quête et les combats s'adaptent au niveau."
+      ],
+      "actions": [
+        {
+          "instruction": "Lancer la quête auprès de Kerubim Crépin et accepter de visiter Ecaflipus.",
+          "position": "[3,-17]",
+          "zoneHint": null,
+          "warning": "La source précise que la quête ne se lance plus à Incarnam mais dans la maison de Kerubim à Astrub, malgré l'ancienne position de lancement [4,-3] encore indiquée dans ses métadonnées.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Après l'arrivée dans Ecaflipus, parler à l'Ecaflipuce irritante présente sur la première carte et l'attaquer.",
+          "position": null,
+          "zoneHint": "Ecaflipus",
+          "warning": "Combat obligatoire en solo ; le niveau et les statistiques de l'Ecaflipuce dépendent de votre niveau.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Aller sur la carte à gauche et vaincre les 2 Ecaflipuces irritantes qui s'y trouvent.",
+          "position": null,
+          "zoneHint": "Ecaflipus",
+          "warning": "Chaque affrontement est réalisé seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Depuis cette zone, aller sur la carte du haut et vaincre les 2 dernières Ecaflipuces irritantes.",
+          "position": null,
+          "zoneHint": "Ecaflipus",
+          "warning": "Chaque affrontement est réalisé seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Revenir voir Kerubim Crépin après avoir éliminé les 5 Ecaflipuces irritantes.",
+          "position": null,
+          "zoneHint": "Ecaflipus",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Utiliser la longue-vue située auprès de Kerubim pour observer Ecaflipus, puis lui reparler afin d'être téléporté au lieu suivant.",
+          "position": null,
+          "zoneHint": "Ecaflipus",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À la nouvelle position, utiliser de nouveau la longue-vue puis parler à Kerubim pour poursuivre la visite.",
+          "position": null,
+          "zoneHint": "Ecaflipus",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Répéter une dernière fois l'observation avec la longue-vue pour contempler le temple de Kerubim, puis terminer le dialogue avec lui.",
+          "position": null,
+          "zoneHint": "Ecaflipus",
+          "warning": "La fin du dialogue termine la quête et provoque le retour automatique hors de la dimension.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Une Minuscule patte de pupuce est obtenue à la fin de chaque combat.",
+        "Pupulsion donne 100 % de coups critiques pendant un tour à l'Ecaflipuce lorsqu'elle reçoit des dommages.",
+        "Pupussucion irritante inflige des dommages Air en ligne à moyenne portée et vole 1 PM.",
+        "Pupunition irritante inflige des dégâts Neutre au contact."
+      ],
+      "npcs": [
+        "Kerubim Crépin",
+        "Ecaflipuce irritante"
+      ],
+      "items": [
+        {
+          "name": "Minuscule patte de pupuce",
+          "itemId": 17673,
+          "imageUrl": "/items/17673.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17673"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "3,-17"
+            ]
+          },
+          {
+            "id": 479,
+            "name": "Rivière Kawaii",
+            "coordinates": [
+              "4,-3"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2310,
+            "name": "Arakule la Revancharde",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2310.png"
+          },
+          {
+            "id": 2323,
+            "name": "Chamchie le Difficile",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2323.png"
+          },
+          {
+            "id": 2336,
+            "name": "Mosketère le Dévoué",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2336.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 1602,
+            "name": "Vermines des champs",
+            "monsters": [
+              {
+                "id": 4819,
+                "name": "Campagnoll",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/4819.png"
+              },
+              {
+                "id": 59,
+                "name": "Champ Champ",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/59.png"
+              },
+              {
+                "id": 61,
+                "name": "Moskito",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/61.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:951",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/balade-en-ecaflipus.html",
+      "sourceTitle": "Balade en Ecaflipus",
+      "sourceHash": "86f993b043548a73b73bd955e02abdcc0f20bb40d603df3e7bcccdb5e4e80514",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Kerubim Crépin veut remettre en état le plumeau magique servant à nettoyer sa boutique. Vous devez récupérer trois plumes par trois méthodes différentes : battre Gaztronom dans une mine, flatter Herdegrize après sa dédicace, puis enquêter sur Essiac d'Engrape jusqu'à récupérer un balai à la taverne. Rapportez ensuite les trois éléments à Kerubim.",
+      "recommendedLevel": 15,
+      "prerequisites": [],
+      "rewards": [
+        "20 757 XP.",
+        "505 kamas.",
+        "4 x Plume de Piou Vert."
+      ],
+      "preparation": [
+        "Prévoir 1 combat réalisable en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Parler à Kerubim Crépin, l'interroger sur la milice des Kerubims, écouter son histoire puis accepter de l'aider à remplumer son plumeau spécial.",
+          "position": "[3,-17]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrer dans la mine et parler à Gaztronom pour tenter de lui prendre une plume.",
+          "position": "[1,-17]",
+          "zoneHint": "mine",
+          "warning": "Un combat obligatoire se déclenche et peut être réalisé en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, conserver la Plume de Tofu Ranifftou récupérée.",
+          "position": "[1,-17]",
+          "zoneHint": "mine",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Herdegrize, engager la conversation, attendre qu'il sorte son livre et sa plume, applaudir puis souffler sur la page comme demandé pendant la dédicace.",
+          "position": "[7,-19]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparler à Herdegrize, lui demander une plume puis le flatter sans vergogne pour obtenir la Plume de Scribouillard.",
+          "position": "[7,-19]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrer dans la banque et dire à Essiac d'Engrape que vous souhaitez le plumer ; après sa réaction, vous excuser et décider d'interroger Snori Nairb.",
+          "position": "[4,-18]",
+          "zoneHint": "banque",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sortir de la banque et demander à Snori Nairb des renseignements sur Essiac d'Engrape afin d'apprendre l'incident survenu à la taverne.",
+          "position": "[4,-18]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrer dans la taverne, monter au premier étage et récupérer le balai posé contre le mur.",
+          "position": "[6,-18]",
+          "zoneHint": "taverne d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner voir Kerubim Crépin et lui remettre les trois plumes nécessaires au plumeau.",
+          "position": "[3,-17]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La fin de la quête débloque Shushu et Lulu ainsi que Bien velu, c’est Kerubim."
+      ],
+      "npcs": [
+        "Kerubim Crépin",
+        "Gaztronom",
+        "Herdegrize",
+        "Essiac d'Engrape",
+        "Snori Nairb"
+      ],
+      "items": [
+        {
+          "name": "Plume de Tofu Ranifftou",
+          "itemId": 13651,
+          "imageUrl": "/items/13651.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/13651"
+        },
+        {
+          "name": "Plume de Scribouillard",
+          "itemId": 13652,
+          "imageUrl": "/items/13652.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/13652"
+        },
+        {
+          "name": "Balai",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "3,-17",
+              "7,-19",
+              "4,-18"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "1,-17"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "4,-18",
+              "6,-18"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:656",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/scegravene-de-meacutenage.html",
+      "sourceTitle": "Scène de ménage",
+      "sourceHash": "d499cb2cf7bdccd517d0f4f40b5fed89c3605014c447c65e16f0ed52eec4b0ed",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Kerubim Crépin accepte de vous donner ses poils, utilisés pour fabriquer des répliques d'objets légendaires, à condition d'éliminer trois démarcheurs du Xélor Fou. Vous devez vaincre successivement la Xélor Louche, le Xelor Interlope et le Xélor Suspect, puis rapporter leurs Caisses du Xélor Fou à Kerubim. La quête est journalière.",
+      "recommendedLevel": 10,
+      "prerequisites": [
+        "Niveau > 9.",
+        "Être abonné.",
+        "Scène de ménage."
+      ],
+      "rewards": [
+        "2 100 000 XP.",
+        "10 x Poils de Kerubim."
+      ],
+      "preparation": [
+        "Prévoir 3 combats obligatoires en solo."
+      ],
+      "actions": [
+        {
+          "instruction": "Parler à Kerubim Crépin, lui demander comment fabriquer des objets légendaires puis accepter de chasser les trois démarcheurs travaillant pour le Xélor Fou.",
+          "position": "[3,-17]",
+          "zoneHint": null,
+          "warning": "Quête journalière ; elle peut être relancée une fois par jour.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à la Xélor Louche et la combattre afin de mettre fin à son trafic.",
+          "position": "[6,-16]",
+          "zoneHint": null,
+          "warning": "Combat obligatoire en solo.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Parler au Xelor Interlope et le combattre afin de mettre fin à son trafic.",
+          "position": "[-3,-24]",
+          "zoneHint": null,
+          "warning": "Combat obligatoire en solo.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Parler au Xélor Suspect et le combattre afin de mettre fin à son trafic.",
+          "position": "[3,1]",
+          "zoneHint": null,
+          "warning": "Combat obligatoire en solo.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Retourner auprès de Kerubim Crépin et lui remettre les Caisses du Xélor Fou récupérées.",
+          "position": "[3,-17]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les Xélors disposent notamment de Ralentissement Séculaire, Téléportation Séculaire, Flétrissement Séculaire et Gelure Séculaire.",
+        "Flétrissement Séculaire inflige environ 200 dommages Air ; Gelure Séculaire inflige environ 200 dommages Air et retire 2 PA esquivables.",
+        "La récompense de 10 x Poils de Kerubim peut être obtenue à chaque réalisation journalière indiquée par la source."
+      ],
+      "npcs": [
+        "Kerubim Crépin",
+        "Xélor Louche",
+        "Xelor Interlope",
+        "Xélor Suspect"
+      ],
+      "items": [
+        {
+          "name": "Caisses du Xélor Fou",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Poils de Kerubim",
+          "itemId": 13608,
+          "imageUrl": "/items/13608.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/13608"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "3,-17",
+              "6,-16"
+            ]
+          },
+          {
+            "id": 178,
+            "name": "Plaine des Porkass",
+            "coordinates": [
+              "-3,-24"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "3,1"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          },
+          {
+            "id": 4272,
+            "name": "Bouss Baybe",
+            "level": 50,
+            "imageUrl": "/bestiary/monsters/4272.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2279,
+            "name": "Sampi l'Eternel",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/2279.png"
+          },
+          {
+            "id": 2420,
+            "name": "Cavordemal le Sorcier",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2420.png"
+          },
+          {
+            "id": 2325,
+            "name": "Chonstip la Passagère",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2325.png"
+          },
+          {
+            "id": 2397,
+            "name": "Porfavor le Quémandeur",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2397.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 214,
+            "name": "Porkass",
+            "monsters": [
+              {
+                "id": 344,
+                "name": "Berger Porkass",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/344.png"
+              },
+              {
+                "id": 343,
+                "name": "Cavalier Porkass",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/343.png"
+              },
+              {
+                "id": 297,
+                "name": "Sanglier des Plaines",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/297.png"
+              },
+              {
+                "id": 123,
+                "name": "Cochon de Lait",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/123.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:657",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/bien-velu-cest-kerubim.html",
+      "sourceTitle": "Bien velu, c'est Kerubim",
+      "sourceHash": "66ff9f27a9f74436c4ce3dd718eb6c86f8d8158555d6e89ec8829aee0eca0477",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "L'Apprenti d'Otomaï enquête sur une créature qui ravage Astrub. Interrogez plusieurs habitants, récupérez le camouflage d'Unterix Unter, puis placez une série d'appâts menant jusqu'à la mine. Le piège échoue et vous devez combattre la Créature d'Otomaï, qui se révèle être Jykel transformé. Une dernière enquête sur la plasmogrine conclut la quête.",
+      "recommendedLevel": 20,
+      "prerequisites": [],
+      "rewards": [
+        "34 398 XP.",
+        "1 x Cape Rentie."
+      ],
+      "preparation": [
+        "Prévoir 1 x Bière d'Astrub ou 40 kamas pour l'acheter à Tek Abir.",
+        "Prévoir 1 combat réalisable en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Parler à l'Apprenti d'Otomaï et accepter de l'aider à capturer la bête qui terrorise Astrub.",
+          "position": "[2,-21]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Dan Gevo pour recueillir son témoignage sur la créature aperçue dans sa galerie.",
+          "position": "[1,-17]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À la taverne, acheter 1 x Bière d'Astrub à Tek Abir pour 40 kamas puis parler à Acidrik Fenlapanse et lui donner la bière afin de l'interroger sur la Bête d'Astrub.",
+          "position": "[6,-18]",
+          "zoneHint": "taverne d'Astrub",
+          "warning": "Dépense obligatoire de 40 kamas si vous ne possédez pas déjà la Bière d'Astrub.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Badufron afin d'apprendre que la bête a ravagé récoltes, entrepôts, caves et greniers.",
+          "position": "[5,-19]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner voir l'Apprenti d'Otomaï et lui transmettre les témoignages recueillis.",
+          "position": "[2,-21]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller voir Unterix Unter et récupérer le camouflage qu'il a préparé pour le piège.",
+          "position": "[1,-23]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrer dans la mine et donner le piège à l'Apprenti d'Otomaï dans la salle d'entrée.",
+          "position": "[10,-19]",
+          "zoneHint": "mine",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À l'extérieur, placer un appât sur l'os au pied de l'échelle.",
+          "position": "[10,-19]",
+          "zoneHint": null,
+          "warning": "Les cinq appâts extérieurs peuvent être placés dans n'importe quel ordre.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Placer un appât sur le piquet situé en haut de la carrière.",
+          "position": "[9,-19]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Placer un appât sur les trèfles.",
+          "position": "[8,-19]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Placer un appât sur les fleurs blanches.",
+          "position": "[9,-20]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Placer un appât sur les fougères.",
+          "position": "[10,-20]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner dans la mine et placer le dernier appât sur l'amas d'herbe au pied du tonneau de TNT.",
+          "position": "[10,-19]",
+          "zoneHint": "mine",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Se placer sur la dalle pour ouvrir la grille, entrer dans la pièce et parler à Otomaï ; accepter la partie de Jan-Ken-Pon pendant l'attente.",
+          "position": "[10,-19]",
+          "zoneHint": "mine",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Passer dans la salle suivante et parler à l'Apprenti d'Otomaï, puis attaquer la Créature d'Otomaï.",
+          "position": "[10,-19]",
+          "zoneHint": "mine",
+          "warning": "Combat obligatoire réalisable en groupe. La créature est indéplaçable et ses caractéristiques s'adaptent à votre niveau.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, parler à l'Apprenti d'Otomaï puis à Jykel pour apprendre qu'il s'est transformé après avoir modifié et bu une potion prise à Otomaï.",
+          "position": "[10,-19]",
+          "zoneHint": "mine",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparler à l'Apprenti d'Otomaï, puis à Jykel pour confirmer qu'il avait trouvé de la plasmogrine et accepter qu'il vous conduise à son stock.",
+          "position": "[10,-19]",
+          "zoneHint": "mine",
+          "warning": "Le dialogue avec Jykel provoque une téléportation vers une nouvelle carte.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sur la nouvelle carte, parler à Jykel et constater que toute la plasmogrine a disparu.",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparler à l'Apprenti d'Otomaï pour signaler le vol de la plasmogrine et terminer l'enquête pour le moment.",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Haleine de Chachal inflige environ 200 dommages Feu et retire 6 PM esquivables.",
+        "Écrasement Handicapant inflige environ 270 dommages Terre au contact et retire 2 PA esquivables.",
+        "Porter la Cape Rentie confère le titre Apprenti d'Otomaï."
+      ],
+      "npcs": [
+        "Apprenti d'Otomaï",
+        "Dan Gevo",
+        "Tek Abir",
+        "Acidrik Fenlapanse",
+        "Badufron",
+        "Unterix Unter",
+        "Otomaï",
+        "Créature d'Otomaï",
+        "Jykel"
+      ],
+      "items": [
+        {
+          "name": "Bière d'Astrub",
+          "itemId": 6857,
+          "imageUrl": "/items/6857.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6857"
+        },
+        {
+          "name": "Camouflage",
+          "itemId": 2062,
+          "imageUrl": "/items/2062.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2062"
+        },
+        {
+          "name": "Appât",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Plasmogrine",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Cape Rentie",
+          "itemId": 12398,
+          "imageUrl": "/items/12398.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/12398"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "2,-21",
+              "1,-17",
+              "5,-19"
+            ]
+          },
+          {
+            "id": 97,
+            "name": "Forêt d'Astrub",
+            "coordinates": [
+              "1,-23"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "10,-19",
+              "9,-19",
+              "8,-19",
+              "9,-20",
+              "10,-20"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "10,-19"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "6,-18"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          },
+          {
+            "id": 460,
+            "name": "Frakacia Leukocytine",
+            "level": 30,
+            "imageUrl": "/bestiary/monsters/460.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2333,
+            "name": "Milipatte la Griffe",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2333.png"
+          },
+          {
+            "id": 2349,
+            "name": "Preskapwal le Tendancieux",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2349.png"
+          },
+          {
+            "id": 2353,
+            "name": "Sangria le Fruité",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2353.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 4823,
+                "name": "Écurouille",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/4823.png"
+              },
+              {
+                "id": 159,
+                "name": "Milimulou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/159.png"
+              },
+              {
+                "id": 103,
+                "name": "Prespic",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/103.png"
+              },
+              {
+                "id": 104,
+                "name": "Sanglier",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/104.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:474",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/attention-a-la-bete.html",
+      "sourceTitle": "Attention à la Bête !",
+      "sourceHash": "9e189abb71e4d7255bf5368cdc0b70305dba3bc60b4996ebcc865ae56abd048a",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "La Conseillère Archie vous envoie près du lac d'Astrub, où Didier Jean prétend posséder les lieux grâce à un acte douteux. L'enquête vous mène de la taverne à Camille Démouleur, puis à la banque et à la bibliothèque. Vous découvrez que le prétendu notaire utilise plusieurs identités et semble lié à diverses escroqueries. La quête s'achève auprès de Kaulysse Himo et mène directement à Six pieds sous terre.",
+      "recommendedLevel": 15,
+      "prerequisites": [
+        "Les principes d'Archie m'aident."
+      ],
+      "rewards": [
+        "10 378 XP.",
+        "252 kamas.",
+        "4 x Plume de Piou Jaune."
+      ],
+      "preparation": [
+        "Prévoir 1 combat obligatoire en solo."
+      ],
+      "actions": [
+        {
+          "instruction": "Parler à la Conseillère Archie et accepter son conseil d'aller visiter l'étang d'Astrub.",
+          "position": "[4,-19]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aux abords du lac, parler à Didier Jean puis au Mercenaire agacé afin de comprendre le conflit de propriété.",
+          "position": "[2,-20]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparler à Didier Jean pour tenter de régler la situation et examiner son affirmation selon laquelle un notaire lui aurait cédé le terrain.",
+          "position": "[2,-20]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner voir la Conseillère Archie, lui exposer l'affaire et accepter de ramener les intéressés pour examiner les documents.",
+          "position": "[4,-19]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner auprès de Didier Jean, lui proposer d'aller voir Archie et lui demander où trouver le prétendu notaire.",
+          "position": "[2,-20]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À la taverne, parler à Tek Abir en décrivant Maître Larry Heux sans le nommer afin d'apprendre que l'homme se faisait passer pour le Duc de Sidimote et que son serviteur est encore en ville.",
+          "position": "[6,-18]",
+          "zoneHint": "taverne d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller voir Camille Démouleur, puis parler au Gredin Crâ et s'interposer pour libérer Camille de ses agresseurs.",
+          "position": "[4,-17]",
+          "zoneHint": null,
+          "warning": "Combat obligatoire en solo contre deux Iops et un Crâ.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après le combat, reparler à Camille Démouleur pour apprendre que son maître a traité une affaire importante avec les Banquiers.",
+          "position": "[4,-17]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrer dans la banque et interroger Al Etsop sur le Duc de Sidimote. Écouter ensuite Delcour Vitt, qui signale une nouvelle victime potentielle.",
+          "position": "[4,-18]",
+          "zoneHint": "banque",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Aisling de l'escroquerie concernant les livres anciens qu'elle a achetés et qui sont arrivés en très mauvais état.",
+          "position": "[7,-19]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Rodrigue Olpa, apparu sur place, afin d'apprendre qu'il recherche l'ambassadeur Kiefer Rayro, qui correspond au même escroc sous une autre identité.",
+          "position": "[7,-19]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Kaulysse Himo pour apprendre qu'elle a réceptionné la marchandise au zaap.",
+          "position": "[7,-19]",
+          "zoneHint": null,
+          "warning": "La quête se termine ici ; poursuivre immédiatement la conversation avec Kaulysse Himo lance la quête suivante, Six pieds sous terre.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le Gredin Crâ utilise Trait Magique, qui inflige des dommages Feu et vole 2 PO pendant 1 tour.",
+        "Les Iops utilisent notamment Tension, qui applique 15 % d'érosion pendant 2 tours, et Lame Divine.",
+        "Le suspect recherché est associé à plusieurs identités, dont Maître Larry Heux, Duc de Sidimote et Kiefer Rayro."
+      ],
+      "npcs": [
+        "Conseillère Archie",
+        "Didier Jean",
+        "Mercenaire agacé",
+        "Tek Abir",
+        "Camille Démouleur",
+        "Gredin Crâ",
+        "Al Etsop",
+        "Delcour Vitt",
+        "Aisling",
+        "Rodrigue Olpa",
+        "Kaulysse Himo"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "4,-19",
+              "2,-20",
+              "4,-17",
+              "4,-18",
+              "7,-19"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "2,-20",
+              "7,-19"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "2,-20",
+              "4,-19",
+              "7,-19"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "6,-18"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1197",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/ca-tombe-a-l-eau.html",
+      "sourceTitle": "Ça tombe à l'eau",
+      "sourceHash": "4b450f7ec7fce94381d4163588aa38d02cd5352fd43b971e99fc8f6d153e9c7f",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Regrouper le passage à la taverne",
+      "description": "Scène de ménage, Attention à la Bête ! et Ça tombe à l'eau comportent toutes une action à la taverne d'Astrub en [6,-18]. Si leurs objectifs correspondants sont déjà actifs, profitez d'un même passage pour avancer les trois quêtes avant de repartir dans Astrub.",
+      "questKeys": [
+        "quest:656",
+        "quest:474",
+        "quest:1197"
+      ],
+      "actions": [
+        "Pour quest:656, monter au premier étage et récupérer le balai contre le mur lorsque l'enquête sur Essiac d'Engrape vous y envoie.",
+        "Pour quest:474, acheter 1 x Bière d'Astrub à Tek Abir pour 40 kamas si nécessaire, puis la donner à Acidrik Fenlapanse.",
+        "Pour quest:1197, interroger Tek Abir sur la personne correspondant à la description de Maître Larry Heux."
+      ]
+    }
+  ]
+}

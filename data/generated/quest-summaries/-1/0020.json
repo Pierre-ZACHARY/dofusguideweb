@@ -1,0 +1,654 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 20,
+  "updatedAt": "2026-08-27T12:53:57.608Z",
+  "summaries": [
+    {
+      "overview": "Badufron vous confie quatre missions de mercenaire à accomplir auprès de quatre habitants d'Astrub et de ses environs. La quête reste ouverte pendant que vous terminez Les as de la cambriole, Déjeuner à la fourchette, Comme un pichon hors de l'eau et La coupe des vices, puis se conclut en faisant votre rapport à Badufron.",
+      "recommendedLevel": 20,
+      "prerequisites": [
+        "Niveau recommandé : 20-40.",
+        "Avoir terminé Bière qui roule n'amasse pas mousse."
+      ],
+      "rewards": [
+        "254 268 XP.",
+        "4 760 kamas.",
+        "4 x Antennes de Vilinsekt.",
+        "Déblocage du succès Mercenaire d’acier."
+      ],
+      "preparation": [
+        "Prévoir de réaliser quatre quêtes distinctes avant de pouvoir rendre Combat de rue."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Badufron, acceptez de poursuivre les missions et prenez la liste des personnes à aider.",
+          "position": "[5,-19]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": "Cette quête exige l'accomplissement de quatre autres quêtes avant son rendu.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Cindy Cah et accomplissez la quête Les as de la cambriole.",
+          "position": "[5,-17]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Vaiguy et accomplissez la quête Déjeuner à la fourchette.",
+          "position": "[5,-22]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Bart Cousti et accomplissez la quête Comme un pichon hors de l'eau.",
+          "position": "[11,-24]",
+          "zoneHint": "Calanques d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Jeffrey Baratourte et accomplissez la quête La coupe des vices.",
+          "position": "[2,-31]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Lorsque les quatre missions sont terminées, retournez auprès de Badufron et faites-lui votre rapport pour achever la quête.",
+          "position": "[5,-19]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": "Le rendu n'est possible qu'après validation des quatre quêtes demandées.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Comme un pichon hors de l'eau constitue l'une des quatre étapes nécessaires à Combat de rue.",
+        "Les trois autres quêtes demandées ne disposent pas de contenu source dans l'étape actuelle et ne sont donc pas détaillées ici."
+      ],
+      "npcs": [
+        "Badufron",
+        "Cindy Cah",
+        "Vaiguy",
+        "Bart Cousti",
+        "Jeffrey Baratourte"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 335,
+            "name": "Calanques d'Astrub",
+            "coordinates": [
+              "11,-24"
+            ]
+          },
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "5,-19",
+              "5,-17",
+              "5,-22"
+            ]
+          },
+          {
+            "id": 30,
+            "name": "Tainéla",
+            "coordinates": [
+              "2,-31"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2272,
+            "name": "Pichakoté le Dégoutant",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2272.png"
+          },
+          {
+            "id": 2338,
+            "name": "Pichdourse le Puissant",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2338.png"
+          },
+          {
+            "id": 2346,
+            "name": "Pichduitre le Totem",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2346.png"
+          },
+          {
+            "id": 2340,
+            "name": "Pichtoire l'Erudit",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2340.png"
+          },
+          {
+            "id": 2315,
+            "name": "Boudalf le Blanc",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2315.png"
+          },
+          {
+            "id": 2317,
+            "name": "Boufdégou le Refoulant",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2317.png"
+          },
+          {
+            "id": 2324,
+            "name": "Bouflet le Puéril",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2324.png"
+          },
+          {
+            "id": 2316,
+            "name": "Boulgourvil le Lointain",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2316.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 200,
+            "name": "Bouftous",
+            "monsters": [
+              {
+                "id": 134,
+                "name": "Boufton Blanc",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/134.png"
+              },
+              {
+                "id": 149,
+                "name": "Boufton Noir",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/149.png"
+              },
+              {
+                "id": 148,
+                "name": "Chef de Guerre Bouftou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/148.png"
+              },
+              {
+                "id": 101,
+                "name": "Bouftou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/101.png"
+              }
+            ]
+          },
+          {
+            "id": 209,
+            "name": "Pichons",
+            "monsters": [
+              {
+                "id": 922,
+                "name": "Pichon Blanc",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/922.png"
+              },
+              {
+                "id": 921,
+                "name": "Pichon Bleu",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/921.png"
+              },
+              {
+                "id": 920,
+                "name": "Pichon Orange",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/920.png"
+              },
+              {
+                "id": 923,
+                "name": "Pichon Vert",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/923.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1201",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/combat-de-rue.html",
+      "sourceTitle": "Combat de rue",
+      "sourceHash": "b655d9f4748ee4dc56fd91079f6fc1ac038c34e5b8317eb8bfc97946c1454d9c",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Emma Tompouce vous demande de vérifier si un gardien de donjon pourrait détenir un Dofus. Votre mission consiste à terminer le Château Ensablé et à vaincre Mob l’Éponge, puis à retourner lui faire votre rapport à Astrub.",
+      "recommendedLevel": 20,
+      "prerequisites": [
+        "Niveau supérieur à 19."
+      ],
+      "rewards": [
+        "82 555 XP.",
+        "1 872 kamas.",
+        "Déblocage de la quête Donjon Rikiki."
+      ],
+      "preparation": [
+        "Prévoir de réaliser le donjon Château Ensablé."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Emma Tompouce, demandez ce qu'elle fait ici puis acceptez de l'aider à enquêter sur les gardiens de donjons.",
+          "position": "[1,-15]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au Château Ensablé et terminez le donjon en vainquant Mob l’Éponge.",
+          "position": "[13,-28]",
+          "zoneHint": null,
+          "warning": "La progression impose de terminer le donjon Château Ensablé.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez voir Emma Tompouce et faites-lui votre rapport sur le Château Ensablé pour terminer la quête.",
+          "position": "[1,-15]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête suivante, Donjon Rikiki, ne doit être lancée qu'après avoir terminé Donjon en mousse."
+      ],
+      "npcs": [
+        "Emma Tompouce",
+        "Mob l’Éponge"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 336,
+            "name": "Château Ensablé",
+            "coordinates": [
+              "13,-28"
+            ]
+          },
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "1,-15"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 209,
+            "name": "Pichons",
+            "monsters": [
+              {
+                "id": 922,
+                "name": "Pichon Blanc",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/922.png"
+              },
+              {
+                "id": 921,
+                "name": "Pichon Bleu",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/921.png"
+              },
+              {
+                "id": 924,
+                "name": "Pichon Kloune",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/924.png"
+              },
+              {
+                "id": 920,
+                "name": "Pichon Orange",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/920.png"
+              },
+              {
+                "id": 923,
+                "name": "Pichon Vert",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/923.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:598",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/donjon-en-mousse.html",
+      "sourceTitle": "Donjon en mousse",
+      "sourceHash": "852b3f6b99cb0a71987bde09ba86647a069c9b910358890b2847b85352e92b40",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Bart Cousti vous charge de réduire la population de pichons dans les Calanques d'Astrub. Vous devez vaincre trois exemplaires de chacune des quatre variantes demandées, puis revenir le voir. Il vous remet alors une Clef du Château Ensablé et valide cette partie de Combat de rue.",
+      "recommendedLevel": 20,
+      "prerequisites": [
+        "Niveau recommandé : 20.",
+        "Avoir lancé Combat de rue."
+      ],
+      "rewards": [
+        "34 398 XP.",
+        "780 kamas.",
+        "1 x Clef du Château Ensablé.",
+        "Validation d'une étape de Combat de rue."
+      ],
+      "preparation": [
+        "Prévoir des combats contre les monstres des Calanques d'Astrub."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Bart Cousti et acceptez de réguler la population de pichons.",
+          "position": "[11,-24]",
+          "zoneHint": "Calanques d'Astrub",
+          "warning": "Combat de rue doit être lancé avant de pouvoir effectuer cette mission.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans les Calanques d'Astrub, vainquez 3 x Pichon Blanc, 3 x Pichon Bleu, 3 x Pichon Orange et 3 x Pichon Vert.",
+          "position": null,
+          "zoneHint": "Calanques d'Astrub",
+          "warning": "Les quatre séries de trois pichons doivent toutes être complétées.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez auprès de Bart Cousti pour annoncer que les pichons demandés ont été vaincus et récupérer la Clef du Château Ensablé.",
+          "position": "[11,-24]",
+          "zoneHint": "Calanques d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Cette quête est l'une des quatre missions nécessaires à Combat de rue.",
+        "La Clef du Château Ensablé obtenue en récompense est utile pour le donjon demandé par Donjon en mousse."
+      ],
+      "npcs": [
+        "Bart Cousti"
+      ],
+      "items": [
+        {
+          "name": "Clef du Château Ensablé",
+          "itemId": 8437,
+          "imageUrl": "/items/8437.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8437"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 335,
+            "name": "Calanques d'Astrub",
+            "coordinates": [
+              "11,-24"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2272,
+            "name": "Pichakoté le Dégoutant",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2272.png"
+          },
+          {
+            "id": 2338,
+            "name": "Pichdourse le Puissant",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2338.png"
+          },
+          {
+            "id": 2346,
+            "name": "Pichduitre le Totem",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2346.png"
+          },
+          {
+            "id": 2340,
+            "name": "Pichtoire l'Erudit",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2340.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 209,
+            "name": "Pichons",
+            "monsters": [
+              {
+                "id": 922,
+                "name": "Pichon Blanc",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/922.png"
+              },
+              {
+                "id": 921,
+                "name": "Pichon Bleu",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/921.png"
+              },
+              {
+                "id": 920,
+                "name": "Pichon Orange",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/920.png"
+              },
+              {
+                "id": 923,
+                "name": "Pichon Vert",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/923.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1202",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/comme-un-pichon-hors-de-l-eau.html",
+      "sourceTitle": "Comme un pichon hors de l'eau",
+      "sourceHash": "2699e819a0c86dc27c995fae697bde1583e635247bfd54fa9c77265757b66566",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Enchaîner les Calanques et le Château Ensablé",
+      "description": "Terminez d'abord Comme un pichon hors de l'eau : son rendu fournit une Clef du Château Ensablé. Vous pouvez ensuite poursuivre directement avec Donjon en mousse, qui demande précisément de terminer ce donjon et de vaincre Mob l’Éponge.",
+      "questKeys": [
+        "quest:1202",
+        "quest:598"
+      ],
+      "actions": [
+        "Validez les 12 pichons requis pour quest:1202 et rendez la quête à Bart Cousti en [11,-24].",
+        "Récupérez la Clef du Château Ensablé.",
+        "Enchaînez avec le Château Ensablé en [13,-28] pour avancer quest:598."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1222 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 9,
+  "updatedAt": "2026-08-27T12:53:54.559Z",
+  "summaries": [
+    {
+      "overview": "Berb Nhin poursuit l'apprentissage des métiers avec la chasse. Équipez le Couteau de chasse de Berb Nhin, obtenez 1 Viande Intangible sur une créature d'Incarnam, puis transformez-la en Bouillon de chair à l'atelier des chasseurs avant de revenir auprès de Berb.",
+      "recommendedLevel": 1,
+      "prerequisites": [
+        "Niveau 1 ou +.",
+        "Produits naturels."
+      ],
+      "rewards": [
+        "2 146 XP.",
+        "52 Kamas.",
+        "5 x Plume Chimérique.",
+        "5 x Laine Céleste."
+      ],
+      "preparation": [
+        "Prévoir 1 x Viande Intangible, obtenue en combattant des créatures d'Incarnam avec le couteau de chasse équipé.",
+        "Libérer l'emplacement d'arme de corps à corps pour équiper le Couteau de chasse de Berb Nhin."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Berb Nhin devant la taverne. Il vous confie 1 x Couteau de chasse de Berb Nhin pour apprendre à récupérer de la viande sur les créatures.",
+          "position": "[0,-3]",
+          "zoneHint": null,
+          "warning": "Condition : avoir terminé Produits naturels.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Équipez le Couteau de chasse de Berb Nhin à la place de votre arme de corps à corps, puis affrontez des créatures d'Incarnam jusqu'à obtenir 1 x Viande Intangible.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Le couteau doit être équipé au moment des combats. La Viande Intangible a un taux de base indiqué de 59 %.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Entrez dans l'atelier des chasseurs, utilisez le Plan de Travail avec l'option « Préparer une viande » et fabriquez 1 x Bouillon de chair avec 1 x Viande Intangible.",
+          "position": "[-1,-2]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Berb Nhin et montrez-lui le Bouillon de chair pour terminer la quête.",
+          "position": "[0,-3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Après la validation, continuer la conversation avec Berb Nhin permet d'enchaîner immédiatement sur La hache et la pioche.",
+        "Plus tard, une arme de corps à corps peut être transformée en arme de chasse ; ce n'est pas nécessaire pour cette quête."
+      ],
+      "npcs": [
+        "Berb Nhin"
+      ],
+      "items": [
+        {
+          "name": "Couteau de chasse de Berb Nhin",
+          "itemId": 30832,
+          "imageUrl": "/items/30832.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/30832"
+        },
+        {
+          "name": "Viande Intangible",
+          "itemId": 16663,
+          "imageUrl": "/items/16663.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16663"
+        },
+        {
+          "name": "Bouillon de chair",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "0,-3"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "0,-3"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "-1,-2"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1459",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-metier-des-aventuriers.html",
+      "sourceTitle": "Le métier des aventuriers",
+      "sourceHash": "190d25f8dcd329c8530c19dbc47b1996b385df5311d2e8cf9fd12ca731dd71b6",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Berb Nhin demande cette fois de travailler comme bûcheron et mineur. Réunissez 10 Bois de Frêne et 10 Fer, fabriquez 1 Ferrite à l'atelier des mineurs et 1 Planche Agglomérée à l'atelier des bûcherons, puis rapportez les deux créations.",
+      "recommendedLevel": 6,
+      "prerequisites": [
+        "Niveau recommandé 6.",
+        "Le métier des aventuriers."
+      ],
+      "rewards": [
+        "2 893 XP.",
+        "68 Kamas.",
+        "5 x Volve d'Aminite.",
+        "5 x Feu Intérieur."
+      ],
+      "preparation": [
+        "10 x Bois de Frêne.",
+        "10 x Fer."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Berb Nhin pour recevoir la demande de fabriquer 1 x Planche Agglomérée et 1 x Ferrite.",
+          "position": "[0,-3]",
+          "zoneHint": null,
+          "warning": "Condition : avoir terminé Le métier des aventuriers.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récoltez 10 x Bois de Frêne. Le Frêne est disponible dans la Forêt d'Incarnam ; les ressources peuvent aussi être achetées à l'HDV des bûcherons à Astrub.",
+          "position": null,
+          "zoneHint": "Forêt d'Incarnam",
+          "warning": "Un achat en HDV entraîne une dépense variable en kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la mine d'Incarnam par l'une des entrées situées en [2,-4] ou [3,-4], puis récoltez 10 x Fer. Le Fer peut aussi être acheté à l'HDV mineur à Astrub.",
+          "position": null,
+          "zoneHint": "mine d'Incarnam",
+          "warning": "Un achat en HDV entraîne une dépense variable en kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Après être sorti de la mine, rendez-vous à l'atelier des mineurs et utilisez le Moule pour transformer 10 x Fer en 1 x Ferrite.",
+          "position": "[2,-4]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à l'atelier des bûcherons et utilisez la Scie pour transformer 10 x Bois de Frêne en 1 x Planche Agglomérée.",
+          "position": "[2,-2]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rapportez la Ferrite et la Planche Agglomérée à Berb Nhin pour terminer la quête.",
+          "position": "[0,-3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le niveau 1 des métiers concernés suffit pour effectuer les fabrications demandées.",
+        "Après la validation, la suite de la série est Boune un jour, boune toujours."
+      ],
+      "npcs": [
+        "Berb Nhin"
+      ],
+      "items": [
+        {
+          "name": "Bois de Frêne",
+          "itemId": 303,
+          "imageUrl": "/items/303.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/303"
+        },
+        {
+          "name": "Fer",
+          "itemId": 312,
+          "imageUrl": "/items/312.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/312"
+        },
+        {
+          "name": "Ferrite",
+          "itemId": 16440,
+          "imageUrl": "/items/16440.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16440"
+        },
+        {
+          "name": "Planche Agglomérée",
+          "itemId": 16489,
+          "imageUrl": "/items/16489.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16489"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 443,
+            "name": "Forêt",
+            "coordinates": []
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "0,-3",
+              "2,-4",
+              "3,-4"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "2,-2"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:916",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-hache-et-la-pioche.html",
+      "sourceTitle": "La hache et la pioche",
+      "sourceHash": "14902f61b92e1c547d832e7d78d09232a012953e7ff6fe9ad55252968991f315",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Berb Nhin vous demande de fabriquer les six pièces de la panoplie du Boune. Réunissez les ressources nécessaires par récolte, combats ou achat, puis utilisez successivement les ateliers des bijoutiers, cordonniers et tailleurs avant de présenter la panoplie complète à Berb.",
+      "recommendedLevel": 7,
+      "prerequisites": [
+        "Niveau recommandé 7.",
+        "La hache et la pioche."
+      ],
+      "rewards": [
+        "6 724 XP.",
+        "169 Kamas.",
+        "5 x Cendres Éternelles.",
+        "5 x Queue de Chapardam."
+      ],
+      "preparation": [
+        "4 x Ortie.",
+        "4 x Goujon.",
+        "4 x Blé.",
+        "2 x Plume Chimérique.",
+        "2 x Feu Intérieur.",
+        "2 x Pétale Diaphane.",
+        "2 x Peau de Gloot.",
+        "2 x Cendres Éternelles.",
+        "2 x Laine Céleste."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Berb Nhin. Il vous demande de fabriquer les six équipements constituant la panoplie du Boune.",
+          "position": "[0,-3]",
+          "zoneHint": null,
+          "warning": "Condition : avoir terminé La hache et la pioche.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Réunissez 4 x Ortie, 4 x Goujon et 4 x Blé par récolte, stock personnel ou achat. Les Orties poussent partout à Incarnam sauf dans le cimetière, avec davantage de plants dans la Forêt.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Toutes les ressources peuvent être achetées en HDV ou à d'autres joueurs, ce qui entraîne une dépense variable en kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Obtenez 2 x Cendres Éternelles sur les monstres de la Route des âmes ou de la Forêt d'Incarnam ; le taux de base indiqué est de 48 à 49 %.",
+          "position": null,
+          "zoneHint": "Route des âmes",
+          "warning": "Des combats sont nécessaires si vous ne passez pas par l'achat.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Obtenez 2 x Feu Intérieur sur les créatures de la Route des âmes ; le taux de base indiqué est de 49 %.",
+          "position": null,
+          "zoneHint": "Route des âmes",
+          "warning": "Des combats sont nécessaires si vous ne passez pas par l'achat.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Obtenez 2 x Laine Céleste sur les Bouftous des Pâturages d'Incarnam ; le taux de base indiqué est de 48 %.",
+          "position": null,
+          "zoneHint": "Pâturages d'Incarnam",
+          "warning": "Des combats sont nécessaires si vous ne passez pas par l'achat.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Obtenez 2 x Peau de Gloot sur les monstres de la zone du Lac ; le taux de base indiqué est de 48 à 49 %.",
+          "position": null,
+          "zoneHint": "Lac d'Incarnam",
+          "warning": "Des combats sont nécessaires si vous ne passez pas par l'achat.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Obtenez 2 x Pétale Diaphane sur les monstres des Champs d'Incarnam ; le taux de base indiqué est de 48 à 49 %.",
+          "position": null,
+          "zoneHint": "Champs d'Incarnam",
+          "warning": "Des combats sont nécessaires si vous ne passez pas par l'achat.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Obtenez 2 x Plume Chimérique sur des Tofus Chimériques des Champs d'Incarnam ; le taux de base indiqué est de 49 %.",
+          "position": null,
+          "zoneHint": "Champs d'Incarnam",
+          "warning": "Les Plumes Chimériques indiquées ici proviennent uniquement du Tofu Chimérique si vous les récupérez par combat.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "À l'atelier des bijoutiers, fabriquez Le S'Mesme avec 2 x Goujon et 2 x Plume Chimérique, puis Le Plussain avec 2 x Blé et 2 x Feu Intérieur.",
+          "position": "[1,-4]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À l'atelier des cordonniers, utilisez la Table de confection pour fabriquer Les Incrustes avec 2 x Goujon et 2 x Pétale Diaphane, puis La Spamette avec 2 x Peau de Gloot et 2 x Ortie.",
+          "position": "[0,-2]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans l'atelier des tailleurs situé à la même position, utilisez la machine à coudre pour fabriquer La Cape S'loque avec 2 x Blé et 2 x Cendres Éternelles, puis Le Floude avec 2 x Laine Céleste et 2 x Ortie.",
+          "position": "[0,-2]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Une fois les six pièces fabriquées, retournez auprès de Berb Nhin pour lui présenter la panoplie complète et terminer la quête.",
+          "position": "[0,-3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les métiers de niveau 1 suffisent pour les fabrications demandées.",
+        "La quête débloque ensuite Préparation au combat."
+      ],
+      "npcs": [
+        "Berb Nhin"
+      ],
+      "items": [
+        {
+          "name": "Ortie",
+          "itemId": 421,
+          "imageUrl": "/items/421.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/421"
+        },
+        {
+          "name": "Goujon",
+          "itemId": 1782,
+          "imageUrl": "/items/1782.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1782"
+        },
+        {
+          "name": "Blé",
+          "itemId": 289,
+          "imageUrl": "/items/289.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/289"
+        },
+        {
+          "name": "Plume Chimérique",
+          "itemId": 16512,
+          "imageUrl": "/items/16512.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16512"
+        },
+        {
+          "name": "Feu Intérieur",
+          "itemId": 16518,
+          "imageUrl": "/items/16518.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16518"
+        },
+        {
+          "name": "Pétale Diaphane",
+          "itemId": 16513,
+          "imageUrl": "/items/16513.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16513"
+        },
+        {
+          "name": "Peau de Gloot",
+          "itemId": 16522,
+          "imageUrl": "/items/16522.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16522"
+        },
+        {
+          "name": "Cendres Éternelles",
+          "itemId": 1984,
+          "imageUrl": "/items/1984.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1984"
+        },
+        {
+          "name": "Laine Céleste",
+          "itemId": 16511,
+          "imageUrl": "/items/16511.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16511"
+        },
+        {
+          "name": "Le S'Mesme",
+          "itemId": 8538,
+          "imageUrl": "/items/8538.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8538"
+        },
+        {
+          "name": "Le Plussain",
+          "itemId": 8537,
+          "imageUrl": "/items/8537.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8537"
+        },
+        {
+          "name": "Les Incrustes",
+          "itemId": 8535,
+          "imageUrl": "/items/8535.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8535"
+        },
+        {
+          "name": "La Spamette",
+          "itemId": 8536,
+          "imageUrl": "/items/8536.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8536"
+        },
+        {
+          "name": "La Cape S'loque",
+          "itemId": 8534,
+          "imageUrl": "/items/8534.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8534"
+        },
+        {
+          "name": "Le Floude",
+          "itemId": 8533,
+          "imageUrl": "/items/8533.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8533"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 444,
+            "name": "Champs",
+            "coordinates": []
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": []
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "0,-3"
+            ]
+          },
+          {
+            "id": 445,
+            "name": "Pâturages",
+            "coordinates": []
+          },
+          {
+            "id": 450,
+            "name": "Route des âmes",
+            "coordinates": []
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "1,-4",
+              "0,-2"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:917",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/boune-un-jour-boune-toujours.html",
+      "sourceTitle": "Boune un jour, boune toujours",
+      "sourceHash": "a97d9ee3a9cd0fd9ecae27c7542a5ba2229a5372cac9c276caf5d1c42daae6a7",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Ternette Nhin vous initie au fonctionnement des zaaps. Rendez-vous au zaap des Pâturages pour interroger Xélora Fistol, examinez le zaap, puis revenez auprès de Ternette à pied ou grâce au réseau de zaaps.",
+      "recommendedLevel": 3,
+      "prerequisites": [
+        "Niveau recommandé 3."
+      ],
+      "rewards": [
+        "556 XP.",
+        "24 Kamas.",
+        "5 x Pétale Diaphane."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parlez à Ternette Nhin et indiquez que vous êtes pressé de découvrir Incarnam. Elle vous explique les principes des zaaps et vous envoie rencontrer Xélora Fistol.",
+          "position": "[-1,-3]",
+          "zoneHint": null,
+          "warning": "Les voyages par zaap peuvent coûter des kamas et un zaap de destination doit avoir été découvert auparavant.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au zaap des Pâturages et parlez à Xélora Fistol pour l'interroger sur l'origine et le fonctionnement des zaaps.",
+          "position": "[2,-5]",
+          "zoneHint": "Pâturages d'Incarnam",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Examinez le zaap en cliquant dessus après la discussion avec Xélora.",
+          "position": "[2,-5]",
+          "zoneHint": "Pâturages d'Incarnam",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Ternette Nhin, soit à pied, soit en utilisant le zaap, puis racontez-lui votre rencontre avec Xélora pour terminer la quête.",
+          "position": "[-1,-3]",
+          "zoneHint": null,
+          "warning": "Le retour par zaap peut entraîner une dépense en kamas ; le trajet à pied évite ce coût.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête explique que la distance influe sur le prix d'un trajet en zaap.",
+        "Après la validation, continuer avec Ternette permet d'enchaîner sur Des vestiges de légende."
+      ],
+      "npcs": [
+        "Ternette Nhin",
+        "Xélora Fistol"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-1,-3"
+            ]
+          },
+          {
+            "id": 445,
+            "name": "Pâturages",
+            "coordinates": [
+              "2,-5"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "-1,-3"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:905",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/transport-peu-commun.html",
+      "sourceTitle": "Transport peu commun",
+      "sourceHash": "850f7aad54df6078a5f10c3612307463dd40573ac9e6db2b1e37450f007cacac",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Ternette Nhin vous demande d'observer cinq vestiges laissés par les Dieux. Il faut valider un vestige dans chacune des cinq zones demandées d'Incarnam. Un parcours possible passe par les vestiges de Sacrieur, Crâ, Pandawa, Ecaflip et Féca avant le retour auprès de Ternette.",
+      "recommendedLevel": 5,
+      "prerequisites": [
+        "Niveau recommandé 5.",
+        "Transport peu commun."
+      ],
+      "rewards": [
+        "2 127 XP.",
+        "52 Kamas.",
+        "5 x Bave de Bouftou."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parlez à Ternette Nhin. Elle vous demande de découvrir cinq vestiges divins répartis dans cinq zones différentes d'Incarnam.",
+          "position": "[-1,-3]",
+          "zoneHint": null,
+          "warning": "Condition : avoir terminé Transport peu commun. Il faut valider cinq zones différentes ; visiter davantage de vestiges est facultatif.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Observez les vestiges du Dieu Sacrieur près du lac.",
+          "position": "[-2,-2]",
+          "zoneHint": "Lac d'Incarnam",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Observez les vestiges de Crâ dans la forêt.",
+          "position": "[1,-1]",
+          "zoneHint": "Forêt d'Incarnam",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Observez les vestiges de Pandawa à la taverne, sur la Route des âmes.",
+          "position": "[0,-3]",
+          "zoneHint": "Route des âmes",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Observez les vestiges d'Ecaflip dans les champs.",
+          "position": "[0,-5]",
+          "zoneHint": "Champs d'Incarnam",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Observez les vestiges de Féca dans les pâturages.",
+          "position": "[1,-5]",
+          "zoneHint": "Pâturages d'Incarnam",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Ternette Nhin et annoncez-lui avoir découvert au moins cinq vestiges répondant à la répartition demandée.",
+          "position": "[-1,-3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les cinq vestiges indiqués constituent un exemple de parcours ; d'autres vestiges conviennent si les cinq zones exigées sont bien représentées.",
+        "Après la validation, continuer la conversation avec Ternette débloque Vu du ciel."
+      ],
+      "npcs": [
+        "Ternette Nhin"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 444,
+            "name": "Champs",
+            "coordinates": [
+              "0,-5"
+            ]
+          },
+          {
+            "id": 443,
+            "name": "Forêt",
+            "coordinates": [
+              "1,-1"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "-2,-2"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-1,-3"
+            ]
+          },
+          {
+            "id": 445,
+            "name": "Pâturages",
+            "coordinates": [
+              "1,-5"
+            ]
+          },
+          {
+            "id": 450,
+            "name": "Route des âmes",
+            "coordinates": [
+              "0,-3"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "-1,-3"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:906",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/des-vestiges-de-leacutegende.html",
+      "sourceTitle": "Des vestiges de légende",
+      "sourceHash": "97935bfe72cac40a178fe7fad053d2659e0cc48d3d93e8c27992c77bc6982b26",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Ternette Nhin vous envoie observer le Monde des Douze grâce aux lunettes de Matu Vuh au nord d'Incarnam puis de Galilea au sud. Consultez toutes les vues demandées auprès des deux observateurs avant de revenir auprès de Ternette.",
+      "recommendedLevel": 6,
+      "prerequisites": [
+        "Niveau recommandé 6.",
+        "Des vestiges de légende."
+      ],
+      "rewards": [
+        "2 867 XP.",
+        "68 Kamas.",
+        "5 x Queue de Chapardam."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Demandez à Ternette Nhin davantage d'informations sur le Monde des Douze. Elle vous envoie d'abord vers Matu Vuh au nord, puis vers Galilea au sud.",
+          "position": "[-1,-3]",
+          "zoneHint": null,
+          "warning": "Condition : avoir terminé Des vestiges de légende.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Matu Vuh, puis utilisez sa lunette astromagique pour observer les quatre destinations proposées : l'île de Moon, l'île des Wabbits, Sufokia et Astrub.",
+          "position": "[-1,-6]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous ensuite auprès de Galilea et cliquez sur sa lunette pour observer les trois destinations proposées : l'île d'Otomaï, Frigost et Amakna.",
+          "position": "[-1,1]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Ternette Nhin pour lui faire part de vos observations et terminer la quête.",
+          "position": "[-1,-3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le parcours demandé passe par Matu Vuh au nord avant Galilea au sud.",
+        "Ternette recommande ensuite de terminer l'exploration d'Incarnam avant de quitter l'île."
+      ],
+      "npcs": [
+        "Ternette Nhin",
+        "Matu Vuh",
+        "Galilea"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-1,-3"
+            ]
+          },
+          {
+            "id": 32,
+            "name": "Sufokia",
+            "coordinates": [
+              "-1,-6"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "-1,1"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:907",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/vu-du-ciel.html",
+      "sourceTitle": "Vu du ciel",
+      "sourceHash": "92fe6243f20bcc6a6f4903c6bb70862974d77ac6402f230e7e0885eccadfd8c7",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": []
+}

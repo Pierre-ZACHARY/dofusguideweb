@@ -1,0 +1,1121 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 49,
+  "updatedAt": "2026-08-27T12:54:05.557Z",
+  "summaries": [
+    {
+      "overview": "Terminer la mission d’Amayiro en réunissant les bâtons demandés, en aidant Plumalia à obtenir une Bière de Bworkette ferraillée, puis en revenant annoncer à Amayiro que son discours est en préparation. La quête mène notamment au Donjon des Bworks et débloque « Recouvrement de dette à la Tabasse ».",
+      "recommendedLevel": 41,
+      "prerequisites": [
+        "Avoir terminé « Un sanglier un peu trop agressif... »."
+      ],
+      "rewards": [
+        "499 538 XP."
+      ],
+      "preparation": [
+        "Prévoir 10 x Bâton de Boisaille.",
+        "Prévoir 1 x Bakélélite.",
+        "Prévoir 1 x Donjon des Bworks.",
+        "Les 10 x Bâton de Boisaille peuvent être achetés ou fabriqués par un sculpteur niveau 9 minimum ; chaque bâton demande 3 x Os de Chafer et 3 x Feu Intérieur.",
+        "La Bakélélite peut être achetée ou fabriquée par un mineur niveau 80 minimum avec 10 x Manganèse, 10 x Bronze, 10 x Cuivre et 10 x Kobalte."
+      ],
+      "actions": [
+        {
+          "instruction": "À la milice, parler à Amayiro et lui remettre les 10 x Bâton de Boisaille afin qu’il vous envoie chercher son discours.",
+          "position": "[-32,-57]",
+          "zoneHint": null,
+          "warning": "Les 10 bâtons doivent être en votre possession avant cette étape.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Plumalia pour demander le discours. Elle explique qu’elle a besoin de Bière de Bworkette ferraillée pour retrouver son inspiration.",
+          "position": "[-36,-58]",
+          "zoneHint": "Taverne Alakarte",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Yennefer Ayeur afin d’apprendre qu’il faut fabriquer vous-même la boisson à partir de Bière de Bworkette et de ferraille de Bakélélite.",
+          "position": "[-28,-55]",
+          "zoneHint": "Atelier des mineurs de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Monter à l’étage de l’atelier des mineurs et utiliser l’atelier près du livre des artisans pour transformer 1 x Bakélélite en Ferraille de Bakélélite.",
+          "position": "[-28,-55]",
+          "zoneHint": "Étage de l’atelier des mineurs de Bonta",
+          "warning": "Cette étape consomme la Bakélélite prévue pour la quête.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuer le Donjon des Bworks et vaincre la Bworkette.",
+          "position": "[-5,10]",
+          "zoneHint": "Donjon des Bworks",
+          "warning": "Ne quittez pas le donjon après avoir vaincu la Bworkette : Magobwork doit encore être interrogé.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire sur la Bworkette, parler à Magobwork avant de sortir afin d’obtenir la Bière de Bworkette.",
+          "position": "[-5,10]",
+          "zoneHint": "Fin du Donjon des Bworks",
+          "warning": "Sortir avant cette interaction oblige à revenir pour obtenir la bière.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rapporter la Bière de Bworkette et la Ferraille de Bakélélite à Yennefer Ayeur.",
+          "position": "[-28,-55]",
+          "zoneHint": "Atelier des mineurs de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner voir Plumalia et lui remettre la Bière de Bworkette ferraillée pour qu’elle puisse rédiger le discours.",
+          "position": "[-36,-58]",
+          "zoneHint": "Taverne Alakarte",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Revenir auprès d’Amayiro et lui annoncer que son discours devrait bientôt lui parvenir. Cette interaction termine la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": "Cette remise finale débloque « Recouvrement de dette à la Tabasse ».",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La Ferraille de Bakélélite et la Bière de Bworkette peuvent être obtenues dans l’ordre de votre choix.",
+        "Dans l’étape actuelle, cette quête est à son moment de finition : terminez-la avant de lancer la quête d’alignement suivante auprès d’Amayiro."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Plumalia",
+        "Yennefer Ayeur",
+        "Magobwork",
+        "Bworkette"
+      ],
+      "items": [
+        {
+          "name": "Bâton de Boisaille",
+          "itemId": 140,
+          "imageUrl": "/items/140.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/140"
+        },
+        {
+          "name": "Os de Chafer",
+          "itemId": 310,
+          "imageUrl": "/items/310.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/310"
+        },
+        {
+          "name": "Feu Intérieur",
+          "itemId": 16518,
+          "imageUrl": "/items/16518.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16518"
+        },
+        {
+          "name": "Bakélélite",
+          "itemId": 749,
+          "imageUrl": "/items/749.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/749"
+        },
+        {
+          "name": "Manganèse",
+          "itemId": 445,
+          "imageUrl": "/items/445.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/445"
+        },
+        {
+          "name": "Bronze",
+          "itemId": 442,
+          "imageUrl": "/items/442.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/442"
+        },
+        {
+          "name": "Cuivre",
+          "itemId": 441,
+          "imageUrl": "/items/441.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/441"
+        },
+        {
+          "name": "Kobalte",
+          "itemId": 443,
+          "imageUrl": "/items/443.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/443"
+        },
+        {
+          "name": "Ferraille de Bakélélite",
+          "itemId": 16351,
+          "imageUrl": "/items/16351.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16351"
+        },
+        {
+          "name": "Bière de Bworkette",
+          "itemId": 16350,
+          "imageUrl": "/items/16350.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16350"
+        },
+        {
+          "name": "Bière de Bworkette ferraillée",
+          "itemId": 25972,
+          "imageUrl": "/items/25972.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/25972"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 284,
+            "name": "Donjon des Bworks",
+            "coordinates": [
+              "-5,10"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-28,-55"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "-36,-58"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 182,
+            "name": "Bworks d'Amakna",
+            "monsters": [
+              {
+                "id": 876,
+                "name": "Bwork",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/876.png"
+              },
+              {
+                "id": 74,
+                "name": "Bwork Archer",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/74.png"
+              },
+              {
+                "id": 53,
+                "name": "Bwork Mage",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/53.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:13",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/du-repos-mais-pas-trop.html",
+      "sourceTitle": "Alignement 11 : Du repos mais pas trop",
+      "sourceHash": "61abbaf2eb4fe26834170d441819c161354cd0c129d82775d72061e1229c8834",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Enchaîner six donjons confiés successivement par Pat Akess : Scarafeuilles, Forgerons, Bworks, Larves, Refuge Sylvestre et Pitons Rocheux des Craqueleurs. Il faut revenir auprès de Pat Akess après chaque donjon pour obtenir la clef suivante, puis conclure auprès de Chris de Naire.",
+      "recommendedLevel": 30,
+      "prerequisites": [
+        "Être de niveau supérieur à 29.",
+        "Avoir terminé « Le maître des clefs »."
+      ],
+      "rewards": [
+        "3 303 660 XP.",
+        "54 192 Kamas.",
+        "1 x Viscères du Scarabosse Doré.",
+        "1 x Poil de Bworkette.",
+        "1 x Dent de Shin Larve.",
+        "1 x Méga Pierre du Craqueleur Légendaire."
+      ],
+      "preparation": [
+        "Prévoir 1 x Donjon des Scarafeuilles.",
+        "Prévoir 1 x Donjon des Forgerons.",
+        "Prévoir 1 x Donjon des Bworks.",
+        "Prévoir 1 x Donjon des Larves.",
+        "Prévoir 1 x Donjon Refuge Sylvestre.",
+        "Prévoir 1 x Donjon Pitons Rocheux des Craqueleurs."
+      ],
+      "actions": [
+        {
+          "instruction": "Parler à Pat Akess pour poursuivre la quête et recevoir l’objectif du premier donjon.",
+          "position": "[5,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": "Les donjons sont imposés dans un ordre précis et nécessitent un retour auprès de Pat Akess entre chaque étape.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuer le Donjon des Scarafeuilles et vaincre le Scarabosse Doré.",
+          "position": "[1,26]",
+          "zoneHint": "Donjon des Scarafeuilles",
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Pat Akess afin de recevoir la clef du Donjon des Forgerons.",
+          "position": "[5,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuer le Donjon des Forgerons et vaincre le Coffre des Forgerons.",
+          "position": "[13,21]",
+          "zoneHint": "Donjon des Forgerons",
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Pat Akess afin de recevoir la clef du Donjon des Bworks.",
+          "position": "[5,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuer le Donjon des Bworks et vaincre la Bworkette.",
+          "position": "[-5,10]",
+          "zoneHint": "Donjon des Bworks",
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Pat Akess afin de recevoir la clef du Donjon des Larves.",
+          "position": "[5,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuer le Donjon des Larves et vaincre la Shin Larve.",
+          "position": "[-2,-5]",
+          "zoneHint": "Donjon des Larves",
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Pat Akess afin de recevoir la clef du Refuge Sylvestre.",
+          "position": "[5,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoindre l’archipel de Valonia en prenant le bateau depuis Amakna, puis accéder au Refuge Sylvestre.",
+          "position": "[10,-3]",
+          "zoneHint": null,
+          "warning": "Le Refuge Sylvestre se trouve sur l’archipel de Valonia, accessible en bateau depuis cette position.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuer le Refuge Sylvestre et vaincre le Rakoopeur.",
+          "position": "[40,-84]",
+          "zoneHint": "Refuge Sylvestre",
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Pat Akess afin de recevoir la clef des Pitons Rocheux des Craqueleurs.",
+          "position": "[5,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuer le donjon des Pitons Rocheux des Craqueleurs et vaincre le Craqueleur Légendaire.",
+          "position": "[-3,-7]",
+          "zoneHint": "Pitons Rocheux des Craqueleurs",
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner auprès de Pat Akess. Il n’a plus de donjon à proposer et vous envoie vers Chris de Naire.",
+          "position": "[5,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Chris de Naire et choisir « Calmez-vous, je m’en vais » pour terminer la quête.",
+          "position": "[-29,-47]",
+          "zoneHint": null,
+          "warning": "Cette interaction termine « Les sbires du maître » et débloque « Un juge hystérique ».",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les six donjons doivent être réalisés dans l’ordre donné par Pat Akess.",
+        "Le retour en [5,0] après chaque donjon est obligatoire pour recevoir la clef suivante."
+      ],
+      "npcs": [
+        "Pat Akess",
+        "Chris de Naire",
+        "Scarabosse Doré",
+        "Coffre des Forgerons",
+        "Bworkette",
+        "Shin Larve",
+        "Rakoopeur",
+        "Craqueleur Légendaire"
+      ],
+      "items": [
+        {
+          "name": "Viscères du Scarabosse Doré",
+          "itemId": 8137,
+          "imageUrl": "/items/8137.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8137"
+        },
+        {
+          "name": "Poil de Bworkette",
+          "itemId": 8389,
+          "imageUrl": "/items/8389.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8389"
+        },
+        {
+          "name": "Dent de Shin Larve",
+          "itemId": 8386,
+          "imageUrl": "/items/8386.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8386"
+        },
+        {
+          "name": "Méga Pierre du Craqueleur Légendaire",
+          "itemId": 8394,
+          "imageUrl": "/items/8394.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8394"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 284,
+            "name": "Donjon des Bworks",
+            "coordinates": [
+              "-5,10"
+            ]
+          },
+          {
+            "id": 528,
+            "name": "Donjon des Forgerons",
+            "coordinates": [
+              "13,21"
+            ]
+          },
+          {
+            "id": 491,
+            "name": "Donjon des Larves",
+            "coordinates": [
+              "-2,-5"
+            ]
+          },
+          {
+            "id": 297,
+            "name": "Donjon des Scarafeuilles",
+            "coordinates": [
+              "1,26"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-29,-47"
+            ]
+          },
+          {
+            "id": 243,
+            "name": "Pitons Rocheux des Craqueleurs",
+            "coordinates": [
+              "-3,-7"
+            ]
+          },
+          {
+            "id": 1022,
+            "name": "Refuge sylvestre",
+            "coordinates": [
+              "10,-3",
+              "40,-84"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "5,0"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 155,
+                "name": "Bandit du clan des Roublards",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/155.png"
+              },
+              {
+                "id": 153,
+                "name": "Boulanger Sombre",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/153.png"
+              },
+              {
+                "id": 119,
+                "name": "Forgeron Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/119.png"
+              },
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 182,
+            "name": "Bworks d'Amakna",
+            "monsters": [
+              {
+                "id": 876,
+                "name": "Bwork",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/876.png"
+              },
+              {
+                "id": 74,
+                "name": "Bwork Archer",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/74.png"
+              },
+              {
+                "id": 53,
+                "name": "Bwork Mage",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/53.png"
+              }
+            ]
+          },
+          {
+            "id": 186,
+            "name": "Craqueleurs",
+            "monsters": [
+              {
+                "id": 483,
+                "name": "Craqueboule",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/483.png"
+              },
+              {
+                "id": 106,
+                "name": "Craqueleur",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/106.png"
+              },
+              {
+                "id": 293,
+                "name": "Craqueleur des Plaines",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/293.png"
+              },
+              {
+                "id": 4570,
+                "name": "Élémenterre",
+                "level": 59,
+                "imageUrl": "/bestiary/monsters/4570.png"
+              },
+              {
+                "id": 4573,
+                "name": "Craquelope",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4573.png"
+              }
+            ]
+          },
+          {
+            "id": 1667,
+            "name": "Grosses Larves",
+            "monsters": [
+              {
+                "id": 456,
+                "name": "Larve Dorée",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/456.png"
+              },
+              {
+                "id": 413,
+                "name": "Larve Rubis",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/413.png"
+              },
+              {
+                "id": 412,
+                "name": "Larve Saphir",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/412.png"
+              },
+              {
+                "id": 414,
+                "name": "Larve Émeraude",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/414.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 5910,
+            "name": "Rebelles de la Futaie",
+            "monsters": [
+              {
+                "id": 7192,
+                "name": "Timongouste",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7192.png"
+              },
+              {
+                "id": 7193,
+                "name": "Thomondor",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7193.png"
+              },
+              {
+                "id": 7194,
+                "name": "Buffalourd",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7194.png"
+              },
+              {
+                "id": 7195,
+                "name": "Grolours",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7195.png"
+              },
+              {
+                "id": 7196,
+                "name": "Trankilou",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7196.png"
+              }
+            ]
+          },
+          {
+            "id": 181,
+            "name": "Scarafeuilles",
+            "monsters": [
+              {
+                "id": 198,
+                "name": "Scarafeuille Bleu",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/198.png"
+              },
+              {
+                "id": 241,
+                "name": "Scarafeuille Blanc",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/241.png"
+              },
+              {
+                "id": 798,
+                "name": "Scarafeuille Immature",
+                "level": 30,
+                "imageUrl": "/bestiary/monsters/798.png"
+              },
+              {
+                "id": 795,
+                "name": "Scarafeuille Noir",
+                "level": 36,
+                "imageUrl": "/bestiary/monsters/795.png"
+              },
+              {
+                "id": 194,
+                "name": "Scarafeuille Rouge",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/194.png"
+              },
+              {
+                "id": 240,
+                "name": "Scarafeuille Vert",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/240.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:72",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/les-sbires-du-maitre.html",
+      "sourceTitle": "Les sbires du maître",
+      "sourceHash": "7c10eda9882de09ddfc4382dd7b1a19975b0d440cb5650952c88bd9090327f17",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après avoir terminé l’alignement 11, Amayiro vous charge de récupérer une dette de 100 000 kamas auprès de Garret Abass. La mission se poursuit par un combat en solo, la remise d’un chèque, puis la rénovation du katana d’Amayiro grâce à du Liquide des Forgerons récupéré à la fin du Donjon des Forgerons.",
+      "recommendedLevel": 42,
+      "prerequisites": [
+        "Avoir terminé « Du repos mais pas trop... »."
+      ],
+      "rewards": [
+        "527 588 XP."
+      ],
+      "preparation": [
+        "Prévoir 1 combat en solo contre Garret Abass.",
+        "Prévoir 1 x Donjon des Forgerons."
+      ],
+      "actions": [
+        {
+          "instruction": "Une fois « Du repos mais pas trop... » terminée, parler de nouveau à Amayiro pour lancer « Recouvrement de dette à la Tabasse ». Il demande de récupérer les 100 000 kamas que lui doit Garret Abass.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": "Cette quête ne peut être lancée qu’après la fin de « Du repos mais pas trop... ».",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Garret Abass et réclamer le paiement de sa dette, puis choisir de l’attaquer lorsqu’il refuse.",
+          "position": "[-35,-55]",
+          "zoneHint": "Taverne de la Tabasse",
+          "warning": "Le choix « Attaquer le tavernier » déclenche immédiatement un combat obligatoire en solo.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Vaincre Garret Abass afin de récupérer un chèque de 100 000 kamas.",
+          "position": "[-35,-55]",
+          "zoneHint": "Taverne de la Tabasse",
+          "warning": "Garret Abass utilise notamment Sabbathage, qui inflige des dégâts feu et réduit les résistances autour de lui, ainsi que Tabassage au corps à corps.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Rapporter le chèque de 100 000 kamas à Amayiro. Il vous confie ensuite son katana à faire réparer.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Kosuke Ichazum pour lui demander de réparer la lame du katana d’Amayiro.",
+          "position": "[-30,-56]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuer le Donjon des Forgerons.",
+          "position": "[13,21]",
+          "zoneHint": "Donjon des Forgerons",
+          "warning": "Après le boss, ne quittez pas le donjon avant d’avoir récupéré le Liquide des Forgerons.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "À la fin du donjon, cliquer sur la marmite de liquide au centre de la carte afin d’obtenir 1 x Liquide des Forgerons.",
+          "position": "[13,21]",
+          "zoneHint": "Fin du Donjon des Forgerons",
+          "warning": "Sortir du donjon avant de cliquer sur la marmite vous empêche de récupérer l’objet à ce passage.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner voir Kosuke Ichazum et lui remettre le Liquide des Forgerons afin qu’il termine la rénovation du katana.",
+          "position": "[-30,-56]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rapporter le Katana rénové à Amayiro pour terminer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": "Cette remise finale débloque « Pot l’agent double ».",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "À l’étape 49, cette quête vient juste d’être débloquée par la fin de « Du repos mais pas trop... ».",
+        "La source de l’étape suivante correspond à la fin de cette même quête : ne perdez surtout pas le Liquide des Forgerons avant le retour chez Kosuke Ichazum."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Garret Abass",
+        "Kosuke Ichazum"
+      ],
+      "items": [
+        {
+          "name": "Chèque de 100 000 kamas",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Katana d’Amayiro",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Liquide des Forgerons",
+          "itemId": 16352,
+          "imageUrl": "/items/16352.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16352"
+        },
+        {
+          "name": "Katana rénové",
+          "itemId": 1932,
+          "imageUrl": "/items/1932.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1932"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 528,
+            "name": "Donjon des Forgerons",
+            "coordinates": [
+              "13,21"
+            ]
+          },
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-30,-56"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-30,-56"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "-35,-55"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 155,
+                "name": "Bandit du clan des Roublards",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/155.png"
+              },
+              {
+                "id": 153,
+                "name": "Boulanger Sombre",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/153.png"
+              },
+              {
+                "id": 119,
+                "name": "Forgeron Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/119.png"
+              },
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:14",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/recouvrement-de-dette-agrave-la-tabasse.html",
+      "sourceTitle": "Alignement 12 : Recouvrement de dette à la Tabasse",
+      "sourceHash": "25039f65d23d50782d3d68117f4eaea1faa603e2f82c37471f3f4085a1948e8a",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Regrouper le Donjon des Bworks",
+      "description": "« Du repos mais pas trop... » et « Les sbires du maître » demandent toutes deux de vaincre la Bworkette dans le Donjon des Bworks. Si « Les sbires du maître » est précisément à son étape Bworkette, réalisez le donjon une seule fois et validez les objectifs des deux quêtes pendant le même passage.",
+      "questKeys": [
+        "quest:13",
+        "quest:72"
+      ],
+      "actions": [
+        "Vérifier que « Les sbires du maître » demande actuellement de vaincre la Bworkette.",
+        "Entrer au Donjon des Bworks en [-5,10] avec les deux objectifs actifs.",
+        "Après la victoire, parler impérativement à Magobwork avant de sortir pour récupérer la Bière de Bworkette de « Du repos mais pas trop... »."
+      ]
+    },
+    {
+      "title": "Regrouper le Donjon des Forgerons",
+      "description": "« Les sbires du maître » et « Recouvrement de dette à la Tabasse » passent toutes deux par le Donjon des Forgerons. Si les deux objectifs sont actifs au même moment, le même passage permet de vaincre le Coffre des Forgerons et de récupérer le Liquide des Forgerons.",
+      "questKeys": [
+        "quest:72",
+        "quest:14"
+      ],
+      "actions": [
+        "Vérifier que « Les sbires du maître » est à l’étape du Coffre des Forgerons et que Kosuke Ichazum vous a demandé le Liquide des Forgerons.",
+        "Effectuer le Donjon des Forgerons en [13,21] une seule fois.",
+        "Après le combat final, cliquer sur la marmite au centre de la carte avant de sortir pour récupérer le Liquide des Forgerons."
+      ]
+    }
+  ]
+}

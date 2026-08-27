@@ -2,7 +2,7 @@ import { loadResolvedBreeds } from "../../breeds/resolveBreeds.js";
 import { resolveDungeonChallenges } from "../../challenges/resolveChallenges.js";
 import { firstTaggedQuestAppearances, groupTaggedQuestCompletions, sortDofusByLevelAndAppearance } from "../../dofus/questProgress.js";
 import { loadResolvedDofus } from "../../dofus/resolveDofus.js";
-import { resolveQuestGuideSummary } from "../../questGuides/resolveQuestGuides.js";
+import { loadQuestGuideStepArchive } from "../../questGuides/resolveQuestGuides.js";
 import type { DofusGuideRepository, GuideRecord, QuestRecord } from "../../repositories/contracts.js";
 import { orderGuideElementsVisually } from "../../shared/guideAnalysis.js";
 import type { GuideElement } from "../../types/dofusGuide.js";
@@ -88,13 +88,21 @@ export async function loadGuideData(repository: DofusGuideRepository, guideId: n
   return {
     guide: guideSummary(repository, guide),
     chapters: chapters(repository, guide.id),
-    steps: repository.listGuideSteps(guide.id).filter((step) => step.title !== null).map((step) => ({
-      stepNumber: step.stepNumber,
-      chapterId: step.chapterId,
-      title: step.title,
-      levelMin: step.recommendedLevelMin,
-      levelMax: step.recommendedLevelMax,
-    })),
+    steps: repository.listGuideSteps(guide.id).filter((step) => step.title !== null).map((step) => {
+      const detail = repository.getGuideStep(guide.id, step.stepNumber);
+      return {
+        stepNumber: step.stepNumber,
+        chapterId: step.chapterId,
+        title: step.title,
+        levelMin: step.recommendedLevelMin,
+        levelMax: step.recommendedLevelMax,
+        quests: detail?.quests.map((quest) => ({
+          questKey: quest.questKey,
+          relation: quest.relationType as "START" | "ACTIVE" | "FINISH" | "UNKNOWN",
+          sortOrder: quest.sortOrder,
+        })) ?? [],
+      };
+    }),
     dofus,
     worldTour: worldTour?.tracks ?? [],
   };
@@ -144,8 +152,9 @@ export async function loadStepData(repository: DofusGuideRepository, guideId: nu
     });
     return { ...element, resolvedChallenges: await resolveDungeonChallenges(successValues) };
   }));
+  const questGuideStep = await loadQuestGuideStepArchive(guideId, stepNumber);
   const quests = await Promise.all(step.quests.map(async (quest) => {
-    const questSummary = await resolveQuestGuideSummary(quest.externalUrl);
+    const questSummary = questGuideStep?.summaries.find((candidate) => candidate.questKey === quest.questKey) ?? null;
     return {
       ...questDto(quest),
       relation: quest.relationType as "START" | "ACTIVE" | "FINISH" | "UNKNOWN",
@@ -188,6 +197,7 @@ export async function loadStepData(repository: DofusGuideRepository, guideId: nu
     nextStep: index >= 0 && index < stepList.length - 1 ? stepList[index + 1]?.stepNumber ?? null : null,
     elements,
     quests,
+    tips: questGuideStep?.tips ?? [],
     breeds: await loadResolvedBreeds(),
   };
 }

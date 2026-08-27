@@ -1,0 +1,1261 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 105,
+  "updatedAt": "2026-08-27T12:55:03.349Z",
+  "summaries": [
+    {
+      "overview": "Enquêter sur un trafic de stupéfiant à Bonta pour le compte de la milice en remontant la piste des fleurs de kaliptus des cavernes jusqu'au Koulosse.",
+      "recommendedLevel": 70,
+      "prerequisites": [
+        "Dapyus n'est pas doué"
+      ],
+      "rewards": [
+        "2 433 600 XP"
+      ],
+      "preparation": [
+        "Effectuer le donjon du Koulosse"
+      ],
+      "actions": [
+        {
+          "instruction": "Aller à la milice de Bonta et parler à Amayiro pour lancer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller au village des éleveurs et parler à Thelma Geur.",
+          "position": "[-16,2]",
+          "zoneHint": "village des éleveurs",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller dans la forêt de Kaliptus, faire croire à Wid que vous êtes un client puis le combattre.",
+          "position": "[-6,13]",
+          "zoneHint": "forêt de Kaliptus",
+          "warning": "Combat contre Wid",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Ramener Wid à Amayiro à la milice de Bonta.",
+          "position": "[-32,-57]",
+          "zoneHint": "milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Descendre dans la prison et interroger Wid.",
+          "position": "[-32,-57]",
+          "zoneHint": "prison",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuer le donjon du Koulosse, vaincre le Koulosse puis lui parler de son trafic.",
+          "position": null,
+          "zoneHint": "donjon du Koulosse",
+          "warning": "Combat de donjon contre le Koulosse",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner à la prison et confronter Wid.",
+          "position": "[-32,-57]",
+          "zoneHint": "prison",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Faire le rapport à Amayiro pour terminer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Débloque la quête Vin Diou",
+        "Débloque Apprentissage : Écuyer (Ordre du Coeur Vaillant)",
+        "Débloque Apprentissage : Espion Silencieux (Ordre de l'Oeil Attentif)",
+        "Débloque Apprentissage : Apprenti Éclairé (Ordre de l'Esprit Salvateur)"
+      ],
+      "npcs": [
+        "Amayiro",
+        "Thelma Geur",
+        "Wid",
+        "Koulosse"
+      ],
+      "items": [
+        {
+          "name": "Fleur de Kaliptus des Cavernes",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 234,
+            "name": "Forêt de Kaliptus",
+            "coordinates": [
+              "-6,13"
+            ]
+          },
+          {
+            "id": 182,
+            "name": "Village des Éleveurs",
+            "coordinates": [
+              "-16,2"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 446,
+            "name": "Aermyne 'Braco' Scalptaras",
+            "level": 80,
+            "imageUrl": "/bestiary/monsters/446.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2517,
+            "name": "Koalastrof la Naturelle",
+            "level": 60,
+            "imageUrl": "/bestiary/monsters/2517.png"
+          },
+          {
+            "id": 2442,
+            "name": "Doktopuss le Maléfique",
+            "level": 70,
+            "imageUrl": "/bestiary/monsters/2442.png"
+          },
+          {
+            "id": 2306,
+            "name": "Warkolad l'Etreinte",
+            "level": 74,
+            "imageUrl": "/bestiary/monsters/2306.png"
+          },
+          {
+            "id": 2515,
+            "name": "Koasossyal le Psychopathe",
+            "level": 80,
+            "imageUrl": "/bestiary/monsters/2515.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 219,
+            "name": "Koalaks",
+            "monsters": [
+              {
+                "id": 747,
+                "name": "Dok Alako",
+                "level": 70,
+                "imageUrl": "/bestiary/monsters/747.png"
+              },
+              {
+                "id": 748,
+                "name": "Koalak Immature",
+                "level": 60,
+                "imageUrl": "/bestiary/monsters/748.png"
+              },
+              {
+                "id": 785,
+                "name": "Koalak Forestier",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/785.png"
+              },
+              {
+                "id": 746,
+                "name": "Warko Marron",
+                "level": 74,
+                "imageUrl": "/bestiary/monsters/746.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:42",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/cest-stupeacutefiant.html",
+      "sourceTitle": "Alignement 40 : C'est stupéfiant",
+      "sourceHash": "9f9f9c3fe67e62db3f24066910797a927b168b302caa7daab7a250b68a118b7d",
+      "generatedAt": "2026-08-24T17:15:23.751Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Vaincre 6 boss de donjons (Abraknyde Ancestral, Dragon Cochon, Koulosse, Meulou, Rat Blanc, Rat Noir) sur ordre de Chris de Naire, puis rencontrer Kal Vissi pour débloquer la quête suivante.",
+      "recommendedLevel": 30,
+      "prerequisites": [
+        "Niveau > 29",
+        "Les sbires du maître"
+      ],
+      "rewards": [
+        "Bourgeon d'Abraknyde Ancestral",
+        "Poil de Dragon Cochon",
+        "Pierre du Koulosse",
+        "Testicules Magiques du Meulou"
+      ],
+      "preparation": [
+        "1 x Donjon Domaine Ancestral",
+        "1 x Donjon Antre du Dragon Cochon",
+        "1 x Donjon Caverne du Koulosse",
+        "1 x Donjon Tanière du Meulou",
+        "1 x Donjon Garde-manger du Rat Blanc",
+        "1 x Donjon Sousouricière du Rat Noir"
+      ],
+      "actions": [
+        {
+          "instruction": "Se rendre en [-29,-47] (Champs de Cania), parler à Chris de Naire pour lancer la quête.",
+          "position": "[-29,-47]",
+          "zoneHint": "Champs de Cania",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller au donjon Domaine Ancestral en [-9,-14], vaincre l'Abraknyde Ancestral.",
+          "position": "[-9,-14]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
+          "position": "[-29,-47]",
+          "zoneHint": "Champs de Cania",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller au donjon Antre du Dragon Cochon en [-1,33], vaincre le Dragon Cochon.",
+          "position": "[-1,33]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
+          "position": "[-29,-47]",
+          "zoneHint": "Champs de Cania",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller au donjon Caverne du Koulosse en [-17,8], vaincre le Koulosse.",
+          "position": "[-17,8]",
+          "zoneHint": null,
+          "warning": "Il faut être devant le PNJ sur la corniche pour entrer dans le donjon.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
+          "position": "[-29,-47]",
+          "zoneHint": "Champs de Cania",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller au donjon Tanière du Meulou en [-23,0], vaincre le Meulou.",
+          "position": "[-23,0]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
+          "position": "[-29,-47]",
+          "zoneHint": "Champs de Cania",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller au donjon Garde-manger du Rat Blanc en [-36,-60] (entrer par le Palais en [-36,-60] et descendre par le vide à ordure des cuisines, ou entrer par les égouts en [-32,-58] puis traverser), vaincre le Rat Blanc.",
+          "position": "[-36,-60]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
+          "position": "[-29,-47]",
+          "zoneHint": "Champs de Cania",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller au donjon Sousouricière du Rat Noir en [-29,-35] (entrée via la bouche d'égout en [-29,35]), vaincre le Rat Noir.",
+          "position": "[-29,-35]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania). Il n'a plus de donjons à confier et oriente vers un autre commanditaire.",
+          "position": "[-29,-47]",
+          "zoneHint": "Champs de Cania",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller voir Kal Vissi en [-19,30], choisir « J'accepte cette mission » pour terminer la quête.",
+          "position": "[-19,30]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Terminer cette quête débloque la quête suivante : Des donjons, encore des donjons.",
+        "Étape 5 : deux chemins possibles pour accéder au Garde-manger du Rat Blanc — via le Palais en [-36,-60] (vide à ordure des cuisines) ou via les égouts en [-32,-58]."
+      ],
+      "npcs": [
+        "Chris de Naire",
+        "Kal Vissi",
+        "Abraknyde Ancestral",
+        "Dragon Cochon",
+        "Koulosse",
+        "Meulou",
+        "Rat Blanc",
+        "Rat Noir"
+      ],
+      "items": [
+        {
+          "name": "Bourgeon d'Abraknyde Ancestral",
+          "itemId": 8495,
+          "imageUrl": "/items/8495.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8495"
+        },
+        {
+          "name": "Poil de Dragon Cochon",
+          "itemId": 8393,
+          "imageUrl": "/items/8393.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8393"
+        },
+        {
+          "name": "Pierre du Koulosse",
+          "itemId": 8402,
+          "imageUrl": "/items/8402.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8402"
+        },
+        {
+          "name": "Testicules Magiques du Meulou",
+          "itemId": 2806,
+          "imageUrl": "/items/2806.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2806"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 154,
+            "name": "Antre du Dragon Cochon",
+            "coordinates": [
+              "-1,33"
+            ]
+          },
+          {
+            "id": 223,
+            "name": "Caverne du Koulosse",
+            "coordinates": [
+              "-17,8"
+            ]
+          },
+          {
+            "id": 68,
+            "name": "Champs de Cania",
+            "coordinates": [
+              "-29,-47"
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Domaine Ancestral",
+            "coordinates": [
+              "-9,-14"
+            ]
+          },
+          {
+            "id": 1013,
+            "name": "Garde-manger du Rat Blanc",
+            "coordinates": [
+              "-36,-60",
+              "-32,-58"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-19,30"
+            ]
+          },
+          {
+            "id": 1010,
+            "name": "Sousouricière du Rat Noir",
+            "coordinates": [
+              "-29,-35",
+              "-29,35"
+            ]
+          },
+          {
+            "id": 213,
+            "name": "Tanière du Meulou",
+            "coordinates": [
+              "-23,0"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 366,
+            "name": "Sanglier agressif",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/366.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2446,
+            "name": "Bourde le Maladroit",
+            "level": 51,
+            "imageUrl": "/bestiary/monsters/2446.png"
+          },
+          {
+            "id": 2286,
+            "name": "Serpistol l'Illustre",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2286.png"
+          },
+          {
+            "id": 2447,
+            "name": "Souristiti l'Immortalisée",
+            "level": 54,
+            "imageUrl": "/bestiary/monsters/2447.png"
+          },
+          {
+            "id": 2448,
+            "name": "Larvaloeil l'Émue",
+            "level": 56,
+            "imageUrl": "/bestiary/monsters/2448.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1201,
+            "name": "Abraknydiens Sombres",
+            "monsters": [
+              {
+                "id": 651,
+                "name": "Abrakne Sombre",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/651.png"
+              },
+              {
+                "id": 253,
+                "name": "Abraknyde Sombre",
+                "level": 78,
+                "imageUrl": "/bestiary/monsters/253.png"
+              },
+              {
+                "id": 254,
+                "name": "Abraknyde Vénérable",
+                "level": 74,
+                "imageUrl": "/bestiary/monsters/254.png"
+              },
+              {
+                "id": 917,
+                "name": "Araknotron",
+                "level": 76,
+                "imageUrl": "/bestiary/monsters/917.png"
+              }
+            ]
+          },
+          {
+            "id": 213,
+            "name": "Animaux des Champs",
+            "monsters": [
+              {
+                "id": 4547,
+                "name": "Bourdard",
+                "level": 51,
+                "imageUrl": "/bestiary/monsters/4547.png"
+              },
+              {
+                "id": 4548,
+                "name": "Larve Champêtre",
+                "level": 56,
+                "imageUrl": "/bestiary/monsters/4548.png"
+              },
+              {
+                "id": 288,
+                "name": "Serpentin",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/288.png"
+              },
+              {
+                "id": 294,
+                "name": "Souris Verte",
+                "level": 54,
+                "imageUrl": "/bestiary/monsters/294.png"
+              }
+            ]
+          },
+          {
+            "id": 221,
+            "name": "Boufcools",
+            "monsters": [
+              {
+                "id": 671,
+                "name": "Bouftou des cavernes",
+                "level": 84,
+                "imageUrl": "/bestiary/monsters/671.png"
+              }
+            ]
+          },
+          {
+            "id": 219,
+            "name": "Koalaks",
+            "monsters": [
+              {
+                "id": 747,
+                "name": "Dok Alako",
+                "level": 70,
+                "imageUrl": "/bestiary/monsters/747.png"
+              },
+              {
+                "id": 748,
+                "name": "Koalak Immature",
+                "level": 60,
+                "imageUrl": "/bestiary/monsters/748.png"
+              },
+              {
+                "id": 784,
+                "name": "Piralak",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/784.png"
+              },
+              {
+                "id": 746,
+                "name": "Warko Marron",
+                "level": 74,
+                "imageUrl": "/bestiary/monsters/746.png"
+              }
+            ]
+          },
+          {
+            "id": 5803,
+            "name": "Koalaks sauvages",
+            "monsters": [
+              {
+                "id": 763,
+                "name": "Drakoalak",
+                "level": 90,
+                "imageUrl": "/bestiary/monsters/763.png"
+              },
+              {
+                "id": 752,
+                "name": "Koalak Coco",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/752.png"
+              },
+              {
+                "id": 753,
+                "name": "Koalak Griotte",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/753.png"
+              },
+              {
+                "id": 751,
+                "name": "Koalak Indigo",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/751.png"
+              },
+              {
+                "id": 754,
+                "name": "Koalak Reinette",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/754.png"
+              },
+              {
+                "id": 755,
+                "name": "Mama Koalak",
+                "level": 90,
+                "imageUrl": "/bestiary/monsters/755.png"
+              }
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Mulous",
+            "monsters": [
+              {
+                "id": 102,
+                "name": "Mulou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/102.png"
+              },
+              {
+                "id": 4867,
+                "name": "Cocholou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/4867.png"
+              },
+              {
+                "id": 4868,
+                "name": "Mulounoké",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/4868.png"
+              },
+              {
+                "id": 4869,
+                "name": "Mergranlou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/4869.png"
+              },
+              {
+                "id": 4866,
+                "name": "Muloubard",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/4866.png"
+              }
+            ]
+          },
+          {
+            "id": 185,
+            "name": "Porcos",
+            "monsters": [
+              {
+                "id": 603,
+                "name": "Cochon de Farle",
+                "level": 90,
+                "imageUrl": "/bestiary/monsters/603.png"
+              },
+              {
+                "id": 601,
+                "name": "Don Dorgan",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/601.png"
+              },
+              {
+                "id": 600,
+                "name": "Don Duss Ang",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/600.png"
+              },
+              {
+                "id": 3304,
+                "name": "Porsalu",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/3304.png"
+              }
+            ]
+          },
+          {
+            "id": 5160,
+            "name": "Rats Bontariens",
+            "monsters": [
+              {
+                "id": 6743,
+                "name": "Chika Rat",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6743.png"
+              },
+              {
+                "id": 6744,
+                "name": "Aloevée Rate",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6744.png"
+              },
+              {
+                "id": 941,
+                "name": "Chak Rat",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/941.png"
+              },
+              {
+                "id": 938,
+                "name": "Scélée Rate",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/938.png"
+              },
+              {
+                "id": 942,
+                "name": "Capoei Rat",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/942.png"
+              }
+            ]
+          },
+          {
+            "id": 5159,
+            "name": "Rats Brâkmariens",
+            "monsters": [
+              {
+                "id": 6739,
+                "name": "Rate Atinée",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6739.png"
+              },
+              {
+                "id": 6742,
+                "name": "Rate Iboisée",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6742.png"
+              },
+              {
+                "id": 935,
+                "name": "Rat Plapla",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/935.png"
+              },
+              {
+                "id": 936,
+                "name": "Rat Li",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/936.png"
+              },
+              {
+                "id": 937,
+                "name": "Rat Sio",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/937.png"
+              }
+            ]
+          },
+          {
+            "id": 207,
+            "name": "Sidimonstres",
+            "monsters": [
+              {
+                "id": 299,
+                "name": "Croc Gland",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/299.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:73",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/un-juge-hysterique.html",
+      "sourceTitle": "Un juge hystérique",
+      "sourceHash": "5189a5003336188ba9c2062fbe1504352733438f35efd98131fb5f946b178711",
+      "generatedAt": "2026-08-24T18:32:41.222Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Aider Cronan le Mérien et Sionverin à trouver un remède contre la malédiction des Mulous en récoltant des échantillons sur les monstres des Hauts des Hurlements, puis en testant une potion qui réveille la bête intérieure de Cronan.",
+      "recommendedLevel": null,
+      "prerequisites": [],
+      "rewards": [],
+      "preparation": [
+        "5000 kamas ou 2 x Œil de Cocholou"
+      ],
+      "actions": [
+        {
+          "instruction": "Parler à Cronan le Mérien pour lancer la quête.",
+          "position": "[-26,-5]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller voir Sionverin pour savoir ce dont il a besoin.",
+          "position": "[-27,-2]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Drop 5 x Bave infectée sur Cocholou et Mulounoké.",
+          "position": null,
+          "zoneHint": "Hauts des Hurlements",
+          "warning": "Ressource de quête, taux de drop de base 10 %, non achetable en hdv.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Drop 5 x Croc infecté sur Mergranlou et Mulou.",
+          "position": null,
+          "zoneHint": "Hauts des Hurlements",
+          "warning": "Ressource de quête, taux de drop de base 10 %, non achetable en hdv.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Rapporter les échantillons à Sionverin.",
+          "position": "[-27,-2]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Sionverin transformé après le premier essai.",
+          "position": "[-27,-2]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Sionverin sous son apparence normale. Il explique que le premier essai n'est pas concluant.",
+          "position": "[-27,-2]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Sionverin transformé pour le deuxième essai. Il vous agresse.",
+          "position": "[-27,-2]",
+          "zoneHint": null,
+          "warning": "Combat contre Sionverin transformé.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Parler à Sionverin sous son apparence normale après avoir survécu à l'agression.",
+          "position": "[-27,-2]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Sionverin après le troisième essai, cette fois concluant car il ne se transforme pas.",
+          "position": "[-27,-2]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller annoncer la bonne nouvelle à Cronan le Mérien. Celui-ci teste la trouvaille et se transforme.",
+          "position": "[-26,-5]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Sionverin à côté. Il annonce que la bête intérieure de Cronan s'est réveillée.",
+          "position": "[-26,-5]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Calmer Cronan en donnant 5000 kamas ou 2 Œil de Cocholou.",
+          "position": "[-26,-5]",
+          "zoneHint": null,
+          "warning": "Coût : 5000 kamas ou 2 Œil de Cocholou.",
+          "combat": "CHOICE"
+        }
+      ],
+      "notes": [
+        "La source a été tronquée avant la fin. Les dernières étapes sont reconstituées d'après les informations disponibles dans la préparation."
+      ],
+      "npcs": [
+        "Cronan le Mérien",
+        "Sionverin"
+      ],
+      "items": [
+        {
+          "name": "Bave infectée",
+          "itemId": 18860,
+          "imageUrl": "/items/18860.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18860"
+        },
+        {
+          "name": "Croc infecté",
+          "itemId": 18861,
+          "imageUrl": "/items/18861.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18861"
+        },
+        {
+          "name": "Œil de Cocholou",
+          "itemId": 2578,
+          "imageUrl": "/items/2578.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2578"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 522,
+            "name": "Hauts des Hurlements",
+            "coordinates": [
+              "-26,-5",
+              "-27,-2"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4815,
+            "name": "Carlita de l'Aguerfelde",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/4815.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2337,
+            "name": "Muloufok l'Hilarant",
+            "level": 92,
+            "imageUrl": "/bestiary/monsters/2337.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 180,
+            "name": "Mulous",
+            "monsters": [
+              {
+                "id": 102,
+                "name": "Mulou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/102.png"
+              },
+              {
+                "id": 4867,
+                "name": "Cocholou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/4867.png"
+              },
+              {
+                "id": 4868,
+                "name": "Mulounoké",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/4868.png"
+              },
+              {
+                "id": 4869,
+                "name": "Mergranlou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/4869.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1108",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-bete-interieure.html",
+      "sourceTitle": "La bête intérieure",
+      "sourceHash": "b3c68db71fb2db6655c159acfec98eab047d6e8ce1b2466b0ddedcc415c58e92",
+      "generatedAt": "2026-08-24T17:37:30.612Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Quête de suite après La bête intérieure. Cronan le Mérien vous envoie consulter Hyrini pour conjurer la malédiction en rallumant le feu des anciens. Récupérez 6 os disséminés dans la région, placez-les sur les tombes, puis rapportez la réussite à Cronan.",
+      "recommendedLevel": null,
+      "prerequisites": [
+        "La bête intérieure"
+      ],
+      "rewards": [],
+      "preparation": [
+        "Prévoir 3 combats de quête réalisables en groupe",
+        "Faire le donjon Canidé et vaincre le Meulou"
+      ],
+      "actions": [
+        {
+          "instruction": "Parler à Cronan le Mérien pour lancer la quête.",
+          "position": "[-26,-5]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller voir Hyrini qui propose de raviver le feu des anciens.",
+          "position": "[-27,-3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrer dans le trou en haut de la carte et cliquer sur le squelette pour récupérer l'os de poussière.",
+          "position": "[-28,-2]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Caillus Pupuce, répondre que les crocofailles possèdent quelque chose qui vous intéresse, puis vaincre 2 Crocofailles pour obtenir l'os de boue.",
+          "position": "[-25,-3]",
+          "zoneHint": null,
+          "warning": "Combat de quête réalisable à plusieurs.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Parler et attaquer le Monstre sanguinaire (un wabbit) pour obtenir l'os de sang.",
+          "position": "[-23,-2]",
+          "zoneHint": null,
+          "warning": "Combat de quête réalisable à plusieurs.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Parler au Contremaître Kanig, demander poliment s'il a un os de pierre, puis le battre pour l'obtenir.",
+          "position": "[-21,-7]",
+          "zoneHint": null,
+          "warning": "Combat de quête réalisable à plusieurs.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Cliquer sur le squelette d'un dragon pour récupérer l'os d'écailles.",
+          "position": "[-24,-9]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrer dans le donjon Canidé et vaincre le Meulou pour obtenir l'os de fer.",
+          "position": "[-23,0]",
+          "zoneHint": "Donjon Canidé",
+          "warning": "Combat de quête réalisable à plusieurs.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Rapporter les 6 os à Hyrini.",
+          "position": "[-27,-3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquer sur les 6 tombes de la carte pour y placer les os.",
+          "position": "[-27,-3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparler à Hyrini qui confirme que le feu brûle de nouveau.",
+          "position": "[-27,-3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner annoncer la bonne nouvelle à Cronan le Mérien pour terminer la quête.",
+          "position": "[-26,-5]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [],
+      "npcs": [
+        "Cronan le Mérien",
+        "Hyrini",
+        "Caillus Pupuce",
+        "Monstre sanguinaire",
+        "Contremaître Kanig",
+        "Meulou"
+      ],
+      "items": [
+        {
+          "name": "Os de poussière",
+          "itemId": 18870,
+          "imageUrl": "/items/18870.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18870"
+        },
+        {
+          "name": "Os de boue",
+          "itemId": 18866,
+          "imageUrl": "/items/18866.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18866"
+        },
+        {
+          "name": "Os de sang",
+          "itemId": 18869,
+          "imageUrl": "/items/18869.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18869"
+        },
+        {
+          "name": "Os de pierre",
+          "itemId": 18865,
+          "imageUrl": "/items/18865.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18865"
+        },
+        {
+          "name": "Os d'écailles",
+          "itemId": 18867,
+          "imageUrl": "/items/18867.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18867"
+        },
+        {
+          "name": "Os de fer",
+          "itemId": 18868,
+          "imageUrl": "/items/18868.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18868"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 522,
+            "name": "Hauts des Hurlements",
+            "coordinates": [
+              "-26,-5",
+              "-27,-3",
+              "-28,-2",
+              "-25,-3",
+              "-23,-2",
+              "-21,-7",
+              "-24,-9",
+              "-23,0"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "-27,-3"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-26,-5"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4815,
+            "name": "Carlita de l'Aguerfelde",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/4815.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2337,
+            "name": "Muloufok l'Hilarant",
+            "level": 92,
+            "imageUrl": "/bestiary/monsters/2337.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 180,
+            "name": "Mulous",
+            "monsters": [
+              {
+                "id": 102,
+                "name": "Mulou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/102.png"
+              },
+              {
+                "id": 4867,
+                "name": "Cocholou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/4867.png"
+              },
+              {
+                "id": 4868,
+                "name": "Mulounoké",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/4868.png"
+              },
+              {
+                "id": 4869,
+                "name": "Mergranlou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/4869.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1109",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/allumer-le-feu.html",
+      "sourceTitle": "Allumer le feu",
+      "sourceHash": "a0c1f5c94fb0f4837a3b17a0db532e2517d3ed84ba3ab7655da85b8d3ad58298",
+      "generatedAt": "2026-08-24T17:12:30.105Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    }
+  ],
+  "tips": []
+}

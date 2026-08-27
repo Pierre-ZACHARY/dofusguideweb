@@ -1,0 +1,569 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 74,
+  "updatedAt": "2026-08-27T12:55:01.805Z",
+  "summaries": [
+    {
+      "overview": "Vaincre 6 boss de donjons (Abraknyde Ancestral, Dragon Cochon, Koulosse, Meulou, Rat Blanc, Rat Noir) sur ordre de Chris de Naire, puis rencontrer Kal Vissi pour débloquer la quête suivante.",
+      "recommendedLevel": 30,
+      "prerequisites": [
+        "Niveau > 29",
+        "Les sbires du maître"
+      ],
+      "rewards": [
+        "Bourgeon d'Abraknyde Ancestral",
+        "Poil de Dragon Cochon",
+        "Pierre du Koulosse",
+        "Testicules Magiques du Meulou"
+      ],
+      "preparation": [
+        "1 x Donjon Domaine Ancestral",
+        "1 x Donjon Antre du Dragon Cochon",
+        "1 x Donjon Caverne du Koulosse",
+        "1 x Donjon Tanière du Meulou",
+        "1 x Donjon Garde-manger du Rat Blanc",
+        "1 x Donjon Sousouricière du Rat Noir"
+      ],
+      "actions": [
+        {
+          "instruction": "Se rendre en [-29,-47] (Champs de Cania), parler à Chris de Naire pour lancer la quête.",
+          "position": "[-29,-47]",
+          "zoneHint": "Champs de Cania",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller au donjon Domaine Ancestral en [-9,-14], vaincre l'Abraknyde Ancestral.",
+          "position": "[-9,-14]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
+          "position": "[-29,-47]",
+          "zoneHint": "Champs de Cania",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller au donjon Antre du Dragon Cochon en [-1,33], vaincre le Dragon Cochon.",
+          "position": "[-1,33]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
+          "position": "[-29,-47]",
+          "zoneHint": "Champs de Cania",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller au donjon Caverne du Koulosse en [-17,8], vaincre le Koulosse.",
+          "position": "[-17,8]",
+          "zoneHint": null,
+          "warning": "Il faut être devant le PNJ sur la corniche pour entrer dans le donjon.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
+          "position": "[-29,-47]",
+          "zoneHint": "Champs de Cania",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller au donjon Tanière du Meulou en [-23,0], vaincre le Meulou.",
+          "position": "[-23,0]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
+          "position": "[-29,-47]",
+          "zoneHint": "Champs de Cania",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller au donjon Garde-manger du Rat Blanc en [-36,-60] (entrer par le Palais en [-36,-60] et descendre par le vide à ordure des cuisines, ou entrer par les égouts en [-32,-58] puis traverser), vaincre le Rat Blanc.",
+          "position": "[-36,-60]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
+          "position": "[-29,-47]",
+          "zoneHint": "Champs de Cania",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller au donjon Sousouricière du Rat Noir en [-29,-35] (entrée via la bouche d'égout en [-29,35]), vaincre le Rat Noir.",
+          "position": "[-29,-35]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania). Il n'a plus de donjons à confier et oriente vers un autre commanditaire.",
+          "position": "[-29,-47]",
+          "zoneHint": "Champs de Cania",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller voir Kal Vissi en [-19,30], choisir « J'accepte cette mission » pour terminer la quête.",
+          "position": "[-19,30]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Terminer cette quête débloque la quête suivante : Des donjons, encore des donjons.",
+        "Étape 5 : deux chemins possibles pour accéder au Garde-manger du Rat Blanc — via le Palais en [-36,-60] (vide à ordure des cuisines) ou via les égouts en [-32,-58]."
+      ],
+      "npcs": [
+        "Chris de Naire",
+        "Kal Vissi",
+        "Abraknyde Ancestral",
+        "Dragon Cochon",
+        "Koulosse",
+        "Meulou",
+        "Rat Blanc",
+        "Rat Noir"
+      ],
+      "items": [
+        {
+          "name": "Bourgeon d'Abraknyde Ancestral",
+          "itemId": 8495,
+          "imageUrl": "/items/8495.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8495"
+        },
+        {
+          "name": "Poil de Dragon Cochon",
+          "itemId": 8393,
+          "imageUrl": "/items/8393.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8393"
+        },
+        {
+          "name": "Pierre du Koulosse",
+          "itemId": 8402,
+          "imageUrl": "/items/8402.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8402"
+        },
+        {
+          "name": "Testicules Magiques du Meulou",
+          "itemId": 2806,
+          "imageUrl": "/items/2806.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2806"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 154,
+            "name": "Antre du Dragon Cochon",
+            "coordinates": [
+              "-1,33"
+            ]
+          },
+          {
+            "id": 223,
+            "name": "Caverne du Koulosse",
+            "coordinates": [
+              "-17,8"
+            ]
+          },
+          {
+            "id": 68,
+            "name": "Champs de Cania",
+            "coordinates": [
+              "-29,-47"
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Domaine Ancestral",
+            "coordinates": [
+              "-9,-14"
+            ]
+          },
+          {
+            "id": 1013,
+            "name": "Garde-manger du Rat Blanc",
+            "coordinates": [
+              "-36,-60",
+              "-32,-58"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-19,30"
+            ]
+          },
+          {
+            "id": 1010,
+            "name": "Sousouricière du Rat Noir",
+            "coordinates": [
+              "-29,-35",
+              "-29,35"
+            ]
+          },
+          {
+            "id": 213,
+            "name": "Tanière du Meulou",
+            "coordinates": [
+              "-23,0"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 366,
+            "name": "Sanglier agressif",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/366.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2446,
+            "name": "Bourde le Maladroit",
+            "level": 51,
+            "imageUrl": "/bestiary/monsters/2446.png"
+          },
+          {
+            "id": 2286,
+            "name": "Serpistol l'Illustre",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2286.png"
+          },
+          {
+            "id": 2447,
+            "name": "Souristiti l'Immortalisée",
+            "level": 54,
+            "imageUrl": "/bestiary/monsters/2447.png"
+          },
+          {
+            "id": 2448,
+            "name": "Larvaloeil l'Émue",
+            "level": 56,
+            "imageUrl": "/bestiary/monsters/2448.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1201,
+            "name": "Abraknydiens Sombres",
+            "monsters": [
+              {
+                "id": 651,
+                "name": "Abrakne Sombre",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/651.png"
+              },
+              {
+                "id": 253,
+                "name": "Abraknyde Sombre",
+                "level": 78,
+                "imageUrl": "/bestiary/monsters/253.png"
+              },
+              {
+                "id": 254,
+                "name": "Abraknyde Vénérable",
+                "level": 74,
+                "imageUrl": "/bestiary/monsters/254.png"
+              },
+              {
+                "id": 917,
+                "name": "Araknotron",
+                "level": 76,
+                "imageUrl": "/bestiary/monsters/917.png"
+              }
+            ]
+          },
+          {
+            "id": 213,
+            "name": "Animaux des Champs",
+            "monsters": [
+              {
+                "id": 4547,
+                "name": "Bourdard",
+                "level": 51,
+                "imageUrl": "/bestiary/monsters/4547.png"
+              },
+              {
+                "id": 4548,
+                "name": "Larve Champêtre",
+                "level": 56,
+                "imageUrl": "/bestiary/monsters/4548.png"
+              },
+              {
+                "id": 288,
+                "name": "Serpentin",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/288.png"
+              },
+              {
+                "id": 294,
+                "name": "Souris Verte",
+                "level": 54,
+                "imageUrl": "/bestiary/monsters/294.png"
+              }
+            ]
+          },
+          {
+            "id": 221,
+            "name": "Boufcools",
+            "monsters": [
+              {
+                "id": 671,
+                "name": "Bouftou des cavernes",
+                "level": 84,
+                "imageUrl": "/bestiary/monsters/671.png"
+              }
+            ]
+          },
+          {
+            "id": 219,
+            "name": "Koalaks",
+            "monsters": [
+              {
+                "id": 747,
+                "name": "Dok Alako",
+                "level": 70,
+                "imageUrl": "/bestiary/monsters/747.png"
+              },
+              {
+                "id": 748,
+                "name": "Koalak Immature",
+                "level": 60,
+                "imageUrl": "/bestiary/monsters/748.png"
+              },
+              {
+                "id": 784,
+                "name": "Piralak",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/784.png"
+              },
+              {
+                "id": 746,
+                "name": "Warko Marron",
+                "level": 74,
+                "imageUrl": "/bestiary/monsters/746.png"
+              }
+            ]
+          },
+          {
+            "id": 5803,
+            "name": "Koalaks sauvages",
+            "monsters": [
+              {
+                "id": 763,
+                "name": "Drakoalak",
+                "level": 90,
+                "imageUrl": "/bestiary/monsters/763.png"
+              },
+              {
+                "id": 752,
+                "name": "Koalak Coco",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/752.png"
+              },
+              {
+                "id": 753,
+                "name": "Koalak Griotte",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/753.png"
+              },
+              {
+                "id": 751,
+                "name": "Koalak Indigo",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/751.png"
+              },
+              {
+                "id": 754,
+                "name": "Koalak Reinette",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/754.png"
+              },
+              {
+                "id": 755,
+                "name": "Mama Koalak",
+                "level": 90,
+                "imageUrl": "/bestiary/monsters/755.png"
+              }
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Mulous",
+            "monsters": [
+              {
+                "id": 102,
+                "name": "Mulou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/102.png"
+              },
+              {
+                "id": 4867,
+                "name": "Cocholou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/4867.png"
+              },
+              {
+                "id": 4868,
+                "name": "Mulounoké",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/4868.png"
+              },
+              {
+                "id": 4869,
+                "name": "Mergranlou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/4869.png"
+              },
+              {
+                "id": 4866,
+                "name": "Muloubard",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/4866.png"
+              }
+            ]
+          },
+          {
+            "id": 185,
+            "name": "Porcos",
+            "monsters": [
+              {
+                "id": 603,
+                "name": "Cochon de Farle",
+                "level": 90,
+                "imageUrl": "/bestiary/monsters/603.png"
+              },
+              {
+                "id": 601,
+                "name": "Don Dorgan",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/601.png"
+              },
+              {
+                "id": 600,
+                "name": "Don Duss Ang",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/600.png"
+              },
+              {
+                "id": 3304,
+                "name": "Porsalu",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/3304.png"
+              }
+            ]
+          },
+          {
+            "id": 5160,
+            "name": "Rats Bontariens",
+            "monsters": [
+              {
+                "id": 6743,
+                "name": "Chika Rat",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6743.png"
+              },
+              {
+                "id": 6744,
+                "name": "Aloevée Rate",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6744.png"
+              },
+              {
+                "id": 941,
+                "name": "Chak Rat",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/941.png"
+              },
+              {
+                "id": 938,
+                "name": "Scélée Rate",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/938.png"
+              },
+              {
+                "id": 942,
+                "name": "Capoei Rat",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/942.png"
+              }
+            ]
+          },
+          {
+            "id": 5159,
+            "name": "Rats Brâkmariens",
+            "monsters": [
+              {
+                "id": 6739,
+                "name": "Rate Atinée",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6739.png"
+              },
+              {
+                "id": 6742,
+                "name": "Rate Iboisée",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6742.png"
+              },
+              {
+                "id": 935,
+                "name": "Rat Plapla",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/935.png"
+              },
+              {
+                "id": 936,
+                "name": "Rat Li",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/936.png"
+              },
+              {
+                "id": 937,
+                "name": "Rat Sio",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/937.png"
+              }
+            ]
+          },
+          {
+            "id": 207,
+            "name": "Sidimonstres",
+            "monsters": [
+              {
+                "id": 299,
+                "name": "Croc Gland",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/299.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:73",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/un-juge-hysterique.html",
+      "sourceTitle": "Un juge hystérique",
+      "sourceHash": "5189a5003336188ba9c2062fbe1504352733438f35efd98131fb5f946b178711",
+      "generatedAt": "2026-08-24T18:32:41.222Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    }
+  ],
+  "tips": []
+}

@@ -1,0 +1,284 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 121,
+  "updatedAt": "2026-08-27T12:55:07.733Z",
+  "summaries": [
+    {
+      "overview": "Francky s'inquiète de la disparition de sa patronne Valy Domidat. Partez à la recherche d'indices à [-68,-40], interrogez le Bonhomme de neige, rapportez vos trouvailles à Francky, puis obtenez l'aide de Jean-Pierre Kofkof à la taverne de [-77,-38]. Rejoignez-le à [-68,-40] pour faire fondre le Bonhomme de neige et découvrez qu'il s'agissait de Valy ensorcelée.",
+      "recommendedLevel": 100,
+      "prerequisites": [],
+      "rewards": [
+        "1 023 750 XP",
+        "11 980 kamas",
+        "1 x Kama de glace",
+        "1 x Cuir de Bouftonmouth"
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Aller à La Bourgade [-75,-38] et parler à Francky.",
+          "position": "[-75,-38]",
+          "zoneHint": "La Bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Se rendre en [-68,-40] pour chercher des indices, puis parler au Bonhomme de neige.",
+          "position": "[-68,-40]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner à La Bourgade [-75,-38] et faire son rapport à Francky.",
+          "position": "[-75,-38]",
+          "zoneHint": "La Bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller à la taverne en [-77,-38] et demander des renseignements à Jean-Pierre Kofkof.",
+          "position": "[-77,-38]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoindre Jean-Pierre Kofkof en [-68,-40], le laisser faire fondre le Bonhomme de neige, puis parler à Valy Domidat libérée du sort.",
+          "position": "[-68,-40]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Débloque l'accès à la quête : Promenons nous dans les bois",
+        "Débloque l'accès à une étape de la quête : La fonte des glaces"
+      ],
+      "npcs": [
+        "Francky",
+        "Bonhomme de neige",
+        "Jean-Pierre Kofkof",
+        "Valy Domidat"
+      ],
+      "items": [
+        {
+          "name": "Kama de glace",
+          "itemId": 11196,
+          "imageUrl": "/items/11196.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11196"
+        },
+        {
+          "name": "Cuir de Bouftonmouth",
+          "itemId": 11120,
+          "imageUrl": "/items/11120.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11120"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 602,
+            "name": "Champs de glace",
+            "coordinates": [
+              "-68,-40"
+            ]
+          },
+          {
+            "id": 601,
+            "name": "La Bourgade",
+            "coordinates": [
+              "-75,-38"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "-77,-38"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2901,
+            "name": "Bouflouth",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/2901.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2913,
+                "name": "Chachachovage",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2913.png"
+              },
+              {
+                "id": 2893,
+                "name": "Crabe Hijacob",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2893.png"
+              },
+              {
+                "id": 2914,
+                "name": "Gélikan",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2914.png"
+              },
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          },
+          {
+            "id": 156,
+            "name": "Boufmouths",
+            "monsters": [
+              {
+                "id": 2850,
+                "name": "Boufmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2850.png"
+              },
+              {
+                "id": 2851,
+                "name": "Boufmouth de guerre",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2851.png"
+              },
+              {
+                "id": 2852,
+                "name": "Boufmouth légendaire",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2852.png"
+              },
+              {
+                "id": 2853,
+                "name": "Bouftonmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2853.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:357",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/bricole-girl.html",
+      "sourceTitle": "Bricole Girl",
+      "sourceHash": "f8d7ae983d8f49401cdbc7a36b6e6e2060f84fe119d7d95e0762ebe3f6612450",
+      "generatedAt": "2026-08-24T17:13:35.087Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Grand-père, habitant de la bourgade de Frigost, a besoin d'aide pour se débarrasser des rats bougris délavés qui infestent sa cave. Rendez-vous à la bourgade, descendez dans la cave, éliminez le groupe de rats et revenez lui annoncer la bonne nouvelle.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Niveau 100"
+      ],
+      "rewards": [
+        "255 937 XP",
+        "2 995 kamas"
+      ],
+      "preparation": [
+        "1 combat (réalisable en groupe)"
+      ],
+      "actions": [
+        {
+          "instruction": "Aller à [-79,-42] dans la bourgade de Frigost et parler à Grand-père.",
+          "position": "[-79,-42]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Descendre dans la cave de Grand-père.",
+          "position": null,
+          "zoneHint": "Cave",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Combattre le groupe de rats bougris délavés.",
+          "position": null,
+          "zoneHint": "Cave",
+          "warning": "Combat réalisable en groupe",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Grand-père à [-79,-42] pour terminer la quête.",
+          "position": "[-79,-42]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [],
+      "npcs": [
+        "Grand-père"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 601,
+            "name": "La Bourgade",
+            "coordinates": [
+              "-79,-42"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2913,
+                "name": "Chachachovage",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2913.png"
+              },
+              {
+                "id": 2893,
+                "name": "Crabe Hijacob",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2893.png"
+              },
+              {
+                "id": 2914,
+                "name": "Gélikan",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2914.png"
+              },
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:321",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/pauvre-kiki.html",
+      "sourceTitle": "Pauvre Kiki",
+      "sourceHash": "142346ce6c0406ea945415ed9238461e40d0602a5f793217e81f8e3964aec6b3",
+      "generatedAt": "2026-08-24T18:29:08.409Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    }
+  ],
+  "tips": []
+}

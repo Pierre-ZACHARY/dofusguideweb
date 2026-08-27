@@ -1,0 +1,351 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 21,
+  "updatedAt": "2026-08-27T12:53:57.625Z",
+  "summaries": [
+    {
+      "overview": "Terminez la mission confiée par Bart Cousti dans les Calanques d'Astrub en éliminant 3 Pichons Blancs, 3 Pichons Bleus, 3 Pichons Oranges et 3 Pichons Verts, puis revenez lui annoncer votre réussite. Cette étape clôt la quête et fournit une Clef du Château Ensablé.",
+      "recommendedLevel": 20,
+      "prerequisites": [
+        "Combat de rue doit être lancé.",
+        "La quête Comme un pichon hors de l'eau a été lancée auprès de Bart Cousti en [11,-24] à l'étape précédente."
+      ],
+      "rewards": [
+        "34 398 XP.",
+        "780 kamas.",
+        "1 x Clef du Château Ensablé."
+      ],
+      "preparation": [
+        "Prévoir des combats contre les Pichons présents dans les Calanques d'Astrub."
+      ],
+      "actions": [
+        {
+          "instruction": "Dans les Calanques d'Astrub, vaincre 3 Pichons Blancs, 3 Pichons Bleus, 3 Pichons Oranges et 3 Pichons Verts. Les quatre variétés se rencontrent dans toute la zone.",
+          "position": null,
+          "zoneHint": "Calanques d'Astrub",
+          "warning": "Il faut atteindre exactement l'objectif de 3 monstres vaincus pour chacune des quatre variétés de Pichon avant de pouvoir rendre la quête.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Une fois les quatre objectifs de Pichons validés, retourner voir Bart Cousti et lui annoncer que la régulation est terminée. Il remet alors la Clef du Château Ensablé et la quête se termine.",
+          "position": "[11,-24]",
+          "zoneHint": "Calanques d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La fin de cette quête valide une étape de Combat de rue.",
+        "La Clef du Château Ensablé est obtenue lors de la remise finale à Bart Cousti."
+      ],
+      "npcs": [
+        "Bart Cousti"
+      ],
+      "items": [
+        {
+          "name": "Clef du Château Ensablé",
+          "itemId": 8437,
+          "imageUrl": "/items/8437.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8437"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 335,
+            "name": "Calanques d'Astrub",
+            "coordinates": [
+              "11,-24"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2272,
+            "name": "Pichakoté le Dégoutant",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2272.png"
+          },
+          {
+            "id": 2338,
+            "name": "Pichdourse le Puissant",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2338.png"
+          },
+          {
+            "id": 2346,
+            "name": "Pichduitre le Totem",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2346.png"
+          },
+          {
+            "id": 2340,
+            "name": "Pichtoire l'Erudit",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2340.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 209,
+            "name": "Pichons",
+            "monsters": [
+              {
+                "id": 922,
+                "name": "Pichon Blanc",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/922.png"
+              },
+              {
+                "id": 921,
+                "name": "Pichon Bleu",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/921.png"
+              },
+              {
+                "id": 920,
+                "name": "Pichon Orange",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/920.png"
+              },
+              {
+                "id": 923,
+                "name": "Pichon Vert",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/923.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1202",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/comme-un-pichon-hors-de-l-eau.html",
+      "sourceTitle": "Comme un pichon hors de l'eau",
+      "sourceHash": "2699e819a0c86dc27c995fae697bde1583e635247bfd54fa9c77265757b66566",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Emma Tompouce vous envoie enquêter du côté des Vilinsekts liés à Kerubim. Après avoir accepté la mission à Astrub, rendez-vous chez Kerubim, montez à l'étage et utilisez une Baguette Rikiki pour franchir le passage de souris. Terminez ensuite la Cache de Kankreblath et battez Kankreblath, puis faites votre rapport à Emma.",
+      "recommendedLevel": 30,
+      "prerequisites": [
+        "Niveau supérieur à 29.",
+        "Avoir terminé Donjon en mousse."
+      ],
+      "rewards": [
+        "305 121 XP.",
+        "5 712 kamas."
+      ],
+      "preparation": [
+        "Prévoir de terminer 1 x donjon Cache de Kankreblath.",
+        "Disposer d'une Baguette Rikiki et l'équiper pour franchir le trou de souris menant à la Cache de Kankreblath."
+      ],
+      "actions": [
+        {
+          "instruction": "Parler à Emma Tompouce et lui demander une nouvelle mission. Accepter d'enquêter sur les Vilinsekts qui fréquentent le grenier de Kerubim.",
+          "position": "[1,-15]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": "La quête nécessite d'avoir terminé Donjon en mousse et d'être de niveau supérieur à 29.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Se rendre en [3,-17], entrer chez Kerubim puis monter à l'étage.",
+          "position": "[3,-17]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À l'étage, équiper une Baguette Rikiki puis passer par le trou de souris afin d'accéder au chemin menant à la Cache de Kankreblath.",
+          "position": "[3,-17]",
+          "zoneHint": null,
+          "warning": "La Baguette Rikiki doit être équipée pour franchir le passage de souris.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuer entièrement le donjon Cache de Kankreblath et vaincre Kankreblath.",
+          "position": "[3,-17]",
+          "zoneHint": "Cache de Kankreblath",
+          "warning": "Cette étape impose de terminer le donjon et de vaincre son boss, Kankreblath.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire sur Kankreblath, retourner auprès d'Emma Tompouce et faire un rapport sur la Cache de Kankreblath pour terminer la quête.",
+          "position": "[1,-15]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête suivante débloquée à la fin est Donjon en lambeaux.",
+        "Kerubim est mentionné dans l'enquête, mais aucun dialogue avec lui n'est requis par le parcours décrit."
+      ],
+      "npcs": [
+        "Emma Tompouce"
+      ],
+      "items": [
+        {
+          "name": "Baguette Rikiki",
+          "itemId": 15990,
+          "imageUrl": "/items/15990.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15990"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 842,
+            "name": "Cache de Kankreblath",
+            "coordinates": [
+              "3,-17"
+            ]
+          },
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "1,-15",
+              "3,-17"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 1185,
+            "name": "Vilinsekts",
+            "monsters": [
+              {
+                "id": 3940,
+                "name": "Cafarcher",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/3940.png"
+              },
+              {
+                "id": 3941,
+                "name": "Pyrasite",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/3941.png"
+              },
+              {
+                "id": 3942,
+                "name": "Mirgrillon",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/3942.png"
+              },
+              {
+                "id": 3943,
+                "name": "Sakarien",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/3943.png"
+              },
+              {
+                "id": 3944,
+                "name": "Céglumen",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/3944.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1221",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/donjon-rikiki.html",
+      "sourceTitle": "Donjon rikiki",
+      "sourceHash": "1946bd9a27af71ee6c84a7498cabb763744f205b5997a9b811bfdea63e2fe523",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": []
+}

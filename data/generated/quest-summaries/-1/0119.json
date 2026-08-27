@@ -1,0 +1,760 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 119,
+  "updatedAt": "2026-08-27T12:55:06.340Z",
+  "summaries": [
+    {
+      "overview": "Aider Albert Paisse à trouver un remède contre le rube. Récolter 6 échantillons de sang sur des Boufmouths dans les Champs de glace, puis servir d'intermédiaire entre le Capitaine Gneux et l'alchimiste Éric Azaraille pour obtenir de l'eau de mer isotonique.",
+      "recommendedLevel": 120,
+      "prerequisites": [],
+      "rewards": [
+        "2 047 500 XP",
+        "23 960 kamas",
+        "Vaccin contre le rube (temporaire : 7 jours)"
+      ],
+      "preparation": [
+        "1 combat (réalisable en groupe)",
+        "3 personnages pour aider"
+      ],
+      "actions": [
+        {
+          "instruction": "Parler à Albert Paisse pour l'aider à trouver un remède contre le rube.",
+          "position": "[-80,-45]",
+          "zoneHint": "La Bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Se rendre dans les Champs de glace, combattre des Boufmouths et récupérer 6 échantillons de sang.",
+          "position": null,
+          "zoneHint": "Champs de glace",
+          "warning": "Combat contre des Boufmouths. Taux de drop de base 30%.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Rapporter les 6 échantillons de sang à Albert Paisse.",
+          "position": "[-80,-45]",
+          "zoneHint": "La Bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller voir le Capitaine Gneux au phare pour obtenir de l'eau de mer isotonique.",
+          "position": "[-85,-36]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller voir l'alchimiste Éric Azaraille et lui demander de l'armoise.",
+          "position": "[-81,-44]",
+          "zoneHint": null,
+          "warning": "Éric refuse de donner l'armoise car c'est pour Gneux.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner voir le Capitaine Gneux, annoncer le refus d'Éric et proposer un rendez-vous en tête-à-tête avec Éric (choix de la tranche horaire).",
+          "position": "[-85,-36]",
+          "zoneHint": null,
+          "warning": "Choix de tranche horaire irréversible. Source tronquée, suite non disponible.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La source est tronquée après la proposition de rendez-vous. La fin de la quête n'est pas disponible.",
+        "Taux de drop de base des échantillons de sang : 30%. Atteignable à 100% avec prospection et challenges.",
+        "Le Vaccin contre le rube est temporaire (7 jours)."
+      ],
+      "npcs": [
+        "Albert Paisse",
+        "Capitaine Gneux",
+        "Éric Azaraille"
+      ],
+      "items": [
+        {
+          "name": "Échantillon de sang",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Eau de mer isotonique",
+          "itemId": 11202,
+          "imageUrl": "/items/11202.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11202"
+        },
+        {
+          "name": "Armoise",
+          "itemId": 11203,
+          "imageUrl": "/items/11203.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11203"
+        },
+        {
+          "name": "Vaccin contre le rube",
+          "itemId": 11198,
+          "imageUrl": "/items/11198.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11198"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 602,
+            "name": "Champs de glace",
+            "coordinates": [
+              "-85,-36"
+            ]
+          },
+          {
+            "id": 601,
+            "name": "La Bourgade",
+            "coordinates": [
+              "-80,-45",
+              "-81,-44"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2901,
+            "name": "Bouflouth",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/2901.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2913,
+                "name": "Chachachovage",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2913.png"
+              },
+              {
+                "id": 2893,
+                "name": "Crabe Hijacob",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2893.png"
+              },
+              {
+                "id": 2914,
+                "name": "Gélikan",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2914.png"
+              },
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          },
+          {
+            "id": 156,
+            "name": "Boufmouths",
+            "monsters": [
+              {
+                "id": 2850,
+                "name": "Boufmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2850.png"
+              },
+              {
+                "id": 2851,
+                "name": "Boufmouth de guerre",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2851.png"
+              },
+              {
+                "id": 2852,
+                "name": "Boufmouth légendaire",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2852.png"
+              },
+              {
+                "id": 2853,
+                "name": "Bouftonmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2853.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:382",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/les-monologues-du-vaccin.html",
+      "sourceTitle": "Les monologues du vaccin​",
+      "sourceHash": "44e987b4a702e44f3986c753c814f23fb65df2b399c34639a388207234fe5520",
+      "generatedAt": "2026-08-24T17:45:17.171Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Bisale Vinlenta a besoin de plantes pour ses croisements botaniques à Frigost. Récupérez 2 Perce-Neige, 40 Yucca Lélé sur les Boufmouths et 5 Tulipes Ossucion, puis rapportez-les-lui.",
+      "recommendedLevel": 110,
+      "prerequisites": [],
+      "rewards": [
+        "2 597 190 XP",
+        "28 560 Kamas",
+        "1 x Kama de Glace",
+        "5 x Oreille de Bouftonmouth"
+      ],
+      "preparation": [
+        "2 x Perce-Neige (HDV ou récolte par alchimiste niveau 200)",
+        "Combats contre des Boufmouths (Champ de glace ou donjon)"
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Bisale Vinlenta pour lancer la quête.",
+          "position": "[-72,-31]",
+          "zoneHint": "Champ de glace",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Obtenez 2 x Perce-Neige (achetez à l'HDV ou faites récolter par un alchimiste niveau 200).",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Achat à l'HDV ou nécessite un alchimiste niveau 200.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Combattez des Boufmouths dans le Champ de glace ou le donjon jusqu'à obtenir 40 x Yucca Lélé (drop à 100%).",
+          "position": null,
+          "zoneHint": "Champ de glace",
+          "warning": "Combats contre des monstres de la zone.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Récoltez 5 x Tulipe Ossucion aux positions suivantes : [-73,-33], [-68,-35], [-68,-38], [-69,-45], [-72,-45], [-75,-47], [-86,-44], [-87,-39], [-85,-36]. Temps de repop : 5 minutes.",
+          "position": "[-73,-33]",
+          "zoneHint": "Champ de glace",
+          "warning": "Dofus Touch : seulement 3 plantes aux positions [-68,-35], [-69,-45], [-85,-36]. Temps de repop de 5 minutes.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rapportez toutes les plantes à Bisale Vinlenta.",
+          "position": "[-72,-31]",
+          "zoneHint": "Champ de glace",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Temps de repop des Tulipes Ossucion : 5 minutes.",
+        "Dofus Touch : seulement 3 Tulipes Ossucion disponibles aux positions [-68,-35], [-69,-45], [-85,-36].",
+        "Quête suivante débloquée : Botanique-nique-nique."
+      ],
+      "npcs": [
+        "Bisale Vinlenta"
+      ],
+      "items": [
+        {
+          "name": "Perce-Neige",
+          "itemId": 11102,
+          "imageUrl": "/items/11102.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11102"
+        },
+        {
+          "name": "Yucca Lélé",
+          "itemId": 11156,
+          "imageUrl": "/items/11156.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11156"
+        },
+        {
+          "name": "Tulipe Ossucion",
+          "itemId": 11157,
+          "imageUrl": "/items/11157.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11157"
+        },
+        {
+          "name": "Kama de Glace",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Oreille de Bouftonmouth",
+          "itemId": 11119,
+          "imageUrl": "/items/11119.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11119"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "-72,-31",
+              "-73,-33",
+              "-68,-35",
+              "-68,-38",
+              "-69,-45",
+              "-72,-45",
+              "-75,-47",
+              "-86,-44",
+              "-87,-39",
+              "-85,-36"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": []
+      },
+      "questKey": "quest:335",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/cent-vingt-trois-fleurs-point-comme-les-autres.html",
+      "sourceTitle": "Cent vingt trois fleurs, point comme les autres",
+      "sourceHash": "96c3c6e8cf61fe68114e1cb6fe0df795291b737d0da3ed6818981b1955b0b393",
+      "generatedAt": "2026-08-24T17:15:26.381Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Aider Jozébo Vez à résoudre le problème de tiques dans son élevage de Boufmouths en consultant Oshimo, Wogew l'hewmite et Otomaï, puis en collectant des échantillons de sang et des tiques sur les Boufmouths des Champs de glace.",
+      "recommendedLevel": 100,
+      "prerequisites": [],
+      "rewards": [
+        "2 047 500 XP",
+        "23 960 kamas",
+        "1 x Kama de glace",
+        "1 x Clavicule de Boufmouth"
+      ],
+      "preparation": [
+        "Des combats contre des monstres d'une zone"
+      ],
+      "actions": [
+        {
+          "instruction": "Parler à Jozébo Vez pour lancer la quête.",
+          "position": "[-69,-42]",
+          "zoneHint": "Champs de glace",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller voir Oshimo au Chanil.",
+          "position": "[9,21]",
+          "zoneHint": "Chanil",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller voir Wogew l'hewmite (map cachée en haut à gauche), descendre par l'échelle et accepter de lui ramener des tiques vivants et des échantillons de sang de Boufmouth.",
+          "position": "[-1,-39]",
+          "zoneHint": null,
+          "warning": "Map cachée en haut à gauche de la map.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Se rendre dans les Champs de glace, combattre les différents types de Boufmouths et droper 1 sang de chaque espèce (taux de base 25%) ainsi que 10 Tiques de Boufmouth.",
+          "position": null,
+          "zoneHint": "Champs de glace",
+          "warning": "Le drop ne fonctionne pas dans le donjon du Royalmouth.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Wogew l'hewmite, lui remettre les sangs et les tiques, puis recevoir l'enveloppe pour Otomaï.",
+          "position": "[-1,-39]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller voir Otomaï dans son arbre et lui donner l'enveloppe.",
+          "position": "[-55,15]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner voir Wogew l'hewmite et lui annoncer qu'Otomaï a commencé ses recherches.",
+          "position": "[-1,-39]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner voir Jozébo Vez et lui annoncer que Wogew et Otomaï planchent sur son problème de tiques.",
+          "position": "[-69,-42]",
+          "zoneHint": "Champs de glace",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête fait partie du succès Problèmes et solutions.",
+        "Le drop des objets de quête ne fonctionne pas dans le donjon du Royalmouth."
+      ],
+      "npcs": [
+        "Jozébo Vez",
+        "Oshimo",
+        "Wogew l'hewmite",
+        "Otomaï"
+      ],
+      "items": [
+        {
+          "name": "Kama de glace",
+          "itemId": 11196,
+          "imageUrl": "/items/11196.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11196"
+        },
+        {
+          "name": "Clavicule de Boufmouth",
+          "itemId": 11118,
+          "imageUrl": "/items/11118.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11118"
+        },
+        {
+          "name": "Tique de Boufmouth",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Sang de Boufmouth",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Enveloppe",
+          "itemId": 2140,
+          "imageUrl": "/items/2140.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2140"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 602,
+            "name": "Champs de glace",
+            "coordinates": [
+              "-69,-42"
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Forêt d'Amakna",
+            "coordinates": [
+              "9,21"
+            ]
+          },
+          {
+            "id": 455,
+            "name": "Jungle obscure",
+            "coordinates": [
+              "-55,15"
+            ]
+          },
+          {
+            "id": 56,
+            "name": "Lac de Cania",
+            "coordinates": [
+              "-1,-39"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2901,
+            "name": "Bouflouth",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/2901.png"
+          },
+          {
+            "id": 3528,
+            "name": "Amy l'empoisonneuse",
+            "level": 140,
+            "imageUrl": "/bestiary/monsters/3528.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2323,
+            "name": "Chamchie le Difficile",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2323.png"
+          },
+          {
+            "id": 2349,
+            "name": "Preskapwal le Tendancieux",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2349.png"
+          },
+          {
+            "id": 2353,
+            "name": "Sangria le Fruité",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2353.png"
+          },
+          {
+            "id": 2400,
+            "name": "Bi le Partageur",
+            "level": 24,
+            "imageUrl": "/bestiary/monsters/2400.png"
+          },
+          {
+            "id": 2399,
+            "name": "Bilvoezé le Bonimenteur",
+            "level": 24,
+            "imageUrl": "/bestiary/monsters/2399.png"
+          },
+          {
+            "id": 2396,
+            "name": "Bistou le Quêteur",
+            "level": 24,
+            "imageUrl": "/bestiary/monsters/2396.png"
+          },
+          {
+            "id": 2401,
+            "name": "Bistou le Rieur",
+            "level": 24,
+            "imageUrl": "/bestiary/monsters/2401.png"
+          },
+          {
+            "id": 2407,
+            "name": "Blof l'Apathique",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2407.png"
+          },
+          {
+            "id": 2406,
+            "name": "Bloporte le Veule",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2406.png"
+          },
+          {
+            "id": 2405,
+            "name": "Blordur l'Infect",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2405.png"
+          },
+          {
+            "id": 2404,
+            "name": "Blorie l'Assourdissante",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2404.png"
+          },
+          {
+            "id": 2554,
+            "name": "Chiendanlémin l'Illusionniste",
+            "level": 125,
+            "imageUrl": "/bestiary/monsters/2554.png"
+          },
+          {
+            "id": 2579,
+            "name": "Nerdeubeu le Flagellant",
+            "level": 126,
+            "imageUrl": "/bestiary/monsters/2579.png"
+          },
+          {
+            "id": 2550,
+            "name": "Brouste l'Humiliant",
+            "level": 127,
+            "imageUrl": "/bestiary/monsters/2550.png"
+          },
+          {
+            "id": 2360,
+            "name": "Ecorfé la Vive",
+            "level": 128,
+            "imageUrl": "/bestiary/monsters/2360.png"
+          },
+          {
+            "id": 2565,
+            "name": "Floanna la Blonde",
+            "level": 129,
+            "imageUrl": "/bestiary/monsters/2565.png"
+          },
+          {
+            "id": 2546,
+            "name": "Bitoven le Musicien",
+            "level": 130,
+            "imageUrl": "/bestiary/monsters/2546.png"
+          },
+          {
+            "id": 2544,
+            "name": "Abrakine le Sombre",
+            "level": 131,
+            "imageUrl": "/bestiary/monsters/2544.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 103,
+                "name": "Prespic",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/103.png"
+              },
+              {
+                "id": 104,
+                "name": "Sanglier",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/104.png"
+              }
+            ]
+          },
+          {
+            "id": 210,
+            "name": "Blops",
+            "monsters": [
+              {
+                "id": 278,
+                "name": "Biblop Coco",
+                "level": 24,
+                "imageUrl": "/bestiary/monsters/278.png"
+              },
+              {
+                "id": 279,
+                "name": "Biblop Griotte",
+                "level": 24,
+                "imageUrl": "/bestiary/monsters/279.png"
+              },
+              {
+                "id": 277,
+                "name": "Biblop Indigo",
+                "level": 24,
+                "imageUrl": "/bestiary/monsters/277.png"
+              },
+              {
+                "id": 280,
+                "name": "Biblop Reinette",
+                "level": 24,
+                "imageUrl": "/bestiary/monsters/280.png"
+              },
+              {
+                "id": 273,
+                "name": "Blop Coco",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/273.png"
+              },
+              {
+                "id": 275,
+                "name": "Blop Griotte",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/275.png"
+              },
+              {
+                "id": 274,
+                "name": "Blop Indigo",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/274.png"
+              },
+              {
+                "id": 276,
+                "name": "Blop Reinette",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/276.png"
+              }
+            ]
+          },
+          {
+            "id": 156,
+            "name": "Boufmouths",
+            "monsters": [
+              {
+                "id": 2850,
+                "name": "Boufmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2850.png"
+              },
+              {
+                "id": 2851,
+                "name": "Boufmouth de guerre",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2851.png"
+              },
+              {
+                "id": 2852,
+                "name": "Boufmouth légendaire",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2852.png"
+              },
+              {
+                "id": 2853,
+                "name": "Bouftonmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2853.png"
+              }
+            ]
+          },
+          {
+            "id": 164,
+            "name": "Florifaune obscure",
+            "monsters": [
+              {
+                "id": 1077,
+                "name": "Abrakleur Sombre",
+                "level": 131,
+                "imageUrl": "/bestiary/monsters/1077.png"
+              },
+              {
+                "id": 1041,
+                "name": "Bitouf Sombre",
+                "level": 130,
+                "imageUrl": "/bestiary/monsters/1041.png"
+              },
+              {
+                "id": 1073,
+                "name": "Brouture",
+                "level": 127,
+                "imageUrl": "/bestiary/monsters/1073.png"
+              },
+              {
+                "id": 1076,
+                "name": "Chiendent",
+                "level": 125,
+                "imageUrl": "/bestiary/monsters/1076.png"
+              },
+              {
+                "id": 1029,
+                "name": "Floribonde",
+                "level": 129,
+                "imageUrl": "/bestiary/monsters/1029.png"
+              },
+              {
+                "id": 1075,
+                "name": "Fécorce",
+                "level": 128,
+                "imageUrl": "/bestiary/monsters/1075.png"
+              },
+              {
+                "id": 1074,
+                "name": "Nerbe",
+                "level": 126,
+                "imageUrl": "/bestiary/monsters/1074.png"
+              }
+            ]
+          },
+          {
+            "id": 1602,
+            "name": "Vermines des champs",
+            "monsters": [
+              {
+                "id": 59,
+                "name": "Champ Champ",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/59.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:323",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/gegravene-et-tique.html",
+      "sourceTitle": "Gène et tique​",
+      "sourceHash": "e7ea0104ce956ea657e91370e3688d6dbcd85459ef3966c6fdf21ef555f48a83",
+      "generatedAt": "2026-08-24T17:37:29.897Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    }
+  ],
+  "tips": []
+}

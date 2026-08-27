@@ -1,0 +1,557 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 47,
+  "updatedAt": "2026-08-27T12:54:01.981Z",
+  "summaries": [
+    {
+      "overview": "Pat Akess vous fait enchaîner six donjons dans un ordre imposé. Après chaque victoire, revenez le voir au Village d'Amakna pour obtenir la clef de l'étape suivante. Le parcours mène successivement au Scarabosse Doré, au Coffre des Forgerons, à la Bworkette, à la Shin Larve, au Rakoopeur puis au Craqueleur Légendaire, avant un dernier déplacement auprès de Chris de Naire.",
+      "recommendedLevel": 30,
+      "prerequisites": [
+        "Être de niveau supérieur à 29.",
+        "Avoir terminé « Le maître des clefs »."
+      ],
+      "rewards": [
+        "3 303 660 XP.",
+        "54 192 Kamas.",
+        "1 x Viscères du Scarabosse Doré.",
+        "1 x Poil de Bworkette.",
+        "1 x Dent de Shin Larve.",
+        "1 x Méga Pierre du Craqueleur Légendaire."
+      ],
+      "preparation": [
+        "Prévoir 1 x Donjon des Scarafeuilles.",
+        "Prévoir 1 x Donjon des Forgerons.",
+        "Prévoir 1 x Donjon des Bworks.",
+        "Prévoir 1 x Donjon des Larves.",
+        "Prévoir 1 x Donjon Refuge Sylvestre.",
+        "Prévoir 1 x Donjon Pitons Rocheux des Craqueleurs."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Pat Akess et choisissez « Merci, c’est exactement ce qu’il me faut » pour poursuivre la quête.",
+          "position": "[5,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": "La suite impose six donjons dans un ordre précis, avec un retour auprès de Pat Akess entre chacun d'eux.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuez le Donjon des Scarafeuilles et vainquez le Scarabosse Doré.",
+          "position": "[1,26]",
+          "zoneHint": null,
+          "warning": "Combat de donjon obligatoire.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez parler à Pat Akess afin de recevoir la clef du prochain donjon.",
+          "position": "[5,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuez le Donjon des Forgerons et vainquez le Coffre des Forgerons.",
+          "position": "[13,21]",
+          "zoneHint": null,
+          "warning": "Combat de donjon obligatoire.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez auprès de Pat Akess pour obtenir la clef suivante.",
+          "position": "[5,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuez le Donjon des Bworks et vainquez la Bworkette.",
+          "position": "[-5,10]",
+          "zoneHint": null,
+          "warning": "Combat de donjon obligatoire.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Revenez voir Pat Akess pour récupérer la clef du prochain donjon.",
+          "position": "[5,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuez le Donjon des Larves et vainquez la Shin Larve.",
+          "position": "[-2,-5]",
+          "zoneHint": null,
+          "warning": "Combat de donjon obligatoire.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez auprès de Pat Akess afin qu'il vous remette la clef suivante.",
+          "position": "[5,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez l'archipel de Valonia, puis effectuez le Refuge Sylvestre et vainquez le Rakoopeur.",
+          "position": "[40,-84]",
+          "zoneHint": "archipel de Valonia",
+          "warning": "Le donjon est sur l'archipel de Valonia, accessible en bateau depuis Amakna en [10,-3]. Combat de donjon obligatoire.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez voir Pat Akess pour recevoir la dernière clef de donjon.",
+          "position": "[5,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuez le donjon Pitons Rocheux des Craqueleurs et vainquez le Craqueleur Légendaire.",
+          "position": "[-3,-7]",
+          "zoneHint": null,
+          "warning": "Combat de donjon obligatoire.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez auprès de Pat Akess. Il n'a plus de donjon à vous confier et vous dirige vers une autre personne.",
+          "position": "[5,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Chris de Naire et choisissez « Calmez-vous, je m’en vais » pour terminer la quête.",
+          "position": "[-29,-47]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le Refuge Sylvestre se trouve sur l'archipel de Valonia ; le bateau permettant d'y accéder part d'Amakna en [10,-3].",
+        "La fin de cette quête débloque « Un juge hystérique »."
+      ],
+      "npcs": [
+        "Pat Akess",
+        "Chris de Naire"
+      ],
+      "items": [
+        {
+          "name": "Viscères du Scarabosse Doré",
+          "itemId": 8137,
+          "imageUrl": "/items/8137.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8137"
+        },
+        {
+          "name": "Poil de Bworkette",
+          "itemId": 8389,
+          "imageUrl": "/items/8389.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8389"
+        },
+        {
+          "name": "Dent de Shin Larve",
+          "itemId": 8386,
+          "imageUrl": "/items/8386.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8386"
+        },
+        {
+          "name": "Méga Pierre du Craqueleur Légendaire",
+          "itemId": 8394,
+          "imageUrl": "/items/8394.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8394"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 284,
+            "name": "Donjon des Bworks",
+            "coordinates": [
+              "-5,10"
+            ]
+          },
+          {
+            "id": 528,
+            "name": "Donjon des Forgerons",
+            "coordinates": [
+              "13,21"
+            ]
+          },
+          {
+            "id": 491,
+            "name": "Donjon des Larves",
+            "coordinates": [
+              "-2,-5"
+            ]
+          },
+          {
+            "id": 297,
+            "name": "Donjon des Scarafeuilles",
+            "coordinates": [
+              "1,26"
+            ]
+          },
+          {
+            "id": 1026,
+            "name": "Futaie enneigée",
+            "coordinates": [
+              "40,-84"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-29,-47"
+            ]
+          },
+          {
+            "id": 243,
+            "name": "Pitons Rocheux des Craqueleurs",
+            "coordinates": [
+              "-3,-7"
+            ]
+          },
+          {
+            "id": 1,
+            "name": "Port de Madrestam",
+            "coordinates": [
+              "10,-3"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "5,0"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2332,
+            "name": "Larchimaide la Poussée",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2332.png"
+          },
+          {
+            "id": 2331,
+            "name": "Larvapstrè le Subjectif",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2331.png"
+          },
+          {
+            "id": 2339,
+            "name": "Larvomatik le Propre",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2339.png"
+          },
+          {
+            "id": 2574,
+            "name": "Larvonika l'Instrument",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2574.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 155,
+                "name": "Bandit du clan des Roublards",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/155.png"
+              },
+              {
+                "id": 153,
+                "name": "Boulanger Sombre",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/153.png"
+              },
+              {
+                "id": 119,
+                "name": "Forgeron Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/119.png"
+              },
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 182,
+            "name": "Bworks d'Amakna",
+            "monsters": [
+              {
+                "id": 876,
+                "name": "Bwork",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/876.png"
+              },
+              {
+                "id": 74,
+                "name": "Bwork Archer",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/74.png"
+              },
+              {
+                "id": 53,
+                "name": "Bwork Mage",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/53.png"
+              }
+            ]
+          },
+          {
+            "id": 186,
+            "name": "Craqueleurs",
+            "monsters": [
+              {
+                "id": 483,
+                "name": "Craqueboule",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/483.png"
+              },
+              {
+                "id": 106,
+                "name": "Craqueleur",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/106.png"
+              },
+              {
+                "id": 293,
+                "name": "Craqueleur des Plaines",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/293.png"
+              },
+              {
+                "id": 4570,
+                "name": "Élémenterre",
+                "level": 59,
+                "imageUrl": "/bestiary/monsters/4570.png"
+              },
+              {
+                "id": 4573,
+                "name": "Craquelope",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4573.png"
+              }
+            ]
+          },
+          {
+            "id": 1667,
+            "name": "Grosses Larves",
+            "monsters": [
+              {
+                "id": 456,
+                "name": "Larve Dorée",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/456.png"
+              },
+              {
+                "id": 413,
+                "name": "Larve Rubis",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/413.png"
+              },
+              {
+                "id": 412,
+                "name": "Larve Saphir",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/412.png"
+              },
+              {
+                "id": 414,
+                "name": "Larve Émeraude",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/414.png"
+              }
+            ]
+          },
+          {
+            "id": 203,
+            "name": "Larves",
+            "monsters": [
+              {
+                "id": 31,
+                "name": "Larve Bleue",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/31.png"
+              },
+              {
+                "id": 46,
+                "name": "Larve Orange",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/46.png"
+              },
+              {
+                "id": 34,
+                "name": "Larve Verte",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/34.png"
+              },
+              {
+                "id": 5225,
+                "name": "Larve Jaune",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/5225.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 5910,
+            "name": "Rebelles de la Futaie",
+            "monsters": [
+              {
+                "id": 7192,
+                "name": "Timongouste",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7192.png"
+              },
+              {
+                "id": 7193,
+                "name": "Thomondor",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7193.png"
+              },
+              {
+                "id": 7194,
+                "name": "Buffalourd",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7194.png"
+              },
+              {
+                "id": 7195,
+                "name": "Grolours",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/7195.png"
+              }
+            ]
+          },
+          {
+            "id": 181,
+            "name": "Scarafeuilles",
+            "monsters": [
+              {
+                "id": 198,
+                "name": "Scarafeuille Bleu",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/198.png"
+              },
+              {
+                "id": 241,
+                "name": "Scarafeuille Blanc",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/241.png"
+              },
+              {
+                "id": 798,
+                "name": "Scarafeuille Immature",
+                "level": 30,
+                "imageUrl": "/bestiary/monsters/798.png"
+              },
+              {
+                "id": 795,
+                "name": "Scarafeuille Noir",
+                "level": 36,
+                "imageUrl": "/bestiary/monsters/795.png"
+              },
+              {
+                "id": 194,
+                "name": "Scarafeuille Rouge",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/194.png"
+              },
+              {
+                "id": 240,
+                "name": "Scarafeuille Vert",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/240.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:72",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/les-sbires-du-maitre.html",
+      "sourceTitle": "Les sbires du maître",
+      "sourceHash": "7c10eda9882de09ddfc4382dd7b1a19975b0d440cb5650952c88bd9090327f17",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": []
+}

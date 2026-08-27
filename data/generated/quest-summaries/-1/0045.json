@@ -1,0 +1,1556 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 45,
+  "updatedAt": "2026-08-27T12:54:01.185Z",
+  "summaries": [
+    {
+      "overview": "Aidez l'assistant d'Otomaï à préparer un remède contre la myxomawose afin d'obtenir la protection permanente permettant d'explorer toute l'île des Wabbits.",
+      "recommendedLevel": 40,
+      "prerequisites": [],
+      "rewards": [
+        "127 134 XP.",
+        "2 380 Kamas.",
+        "Accès permanent à toute l'île des Wabbits grâce à la potion Wabbit."
+      ],
+      "preparation": [
+        "1 x Ailes de Scarafeuille Bleu.",
+        "1 x Ailes de Scarafeuille Blanc.",
+        "1 x Ailes de Scarafeuille Vert.",
+        "1 x Ailes de Scarafeuille Rouge.",
+        "Les ailes peuvent être obtenues sur les Scarafeuilles de la Plaine des Scarafeuilles ou achetées en HDV."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à l'assistant d'Otomaï pour lui demander un remède contre la myxomawose.",
+          "position": "[-2,-4]",
+          "zoneHint": "Amakna - Le village",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récupérez 1 Ailes de Scarafeuille Bleu, 1 Ailes de Scarafeuille Blanc, 1 Ailes de Scarafeuille Vert et 1 Ailes de Scarafeuille Rouge.",
+          "position": null,
+          "zoneHint": "Plaine des Scarafeuilles",
+          "warning": "L'achat en HDV est une alternative si vous ne souhaitez pas récupérer les quatre ailes sur les monstres.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rapportez les quatre ailes à l'assistant d'Otomaï. Il vous remet la potion Wabbit, qui protège définitivement contre la myxomawose et ouvre l'accès à toute l'île.",
+          "position": "[-2,-4]",
+          "zoneHint": "Amakna - Le village",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Pour rejoindre ensuite l'île des Wabbits, utilisez le bateau disponible à cette position.",
+          "position": "[9,-2]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Si vous possédiez déjà la potion Wabbit avant la mise à jour 2.14, il suffit de la montrer à Lilou la Lenalde pour terminer la quête.",
+        "La quête débloque Sauvegarder l'espèce."
+      ],
+      "npcs": [
+        "Assistant d'Otomaï",
+        "Lilou la Lenalde"
+      ],
+      "items": [
+        {
+          "name": "Ailes de Scarafeuille Bleu",
+          "itemId": 1455,
+          "imageUrl": "/items/1455.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1455"
+        },
+        {
+          "name": "Ailes de Scarafeuille Blanc",
+          "itemId": 1456,
+          "imageUrl": "/items/1456.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1456"
+        },
+        {
+          "name": "Ailes de Scarafeuille Vert",
+          "itemId": 1458,
+          "imageUrl": "/items/1458.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1458"
+        },
+        {
+          "name": "Ailes de Scarafeuille Rouge",
+          "itemId": 1457,
+          "imageUrl": "/items/1457.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1457"
+        },
+        {
+          "name": "Potion Wabbit",
+          "itemId": 960,
+          "imageUrl": "/items/960.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/960"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 170,
+            "name": "Plaine des Scarafeuilles",
+            "coordinates": []
+          },
+          {
+            "id": 1,
+            "name": "Port de Madrestam",
+            "coordinates": [
+              "9,-2"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "-2,-4"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2332,
+            "name": "Larchimaide la Poussée",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2332.png"
+          },
+          {
+            "id": 2331,
+            "name": "Larvapstrè le Subjectif",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2331.png"
+          },
+          {
+            "id": 2339,
+            "name": "Larvomatik le Propre",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2339.png"
+          },
+          {
+            "id": 2574,
+            "name": "Larvonika l'Instrument",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2574.png"
+          },
+          {
+            "id": 2280,
+            "name": "Scapé l'Epée",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2280.png"
+          },
+          {
+            "id": 2283,
+            "name": "Scaramel le Fondant",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2283.png"
+          },
+          {
+            "id": 2281,
+            "name": "Scarfayss le Balafré",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2281.png"
+          },
+          {
+            "id": 2282,
+            "name": "Scarouarze l'Epopée",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2282.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 212,
+            "name": "Dragodindes",
+            "monsters": [
+              {
+                "id": 171,
+                "name": "Dragodinde amande sauvage",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/171.png"
+              },
+              {
+                "id": 200,
+                "name": "Dragodinde rousse sauvage",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/200.png"
+              }
+            ]
+          },
+          {
+            "id": 203,
+            "name": "Larves",
+            "monsters": [
+              {
+                "id": 31,
+                "name": "Larve Bleue",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/31.png"
+              },
+              {
+                "id": 46,
+                "name": "Larve Orange",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/46.png"
+              },
+              {
+                "id": 34,
+                "name": "Larve Verte",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/34.png"
+              },
+              {
+                "id": 5225,
+                "name": "Larve Jaune",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/5225.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 181,
+            "name": "Scarafeuilles",
+            "monsters": [
+              {
+                "id": 198,
+                "name": "Scarafeuille Bleu",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/198.png"
+              },
+              {
+                "id": 241,
+                "name": "Scarafeuille Blanc",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/241.png"
+              },
+              {
+                "id": 194,
+                "name": "Scarafeuille Rouge",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/194.png"
+              },
+              {
+                "id": 240,
+                "name": "Scarafeuille Vert",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/240.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:531",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/intrusion-chez-les-wabbits.html",
+      "sourceTitle": "Intrusion chez les wabbits",
+      "sourceHash": "df2c5e0c62c1cf12a39cd72b579f90e49bf4bdb215795095ad0b68ca539999ed",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Portez un message de Fallanster sur Pandala, consultez le chaman Surivitna puis rejoignez le réceptacle des Dofus. Une vision déclenche un combat solitaire contre le Feu prophétique avant le retour auprès du chaman.",
+      "recommendedLevel": 30,
+      "prerequisites": [
+        "Balade en forêt.",
+        "Le réveil de Pandala doit être terminé pour traverser le pont de Pandala."
+      ],
+      "rewards": [
+        "86 155 XP.",
+        "1 776 Kamas."
+      ],
+      "preparation": [
+        "Prévoir 1 combat réalisable en groupe.",
+        "Prévoir 1 combat seul."
+      ],
+      "actions": [
+        {
+          "instruction": "À l'étage de la tour du Conseil, parlez à Fallanster et acceptez de remettre son message à la Daimya Hikomi de Pandala.",
+          "position": "[4,-19]",
+          "zoneHint": "Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Traversez le pont de Pandala depuis son début jusqu'à son extrémité. La quête se met à jour en arrivant sur la dernière carte.",
+          "position": "[19,-28]",
+          "zoneHint": null,
+          "warning": "Le réveil de Pandala doit être terminé pour pouvoir traverser le pont, qui commence en [12,-21].",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Au palais de bambou, remettez la lettre de Fallanster au Pandarin Sudopong. Il vous oriente vers Surivitna.",
+          "position": "[22,-29]",
+          "zoneHint": "palais de bambou",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Surivitna et annoncez que vous recherchez les six Dofus. Il vous demande de rejoindre le réceptacle et d'y boire une Pinte du visionnaire.",
+          "position": "[20,-27]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la taverne du Fermenthé, demandez une Pinte du visionnaire à Chonayu. Elle exige d'abord que vous fassiez partir ses clients éméchés.",
+          "position": "[22,-27]",
+          "zoneHint": "taverne du Fermenthé",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Pandawa éméché puis battez les clients qui refusent de partir.",
+          "position": "[22,-27]",
+          "zoneHint": "taverne du Fermenthé",
+          "warning": "Combat réalisable à plusieurs.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Reparlez à Chonayu après le combat pour recevoir la Pinte du visionnaire.",
+          "position": "[22,-27]",
+          "zoneHint": "taverne du Fermenthé",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Demandez à l'Assistant du chaman de vous conduire à l'entrée de la caverne du réceptacle.",
+          "position": "[19,-32]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Devant la caverne, cliquez derrière la cascade pour entrer, puis traversez la première salle en montant les escaliers.",
+          "position": "[21,-33]",
+          "zoneHint": "caverne du réceptacle",
+          "warning": "La caverne est inaccessible aux personnages qui n'ont pas cette quête au bon stade.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Devant le réceptacle des Dofus, utilisez la Pinte du visionnaire depuis l'inventaire de quête, puis parlez au Feu prophétique.",
+          "position": null,
+          "zoneHint": "caverne du réceptacle",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Vainquez le Feu prophétique. Restez loin au début pour éviter qu'une flamme invoquée apparaisse au corps à corps. Tuer le Feu prophétique suffit à gagner.",
+          "position": null,
+          "zoneHint": "caverne du réceptacle",
+          "warning": "Combat seul. Les six flammes tuent instantanément au corps à corps. En cas de défaite, aucune énergie n'est perdue et le combat peut être relancé directement sur la carte.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Retournez voir Surivitna et dites-lui que vous avez vu une flamme crépitante afin de conclure la quête.",
+          "position": "[20,-27]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le Feu prophétique inflige 100 dégâts feu par tour à toutes les entités et réinvoque ses flammes lorsqu'elles sont détruites.",
+        "Frapper une flamme échange votre position avec elle et déclenche un effet dans un rayon de 3 PO : Emeraude donne un bouclier, Pourpre renvoie les dommages, Turquoise donne 1 PM, Ocre 2 PA, Ebène applique un poison air et Ivoire soigne 25% des PV maximum.",
+        "Continuer la conversation avec Surivitna débloque Un sage parmi les sages."
+      ],
+      "npcs": [
+        "Fallanster",
+        "Daimya Hikomi",
+        "Pandarin Sudopong",
+        "Surivitna",
+        "Chonayu",
+        "Pandawa éméché",
+        "Assistant du chaman",
+        "Feu prophétique"
+      ],
+      "items": [
+        {
+          "name": "Lettre de Fallanster",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Pinte du visionnaire",
+          "itemId": 23021,
+          "imageUrl": "/items/23021.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23021"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 945,
+            "name": "Aerdala",
+            "coordinates": [
+              "19,-32",
+              "21,-33"
+            ]
+          },
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "4,-19"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "19,-28",
+              "12,-21"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "22,-27"
+            ]
+          },
+          {
+            "id": 951,
+            "name": "Village de Pandala",
+            "coordinates": [
+              "22,-29",
+              "20,-27"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2512,
+            "name": "Fangshui la Dysorthographiée",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2512.png"
+          },
+          {
+            "id": 2511,
+            "name": "Inopenope le Négatif",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2511.png"
+          },
+          {
+            "id": 2412,
+            "name": "Lichangora l'Immaculée",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2412.png"
+          },
+          {
+            "id": 2398,
+            "name": "Rooroku l'Imposant",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2398.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 3018,
+            "name": "Kozaru",
+            "monsters": [
+              {
+                "id": 6214,
+                "name": "Ino-Naru",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6214.png"
+              },
+              {
+                "id": 6215,
+                "name": "Kurookin",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6215.png"
+              },
+              {
+                "id": 6216,
+                "name": "Fangshu",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6216.png"
+              },
+              {
+                "id": 6217,
+                "name": "Lichangoro",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6217.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1357",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-receptacle-des-dofus.html",
+      "sourceTitle": "Le réceptacle des Dofus",
+      "sourceHash": "a7d4a32c4f190710662b222f1a47741c6f4e2437c2c0ed52e0edbe50b895bd47",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "À la suite du réceptacle des Dofus, cherchez Ronald le sage lenald. Il faut gagner la confiance des Lenalds à Pandala, rejoindre l'île des Wabbits, retrouver Ronald dans un souterrain et le défendre avant d'écouter ses informations sur les six Dofus.",
+      "recommendedLevel": 40,
+      "prerequisites": [
+        "Le réceptacle des Dofus.",
+        "Intrusion chez les wabbits doit être terminée pour accéder à toute l'île des Wabbits."
+      ],
+      "rewards": [
+        "152 560 XP.",
+        "2 856 Kamas."
+      ],
+      "preparation": [
+        "Prévoir 1 combat seul.",
+        "Prévoir 1 combat réalisable en groupe.",
+        "Prévoir 500 Kamas pour le trajet vers l'île des Wabbits."
+      ],
+      "actions": [
+        {
+          "instruction": "À la suite de la quête précédente, parlez à Surivitna. Il vous envoie chercher Ronald dans la demeure des Lenalds.",
+          "position": "[20,-27]",
+          "zoneHint": "Village de Pandala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Guipol pour demander où se trouve Ronald, puis acceptez son défi afin de prouver votre valeur.",
+          "position": "[22,-28]",
+          "zoneHint": null,
+          "warning": "Le défi déclenche un combat qui doit être effectué seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après la victoire, parlez à Helmeline. Elle vous apprend que Ronald se trouve sur l'île natale des Lenalds, envahie par les Wabbits.",
+          "position": "[22,-28]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à la Capitaine Lily pour voyager jusqu'à l'île des Wabbits.",
+          "position": "[9,-2]",
+          "zoneHint": null,
+          "warning": "Le voyage coûte 500 Kamas. Intrusion chez les wabbits doit être terminée pour pouvoir accéder à toute l'île sans être bloqué par la myxomawose.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sur l'île, parlez à Wanald le Sage Lenald et demandez-lui des nouvelles de Ronald. Il vous indique que Ronald explore les souterrains.",
+          "position": "[23,-4]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans le souterrain wabbit et progressez dans le labyrinthe jusqu'à Ronald le sage lenald.",
+          "position": "[24,-7]",
+          "zoneHint": "souterrain wabbit",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Ronald et proposez une autre forme de négociation afin de le défendre contre les Wabbits.",
+          "position": "[24,-7]",
+          "zoneHint": "souterrain wabbit",
+          "warning": "Combat réalisable à plusieurs, avec Ronald le sage lenald comme allié.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire, reparlez à Ronald. Il accepte de poursuivre la discussion dans un lieu plus calme et doit être reconduit auprès de Wanald.",
+          "position": "[24,-7]",
+          "zoneHint": "souterrain wabbit",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Wanald et reparlez à Ronald. Écoutez ses informations sur les Dofus Primordiaux et la rumeur concernant le seigneur de la Forêt Maléfique.",
+          "position": "[23,-4]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Ronald explique que le Dofus Cawotte n'est pas un véritable Dofus Primordial, même s'il a été enchanté par le Wa et possède des pouvoirs.",
+        "La quête se termine après la discussion en [23,-4]. Continuer à parler à Ronald débloque Protection divine."
+      ],
+      "npcs": [
+        "Surivitna",
+        "Guipol",
+        "Helmeline",
+        "Capitaine Lily",
+        "Wanald le Sage Lenald",
+        "Ronald le sage lenald"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 443,
+            "name": "Forêt",
+            "coordinates": [
+              "23,-4"
+            ]
+          },
+          {
+            "id": 161,
+            "name": "Île de la Cawotte",
+            "coordinates": [
+              "24,-7"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "9,-2"
+            ]
+          },
+          {
+            "id": 29,
+            "name": "Souterrains",
+            "coordinates": [
+              "23,-4"
+            ]
+          },
+          {
+            "id": 951,
+            "name": "Village de Pandala",
+            "coordinates": [
+              "20,-27",
+              "22,-28"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2294,
+            "name": "Tiwoflan le Lâche",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/2294.png"
+          },
+          {
+            "id": 2293,
+            "name": "Tiwalpé le Dévêtu",
+            "level": 41,
+            "imageUrl": "/bestiary/monsters/2293.png"
+          },
+          {
+            "id": 2402,
+            "name": "Tiwa'Missou le Gateux",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2402.png"
+          },
+          {
+            "id": 2304,
+            "name": "Wabbitud le Constant",
+            "level": 44,
+            "imageUrl": "/bestiary/monsters/2304.png"
+          },
+          {
+            "id": 2403,
+            "name": "Wagnagnah le Sanglant",
+            "level": 46,
+            "imageUrl": "/bestiary/monsters/2403.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              }
+            ]
+          },
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 153,
+                "name": "Boulanger Sombre",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/153.png"
+              },
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Mulous",
+            "monsters": [
+              {
+                "id": 102,
+                "name": "Mulou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/102.png"
+              }
+            ]
+          },
+          {
+            "id": 172,
+            "name": "Wabbits",
+            "monsters": [
+              {
+                "id": 68,
+                "name": "Black Tiwabbit",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/68.png"
+              },
+              {
+                "id": 65,
+                "name": "Black Wabbit",
+                "level": 46,
+                "imageUrl": "/bestiary/monsters/65.png"
+              },
+              {
+                "id": 72,
+                "name": "Tiwabbit Kiafin",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/72.png"
+              },
+              {
+                "id": 96,
+                "name": "Tiwabbit",
+                "level": 41,
+                "imageUrl": "/bestiary/monsters/96.png"
+              },
+              {
+                "id": 64,
+                "name": "Wabbit",
+                "level": 44,
+                "imageUrl": "/bestiary/monsters/64.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1358",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/un-sage-parmi-les-sages.html",
+      "sourceTitle": "Un sage parmi les sages",
+      "sourceHash": "1a6714b99e9e16c8db5bfda4662f534a54eaf613947e7e5255642be2d58d91cf",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Préparez votre expédition dans la Forêt Maléfique en passant par votre temple de classe : affrontez un dopeul maléfique, obtenez la Bénédiction des Douze, consultez les notes de Wally Elconom puis rejoignez l'entrée de la forêt.",
+      "recommendedLevel": 40,
+      "prerequisites": [
+        "Un sage parmi les sages."
+      ],
+      "rewards": [
+        "76 280 XP.",
+        "1 428 Kamas."
+      ],
+      "preparation": [
+        "Prévoir 1 combat seul."
+      ],
+      "actions": [
+        {
+          "instruction": "À la suite de la quête précédente, parlez à Ronald le sage lenald. Il vous demande de vous préparer avant d'explorer la Forêt Maléfique.",
+          "position": "[23,-4]",
+          "zoneHint": "Île des Wabbits",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous dans le temple correspondant à votre classe et parlez à votre maître de temple en indiquant que vous partez vers la Forêt Maléfique.",
+          "position": null,
+          "zoneHint": "temple de classe",
+          "warning": "La position dépend de votre classe.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans le même temple, parlez au maître des Dopeuls et évoquez votre voyage vers la Forêt Maléfique, puis affrontez son dopeul maléfique.",
+          "position": null,
+          "zoneHint": "temple de classe",
+          "warning": "Combat seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après la victoire, cliquez sur la statue de votre temple et choisissez de prier pour recevoir la Bénédiction des Douze.",
+          "position": null,
+          "zoneHint": "temple de classe",
+          "warning": "La bénédiction sera nécessaire lors de la confrontation ultérieure avec le Dark Vlad.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À l'étage de la bibliothèque d'Amakna, parlez à Wally Elconom et demandez son plan de la Forêt Maléfique.",
+          "position": "[4,1]",
+          "zoneHint": "bibliothèque d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Double-cliquez sur le livre Routes et chemins de campagne : la Forêt Maléfique pour le consulter.",
+          "position": "[4,1]",
+          "zoneHint": "bibliothèque d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous devant l'entrée de la Forêt Maléfique et parlez à Lanseuft de Troille pour terminer la quête.",
+          "position": "[-5,13]",
+          "zoneHint": "Orée enchantée",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Continuer la conversation avec Lanseuft de Troille débloque Voir le Dark Vlad et mourir… ou pas, mais l'accès au Dédale du Dark Vlad sera bloqué tant que Un pendule pour guider ses pas n'est pas terminée."
+      ],
+      "npcs": [
+        "Ronald le sage lenald",
+        "Maître de temple",
+        "Maître des Dopeuls",
+        "Wally Elconom",
+        "Lanseuft de Troille"
+      ],
+      "items": [
+        {
+          "name": "Bénédiction des Douze",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Routes et chemins de campagne : la Forêt Maléfique",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 161,
+            "name": "Île de la Cawotte",
+            "coordinates": [
+              "23,-4"
+            ]
+          },
+          {
+            "id": 1019,
+            "name": "Orée enchantée",
+            "coordinates": [
+              "-5,13"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "4,1"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2294,
+            "name": "Tiwoflan le Lâche",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/2294.png"
+          },
+          {
+            "id": 2293,
+            "name": "Tiwalpé le Dévêtu",
+            "level": 41,
+            "imageUrl": "/bestiary/monsters/2293.png"
+          },
+          {
+            "id": 2402,
+            "name": "Tiwa'Missou le Gateux",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2402.png"
+          },
+          {
+            "id": 2304,
+            "name": "Wabbitud le Constant",
+            "level": 44,
+            "imageUrl": "/bestiary/monsters/2304.png"
+          },
+          {
+            "id": 2403,
+            "name": "Wagnagnah le Sanglant",
+            "level": 46,
+            "imageUrl": "/bestiary/monsters/2403.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 172,
+            "name": "Wabbits",
+            "monsters": [
+              {
+                "id": 68,
+                "name": "Black Tiwabbit",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/68.png"
+              },
+              {
+                "id": 65,
+                "name": "Black Wabbit",
+                "level": 46,
+                "imageUrl": "/bestiary/monsters/65.png"
+              },
+              {
+                "id": 72,
+                "name": "Tiwabbit Kiafin",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/72.png"
+              },
+              {
+                "id": 96,
+                "name": "Tiwabbit",
+                "level": 41,
+                "imageUrl": "/bestiary/monsters/96.png"
+              },
+              {
+                "id": 64,
+                "name": "Wabbit",
+                "level": 44,
+                "imageUrl": "/bestiary/monsters/64.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1359",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/protection-divine.html",
+      "sourceTitle": "Protection divine",
+      "sourceHash": "c462cf18acd9dc4c9ac83f67735d871003c1e0a68d5bf896b412d101ebcde124",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Faites fabriquer par Lanseuft de Troille un pendule capable de vous guider malgré la malédiction de la Forêt Maléfique. Il faut fournir trois ressources, attendre la fabrication puis tester l'objet pour ouvrir le Dédale du Dark Vlad.",
+      "recommendedLevel": 40,
+      "prerequisites": [],
+      "rewards": [
+        "63 567 XP.",
+        "1 190 Kamas.",
+        "Accès à la zone Dédale du Dark Vlad de la Forêt Maléfique."
+      ],
+      "preparation": [
+        "1 x Chaînes Brisées.",
+        "1 x Ebonite.",
+        "1 x Scalp de Bwork Archer.",
+        "Prévoir une attente minimale de 3 minutes après avoir remis les ressources."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Lanseuft de Troille et demandez à entrer dans la forêt. Il accepte de fabriquer un pendule si vous lui fournissez les ressources nécessaires.",
+          "position": "[-5,13]",
+          "zoneHint": "Orée enchantée",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récupérez 1 Chaînes Brisées, 1 Ebonite et 1 Scalp de Bwork Archer.",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rapportez les trois ressources à Lanseuft de Troille et remettez-les-lui pour la fabrication du pendule.",
+          "position": "[-5,13]",
+          "zoneHint": "Orée enchantée",
+          "warning": "Les trois ressources sont consommées lors de cette étape.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Attendez au minimum 3 minutes avant de reparler à Lanseuft de Troille.",
+          "position": "[-5,13]",
+          "zoneHint": "Orée enchantée",
+          "warning": "Si vous revenez avant 3 minutes, le pendule ne sera pas prêt.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Après les 3 minutes, demandez à Lanseuft si le pendule est prêt. Il vous remet 1 Pendule de Lanseuft.",
+          "position": "[-5,13]",
+          "zoneHint": "Orée enchantée",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Utilisez le Pendule de Lanseuft depuis votre inventaire de quête afin de vérifier son fonctionnement. La quête se termine automatiquement.",
+          "position": "[-5,13]",
+          "zoneHint": "Orée enchantée",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Après la quête, cinq accès permettent d'entrer dans le Dédale du Dark Vlad : [-5,13] vers le bas, [-7,16] vers la droite, [-6,20] vers la droite, [-5,23] vers le haut et [0,16] vers le bas.",
+        "La quête débloque aussi l'accès à Le mal qui fait bien."
+      ],
+      "npcs": [
+        "Lanseuft de Troille"
+      ],
+      "items": [
+        {
+          "name": "Chaînes Brisées",
+          "itemId": 14278,
+          "imageUrl": "/items/14278.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/14278"
+        },
+        {
+          "name": "Ebonite",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Scalp de Bwork Archer",
+          "itemId": 2268,
+          "imageUrl": "/items/2268.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2268"
+        },
+        {
+          "name": "Pendule de Lanseuft",
+          "itemId": 26678,
+          "imageUrl": "/items/26678.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26678"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 1019,
+            "name": "Orée enchantée",
+            "coordinates": [
+              "-5,13"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": []
+      },
+      "questKey": "quest:1411",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/un-pendule-pour-guider-ses-pas.html",
+      "sourceTitle": "Un pendule pour guider ses pas",
+      "sourceHash": "6292a90c0460a25760f74753f22a9eefc38f82eaa46336bc812a635a0cc9a61c",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Entrez dans le Dédale du Dark Vlad, atteignez sa clairière et survivez à deux combats solitaires successifs. Après avoir découvert le nom de son Dofus, rejoignez Ronald au port de Madrestam pour identifier le Dofus Emeraude.",
+      "recommendedLevel": 40,
+      "prerequisites": [
+        "Protection divine.",
+        "Un pendule pour guider ses pas doit être terminée pour entrer dans le Dédale du Dark Vlad."
+      ],
+      "rewards": [
+        "152 560 XP.",
+        "2 856 Kamas.",
+        "5 x Sang d'Oni."
+      ],
+      "preparation": [
+        "Prévoir 1 combat seul.",
+        "Prévoir 1 combat à vagues seul."
+      ],
+      "actions": [
+        {
+          "instruction": "À la suite de Protection divine, parlez à Lanseuft de Troille et demandez à entrer dans la forêt.",
+          "position": "[-5,13]",
+          "zoneHint": "Orée enchantée",
+          "warning": "L'accès au Dédale du Dark Vlad exige d'avoir terminé Un pendule pour guider ses pas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans le Dédale du Dark Vlad et rejoignez son centre, puis montez les escaliers vers la clairière.",
+          "position": "[-5,17]",
+          "zoneHint": "Dédale du Dark Vlad",
+          "warning": "Dans le dédale, les potions de rappel et l'autopilotage de monture sont inutilisables. Pour sortir, il faut rejoindre une entrée, mourir ou utiliser la téléportation mari/femme.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la clairière, parlez au Dark Vlad, demandez quel Dofus il possède puis défendez-vous contre les monstres qu'il envoie.",
+          "position": "[-5,17]",
+          "zoneHint": "clairière du Dark Vlad",
+          "warning": "Combat seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après la première victoire, reparlez au Dark Vlad et insistez de nouveau. Survivez alors à son armée de Chafers lors d'un combat en quatre vagues.",
+          "position": "[-5,17]",
+          "zoneHint": "clairière du Dark Vlad",
+          "warning": "Combat à vagues seul : vague 1, 2 Chafer décati ; vague 2, 1 Archer décati et 1 Chafer décati au tour 3 ; vague 3, 1 Assassin décati et 1 Chafer décati au tour 5 ; vague 4, 1 Assassin décati et 1 Archer décati au tour 5.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après le second combat, interrogez une troisième fois le Dark Vlad. La Bénédiction des Douze vous protège de sa colère et il révèle posséder le Dofus de Razeriane.",
+          "position": "[-5,17]",
+          "zoneHint": "clairière du Dark Vlad",
+          "warning": "Deux choix sont proposés ensuite : « Insister » vous fait quitter directement le dédale et est conseillé ; « S'en aller » vous laisse au centre et vous oblige à retrouver vous-même une sortie ou à mourir.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Choisissez de préférence « Insister » pour être expulsé directement du dédale.",
+          "position": "[-5,17]",
+          "zoneHint": "clairière du Dark Vlad",
+          "warning": "Ce choix modifie uniquement votre mode de sortie immédiat du dédale ; « S'en aller » vous laisse à l'intérieur.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez Ronald le sage lenald au port de Madrestam et racontez-lui que le Dark Vlad possède le Dofus de Razeriane. Il l'identifie comme le Dofus Emeraude, œuf primordial d'Aerafal.",
+          "position": "[10,-5]",
+          "zoneHint": "Port de Madrestam",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La Bénédiction des Douze obtenue pendant Protection divine est utilisée lors de la troisième confrontation verbale avec le Dark Vlad.",
+        "Continuer la conversation avec Ronald en [10,-5] débloque La magicienne des marécages."
+      ],
+      "npcs": [
+        "Lanseuft de Troille",
+        "Dark Vlad",
+        "Ronald le sage lenald"
+      ],
+      "items": [
+        {
+          "name": "Bénédiction des Douze",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Sang d'Oni",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 9,
+            "name": "Dédale du Dark Vlad",
+            "coordinates": [
+              "-5,17"
+            ]
+          },
+          {
+            "id": 1019,
+            "name": "Orée enchantée",
+            "coordinates": [
+              "-5,13"
+            ]
+          },
+          {
+            "id": 1,
+            "name": "Port de Madrestam",
+            "coordinates": [
+              "10,-5"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "1,2",
+              "2,1",
+              "3,1",
+              "4,1"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2332,
+            "name": "Larchimaide la Poussée",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2332.png"
+          },
+          {
+            "id": 2331,
+            "name": "Larvapstrè le Subjectif",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2331.png"
+          },
+          {
+            "id": 2339,
+            "name": "Larvomatik le Propre",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2339.png"
+          },
+          {
+            "id": 2574,
+            "name": "Larvonika l'Instrument",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2574.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 203,
+            "name": "Larves",
+            "monsters": [
+              {
+                "id": 31,
+                "name": "Larve Bleue",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/31.png"
+              },
+              {
+                "id": 46,
+                "name": "Larve Orange",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/46.png"
+              },
+              {
+                "id": 34,
+                "name": "Larve Verte",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/34.png"
+              },
+              {
+                "id": 5225,
+                "name": "Larve Jaune",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/5225.png"
+              }
+            ]
+          },
+          {
+            "id": 5212,
+            "name": "Malters",
+            "monsters": [
+              {
+                "id": 6864,
+                "name": "Malzerb",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/6864.png"
+              },
+              {
+                "id": 6871,
+                "name": "Maltrio",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/6871.png"
+              },
+              {
+                "id": 6872,
+                "name": "Malépik",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/6872.png"
+              },
+              {
+                "id": 6873,
+                "name": "Malalfa",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/6873.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1360",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/voir-le-dark-vlad-et-mourir-ou-pas.html",
+      "sourceTitle": "Voir le Dark Vlad et mourir... ou pas",
+      "sourceHash": "94810973b8bd51328437a7d7ddd73f958a59761df47b83b419319b866d134f6c",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": []
+}

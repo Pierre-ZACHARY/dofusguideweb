@@ -1,0 +1,467 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 104,
+  "updatedAt": "2026-08-27T12:55:03.094Z",
+  "summaries": [
+    {
+      "overview": "Enquêter sur un trafic de stupéfiant à Bonta pour le compte de la milice en remontant la piste des fleurs de kaliptus des cavernes jusqu'au Koulosse.",
+      "recommendedLevel": 70,
+      "prerequisites": [
+        "Dapyus n'est pas doué"
+      ],
+      "rewards": [
+        "2 433 600 XP"
+      ],
+      "preparation": [
+        "Effectuer le donjon du Koulosse"
+      ],
+      "actions": [
+        {
+          "instruction": "Aller à la milice de Bonta et parler à Amayiro pour lancer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller au village des éleveurs et parler à Thelma Geur.",
+          "position": "[-16,2]",
+          "zoneHint": "village des éleveurs",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller dans la forêt de Kaliptus, faire croire à Wid que vous êtes un client puis le combattre.",
+          "position": "[-6,13]",
+          "zoneHint": "forêt de Kaliptus",
+          "warning": "Combat contre Wid",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Ramener Wid à Amayiro à la milice de Bonta.",
+          "position": "[-32,-57]",
+          "zoneHint": "milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Descendre dans la prison et interroger Wid.",
+          "position": "[-32,-57]",
+          "zoneHint": "prison",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuer le donjon du Koulosse, vaincre le Koulosse puis lui parler de son trafic.",
+          "position": null,
+          "zoneHint": "donjon du Koulosse",
+          "warning": "Combat de donjon contre le Koulosse",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner à la prison et confronter Wid.",
+          "position": "[-32,-57]",
+          "zoneHint": "prison",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Faire le rapport à Amayiro pour terminer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Débloque la quête Vin Diou",
+        "Débloque Apprentissage : Écuyer (Ordre du Coeur Vaillant)",
+        "Débloque Apprentissage : Espion Silencieux (Ordre de l'Oeil Attentif)",
+        "Débloque Apprentissage : Apprenti Éclairé (Ordre de l'Esprit Salvateur)"
+      ],
+      "npcs": [
+        "Amayiro",
+        "Thelma Geur",
+        "Wid",
+        "Koulosse"
+      ],
+      "items": [
+        {
+          "name": "Fleur de Kaliptus des Cavernes",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 234,
+            "name": "Forêt de Kaliptus",
+            "coordinates": [
+              "-6,13"
+            ]
+          },
+          {
+            "id": 182,
+            "name": "Village des Éleveurs",
+            "coordinates": [
+              "-16,2"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 446,
+            "name": "Aermyne 'Braco' Scalptaras",
+            "level": 80,
+            "imageUrl": "/bestiary/monsters/446.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2517,
+            "name": "Koalastrof la Naturelle",
+            "level": 60,
+            "imageUrl": "/bestiary/monsters/2517.png"
+          },
+          {
+            "id": 2442,
+            "name": "Doktopuss le Maléfique",
+            "level": 70,
+            "imageUrl": "/bestiary/monsters/2442.png"
+          },
+          {
+            "id": 2306,
+            "name": "Warkolad l'Etreinte",
+            "level": 74,
+            "imageUrl": "/bestiary/monsters/2306.png"
+          },
+          {
+            "id": 2515,
+            "name": "Koasossyal le Psychopathe",
+            "level": 80,
+            "imageUrl": "/bestiary/monsters/2515.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 219,
+            "name": "Koalaks",
+            "monsters": [
+              {
+                "id": 747,
+                "name": "Dok Alako",
+                "level": 70,
+                "imageUrl": "/bestiary/monsters/747.png"
+              },
+              {
+                "id": 748,
+                "name": "Koalak Immature",
+                "level": 60,
+                "imageUrl": "/bestiary/monsters/748.png"
+              },
+              {
+                "id": 785,
+                "name": "Koalak Forestier",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/785.png"
+              },
+              {
+                "id": 746,
+                "name": "Warko Marron",
+                "level": 74,
+                "imageUrl": "/bestiary/monsters/746.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:42",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/cest-stupeacutefiant.html",
+      "sourceTitle": "Alignement 40 : C'est stupéfiant",
+      "sourceHash": "9f9f9c3fe67e62db3f24066910797a927b168b302caa7daab7a250b68a118b7d",
+      "generatedAt": "2026-08-24T17:15:23.751Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Quête journalière niveau 85. Koka Dekolak du Village des Eleveurs vous demande de lui rapporter des ressources obtenues sur des monstres, avec un taux de drop de base de 5 %.",
+      "recommendedLevel": 85,
+      "prerequisites": [
+        "Quête journalière"
+      ],
+      "rewards": [
+        "10 x Pain de Seigle",
+        "10 x Shigekax Menthe",
+        "5 x Potion de Rappel",
+        "5 x Potion de cité : Brâkmar",
+        "5 x Potion de cité : Bonta",
+        "2 x Pomme"
+      ],
+      "preparation": [
+        "Prévoir un équipement avec de la prospection pour augmenter le taux de drop (5 % de base)."
+      ],
+      "actions": [
+        {
+          "instruction": "Aller au Village des Eleveurs et parler à Koka Dekolak pour accepter la quête.",
+          "position": "[-15,-1]",
+          "zoneHint": "Village des Eleveurs",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Combattre les monstres indiqués par la quête pour obtenir les ressources demandées. Le drop n'est possible que si la quête est active, avec un taux de base de 5 %.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Les ressources ne tombent que si la quête est active. Drop à 5 % de base (utiliser de la prospection).",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Retourner voir Koka Dekolak au Village des Eleveurs pour lui remettre les ressources.",
+          "position": "[-15,-1]",
+          "zoneHint": "Village des Eleveurs",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les ressources et monstres spécifiques sont indiqués dans le suivi de quête en jeu (données visuelles absentes de la source)."
+      ],
+      "npcs": [
+        "Koka Dekolak"
+      ],
+      "items": [
+        {
+          "name": "Pain de Seigle",
+          "itemId": 539,
+          "imageUrl": "/items/539.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/539"
+        },
+        {
+          "name": "Shigekax Menthe",
+          "itemId": 991,
+          "imageUrl": "/items/991.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/991"
+        },
+        {
+          "name": "Potion de Rappel",
+          "itemId": 548,
+          "imageUrl": "/items/548.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/548"
+        },
+        {
+          "name": "Potion de cité : Brâkmar",
+          "itemId": 6964,
+          "imageUrl": "/items/6964.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6964"
+        },
+        {
+          "name": "Potion de cité : Bonta",
+          "itemId": 6965,
+          "imageUrl": "/items/6965.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6965"
+        },
+        {
+          "name": "Pomme",
+          "itemId": 281,
+          "imageUrl": "/items/281.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/281"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 182,
+            "name": "Village des Éleveurs",
+            "coordinates": [
+              "-15,-1"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": []
+      },
+      "questKey": "quest:70",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/charger-la-mule.html",
+      "sourceTitle": "Charger la mule",
+      "sourceHash": "9077de456dab79892f7ae58e41963233f67bf039cdd237f2901b294a5947e9ab",
+      "generatedAt": "2026-08-24T17:17:37.702Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Quête journalière niveau 65. Aider Koka Dekolak au Village des Éleveurs à rassembler des plantes et des peaux de la région.",
+      "recommendedLevel": 65,
+      "prerequisites": [
+        "Quête journalière"
+      ],
+      "rewards": [
+        "579 646 XP",
+        "11 010 Kamas",
+        "10 x Shigekax Citron",
+        "2 x Pomme"
+      ],
+      "preparation": [
+        "2 x Fleur de Kaliptus"
+      ],
+      "actions": [
+        {
+          "instruction": "Aller au Village des Éleveurs et parler à Koka Dekolak pour lancer la quête.",
+          "position": "[-15,-1]",
+          "zoneHint": "Village des Éleveurs",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Se procurer 2 x Fleur de Kaliptus (achat ou récolte).",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Combattre des Koalak Immature pour obtenir 2 x Peau parfaite de Koalak Immature (drop à 5 % de base, équipez-vous en prospection).",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Drop à 5 % de base uniquement lorsque la quête est activée. Prévoir un équipement avec prospection.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Retourner voir Koka Dekolak au Village des Éleveurs et lui remettre les ressources.",
+          "position": "[-15,-1]",
+          "zoneHint": "Village des Éleveurs",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La Peau parfaite de Koalak Immature ne se drop que si la quête est activée.",
+        "Pensez à équiper un stuff prospection pour compenser le faible taux de drop (5 % de base)."
+      ],
+      "npcs": [
+        "Koka Dekolak"
+      ],
+      "items": [
+        {
+          "name": "Fleur de Kaliptus",
+          "itemId": 7904,
+          "imageUrl": "/items/7904.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/7904"
+        },
+        {
+          "name": "Peau parfaite de Koalak Immature",
+          "itemId": 10786,
+          "imageUrl": "/items/10786.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/10786"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 182,
+            "name": "Village des Éleveurs",
+            "coordinates": [
+              "-15,-1"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": []
+      },
+      "questKey": "quest:68",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/eacutepicerie-fine.html",
+      "sourceTitle": "Épicerie fine",
+      "sourceHash": "aa11913d1c1a43abbd59cbfbf1450b53d10ce0195a5dd45b393ec02b92c7a85d",
+      "generatedAt": "2026-08-24T17:32:40.934Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    }
+  ],
+  "tips": []
+}

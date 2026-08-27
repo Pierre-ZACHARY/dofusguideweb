@@ -1,0 +1,528 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 29,
+  "updatedAt": "2026-08-27T12:53:58.761Z",
+  "summaries": [
+    {
+      "overview": "À Tainéla, Jeffrey Baratourte demande d'éliminer plusieurs variétés de bouftous. Il faut vaincre exactement 4 Boufton Blanc, 4 Boufton Noir, 3 Bouftou et 1 Chef de Guerre Bouftou dans la zone, puis revenir auprès de lui pour terminer la quête et obtenir notamment la Clef de la Cour du Bouftou.",
+      "recommendedLevel": 30,
+      "prerequisites": [
+        "Combat de rue lancé."
+      ],
+      "rewards": [
+        "71 795 XP.",
+        "1 480 kamas.",
+        "1 x Clef de la Cour du Bouftou."
+      ],
+      "preparation": [
+        "Prévoir des combats contre les monstres de Tainéla."
+      ],
+      "actions": [
+        {
+          "instruction": "À ce stade, la quête a été lancée auparavant auprès de Jeffrey Baratourte. Dans Tainéla, vaincre au total 4 Boufton Blanc, 4 Boufton Noir, 3 Bouftou et 1 Chef de Guerre Bouftou.",
+          "position": null,
+          "zoneHint": "Tainéla",
+          "warning": "Les quatre objectifs de monstres doivent tous être remplis avant de rendre la quête.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Une fois tous les bouftous requis vaincus, retourner voir Jeffrey Baratourte et lui annoncer que le travail est terminé.",
+          "position": "[2,-31]",
+          "zoneHint": "Tainéla",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les bouftous nécessaires sont présents dans l'ensemble de la zone de Tainéla.",
+        "La fin de cette quête valide une étape de Combat de rue."
+      ],
+      "npcs": [
+        "Jeffrey Baratourte"
+      ],
+      "items": [
+        {
+          "name": "Clef de la Cour du Bouftou",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 30,
+            "name": "Tainéla",
+            "coordinates": [
+              "2,-31"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2315,
+            "name": "Boudalf le Blanc",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2315.png"
+          },
+          {
+            "id": 2317,
+            "name": "Boufdégou le Refoulant",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2317.png"
+          },
+          {
+            "id": 2324,
+            "name": "Bouflet le Puéril",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2324.png"
+          },
+          {
+            "id": 2316,
+            "name": "Boulgourvil le Lointain",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2316.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 200,
+            "name": "Bouftous",
+            "monsters": [
+              {
+                "id": 134,
+                "name": "Boufton Blanc",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/134.png"
+              },
+              {
+                "id": 149,
+                "name": "Boufton Noir",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/149.png"
+              },
+              {
+                "id": 148,
+                "name": "Chef de Guerre Bouftou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/148.png"
+              },
+              {
+                "id": 101,
+                "name": "Bouftou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/101.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1204",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-coupe-des-vices.html",
+      "sourceTitle": "La coupe des vices",
+      "sourceHash": "ce815a75e89adc9da5abbf5e79aec06cfb740ec4f2a1ee4a55afaffdbf911693",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Éléanor Mande cherche d'abord à étudier les Chefs de Guerre Bouftou, puis à retrouver des boufettes volées. Il faut réunir 5 Prélèvement de chef de guerre bouftou, faire analyser les échantillons à Astrub, suivre les traces des voleurs autour de Tainéla, solliciter Unterix Unter et Khalil Moris, puis affronter seul deux Porkass avant de revenir auprès d'Éléanor.",
+      "recommendedLevel": 30,
+      "prerequisites": [],
+      "rewards": [
+        "71 795 XP.",
+        "1 480 kamas.",
+        "1 x Corne de Boufton.",
+        "1 x Laine de Boufton Noir.",
+        "1 x Laine de Bouftou.",
+        "1 x Laine de Chef de Guerre Bouftou."
+      ],
+      "preparation": [
+        "Prévoir des combats contre des Chefs de Guerre Bouftou pour obtenir 5 x Prélèvement de chef de guerre bouftou.",
+        "Prévoir 1 combat obligatoire en solo contre deux Porkass."
+      ],
+      "actions": [
+        {
+          "instruction": "À ce stade, la quête a été lancée auparavant auprès d'Éléanor Mande. Combattre des Chefs de Guerre Bouftou jusqu'à obtenir 5 x Prélèvement de chef de guerre bouftou, avec un taux de base annoncé de 25 %.",
+          "position": null,
+          "zoneHint": "Tainéla",
+          "warning": "Il faut réunir exactement 5 prélèvements avant de poursuivre.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Apporter les 5 Prélèvement de chef de guerre bouftou à Nibé Lulle pour analyse.",
+          "position": "[3,-21]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner auprès d'Éléanor Mande. Elle signale alors le vol de certaines de ses boufettes.",
+          "position": "[1,-29]",
+          "zoneHint": "Tainéla",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Examiner les premières traces de pas.",
+          "position": "[0,-29]",
+          "zoneHint": "Tainéla",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Poursuivre la piste et examiner les autres traces de pas.",
+          "position": "[-2,-29]",
+          "zoneHint": "Tainéla",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Revenir voir Éléanor Mande pour lui signaler que les Porkass semblent responsables du vol.",
+          "position": "[1,-29]",
+          "zoneHint": "Tainéla",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller voir Unterix Unter et lui expliquer la situation d'Éléanor Mande afin qu'il envoie un spécialiste des pièges.",
+          "position": "[1,-23]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner auprès d'Éléanor Mande pour lui annoncer l'arrivée prochaine de l'expert.",
+          "position": "[1,-29]",
+          "zoneHint": "Tainéla",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoindre Khalil Moris. Il explique que les véritables voleurs se sont échappés mais qu'il peut suivre leur piste.",
+          "position": "[0,-29]",
+          "zoneHint": "Tainéla",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner auprès d'Éléanor Mande et annoncer être prêt à partir à la poursuite des voleurs. Le groupe est alors envoyé sur une autre carte.",
+          "position": "[1,-29]",
+          "zoneHint": "Tainéla",
+          "warning": "Cette interaction déclenche la poursuite et une téléportation vers la zone du combat.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Khalil Moris sur la carte d'arrivée et choisir de corriger les voleurs pour lancer l'affrontement contre deux Porkass.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Combat obligatoire à effectuer seul contre deux Porkass.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après la victoire, parler à Éléanor Mande sur place. Elle confirme avoir retrouvé ses boufettes ainsi que celles d'autres éleveurs.",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner une dernière fois auprès d'Éléanor Mande pour vérifier que la situation est réglée et terminer la quête.",
+          "position": "[1,-29]",
+          "zoneHint": "Tainéla",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le prélèvement sur Chef de Guerre Bouftou est annoncé avec un taux de base de 25 %.",
+        "Pendant le combat final, Rudesse augmente la puissance et les dommages de poussée du Porkass, tandis que Défonses pousse et réduit la fuite.",
+        "Tridembrochement inflige des dégâts eau et repousse de 2 cases ; Appel de la Foudre inflige des dégâts feu en zone autour du lanceur."
+      ],
+      "npcs": [
+        "Éléanor Mande",
+        "Nibé Lulle",
+        "Unterix Unter",
+        "Khalil Moris"
+      ],
+      "items": [
+        {
+          "name": "Prélèvement de chef de guerre bouftou",
+          "itemId": 19633,
+          "imageUrl": "/items/19633.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19633"
+        },
+        {
+          "name": "Corne de Boufton",
+          "itemId": 383,
+          "imageUrl": "/items/383.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/383"
+        },
+        {
+          "name": "Laine de Boufton Noir",
+          "itemId": 885,
+          "imageUrl": "/items/885.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/885"
+        },
+        {
+          "name": "Laine de Bouftou",
+          "itemId": 384,
+          "imageUrl": "/items/384.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/384"
+        },
+        {
+          "name": "Laine de Chef de Guerre Bouftou",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "3,-21"
+            ]
+          },
+          {
+            "id": 97,
+            "name": "Forêt d'Astrub",
+            "coordinates": [
+              "1,-23"
+            ]
+          },
+          {
+            "id": 30,
+            "name": "Tainéla",
+            "coordinates": [
+              "1,-29",
+              "0,-29",
+              "-2,-29"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          },
+          {
+            "id": 460,
+            "name": "Frakacia Leukocytine",
+            "level": 30,
+            "imageUrl": "/bestiary/monsters/460.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2315,
+            "name": "Boudalf le Blanc",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2315.png"
+          },
+          {
+            "id": 2317,
+            "name": "Boufdégou le Refoulant",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2317.png"
+          },
+          {
+            "id": 2324,
+            "name": "Bouflet le Puéril",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2324.png"
+          },
+          {
+            "id": 2316,
+            "name": "Boulgourvil le Lointain",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2316.png"
+          },
+          {
+            "id": 2333,
+            "name": "Milipatte la Griffe",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2333.png"
+          },
+          {
+            "id": 2349,
+            "name": "Preskapwal le Tendancieux",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2349.png"
+          },
+          {
+            "id": 2353,
+            "name": "Sangria le Fruité",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2353.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 4823,
+                "name": "Écurouille",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/4823.png"
+              },
+              {
+                "id": 159,
+                "name": "Milimulou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/159.png"
+              },
+              {
+                "id": 103,
+                "name": "Prespic",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/103.png"
+              },
+              {
+                "id": 104,
+                "name": "Sanglier",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/104.png"
+              }
+            ]
+          },
+          {
+            "id": 200,
+            "name": "Bouftous",
+            "monsters": [
+              {
+                "id": 134,
+                "name": "Boufton Blanc",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/134.png"
+              },
+              {
+                "id": 149,
+                "name": "Boufton Noir",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/149.png"
+              },
+              {
+                "id": 148,
+                "name": "Chef de Guerre Bouftou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/148.png"
+              },
+              {
+                "id": 101,
+                "name": "Bouftou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/101.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1219",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-genie-se-meut.html",
+      "sourceTitle": "Le génie se meut",
+      "sourceHash": "6607496a42837a6b122b644688e9f0e77e886cb05a0f8c94ee448e18d3c7c44e",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Regrouper les combats à Tainéla",
+      "description": "Les deux quêtes demandent de combattre dans Tainéla et impliquent les Chefs de Guerre Bouftou. Tant que les deux objectifs sont actifs, profitez des mêmes déplacements et combats pour avancer simultanément sur le quota de La coupe des vices et sur les 5 prélèvements du Génie se meut.",
+      "questKeys": [
+        "quest:1204",
+        "quest:1219"
+      ],
+      "actions": [
+        "À Tainéla, privilégier les groupes contenant un Chef de Guerre Bouftou afin de viser à la fois le quota de quest:1204 et les prélèvements de quest:1219.",
+        "Compléter en parallèle les 4 Boufton Blanc, 4 Boufton Noir et 3 Bouftou demandés par quest:1204 avant de quitter Tainéla."
+      ]
+    }
+  ]
+}

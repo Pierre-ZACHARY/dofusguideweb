@@ -1,0 +1,1439 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 19,
+  "updatedAt": "2026-08-27T12:53:57.583Z",
+  "summaries": [
+    {
+      "overview": "Snori Nairb vous demande de vous renseigner sur les tensions entre Bonta et Brâkmar à Astrub. Après avoir parlé aux deux agentes de recrutement des cités rivales, la quête s'achève.",
+      "recommendedLevel": 30,
+      "prerequisites": [],
+      "rewards": [
+        "17 948 XP.",
+        "370 kamas.",
+        "2 x Gland.",
+        "2 x Laine de Ramane Strubien."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parlez à Snori Nairb et choisissez de vous inquiéter de la dispute entre les deux individus, puis acceptez de partir à la rencontre des agents recruteurs.",
+          "position": "[4,-18]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à la Milicienne de Brâkmar afin d'écouter sa présentation de Brâkmar et de sa milice.",
+          "position": "[7,-17]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à la Milicienne de Bonta afin d'écouter sa présentation de Bonta et de sa milice. La quête se termine après avoir rencontré les deux recruteuses.",
+          "position": "[1,-18]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [],
+      "npcs": [
+        "Snori Nairb",
+        "Milicienne de Brâkmar",
+        "Milicienne de Bonta"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "4,-18",
+              "7,-17",
+              "1,-18"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1216",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/les-deux-font-l-impair.html",
+      "sourceTitle": "Les deux font l'impair",
+      "sourceHash": "f9ee0d5dd0b65d02afce7c1b358c0f54ecf3ab4857422d239e3985b6532ea9c7",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "À la suite de L'histoire en mouvement, Aisling vous charge de restaurer un livre calciné. Mage Ax demande du Lailait de boufette et un morceau d'écorce centenaire pour transférer le texte sur l'écorce, que Prim doit ensuite retranscrire.",
+      "recommendedLevel": 30,
+      "prerequisites": [
+        "L'histoire en mouvement."
+      ],
+      "rewards": [
+        "35 897 XP.",
+        "740 Kamas.",
+        "1 x L'Aurore Pourpre (part. 1) - Fragments retrouvés IX."
+      ],
+      "preparation": [
+        "Prévoir 1 x combat réalisable en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Aisling à la suite de la quête précédente. Elle vous demande de faire examiner le livre calciné par Mage Ax.",
+          "position": "[7,-19]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": "La quête nécessite d'avoir terminé L'histoire en mouvement.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montrez le livre calciné à Mage Ax et expliquez le problème. Il vous demande deux ressources pour lancer son sortilège.",
+          "position": "[3,-21]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la ferme et cliquez sur le biberon pour récupérer du Lailait de boufette.",
+          "position": "[0,-32]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez sur le tronc d'arbre au sol pour déclencher le combat contre 2 x Milimulou en maraude. Après la victoire, récupérez un morceau d'écorce centenaire.",
+          "position": "[1,-28]",
+          "zoneHint": null,
+          "warning": "Combat contre 2 x Milimulou en maraude, réalisable en groupe. Ils frappent environ 50 terre au corps-à-corps et peuvent augmenter leurs PA/PM.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez voir Mage Ax et donnez-lui le Lailait de boufette et le morceau d'écorce centenaire. Il transfère alors le contenu du livre sur l'écorce.",
+          "position": "[3,-21]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Remettez l'écorce à Prim en lui expliquant qu'un texte ancien est gravé dessus. Il commence à retranscrire le texte avant que la magie disparaisse.",
+          "position": "[7,-19]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montez au premier étage et parlez à Aisling pour lui annoncer que Prim s'occupe de la restauration. La quête se termine.",
+          "position": "[7,-19]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "En poursuivant la conversation avec Aisling après la fin, vous pouvez obtenir la quête suivante : De vrais rats de bibliothèque."
+      ],
+      "npcs": [
+        "Aisling",
+        "Mage Ax",
+        "Prim"
+      ],
+      "items": [
+        {
+          "name": "Livre calciné",
+          "itemId": 19681,
+          "imageUrl": "/items/19681.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19681"
+        },
+        {
+          "name": "Lailait de boufette",
+          "itemId": 19684,
+          "imageUrl": "/items/19684.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19684"
+        },
+        {
+          "name": "Morceau d'écorce centenaire",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "7,-19",
+              "3,-21"
+            ]
+          },
+          {
+            "id": 97,
+            "name": "Forêt d'Astrub",
+            "coordinates": [
+              "1,-28"
+            ]
+          },
+          {
+            "id": 30,
+            "name": "Tainéla",
+            "coordinates": [
+              "0,-32"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          },
+          {
+            "id": 460,
+            "name": "Frakacia Leukocytine",
+            "level": 30,
+            "imageUrl": "/bestiary/monsters/460.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2315,
+            "name": "Boudalf le Blanc",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2315.png"
+          },
+          {
+            "id": 2317,
+            "name": "Boufdégou le Refoulant",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2317.png"
+          },
+          {
+            "id": 2324,
+            "name": "Bouflet le Puéril",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2324.png"
+          },
+          {
+            "id": 2316,
+            "name": "Boulgourvil le Lointain",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2316.png"
+          },
+          {
+            "id": 2333,
+            "name": "Milipatte la Griffe",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2333.png"
+          },
+          {
+            "id": 2349,
+            "name": "Preskapwal le Tendancieux",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2349.png"
+          },
+          {
+            "id": 2353,
+            "name": "Sangria le Fruité",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2353.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 4823,
+                "name": "Écurouille",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/4823.png"
+              },
+              {
+                "id": 159,
+                "name": "Milimulou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/159.png"
+              },
+              {
+                "id": 103,
+                "name": "Prespic",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/103.png"
+              },
+              {
+                "id": 104,
+                "name": "Sanglier",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/104.png"
+              }
+            ]
+          },
+          {
+            "id": 200,
+            "name": "Bouftous",
+            "monsters": [
+              {
+                "id": 134,
+                "name": "Boufton Blanc",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/134.png"
+              },
+              {
+                "id": 149,
+                "name": "Boufton Noir",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/149.png"
+              },
+              {
+                "id": 148,
+                "name": "Chef de Guerre Bouftou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/148.png"
+              },
+              {
+                "id": 101,
+                "name": "Bouftou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/101.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1211",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/restauration-rapide.html",
+      "sourceTitle": "Restauration rapide",
+      "sourceHash": "f23817c434dd74b147912b1ba702690d7475cf37b564f6cc32e07e518bd38d5b",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Le Disciple de Sêpt vous demande d'enquêter sur une créature qui attaque ses bûcherons. Après une chasse aux Milimulou, l'enquête mène à un ours dressé et à l'Homme-Ours, qu'il faut affronter seul avec l'aide d'Artand.",
+      "recommendedLevel": 30,
+      "prerequisites": [],
+      "rewards": [
+        "71 795 XP.",
+        "1 480 Kamas.",
+        "2 x Poils du Milimulou.",
+        "2 x Pic du Prespic."
+      ],
+      "preparation": [
+        "Prévoir 100 x Kamas pour acheter du miel.",
+        "Prévoir des combats contre des Milimulou de la Forêt d'Astrub.",
+        "Prévoir 1 x combat seul contre l'Homme-Ours, avec Artand comme allié."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez au Disciple de Sêpt et acceptez de l'aider à identifier la bête qui s'attaque aux ouvriers.",
+          "position": "[0,-25]",
+          "zoneHint": "Forêt d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Vainquez 5 x Milimulou dans la Forêt d'Astrub afin de tenter de faire apparaître le chef de meute.",
+          "position": null,
+          "zoneHint": "Forêt d'Astrub",
+          "warning": "Il faut effectuer des combats contre les monstres de la zone jusqu'à avoir vaincu 5 x Milimulou.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez voir le Disciple de Sêpt et annoncez que les 5 x Milimulou ont été vaincus sans que le chef de meute se montre.",
+          "position": "[0,-25]",
+          "zoneHint": "Forêt d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez le Bûcheron traumatisé et récupérez la griffe restée dans sa planche de protection.",
+          "position": "[3,-21]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montrez la griffe à Unterix Unter et parlez-lui des attaques. Il identifie la créature comme un ours probablement dressé.",
+          "position": "[1,-23]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À l'épicerie d'Astrub, parlez à Seth Sourcet et achetez du miel pour 100 kamas.",
+          "position": "[1,-16]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": "Dépense obligatoire : 100 kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sur la même carte, parlez à Artand. Il vous explique rechercher un grimoire osamodas volé par l'homme qui contrôlerait l'ours.",
+          "position": "[1,-16]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cherchez dans le trio de tonneaux pour retrouver la piste de l'Homme-Ours.",
+          "position": "[-2,-16]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à l'Homme-Ours pour tenter de le capturer et récupérer le grimoire, puis remportez le combat avec Artand. Après la victoire, récupérez le grimoire.",
+          "position": "[-2,-16]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": "Combat obligatoire réalisable seul uniquement, avec Artand comme allié. L'Homme-Ours est rendu invulnérable par Fourrursidé ; Artand peut le rendre vulnérable pendant 4 tours. L'Ours Meurtrier invoqué frappe environ 1400 neutre au corps-à-corps deux fois par tour : laissez de préférence Artand absorber ses attaques.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Reparlez à Artand et donnez-lui le grimoire qu'il recherchait.",
+          "position": "[-2,-16]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir le Disciple de Sêpt et annoncez que les bûcherons sont désormais en sécurité. La quête se termine.",
+          "position": "[0,-25]",
+          "zoneHint": "Forêt d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Artand possède 16 000PV et sert notamment à encaisser les attaques de l'Ours Meurtrier.",
+        "L'Homme-Ours peut augmenter ses dommages et ceux de son invocation avec Rage de l'Ours."
+      ],
+      "npcs": [
+        "Disciple de Sêpt",
+        "Bûcheron traumatisé",
+        "Unterix Unter",
+        "Seth Sourcet",
+        "Artand",
+        "Homme-Ours"
+      ],
+      "items": [
+        {
+          "name": "Griffe du monstre",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Miel",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Grimoire osamodas",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "3,-21",
+              "1,-23",
+              "1,-16",
+              "-2,-16"
+            ]
+          },
+          {
+            "id": 97,
+            "name": "Forêt d'Astrub",
+            "coordinates": [
+              "0,-25"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          },
+          {
+            "id": 460,
+            "name": "Frakacia Leukocytine",
+            "level": 30,
+            "imageUrl": "/bestiary/monsters/460.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2333,
+            "name": "Milipatte la Griffe",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2333.png"
+          },
+          {
+            "id": 2349,
+            "name": "Preskapwal le Tendancieux",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2349.png"
+          },
+          {
+            "id": 2353,
+            "name": "Sangria le Fruité",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2353.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 4823,
+                "name": "Écurouille",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/4823.png"
+              },
+              {
+                "id": 159,
+                "name": "Milimulou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/159.png"
+              },
+              {
+                "id": 103,
+                "name": "Prespic",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/103.png"
+              },
+              {
+                "id": 104,
+                "name": "Sanglier",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/104.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1220",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/bucherons-en-detresse.html",
+      "sourceTitle": "Bûcherons en détresse",
+      "sourceHash": "8f2c75cc5a12ab19fadcda5f78af940fe8a8415b2e8d07a8d50bc7f9216efbbc",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après Ça sent le gaz, une Recrue Mercenaire vous envoie rejoindre un autre mercenaire au sujet des faux-Dofus. La rencontre tourne à l'embuscade, puis Badufron et Fallanster vous chargent d'éviter qu'un incident diplomatique avec Pandala ne dégénère.",
+      "recommendedLevel": 30,
+      "prerequisites": [
+        "Ça sent le gaz."
+      ],
+      "rewards": [
+        "43 077 XP.",
+        "888 Kamas.",
+        "2 x Défense du Sanglier.",
+        "2 x Noisette."
+      ],
+      "preparation": [
+        "Prévoir 1 x combat réalisable en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à la Recrue Mercenaire à la suite de la quête précédente. Elle vous transmet l'ordre de Badufron de rejoindre un mercenaire ayant fait une découverte sur les faux-Dofus.",
+          "position": "[7,-19]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": "La quête nécessite d'avoir terminé Ça sent le gaz.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à la Recrue Mercenaire puis examinez l'intérieur de la charrette. Il s'agit d'un piège et trois Recrue Mercenaire vous attaquent.",
+          "position": "[-1,-23]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": "Combat obligatoire contre trois Recrue Mercenaire, réalisable en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, allez voir Badufron. Il vous explique que l'embuscade est probablement une vengeance des Pandikazes liée à la capture de Nowa.",
+          "position": "[5,-19]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Prévenez Fallanster de l'embuscade. Il vous confie une lettre destinée au Grandapan pour régler diplomatiquement le problème avec les Pandikazes. La quête se termine.",
+          "position": "[4,-19]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "En poursuivant la conversation avec Fallanster après la fin, vous débloquez la quête suivante : Le réceptacle des Dofus."
+      ],
+      "npcs": [
+        "Recrue Mercenaire",
+        "Badufron",
+        "Fallanster",
+        "Grandapan",
+        "Nowa"
+      ],
+      "items": [
+        {
+          "name": "Lettre destinée au Grandapan",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "7,-19",
+              "-1,-23",
+              "5,-19",
+              "4,-19"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1184",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/balade-en-foret.html",
+      "sourceTitle": "Balade en forêt",
+      "sourceHash": "4513c9316fdf076d1285c5f294a6db6798fb64f665bfbe25c0cdd04903c95346",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "À la suite de Ça tombe à l'eau, Kaulysse Himo vous envoie rechercher un antiquaire aperçu avec des disciples d'Enutrof. La piste conduit dans les souterrains d'Astrub, où vous devez protéger trois Enutrofs pendant une attaque de rats avant de poursuivre l'enquête auprès de Kerubim Crépin.",
+      "recommendedLevel": 20,
+      "prerequisites": [
+        "Ça tombe à l'eau."
+      ],
+      "rewards": [
+        "17 199 XP.",
+        "390 kamas.",
+        "1 x Oeil d'Arakmuté.",
+        "1 x Poils d'Arakne Malade.",
+        "1 x Intestin d'Araknosé.",
+        "1 x Bec du Tofu."
+      ],
+      "preparation": [
+        "Prévoir 1 x combat seul."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Kaulysse Himo à la suite de la quête précédente. Elle vous indique avoir récupéré le colis de livre au zaap et versé l'argent à l'antiquaire.",
+          "position": "[7,-19]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": "La quête nécessite d'avoir terminé Ça tombe à l'eau.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez l'Aventurière expérimentée près du zaap. Elle dit avoir revu l'antiquaire accompagné d'Enutrofs.",
+          "position": "[5,-18]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Questionnez Gasdaure au sujet du groupe de touristes et de leur guide. Elle vous apprend qu'ils sont entrés dans les souterrains et que seul le guide en est ressorti.",
+          "position": "[1,-17]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans les souterrains et progressez jusqu'à Marie-Denise, puis parlez-lui. Un groupe de rats attaque les trois Enutrofs.",
+          "position": null,
+          "zoneHint": "Souterrains",
+          "warning": "Ne confondez pas cette étape avec l'extérieur : la rencontre et le combat ont lieu dans les souterrains.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Remportez le combat contre les rats en compagnie des trois Enutrofs.",
+          "position": null,
+          "zoneHint": "Souterrains",
+          "warning": "Combat obligatoire seul. Si l'une des Enutrofs meurt, le combat est perdu.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après le combat, parlez à Joséphine. Elle demande à être ramenée à la surface avec les autres.",
+          "position": null,
+          "zoneHint": "Souterrains",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sortez des souterrains jusqu'en [1,-17], puis reparlez à Joséphine. Elle vous indique avoir déjà rencontré le guide chez Kerubim Crépin.",
+          "position": "[1,-17]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir Kerubim Crépin, décrivez-lui le guide et posez-lui des questions. Il reconnaît l'escroc sous un autre nom et vous conseille de lui tendre un piège. La quête se termine.",
+          "position": "[3,-17]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le combat dans les souterrains comprend notamment des ennemis capables de retirer des PA, PM, caractéristiques ou portée et d'invoquer un Kolerat.",
+        "En poursuivant la conversation avec Kerubim Crépin après la fin, vous obtenez Tel est pris qui croyait prendre."
+      ],
+      "npcs": [
+        "Kaulysse Himo",
+        "Aventurière expérimentée",
+        "Gasdaure",
+        "Marie-Denise",
+        "Joséphine",
+        "Kerubim Crépin"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "7,-19",
+              "5,-18",
+              "1,-17",
+              "3,-17"
+            ]
+          },
+          {
+            "id": 29,
+            "name": "Souterrains",
+            "coordinates": []
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              }
+            ]
+          },
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 153,
+                "name": "Boulanger Sombre",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/153.png"
+              },
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Mulous",
+            "monsters": [
+              {
+                "id": 102,
+                "name": "Mulou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/102.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1198",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/six-pieds-sous-terre.html",
+      "sourceTitle": "Six pieds sous terre",
+      "sourceHash": "463c21087078af4b4d642cea9e020341fb18b74fe878fd8195e222bef052315e",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "À la suite de Six pieds sous terre, Kerubim Crépin élabore un piège pour attirer l'escroc en faisant croire que vous souhaitez acheter une statue du temple. Après avoir répandu la rumeur et recruté un Investigateur Amaknéen, vous capturez Hippolyte Hique et le livrez à Badufron.",
+      "recommendedLevel": 25,
+      "prerequisites": [
+        "Six pieds sous terre."
+      ],
+      "rewards": [
+        "25 013 XP.",
+        "552 kamas.",
+        "2 x Crocs de Rats.",
+        "2 x Cuir de Scélérat Strubien."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parlez à Kerubim Crépin à la suite de Six pieds sous terre et acceptez son plan consistant à vous faire passer pour un acheteur de statue du temple.",
+          "position": "[3,-17]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": "La quête nécessite d'avoir terminé Six pieds sous terre.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Prim et expliquez que vous avez besoin d'affiches et de prospectus. Il accepte de préparer et placarder la publicité.",
+          "position": "[7,-19]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Sel Dawa pour lancer la rumeur concernant votre prétendu achat d'une statue.",
+          "position": "[6,-18]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Shani Sings pour continuer à répandre la rumeur.",
+          "position": "[6,-15]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Alberta Borida pour terminer la diffusion de la rumeur.",
+          "position": "[1,-21]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Trouvez l'Investigateur Amaknéen et demandez-lui de vous accompagner. Il peut être rencontré en [3,-21], [1,-17], [7,-15] ou [7,-19].",
+          "position": null,
+          "zoneHint": "Cité d'Astrub",
+          "warning": "L'Investigateur Amaknéen peut se trouver à plusieurs positions : [3,-21], [1,-17], [7,-15] ou [7,-19].",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Devant le temple, parlez à Hippolyte Hique, qui prétend gérer le patrimoine religieux d'Astrub. Lorsqu'il aborde le prix de vente, faites intervenir vos complices.",
+          "position": "[6,-19]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à l'Investigateur Amaknéen pour le convaincre de régler l'affaire à la milice.",
+          "position": "[6,-19]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparlez à Hippolyte Hique afin de le conduire à la milice.",
+          "position": "[6,-19]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Livrez Hippolyte Hique à Badufron. Vous apprenez qu'il s'appelle en réalité Victor, ancien comte de Lustig déchu pour fabrication de fausse monnaie.",
+          "position": "[5,-19]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Descendez dans le sous-sol de la milice et parlez à Hippolyte Hique désormais emprisonné. La quête se termine.",
+          "position": "[5,-19]",
+          "zoneHint": "Sous-sol de la milice",
+          "warning": "Cette dernière action se déroule dans le sous-sol de la milice, pas à l'extérieur.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La fin de la quête débloque le succès : L'occasion fait le larron."
+      ],
+      "npcs": [
+        "Kerubim Crépin",
+        "Prim",
+        "Sel Dawa",
+        "Shani Sings",
+        "Alberta Borida",
+        "Investigateur Amaknéen",
+        "Hippolyte Hique",
+        "Badufron"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "3,-17",
+              "7,-19",
+              "6,-18",
+              "6,-15",
+              "1,-21",
+              "3,-21",
+              "1,-17",
+              "7,-15",
+              "6,-19",
+              "5,-19"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1199",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/tel-est-pris-qui-croyait-prendre.html",
+      "sourceTitle": "Tel est pris qui croyait prendre",
+      "sourceHash": "749d44b27a2f7d03371eaae23e87129d5bd0f523f26f8267f6f42c2ee1f173a8",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Regrouper les passages en [7,-19]",
+      "description": "Si Restauration rapide et Balade en forêt sont toutes les deux déjà débloquées, profitez d'un même passage en [7,-19] pour lancer ou faire avancer leurs dialogues avant de repartir vers leurs objectifs respectifs.",
+      "questKeys": [
+        "quest:1211",
+        "quest:1184"
+      ],
+      "actions": [
+        "Pour quest:1211, parlez à Aisling en [7,-19] lorsque la quête est disponible.",
+        "Pour quest:1184, parlez à la Recrue Mercenaire en [7,-19] lorsque la quête est disponible.",
+        "Ne forcez pas ce regroupement si leurs prérequis respectifs, L'histoire en mouvement et Ça sent le gaz, ne sont pas encore terminés."
+      ]
+    }
+  ]
+}

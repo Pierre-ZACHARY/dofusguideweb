@@ -1,0 +1,1345 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 50,
+  "updatedAt": "2026-08-27T12:55:00.810Z",
+  "summaries": [
+    {
+      "overview": "Edgar Davou enquête sur une série de vols attribués aux Bandits du clan des roublards. Il faut combattre ces bandits dans le Territoire des Bandits jusqu'à récupérer tous les objets volés demandés, puis les rapporter à Edgar pour terminer la quête et débloquer Distribution de pains zizanesques.",
+      "recommendedLevel": 50,
+      "prerequisites": [
+        "Niveau recommandé : 50."
+      ],
+      "rewards": [
+        "203 765 XP.",
+        "3 480 kamas.",
+        "3 x Sceau Royal Contrefait."
+      ],
+      "preparation": [
+        "Prévoir plusieurs combats contre les Bandits du clan des roublards.",
+        "Les objets recherchés ont chacun un taux d'obtention de base compris entre 10 et 14 %."
+      ],
+      "actions": [
+        {
+          "instruction": "Parler à Edgar Davou pour demander votre chemin et apprendre que les vols sont attribués aux Bandits du clan des roublards.",
+          "position": "[15,22]",
+          "zoneHint": "Baie de Sufokia",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Combattre des Bandits du clan des roublards jusqu'à avoir récupéré tous les objets volés requis par la quête.",
+          "position": null,
+          "zoneHint": "Territoire des Bandits",
+          "warning": "Plusieurs combats peuvent être nécessaires : chaque objet recherché possède un taux d'obtention de base de 10 à 14 %.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Edgar Davou et lui remettre tous les objets volés récupérés.",
+          "position": "[15,22]",
+          "zoneHint": "Baie de Sufokia",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête se termine après la remise des objets et débloque Distribution de pains zizanesques."
+      ],
+      "npcs": [
+        "Edgar Davou",
+        "Bandits du clan des roublards"
+      ],
+      "items": [
+        {
+          "name": "Sceau Royal Contrefait",
+          "itemId": 13339,
+          "imageUrl": "/items/13339.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/13339"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 32,
+            "name": "Sufokia",
+            "coordinates": [
+              "15,22"
+            ]
+          },
+          {
+            "id": 103,
+            "name": "Territoire des Bandits",
+            "coordinates": []
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2318,
+            "name": "Boudur le Raide",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2318.png"
+          },
+          {
+            "id": 2314,
+            "name": "Bandson le Tonitruant",
+            "level": 37,
+            "imageUrl": "/bestiary/monsters/2314.png"
+          },
+          {
+            "id": 2328,
+            "name": "Forboyar l'Enigmatique",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2328.png"
+          },
+          {
+            "id": 2335,
+            "name": "Minsinistre l'Elu",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2335.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 155,
+                "name": "Bandit du clan des Roublards",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/155.png"
+              },
+              {
+                "id": 153,
+                "name": "Boulanger Sombre",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/153.png"
+              },
+              {
+                "id": 119,
+                "name": "Forgeron Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/119.png"
+              },
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1066",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/voleurs-en-serie.html",
+      "sourceTitle": "Voleurs en série",
+      "sourceHash": "e2841e96f66cc4bb75fe3b3840ef28d2671839c60bccb29a2641f21b44ecffae",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Amayiro vous charge de récupérer une dette de 100 000 kamas auprès du tavernier de la Tabasse. Après un combat obligatoire en solo, il faut rapporter le chèque obtenu, faire réparer le katana d'Amayiro puis terminer le Donjon des Forgerons pour récupérer du Liquide des Forgerons avant de faire achever la rénovation et rendre l'arme.",
+      "recommendedLevel": 42,
+      "prerequisites": [
+        "Niveau recommandé 42.",
+        "Du repos mais pas trop..."
+      ],
+      "rewards": [
+        "527 588 XP."
+      ],
+      "preparation": [
+        "Prévoir 1 combat en solo.",
+        "Prévoir 1 x Donjon des forgerons."
+      ],
+      "actions": [
+        {
+          "instruction": "Parler à Amayiro dans la milice de Bonta pour recevoir la mission de recouvrement de la dette de 100 000 kamas.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Garret Abass à la Taverne de la Tabasse, réclamer sa dette puis choisir « Attaquer le tavernier ».",
+          "position": "[-35,-55]",
+          "zoneHint": "Bonta",
+          "warning": "Le combat qui suit est obligatoire et doit être effectué seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après la victoire, rapporter à Amayiro le chèque de 100 000 kamas obtenu. Il demande ensuite de faire réparer son katana.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Kosuke Ichazum pour lui demander de réparer la lame du katana d'Amayiro. Il réclame du Liquide des Forgerons pour achever le travail.",
+          "position": "[-30,-56]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuer le Donjon des Forgerons jusqu'à la fin.",
+          "position": "[13,21]",
+          "zoneHint": null,
+          "warning": "À la fin du donjon, ne quittez pas la dernière salle avant d'avoir récupéré le Liquide des Forgerons.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Dans la dernière salle, cliquer sur la marmite de liquide au centre de la carte pour obtenir 1 x Liquide des Forgerons.",
+          "position": "[13,21]",
+          "zoneHint": null,
+          "warning": "Cette interaction doit être faite avant de sortir du donjon.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner voir Kosuke Ichazum et lui donner le Liquide des Forgerons afin qu'il termine la rénovation du katana.",
+          "position": "[-30,-56]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rapporter le Katana rénové à Amayiro pour terminer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Garret Abass dispose notamment de Sabbathage, une attaque feu appliquant un malus de 20 % de résistances dans une zone de rayon 3 PO autour de lui, et de Tabassage, une attaque terre au corps à corps.",
+        "La fin de cette quête débloque immédiatement Pot l'agent double, qui fait aussi partie de l'étape 50."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Garret Abass",
+        "Kosuke Ichazum"
+      ],
+      "items": [
+        {
+          "name": "Chèque de 100 000 kamas",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Katana rénové",
+          "itemId": 1932,
+          "imageUrl": "/items/1932.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1932"
+        },
+        {
+          "name": "Liquide des Forgerons",
+          "itemId": 16352,
+          "imageUrl": "/items/16352.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16352"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 528,
+            "name": "Donjon des Forgerons",
+            "coordinates": [
+              "13,21"
+            ]
+          },
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-30,-56"
+            ]
+          },
+          {
+            "id": 974,
+            "name": "Havres d'ivoire",
+            "coordinates": [
+              "-35,-55"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 155,
+                "name": "Bandit du clan des Roublards",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/155.png"
+              },
+              {
+                "id": 153,
+                "name": "Boulanger Sombre",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/153.png"
+              },
+              {
+                "id": 119,
+                "name": "Forgeron Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/119.png"
+              },
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:14",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/recouvrement-de-dette-agrave-la-tabasse.html",
+      "sourceTitle": "Alignement 12 : Recouvrement de dette à la Tabasse",
+      "sourceHash": "25039f65d23d50782d3d68117f4eaea1faa603e2f82c37471f3f4085a1948e8a",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après Recouvrement de dette à la Tabasse, Amayiro envoie récupérer un rapport auprès de son agent double à Brâkmar. L'enquête se poursuit au port puis près de la Tour des Ordres pour retracer une cargaison destinée à la milice de Brâkmar, avant de revenir à Bonta remettre le rapport et les informations obtenues.",
+      "recommendedLevel": 43,
+      "prerequisites": [
+        "Niveau recommandé 43.",
+        "Recouvrement de dette à la Tabasse."
+      ],
+      "rewards": [
+        "271 797 XP."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parler à Amayiro dans la milice de Bonta pour recevoir la mission auprès de son agent double à Brâkmar.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": "Cette quête ne peut être commencée qu'après avoir terminé Recouvrement de dette à la Tabasse.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler au Guerrier Bishom Pot pour récupérer le rapport d'espionnage. Il signale également une cargaison attendue au port de Brâkmar.",
+          "position": "[-28,32]",
+          "zoneHint": "Brâkmar",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Amédé Chargeur et choisir « Demander innocemment si une cargaison est arrivée pour la milice ». Il confirme que des membres de différents ordres de Brâkmar ont déjà pris la cargaison.",
+          "position": "[-20,40]",
+          "zoneHint": "Brâkmar",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Seci Ves aux alentours de la Tour des Ordres pour vérifier le passage des membres d'ordres transportant la cargaison.",
+          "position": "[-22,34]",
+          "zoneHint": "Brâkmar",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner voir Amayiro, lui remettre le rapport d'espionnage et lui transmettre les renseignements concernant la cargaison.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête se termine auprès d'Amayiro et débloque De la poudre aux yeux de Brâkmar, également présente dans l'étape 50."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Guerrier Bishom Pot",
+        "Amédé Chargeur",
+        "Seci Ves"
+      ],
+      "items": [
+        {
+          "name": "Rapport d'espionnage",
+          "itemId": 1937,
+          "imageUrl": "/items/1937.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1937"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 978,
+            "name": "L'Ancre",
+            "coordinates": [
+              "-20,40"
+            ]
+          },
+          {
+            "id": 982,
+            "name": "L'Enclume",
+            "coordinates": [
+              "-28,32"
+            ]
+          },
+          {
+            "id": 980,
+            "name": "La Marmite",
+            "coordinates": [
+              "-22,34"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:15",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/pot-lagent-double.html",
+      "sourceTitle": "Alignement 13 : Pot l'agent double",
+      "sourceHash": "29e25fb658937f1307b4bd199e2aaf39ac13ac7b724bda8a2926951989fbafc6",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Amayiro veut de la poudre pour tester les canons de Bonta. L'artificier Moub Reicifitra explique que son stock est devenu inutilisable et demande une solution pour le déshumidifier. Merlan l'Enchaîneur fournit une Popo de Gégé, à remettre à l'artificier contre de la poudre à canon, qui doit ensuite être livrée à Amayiro.",
+      "recommendedLevel": 44,
+      "prerequisites": [
+        "Niveau recommandé 44.",
+        "Pot l'agent double."
+      ],
+      "rewards": [
+        "143 301 XP."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parler à Amayiro dans la milice de Bonta pour recevoir la mission de récupérer de la poudre destinée aux essais des nouveaux canons.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": "Cette quête suit directement Pot l'agent double.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Moub Reicifitra et choisir « Demander le prix de la poudre à canon ». Il évoque d'abord un prix de 20 000 kamas, puis révèle que la poudre est inutilisable et demande une solution pour la rendre imperméable.",
+          "position": "[-32,-55]",
+          "zoneHint": "Bonta",
+          "warning": "Aucun paiement de 20 000 kamas n'est finalement demandé : l'artificier ne vend pas cette poudre inutilisable.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Merlan l'Enchaîneur à l'atelier des alchimistes au sujet de la poudre. Il remet une Popo de Gégé capable, une fois diluée dans l'eau, de la déshumidifier.",
+          "position": "[-29,-54]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner voir Moub Reicifitra et lui remettre la Popo de Gégé afin d'obtenir de la poudre à canon pour les essais.",
+          "position": "[-32,-55]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Remettre la poudre à canon à Amayiro pour terminer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La fin de la quête débloque Une brèche à Bonta, qui fait aussi partie de l'étape 50."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Moub Reicifitra",
+        "Merlan l'Enchaîneur"
+      ],
+      "items": [
+        {
+          "name": "Popo de Gégé",
+          "itemId": 16353,
+          "imageUrl": "/items/16353.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16353"
+        },
+        {
+          "name": "Poudre à canon",
+          "itemId": 1872,
+          "imageUrl": "/items/1872.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1872"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-32,-55",
+              "-29,-54"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:16",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/de-la-poudre-aux-yeux-de-bracirckmar.html",
+      "sourceTitle": "Alignement 14 : De la poudre aux yeux de Brâkmar",
+      "sourceHash": "82dcefef0eb5f8016d90a1ed312f02f566839a2be3166b42979b262748e84116",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Amayiro vous envoie aider les gardes de Bonta. Shere Hacanon demande des matériaux pour réparer une brèche de la muraille nord : il faut récupérer une Pioche Réquisitionnée, l'équiper à la place de l'arme, puis extraire 5 Blocs de pierre dans les Pics de Cania avant de les rapporter au garde et de faire votre compte rendu à Amayiro.",
+      "recommendedLevel": 45,
+      "prerequisites": [
+        "Niveau recommandé 45.",
+        "De la poudre aux yeux de Brâkmar."
+      ],
+      "rewards": [
+        "295 039 XP."
+      ],
+      "preparation": [
+        "Prévoir un emplacement d'arme permettant d'équiper temporairement la Pioche Réquisitionnée."
+      ],
+      "actions": [
+        {
+          "instruction": "Parler à Amayiro dans la milice de Bonta. Il n'a pas de mission directe et demande d'aller proposer vos services aux gardes de l'entrée.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": "Cette quête suit directement De la poudre aux yeux de Brâkmar.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Shere Hacanon. Il demande de l'aide pour réparer la muraille nord endommagée et vous charge de récupérer 5 Blocs de pierre.",
+          "position": "[-29,-53]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrer dans l'atelier des mineurs et cliquer sur la pioche pour récupérer la Pioche Réquisitionnée.",
+          "position": "[-28,-55]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Équiper la Pioche Réquisitionnée à la place de votre arme, puis extraire au total 5 Blocs de pierre aux emplacements disponibles : [-17,-43], [-14,-43], [-19,-41], [-20,-40], [-16,-40], [-16,-39], [-15,-38], [-14,-38], [-14,-37], [-17,-37], [-20,-37], [-18,-36] ou [-16,-36].",
+          "position": null,
+          "zoneHint": "Pics de Cania",
+          "warning": "La Pioche Réquisitionnée doit être équipée à la place de l'arme pour pouvoir récolter les blocs. Il suffit d'en obtenir 5, pas de visiter toutes les positions.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rapporter les 5 Blocs de pierre à Shere Hacanon.",
+          "position": "[-29,-53]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner voir Amayiro et lui annoncer que la brèche dans le mur a été réparée avec l'aide apportée aux gardes.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête se termine auprès d'Amayiro et débloque D'égouts temps, également incluse dans l'étape 50."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Shere Hacanon"
+      ],
+      "items": [
+        {
+          "name": "Pioche Réquisitionnée",
+          "itemId": 16541,
+          "imageUrl": "/items/16541.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16541"
+        },
+        {
+          "name": "Bloc de pierre",
+          "itemId": 1873,
+          "imageUrl": "/items/1873.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1873"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-29,-53",
+              "-28,-55"
+            ]
+          },
+          {
+            "id": 521,
+            "name": "Pics de Cania",
+            "coordinates": [
+              "-17,-43",
+              "-14,-43",
+              "-19,-41",
+              "-20,-40",
+              "-16,-40",
+              "-16,-39",
+              "-15,-38",
+              "-14,-38",
+              "-14,-37",
+              "-17,-37",
+              "-20,-37",
+              "-18,-36",
+              "-16,-36"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1519,
+            "name": "Bworks de Cania",
+            "monsters": [
+              {
+                "id": 4543,
+                "name": "Bizarbwork",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4543.png"
+              },
+              {
+                "id": 4544,
+                "name": "Krambwork",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4544.png"
+              },
+              {
+                "id": 4542,
+                "name": "Médibwork",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4542.png"
+              },
+              {
+                "id": 4541,
+                "name": "Mégabwork",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4541.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:17",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/une-bregraveche-agrave-bonta.html",
+      "sourceTitle": "Alignement 15 : Une brèche à Bonta",
+      "sourceHash": "b7e4cfac439d0cb01ddfac6f52da855e6b10d2410c921d80aa11dde2986355d7",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Amayiro enquête sur un mal touchant des habitants proches des égouts de Bonta. Il faut d'abord obtenir un vaccin sur l'île des Wabbits en apportant de l'Alcool de cawotte à Lilou la Lenalde. De retour à Bonta, l'enquête mène dans les égouts, où un groupe électrogène semble avoir contaminé les rats. Un Rat contaminé doit ensuite être vaincu pour rapporter son sang à Amayiro.",
+      "recommendedLevel": 46,
+      "prerequisites": [
+        "Niveau recommandé 46.",
+        "Une brèche à Bonta.",
+        "Intrusion chez les wabbits doit être terminée pour franchir l'étape du vaccin."
+      ],
+      "rewards": [
+        "310 646 XP."
+      ],
+      "preparation": [
+        "Prévoir des combats contre des monstres des égouts de Bonta.",
+        "Vérifier que la quête Intrusion chez les wabbits est terminée avant d'aller chercher le vaccin."
+      ],
+      "actions": [
+        {
+          "instruction": "Parler à Amayiro dans la milice de Bonta. Il demande d'abord d'obtenir le vaccin expérimental mis au point par les alchimistes avant d'enquêter dans les égouts.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": "Cette quête suit Une brèche à Bonta et nécessite d'avoir terminé Intrusion chez les wabbits pour poursuivre l'étape du vaccin.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Lilou la Lenalde et choisir « Demander une dose de vaccin expérimental ». Elle réclame de l'Alcool de cawotte pour préparer le vaccin.",
+          "position": "[24,-3]",
+          "zoneHint": "Île des Wabbits",
+          "warning": "La progression est bloquée ici si Intrusion chez les wabbits n'est pas terminée.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrer dans la maison et cliquer sur le pot pour récupérer de l'Alcool de cawotte.",
+          "position": "[26,-8]",
+          "zoneHint": "Île des Wabbits",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner voir Lilou la Lenalde, choisir « Donner l'alcool de cawotte » et recevoir le vaccin.",
+          "position": "[24,-3]",
+          "zoneHint": "Île des Wabbits",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner auprès d'Amayiro. Une fois vacciné, il demande d'enquêter sur la cause de l'infection dans les égouts de Bonta.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Descendre dans les égouts de Bonta par la bouche d'égout.",
+          "position": "[-32,-58]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Suivre le parcours à l'intérieur des égouts jusqu'à [-32,-56], puis cliquer sur le groupe électrogène qui alimente l'étrange ampoule afin d'identifier son lien avec les rats contaminés.",
+          "position": "[-32,-56]",
+          "zoneHint": "Égouts de Bonta",
+          "warning": "Cette action se déroule dans les égouts, et non à l'extérieur de Bonta.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Combattre un Rat contaminé dans les égouts pour obtenir du Sang de rat contaminé.",
+          "position": null,
+          "zoneHint": "Égouts de Bonta",
+          "warning": "Le Sang de rat contaminé est obtenu automatiquement après avoir vaincu un Rat contaminé.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner à la surface et remettre l'échantillon de Sang de rat contaminé à Amayiro pour terminer l'enquête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Amayiro soupçonne l'étrange ampoule liée au groupe électrogène d'être à l'origine de la contamination et de se rattacher à un ancien événement meurtrier.",
+        "La quête se termine en débloquant L'élite squelettique, qui appartient à l'étape suivante et n'est donc pas détaillée ici."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Lilou la Lenalde",
+        "Rat contaminé"
+      ],
+      "items": [
+        {
+          "name": "Alcool de cawotte",
+          "itemId": 16949,
+          "imageUrl": "/items/16949.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16949"
+        },
+        {
+          "name": "Sang de rat contaminé",
+          "itemId": 6602,
+          "imageUrl": "/items/6602.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6602"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57",
+              "-32,-58",
+              "-32,-56"
+            ]
+          },
+          {
+            "id": 161,
+            "name": "Île de la Cawotte",
+            "coordinates": [
+              "24,-3",
+              "26,-8"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2294,
+            "name": "Tiwoflan le Lâche",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/2294.png"
+          },
+          {
+            "id": 2293,
+            "name": "Tiwalpé le Dévêtu",
+            "level": 41,
+            "imageUrl": "/bestiary/monsters/2293.png"
+          },
+          {
+            "id": 2402,
+            "name": "Tiwa'Missou le Gateux",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2402.png"
+          },
+          {
+            "id": 2304,
+            "name": "Wabbitud le Constant",
+            "level": 44,
+            "imageUrl": "/bestiary/monsters/2304.png"
+          },
+          {
+            "id": 2403,
+            "name": "Wagnagnah le Sanglant",
+            "level": 46,
+            "imageUrl": "/bestiary/monsters/2403.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 172,
+            "name": "Wabbits",
+            "monsters": [
+              {
+                "id": 68,
+                "name": "Black Tiwabbit",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/68.png"
+              },
+              {
+                "id": 65,
+                "name": "Black Wabbit",
+                "level": 46,
+                "imageUrl": "/bestiary/monsters/65.png"
+              },
+              {
+                "id": 72,
+                "name": "Tiwabbit Kiafin",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/72.png"
+              },
+              {
+                "id": 96,
+                "name": "Tiwabbit",
+                "level": 41,
+                "imageUrl": "/bestiary/monsters/96.png"
+              },
+              {
+                "id": 64,
+                "name": "Wabbit",
+                "level": 44,
+                "imageUrl": "/bestiary/monsters/64.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:18",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/deacutegouts-temps.html",
+      "sourceTitle": "Alignement 16 : D'égouts temps",
+      "sourceHash": "26aaf337cd35d556aef30ae1b50541ded267ac5c7ec1c2390f151d94d994c7b5",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": []
+}

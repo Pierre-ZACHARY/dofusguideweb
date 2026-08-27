@@ -1,0 +1,1544 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 17,
+  "updatedAt": "2026-08-27T12:53:57.061Z",
+  "summaries": [
+    {
+      "overview": "Votre chef de classe vous envoie auprès du Conseil d’Astrub. Après avoir reçu un présent pour négocier avec les Rats Strubiens, vous enquêtez dans les égouts puis dans une mine où les Sidoas exploitent Rathrosk. Libérez le jeune dragon, affrontez les Gardoa vétéran et rapportez les faits à Fallanster puis à Aisling.",
+      "recommendedLevel": 25,
+      "prerequisites": [
+        "Quête de classe.",
+        "Parler à votre chef de classe pour lancer la quête."
+      ],
+      "rewards": [
+        "60 031 XP.",
+        "1 326 Kamas.",
+        "2 x Oeil de Pikdoa.",
+        "2 x Casque de Sherpoa."
+      ],
+      "preparation": [
+        "Prévoir 1 combat réalisable en groupe.",
+        "Prévoir 1 combat à effectuer seul avec Rathrosk."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à votre chef de classe et demandez-lui s’il a encore besoin de vous. Il vous indique que la Conseillère Archie vous réclame.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Le PNJ et sa position dépendent de votre classe ; l’exemple donné est Rok Elreuss en [5,-19] pour les Iops.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à la Conseillère Archie et demandez la raison de votre convocation, puis empruntez les escaliers derrière elle pour rejoindre Fallanster à l’étage.",
+          "position": "[4,-19]",
+          "zoneHint": "Tour du Conseil",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Acceptez la mission de Fallanster : négocier avec les Rats Strubiens au sujet des fumées toxiques signalées dans les mines.",
+          "position": "[4,-19]",
+          "zoneHint": "Tour du Conseil",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Redescendez au rez-de-chaussée et parlez à Paule Amploa afin de récupérer le cadeau destiné au chef des rats.",
+          "position": "[4,-19]",
+          "zoneHint": "Tour du Conseil",
+          "warning": "À ce moment, la quête « Crise sanitaire » devient disponible.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans les égouts par la bouche d’égouts puis progressez jusqu’au Rat Famé.",
+          "position": "[5,-17]",
+          "zoneHint": "Égouts",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Rat Famé. Il tente de voler le cadeau et déclenche un combat contre trois Rat Famé.",
+          "position": null,
+          "zoneHint": "Égouts",
+          "warning": "Combat contre 3 Rat Famé, réalisable en groupe. Ils peuvent retirer des PA ou des PM de façon esquivable.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, parlez à Ramane Hitoo. Il nie la responsabilité des rats et vous montre des poils gris trouvés près d’une grille d’où proviennent les vapeurs ; il les attribue aux Sidoas.",
+          "position": null,
+          "zoneHint": "Égouts",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à la carrière, entrez dans la mine, avancez d’une carte tout droit puis prenez le passage de droite, plus discret.",
+          "position": "[10,-19]",
+          "zoneHint": "Mine",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à un Gardoa vétéran qui refuse que vous enquêtiez et choisissez de vous en aller.",
+          "position": null,
+          "zoneHint": "Mine",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Revenez en arrière, montez sur la carte supérieure et cliquez sur la sacoche pour obtenir une Fée de signalisation.",
+          "position": null,
+          "zoneHint": "Mine",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Redescendez d’une carte et utilisez la Fée de signalisation en double-cliquant dessus dans l’inventaire de quête.",
+          "position": null,
+          "zoneHint": "Mine",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez dans la galerie du coffre et placez-vous sur une des cases derrière les tonneaux afin de vous cacher.",
+          "position": null,
+          "zoneHint": "Mine",
+          "warning": "Vous devez être caché derrière les tonneaux avant de poursuivre.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez successivement aux deux Gardoa vétéran pour les faire partir vérifier l’origine du bruit.",
+          "position": null,
+          "zoneHint": "Mine",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez sur le gros coffre pour découvrir le passage, puis parlez à Rathrosk et attirez l’attention du jeune dragon. Vous apprenez qu’il est exploité par les Sidoas et qu’il faut briser le verrou de sa cage.",
+          "position": null,
+          "zoneHint": "Mine",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sortez devant la mine, cliquez sur la pioche bleue pour la récupérer puis équipez-la comme arme de corps à corps.",
+          "position": "[10,-19]",
+          "zoneHint": null,
+          "warning": "La pioche doit être équipée pour pouvoir briser le verrou.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Rathrosk et utilisez la pioche pour fracasser le verrou qui bloque le volant de sa cage.",
+          "position": null,
+          "zoneHint": "Mine",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Revenez sur la carte précédente et parlez à un Gardoa vétéran pour tenter de forcer le passage.",
+          "position": null,
+          "zoneHint": "Mine",
+          "warning": "Le combat suivant est obligatoirement effectué seul, avec Rathrosk comme allié.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Affrontez les Gardoa vétéran avec Rathrosk. Son sort Souffle de Rathrosk élimine instantanément les monstres touchés.",
+          "position": null,
+          "zoneHint": "Mine",
+          "warning": "Combat solo : aucun autre joueur ne peut vous accompagner.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Retournez à l’étage de la Tour du Conseil et parlez à Fallanster pour lui présenter Rathrosk.",
+          "position": "[4,-19]",
+          "zoneHint": "Tour du Conseil",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rathrosk ayant pris l’apparence d’un écureuil, reparlez à Fallanster pour révéler sa véritable forme puis résumez les événements.",
+          "position": "[4,-19]",
+          "zoneHint": "Tour du Conseil",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez au premier étage de la bibliothèque et parlez à Aisling du dragon Rathrosk. Elle évoque un ancien récit concernant un écureuil gris et un dragon protecteur d’Astrub.",
+          "position": "[7,-19]",
+          "zoneHint": "Bibliothèque",
+          "warning": "Après cette discussion, la quête « L'histoire en mouvement » devient disponible.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Une Recrue Mercenaire apparaît avec un message de Badufron. Poursuivez le dialogue pour conclure la quête ; continuer à lui parler permet ensuite d’obtenir « Balade en forêt ».",
+          "position": "[7,-19]",
+          "zoneHint": "Bibliothèque",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Ramane Hitoo fournit l’indice des poils gris qui oriente l’enquête vers les Sidoas.",
+        "Fallanster rapproche Rathrosk d’un ancien mythe sur un dragon ayant protégé Astrub.",
+        "Aisling confirme qu’un ancien ouvrage associait également un écureuil gris à cette histoire."
+      ],
+      "npcs": [
+        "Rok Elreuss",
+        "Conseillère Archie",
+        "Fallanster",
+        "Paule Amploa",
+        "Rat Famé",
+        "Ramane Hitoo",
+        "Gardoa vétéran",
+        "Rathrosk",
+        "Aisling",
+        "Recrue Mercenaire",
+        "Badufron"
+      ],
+      "items": [
+        {
+          "name": "Cadeau destiné au chef des rats",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Fée de signalisation",
+          "itemId": 19675,
+          "imageUrl": "/items/19675.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19675"
+        },
+        {
+          "name": "Pioche bleue",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Touffe de poils gris",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "5,-19",
+              "4,-19",
+              "5,-17",
+              "7,-19"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "10,-19"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1183",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/ca-sent-le-gaz.html",
+      "sourceTitle": "Ça sent le gaz",
+      "sourceHash": "ed085daa6d0ab14229415e42d35c009e9b961285f3d684b6d6781de30b5fba65",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Paule Amploa vous charge d’identifier la cause d’une contamination qui touche pains, plantes, bois et animaux. Après avoir recueilli cinq échantillons par différents métiers, vous remontez la piste jusqu’à Fidel Gastro, dont le nettoyage de moisissures dans une rivière a propagé la contamination.",
+      "recommendedLevel": 20,
+      "prerequisites": [
+        "Avoir avancé « Ça sent le gaz » jusqu’à la rencontre avec Paule Amploa."
+      ],
+      "rewards": [
+        "17 199 XP.",
+        "390 Kamas.",
+        "2 x Fleur de Pissenlit Diabolique.",
+        "2 x Pétale de Rose Démoniaque."
+      ],
+      "preparation": [
+        "Prévoir 1 x Couteau de Chasse ou une autre arme de chasse.",
+        "Pouvoir récolter les ressources nécessaires avec les métiers concernés : Frêne, Blé, Ortie et Goujon."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Paule Amploa dans la Tour du Conseil et proposez votre aide pour enquêter sur les pains, potions et bois touchés par la contamination.",
+          "position": "[4,-19]",
+          "zoneHint": "Tour du Conseil",
+          "warning": "La quête n’est disponible qu’après avoir rencontré Paule Amploa pendant « Ça sent le gaz ».",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans l’atelier des paysans et parlez à Emia Elliesol. Elle vous indique que la contamination semble toucher toutes les espèces végétales ainsi que les animaux.",
+          "position": "[7,-24]",
+          "zoneHint": "Atelier des paysans",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Unterix Unter des problèmes affectant le bétail. Il vous oriente vers les alchimistes, qui ont besoin d’échantillons de ressources contaminées.",
+          "position": "[1,-23]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Équipez un Couteau de Chasse ou une arme de chasse puis combattez un Piou afin d’obtenir 1 x Échantillon de viande contaminée.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "L’arme de chasse doit être équipée lors du combat.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Coupez un Frêne dans la Forêt d’Astrub pour obtenir 1 x Échantillon de bois contaminé.",
+          "position": null,
+          "zoneHint": "Forêt d’Astrub",
+          "warning": "Nécessite de pouvoir couper un Frêne avec le métier approprié.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Fauchez du Blé dans les Champs d’Astrub pour obtenir 1 x Échantillon de céréale contaminée.",
+          "position": null,
+          "zoneHint": "Champs d’Astrub",
+          "warning": "Nécessite de pouvoir faucher du Blé avec le métier approprié.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cueillez une Ortie dans la Forêt d’Astrub ou les Champs d’Astrub pour obtenir 1 x Échantillon de plante contaminée.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Nécessite de pouvoir cueillir une Ortie avec le métier approprié.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Pêchez un Goujon dans le Lac pour obtenir 1 x Échantillon de poisson contaminé.",
+          "position": null,
+          "zoneHint": "Lac",
+          "warning": "Nécessite de pouvoir pêcher un Goujon avec le métier approprié.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Une fois les cinq échantillons réunis, entrez dans l’atelier des alchimistes et remettez-les à Nibé Lulle. Il soupçonne une origine minérale liée à la carrière proposée par Chipo Atufe.",
+          "position": "[3,-21]",
+          "zoneHint": "Atelier des alchimistes",
+          "warning": "Les 5 échantillons contaminés sont nécessaires.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à l’entrée indiquée puis progressez dans les souterrains jusqu’à Chipo Atufe.",
+          "position": "[1,-17]",
+          "zoneHint": "Souterrains",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Chipo Atufe. Il nie avoir provoqué la contamination mais mentionne une personne ayant préparé d’importantes réserves de nourriture.",
+          "position": null,
+          "zoneHint": "Souterrains",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous dans la mine et progressez jusqu’à Feldz Paffe.",
+          "position": "[10,-19]",
+          "zoneHint": "Mine",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez Feldz Paffe au sujet de ses réserves. Il explique les avoir constituées à cause des récents éboulements susceptibles de l’isoler plusieurs semaines.",
+          "position": null,
+          "zoneHint": "Mine",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Revenez sur la première carte de la mine et cliquez sur le tonneau de TNT pour récupérer des explosifs.",
+          "position": null,
+          "zoneHint": "Mine",
+          "warning": "Les explosifs servent immédiatement à ouvrir un passage obstrué.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Avancez d’une carte et utilisez les explosifs sur la grosse roche située à droite afin de dégager le passage.",
+          "position": null,
+          "zoneHint": "Mine",
+          "warning": "Utilisation d’explosifs requise pour poursuivre.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Fidel Gastro dans la galerie abandonnée. Il révèle avoir nettoyé les parois moisies avec des chiffons, puis les avoir essorés dans la rivière.",
+          "position": null,
+          "zoneHint": "Mine",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Nibé Lulle et expliquez ce que vous avez découvert. Il établit que la rivière a propagé la contamination aux cultures, aux animaux et à la flore.",
+          "position": "[3,-21]",
+          "zoneHint": "Atelier des alchimistes",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez à Paule Amploa et faites-lui un résumé de la situation pour terminer la quête.",
+          "position": "[4,-19]",
+          "zoneHint": "Tour du Conseil",
+          "warning": "La fin de cette quête débloque « Livraison par intérim ».",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les cinq échantillons proviennent de catégories de ressources différentes et doivent tous être réunis avant de retourner voir Nibé Lulle.",
+        "L’enquête distingue clairement les souterrains accessibles en [1,-17] de la mine accessible en [10,-19]."
+      ],
+      "npcs": [
+        "Paule Amploa",
+        "Emia Elliesol",
+        "Unterix Unter",
+        "Nibé Lulle",
+        "Chipo Atufe",
+        "Feldz Paffe",
+        "Fidel Gastro"
+      ],
+      "items": [
+        {
+          "name": "Couteau de Chasse",
+          "itemId": 1934,
+          "imageUrl": "/items/1934.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1934"
+        },
+        {
+          "name": "Échantillon de viande contaminée",
+          "itemId": 19649,
+          "imageUrl": "/items/19649.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19649"
+        },
+        {
+          "name": "Échantillon de bois contaminé",
+          "itemId": 19648,
+          "imageUrl": "/items/19648.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19648"
+        },
+        {
+          "name": "Échantillon de céréale contaminée",
+          "itemId": 19646,
+          "imageUrl": "/items/19646.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19646"
+        },
+        {
+          "name": "Échantillon de plante contaminée",
+          "itemId": 19647,
+          "imageUrl": "/items/19647.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19647"
+        },
+        {
+          "name": "Échantillon de poisson contaminé",
+          "itemId": 19650,
+          "imageUrl": "/items/19650.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19650"
+        },
+        {
+          "name": "Explosifs",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 98,
+            "name": "Champs d'Astrub",
+            "coordinates": [
+              "7,-24"
+            ]
+          },
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "4,-19",
+              "3,-21"
+            ]
+          },
+          {
+            "id": 97,
+            "name": "Forêt d'Astrub",
+            "coordinates": []
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": []
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "1,-23",
+              "10,-19"
+            ]
+          },
+          {
+            "id": 29,
+            "name": "Souterrains",
+            "coordinates": []
+          },
+          {
+            "id": 99,
+            "name": "Souterrains d'Astrub",
+            "coordinates": [
+              "1,-17"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          },
+          {
+            "id": 460,
+            "name": "Frakacia Leukocytine",
+            "level": 30,
+            "imageUrl": "/bestiary/monsters/460.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2312,
+            "name": "Arachitik la Souffreteuse",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2312.png"
+          },
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2356,
+            "name": "Tofurapin le Pétri",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2356.png"
+          },
+          {
+            "id": 2348,
+            "name": "Pissdane l'Insipide",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2348.png"
+          },
+          {
+            "id": 2352,
+            "name": "Roz la Magicienne",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2352.png"
+          },
+          {
+            "id": 2358,
+            "name": "Tour le Vice",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2358.png"
+          },
+          {
+            "id": 2333,
+            "name": "Milipatte la Griffe",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2333.png"
+          },
+          {
+            "id": 2349,
+            "name": "Preskapwal le Tendancieux",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2349.png"
+          },
+          {
+            "id": 2353,
+            "name": "Sangria le Fruité",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2353.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1601,
+            "name": "Animalades",
+            "monsters": [
+              {
+                "id": 4818,
+                "name": "Arakmuté",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/4818.png"
+              },
+              {
+                "id": 474,
+                "name": "Arakne Malade",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/474.png"
+              },
+              {
+                "id": 4817,
+                "name": "Araknosé",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/4817.png"
+              },
+              {
+                "id": 473,
+                "name": "Tofu Malade",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/473.png"
+              }
+            ]
+          },
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 4823,
+                "name": "Écurouille",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/4823.png"
+              },
+              {
+                "id": 159,
+                "name": "Milimulou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/159.png"
+              },
+              {
+                "id": 103,
+                "name": "Prespic",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/103.png"
+              },
+              {
+                "id": 104,
+                "name": "Sanglier",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/104.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              }
+            ]
+          },
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 153,
+                "name": "Boulanger Sombre",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/153.png"
+              },
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Mulous",
+            "monsters": [
+              {
+                "id": 102,
+                "name": "Mulou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/102.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 204,
+            "name": "Plantes des champs",
+            "monsters": [
+              {
+                "id": 79,
+                "name": "Pissenlit Diabolique",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/79.png"
+              },
+              {
+                "id": 78,
+                "name": "Rose Démoniaque",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/78.png"
+              },
+              {
+                "id": 48,
+                "name": "Tournesol Sauvage",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/48.png"
+              },
+              {
+                "id": 4820,
+                "name": "Épouvanteur",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/4820.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1206",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/crise-sanitaire.html",
+      "sourceTitle": "Crise sanitaire",
+      "sourceHash": "276f18ebc8547e0e8b8c7c52234213906685512e9eafd6c2c12d89e8de8dec34",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après « Crise sanitaire », Paule Amploa vous demande de remplacer un livreur malade. Aidez Julie Lescroc face à deux Brutes Roublardes, récupérez ses caisses, livrez-les à René Gossian puis rendez compte à Paule Amploa.",
+      "recommendedLevel": 20,
+      "prerequisites": [
+        "Terminer « Crise sanitaire »."
+      ],
+      "rewards": [
+        "17 199 XP.",
+        "390 Kamas.",
+        "2 x Peau de Larve Verte.",
+        "2 x Peau de Larve Jaune."
+      ],
+      "preparation": [
+        "Prévoir 1 combat réalisable en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Paule Amploa et demandez du travail. Acceptez de remplacer le livreur de Julie Lescroc, malade depuis la contamination.",
+          "position": "[4,-19]",
+          "zoneHint": "Tour du Conseil",
+          "warning": "Cette quête est séquentielle et nécessite d’avoir terminé « Crise sanitaire ».",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir Julie Lescroc. Elle explique que deux personnes cherchent à lui soutirer de l’argent.",
+          "position": "[9,-11]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à la Brute Roublarde et choisissez d’employer la force pour les faire partir.",
+          "position": "[9,-11]",
+          "zoneHint": null,
+          "warning": "Ce choix déclenche un combat contre deux Brutes Roublardes.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Combattez les deux Brutes Roublardes. Le combat peut être effectué avec d’autres joueurs.",
+          "position": "[9,-11]",
+          "zoneHint": null,
+          "warning": "Les adversaires disposent notamment de dégâts de zone, d’un poison, de vol de Force/Agilité et d’érosion.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Reparlez à Julie Lescroc. Elle reconnaît avoir vendu de la viande de dragodinde d’élevage en la faisant passer pour de la viande de dragodinde sauvage et vous demande de garder le silence en échange d’une paye supplémentaire.",
+          "position": "[9,-11]",
+          "zoneHint": null,
+          "warning": "Julie vous propose une rémunération supplémentaire pour ne pas révéler sa fraude.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez sur la caisse en bois située à côté de Julie pour prendre la marchandise.",
+          "position": "[9,-11]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Livrez la marchandise à René Gossian à l’hôtel de vente des consommables.",
+          "position": "[3,-19]",
+          "zoneHint": "Hôtel de vente des consommables",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Paule Amploa et annoncez-lui que les caisses de Julie Lescroc ont été livrées.",
+          "position": "[4,-19]",
+          "zoneHint": "Tour du Conseil",
+          "warning": "La fin de cette quête débloque « Golémancien ».",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le combat intervient avant la récupération des caisses.",
+        "La confession de Julie Lescroc intervient après le combat et avant la livraison."
+      ],
+      "npcs": [
+        "Paule Amploa",
+        "Julie Lescroc",
+        "Brute Roublarde",
+        "René Gossian"
+      ],
+      "items": [
+        {
+          "name": "Caisses de Julie Lescroc",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "4,-19",
+              "3,-19"
+            ]
+          },
+          {
+            "id": 173,
+            "name": "Prairies d'Astrub",
+            "coordinates": [
+              "9,-11"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          },
+          {
+            "id": 4266,
+            "name": "Sam Sagaz",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/4266.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2332,
+            "name": "Larchimaide la Poussée",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2332.png"
+          },
+          {
+            "id": 2331,
+            "name": "Larvapstrè le Subjectif",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2331.png"
+          },
+          {
+            "id": 2339,
+            "name": "Larvomatik le Propre",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2339.png"
+          },
+          {
+            "id": 2574,
+            "name": "Larvonika l'Instrument",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2574.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 203,
+            "name": "Larves",
+            "monsters": [
+              {
+                "id": 31,
+                "name": "Larve Bleue",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/31.png"
+              },
+              {
+                "id": 46,
+                "name": "Larve Orange",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/46.png"
+              },
+              {
+                "id": 34,
+                "name": "Larve Verte",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/34.png"
+              },
+              {
+                "id": 5225,
+                "name": "Larve Jaune",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/5225.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1207",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/livraison-par-interim.html",
+      "sourceTitle": "Livraison par intérim",
+      "sourceHash": "8a4bd4f603c248f807a23d7ed2e22d729336cb5d2f81c63e1e206eb5343a2143",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Une Mercenaire d’Astrub vous demande d’abord de réduire la population de larves autour de trois gobelins condamnés à des travaux d’intérêt général. Après avoir éliminé 10 larves, vous remplacez brièvement la mercenaire, refusez les tentatives de corruption de Luki Loushiano, puis rattrapez les fugitifs et les affrontez.",
+      "recommendedLevel": 20,
+      "prerequisites": [],
+      "rewards": [
+        "17 199 XP.",
+        "390 Kamas.",
+        "2 x Peau de Larve Bleue.",
+        "2 x Peau de Larve Orange."
+      ],
+      "preparation": [
+        "Prévoir des combats contre les larves de la zone.",
+        "Prévoir 1 combat réalisable en groupe contre les gobelins."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à la Mercenaire d’Astrub et proposez de diminuer le nombre de larves présentes autour des trois gobelins qu’elle surveille.",
+          "position": "[3,-14]",
+          "zoneHint": "Prairies d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Tuez 10 larves sur la carte actuelle ou sur les deux cartes adjacentes afin d’obtenir automatiquement 10 x Morceau de larve.",
+          "position": "[3,-14]",
+          "zoneHint": "Prairies d'Astrub",
+          "warning": "Vous devez obtenir exactement 10 Morceaux de larve.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Revenez voir la Mercenaire d’Astrub et annoncez que les larves ne poseront plus problème pour le moment. Acceptez ensuite de la remplacer pendant qu’elle se rend à l’atelier des façonneurs.",
+          "position": "[3,-14]",
+          "zoneHint": "Prairies d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Luki Loushiano. Refusez sa proposition de kamas, puis refusez également son ragoût de morve.",
+          "position": "[3,-14]",
+          "zoneHint": "Prairies d'Astrub",
+          "warning": "Les deux refus sont nécessaires ; les gobelins profitent ensuite d’une diversion pour s’enfuir.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retrouvez les gobelins et parlez à Alka Traz afin de les affronter.",
+          "position": "[3,-9]",
+          "zoneHint": null,
+          "warning": "Le dialogue déclenche un combat réalisable en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Battez les gobelins puis parlez à la Mercenaire d’Astrub présente sur la même carte afin de vous excuser et terminer la quête.",
+          "position": "[3,-9]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "Les 10 Morceaux de larve tombent automatiquement lors des combats contre les larves concernées.",
+        "Après la fuite, les gobelins doivent être retrouvés en [3,-9]."
+      ],
+      "npcs": [
+        "Mercenaire d’Astrub",
+        "Luki Loushiano",
+        "Alka Traz"
+      ],
+      "items": [
+        {
+          "name": "Morceau de larve",
+          "itemId": 19756,
+          "imageUrl": "/items/19756.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19756"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "3,-9"
+            ]
+          },
+          {
+            "id": 173,
+            "name": "Prairies d'Astrub",
+            "coordinates": [
+              "3,-14",
+              "3,-9"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4266,
+            "name": "Sam Sagaz",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/4266.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2332,
+            "name": "Larchimaide la Poussée",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2332.png"
+          },
+          {
+            "id": 2331,
+            "name": "Larvapstrè le Subjectif",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2331.png"
+          },
+          {
+            "id": 2339,
+            "name": "Larvomatik le Propre",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2339.png"
+          },
+          {
+            "id": 2574,
+            "name": "Larvonika l'Instrument",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2574.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 203,
+            "name": "Larves",
+            "monsters": [
+              {
+                "id": 31,
+                "name": "Larve Bleue",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/31.png"
+              },
+              {
+                "id": 46,
+                "name": "Larve Orange",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/46.png"
+              },
+              {
+                "id": 34,
+                "name": "Larve Verte",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/34.png"
+              },
+              {
+                "id": 5225,
+                "name": "Larve Jaune",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/5225.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1217",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-petite-mission-dans-la-prairie.html",
+      "sourceTitle": "La petite mission dans la prairie",
+      "sourceHash": "77ffedae3b2a5a3e86954f765910a9963283b6d830fb34968ef04ab41723c553",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Aisling poursuit ses recherches sur Rathrosk et vous envoie chercher un ouvrage concernant le dragon d’Astrub. Le livre a été vendu par erreur puis jeté au feu. Après avoir vaincu le Feu de la force et récupéré l’ouvrage calciné, vous revenez à la bibliothèque où Neria oriente les recherches vers le Mage Ax.",
+      "recommendedLevel": 25,
+      "prerequisites": [
+        "Avoir avancé « Ça sent le gaz » jusqu’à la discussion avec Aisling."
+      ],
+      "rewards": [
+        "25 013 XP.",
+        "552 Kamas.",
+        "1 x L'invasion d'Uk'Not'Allag'."
+      ],
+      "preparation": [
+        "Prévoir 1 combat réalisable en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Au premier étage de la bibliothèque, parlez à Aisling et demandez comment l’aider dans ses recherches sur le dragon. Elle vous envoie interroger Oz Dralett.",
+          "position": "[7,-19]",
+          "zoneHint": "Bibliothèque",
+          "warning": "Cette quête devient disponible pendant « Ça sent le gaz », après la discussion avec Aisling.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montez au deuxième étage de la bibliothèque et parlez à Oz Dralett. Il explique avoir livré par erreur le livre recherché à un vendeur de parchemins.",
+          "position": "[7,-19]",
+          "zoneHint": "Bibliothèque",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Nacf Virgil. Il vous apprend avoir vendu la pile de livres à un apprenti forgeron qui compte les utiliser comme combustible.",
+          "position": "[3,-17]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Latem Sa. Il vous annonce qu’il vient tout juste de jeter le livre dans le feu.",
+          "position": "[7,-16]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez sur le Moule à gauche pour déclencher le combat contre le Feu de la force.",
+          "position": "[7,-16]",
+          "zoneHint": null,
+          "warning": "Le Feu de la force possède notamment Incinération, une attaque de zone très puissante qui le tue également.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Battez le Feu de la force afin de récupérer le livre calciné.",
+          "position": "[7,-16]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez au premier étage de la bibliothèque et montrez le livre calciné à Aisling. Elle estime qu’il ne peut probablement pas être restauré et consulte Neria.",
+          "position": "[7,-19]",
+          "zoneHint": "Bibliothèque",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Neria, dont vous ne comprenez pas les propos, puis reparlez à Aisling. Elle traduit le message de la chouette : le Mage Ax pourrait être capable de résoudre le problème.",
+          "position": "[7,-19]",
+          "zoneHint": "Bibliothèque",
+          "warning": "Continuer le dialogue avec Aisling après la fin permet d’obtenir « Restauration rapide ».",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le livre passe successivement par Oz Dralett, Nacf Virgil puis Latem Sa avant d’être retrouvé dans le feu.",
+        "Le combat contre le Feu de la force est réalisable en groupe."
+      ],
+      "npcs": [
+        "Aisling",
+        "Oz Dralett",
+        "Nacf Virgil",
+        "Latem Sa",
+        "Neria",
+        "Mage Ax"
+      ],
+      "items": [
+        {
+          "name": "Livre calciné",
+          "itemId": 19681,
+          "imageUrl": "/items/19681.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19681"
+        },
+        {
+          "name": "L'invasion d'Uk'Not'Allag'",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "7,-19",
+              "3,-17",
+              "7,-16"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1210",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/l-histoire-en-mouvement.html",
+      "sourceTitle": "L'histoire en mouvement",
+      "sourceHash": "d73a15b61a88eb55cbe55173ebb4eb16f1b7d5e0fb008de4b9fd0a8dc6879b71",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Profiter du passage à la Tour du Conseil",
+      "description": "Lorsque « Ça sent le gaz » vous conduit auprès de Paule Amploa au rez-de-chaussée de la Tour du Conseil, « Crise sanitaire » devient disponible au même endroit. Lancez-la immédiatement afin d’éviter un aller-retour supplémentaire à [4,-19].",
+      "questKeys": [
+        "quest:1183",
+        "quest:1206"
+      ],
+      "actions": [
+        "Pendant « Ça sent le gaz », récupérez le cadeau auprès de Paule Amploa à [4,-19].",
+        "Profitez de cette même visite pour lancer « Crise sanitaire » auprès de Paule Amploa avant de partir vers les égouts."
+      ]
+    },
+    {
+      "title": "Enchaîner les recherches à la bibliothèque",
+      "description": "Vers la fin de « Ça sent le gaz », la discussion avec Aisling au premier étage de la bibliothèque débloque « L'histoire en mouvement ». Vous pouvez lancer cette nouvelle enquête sur place avant de quitter [7,-19].",
+      "questKeys": [
+        "quest:1183",
+        "quest:1210"
+      ],
+      "actions": [
+        "Terminez la discussion avec Aisling requise par « Ça sent le gaz » au premier étage de la bibliothèque.",
+        "Demandez aussitôt à Aisling comment l’aider dans ses recherches afin de lancer « L'histoire en mouvement » au même endroit."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 118,
+  "updatedAt": "2026-08-27T12:55:05.741Z",
+  "summaries": [
+    {
+      "overview": "Le professeur Groschinder a confié un bouclier en etork à son assistant pour le livrer au Miausolée du Pounicheur, mais celui-ci n'est jamais revenu. Partez à sa recherche dans le donjon, retrouvez sa dépouille, puis rapportez le bouclier à Groschinder.",
+      "recommendedLevel": 110,
+      "prerequisites": [
+        "Faut pas pousser"
+      ],
+      "rewards": [
+        "2 597 190 XP",
+        "28 560 kamas",
+        "15 x Orichor",
+        "3 x Épine de Grath"
+      ],
+      "preparation": [
+        "1 x Donjon Miausolée du Pounicheur"
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez au professeur Groschinder pour apprendre la disparition de son assistant.",
+          "position": "[-1,-6]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au donjon Miausolée du Pounicheur et terminez-le.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Combat de donjon en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Ne sortez pas du donjon : inspectez le squelette de l'agent disparu dans la salle du boss.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Ne quittez pas le donjon avant d'avoir inspecté le squelette, sous peine de devoir le refaire.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir le professeur Groschinder, remettez-lui le bouclier en etork et faites une prière pour l'agent Zym.",
+          "position": "[-1,-6]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Débloque la quête De mauvais poil.",
+        "Fait partie du succès Tu peux toujours te gratter."
+      ],
+      "npcs": [
+        "Professeur Groschinder"
+      ],
+      "items": [
+        {
+          "name": "Bouclier en etork",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Orichor",
+          "itemId": 15206,
+          "imageUrl": "/items/15206.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15206"
+        },
+        {
+          "name": "Épine de Grath",
+          "itemId": 17613,
+          "imageUrl": "/items/17613.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17613"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 855,
+            "name": "Pierres de l'élévation",
+            "coordinates": [
+              "-1,-6"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1432,
+            "name": "Ecaflipuces",
+            "monsters": [
+              {
+                "id": 4291,
+                "name": "Pupuce",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4291.png"
+              },
+              {
+                "id": 4292,
+                "name": "Morcac",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4292.png"
+              },
+              {
+                "id": 4293,
+                "name": "Pikbul",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4293.png"
+              },
+              {
+                "id": 4294,
+                "name": "Gériatique",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4294.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:960",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/testeacute-et-approuveacute.html",
+      "sourceTitle": "Testé et approuvé",
+      "sourceHash": "73c316342e11dcdc5fb0ef0afcc2ba52599bb60ce94e20f5f6db7d100f5fac02",
+      "generatedAt": "2026-08-24T18:09:04.393Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Aidez les habitants de Frigost en accomplissant quatre quêtes, puis annoncez à la Maire Cantille la découverte d'un vaccin provisoire contre le rube.",
+      "recommendedLevel": 120,
+      "prerequisites": [
+        "Niveau recommandé : 120",
+        "La maire de glace"
+      ],
+      "rewards": [
+        "3 883 723 XP",
+        "40 272 kamas",
+        "1 x Kama de glace"
+      ],
+      "preparation": [
+        "Il faudra effectuer différentes quêtes."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à la Maire Cantille qui vous demandera d'aider les habitants de Frigost.",
+          "position": "[-77,-42]",
+          "zoneHint": "La Bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Accomplissez les quatre quêtes suivantes : La terre banquise, La maire de glace, Full Contact et Les monologues du vaccin.",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir la Maire Cantile et annoncez-lui que vous avez découvert un vaccin provisoire contre le rube.",
+          "position": "[-77,-42]",
+          "zoneHint": "La Bourgade",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Débloque l'accès aux quêtes : L'essentiel est dans le lac gelé et Ennemis d'état.",
+        "Cette quête fait partie du succès : La maire dénie."
+      ],
+      "npcs": [
+        "Maire Cantille"
+      ],
+      "items": [
+        {
+          "name": "Kama de glace",
+          "itemId": 11196,
+          "imageUrl": "/items/11196.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11196"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 601,
+            "name": "La Bourgade",
+            "coordinates": [
+              "-77,-42"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2913,
+                "name": "Chachachovage",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2913.png"
+              },
+              {
+                "id": 2893,
+                "name": "Crabe Hijacob",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2893.png"
+              },
+              {
+                "id": 2914,
+                "name": "Gélikan",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2914.png"
+              },
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:412",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/bienvenue-agrave-frigost.html",
+      "sourceTitle": "Bienvenue à Frigost",
+      "sourceHash": "3e9564189adbf5efab79a1c3cdd9d64a962a8132a056eafe26c4af3708a345ac",
+      "generatedAt": "2026-08-24T17:12:30.541Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    }
+  ],
+  "tips": []
+}

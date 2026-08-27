@@ -1,0 +1,459 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 6,
+  "updatedAt": "2026-08-27T12:53:54.090Z",
+  "summaries": [
+    {
+      "overview": "Ganymède vous fait découvrir votre objectif principal, les six Dofus Primordiaux, puis le monde des Douze avant de vous envoyer explorer Incarnam. Avant de quitter le Temple Céleste, Andrée Inkarnay peut aussi vous remettre un Philtre de changement de classe utilisable jusqu'au niveau 20.",
+      "recommendedLevel": 1,
+      "prerequisites": [
+        "Niveau 1 et +.",
+        "Avoir terminé Sous le regard des dieux."
+      ],
+      "rewards": [
+        "197 XP.",
+        "12 Kamas."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parlez à Ganymède au Temple Céleste pour poursuivre votre apprentissage et découvrir que votre objectif est de trouver et posséder les 6 Dofus Primordiaux.",
+          "position": "[1,1]",
+          "zoneHint": "Temple Céleste",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Consultez successivement les statues du Dofus Émeraude, du Dofus Pourpre, du Dofus Turquoise, du Dofus Ocre, du Dofus Ivoire et du Dofus Ébène.",
+          "position": "[1,1]",
+          "zoneHint": "Temple Céleste",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Passez sur la carte située à droite puis inspectez le Livre du Temple Céleste afin de découvrir la carte du monde des Douze.",
+          "position": null,
+          "zoneHint": "Temple Céleste",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Revenez parler à Ganymède. Il vous invite à quitter le temple pour explorer Incarnam avant de rejoindre Astrub, ce qui termine la quête et donne accès à Le village dans les nuages.",
+          "position": "[1,1]",
+          "zoneHint": "Temple Céleste",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "En bonus, avant de sortir, parlez à Andrée Inkarnay à l'entrée du Temple Céleste. Répondez d'abord « Répondre qu'il n'est de toute façon pas possible de faire marche arrière », puis « Dire qu'à la réflexion, votre puissance tutélaire ne vous correspond pas » pour obtenir un Philtre de changement de classe.",
+          "position": null,
+          "zoneHint": "entrée du Temple Céleste",
+          "warning": "Le Philtre de changement de classe n'est utilisable que tant que vous êtes de niveau 20 ou moins.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Andrée Inkarnay peut fournir une nouvelle potion si vous souhaitez changer encore une fois de classe tant que les conditions d'utilisation sont respectées.",
+        "Le passage par Andrée Inkarnay est un bonus et n'est pas nécessaire pour terminer Réponses à tout."
+      ],
+      "npcs": [
+        "Ganymède",
+        "Andrée Inkarnay"
+      ],
+      "items": [
+        {
+          "name": "Philtre de changement de classe",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 446,
+            "name": "Temple Céleste",
+            "coordinates": [
+              "1,1"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": []
+      },
+      "questKey": "quest:898",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/reacuteponses-agrave-tout.html",
+      "sourceTitle": "Réponses à tout",
+      "sourceHash": "a621c52ba1bceba5d119b5b851ab8a065ef50ed90cfb165c18da2358d0dc6c6b",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Anta Brok vous demande de préparer une galette à partir d'une recette secrète, puis d'y ajouter la confiture de Pipelette. Il faut réunir les ingrédients dans plusieurs zones d'Incarnam, consulter impérativement la recette avant le craft, fabriquer la galette, puis échanger 5 Orties contre un Pot de Confiture Maison.",
+      "recommendedLevel": 7,
+      "prerequisites": [
+        "Niveau recommandé 7."
+      ],
+      "rewards": [
+        "3 330 XP.",
+        "84 Kamas.",
+        "5 x Oeuf de Tofu."
+      ],
+      "preparation": [
+        "10 x Blé.",
+        "4 x Poudre de Perlinpainpain.",
+        "2 x Œuf Chimérique.",
+        "1 x Lailait.",
+        "4 x Cendres Éternelles.",
+        "4 x Bave de Bouftou.",
+        "5 x Ortie."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Anta Brok pour accepter de l'aider à préparer un dessert et recevoir la recette secrète de la galette.",
+          "position": "[1,-2]",
+          "zoneHint": "Incarnam",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Consultez la recette présente dans votre inventaire de quête avant de fabriquer la galette.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Condition obligatoire : si vous fabriquez la galette avant d'avoir consulté la recette, l'objectif ne se valide pas et vous devrez consulter la recette puis fabriquer une nouvelle galette.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récoltez 10 x Blé, principalement au nord d'Incarnam.",
+          "position": null,
+          "zoneHint": "nord d'Incarnam",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Obtenez 4 x Poudre de Perlinpainpain sur les monstres des Champs. Le taux de base indiqué est de 10 à 14 %, sauf sur les Tofus.",
+          "position": null,
+          "zoneHint": "Champs",
+          "warning": "Ces ressources s'obtiennent en butin de combat.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Obtenez 2 x Œuf Chimérique sur le Tofu Chimérique des Champs. Le taux de base indiqué est de 49 % et l'objet ne peut tomber que si La galette secrète est en cours.",
+          "position": null,
+          "zoneHint": "Champs",
+          "warning": "La quête doit être en cours pour obtenir les Œufs Chimériques ; ces ressources nécessitent des combats.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Rendez-vous à la Taverne du coin et achetez 1 x Lailait à Grobid.",
+          "position": "[0,-3]",
+          "zoneHint": "Taverne du coin",
+          "warning": "Dépense : 4 Kamas pour 1 x Lailait.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Obtenez 4 x Cendres Éternelles sur les monstres de la Forêt d'Incarnam. Le taux de base indiqué est de 50 à 54 %.",
+          "position": null,
+          "zoneHint": "Forêt d'Incarnam",
+          "warning": "Ces ressources s'obtiennent en butin de combat.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Obtenez 4 x Bave de Bouftou sur les différents Bouftous des Pâturages d'Incarnam. Le taux de base indiqué est de 50 à 54 %.",
+          "position": null,
+          "zoneHint": "Pâturages d'Incarnam",
+          "warning": "Ces ressources s'obtiennent en butin de combat.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Une fois les ingrédients réunis, allez à l'atelier des Paysans et utilisez l'action « cuire ». Placez exactement 10 x Blé, 4 x Poudre de Perlinpainpain, 2 x Œuf Chimérique, 1 x Lailait, 4 x Cendres Éternelles et 4 x Bave de Bouftou, puis fusionnez pour fabriquer la galette.",
+          "position": "[-1,-4]",
+          "zoneHint": "atelier des Paysans",
+          "warning": "La recette étant secrète, l'objet ne s'affiche pas dans l'atelier. Une erreur de composition ne consomme pas les ingrédients.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rapportez la galette à Anta Brok. Elle souhaite y ajouter de la confiture et vous envoie voir Pipelette.",
+          "position": "[1,-2]",
+          "zoneHint": "Incarnam",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Pipelette, qui accepte de vous fournir de la confiture en échange de 5 x Ortie.",
+          "position": "[2,-3]",
+          "zoneHint": "Incarnam",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Collectez 5 x Ortie, disponibles un peu partout dans Incarnam.",
+          "position": null,
+          "zoneHint": "Incarnam",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Pipelette et donnez-lui les 5 x Ortie afin d'obtenir un Pot de Confiture Maison dans votre inventaire de quête.",
+          "position": "[2,-3]",
+          "zoneHint": "Incarnam",
+          "warning": "Vous devez céder 5 x Ortie à Pipelette.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rapportez le Pot de Confiture Maison à Anta Brok et donnez-le-lui. Goûtez ensuite la confiture avec elle pour terminer la quête.",
+          "position": "[1,-2]",
+          "zoneHint": "Incarnam",
+          "warning": "En goûtant la confiture, vous recevez la malédiction Nausée et devenez vert jusqu'à avoir effectué 1 combat.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les ressources nécessaires à la galette peuvent aussi être obtenues ou achetées en HDV avant de vous rendre à l'atelier.",
+        "Après la quête, les autres quêtes citées pour le succès actuel sont Mort au Rat !, Cryptologie et Un peu de pigment."
+      ],
+      "npcs": [
+        "Anta Brok",
+        "Grobid",
+        "Pipelette"
+      ],
+      "items": [
+        {
+          "name": "Blé",
+          "itemId": 289,
+          "imageUrl": "/items/289.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/289"
+        },
+        {
+          "name": "Poudre de Perlinpainpain",
+          "itemId": 519,
+          "imageUrl": "/items/519.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/519"
+        },
+        {
+          "name": "Œuf Chimérique",
+          "itemId": 28256,
+          "imageUrl": "/items/28256.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/28256"
+        },
+        {
+          "name": "Lailait",
+          "itemId": 6765,
+          "imageUrl": "/items/6765.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6765"
+        },
+        {
+          "name": "Cendres Éternelles",
+          "itemId": 1984,
+          "imageUrl": "/items/1984.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1984"
+        },
+        {
+          "name": "Bave de Bouftou",
+          "itemId": 385,
+          "imageUrl": "/items/385.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/385"
+        },
+        {
+          "name": "Ortie",
+          "itemId": 421,
+          "imageUrl": "/items/421.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/421"
+        },
+        {
+          "name": "Pot de Confiture Maison",
+          "itemId": 16509,
+          "imageUrl": "/items/16509.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16509"
+        },
+        {
+          "name": "Galette",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Oeuf de Tofu",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 444,
+            "name": "Champs",
+            "coordinates": []
+          },
+          {
+            "id": 443,
+            "name": "Forêt",
+            "coordinates": []
+          },
+          {
+            "id": 445,
+            "name": "Pâturages",
+            "coordinates": []
+          },
+          {
+            "id": 479,
+            "name": "Rivière Kawaii",
+            "coordinates": [
+              "2,-3"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "0,-3"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "1,-2",
+              "-1,-4"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2310,
+            "name": "Arakule la Revancharde",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2310.png"
+          },
+          {
+            "id": 2323,
+            "name": "Chamchie le Difficile",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2323.png"
+          },
+          {
+            "id": 2336,
+            "name": "Mosketère le Dévoué",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2336.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 1602,
+            "name": "Vermines des champs",
+            "monsters": [
+              {
+                "id": 4819,
+                "name": "Campagnoll",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/4819.png"
+              },
+              {
+                "id": 59,
+                "name": "Champ Champ",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/59.png"
+              },
+              {
+                "id": 61,
+                "name": "Moskito",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/61.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:903",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-galette-secregravete.html",
+      "sourceTitle": "La galette secrète",
+      "sourceHash": "99991cb13f8b365220bad3468e7493f6586ba52418cdb3a59b2ccd743d40de02",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": []
+}

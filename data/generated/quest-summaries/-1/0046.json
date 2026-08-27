@@ -1,0 +1,853 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 46,
+  "updatedAt": "2026-08-27T12:54:01.418Z",
+  "summaries": [
+    {
+      "overview": "Ronald le sage lenald vous oriente vers Mériana, une puissante magicienne vivant dans les marécages. Il suffit de la rejoindre et de lui expliquer que Ronald vous envoie. Cette courte quête ouvre ensuite les premières quêtes associées à cinq Dofus primordiaux.",
+      "recommendedLevel": 40,
+      "prerequisites": [
+        "Voir le Dark Vlad et mourir... ou pas."
+      ],
+      "rewards": [
+        "76 280 XP.",
+        "1 428 Kamas."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Au port de Madrestam, parlez à Ronald le sage lenald pour poursuivre la série et accepter d'aller rencontrer Mériana.",
+          "position": "[10,-5]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez Mériana et dites-lui que Ronald le Sage Lenald vous envoie. La conversation termine la quête.",
+          "position": "[-6,-3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La fin de cette quête débloque les premières quêtes des séries du Dofus Émeraude, du Dofus Pourpre, du Dofus Turquoise, du Dofus Ivoire et du Dofus Ébène."
+      ],
+      "npcs": [
+        "Ronald le sage lenald",
+        "Mériana"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-6,-3"
+            ]
+          },
+          {
+            "id": 1,
+            "name": "Port de Madrestam",
+            "coordinates": [
+              "10,-5"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2332,
+            "name": "Larchimaide la Poussée",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2332.png"
+          },
+          {
+            "id": 2331,
+            "name": "Larvapstrè le Subjectif",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2331.png"
+          },
+          {
+            "id": 2339,
+            "name": "Larvomatik le Propre",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2339.png"
+          },
+          {
+            "id": 2574,
+            "name": "Larvonika l'Instrument",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2574.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 203,
+            "name": "Larves",
+            "monsters": [
+              {
+                "id": 31,
+                "name": "Larve Bleue",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/31.png"
+              },
+              {
+                "id": 46,
+                "name": "Larve Orange",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/46.png"
+              },
+              {
+                "id": 34,
+                "name": "Larve Verte",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/34.png"
+              },
+              {
+                "id": 5225,
+                "name": "Larve Jaune",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/5225.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:752",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-magicienne-des-mareacutecages.html",
+      "sourceTitle": "La magicienne des marécages",
+      "sourceHash": "6e18a575f5bc2fcb32bf17cce1dbb137d2a6d19a30ea09f622bd6f39eb08deb6",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Mériana prépare un moyen d'affaiblir le Dark Vlad à partir de six ressources des marécages. Après leur collecte, elle vous envoie dans sa clairière, où Hell Mina vous attaque. Sa défaite permet de récupérer une lettre indiquant que le Dark Vlad est parti. Mériana vous remet ensuite un mémoriamètre qui mène jusqu'à Bowisse.",
+      "recommendedLevel": 45,
+      "prerequisites": [
+        "La magicienne des marécages."
+      ],
+      "rewards": [
+        "192 490 XP.",
+        "3 486 kamas.",
+        "5 x Écaille de Crocodaille."
+      ],
+      "preparation": [
+        "Prévoir des combats aléatoires lors de la récolte dans les marécages.",
+        "Prévoir un combat seul contre Hell Mina Ensorcelée."
+      ],
+      "actions": [
+        {
+          "instruction": "Dans la cabane de Mériana, parlez-lui pour commencer la quête et accepter de récupérer les ingrédients nécessaires à sa potion.",
+          "position": "[-6,-3]",
+          "zoneHint": "Marécages nauséabonds",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "En sortant de chez Mériana, allez à gauche et ramassez les Trèfles Putrides.",
+          "position": null,
+          "zoneHint": "Marécages nauséabonds",
+          "warning": "Chaque récolte peut déclencher une agression par un Crocodaille Agressif ; il résiste fortement à l'élément chance.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Continuez deux cartes vers la gauche et ramassez les Racines Sanguines.",
+          "position": null,
+          "zoneHint": "Marécages nauséabonds",
+          "warning": "Une agression aléatoire par un Crocodaille Agressif peut survenir pendant la récolte.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Descendez deux fois, allez à droite, descendez puis allez à gauche, et récoltez les Clochettes Odorantes.",
+          "position": null,
+          "zoneHint": "Marécages nauséabonds",
+          "warning": "Une agression aléatoire par un Crocodaille Agressif peut survenir pendant la récolte.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Revenez vers la maison de Mériana, descendez d'une carte puis allez à droite pour récupérer la Fleur des Marais.",
+          "position": null,
+          "zoneHint": "Marécages nauséabonds",
+          "warning": "Une agression aléatoire par un Crocodaille Agressif peut survenir pendant la récolte.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Descendez ensuite de deux cartes et ramassez la Pierre Visqueuse.",
+          "position": null,
+          "zoneHint": "Marécages nauséabonds",
+          "warning": "Une agression aléatoire par un Crocodaille Agressif peut survenir pendant la récolte.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Revenez légèrement en arrière et cueillez la Plante Palustre, dernière ressource nécessaire.",
+          "position": null,
+          "zoneHint": "Marécages nauséabonds",
+          "warning": "Une agression aléatoire par un Crocodaille Agressif peut survenir pendant la récolte.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Retournez dans la cabane de Mériana et remettez-lui les six ressources récoltées.",
+          "position": "[-6,-3]",
+          "zoneHint": "Marécages nauséabonds",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez sur le chaudron pour goûter la potion, puis reparlez à Mériana. Elle vous téléporte directement au centre de la Forêt Maléfique.",
+          "position": "[-6,-3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la clairière, parlez à Hell Mina pour demander où se trouve le Dark Vlad. Elle vous attaque ; battez Hell Mina Ensorcelée.",
+          "position": "[-5,17]",
+          "zoneHint": "Clairière du Dark Vlad",
+          "warning": "Combat obligatoire en solo. En cas de défaite, il faudra revenir en [-5,17] par vos propres moyens.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après la victoire, récupérez la lettre du Dark Vlad et double-cliquez dessus dans les objets de quête pour la lire.",
+          "position": "[-5,17]",
+          "zoneHint": "Clairière du Dark Vlad",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Pour quitter le dédale rapidement, parlez à Hell Mina afin qu'elle vous expulse vers l'entrée, puis retournez voir Mériana.",
+          "position": "[-5,17]",
+          "zoneHint": "Clairière du Dark Vlad",
+          "warning": "Les potions ne permettent pas de sortir du dédale ; sans l'expulsion de Hell Mina, il faut rejoindre une entrée ou mourir.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montrez la lettre du Dark Vlad à Mériana. Elle vous remet un mémoriamètre.",
+          "position": "[-6,-3]",
+          "zoneHint": "Marécages nauséabonds",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Utilisez la boussole de Mériana depuis l'inventaire de quête ; elle vous indique la prochaine étape en [5,1].",
+          "position": "[-6,-3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous auprès de Bowisse et demandez-lui s'il a vu le Dark Vlad. La conversation termine la quête.",
+          "position": "[5,1]",
+          "zoneHint": null,
+          "warning": "La quête suivante nécessite au moins un métier de niveau 50 pour pouvoir être lancée.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Hell Mina Ensorcelée peut appliquer de l'érosion, infliger des dégâts en zone et, en mêlée, retirer 10 PM tout en appliquant l'état Pesanteur pendant 1 tour.",
+        "La lettre révèle que le Dark Vlad a quitté son repaire et en a confié la garde à Hell Mina.",
+        "Le mémoriamètre sert à retracer le passage du Dark Vlad."
+      ],
+      "npcs": [
+        "Mériana",
+        "Hell Mina",
+        "Hell Mina Ensorcelée",
+        "Bowisse"
+      ],
+      "items": [
+        {
+          "name": "Trèfles Putrides",
+          "itemId": 14970,
+          "imageUrl": "/items/14970.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/14970"
+        },
+        {
+          "name": "Racines Sanguines",
+          "itemId": 14971,
+          "imageUrl": "/items/14971.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/14971"
+        },
+        {
+          "name": "Clochettes Odorantes",
+          "itemId": 14974,
+          "imageUrl": "/items/14974.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/14974"
+        },
+        {
+          "name": "Fleur des Marais",
+          "itemId": 14969,
+          "imageUrl": "/items/14969.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/14969"
+        },
+        {
+          "name": "Pierre Visqueuse",
+          "itemId": 14972,
+          "imageUrl": "/items/14972.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/14972"
+        },
+        {
+          "name": "Plante Palustre",
+          "itemId": 14973,
+          "imageUrl": "/items/14973.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/14973"
+        },
+        {
+          "name": "Lettre du Dark Vlad",
+          "itemId": 14959,
+          "imageUrl": "/items/14959.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/14959"
+        },
+        {
+          "name": "Mémoriamètre",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Boussole de Mériana",
+          "itemId": 14992,
+          "imageUrl": "/items/14992.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/14992"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 9,
+            "name": "Dédale du Dark Vlad",
+            "coordinates": [
+              "-5,17"
+            ]
+          },
+          {
+            "id": 443,
+            "name": "Forêt",
+            "coordinates": [
+              "-6,-3"
+            ]
+          },
+          {
+            "id": 232,
+            "name": "Marécages nauséabonds",
+            "coordinates": [
+              "-6,-3"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "5,1"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "5,1"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2549,
+            "name": "Boostif l'Affamé",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2549.png"
+          },
+          {
+            "id": 2439,
+            "name": "Crolnareff l'Exilé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2439.png"
+          },
+          {
+            "id": 2428,
+            "name": "Crok le Beau",
+            "level": 61,
+            "imageUrl": "/bestiary/monsters/2428.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 208,
+            "name": "Gadouilleux",
+            "monsters": [
+              {
+                "id": 263,
+                "name": "Chef Crocodaille",
+                "level": 61,
+                "imageUrl": "/bestiary/monsters/263.png"
+              },
+              {
+                "id": 261,
+                "name": "Crocodaille",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/261.png"
+              },
+              {
+                "id": 112,
+                "name": "Boo",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/112.png"
+              },
+              {
+                "id": 4833,
+                "name": "Arakne Olithique",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4833.png"
+              }
+            ]
+          },
+          {
+            "id": 5212,
+            "name": "Malters",
+            "monsters": [
+              {
+                "id": 6864,
+                "name": "Malzerb",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/6864.png"
+              },
+              {
+                "id": 6871,
+                "name": "Maltrio",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/6871.png"
+              },
+              {
+                "id": 6872,
+                "name": "Malépik",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/6872.png"
+              },
+              {
+                "id": 6873,
+                "name": "Malalfa",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/6873.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:753",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/retourner-voir-le-dark-vlad-toujours-sans-mourir.html",
+      "sourceTitle": "Retourner voir le Dark Vlad, toujours sans mourir",
+      "sourceHash": "1f695b9f2d5164cf924309c0187f6e978ade854380f52023afce5b84efad53c4",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Le Commandant Costaud vous charge d'éliminer plusieurs bandits présents au nord de Sufokia. Vainquez les quantités demandées de Bandits du clan des Roublards, Mineurs Sombres, Forgerons Sombres et Boulangers Sombres pour achever cette quête journalière.",
+      "recommendedLevel": 45,
+      "prerequisites": [],
+      "rewards": [
+        "128 326 XP.",
+        "5 810 kamas."
+      ],
+      "preparation": [
+        "Prévoir plusieurs combats contre des bandits au nord de Sufokia."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez au Commandant Costaud et demandez-lui s'il a du travail pour vous.",
+          "position": "[17,28]",
+          "zoneHint": null,
+          "warning": "Cette quête est journalière.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Au nord de Sufokia, vainquez 5 Bandits du clan des Roublards, 2 Mineurs Sombres, 2 Forgerons Sombres et 2 Boulangers Sombres.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Plusieurs combats sont nécessaires pour atteindre toutes les quantités demandées.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "La quête est terminée une fois tous les objectifs de victoire remplis."
+      ],
+      "npcs": [
+        "Commandant Costaud"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 32,
+            "name": "Sufokia",
+            "coordinates": [
+              "17,28"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:653",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/cest-du-costaud.html",
+      "sourceTitle": "C'est du costaud",
+      "sourceHash": "2c3497bb5eed1b922ef2b94a3092f976ebbd094c7bc2df276a49074f83b27924",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Edgar Davou enquête sur une série de vols attribués aux Bandits du clan des Roublards. Combattez ces bandits dans le Territoire des Bandits jusqu'à récupérer tous les objets volés, puis rapportez-les à Edgar pour terminer la quête.",
+      "recommendedLevel": 50,
+      "prerequisites": [],
+      "rewards": [
+        "203 765 XP.",
+        "3 480 kamas.",
+        "3 x Sceau Royal Contrefait."
+      ],
+      "preparation": [
+        "Prévoir plusieurs combats contre des Bandits du clan des Roublards.",
+        "Les objets recherchés ont chacun un taux de récupération de base compris entre 10 et 14 %."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Edgar Davou et demandez-lui votre chemin ; il vous explique que des vols sont attribués aux Bandits du clan des Roublards.",
+          "position": "[15,22]",
+          "zoneHint": "Baie de Sufokia",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Combattez des Bandits du clan des Roublards dans le Territoire des Bandits jusqu'à avoir récupéré tous les objets volés demandés.",
+          "position": null,
+          "zoneHint": "Territoire des Bandits",
+          "warning": "Chaque objet volé possède un taux de récupération de base de 10 à 14 %, plusieurs combats peuvent donc être nécessaires.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez voir Edgar Davou et remettez-lui tous les objets volés récupérés pour terminer la quête.",
+          "position": "[15,22]",
+          "zoneHint": "Baie de Sufokia",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La fin de la quête débloque Distribution de pains zizanesques."
+      ],
+      "npcs": [
+        "Edgar Davou"
+      ],
+      "items": [
+        {
+          "name": "Objets volés",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Sceau Royal Contrefait",
+          "itemId": 13339,
+          "imageUrl": "/items/13339.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/13339"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 32,
+            "name": "Sufokia",
+            "coordinates": [
+              "15,22"
+            ]
+          },
+          {
+            "id": 103,
+            "name": "Territoire des Bandits",
+            "coordinates": []
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2318,
+            "name": "Boudur le Raide",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2318.png"
+          },
+          {
+            "id": 2314,
+            "name": "Bandson le Tonitruant",
+            "level": 37,
+            "imageUrl": "/bestiary/monsters/2314.png"
+          },
+          {
+            "id": 2328,
+            "name": "Forboyar l'Enigmatique",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2328.png"
+          },
+          {
+            "id": 2335,
+            "name": "Minsinistre l'Elu",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2335.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 155,
+                "name": "Bandit du clan des Roublards",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/155.png"
+              },
+              {
+                "id": 153,
+                "name": "Boulanger Sombre",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/153.png"
+              },
+              {
+                "id": 119,
+                "name": "Forgeron Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/119.png"
+              },
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1066",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/voleurs-en-serie.html",
+      "sourceTitle": "Voleurs en série",
+      "sourceHash": "e2841e96f66cc4bb75fe3b3840ef28d2671839c60bccb29a2641f21b44ecffae",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Cumuler les combats de bandits",
+      "description": "C'est du Costaud demande notamment de vaincre 5 Bandits du clan des Roublards, tandis que Voleurs en série exige de combattre ces mêmes ennemis pour récupérer des objets volés. Lorsque vos deux quêtes sont actives, profitez des combats contre ces bandits pour faire progresser simultanément les deux objectifs.",
+      "questKeys": [
+        "quest:653",
+        "quest:1066"
+      ],
+      "actions": [
+        "Activez les deux quêtes avant de partir combattre les Bandits du clan des Roublards.",
+        "Pendant la chasse aux objets volés de Voleurs en série, vérifiez que les 5 Bandits du clan des Roublards requis par C'est du Costaud sont également comptabilisés.",
+        "Terminez ensuite séparément les autres monstres demandés par C'est du Costaud et rendez chaque quête à son PNJ."
+      ]
+    }
+  ]
+}

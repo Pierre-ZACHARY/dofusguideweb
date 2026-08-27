@@ -1,0 +1,1864 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 28,
+  "updatedAt": "2026-08-27T12:53:58.634Z",
+  "summaries": [
+    {
+      "overview": "Paule Amploa vous charge de fabriquer entièrement une quintaine animée destinée à Badufron. Vous devez obtenir quatre composants auprès d'artisans d'Astrub, fabriquer chaque pièce dans l'atelier correspondant, assembler la Quintaine chez Sylvie Lebrekin, la faire enchanter par Mage Ax puis effectuer la livraison.",
+      "recommendedLevel": 25,
+      "prerequisites": [
+        "Livraison par intérim."
+      ],
+      "rewards": [
+        "50 026 XP.",
+        "1 105 kamas.",
+        "2 x Oreille de Douzdoa.",
+        "2 x Gant de Martoa."
+      ],
+      "preparation": [
+        "1 x Ferrite.",
+        "1 x Serviette de Plage.",
+        "1 x Cuir de Scélérat Strubien.",
+        "1 x Planche Contreplaquée."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Paule Amploa, demandez du travail puis acceptez de fabriquer la quintaine animée commandée par Badufron.",
+          "position": "[4,-19]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Demandez à Deudoiné les indications de fabrication pour recevoir le minerai enchanté, puis utilisez l'enclume pour fabriquer 1 x Fléau d'armes avec ce minerai et 1 x Ferrite.",
+          "position": "[7,-16]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": "Consomme 1 x Ferrite.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Demandez à Alit Elfminate les indications pour recevoir le fil enchanté, puis utilisez la machine à coudre pour fabriquer 1 x Tabard Nak avec ce fil et 1 x Serviette de Plage.",
+          "position": "[7,-15]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": "Consomme 1 x Serviette de Plage.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Demandez à Daniel Pavois les indications pour recevoir un support métallique, puis utilisez le plan de travail pour fabriquer 1 x Écu Rikulome avec ce support et 1 x Cuir de Scélérat Strubien.",
+          "position": "[4,-15]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": "Consomme 1 x Cuir de Scélérat Strubien.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Demandez à Oli Venders les indications pour recevoir de la crème à bois, puis utilisez l'établi pour fabriquer 1 x Corps de Quintaine avec cette crème et 1 x Planche Contreplaquée.",
+          "position": "[2,-16]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": "Consomme 1 x Planche Contreplaquée.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Sylvie Lebrekin pour obtenir les indications, puis utilisez son établi pour assembler la Quintaine avec 1 x Fléau d'armes, 1 x Écu Rikulome, 1 x Tabard Nak et 1 x Corps de Quintaine.",
+          "position": "[3,-15]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": "La recette est secrète : le produit final ne s'affiche pas dans l'interface, ce qui est normal.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Présentez la Quintaine à Mage Ax et confirmez que vous avez vous-même créé chacune des pièces afin qu'il l'enchante.",
+          "position": "[3,-21]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": "Les différentes pièces doivent avoir été fabriquées par le même artisan, votre personnage.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Donnez la quintaine animée à Badufron.",
+          "position": "[5,-19]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Paule Amploa et annoncez-lui la livraison de la quintaine animée à Badufron.",
+          "position": "[4,-19]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La fin de cette quête débloque immédiatement « Le rebelle de la forêt ».",
+        "Le produit final de l'assemblage chez Sylvie Lebrekin est volontairement absent de l'affichage de recette."
+      ],
+      "npcs": [
+        "Paule Amploa",
+        "Deudoiné",
+        "Alit Elfminate",
+        "Daniel Pavois",
+        "Oli Venders",
+        "Sylvie Lebrekin",
+        "Mage Ax",
+        "Badufron"
+      ],
+      "items": [
+        {
+          "name": "Ferrite",
+          "itemId": 16440,
+          "imageUrl": "/items/16440.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16440"
+        },
+        {
+          "name": "Serviette de Plage",
+          "itemId": 13487,
+          "imageUrl": "/items/13487.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/13487"
+        },
+        {
+          "name": "Cuir de Scélérat Strubien",
+          "itemId": 304,
+          "imageUrl": "/items/304.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/304"
+        },
+        {
+          "name": "Planche Contreplaquée",
+          "itemId": 16490,
+          "imageUrl": "/items/16490.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16490"
+        },
+        {
+          "name": "Minerai enchanté",
+          "itemId": 19636,
+          "imageUrl": "/items/19636.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19636"
+        },
+        {
+          "name": "Fil enchanté",
+          "itemId": 19640,
+          "imageUrl": "/items/19640.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19640"
+        },
+        {
+          "name": "Support métallique",
+          "itemId": 19638,
+          "imageUrl": "/items/19638.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19638"
+        },
+        {
+          "name": "Crème à bois",
+          "itemId": 19642,
+          "imageUrl": "/items/19642.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19642"
+        },
+        {
+          "name": "Fléau d'armes",
+          "itemId": 19637,
+          "imageUrl": "/items/19637.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19637"
+        },
+        {
+          "name": "Tabard Nak",
+          "itemId": 19641,
+          "imageUrl": "/items/19641.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19641"
+        },
+        {
+          "name": "Écu Rikulome",
+          "itemId": 19639,
+          "imageUrl": "/items/19639.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19639"
+        },
+        {
+          "name": "Corps de Quintaine",
+          "itemId": 19643,
+          "imageUrl": "/items/19643.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19643"
+        },
+        {
+          "name": "Quintaine",
+          "itemId": 19644,
+          "imageUrl": "/items/19644.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19644"
+        },
+        {
+          "name": "quintaine animée",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "4,-19",
+              "7,-16",
+              "7,-15",
+              "4,-15",
+              "2,-16",
+              "3,-15",
+              "3,-21",
+              "5,-19"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1208",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/golemancien.html",
+      "sourceTitle": "Golémancien",
+      "sourceHash": "6632e3b6dc0e2026533e1f7c70947a6f83f280ced53e398ae629bb4eca2d38d5",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après « Golémancien », Paule Amploa vous envoie rechercher Vangey, l'apprenti d'Hel Munster disparu sur la route d'Astrub. L'enquête vous mène des abords de la forêt à une cache de bandits, où vous retrouvez Vangey avant d'affronter quatre Ruffians avec lui puis de l'escorter jusqu'à Astrub.",
+      "recommendedLevel": 30,
+      "prerequisites": [
+        "Golémancien."
+      ],
+      "rewards": [
+        "71 795 XP.",
+        "1 480 kamas.",
+        "1 x Rune Cri."
+      ],
+      "preparation": [
+        "1 x combat (seul)."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Paule Amploa, demandez du travail puis proposez de partir à la recherche de Vangey.",
+          "position": "[4,-19]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": "Cette quête n'est disponible qu'après « Golémancien ».",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez Badufron sur l'endroit où les ruffians ont été vus récemment.",
+          "position": "[5,-19]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à l'un des Enfants insouciants : ils indiquent que l'homme recherché est parti vers le nord, en direction d'Astrub.",
+          "position": "[-3,-15]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez sur le livre placé sous la tente pour accéder à une carte secrète.",
+          "position": "[-2,-18]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sur la carte secrète, parlez à Fée Brèze. Elle explique que Vangey a été forcé de participer à une partie de mulou-garou et que le groupe est parti vers le camp des bandits manchés.",
+          "position": null,
+          "zoneHint": "carte secrète",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez sur la hache ensanglantée plantée dans une souche ; les traces obtenues partent vers le nord-est.",
+          "position": "[-3,-22]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Suivez les traces jusqu'à la charrette blanche et fouillez-la pour faire apparaître Vangey.",
+          "position": "[-2,-24]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Vangey et proposez de le conduire à Astrub. Lorsque les Ruffians arrivent, parlez à l'un d'eux et choisissez de leur couper les bourses et de rester en vie.",
+          "position": "[-2,-24]",
+          "zoneHint": null,
+          "warning": "Le dialogue déclenche obligatoirement un combat seul contre 4 Ruffians ; Vangey combat à vos côtés.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Battez les 4 Ruffians avec l'aide de Vangey.",
+          "position": "[-2,-24]",
+          "zoneHint": null,
+          "warning": "Combat seul. Les ennemis disposent notamment de poussées, retraits, bonus de puissance, protections et d'un état insoignable.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après la victoire, reparlez à Vangey pour commencer son escorte vers Astrub.",
+          "position": "[-2,-24]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À Astrub, parlez à Vangey ; il accepte les conséquences de sa participation au meurtre.",
+          "position": "[4,-19]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Paule Amploa des problèmes rencontrés par Vangey.",
+          "position": "[4,-19]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparlez à Vangey pour obtenir ses explications sur la forgemagie et terminer la quête.",
+          "position": "[4,-19]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête suit directement « Golémancien » et débloque le succès « Pas le temps de chômer ».",
+        "Vangey participe au combat contre les quatre Ruffians même si le combat est considéré comme effectué seul."
+      ],
+      "npcs": [
+        "Paule Amploa",
+        "Badufron",
+        "Enfant insouciant",
+        "Fée Brèze",
+        "Vangey",
+        "Ruffian"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "4,-19",
+              "5,-19"
+            ]
+          },
+          {
+            "id": 97,
+            "name": "Forêt d'Astrub",
+            "coordinates": [
+              "-3,-15",
+              "-3,-22",
+              "-2,-24"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "-2,-18"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          },
+          {
+            "id": 460,
+            "name": "Frakacia Leukocytine",
+            "level": 30,
+            "imageUrl": "/bestiary/monsters/460.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2333,
+            "name": "Milipatte la Griffe",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2333.png"
+          },
+          {
+            "id": 2349,
+            "name": "Preskapwal le Tendancieux",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2349.png"
+          },
+          {
+            "id": 2353,
+            "name": "Sangria le Fruité",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2353.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 4823,
+                "name": "Écurouille",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/4823.png"
+              },
+              {
+                "id": 159,
+                "name": "Milimulou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/159.png"
+              },
+              {
+                "id": 103,
+                "name": "Prespic",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/103.png"
+              },
+              {
+                "id": 104,
+                "name": "Sanglier",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/104.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1209",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-rebelle-de-la-foret.html",
+      "sourceTitle": "Le rebelle de la forêt",
+      "sourceHash": "fe7b21a09bc407bb2e6612a51eab0e12b2dfeb0e9c2dec38ef319b83282b035f",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Prim vous fait acheter un recueil dont les pages se révèlent invisibles à cause d'une erreur d'encre. Pour réparer le problème, vous devez aider Cirle Drawde avec Thélène Teh, vaincre des Bandits Manchés, réunir de la Laine de Bouftou, de la Limaille collante dans la carrière et des Crottes de Milirat dans les égouts, puis rapporter la poudre révélatrice à Prim.",
+      "recommendedLevel": 20,
+      "prerequisites": [],
+      "rewards": [
+        "68 796 XP.",
+        "1 560 kamas.",
+        "1 x La Légende de Steff Taff."
+      ],
+      "preparation": [
+        "100 kamas.",
+        "5 x Laine de Bouftou.",
+        "1 x combat pouvant se faire à plusieurs lors de la première collecte de Limaille collante.",
+        "Combats contre 6 x Bandit Manché.",
+        "Combats contre 5 x Milirat Strubien."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Prim, étonnez-vous de son niveau de langage puis approuvez son goût pour la lecture ; il vous envoie acheter un recueil de gravures.",
+          "position": "[7,-19]",
+          "zoneHint": "Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Achetez à Nacrf Virgil le recueil de gravures contre 50 kamas ; vous recevez La Légende de Steff Taff dans l'inventaire de quête.",
+          "position": "[3,-17]",
+          "zoneHint": "Astrub",
+          "warning": "Dépense obligatoire de 50 kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ouvrez La Légende de Steff Taff depuis l'inventaire de quête et parcourez-la jusqu'à la dernière page, puis choisissez d'aller vous plaindre auprès de Prim.",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Prim, montrez-lui le livre aux pages blanches, accusez-le d'escroquerie puis proposez votre aide lorsqu'il évoque un problème d'encre.",
+          "position": "[7,-19]",
+          "zoneHint": "Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Cirle Drawde et acceptez de l'aider après son explication sur l'inversion de deux commandes d'encre.",
+          "position": "[3,-21]",
+          "zoneHint": "Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Mercenaire d'Astrub et demandez des détails sur l'interdiction ; payez 50 kamas pour obtenir le passe permettant d'entrer dans le bâtiment.",
+          "position": "[5,-15]",
+          "zoneHint": "Astrub",
+          "warning": "Dépense obligatoire de 50 kamas. Le passe ne s'achète qu'une fois.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À l'intérieur du bâtiment, présentez à Thélène Teh les excuses de Cirle Drawde, proposez un service pour obtenir son pardon puis acceptez de corriger les bandits de la forêt.",
+          "position": "[5,-15]",
+          "zoneHint": "bâtiment",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à un Bandit Manché et attaquez le groupe de 3 x Bandit Manché.",
+          "position": "[-2,-21]",
+          "zoneHint": null,
+          "warning": "Il faut vaincre les trois Bandits Manchés de ce groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Parlez à un Bandit Manché et attaquez le second groupe de 3 x Bandit Manché, pour atteindre 6 vaincus au total.",
+          "position": "[-1,-21]",
+          "zoneHint": null,
+          "warning": "Il faut vaincre les trois Bandits Manchés de ce groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez voir Cirle Drawde et annoncez-lui qu'il n'est plus sur la liste noire de Thélène Teh. Il vous demande ensuite les ingrédients nécessaires à une poudre révélatrice.",
+          "position": "[3,-21]",
+          "zoneHint": "Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Procurez-vous 5 x Laine de Bouftou, par achat ou butin.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Il faut exactement 5 x Laine de Bouftou.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la carrière d'Astrub, parlez au Tas de limaille. Lors de votre toute première tentative de collecte, choisissez de ne pas tenir compte de l'avertissement : un combat se déclenche. Après la victoire, reparlez impérativement au même tas pour obtenir la Limaille collante.",
+          "position": "[9,-19]",
+          "zoneHint": "carrière d'Astrub",
+          "warning": "Le premier Tas de limaille abordé parmi les trois déclenche toujours un combat. Après le combat, il faut reparler au même tas pour récupérer la ressource.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Collectez une autre Limaille collante auprès du Tas de limaille.",
+          "position": "[10,-19]",
+          "zoneHint": "carrière d'Astrub",
+          "warning": "Si cette position est la première des trois que vous utilisez, le combat obligatoire se déclenche ici et vous devez reparler au tas après la victoire.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Collectez la troisième Limaille collante auprès du Tas de limaille.",
+          "position": "[10,-20]",
+          "zoneHint": "carrière d'Astrub",
+          "warning": "Si cette position est la première des trois que vous utilisez, le combat obligatoire se déclenche ici et vous devez reparler au tas après la victoire.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Entrez dans les égouts d'Astrub par la bouche d'égout.",
+          "position": "[5,-17]",
+          "zoneHint": "égouts d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans les égouts, battez au total 5 x Milirat Strubien afin d'obtenir automatiquement 5 x Crottes de Milirat.",
+          "position": null,
+          "zoneHint": "égouts d'Astrub",
+          "warning": "Le butin de Crottes de Milirat est automatique ; il faut vaincre exactement 5 x Milirat Strubien.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Lorsque vous avez 5 x Laine de Bouftou, 3 x Limaille collante et 5 x Crottes de Milirat, donnez toutes les ressources à Cirle Drawde pour qu'il fabrique la poudre révélatrice.",
+          "position": "[3,-21]",
+          "zoneHint": "Astrub",
+          "warning": "Toutes les quantités requises doivent être réunies avant ce rendu.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Prim, résumez la situation et donnez-lui la Poudre Révélatrice afin qu'il fasse réapparaître le texte du livre.",
+          "position": "[7,-19]",
+          "zoneHint": "Astrub",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La première collecte de Limaille collante provoque un combat quelle que soit la position choisie parmi [9,-19], [10,-19] et [10,-20].",
+        "Après ce premier combat, la ressource n'est pas remise automatiquement : il faut reparler au Tas de limaille concerné.",
+        "La quête débloque « À la recherche des instants perdus »."
+      ],
+      "npcs": [
+        "Prim",
+        "Nacrf Virgil",
+        "Cirle Drawde",
+        "Mercenaire d'Astrub",
+        "Thélène Teh",
+        "Bandit Manché",
+        "Tas de limaille"
+      ],
+      "items": [
+        {
+          "name": "La Légende de Steff Taff",
+          "itemId": 13176,
+          "imageUrl": "/items/13176.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/13176"
+        },
+        {
+          "name": "Passe",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Laine de Bouftou",
+          "itemId": 384,
+          "imageUrl": "/items/384.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/384"
+        },
+        {
+          "name": "Limaille collante",
+          "itemId": 32098,
+          "imageUrl": "/items/32098.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/32098"
+        },
+        {
+          "name": "Crottes de Milirat",
+          "itemId": 13174,
+          "imageUrl": "/items/13174.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/13174"
+        },
+        {
+          "name": "Poudre Révélatrice",
+          "itemId": 13177,
+          "imageUrl": "/items/13177.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/13177"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 96,
+            "name": "Carrière d'Astrub",
+            "coordinates": [
+              "9,-19",
+              "10,-19",
+              "10,-20"
+            ]
+          },
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "7,-19",
+              "3,-17",
+              "3,-21",
+              "5,-15"
+            ]
+          },
+          {
+            "id": 100,
+            "name": "Égouts d'Astrub",
+            "coordinates": [
+              "5,-17"
+            ]
+          },
+          {
+            "id": 97,
+            "name": "Forêt d'Astrub",
+            "coordinates": [
+              "-2,-21",
+              "-1,-21"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          },
+          {
+            "id": 460,
+            "name": "Frakacia Leukocytine",
+            "level": 30,
+            "imageUrl": "/bestiary/monsters/460.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2393,
+            "name": "Araknay la Galopante",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2393.png"
+          },
+          {
+            "id": 2333,
+            "name": "Milipatte la Griffe",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2333.png"
+          },
+          {
+            "id": 2334,
+            "name": "Milipussien le Géant",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2334.png"
+          },
+          {
+            "id": 2349,
+            "name": "Preskapwal le Tendancieux",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2349.png"
+          },
+          {
+            "id": 2350,
+            "name": "Radoutable le Craint",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2350.png"
+          },
+          {
+            "id": 2353,
+            "name": "Sangria le Fruité",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2353.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 4823,
+                "name": "Écurouille",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/4823.png"
+              },
+              {
+                "id": 159,
+                "name": "Milimulou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/159.png"
+              },
+              {
+                "id": 103,
+                "name": "Prespic",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/103.png"
+              },
+              {
+                "id": 104,
+                "name": "Sanglier",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/104.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 255,
+                "name": "Arakne des Égouts",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/255.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 215,
+            "name": "Rats Strubiens",
+            "monsters": [
+              {
+                "id": 3205,
+                "name": "Ramane Strubien",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/3205.png"
+              },
+              {
+                "id": 475,
+                "name": "Milirat Strubien",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/475.png"
+              },
+              {
+                "id": 465,
+                "name": "Scélérat Strubien",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/465.png"
+              }
+            ]
+          },
+          {
+            "id": 1670,
+            "name": "Sidoas",
+            "monsters": [
+              {
+                "id": 5228,
+                "name": "Martoa",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/5228.png"
+              },
+              {
+                "id": 5229,
+                "name": "Sherpoa",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/5229.png"
+              },
+              {
+                "id": 5230,
+                "name": "Douzdoa",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/5230.png"
+              },
+              {
+                "id": 5231,
+                "name": "Pikdoa",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/5231.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1518",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/mieux-vaut-ne-pas-se-fier-a-la-premiere-impression.html",
+      "sourceTitle": "Mieux vaut ne pas se fier à la première impression",
+      "sourceHash": "d828b7282c52c601c1e1174869dd4160b16e244851b87d578668c4c9821ec70b",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Aisling vous envoie récupérer un parchemin volé par des rats. Depuis l'entrée des égouts d'Astrub, vous devez suivre un parcours précis, gagner trois combats seuls contre des Rats de bibliothèque, rencontrer Ramane Hitoo pour récupérer le document puis rapporter celui-ci à Aisling avant de parler à Prim au rez-de-chaussée de la bibliothèque.",
+      "recommendedLevel": 35,
+      "prerequisites": [
+        "Restauration rapide."
+      ],
+      "rewards": [
+        "47 728 XP.",
+        "952 Kamas.",
+        "1 x L'Aurore Pourpre (part. 2) - Fragments retrouvés X."
+      ],
+      "preparation": [
+        "3 x combats (seul)."
+      ],
+      "actions": [
+        {
+          "instruction": "À la suite de la quête précédente, parlez à Aisling et proposez de chasser les rongeurs qui ont volé le parchemin consacré au dragon d'Astrub.",
+          "position": "[7,-19]",
+          "zoneHint": "bibliothèque",
+          "warning": "La quête se lance directement après « Restauration rapide ».",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans les égouts par la bouche d'égout.",
+          "position": "[5,-17]",
+          "zoneHint": "égouts d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Suivez le chemin dans les égouts jusqu'au premier Rat de bibliothèque puis parlez-lui pour l'attaquer.",
+          "position": null,
+          "zoneHint": "égouts d'Astrub",
+          "warning": "Premier des 3 combats obligatoires, effectué seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après la victoire, descendez d'une carte et attaquez le deuxième Rat de bibliothèque.",
+          "position": null,
+          "zoneHint": "égouts d'Astrub",
+          "warning": "Deuxième des 3 combats obligatoires, effectué seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Revenez sur la carte précédente, allez deux fois à gauche puis attaquez le troisième Rat de bibliothèque.",
+          "position": null,
+          "zoneHint": "égouts d'Astrub",
+          "warning": "Troisième des 3 combats obligatoires, effectué seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après les trois combats, revenez à la première intersection des égouts puis allez deux fois à droite.",
+          "position": null,
+          "zoneHint": "égouts d'Astrub",
+          "warning": "Respectez cet ordre de déplacement pour atteindre Ramane Hitoo.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Ramane Hitoo. Grâce à vos actions antérieures ayant innocenté les rats dans l'affaire des gaz des souterrains, il accepte de rendre le précieux parchemin.",
+          "position": null,
+          "zoneHint": "égouts d'Astrub",
+          "warning": "La restitution repose sur les événements accomplis précédemment concernant les rats et les gaz des souterrains.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès d'Aisling et montrez-lui le parchemin. Elle constate qu'il est écrit en Astrubien Ancien et vous demande de vous renseigner auprès de Prim pendant son déchiffrage.",
+          "position": "[7,-19]",
+          "zoneHint": "bibliothèque",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Descendez au rez-de-chaussée de la bibliothèque et parlez à Prim pour vous renseigner sur le texte gravé sur l'écorce.",
+          "position": "[7,-19]",
+          "zoneHint": "rez-de-chaussée de la bibliothèque",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les trois Rats de bibliothèque doivent être combattus dans l'ordre de parcours indiqué.",
+        "En poursuivant la conversation avec Prim après la fin, vous pouvez obtenir la quête suivante « Légende d'automne »."
+      ],
+      "npcs": [
+        "Aisling",
+        "Rat de bibliothèque",
+        "Ramane Hitoo",
+        "Prim"
+      ],
+      "items": [
+        {
+          "name": "Parchemin parlant du dragon d'Astrub",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "L'Aurore Pourpre (part. 2) - Fragments retrouvés X",
+          "itemId": 12773,
+          "imageUrl": "/items/12773.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/12773"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "7,-19"
+            ]
+          },
+          {
+            "id": 100,
+            "name": "Égouts d'Astrub",
+            "coordinates": [
+              "5,-17"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2393,
+            "name": "Araknay la Galopante",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2393.png"
+          },
+          {
+            "id": 2334,
+            "name": "Milipussien le Géant",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2334.png"
+          },
+          {
+            "id": 2350,
+            "name": "Radoutable le Craint",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2350.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 255,
+                "name": "Arakne des Égouts",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/255.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 215,
+            "name": "Rats Strubiens",
+            "monsters": [
+              {
+                "id": 3205,
+                "name": "Ramane Strubien",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/3205.png"
+              },
+              {
+                "id": 475,
+                "name": "Milirat Strubien",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/475.png"
+              },
+              {
+                "id": 465,
+                "name": "Scélérat Strubien",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/465.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1212",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/de-vrais-rats-de-bibliotheque.html",
+      "sourceTitle": "De vrais rats de bibliothèque",
+      "sourceHash": "57f2fdc05761eb1c60bd84bd00ee444f1c66368a9ba6760446c61a7072dedf07",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Jeffrey Baratourte vous demande d'éliminer plusieurs types de Bouftous à Tainéla. Cette étape correspond au lancement et à l'accomplissement des objectifs de massacre ; après avoir vaincu 4 Boufton Blanc, 4 Boufton Noir, 3 Bouftou et 1 Chef de Guerre Bouftou, le rendu auprès de Jeffrey se fait à l'étape suivante du guide.",
+      "recommendedLevel": 30,
+      "prerequisites": [
+        "Combat de rue lancé."
+      ],
+      "rewards": [
+        "71 795 XP.",
+        "1 480 kamas.",
+        "1 x Clef de la Cour du Bouftou."
+      ],
+      "preparation": [
+        "Combats contre les monstres de Tainéla : 4 x Boufton Blanc, 4 x Boufton Noir, 3 x Bouftou et 1 x Chef de Guerre Bouftou."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Jeffrey Baratourte et choisissez de partir massacrer des bouftous.",
+          "position": "[2,-31]",
+          "zoneHint": "Tainéla",
+          "warning": "Cette quête nécessite que « Combat de rue » soit lancée.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans Tainéla, vainquez au total 4 x Boufton Blanc.",
+          "position": null,
+          "zoneHint": "Tainéla",
+          "warning": "Objectif de combat de zone ; conservez le compte exact demandé.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Dans Tainéla, vainquez au total 4 x Boufton Noir.",
+          "position": null,
+          "zoneHint": "Tainéla",
+          "warning": "Objectif de combat de zone ; conservez le compte exact demandé.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Dans Tainéla, vainquez au total 3 x Bouftou.",
+          "position": null,
+          "zoneHint": "Tainéla",
+          "warning": "Objectif de combat de zone ; conservez le compte exact demandé.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Dans Tainéla, vainquez 1 x Chef de Guerre Bouftou.",
+          "position": null,
+          "zoneHint": "Tainéla",
+          "warning": "Objectif de combat de zone.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "Le rendu final auprès de Jeffrey Baratourte en [2,-31] appartient à l'étape 29 du guide et n'est donc pas inclus ici.",
+        "Les Bouftous nécessaires se trouvent dans toute la zone de Tainéla."
+      ],
+      "npcs": [
+        "Jeffrey Baratourte"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 30,
+            "name": "Tainéla",
+            "coordinates": [
+              "2,-31"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2315,
+            "name": "Boudalf le Blanc",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2315.png"
+          },
+          {
+            "id": 2317,
+            "name": "Boufdégou le Refoulant",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2317.png"
+          },
+          {
+            "id": 2324,
+            "name": "Bouflet le Puéril",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2324.png"
+          },
+          {
+            "id": 2316,
+            "name": "Boulgourvil le Lointain",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2316.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 200,
+            "name": "Bouftous",
+            "monsters": [
+              {
+                "id": 134,
+                "name": "Boufton Blanc",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/134.png"
+              },
+              {
+                "id": 149,
+                "name": "Boufton Noir",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/149.png"
+              },
+              {
+                "id": 148,
+                "name": "Chef de Guerre Bouftou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/148.png"
+              },
+              {
+                "id": 101,
+                "name": "Bouftou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/101.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1204",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-coupe-des-vices.html",
+      "sourceTitle": "La coupe des vices",
+      "sourceHash": "ce815a75e89adc9da5abbf5e79aec06cfb740ec4f2a1ee4a55afaffdbf911693",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Éléanor Mande cherche à protéger ses Bouftous et vous demande d'abord 5 prélèvements sur des Chefs de Guerre Bouftou. Après leur analyse par Nibé Lulle, vous enquêtez sur des boufettes volées, faites intervenir Unterix Unter et Khalil Moris, puis accompagnez Éléanor dans une traque qui se termine par un combat seul contre deux Porkass. Le rendu final appartient à l'étape suivante.",
+      "recommendedLevel": 30,
+      "prerequisites": [],
+      "rewards": [
+        "71 795 XP.",
+        "1 480 kamas.",
+        "1 x Corne de Boufton.",
+        "1 x Laine de Boufton Noir.",
+        "1 x Laine de Bouftou.",
+        "1 x Laine de Chef de Guerre Bouftou."
+      ],
+      "preparation": [
+        "5 x Prélèvement de chef de guerre bouftou à obtenir sur des Chef de Guerre Bouftou, taux de base 25%.",
+        "1 x combat (seul) contre deux Porkass.",
+        "Combats contre des monstres de la zone pour obtenir les prélèvements."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Éléanor Mande et acceptez de réaliser des prélèvements pour son projet visant à renforcer les bouftous.",
+          "position": "[1,-29]",
+          "zoneHint": "Tainéla",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Obtenez 5 x Prélèvement de chef de guerre bouftou en combattant des Chef de Guerre Bouftou ; chaque prélèvement a un taux de base de 25%.",
+          "position": null,
+          "zoneHint": "Tainéla",
+          "warning": "Il faut exactement 5 prélèvements ; le taux de base indiqué est de 25%.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Donnez les 5 prélèvements à Nibé Lulle pour le compte d'Éléanor Mande.",
+          "position": "[3,-21]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Éléanor Mande. Après les nouvelles de l'analyse, elle vous apprend que certaines de ses boufettes ont été volées.",
+          "position": "[1,-29]",
+          "zoneHint": "Tainéla",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez sur la carte de gauche et cliquez sur les traces de pas.",
+          "position": "[0,-29]",
+          "zoneHint": "Tainéla",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Poursuivez jusqu'à la seconde série de traces de pas et cliquez dessus.",
+          "position": "[-2,-29]",
+          "zoneHint": "Tainéla",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès d'Éléanor Mande et expliquez que les Porkass semblent responsables ; elle vous envoie voir Unterix Unter.",
+          "position": "[1,-29]",
+          "zoneHint": "Tainéla",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Expliquez la situation d'Éléanor Mande à Unterix Unter. Il décide d'envoyer un spécialiste des pièges.",
+          "position": "[1,-23]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès d'Éléanor Mande et annoncez-lui qu'un expert va venir.",
+          "position": "[1,-29]",
+          "zoneHint": "Tainéla",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sur la carte de gauche, parlez à Khalil Moris. Il explique que les voleurs lui ont échappé mais qu'il peut les pister.",
+          "position": "[0,-29]",
+          "zoneHint": "Tainéla",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Éléanor Mande et choisissez d'annoncer que vous êtes prêt à partir avec elle.",
+          "position": "[1,-29]",
+          "zoneHint": "Tainéla",
+          "warning": "Ce choix vous téléporte sur une autre carte pour poursuivre la traque.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sur la carte où vous avez été téléporté, parlez à Khalil Moris puis choisissez de corriger les voleurs.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Le dialogue déclenche un combat seul contre deux Porkass.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Battez les deux Porkass.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Combat effectué seul. Les Porkass disposent notamment de poussées et de bonus de puissance.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après la victoire, parlez à Éléanor Mande ; elle vous confirme avoir récupéré ses boufettes ainsi que celles d'autres éleveurs.",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le retour final auprès d'Éléanor Mande en [1,-29] pour vérifier que tout est réglé appartient à l'étape 29 et n'est pas inclus ici.",
+        "Les 5 prélèvements de Chef de Guerre Bouftou peuvent être obtenus pendant les combats effectués à Tainéla."
+      ],
+      "npcs": [
+        "Éléanor Mande",
+        "Nibé Lulle",
+        "Unterix Unter",
+        "Khalil Moris"
+      ],
+      "items": [
+        {
+          "name": "Prélèvement de chef de guerre bouftou",
+          "itemId": 19633,
+          "imageUrl": "/items/19633.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19633"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "3,-21"
+            ]
+          },
+          {
+            "id": 97,
+            "name": "Forêt d'Astrub",
+            "coordinates": [
+              "1,-23"
+            ]
+          },
+          {
+            "id": 30,
+            "name": "Tainéla",
+            "coordinates": [
+              "1,-29",
+              "0,-29",
+              "-2,-29"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          },
+          {
+            "id": 460,
+            "name": "Frakacia Leukocytine",
+            "level": 30,
+            "imageUrl": "/bestiary/monsters/460.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2315,
+            "name": "Boudalf le Blanc",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2315.png"
+          },
+          {
+            "id": 2317,
+            "name": "Boufdégou le Refoulant",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2317.png"
+          },
+          {
+            "id": 2324,
+            "name": "Bouflet le Puéril",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2324.png"
+          },
+          {
+            "id": 2316,
+            "name": "Boulgourvil le Lointain",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2316.png"
+          },
+          {
+            "id": 2333,
+            "name": "Milipatte la Griffe",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2333.png"
+          },
+          {
+            "id": 2349,
+            "name": "Preskapwal le Tendancieux",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2349.png"
+          },
+          {
+            "id": 2353,
+            "name": "Sangria le Fruité",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2353.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 4823,
+                "name": "Écurouille",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/4823.png"
+              },
+              {
+                "id": 159,
+                "name": "Milimulou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/159.png"
+              },
+              {
+                "id": 103,
+                "name": "Prespic",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/103.png"
+              },
+              {
+                "id": 104,
+                "name": "Sanglier",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/104.png"
+              }
+            ]
+          },
+          {
+            "id": 200,
+            "name": "Bouftous",
+            "monsters": [
+              {
+                "id": 134,
+                "name": "Boufton Blanc",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/134.png"
+              },
+              {
+                "id": 149,
+                "name": "Boufton Noir",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/149.png"
+              },
+              {
+                "id": 148,
+                "name": "Chef de Guerre Bouftou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/148.png"
+              },
+              {
+                "id": 101,
+                "name": "Bouftou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/101.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1219",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-genie-se-meut.html",
+      "sourceTitle": "Le génie se meut",
+      "sourceHash": "6607496a42837a6b122b644688e9f0e77e886cb05a0f8c94ee448e18d3c7c44e",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Cumuler les combats de Tainéla",
+      "description": "« La coupe des vices » et « Le génie se meut » demandent toutes deux de combattre à Tainéla. Les Chef de Guerre Bouftou comptent pour l'objectif de « La coupe des vices » et peuvent en même temps fournir les 5 prélèvements requis par « Le génie se meut », ce qui évite des combats supplémentaires.",
+      "questKeys": [
+        "quest:1204",
+        "quest:1219"
+      ],
+      "actions": [
+        "Lancez les deux quêtes auprès de Jeffrey Baratourte en [2,-31] et d'Éléanor Mande en [1,-29].",
+        "Pendant les objectifs de « La coupe des vices », privilégiez les groupes contenant des Chef de Guerre Bouftou jusqu'à avoir obtenu 5 x Prélèvement de chef de guerre bouftou.",
+        "Terminez ensuite les quantités restantes de Boufton Blanc, Boufton Noir et Bouftou avant de poursuivre l'enquête d'Éléanor Mande."
+      ]
+    }
+  ]
+}

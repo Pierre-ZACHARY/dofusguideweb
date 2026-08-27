@@ -5,6 +5,7 @@ import { ElementRenderer } from "../components/ElementRenderer.js";
 import { ExternalImage } from "../components/ExternalImage.js";
 import { NotFoundPanel } from "../components/NotFoundPanel.js";
 import { QuestChecklist } from "../components/QuestChecklist.js";
+import { QuestStepTips } from "../components/QuestStepTips.js";
 import { ClassQuestGrid } from "../components/ClassQuestGrid.js";
 import { extractClassQuestGroups } from "../components/classQuestGroups.js";
 import { DungeonCard } from "../components/DungeonCard.js";
@@ -185,6 +186,7 @@ function StepPage() {
         if (section.kind === "quests") return (
           <section key={section.kind}>
             <div className="divider">Quêtes</div>
+            <QuestStepTips tips={step.tips} quests={step.quests} />
             <QuestChecklist guideId={step.guide.id} stepNumber={step.stepNumber} quests={step.quests} totalObjectives={objectiveCount} followers={stepFollowers} />
           </section>
         );

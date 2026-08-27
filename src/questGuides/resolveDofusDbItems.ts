@@ -64,6 +64,12 @@ export async function resolveQuestGuideItems(
   const resolved = [];
 
   for (const [index, item] of content.items.entries()) {
+    const completeMetadata = item.itemId !== null && item.imageUrl !== null && item.dofusDbUrl !== null;
+    const expectedLocalImage = item.itemId === null ? null : path.join(imageDirectory, item.itemId + ".png");
+    if (completeMetadata && (options.metadataOnly || expectedLocalImage === null || await exists(expectedLocalImage))) {
+      resolved.push(item);
+      continue;
+    }
     try {
       const queries = [...new Set([item.name, item.name.replace(/[’‘]/gu, "'")])];
       const candidates = [];

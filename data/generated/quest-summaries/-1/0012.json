@@ -1,0 +1,578 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 12,
+  "updatedAt": "2026-08-27T12:53:54.777Z",
+  "summaries": [
+    {
+      "overview": "Le Capitaine des Kerubims vous envoie au cimetière d'Incarnam pour éliminer un chafer de chaque espèce, retrouver Percy Klop et récupérer le Sac de Bijoux qu'il a dérobé. Après avoir vaincu Percy Klop dans son tombeau, rapportez le sac au Capitaine pour terminer la quête.",
+      "recommendedLevel": 9,
+      "prerequisites": [
+        "Niveau recommandé 9.",
+        "Leçon d'humilité."
+      ],
+      "rewards": [
+        "4 733 XP.",
+        "120 Kamas.",
+        "5 x Os de Chafer.",
+        "Déblocage d'un succès."
+      ],
+      "preparation": [
+        "Prévoir un combat contre Percy Klop.",
+        "Être prêt à combattre les différentes espèces de chafers demandées par la quête."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez au Capitaine des Kerubims pour accepter sa dernière mission : récupérer le sac de bijoux volé par un chafer du cimetière.",
+          "position": "[0,-4]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au cimetière et tuez un chafer de chaque espèce demandée par l'objectif de quête.",
+          "position": null,
+          "zoneHint": "cimetière",
+          "warning": "Ces objectifs nécessitent des combats contre les chafers.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Rejoignez le Tombeau de Percy Klop, entrez puis cliquez sur la tombe. Parlez à Percy Klop lorsqu'il apparaît afin de l'attaquer.",
+          "position": "[4,1]",
+          "zoneHint": "Tombeau de Percy Klop",
+          "warning": "Le dialogue déclenche le combat contre Percy Klop.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Battez Percy Klop. Il peut utiliser Estocrâme, qui inflige environ 10 dégâts feu, et Coup du Chafer, qui inflige environ 25 dégâts terre au corps-à-corps. Vous récupérez ensuite le Sac de Bijoux.",
+          "position": "[4,1]",
+          "zoneHint": "Tombeau de Percy Klop",
+          "warning": "Combat obligatoire contre Percy Klop.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Retournez voir le Capitaine des Kerubims et remettez-lui le Sac de Bijoux pour terminer la quête.",
+          "position": "[0,-4]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le Sac de Bijoux est récupéré automatiquement à la fin du combat contre Percy Klop.",
+        "La quête se termine après la remise du sac au Capitaine des Kerubims."
+      ],
+      "npcs": [
+        "Capitaine des Kerubims",
+        "Percy Klop"
+      ],
+      "items": [
+        {
+          "name": "Sac de Bijoux",
+          "itemId": 16540,
+          "imageUrl": "/items/16540.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16540"
+        },
+        {
+          "name": "Os de Chafer",
+          "itemId": 310,
+          "imageUrl": "/items/310.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/310"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 6,
+            "name": "Cimetière",
+            "coordinates": [
+              "0,-4"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "0,-4"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "4,1"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4270,
+            "name": "Roub' Ignolles",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/4270.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2321,
+            "name": "Chafalfer l'Optimiste",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2321.png"
+          },
+          {
+            "id": 2319,
+            "name": "Chafemal le Bagarreur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2319.png"
+          },
+          {
+            "id": 2522,
+            "name": "Kwoanneur le Frimeur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2522.png"
+          },
+          {
+            "id": 2357,
+            "name": "Tofumanchou l'Empereur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2357.png"
+          },
+          {
+            "id": 2421,
+            "name": "Chaffoin le Sournois",
+            "level": 33,
+            "imageUrl": "/bestiary/monsters/2421.png"
+          },
+          {
+            "id": 2276,
+            "name": "Ribibi le Cher",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2276.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 193,
+            "name": "Bêtes de la nuit",
+            "monsters": [
+              {
+                "id": 154,
+                "name": "Kwoan",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/154.png"
+              },
+              {
+                "id": 111,
+                "name": "Tofu Maléfique",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/111.png"
+              }
+            ]
+          },
+          {
+            "id": 191,
+            "name": "Chafers d'Amakna",
+            "monsters": [
+              {
+                "id": 54,
+                "name": "Chafer",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/54.png"
+              },
+              {
+                "id": 110,
+                "name": "Chafer Invisible",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/110.png"
+              },
+              {
+                "id": 396,
+                "name": "Chafer Fantassin",
+                "level": 33,
+                "imageUrl": "/bestiary/monsters/396.png"
+              },
+              {
+                "id": 108,
+                "name": "Rib",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/108.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:914",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/des-chafers-qui-marchent.html",
+      "sourceTitle": "Des chafers qui marchent",
+      "sourceHash": "f0da0e5581f312162a61de7d4ab9cad978ec1b2c834ce77cf6863f1347a8031c",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Berb Nhin vous demande de compléter la panoplie du Boune et de préparer l'accès à la Crypte de Kardorim. Réunissez les ressources nécessaires, puis fabriquez La Halte Efkat, la Bounihimée et la Clef de la Crypte de Kardorim dans trois ateliers différents avant de revenir lui présenter votre travail.",
+      "recommendedLevel": 1,
+      "prerequisites": [
+        "Niveau 1 ou +.",
+        "Boune un jour, boune toujours."
+      ],
+      "rewards": [
+        "4 236 XP.",
+        "102 Kamas.",
+        "5 x Os de Chafer.",
+        "5 x Relique d'Incarnam.",
+        "Déblocage du succès de la série de quêtes C'est le métier qui rentre."
+      ],
+      "preparation": [
+        "5 x Cendres Éternelles.",
+        "4 x Viande Intangible.",
+        "3 x Relique d'Incarnam.",
+        "1 x Ferrite.",
+        "1 x Planche Agglomérée."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Berb Nhin. Il vous demande de fabriquer un bouclier, une épée et une clef afin de vous initier aux métiers de façonneur, forgeron et bricoleur.",
+          "position": "[0,-3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Réunissez avant les fabrications 5 x Cendres Éternelles, 4 x Viande Intangible, 3 x Relique d'Incarnam, 1 x Ferrite et 1 x Planche Agglomérée.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Ces ressources sont nécessaires pour réaliser les trois recettes demandées.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À l'Atelier des Façonneurs, utilisez le Plan de Travail et choisissez de forger un bouclier. Fabriquez La Halte Efkat avec 2 x Viande Intangible et 1 x Planche Agglomérée.",
+          "position": "[3,-3]",
+          "zoneHint": "Atelier des Façonneurs",
+          "warning": "Consomme 2 x Viande Intangible et 1 x Planche Agglomérée.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À l'Atelier des Forgerons, utilisez l'Enclume pour fabriquer la Bounihimée avec 2 x Viande Intangible et 1 x Ferrite.",
+          "position": "[2,-4]",
+          "zoneHint": "Atelier des Forgerons",
+          "warning": "Consomme 2 x Viande Intangible et 1 x Ferrite.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À l'Atelier des Bricoleurs, utilisez l'Établi pour fabriquer la Clef de la Crypte de Kardorim avec 3 x Relique d'Incarnam et 5 x Cendres Éternelles.",
+          "position": "[1,-2]",
+          "zoneHint": "Atelier des Bricoleurs",
+          "warning": "Consomme 3 x Relique d'Incarnam et 5 x Cendres Éternelles.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Une fois les trois objets fabriqués, retournez auprès de Berb Nhin et montrez-lui votre travail pour terminer la quête.",
+          "position": "[0,-3]",
+          "zoneHint": null,
+          "warning": "À la fin de la quête, vous perdez le couteau de chasse.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les trois fabrications doivent être réalisées dans leurs ateliers respectifs.",
+        "La Halte Efkat se fabrique avec le Plan de Travail, la Bounihimée avec l'Enclume et la Clef de la Crypte de Kardorim avec l'Établi."
+      ],
+      "npcs": [
+        "Berb Nhin"
+      ],
+      "items": [
+        {
+          "name": "Cendres Éternelles",
+          "itemId": 1984,
+          "imageUrl": "/items/1984.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1984"
+        },
+        {
+          "name": "Viande Intangible",
+          "itemId": 16663,
+          "imageUrl": "/items/16663.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16663"
+        },
+        {
+          "name": "Relique d'Incarnam",
+          "itemId": 16524,
+          "imageUrl": "/items/16524.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16524"
+        },
+        {
+          "name": "Ferrite",
+          "itemId": 16440,
+          "imageUrl": "/items/16440.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16440"
+        },
+        {
+          "name": "Planche Agglomérée",
+          "itemId": 16489,
+          "imageUrl": "/items/16489.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16489"
+        },
+        {
+          "name": "La Halte Efkat",
+          "itemId": 30701,
+          "imageUrl": "/items/30701.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/30701"
+        },
+        {
+          "name": "Bounihimée",
+          "itemId": 30828,
+          "imageUrl": "/items/30828.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/30828"
+        },
+        {
+          "name": "Clef de la Crypte de Kardorim",
+          "itemId": 8545,
+          "imageUrl": "/items/8545.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8545"
+        },
+        {
+          "name": "Os de Chafer",
+          "itemId": 310,
+          "imageUrl": "/items/310.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/310"
+        },
+        {
+          "name": "couteau de chasse",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 180,
+            "name": "Château d'Amakna",
+            "coordinates": [
+              "2,-4"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "0,-3"
+            ]
+          },
+          {
+            "id": 479,
+            "name": "Rivière Kawaii",
+            "coordinates": [
+              "3,-3"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "0,-3",
+              "1,-2"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2310,
+            "name": "Arakule la Revancharde",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2310.png"
+          },
+          {
+            "id": 2323,
+            "name": "Chamchie le Difficile",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2323.png"
+          },
+          {
+            "id": 2336,
+            "name": "Mosketère le Dévoué",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2336.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 1602,
+            "name": "Vermines des champs",
+            "monsters": [
+              {
+                "id": 4819,
+                "name": "Campagnoll",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/4819.png"
+              },
+              {
+                "id": 59,
+                "name": "Champ Champ",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/59.png"
+              },
+              {
+                "id": 61,
+                "name": "Moskito",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/61.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1460",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/preparation-au-combat.html",
+      "sourceTitle": "Préparation au combat",
+      "sourceHash": "6b119b06eb075d1013edd47b8dce5884b9a3a18fbba217fe257149ae45916d34",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": []
+}

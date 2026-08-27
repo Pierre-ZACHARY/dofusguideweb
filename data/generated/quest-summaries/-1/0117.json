@@ -1,0 +1,1647 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 117,
+  "updatedAt": "2026-08-27T12:55:05.614Z",
+  "summaries": [
+    {
+      "overview": "Aidez Chaknoris à convaincre trois matous harceleurs (Chadik, Chalamalek, Chabruti) de le laisser tranquille dans la Lande Poilue. Un combat inévitable contre Chadik vous attend. Une fois les trois matous apaisés, Chaknoris vous révélera la position de Chester.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Chacun cherche son chacha"
+      ],
+      "rewards": [
+        "2 625 000 XP",
+        "43 980 Kamas",
+        "50 x Orichor"
+      ],
+      "preparation": [
+        "Prévoir un combat solo contre Chadik : éviter le corps à corps, attention aux dégâts Feu et Terre."
+      ],
+      "actions": [
+        {
+          "instruction": "Parler à Chaknoris en [1,0] dans la Lande Poilue (Ecaflipus) et accepter de l'aider.",
+          "position": "[1,0]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller voir Chadik en [0,1] et tenter de le convaincre. Quel que soit le dialogue choisi, un combat se lance.",
+          "position": "[0,1]",
+          "zoneHint": "Lande Poilue",
+          "warning": "Combat inévitable contre Chadik. Évitez le corps à corps. Chadik inflige ~540 dégâts Feu (Retour de Chachaton), ~450 Terre + malus fuite (Chamboulement), ~400 Feu + bouclier 1100 PB (Fortifichation).",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Aller voir Chalamalek en [3,3] et lui annoncer que lorsque Chaknoris assiste à un match de Boufbowl, Khan Karkass monte dans les gradins pour lui demander un autographe.",
+          "position": "[3,3]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller voir Chabruti en [3,0] et lui annoncer que Chaknoris a réuni les six Dofus pour en faire une omelette et que lorsque Gein le Silencieux s'approche, Chaknoris se retourne pour lui dire « chut ! ».",
+          "position": "[3,0]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner auprès de Chaknoris en [1,0] et lui annoncer que les matous le laisseront tranquille.",
+          "position": "[1,0]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Se rendre au sud de la zone en [1,3] et tenter de caresser Chester.",
+          "position": "[1,3]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le combat contre Chadik se déclenche quel que soit le dialogue choisi.",
+        "Poil de Chadik est droppé après le combat.",
+        "Les dialogues avec Chalamalek et Chabruti nécessitent des réponses précises (indiquées dans les actions)."
+      ],
+      "npcs": [
+        "Chaknoris",
+        "Chadik",
+        "Chalamalek",
+        "Chabruti",
+        "Chester"
+      ],
+      "items": [
+        {
+          "name": "Poil de Chadik",
+          "itemId": 17692,
+          "imageUrl": "/items/17692.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17692"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 856,
+            "name": "Lande Poilue",
+            "coordinates": [
+              "1,0",
+              "0,1",
+              "3,3",
+              "3,0",
+              "1,3"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1433,
+            "name": "Matougarous",
+            "monsters": [
+              {
+                "id": 4296,
+                "name": "Chasquatch",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4296.png"
+              },
+              {
+                "id": 4297,
+                "name": "Chacrebleu",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4297.png"
+              },
+              {
+                "id": 4298,
+                "name": "Chakichan",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4298.png"
+              },
+              {
+                "id": 4299,
+                "name": "Chargus",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4299.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:949",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/question-de-reacuteputation.html",
+      "sourceTitle": "Question de réputation",
+      "sourceHash": "b81cc270b0333ff643e8af5f5cc2b4c6322e7f8b72f282356df809d4fb2282cd",
+      "generatedAt": "2026-08-24T17:59:57.129Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Baste vous informe que Chester se trouve près du Temple de Kerubim. Le Professeur Groschinder vous oriente vers Kantik pour obtenir la Loupe monoculaire d'improbabilité. En échange, rapportez-lui trois étincelles divines dispersées dans Ecaflipus. Une fois la loupe obtenue, équipez-la pour localiser Chester.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Question de réputation"
+      ],
+      "rewards": [
+        "2 625 000 XP",
+        "43 980 Kamas",
+        "50 x Orichor"
+      ],
+      "preparation": [
+        "Prévoir des combats aléatoires (1 chance sur 2 de déclenchement)"
+      ],
+      "actions": [
+        {
+          "instruction": "Parler à Baste.",
+          "position": "[-1,-6]",
+          "zoneHint": "Ecaflipus",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler au Professeur Groschinder sur la même carte.",
+          "position": "[-1,-6]",
+          "zoneHint": "Ecaflipus",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Se rendre auprès de Kantik.",
+          "position": "[-1,-4]",
+          "zoneHint": "Ecaflipus",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parler à Kantik et accepter de lui rapporter trois étincelles divines en échange de la loupe.",
+          "position": "[-1,-4]",
+          "zoneHint": "Ecaflipus",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Équiper la Loupe d'improbabilité sur la tête, puis interagir avec la première étincelle divine.",
+          "position": "[1,-5]",
+          "zoneHint": "Ecaflipus",
+          "warning": "1 chance sur 2 de déclencher un combat contre Flamme Cautérisante (frappe distance ~160 feu et vol de vie) et Brûlure Sévère (frappe 400 feu et retire 2 PM).",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Interagir avec la deuxième étincelle divine.",
+          "position": "[1,-8]",
+          "zoneHint": "Ecaflipus",
+          "warning": "1 chance sur 2 de déclencher un combat contre Flamme Cautérisante et Brûlure Sévère.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Interagir avec la troisième étincelle divine.",
+          "position": "[-2,-7]",
+          "zoneHint": "Ecaflipus",
+          "warning": "1 chance sur 2 de déclencher un combat contre Flamme Cautérisante et Brûlure Sévère.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Retourner voir Kantik et lui remettre les trois étincelles divines pour obtenir la Loupe d'improbabilité.",
+          "position": "[-1,-4]",
+          "zoneHint": "Ecaflipus",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Se rendre au Temple de Kerubim.",
+          "position": "[-10,-11]",
+          "zoneHint": "Ecaflipus",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Équiper la Loupe d'improbabilité sur la tête et aller à la rencontre de Chester.",
+          "position": "[-12,-20]",
+          "zoneHint": "Ecaflipus",
+          "warning": "Équiper la Loupe d'improbabilité pour voir Chester.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La Loupe d'improbabilité doit être équipée sur la tête pour voir les étincelles divines et Chester."
+      ],
+      "npcs": [
+        "Baste",
+        "Professeur Groschinder",
+        "Kantik",
+        "Chester"
+      ],
+      "items": [
+        {
+          "name": "Loupe monoculaire d'improbabilité",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Étincelle divine",
+          "itemId": 17687,
+          "imageUrl": "/items/17687.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17687"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 168,
+            "name": "Forêt Sombre",
+            "coordinates": [
+              "-10,-11"
+            ]
+          },
+          {
+            "id": 911,
+            "name": "Jardins à la Crème",
+            "coordinates": [
+              "-1,-6"
+            ]
+          },
+          {
+            "id": 54,
+            "name": "Massif de Cania",
+            "coordinates": [
+              "-12,-20"
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Montagne des Craqueleurs",
+            "coordinates": [
+              "1,-5",
+              "1,-8",
+              "-2,-7"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "-1,-4"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 554,
+            "name": "Marzwel le Gobelin",
+            "level": 60,
+            "imageUrl": "/bestiary/monsters/554.png"
+          },
+          {
+            "id": 4014,
+            "name": "Tyranne la Terrible",
+            "level": 80,
+            "imageUrl": "/bestiary/monsters/4014.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2367,
+            "name": "Kwakamole l'Appétissant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2367.png"
+          },
+          {
+            "id": 2369,
+            "name": "Kwaké le Piraté",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2369.png"
+          },
+          {
+            "id": 2451,
+            "name": "Kwakolak le Chocolaté",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2451.png"
+          },
+          {
+            "id": 2368,
+            "name": "Kwakwatique le Trempé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2368.png"
+          },
+          {
+            "id": 2413,
+            "name": "Robocoop l'Échangé",
+            "level": 53,
+            "imageUrl": "/bestiary/monsters/2413.png"
+          },
+          {
+            "id": 2411,
+            "name": "Robiolego l'Assemblé",
+            "level": 55,
+            "imageUrl": "/bestiary/monsters/2411.png"
+          },
+          {
+            "id": 2329,
+            "name": "Mallopiée l'Épineuse",
+            "level": 57,
+            "imageUrl": "/bestiary/monsters/2329.png"
+          },
+          {
+            "id": 2389,
+            "name": "Abrakildas le Vénérable",
+            "level": 74,
+            "imageUrl": "/bestiary/monsters/2389.png"
+          },
+          {
+            "id": 2388,
+            "name": "Abrakanette l'Encapsulé",
+            "level": 78,
+            "imageUrl": "/bestiary/monsters/2388.png"
+          },
+          {
+            "id": 2386,
+            "name": "Abraklette le Fondant",
+            "level": 82,
+            "imageUrl": "/bestiary/monsters/2386.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1201,
+            "name": "Abraknydiens Sombres",
+            "monsters": [
+              {
+                "id": 651,
+                "name": "Abrakne Sombre",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/651.png"
+              },
+              {
+                "id": 253,
+                "name": "Abraknyde Sombre",
+                "level": 78,
+                "imageUrl": "/bestiary/monsters/253.png"
+              },
+              {
+                "id": 254,
+                "name": "Abraknyde Vénérable",
+                "level": 74,
+                "imageUrl": "/bestiary/monsters/254.png"
+              }
+            ]
+          },
+          {
+            "id": 1517,
+            "name": "Automates des Brigandins",
+            "monsters": [
+              {
+                "id": 4559,
+                "name": "Malle Outillée",
+                "level": 57,
+                "imageUrl": "/bestiary/monsters/4559.png"
+              },
+              {
+                "id": 4560,
+                "name": "Robionicle",
+                "level": 55,
+                "imageUrl": "/bestiary/monsters/4560.png"
+              },
+              {
+                "id": 4558,
+                "name": "Robot Fléau",
+                "level": 53,
+                "imageUrl": "/bestiary/monsters/4558.png"
+              },
+              {
+                "id": 4557,
+                "name": "Robot Pousse-Pousse",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/4557.png"
+              }
+            ]
+          },
+          {
+            "id": 190,
+            "name": "Kwakeres",
+            "monsters": [
+              {
+                "id": 269,
+                "name": "Kwakere de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/269.png"
+              },
+              {
+                "id": 271,
+                "name": "Kwakere de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/271.png"
+              },
+              {
+                "id": 270,
+                "name": "Kwakere de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/270.png"
+              },
+              {
+                "id": 272,
+                "name": "Kwakere de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/272.png"
+              }
+            ]
+          },
+          {
+            "id": 189,
+            "name": "Kwaks",
+            "monsters": [
+              {
+                "id": 83,
+                "name": "Kwak de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/83.png"
+              },
+              {
+                "id": 84,
+                "name": "Kwak de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/84.png"
+              },
+              {
+                "id": 235,
+                "name": "Kwak de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/235.png"
+              },
+              {
+                "id": 81,
+                "name": "Kwak de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/81.png"
+              }
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Mulous",
+            "monsters": [
+              {
+                "id": 102,
+                "name": "Mulou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/102.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 214,
+            "name": "Porkass",
+            "monsters": [
+              {
+                "id": 123,
+                "name": "Cochon de Lait",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/123.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:950",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/matou-vu.html",
+      "sourceTitle": "Matou vu​",
+      "sourceHash": "bdc5dcbd768dd41e20bf70b3060b43efa0797147338c6a64f71ef7c90cf10076",
+      "generatedAt": "2026-08-24T17:45:18.042Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Récupérer des boucliers expérimentaux auprès du professeur Groschinder et de son assistant Fizik, puis les tester en combat contre des Ecaflipuces acariâtres à différents endroits avant de faire un rapport.",
+      "recommendedLevel": 110,
+      "prerequisites": [
+        "Matou vu"
+      ],
+      "rewards": [
+        "1 298 594 XP",
+        "14 280 kamas",
+        "15 x Orichor",
+        "5 x Peau de Gériatique"
+      ],
+      "preparation": [
+        "Prévoir un équipement de tacle pour neutraliser les Ecaflipuces acariâtres."
+      ],
+      "actions": [
+        {
+          "instruction": "Parler au professeur Groschinder en [-1,-6] pour accepter la quête.",
+          "position": "[-1,-6]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récupérer les deux boucliers expérimentaux auprès de Fizik en [-1,-6].",
+          "position": "[-1,-6]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Équiper un bouclier expérimental, puis parler à l'Ecaflipuce acariâtre en [-4,-8] et la combattre.",
+          "position": "[-4,-8]",
+          "zoneHint": null,
+          "warning": "Ne pas oublier d'équiper le bouclier avant le combat. Combat en solo.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Équiper le second bouclier expérimental, puis parler à l'Ecaflipuce acariâtre en [0,-4] et la combattre.",
+          "position": "[0,-4]",
+          "zoneHint": null,
+          "warning": "Ne pas oublier d'équiper le bouclier avant le combat. Combat en solo.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Retourner voir le professeur Groschinder en [-1,-6] et lui annoncer que les boucliers se sont brisés.",
+          "position": "[-1,-6]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récupérer le nouveau bouclier en etrok auprès de Fizik en [-1,-6].",
+          "position": "[-1,-6]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Équiper le bouclier en etrok, puis parler à l'Ecaflipuce acariâtre en [2,-8] et la combattre.",
+          "position": "[2,-8]",
+          "zoneHint": null,
+          "warning": "Ne pas oublier d'équiper le bouclier avant le combat.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Retourner voir le professeur Groschinder en [-1,-6] et lui annoncer que le bouclier en etrok a résisté.",
+          "position": "[-1,-6]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les Ecaflipuces acariâtres ont les mêmes caractéristiques que les gériatiques du miausolée du pounicheur.",
+        "Taclez-les pour annuler leurs dégâts.",
+        "Les deux premiers boucliers se brisent après leur combat respectif.",
+        "La quête comporte 3 combats au total."
+      ],
+      "npcs": [
+        "Professeur Groschinder",
+        "Fizik",
+        "Ecaflipuce acariâtre"
+      ],
+      "items": [
+        {
+          "name": "Bouclier expérimental",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Bouclier en etrok",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 102,
+            "name": "Cimetière d'Astrub",
+            "coordinates": [
+              "-4,-8"
+            ]
+          },
+          {
+            "id": 855,
+            "name": "Pierres de l'élévation",
+            "coordinates": [
+              "-1,-6"
+            ]
+          },
+          {
+            "id": 173,
+            "name": "Prairies d'Astrub",
+            "coordinates": [
+              "2,-8"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "0,-4"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4266,
+            "name": "Sam Sagaz",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/4266.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2332,
+            "name": "Larchimaide la Poussée",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2332.png"
+          },
+          {
+            "id": 2331,
+            "name": "Larvapstrè le Subjectif",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2331.png"
+          },
+          {
+            "id": 2339,
+            "name": "Larvomatik le Propre",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2339.png"
+          },
+          {
+            "id": 2574,
+            "name": "Larvonika l'Instrument",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2574.png"
+          },
+          {
+            "id": 2486,
+            "name": "Garsim le Mort",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2486.png"
+          },
+          {
+            "id": 2524,
+            "name": "Ouassébo l'Esthète",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2524.png"
+          },
+          {
+            "id": 2616,
+            "name": "Ouature la Mobile",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2616.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1432,
+            "name": "Ecaflipuces",
+            "monsters": [
+              {
+                "id": 4291,
+                "name": "Pupuce",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4291.png"
+              },
+              {
+                "id": 4292,
+                "name": "Morcac",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4292.png"
+              },
+              {
+                "id": 4293,
+                "name": "Pikbul",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4293.png"
+              },
+              {
+                "id": 4294,
+                "name": "Gériatique",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4294.png"
+              }
+            ]
+          },
+          {
+            "id": 203,
+            "name": "Larves",
+            "monsters": [
+              {
+                "id": 31,
+                "name": "Larve Bleue",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/31.png"
+              },
+              {
+                "id": 46,
+                "name": "Larve Orange",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/46.png"
+              },
+              {
+                "id": 34,
+                "name": "Larve Verte",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/34.png"
+              },
+              {
+                "id": 5225,
+                "name": "Larve Jaune",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/5225.png"
+              }
+            ]
+          },
+          {
+            "id": 1669,
+            "name": "Monstres du repos",
+            "monsters": [
+              {
+                "id": 495,
+                "name": "La Ouassingue",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/495.png"
+              },
+              {
+                "id": 496,
+                "name": "Le Ouassingue",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/496.png"
+              },
+              {
+                "id": 498,
+                "name": "Gargrouille",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/498.png"
+              },
+              {
+                "id": 5227,
+                "name": "Garglyphe",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/5227.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:958",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/acides-animeacutes.html",
+      "sourceTitle": "Acides animés",
+      "sourceHash": "8ad95e241d3a1478292c149ee153d94968c7b441e20ff1322b3fa0275e942b5e",
+      "generatedAt": "2026-08-24T17:10:55.005Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Le Professeur Groschinder vous confie trois prototypes de robots de combat à tester contre des croqueurs de pierre dans les Pierres de l'élévation. Chaque test se solde par un échec : le premier robot est détruit, le deuxième fuit, et le troisième se rebelle.",
+      "recommendedLevel": 110,
+      "prerequisites": [
+        "Acides animés"
+      ],
+      "rewards": [
+        "1 298 594 XP",
+        "14 280 kamas",
+        "15 x Orichor",
+        "5 x Œil de Morcac"
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Poursuivez le dialogue avec le Professeur Groschinder.",
+          "position": "[-1,-6]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez en [0,-3] et combattez un croqueur de pierre (Morcac) avec le prototype FMR comme allié.",
+          "position": "[0,-3]",
+          "zoneHint": null,
+          "warning": "Le prototype FMR peut mourir durant le combat sans conséquence sur la suite de la quête.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez faire votre rapport au Professeur Groschinder. Il vous confie le prototype ICKC.",
+          "position": "[-1,-6]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez en [-2,-5] et combattez un croqueur de pierre avec le prototype ICKC comme allié.",
+          "position": "[-2,-5]",
+          "zoneHint": null,
+          "warning": "Le prototype ICKC fuit durant le combat à cause de son programme de survie.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez raconter l'épisode au Professeur Groschinder. Il vous confie le prototype GACOBI.",
+          "position": "[-1,-6]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez en [-6,-9] et combattez le prototype GACOBI qui se rebelle contre vous.",
+          "position": "[-6,-9]",
+          "zoneHint": null,
+          "warning": "Le GACOBI inflige des dégâts neutres et pousse de 4 cases, en ligne ou en diagonale.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez vous plaindre auprès du Professeur Groschinder pour terminer la quête.",
+          "position": "[-1,-6]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête s'enchaîne directement après Acides aminés.",
+        "L'ordre des croqueurs de pierre affrontés n'a pas d'importance."
+      ],
+      "npcs": [
+        "Professeur Groschinder"
+      ],
+      "items": [
+        {
+          "name": "Orichor",
+          "itemId": 15206,
+          "imageUrl": "/items/15206.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15206"
+        },
+        {
+          "name": "Œil de Morcac",
+          "itemId": 17610,
+          "imageUrl": "/items/17610.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17610"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 2,
+            "name": "Montagne des Craqueleurs",
+            "coordinates": [
+              "-2,-5",
+              "-6,-9"
+            ]
+          },
+          {
+            "id": 855,
+            "name": "Pierres de l'élévation",
+            "coordinates": [
+              "-1,-6"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "0,-3"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2367,
+            "name": "Kwakamole l'Appétissant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2367.png"
+          },
+          {
+            "id": 2369,
+            "name": "Kwaké le Piraté",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2369.png"
+          },
+          {
+            "id": 2451,
+            "name": "Kwakolak le Chocolaté",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2451.png"
+          },
+          {
+            "id": 2368,
+            "name": "Kwakwatique le Trempé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2368.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1432,
+            "name": "Ecaflipuces",
+            "monsters": [
+              {
+                "id": 4291,
+                "name": "Pupuce",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4291.png"
+              },
+              {
+                "id": 4292,
+                "name": "Morcac",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4292.png"
+              },
+              {
+                "id": 4293,
+                "name": "Pikbul",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4293.png"
+              },
+              {
+                "id": 4294,
+                "name": "Gériatique",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4294.png"
+              }
+            ]
+          },
+          {
+            "id": 190,
+            "name": "Kwakeres",
+            "monsters": [
+              {
+                "id": 269,
+                "name": "Kwakere de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/269.png"
+              },
+              {
+                "id": 271,
+                "name": "Kwakere de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/271.png"
+              },
+              {
+                "id": 270,
+                "name": "Kwakere de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/270.png"
+              },
+              {
+                "id": 272,
+                "name": "Kwakere de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/272.png"
+              }
+            ]
+          },
+          {
+            "id": 189,
+            "name": "Kwaks",
+            "monsters": [
+              {
+                "id": 83,
+                "name": "Kwak de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/83.png"
+              },
+              {
+                "id": 84,
+                "name": "Kwak de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/84.png"
+              },
+              {
+                "id": 235,
+                "name": "Kwak de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/235.png"
+              },
+              {
+                "id": 81,
+                "name": "Kwak de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/81.png"
+              }
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Mulous",
+            "monsters": [
+              {
+                "id": 102,
+                "name": "Mulou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/102.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 214,
+            "name": "Porkass",
+            "monsters": [
+              {
+                "id": 123,
+                "name": "Cochon de Lait",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/123.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:959",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/faut-pas-pousser.html",
+      "sourceTitle": "Faut pas pousser",
+      "sourceHash": "e4d29d5e2b5dbee7a55060e2d2350961d14ec8718d3df7b21c4f5810480cfb7e",
+      "generatedAt": "2026-08-24T17:34:53.099Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Le Sergent Baste vous confie un plan d'extraction à remettre à l'agent Gélik. Le plan déclenche la fureur des Ecaflipuces et un combat s'ensuit. Après avoir protégé Gélik, vous devez récupérer ses vieilles sandales jetées par l'agent Léon, puis les faire nettoyer à l'avant-poste des voyageurs.",
+      "recommendedLevel": 110,
+      "prerequisites": [],
+      "rewards": [
+        "1 298 594 XP",
+        "14 280 kamas",
+        "15 x Orichor",
+        "5 x Palpe de Pikbul"
+      ],
+      "preparation": [
+        "1 combat réalisable en groupe contre 8 monstres. L'agent Gélik doit survivre."
+      ],
+      "actions": [
+        {
+          "instruction": "Allez parler au Sergent Baste en [-1,-6] et proposez-lui votre aide. Il vous confie un plan de fonctionnement de l'extraction à remettre à l'agent Gélik.",
+          "position": "[-1,-6]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez trouver l'agent Gélik en [-5,-9] et donnez-lui le plan. Les Ecaflipuces deviennent furieuses : un combat se lance contre huit monstres. Protégez l'agent Gélik, qui ne doit pas mourir.",
+          "position": "[-5,-9]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": "Combat contre 8 monstres. L'agent Gélik doit survivre. Réalisable en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, récupérez le furoncle d'Ecaflipuce. Gélik, blessée, vous demande d'aller récupérer sa paire de vieilles sandales. Retournez à l'avant-poste des voyageurs.",
+          "position": null,
+          "zoneHint": "Pierres de l'élévation",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à l'agent Léon à l'avant-poste. Il s'est débarrassé des sandales qui empestaient. Allez les récupérer en contrebas, en [1,-3], gardées par une gériatique. Insistez pour vous en emparer.",
+          "position": "[1,-3]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez à l'avant-poste des voyageurs pour faire nettoyer les sandales.",
+          "position": null,
+          "zoneHint": "Pierres de l'élévation",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le combat se déroule contre 8 monstres de type Ecaflipuce. Consultez la page du Miausolée du Pounicheur pour les sorts et attaques des monstres.",
+        "Le Grath urticant se comporte comme un Grath classique.",
+        "L'agent Gélik utilise des sorts d'épouvante et Pandatak infligeant environ 300 dommages pendant le combat."
+      ],
+      "npcs": [
+        "Sergent Baste",
+        "Agent Gélik",
+        "Agent Léon"
+      ],
+      "items": [
+        {
+          "name": "Plan de fonctionnement de l'extraction",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Furoncle d'Ecaflipuce",
+          "itemId": 17601,
+          "imageUrl": "/items/17601.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17601"
+        },
+        {
+          "name": "Vieille sandale",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Orichor",
+          "itemId": 15206,
+          "imageUrl": "/items/15206.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15206"
+        },
+        {
+          "name": "Palpe de Pikbul",
+          "itemId": 17611,
+          "imageUrl": "/items/17611.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17611"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 855,
+            "name": "Pierres de l'élévation",
+            "coordinates": [
+              "-1,-6",
+              "-5,-9",
+              "1,-3"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1432,
+            "name": "Ecaflipuces",
+            "monsters": [
+              {
+                "id": 4291,
+                "name": "Pupuce",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4291.png"
+              },
+              {
+                "id": 4292,
+                "name": "Morcac",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4292.png"
+              },
+              {
+                "id": 4293,
+                "name": "Pikbul",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4293.png"
+              },
+              {
+                "id": 4294,
+                "name": "Gériatique",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4294.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:944",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/puce-de-luxe.html",
+      "sourceTitle": "Puce de luxe",
+      "sourceHash": "cc9237871215f23d1dedcf4258edd1da0874fe268cfcf7f1ac1e507ebba2d70b",
+      "generatedAt": "2026-08-24T17:58:13.546Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    },
+    {
+      "overview": "Quête du succès « Tu peux toujours te gratter ». Le Docteur Gaw vous demande de récolter 5 Oeufs d'Ecaflipuce dans les Pierres de l'élévation à Ecaflipus, puis de les remettre au sergent Blaste.",
+      "recommendedLevel": 110,
+      "prerequisites": [
+        "Niveau recommandé 110"
+      ],
+      "rewards": [
+        "1 298 594 XP",
+        "14 280 kamas",
+        "15 x Orichor",
+        "5 x Patte de Pupuce"
+      ],
+      "preparation": [
+        "Prévoir des combats aléatoires contre des Ecaflipuces vigilantes"
+      ],
+      "actions": [
+        {
+          "instruction": "Aller en Routes Rocailleuses [-22,-24] et parler au Docteur Gaw pour accepter la quête.",
+          "position": "[-22,-24]",
+          "zoneHint": "Routes Rocailleuses",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Se rendre à Ecaflipus, dans la zone des Pierres de l'élévation. Cliquer sur les trous au sol pour récolter 5 Oeufs d'Ecaflipuce. Positions des trous : [-2,-7], [-1,-7], [-1,-8], [0,-7], [2,-8].",
+          "position": "[-2,-7]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": "Combats aléatoires possibles contre une Ecaflipuce vigilante en cliquant sur les trous.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Aller voir le sergent Blaste en [-1,-6] et lui remettre les 5 Oeufs d'Ecaflipuce pour terminer la quête.",
+          "position": "[-1,-6]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête fait partie du succès « Tu peux toujours te gratter ».",
+        "Après avoir terminé cette quête, vous pouvez poursuivre les autres quêtes du succès."
+      ],
+      "npcs": [
+        "Docteur Gaw",
+        "Sergent Blaste"
+      ],
+      "items": [
+        {
+          "name": "Oeuf d'Ecaflipuce",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Patte de Pupuce",
+          "itemId": 17609,
+          "imageUrl": "/items/17609.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17609"
+        },
+        {
+          "name": "Orichor",
+          "itemId": 15206,
+          "imageUrl": "/items/15206.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15206"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 855,
+            "name": "Pierres de l'élévation",
+            "coordinates": [
+              "-2,-7",
+              "-1,-7",
+              "-1,-8",
+              "0,-7",
+              "2,-8",
+              "-1,-6"
+            ]
+          },
+          {
+            "id": 525,
+            "name": "Routes Rocailleuses",
+            "coordinates": [
+              "-22,-24"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2503,
+            "name": "Kanasukr le Mielleux",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2503.png"
+          },
+          {
+            "id": 2359,
+            "name": "Maître Champeur le Sabreur",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2359.png"
+          },
+          {
+            "id": 2445,
+            "name": "Fouflay le Retombé",
+            "level": 64,
+            "imageUrl": "/bestiary/monsters/2445.png"
+          },
+          {
+            "id": 2455,
+            "name": "Vétaurine l'Énergisé",
+            "level": 66,
+            "imageUrl": "/bestiary/monsters/2455.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 213,
+            "name": "Animaux des Champs",
+            "monsters": [
+              {
+                "id": 288,
+                "name": "Serpentin",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/288.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 259,
+                "name": "Arakne Majeure",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/259.png"
+              }
+            ]
+          },
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 186,
+            "name": "Craqueleurs",
+            "monsters": [
+              {
+                "id": 293,
+                "name": "Craqueleur des Plaines",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/293.png"
+              },
+              {
+                "id": 4571,
+                "name": "Craquelourd",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4571.png"
+              },
+              {
+                "id": 4573,
+                "name": "Craquelope",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4573.png"
+              }
+            ]
+          },
+          {
+            "id": 1432,
+            "name": "Ecaflipuces",
+            "monsters": [
+              {
+                "id": 4291,
+                "name": "Pupuce",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4291.png"
+              },
+              {
+                "id": 4292,
+                "name": "Morcac",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4292.png"
+              },
+              {
+                "id": 4293,
+                "name": "Pikbul",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4293.png"
+              },
+              {
+                "id": 4294,
+                "name": "Gériatique",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4294.png"
+              }
+            ]
+          },
+          {
+            "id": 1518,
+            "name": "Ruffians de Cania",
+            "monsters": [
+              {
+                "id": 4574,
+                "name": "Foufayteur",
+                "level": 64,
+                "imageUrl": "/bestiary/monsters/4574.png"
+              },
+              {
+                "id": 4575,
+                "name": "Vétauran",
+                "level": 66,
+                "imageUrl": "/bestiary/monsters/4575.png"
+              },
+              {
+                "id": 287,
+                "name": "Kanigrou",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/287.png"
+              },
+              {
+                "id": 371,
+                "name": "Maître Bolet",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/371.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:947",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/ccedila-saute-aux-oeufs.html",
+      "sourceTitle": "Ça saute aux oeufs",
+      "sourceHash": "d032b6d6049e2f0a9561f6c3cac489678827a5c87a8e03d11ae4b4e7c429c669",
+      "generatedAt": "2026-08-24T17:15:25.152Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    }
+  ],
+  "tips": []
+}

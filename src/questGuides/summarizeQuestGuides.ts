@@ -1,9 +1,8 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { atomicWriteFile } from "../utils/fs.js";
-import { retry } from "../utils/retry.js";
 import { sleep } from "../utils/sleep.js";
-import { extractDplnArticle } from "./extractDplnArticle.js";
+import { assertAllowedDplnSource, fetchDplnArticle } from "./fetchDplnArticle.js";
 import { generateQuestSummary, type GenerateQuestSummaryOptions } from "./generateQuestSummary.js";
 import { resolveQuestGuideItems, type ResolveDofusDbItemsOptions } from "./resolveDofusDbItems.js";
 import { questGuideArchiveSchema, type QuestGuideArchive, type QuestGuideSummary } from "./types.js";
@@ -38,22 +37,6 @@ async function loadOptionalBestiary(catalogPath: string | undefined): Promise<Be
   }
 }
 
-class SourceHttpError extends Error {
-  constructor(readonly status: number, readonly url: string) {
-    super("GET " + url + " returned HTTP " + status);
-  }
-}
-
-function assertAllowedSource(rawUrl: string): URL {
-  const url = new URL(rawUrl);
-  if (url.protocol !== "https:" || url.hostname !== "www.dofuspourlesnoobs.com" || !url.pathname.endsWith(".html")) {
-    throw new Error("Unsupported quest guide source: " + rawUrl);
-  }
-  url.hash = "";
-  url.search = "";
-  return url;
-}
-
 async function loadArchive(filePath: string): Promise<QuestGuideArchive> {
   try {
     return questGuideArchiveSchema.parse(JSON.parse(await readFile(filePath, "utf8")));
@@ -63,40 +46,15 @@ async function loadArchive(filePath: string): Promise<QuestGuideArchive> {
   }
 }
 
-async function fetchArticle(url: URL, requestFetch: typeof fetch): Promise<string> {
-  const response = await retry(async () => {
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 20_000);
-    try {
-      const result = await requestFetch(url, {
-        headers: {
-          accept: "text/html,application/xhtml+xml",
-          "user-agent": "DofusGuideScraper/0.1.0 (local AI summary client; one request per quest)",
-        },
-        signal: controller.signal,
-      });
-      if (!result.ok) throw new SourceHttpError(result.status, url.toString());
-      return result;
-    } finally {
-      clearTimeout(timeout);
-    }
-  }, {
-    maxRetries: 3,
-    shouldRetry: (error) => !(error instanceof SourceHttpError) || error.status === 408 || error.status === 429 || error.status >= 500,
-    onRetry: (_error, retryNumber, delayMs) => console.warn("[dpln] retry " + retryNumber + " in " + delayMs + " ms"),
-  });
-  return response.text();
-}
-
 export async function summarizeQuestGuides(targets: QuestGuideTarget[], options: SummarizeQuestGuidesOptions = {}): Promise<QuestGuideArchive> {
-  const outputPath = path.resolve(options.outputPath ?? "data/generated/quest-summaries.json");
+  const outputPath = path.resolve(options.outputPath ?? "prompt/legacy/quest-summaries.json");
   const archive = await loadArchive(outputPath);
-  const byUrl = new Map(archive.summaries.map((summary) => [assertAllowedSource(summary.sourceUrl).toString(), summary]));
+  const byUrl = new Map(archive.summaries.map((summary) => [assertAllowedDplnSource(summary.sourceUrl).toString(), summary]));
   const requestFetch = options.fetchSource ?? fetch;
   const bestiary = await loadOptionalBestiary(options.bestiaryCatalogPath);
   const concurrency = options.concurrency ?? 1;
   if (!Number.isInteger(concurrency) || concurrency < 1 || concurrency > 3) throw new Error("concurrency must be an integer between 1 and 3");
-  const uniqueTargets = [...new Map(targets.map((target) => [assertAllowedSource(target.sourceUrl).toString(), target])).values()];
+  const uniqueTargets = [...new Map(targets.map((target) => [assertAllowedDplnSource(target.sourceUrl).toString(), target])).values()];
   let processed = 0;
   const failures: Error[] = [];
 
@@ -110,13 +68,13 @@ export async function summarizeQuestGuides(targets: QuestGuideTarget[], options:
 
   for (let batchStart = 0; batchStart < uniqueTargets.length; batchStart += concurrency) {
     const batch = uniqueTargets.slice(batchStart, batchStart + concurrency);
-    const prepared: Array<{ target: QuestGuideTarget; url: URL; article: ReturnType<typeof extractDplnArticle> }> = [];
+    const prepared: Array<{ target: QuestGuideTarget; url: URL; article: Awaited<ReturnType<typeof fetchDplnArticle>> }> = [];
 
     for (const target of batch) {
-      const url = assertAllowedSource(target.sourceUrl);
-      let article: ReturnType<typeof extractDplnArticle>;
+      const url = assertAllowedDplnSource(target.sourceUrl);
+      let article: Awaited<ReturnType<typeof fetchDplnArticle>>;
       try {
-        article = extractDplnArticle(await fetchArticle(url, requestFetch), url.toString());
+        article = await fetchDplnArticle(url.toString(), requestFetch);
       } catch (error) {
         const failure = error instanceof Error ? error : new Error(String(error));
         failures.push(new Error(target.questKey + " · " + url.toString() + ": " + failure.message, { cause: failure }));

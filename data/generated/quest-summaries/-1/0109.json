@@ -1,0 +1,247 @@
+{
+  "version": 2,
+  "guideId": -1,
+  "stepNumber": 109,
+  "updatedAt": "2026-08-27T12:55:03.630Z",
+  "summaries": [
+    {
+      "overview": "Enquête sur la disparition d'un marchand de vin à Bonta. Parlez aux témoins, suivez la piste d'une Épée étrange, puis affrontez le Rat Blanc dans son donjon pour récupérer le Grelot d'Hersa et obtenir des informations.",
+      "recommendedLevel": 111,
+      "prerequisites": [
+        "Quête « C'est stupéfiant » terminée"
+      ],
+      "rewards": [
+        "6 334 872 XP"
+      ],
+      "preparation": [
+        "1 x Donjon des Rats de Bonta (accès requis)"
+      ],
+      "actions": [
+        {
+          "instruction": "Se rendre à la Milice en [-32,-57] et parler à Amayiro. Il vous informe de la disparition du marchand de vin et vous charge d'enquêter.",
+          "position": "[-32,-57]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller à la Taverne de la Bagrutte en [-29,-59] et parler à Bagrutta Ventrepierre. Elle vous apprend que le marchand est rentré chez lui vers l'Est après son passage.",
+          "position": "[-29,-59]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sortir de la taverne et parler à Tertofi Ablaru qui vous interpelle. Il vous montre des traces de combat et une Épée étrange trouvée sur les lieux.",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Se rendre à l'atelier des forgerons en [-30,-56] et montrer l'Épée étrange à Kosuke Ichazum. Il identifie l'arme comme appartenant probablement à un Ecaflip.",
+          "position": "[-30,-56]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Aller à la sortie Sud de Bonta en [-30,-53] et parler à Hersa Griffe Sombre. Elle accepte de partager ses informations en échange de la récupération de son grelot, volé par les sbires du Rat Blanc.",
+          "position": "[-30,-53]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrer dans les égouts par l'accès en [-32,-58] ou [-35,-55].",
+          "position": "[-32,-58]",
+          "zoneHint": "Égouts",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrer dans le Donjon des Rats de Bonta en [-34,-59], vaincre le Rat Blanc et récupérer le Grelot d'Hersa.",
+          "position": "[-34,-59]",
+          "zoneHint": "Donjon des Rats de Bonta",
+          "warning": "Combat de groupe contre le Rat Blanc. Nécessite l'accès au Donjon des Rats de Bonta.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourner voir Hersa Griffe Sombre en [-30,-53] et lui rapporter le Grelot d'Hersa. Elle vous révèle avoir déjà vu des Ecaflips étrangers à Bonta posséder ce type d'épée.",
+          "position": "[-30,-53]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner voir Amayiro en [-32,-57] et lui résumer les éléments recueillis pour terminer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [],
+      "npcs": [
+        "Amayiro",
+        "Bagrutta Ventrepierre",
+        "Tertofi Ablaru",
+        "Kosuke Ichazum",
+        "Hersa Griffe Sombre",
+        "Rat Blanc"
+      ],
+      "items": [
+        {
+          "name": "Épée étrange",
+          "itemId": 9070,
+          "imageUrl": "/items/9070.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9070"
+        },
+        {
+          "name": "Grelot d'Hersa",
+          "itemId": 17061,
+          "imageUrl": "/items/17061.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17061"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57",
+              "-32,-58"
+            ]
+          },
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-30,-56",
+              "-30,-53"
+            ]
+          },
+          {
+            "id": 974,
+            "name": "Havres d'ivoire",
+            "coordinates": [
+              "-35,-55"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 976,
+            "name": "Promontoire des cieux",
+            "coordinates": [
+              "-34,-59"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "-29,-59"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:126",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/vin-diou.html",
+      "sourceTitle": "Alignement 41 : Vin Diou",
+      "sourceHash": "5ab04cbff64d595d728679fd4b04d6f274e3c0178bdb192b5c9c358f29069b9d",
+      "generatedAt": "2026-08-24T18:09:04.879Z",
+      "model": "cline-pass/deepseek-v4-pro"
+    }
+  ],
+  "tips": []
+}
