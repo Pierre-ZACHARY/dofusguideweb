@@ -2,7 +2,613 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 55,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-27T13:23:43.675Z",
+  "summaries": [
+    {
+      "overview": "Après les révélations de la quête précédente, Otomaï vous charge de restaurer la prison d'ambre créée par Terrakourial et de préparer votre résistance au souffle du dragon. Cette partie consiste à obtenir l'Anneau Ocre, récupérer puis purifier de l'Ambre antédiluvien dans la Grotte Hesque, puis interroger Hell Munster au sujet de l'ambre enchanté. La quête se termine auprès de Hell Munster et permet d'enchaîner avec Comme un corbac sur sa branche.",
+      "recommendedLevel": 50,
+      "prerequisites": [
+        "La raison du plus fort."
+      ],
+      "rewards": [
+        "489 037 XP.",
+        "8 352 Kamas.",
+        "3 x Truk divin."
+      ],
+      "preparation": [
+        "Prévoir 1 x Donjon Grotte Hesque.",
+        "Une Potion d'Otomaï peut servir à rejoindre directement Otomaï si vous en possédez une.",
+        "Prévoir un emplacement d'anneau pour équiper temporairement l'Anneau Ocre au moment de purifier l'ambre."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Otomaï tout en haut de l'arbre Hakam et annoncez-lui que ses craintes concernant le mal endormi étaient fondées. Résumez les informations obtenues précédemment. Il vous confie alors 1 x Anneau Ocre, nécessaire pour purifier les ambres.",
+          "position": "[-55,-15]",
+          "zoneHint": "Village de la Canopée",
+          "warning": "La position de lancement indiquée dans les métadonnées de la source est [-55,15], tandis que le parcours détaillé indique [-55,-15].",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous dans le donjon Grotte Hesque et vainquez le Corailleur Magistral.",
+          "position": "[-59,15]",
+          "zoneHint": "Grotte Hesque",
+          "warning": "Ne quittez pas le donjon après avoir vaincu le Corailleur Magistral : un objet doit encore être récupéré dans la salle.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Avant de sortir de la Grotte Hesque, cliquez sur l'un des gros coraux situés à droite afin d'obtenir 1 x Ambre antédiluvien.",
+          "position": "[-59,15]",
+          "zoneHint": "Grotte Hesque",
+          "warning": "Cette interaction doit être faite avant de quitter le donjon.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Équipez l'Anneau Ocre à la place de l'un de vos anneaux, puis double-cliquez sur l'Ambre antédiluvien dans votre inventaire de quête. Vous obtenez 1 x Ambre rouge purifié.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "L'Anneau Ocre doit être équipé au moment d'utiliser l'Ambre antédiluvien.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir Hell Munster et évoquez l'ambre enchanté. Il explique qu'il ne peut pas s'occuper lui-même de sa fabrication et vous oriente vers un sorcier capable de préparer cet ambre.",
+          "position": "[-5,-13]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Terminez l'échange avec Hell Munster. La quête Après lui, le déluge s'achève ; en poursuivant la conversation, vous pouvez débloquer Comme un corbac sur sa branche.",
+          "position": "[-5,-13]",
+          "zoneHint": null,
+          "warning": "Comme un corbac sur sa branche appartient à la suite de la chaîne et ne doit être lancée qu'après avoir terminé cette quête.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "L'Anneau Ocre reste utile dans la suite de la chaîne pour purifier les différents ambres.",
+        "L'Ambre rouge purifié est destiné à la restauration du sceau de Terrakourial.",
+        "Le parcours détaillé de la source place Otomaï en [-55,-15], alors que les métadonnées de lancement mentionnent [-55,15]."
+      ],
+      "npcs": [
+        "Otomaï",
+        "Hell Munster",
+        "Corailleur Magistral"
+      ],
+      "items": [
+        {
+          "name": "Anneau Ocre",
+          "itemId": 26366,
+          "imageUrl": "/items/26366.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26366"
+        },
+        {
+          "name": "Ambre antédiluvien",
+          "itemId": 26365,
+          "imageUrl": "/items/26365.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26365"
+        },
+        {
+          "name": "Ambre rouge purifié",
+          "itemId": 26367,
+          "imageUrl": "/items/26367.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26367"
+        },
+        {
+          "name": "Potion d'Otomaï",
+          "itemId": 26362,
+          "imageUrl": "/items/26362.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26362"
+        },
+        {
+          "name": "Truk divin",
+          "itemId": 26264,
+          "imageUrl": "/items/26264.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26264"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 33,
+            "name": "Bois des Arak-haï",
+            "coordinates": [
+              "-5,-13"
+            ]
+          },
+          {
+            "id": 460,
+            "name": "Grotte Hesque",
+            "coordinates": [
+              "-59,15"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-5,-13"
+            ]
+          },
+          {
+            "id": 469,
+            "name": "Village de la Canopée",
+            "coordinates": [
+              "-55,-15",
+              "-55,15"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 5076,
+            "name": "Darma",
+            "level": 140,
+            "imageUrl": "/bestiary/monsters/5076.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2562,
+            "name": "Diskord le Belliqueux",
+            "level": 114,
+            "imageUrl": "/bestiary/monsters/2562.png"
+          },
+          {
+            "id": 2566,
+            "name": "Gastroth la Contagieuse",
+            "level": 117,
+            "imageUrl": "/bestiary/monsters/2566.png"
+          },
+          {
+            "id": 2569,
+            "name": "Guerumoth le Collant",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/2569.png"
+          },
+          {
+            "id": 2587,
+            "name": "Seripoth l'Ennemi",
+            "level": 123,
+            "imageUrl": "/bestiary/monsters/2587.png"
+          },
+          {
+            "id": 2578,
+            "name": "Don Kizoth l'Obstiné",
+            "level": 126,
+            "imageUrl": "/bestiary/monsters/2578.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 159,
+                "name": "Milimulou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/159.png"
+              }
+            ]
+          },
+          {
+            "id": 1196,
+            "name": "Arak-haï",
+            "monsters": [
+              {
+                "id": 3992,
+                "name": "Dardalaine",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3992.png"
+              },
+              {
+                "id": 3993,
+                "name": "Néfileuse",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3993.png"
+              },
+              {
+                "id": 3994,
+                "name": "Saltik",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3994.png"
+              },
+              {
+                "id": 3995,
+                "name": "Gargantûl",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3995.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 259,
+                "name": "Arakne Majeure",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/259.png"
+              }
+            ]
+          },
+          {
+            "id": 191,
+            "name": "Chafers d'Amakna",
+            "monsters": [
+              {
+                "id": 110,
+                "name": "Chafer Invisible",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/110.png"
+              }
+            ]
+          },
+          {
+            "id": 9048,
+            "name": "Chafers des cités",
+            "monsters": [
+              {
+                "id": 291,
+                "name": "Chafer Archer",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/291.png"
+              },
+              {
+                "id": 292,
+                "name": "Chafer d'Élite",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/292.png"
+              },
+              {
+                "id": 290,
+                "name": "Chafer Lancier",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/290.png"
+              }
+            ]
+          },
+          {
+            "id": 165,
+            "name": "Colonie du Magistral",
+            "monsters": [
+              {
+                "id": 1022,
+                "name": "Corailleur",
+                "level": 38,
+                "imageUrl": "/bestiary/monsters/1022.png"
+              },
+              {
+                "id": 1060,
+                "name": "Crustorail Kouraçao",
+                "level": 36,
+                "imageUrl": "/bestiary/monsters/1060.png"
+              },
+              {
+                "id": 1061,
+                "name": "Crustorail Malibout",
+                "level": 36,
+                "imageUrl": "/bestiary/monsters/1061.png"
+              },
+              {
+                "id": 1063,
+                "name": "Crustorail Morito",
+                "level": 36,
+                "imageUrl": "/bestiary/monsters/1063.png"
+              },
+              {
+                "id": 1062,
+                "name": "Crustorail Passaoh",
+                "level": 36,
+                "imageUrl": "/bestiary/monsters/1062.png"
+              },
+              {
+                "id": 1064,
+                "name": "Palmifleur Kouraçao",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/1064.png"
+              },
+              {
+                "id": 1065,
+                "name": "Palmifleur Malibout",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/1065.png"
+              },
+              {
+                "id": 1067,
+                "name": "Palmifleur Morito",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/1067.png"
+              },
+              {
+                "id": 1066,
+                "name": "Palmifleur Passaoh",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/1066.png"
+              }
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Mulous",
+            "monsters": [
+              {
+                "id": 102,
+                "name": "Mulou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/102.png"
+              }
+            ]
+          },
+          {
+            "id": 1067,
+            "name": "Zoths",
+            "monsters": [
+              {
+                "id": 1055,
+                "name": "Disciple Zoth",
+                "level": 114,
+                "imageUrl": "/bestiary/monsters/1055.png"
+              },
+              {
+                "id": 1053,
+                "name": "Gamine Zoth",
+                "level": 117,
+                "imageUrl": "/bestiary/monsters/1053.png"
+              },
+              {
+                "id": 1054,
+                "name": "Guerrier Zoth",
+                "level": 120,
+                "imageUrl": "/bestiary/monsters/1054.png"
+              },
+              {
+                "id": 1056,
+                "name": "Sergent Zoth",
+                "level": 123,
+                "imageUrl": "/bestiary/monsters/1056.png"
+              },
+              {
+                "id": 1052,
+                "name": "Maître Zoth",
+                "level": 126,
+                "imageUrl": "/bestiary/monsters/1052.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1404",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/apres-lui-le-deluge.html",
+      "sourceTitle": "Après lui, le déluge",
+      "sourceHash": "b1209ec90c44c63634056706b7bc56b3db5a5f6b8a8708e3b2f330deadd86755",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Amayiro vous envoie inspecter la Foire du Trool afin de vérifier qu'elle ne sert pas de couverture à un campement Brâkmarien. Après avoir fait remplir un formulaire de contrôle par Leonzi Trool, vous devez retourner à la foire chercher un souvenir pour le neveu d'Amayiro. La voyante Yova Etna vous oriente finalement vers Maxims, auprès de qui vous achetez un Burger de Trool avant de le rapporter à Amayiro.",
+      "recommendedLevel": 48,
+      "prerequisites": [
+        "L'élite squelettique."
+      ],
+      "rewards": [
+        "335 958 XP."
+      ],
+      "preparation": [
+        "La source indique de prévoir 700 kamas.",
+        "Prévoir 1 x Ticket de la Foire du Trool.",
+        "Le Ticket de la Foire du Trool coûte 500 kamas auprès de la Vendeuse de Tickets.",
+        "Le Burger de Trool coûte 600 kamas auprès de Maxims."
+      ],
+      "actions": [
+        {
+          "instruction": "Dans la milice de Bonta, parlez à Amayiro pour recevoir la mission d'inspection de la Foire du Trool.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montez les escaliers de la milice, puis entrez dans la salle de droite et parlez à Ture Inge afin d'obtenir le formulaire 243 destiné à détecter les Brâkmariens.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à la Foire du Trool et demandez à Leonzi Trool de remplir le formulaire 243.",
+          "position": "[-11,-37]",
+          "zoneHint": "Foire du Trool",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès d'Amayiro et remettez-lui le formulaire rempli. Il vous demande alors de repartir à la foire pour rapporter un souvenir destiné à son neveu.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Leonzi Trool et demandez-lui quel souvenir pourrait convenir au neveu d'Amayiro. Il vous conseille d'interroger la voyante de la foire.",
+          "position": "[-11,-37]",
+          "zoneHint": "Foire du Trool",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Achetez 1 x Ticket de la Foire du Trool auprès de la Vendeuse de Tickets.",
+          "position": "[-11,-36]",
+          "zoneHint": "Foire du Trool",
+          "warning": "Dépense obligatoire de 500 kamas pour obtenir le Ticket de la Foire du Trool nécessaire à la consultation de Yova Etna.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la tente de Yova Etna, posez-lui des questions diverses, demandez quel souvenir plairait au neveu d'Amayiro, puis consultez le plan de la foire pour localiser Maxims.",
+          "position": "[-9,-40]",
+          "zoneHint": "Foire du Trool",
+          "warning": "Vous devez disposer de 1 x Ticket de la Foire du Trool pour pouvoir lui parler dans le cadre de cette quête.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir Maxims et achetez-lui 1 x Burger de Trool.",
+          "position": "[-10,-38]",
+          "zoneHint": "Foire du Trool",
+          "warning": "Dépense obligatoire de 600 kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès d'Amayiro et donnez-lui le Burger de Trool. Il refuse finalement de le donner à son neveu et le mange lui-même, ce qui termine la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": "La fin de cette quête débloque l'Alignement 19 : Le Tabi d'Amayiro.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La source annonce 700 kamas à prévoir, mais les deux achats explicitement détaillés sont de 500 kamas pour le Ticket de la Foire du Trool et de 600 kamas pour le Burger de Trool.",
+        "Cette quête est l'Alignement 18 et précède directement l'Alignement 19 : Le Tabi d'Amayiro."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Ture Inge",
+        "Leonzi Trool",
+        "Vendeuse de Tickets",
+        "Yova Etna",
+        "Maxims"
+      ],
+      "items": [
+        {
+          "name": "Formulaire 243",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Ticket de la Foire du Trool",
+          "itemId": 30328,
+          "imageUrl": "/items/30328.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/30328"
+        },
+        {
+          "name": "Burger de Trool",
+          "itemId": 6669,
+          "imageUrl": "/items/6669.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6669"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 84,
+            "name": "Foire du Trool",
+            "coordinates": [
+              "-11,-37",
+              "-11,-36",
+              "-9,-40",
+              "-10,-38"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:20",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-foire-du-trool-suspecteacutee.html",
+      "sourceTitle": "Alignement 18 : La foire du Trool suspectée",
+      "sourceHash": "ecc575014c7ff3624e29f1b4c9b12e2c01eeab575b9cd6dde15fc33f9f37176f",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

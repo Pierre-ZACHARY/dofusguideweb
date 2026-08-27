@@ -43,10 +43,10 @@ export function webPlugins(command: string, pages = prerenderPages()) {
           enabled: true,
           autoStaticPathsDiscovery: false,
           crawlLinks: false,
-          // Each rendered route loads the generated JSON through the preview
-          // server. Keeping two slots free prevents the outer prerender queue
-          // from starving those nested asset requests on slower CI runners.
-          concurrency: 2,
+          // Each rendered route loads generated JSON through the preview
+          // server. Buildx runs amd64 and arm64 builds in parallel, so keeping
+          // each prerender queue serial avoids starving those nested requests.
+          concurrency: 1,
           failOnError: true,
           retryCount: 0,
         },

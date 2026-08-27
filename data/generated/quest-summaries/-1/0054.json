@@ -2,7 +2,700 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 54,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-27T13:23:42.384Z",
+  "summaries": [
+    {
+      "overview": "La quête ayant été lancée à l'étape précédente, terminez l'enquête confiée par Otomaï sur les événements de la Forêt Maléfique. Vous devrez retrouver l'assistant de Bworknroll, passer par l'Akadémie des Gobs puis la base des Justiciers, combattre seul à deux reprises et finalement rejoindre Jykel et Otomaï.",
+      "recommendedLevel": 40,
+      "prerequisites": [
+        "Le Dofus et l'alchimiste.",
+        "L'éternelle moisson doit être lancée.",
+        "Protéger et sévir doit être terminée pour accéder à la base des Justiciers.",
+        "Attention à la Bête ! doit être terminée pour pouvoir poursuivre auprès de Jykel."
+      ],
+      "rewards": [
+        "305 121 XP.",
+        "5 712 Kamas.",
+        "1 x Potion d'Otomaï."
+      ],
+      "preparation": [
+        "Prévoir 1 x Donjon Akadémie des Gobs.",
+        "Prévoir 2 combats à effectuer seul."
+      ],
+      "actions": [
+        {
+          "instruction": "Rendez-vous dans le Village des Bworks, entrez dans la grotte en forme de crâne puis prenez le passage à gauche pour parler à Bworknroll et l'interroger sur les Bworks chassés de la Forêt Maléfique. Il vous indique que son assistant est parti enquêter au campement des Gobelins.",
+          "position": "[-5,10]",
+          "zoneHint": "Village des Bworks",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans le donjon Akadémie des Gobs et vainquez le Directeur Grunob.",
+          "position": "[-5,3]",
+          "zoneHint": "Akadémie des Gobs",
+          "warning": "Le donjon doit être terminé pour poursuivre la quête.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, parlez au Directeur Grunob, expliquez que vous recherchez l'assistant de Bworknroll et récupérez le Carnet de Jykel.",
+          "position": "[-5,3]",
+          "zoneHint": "Akadémie des Gobs",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ouvrez le Carnet de Jykel depuis l'inventaire de quête afin d'apprendre que Jykel est passé par la base des Justiciers.",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à la base des Justiciers, entrez puis descendez au sous-sol. Parlez à Bwodigardh et cherchez ensuite Jykel dans la salle située à droite.",
+          "position": "[4,4]",
+          "zoneHint": "Base des Justiciers",
+          "warning": "L'accès nécessite d'avoir terminé Protéger et sévir. Pour poursuivre avec Jykel, Attention à la Bête ! doit également être terminée.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Remettez son carnet à Jykel, puis demandez-lui de vous permettre d'interroger le Bwork capturé. Parlez ensuite à Bwodigardh lorsque Jykel lui rebranche le cerveau.",
+          "position": "[4,4]",
+          "zoneHint": "Base des Justiciers",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Affrontez seul Bwodigardh après la remise en fonctionnement de son cerveau.",
+          "position": "[4,4]",
+          "zoneHint": "Base des Justiciers",
+          "warning": "Combat obligatoire en solo. Bwodigardh peut augmenter ses dommages finaux, appliquer de l'érosion et frapper à distance sans ligne de vue.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après le combat, reparlez à Bwodigardh puis à Jykel. Lorsque la plasmogrine a permis au Bwork de retrouver la parole, interrogez-le sur la Forêt Maléfique afin d'apprendre que le Dark Vlad et Hell Mina cherchent à libérer le mal enfermé par Terrakourial.",
+          "position": "[4,4]",
+          "zoneHint": "Base des Justiciers",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez de nouveau à Jykel. Il vous confie une Potion de Jykel et vous demande de remettre à Bworknroll le cerveau de son Bwork en prétendant qu'il s'agit de celui de Jykel.",
+          "position": "[4,4]",
+          "zoneHint": "Base des Justiciers",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez dans la grotte du Village des Bworks, prenez le passage à gauche et remettez le cerveau à Bworknroll en lui faisant croire qu'il s'agit du prélèvement demandé.",
+          "position": "[-5,10]",
+          "zoneHint": "Village des Bworks",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Utilisez la Potion de Jykel depuis votre inventaire de quête pour vous téléporter auprès de Jykel dans l'Arbre Hakam.",
+          "position": null,
+          "zoneHint": "Arbre Hakam",
+          "warning": "La Potion de Jykel est consommée pour effectuer cette téléportation.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À votre arrivée, défendez Jykel contre les oiseaux lors d'un combat à effectuer seul.",
+          "position": null,
+          "zoneHint": "Arbre Hakam",
+          "warning": "Combat obligatoire en solo. Les adversaires peuvent échanger leur position avec leur cible, repousser, augmenter leurs dommages et retirer de la portée.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Reparlez à Jykel après le combat puis acceptez de boire le nouveau flacon qu'il vous tend afin d'être téléporté dans la cabane d'Otomaï.",
+          "position": null,
+          "zoneHint": "Arbre Hakam",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la cabane d'Otomaï, parlez à Jykel et assistez à la présentation de ses recherches sur les archiklônes. Cette conversation termine La raison du plus fort et débloque Après lui, le déluge.",
+          "position": "[-55,15]",
+          "zoneHint": "Cabane d'Otomaï",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Une conversation facultative avec le Chef Bwrokestre en [-6,8] ajoute uniquement des éléments de lore et n'est pas nécessaire à la progression.",
+        "À l'Akadémie des Gobs, si vous avancez aussi De joyeux petits arbres, ne quittez pas immédiatement le donjon après avoir obtenu le Carnet de Jykel : choisissez de rester afin d'effectuer les interactions nécessaires à cette autre quête.",
+        "La Potion d'Otomaï obtenue en récompense permet ensuite de se téléporter directement devant Otomaï et ne peut être utilisée qu'après avoir terminé cette quête."
+      ],
+      "npcs": [
+        "Otomaï",
+        "Bworknroll",
+        "Directeur Grunob",
+        "Bwodigardh",
+        "Jykel",
+        "Chef Bwrokestre"
+      ],
+      "items": [
+        {
+          "name": "Carnet de Jykel",
+          "itemId": 26669,
+          "imageUrl": "/items/26669.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26669"
+        },
+        {
+          "name": "Potion de Jykel",
+          "itemId": 26364,
+          "imageUrl": "/items/26364.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26364"
+        },
+        {
+          "name": "Potion d'Otomaï",
+          "itemId": 26362,
+          "imageUrl": "/items/26362.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26362"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 1018,
+            "name": "Akadémie des Gobs",
+            "coordinates": [
+              "-5,3"
+            ]
+          },
+          {
+            "id": 812,
+            "name": "Base des Justiciers",
+            "coordinates": [
+              "4,4"
+            ]
+          },
+          {
+            "id": 455,
+            "name": "Jungle obscure",
+            "coordinates": [
+              "-55,15"
+            ]
+          },
+          {
+            "id": 277,
+            "name": "Village des Bworks",
+            "coordinates": [
+              "-5,10"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3528,
+            "name": "Amy l'empoisonneuse",
+            "level": 140,
+            "imageUrl": "/bestiary/monsters/3528.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2417,
+            "name": "Barchwork le Multicolore",
+            "level": 37,
+            "imageUrl": "/bestiary/monsters/2417.png"
+          },
+          {
+            "id": 2416,
+            "name": "Bworkasse le Dégoutant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2416.png"
+          },
+          {
+            "id": 2418,
+            "name": "Bwormage le Respectueux",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2418.png"
+          },
+          {
+            "id": 2554,
+            "name": "Chiendanlémin l'Illusionniste",
+            "level": 125,
+            "imageUrl": "/bestiary/monsters/2554.png"
+          },
+          {
+            "id": 2579,
+            "name": "Nerdeubeu le Flagellant",
+            "level": 126,
+            "imageUrl": "/bestiary/monsters/2579.png"
+          },
+          {
+            "id": 2550,
+            "name": "Brouste l'Humiliant",
+            "level": 127,
+            "imageUrl": "/bestiary/monsters/2550.png"
+          },
+          {
+            "id": 2360,
+            "name": "Ecorfé la Vive",
+            "level": 128,
+            "imageUrl": "/bestiary/monsters/2360.png"
+          },
+          {
+            "id": 2565,
+            "name": "Floanna la Blonde",
+            "level": 129,
+            "imageUrl": "/bestiary/monsters/2565.png"
+          },
+          {
+            "id": 2546,
+            "name": "Bitoven le Musicien",
+            "level": 130,
+            "imageUrl": "/bestiary/monsters/2546.png"
+          },
+          {
+            "id": 2544,
+            "name": "Abrakine le Sombre",
+            "level": 131,
+            "imageUrl": "/bestiary/monsters/2544.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 182,
+            "name": "Bworks d'Amakna",
+            "monsters": [
+              {
+                "id": 876,
+                "name": "Bwork",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/876.png"
+              },
+              {
+                "id": 74,
+                "name": "Bwork Archer",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/74.png"
+              },
+              {
+                "id": 53,
+                "name": "Bwork Mage",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/53.png"
+              }
+            ]
+          },
+          {
+            "id": 164,
+            "name": "Florifaune obscure",
+            "monsters": [
+              {
+                "id": 1077,
+                "name": "Abrakleur Sombre",
+                "level": 131,
+                "imageUrl": "/bestiary/monsters/1077.png"
+              },
+              {
+                "id": 1041,
+                "name": "Bitouf Sombre",
+                "level": 130,
+                "imageUrl": "/bestiary/monsters/1041.png"
+              },
+              {
+                "id": 1073,
+                "name": "Brouture",
+                "level": 127,
+                "imageUrl": "/bestiary/monsters/1073.png"
+              },
+              {
+                "id": 1076,
+                "name": "Chiendent",
+                "level": 125,
+                "imageUrl": "/bestiary/monsters/1076.png"
+              },
+              {
+                "id": 1029,
+                "name": "Floribonde",
+                "level": 129,
+                "imageUrl": "/bestiary/monsters/1029.png"
+              },
+              {
+                "id": 1075,
+                "name": "Fécorce",
+                "level": 128,
+                "imageUrl": "/bestiary/monsters/1075.png"
+              },
+              {
+                "id": 1074,
+                "name": "Nerbe",
+                "level": 126,
+                "imageUrl": "/bestiary/monsters/1074.png"
+              }
+            ]
+          },
+          {
+            "id": 187,
+            "name": "Gobelins d'Amakna",
+            "monsters": [
+              {
+                "id": 178,
+                "name": "Gobet",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/178.png"
+              },
+              {
+                "id": 62,
+                "name": "Gob-trotteur",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/62.png"
+              },
+              {
+                "id": 6902,
+                "name": "Gobaladée",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/6902.png"
+              },
+              {
+                "id": 6901,
+                "name": "Gobaliste",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/6901.png"
+              },
+              {
+                "id": 6900,
+                "name": "Gobichon",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/6900.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1403",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-raison-du-plus-fort.html",
+      "sourceTitle": "La raison du plus fort",
+      "sourceHash": "05b543618bc0c39e6828b49a607231e06d4716d6ccddf7dcfbdd36a5cb597b2a",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez la suite de La raison du plus fort auprès d'Otomaï. À cette étape du guide, il s'agit d'ouvrir la quête et de recevoir l'Anneau Ocre qui servira ensuite à purifier les ambres nécessaires pour réparer le sceau de Terrakourial.",
+      "recommendedLevel": 50,
+      "prerequisites": [
+        "La raison du plus fort."
+      ],
+      "rewards": [
+        "489 037 XP.",
+        "8 352 Kamas.",
+        "3 x Truk divin."
+      ],
+      "preparation": [
+        "La suite de la quête nécessitera 1 x Donjon Grotte Hesque."
+      ],
+      "actions": [
+        {
+          "instruction": "Après avoir terminé La raison du plus fort, parlez à Otomaï au Village de la Canopée et annoncez-lui que ses craintes au sujet du mal endormi étaient fondées. Résumez les informations obtenues auprès du Bwork pour lancer Après lui, le déluge.",
+          "position": "[-55,15]",
+          "zoneHint": "Village de la Canopée",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Poursuivez la conversation avec Otomaï afin de recevoir l'Anneau Ocre. Conservez-le : il sera utilisé plus tard pour purifier les différents ambres nécessaires à la réparation du sceau de Terrakourial.",
+          "position": "[-55,15]",
+          "zoneHint": "Village de la Canopée",
+          "warning": "Ne perdez pas de vue l'Anneau Ocre : il est nécessaire pour les étapes suivantes de cette série.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête se poursuit lors d'une étape suivante du guide ; ne cherchez pas à la terminer pendant cette étape.",
+        "Une Potion d'Otomaï, obtenue en terminant La raison du plus fort, peut servir à rejoindre directement Otomaï."
+      ],
+      "npcs": [
+        "Otomaï"
+      ],
+      "items": [
+        {
+          "name": "Anneau Ocre",
+          "itemId": 26366,
+          "imageUrl": "/items/26366.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26366"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 469,
+            "name": "Village de la Canopée",
+            "coordinates": [
+              "-55,15"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 5076,
+            "name": "Darma",
+            "level": 140,
+            "imageUrl": "/bestiary/monsters/5076.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2562,
+            "name": "Diskord le Belliqueux",
+            "level": 114,
+            "imageUrl": "/bestiary/monsters/2562.png"
+          },
+          {
+            "id": 2566,
+            "name": "Gastroth la Contagieuse",
+            "level": 117,
+            "imageUrl": "/bestiary/monsters/2566.png"
+          },
+          {
+            "id": 2569,
+            "name": "Guerumoth le Collant",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/2569.png"
+          },
+          {
+            "id": 2587,
+            "name": "Seripoth l'Ennemi",
+            "level": 123,
+            "imageUrl": "/bestiary/monsters/2587.png"
+          },
+          {
+            "id": 2578,
+            "name": "Don Kizoth l'Obstiné",
+            "level": 126,
+            "imageUrl": "/bestiary/monsters/2578.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1067,
+            "name": "Zoths",
+            "monsters": [
+              {
+                "id": 1055,
+                "name": "Disciple Zoth",
+                "level": 114,
+                "imageUrl": "/bestiary/monsters/1055.png"
+              },
+              {
+                "id": 1053,
+                "name": "Gamine Zoth",
+                "level": 117,
+                "imageUrl": "/bestiary/monsters/1053.png"
+              },
+              {
+                "id": 1054,
+                "name": "Guerrier Zoth",
+                "level": 120,
+                "imageUrl": "/bestiary/monsters/1054.png"
+              },
+              {
+                "id": 1056,
+                "name": "Sergent Zoth",
+                "level": 123,
+                "imageUrl": "/bestiary/monsters/1056.png"
+              },
+              {
+                "id": 1052,
+                "name": "Maître Zoth",
+                "level": 126,
+                "imageUrl": "/bestiary/monsters/1052.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1404",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/apres-lui-le-deluge.html",
+      "sourceTitle": "Après lui, le déluge",
+      "sourceHash": "b1209ec90c44c63634056706b7bc56b3db5a5f6b8a8708e3b2f330deadd86755",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez la longue série de chasses de Crocodaille Dandi. La quête demandera progressivement de vaincre une fois chaque monstre de plusieurs zones de l'île d'Otomaï, de la Plage de Corail jusqu'au Tronc de l'Arbre Hakam. À cette étape, il suffit de l'activer afin que les futurs combats puissent compter pour sa progression.",
+      "recommendedLevel": 50,
+      "prerequisites": [],
+      "rewards": [
+        "5 956 565 XP.",
+        "68 625 kamas.",
+        "1 x Coccyx du Corailleur.",
+        "3 x Aile du Bitouf des Plaines.",
+        "3 x Étoffe de Ouassingue.",
+        "4 x Graine de l'Abrakleur sombre.",
+        "5 x Étoffe du Roissingue."
+      ],
+      "preparation": [
+        "Prévoir de nombreux combats contre les monstres de différentes zones de l'île d'Otomaï."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Crocodaille Dandi au Village de Canopée pour accepter sa mission de régulation des créatures de l'île et lancer Les Chasses de Crocodaille Dandi.",
+          "position": "[-52,17]",
+          "zoneHint": "Village de Canopée",
+          "warning": "La quête couvre de nombreuses zones et demande de vaincre une fois chaque créature ciblée ; lancez-la avant vos futurs déplacements et combats sur l'île afin que ceux-ci puissent faire progresser la chasse.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La première chasse concerne la Plage de Corail : Coraileur, Crustorail Kouraçao, Crustorail Malibout, Crustorail Morito, Crustorail Passaoh, Palmifleur Kouraçao, Palmifleur Malibout, Palmifleur Morito et Palmifleur Passaoh.",
+        "La deuxième chasse concerne les Plaines herbeuses : Bitouf des Plaines, Craqueboule Poli, Craqueleur Poli, Kido, Kilibriss et Mufafah.",
+        "La troisième chasse concerne la Tourbière sans fond et la Tourbière nauséabonde : Bourbassingue, Roissingue et Tourbassingue. L'accès à la Tourbière sans fond nécessite Le Gardien du Pont de la Mort.",
+        "La quatrième chasse concerne la Jungle obscure : Abrakleur Sombre, Bitouf Sombre, Brouture, Chiendent, Floribonde, Fécorce et Nerbe.",
+        "La cinquième chasse concerne le Tronc de l'arbre Hakam : Abrakleur Clair, Bitouf Aérien, Kaskargo, Meupette et Poolay. La quête se termine automatiquement après avoir vaincu les dernières cibles."
+      ],
+      "npcs": [
+        "Crocodaille Dandi"
+      ],
+      "items": [
+        {
+          "name": "Coccyx du Corailleur",
+          "itemId": 8730,
+          "imageUrl": "/items/8730.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8730"
+        },
+        {
+          "name": "Aile du Bitouf des Plaines",
+          "itemId": 8767,
+          "imageUrl": "/items/8767.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8767"
+        },
+        {
+          "name": "Étoffe de Ouassingue",
+          "itemId": 8801,
+          "imageUrl": "/items/8801.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8801"
+        },
+        {
+          "name": "Graine de l'Abrakleur sombre",
+          "itemId": 8785,
+          "imageUrl": "/items/8785.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8785"
+        },
+        {
+          "name": "Étoffe du Roissingue",
+          "itemId": 8808,
+          "imageUrl": "/items/8808.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8808"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 469,
+            "name": "Village de la Canopée",
+            "coordinates": [
+              "-52,17"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 5076,
+            "name": "Darma",
+            "level": 140,
+            "imageUrl": "/bestiary/monsters/5076.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2562,
+            "name": "Diskord le Belliqueux",
+            "level": 114,
+            "imageUrl": "/bestiary/monsters/2562.png"
+          },
+          {
+            "id": 2566,
+            "name": "Gastroth la Contagieuse",
+            "level": 117,
+            "imageUrl": "/bestiary/monsters/2566.png"
+          },
+          {
+            "id": 2569,
+            "name": "Guerumoth le Collant",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/2569.png"
+          },
+          {
+            "id": 2587,
+            "name": "Seripoth l'Ennemi",
+            "level": 123,
+            "imageUrl": "/bestiary/monsters/2587.png"
+          },
+          {
+            "id": 2578,
+            "name": "Don Kizoth l'Obstiné",
+            "level": 126,
+            "imageUrl": "/bestiary/monsters/2578.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1067,
+            "name": "Zoths",
+            "monsters": [
+              {
+                "id": 1055,
+                "name": "Disciple Zoth",
+                "level": 114,
+                "imageUrl": "/bestiary/monsters/1055.png"
+              },
+              {
+                "id": 1053,
+                "name": "Gamine Zoth",
+                "level": 117,
+                "imageUrl": "/bestiary/monsters/1053.png"
+              },
+              {
+                "id": 1054,
+                "name": "Guerrier Zoth",
+                "level": 120,
+                "imageUrl": "/bestiary/monsters/1054.png"
+              },
+              {
+                "id": 1056,
+                "name": "Sergent Zoth",
+                "level": 123,
+                "imageUrl": "/bestiary/monsters/1056.png"
+              },
+              {
+                "id": 1052,
+                "name": "Maître Zoth",
+                "level": 126,
+                "imageUrl": "/bestiary/monsters/1052.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:113",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/les-chasses-de-crocodaille-dandi.html",
+      "sourceTitle": "Les Chasses de Crocodaille Dandi",
+      "sourceHash": "0b6456f8bfb8d7942b1aeb1787534316ec130d09d981dbed18eacff2be5e4bd8",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

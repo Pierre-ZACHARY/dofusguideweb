@@ -2,7 +2,261 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 56,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-27T13:23:44.735Z",
+  "summaries": [
+    {
+      "overview": "Amayiro vous confie la nourriture de son Tabi. Vous devez obtenir une Huile de Blop Royal dans le donjon Clos des Blops et fabriquer une Bouillie de Fleurs de Blop à partir de quatre Bouts de Blop, puis rapporter les deux objets à Amayiro.",
+      "recommendedLevel": 49,
+      "prerequisites": [
+        "Avoir terminé La foire du Trool suspectée."
+      ],
+      "rewards": [
+        "690 595 XP."
+      ],
+      "preparation": [
+        "Prévoir 1 x Donjon Clos des blops.",
+        "Prévoir 1 x Bout de Blop Griotte.",
+        "Prévoir 1 x Bout de Blop Coco.",
+        "Prévoir 1 x Bout de Blop Indigo.",
+        "Prévoir 1 x Bout de Blop Reinette."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Amayiro dans la milice de Bonta pour lancer la quête et accepter de nourrir son Tabi.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": "Cette quête suit directement La foire du Trool suspectée.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au Clos des Blops et affrontez l'un des quatre Blops Royal. L'Huile de Blop Royal est obtenue automatiquement pendant cette étape du donjon.",
+          "position": "[-7,-43]",
+          "zoneHint": "Clos des Blops",
+          "warning": "Un passage par le donjon Clos des Blops est nécessaire.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "À l'atelier des forgemages, utilisez le Concasseur avec l'option « Fusionner des ressources » pour fabriquer 1 x Bouillie de Fleurs de Blop avec 1 x Bout de Blop Reinette, 1 x Bout de Blop Coco, 1 x Bout de Blop Griotte et 1 x Bout de Blop Indigo.",
+          "position": "[-29,-57]",
+          "zoneHint": "atelier des forgemages",
+          "warning": "Les quatre Bouts de Blop sont consommés lors de la fabrication.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Amayiro et remettez-lui la Bouillie de Fleurs de Blop ainsi que l'Huile de Blop Royal pour terminer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La fin de cette quête débloque Alignement 20 : Le fantôme de Tsog."
+      ],
+      "npcs": [
+        "Amayiro"
+      ],
+      "items": [
+        {
+          "name": "Bouillie de Fleurs de Blop",
+          "itemId": 1882,
+          "imageUrl": "/items/1882.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1882"
+        },
+        {
+          "name": "Huile de Blop Royal",
+          "itemId": 16356,
+          "imageUrl": "/items/16356.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16356"
+        },
+        {
+          "name": "Bout de Blop Reinette",
+          "itemId": 1773,
+          "imageUrl": "/items/1773.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1773"
+        },
+        {
+          "name": "Bout de Blop Coco",
+          "itemId": 1770,
+          "imageUrl": "/items/1770.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1770"
+        },
+        {
+          "name": "Bout de Blop Griotte",
+          "itemId": 1775,
+          "imageUrl": "/items/1775.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1775"
+        },
+        {
+          "name": "Bout de Blop Indigo",
+          "itemId": 1777,
+          "imageUrl": "/items/1777.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1777"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 493,
+            "name": "Clos des Blops",
+            "coordinates": [
+              "-7,-43"
+            ]
+          },
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-29,-57"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 210,
+            "name": "Blops",
+            "monsters": [
+              {
+                "id": 273,
+                "name": "Blop Coco",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/273.png"
+              },
+              {
+                "id": 275,
+                "name": "Blop Griotte",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/275.png"
+              },
+              {
+                "id": 274,
+                "name": "Blop Indigo",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/274.png"
+              },
+              {
+                "id": 276,
+                "name": "Blop Reinette",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/276.png"
+              },
+              {
+                "id": 1182,
+                "name": "Blopignon",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/1182.png"
+              },
+              {
+                "id": 1181,
+                "name": "Gloutoblop",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/1181.png"
+              },
+              {
+                "id": 1183,
+                "name": "Tronkoblop",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/1183.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:21",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-tabi-damayiro.html",
+      "sourceTitle": "Alignement 19 : Le Tabi d'Amayiro",
+      "sourceHash": "c54b7fb68f3865aec1add801b2c8ef6155bfd4476b1d9a73673b5afd14fef148",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }
