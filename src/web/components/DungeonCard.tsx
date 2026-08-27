@@ -127,5 +127,5 @@ export function DungeonCard({
       </div>
     </article>
   );
-  return featured ? <div className="featured-dungeon min-w-0 w-full max-w-2xl">{card}</div> : card;
+  return featured ? <div className="aura aura-gold featured-dungeon min-w-0 w-full max-w-2xl">{card}</div> : card;
 }

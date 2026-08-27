@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Focus, Home, PictureInPicture2, Search, X } from "lucide-react";
+import { Focus, Github, Home, MessageCircle, PictureInPicture2, Search, X } from "lucide-react";
 import type { ReactNode } from "react";
 import { useDocumentOverlay } from "./DocumentOverlay.js";
 import { SearchCommand } from "./SearchCommand.js";
@@ -69,6 +69,10 @@ export function AppShell({ children }: Readonly<{ children: ReactNode }>) {
             <a className="link link-hover" href="https://policies.google.com/terms?hl=fr" target="_blank" rel="noreferrer">Conditions d’utilisation de Google</a>
             <span aria-hidden="true">·</span>
             <a className="link link-hover" href="https://policies.google.com/privacy?hl=fr" target="_blank" rel="noreferrer">Règles de confidentialité Google</a>
+          </div>
+          <div className="flex flex-wrap items-center justify-center gap-3">
+            <a className="link link-hover inline-flex items-center gap-1.5" href="https://discord.gg/KDKXGqDdK" target="_blank" rel="noreferrer"><MessageCircle size={14} aria-hidden="true" />Discord de support</a>
+            <a className="link link-hover inline-flex items-center gap-1.5" href="https://github.com/Pierre-ZACHARY/dofusguideweb" target="_blank" rel="noreferrer"><Github size={14} aria-hidden="true" />GitHub</a>
           </div>
         </div>
       </footer>

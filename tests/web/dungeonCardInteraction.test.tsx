@@ -34,16 +34,18 @@ describe("DungeonCard interactions", () => {
 
   it("utilise l’icône pour déplier la description et place la checkbox avec le nom", async () => {
     const user = userEvent.setup();
-    render(
+    const { container } = render(
       <ProgressProvider>
         <DungeonCard element={element} guideId={-1} stepNumber={12} featured />
       </ProgressProvider>,
     );
 
     expect(screen.getAllByRole("checkbox")).toHaveLength(2);
+    expect(container.querySelector(".featured-dungeon")?.classList.contains("aura-gold")).toBe(true);
     expect(screen.queryByText("Deux personnages maximum.")).toBeNull();
     await user.click(screen.getByRole("button", { name: "Afficher la description du succès Duo" }));
     expect(screen.getByText("Deux personnages maximum.")).toBeTruthy();
+    expect(container.querySelector(".featured-dungeon")?.classList.contains("aura-gold")).toBe(true);
     expect(screen.getByRole("button", { name: "Masquer la description du succès Duo" }).getAttribute("aria-expanded")).toBe("true");
     await user.click(screen.getByRole("checkbox", { name: "Valider le succès Duo" }));
     expect(screen.getByText("Duo").className).toContain("line-through");

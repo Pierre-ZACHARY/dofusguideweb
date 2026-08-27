@@ -18,8 +18,6 @@ data/*.sqlite
 data/*.sqlite-*
 data/.*.sqlite*
 !data/dofusguide.sqlite
-data/generated/**
-!data/generated/.gitkeep
 public/generated/dofusguide/
 
 # Pulumi stack configuration stays local. CI receives credentials through

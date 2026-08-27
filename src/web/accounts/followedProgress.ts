@@ -18,10 +18,10 @@ export function followersInChapter(
   followers: FollowedProfile[],
   guideId: number,
   chapter: ChapterDto,
-  steps: StepSummaryDto[],
+  allGuideSteps: StepSummaryDto[],
 ): FollowedProfile[] {
   return followers.filter((profile) => {
-    const step = currentStepForProfile(profile.progress, guideId, steps);
+    const step = currentStepForProfile(profile.progress, guideId, allGuideSteps);
     return step !== null && step >= chapter.startStep && step <= chapter.endStep;
   });
 }

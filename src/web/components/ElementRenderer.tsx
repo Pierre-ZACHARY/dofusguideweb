@@ -1,4 +1,4 @@
-import { ExternalLink, Luggage, Package, Shield, Sparkles } from "lucide-react";
+import { ExternalLink, Luggage, Shield, Sparkles } from "lucide-react";
 import type { GuideElementDto } from "../data/models.js";
 import { extractChapterMarker, extractRecommendedLevelRange } from "../../shared/guideAnalysis.js";
 import { DofusMarkup } from "./DofusMarkup.js";
@@ -26,7 +26,7 @@ export function ElementRenderer({ element, featuredDungeon = false }: Readonly<{
   if (element.type === "DUNGEON") return <DungeonCard element={element} featured={featuredDungeon} />;
 
   const value = asObject(element.value);
-  if (element.type === "ITEMS") return <div className="inline-flex w-fit max-w-full items-center gap-2 rounded-box border border-base-300 bg-base-100 p-2 pr-3 shadow-sm"><ExternalImage src={textValue(value?.image)} alt={textValue(value?.name) ?? "Objet"} className="h-10 w-10 shrink-0 object-contain" /><div className="flex min-w-0 flex-wrap items-center gap-2"><span className="badge badge-accent badge-outline badge-sm gap-1"><Package size={11} aria-hidden="true" />Objet</span><span className="text-sm font-medium">{textValue(value?.name) ?? "Objet inconnu"}</span>{textValue(value?.qte) && <span className="badge badge-ghost badge-sm">x{textValue(value?.qte)}</span>}</div></div>;
+  if (element.type === "ITEMS") return <div className="inline-flex w-fit max-w-full items-center gap-2 rounded-box border border-base-300 bg-base-100 p-2 pr-3 shadow-sm"><ExternalImage src={textValue(value?.image)} alt={textValue(value?.name) ?? "Objet"} className="h-10 w-10 shrink-0 object-contain" /><div className="flex min-w-0 flex-wrap items-center gap-2"><span className="text-sm font-medium">{textValue(value?.name) ?? "Objet inconnu"}</span>{textValue(value?.qte) && <span className="badge badge-ghost badge-sm">x{textValue(value?.qte)}</span>}</div></div>;
   if (element.type === "TRAVEL") return <div className="alert alert-info"><Luggage aria-hidden="true" /><div><p className="font-semibold">{textValue(value?.label) ?? "Déplacement"}</p>{textValue(value?.map) && <p className="text-sm">{textValue(value?.map)}</p>}</div>{textValue(value?.link) && <a className="btn btn-sm" href={textValue(value?.link)!} target="_blank" rel="noreferrer">Ouvrir</a>}</div>;
   if (element.type === "LIEN") return <a className="link link-primary inline-flex items-center gap-2" href={textValue(value?.link) ?? "#"} target="_blank" rel="noreferrer">{textValue(value?.label) ?? "Lien externe"}<ExternalLink size={15} aria-hidden="true" /></a>;
   if (element.type === "CAC" && typeof element.value === "string" && /^cac:\d+$/i.test(element.value.trim())) return null;

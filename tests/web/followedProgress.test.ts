@@ -55,4 +55,14 @@ describe("followed profile positions", () => {
     expect(currentStepForProfile(profile.progress, -1, stepsWithIntroduction)).toBe(2);
     expect(followersInChapter([profile], -1, chapter, stepsWithIntroduction)).toEqual([profile]);
   });
+
+  it("only displays a followed profile in the chapter containing its current step", () => {
+    const profile = friend();
+    profile.progress.steps["-1:1"] = "COMPLETED";
+    profile.progress.steps["-1:2"] = "COMPLETED";
+    const nextChapter = { id: 20, chapterNumber: 2, name: "Suite", levelMin: 20, levelMax: 50, startStep: 3, endStep: 3 };
+
+    expect(followersInChapter([profile], -1, chapter, steps)).toEqual([]);
+    expect(followersInChapter([profile], -1, nextChapter, steps)).toEqual([profile]);
+  });
 });

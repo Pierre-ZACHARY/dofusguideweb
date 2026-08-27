@@ -8,7 +8,7 @@ import { QuestChecklist } from "../components/QuestChecklist.js";
 import { ClassQuestGrid } from "../components/ClassQuestGrid.js";
 import { extractClassQuestGroups } from "../components/classQuestGroups.js";
 import { DungeonCard } from "../components/DungeonCard.js";
-import { getStepData } from "../data/staticContentClient.js";
+import { getGuideData, getStepData } from "../data/staticContentClient.js";
 import { summarizeChapterProgress } from "../progress/chapterProgress.js";
 import { getStepProgress, isObjectiveCompleted, useProgress, type ObjectiveIdentity } from "../progress/progressStore.js";
 import { useAccount } from "../accounts/AccountProvider.js";
@@ -17,9 +17,13 @@ import { chapterPercentForProfile, currentStepForProfile, followersInChapter } f
 
 export const Route = createFileRoute("/guides/$guideId_/steps/$stepNumber")({
   loader: async ({ params }) => {
-    const value = await getStepData({ data: { guideId: Number(params.guideId), stepNumber: Number(params.stepNumber) } });
+    const guideId = Number(params.guideId);
+    const [value, guide] = await Promise.all([
+      getStepData({ data: { guideId, stepNumber: Number(params.stepNumber) } }),
+      getGuideData({ data: { guideId } }),
+    ]);
     if (!value) throw notFound();
-    return value;
+    return { ...value, guideSteps: guide?.steps ?? [] };
   },
   component: StepPage,
   notFoundComponent: () => <NotFoundPanel message="Cette étape n’existe pas dans le carnet." />,
@@ -68,9 +72,9 @@ function StepPage() {
     : summarizeChapterProgress(profile, step.guide.id, step.chapter, step.chapterSteps);
   const chapterFollowers = step.chapter === null
     ? []
-    : followersInChapter(account?.following ?? [], step.guide.id, step.chapter, step.chapterSteps);
+    : followersInChapter(account?.following ?? [], step.guide.id, step.chapter, step.guideSteps);
   const stepFollowers = chapterFollowers.filter((friend) =>
-    currentStepForProfile(friend.progress, step.guide.id, step.chapterSteps) === step.stepNumber,
+    currentStepForProfile(friend.progress, step.guide.id, step.guideSteps) === step.stepNumber,
   );
   const checkedCount = usesManualCompletion
     ? Number(manualCompleted)

@@ -1,3 +1,4 @@
 public/**/*.png filter=lfs diff=lfs merge=lfs -text
 data/dofusdb/*.json filter=lfs diff=lfs merge=lfs -text
 data/dofusdb/**/*.json filter=lfs diff=lfs merge=lfs -text
+data/generated/quest-summaries.json filter=lfs diff=lfs merge=lfs -text

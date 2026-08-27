@@ -32,9 +32,18 @@
 }
 
 @layer components {
+  .featured-dungeon {
+    isolation: isolate;
+  }
+
+  /* Conserve la bordure dorée animée sans le grand halo qui grossissait avec la carte. */
+  .featured-dungeon::after {
+    display: none !important;
+  }
+
   .featured-dungeon > .card {
     border-color: var(--color-warning);
-    box-shadow: 0 0.75rem 1.5rem rgb(196 128 0 / 18%);
+    box-shadow: 0 0.35rem 0.8rem rgb(196 128 0 / 22%);
   }
 
   .follower-tooltip::before,
