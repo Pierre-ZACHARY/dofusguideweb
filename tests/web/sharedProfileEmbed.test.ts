@@ -42,6 +42,7 @@ const guides: SharedProfileGuideIndexDto[] = [{
   guideName: "Guide Principal (Mono/Multi)",
   totalSteps: 4,
   steps: [
+    { stepNumber: 0, chapterNumber: null, chapterName: null, boss: null },
     { stepNumber: 1, chapterNumber: 1, chapterName: "Incarnam", boss: null },
     { stepNumber: 2, chapterNumber: 1, chapterName: "Incarnam", boss: null },
     { stepNumber: 3, chapterNumber: 1, chapterName: "Incarnam", boss: null },

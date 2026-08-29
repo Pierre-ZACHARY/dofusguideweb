@@ -1,8 +1,704 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 188,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T22:25:50.238Z",
+  "summaries": [
+    {
+      "overview": "Lancez Maudite disparition puis suivez l'enquête sur Grobe jusqu'à entrer dans la première salle de la Tombe du Shogun Tofugawa en [36,-44]. Cette occurrence s'arrête dès que la découverte de cette première salle est validée. Le donjon doit ensuite être effectué avant de reprendre la quête à l'occurrence FINISH.",
+      "recommendedLevel": 160,
+      "prerequisites": [
+        "Avoir terminé Voir le Dark Vlad et mourir... ou pas.",
+        "Avoir terminé Sang d'encre.",
+        "Les quatre premières quêtes du succès Mais où sont les Dofus ? doivent avoir été refaites dans leur version postérieure à la mise à jour 2.56 si elles avaient été accomplies auparavant dans leur ancienne version.",
+        "Pouvoir accéder à Grobe via le bateau en [27,-27]."
+      ],
+      "rewards": [
+        "La récompense finale de la quête sera obtenue à l'occurrence FINISH : 4 564 056 XP.",
+        "La récompense finale de la quête sera obtenue à l'occurrence FINISH : 57 560 Kamas.",
+        "La récompense finale de la quête sera obtenue à l'occurrence FINISH : 3 x Épaulière de Kabushido."
+      ],
+      "preparation": [
+        "Prévoir 1 x Pandaclier et l'équiper pour le lancement.",
+        "Prévoir au choix 1 x Pandazahi ou 1 x Pandaporo à remettre au Grandapan.",
+        "Si vous ne connaissez pas déjà le sort Lanterne des Spiritueurs, prévoir 4 x Étoffe de Samouraï fantôme.",
+        "Prévoir un combat seul après le labyrinthe de la crypte.",
+        "Prévoir des combats dans le Cimetière de Grobe pour obtenir quatre ectoplasmes à 6 % de taux de base chacun.",
+        "Ne commencez pas la Tombe du Shogun Tofugawa avant d'avoir obtenu et remis les quatre ectoplasmes : la quête doit être mise à jour dans la première salle du donjon."
+      ],
+      "actions": [
+        {
+          "instruction": "Équipez votre Pandaclier à la place de votre bouclier actuel, entrez dans la salle de la Pandassemblée située à gauche de la Daimya, puis placez-vous sur le tapis devant l'estrade pour faire apparaître Le Grandapan. Donnez-lui au choix 1 x Pandazahi ou 1 x Pandaporo.",
+          "position": "[22,-29]",
+          "zoneHint": "Village de Pandala",
+          "warning": "Le Pandaclier doit être équipé. La Pandazahi peut s'acheter en [22,-27] et la Pandaporo en [20,-29]. Le choix consiste à remettre l'un des deux objets.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Orukam et signalez-lui l'absence d'Imagiro afin de recevoir la mission concernant le Dorigami.",
+          "position": "[22,-29]",
+          "zoneHint": "Éther",
+          "warning": "Orukam ne confie la quête que si les prérequis liés aux quatre premières quêtes du succès Mais où sont les Dofus ? sont correctement validés dans leur version actuelle.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sortez de l'Éther, rejoignez si nécessaire [21,-33], passez sous la cascade et parlez à Imagiro au sujet du Dofus de papier et de Ronald.",
+          "position": "[21,-33]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montez à l'étage de la maison des Lenalds et parlez à Ronald le sage Lenald. Écoutez son récit sur la disparition du Dorigami et la crypte située sur Grobe.",
+          "position": "[22,-28]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous ne possédez pas encore le sort Lanterne des Spiritueurs, entrez dans la tente et demandez à Danaba Retzu des informations sur la magie des Spiritueurs liée à la crypte de Ronald, puis acceptez de lui remettre 4 x Étoffe de Samouraï fantôme pour obtenir le sort.",
+          "position": "[36,-40]",
+          "zoneHint": "Cimetière de Grobe",
+          "warning": "Dépense de 4 x Étoffe de Samouraï fantôme uniquement si vous ne possédez pas déjà le sort Lanterne des Spiritueurs.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Accédez à Grobe via le bateau en [27,-27], rendez-vous en [35,-45] et entrez dans la crypte protégée par le labyrinthe.",
+          "position": "[35,-45]",
+          "zoneHint": "Grobe",
+          "warning": "Le sort Lanterne des Spiritueurs est nécessaire pour poursuivre dans la crypte.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Traversez le labyrinthe de la crypte en utilisant uniquement la succession correcte des 17 dalles permettant d'atteindre l'autre côté. Après l'activation de la dalle 17, laissez la téléportation automatique vous conduire dans la salle suivante.",
+          "position": "[35,-45]",
+          "zoneHint": "Crypte secrète",
+          "warning": "Certaines dalles sont piégées et téléportent ailleurs dans le Monde des Douze. Un mauvais clic peut vous faire quitter le parcours. L'activation de la dalle 17 déclenche immédiatement un combat.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Vainquez seul le groupe de Yokais fantômes qui vous agresse automatiquement à l'arrivée.",
+          "position": "[35,-45]",
+          "zoneHint": "Crypte secrète",
+          "warning": "Combat obligatoire en solo. Les adversaires peuvent notamment retirer des PA ou PM, attirer, se soigner et se renforcer.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après le combat, parlez au Fantôme vaillant de guerrier lenald pour apprendre ce qui est arrivé au groupe parti rechercher le Dofus de papier.",
+          "position": "[35,-45]",
+          "zoneHint": "Crypte secrète",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Examinez le pot brisé, la stèle et la branche d'arbre dans la salle où était conservé le Dofus afin de récupérer respectivement une substance inhabituelle, une substance mystérieuse et une substance suspecte.",
+          "position": "[35,-45]",
+          "zoneHint": "Crypte secrète",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez dans la tente de Danaba Retzu et montrez-lui les trois substances trouvées dans la crypte. Elle vous demandera des ectoplasmes pour identifier leur origine.",
+          "position": "[36,-40]",
+          "zoneHint": "Cimetière de Grobe",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Combattez les monstres du Cimetière de Grobe jusqu'à obtenir 1 x Ectoplasme de Tsukinochi, 1 x Ectoplasme de Tambouraï, 1 x Ectoplasme de Onabu-Geisha et 1 x Ectoplasme de Jiangshi-Nobi.",
+          "position": null,
+          "zoneHint": "Cimetière de Grobe",
+          "warning": "Chaque ectoplasme a un taux de drop de base de 6 %. Évitez de faire ce drop à l'intérieur de la Tombe du Shogun Tofugawa : pour la prochaine mise à jour de quête, il faudra entrer dans sa salle 1 sans avoir avancé plus loin dans le donjon.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez auprès de Danaba Retzu et donnez-lui les quatre ectoplasmes. Elle identifiera alors la substance suspecte comme étant liée au Shogun Tofugawa.",
+          "position": "[36,-40]",
+          "zoneHint": "Cimetière de Grobe",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à l'entrée de la Tombe du Shogun Tofugawa en [36,-44], entrez dans le donjon et atteignez sa première salle afin de valider l'objectif de découverte de la carte.",
+          "position": "[36,-44]",
+          "zoneHint": "Tombe du Shogun Tofugawa",
+          "warning": "Arrêtez ici les actions de cette occurrence. Effectuez ensuite la Tombe du Shogun Tofugawa et vainquez son boss avant de passer à l'occurrence FINISH.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Cette occurrence couvre volontairement uniquement le lancement et toute la progression précédant le donjon, jusqu'à la validation de la première salle de la Tombe du Shogun Tofugawa.",
+        "Après cette checklist, effectuez entièrement la Tombe du Shogun Tofugawa et vainquez le Shogun Tofugawa. Les dialogues et combats postérieurs au donjon appartiennent à l'occurrence FINISH.",
+        "Danaba Retzu peut également proposer Où est mon samouraï ?, mais cette autre quête n'est pas incluse dans les actions de cette occurrence."
+      ],
+      "npcs": [
+        "Le Grandapan",
+        "Orukam",
+        "Imagiro",
+        "Ronald le sage Lenald",
+        "Danaba Retzu",
+        "Fantôme vaillant de guerrier lenald"
+      ],
+      "items": [
+        {
+          "name": "Pandaclier",
+          "itemId": 23094,
+          "imageUrl": "/items/23094.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23094"
+        },
+        {
+          "name": "Pandazahi",
+          "itemId": 23179,
+          "imageUrl": "/items/23179.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23179"
+        },
+        {
+          "name": "Pandaporo",
+          "itemId": 23180,
+          "imageUrl": "/items/23180.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23180"
+        },
+        {
+          "name": "Étoffe de Samouraï fantôme",
+          "itemId": 7384,
+          "imageUrl": "/items/7384.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/7384"
+        },
+        {
+          "name": "Lanterne des Spiritueurs",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Substance inhabituelle",
+          "itemId": 23575,
+          "imageUrl": "/items/23575.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23575"
+        },
+        {
+          "name": "Substance mystérieuse",
+          "itemId": 23573,
+          "imageUrl": "/items/23573.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23573"
+        },
+        {
+          "name": "Substance suspecte",
+          "itemId": 23574,
+          "imageUrl": "/items/23574.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23574"
+        },
+        {
+          "name": "Ectoplasme de Tsukinochi",
+          "itemId": 23569,
+          "imageUrl": "/items/23569.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23569"
+        },
+        {
+          "name": "Ectoplasme de Tambouraï",
+          "itemId": 23570,
+          "imageUrl": "/items/23570.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23570"
+        },
+        {
+          "name": "Ectoplasme de Onabu-Geisha",
+          "itemId": 23571,
+          "imageUrl": "/items/23571.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23571"
+        },
+        {
+          "name": "Ectoplasme de Jiangshi-Nobi",
+          "itemId": 23572,
+          "imageUrl": "/items/23572.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23572"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 945,
+            "name": "Aerdala",
+            "coordinates": [
+              "21,-33"
+            ]
+          },
+          {
+            "id": 952,
+            "name": "Cimetière de Grobe",
+            "coordinates": [
+              "36,-40"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "35,-45"
+            ]
+          },
+          {
+            "id": 955,
+            "name": "Mont des Tombeaux",
+            "coordinates": [
+              "35,-45"
+            ]
+          },
+          {
+            "id": 944,
+            "name": "Terrdala",
+            "coordinates": [
+              "27,-27"
+            ]
+          },
+          {
+            "id": 953,
+            "name": "Tombe du Shogun Tofugawa",
+            "coordinates": [
+              "36,-44"
+            ]
+          },
+          {
+            "id": 951,
+            "name": "Village de Pandala",
+            "coordinates": [
+              "22,-29",
+              "22,-27",
+              "20,-29",
+              "22,-28"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4949,
+            "name": "Jérart Dupaindur",
+            "level": 130,
+            "imageUrl": "/bestiary/monsters/4949.png"
+          },
+          {
+            "id": 5083,
+            "name": "Crasper",
+            "level": 170,
+            "imageUrl": "/bestiary/monsters/5083.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2598,
+            "name": "Bonpake le Chavireur",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2598.png"
+          },
+          {
+            "id": 2527,
+            "name": "Parapadkouï l'Émasculé",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2527.png"
+          },
+          {
+            "id": 2414,
+            "name": "Tétonée la Plantureuse",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2414.png"
+          },
+          {
+            "id": 2434,
+            "name": "Tilolo la Bien Moulée",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2434.png"
+          },
+          {
+            "id": 2512,
+            "name": "Fangshui la Dysorthographiée",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2512.png"
+          },
+          {
+            "id": 2511,
+            "name": "Inopenope le Négatif",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2511.png"
+          },
+          {
+            "id": 2412,
+            "name": "Lichangora l'Immaculée",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2412.png"
+          },
+          {
+            "id": 2398,
+            "name": "Rooroku l'Imposant",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2398.png"
+          },
+          {
+            "id": 2374,
+            "name": "Jiankor le Radoteur",
+            "level": 152,
+            "imageUrl": "/bestiary/monsters/2374.png"
+          },
+          {
+            "id": 2471,
+            "name": "Onabuémangé la Rassasiée",
+            "level": 152,
+            "imageUrl": "/bestiary/monsters/2471.png"
+          },
+          {
+            "id": 2469,
+            "name": "Tambouille le Gastronome",
+            "level": 152,
+            "imageUrl": "/bestiary/monsters/2469.png"
+          },
+          {
+            "id": 2370,
+            "name": "Tsucékoi la Colporteuse",
+            "level": 152,
+            "imageUrl": "/bestiary/monsters/2370.png"
+          },
+          {
+            "id": 2483,
+            "name": "Bakaglace le Congelé",
+            "level": 162,
+            "imageUrl": "/bestiary/monsters/2483.png"
+          },
+          {
+            "id": 2470,
+            "name": "Kaonucléair l'Instable",
+            "level": 162,
+            "imageUrl": "/bestiary/monsters/2470.png"
+          },
+          {
+            "id": 2564,
+            "name": "Madgang le Docteur",
+            "level": 162,
+            "imageUrl": "/bestiary/monsters/2564.png"
+          },
+          {
+            "id": 2477,
+            "name": "Tsumani l'Inondeur",
+            "level": 162,
+            "imageUrl": "/bestiary/monsters/2477.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 3070,
+            "name": "Armée de Brume",
+            "monsters": [
+              {
+                "id": 6383,
+                "name": "Tsukinochi",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/6383.png"
+              },
+              {
+                "id": 6384,
+                "name": "Tambouraï",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/6384.png"
+              },
+              {
+                "id": 6385,
+                "name": "Onabu-Geisha",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/6385.png"
+              },
+              {
+                "id": 6386,
+                "name": "Jiangshi-Nobi",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/6386.png"
+              },
+              {
+                "id": 6387,
+                "name": "Kabushido",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/6387.png"
+              }
+            ]
+          },
+          {
+            "id": 3018,
+            "name": "Kozaru",
+            "monsters": [
+              {
+                "id": 6214,
+                "name": "Ino-Naru",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6214.png"
+              },
+              {
+                "id": 6215,
+                "name": "Kurookin",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6215.png"
+              },
+              {
+                "id": 6216,
+                "name": "Fangshu",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6216.png"
+              },
+              {
+                "id": 6217,
+                "name": "Lichangoro",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6217.png"
+              }
+            ]
+          },
+          {
+            "id": 3003,
+            "name": "Tanuki",
+            "monsters": [
+              {
+                "id": 6220,
+                "name": "Ishigro Pake",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6220.png"
+              },
+              {
+                "id": 6221,
+                "name": "Tétonuki",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6221.png"
+              },
+              {
+                "id": 6222,
+                "name": "Parashukouï",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6222.png"
+              },
+              {
+                "id": 6223,
+                "name": "Lolojiki",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6223.png"
+              }
+            ]
+          },
+          {
+            "id": 3069,
+            "name": "Yokai des Tombeaux",
+            "monsters": [
+              {
+                "id": 6389,
+                "name": "Madura",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/6389.png"
+              },
+              {
+                "id": 6390,
+                "name": "Bakazako",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/6390.png"
+              },
+              {
+                "id": 6391,
+                "name": "Kaonashi",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/6391.png"
+              },
+              {
+                "id": 6392,
+                "name": "Tsume-bozu",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/6392.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1344",
+      "relation": "START",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/maudite-disparition.html",
+      "sourceTitle": "Maudite disparition",
+      "sourceHash": "95364603fb5b8d3daa7953292d036352cb631687ae1c75ff23002cbfcbea129e",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Reprenez Maudite disparition après avoir effectué la Tombe du Shogun Tofugawa et vaincu son boss. Interrogez le Shogun, survivez à son piège en [38,-41], puis confrontez-le une seconde fois pour obtenir ses aveux et terminer la quête.",
+      "recommendedLevel": 160,
+      "prerequisites": [
+        "Avoir accompli la portion START de Maudite disparition à cette étape.",
+        "Avoir effectué la Tombe du Shogun Tofugawa après la validation de sa première salle.",
+        "Avoir vaincu le Shogun Tofugawa dans le donjon."
+      ],
+      "rewards": [
+        "4 564 056 XP.",
+        "57 560 Kamas.",
+        "3 x Épaulière de Kabushido."
+      ],
+      "preparation": [
+        "Prévoir un combat à vagues réalisable en groupe en [38,-41].",
+        "Le Spectre Pandissidore reste invulnérable pendant 10 tours et devient vulnérable à partir de son tour de jeu au tour 11."
+      ],
+      "actions": [
+        {
+          "instruction": "À la sortie du donjon, parlez au Shogun Tofugawa et interrogez-le sur la crypte où se trouvait le Dofus. Il nie le vol et vous oriente vers un supposé rassemblement de Yokais en [38,-41].",
+          "position": "[36,-44]",
+          "zoneHint": "Tombe du Shogun Tofugawa",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous en [38,-41], parlez au Spectre Pandissidore, refusez de reculer et mettez-vous en position de combat.",
+          "position": "[38,-41]",
+          "zoneHint": null,
+          "warning": "Ce choix déclenche immédiatement un combat à vagues.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Remportez le combat à vagues contre le Spectre Pandissidore et les Spectres Pandissidit et Pandissidule. La vague 1 contient 1 x Spectre Pandissidore, 3 x Spectre Pandissidit et 3 x Spectre Pandissidule ; la vague 2 ajoute 3 x Spectre Pandissidit et 3 x Spectre Pandissidule dans 2 tours ; la vague 3 ajoute encore 3 x Spectre Pandissidit et 3 x Spectre Pandissidule dans 3 tours.",
+          "position": "[38,-41]",
+          "zoneHint": null,
+          "warning": "Le Spectre Pandissidore commence le combat invulnérable pendant 10 tours et ne devient vulnérable qu'à partir de son tour de jeu au tour 11. Le combat peut être réalisé en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire, reparlez au Spectre Pandissidore. Il vous révèle que cet endroit est un lieu de réunion des Pandissidans et que le Shogun vous y a envoyé pour vous faire éliminer.",
+          "position": "[38,-41]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez en [36,-44] et parlez à Yinchika pour demander à voir le Shogun Tofugawa.",
+          "position": "[36,-44]",
+          "zoneHint": "Tombe du Shogun Tofugawa",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Confrontez le Shogun Tofugawa, dénoncez sa traîtrise et exigez des réponses honnêtes sur sa présence dans la crypte du Dorigami. Écoutez ses aveux concernant le Yokai, le vol du Dorigami et l'endroit où il l'a confié afin de terminer Maudite disparition.",
+          "position": "[36,-44]",
+          "zoneHint": "Tombe du Shogun Tofugawa",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Toutes les recherches dans la crypte, la collecte des quatre ectoplasmes et l'entrée dans la première salle du donjon sont supposées déjà accomplies lors de l'occurrence START.",
+        "Le donjon complet et la victoire contre le Shogun Tofugawa sont également supposés accomplis entre START et FINISH.",
+        "Après la fin de la quête, poursuivre la conversation avec le Shogun Tofugawa permet d'obtenir Requiem pour un Yokai, mais cette quête suivante n'appartient pas à l'étape 188."
+      ],
+      "npcs": [
+        "Shogun Tofugawa",
+        "Spectre Pandissidore",
+        "Spectre Pandissidit",
+        "Spectre Pandissidule",
+        "Yinchika"
+      ],
+      "items": [
+        {
+          "name": "Épaulière de Kabushido",
+          "itemId": 7406,
+          "imageUrl": "/items/7406.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/7406"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 952,
+            "name": "Cimetière de Grobe",
+            "coordinates": [
+              "38,-41"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "38,-41"
+            ]
+          },
+          {
+            "id": 953,
+            "name": "Tombe du Shogun Tofugawa",
+            "coordinates": [
+              "36,-44",
+              "38,-41"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2374,
+            "name": "Jiankor le Radoteur",
+            "level": 152,
+            "imageUrl": "/bestiary/monsters/2374.png"
+          },
+          {
+            "id": 2471,
+            "name": "Onabuémangé la Rassasiée",
+            "level": 152,
+            "imageUrl": "/bestiary/monsters/2471.png"
+          },
+          {
+            "id": 2469,
+            "name": "Tambouille le Gastronome",
+            "level": 152,
+            "imageUrl": "/bestiary/monsters/2469.png"
+          },
+          {
+            "id": 2370,
+            "name": "Tsucékoi la Colporteuse",
+            "level": 152,
+            "imageUrl": "/bestiary/monsters/2370.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 3070,
+            "name": "Armée de Brume",
+            "monsters": [
+              {
+                "id": 6383,
+                "name": "Tsukinochi",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/6383.png"
+              },
+              {
+                "id": 6384,
+                "name": "Tambouraï",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/6384.png"
+              },
+              {
+                "id": 6385,
+                "name": "Onabu-Geisha",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/6385.png"
+              },
+              {
+                "id": 6386,
+                "name": "Jiangshi-Nobi",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/6386.png"
+              },
+              {
+                "id": 6387,
+                "name": "Kabushido",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/6387.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1344",
+      "relation": "FINISH",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/maudite-disparition.html",
+      "sourceTitle": "Maudite disparition",
+      "sourceHash": "95364603fb5b8d3daa7953292d036352cb631687ae1c75ff23002cbfcbea129e",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

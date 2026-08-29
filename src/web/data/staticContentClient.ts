@@ -38,6 +38,12 @@ interface StaticContentManifest {
   quests: Array<{ questKey: string; asset: string }>;
 }
 
+export async function loadCloudflareStaticAssetJson(asset: string, assets: AssetsFetcher): Promise<unknown> {
+  const response = await assets.fetch(new URL(asset, "https://assets.local"));
+  if (!response.ok) throw new Error(`Unable to load static content ${asset}: ${response.status}`);
+  return response.json() as Promise<unknown>;
+}
+
 const loadAssetJson = createIsomorphicFn()
   .client(async (asset: string) => {
     const response = await fetch(asset);
@@ -45,6 +51,10 @@ const loadAssetJson = createIsomorphicFn()
     return response.json() as Promise<unknown>;
   })
   .server(async (asset: string) => {
+    if (__CLOUDFLARE_WORKER__) {
+      const { env } = await import("cloudflare:workers");
+      return loadCloudflareStaticAssetJson(asset, (env as CloudflareEnv).ASSETS);
+    }
     const { getRequestUrl } = await import("@tanstack/start-server-core/request-response");
     const nodePort = process.env.NITRO_PORT ?? process.env.PORT;
     const origin = nodePort === undefined

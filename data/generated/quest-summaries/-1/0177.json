@@ -1,8 +1,973 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 177,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T22:25:30.401Z",
+  "summaries": [
+    {
+      "overview": "La quête a été lancée à l'étape précédente et les 40 Saule en si sont supposés avoir été récupérés pendant les combats au Berceau d'Alma, notamment en avançant Il préfère la mort en mer. Il ne reste ici qu'à remettre les plantes à Bisale Vinlenta pour terminer Mes lys fleurs.",
+      "recommendedLevel": 150,
+      "prerequisites": [
+        "A fleur de peau.",
+        "Avoir déjà lancé Mes lys fleurs à l'étape précédente.",
+        "Avoir 40 x Saule en si dans l'inventaire de quête."
+      ],
+      "rewards": [
+        "4 431 000 XP.",
+        "50 960 kamas.",
+        "2 x Kama de glace.",
+        "5 x Mât de Fantômat."
+      ],
+      "preparation": [
+        "Vérifier que les 40 x Saule en si demandés ont bien été obtenus avant le retour à Frigost."
+      ],
+      "actions": [
+        {
+          "instruction": "Retournez auprès de Bisale Vinlenta et remettez-lui les 40 x Saule en si pour conclure la quête.",
+          "position": "[-72,-31]",
+          "zoneHint": "Champs de glace",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La collecte des 40 x Saule en si appartient à la portion déjà effectuée depuis l'occurrence START de l'étape 176 et ne doit pas être recommencée ici.",
+        "La fin de cette quête débloque Rose à lys, Rose à lys, oh !"
+      ],
+      "npcs": [
+        "Bisale Vinlenta"
+      ],
+      "items": [
+        {
+          "name": "Saule en si",
+          "itemId": 11161,
+          "imageUrl": "/items/11161.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11161"
+        },
+        {
+          "name": "Kama de glace",
+          "itemId": 11196,
+          "imageUrl": "/items/11196.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11196"
+        },
+        {
+          "name": "Mât de Fantômat",
+          "itemId": 11315,
+          "imageUrl": "/items/11315.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11315"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 602,
+            "name": "Champs de glace",
+            "coordinates": [
+              "-72,-31"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2901,
+            "name": "Bouflouth",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/2901.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 156,
+            "name": "Boufmouths",
+            "monsters": [
+              {
+                "id": 2850,
+                "name": "Boufmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2850.png"
+              },
+              {
+                "id": 2851,
+                "name": "Boufmouth de guerre",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2851.png"
+              },
+              {
+                "id": 2852,
+                "name": "Boufmouth légendaire",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2852.png"
+              },
+              {
+                "id": 2853,
+                "name": "Bouftonmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2853.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:338",
+      "relation": "FINISH",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/mes-lys-fleurs.html",
+      "sourceTitle": "Mes lys fleurs",
+      "sourceHash": "93d0224968613e7f14c0dee14006aa8cfc476f764945dc0803f5011e8f4cbdb3",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Poursuivez Sanctuaires de famille en relevant les lieux demandés dans Ecaflipus, puis explorez le miausolée, affrontez son gardien, découvrez le secret de Domino et rapportez vos conclusions à Rol Sterding à l'avant-poste.",
+      "recommendedLevel": 160,
+      "prerequisites": [
+        "Avoir Sanctuaires de famille en cours.",
+        "Disposer de l'instrument de mesure obtenu auprès de Rol Sterding."
+      ],
+      "rewards": [
+        "2 282 028 XP.",
+        "28 780 Kamas.",
+        "30 x Orichor.",
+        "5 x Poil de Chacrebleu."
+      ],
+      "preparation": [
+        "Prévoir un combat en solo contre le Gardien du miausolée.",
+        "Pour le Gardien, privilégier le combat à distance afin d'éviter son attaque de mêlée avec vol de vie et malus de soins."
+      ],
+      "actions": [
+        {
+          "instruction": "Visitez successivement les quatre emplacements demandés afin de relever les coordonnées des sanctuaires et monuments étudiés par Rol Sterding.",
+          "position": "[-10,-11]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Poursuivez les relevés au deuxième emplacement.",
+          "position": "[3,-9]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Poursuivez les relevés au troisième emplacement.",
+          "position": "[1,-2]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuez le dernier relevé demandé.",
+          "position": "[4,0]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Trouvez le miausolée dédié au fils inconnu d'Ecaflip et entrez-y.",
+          "position": "[1,1]",
+          "zoneHint": "miausolée",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Attaquez le Gardien du miausolée et remportez le combat.",
+          "position": "[1,1]",
+          "zoneHint": "miausolée",
+          "warning": "Combat obligatoire en solo. Évitez le corps-à-corps : le Gardien peut frapper terre avec vol de vie et appliquer -30 soins pendant 2 tours.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après le combat, passez dans la pièce annexe et parlez à Domino. Suivez la conversation jusqu'à apprendre son véritable secret et son souhait de rester discret.",
+          "position": "[1,1]",
+          "zoneHint": "pièce annexe du miausolée",
+          "warning": "Le secret révélé par Domino doit être préservé lors du compte rendu à Rol Sterding.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez l'avant-poste, interagissez avec le Kosmoglob de Rol Sterding puis faites votre rapport à Rol. Indiquez que le mystérieux enfant d'Ecaflip souhaite conserver son anonymat afin de protéger le secret découvert.",
+          "position": "[-1,-6]",
+          "zoneHint": "avant-poste",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Cette occurrence couvre la poursuite et la conclusion de la quête, aucune autre occurrence de Sanctuaires de famille n'étant indiquée plus loin dans le parcours fourni."
+      ],
+      "npcs": [
+        "Rol Sterding",
+        "Domino",
+        "Gardien du miausolée",
+        "Kosmoglob de Rol Sterding"
+      ],
+      "items": [
+        {
+          "name": "Instrument de mesure",
+          "itemId": 17638,
+          "imageUrl": "/items/17638.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17638"
+        },
+        {
+          "name": "Orichor",
+          "itemId": 15206,
+          "imageUrl": "/items/15206.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15206"
+        },
+        {
+          "name": "Poil de Chacrebleu",
+          "itemId": 17616,
+          "imageUrl": "/items/17616.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17616"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 911,
+            "name": "Jardins à la Crème",
+            "coordinates": [
+              "-1,-6"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "-10,-11",
+              "3,-9",
+              "1,-2"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "4,0",
+              "1,1"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:954",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/sanctuaire-de-famille.html",
+      "sourceTitle": "Sanctuaires de famille",
+      "sourceHash": "fcef3e0fde0ef08e05914e81b69ac75ac447f9596817eed4df85a58519e25402",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Continuez l'enquête sur la disparition de Charblie en inspectant méthodiquement la Lande Poilue, en utilisant l'Appât de Chavanna aux endroits requis et en recueillant les témoignages et indices. Une fois les éléments réunis, confrontez les informations avec Chavanna et Patapay jusqu'au retour de Charblie.",
+      "recommendedLevel": 160,
+      "prerequisites": [
+        "Avoir Où est Charblie ? en cours.",
+        "Avoir reçu l'Appât de Chavanna."
+      ],
+      "rewards": [
+        "2 282 028 XP.",
+        "28 780 Kamas.",
+        "30 x Orichor.",
+        "5 x Collier de Chakichan."
+      ],
+      "preparation": [
+        "Conserver l'Appât de Chavanna dans l'inventaire de quête : il doit être utilisé à plusieurs positions.",
+        "Respecter le choix indiqué face au Soudard Brâkmarien pour éviter un détour par la prison."
+      ],
+      "actions": [
+        {
+          "instruction": "Cliquez sur l'affiche annonçant la prime offerte par Ush pour la capture de Charblie.",
+          "position": "[3,0]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Utilisez l'Appât de Chavanna pour faire apparaître Grumpicatte, puis poursuivez l'enquête après lui avoir parlé.",
+          "position": "[4,0]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Examinez les traces de bananagrume.",
+          "position": "[4,1]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Utilisez l'Appât de Chavanna sur cette carte, puis continuez votre parcours.",
+          "position": "[3,1]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Utilisez l'Appât de Chavanna pour faire apparaître Patapay et interrogez-le. Il vous demandera de retrouver l'âme de Morris.",
+          "position": "[3,2]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récupérez la caisse de Charblie.",
+          "position": "[4,2]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Soudard Brâkmarien et choisissez de vous montrer d'accord avec lui.",
+          "position": "[3,3]",
+          "zoneHint": "Lande Poilue",
+          "warning": "Choix important : une autre réponse vous téléporte en prison et ajoute un détour inutile.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez Chasquatch Rikiki au sujet de Charblie.",
+          "position": "[2,3]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez l'agent Bré au sujet de Charblie.",
+          "position": "[1,3]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez l'Enveloppe pour Chavanna.",
+          "position": "[1,2]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Utilisez l'Appât de Chavanna, puis poursuivez vos recherches.",
+          "position": "[2,2]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Chara pour obtenir des informations sur les Brâkmariens qui recherchaient Charblie.",
+          "position": "[2,1]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez Chaminerv sur ses griefs contre Charblie.",
+          "position": "[1,1]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Utilisez l'Appât de Chavanna, échangez brièvement avec Challucination puis continuez.",
+          "position": "[0,1]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Utilisez une nouvelle fois l'Appât de Chavanna ; aucun autre indice n'est à récupérer sur cette carte.",
+          "position": "[0,0]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Morris et dites-lui que Patapay le recherche afin qu'il accepte de rejoindre son ami.",
+          "position": "[1,0]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Chavanna. Parlez-lui de l'affiche, remettez-lui l'Enveloppe pour Chavanna puis la caisse de Charblie afin de lui présenter les indices recueillis.",
+          "position": "[2,0]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Patapay et annoncez-lui que Morris devrait venir le voir. Écoutez son témoignage concernant les ennemis potentiels de Charblie.",
+          "position": "[3,2]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Revenez auprès de Chavanna et poursuivez la conversation jusqu'à l'apparition du Matougarou Essoufflé.",
+          "position": "[2,0]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Matougarou Essoufflé pour découvrir qu'il s'agit de Charblie, puis rassurez Chavanna afin de terminer la quête.",
+          "position": "[2,0]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Cette occurrence couvre la suite de l'enquête jusqu'à sa résolution, aucune autre occurrence de Où est Charblie ? n'étant indiquée dans le parcours fourni."
+      ],
+      "npcs": [
+        "Chavanna",
+        "Grumpicatte",
+        "Patapay",
+        "Soudard Brâkmarien",
+        "Chasquatch Rikiki",
+        "Agent Bré",
+        "Chara",
+        "Chaminerv",
+        "Challucination",
+        "Morris",
+        "Matougarou Essoufflé",
+        "Charblie"
+      ],
+      "items": [
+        {
+          "name": "Appât de Chavanna",
+          "itemId": 17672,
+          "imageUrl": "/items/17672.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17672"
+        },
+        {
+          "name": "Caisse de Charblie",
+          "itemId": 17689,
+          "imageUrl": "/items/17689.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17689"
+        },
+        {
+          "name": "Enveloppe pour Chavanna",
+          "itemId": 17688,
+          "imageUrl": "/items/17688.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17688"
+        },
+        {
+          "name": "Orichor",
+          "itemId": 15206,
+          "imageUrl": "/items/15206.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15206"
+        },
+        {
+          "name": "Collier de Chakichan",
+          "itemId": 17617,
+          "imageUrl": "/items/17617.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17617"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 856,
+            "name": "Lande Poilue",
+            "coordinates": [
+              "3,0",
+              "4,0",
+              "4,1",
+              "3,1",
+              "3,2",
+              "4,2",
+              "3,3",
+              "2,3",
+              "1,3",
+              "1,2",
+              "2,2",
+              "2,1",
+              "1,1",
+              "0,1",
+              "0,0",
+              "1,0",
+              "2,0"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1433,
+            "name": "Matougarous",
+            "monsters": [
+              {
+                "id": 4296,
+                "name": "Chasquatch",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4296.png"
+              },
+              {
+                "id": 4297,
+                "name": "Chacrebleu",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4297.png"
+              },
+              {
+                "id": 4298,
+                "name": "Chakichan",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4298.png"
+              },
+              {
+                "id": 4299,
+                "name": "Chargus",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4299.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:952",
+      "relation": "ACTIVE",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/ougrave-est-charblie.html",
+      "sourceTitle": "Où est Charblie ?",
+      "sourceHash": "6a6850bf58802e4222fc14507766960d8f57cebf58f56b73b015cfb0adfbffca",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez La chance aux chanceux auprès de Martin Gal et avancez uniquement jusqu'au moment où la quête vous demande de récupérer 13 x Patte de Matougarou. Le guide impose alors une pause pour lancer GaBuZoMeu ; les pattes seront obtenues plus tard en poursuivant les autres quêtes de l'étape, puis La chance aux chanceux sera terminée une fois les 13 pattes réunies.",
+      "recommendedLevel": 160,
+      "prerequisites": [],
+      "rewards": [
+        "2 282 028 XP.",
+        "28 780 Kamas.",
+        "30 x Orichor.",
+        "5 x Queue de Chasquatch."
+      ],
+      "preparation": [
+        "Aucun combat n'est nécessaire pour simplement lancer la quête et atteindre l'objectif de collecte demandé à cette occurrence.",
+        "Ne terminez pas la quête maintenant : le parcours demande d'abord de lancer GaBuZoMeu."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Martin Gal pour accepter son travail et lancer La chance aux chanceux. Avancez le dialogue jusqu'à obtenir les objectifs de collecte, notamment 13 x Patte de Matougarou, puis arrêtez-vous à cet objectif.",
+          "position": "[1,-1]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": "Ne farmez pas spécialement les 13 x Patte de Matougarou et ne rendez pas la quête à cette occurrence. Le guide demande maintenant de lancer GaBuZoMeu.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les 9 x Trèfle à 4 feuilles et les 13 x Patte de Matougarou font partie des ingrédients demandés par Martin Gal.",
+        "Les Pattes de Matougarou se récupèrent sur les monstres de la Lande Poilue avec un taux de base indiqué de 30 %. Leur collecte est volontairement différée pendant la progression des autres quêtes.",
+        "Une fois toutes les Pattes de Matougarou en votre possession, il faudra revenir terminer La chance aux chanceux. Cette fin n'appartient pas aux actions de l'occurrence actuelle.",
+        "Lors du rendu futur, refuser de donner les ressources à Martin Gal déclenche une confrontation suivie d'un combat contre une Eniripsa ; évitez ce choix si vous souhaitez la résolution directe."
+      ],
+      "npcs": [
+        "Martin Gal"
+      ],
+      "items": [
+        {
+          "name": "Trèfle à 4 feuilles",
+          "itemId": 17562,
+          "imageUrl": "/items/17562.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17562"
+        },
+        {
+          "name": "Patte de Matougarou",
+          "itemId": 17566,
+          "imageUrl": "/items/17566.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17566"
+        },
+        {
+          "name": "Orichor",
+          "itemId": 15206,
+          "imageUrl": "/items/15206.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15206"
+        },
+        {
+          "name": "Queue de Chasquatch",
+          "itemId": 17615,
+          "imageUrl": "/items/17615.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17615"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 855,
+            "name": "Pierres de l'élévation",
+            "coordinates": [
+              "1,-1"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1432,
+            "name": "Ecaflipuces",
+            "monsters": [
+              {
+                "id": 4291,
+                "name": "Pupuce",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4291.png"
+              },
+              {
+                "id": 4292,
+                "name": "Morcac",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4292.png"
+              },
+              {
+                "id": 4293,
+                "name": "Pikbul",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4293.png"
+              },
+              {
+                "id": 4294,
+                "name": "Gériatique",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4294.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:961",
+      "relation": "START",
+      "sortOrder": 3,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-chance-aux-chanceux.html",
+      "sourceTitle": "La chance aux chanceux",
+      "sourceHash": "2aeee9ade21e6021b993e8438906726e529ca0f858f3e2cc5569ad4c3f6b9ca4",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez GaBuZoMeu auprès de Chadoc et progressez jusqu'à ce qu'il vous demande un Cobaye Matougarou. Cette occurrence s'arrête à l'activation de cet objectif : le guide prévoit de continuer les autres quêtes, d'obtenir le Cobaye Matougarou au passage, puis de reprendre et terminer GaBuZoMeu plus tard.",
+      "recommendedLevel": 160,
+      "prerequisites": [],
+      "rewards": [
+        "2 282 028 XP.",
+        "28 780 Kamas.",
+        "30 x Orichor.",
+        "5 x Oreille de Chargus."
+      ],
+      "preparation": [
+        "Prévoir un combat en solo contre le Gardien de la Flamme.",
+        "Ne cherchez pas encore les 5 x Viande Fraîche : cette ressource n'intervient que bien après le point d'arrêt imposé par le guide."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Chadoc pour lancer GaBuZoMeu et accepter de l'aider contre l'épidémie de chakungunya.",
+          "position": "[0,0]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez l'avant-poste et parlez au Sergent Baste au sujet du matériel demandé par Chadoc. Elle refuse de le fournir.",
+          "position": "[-1,-6]",
+          "zoneHint": "avant-poste",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Chadoc et poursuivez la discussion jusqu'à ce qu'il vous demande de récupérer de la chaleur magique.",
+          "position": "[0,0]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Affrontez le Gardien de la Flamme et remportez le combat.",
+          "position": "[5,-1]",
+          "zoneHint": null,
+          "warning": "Combat obligatoire en solo.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après la victoire, récupérez la Flamme de Ush Ghalesh.",
+          "position": "[5,-1]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rapportez la Flamme de Ush Ghalesh à Chadoc. Lorsqu'il propose une solution radicale, défendez une approche moins extrême afin qu'il décide de tester son idée sur un Cobaye Matougarou.",
+          "position": "[0,0]",
+          "zoneHint": "Lande Poilue",
+          "warning": "Le dialogue conduit à l'objectif de récupérer 1 x Cobaye Matougarou. Arrêtez-vous dès cet objectif activé : la collecte et toute la suite de GaBuZoMeu sont différées par le parcours du guide.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le Cobaye Matougarou se récupère plus tard en combattant des monstres de la Lande Poilue, avec un taux de base indiqué entre 10 et 14 %.",
+        "Après obtention du Cobaye Matougarou pendant la poursuite des autres quêtes, le guide demande de revenir terminer GaBuZoMeu. Toute la partie avec Dgibi, les dés, les latrines, l'île de Moon, les 5 x Viande Fraîche et la conclusion est volontairement hors des actions actuelles."
+      ],
+      "npcs": [
+        "Chadoc",
+        "Sergent Baste",
+        "Gardien de la Flamme"
+      ],
+      "items": [
+        {
+          "name": "Flamme de Ush Ghalesh",
+          "itemId": 17639,
+          "imageUrl": "/items/17639.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17639"
+        },
+        {
+          "name": "Cobaye Matougarou",
+          "itemId": 17640,
+          "imageUrl": "/items/17640.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17640"
+        },
+        {
+          "name": "Viande fraîche",
+          "itemId": 8166,
+          "imageUrl": "/items/8166.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8166"
+        },
+        {
+          "name": "Orichor",
+          "itemId": 15206,
+          "imageUrl": "/items/15206.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15206"
+        },
+        {
+          "name": "Oreille de Chargus",
+          "itemId": 17618,
+          "imageUrl": "/items/17618.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17618"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 911,
+            "name": "Jardins à la Crème",
+            "coordinates": [
+              "-1,-6"
+            ]
+          },
+          {
+            "id": 856,
+            "name": "Lande Poilue",
+            "coordinates": [
+              "0,0"
+            ]
+          },
+          {
+            "id": 479,
+            "name": "Rivière Kawaii",
+            "coordinates": [
+              "5,-1"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2310,
+            "name": "Arakule la Revancharde",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2310.png"
+          },
+          {
+            "id": 2323,
+            "name": "Chamchie le Difficile",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2323.png"
+          },
+          {
+            "id": 2336,
+            "name": "Mosketère le Dévoué",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2336.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              }
+            ]
+          },
+          {
+            "id": 1433,
+            "name": "Matougarous",
+            "monsters": [
+              {
+                "id": 4296,
+                "name": "Chasquatch",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4296.png"
+              },
+              {
+                "id": 4297,
+                "name": "Chacrebleu",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4297.png"
+              },
+              {
+                "id": 4298,
+                "name": "Chakichan",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4298.png"
+              },
+              {
+                "id": 4299,
+                "name": "Chargus",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4299.png"
+              }
+            ]
+          },
+          {
+            "id": 1602,
+            "name": "Vermines des champs",
+            "monsters": [
+              {
+                "id": 4819,
+                "name": "Campagnoll",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/4819.png"
+              },
+              {
+                "id": 59,
+                "name": "Champ Champ",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/59.png"
+              },
+              {
+                "id": 61,
+                "name": "Moskito",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/61.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:953",
+      "relation": "START",
+      "sortOrder": 4,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/gabuzomeu.html",
+      "sourceTitle": "GaBuZoMeu",
+      "sourceHash": "3b2bf220545b53c599f8d5112ca2a5bff4787b4b0332ea06f2aadc2b36fa0a52",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Mutualiser les passages dans la Lande Poilue",
+      "description": "Sanctuaires de famille et Où est Charblie ? passent par plusieurs cartes proches, dont [4,0] et [1,1]. Profitez d'un même circuit pour valider les interactions propres à chaque quête sans multiplier les déplacements.",
+      "questKeys": [
+        "quest:954",
+        "quest:952"
+      ],
+      "actions": [
+        "À [4,0], effectuez le relevé de Sanctuaires de famille puis utilisez l'Appât de Chavanna pour Où est Charblie ?.",
+        "À [1,1], interrogez Chaminerv pour Où est Charblie ? et profitez du même passage pour entrer dans le miausolée de Sanctuaires de famille."
+      ]
+    },
+    {
+      "title": "Cumuler les drops Matougarou",
+      "description": "Après avoir atteint les deux points d'arrêt, La chance aux chanceux demande 13 x Patte de Matougarou et GaBuZoMeu demande 1 x Cobaye Matougarou. Ces deux objets proviennent des monstres de la Lande Poilue, donc les mêmes combats peuvent faire progresser les deux objectifs.",
+      "questKeys": [
+        "quest:961",
+        "quest:953"
+      ],
+      "actions": [
+        "Débloquez d'abord l'objectif des 13 x Patte de Matougarou dans La chance aux chanceux.",
+        "Débloquez ensuite l'objectif du Cobaye Matougarou dans GaBuZoMeu.",
+        "Lors de vos combats ultérieurs dans la Lande Poilue, conservez les deux quêtes actives afin de tenter d'obtenir simultanément les Pattes de Matougarou et le Cobaye Matougarou."
+      ]
+    }
+  ]
 }

@@ -11,7 +11,7 @@ features que j'aimerais bien rajouter au guide web :
 - [] générer tous les tutoriels ia des quêtes ( gpt 5.6 sol )
     - Faites v1 : 100-125
     - Faites v2 : 5-67, 114-125
-    - Faites v3 : 68-163
+    - Faites v3 : 68-200
 - [x] import des archi metamob via l'api et mettre à jour automatiquement lors de la capture de boss ou d'archi de zones 
 - [] importer les quêtes effectués et les succès donjons via partage d'écran + ocr
 - [] import des avis de recherche via partage d'écran

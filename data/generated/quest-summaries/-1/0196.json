@@ -1,8 +1,181 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 196,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T22:28:09.704Z",
+  "summaries": [
+    {
+      "overview": "La recherche de Hulos et les préparatifs ont été effectués auparavant, puis la Grotte de Kanigroula a été parcourue jusqu'à la victoire contre Kanigroula. Il reste maintenant à conclure la confrontation, obtenir la libération de Hulos et terminer la quête.",
+      "recommendedLevel": 160,
+      "prerequisites": [
+        "Les monstres aboient, la diligence casse.",
+        "Avoir déjà vaincu Kanigroula dans la Grotte de Kanigroula pour cette quête."
+      ],
+      "rewards": [
+        "4 564 056 XP.",
+        "57 560 kamas.",
+        "1 x Chachyène."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Après la victoire contre Kanigroula, parlez-lui et répondez que ses paroles ne changeront rien à votre victoire afin qu'elle accepte de libérer Hulos.",
+          "position": null,
+          "zoneHint": "Grotte de Kanigroula",
+          "warning": "Choisissez la réponse affirmant que ses menaces ne changent rien à votre victoire pour poursuivre la conclusion prévue.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À la sortie du donjon, parlez à Hulos. Il vous remercie et vous remet le familier Chachyène, ce qui termine la quête.",
+          "position": null,
+          "zoneHint": "sortie de la Grotte de Kanigroula",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les interrogatoires des esclaves, le Pain d'Incarnam, les 6 larves de miteterre et leur remise à Protel sont supposés déjà accomplis.",
+        "La victoire contre Kanigroula demandée à l'étape précédente est également supposée acquise.",
+        "Le Chachyène obtenu en récompense donne 1 PM et un PM supplémentaire dans la zone des Dents de Pierre."
+      ],
+      "npcs": [
+        "Kanigroula",
+        "Hulos"
+      ],
+      "items": [
+        {
+          "name": "Chachyène",
+          "itemId": 15110,
+          "imageUrl": "/items/15110.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15110"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 811,
+            "name": "Grotte de Kanigroula",
+            "coordinates": []
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1054,
+            "name": "Kanigs des Dents de Pierre",
+            "monsters": [
+              {
+                "id": 3557,
+                "name": "Kanihilan",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/3557.png"
+              },
+              {
+                "id": 3559,
+                "name": "Félygiène",
+                "level": 150,
+                "imageUrl": "/bestiary/monsters/3559.png"
+              },
+              {
+                "id": 3560,
+                "name": "Panthègros",
+                "level": 150,
+                "imageUrl": "/bestiary/monsters/3560.png"
+              },
+              {
+                "id": 3561,
+                "name": "Kaniblou",
+                "level": 151,
+                "imageUrl": "/bestiary/monsters/3561.png"
+              },
+              {
+                "id": 3562,
+                "name": "Orfélin",
+                "level": 151,
+                "imageUrl": "/bestiary/monsters/3562.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:763",
+      "relation": "FINISH",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/chachyegravene-de-vie.html",
+      "sourceTitle": "Chachyène de vie",
+      "sourceHash": "88d86064047670c74c9b2aa4219a9f2229b7900aacecd5f4613802317bf6b6cd",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Les préparatifs du subterfuge et l'obtention des 3 Miteters sont supposés déjà réalisés. La victoire contre Kanigroula permet d'obtenir automatiquement la Graisse mammaire de Kanig demandée. Il ne reste qu'à rapporter les ressources à Amayiro pour achever la quête.",
+      "recommendedLevel": 160,
+      "prerequisites": [
+        "Un sombre pouvoir.",
+        "Avoir déjà obtenu 3 x Miteters.",
+        "Avoir vaincu Kanigroula afin d'obtenir automatiquement 1 x Graisse mammaire de Kanig."
+      ],
+      "rewards": [
+        "10 953 734 XP."
+      ],
+      "preparation": [
+        "Vérifiez que vous possédez 3 x Miteters et 1 x Graisse mammaire de Kanig avant de retourner à Bonta."
+      ],
+      "actions": [
+        {
+          "instruction": "Retournez à la Milice de Bonta en [-32,-57] et parlez à Amayiro pour lui remettre les 3 Miteters et la Graisse mammaire de Kanig. La quête se termine après cette remise.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": "Les ressources remises à Amayiro sont consommées pour valider la quête.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La Graisse mammaire de Kanig est obtenue automatiquement sur Kanigroula dans la Grotte de Kanigroula en [-5,-54].",
+        "Les démarches auprès de Capitaine Koda, Ture Inge, Marge Gondersun et Niamuh Boulkier ainsi que l'obtention des Miteters sont supposées déjà accomplies lors de l'occurrence précédente.",
+        "Cette conclusion débloque la quête d'alignement suivante : 71. Un coupable idéal."
+      ],
+      "npcs": [
+        "Amayiro"
+      ],
+      "items": [
+        {
+          "name": "Miteter",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Graisse mammaire de Kanig",
+          "itemId": 9266,
+          "imageUrl": "/items/9266.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9266"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": []
+      },
+      "questKey": "quest:194",
+      "relation": "FINISH",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-subterfuge-de-la-corne.html",
+      "sourceTitle": "Alignement 70 : Le subterfuge de la corne",
+      "sourceHash": "62d2eb3c23f612cb995179887133ac69a509a6cb42f874be05a5c193613448cd",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

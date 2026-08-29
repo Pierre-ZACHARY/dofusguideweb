@@ -20,7 +20,10 @@ export default defineConfig(({ command }) => ({
   define: { __CLOUDFLARE_WORKER__: "false" },
   preview: { host: "127.0.0.1" },
   resolve: {
-    alias: { "cloudflare:workers": path.resolve("src/web/cloudflareWorkersNodeStub.ts") },
+    alias: {
+      "cloudflare:workers": path.resolve("src/web/cloudflareWorkersNodeStub.ts"),
+      "@cloudflare/pages-plugin-vercel-og/api": path.resolve("src/web/social/vercelOgNode.ts"),
+    },
   },
   optimizeDeps: { exclude: ["@tanstack/start-server-core"] },
   plugins: [

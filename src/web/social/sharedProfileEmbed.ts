@@ -28,12 +28,17 @@ export function buildSharedProfileEmbedData(
 ): SharedProfileEmbedData {
   const guide = guides.find((candidate) => candidate.guideId === MAIN_GUIDE_ID) ?? guides[0];
   if (guide === undefined || guide.steps.length === 0) throw new Error("Index du guide principal indisponible");
-  const orderedSteps = [...guide.steps].sort((left, right) => left.stepNumber - right.stepNumber);
+  const allSteps = [...guide.steps].sort((left, right) => left.stepNumber - right.stepNumber);
+  const chapterSteps = allSteps.filter((step) => step.chapterNumber !== null);
+  // Introductory pages are useful guide context but have no chapter and no
+  // explicit completion state for older profiles. They must not pin the social
+  // preview to step 1 after the player has already started the actual guide.
+  const orderedSteps = chapterSteps.length > 0 ? chapterSteps : allSteps;
   const current = orderedSteps.find((step) => getStepProgress(profile.progress, guide.guideId, step.stepNumber) !== "COMPLETED")
     ?? orderedSteps.at(-1)!;
   const currentIndex = orderedSteps.findIndex((step) => step.stepNumber === current.stepNumber);
   const nextBoss = orderedSteps.slice(Math.max(currentIndex, 0)).find((step) => step.boss !== null)?.boss ?? null;
-  const completedSteps = orderedSteps.filter((step) =>
+  const completedSteps = allSteps.filter((step) =>
     getStepProgress(profile.progress, guide.guideId, step.stepNumber) === "COMPLETED").length;
   const breedName = avatars.find((avatar) => avatar.breedId === profile.breedId && avatar.gender === profile.gender)?.breedName
     ?? "Aventurier";

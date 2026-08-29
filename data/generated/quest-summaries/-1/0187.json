@@ -1,8 +1,678 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 187,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T22:25:46.176Z",
+  "summaries": [
+    {
+      "overview": "Poursuivez la quête confiée par Bowisse : récupérez les Champignons Ligneux et la recette des Semelles de Vent, fabriquez les semelles dans son atelier puis suivez la réaction de la boussole jusqu'à Toungousa sur Pandala. Cette séquence mène directement à la piste de Tonam Etanwa et prépare la quête suivante, Le voleur d'âmes.",
+      "recommendedLevel": 50,
+      "prerequisites": [
+        "Avoir la quête en cours après avoir parlé à Bowisse au Village d'Amakna [5,1].",
+        "Avoir au moins un métier de niveau 50.",
+        "Retourner voir le Dark Vlad, toujours sans mourir."
+      ],
+      "rewards": [
+        "244 518 XP.",
+        "4 176 kamas.",
+        "2 x Cuir de Bouftou Royal."
+      ],
+      "preparation": [
+        "Prévoir 8 x Graine de la Discorde.",
+        "Prévoir 4 x Résine.",
+        "Prévoir 10 x Plume du Kwak de Vent.",
+        "Prévoir 6 x Ailes de Scarafeuille Blanc.",
+        "Prévoir 2 x Pierre d'Émeraude.",
+        "Prévoir un combat contre le Cordonnier Sombre accompagné d'un Boulanger Sombre et d'un Mineur Sombre."
+      ],
+      "actions": [
+        {
+          "instruction": "Récoltez 10 x Champignon Ligneux dans la clairière de Brouce Boulgoure.",
+          "position": null,
+          "zoneHint": "Clairière de Brouce Boulgoure",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Cordonnier Sombre puis affrontez son groupe afin d'obtenir les Secrets de Fabrication des Semelles de Vent.",
+          "position": "[14,17]",
+          "zoneHint": null,
+          "warning": "Le Cordonnier Sombre est accompagné d'un Boulanger Sombre et d'un Mineur Sombre.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Retournez voir Bowisse avec les 10 Champignon Ligneux et les Secrets de Fabrication des Semelles de Vent, puis remettez-les-lui pour apprendre la recette.",
+          "position": "[5,1]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Utilisez l'atelier spécial de Bowisse pour fabriquer les Semelles de Vent avec 8 x Graine de la Discorde, 4 x Résine, 10 x Plume du Kwak de Vent, 6 x Ailes de Scarafeuille Blanc et 2 x Pierre d'Émeraude.",
+          "position": "[5,1]",
+          "zoneHint": "Village d'Amakna",
+          "warning": "Les composants indiqués sont consommés lors de la fabrication.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparlez à Bowisse et donnez-lui les Semelles de Vent afin qu'il vous montre les bottes du Dark Vlad.",
+          "position": "[5,1]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Utilisez la boussole de Mériana dans l'inventaire de quêtes pour faire apparaître la destination [27,-28].",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous auprès de Toungousa et interrogez-la au sujet du Dark Vlad.",
+          "position": "[27,-28]",
+          "zoneHint": "Pandala",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Toungousa révèle que le Dark Vlad parlait à l'esprit Tonam Etanwa.",
+        "La suite consiste à réunir des âmes pour pouvoir communiquer avec cet esprit ; elle est traitée dans Le voleur d'âmes."
+      ],
+      "npcs": [
+        "Bowisse",
+        "Cordonnier Sombre",
+        "Toungousa",
+        "Dark Vlad",
+        "Tonam Etanwa"
+      ],
+      "items": [
+        {
+          "name": "Champignon Ligneux",
+          "itemId": 14960,
+          "imageUrl": "/items/14960.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/14960"
+        },
+        {
+          "name": "Secrets de Fabrication des Semelles de Vent",
+          "itemId": 14979,
+          "imageUrl": "/items/14979.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/14979"
+        },
+        {
+          "name": "Semelles de Vent",
+          "itemId": 14980,
+          "imageUrl": "/items/14980.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/14980"
+        },
+        {
+          "name": "Graine de la Discorde",
+          "itemId": 13730,
+          "imageUrl": "/items/13730.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/13730"
+        },
+        {
+          "name": "Résine",
+          "itemId": 1985,
+          "imageUrl": "/items/1985.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1985"
+        },
+        {
+          "name": "Plume du Kwak de Vent",
+          "itemId": 416,
+          "imageUrl": "/items/416.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/416"
+        },
+        {
+          "name": "Ailes de Scarafeuille Blanc",
+          "itemId": 1456,
+          "imageUrl": "/items/1456.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1456"
+        },
+        {
+          "name": "Pierre d'Émeraude",
+          "itemId": 544,
+          "imageUrl": "/items/544.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/544"
+        },
+        {
+          "name": "Boussole de Mériana",
+          "itemId": 14992,
+          "imageUrl": "/items/14992.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/14992"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 481,
+            "name": "Clairière de Brouce Boulgoure",
+            "coordinates": []
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "14,17"
+            ]
+          },
+          {
+            "id": 944,
+            "name": "Terrdala",
+            "coordinates": [
+              "27,-28"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "5,1"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4949,
+            "name": "Jérart Dupaindur",
+            "level": 130,
+            "imageUrl": "/bestiary/monsters/4949.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2336,
+            "name": "Mosketère le Dévoué",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2336.png"
+          },
+          {
+            "id": 2353,
+            "name": "Sangria le Fruité",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2353.png"
+          },
+          {
+            "id": 2598,
+            "name": "Bonpake le Chavireur",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2598.png"
+          },
+          {
+            "id": 2527,
+            "name": "Parapadkouï l'Émasculé",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2527.png"
+          },
+          {
+            "id": 2414,
+            "name": "Tétonée la Plantureuse",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2414.png"
+          },
+          {
+            "id": 2434,
+            "name": "Tilolo la Bien Moulée",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2434.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 104,
+                "name": "Sanglier",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/104.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 3003,
+            "name": "Tanuki",
+            "monsters": [
+              {
+                "id": 6220,
+                "name": "Ishigro Pake",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6220.png"
+              },
+              {
+                "id": 6221,
+                "name": "Tétonuki",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6221.png"
+              },
+              {
+                "id": 6222,
+                "name": "Parashukouï",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6222.png"
+              },
+              {
+                "id": 6223,
+                "name": "Lolojiki",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6223.png"
+              }
+            ]
+          },
+          {
+            "id": 1602,
+            "name": "Vermines des champs",
+            "monsters": [
+              {
+                "id": 4819,
+                "name": "Campagnoll",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/4819.png"
+              },
+              {
+                "id": 61,
+                "name": "Moskito",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/61.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:754",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/qui-botte-le-cul-des-culs-botteacutes.html",
+      "sourceTitle": "Qui botte le cul des Culs Bottés ?",
+      "sourceHash": "a25c16fdd604ea016847ff9b80a82b2e3c44157d933622a922c5a406a1fb5046",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Réunissez les cinq âmes réclamées par Toungousa, remettez-les pour le rituel puis affrontez Tonam Etanwa. La boussole vous conduira ensuite au cimetière de Bonta, où la tombe vide de Nabur et le témoignage de Sellia Renuf permettent de clore cette piste. La discussion suivante avec Sellia lancerait une autre quête et n'est pas nécessaire ici.",
+      "recommendedLevel": 50,
+      "prerequisites": [
+        "Avoir terminé Qui botte le cul des Culs Bottés ? et poursuivi la discussion avec Toungousa.",
+        "Posséder le sort Capture d'âmes."
+      ],
+      "rewards": [
+        "1 042 391 XP.",
+        "15 072 kamas.",
+        "5 x Éklâme ordinaire."
+      ],
+      "preparation": [
+        "Obtenir une pierre d'âme contenant Draegnerys, en capturant le boss ou en achetant la pierre correspondante.",
+        "Obtenir une pierre d'âme contenant Boostache, en capturant le boss ou en achetant la pierre correspondante.",
+        "Obtenir une pierre d'âme contenant Kanniboul Ebil, en capturant le boss ou en achetant la pierre correspondante.",
+        "Obtenir une pierre d'âme contenant Nelween, en capturant le boss ou en achetant la pierre correspondante.",
+        "Obtenir une pierre d'âme contenant Wa Wobot, en capturant le boss ou en achetant la pierre correspondante.",
+        "Prévoir un combat contre l'esprit Tonam Etanwa, réalisable en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Procurez-vous les cinq pierres d'âmes demandées : Draegnerys, Boostache, Kanniboul Ebil, Nelween et Wa Wobot, soit en réalisant leurs donjons avec Capture d'âmes, soit en achetant les captures.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "L'achat des pierres d'âmes implique une dépense variable en kamas. Le sort Capture d'âmes est nécessaire si vous réalisez les captures vous-même.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Retournez voir Toungousa et donnez-lui les cinq pierres d'âmes afin qu'elle prépare le rituel.",
+          "position": "[27,-28]",
+          "zoneHint": "Terrdala",
+          "warning": "Les pierres d'âmes remises sont consommées pour la progression de la quête.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparlez à Toungousa pour assister au rituel et faire apparaître l'esprit Tonam Etanwa.",
+          "position": "[27,-28]",
+          "zoneHint": "Terrdala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Tonam Etanwa puis remportez le combat contre lui. Le combat peut être effectué à plusieurs ; l'élément feu est favorable face à ses résistances.",
+          "position": "[27,-28]",
+          "zoneHint": "Terrdala",
+          "warning": "Tonam Etanwa utilise notamment des attaques terre à distance et peut invoquer un arbre.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire, reparlez à Tonam Etanwa pour l'interroger sur le Dark Vlad.",
+          "position": "[27,-28]",
+          "zoneHint": "Terrdala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Utilisez la boussole de Mériana dans l'inventaire de quêtes afin d'obtenir la destination du cimetière de Bonta en [-20,-58].",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Au cimetière de Bonta, examinez la tombe de Nabur et constatez qu'elle est vide.",
+          "position": "[-20,-58]",
+          "zoneHint": "Cimetière de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez sur la carte située à gauche et demandez à Sellia Renuf si elle a aperçu le Dark Vlad.",
+          "position": "[-21,-58]",
+          "zoneHint": "Cimetière de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les cinq âmes peuvent être obtenues par capture en donjon ou directement sous forme de pierres d'âmes achetées.",
+        "Après l'interrogatoire de Sellia Renuf, poursuivre davantage la conversation permettrait de lancer L'amour perdu de Nabur ; cette action est volontairement laissée pour plus tard."
+      ],
+      "npcs": [
+        "Toungousa",
+        "Tonam Etanwa",
+        "Sellia Renuf",
+        "Dark Vlad",
+        "Nabur"
+      ],
+      "items": [
+        {
+          "name": "Pierre d'âme de Draegnerys",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Pierre d'âme de Boostache",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Pierre d'âme de Kanniboul Ebil",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Pierre d'âme de Nelween",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Pierre d'âme de Wa Wobot",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Boussole de Mériana",
+          "itemId": 14992,
+          "imageUrl": "/items/14992.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/14992"
+        },
+        {
+          "name": "Éklâme ordinaire",
+          "itemId": 31519,
+          "imageUrl": "/items/31519.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/31519"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 6,
+            "name": "Cimetière",
+            "coordinates": [
+              "-20,-58",
+              "-21,-58"
+            ]
+          },
+          {
+            "id": 944,
+            "name": "Terrdala",
+            "coordinates": [
+              "27,-28"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4270,
+            "name": "Roub' Ignolles",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/4270.png"
+          },
+          {
+            "id": 4949,
+            "name": "Jérart Dupaindur",
+            "level": 130,
+            "imageUrl": "/bestiary/monsters/4949.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2321,
+            "name": "Chafalfer l'Optimiste",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2321.png"
+          },
+          {
+            "id": 2319,
+            "name": "Chafemal le Bagarreur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2319.png"
+          },
+          {
+            "id": 2522,
+            "name": "Kwoanneur le Frimeur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2522.png"
+          },
+          {
+            "id": 2357,
+            "name": "Tofumanchou l'Empereur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2357.png"
+          },
+          {
+            "id": 2421,
+            "name": "Chaffoin le Sournois",
+            "level": 33,
+            "imageUrl": "/bestiary/monsters/2421.png"
+          },
+          {
+            "id": 2276,
+            "name": "Ribibi le Cher",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2276.png"
+          },
+          {
+            "id": 2598,
+            "name": "Bonpake le Chavireur",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2598.png"
+          },
+          {
+            "id": 2527,
+            "name": "Parapadkouï l'Émasculé",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2527.png"
+          },
+          {
+            "id": 2414,
+            "name": "Tétonée la Plantureuse",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2414.png"
+          },
+          {
+            "id": 2434,
+            "name": "Tilolo la Bien Moulée",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2434.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 193,
+            "name": "Bêtes de la nuit",
+            "monsters": [
+              {
+                "id": 154,
+                "name": "Kwoan",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/154.png"
+              },
+              {
+                "id": 111,
+                "name": "Tofu Maléfique",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/111.png"
+              }
+            ]
+          },
+          {
+            "id": 191,
+            "name": "Chafers d'Amakna",
+            "monsters": [
+              {
+                "id": 54,
+                "name": "Chafer",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/54.png"
+              },
+              {
+                "id": 110,
+                "name": "Chafer Invisible",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/110.png"
+              },
+              {
+                "id": 396,
+                "name": "Chafer Fantassin",
+                "level": 33,
+                "imageUrl": "/bestiary/monsters/396.png"
+              },
+              {
+                "id": 108,
+                "name": "Rib",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/108.png"
+              }
+            ]
+          },
+          {
+            "id": 3003,
+            "name": "Tanuki",
+            "monsters": [
+              {
+                "id": 6220,
+                "name": "Ishigro Pake",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6220.png"
+              },
+              {
+                "id": 6221,
+                "name": "Tétonuki",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6221.png"
+              },
+              {
+                "id": 6222,
+                "name": "Parashukouï",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6222.png"
+              },
+              {
+                "id": 6223,
+                "name": "Lolojiki",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6223.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:755",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-voleur-dacircmes.html",
+      "sourceTitle": "Le voleur d'âmes",
+      "sourceHash": "a8f72cbce0d53b9df6c9d54c1c762bc5f25e2409d304c399fb4a23f7a4252552",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

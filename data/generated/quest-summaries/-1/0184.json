@@ -1,8 +1,263 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 184,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T22:25:42.270Z",
+  "summaries": [
+    {
+      "overview": "La quête Arrête-la si tu peux est supposée terminée : vous êtes donc à la fin du Tertre du long sommeil, devant le bloc d'ambre surveillé par Hell Mina. Cette occurrence reprend Pas de fumée sans feu à cet endroit, permet d'écarter Hell Mina, de révéler le Sceau de Terrakourial avec une Enchanterelle, puis mène jusqu'au plan astral où la quête se termine.",
+      "recommendedLevel": 150,
+      "prerequisites": [
+        "Rester planté là.",
+        "Avoir terminé Un pendule pour guider ses pas.",
+        "Avoir terminé Arrête-la si tu peux après avoir avancé Pas de fumée sans feu jusqu'à l'objectif « Déjouer la surveillance de la gardienne du tumulus »."
+      ],
+      "rewards": [
+        "2 658 600 XP.",
+        "30 576 Kamas.",
+        "3 x Truk divin."
+      ],
+      "preparation": [
+        "Prévoir 1 x Enchanterelle. Si vous n'en avez pas, elle peut être obtenue à 5% de base sur les Malters de l'Orée enchantée lorsque Pas de fumée sans feu est en cours ou terminée.",
+        "Prévoir deux combats effectués seul."
+      ],
+      "actions": [
+        {
+          "instruction": "À la fin du Tertre du long sommeil, parlez à Karnhell et choisissez « Tendre votre main sans crainte », puis « Ramasser une pierre moussue et la jeter hors de la salle ». Karnhell part chercher la pierre et Hell Mina la poursuit, laissant le bloc d'ambre sans surveillance.",
+          "position": null,
+          "zoneHint": "Tertre du long sommeil",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Consommez 1 x Enchanterelle pour obtenir la bénédiction « Au-delà des apparences » pendant 10 combats et révéler le Sceau de Terrakourial.",
+          "position": null,
+          "zoneHint": "Tertre du long sommeil",
+          "warning": "Si vous n'avez pas d'Enchanterelle, sortez du donjon, récupérez-en une sur les Malters de l'Orée enchantée, puis revenez sans refaire le donjon en choisissant « Prétendre que vous venez de croiser Karnhell en bas du tumulus ».",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Sceau de Terrakourial et choisissez « Tenter d'étouffer le feu avant de placer les morceaux d'ambre ». Remportez le combat qui se déclenche.",
+          "position": null,
+          "zoneHint": "Tertre du long sommeil",
+          "warning": "Combat seul. L'effet Au bûcher inflige environ 350 dommages feu à chaque fin de tour ; Ignition inflige environ 50 dommages feu et Pyrolise environ 100 dommages feu en vol de vie jusqu'à 3 PO.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après le combat, reparlez au Sceau de Terrakourial et choisissez « Constater que la chaleur est moins intense et placer les trois morceaux d'ambre ». Le feu normal s'éteint, mais des flammes froides apparaissent.",
+          "position": null,
+          "zoneHint": "Tertre du long sommeil",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous en [-6,18], entrez dans la chaumière des Blairouiche et placez-vous sur la cellule du coin supérieur gauche de la pièce pour déclencher le combat contre le Pantin des Blairouiche.",
+          "position": "[-6,18]",
+          "zoneHint": "Chaumière des Blairouiche",
+          "warning": "Combat seul. Le Pantin principal possède 6200 PV et reste invulnérable tant que vous n'avez pas frappé en mêlée l'une de ses invocations. Frapper une invocation en mêlée renvoie 150% des dommages infligés et applique Pesanteur pour le tour ; utilisez de faibles dégâts ou éliminez l'invocation en un coup.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après le combat, descendez au sous-sol par les escaliers situés dans le coin supérieur droit et cliquez sur la flamme froide au centre du pentacle.",
+          "position": "[-6,18]",
+          "zoneHint": "Sous-sol de la chaumière des Blairouiche",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans le plan astral, parlez à l'Esprit boutefeu près du grand bûcher de flammes froides. La conversation termine Pas de fumée sans feu.",
+          "position": null,
+          "zoneHint": "Plan astral",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le lancement de la quête et l'avancée jusqu'à l'objectif « Déjouer la surveillance de la gardienne du tumulus » ont été effectués à l'étape précédente.",
+        "La quête Arrête-la si tu peux est également supposée terminée avant cette reprise.",
+        "Continuer la conversation avec l'Esprit boutefeu après la fin permet de débloquer Quand les esprits s'échauffent, mais cette quête suivante ne fait pas partie des actions de cette occurrence."
+      ],
+      "npcs": [
+        "Karnhell",
+        "Hell Mina",
+        "Sceau de Terrakourial",
+        "Pantin des Blairouiche",
+        "Esprit boutefeu",
+        "Malters"
+      ],
+      "items": [
+        {
+          "name": "Enchanterelle",
+          "itemId": 26710,
+          "imageUrl": "/items/26710.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26710"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 9,
+            "name": "Dédale du Dark Vlad",
+            "coordinates": [
+              "-6,18"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "-6,18"
+            ]
+          },
+          {
+            "id": 1016,
+            "name": "Tertre du long sommeil",
+            "coordinates": []
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 5212,
+            "name": "Malters",
+            "monsters": [
+              {
+                "id": 6864,
+                "name": "Malzerb",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/6864.png"
+              },
+              {
+                "id": 6871,
+                "name": "Maltrio",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/6871.png"
+              },
+              {
+                "id": 6872,
+                "name": "Malépik",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/6872.png"
+              },
+              {
+                "id": 6873,
+                "name": "Malalfa",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/6873.png"
+              },
+              {
+                "id": 6874,
+                "name": "Malbois",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/6874.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1407",
+      "relation": "FINISH",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/pas-de-fumee-sans-feu.html",
+      "sourceTitle": "Pas de fumée sans feu",
+      "sourceHash": "6cb9c3cfd3ceaf99e0409ddd46e202337eca80e61a58d2214d7c42fc91dc2ae5",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Les occurrences précédentes de La voie du guerrier correspondent aux cinq premiers donjons imposés dans l'ordre : Repaire de Skeunk, Atelier du Tanukouï San, Fabrique de foux d'artifice, Clairière du Chêne Mou et Donjon du Minotot. À cette occurrence, poursuivez uniquement avec le sixième objectif : terminer la Grotte du Bworker et vaincre le Bworker.",
+      "recommendedLevel": 30,
+      "prerequisites": [
+        "Avoir lancé La voie du guerrier auprès du maître des clefs en [-6,-37].",
+        "Avoir déjà effectué, dans l'ordre, le Repaire de Skeunk, l'Atelier du Tanukouï San, la Fabrique de foux d'artifice, la Clairière du Chêne Mou et le Donjon du Minotot."
+      ],
+      "rewards": [],
+      "preparation": [
+        "Prévoir de réaliser le donjon Grotte du Bworker."
+      ],
+      "actions": [
+        {
+          "instruction": "Effectuez le donjon Grotte du Bworker et vainquez le Bworker afin de valider le sixième donjon demandé par La voie du guerrier.",
+          "position": null,
+          "zoneHint": "Grotte du Bworker",
+          "warning": null,
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "Les cinq donjons précédents de la série sont supposés déjà validés aux occurrences antérieures du guide.",
+        "La source indique qu'après les six donjons il faut aller voir Metag Robill en [6,-18] dans la taverne pour terminer la quête. Ce rendu n'est pas inclus dans les actions de cette occurrence ACTIVE."
+      ],
+      "npcs": [
+        "Bworker",
+        "Metag Robill"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 94,
+            "name": "Grotte du Bworker",
+            "coordinates": []
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 184,
+            "name": "Bworks de Gisgoul",
+            "monsters": [
+              {
+                "id": 486,
+                "name": "Bwork Élémental d'Air",
+                "level": 172,
+                "imageUrl": "/bestiary/monsters/486.png"
+              },
+              {
+                "id": 485,
+                "name": "Bwork Élémental d'Eau",
+                "level": 172,
+                "imageUrl": "/bestiary/monsters/485.png"
+              },
+              {
+                "id": 484,
+                "name": "Bwork Élémental de Feu",
+                "level": 172,
+                "imageUrl": "/bestiary/monsters/484.png"
+              },
+              {
+                "id": 487,
+                "name": "Bwork Élémental de Terre",
+                "level": 172,
+                "imageUrl": "/bestiary/monsters/487.png"
+              },
+              {
+                "id": 488,
+                "name": "Cybwork",
+                "level": 172,
+                "imageUrl": "/bestiary/monsters/488.png"
+              },
+              {
+                "id": 479,
+                "name": "Mama Bwork",
+                "level": 172,
+                "imageUrl": "/bestiary/monsters/479.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:75",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-voie-du-guerrier.html",
+      "sourceTitle": "La voie du guerrier",
+      "sourceHash": "c1ce85c6230349d750d3f0186396981509f68055d47a6202c8097751fde24a9d",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

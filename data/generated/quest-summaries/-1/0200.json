@@ -1,8 +1,340 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 200,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T22:28:18.588Z",
+  "summaries": [
+    {
+      "overview": "Les récoltes demandées ont été effectuées auparavant dans l'Hypogée de l'Obsidiantre. À cette occurrence, il reste uniquement à remettre les 40 Ellébore d'Hel et la Bétoine Agayne à Bisale Vinlenta afin de terminer la quête et de débloquer Heureux qui, comme les lys.",
+      "recommendedLevel": 160,
+      "prerequisites": [
+        "Rose à lys, Rose à lys, oh !",
+        "Avoir déjà récupéré 40 x Ellébore d'Hel.",
+        "Avoir déjà récupéré 1 x Bétoine Agayne."
+      ],
+      "rewards": [
+        "4 564 056 XP.",
+        "57 560 kamas.",
+        "3 x Kama de glace.",
+        "5 x Pierre de Fumrirolle."
+      ],
+      "preparation": [
+        "Vérifier que les 40 x Ellébore d'Hel et la Bétoine Agayne sont présentes avant le rendu."
+      ],
+      "actions": [
+        {
+          "instruction": "Retournez auprès de Bisale Vinlenta et remettez-lui les 40 Ellébore d'Hel ainsi que la Bétoine Agayne pour terminer Fleuries mais rougissent.",
+          "position": "[-72,-31]",
+          "zoneHint": "Champs de glace",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les combats et récoltes dans l'Hypogée de l'Obsidiantre sont supposés déjà accomplis lors de l'occurrence précédente.",
+        "La fin de cette quête débloque Heureux qui, comme les lys."
+      ],
+      "npcs": [
+        "Bisale Vinlenta"
+      ],
+      "items": [
+        {
+          "name": "Ellébore d'Hel",
+          "itemId": 11164,
+          "imageUrl": "/items/11164.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11164"
+        },
+        {
+          "name": "Bétoine Agayne",
+          "itemId": 11165,
+          "imageUrl": "/items/11165.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11165"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 602,
+            "name": "Champs de glace",
+            "coordinates": [
+              "-72,-31"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2901,
+            "name": "Bouflouth",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/2901.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 156,
+            "name": "Boufmouths",
+            "monsters": [
+              {
+                "id": 2850,
+                "name": "Boufmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2850.png"
+              },
+              {
+                "id": 2851,
+                "name": "Boufmouth de guerre",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2851.png"
+              },
+              {
+                "id": 2852,
+                "name": "Boufmouth légendaire",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2852.png"
+              },
+              {
+                "id": 2853,
+                "name": "Bouftonmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2853.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:340",
+      "relation": "FINISH",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/fleuries-mais-rougissent.html",
+      "sourceTitle": "Fleuries mais rougissent",
+      "sourceHash": "bf6698f1c014772db61db37db770a878ea99efd4c81dc8d9266b860f99aa79f0",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après avoir terminé Fleuries mais rougissent, prenez la suite auprès d'Éric Azaraille puis réunissez les fleurs demandées dans la Crevasse Perge : 40 Lys Ander obtenus en combattant les monstres de la zone et 5 Lys Onbobet récoltés sur les emplacements indiqués. Cette occurrence est ACTIVE : ne rendez pas encore les fleurs à Éric Azaraille.",
+      "recommendedLevel": 170,
+      "prerequisites": [
+        "Fleuries mais rougissent."
+      ],
+      "rewards": [
+        "4 711 728 XP.",
+        "64 560 kamas.",
+        "4 x Kama de glace.",
+        "5 x Laine de Maho Givrefoux."
+      ],
+      "preparation": [
+        "Prévoir de combattre au total 40 monstres de la Crevasse Perge pour obtenir automatiquement les 40 Lys Ander.",
+        "Prévoir de récolter 5 Lys Onbobet ; les plantes réapparaissent après environ 5 minutes."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Éric Azaraille pour prendre la suite de la série et obtenir l'objectif de collecte des Lys Ander et des Lys Onbobet.",
+          "position": "[-81,-44]",
+          "zoneHint": "La Bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la Crevasse Perge, affrontez des monstres de la zone jusqu'à avoir obtenu 40 Lys Ander.",
+          "position": null,
+          "zoneHint": "Crevasse Perge",
+          "warning": "Il faut vaincre 40 monstres au total pour réunir les 40 Lys Ander.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Récoltez des Lys Onbobet en [-76,-83] si la plante est disponible.",
+          "position": "[-76,-83]",
+          "zoneHint": "Crevasse Perge",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récoltez des Lys Onbobet en [-76,-82] si la plante est disponible.",
+          "position": "[-76,-82]",
+          "zoneHint": "Crevasse Perge",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récoltez des Lys Onbobet en [-75,-81] si la plante est disponible.",
+          "position": "[-75,-81]",
+          "zoneHint": "Crevasse Perge",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récoltez des Lys Onbobet en [-80,-81] si la plante est disponible.",
+          "position": "[-80,-81]",
+          "zoneHint": "Crevasse Perge",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récoltez des Lys Onbobet en [-78,-80] si la plante est disponible.",
+          "position": "[-78,-80]",
+          "zoneHint": "Crevasse Perge",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récoltez des Lys Onbobet en [-79,-79] si la plante est disponible.",
+          "position": "[-79,-79]",
+          "zoneHint": "Crevasse Perge",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récoltez des Lys Onbobet en [-76,-78] si la plante est disponible.",
+          "position": "[-76,-78]",
+          "zoneHint": "Crevasse Perge",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récoltez des Lys Onbobet en [-78,-77] si la plante est disponible.",
+          "position": "[-78,-77]",
+          "zoneHint": "Crevasse Perge",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récoltez des Lys Onbobet en [-79,-77] si la plante est disponible, et poursuivez les récoltes sur ces emplacements jusqu'à en posséder 5.",
+          "position": "[-79,-77]",
+          "zoneHint": "Crevasse Perge",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le temps de réapparition des Lys Onbobet est d'environ 5 minutes.",
+        "Sur Dofus Touch, les plantes sont indiquées uniquement en [-76,-82], [-78,-80] et [-79,-77].",
+        "Ne retournez pas encore remettre les fleurs à Éric Azaraille à cette occurrence ; le rendu terminerait la quête."
+      ],
+      "npcs": [
+        "Éric Azaraille"
+      ],
+      "items": [
+        {
+          "name": "Lys Ander",
+          "itemId": 11166,
+          "imageUrl": "/items/11166.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11166"
+        },
+        {
+          "name": "Lys Onbobet",
+          "itemId": 11167,
+          "imageUrl": "/items/11167.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11167"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 606,
+            "name": "Crevasse Perge",
+            "coordinates": [
+              "-76,-83",
+              "-76,-82",
+              "-75,-81",
+              "-80,-81",
+              "-78,-80",
+              "-79,-79",
+              "-76,-78",
+              "-78,-77",
+              "-79,-77"
+            ]
+          },
+          {
+            "id": 601,
+            "name": "La Bourgade",
+            "coordinates": [
+              "-81,-44"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2906,
+            "name": "YeCh'Ti",
+            "level": 170,
+            "imageUrl": "/bestiary/monsters/2906.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2913,
+                "name": "Chachachovage",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2913.png"
+              },
+              {
+                "id": 2893,
+                "name": "Crabe Hijacob",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2893.png"
+              },
+              {
+                "id": 2914,
+                "name": "Gélikan",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2914.png"
+              },
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          },
+          {
+            "id": 137,
+            "name": "Givrefoux",
+            "monsters": [
+              {
+                "id": 2889,
+                "name": "Maho Givrefoux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/2889.png"
+              },
+              {
+                "id": 2890,
+                "name": "Soryo Givrefoux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/2890.png"
+              },
+              {
+                "id": 2888,
+                "name": "Yokaï Givrefoux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/2888.png"
+              },
+              {
+                "id": 2891,
+                "name": "Yomi Givrefoux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/2891.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:341",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/heureux-qui-comme-les-lys.html",
+      "sourceTitle": "Heureux qui, comme les lys",
+      "sourceHash": "cbd021037be9e0fcfb16a4836ef68031f477cdc6ff5f731f5ae27081bdbff1a3",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

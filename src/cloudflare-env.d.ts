@@ -23,6 +23,10 @@ interface DurableObjectNamespace {
   getByName(name: string): DurableObjectStub;
 }
 
+interface AssetsFetcher {
+  fetch(input: RequestInfo | URL, init?: RequestInit): Promise<Response>;
+}
+
 interface DurableObjectState {
   acceptWebSocket(socket: WebSocket): void;
   getWebSockets(): WebSocket[];
@@ -66,6 +70,7 @@ declare module "cloudflare:workers" {
 }
 
 interface CloudflareEnv {
+  ASSETS: AssetsFetcher;
   USER_DB: D1Database;
   PROFILE_EVENTS: DurableObjectNamespace;
   SITE_PRESENCE: DurableObjectNamespace;

@@ -1,8 +1,945 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 192,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T22:28:02.935Z",
+  "summaries": [
+    {
+      "overview": "Lance « Les voleurs de couleurs » auprès du Colonel Oneuil. La quête demande de récupérer 4 Krosmorbes de 3 couleurs différentes sur des Hordémons du Jour présent, avec un taux de base de 30 %. À cette occurrence, ne cherche pas à terminer ni à rendre la quête : garde-la active pendant les autres quêtes de la zone afin de profiter de leurs combats pour avancer les drops. Le rendu est prévu à une occurrence ultérieure.",
+      "recommendedLevel": 170,
+      "prerequisites": [],
+      "rewards": [
+        "2 355 864 XP",
+        "32 280 Kamas",
+        "35 x Orichor",
+        "5 x Dent de Trezz"
+      ],
+      "preparation": [
+        "Prévoir des combats contre les Hordémons du Jour présent pour récupérer progressivement les Krosmorbes."
+      ],
+      "actions": [
+        {
+          "instruction": "Parle au Colonel Oneuil et annonce ton intention de te rendre en Xélorium afin de lancer la quête et recevoir la mission de récupérer les Krosmorbes volés par les Hordémons.",
+          "position": "[-22,-24]",
+          "zoneHint": "Routes Rocailleuses",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête demande 4 Krosmorbes de 3 couleurs différentes, obtenus sur 3 types de monstres du Jour présent avec un taux de base de 30 %.",
+        "Ne rapporte pas encore les Krosmorbes à la Caporale Tarte : la fin de cette quête est prévue à l'étape 194.",
+        "L'étape actuelle demande ensuite d'effectuer « Terminutor : le jugement de la machine »."
+      ],
+      "npcs": [
+        "Colonel Oneuil",
+        "Caporale Tarte"
+      ],
+      "items": [
+        {
+          "name": "Krosmorbe",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 525,
+            "name": "Routes Rocailleuses",
+            "coordinates": [
+              "-22,-24"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2503,
+            "name": "Kanasukr le Mielleux",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2503.png"
+          },
+          {
+            "id": 2359,
+            "name": "Maître Champeur le Sabreur",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2359.png"
+          },
+          {
+            "id": 2445,
+            "name": "Fouflay le Retombé",
+            "level": 64,
+            "imageUrl": "/bestiary/monsters/2445.png"
+          },
+          {
+            "id": 2455,
+            "name": "Vétaurine l'Énergisé",
+            "level": 66,
+            "imageUrl": "/bestiary/monsters/2455.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 213,
+            "name": "Animaux des Champs",
+            "monsters": [
+              {
+                "id": 288,
+                "name": "Serpentin",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/288.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 259,
+                "name": "Arakne Majeure",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/259.png"
+              }
+            ]
+          },
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 186,
+            "name": "Craqueleurs",
+            "monsters": [
+              {
+                "id": 293,
+                "name": "Craqueleur des Plaines",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/293.png"
+              },
+              {
+                "id": 4571,
+                "name": "Craquelourd",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4571.png"
+              },
+              {
+                "id": 4573,
+                "name": "Craquelope",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4573.png"
+              }
+            ]
+          },
+          {
+            "id": 1518,
+            "name": "Ruffians de Cania",
+            "monsters": [
+              {
+                "id": 4574,
+                "name": "Foufayteur",
+                "level": 64,
+                "imageUrl": "/bestiary/monsters/4574.png"
+              },
+              {
+                "id": 4575,
+                "name": "Vétauran",
+                "level": 66,
+                "imageUrl": "/bestiary/monsters/4575.png"
+              },
+              {
+                "id": 287,
+                "name": "Kanigrou",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/287.png"
+              },
+              {
+                "id": 371,
+                "name": "Maître Bolet",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/371.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:856",
+      "relation": "START",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/les-voleurs-de-couleurs.html",
+      "sourceTitle": "Les voleurs de couleurs",
+      "sourceHash": "eeb525adf8365904da452ec1f012b9df5b849de49857ccf2b95ca366a3235c4c",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Retrouve Terminutor dans le Jour présent, détruis l'automate puis fais ton rapport à la Caporale Tarte. Le combat peut être réalisé jusqu'à 8 personnages. Il est préférable de rester à distance : Terminutor peut fortement frapper en mêlée et en ligne, tout en gagnant des PM et en réduisant temporairement les dommages reçus.",
+      "recommendedLevel": 170,
+      "prerequisites": [],
+      "rewards": [
+        "2 355 864 XP",
+        "32 280 Kamas",
+        "35 x Orichor",
+        "5 x Barbe de Seith"
+      ],
+      "preparation": [
+        "Prévoir 1 combat réalisable en groupe.",
+        "Avoir accès au Xélorium et pouvoir utiliser la montre en avance."
+      ],
+      "actions": [
+        {
+          "instruction": "Rends-toi en [3,5] dans les Chemins d'hier.",
+          "position": "[3,5]",
+          "zoneHint": "Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Utilise ta montre en avance pour passer dans le Jour présent.",
+          "position": "[3,5]",
+          "zoneHint": "Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans le Jour présent, avance d'une carte vers la droite puis descends d'une carte pour rejoindre Terminutor.",
+          "position": null,
+          "zoneHint": "Jour présent",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parle à Terminutor et affronte-le. Pour faciliter le combat, reste à distance et évite de rester aligné à 7 PO : Aïebibak frappe terre et air en ligne sans ligne de vue. En mêlée, Sarakonor retire 2 tours d'envoûtements et frappe feu et eau. À partir du tour 3, Astalavista lui donne 2 PM, 200 dommages et 50 % de réduction des dommages subis pendant 2 tours.",
+          "position": null,
+          "zoneHint": "Jour présent",
+          "warning": "Le combat peut se faire jusqu'à 8. La mise à jour concerne les personnages ayant parlé à Terminutor et choisi « S'enfuir ».",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire, rends-toi à l'avant-poste et parle à la Caporale Tarte pour lui annoncer l'extermination de Terminutor, puis poursuis le dialogue jusqu'à la fin de la quête.",
+          "position": "[2,2]",
+          "zoneHint": "Avant-poste",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Gladis explique que Terminutor est une machine créée par le Major Qiu et responsable de la mort de plusieurs recrues.",
+        "La Caporale Tarte connaît déjà l'implication du Major Qiu à cause de fuites d'informations."
+      ],
+      "npcs": [
+        "Gladis",
+        "Terminutor",
+        "Caporale Tarte",
+        "Major Qiu"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 836,
+            "name": "Chemins d'hier",
+            "coordinates": [
+              "3,5"
+            ]
+          },
+          {
+            "id": 837,
+            "name": "Jour présent",
+            "coordinates": []
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "2,2"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3845,
+            "name": "Morblok",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/3845.png"
+          },
+          {
+            "id": 3848,
+            "name": "Hin",
+            "level": 170,
+            "imageUrl": "/bestiary/monsters/3848.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1172,
+            "name": "Hordémons",
+            "monsters": [
+              {
+                "id": 3840,
+                "name": "Trezz",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3840.png"
+              },
+              {
+                "id": 3841,
+                "name": "Vindeux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3841.png"
+              },
+              {
+                "id": 3842,
+                "name": "Trantroa",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3842.png"
+              },
+              {
+                "id": 3843,
+                "name": "Seith",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3843.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 1171,
+            "name": "Xélomorphes",
+            "monsters": [
+              {
+                "id": 3854,
+                "name": "Gromorso",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3854.png"
+              },
+              {
+                "id": 3855,
+                "name": "Farfacette",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3855.png"
+              },
+              {
+                "id": 3856,
+                "name": "Brikablak",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3856.png"
+              },
+              {
+                "id": 3857,
+                "name": "Éklatleth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3857.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:857",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/terminutor--le-jugement-de-la-machine.html",
+      "sourceTitle": "Terminutor : le jugement de la machine",
+      "sourceHash": "40702af27c717460e80ae8a742f0e337e01d88a6ae53999cbe34a06f5a642050",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Interroge plusieurs Hordémons du Jour présent pour le Doc Emiette Borgne. Tu dois obtenir des informations auprès de Trantroa Désœuvré, Trezz Grogno, Vindeux Affable et Seith Psychologue, puis revenir faire ton rapport au Doc. Ces témoignages orientent l'enquête vers la Gardienne du Muséum et débloquent « Aux origines du mal ».",
+      "recommendedLevel": 170,
+      "prerequisites": [
+        "Prisonniers du temps"
+      ],
+      "rewards": [
+        "2 355 864 XP",
+        "32 280 Kamas",
+        "35 x Orichor",
+        "5 x Pagne de Trantroa"
+      ],
+      "preparation": [
+        "Avoir accès aux Chemins d'hier et au Jour présent.",
+        "Pouvoir utiliser la montre en avance."
+      ],
+      "actions": [
+        {
+          "instruction": "Parle au Doc Emiette Borgne pour poursuivre son enquête sur les créatures du Xélorium et accepter d'interroger les Hordémons du Jour présent.",
+          "position": "[1,6]",
+          "zoneHint": "Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rends-toi en [6,6] dans les Chemins d'hier et utilise une fois ta montre en avance pour rejoindre le Jour présent.",
+          "position": "[6,6]",
+          "zoneHint": "Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parle à Trantroa Désœuvré et demande depuis quand sa tribu se trouve ici. Il ne connaît pas la réponse et t'oriente vers la Gardienne du Muséum.",
+          "position": null,
+          "zoneHint": "Jour présent",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Suis le parcours vers Trezz Grogno, parle-lui et réponds que toi aussi tu n'aimes pas les aventuriers, puis coupe court à son raisonnement.",
+          "position": null,
+          "zoneHint": "Jour présent",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Après avoir parcouru les deux cartes suivantes, parle à Vindeux Affable et demande-lui qui est son chef. Il t'indique que son chef est XLII.",
+          "position": null,
+          "zoneHint": "Jour présent",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne dans les Chemins d'hier, va en [1,7] et utilise la montre en avance.",
+          "position": "[1,7]",
+          "zoneHint": "Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parle à Seith Psychologue et complimente son gourdin afin d'obtenir la dernière interaction nécessaire.",
+          "position": null,
+          "zoneHint": "Jour présent",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne auprès du Doc Emiette Borgne à l'avant-poste et rapporte ce que tu as appris. Termine le dialogue pour achever la quête et débloquer « Aux origines du mal ».",
+          "position": "[1,6]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les Hordémons interrogés indiquent notamment que leur chef est XLII et que la Gardienne du Muséum pourrait en savoir davantage sur leur présence.",
+        "La fin de cette quête débloque « Aux origines du mal », également réalisée dans cette étape."
+      ],
+      "npcs": [
+        "Doc Emiette Borgne",
+        "Trantroa Désœuvré",
+        "Trezz Grogno",
+        "Vindeux Affable",
+        "Seith Psychologue",
+        "Gardienne du Muséum",
+        "XLII"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 836,
+            "name": "Chemins d'hier",
+            "coordinates": [
+              "1,6",
+              "6,6",
+              "1,7"
+            ]
+          },
+          {
+            "id": 837,
+            "name": "Jour présent",
+            "coordinates": []
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "1,6"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3845,
+            "name": "Morblok",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/3845.png"
+          },
+          {
+            "id": 3848,
+            "name": "Hin",
+            "level": 170,
+            "imageUrl": "/bestiary/monsters/3848.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1172,
+            "name": "Hordémons",
+            "monsters": [
+              {
+                "id": 3840,
+                "name": "Trezz",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3840.png"
+              },
+              {
+                "id": 3841,
+                "name": "Vindeux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3841.png"
+              },
+              {
+                "id": 3842,
+                "name": "Trantroa",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3842.png"
+              },
+              {
+                "id": 3843,
+                "name": "Seith",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3843.png"
+              }
+            ]
+          },
+          {
+            "id": 1171,
+            "name": "Xélomorphes",
+            "monsters": [
+              {
+                "id": 3854,
+                "name": "Gromorso",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3854.png"
+              },
+              {
+                "id": 3855,
+                "name": "Farfacette",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3855.png"
+              },
+              {
+                "id": 3856,
+                "name": "Brikablak",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3856.png"
+              },
+              {
+                "id": 3857,
+                "name": "Éklatleth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3857.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:862",
+      "relation": "ACTIVE",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/les-deacutemons-de-midi.html",
+      "sourceTitle": "Les démons de midi",
+      "sourceHash": "844424ab7ceb495c188f22a7a7441a314198b078e5d13c237398a8e20f699995",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Poursuis l'enquête sur l'apparition des Hordémons. Consulte le Compendium de l'Archiduk Hegreth au Muséum après un combat de groupe, rapporte tes découvertes au Doc Emiette Borgne, puis inspecte la déchirure temporelle en [3,6]. Un Vindeux Timoré la traverse : bats-le seul avant de retourner une dernière fois auprès du Doc. La quête se termine alors ; poursuivre ensuite la conversation lancerait « De fil en aiguille », qui appartient à l'étape suivante.",
+      "recommendedLevel": 170,
+      "prerequisites": [
+        "Les démons de midi"
+      ],
+      "rewards": [
+        "2 355 864 XP",
+        "32 280 Kamas",
+        "35 x Orichor",
+        "5 x Peau de Vindeux"
+      ],
+      "preparation": [
+        "Prévoir 1 combat réalisable en groupe.",
+        "Prévoir 1 combat à effectuer seul.",
+        "Avoir accès au Jour présent et au Muséum."
+      ],
+      "actions": [
+        {
+          "instruction": "Parle au Doc Emiette Borgne. Il t'envoie rencontrer la Gardienne du Muséum pour poursuivre l'enquête sur les Hordémons.",
+          "position": "[1,6]",
+          "zoneHint": "Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rends-toi en [3,6] dans les Chemins d'hier pour te téléporter devant l'entrée du Muséum, puis rejoins le Muséum en [3,1] dans le Jour présent.",
+          "position": "[3,6]",
+          "zoneHint": "Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parle à la Gardienne du Muséum. Elle t'indique que les Hordémons détruisent les œuvres du Xélorium et te conseille de consulter le Compendium de l'Archiduk Hegreth.",
+          "position": "[3,1]",
+          "zoneHint": "Jour présent",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans le Muséum, rends-toi dans la salle de gauche parmi les trois salles situées sur la droite, puis clique sur le Compendium.",
+          "position": null,
+          "zoneHint": "Muséum",
+          "warning": "Le clic déclenche immédiatement une agression par quatre Hordémons.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Vaincs le groupe de 4 Hordémons. Le combat peut être réalisé jusqu'à 8 personnages et met la quête à jour pour les participants concernés.",
+          "position": null,
+          "zoneHint": "Muséum",
+          "warning": "À la fin du combat, une Dent d'Hordémon est obtenue dans l'inventaire de quête.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, clique de nouveau sur le Compendium afin de pouvoir le lire.",
+          "position": null,
+          "zoneHint": "Muséum",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne auprès du Doc Emiette Borgne et explique-lui que l'invasion des Hordémons a commencé dans les Chemins d'hier à cause d'une déchirure temporelle.",
+          "position": "[1,6]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Va en [3,6], entre dans la grotte, passe derrière la cascade et clique sur la déchirure temporelle située dans le mur.",
+          "position": "[3,6]",
+          "zoneHint": null,
+          "warning": "Un Hordémon traverse la déchirure immédiatement après son inspection.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parle à Vindeux Timoré et empêche-le d'aller chercher ses compagnons en le combattant.",
+          "position": "[3,6]",
+          "zoneHint": null,
+          "warning": "Ce combat doit être effectué seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après la victoire, retourne voir le Doc Emiette Borgne et rapporte que tu as trouvé la déchirure et rencontré un Hordémon qui l'a traversée. Termine la quête, mais n'enchaîne pas sur les actions de « De fil en aiguille » dans cette étape.",
+          "position": "[1,6]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La Gardienne du Muséum situe l'apparition des Hordémons lors d'un jour qu'elle considère comme maudit, distinct de la disparition des six Dofus.",
+        "Le Compendium révèle que l'invasion est liée à une déchirure temporelle.",
+        "À la fin de la quête, continuer la discussion avec le Doc lance « De fil en aiguille » ; son tutoriel appartient à l'étape 193 et n'est pas inclus ici."
+      ],
+      "npcs": [
+        "Doc Emiette Borgne",
+        "Gardienne du Muséum",
+        "Archiduk Hegreth",
+        "Vindeux Timoré"
+      ],
+      "items": [
+        {
+          "name": "Dent d'Hordémon",
+          "itemId": 15892,
+          "imageUrl": "/items/15892.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15892"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 836,
+            "name": "Chemins d'hier",
+            "coordinates": [
+              "1,6",
+              "3,6",
+              "3,1"
+            ]
+          },
+          {
+            "id": 837,
+            "name": "Jour présent",
+            "coordinates": [
+              "3,1"
+            ]
+          },
+          {
+            "id": 482,
+            "name": "Milifutaie",
+            "coordinates": [
+              "3,6"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "1,6"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3845,
+            "name": "Morblok",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/3845.png"
+          },
+          {
+            "id": 3848,
+            "name": "Hin",
+            "level": 170,
+            "imageUrl": "/bestiary/monsters/3848.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2310,
+            "name": "Arakule la Revancharde",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2310.png"
+          },
+          {
+            "id": 2333,
+            "name": "Milipatte la Griffe",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2333.png"
+          },
+          {
+            "id": 2349,
+            "name": "Preskapwal le Tendancieux",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2349.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 4823,
+                "name": "Écurouille",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/4823.png"
+              },
+              {
+                "id": 159,
+                "name": "Milimulou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/159.png"
+              },
+              {
+                "id": 103,
+                "name": "Prespic",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/103.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              }
+            ]
+          },
+          {
+            "id": 1172,
+            "name": "Hordémons",
+            "monsters": [
+              {
+                "id": 3840,
+                "name": "Trezz",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3840.png"
+              },
+              {
+                "id": 3841,
+                "name": "Vindeux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3841.png"
+              },
+              {
+                "id": 3842,
+                "name": "Trantroa",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3842.png"
+              },
+              {
+                "id": 3843,
+                "name": "Seith",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3843.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              }
+            ]
+          },
+          {
+            "id": 1171,
+            "name": "Xélomorphes",
+            "monsters": [
+              {
+                "id": 3854,
+                "name": "Gromorso",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3854.png"
+              },
+              {
+                "id": 3855,
+                "name": "Farfacette",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3855.png"
+              },
+              {
+                "id": 3856,
+                "name": "Brikablak",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3856.png"
+              },
+              {
+                "id": 3857,
+                "name": "Éklatleth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3857.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:863",
+      "relation": "ACTIVE",
+      "sortOrder": 3,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/aux-origines-du-mal.html",
+      "sourceTitle": "Aux origines du mal",
+      "sourceHash": "3041958d115a178597856b8017d051aed1c1ce27e33f0e185866e5f60aee393b",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Profiter des combats de Hordémons",
+      "description": "Garde « Les voleurs de couleurs » active pendant « Aux origines du mal » : ses combats contre des Hordémons peuvent faire avancer la collecte des Krosmorbes sans organiser immédiatement une session de farm séparée.",
+      "questKeys": [
+        "quest:856",
+        "quest:863"
+      ],
+      "actions": [
+        "Lance « Les voleurs de couleurs » avant de poursuivre les quêtes du Xélorium.",
+        "Pendant les combats contre les Hordémons de « Aux origines du mal », vérifie les Krosmorbes obtenus.",
+        "Ne rends pas encore « Les voleurs de couleurs » : sa fin est prévue à l'étape 194."
+      ]
+    }
+  ]
 }

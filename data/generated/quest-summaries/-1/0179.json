@@ -1,8 +1,475 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 179,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T22:25:34.573Z",
+  "summaries": [
+    {
+      "overview": "Après avoir affronté Ush Galesh dans « En rouge et noir », poursuivez l'enquête sur Chagun. Recueillez plusieurs témoignages, obtenez une entrevue avec les Ninchas grâce à une offrande de 4 Chathons, négociez leur neutralité, puis faites valider l'accord par Ush. Terminez en faisant votre rapport à l'avant-poste et en annonçant à Chakeuspire que le professeur n'a pas trouvé de remède à la felithropie.",
+      "recommendedLevel": 160,
+      "prerequisites": [
+        "Avoir terminé « En rouge et noir ».",
+        "Pour interroger Domino, l'avoir déjà rencontré en progressant dans la quête « Sanctuaires de famille »."
+      ],
+      "rewards": [
+        "2 282 028 XP.",
+        "28 780 Kamas.",
+        "30 x Orichor.",
+        "5 x Oreille de Chargus."
+      ],
+      "preparation": [
+        "Prévoir l'accès au miausolée et aux différentes zones d'Ecaflipus indiquées.",
+        "Lors de la pêche des Chathons, sélectionner les plus gros poissons afin d'éviter une agression."
+      ],
+      "actions": [
+        {
+          "instruction": "Avant de quitter le donjon, reparlez à Ush. Écoutez ses accusations contre Chagun et acceptez d'enquêter sur ses intentions.",
+          "position": "[7,-3]",
+          "zoneHint": "Plateau de Ush",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au miausolée et interrogez Domino au sujet de Chagun.",
+          "position": "[1,1]",
+          "zoneHint": "miausolée",
+          "warning": "Vous ne pouvez parler à Domino que si vous l'avez déjà rencontré pendant une partie de « Sanctuaires de famille ».",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez Chanus sur Chagun.",
+          "position": "[0,1]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez Chavanna sur Chagun.",
+          "position": "[2,0]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez Chakeuspire sur les conséquences d'une prise de pouvoir de Chagun.",
+          "position": "[2,2]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à l'Agent Taï et demandez-lui comment entrer en contact avec les Ninchas. Il vous indique qu'une offrande à Nyan est nécessaire.",
+          "position": "[4,2]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Pêchez un Chathon en choisissant le plus gros poisson disponible.",
+          "position": "[-12,-20]",
+          "zoneHint": null,
+          "warning": "Si vous ne pêchez pas le plus gros poisson, vous risquez d'être agressé.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Pêchez un deuxième Chathon en choisissant le plus gros poisson disponible.",
+          "position": "[-11,-21]",
+          "zoneHint": null,
+          "warning": "Si vous ne pêchez pas le plus gros poisson, vous risquez d'être agressé.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Pêchez un troisième Chathon en choisissant le plus gros poisson disponible.",
+          "position": "[-10,-20]",
+          "zoneHint": null,
+          "warning": "Si vous ne pêchez pas le plus gros poisson, vous risquez d'être agressé.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Pêchez un quatrième Chathon en choisissant le plus gros poisson disponible.",
+          "position": "[-9,-21]",
+          "zoneHint": null,
+          "warning": "Si vous ne pêchez pas le plus gros poisson, vous risquez d'être agressé.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Avec les 4 Chathons, revenez auprès de la statue Ecaflip et cliquez dessus pour remettre l'offrande. Nyan apparaît et accepte d'organiser une entrevue avec les Ninchas.",
+          "position": "[4,1]",
+          "zoneHint": null,
+          "warning": "L'offrande requiert 4 x Chathon.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rencontrez Shinobite et négociez son refus des contrats proposés par Chagun. Faites miroiter la possibilité d'un territoire autonome pour les Ninchas.",
+          "position": "[-7,-10]",
+          "zoneHint": null,
+          "warning": "Cette négociation conditionne la suite de l'accord avec Ush.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès d'Ush. Chalfred vous laisse passer sans nouveau combat. Présentez les résultats de votre enquête et proposez le principe d'un territoire autonome pour les Ninchas.",
+          "position": "[7,-3]",
+          "zoneHint": "Plateau de Ush",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Revenez voir Shinobite. Après l'accord d'Ush, il accepte de refuser les contrats de Chagun lorsque celui-ci se trouve sur son territoire.",
+          "position": "[-7,-10]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez à l'avant-poste et faites à Baste le compte rendu complet de l'enquête et de l'accord obtenu avec les Ninchas.",
+          "position": "[-1,-6]",
+          "zoneHint": "avant-poste",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez ensuite au Professeur Groschinder. Il vous annonce qu'il ne comprend toujours pas la cause de la felithropie.",
+          "position": "[-1,-6]",
+          "zoneHint": "avant-poste",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Chakeuspire et annoncez-lui l'échec des recherches du professeur. Cette conversation termine la quête.",
+          "position": "[2,2]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "L'affrontement contre Ush Galesh demandé par la quête précédente est supposé déjà terminé au début de cette occurrence.",
+        "Après la fin de cette quête, « Dimensions absurdes » est débloquée ; sa progression n'appartient pas à cette étape."
+      ],
+      "npcs": [
+        "Ush",
+        "Domino",
+        "Chanus",
+        "Chavanna",
+        "Chakeuspire",
+        "Agent Taï",
+        "Nyan",
+        "Shinobite",
+        "Chalfred",
+        "Baste",
+        "Professeur Groschinder"
+      ],
+      "items": [
+        {
+          "name": "Chathon",
+          "itemId": 17720,
+          "imageUrl": "/items/17720.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17720"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 911,
+            "name": "Jardins à la Crème",
+            "coordinates": [
+              "-1,-6"
+            ]
+          },
+          {
+            "id": 54,
+            "name": "Massif de Cania",
+            "coordinates": [
+              "-12,-20",
+              "-11,-21",
+              "-10,-20",
+              "-9,-21"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "2,2"
+            ]
+          },
+          {
+            "id": 169,
+            "name": "Orée de la forêt des Abraknydes",
+            "coordinates": [
+              "-7,-10"
+            ]
+          },
+          {
+            "id": 853,
+            "name": "Plateau de Ush",
+            "coordinates": [
+              "7,-3"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "1,1",
+              "0,1",
+              "2,0",
+              "2,2",
+              "4,2",
+              "4,1"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 554,
+            "name": "Marzwel le Gobelin",
+            "level": 60,
+            "imageUrl": "/bestiary/monsters/554.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2299,
+            "name": "Tronkoneuz la Tranchante",
+            "level": 33,
+            "imageUrl": "/bestiary/monsters/2299.png"
+          },
+          {
+            "id": 2309,
+            "name": "Abrakroc l'édenté",
+            "level": 38,
+            "imageUrl": "/bestiary/monsters/2309.png"
+          },
+          {
+            "id": 2311,
+            "name": "Arabord la Cruche",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/2311.png"
+          },
+          {
+            "id": 2385,
+            "name": "Abrakadnuzar",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2385.png"
+          },
+          {
+            "id": 2413,
+            "name": "Robocoop l'Échangé",
+            "level": 53,
+            "imageUrl": "/bestiary/monsters/2413.png"
+          },
+          {
+            "id": 2411,
+            "name": "Robiolego l'Assemblé",
+            "level": 55,
+            "imageUrl": "/bestiary/monsters/2411.png"
+          },
+          {
+            "id": 2329,
+            "name": "Mallopiée l'Épineuse",
+            "level": 57,
+            "imageUrl": "/bestiary/monsters/2329.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 174,
+            "name": "Abraknydiens",
+            "monsters": [
+              {
+                "id": 650,
+                "name": "Abrakne",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/650.png"
+              },
+              {
+                "id": 47,
+                "name": "Abraknyde",
+                "level": 38,
+                "imageUrl": "/bestiary/monsters/47.png"
+              },
+              {
+                "id": 256,
+                "name": "Tronknyde",
+                "level": 33,
+                "imageUrl": "/bestiary/monsters/256.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 259,
+                "name": "Arakne Majeure",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/259.png"
+              }
+            ]
+          },
+          {
+            "id": 1517,
+            "name": "Automates des Brigandins",
+            "monsters": [
+              {
+                "id": 4559,
+                "name": "Malle Outillée",
+                "level": 57,
+                "imageUrl": "/bestiary/monsters/4559.png"
+              },
+              {
+                "id": 4560,
+                "name": "Robionicle",
+                "level": 55,
+                "imageUrl": "/bestiary/monsters/4560.png"
+              },
+              {
+                "id": 4558,
+                "name": "Robot Fléau",
+                "level": 53,
+                "imageUrl": "/bestiary/monsters/4558.png"
+              },
+              {
+                "id": 4557,
+                "name": "Robot Pousse-Pousse",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/4557.png"
+              }
+            ]
+          },
+          {
+            "id": 187,
+            "name": "Gobelins d'Amakna",
+            "monsters": [
+              {
+                "id": 178,
+                "name": "Gobet",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/178.png"
+              },
+              {
+                "id": 62,
+                "name": "Gob-trotteur",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/62.png"
+              }
+            ]
+          },
+          {
+            "id": 1433,
+            "name": "Matougarous",
+            "monsters": [
+              {
+                "id": 4296,
+                "name": "Chasquatch",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4296.png"
+              },
+              {
+                "id": 4297,
+                "name": "Chacrebleu",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4297.png"
+              },
+              {
+                "id": 4298,
+                "name": "Chakichan",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4298.png"
+              },
+              {
+                "id": 4299,
+                "name": "Chargus",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4299.png"
+              },
+              {
+                "id": 4300,
+                "name": "Chakaroze",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4300.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:966",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/tu-peux-te-brosser.html",
+      "sourceTitle": "Tu peux te brosser",
+      "sourceHash": "6e62b6cf1022d242615f1129b5a71ac024a962f16f528ba3e97bf67b52324818",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

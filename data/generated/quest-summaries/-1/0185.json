@@ -1,8 +1,143 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 185,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T22:25:42.825Z",
+  "summaries": [
+    {
+      "overview": "Poursuivez Tour de force en allant affronter l'Ougah dans son temple. La quête a déjà été lancée auprès de Lorie Culère à Sufokia et cette occurrence se concentre sur le passage du Temple du Grand Ougah et la victoire contre son boss. Le retour auprès de Lorie Culère pour conclure la quête n'est pas inclus dans les actions de cette occurrence.",
+      "recommendedLevel": 170,
+      "prerequisites": [
+        "Niveau supérieur à 169.",
+        "Avoir terminé Tour de main.",
+        "Avoir déjà accepté Tour de force auprès de Lorie Culère en [16,27]."
+      ],
+      "rewards": [
+        "5 849 726 XP.",
+        "86 352 Kamas.",
+        "1 x Fragment d'Ougalurette."
+      ],
+      "preparation": [
+        "Prévoir le Donjon Temple du Grand Ougah.",
+        "Lorie Culère fournit une clef du donjon ; si le trousseau de clefs est disponible, il peut être utilisé à la place."
+      ],
+      "actions": [
+        {
+          "instruction": "Rendez-vous à l'entrée du Temple du Grand Ougah puis entrez dans le donjon.",
+          "position": "[-9,29]",
+          "zoneHint": "Temple du Grand Ougah",
+          "warning": "Le donjon est obligatoire pour poursuivre cette occurrence. Vous pouvez utiliser la clef remise par Lorie Culère ou votre trousseau de clefs s'il est disponible.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Parcourez le Temple du Grand Ougah et battez l'Ougah.",
+          "position": null,
+          "zoneHint": "Temple du Grand Ougah",
+          "warning": "Combat de boss de donjon ; préparez une équipe adaptée avant de vous engager.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "La quête a été lancée auparavant auprès de Lorie Culère en [16,27].",
+        "Après la victoire contre l'Ougah, il faudra ultérieurement retourner voir Lorie Culère en [16,27] pour lui annoncer que la puissance de l'Ougah vient de l'adoration des Porcos et terminer Tour de force.",
+        "Continuer ensuite la conversation avec Lorie Culère permet de débloquer Tour nage."
+      ],
+      "npcs": [
+        "Lorie Culère",
+        "Ougah"
+      ],
+      "items": [
+        {
+          "name": "Clef du Temple du Grand Ougah",
+          "itemId": 9247,
+          "imageUrl": "/items/9247.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9247"
+        },
+        {
+          "name": "Fragment d'Ougalurette",
+          "itemId": 9281,
+          "imageUrl": "/items/9281.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9281"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 494,
+            "name": "Temple du Grand Ougah",
+            "coordinates": [
+              "-9,29"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 202,
+            "name": "Fungus",
+            "monsters": [
+              {
+                "id": 1158,
+                "name": "Champ à Gnons",
+                "level": 172,
+                "imageUrl": "/bestiary/monsters/1158.png"
+              },
+              {
+                "id": 1154,
+                "name": "Champaknyde",
+                "level": 172,
+                "imageUrl": "/bestiary/monsters/1154.png"
+              },
+              {
+                "id": 1157,
+                "name": "Champbis",
+                "level": 172,
+                "imageUrl": "/bestiary/monsters/1157.png"
+              },
+              {
+                "id": 1156,
+                "name": "Champmane",
+                "level": 172,
+                "imageUrl": "/bestiary/monsters/1156.png"
+              },
+              {
+                "id": 1155,
+                "name": "Champodonte",
+                "level": 172,
+                "imageUrl": "/bestiary/monsters/1155.png"
+              },
+              {
+                "id": 1153,
+                "name": "Tromperelle",
+                "level": 172,
+                "imageUrl": "/bestiary/monsters/1153.png"
+              }
+            ]
+          },
+          {
+            "id": 1602,
+            "name": "Vermines des champs",
+            "monsters": [
+              {
+                "id": 59,
+                "name": "Champ Champ",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/59.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:618",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/tour-de-force.html",
+      "sourceTitle": "Tour de force",
+      "sourceHash": "4a021327a7a45ba46eac4114fae5c00e33e0dbadf85c0fdc5663dae1a250a7a8",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

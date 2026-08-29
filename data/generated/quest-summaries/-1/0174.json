@@ -1,8 +1,1035 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 174,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T22:25:24.930Z",
+  "summaries": [
+    {
+      "overview": "Poursuis Tour de main en allant affronter le Kimbo dans son donjon, puis retourne voir Lorie Culère à Sufokia pour terminer la quête. La quête suivante, Tour de force, ne doit pas être lancée dans cette occurrence.",
+      "recommendedLevel": 140,
+      "prerequisites": [
+        "Niveau supérieur à 139.",
+        "Avoir terminé Tour de rein."
+      ],
+      "rewards": [
+        "5 476 867 XP.",
+        "69 072 Kamas.",
+        "1 x Chaussette du Kimbo."
+      ],
+      "preparation": [
+        "Prévoir 1 x Donjon Canopée du Kimbo.",
+        "Lorie Culère fournit une clef du donjon ; si le Trousseau de clefs est disponible, il peut être utilisé à la place."
+      ],
+      "actions": [
+        {
+          "instruction": "Rends-toi dans le feuillage de l'arbre Hakam et entre dans la Canopée du Kimbo, puis termine le donjon en vainquant le Kimbo.",
+          "position": "[-54,16]",
+          "zoneHint": "Feuillage de l'arbre Hakam",
+          "warning": "Le passage impose de terminer le donjon Canopée du Kimbo et de vaincre son boss.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourne auprès de Lorie Culère après avoir vaincu le Kimbo pour valider Tour de main.",
+          "position": "[16,27]",
+          "zoneHint": "Sufokia",
+          "warning": "Ne poursuis pas la conversation jusqu'au lancement de Tour de force dans cette occurrence.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête a déjà été lancée auprès de Lorie Culère avant cette portion.",
+        "Après le rendu, une nouvelle discussion avec Lorie Culère permettrait de lancer Tour de force, mais cela est volontairement laissé pour plus tard."
+      ],
+      "npcs": [
+        "Lorie Culère",
+        "Kimbo"
+      ],
+      "items": [
+        {
+          "name": "Clef de la Canopée du Kimbo",
+          "itemId": 8977,
+          "imageUrl": "/items/8977.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8977"
+        },
+        {
+          "name": "Chaussette du Kimbo",
+          "itemId": 8789,
+          "imageUrl": "/items/8789.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8789"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 472,
+            "name": "Feuillage de l'arbre Hakam",
+            "coordinates": [
+              "-54,16"
+            ]
+          },
+          {
+            "id": 32,
+            "name": "Sufokia",
+            "coordinates": [
+              "16,27"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2383,
+            "name": "Poolopo la Traditionnelle",
+            "level": 142,
+            "imageUrl": "/bestiary/monsters/2383.png"
+          },
+          {
+            "id": 2382,
+            "name": "Toutouf le Velu",
+            "level": 144,
+            "imageUrl": "/bestiary/monsters/2382.png"
+          },
+          {
+            "id": 2570,
+            "name": "Kaskapointhe la Couverte",
+            "level": 152,
+            "imageUrl": "/bestiary/monsters/2570.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 162,
+            "name": "Peuple de l'Arbre",
+            "monsters": [
+              {
+                "id": 1020,
+                "name": "Bitouf Aérien",
+                "level": 144,
+                "imageUrl": "/bestiary/monsters/1020.png"
+              },
+              {
+                "id": 1044,
+                "name": "Kaskargo",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/1044.png"
+              },
+              {
+                "id": 1043,
+                "name": "Poolay",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/1043.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:617",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/tour-de-main.html",
+      "sourceTitle": "Tour de main",
+      "sourceHash": "97714d2f166771a50774fa827ef2141c7bc1da41edc27e8628d274b6e5f6d69d",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Récupère les documents volés en affrontant l'Agent de Brâkmar, puis choisis à qui les remettre. Passer d'abord par Danathor rapporte 5 000 kamas supplémentaires avant de retourner mentir à Amayiro ; les remettre directement à Amayiro termine simplement la quête. Cette validation débloque À la poursuite d'Octolliard rouge, qui est traitée juste après dans l'étape.",
+      "recommendedLevel": 156,
+      "prerequisites": [
+        "Avoir terminé Bandanarthrie."
+      ],
+      "rewards": [
+        "2 705 472 XP.",
+        "5 000 kamas supplémentaires si les documents sont remis d'abord à Danathor."
+      ],
+      "preparation": [
+        "Prévoir 1 x combat pouvant être réalisé en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Va voir l'Agent de Brâkmar venu récupérer les documents volés et engage le combat.",
+          "position": "[-27,-31]",
+          "zoneHint": null,
+          "warning": "Combat obligatoire, réalisable en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire, choisis soit de remettre directement les documents à Amayiro pour terminer la quête, soit de les apporter d'abord à Danathor pour obtenir 5 000 kamas supplémentaires.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Choix de remise : passer par Danathor ajoute 5 000 kamas et impose ensuite de retourner voir Amayiro ; remettre directement à Amayiro renonce à ce supplément.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Si tu choisis Danathor, apporte-lui les documents pour recevoir 5 000 kamas.",
+          "position": "[-36,-60]",
+          "zoneHint": "Bonta",
+          "warning": "Cette étape n'est nécessaire que pour obtenir la récompense supplémentaire.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Termine la quête auprès d'Amayiro. Si tu es passé par Danathor, fais-lui croire que tu n'as pas réussi à récupérer les documents ; sinon remets-lui directement les documents.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Bandanarthrie est supposée terminée à l'étape précédente, ce qui permet d'enchaîner cette quête d'alignement.",
+        "La quête suivante À la poursuite d'Octolliard rouge est débloquée à la fin et possède sa propre occurrence dans cette même étape."
+      ],
+      "npcs": [
+        "Agent de Brâkmar",
+        "Danathor",
+        "Amayiro"
+      ],
+      "items": [
+        {
+          "name": "Documents volés",
+          "itemId": 2192,
+          "imageUrl": "/items/2192.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2192"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 976,
+            "name": "Promontoire des cieux",
+            "coordinates": [
+              "-36,-60"
+            ]
+          },
+          {
+            "id": 525,
+            "name": "Routes Rocailleuses",
+            "coordinates": [
+              "-27,-31"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2503,
+            "name": "Kanasukr le Mielleux",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2503.png"
+          },
+          {
+            "id": 2359,
+            "name": "Maître Champeur le Sabreur",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2359.png"
+          },
+          {
+            "id": 2445,
+            "name": "Fouflay le Retombé",
+            "level": 64,
+            "imageUrl": "/bestiary/monsters/2445.png"
+          },
+          {
+            "id": 2455,
+            "name": "Vétaurine l'Énergisé",
+            "level": 66,
+            "imageUrl": "/bestiary/monsters/2455.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 213,
+            "name": "Animaux des Champs",
+            "monsters": [
+              {
+                "id": 288,
+                "name": "Serpentin",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/288.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 259,
+                "name": "Arakne Majeure",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/259.png"
+              }
+            ]
+          },
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 186,
+            "name": "Craqueleurs",
+            "monsters": [
+              {
+                "id": 293,
+                "name": "Craqueleur des Plaines",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/293.png"
+              },
+              {
+                "id": 4571,
+                "name": "Craquelourd",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4571.png"
+              },
+              {
+                "id": 4573,
+                "name": "Craquelope",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4573.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 1518,
+            "name": "Ruffians de Cania",
+            "monsters": [
+              {
+                "id": 4574,
+                "name": "Foufayteur",
+                "level": 64,
+                "imageUrl": "/bestiary/monsters/4574.png"
+              },
+              {
+                "id": 4575,
+                "name": "Vétauran",
+                "level": 66,
+                "imageUrl": "/bestiary/monsters/4575.png"
+              },
+              {
+                "id": 287,
+                "name": "Kanigrou",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/287.png"
+              },
+              {
+                "id": 371,
+                "name": "Maître Bolet",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/371.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:162",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/course-poursuite.html",
+      "sourceTitle": "Alignement 66 : Course-poursuite",
+      "sourceHash": "7a7cd84c32c2769b28a7d7e433f00b8f064b6e24a5e61b27e5248e6372640975",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après Course-poursuite, protège l'Espion en fuite, récupère les documents de recherche et utilise les faux documents auprès de Seci Ves avant de rapporter les véritables informations à Amayiro. La fin débloque Une Corne Edfrit sans sel, traitée dans l'occurrence suivante.",
+      "recommendedLevel": 157,
+      "prerequisites": [
+        "Avoir terminé Course-poursuite."
+      ],
+      "rewards": [
+        "5 427 166 XP."
+      ],
+      "preparation": [
+        "Prévoir 1 x combat pouvant être réalisé en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Retrouve l'Espion en fuite et choisis de couvrir sa fuite.",
+          "position": "[-25,13]",
+          "zoneHint": null,
+          "warning": "Un combat obligatoire se déclenche et peut être réalisé en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, reparle à l'Espion en fuite afin d'organiser la remise de faux documents aux Brâkmariens.",
+          "position": "[-25,13]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Va voir Seci Ves et remets-lui les faux documents Brâkmariens.",
+          "position": "[-22,34]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne à la Milice de Bonta et remets à Amayiro les véritables documents de recherche sur la corne de Brâkmar.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Course-poursuite est supposée terminée juste avant cette occurrence.",
+        "Le combat permet d'obtenir les documents volés aux Brâkmariens ainsi qu'un ordre de mission.",
+        "Une Corne Edfrit sans sel est débloquée à la fin et doit être effectuée dans l'occurrence suivante de l'étape."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Espion en fuite",
+        "Seci Ves"
+      ],
+      "items": [
+        {
+          "name": "Documents volés aux Brâkmariens",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Ordre de mission",
+          "itemId": 10033,
+          "imageUrl": "/items/10033.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/10033"
+        },
+        {
+          "name": "Faux documents Brâkmariens",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Documents de recherche sur la corne de Brâkmar",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 980,
+            "name": "La Marmite",
+            "coordinates": [
+              "-22,34"
+            ]
+          },
+          {
+            "id": 526,
+            "name": "Route des Roulottes",
+            "coordinates": [
+              "-25,13"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4814,
+            "name": "Simbadas",
+            "level": 90,
+            "imageUrl": "/bestiary/monsters/4814.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1591,
+            "name": "Magik Riktus",
+            "monsters": [
+              {
+                "id": 4865,
+                "name": "Graboule",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4865.png"
+              },
+              {
+                "id": 4864,
+                "name": "Roukouto",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4864.png"
+              },
+              {
+                "id": 4863,
+                "name": "Pirolienne",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4863.png"
+              },
+              {
+                "id": 4862,
+                "name": "Tivelo",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4862.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:163",
+      "relation": "ACTIVE",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/a-la-poursuite-d-octolliard-rouge.html",
+      "sourceTitle": "Alignement 67 : À la poursuite d'Octolliard rouge",
+      "sourceHash": "84e7065d877e8c80d0becf94cb1143c34d1392e06fa9a9a7e66284b6513bfa67",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après avoir terminé À la poursuite d'Octolliard rouge, infiltre le passage secret menant à Turorte avec une Fourbacoiffe et une Bouteille de Gloutoburg, échange le bandana contre l'accès à la corne, puis traverse les souterrains, bats seul le Iop brâkmarien et rapporte la Corne Edfrit à Amayiro. Un sombre pouvoir ne doit être commencé qu'à l'étape suivante.",
+      "recommendedLevel": 158,
+      "prerequisites": [
+        "Avoir terminé À la poursuite d'Octolliard rouge."
+      ],
+      "rewards": [
+        "5 443 559 XP."
+      ],
+      "preparation": [
+        "Prévoir 1 x Fourbacoiffe.",
+        "Prévoir 1 x Bouteille de Gloutoburg.",
+        "Pour fabriquer la Bouteille de Gloutoburg : 5 x Pandaburg, 1 x Glouto Rhum et 10 x Feuille de Salace.",
+        "Les Pandaburg peuvent être achetés à la taverne en [20,-29].",
+        "Prévoir 1 x combat obligatoire en solo."
+      ],
+      "actions": [
+        {
+          "instruction": "Rends-toi en [31,8], équipe la Fourbacoiffe et utilise 1 x Bouteille de Gloutoburg.",
+          "position": "[31,8]",
+          "zoneHint": null,
+          "warning": "La Fourbacoiffe doit être équipée et la Bouteille de Gloutoburg consommée pour poursuivre.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Utilise le passage secret en cliquant sur la case située à droite derrière l'arbre, puis parle à Turorte et propose son bandana en échange de la Corne Edfrit.",
+          "position": "[31,8]",
+          "zoneHint": "Passage secret",
+          "warning": "Le bandana est échangé à Turorte afin d'obtenir l'accès vers la corne.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Va en [32,4] et clique sur la case cachée derrière le tronc pour descendre dans le passage secret.",
+          "position": "[32,4]",
+          "zoneHint": "Passage secret",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans les souterrains, avance tout droit jusqu'à l'îlot, puis suis précisément le trajet : bas, bas, droite, droite, bas, gauche.",
+          "position": null,
+          "zoneHint": "Souterrains",
+          "warning": "Respecte l'ordre du trajet pour atteindre la bonne carte.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parle au Iop portant une cape brâkmarienne et remporte le combat.",
+          "position": null,
+          "zoneHint": "Souterrains",
+          "warning": "Le combat est obligatoire et doit être effectué seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après la victoire, clique sur les objets situés au centre de la carte pour récupérer la Corne Edfrit.",
+          "position": null,
+          "zoneHint": "Souterrains",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne à la Milice de Bonta et donne la Corne Edfrit à Amayiro pour terminer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "À la poursuite d'Octolliard rouge est supposée terminée juste avant cette occurrence.",
+        "La quête suivante, Un sombre pouvoir, est débloquée après le rendu mais appartient à l'étape 175 et n'est pas à commencer ici."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Turorte",
+        "Iop en cape brâkmarienne"
+      ],
+      "items": [
+        {
+          "name": "Fourbacoiffe",
+          "itemId": 6764,
+          "imageUrl": "/items/6764.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6764"
+        },
+        {
+          "name": "Bouteille de Gloutoburg",
+          "itemId": 9968,
+          "imageUrl": "/items/9968.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9968"
+        },
+        {
+          "name": "Pandaburg",
+          "itemId": 7045,
+          "imageUrl": "/items/7045.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/7045"
+        },
+        {
+          "name": "Glouto Rhum",
+          "itemId": 2632,
+          "imageUrl": "/items/2632.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2632"
+        },
+        {
+          "name": "Feuille de Salace",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Corne Edfrit",
+          "itemId": 9110,
+          "imageUrl": "/items/9110.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9110"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 167,
+            "name": "Chemin du Crâne",
+            "coordinates": [
+              "32,4"
+            ]
+          },
+          {
+            "id": 165,
+            "name": "Jungle Interdite",
+            "coordinates": [
+              "31,8"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 29,
+            "name": "Souterrains",
+            "coordinates": []
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4276,
+            "name": "Degolas",
+            "level": 90,
+            "imageUrl": "/bestiary/monsters/4276.png"
+          },
+          {
+            "id": 4240,
+            "name": "Trukipik",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/4240.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2408,
+            "name": "Boombata le Garde",
+            "level": 82,
+            "imageUrl": "/bestiary/monsters/2408.png"
+          },
+          {
+            "id": 2419,
+            "name": "Caboume l'Artilleur",
+            "level": 82,
+            "imageUrl": "/bestiary/monsters/2419.png"
+          },
+          {
+            "id": 2538,
+            "name": "Nakuneuye le Borgne",
+            "level": 82,
+            "imageUrl": "/bestiary/monsters/2538.png"
+          },
+          {
+            "id": 2484,
+            "name": "Fourapin le Chaud",
+            "level": 92,
+            "imageUrl": "/bestiary/monsters/2484.png"
+          },
+          {
+            "id": 2495,
+            "name": "Gloubibou le Gars",
+            "level": 92,
+            "imageUrl": "/bestiary/monsters/2495.png"
+          },
+          {
+            "id": 2301,
+            "name": "Trukul le Lent",
+            "level": 92,
+            "imageUrl": "/bestiary/monsters/2301.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              }
+            ]
+          },
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 153,
+                "name": "Boulanger Sombre",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/153.png"
+              },
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 170,
+            "name": "Monstres de la Jungle Interdite",
+            "monsters": [
+              {
+                "id": 217,
+                "name": "Fourbasse",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/217.png"
+              },
+              {
+                "id": 216,
+                "name": "Gloutovore",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/216.png"
+              },
+              {
+                "id": 215,
+                "name": "Trukikol",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/215.png"
+              },
+              {
+                "id": 4162,
+                "name": "Dostrogo",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/4162.png"
+              }
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Mulous",
+            "monsters": [
+              {
+                "id": 102,
+                "name": "Mulou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/102.png"
+              }
+            ]
+          },
+          {
+            "id": 169,
+            "name": "Pirates de Moon",
+            "monsters": [
+              {
+                "id": 228,
+                "name": "Boomba",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/228.png"
+              },
+              {
+                "id": 231,
+                "name": "Canondorf",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/231.png"
+              },
+              {
+                "id": 229,
+                "name": "Nakunbra",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/229.png"
+              },
+              {
+                "id": 4160,
+                "name": "Ricanif",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4160.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:165",
+      "relation": "ACTIVE",
+      "sortOrder": 3,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/une-corne-edfrit-sans-sel.html",
+      "sourceTitle": "Alignement 68 : Une Corne Edfrit sans sel",
+      "sourceHash": "6229ec5ede5ee271b1ecbea825fca665923330ebc8143c1fe08e183c9c4f8aa3",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

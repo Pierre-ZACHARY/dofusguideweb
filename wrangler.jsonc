@@ -5,6 +5,9 @@
   "compatibility_date": "2026-08-26",
   "compatibility_flags": ["nodejs_compat"],
   "workers_dev": true,
+  "assets": {
+    "binding": "ASSETS"
+  },
   "observability": {
     "enabled": true,
     "head_sampling_rate": 0.1

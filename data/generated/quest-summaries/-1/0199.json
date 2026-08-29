@@ -1,8 +1,606 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 199,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T22:28:17.698Z",
+  "summaries": [
+    {
+      "overview": "Poursuis « Chaud du S.L.I.P. » au moment où « Dépôt de ravitaillement » exige cette quête. Entre 20h00 et 8h00, prends les missions des quatre prophètes dans l'Hypogée de l'Obsidiantre, puis accomplis leurs trois demandes : faire confectionner un caleçon, vaincre le Royalmouth en ne portant qu'un slip comme équipement hors Dofus/trophées, et réunir trois plantes soufrières. Rapporte ensuite chaque résultat aux PNJ concernés et termine auprès de Surlah Taite. La Potion du S.L.I.P. obtenue permettra de reprendre « Dépôt de ravitaillement » plus tard.",
+      "recommendedLevel": 180,
+      "prerequisites": [
+        "Avoir avancé « Dépôt de ravitaillement » jusqu'au passage qui demande d'accomplir « Chaud du S.L.I.P. ».",
+        "Se présenter auprès des PNJ de quête entre 20h00 et 8h00.",
+        "Le Village Enseveli doit être libéré pour pouvoir parler aux PNJ qui s'y trouvent."
+      ],
+      "rewards": [
+        "4 874 772 XP.",
+        "71 960 kamas.",
+        "10 x Kama de glace.",
+        "1 x Bitte d'amarrage."
+      ],
+      "preparation": [
+        "Prévoir 5 x Laine de Yokaï Givrefoux.",
+        "Prévoir 5 x Malléole de Yomi Givrefoux.",
+        "Prévoir 1 x Queue de Yomi Givrefoux.",
+        "Prévoir 5 x Laine de Maho Givrefoux.",
+        "Prévoir 1 x Cuir de Maho Givrefoux.",
+        "Prévoir 5 x Lamelle de Dramanite.",
+        "Prévoir 1 x Pédoncule de Fongeur.",
+        "Prévoir un slip compatible, par exemple Slip du Chef Bwork, Slip de Rechange du Captain Chafer, Slip du Captain Chafer, Subligar de Barbéryl, Slipwaïï, Slip de Khan Karkass ou Slip Iholo.",
+        "Prévoir de terminer le donjon Serre du Royalmouth.",
+        "Prévoir de terminer le donjon Hypogée de l'Obsidiantre."
+      ],
+      "actions": [
+        {
+          "instruction": "Dans la première salle de l'Hypogée de l'Obsidiantre, prends immédiatement le passage à gauche pour rejoindre les PNJ. Parle à Surlah Taite, puis à Lulu Cotte, Lebar et Lesson dans cet ordre afin d'enregistrer toutes leurs demandes.",
+          "position": "[-71,-83]",
+          "zoneHint": "Hypogée de l'Obsidiantre",
+          "warning": "Ces PNJ ne sont présents qu'entre 20h00 et 8h00.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rends-toi auprès de Bowisse avec 5 Laine de Yokaï Givrefoux, 5 Malléole de Yomi Givrefoux, 1 Queue de Yomi Givrefoux, 5 Laine de Maho Givrefoux, 1 Cuir de Maho Givrefoux, 5 Lamelle de Dramanite et 1 Pédoncule de Fongeur. Donne-lui les ressources, ferme le dialogue, puis reparle-lui pour récupérer le caleçon confectionné.",
+          "position": "[5,1]",
+          "zoneHint": null,
+          "warning": "Toutes les ressources demandées sont consommées pour la confection.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entre dans la Serre du Royalmouth, parcours le donjon jusqu'au boss et prépare ton équipement pour le combat final.",
+          "position": "[-84,-49]",
+          "zoneHint": "Serre du Royalmouth",
+          "warning": "Avant d'engager le Royalmouth, retire tout ton équipement sauf un slip compatible. Tu peux conserver des Dofus et trophées. Tes alliés peuvent rester équipés normalement.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Vaincs le Royalmouth en portant uniquement ton slip comme pièce d'équipement, avec éventuellement des Dofus et trophées.",
+          "position": "[-84,-49]",
+          "zoneHint": "Serre du Royalmouth",
+          "warning": "Le personnage qui valide la quête doit respecter la restriction d'équipement pendant le combat contre le Royalmouth.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Récolte la première plante soufrière à Feudala.",
+          "position": "[17,-34]",
+          "zoneHint": "Feudala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récupère la deuxième plante soufrière dans le souterrain de la Désolation de Sidimote.",
+          "position": "[-20,22]",
+          "zoneHint": "Souterrain de la Désolation de Sidimote",
+          "warning": "La plante se trouve dans le souterrain, pas à l'extérieur de la zone.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne dans l'Hypogée de l'Obsidiantre et termine le donjon. Après avoir vaincu l'Obsidiantre, récupère la troisième plante soufrière dans la salle située juste avant la sortie.",
+          "position": "[-71,-83]",
+          "zoneHint": "Hypogée de l'Obsidiantre",
+          "warning": "Il faut vaincre l'Obsidiantre pour accéder à la plante placée avant la sortie du donjon.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Apporte les trois plantes soufrières à Asselo afin de les échanger contre un parfum soufrier.",
+          "position": "[-76,-71]",
+          "zoneHint": "Village Enseveli",
+          "warning": "Le Village Enseveli doit être libéré pour accéder normalement aux PNJ concernés.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne dans la première salle de l'Hypogée de l'Obsidiantre, prends le passage à gauche et donne le parfum soufrier à Lulu Cotte.",
+          "position": "[-71,-83]",
+          "zoneHint": "Hypogée de l'Obsidiantre",
+          "warning": "Lulu Cotte fait partie des PNJ soumis à la tranche horaire 20h00-8h00.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parle à Lebar et rapporte-lui que tu as vaincu le Royalmouth dans les conditions imposées.",
+          "position": "[-71,-83]",
+          "zoneHint": "Hypogée de l'Obsidiantre",
+          "warning": "Lebar fait partie des PNJ soumis à la tranche horaire 20h00-8h00.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Donne à Lesson le caleçon confectionné par Bowisse.",
+          "position": "[-71,-83]",
+          "zoneHint": "Hypogée de l'Obsidiantre",
+          "warning": "Lesson fait partie des PNJ soumis à la tranche horaire 20h00-8h00.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parle enfin à Surlah Taite pour valider les missions des prophètes et terminer « Chaud du S.L.I.P. ».",
+          "position": "[-71,-83]",
+          "zoneHint": "Hypogée de l'Obsidiantre",
+          "warning": "Conserve si possible le slip utilisé : il pourra servir plus tard pour « Mission Solution ».",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Cette occurrence intervient pendant « Dépôt de ravitaillement » : les étapes antérieures de cette quête sont supposées déjà réalisées jusqu'au blocage demandant une Potion du S.L.I.P.",
+        "Après avoir terminé « Chaud du S.L.I.P. », la reprise de « Dépôt de ravitaillement » auprès d'Asselo en [-76,-71] sera effectuée lors d'une occurrence ultérieure, pas dans les actions présentes.",
+        "Pour le Royalmouth, plusieurs slips sont acceptés ; choisir le moins coûteux évite une dépense inutile.",
+        "La récompense Bitte d'amarrage peut être utile ultérieurement avec d'autres ressources pour « Mission Solution »."
+      ],
+      "npcs": [
+        "Surlah Taite",
+        "Lulu Cotte",
+        "Lebar",
+        "Lesson",
+        "Bowisse",
+        "Asselo"
+      ],
+      "items": [
+        {
+          "name": "Laine de Yokaï Givrefoux",
+          "itemId": 6757,
+          "imageUrl": "/items/6757.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6757"
+        },
+        {
+          "name": "Malléole de Yomi Givrefoux",
+          "itemId": 7239,
+          "imageUrl": "/items/7239.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/7239"
+        },
+        {
+          "name": "Queue de Yomi Givrefoux",
+          "itemId": 7241,
+          "imageUrl": "/items/7241.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/7241"
+        },
+        {
+          "name": "Laine de Maho Givrefoux",
+          "itemId": 6756,
+          "imageUrl": "/items/6756.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6756"
+        },
+        {
+          "name": "Cuir de Maho Givrefoux",
+          "itemId": 6755,
+          "imageUrl": "/items/6755.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6755"
+        },
+        {
+          "name": "Lamelle de Dramanite",
+          "itemId": 7244,
+          "imageUrl": "/items/7244.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/7244"
+        },
+        {
+          "name": "Pédoncule de Fongeur",
+          "itemId": 7248,
+          "imageUrl": "/items/7248.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/7248"
+        },
+        {
+          "name": "Slip du Chef Bwork",
+          "itemId": 6812,
+          "imageUrl": "/items/6812.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6812"
+        },
+        {
+          "name": "Slip de Rechange du Captain Chafer",
+          "itemId": 13423,
+          "imageUrl": "/items/13423.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/13423"
+        },
+        {
+          "name": "Slip du Captain Chafer",
+          "itemId": 30856,
+          "imageUrl": "/items/30856.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/30856"
+        },
+        {
+          "name": "Subligar de Barbéryl",
+          "itemId": 27542,
+          "imageUrl": "/items/27542.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/27542"
+        },
+        {
+          "name": "Slipwaïï",
+          "itemId": 14601,
+          "imageUrl": "/items/14601.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/14601"
+        },
+        {
+          "name": "Slip de Khan Karkass",
+          "itemId": 17502,
+          "imageUrl": "/items/17502.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17502"
+        },
+        {
+          "name": "Slip Iholo",
+          "itemId": 11850,
+          "imageUrl": "/items/11850.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11850"
+        },
+        {
+          "name": "Caleçon confectionné par Bowisse",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Plante soufrière",
+          "itemId": 11847,
+          "imageUrl": "/items/11847.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11847"
+        },
+        {
+          "name": "Parfum soufrier",
+          "itemId": 11848,
+          "imageUrl": "/items/11848.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11848"
+        },
+        {
+          "name": "Potion du S.L.I.P.",
+          "itemId": 11851,
+          "imageUrl": "/items/11851.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11851"
+        },
+        {
+          "name": "Bitte d'amarrage",
+          "itemId": 14977,
+          "imageUrl": "/items/14977.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/14977"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 57,
+            "name": "Désolation de Sidimote",
+            "coordinates": [
+              "-20,22"
+            ]
+          },
+          {
+            "id": 943,
+            "name": "Feudala",
+            "coordinates": [
+              "17,-34"
+            ]
+          },
+          {
+            "id": 620,
+            "name": "Hypogée de l'Obsidiantre",
+            "coordinates": [
+              "-71,-83"
+            ]
+          },
+          {
+            "id": 617,
+            "name": "Serre du Royalmouth",
+            "coordinates": [
+              "-84,-49"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "5,1"
+            ]
+          },
+          {
+            "id": 603,
+            "name": "Village enseveli",
+            "coordinates": [
+              "-76,-71"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 464,
+            "name": "Brumen Tinctorias",
+            "level": 60,
+            "imageUrl": "/bestiary/monsters/464.png"
+          },
+          {
+            "id": 555,
+            "name": "Zatoïshwan",
+            "level": 150,
+            "imageUrl": "/bestiary/monsters/555.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2440,
+            "name": "Crognan le Barbare",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2440.png"
+          },
+          {
+            "id": 2378,
+            "name": "Cromikay le Néophyte",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2378.png"
+          },
+          {
+            "id": 2520,
+            "name": "Kolforthe l'Indécollable",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2520.png"
+          },
+          {
+            "id": 2285,
+            "name": "Scorpitène l'Enflammé",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2285.png"
+          },
+          {
+            "id": 2526,
+            "name": "Bigbadaboum l'Élémentaire",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2526.png"
+          },
+          {
+            "id": 2303,
+            "name": "Crachefouxtre le Surpris",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2303.png"
+          },
+          {
+            "id": 2278,
+            "name": "Pétarfoutu le Mouillé",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2278.png"
+          },
+          {
+            "id": 2597,
+            "name": "Tronquette la Réduite",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2597.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          },
+          {
+            "id": 156,
+            "name": "Boufmouths",
+            "monsters": [
+              {
+                "id": 2850,
+                "name": "Boufmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2850.png"
+              },
+              {
+                "id": 2851,
+                "name": "Boufmouth de guerre",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2851.png"
+              },
+              {
+                "id": 2852,
+                "name": "Boufmouth légendaire",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2852.png"
+              },
+              {
+                "id": 2853,
+                "name": "Bouftonmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2853.png"
+              }
+            ]
+          },
+          {
+            "id": 3035,
+            "name": "Firefoux",
+            "monsters": [
+              {
+                "id": 6251,
+                "name": "Crachefoux",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6251.png"
+              },
+              {
+                "id": 6252,
+                "name": "Rouquette",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6252.png"
+              },
+              {
+                "id": 6253,
+                "name": "Boumbardier",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6253.png"
+              },
+              {
+                "id": 6254,
+                "name": "Pétartifoux",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6254.png"
+              }
+            ]
+          },
+          {
+            "id": 137,
+            "name": "Givrefoux",
+            "monsters": [
+              {
+                "id": 2889,
+                "name": "Maho Givrefoux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/2889.png"
+              },
+              {
+                "id": 2890,
+                "name": "Soryo Givrefoux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/2890.png"
+              },
+              {
+                "id": 2888,
+                "name": "Yokaï Givrefoux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/2888.png"
+              },
+              {
+                "id": 2891,
+                "name": "Yomi Givrefoux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/2891.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 207,
+            "name": "Sidimonstres",
+            "monsters": [
+              {
+                "id": 299,
+                "name": "Croc Gland",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/299.png"
+              },
+              {
+                "id": 300,
+                "name": "Kolérat",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/300.png"
+              },
+              {
+                "id": 298,
+                "name": "Scorbute",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/298.png"
+              },
+              {
+                "id": 3096,
+                "name": "Crowneille",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/3096.png"
+              }
+            ]
+          },
+          {
+            "id": 158,
+            "name": "Sulfurieux",
+            "monsters": [
+              {
+                "id": 2866,
+                "name": "Atomystique",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/2866.png"
+              },
+              {
+                "id": 2865,
+                "name": "Crapeur",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/2865.png"
+              },
+              {
+                "id": 2868,
+                "name": "Fumrirolle",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/2868.png"
+              },
+              {
+                "id": 2867,
+                "name": "Mofette",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/2867.png"
+              },
+              {
+                "id": 2869,
+                "name": "Solfataré",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/2869.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:440",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/chaud-du-slip.html",
+      "sourceTitle": "Chaud du S.L.I.P.",
+      "sourceHash": "0a0f779eaac519546b9c8c54be12fba6925ee8d8bc61ec468be8e37561f7e28c",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

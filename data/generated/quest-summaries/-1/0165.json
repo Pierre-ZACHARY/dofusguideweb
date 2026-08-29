@@ -1,8 +1,1317 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 165,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T22:23:19.198Z",
+  "summaries": [
+    {
+      "overview": "Poursuivez Un cœur d'or jusqu'à sa conclusion : aidez Taupinambourg, rendez plusieurs services dans la Carrière Aurifière et le Creuset des Fortunés, puis revenez auprès de Grabergue pour récupérer le Joyau écarlate et découvrir sa malédiction.",
+      "recommendedLevel": 150,
+      "prerequisites": [
+        "Avoir terminé Les grandes galeries.",
+        "La quête Un cœur d'or doit déjà être lancée en ayant utilisé le Joyau écarlate."
+      ],
+      "rewards": [
+        "2 215 500 XP.",
+        "25 480 kamas.",
+        "30 x Orichor.",
+        "5 x Peau de Métaphorreur."
+      ],
+      "preparation": [
+        "Prévoir un combat obligatoire en solitaire contre un Phormidiable blessé."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Taupinambourg, proposez votre aide puis affrontez le Phormidiable blessé demandé.",
+          "position": "[1,-4]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": "Le combat contre le Phormidiable blessé doit être effectué seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après la victoire, reparlez à Taupinambourg afin de recevoir le message à transmettre à Flemmarcel.",
+          "position": "[1,-4]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Flemmarcel afin qu'il vous demande de préparer les boulettes à partir des excréments de Phorreurs.",
+          "position": "[0,-3]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récupérez l'élément interactif lié aux excréments de Phorreurs sur cette carte.",
+          "position": "[1,-3]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récupérez l'élément interactif lié aux excréments de Phorreurs sur cette carte.",
+          "position": "[0,-5]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récupérez le dernier élément interactif lié aux excréments de Phorreurs sur cette carte.",
+          "position": "[0,-4]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez parler à Flemmarcel pour valider le travail et récupérer le repas chaud à livrer.",
+          "position": "[0,-3]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Remettez le repas chaud au Hérault d'Enutrof ; il vous enverra ensuite auprès de Tanguy.",
+          "position": "[-5,-5]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Placez votre personnage sur la cellule située devant Tanguy, proposez-lui de danser puis exécutez successivement les mouvements qu'il demande jusqu'à ce qu'il vous envoie voir Chipsou.",
+          "position": "[-2,-3]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": "Il faut se placer sur la cellule devant Tanguy pour pouvoir interagir correctement avec lui.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Chipsou puis cliquez sur les 5 tas de kamas pour les compter.",
+          "position": "[1,-5]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Vérifiez ensuite l'authenticité des kamas en utilisant le sac interactif, remettez-les à leur place, puis indiquez à Chipsou qu'ils sont authentiques et donnez-lui le nombre exact compté.",
+          "position": "[1,-5]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": "Le dialogue demande de fournir le nombre exact de kamas constaté pendant l'interaction.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Revenez auprès de Grabergue et ramassez le Joyau écarlate tombé près de lui, puis parlez-lui pour terminer la quête.",
+          "position": "[3,-4]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La fin de la quête révèle que le Joyau écarlate est maudit.",
+        "Cette conclusion permet d'enchaîner immédiatement avec Maudite générosité dans cette même étape."
+      ],
+      "npcs": [
+        "Taupinambourg",
+        "Flemmarcel",
+        "Hérault d'Enutrof",
+        "Tanguy",
+        "Chipsou",
+        "Grabergue"
+      ],
+      "items": [
+        {
+          "name": "Joyau écarlate",
+          "itemId": 15318,
+          "imageUrl": "/items/15318.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15318"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 820,
+            "name": "Creuset des Fortunés",
+            "coordinates": [
+              "-2,-3"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "1,-5"
+            ]
+          },
+          {
+            "id": 232,
+            "name": "Marécages nauséabonds",
+            "coordinates": [
+              "-5,-5"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "3,-4"
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Montagne des Craqueleurs",
+            "coordinates": [
+              "0,-5",
+              "1,-5"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "1,-4",
+              "0,-3",
+              "1,-3",
+              "0,-4"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3670,
+            "name": "Maxi-Malle",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/3670.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2549,
+            "name": "Boostif l'Affamé",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2549.png"
+          },
+          {
+            "id": 2439,
+            "name": "Crolnareff l'Exilé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2439.png"
+          },
+          {
+            "id": 2367,
+            "name": "Kwakamole l'Appétissant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2367.png"
+          },
+          {
+            "id": 2369,
+            "name": "Kwaké le Piraté",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2369.png"
+          },
+          {
+            "id": 2451,
+            "name": "Kwakolak le Chocolaté",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2451.png"
+          },
+          {
+            "id": 2368,
+            "name": "Kwakwatique le Trempé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2368.png"
+          },
+          {
+            "id": 2428,
+            "name": "Crok le Beau",
+            "level": 61,
+            "imageUrl": "/bestiary/monsters/2428.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 208,
+            "name": "Gadouilleux",
+            "monsters": [
+              {
+                "id": 263,
+                "name": "Chef Crocodaille",
+                "level": 61,
+                "imageUrl": "/bestiary/monsters/263.png"
+              },
+              {
+                "id": 261,
+                "name": "Crocodaille",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/261.png"
+              },
+              {
+                "id": 112,
+                "name": "Boo",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/112.png"
+              },
+              {
+                "id": 4833,
+                "name": "Arakne Olithique",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4833.png"
+              }
+            ]
+          },
+          {
+            "id": 1093,
+            "name": "Koffrefors",
+            "monsters": [
+              {
+                "id": 3666,
+                "name": "Berserkoffre",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3666.png"
+              },
+              {
+                "id": 3663,
+                "name": "Boursoin",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3663.png"
+              },
+              {
+                "id": 3664,
+                "name": "Mimikado",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3664.png"
+              },
+              {
+                "id": 3665,
+                "name": "Trésantène",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3665.png"
+              }
+            ]
+          },
+          {
+            "id": 190,
+            "name": "Kwakeres",
+            "monsters": [
+              {
+                "id": 269,
+                "name": "Kwakere de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/269.png"
+              },
+              {
+                "id": 271,
+                "name": "Kwakere de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/271.png"
+              },
+              {
+                "id": 270,
+                "name": "Kwakere de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/270.png"
+              },
+              {
+                "id": 272,
+                "name": "Kwakere de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/272.png"
+              }
+            ]
+          },
+          {
+            "id": 189,
+            "name": "Kwaks",
+            "monsters": [
+              {
+                "id": 83,
+                "name": "Kwak de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/83.png"
+              },
+              {
+                "id": 84,
+                "name": "Kwak de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/84.png"
+              },
+              {
+                "id": 235,
+                "name": "Kwak de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/235.png"
+              },
+              {
+                "id": 81,
+                "name": "Kwak de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/81.png"
+              }
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Mulous",
+            "monsters": [
+              {
+                "id": 102,
+                "name": "Mulou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/102.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 214,
+            "name": "Porkass",
+            "monsters": [
+              {
+                "id": 123,
+                "name": "Cochon de Lait",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/123.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:796",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/un-coeligur-dor.html",
+      "sourceTitle": "Un cœur d'or",
+      "sourceHash": "5c863f7a4fa73252378f25898c594c387f409428644580bd9c0ae0e254ce4a4d",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Rejoignez l'agent Sart dans la Carrière Aurifière, défendez-le contre les Phorreurs, récupérez ses quatre paquetages puis posez les trois pièges qu'il vous confie. Revenez ensuite auprès du Sergent Frinklan pour rendre la quête.",
+      "recommendedLevel": 150,
+      "prerequisites": [
+        "Avoir terminé Pompe à fric.",
+        "La quête Déphorrestation doit être active."
+      ],
+      "rewards": [
+        "2 215 500 XP.",
+        "25 480 kamas.",
+        "30 x Orichor.",
+        "5 x Griffe de Phorrêveur."
+      ],
+      "preparation": [
+        "Prévoir un combat réalisable en groupe.",
+        "Pour partager la validation du combat avec plusieurs personnages ayant la quête, chacun doit choisir « Attendre d'autres renforts » auprès de l'agent Sart avant le lancement."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à l'agent Sart et engagez le combat pour le défendre contre les Phorreurs.",
+          "position": "[2,-5]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": "Le groupe peut compter jusqu'à 7 joueurs, la huitième place étant occupée par l'agent Sart. Les personnages voulant valider la quête doivent avoir choisi « Attendre d'autres renforts » avant le combat.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire, reparlez à l'agent Sart afin qu'il vous demande de retrouver ses quatre paquetages.",
+          "position": "[2,-5]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez le paquetage présent sur la carte.",
+          "position": "[3,-4]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez le paquetage présent sur la carte.",
+          "position": "[1,-3]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez le paquetage présent sur la carte.",
+          "position": "[2,-4]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez le dernier paquetage présent sur la carte.",
+          "position": "[1,-5]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rapportez les quatre paquetages à l'agent Sart pour recevoir les pièges à installer.",
+          "position": "[2,-5]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Placez le piège Empoisonné en double-cliquant dessus depuis votre inventaire de quête sur cette carte.",
+          "position": "[3,-5]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": "Le piège doit être utilisé sur la carte correspondant à sa position.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Placez le piège Incendiaire en double-cliquant dessus depuis votre inventaire de quête.",
+          "position": "[2,-4]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": "Le piège doit être utilisé sur la carte correspondant à sa position.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Placez le piège Aveuglant en double-cliquant dessus depuis votre inventaire de quête.",
+          "position": "[1,-5]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": "Le piège doit être utilisé sur la carte correspondant à sa position.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir l'agent Sart pour confirmer la pose des pièges ; il vous renverra auprès du Sergent Frinklan.",
+          "position": "[2,-5]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Sergent Frinklan pour terminer Déphorrestation.",
+          "position": "[-1,-1]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [],
+      "npcs": [
+        "Agent Sart",
+        "Sergent Frinklan"
+      ],
+      "items": [
+        {
+          "name": "Paquetage de l'agent Sart",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Piège Empoisonné",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Piège Incendiaire",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Piège Aveuglant",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 180,
+            "name": "Château d'Amakna",
+            "coordinates": [
+              "2,-5",
+              "3,-4",
+              "2,-4"
+            ]
+          },
+          {
+            "id": 820,
+            "name": "Creuset des Fortunés",
+            "coordinates": [
+              "-1,-1"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "2,-5",
+              "3,-5",
+              "2,-4",
+              "1,-5"
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Montagne des Craqueleurs",
+            "coordinates": [
+              "1,-5"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "1,-3"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3670,
+            "name": "Maxi-Malle",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/3670.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2367,
+            "name": "Kwakamole l'Appétissant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2367.png"
+          },
+          {
+            "id": 2369,
+            "name": "Kwaké le Piraté",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2369.png"
+          },
+          {
+            "id": 2451,
+            "name": "Kwakolak le Chocolaté",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2451.png"
+          },
+          {
+            "id": 2368,
+            "name": "Kwakwatique le Trempé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2368.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1093,
+            "name": "Koffrefors",
+            "monsters": [
+              {
+                "id": 3666,
+                "name": "Berserkoffre",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3666.png"
+              },
+              {
+                "id": 3663,
+                "name": "Boursoin",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3663.png"
+              },
+              {
+                "id": 3664,
+                "name": "Mimikado",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3664.png"
+              },
+              {
+                "id": 3665,
+                "name": "Trésantène",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3665.png"
+              }
+            ]
+          },
+          {
+            "id": 190,
+            "name": "Kwakeres",
+            "monsters": [
+              {
+                "id": 269,
+                "name": "Kwakere de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/269.png"
+              },
+              {
+                "id": 271,
+                "name": "Kwakere de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/271.png"
+              },
+              {
+                "id": 270,
+                "name": "Kwakere de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/270.png"
+              },
+              {
+                "id": 272,
+                "name": "Kwakere de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/272.png"
+              }
+            ]
+          },
+          {
+            "id": 189,
+            "name": "Kwaks",
+            "monsters": [
+              {
+                "id": 83,
+                "name": "Kwak de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/83.png"
+              },
+              {
+                "id": 84,
+                "name": "Kwak de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/84.png"
+              },
+              {
+                "id": 235,
+                "name": "Kwak de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/235.png"
+              },
+              {
+                "id": 81,
+                "name": "Kwak de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/81.png"
+              }
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Mulous",
+            "monsters": [
+              {
+                "id": 102,
+                "name": "Mulou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/102.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 214,
+            "name": "Porkass",
+            "monsters": [
+              {
+                "id": 123,
+                "name": "Cochon de Lait",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/123.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:790",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/deacutephorrestation.html",
+      "sourceTitle": "Déphorrestation",
+      "sourceHash": "d9a89f86f8df6d250d974f075c38e3df8150f377ac3a2c0b488e0ae0401a8124",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Délogez le Grand Phormidiable de sa tanière puis revenez annoncer la victoire à Dyane Phossé. La quête se termine à ce dialogue et permet ensuite de lancer La pelle de la Phorrée, également prévue dans cette étape.",
+      "recommendedLevel": 150,
+      "prerequisites": [
+        "Avoir terminé Phorreurs dans la brume.",
+        "La quête Le phormidiable au corps doit être active."
+      ],
+      "rewards": [
+        "1 107 750 XP.",
+        "12 740 kamas.",
+        "30 x Orichor.",
+        "1 x Kamatrix."
+      ],
+      "preparation": [
+        "Prévoir un combat réalisable jusqu'à 8 joueurs."
+      ],
+      "actions": [
+        {
+          "instruction": "Rendez-vous à l'entrée de la tanière du Phormidiable, passez par le trou dans la roche et attaquez le Grand Phormidiable.",
+          "position": "[2,-4]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": "Le Grand Phormidiable peut frapper fortement en force avec Perphorrage et retirer de la puissance. Il peut également soigner les personnages placés à son corps à corps.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire, retournez parler à Dyane Phossé pour lui annoncer que le Grand Phormidiable a été éliminé et terminer la quête.",
+          "position": "[-2,-3]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Poursuivre la conversation avec Dyane Phossé après la fin permet de lancer La pelle de la Phorrée, qui constitue l'occurrence suivante de cette étape."
+      ],
+      "npcs": [
+        "Dyane Phossé",
+        "Grand Phormidiable"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 820,
+            "name": "Creuset des Fortunés",
+            "coordinates": [
+              "-2,-3"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "2,-4"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3670,
+            "name": "Maxi-Malle",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/3670.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1093,
+            "name": "Koffrefors",
+            "monsters": [
+              {
+                "id": 3666,
+                "name": "Berserkoffre",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3666.png"
+              },
+              {
+                "id": 3663,
+                "name": "Boursoin",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3663.png"
+              },
+              {
+                "id": 3664,
+                "name": "Mimikado",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3664.png"
+              },
+              {
+                "id": 3665,
+                "name": "Trésantène",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3665.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:787",
+      "relation": "ACTIVE",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-phormidiable-au-corps.html",
+      "sourceTitle": "Le phormidiable au corps",
+      "sourceHash": "b550c87e1fa474ebb090ba253b06e89ed21d67463d9413c55e78ede96f968545",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez Maudite générosité après Un cœur d'or et avancez uniquement jusqu'à l'objectif demandant de récupérer 5 Pépites aurifière. Ne récoltez pas encore ces pépites dans les actions de cette occurrence : le guide prévoit d'abord de lancer La pelle de la Phorrée, afin de profiter de la Galerie du Phossile.",
+      "recommendedLevel": 150,
+      "prerequisites": [
+        "Avoir terminé Un cœur d'or."
+      ],
+      "rewards": [
+        "2 215 500 XP.",
+        "25 480 kamas.",
+        "30 x Orichor.",
+        "3 x Queue de Mère Veilleuse."
+      ],
+      "preparation": [
+        "Retirer votre arme de corps à corps et votre bouclier avant le combat imposé contre le Phozami agressif.",
+        "Prévoir un combat obligatoire en solitaire."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Williamwadui et demandez-lui la véritable nature du Joyau écarlate afin de lancer Maudite générosité.",
+          "position": "[3,-4]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez le Rubis étincelant posé au sol au milieu des kamas.",
+          "position": "[1,-4]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez par le trou dans la roche et déposez le Rubis étincelant sur le piédestal en pierre.",
+          "position": "[2,-4]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Williamwadui pour recevoir l'étape suivante du rituel.",
+          "position": "[3,-4]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sans arme de corps à corps ni bouclier équipés, affrontez seul le Phozami agressif demandé par Williamwadui.",
+          "position": "[3,-4]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": "Combat obligatoirement en solitaire, sans arme de corps à corps et sans bouclier. Dans le cas contraire, l'objectif de quête ne se valide pas.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après le combat, reparlez à Williamwadui. Arrêtez-vous lorsque l'objectif de quête devient la récupération de 5 Pépites aurifière.",
+          "position": "[3,-4]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": "N'effectuez pas encore la collecte des 5 Pépites aurifière dans cette occurrence : le guide impose de lancer La pelle de la Phorrée avant de poursuivre.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le Phozami agressif remet un Œil du Phozami agressif en objet de quête après sa défaite.",
+        "La suite, notamment la collecte des 5 Pépites aurifière, la fabrication puis la vente de la gaufre en or, est volontairement reportée à l'occurrence FINISH de l'étape 166.",
+        "Les Pépites aurifière se récupèrent automatiquement sur les monstres de la Carrière Aurifière ; la Galerie du Phossile peut donc contribuer à cet objectif une fois La pelle de la Phorrée lancée."
+      ],
+      "npcs": [
+        "Williamwadui",
+        "Phozami agressif"
+      ],
+      "items": [
+        {
+          "name": "Joyau écarlate",
+          "itemId": 15318,
+          "imageUrl": "/items/15318.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15318"
+        },
+        {
+          "name": "Rubis étincelant",
+          "itemId": 15372,
+          "imageUrl": "/items/15372.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15372"
+        },
+        {
+          "name": "Œil du Phozami agressif",
+          "itemId": 15314,
+          "imageUrl": "/items/15314.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15314"
+        },
+        {
+          "name": "Pépite aurifière",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 180,
+            "name": "Château d'Amakna",
+            "coordinates": [
+              "3,-4",
+              "2,-4"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "1,-4"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:797",
+      "relation": "START",
+      "sortOrder": 3,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/maudite-geacuteneacuterositeacute.html",
+      "sourceTitle": "Maudite générosité",
+      "sourceHash": "f5a2e8521e047aa8dcba52c04898fd34185017289825bf7205a4a6108fb87e25",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après avoir terminé Le phormidiable au corps et avancé Maudite générosité jusqu'à l'objectif des 5 Pépites aurifière, lancez La pelle de la Phorrée auprès de Dyane Phossé puis effectuez la Galerie du Phossile. Arrêtez-vous à la sortie du donjon : les dialogues de validation avec Dyane puis Maximilio sont réservés à l'étape 166.",
+      "recommendedLevel": 150,
+      "prerequisites": [
+        "Avoir terminé Le phormidiable au corps.",
+        "Dans le parcours de cette étape, avancer d'abord Maudite générosité jusqu'à l'objectif demandant 5 Pépites aurifière."
+      ],
+      "rewards": [
+        "4 431 000 XP.",
+        "50 960 kamas.",
+        "30 x Orichor.",
+        "1 x Kamatrix."
+      ],
+      "preparation": [
+        "Prévoir d'effectuer le donjon Galerie du Phossile."
+      ],
+      "actions": [
+        {
+          "instruction": "Poursuivez la conversation avec Dyane Phossé après Le phormidiable au corps et acceptez de distraire le Phossile afin de lancer La pelle de la Phorrée.",
+          "position": "[-2,-3]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuez intégralement le donjon Galerie du Phossile et vainquez le Phossile.",
+          "position": null,
+          "zoneHint": "Galerie du Phossile",
+          "warning": "Cette occurrence s'arrête après le donjon. Ne validez pas encore la récupération de la pelle auprès de Dyane et ne rendez pas la quête à Maximilio : ces actions appartiennent à l'étape 166.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "La reprise prévue à l'étape 166 consiste à parler à Dyane après le donjon, puis à retourner voir le Professeur Maximilio en [-1,-1] pour terminer la quête.",
+        "Si Maudite générosité est déjà rendue à l'objectif des 5 Pépites aurifière, les combats de la Galerie du Phossile peuvent faire progresser cette collecte."
+      ],
+      "npcs": [
+        "Dyane Phossé",
+        "Phossile",
+        "Professeur Maximilio"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 820,
+            "name": "Creuset des Fortunés",
+            "coordinates": [
+              "-2,-3"
+            ]
+          },
+          {
+            "id": 824,
+            "name": "Galerie du Phossile",
+            "coordinates": []
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3670,
+            "name": "Maxi-Malle",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/3670.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1093,
+            "name": "Koffrefors",
+            "monsters": [
+              {
+                "id": 3666,
+                "name": "Berserkoffre",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3666.png"
+              },
+              {
+                "id": 3663,
+                "name": "Boursoin",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3663.png"
+              },
+              {
+                "id": 3664,
+                "name": "Mimikado",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3664.png"
+              },
+              {
+                "id": 3665,
+                "name": "Trésantène",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3665.png"
+              }
+            ]
+          },
+          {
+            "id": 1094,
+            "name": "Phorreurs",
+            "monsters": [
+              {
+                "id": 3662,
+                "name": "Mère Veilleuse",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/3662.png"
+              },
+              {
+                "id": 3659,
+                "name": "Métaphorreur",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/3659.png"
+              },
+              {
+                "id": 3658,
+                "name": "Phorrêveur",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/3658.png"
+              },
+              {
+                "id": 3661,
+                "name": "Phozami",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/3661.png"
+              },
+              {
+                "id": 3660,
+                "name": "Père Phorreur",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/3660.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:788",
+      "relation": "START",
+      "sortOrder": 4,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-pelle-de-la-phorreacutee.html",
+      "sourceTitle": "La pelle de la phorrée",
+      "sourceHash": "ccd2d6effbb7ef53b7310e9a2e1a5146bcc63d8d7fd29857bf43ed93d108b3b6",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Profiter de la Galerie du Phossile",
+      "description": "Respectez l'ordre du guide : avancez d'abord Maudite générosité jusqu'à l'objectif des 5 Pépites aurifière, puis lancez La pelle de la Phorrée. Les combats effectués dans la Galerie du Phossile peuvent alors fournir les pépites tout en accomplissant le donjon demandé par l'autre quête.",
+      "questKeys": [
+        "quest:797",
+        "quest:788"
+      ],
+      "actions": [
+        "Amener Maudite générosité jusqu'à l'objectif de récupération de 5 Pépites aurifière.",
+        "Lancer ensuite La pelle de la Phorrée auprès de Dyane Phossé.",
+        "Effectuer la Galerie du Phossile et profiter des combats pour progresser sur les Pépites aurifière sans dépasser les arrêts prévus par les occurrences."
+      ]
+    }
+  ]
 }

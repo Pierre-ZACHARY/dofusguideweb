@@ -1,8 +1,276 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 175,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T22:25:25.477Z",
+  "summaries": [
+    {
+      "overview": "Poursuivez l'enquête sur la Corne Edfrit confiée lors de la quête précédente. Amayiro vous envoie consulter le Mage Ax, qui peut révéler la nature de son pouvoir à l'aide d'un rituel nécessitant des ressources et deux autres personnages. Après le rituel, vous devrez survivre seul à une embuscade avant de rapporter les conclusions à Amayiro et terminer la quête.",
+      "recommendedLevel": 159,
+      "prerequisites": [
+        "Avoir terminé Une Corne Edfrit sans sel."
+      ],
+      "rewards": [
+        "5 460 126 XP."
+      ],
+      "preparation": [
+        "Prévoir l'aide de deux personnages pour le rituel.",
+        "Prévoir 5 x Potion de Crachin.",
+        "Prévoir 10 x Eau potable.",
+        "Prévoir 10 x Graine de Pandouille.",
+        "Prévoir 4 x Poudre de Perlinpainpain.",
+        "Prévoir 2 x Bois de Charme.",
+        "Prévoir 4 x Potion de Courant d’air.",
+        "Ne pas avoir de Blague de souffre sur soi avant le rituel."
+      ],
+      "actions": [
+        {
+          "instruction": "À la Milice, parlez à Amayiro afin de poursuivre la quête et d'obtenir la consigne de faire analyser le pouvoir de la Corne Edfrit.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Mage Ax et choisissez la réplique « fredonner… comme des casseroles… ». Il vous demande de le rejoindre au sous-sol avec les ressources nécessaires au rituel.",
+          "position": "[3,-21]",
+          "zoneHint": null,
+          "warning": "Vous devez disposer de deux personnages pour vous aider ainsi que de 5 x Potion de Crachin, 10 x Eau potable, 10 x Graine de Pandouille, 4 x Poudre de Perlinpainpain, 2 x Bois de Charme et 4 x Potion de Courant d’air.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Une fois les ressources et vos deux assistants réunis, retournez auprès du Mage Ax puis descendez à la cave par les escaliers.",
+          "position": "[3,-21]",
+          "zoneHint": "Cave du Mage Ax",
+          "warning": "Ne gardez aucune Blague de souffre sur vous : sa présence peut provoquer une explosion.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la cave, placez-vous sur la case devant la porte menant au passage secret, puis entrez dans l'autre pièce avec vos deux assistants.",
+          "position": "[3,-21]",
+          "zoneHint": "Cave du Mage Ax",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la pièce du rituel, placez un assistant devant le bac de lave, le second devant le four et votre personnage devant le bac d'eau.",
+          "position": "[3,-21]",
+          "zoneHint": "Atelier secret du Mage Ax",
+          "warning": "Les trois personnages doivent être correctement positionnés pour permettre le rituel.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Mage Ax et demandez-lui si le rituel a marché. Il vous remet alors un parchemin contenant les résultats de la révélation.",
+          "position": "[3,-21]",
+          "zoneHint": "Atelier secret du Mage Ax",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Utilisez l'étoile pour quitter l'atelier. Deux chasseurs d'âmes vous agressent immédiatement ; remportez le combat.",
+          "position": "[3,-21]",
+          "zoneHint": "Atelier secret du Mage Ax",
+          "warning": "Le combat contre les deux chasseurs d'âmes doit être effectué seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Retournez auprès d'Amayiro et remettez-lui les conclusions du Mage Ax : la magie de la corne ne peut pas servir à vaincre Brâkmar. Cette discussion termine la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La Corne Edfrit a déjà été récupérée lors de Une Corne Edfrit sans sel.",
+        "Le combat déclenché en quittant l'atelier est obligatoire et ne permet pas l'aide des deux personnages utilisés pour le rituel.",
+        "La fin de cette quête débloque Alignement 70 : Le subterfuge de la corne."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Mage Ax"
+      ],
+      "items": [
+        {
+          "name": "Corne Edfrit",
+          "itemId": 9110,
+          "imageUrl": "/items/9110.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9110"
+        },
+        {
+          "name": "Potion de Crachin",
+          "itemId": 2219,
+          "imageUrl": "/items/2219.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2219"
+        },
+        {
+          "name": "Eau Potable",
+          "itemId": 1719,
+          "imageUrl": "/items/1719.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1719"
+        },
+        {
+          "name": "Graine de Pandouille",
+          "itemId": 3706,
+          "imageUrl": "/items/3706.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/3706"
+        },
+        {
+          "name": "Poudre de Perlinpainpain",
+          "itemId": 1874,
+          "imageUrl": "/items/1874.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1874"
+        },
+        {
+          "name": "Bois de Charme",
+          "itemId": 1857,
+          "imageUrl": "/items/1857.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1857"
+        },
+        {
+          "name": "Potion de Courant d'Air",
+          "itemId": 2221,
+          "imageUrl": "/items/2221.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2221"
+        },
+        {
+          "name": "Blague de souffre",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "3,-21"
+            ]
+          },
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "3,-21"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:166",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/un-sombre-pouvoir.html",
+      "sourceTitle": "Alignement 69 : Un sombre pouvoir",
+      "sourceHash": "91fba33b486f83edef92479927d2904c5fb4329e13573ab6414ca369cc3e174d",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

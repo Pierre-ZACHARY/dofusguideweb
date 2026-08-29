@@ -1,8 +1,852 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 169,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T22:25:15.354Z",
+  "summaries": [
+    {
+      "overview": "Poursuivez La Grafioze depuis Amayiro : enquêtez auprès de Danathor puis de Touh Flowa, entrez dans la prison végétale avec l'aide d'un Sadida, franchissez ses grilles en sacrifiant les ressources demandées, remportez trois combats, récupérez le Vieux Grimoire Bwork et rapportez-le à Danathor. Cette quête doit être achevée avant de poursuivre Attaque à retardement.",
+      "recommendedLevel": 139,
+      "prerequisites": [
+        "Avoir terminé Trâknar.",
+        "Avoir La Grafioze en cours.",
+        "Disposer d'un Sadida pour ouvrir la première grille ; votre propre personnage convient s'il est Sadida."
+      ],
+      "rewards": [
+        "10 321 481 XP.",
+        "2 000 kamas remis par Danathor à la fin de la mission."
+      ],
+      "preparation": [
+        "Prévoir 2 x Ailes de Scarafeuille Blanc.",
+        "Prévoir 2 x Ailes de Scarafeuille Rouge.",
+        "Prévoir 1 x Poudre de Perlinpainpain.",
+        "Prévoir 1 x Patte d'Arakne Majeure.",
+        "Prévoir 1 x Ambre.",
+        "Prévoir l'aide d'un Sadida si votre personnage ne l'est pas.",
+        "Préparer un groupe si souhaité : les 3 combats peuvent être réalisés à plusieurs."
+      ],
+      "actions": [
+        {
+          "instruction": "À la Milice de Bonta, parlez à Amayiro pour poursuivre la mission ; il vous envoie auprès de Danathor.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Au Palais de Bonta, parlez à Danathor. Il vous dirige vers un Sadida d'Astrub susceptible de connaître l'emplacement du grimoire du bwork mage.",
+          "position": "[-36,-60]",
+          "zoneHint": "Palais de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Touh Flowa pour obtenir l'emplacement de la prison végétale qui renferme le grimoire.",
+          "position": "[1,-18]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous en [-12,-6] et entrez dans la grotte menant à la prison végétale.",
+          "position": "[-12,-6]",
+          "zoneHint": "Prison végétale",
+          "warning": "Vérifiez avant d'entrer que vous avez toutes les ressources prévues et un Sadida disponible.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la première salle, placez un Sadida sur la dalle afin d'ouvrir la grille, puis franchissez-la.",
+          "position": "[-12,-6]",
+          "zoneHint": "Prison végétale",
+          "warning": "Au-delà de cette grille, l'accès est réservé aux personnages ayant cette quête en cours ou l'ayant déjà terminée.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Après la grille, remportez le premier combat contre les créatures de la prison végétale.",
+          "position": "[-12,-6]",
+          "zoneHint": "Prison végétale",
+          "warning": "Le combat peut être effectué en groupe. Certaines créatures invoquent des Flammèches qui viennent exploser au corps à corps.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Dans la salle suivante, activez les quatre socles en cliquant dessus : chacun consomme l'Aile de Scarafeuille Rouge ou l'Aile de Scarafeuille Blanc correspondant à sa couleur. Une fois les 4 socles actifs, placez-vous sur la dalle et franchissez la grille.",
+          "position": "[-12,-6]",
+          "zoneHint": "Prison végétale",
+          "warning": "Cette ouverture consomme au total 2 x Ailes de Scarafeuille Blanc et 2 x Ailes de Scarafeuille Rouge.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la salle suivante, remportez le deuxième combat.",
+          "position": "[-12,-6]",
+          "zoneHint": "Prison végétale",
+          "warning": "Le combat peut être effectué en groupe. Les adversaires disposent notamment de retraits de PA, d'invocations, de poussées et de malus de résistances.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Dans la nouvelle salle à dalles, cliquez sur les trois socles pour les activer avec la Poudre de Perlinpainpain, l'Ambre et la Patte d'Arakne Majeure, puis placez-vous sur la dalle pour ouvrir la grille et passez-la.",
+          "position": "[-12,-6]",
+          "zoneHint": "Prison végétale",
+          "warning": "L'activation des trois socles consomme 1 x Poudre de Perlinpainpain, 1 x Ambre et 1 x Patte d'Arakne Majeure.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Après la dernière grille, remportez le troisième combat.",
+          "position": "[-12,-6]",
+          "zoneHint": "Prison végétale",
+          "warning": "Le combat peut être effectué en groupe. La version actuelle comporte 3 monstres ; surveillez notamment Lancer d'Arakne Morte, qui frappe dans l'élément air et peut retirer des PM.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Une fois le combat gagné, cliquez sur le livre au centre de la pièce pour récupérer le Vieux Grimoire Bwork.",
+          "position": "[-12,-6]",
+          "zoneHint": "Prison végétale",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Danathor et remettez-lui le Vieux Grimoire Bwork pour terminer La Grafioze.",
+          "position": "[-36,-60]",
+          "zoneHint": "Palais de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La Grafioze est la quête d'alignement 59 et précède directement Attaque à retardement.",
+        "Les ressources servant aux socles sont consommées lors de l'ouverture des grilles.",
+        "Les combats de la prison végétale sont tous réalisables en groupe."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Danathor",
+        "Touh Flowa"
+      ],
+      "items": [
+        {
+          "name": "Aile de Scarafeuille Blanc",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Aile de Scarafeuille Rouge",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Poudre de Perlinpainpain",
+          "itemId": 519,
+          "imageUrl": "/items/519.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/519"
+        },
+        {
+          "name": "Patte d'Arakne Majeure",
+          "itemId": 1652,
+          "imageUrl": "/items/1652.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1652"
+        },
+        {
+          "name": "Ambre",
+          "itemId": 463,
+          "imageUrl": "/items/463.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/463"
+        },
+        {
+          "name": "Vieux Grimoire Bwork",
+          "itemId": 10024,
+          "imageUrl": "/items/10024.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/10024"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "-36,-60",
+              "1,-18",
+              "-12,-6"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-36,-60"
+            ]
+          },
+          {
+            "id": 169,
+            "name": "Orée de la forêt des Abraknydes",
+            "coordinates": [
+              "-12,-6"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2299,
+            "name": "Tronkoneuz la Tranchante",
+            "level": 33,
+            "imageUrl": "/bestiary/monsters/2299.png"
+          },
+          {
+            "id": 2309,
+            "name": "Abrakroc l'édenté",
+            "level": 38,
+            "imageUrl": "/bestiary/monsters/2309.png"
+          },
+          {
+            "id": 2311,
+            "name": "Arabord la Cruche",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/2311.png"
+          },
+          {
+            "id": 2385,
+            "name": "Abrakadnuzar",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2385.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 174,
+            "name": "Abraknydiens",
+            "monsters": [
+              {
+                "id": 650,
+                "name": "Abrakne",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/650.png"
+              },
+              {
+                "id": 47,
+                "name": "Abraknyde",
+                "level": 38,
+                "imageUrl": "/bestiary/monsters/47.png"
+              },
+              {
+                "id": 256,
+                "name": "Tronknyde",
+                "level": 33,
+                "imageUrl": "/bestiary/monsters/256.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 259,
+                "name": "Arakne Majeure",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/259.png"
+              }
+            ]
+          },
+          {
+            "id": 187,
+            "name": "Gobelins d'Amakna",
+            "monsters": [
+              {
+                "id": 178,
+                "name": "Gobet",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/178.png"
+              },
+              {
+                "id": 62,
+                "name": "Gob-trotteur",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/62.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:155",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-grafioze.html",
+      "sourceTitle": "Alignement 59 : La Grafioze",
+      "sourceHash": "e158c34fa3a1d636e31797e9c0387d2809175ee74b0ee994f78099b692ff5af6",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après La Grafioze, poursuivez Attaque à retardement : volez un ancien plan dans la tour de Brâkmar, vérifiez son statut auprès de Kapi Taigne puis de Rekojel, payez 500 kamas pour obtenir la piste de Ledrob Terceséc, exploitez son allergie grâce aux poils fournis par Malicia Misère, récupérez l'ordre d'annulation et rapportez les documents à Amayiro. Cette quête doit être achevée avant Une rumeur intéressante.",
+      "recommendedLevel": 140,
+      "prerequisites": [
+        "Avoir terminé La Grafioze.",
+        "Avoir Attaque à retardement en cours."
+      ],
+      "rewards": [
+        "5 174 164 XP.",
+        "Déblocage de la quête d'alignement 61 : Une rumeur intéressante.",
+        "Accès aux quêtes d'apprentissage des trois ordres de niveau 3 correspondant à votre ordre."
+      ],
+      "preparation": [
+        "Prévoir 500 kamas à remettre à Rekojel."
+      ],
+      "actions": [
+        {
+          "instruction": "À la Milice de Bonta, parlez à Amayiro. Il vous demande de trouver les plans d'une éventuelle attaque brâkmarienne.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous dans la tour de Brâkmar, montez deux fois les escaliers, allez à gauche puis à droite, et cliquez sur la valise ouverte contenant des livres pour récupérer un plan d'attaque.",
+          "position": "[-22,33]",
+          "zoneHint": "Tour de Brâkmar",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À la milice de Brâkmar, descendez au sous-sol et parlez à Kapi Taigne. Il vous indique avoir perdu le commandement du plan au profit de Rekojel.",
+          "position": "[-25,33]",
+          "zoneHint": "Sous-sol de la milice de Brâkmar",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Rekojel et renseignez-vous sur le plan d'attaque. Remettez-lui 500 kamas pour apprendre que Ledrob Terceséc possède désormais le commandement et que le plan a changé.",
+          "position": "[-29,36]",
+          "zoneHint": null,
+          "warning": "Cette étape coûte 500 kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À la taverne de la misère, parlez à Malicia Misère. Elle vous révèle l'allergie de Ledrob aux poils de chacha et d'arakne et vous remet des échantillons de poils.",
+          "position": "[-21,39]",
+          "zoneHint": "Taverne de la misère",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez dans la tour de Brâkmar. Depuis l'entrée, allez à gauche, tout droit, descendez au sous-sol puis allez à gauche pour rejoindre Ledrob Terceséc.",
+          "position": "[-22,33]",
+          "zoneHint": "Sous-sol de la tour de Brâkmar",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Ledrob Terceséc et jetez-lui les poils au visage afin de déclencher sa réaction allergique et détourner son attention.",
+          "position": "[-22,33]",
+          "zoneHint": "Sous-sol de la tour de Brâkmar",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Pendant que Ledrob est distrait, cliquez sur la caisse contenant ses affaires pour récupérer l'ordre d'annulation de l'attaque.",
+          "position": "[-22,33]",
+          "zoneHint": "Sous-sol de la tour de Brâkmar",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Amayiro et montrez-lui les documents pour terminer Attaque à retardement.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le document récupéré chez Ledrob révèle que l'attaque a été annulée, notamment en raison des améliorations de l'équipement de la milice brâkmarienne et de la capture de Xephirès.",
+        "Une rumeur intéressante ne doit être poursuivie qu'après la fin de cette quête."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Kapi Taigne",
+        "Rekojel",
+        "Malicia Misère",
+        "Ledrob Terceséc"
+      ],
+      "items": [
+        {
+          "name": "Plan d'attaque",
+          "itemId": 9103,
+          "imageUrl": "/items/9103.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9103"
+        },
+        {
+          "name": "Échantillons de poils",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Ordre d'annulation",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 982,
+            "name": "L'Enclume",
+            "coordinates": [
+              "-29,36"
+            ]
+          },
+          {
+            "id": 977,
+            "name": "La Cuirasse",
+            "coordinates": [
+              "-25,33"
+            ]
+          },
+          {
+            "id": 980,
+            "name": "La Marmite",
+            "coordinates": [
+              "-22,33"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "-21,39"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:157",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/attaque-a-retardement.html",
+      "sourceTitle": "Alignement 60 : Attaque à retardement",
+      "sourceHash": "1ec79626c79e7569a57fcd138edb17868115659e5df755916d90bd9c3f6f2d26",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après Attaque à retardement, enquêtez sur la mystérieuse Corne Edfrit. Interrogez le Tavernier du Ripate en lui apportant quatre ressources de Phorreurs, consultez ensuite Harry Stote puis Laura Soho pour retracer l'histoire de la corne et obtenir la recette du Gloutoburg, puis transmettez vos découvertes à Amayiro. La recherche concrète de la corne sur l'île de Moon appartient à la quête suivante et n'est pas à effectuer ici.",
+      "recommendedLevel": 151,
+      "prerequisites": [
+        "Avoir terminé Attaque à retardement.",
+        "Avoir Une rumeur intéressante en cours."
+      ],
+      "rewards": [
+        "5 332 401 XP.",
+        "Déblocage de la quête d'alignement 62 : Investigations à Moon."
+      ],
+      "preparation": [
+        "Prévoir 1 x Griffe de Phorrêveur.",
+        "Prévoir 1 x Peau de Métaphorreur.",
+        "Prévoir 1 x Corne de Père Phorreur.",
+        "Prévoir 1 x Œil de Phozami."
+      ],
+      "actions": [
+        {
+          "instruction": "À la Milice de Bonta, parlez à Amayiro pour poursuivre l'enquête sur la rumeur concernant une corne magique.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À la taverne du Ripate, parlez au Tavernier du Ripate et renseignez-vous sur la corne.",
+          "position": "[12,24]",
+          "zoneHint": "Taverne du Ripate",
+          "warning": "Le tavernier exige des ressources en échange de ses informations.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Toujours auprès du Tavernier du Ripate, donnez 1 x Griffe de Phorrêveur, 1 x Peau de Métaphorreur, 1 x Corne de Père Phorreur et 1 x Œil de Phozami. Il vous apprend que la corne se trouve sur une île et vous oriente vers une bibliothèque.",
+          "position": "[12,24]",
+          "zoneHint": "Taverne du Ripate",
+          "warning": "Les quatre ressources de Phorreurs sont remises au PNJ à cette étape.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Harry Stote, évoquez une corne magique située sur une île puis écoutez son histoire afin d'identifier la Corne Edfrit et son lien avec Moon.",
+          "position": "[4,1]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À la taverne d'Amakna, prenez l'entrée centrale puis allez dans la pièce de droite.",
+          "position": "[2,-1]",
+          "zoneHint": "Taverne d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Laura Soho et renseignez-vous sur la Corne Edfrit. Elle vous explique que des aventuriers l'auraient aperçue sur l'île de Moon en portant une coiffe de fourbasse et après avoir bu du gloutoburg ; elle vous remet la recette du Gloutoburg.",
+          "position": "[2,-1]",
+          "zoneHint": "Taverne d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès d'Amayiro et faites-lui votre rapport sur la Corne Edfrit pour terminer Une rumeur intéressante.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "L'histoire rapportée par Harry Stote permet d'identifier la corne comme la Corne Edfrit, passée autrefois entre les mains de Moon.",
+        "Ne partez pas chercher la corne sur l'île de Moon dans cette occurrence : cette investigation appartient à la quête suivante, Investigations à Moon."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Tavernier du Ripate",
+        "Harry Stote",
+        "Laura Soho"
+      ],
+      "items": [
+        {
+          "name": "Griffe de Phorrêveur",
+          "itemId": 9945,
+          "imageUrl": "/items/9945.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9945"
+        },
+        {
+          "name": "Peau de Métaphorreur",
+          "itemId": 9946,
+          "imageUrl": "/items/9946.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9946"
+        },
+        {
+          "name": "Corne de Père Phorreur",
+          "itemId": 9947,
+          "imageUrl": "/items/9947.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9947"
+        },
+        {
+          "name": "Œil de Phozami",
+          "itemId": 9948,
+          "imageUrl": "/items/9948.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9948"
+        },
+        {
+          "name": "Recette du Gloutoburg",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "12,24",
+              "2,-1"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "4,1"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:158",
+      "relation": "ACTIVE",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/une-rumeur-interessante.html",
+      "sourceTitle": "Alignement 61 : Une rumeur intéressante",
+      "sourceHash": "c6c9352b1544000ae6eab1c5af86de47e01c40abbee2f733fd1826cf123cbfc8",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

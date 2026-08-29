@@ -1,8 +1,388 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 190,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T22:25:50.425Z",
+  "summaries": [
+    {
+      "overview": "Lancez Requiem pour un Yokai auprès du Shogun Tofugawa, informez Ronald le sage lenald de votre enquête puis rendez-vous à la Demeure des Esprits. Pour cette occurrence, arrêtez-vous dès que vous avez pénétré dans la première salle du donjon et que l'objectif de découverte de la carte est validé. Le donjon et la suite de la quête seront réalisés plus tard.",
+      "recommendedLevel": 170,
+      "prerequisites": [
+        "Maudite disparition.",
+        "Jusqu'à leur dernier soupir bloque une étape ultérieure de la quête.",
+        "Le voleur d'âmes bloque une étape ultérieure de la quête."
+      ],
+      "rewards": [
+        "4 711 728 XP.",
+        "64 560 Kamas.",
+        "3 x Masque brisé."
+      ],
+      "preparation": [
+        "Aucune ressource de la suite de Requiem pour un Yokai n'est nécessaire pour atteindre le point d'arrêt de cette occurrence."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez au Shogun Tofugawa pour lancer Requiem pour un Yokai et accepter son marché concernant le Yokai mangeur de morts et le feu ardent d'un Kitsounebi.",
+          "position": "[36,-44]",
+          "zoneHint": "Cimetière de Grobe",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à l'étage de la maison des lenalds et parlez à Ronald le sage lenald pour lui résumer votre enquête. Il vous confie une Broche d'Inali destinée à faciliter votre approche de Koumiho.",
+          "position": "[22,-28]",
+          "zoneHint": "Maison des lenalds",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à l'entrée de la Demeure des Esprits et entrez dans le donjon, puis pénétrez impérativement dans la première salle afin de valider la découverte demandée par la quête. Arrêtez-vous à ce point pour cette occurrence.",
+          "position": "[39,-44]",
+          "zoneHint": "Demeure des Esprits",
+          "warning": "Ne poursuivez pas Requiem pour un Yokai au-delà de la première salle dans cette occurrence : le parcours du guide impose ici un arrêt avant la suite.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le donjon complet, la discussion avec Koumiho et le lancement de Jusqu'à leur dernier soupir appartiennent à une portion ultérieure de Requiem pour un Yokai.",
+        "Les ressources 3 x Planche de Gravure, 5 x Bauxite, 1 x Diamant ainsi que les combats indiqués dans la source ne sont pas nécessaires à cette occurrence."
+      ],
+      "npcs": [
+        "Shogun Tofugawa",
+        "Ronald le sage lenald"
+      ],
+      "items": [
+        {
+          "name": "Broche d'Inali",
+          "itemId": 23576,
+          "imageUrl": "/items/23576.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23576"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 952,
+            "name": "Cimetière de Grobe",
+            "coordinates": [
+              "36,-44"
+            ]
+          },
+          {
+            "id": 954,
+            "name": "Demeure des Esprits",
+            "coordinates": [
+              "39,-44"
+            ]
+          },
+          {
+            "id": 951,
+            "name": "Village de Pandala",
+            "coordinates": [
+              "22,-28"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2374,
+            "name": "Jiankor le Radoteur",
+            "level": 152,
+            "imageUrl": "/bestiary/monsters/2374.png"
+          },
+          {
+            "id": 2471,
+            "name": "Onabuémangé la Rassasiée",
+            "level": 152,
+            "imageUrl": "/bestiary/monsters/2471.png"
+          },
+          {
+            "id": 2469,
+            "name": "Tambouille le Gastronome",
+            "level": 152,
+            "imageUrl": "/bestiary/monsters/2469.png"
+          },
+          {
+            "id": 2370,
+            "name": "Tsucékoi la Colporteuse",
+            "level": 152,
+            "imageUrl": "/bestiary/monsters/2370.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 3070,
+            "name": "Armée de Brume",
+            "monsters": [
+              {
+                "id": 6383,
+                "name": "Tsukinochi",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/6383.png"
+              },
+              {
+                "id": 6384,
+                "name": "Tambouraï",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/6384.png"
+              },
+              {
+                "id": 6385,
+                "name": "Onabu-Geisha",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/6385.png"
+              },
+              {
+                "id": 6386,
+                "name": "Jiangshi-Nobi",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/6386.png"
+              }
+            ]
+          },
+          {
+            "id": 3069,
+            "name": "Yokai des Tombeaux",
+            "monsters": [
+              {
+                "id": 6389,
+                "name": "Madura",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/6389.png"
+              },
+              {
+                "id": 6390,
+                "name": "Bakazako",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/6390.png"
+              },
+              {
+                "id": 6391,
+                "name": "Kaonashi",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/6391.png"
+              },
+              {
+                "id": 6392,
+                "name": "Tsume-bozu",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/6392.png"
+              },
+              {
+                "id": 6393,
+                "name": "Onigori",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/6393.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1345",
+      "relation": "START",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/requiem-pour-un-yokai.html",
+      "sourceTitle": "Requiem pour un Yokai",
+      "sourceHash": "a3e2fbe298bc8bcdbc0182cc1e344ff3e2e3cf46f66bfc0e760c7ad2602c3535",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez Quand les esprits s'échauffent auprès de l'Esprit boutefeu, poursuivez-le jusqu'à comprendre qu'une démonstration de force devant la Kitsoune à neuf queues de Grobe est nécessaire, puis effectuez la Demeure des Esprits et vainquez Koumiho. Arrêtez cette occurrence après le donjon ; les démarches demandées ensuite par Koumiho seront traitées lors de la reprise.",
+      "recommendedLevel": 170,
+      "prerequisites": [
+        "Pas de fumée sans feu."
+      ],
+      "rewards": [
+        "5 654 073 XP.",
+        "77 472 Kamas.",
+        "6 x Truk divin."
+      ],
+      "preparation": [
+        "Préparez un groupe si vous souhaitez être accompagné pour le combat de la forêt pétrifiée.",
+        "Prévoyez de pouvoir effectuer le donjon Demeure des Esprits.",
+        "Les 12 x Délice des Kitsous et leurs composants ne sont pas nécessaires avant le point d'arrêt de cette occurrence."
+      ],
+      "actions": [
+        {
+          "instruction": "Dans le sous-sol de la chaumière, après votre arrivée dans le monde des esprits, parlez à l'Esprit boutefeu pour lancer Quand les esprits s'échauffent. Il s'enfuit ensuite vers la forêt pétrifiée.",
+          "position": "[-6,18]",
+          "zoneHint": "Sous-sol de la chaumière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retrouvez l'Esprit boutefeu dans la forêt pétrifiée et tentez de marchander pour qu'il cesse d'alimenter le feu des sorcières. Préparez-vous lorsqu'il fait intervenir les créatures des environs.",
+          "position": "[-77,-67]",
+          "zoneHint": "Forêt pétrifiée",
+          "warning": "Un combat se déclenche et peut être effectué à plusieurs.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, reparlez à l'Esprit boutefeu et faites-lui croire qu'il a gagné afin de tenter de l'amadouer. La tentative échoue et il s'échappe de nouveau.",
+          "position": "[-77,-67]",
+          "zoneHint": "Forêt pétrifiée",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous auprès de Surivitna et expliquez-lui votre problème avec un esprit qui nourrit des flammes spectrales. Il conclut que les méthodes habituelles ne suffiront pas et qu'il faut montrer votre force et votre détermination à la Kitsoune à neuf queues qui commande les Yokais de Grobe.",
+          "position": "[20,-27]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous sur Grobe, entrez dans la Demeure des Esprits, effectuez le donjon et vainquez Koumiho afin d'accomplir la démonstration de force demandée. Arrêtez-vous après cette portion pour respecter le découpage du guide.",
+          "position": "[39,-44]",
+          "zoneHint": "Demeure des Esprits",
+          "warning": "Cette action implique d'effectuer le donjon Demeure des Esprits et de vaincre Koumiho. Ne poursuivez pas ensuite jusqu'à la remise des Délices des Kitsous dans cette occurrence.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "La suite de la quête demandera notamment de traiter avec Koumiho, de fournir 12 x Délice des Kitsous puis de retourner affronter seul l'Esprit boutefeu ; ces actions sont volontairement différées.",
+        "La recette de 12 x Délice des Kitsous utilise 12 x Épices, 12 x Viande Saignante et 12 x Riz, mais ces ressources ne sont pas requises pour accomplir la portion actuelle."
+      ],
+      "npcs": [
+        "Esprit boutefeu",
+        "Surivitna",
+        "Koumiho"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 954,
+            "name": "Demeure des Esprits",
+            "coordinates": [
+              "39,-44"
+            ]
+          },
+          {
+            "id": 605,
+            "name": "Forêt pétrifiée",
+            "coordinates": [
+              "-77,-67"
+            ]
+          },
+          {
+            "id": 963,
+            "name": "Monde des esprits",
+            "coordinates": [
+              "-6,18"
+            ]
+          },
+          {
+            "id": 951,
+            "name": "Village de Pandala",
+            "coordinates": [
+              "20,-27"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2908,
+            "name": "Dremoan",
+            "level": 180,
+            "imageUrl": "/bestiary/monsters/2908.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 154,
+            "name": "Sylvesprits",
+            "monsters": [
+              {
+                "id": 2898,
+                "name": "Abrazif",
+                "level": 172,
+                "imageUrl": "/bestiary/monsters/2898.png"
+              },
+              {
+                "id": 2895,
+                "name": "Dramanite",
+                "level": 172,
+                "imageUrl": "/bestiary/monsters/2895.png"
+              },
+              {
+                "id": 2896,
+                "name": "Fistulor",
+                "level": 172,
+                "imageUrl": "/bestiary/monsters/2896.png"
+              },
+              {
+                "id": 2897,
+                "name": "Fongeur",
+                "level": 172,
+                "imageUrl": "/bestiary/monsters/2897.png"
+              }
+            ]
+          },
+          {
+            "id": 3069,
+            "name": "Yokai des Tombeaux",
+            "monsters": [
+              {
+                "id": 6389,
+                "name": "Madura",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/6389.png"
+              },
+              {
+                "id": 6390,
+                "name": "Bakazako",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/6390.png"
+              },
+              {
+                "id": 6391,
+                "name": "Kaonashi",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/6391.png"
+              },
+              {
+                "id": 6392,
+                "name": "Tsume-bozu",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/6392.png"
+              },
+              {
+                "id": 6393,
+                "name": "Onigori",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/6393.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1408",
+      "relation": "START",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/quand-les-esprits-s-echauffent.html",
+      "sourceTitle": "Quand les esprits s'échauffent",
+      "sourceHash": "275d83830cc0f3aa8b4a03ebf8b05f75d5ca9b0f165c671911daf7c1f1be1d27",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Enchaîner la Demeure des Esprits",
+      "description": "Les deux occurrences de l'étape convergent vers la Demeure des Esprits en [39,-44]. Validez d'abord l'entrée dans la première salle pour Requiem pour un Yokai, puis profitez du même passage au donjon pour accomplir la démonstration de force demandée par Quand les esprits s'échauffent.",
+      "questKeys": [
+        "quest:1345",
+        "quest:1408"
+      ],
+      "actions": [
+        "Avant de partir pour Grobe, avancez Quand les esprits s'échauffent jusqu'à l'objectif qui vous envoie affronter la Kitsoune à neuf queues.",
+        "En [39,-44], entrez dans la première salle pour mettre à jour Requiem pour un Yokai.",
+        "Poursuivez ensuite la Demeure des Esprits et vainquez Koumiho pour Quand les esprits s'échauffent."
+      ]
+    }
+  ]
 }

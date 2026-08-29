@@ -1,8 +1,764 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 182,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T22:25:39.333Z",
+  "summaries": [
+    {
+      "overview": "La quête a été lancée à l'étape précédente et la progression demandée dans l'Hypogée de l'Obsidiantre est supposée accomplie. Reprenez maintenant la partie finale : faites croire à Annette Daimpeau que Dan Lavy est mort, retournez à la salle 4 de l'Hypogée pour affronter Gros Med, puis annoncez votre victoire à Annette.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Niveau ⩾ 130.",
+        "Chauffage à moindre frais.",
+        "Avoir effectué la progression demandée à l'occurrence précédente dans l'Hypogée de l'Obsidiantre et rencontré Dan Lavy."
+      ],
+      "rewards": [
+        "4 564 056 XP.",
+        "57 560 kamas.",
+        "3 x Kama de glace.",
+        "1 x Tuf de Mofette."
+      ],
+      "preparation": [
+        "Prévoir un combat contre Gros Med, réalisable en groupe.",
+        "Conserver ou utiliser la sauvegarde du donjon pour revenir à la salle 4 de l'Hypogée de l'Obsidiantre."
+      ],
+      "actions": [
+        {
+          "instruction": "Retournez voir Annette Daimpeau et annoncez-lui la mort de Dan Lavy comme il vous l'a demandé. Annette vous demande alors de venger Dan en tuant Gros Med.",
+          "position": "[-72,-40]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez dans l'Hypogée de l'Obsidiantre jusqu'à la salle 4. Ne lancez pas le combat contre le groupe de monstres de la salle et parlez à Dan Lavy pour savoir où se trouve Gros Med.",
+          "position": "[-71,-83]",
+          "zoneHint": "Hypogée de l'Obsidiantre",
+          "warning": "Évitez de lancer par erreur le combat contre les monstres présents sur la carte de la salle 4.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Affrontez Gros Med. Le combat peut être rejoint par une équipe, même si les autres personnages n'ont pas la quête au même stade. Évitez de déplacer Gros Med ou de lui retirer des PM : chaque tentative le soigne et augmente ses dommages. Son état lourd empêche également le porter/jeter.",
+          "position": "[-71,-83]",
+          "zoneHint": "Hypogée de l'Obsidiantre",
+          "warning": "Gros Med lance Vile Corruption : l'effet ne se désenvoûte pas, lui donne l'état lourd et lui permet d'infliger 25 % d'érosion. Une tentative de déplacement ou de retrait PM lui rend d'abord 1000 PV et lui donne 100 dommages pendant 2 tours, puis les soins augmentent lors des tentatives suivantes.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire contre Gros Med, retournez auprès d'Annette Daimpeau et annoncez-lui votre victoire pour terminer la quête.",
+          "position": "[-72,-40]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Cette occurrence reprend uniquement la fin de la quête ; les recherches initiales et la progression jusqu'à Dan Lavy sont supposées déjà effectuées à l'étape précédente.",
+        "Terminer cette quête débloque un prérequis de À qui profite le boufmouth."
+      ],
+      "npcs": [
+        "Annette Daimpeau",
+        "Dan Lavy",
+        "Gros Med"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 620,
+            "name": "Hypogée de l'Obsidiantre",
+            "coordinates": [
+              "-71,-83"
+            ]
+          },
+          {
+            "id": 601,
+            "name": "La Bourgade",
+            "coordinates": [
+              "-72,-40"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2913,
+                "name": "Chachachovage",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2913.png"
+              },
+              {
+                "id": 2893,
+                "name": "Crabe Hijacob",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2893.png"
+              },
+              {
+                "id": 2914,
+                "name": "Gélikan",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2914.png"
+              },
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          },
+          {
+            "id": 158,
+            "name": "Sulfurieux",
+            "monsters": [
+              {
+                "id": 2866,
+                "name": "Atomystique",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/2866.png"
+              },
+              {
+                "id": 2865,
+                "name": "Crapeur",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/2865.png"
+              },
+              {
+                "id": 2868,
+                "name": "Fumrirolle",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/2868.png"
+              },
+              {
+                "id": 2867,
+                "name": "Mofette",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/2867.png"
+              },
+              {
+                "id": 2869,
+                "name": "Solfataré",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/2869.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:362",
+      "relation": "FINISH",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/a-la-recherche-de-dan-lavy.html",
+      "sourceTitle": "À la recherche de Dan Lavy",
+      "sourceHash": "3bec864fdd130cf109d473758010aad061f3b383a4a50fc8d57f50ac6b0779ee",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Menez l'enquête sur la disparition de Richard Cutier : ouvrez sa grotte, secourez-le, retracez l'origine de son anneau puis confrontez les différents suspects jusqu'à identifier ses agresseurs. Cette quête doit être menée jusqu'à sa conclusion ici afin de permettre le rendu de Les rescapés de Frigost juste après.",
+      "recommendedLevel": 170,
+      "prerequisites": [
+        "Niveau recommandé : 170.",
+        "À la recherche de Dan Lavy.",
+        "Lavomatique.",
+        "La marche de l'impératrice est nécessaire pour parler à Ken Tucky lors de l'enquête."
+      ],
+      "rewards": [
+        "4 711 728 XP.",
+        "64 560 kamas.",
+        "4 x Kama de glace.",
+        "1 x Patte de Soryo Givrefoux."
+      ],
+      "preparation": [
+        "Prévoir un combat seul contre un groupe de 3 boufmouths dressés."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Jozébo Vez pour poursuivre l'enquête sur la disparition de son éleveur Richard Cutier.",
+          "position": "[-69,-42]",
+          "zoneHint": "Les champs de glace",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à la grille où Richard a disparu et cliquez dessus pour examiner les lieux.",
+          "position": "[-75,-83]",
+          "zoneHint": "Crevasse Perge",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Jozébo Vez afin de lui signaler que la grille bloque l'accès.",
+          "position": "[-69,-42]",
+          "zoneHint": "Les champs de glace",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez dans la taverne et récupérez auprès de Laurent Gebleuh le baril de poudre demandé par Jozébo.",
+          "position": "[-77,-44]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez à la grille et cliquez dessus pour utiliser la poudre et l'ouvrir, puis entrez dans la grotte.",
+          "position": "[-75,-83]",
+          "zoneHint": "Crevasse Perge",
+          "warning": "L'utilisation de la poudre sert à faire sauter la grille et ouvre l'accès à la grotte.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la grotte, aidez Richard Cutier en affrontant les 3 boufmouths dressés qui le menacent, puis reparlez-lui. Il vous remet un anneau trouvé sur place.",
+          "position": "[-75,-83]",
+          "zoneHint": "Grotte de la Crevasse Perge",
+          "warning": "Ce combat doit être effectué seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Présentez l'anneau à Diana Jaune afin que Rex en suive l'odeur.",
+          "position": "[-81,-46]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Suivez Rex jusqu'à l'épicerie et interrogez Mamie Rexpress. Elle vous apprend avoir vendu l'anneau à Quentin Flush.",
+          "position": "[-77,-45]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir Quentin Flush dans la taverne et interrogez-le au sujet de l'anneau.",
+          "position": "[-81,-41]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à la milice, demandez à Clyde si Quentin est arrivé, puis rejoignez la pièce derrière lui à droite et parlez alternativement à Quentin Flush et Bonnie Barrow jusqu'à obtenir une piste.",
+          "position": "[-76,-42]",
+          "zoneHint": "Milice de Frigost",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez interroger Clarisse Tosha sur les relations de Quentin Flush. Elle vous révèle que l'anneau était destiné à Agnès Péha.",
+          "position": "[-82,-42]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Quentin Flush à la milice et acceptez sa partie de cartes. Choisissez librement une approche offensive, défensive ou fondée sur la chance : le résultat final est la victoire et Quentin confirme avoir offert l'anneau à Agnès.",
+          "position": "[-76,-42]",
+          "zoneHint": "Milice de Frigost",
+          "warning": "Les options proposées dépendent de vos caractéristiques, mais le résultat de la partie est le même.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez rencontrer Agnès Péha pour poursuivre l'enquête.",
+          "position": "[-63,-58]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Jozébo Vez et demandez-lui quel était l'état des relations entre Agnès et Richard.",
+          "position": "[-69,-42]",
+          "zoneHint": "Les champs de glace",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez Richard Cutier sur les raisons de son altercation avec Gormor.",
+          "position": "[-70,-45]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir Gormor et demandez-lui son alibi pour l'enlèvement de Richard.",
+          "position": "[-65,-50]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Vérifiez l'alibi de Gormor auprès de sa cheffe Bambelle.",
+          "position": "[-64,-51]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez interroger Gormor au sujet des visites d'Agnès et de son absence de trois jours.",
+          "position": "[-65,-50]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir Ken Tucky pour vérifier le nouvel alibi de Gormor. Vous le trouvez avec Agnès : parlez à Agnès puis reparlez à Ken Tucky.",
+          "position": "[-80,-46]",
+          "zoneHint": "La bourgade",
+          "warning": "Il faut avoir terminé La marche de l'impératrice pour pouvoir parler à Ken Tucky à cette étape.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Vérifiez ensuite l'alibi de Ken auprès de Clarisse Tosha.",
+          "position": "[-82,-42]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montez d'une carte pour interroger le voisinage de Clarisse et parlez à Groméo Montay.",
+          "position": "[-82,-43]",
+          "zoneHint": "La bourgade",
+          "warning": "Groméo Montay n'est présent ici qu'à certaines tranches horaires. S'il est absent, cherchez-le en [-74,-32].",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si Groméo Montay n'est pas présent en [-82,-43], retrouvez-le à cette position et interrogez-le.",
+          "position": "[-74,-32]",
+          "zoneHint": null,
+          "warning": "Cette action n'est nécessaire que si le PNJ est absent de sa position principale.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez à l'épicerie, interrogez Mamie Rexpress puis Ernest Laye sur ce qui s'est passé le jour de l'enlèvement. Utilisez l'un des choix de dialogue proposés pour faire parler Ernest.",
+          "position": "[-77,-45]",
+          "zoneHint": "La bourgade",
+          "warning": "Plusieurs choix de dialogue permettent de faire avouer Ernest ; chacun mène à la poursuite de la quête.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Confrontez Ken Tucky au sujet de son implication.",
+          "position": "[-80,-46]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Confrontez Clarisse Tosha.",
+          "position": "[-82,-42]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Demandez des explications à Gormor.",
+          "position": "[-65,-50]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Confrontez enfin Agnès Péha.",
+          "position": "[-63,-58]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Richard Cutier et révélez-lui l'identité de ses agresseurs pour terminer la quête.",
+          "position": "[-70,-45]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête se termine après avoir révélé à Richard Cutier l'identité de ses agresseurs.",
+        "Elle débloque ensuite Dépôt de ravitaillement.",
+        "Sa complétion permet également de satisfaire la dernière des sept quêtes exigées par Les rescapés de Frigost si les six autres ont déjà été terminées."
+      ],
+      "npcs": [
+        "Jozébo Vez",
+        "Richard Cutier",
+        "Laurent Gebleuh",
+        "Diana Jaune",
+        "Rex",
+        "Mamie Rexpress",
+        "Quentin Flush",
+        "Clyde",
+        "Bonnie Barrow",
+        "Clarisse Tosha",
+        "Agnès Péha",
+        "Gormor",
+        "Bambelle",
+        "Ken Tucky",
+        "Groméo Montay",
+        "Ernest Laye"
+      ],
+      "items": [
+        {
+          "name": "Baril de poudre",
+          "itemId": 11999,
+          "imageUrl": "/items/11999.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11999"
+        },
+        {
+          "name": "Anneau unique",
+          "itemId": 12000,
+          "imageUrl": "/items/12000.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/12000"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 602,
+            "name": "Champs de glace",
+            "coordinates": [
+              "-69,-42",
+              "-70,-45"
+            ]
+          },
+          {
+            "id": 606,
+            "name": "Crevasse Perge",
+            "coordinates": [
+              "-75,-83"
+            ]
+          },
+          {
+            "id": 604,
+            "name": "Forêt des pins perdus",
+            "coordinates": [
+              "-65,-50",
+              "-64,-51"
+            ]
+          },
+          {
+            "id": 601,
+            "name": "La Bourgade",
+            "coordinates": [
+              "-77,-44",
+              "-81,-46",
+              "-77,-45",
+              "-81,-41",
+              "-76,-42",
+              "-82,-42",
+              "-80,-46",
+              "-82,-43",
+              "-74,-32"
+            ]
+          },
+          {
+            "id": 615,
+            "name": "Lac gelé",
+            "coordinates": [
+              "-63,-58"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-70,-45"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2901,
+            "name": "Bouflouth",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/2901.png"
+          },
+          {
+            "id": 2902,
+            "name": "Monsieur Pingouin",
+            "level": 130,
+            "imageUrl": "/bestiary/monsters/2902.png"
+          },
+          {
+            "id": 2903,
+            "name": "Katigrou",
+            "level": 140,
+            "imageUrl": "/bestiary/monsters/2903.png"
+          },
+          {
+            "id": 2906,
+            "name": "YeCh'Ti",
+            "level": 170,
+            "imageUrl": "/bestiary/monsters/2906.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2913,
+                "name": "Chachachovage",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2913.png"
+              },
+              {
+                "id": 2893,
+                "name": "Crabe Hijacob",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2893.png"
+              },
+              {
+                "id": 2914,
+                "name": "Gélikan",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2914.png"
+              },
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          },
+          {
+            "id": 156,
+            "name": "Boufmouths",
+            "monsters": [
+              {
+                "id": 2850,
+                "name": "Boufmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2850.png"
+              },
+              {
+                "id": 2851,
+                "name": "Boufmouth de guerre",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2851.png"
+              },
+              {
+                "id": 2852,
+                "name": "Boufmouth légendaire",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2852.png"
+              },
+              {
+                "id": 2853,
+                "name": "Bouftonmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2853.png"
+              }
+            ]
+          },
+          {
+            "id": 138,
+            "name": "Faune des Pins Perdus",
+            "monsters": [
+              {
+                "id": 2859,
+                "name": "Écumouth",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2859.png"
+              },
+              {
+                "id": 2846,
+                "name": "Fricochère",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2846.png"
+              },
+              {
+                "id": 2847,
+                "name": "Kaniglou",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2847.png"
+              },
+              {
+                "id": 2845,
+                "name": "Sanglacier",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2845.png"
+              },
+              {
+                "id": 2860,
+                "name": "Smilomouth",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2860.png"
+              }
+            ]
+          },
+          {
+            "id": 137,
+            "name": "Givrefoux",
+            "monsters": [
+              {
+                "id": 2889,
+                "name": "Maho Givrefoux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/2889.png"
+              },
+              {
+                "id": 2890,
+                "name": "Soryo Givrefoux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/2890.png"
+              },
+              {
+                "id": 2888,
+                "name": "Yokaï Givrefoux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/2888.png"
+              },
+              {
+                "id": 2891,
+                "name": "Yomi Givrefoux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/2891.png"
+              }
+            ]
+          },
+          {
+            "id": 160,
+            "name": "Mansots",
+            "monsters": [
+              {
+                "id": 2858,
+                "name": "Fu Mansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2858.png"
+              },
+              {
+                "id": 2857,
+                "name": "Mamansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2857.png"
+              },
+              {
+                "id": 2856,
+                "name": "Mansobèse",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2856.png"
+              },
+              {
+                "id": 2855,
+                "name": "Shamansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2855.png"
+              },
+              {
+                "id": 2849,
+                "name": "Timansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2849.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:363",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/a-qui-profite-le-boufmouth.html",
+      "sourceTitle": "À qui profite le boufmouth",
+      "sourceHash": "d49bd4d029c5855eab3d2dd5cb135f86e609add3d31039b9c1b26f01419c3ae4",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Cette quête a été lancée bien plus tôt et demandait de terminer sept quêtes de Frigost. Les six premières sont supposées déjà accomplies ; À qui profite le boufmouth vient d'être terminée dans l'occurrence précédente. Il ne reste donc qu'à retourner voir la Maire Cantille pour valider l'ensemble.",
+      "recommendedLevel": 170,
+      "prerequisites": [
+        "Niveau recommandé : 170.",
+        "L’essentiel est dans Lac Gelé.",
+        "Avoir terminé Bricole Girl.",
+        "Avoir terminé Promenons-nous dans les bois.",
+        "Avoir terminé Les chasseurs.",
+        "Avoir terminé Il préfère la mort en mer.",
+        "Avoir terminé Chauffage à moindre frais.",
+        "Avoir terminé À la recherche de Dan Lavy.",
+        "Avoir terminé À qui profite le boufmouth."
+      ],
+      "rewards": [
+        "5 654 073 XP.",
+        "77 472 kamas.",
+        "2 x Kama de glace."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Retournez voir la Maire Cantille après avoir terminé les sept quêtes demandées afin de terminer Les rescapés de Frigost.",
+          "position": "[-77,-42]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête avait été lancée à l'étape 145 ; les sept quêtes requises devaient être accomplies plus tard dans l'aventure.",
+        "À cette occurrence, toutes les quêtes requises sont supposées terminées, dont À la recherche de Dan Lavy et À qui profite le boufmouth dans cette étape."
+      ],
+      "npcs": [
+        "Maire Cantille"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 601,
+            "name": "La Bourgade",
+            "coordinates": [
+              "-77,-42"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2913,
+                "name": "Chachachovage",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2913.png"
+              },
+              {
+                "id": 2893,
+                "name": "Crabe Hijacob",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2893.png"
+              },
+              {
+                "id": 2914,
+                "name": "Gélikan",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2914.png"
+              },
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:414",
+      "relation": "FINISH",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/les-rescapeacutes-de-frigost.html",
+      "sourceTitle": "Les rescapés de Frigost",
+      "sourceHash": "e5ff1eed4ebd252d10ab7cc6041bcfd538064365927e6db06e6ac50a796cb631",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

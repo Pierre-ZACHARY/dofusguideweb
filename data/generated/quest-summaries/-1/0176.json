@@ -1,8 +1,352 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 176,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T22:25:26.629Z",
+  "summaries": [
+    {
+      "overview": "Lancez Mes lys fleurs auprès de Bisale Vinlenta et obtenez l'objectif de réunir 40 x Saule en si. Ne cherchez pas encore à terminer la collecte ni à rendre la quête : l'étape impose d'enchaîner avec Il préfère la mort en mer, dont les combats au Berceau d'Alma peuvent fournir une partie des Saules en si. La remise des 40 fleurs à Bisale Vinlenta est prévue à l'étape suivante.",
+      "recommendedLevel": 150,
+      "prerequisites": [
+        "A fleur de peau."
+      ],
+      "rewards": [
+        "4 431 000 XP.",
+        "50 960 kamas.",
+        "2 x Kama de glace.",
+        "5 x Mât de Fantômat."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parlez à Bisale Vinlenta pour lancer Mes lys fleurs et accepter de récupérer 40 x Saule en si.",
+          "position": "[-72,-31]",
+          "zoneHint": "Champs de glace",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les 40 x Saule en si s'obtiennent automatiquement en combattant des monstres du Berceau d'Alma.",
+        "À cette occurrence, ne rendez pas encore les 40 x Saule en si à Bisale Vinlenta : la fin de Mes lys fleurs est prévue à l'étape 177.",
+        "Effectuez maintenant Il préfère la mort en mer afin de profiter de ses combats au Berceau d'Alma pour avancer la collecte."
+      ],
+      "npcs": [
+        "Bisale Vinlenta"
+      ],
+      "items": [
+        {
+          "name": "Saule en si",
+          "itemId": 11161,
+          "imageUrl": "/items/11161.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11161"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 602,
+            "name": "Champs de glace",
+            "coordinates": [
+              "-72,-31"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2901,
+            "name": "Bouflouth",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/2901.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 156,
+            "name": "Boufmouths",
+            "monsters": [
+              {
+                "id": 2850,
+                "name": "Boufmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2850.png"
+              },
+              {
+                "id": 2851,
+                "name": "Boufmouth de guerre",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2851.png"
+              },
+              {
+                "id": 2852,
+                "name": "Boufmouth légendaire",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2852.png"
+              },
+              {
+                "id": 2853,
+                "name": "Bouftonmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2853.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:338",
+      "relation": "START",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/mes-lys-fleurs.html",
+      "sourceTitle": "Mes lys fleurs",
+      "sourceHash": "93d0224968613e7f14c0dee14006aa8cfc476f764945dc0803f5011e8f4cbdb3",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Poursuivez Il préfère la mort en mer depuis la Taverne de la Bourgade : récupérez puis capturez l'âme de Lafairé Danlsak, traversez le mini-donjon de l'esprit rebelle, ouvrez le coffre indiqué et rapportez la lettre à Germain Danlsak. Cette occurrence peut être menée jusqu'à la fin de la quête. Les combats contre les monstres du Berceau d'Alma font également progresser la collecte des 40 x Saule en si de Mes lys fleurs.",
+      "recommendedLevel": 150,
+      "prerequisites": [
+        "Antiroyaliste.",
+        "Les joyeux de la couronne.",
+        "Les chasseurs.",
+        "Avoir le sort Capture d'âmes."
+      ],
+      "rewards": [
+        "2 215 500 XP.",
+        "25 480 kamas.",
+        "2 x Kama de glace.",
+        "1 x Oeil de Vigie Pirate."
+      ],
+      "preparation": [
+        "Prévoir 1 x Moyenne pierre d'âme.",
+        "Il est préférable d'être 4 pour le mini-donjon de l'esprit rebelle. Un accompagnateur doit être au même niveau d'avancement dans la quête ou l'avoir déjà terminée ; dans ce dernier cas, il ne peut rejoindre ce mini-donjon que 24 heures après l'avoir fait."
+      ],
+      "actions": [
+        {
+          "instruction": "Entrez dans la Taverne, descendez à la cave et parlez à Germain Danlsak pour prendre en charge la recherche du butin de son père.",
+          "position": "[-77,-44]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous auprès de Lafairé Danlsak et choisissez de combattre pour capturer son âme. Équipez 1 x Moyenne pierre d'âme dans vos consommables de combat et lancez Capture d'âmes avant de vaincre Lafairé Danlsak.",
+          "position": "[-56,-77]",
+          "zoneHint": null,
+          "warning": "La capture exige le sort Capture d'âmes et 1 x Moyenne pierre d'âme correctement équipée ; lancez le sort avant d'achever Lafairé Danlsak.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Apportez l'âme capturée en [-58,-83]. À votre arrivée, éliminez le groupe de monstres du Berceau d'Alma qui vous attaque.",
+          "position": "[-58,-83]",
+          "zoneHint": "Berceau d'Alma",
+          "warning": "Le combat se déclenche à l'arrivée sur la carte.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, parlez à Lafairé Danlsak sur la carte afin d'entrer dans le mini-donjon de l'esprit rebelle.",
+          "position": "[-58,-83]",
+          "zoneHint": "Berceau d'Alma",
+          "warning": "Le mini-donjon ne peut être refait que toutes les 24 heures. Il est préférable d'y aller à plusieurs.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la première salle du mini-donjon, vainquez les 6 Espirates avec votre transformation Harpirate. Utilisez notamment Poussoir pour profiter des dommages de poussée.",
+          "position": null,
+          "zoneHint": "Mini-donjon de l'esprit rebelle",
+          "warning": "Vous êtes transformé en Harpirate avec 49 PV, 6 PA et 3 PM pendant le mini-donjon.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Dans la seconde et dernière salle, éliminez l'esprit rebelle en utilisant les explosions des esprits de boulet : rapprochez-vous de l'esprit rebelle et laissez un ou plusieurs boulets exploser près de lui. Ses 100% de résistances neutre et son état enraciné empêchent de le vaincre directement avec vos attaques neutres ou par poussée.",
+          "position": null,
+          "zoneHint": "Mini-donjon de l'esprit rebelle",
+          "warning": "Conservez au moins un esprit de boulet suffisamment longtemps pour que ses explosions puissent blesser l'esprit rebelle, même si elles touchent aussi les personnages proches.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "À la sortie du mini-donjon, reparlez à Lafairé Danlsak et demandez-lui la position du magot.",
+          "position": null,
+          "zoneHint": "Sortie du mini-donjon de l'esprit rebelle",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au coffre et ouvrez-le pour récupérer la lettre à la place du trésor attendu.",
+          "position": "[-52,-71]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez à la Taverne, descendez à la cave et remettez la lettre à Germain Danlsak pour terminer Il préfère la mort en mer.",
+          "position": "[-77,-44]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La transformation Harpirate du mini-donjon fournit notamment les moyens nécessaires pour combattre les esprits rencontrés.",
+        "Les monstres combattus dans le Berceau d'Alma peuvent faire progresser automatiquement l'objectif de 40 x Saule en si de Mes lys fleurs.",
+        "La quête suivante débloquée est Chauffage à moindre frais."
+      ],
+      "npcs": [
+        "Germain Danlsak",
+        "Lafairé Danlsak"
+      ],
+      "items": [
+        {
+          "name": "Moyenne pierre d'âme",
+          "itemId": 9687,
+          "imageUrl": "/items/9687.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9687"
+        },
+        {
+          "name": "Lettre",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Saule en si",
+          "itemId": 11161,
+          "imageUrl": "/items/11161.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11161"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 609,
+            "name": "Berceau d'Alma",
+            "coordinates": [
+              "-56,-77",
+              "-58,-83"
+            ]
+          },
+          {
+            "id": 601,
+            "name": "La Bourgade",
+            "coordinates": [
+              "-77,-44"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "-52,-71"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2904,
+            "name": "Fantômayte",
+            "level": 150,
+            "imageUrl": "/bestiary/monsters/2904.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2913,
+                "name": "Chachachovage",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2913.png"
+              },
+              {
+                "id": 2893,
+                "name": "Crabe Hijacob",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2893.png"
+              },
+              {
+                "id": 2914,
+                "name": "Gélikan",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2914.png"
+              },
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          },
+          {
+            "id": 159,
+            "name": "Équipage du Grolandais",
+            "monsters": [
+              {
+                "id": 2874,
+                "name": "Fancrôme",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/2874.png"
+              },
+              {
+                "id": 2881,
+                "name": "Fantimonier",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/2881.png"
+              },
+              {
+                "id": 2875,
+                "name": "Fantomalamère",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/2875.png"
+              },
+              {
+                "id": 2880,
+                "name": "Fantômat",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/2880.png"
+              },
+              {
+                "id": 2878,
+                "name": "Harpirate",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/2878.png"
+              },
+              {
+                "id": 2876,
+                "name": "Vigie pirate",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/2876.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:360",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/il-preacutefegravere-la-mort-en-mer.html",
+      "sourceTitle": "Il préfère la mort en mer",
+      "sourceHash": "187d3156c5779b97bd7154309000726a7261d63d62096f46daa73fdb0b7ea489",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Cumuler les Saules en si",
+      "description": "Les combats de Il préfère la mort en mer situés au Berceau d'Alma peuvent faire avancer en parallèle la collecte demandée par Mes lys fleurs. Lancez donc Mes lys fleurs avant de poursuivre Il préfère la mort en mer, puis gardez les Saules en si jusqu'à leur remise à l'étape suivante.",
+      "questKeys": [
+        "quest:338",
+        "quest:360"
+      ],
+      "actions": [
+        "Lancer Mes lys fleurs en [-72,-31] avant de poursuivre Il préfère la mort en mer.",
+        "Pendant les combats au Berceau d'Alma de Il préfère la mort en mer, conserver les Saule en si obtenus pour l'objectif de Mes lys fleurs."
+      ]
+    }
+  ]
 }

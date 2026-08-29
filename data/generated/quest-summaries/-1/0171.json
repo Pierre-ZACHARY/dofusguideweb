@@ -1,8 +1,775 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 171,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T22:25:19.199Z",
+  "summaries": [
+    {
+      "overview": "Poursuivez Investigations à Moon en allant rencontrer Turorte sur l'île de Moon, puis retournez auprès d’Amayiro pour lui annoncer que la tortue refuse d’indiquer l’emplacement de la Corne Edfrit. Cette reprise clôt la quête avant de passer à Manière douce.",
+      "recommendedLevel": 152,
+      "prerequisites": [
+        "Une rumeur intéressante.",
+        "Avoir accès à l’île de Moon ; si ce n’est pas encore le cas, l’accès nécessite Partir un jour sans retour."
+      ],
+      "rewards": [
+        "5 347 773 XP."
+      ],
+      "preparation": [
+        "Prévoir 1 x Fourbacoiffe.",
+        "Prévoir 1 x Bouteille de Gloutoburg pour cette quête.",
+        "La Bouteille de Gloutoburg se fabrique avec 5 x Pandaburg, 1 x Glouto Rhum et 10 x Feuille de Salace.",
+        "Il est utile d’avoir une seconde Bouteille de Gloutoburg pour la quête suivante."
+      ],
+      "actions": [
+        {
+          "instruction": "Rendez-vous sur l’île de Moon. Équipez la Fourbacoiffe puis utilisez une Bouteille de Gloutoburg afin d’obtenir la Fièvre de Gloutoburg.",
+          "position": "[31,8]",
+          "zoneHint": "Île de Moon",
+          "warning": "La bouteille est consommée. L’accès au passage demande la Fourbacoiffe équipée et l’effet de la Fièvre de Gloutoburg.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sur cette même carte, empruntez le passage secret en cliquant sur la cellule située à droite, derrière l’arbre, puis parlez à Turorte et choisissez de demander comment le convaincre.",
+          "position": "[31,8]",
+          "zoneHint": "Passage secret",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez à la Milice de Bonta et parlez à Amayiro pour lui signaler que vous avez trouvé le gardien mais que Turorte refuse de révéler l’emplacement de la Corne Edfrit.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La rencontre avec Turorte est la portion attendue avant le retour à Amayiro.",
+        "La suite consiste à amadouer Turorte dans Manière douce ; elle est traitée séparément à l’occurrence suivante."
+      ],
+      "npcs": [
+        "Turorte",
+        "Amayiro"
+      ],
+      "items": [
+        {
+          "name": "Fourbacoiffe",
+          "itemId": 6764,
+          "imageUrl": "/items/6764.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6764"
+        },
+        {
+          "name": "Bouteille de Gloutoburg",
+          "itemId": 9968,
+          "imageUrl": "/items/9968.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9968"
+        },
+        {
+          "name": "Pandaburg",
+          "itemId": 7045,
+          "imageUrl": "/items/7045.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/7045"
+        },
+        {
+          "name": "Glouto Rhum",
+          "itemId": 2632,
+          "imageUrl": "/items/2632.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2632"
+        },
+        {
+          "name": "Feuille de Salace",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 165,
+            "name": "Jungle Interdite",
+            "coordinates": [
+              "31,8"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "-32,-57"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4240,
+            "name": "Trukipik",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/4240.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2484,
+            "name": "Fourapin le Chaud",
+            "level": 92,
+            "imageUrl": "/bestiary/monsters/2484.png"
+          },
+          {
+            "id": 2495,
+            "name": "Gloubibou le Gars",
+            "level": 92,
+            "imageUrl": "/bestiary/monsters/2495.png"
+          },
+          {
+            "id": 2301,
+            "name": "Trukul le Lent",
+            "level": 92,
+            "imageUrl": "/bestiary/monsters/2301.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 170,
+            "name": "Monstres de la Jungle Interdite",
+            "monsters": [
+              {
+                "id": 217,
+                "name": "Fourbasse",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/217.png"
+              },
+              {
+                "id": 216,
+                "name": "Gloutovore",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/216.png"
+              },
+              {
+                "id": 215,
+                "name": "Trukikol",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/215.png"
+              },
+              {
+                "id": 4162,
+                "name": "Dostrogo",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/4162.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:159",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/investigations-a-moon.html",
+      "sourceTitle": "Alignement 62 : Investigations à Moon",
+      "sourceHash": "c969bd4c526018138134aec251146da8f2e1a14259f2bda8ae2e1d60fe83595c",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après Investigations à Moon, cherchez comment amadouer Turorte. Obtenez auprès de Gropinson Cruaulé la recette de la Salace de poissons, préparez-la, offrez-la à Turorte puis revenez auprès d’Amayiro lorsque la tentative échoue.",
+      "recommendedLevel": 153,
+      "prerequisites": [
+        "Investigations à Moon."
+      ],
+      "rewards": [
+        "5 363 311 XP."
+      ],
+      "preparation": [
+        "Prévoir 12 x Requin Marteau-Faucille.",
+        "Prévoir 3 x Bâton de Crabe.",
+        "Prévoir 2 x Citron.",
+        "Prévoir 4 x Feuille de Salace.",
+        "Prévoir 1 x Huile de Fantimonier.",
+        "Prévoir 10 x Cerise.",
+        "Prévoir 1 x Fourbacoiffe.",
+        "Prévoir 1 x Bouteille de Gloutoburg uniquement si vous n’avez plus la Fièvre de Gloutoburg obtenue précédemment.",
+        "La Salace de poissons doit être fabriquée par un pêcheur de niveau 153 minimum."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Gropinson Cruaulé et demandez des informations sur l’alimentation des tortues afin d’obtenir la recette de la Salace de poissons.",
+          "position": "[33,12]",
+          "zoneHint": "Île de Moon",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Faites fabriquer la Salace de poissons avec 12 x Requin Marteau-Faucille, 3 x Bâton de Crabe, 2 x Citron, 4 x Feuille de Salace, 1 x Huile de Fantimonier et 10 x Cerise.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "La fabrication nécessite un pêcheur de niveau 153 minimum.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez en [31,8]. Équipez la Fourbacoiffe et, seulement si l’effet précédent a disparu, consommez une nouvelle Bouteille de Gloutoburg.",
+          "position": "[31,8]",
+          "zoneHint": "Île de Moon",
+          "warning": "Une nouvelle Bouteille de Gloutoburg est consommée uniquement si vous n’avez plus la Fièvre de Gloutoburg.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Empruntez de nouveau le passage secret derrière l’arbre, puis parlez à Turorte et offrez-lui la Salace de poissons.",
+          "position": "[31,8]",
+          "zoneHint": "Passage secret",
+          "warning": "La Salace de poissons est remise à Turorte.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès d’Amayiro à la Milice de Bonta et annoncez-lui que le repas n’a pas convaincu Turorte.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Cette occurrence suppose Investigations à Moon terminée.",
+        "Turorte apprécie le plat mais refuse toujours de révéler l’emplacement de la corne.",
+        "La recherche d’une autre méthode se poursuit dans Histoires de tortues, traitée à l’occurrence suivante."
+      ],
+      "npcs": [
+        "Gropinson Cruaulé",
+        "Turorte",
+        "Amayiro"
+      ],
+      "items": [
+        {
+          "name": "Salace de poissons",
+          "itemId": 10083,
+          "imageUrl": "/items/10083.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/10083"
+        },
+        {
+          "name": "Requin Marteau-Faucille",
+          "itemId": 602,
+          "imageUrl": "/items/602.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/602"
+        },
+        {
+          "name": "Bâton de Crabe",
+          "itemId": 1764,
+          "imageUrl": "/items/1764.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1764"
+        },
+        {
+          "name": "Citron",
+          "itemId": 1736,
+          "imageUrl": "/items/1736.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1736"
+        },
+        {
+          "name": "Feuille de Salace",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Huile de Fantimonier",
+          "itemId": 11313,
+          "imageUrl": "/items/11313.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11313"
+        },
+        {
+          "name": "Cerise",
+          "itemId": 1734,
+          "imageUrl": "/items/1734.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1734"
+        },
+        {
+          "name": "Fourbacoiffe",
+          "itemId": 6764,
+          "imageUrl": "/items/6764.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6764"
+        },
+        {
+          "name": "Bouteille de Gloutoburg",
+          "itemId": 9968,
+          "imageUrl": "/items/9968.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9968"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 165,
+            "name": "Jungle Interdite",
+            "coordinates": [
+              "31,8"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "33,12",
+              "31,8"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4240,
+            "name": "Trukipik",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/4240.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2484,
+            "name": "Fourapin le Chaud",
+            "level": 92,
+            "imageUrl": "/bestiary/monsters/2484.png"
+          },
+          {
+            "id": 2495,
+            "name": "Gloubibou le Gars",
+            "level": 92,
+            "imageUrl": "/bestiary/monsters/2495.png"
+          },
+          {
+            "id": 2301,
+            "name": "Trukul le Lent",
+            "level": 92,
+            "imageUrl": "/bestiary/monsters/2301.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 170,
+            "name": "Monstres de la Jungle Interdite",
+            "monsters": [
+              {
+                "id": 217,
+                "name": "Fourbasse",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/217.png"
+              },
+              {
+                "id": 216,
+                "name": "Gloutovore",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/216.png"
+              },
+              {
+                "id": 215,
+                "name": "Trukikol",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/215.png"
+              },
+              {
+                "id": 4162,
+                "name": "Dostrogo",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/4162.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:160",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/maniere-douce.html",
+      "sourceTitle": "Alignement 63 : Manière douce",
+      "sourceHash": "09d3b5af44b8a817954ad759e7a090b03f30ef0179f769888bc5b93cbfea5b16",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après l’échec de la Salace de poissons, interrogez Oshimo sur Turorte. Sauvez le Bwak de feu qu’il vous indique, revenez écouter l’histoire de la tortue, puis consultez le Lenald des Temps Anciens pour découvrir une nouvelle piste liée au Sphincter Cell.",
+      "recommendedLevel": 154,
+      "prerequisites": [
+        "Manière douce."
+      ],
+      "rewards": [
+        "2 689 509 XP."
+      ],
+      "preparation": [
+        "Prévoir 1 x Corde d’escalade.",
+        "La Corde d’escalade se fabrique avec 30 x Chanvre, 5 x Fil de Soie et 1 x Fil de Néfileuse.",
+        "Prévoir un combat pouvant être réalisé en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Oshimo et demandez des précisions sur Turorte. Il vous demandera d’abord de sauver un petit bwak piégé sur un îlot.",
+          "position": "[9,21]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Munissez-vous de 1 x Corde d’escalade, puis rendez-vous en [11,19] et placez-vous sur la gauche du ponton. Parlez au Bwak de feu pour l’aider à traverser.",
+          "position": "[11,19]",
+          "zoneHint": null,
+          "warning": "La Corde d’escalade est requise pour cette intervention.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Remportez le combat déclenché après avoir aidé le Bwak de feu.",
+          "position": "[11,19]",
+          "zoneHint": null,
+          "warning": "Le combat peut être effectué en groupe. L’adversaire peut frapper terre avec Lancer de Hachette en retirant 1 PM esquivable et frapper neutre au corps à corps avec Persécution.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez voir Oshimo et demandez de nouveau des précisions sur Turorte. Écoutez son récit sur le passé de la tortue, puis choisissez de vous en aller.",
+          "position": "[9,21]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez parler au Lenald des Temps Anciens. Il vous apprend que Turorte aurait confié un objet au Sphincter Cell, ce qui fournit la piste nécessaire pour la suite.",
+          "position": "[25,-4]",
+          "zoneHint": "Île des Wabbits",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Cette occurrence suppose Manière douce terminée.",
+        "Oshimo raconte notamment que Turorte a été abandonnée dans les égouts, a côtoyé le Sphincter Cell, a battu Lelievwe Pâle Pitane lors d’un marathon puis a vécu sur l’île des wabbits avant de partir pour Moon.",
+        "La récupération de l’objet évoqué par le Lenald des Temps Anciens appartient à la quête suivante, Bandanarthrie, et n’est pas à effectuer ici."
+      ],
+      "npcs": [
+        "Oshimo",
+        "Bwak de feu",
+        "Lenald des Temps Anciens",
+        "Turorte",
+        "Sphincter Cell",
+        "Lelievwe Pâle Pitane"
+      ],
+      "items": [
+        {
+          "name": "Corde d'escalade",
+          "itemId": 9935,
+          "imageUrl": "/items/9935.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9935"
+        },
+        {
+          "name": "Chanvre",
+          "itemId": 425,
+          "imageUrl": "/items/425.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/425"
+        },
+        {
+          "name": "Fil de Soie",
+          "itemId": 643,
+          "imageUrl": "/items/643.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/643"
+        },
+        {
+          "name": "Fil de Néfileuse",
+          "itemId": 16219,
+          "imageUrl": "/items/16219.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16219"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 4,
+            "name": "Forêt d'Amakna",
+            "coordinates": [
+              "9,21"
+            ]
+          },
+          {
+            "id": 161,
+            "name": "Île de la Cawotte",
+            "coordinates": [
+              "25,-4"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "11,19"
+            ]
+          },
+          {
+            "id": 103,
+            "name": "Territoire des Bandits",
+            "coordinates": [
+              "11,19"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2323,
+            "name": "Chamchie le Difficile",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2323.png"
+          },
+          {
+            "id": 2349,
+            "name": "Preskapwal le Tendancieux",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2349.png"
+          },
+          {
+            "id": 2353,
+            "name": "Sangria le Fruité",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2353.png"
+          },
+          {
+            "id": 2318,
+            "name": "Boudur le Raide",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2318.png"
+          },
+          {
+            "id": 2314,
+            "name": "Bandson le Tonitruant",
+            "level": 37,
+            "imageUrl": "/bestiary/monsters/2314.png"
+          },
+          {
+            "id": 2294,
+            "name": "Tiwoflan le Lâche",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/2294.png"
+          },
+          {
+            "id": 2293,
+            "name": "Tiwalpé le Dévêtu",
+            "level": 41,
+            "imageUrl": "/bestiary/monsters/2293.png"
+          },
+          {
+            "id": 2328,
+            "name": "Forboyar l'Enigmatique",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2328.png"
+          },
+          {
+            "id": 2335,
+            "name": "Minsinistre l'Elu",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2335.png"
+          },
+          {
+            "id": 2402,
+            "name": "Tiwa'Missou le Gateux",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2402.png"
+          },
+          {
+            "id": 2304,
+            "name": "Wabbitud le Constant",
+            "level": 44,
+            "imageUrl": "/bestiary/monsters/2304.png"
+          },
+          {
+            "id": 2403,
+            "name": "Wagnagnah le Sanglant",
+            "level": 46,
+            "imageUrl": "/bestiary/monsters/2403.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 103,
+                "name": "Prespic",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/103.png"
+              },
+              {
+                "id": 104,
+                "name": "Sanglier",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/104.png"
+              }
+            ]
+          },
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 155,
+                "name": "Bandit du clan des Roublards",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/155.png"
+              },
+              {
+                "id": 153,
+                "name": "Boulanger Sombre",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/153.png"
+              },
+              {
+                "id": 119,
+                "name": "Forgeron Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/119.png"
+              },
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 1602,
+            "name": "Vermines des champs",
+            "monsters": [
+              {
+                "id": 59,
+                "name": "Champ Champ",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/59.png"
+              }
+            ]
+          },
+          {
+            "id": 172,
+            "name": "Wabbits",
+            "monsters": [
+              {
+                "id": 68,
+                "name": "Black Tiwabbit",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/68.png"
+              },
+              {
+                "id": 65,
+                "name": "Black Wabbit",
+                "level": 46,
+                "imageUrl": "/bestiary/monsters/65.png"
+              },
+              {
+                "id": 72,
+                "name": "Tiwabbit Kiafin",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/72.png"
+              },
+              {
+                "id": 96,
+                "name": "Tiwabbit",
+                "level": 41,
+                "imageUrl": "/bestiary/monsters/96.png"
+              },
+              {
+                "id": 64,
+                "name": "Wabbit",
+                "level": 44,
+                "imageUrl": "/bestiary/monsters/64.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:161",
+      "relation": "ACTIVE",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/histoires-de-tortues.html",
+      "sourceTitle": "Alignement 64 : Histoires de tortues",
+      "sourceHash": "56a59c5af59c88a5182b602fab7f6dd34a6858c98d60be0dabbda2e55cafa946",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

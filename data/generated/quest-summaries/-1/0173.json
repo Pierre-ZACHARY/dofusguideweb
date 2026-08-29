@@ -1,8 +1,636 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 173,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T22:25:22.356Z",
+  "summaries": [
+    {
+      "overview": "Lancez Bandanarthrie auprès d’Amayiro puis accomplissez uniquement l’objectif immédiat demandé par le guide : retrouver le bandana de Turorte en terminant le Repaire de Sphincter Cell. Arrêtez-vous dès l’obtention du Bandana Troué ; la réparation et la conclusion de la quête sont réservées à l’occurrence FINISH plus loin dans cette même étape.",
+      "recommendedLevel": 155,
+      "prerequisites": [
+        "Avoir terminé Histoires de tortues.",
+        "Pouvoir accéder au Repaire de Sphincter Cell."
+      ],
+      "rewards": [
+        "La quête complète rapporte 10 789 795 XP, mais la récompense n’est pas obtenue à cette occurrence."
+      ],
+      "preparation": [
+        "Prévoir 1 passage du Repaire de Sphincter Cell."
+      ],
+      "actions": [
+        {
+          "instruction": "À la Milice, parlez à Amayiro et lancez Bandanarthrie. Il vous charge de retrouver le bandana de Turorte en affrontant le Sphincter Cell.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à l’entrée du Repaire de Sphincter Cell, effectuez le donjon et battez le Sphincter Cell. La victoire permet d’obtenir le Bandana Troué recherché.",
+          "position": "[5,-8]",
+          "zoneHint": "Repaire de Sphincter Cell",
+          "warning": "Combat de donjon requis contre le Sphincter Cell. Ne poursuivez pas encore les étapes de réparation du bandana : elles appartiennent à l’occurrence FINISH de cette étape.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "Conservez le Bandana Troué après le donjon.",
+        "La suite auprès d’Amayiro, des tailleurs et dans le Donjon des Forgerons sera effectuée après le lancement de C'est du Costaud, conformément à l’ordre de l’étape."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Sphincter Cell"
+      ],
+      "items": [
+        {
+          "name": "Bandana Troué",
+          "itemId": 9109,
+          "imageUrl": "/items/9109.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9109"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 339,
+            "name": "Repaire de Sphincter Cell",
+            "coordinates": [
+              "5,-8"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:164",
+      "relation": "START",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/bandanarthrie.html",
+      "sourceTitle": "Alignement 65 : Bandanarthrie",
+      "sourceHash": "cb6cb6aa14f0dda826a68dc68d7b26c0651e5af98b634bc6d7d41e8edc558a04",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Relancez la quête journalière C'est du Costaud auprès du Commandant Costaud. À cette occurrence, contentez-vous de l’activer : les Bandits demandés seront combattus pendant la suite de Bandanarthrie, notamment lors du passage prévu au Donjon des Forgerons.",
+      "recommendedLevel": 45,
+      "prerequisites": [
+        "La quête est journalière : elle doit être disponible au moment de cette étape."
+      ],
+      "rewards": [
+        "128 326 XP.",
+        "5 810 kamas."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parlez au Commandant Costaud et acceptez de nouveau sa mission contre les bandits au nord de Sufokia. Une fois la quête active, reprenez le parcours de Bandanarthrie sans chercher à terminer C'est du Costaud séparément maintenant.",
+          "position": "[17,28]",
+          "zoneHint": "Sufokia",
+          "warning": "Cette occurrence sert uniquement à relancer la quête. Ne faites pas un détour spécifique pour tuer tous les ennemis : profitez du Donjon des Forgerons prévu juste après dans Bandanarthrie.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les objectifs complets demandent de vaincre 5 Bandit du clan des Roublards, 2 Mineur Sombre, 2 Forgeron Sombre et 2 Boulanger Sombre.",
+        "La progression sera mutualisée avec Bandanarthrie lors du passage au Donjon des Forgerons."
+      ],
+      "npcs": [
+        "Commandant Costaud",
+        "Bandit du clan des Roublards",
+        "Mineur Sombre",
+        "Forgeron Sombre",
+        "Boulanger Sombre"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 32,
+            "name": "Sufokia",
+            "coordinates": [
+              "17,28"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:653",
+      "relation": "START",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/cest-du-costaud.html",
+      "sourceTitle": "C'est du costaud",
+      "sourceHash": "2c3497bb5eed1b922ef2b94a3092f976ebbd094c7bc2df276a49074f83b27924",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Reprenez Bandanarthrie avec le Bandana Troué déjà récupéré au Repaire de Sphincter Cell. Faites constater son état à Amayiro, trouvez un tailleur capable de le réparer, récupérez le manuel demandé au Donjon des Forgerons, fabriquez les deux composants secrets puis remettez-les à Sosh pour achever la quête. Le passage au Donjon des Forgerons permet aussi de faire progresser C'est du Costaud, relancée juste avant.",
+      "recommendedLevel": 155,
+      "prerequisites": [
+        "Avoir lancé Bandanarthrie auprès d’Amayiro.",
+        "Avoir vaincu le Sphincter Cell et posséder le Bandana Troué.",
+        "Avoir relancé C'est du Costaud à l’occurrence précédente de cette étape."
+      ],
+      "rewards": [
+        "10 789 795 XP."
+      ],
+      "preparation": [
+        "Prévoir 1 passage du Donjon des Forgerons.",
+        "Réunir 5 Étoffe de Kurookin.",
+        "Réunir 5 Concombre.",
+        "Réunir 3 Duvet du Kilibriss.",
+        "Réunir 1 Étoffe de Firefoux.",
+        "Réunir 1 Fil de Soie.",
+        "Réunir 1 Teinture Magique de Rougeur.",
+        "Réunir 1 Teinture Magique Orange.",
+        "Réunir 3 Sang de Wabbit Garou.",
+        "Réunir 30 Lotte.",
+        "Prévoir l’aide d’un tailleur niveau 1 minimum pour fabriquer le Tissu de Rapiéçage.",
+        "Prévoir l’aide d’un alchimiste niveau 155 minimum pour fabriquer la Teinture Orange Sanguine."
+      ],
+      "actions": [
+        {
+          "instruction": "Retournez voir Amayiro avec le Bandana Troué. Il constate son mauvais état et vous demande de le faire réparer avant de pouvoir le rendre à Turorte.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Paro Cabanne et demandez-lui d’arranger le Bandana Troué. Elle refuse de travailler dessus, ce qui vous oblige à chercher un autre tailleur.",
+          "position": "[-33,-54]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir Sosh et demandez-lui d’arranger le Bandana Troué. Il accepte à condition que vous lui rapportiez un manuel du tailleur.",
+          "position": "[2,2]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans le Donjon des Forgerons, accomplissez le donjon et battez le Coffre des Forgerons afin d’obtenir le Manuel du tailleur pour les Nuls. Profitez des combats pour avancer les objectifs de C'est du Costaud contre les Bandits, Mineurs Sombres, Forgerons Sombres et Boulangers Sombres rencontrés.",
+          "position": "[13,21]",
+          "zoneHint": "Donjon des Forgerons",
+          "warning": "Combat de donjon requis. C'est du Costaud est une quête journalière active : vérifiez vos compteurs de monstres afin de profiter au maximum de ce passage commun.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Rapportez le Manuel du tailleur pour les Nuls à Sosh. Il vous indique alors qu’il lui faut un Tissu de Rapiéçage et une Teinture Orange Sanguine pour effectuer la réparation.",
+          "position": "[2,2]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Faites fabriquer 1 Tissu de Rapiéçage par un tailleur niveau 1 minimum avec exactement 5 Étoffe de Kurookin, 1 Fil de Soie, 3 Duvet du Kilibriss, 1 Étoffe de Firefoux et 5 Concombre.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Cette fabrication consomme les ingrédients indiqués et nécessite un tailleur de niveau 1 minimum.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Faites fabriquer 1 Teinture Orange Sanguine par un alchimiste niveau 155 minimum avec exactement 30 Lotte, 1 Teinture Magique Orange, 1 Teinture Magique de Rougeur et 3 Sang de Wabbit Garou.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Cette fabrication consomme les ingrédients indiqués et nécessite un alchimiste de niveau 155 minimum.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Sosh et donnez-lui le Tissu de Rapiéçage ainsi que la Teinture Orange Sanguine pour qu’il arrange le Bandana Troué. Cette remise termine Bandanarthrie et débloque Alignement 66 : Course-poursuite.",
+          "position": "[2,2]",
+          "zoneHint": null,
+          "warning": "Les deux objets fabriqués sont remis à Sosh et consommés pour la réparation.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le Repaire de Sphincter Cell et l’obtention du Bandana Troué sont supposés déjà accomplis lors de l’occurrence START de cette étape.",
+        "C'est du Costaud a été relancée juste avant : le Donjon des Forgerons constitue le moment prévu par le guide pour cumuler ses éliminations avec cette quête.",
+        "Après la fin de Bandanarthrie, Alignement 66 : Course-poursuite est débloquée, mais son tutoriel appartient à l’étape suivante."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Paro Cabanne",
+        "Sosh",
+        "Coffre des Forgerons"
+      ],
+      "items": [
+        {
+          "name": "Bandana Troué",
+          "itemId": 9109,
+          "imageUrl": "/items/9109.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9109"
+        },
+        {
+          "name": "Manuel du tailleur pour les Nuls",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Tissu de Rapiéçage",
+          "itemId": 10030,
+          "imageUrl": "/items/10030.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/10030"
+        },
+        {
+          "name": "Teinture Orange Sanguine",
+          "itemId": 10031,
+          "imageUrl": "/items/10031.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/10031"
+        },
+        {
+          "name": "Étoffe de Kurookin",
+          "itemId": 7301,
+          "imageUrl": "/items/7301.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/7301"
+        },
+        {
+          "name": "Concombre",
+          "itemId": 2287,
+          "imageUrl": "/items/2287.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2287"
+        },
+        {
+          "name": "Duvet du Kilibriss",
+          "itemId": 8756,
+          "imageUrl": "/items/8756.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8756"
+        },
+        {
+          "name": "Étoffe de Firefoux",
+          "itemId": 7304,
+          "imageUrl": "/items/7304.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/7304"
+        },
+        {
+          "name": "Fil de Soie",
+          "itemId": 643,
+          "imageUrl": "/items/643.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/643"
+        },
+        {
+          "name": "Teinture Magique de Rougeur",
+          "itemId": 1686,
+          "imageUrl": "/items/1686.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1686"
+        },
+        {
+          "name": "Teinture Magique Orange",
+          "itemId": 1689,
+          "imageUrl": "/items/1689.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1689"
+        },
+        {
+          "name": "Sang de Wabbit Garou",
+          "itemId": 14474,
+          "imageUrl": "/items/14474.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/14474"
+        },
+        {
+          "name": "Lotte",
+          "itemId": 16465,
+          "imageUrl": "/items/16465.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16465"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 528,
+            "name": "Donjon des Forgerons",
+            "coordinates": [
+              "13,21"
+            ]
+          },
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-33,-54"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "2,2"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "2,2"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 155,
+                "name": "Bandit du clan des Roublards",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/155.png"
+              },
+              {
+                "id": 153,
+                "name": "Boulanger Sombre",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/153.png"
+              },
+              {
+                "id": 119,
+                "name": "Forgeron Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/119.png"
+              },
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:164",
+      "relation": "FINISH",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/bandanarthrie.html",
+      "sourceTitle": "Alignement 65 : Bandanarthrie",
+      "sourceHash": "cb6cb6aa14f0dda826a68dc68d7b26c0651e5af98b634bc6d7d41e8edc558a04",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Mutualiser le Donjon des Forgerons",
+      "description": "Gardez C'est du Costaud active lorsque vous reprenez Bandanarthrie : le passage obligatoire au Donjon des Forgerons permet de cumuler le manuel nécessaire à Bandanarthrie avec une partie ou la totalité des éliminations demandées par la quête journalière.",
+      "questKeys": [
+        "quest:164",
+        "quest:653"
+      ],
+      "actions": [
+        "Relancez d’abord C'est du Costaud auprès du Commandant Costaud en [17,28].",
+        "Reprenez ensuite Bandanarthrie jusqu’au Donjon des Forgerons en [13,21].",
+        "Pendant le donjon, surveillez les compteurs de Bandit du clan des Roublards, Mineur Sombre, Forgeron Sombre et Boulanger Sombre afin d’éviter des combats supplémentaires inutiles."
+      ]
+    }
+  ]
 }

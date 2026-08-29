@@ -1,8 +1,1020 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 183,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T22:25:41.821Z",
+  "summaries": [
+    {
+      "overview": "Poursuivez l'enquête sur la malédiction de Frigost : consultez plusieurs mages, retrouvez Badmorva, réunissez les offrandes permettant d'accéder à la Caverne du Destin, rencontrez les trois Nordes puis faites votre rapport. Cette occurrence ne fournit pas de consigne d'arrêt intermédiaire dans le parcours de l'étape.",
+      "recommendedLevel": null,
+      "prerequisites": [
+        "Niveau recommandé 140-170.",
+        "L'essentiel est dans Lac Gelé.",
+        "Prologue : La fatalité si vous êtes Brâkmarien, La destinée si vous êtes Bontarien ou La rivalité si vous êtes Neutre."
+      ],
+      "rewards": [
+        "5 476 867 XP.",
+        "69 072 Kamas.",
+        "5 x Kama de glace.",
+        "5 x Oreille de Kaniglou.",
+        "5 x Pierre d'Atomystique.",
+        "5 x Laine de Maho Givrefoux."
+      ],
+      "preparation": [
+        "Prévoir un combat réalisable en groupe.",
+        "Prévoir un combat obligatoire en solo.",
+        "Prévoir des combats contre des monstres de zone pour obtenir 5 x Bave de Kaniglou, 1 x Écho du Passé et 1 x Morceau de Futur.",
+        "Prévoir l'achat de 1 x Emballage surprise à la Foire du Trool et une ressource quelconque sans valeur à sacrifier pour fabriquer le cadeau."
+      ],
+      "actions": [
+        {
+          "instruction": "Selon votre alignement, remettez le message à votre nouveau commanditaire : Général Kel Krakdel si vous êtes Brâkmarien, Fine Razil si vous êtes Bontarien ou Emmie Nansgriz si vous êtes Neutre.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Le PNJ et la destination dépendent de votre alignement.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous êtes Brâkmarien, rendez-vous auprès du Général Kel Krakdel.",
+          "position": "[-22,33]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous êtes Bontarien, rendez-vous auprès de Fine Razil.",
+          "position": "[-34,-58]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous êtes Neutre, rendez-vous auprès d'Emmie Nansgriz.",
+          "position": "[4,-6]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez à Frigost et parlez à Maire Cantile afin d'aborder le sort des Frigostiens et recevoir la mission d'interroger de grands mages.",
+          "position": "[-77,-42]",
+          "zoneHint": "La Bourgade",
+          "warning": "Maire Cantile ne permet de poursuivre que si L'essentiel est dans Lac Gelé est terminé.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez Hel Munster sur la malédiction de Frigost.",
+          "position": "[-5,-13]",
+          "zoneHint": "Forêt des Abraknydes",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez le Mage Ax au sujet de la malédiction de Frigost.",
+          "position": "[3,-21]",
+          "zoneHint": "Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la grotte en forme de crâne, partez sur la gauche puis demandez à Bworknroll son avis sur la malédiction.",
+          "position": "[-5,10]",
+          "zoneHint": "Village des Bworks",
+          "warning": "La conversation déclenche l'attaque d'un Tueur Tromatique. Le combat peut être effectué à plusieurs, mais seule la personne qui l'a déclenché met sa quête à jour.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Rendez-vous auprès du Docteur Hou et interrogez-le sur la malédiction. Il vous remet la Montre Gelée du Docteur Hou.",
+          "position": "[20,25]",
+          "zoneHint": "Sufokia",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Examinez la pancarte en bois afin d'obtenir des informations sur Badmorva.",
+          "position": "[1,19]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Maire Cantile et résumez les informations recueillies auprès des magiciens.",
+          "position": "[-77,-42]",
+          "zoneHint": "La Bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans le Berceau d'Alma, cliquez sur le tonnelet pour faire apparaître le Spectre de Badmorva puis interrogez-le sur la malédiction.",
+          "position": "[-54,-76]",
+          "zoneHint": "Berceau d'Alma",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Demandez à Albert Paisse un remède destiné au Spectre de Badmorva.",
+          "position": "[-80,-45]",
+          "zoneHint": null,
+          "warning": "Le médecin accepte grâce à une aide antérieure ; la source signale sans certitude un lien possible avec la quête Les monologues du vaccin.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Obtenez exactement 5 x Bave de Kaniglou sur des Kaniglou, avec un taux de base indiqué de 30 %, puis rapportez-les à Albert Paisse afin de recevoir le Remède Mortel.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Des combats contre des Kaniglou sont nécessaires pour le drop.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez auprès du Spectre de Badmorva et montrez-lui le Remède Mortel. Il vous remet un œil de Sorcière et vous indique comment trouver la Caverne du Destin.",
+          "position": "[-54,-76]",
+          "zoneHint": "Berceau d'Alma",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Obtenez 1 x Écho du Passé sur les monstres du Berceau d'Alma, avec un taux de base de 10 %.",
+          "position": null,
+          "zoneHint": "Berceau d'Alma",
+          "warning": "Des combats contre les monstres de la zone sont nécessaires.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "À la Foire du Trool, achetez 1 x Emballage surprise.",
+          "position": "[-12,-39]",
+          "zoneHint": "Foire du Trool",
+          "warning": "Cette étape implique une dépense.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Utilisez l'atelier de la même carte pour emballer une ressource quelconque avec l'Emballage surprise et obtenir le Présent inattendu.",
+          "position": "[-12,-39]",
+          "zoneHint": "Foire du Trool",
+          "warning": "La ressource placée dans le cadeau est perdue ; utilisez une ressource sans valeur.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Obtenez 1 x Morceau de Futur sur les Atomystiques, avec un taux de base de 15 %.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Des combats contre des Atomystiques sont nécessaires.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Rendez-vous à l'entrée de la Caverne du Destin avec l'Écho du Passé, le Présent inattendu et le Morceau de Futur. Donnez les trois offrandes au Gardien du Destin puis annoncez que vous êtes prêt à lui donner une bonne leçon.",
+          "position": "[-76,-80]",
+          "zoneHint": "Crevasse Perge",
+          "warning": "Le duel contre le Gardien du Destin est obligatoire et s'effectue seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après avoir vaincu le Gardien du Destin, reparlez-lui pour entrer dans la Caverne du Destin.",
+          "position": "[-76,-80]",
+          "zoneHint": "Caverne du Destin",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Clothurde et déclinez gentiment sa proposition de vous découper en morceaux.",
+          "position": null,
+          "zoneHint": "Caverne du Destin",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Lachandi afin d'en apprendre davantage sur les origines de la glaciation.",
+          "position": null,
+          "zoneHint": "Caverne du Destin",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Atroskulda et demandez-lui qui elle est afin de compléter les informations fournies par les Nordes.",
+          "position": null,
+          "zoneHint": "Caverne du Destin",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Maire Cantile et racontez ce que vous avez appris auprès des Nordes sans lui révéler les détails qui la concernent.",
+          "position": "[-77,-42]",
+          "zoneHint": "La Bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Faites votre rapport à votre agent de cité : Général Kel Krakdel en [-22,33] si vous êtes Brâkmarien, Fine Razil en [-34,-58] si vous êtes Bontarien ou Emmie Nansgriz en [4,-6] si vous êtes Neutre.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "La destination dépend de votre alignement.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez enfin voir Maire Cantile et annoncez votre décision de l'aider.",
+          "position": "[-77,-42]",
+          "zoneHint": "La Bourgade",
+          "warning": "La quête se termine à ce point. Continuer la conversation permet ensuite d'obtenir Mission Solution, mais cette quête suivante ne fait pas partie des actions de cette occurrence.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La source décrit l'intégralité de cette portion sans arrêt intermédiaire supplémentaire dans le parcours de l'étape 183.",
+        "Le combat contre le Tueur Tromatique peut être réalisé en groupe, mais seul le personnage déclencheur obtient la mise à jour de quête.",
+        "Le duel contre le Gardien du Destin est obligatoirement réalisé seul."
+      ],
+      "npcs": [
+        "Général Kel Krakdel",
+        "Fine Razil",
+        "Emmie Nansgriz",
+        "Maire Cantile",
+        "Hel Munster",
+        "Mage Ax",
+        "Bworknroll",
+        "Tueur Tromatique",
+        "Docteur Hou",
+        "Spectre de Badmorva",
+        "Albert Paisse",
+        "Gardien du Destin",
+        "Clothurde",
+        "Lachandi",
+        "Atroskulda"
+      ],
+      "items": [
+        {
+          "name": "Montre Gelée du Docteur Hou",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Bave de Kaniglou",
+          "itemId": 14019,
+          "imageUrl": "/items/14019.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/14019"
+        },
+        {
+          "name": "Remède Mortel",
+          "itemId": 14020,
+          "imageUrl": "/items/14020.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/14020"
+        },
+        {
+          "name": "œil de Sorcière",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Écho du Passé",
+          "itemId": 14021,
+          "imageUrl": "/items/14021.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/14021"
+        },
+        {
+          "name": "Emballage surprise",
+          "itemId": 12914,
+          "imageUrl": "/items/12914.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/12914"
+        },
+        {
+          "name": "Présent inattendu",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Morceau de Futur",
+          "itemId": 14022,
+          "imageUrl": "/items/14022.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/14022"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 609,
+            "name": "Berceau d'Alma",
+            "coordinates": [
+              "-54,-76"
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Château d'Amakna",
+            "coordinates": [
+              "4,-6"
+            ]
+          },
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "3,-21"
+            ]
+          },
+          {
+            "id": 606,
+            "name": "Crevasse Perge",
+            "coordinates": [
+              "-76,-80"
+            ]
+          },
+          {
+            "id": 84,
+            "name": "Foire du Trool",
+            "coordinates": [
+              "-12,-39"
+            ]
+          },
+          {
+            "id": 443,
+            "name": "Forêt",
+            "coordinates": [
+              "-5,-13"
+            ]
+          },
+          {
+            "id": 601,
+            "name": "La Bourgade",
+            "coordinates": [
+              "-77,-42",
+              "-80,-45"
+            ]
+          },
+          {
+            "id": 980,
+            "name": "La Marmite",
+            "coordinates": [
+              "-22,33"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "1,19"
+            ]
+          },
+          {
+            "id": 976,
+            "name": "Promontoire des cieux",
+            "coordinates": [
+              "-34,-58"
+            ]
+          },
+          {
+            "id": 32,
+            "name": "Sufokia",
+            "coordinates": [
+              "20,25"
+            ]
+          },
+          {
+            "id": 277,
+            "name": "Village des Bworks",
+            "coordinates": [
+              "-5,10"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          },
+          {
+            "id": 2904,
+            "name": "Fantômayte",
+            "level": 150,
+            "imageUrl": "/bestiary/monsters/2904.png"
+          },
+          {
+            "id": 2906,
+            "name": "YeCh'Ti",
+            "level": 170,
+            "imageUrl": "/bestiary/monsters/2906.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2417,
+            "name": "Barchwork le Multicolore",
+            "level": 37,
+            "imageUrl": "/bestiary/monsters/2417.png"
+          },
+          {
+            "id": 2416,
+            "name": "Bworkasse le Dégoutant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2416.png"
+          },
+          {
+            "id": 2418,
+            "name": "Bwormage le Respectueux",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2418.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2913,
+                "name": "Chachachovage",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2913.png"
+              },
+              {
+                "id": 2893,
+                "name": "Crabe Hijacob",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2893.png"
+              },
+              {
+                "id": 2914,
+                "name": "Gélikan",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2914.png"
+              },
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          },
+          {
+            "id": 182,
+            "name": "Bworks d'Amakna",
+            "monsters": [
+              {
+                "id": 876,
+                "name": "Bwork",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/876.png"
+              },
+              {
+                "id": 74,
+                "name": "Bwork Archer",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/74.png"
+              },
+              {
+                "id": 53,
+                "name": "Bwork Mage",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/53.png"
+              }
+            ]
+          },
+          {
+            "id": 159,
+            "name": "Équipage du Grolandais",
+            "monsters": [
+              {
+                "id": 2874,
+                "name": "Fancrôme",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/2874.png"
+              },
+              {
+                "id": 2881,
+                "name": "Fantimonier",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/2881.png"
+              },
+              {
+                "id": 2875,
+                "name": "Fantomalamère",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/2875.png"
+              },
+              {
+                "id": 2880,
+                "name": "Fantômat",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/2880.png"
+              },
+              {
+                "id": 2878,
+                "name": "Harpirate",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/2878.png"
+              },
+              {
+                "id": 2876,
+                "name": "Vigie pirate",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/2876.png"
+              }
+            ]
+          },
+          {
+            "id": 137,
+            "name": "Givrefoux",
+            "monsters": [
+              {
+                "id": 2889,
+                "name": "Maho Givrefoux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/2889.png"
+              },
+              {
+                "id": 2890,
+                "name": "Soryo Givrefoux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/2890.png"
+              },
+              {
+                "id": 2888,
+                "name": "Yokaï Givrefoux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/2888.png"
+              },
+              {
+                "id": 2891,
+                "name": "Yomi Givrefoux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/2891.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:698",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/maleacutediction.html",
+      "sourceTitle": "Malédiction !",
+      "sourceHash": "18557cd221c92a5dfa94b9f2dbec4bbf789b97acb4fe56b3b8419f01022129f4",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez Pas de fumée sans feu puis avancez uniquement jusqu'à l'objectif « Déjouer la surveillance de la gardienne du tumulus ». À ce moment, la progression de cette quête doit être suspendue : l'étape 183 demande ensuite de lancer Arrête-la si tu peux, et Pas de fumée sans feu sera reprise à l'étape 184.",
+      "recommendedLevel": 150,
+      "prerequisites": [
+        "Rester planté là.",
+        "Un pendule pour guider ses pas.",
+        "Arrête-la si tu peux bloque une étape ultérieure de cette quête."
+      ],
+      "rewards": [
+        "2 658 600 XP.",
+        "30 576 Kamas.",
+        "3 x Truk divin."
+      ],
+      "preparation": [
+        "Avoir terminé Un pendule pour guider ses pas afin de pouvoir entrer librement dans le Dédale du Dark Vlad.",
+        "1 x Enchanterelle sera utile plus tard, mais son utilisation n'appartient pas encore aux actions de cette occurrence."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à l'Esprit serein et annoncez que vous allez faire en sorte de renouveler le serment de Terrakourial afin de lancer Pas de fumée sans feu.",
+          "position": "[24,-35]",
+          "zoneHint": "Plantala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à l'entrée située en [-5,13], puis descendez d'une carte pour pénétrer dans le Dédale du Dark Vlad. L'entrée dans la zone fait apparaître l'objectif « Déjouer la surveillance de la gardienne du tumulus ».",
+          "position": "[-5,13]",
+          "zoneHint": "Dédale du Dark Vlad",
+          "warning": "L'accès nécessite d'avoir terminé Un pendule pour guider ses pas. Arrêtez ici la progression de Pas de fumée sans feu pour cette occurrence.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Ne réalisez pas encore les actions permettant de déjouer la surveillance de Hell Mina : elles dépendent d'Arrête-la si tu peux.",
+        "La reprise et la fin de Pas de fumée sans feu sont prévues à l'étape 184.",
+        "Une Enchanterelle peut être récupérée à l'avance afin d'éviter un détour plus tard."
+      ],
+      "npcs": [
+        "Esprit serein"
+      ],
+      "items": [
+        {
+          "name": "Enchanterelle",
+          "itemId": 26710,
+          "imageUrl": "/items/26710.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26710"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 9,
+            "name": "Dédale du Dark Vlad",
+            "coordinates": [
+              "-5,13"
+            ]
+          },
+          {
+            "id": 942,
+            "name": "Plantala",
+            "coordinates": [
+              "24,-35"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2548,
+            "name": "Bambouské le Camouflé",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2548.png"
+          },
+          {
+            "id": 2415,
+            "name": "Bulsavon le Gonflé",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2415.png"
+          },
+          {
+            "id": 2392,
+            "name": "Floriste la Cannibale",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2392.png"
+          },
+          {
+            "id": 2593,
+            "name": "Grenuche la Gentille",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2593.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 5212,
+            "name": "Malters",
+            "monsters": [
+              {
+                "id": 6864,
+                "name": "Malzerb",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/6864.png"
+              },
+              {
+                "id": 6871,
+                "name": "Maltrio",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/6871.png"
+              },
+              {
+                "id": 6872,
+                "name": "Malépik",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/6872.png"
+              },
+              {
+                "id": 6873,
+                "name": "Malalfa",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/6873.png"
+              }
+            ]
+          },
+          {
+            "id": 3045,
+            "name": "Plantalas",
+            "monsters": [
+              {
+                "id": 6318,
+                "name": "Bambouto",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6318.png"
+              },
+              {
+                "id": 6320,
+                "name": "Floristile",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6320.png"
+              },
+              {
+                "id": 6321,
+                "name": "Bulbuisson",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6321.png"
+              },
+              {
+                "id": 6323,
+                "name": "Grenufar",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6323.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1407",
+      "relation": "START",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/pas-de-fumee-sans-feu.html",
+      "sourceTitle": "Pas de fumée sans feu",
+      "sourceHash": "6cb9c3cfd3ceaf99e0409ddd46e202337eca80e61a58d2214d7c42fc91dc2ae5",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez Arrête-la si tu peux, retrouvez Karnhell, nourrissez-la avec 20 x Baie maléfique, capturez-la puis ramenez-la à Hell Mina. Lorsque la progression demande de suivre Hell Mina à l'intérieur du Tumulus, effectuez le Tertre du long sommeil comme demandé par le guide. Les interactions servant ensuite à reprendre Pas de fumée sans feu sont volontairement laissées pour l'occurrence suivante de cette quête à l'étape 184.",
+      "recommendedLevel": 150,
+      "prerequisites": [
+        "Pas de fumée sans feu doit avoir atteint l'objectif « Déjouer la surveillance de la gardienne du tumulus »."
+      ],
+      "rewards": [
+        "4 431 000 XP.",
+        "50 960 Kamas.",
+        "3 x Corne de Malbois."
+      ],
+      "preparation": [
+        "Prévoir 1 x Filet de capture universel et l'équiper avant le combat contre Karnhell.",
+        "Prévoir des combats dans le Dédale du Dark Vlad afin d'obtenir 20 x Baie maléfique à 100 % sur les monstres de la zone.",
+        "Prévoir un combat obligatoire en solo contre Karnhell.",
+        "Prévoir le donjon Tertre du long sommeil.",
+        "Il est conseillé d'obtenir au moins 1 x Enchanterelle avant le donjon pour éviter un détour lors de la reprise de Pas de fumée sans feu."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Hell Mina, promettez-lui de retrouver et de ramener Karnhell en échange d'informations sur ce qu'elle protège, afin de lancer la quête.",
+          "position": "[-4,15]",
+          "zoneHint": "Dédale du Dark Vlad",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Inspectez le buisson de baies situé à droite sur la carte.",
+          "position": "[-4,15]",
+          "zoneHint": "Dédale du Dark Vlad",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montez en [-4,14] et inspectez les baies au pied de l'arbre à gauche.",
+          "position": "[-4,14]",
+          "zoneHint": "Dédale du Dark Vlad",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez en [-3,14] et inspectez les baies au centre de la carte.",
+          "position": "[-3,14]",
+          "zoneHint": "Dédale du Dark Vlad",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Descendez en [-3,15] et inspectez le buisson de baies situé en bas à gauche.",
+          "position": "[-3,15]",
+          "zoneHint": "Dédale du Dark Vlad",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous en [-2,16] et examinez le buisson de baies situé à droite.",
+          "position": "[-2,16]",
+          "zoneHint": "Dédale du Dark Vlad",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez en [-1,16], examinez l'arbuste de baies en haut à droite puis parlez à Karnhell en lui parlant doucement pour la rassurer.",
+          "position": "[-1,16]",
+          "zoneHint": "Dédale du Dark Vlad",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Obtenez exactement 20 x Baie maléfique sur les monstres du Dédale du Dark Vlad. Le taux de drop indiqué est de 100 %.",
+          "position": null,
+          "zoneHint": "Dédale du Dark Vlad",
+          "warning": "Des combats contre les monstres de la zone sont nécessaires. Les baies peuvent aussi être obtenues dans le donjon, mais la quête exigera plus tard d'entrer dans sa salle 1.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Équipez 1 x Filet de capture universel, retournez auprès de Karnhell et donnez-lui les 20 x Baie maléfique.",
+          "position": "[-1,16]",
+          "zoneHint": "Dédale du Dark Vlad",
+          "warning": "Le Filet de capture universel doit être équipé pour le combat qui suit.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Affrontez Karnhell seul. Faites-lui commencer ses tours sur les glyphes rouges afin de monter son état Chasseur chassé jusqu'à V, puis utilisez « Apprivoisement de monture » pour terminer le combat.",
+          "position": "[-1,16]",
+          "zoneHint": "Dédale du Dark Vlad",
+          "warning": "Ne lancez pas « Apprivoisement de monture » avant votre tour 5, sous peine d'être mis K.O. Commencer votre propre tour avec Chasseur chassé V vous met également K.O.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Conduisez Karnhell auprès de Hell Mina et indiquez que vous l'avez retrouvée en rappelant le marché.",
+          "position": "[-3,19]",
+          "zoneHint": "Dédale du Dark Vlad",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Lorsque la progression demande de suivre Hell Mina à l'intérieur du Tumulus, entrez dans le Tertre du long sommeil et effectuez le donjon en vainquant Hell Mina.",
+          "position": null,
+          "zoneHint": "Tertre du long sommeil",
+          "warning": "Pour que la quête se mette correctement à jour, la source précise qu'il faut impérativement entrer dans la salle 1 du donjon. Prévoir le combat du donjon.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "Le guide demande d'atteindre l'étape où il faut suivre Hell Mina à l'intérieur du Tumulus, puis d'effectuer le Tertre du long sommeil.",
+        "Après le donjon, les interactions avec Hell Mina et Karnhell ouvrent la reprise de Pas de fumée sans feu ; cette reprise est prévue à l'étape 184 et n'est donc pas incluse ici.",
+        "Récupérer 1 x Enchanterelle avant d'entrer dans le Tertre du long sommeil évite un détour lors de la suite de Pas de fumée sans feu."
+      ],
+      "npcs": [
+        "Hell Mina",
+        "Karnhell"
+      ],
+      "items": [
+        {
+          "name": "Baie maléfique",
+          "itemId": 26698,
+          "imageUrl": "/items/26698.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26698"
+        },
+        {
+          "name": "Filet de capture universel",
+          "itemId": 32521,
+          "imageUrl": "/items/32521.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/32521"
+        },
+        {
+          "name": "Enchanterelle",
+          "itemId": 26710,
+          "imageUrl": "/items/26710.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26710"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 9,
+            "name": "Dédale du Dark Vlad",
+            "coordinates": [
+              "-4,15",
+              "-4,14",
+              "-3,14",
+              "-3,15",
+              "-2,16",
+              "-1,16",
+              "-3,19"
+            ]
+          },
+          {
+            "id": 1016,
+            "name": "Tertre du long sommeil",
+            "coordinates": []
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 5212,
+            "name": "Malters",
+            "monsters": [
+              {
+                "id": 6864,
+                "name": "Malzerb",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/6864.png"
+              },
+              {
+                "id": 6871,
+                "name": "Maltrio",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/6871.png"
+              },
+              {
+                "id": 6872,
+                "name": "Malépik",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/6872.png"
+              },
+              {
+                "id": 6873,
+                "name": "Malalfa",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/6873.png"
+              },
+              {
+                "id": 6874,
+                "name": "Malbois",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/6874.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1412",
+      "relation": "START",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/arrete-la-si-tu-peux.html",
+      "sourceTitle": "Arrête-la si tu peux",
+      "sourceHash": "69daaec4a8207a3a3e0e06d174697faa43c2499effc2194d0178f5659193dea1",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Préparer l'Enchanterelle avant le Tertre",
+      "description": "Pas de fumée sans feu aura besoin d'une Enchanterelle après Arrête-la si tu peux. En obtenir une avant d'effectuer le Tertre du long sommeil évite de devoir quitter la fin du donjon puis revenir.",
+      "questKeys": [
+        "quest:1407",
+        "quest:1412"
+      ],
+      "actions": [
+        "Pendant que Pas de fumée sans feu est active, obtenez si possible 1 x Enchanterelle sur les Malters de l'Orée enchantée avant d'entrer dans le Tertre du long sommeil.",
+        "Conservez l'Enchanterelle pour la reprise de Pas de fumée sans feu après Arrête-la si tu peux."
+      ]
+    }
+  ]
 }

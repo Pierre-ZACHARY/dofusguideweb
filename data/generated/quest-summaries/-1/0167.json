@@ -1,8 +1,318 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 167,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T22:25:10.300Z",
+  "summaries": [
+    {
+      "overview": "Poursuis « La panoplie du milicien », déjà lancée auprès d’Amayiro, en réunissant les ressources demandées par Norb puis en traversant le Bateau échoué et la mine menant à Nara. Cette occurrence va jusqu’à la remise des ressources à Nara, ce qui termine la quête et permet d’enchaîner ensuite sur l’alignement 57.",
+      "recommendedLevel": 136,
+      "prerequisites": [
+        "Avoir terminé « La tactique des gens d'armes ».",
+        "Avoir déjà lancé « La panoplie du milicien » auprès d’Amayiro à la Milice de Bonta en [-32,-57].",
+        "Prévoir 4 personnages pour franchir le mécanisme de la mine en [1,32]."
+      ],
+      "rewards": [
+        "5 121 404 XP."
+      ],
+      "preparation": [
+        "2 x Kriptonite.",
+        "20 x Bois de Noisetier.",
+        "Prévoir un groupe de 4 personnages pour la mine.",
+        "Prévoir plusieurs combats réalisables en groupe et un combat obligatoire en solo dans une salle à lettre."
+      ],
+      "actions": [
+        {
+          "instruction": "Parle à Norb et interroge-le au sujet de l’Eniripsa présent dans son atelier. Choisis soit de combattre l’Eniripsa, soit de fuir pour éviter cet affrontement, puis reparle à Norb afin d’obtenir la liste des ressources destinées à Nara et de prendre en charge sa caisse d’outils.",
+          "position": "[3,29]",
+          "zoneHint": null,
+          "warning": "Le premier choix déclenche un combat ; le second permet de l’éviter.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Réunis 2 Kriptonite et 20 Bois de Noisetier avant de poursuivre, afin de ne pas devoir revenir chercher ces ressources plus tard.",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Accède à la carte par le haut, entre dans le Bateau échoué puis clique sur la grosse caisse en bois pour récupérer la ressource demandée.",
+          "position": "[15,21]",
+          "zoneHint": "Bateau échoué",
+          "warning": "Cliquer sur la caisse déclenche un combat contre des pirates. Le combat peut être réalisé en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Remporte le combat contre les pirates pour obtenir le Minerai des profondeurs.",
+          "position": "[15,21]",
+          "zoneHint": "Bateau échoué",
+          "warning": "Certains sorts ennemis peuvent infliger de lourds dégâts, de l’érosion, du retrait PM ou créer un glyphe dangereux.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Avec 4 personnages et toutes les ressources déjà réunies, entre dans la mine, actionne le levier puis franchis la grille avec le groupe.",
+          "position": "[1,32]",
+          "zoneHint": "mine",
+          "warning": "Les 4 personnages sont nécessaires pour cette progression. Vérifie que le personnage en quête transporte bien 2 Kriptonite, 20 Bois de Noisetier et le Minerai des profondeurs.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la première salle de la mine, lance et gagne le combat contre les machines. Il peut être réalisé à plusieurs.",
+          "position": null,
+          "zoneHint": "mine",
+          "warning": "Les Lames Vorpales invoquées peuvent bloquer les déplacements ; le sort Miroir Magique renvoie les sorts de niveau 6 maximum pendant 5 tours et peut nécessiter un désenvoûtement.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Répartis les 4 personnages dans les salles à lettres : 1 personnage en N, 2 personnages successivement en A et 1 personnage en R. Pour le personnage qui réalise la quête, privilégie la salle N.",
+          "position": null,
+          "zoneHint": "mine",
+          "warning": "Chaque monstre de salle à lettre doit obligatoirement être combattu seul.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectue seul le combat de la salle attribuée au personnage en quête et récupère la pièce mécanique portant sa lettre. En salle N, bats le monstre normalement ; en salle A, survis jusqu’au tour 11 face au monstre invulnérable ; en salle R, élimine rapidement le monstre avant son attaque mortelle du tour 6.",
+          "position": null,
+          "zoneHint": "mine",
+          "warning": "Combat obligatoirement en solo. La salle A repose sur la survie jusqu’au tour 11 ; la salle R impose une élimination avant le tour 6.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Une fois les lettres N, A et R obtenues par le groupe, place chaque personnage sur la case correspondant à sa lettre afin d’ouvrir la grille, puis fais passer rapidement tout le monde.",
+          "position": null,
+          "zoneHint": "mine",
+          "warning": "Des trous au sol peuvent faire tomber les personnages au sous-sol ; il faut alors remonter. La grille ne reste ouverte que temporairement.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la salle suivante, gagne le second combat de groupe contre les machines pour accéder à Nara.",
+          "position": null,
+          "zoneHint": "mine",
+          "warning": "Les ennemis conservent les mêmes mécaniques dangereuses que lors du premier combat, notamment les Lames Vorpales.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Parle à Nara et remets-lui toutes les ressources récupérées afin de terminer « La panoplie du milicien ».",
+          "position": null,
+          "zoneHint": "mine",
+          "warning": "La remise nécessite d’avoir conservé toutes les ressources demandées sur le personnage en quête.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le lancement auprès d’Amayiro est supposé déjà effectué avant cette occurrence ACTIVE.",
+        "La quête suivante, « Ambition ambigüe », appartient à l’étape 168 et ne doit pas être commencée dans ce tutoriel."
+      ],
+      "npcs": [
+        "Norb",
+        "Nara",
+        "Amayiro"
+      ],
+      "items": [
+        {
+          "name": "Kriptonite",
+          "itemId": 3238,
+          "imageUrl": "/items/3238.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/3238"
+        },
+        {
+          "name": "Bois de Noisetier",
+          "itemId": 11107,
+          "imageUrl": "/items/11107.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11107"
+        },
+        {
+          "name": "Minerai des profondeurs",
+          "itemId": 17101,
+          "imageUrl": "/items/17101.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17101"
+        },
+        {
+          "name": "Pièce mécanique N",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Pièce mécanique A",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Pièce mécanique R",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "15,21",
+              "1,32"
+            ]
+          },
+          {
+            "id": 170,
+            "name": "Plaine des Scarafeuilles",
+            "coordinates": [
+              "3,29"
+            ]
+          },
+          {
+            "id": 103,
+            "name": "Territoire des Bandits",
+            "coordinates": [
+              "15,21"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2280,
+            "name": "Scapé l'Epée",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2280.png"
+          },
+          {
+            "id": 2283,
+            "name": "Scaramel le Fondant",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2283.png"
+          },
+          {
+            "id": 2281,
+            "name": "Scarfayss le Balafré",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2281.png"
+          },
+          {
+            "id": 2282,
+            "name": "Scarouarze l'Epopée",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2282.png"
+          },
+          {
+            "id": 2318,
+            "name": "Boudur le Raide",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2318.png"
+          },
+          {
+            "id": 2314,
+            "name": "Bandson le Tonitruant",
+            "level": 37,
+            "imageUrl": "/bestiary/monsters/2314.png"
+          },
+          {
+            "id": 2328,
+            "name": "Forboyar l'Enigmatique",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2328.png"
+          },
+          {
+            "id": 2335,
+            "name": "Minsinistre l'Elu",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2335.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 155,
+                "name": "Bandit du clan des Roublards",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/155.png"
+              },
+              {
+                "id": 153,
+                "name": "Boulanger Sombre",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/153.png"
+              },
+              {
+                "id": 119,
+                "name": "Forgeron Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/119.png"
+              },
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 212,
+            "name": "Dragodindes",
+            "monsters": [
+              {
+                "id": 171,
+                "name": "Dragodinde amande sauvage",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/171.png"
+              },
+              {
+                "id": 200,
+                "name": "Dragodinde rousse sauvage",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/200.png"
+              }
+            ]
+          },
+          {
+            "id": 181,
+            "name": "Scarafeuilles",
+            "monsters": [
+              {
+                "id": 198,
+                "name": "Scarafeuille Bleu",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/198.png"
+              },
+              {
+                "id": 241,
+                "name": "Scarafeuille Blanc",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/241.png"
+              },
+              {
+                "id": 194,
+                "name": "Scarafeuille Rouge",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/194.png"
+              },
+              {
+                "id": 240,
+                "name": "Scarafeuille Vert",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/240.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:153",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-panoplie-du-milicien.html",
+      "sourceTitle": "Alignement 56 : La panoplie du milicien",
+      "sourceHash": "b40dca25c7e44404a619e1da1e02bfb0c58c479fcd78b262c59f8e5a5c8f9f64",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

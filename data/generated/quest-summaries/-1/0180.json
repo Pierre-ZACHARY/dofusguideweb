@@ -1,8 +1,680 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 180,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T22:25:36.184Z",
+  "summaries": [
+    {
+      "overview": "Lancez la quête auprès de Bisale Vinlenta, puis profitez des combats imposés par Chauffage à moindre frais dans les Larmes d'Ouronigride pour obtenir les 40 Rose à lys Cullen. Cette occurrence s'arrête une fois ces 40 objets récupérés : les 5 Rose Delima et le retour à Bisale Vinlenta seront effectués plus tard, lors de la reprise prévue par le guide.",
+      "recommendedLevel": 160,
+      "prerequisites": [
+        "Avoir terminé Mes lys fleurs."
+      ],
+      "rewards": [
+        "4 564 056 XP.",
+        "57 560 kamas.",
+        "3 x Kama de glace.",
+        "5 x Pierre d'Atomystique."
+      ],
+      "preparation": [
+        "Prévoir des combats contre les monstres des Larmes d'Ouronigride.",
+        "Les Rose à lys Cullen ne s'obtiennent pas dans le donjon Hypogée de l'Obsidiantre."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Bisale Vinlenta pour lancer Rose à lys, Rose à lys, oh ! et recevoir l'objectif de collecte.",
+          "position": "[-72,-31]",
+          "zoneHint": "Champs de glace",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans les Larmes d'Ouronigride, affrontez des monstres de la zone jusqu'à obtenir 40 x Rose à lys Cullen. Faites ces combats en même temps que les objectifs de Chauffage à moindre frais lorsque possible.",
+          "position": null,
+          "zoneHint": "Larmes d'Ouronigride",
+          "warning": "Le drop des Rose à lys Cullen est automatique sur les monstres de la zone, mais ne fonctionne pas dans le donjon Hypogée de l'Obsidiantre. Il faut obtenir 40 exemplaires.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "Ne récoltez pas les 5 Rose Delima pour les besoins de cette occurrence du guide.",
+        "Ne retournez pas encore donner les fleurs à Bisale Vinlenta : la quête sera rendue à l'étape suivante."
+      ],
+      "npcs": [
+        "Bisale Vinlenta"
+      ],
+      "items": [
+        {
+          "name": "Rose à lys Cullen",
+          "itemId": 11162,
+          "imageUrl": "/items/11162.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11162"
+        },
+        {
+          "name": "Rose Delima",
+          "itemId": 11163,
+          "imageUrl": "/items/11163.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11163"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 602,
+            "name": "Champs de glace",
+            "coordinates": [
+              "-72,-31"
+            ]
+          },
+          {
+            "id": 610,
+            "name": "Larmes d'Ouronigride",
+            "coordinates": []
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2901,
+            "name": "Bouflouth",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/2901.png"
+          },
+          {
+            "id": 2905,
+            "name": "Vengeuse Masquée",
+            "level": 160,
+            "imageUrl": "/bestiary/monsters/2905.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 156,
+            "name": "Boufmouths",
+            "monsters": [
+              {
+                "id": 2850,
+                "name": "Boufmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2850.png"
+              },
+              {
+                "id": 2851,
+                "name": "Boufmouth de guerre",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2851.png"
+              },
+              {
+                "id": 2852,
+                "name": "Boufmouth légendaire",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2852.png"
+              },
+              {
+                "id": 2853,
+                "name": "Bouftonmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2853.png"
+              }
+            ]
+          },
+          {
+            "id": 158,
+            "name": "Sulfurieux",
+            "monsters": [
+              {
+                "id": 2866,
+                "name": "Atomystique",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/2866.png"
+              },
+              {
+                "id": 2865,
+                "name": "Crapeur",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/2865.png"
+              },
+              {
+                "id": 2869,
+                "name": "Solfataré",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/2869.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:339",
+      "relation": "START",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/rose-a-lys-rose-a-lys-oh.html",
+      "sourceTitle": "Rose à lys, Rose à lys, oh !",
+      "sourceHash": "33e945a12cb35cdc178e06cb59188b3edabce6c9daf238ae39131511dd83746d",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Poursuivez Chauffage à moindre frais jusqu'à son terme. L'essentiel de cette portion se déroule dans les Larmes d'Ouronigride : retrouver Pleni, enquêter sur Judas Sticau, obtenir l'Atomystique intrigant, réunir les roses demandées par Eric Azaraille, libérer Pleni puis rendre compte à Hyppolite Tairmy.",
+      "recommendedLevel": 160,
+      "prerequisites": [
+        "Avoir terminé Fais dodo, t'auras du gâteau.",
+        "Avoir terminé Il préfère la mort en mer."
+      ],
+      "rewards": [
+        "2 282 028 XP.",
+        "28 780 kamas.",
+        "3 x Kama de glace.",
+        "1 x Mémoires d'une tête brûlée.",
+        "1 x Ulna de Solfataré."
+      ],
+      "preparation": [
+        "Prévoir 1 x Pandaburg ou 1 x Pandapils avant de parler au Capitaine Gneux.",
+        "Prévoir des combats contre les monstres des Larmes d'Ouronigride.",
+        "Profiter des combats dans les Larmes d'Ouronigride pour faire progresser simultanément la collecte de 40 x Rose à lys Cullen de Rose à lys, Rose à lys, oh !."
+      ],
+      "actions": [
+        {
+          "instruction": "Entrez dans la bibliothèque, montez au premier étage et parlez à Hyppolite Tairmy afin de poursuivre la recherche de Pleni l'Ancien.",
+          "position": "[-79,-42]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retrouvez Pleni l'Ancien et parlez-lui. Il vous demande de rechercher Judas Sticau et de commencer par interroger le Capitaine Gneux.",
+          "position": "[-68,-85]",
+          "zoneHint": "Larmes d'Ouronigride",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Avant d'aller voir le Capitaine Gneux, achetez 1 x Pandaburg ou 1 x Pandapils à la taverne du Pandazaap.",
+          "position": "[20,-29]",
+          "zoneHint": "Pandala",
+          "warning": "Une des deux boissons est nécessaire pour obtenir les informations du Capitaine Gneux.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au phare du Capitaine Gneux, demandez-lui des informations sur Judas Sticau, puis reparlez-lui et donnez-lui la Pandaburg ou la Pandapils.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "La boisson est consommée lors de l'échange.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez dans les Larmes d'Ouronigride et combattez des Atomystiques jusqu'à obtenir l'Atomystique intrigant en personnage suiveur.",
+          "position": null,
+          "zoneHint": "Larmes d'Ouronigride",
+          "warning": "L'Atomystique intrigant s'obtient avec 12 % de chance de base sur les Atomystiques.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Ramenez l'Atomystique intrigant à Pleni l'Ancien et parlez-lui.",
+          "position": "[-68,-85]",
+          "zoneHint": "Larmes d'Ouronigride",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir Eric Azaraille pour faire examiner l'Atomystique. Il vous demande 10 x Rose à Lysa et 5 x Rose Ejoséphine.",
+          "position": "[-81,-44]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Obtenez 10 x Rose à Lysa sur les monstres des Larmes d'Ouronigride. Elles ont 20 % de chance de base sur les monstres de la zone et 100 % sur les Atomystiques.",
+          "position": null,
+          "zoneHint": "Larmes d'Ouronigride",
+          "warning": "Ces objets sont des objets de quête.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Cueillez 5 x Rose Ejoséphine parmi les emplacements [-67,-84], [-69,-87], [-70,-87], [-71,-87], [-71,-85], [-72,-84], [-73,-85], [-73,-86] et [-74,-84].",
+          "position": null,
+          "zoneHint": "Larmes d'Ouronigride",
+          "warning": "Les fleurs réapparaissent environ toutes les 10 minutes ; un emplacement vide peut avoir été récolté récemment.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rapportez les 10 Rose à Lysa et les 5 Rose Ejoséphine à Eric Azaraille. Après la transformation de l'Atomystique intrigant, parlez à Judas Sticau.",
+          "position": "[-81,-44]",
+          "zoneHint": "La bourgade",
+          "warning": "Les fleurs sont remises à Eric Azaraille.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Conduisez Judas Sticau auprès de Pleni l'Ancien.",
+          "position": "[-68,-85]",
+          "zoneHint": "Larmes d'Ouronigride",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Tentez de parler à Pleni, puis négociez sa libération auprès du Crapeur Beulin. Les deux choix proposés permettent d'obtenir sa libération.",
+          "position": "[-68,-85]",
+          "zoneHint": "Larmes d'Ouronigride",
+          "warning": "Un choix de dialogue est demandé, mais les deux options aboutissent à l'acceptation du Crapeur Beulin.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Retournez voir Hyppolite Tairmy et annoncez-lui que les deux scientifiques vont bien afin de terminer Chauffage à moindre frais.",
+          "position": "[-79,-42]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La fin de cette quête débloque À la recherche de Dan Lavy, qui n'est commencée qu'à l'étape suivante."
+      ],
+      "npcs": [
+        "Hyppolite Tairmy",
+        "Pleni l'Ancien",
+        "Capitaine Gneux",
+        "Eric Azaraille",
+        "Judas Sticau",
+        "Crapeur Beulin"
+      ],
+      "items": [
+        {
+          "name": "Pandaburg",
+          "itemId": 7045,
+          "imageUrl": "/items/7045.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/7045"
+        },
+        {
+          "name": "Pandapils",
+          "itemId": 7047,
+          "imageUrl": "/items/7047.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/7047"
+        },
+        {
+          "name": "Atomystique intrigant",
+          "itemId": 11461,
+          "imageUrl": "/items/11461.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11461"
+        },
+        {
+          "name": "Rose à Lysa",
+          "itemId": 11462,
+          "imageUrl": "/items/11462.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11462"
+        },
+        {
+          "name": "Rose Ejoséphine",
+          "itemId": 11463,
+          "imageUrl": "/items/11463.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11463"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 601,
+            "name": "La Bourgade",
+            "coordinates": [
+              "-79,-42",
+              "-81,-44"
+            ]
+          },
+          {
+            "id": 610,
+            "name": "Larmes d'Ouronigride",
+            "coordinates": [
+              "-68,-85",
+              "-67,-84",
+              "-69,-87",
+              "-70,-87",
+              "-71,-87",
+              "-71,-85",
+              "-72,-84",
+              "-73,-85",
+              "-73,-86",
+              "-74,-84"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "20,-29"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2905,
+            "name": "Vengeuse Masquée",
+            "level": 160,
+            "imageUrl": "/bestiary/monsters/2905.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2913,
+                "name": "Chachachovage",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2913.png"
+              },
+              {
+                "id": 2893,
+                "name": "Crabe Hijacob",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2893.png"
+              },
+              {
+                "id": 2914,
+                "name": "Gélikan",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2914.png"
+              },
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          },
+          {
+            "id": 158,
+            "name": "Sulfurieux",
+            "monsters": [
+              {
+                "id": 2866,
+                "name": "Atomystique",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/2866.png"
+              },
+              {
+                "id": 2865,
+                "name": "Crapeur",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/2865.png"
+              },
+              {
+                "id": 2869,
+                "name": "Solfataré",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/2869.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:361",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/chauffage-agrave-moindre-frais.html",
+      "sourceTitle": "Chauffage à moindre frais",
+      "sourceHash": "4eddbf8163b2c5ec270bdb9b0d5ee6afc26f6263271358a0d143ab5a03e883e5",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Poursuivez Une blague vaseuse ? en trouvant un assistant pour Larry Tutthe, puis accompagnez Gaston dans les Larmes d'Ouronigride, inspectez les quatre extracteurs et récupérez la caisse d'outils nécessaire à la réparation avant de la remettre à Larry.",
+      "recommendedLevel": 160,
+      "prerequisites": [
+        "Bricole Girl est indiquée comme prérequis non obligatoire au lancement."
+      ],
+      "rewards": [
+        "2 282 028 XP.",
+        "28 780 kamas.",
+        "3 x Kama de glace.",
+        "5 x Pierre de Fumrirolle."
+      ],
+      "preparation": [
+        "Prévoir un combat contre un groupe de 3 monstres des Larmes d'Ouronigride.",
+        "Prévoir d'éventuels combats aléatoires pendant l'inspection des extracteurs."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Larry Tutthe, puis allez voir Lucette Brifian afin de chercher un nouvel assistant.",
+          "position": "[-65,-86]",
+          "zoneHint": "Larmes d'Ouronigride",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Lucette Brifian, qui vous oriente vers Valy Domidat.",
+          "position": "[-77,-42]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Demandez un assistant à Valy Domidat.",
+          "position": "[-75,-38]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à la Taverne d'Argent, montez à l'étage et parlez à Laurent Gebleuh. Il vous renvoie vers Gaston.",
+          "position": "[-77,-44]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir Gaston et annoncez-lui sa mutation dans les Larmes d'Ouronigride afin qu'il vous suive.",
+          "position": "[-67,-59]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Amenez Gaston auprès de Larry Tutthe.",
+          "position": "[-65,-86]",
+          "zoneHint": "Larmes d'Ouronigride",
+          "warning": "En arrivant sur la carte, vous êtes agressé par un groupe de 3 monstres des Larmes d'Ouronigride.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, parlez à Larry Tutthe et présentez-lui Gaston.",
+          "position": "[-65,-86]",
+          "zoneHint": "Larmes d'Ouronigride",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Inspectez l'extracteur situé en [-69,-86].",
+          "position": "[-69,-86]",
+          "zoneHint": "Larmes d'Ouronigride",
+          "warning": "L'inspection peut déclencher aléatoirement un combat contre des monstres de la zone.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Inspectez l'extracteur situé en [-69,-84].",
+          "position": "[-69,-84]",
+          "zoneHint": "Larmes d'Ouronigride",
+          "warning": "L'inspection peut déclencher aléatoirement un combat contre des monstres de la zone.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Inspectez l'extracteur situé en [-72,-84].",
+          "position": "[-72,-84]",
+          "zoneHint": "Larmes d'Ouronigride",
+          "warning": "L'inspection peut déclencher aléatoirement un combat contre des monstres de la zone.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Inspectez l'extracteur situé en [-71,-86].",
+          "position": "[-71,-86]",
+          "zoneHint": "Larmes d'Ouronigride",
+          "warning": "L'inspection peut déclencher aléatoirement un combat contre des monstres de la zone.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez voir Larry Tutthe et signalez-lui qu'un extracteur est endommagé.",
+          "position": "[-65,-86]",
+          "zoneHint": "Larmes d'Ouronigride",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez à l'atelier des bricoleurs et demandez à Valy Domidat une caisse de matériel pour Larry.",
+          "position": "[-75,-38]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rapportez la caisse de matériel à Larry Tutthe et donnez-la-lui pour terminer la quête.",
+          "position": "[-65,-86]",
+          "zoneHint": "Larmes d'Ouronigride",
+          "warning": "La caisse est remise à Larry Tutthe.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [],
+      "npcs": [
+        "Larry Tutthe",
+        "Lucette Brifian",
+        "Valy Domidat",
+        "Laurent Gebleuh",
+        "Gaston"
+      ],
+      "items": [
+        {
+          "name": "Caisse de matériel",
+          "itemId": 11388,
+          "imageUrl": "/items/11388.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11388"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 601,
+            "name": "La Bourgade",
+            "coordinates": [
+              "-77,-42",
+              "-75,-38",
+              "-77,-44"
+            ]
+          },
+          {
+            "id": 610,
+            "name": "Larmes d'Ouronigride",
+            "coordinates": [
+              "-65,-86",
+              "-67,-59",
+              "-69,-86",
+              "-69,-84",
+              "-72,-84",
+              "-71,-86"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2905,
+            "name": "Vengeuse Masquée",
+            "level": 160,
+            "imageUrl": "/bestiary/monsters/2905.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2913,
+                "name": "Chachachovage",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2913.png"
+              },
+              {
+                "id": 2893,
+                "name": "Crabe Hijacob",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2893.png"
+              },
+              {
+                "id": 2914,
+                "name": "Gélikan",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2914.png"
+              },
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          },
+          {
+            "id": 158,
+            "name": "Sulfurieux",
+            "monsters": [
+              {
+                "id": 2866,
+                "name": "Atomystique",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/2866.png"
+              },
+              {
+                "id": 2865,
+                "name": "Crapeur",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/2865.png"
+              },
+              {
+                "id": 2869,
+                "name": "Solfataré",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/2869.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:400",
+      "relation": "ACTIVE",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/une-blague-vaseuse.html",
+      "sourceTitle": "Une blague vaseuse ?",
+      "sourceHash": "3ffe4628b465f3654e2711cbb8d6e821bbdbd86eb0b37e9153774c325d4db23b",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Rentabiliser les combats des Larmes",
+      "description": "Les trois quêtes de cette étape passent par les Larmes d'Ouronigride. Les combats nécessaires à Chauffage à moindre frais et ceux déclenchés pendant Une blague vaseuse ? peuvent en même temps fournir des Rose à lys Cullen pour Rose à lys, Rose à lys, oh !, tant qu'ils ont lieu hors du donjon.",
+      "questKeys": [
+        "quest:339",
+        "quest:361",
+        "quest:400"
+      ],
+      "actions": [
+        "Lancez Rose à lys, Rose à lys, oh ! avant d'enchaîner les combats dans les Larmes d'Ouronigride.",
+        "Pendant Chauffage à moindre frais et Une blague vaseuse ?, vérifiez la progression vers les 40 Rose à lys Cullen.",
+        "Complétez au besoin la collecte avec d'autres combats de zone, toujours hors du donjon Hypogée de l'Obsidiantre."
+      ]
+    },
+    {
+      "title": "Regrouper les passages autour de [-72,-84]",
+      "description": "La collecte des Rose Ejoséphine de Chauffage à moindre frais et l'inspection des extracteurs d'Une blague vaseuse ? utilisent plusieurs cartes proches dans les Larmes d'Ouronigride, notamment [-72,-84].",
+      "questKeys": [
+        "quest:361",
+        "quest:400"
+      ],
+      "actions": [
+        "Lors de l'inspection de l'extracteur en [-72,-84], vérifiez aussi si une Rose Ejoséphine est disponible sur cette carte.",
+        "Profitez du même circuit pour contrôler les autres emplacements de Rose Ejoséphine proches des extracteurs."
+      ]
+    }
+  ]
 }

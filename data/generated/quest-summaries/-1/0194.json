@@ -1,8 +1,443 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 194,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T22:28:07.803Z",
+  "summaries": [
+    {
+      "overview": "L'Horologium de XLII et la victoire contre XLII sont supposés déjà accomplis à l'étape précédente. Reprenez la quête à la fin du donjon : interrogez XLII sur son passage vers le Xélorium, puis retournez à l'avant-poste faire votre rapport au Doc Emiette Borgne pour terminer la quête.",
+      "recommendedLevel": 170,
+      "prerequisites": [
+        "De fil en aiguille",
+        "Avoir déjà vaincu XLII dans l'Horologium de XLII lors de l'occurrence précédente."
+      ],
+      "rewards": [
+        "4 711 728 XP",
+        "64 560 Kamas",
+        "35 x Orichor",
+        "3 x Touffe de cheveux de Soissanth"
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "À la fin de l'Horologium de XLII, parlez à XLII et demandez-lui comment il a réussi à entrer dans le Xélorium.",
+          "position": null,
+          "zoneHint": "Horologium de XLII",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Après ses explications sur son passage depuis l'Hormonde, menacez XLII d'en parler au Dieu Xélor afin de poursuivre la quête.",
+          "position": null,
+          "zoneHint": "Horologium de XLII",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez à l'avant-poste des Chemins d'hier et parlez au Doc Emiette Borgne pour lui faire le rapport de votre rencontre avec XLII et terminer la quête.",
+          "position": "[1,6]",
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le donjon Horologium de XLII ne doit pas être refait ici : sa réalisation et la victoire contre XLII appartiennent à l'occurrence précédente."
+      ],
+      "npcs": [
+        "XLII",
+        "Doc Emiette Borgne"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 836,
+            "name": "Chemins d'hier",
+            "coordinates": [
+              "1,6"
+            ]
+          },
+          {
+            "id": 840,
+            "name": "Horologium de XLII",
+            "coordinates": []
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3845,
+            "name": "Morblok",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/3845.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1172,
+            "name": "Hordémons",
+            "monsters": [
+              {
+                "id": 3840,
+                "name": "Trezz",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3840.png"
+              },
+              {
+                "id": 3841,
+                "name": "Vindeux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3841.png"
+              },
+              {
+                "id": 3842,
+                "name": "Trantroa",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3842.png"
+              },
+              {
+                "id": 3843,
+                "name": "Seith",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3843.png"
+              },
+              {
+                "id": 3844,
+                "name": "Soissanth",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3844.png"
+              }
+            ]
+          },
+          {
+            "id": 1171,
+            "name": "Xélomorphes",
+            "monsters": [
+              {
+                "id": 3854,
+                "name": "Gromorso",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3854.png"
+              },
+              {
+                "id": 3855,
+                "name": "Farfacette",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3855.png"
+              },
+              {
+                "id": 3856,
+                "name": "Brikablak",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3856.png"
+              },
+              {
+                "id": 3857,
+                "name": "Éklatleth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3857.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:865",
+      "relation": "FINISH",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-vie-lhormonde-et-le-reste.html",
+      "sourceTitle": "La Vie, l'Hormonde et le Reste",
+      "sourceHash": "ebe2d3cce48fff649f03ef87253e03f97e3bcb960453a5262d714c9d820acd20",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "La quête a été lancée précédemment et le guide vous a fait récupérer les Krosmorbes en avançant dans les quêtes de la zone, notamment Terminutor : le jugement de la machine. À cette occurrence, il ne reste qu'à rapporter les Krosmorbes demandés à la Caporale Tarte pour terminer la quête.",
+      "recommendedLevel": 170,
+      "prerequisites": [
+        "Avoir lancé Les voleurs de couleurs auprès du Colonel Oneuil.",
+        "Avoir récupéré 4 Krosmorbes de chacune des 3 couleurs demandées, soit 12 Krosmorbes au total."
+      ],
+      "rewards": [
+        "2 355 864 XP",
+        "32 280 Kamas",
+        "35 x Orichor",
+        "5 x Dent de Trezz"
+      ],
+      "preparation": [
+        "Vérifiez que vous possédez bien les 12 Krosmorbes requis avant de vous rendre à l'avant-poste."
+      ],
+      "actions": [
+        {
+          "instruction": "À l'avant-poste du Xélorium, remettez à la Caporale Tarte les Krosmorbes récupérés pour valider l'objectif et terminer Les voleurs de couleurs.",
+          "position": null,
+          "zoneHint": "Avant-poste du Xélorium",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les combats et le drop des Krosmorbes sont supposés déjà effectués lors des occurrences précédentes du parcours ; ne repartez pas les farmer si vous avez déjà la quantité demandée."
+      ],
+      "npcs": [
+        "Caporale Tarte"
+      ],
+      "items": [
+        {
+          "name": "Krosmorbe",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": []
+      },
+      "questKey": "quest:856",
+      "relation": "FINISH",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/les-voleurs-de-couleurs.html",
+      "sourceTitle": "Les voleurs de couleurs",
+      "sourceHash": "eeb525adf8365904da452ec1f012b9df5b849de49857ccf2b95ca366a3235c4c",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez l'alignement 70 auprès d'Amayiro et réunissez les quatre personnes qu'il souhaite associer au plan. Revenez ensuite auprès de lui afin qu'il vous demande les ressources nécessaires au subterfuge. Arrêtez-vous dès que l'objectif d'obtenir la Graisse mammaire de Kanig est demandé : la Grotte de Kanigroula sera effectuée plus tard, à une autre étape.",
+      "recommendedLevel": 160,
+      "prerequisites": [
+        "Un sombre pouvoir"
+      ],
+      "rewards": [
+        "10 953 734 XP"
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "À la Milice de Bonta, parlez à Amayiro pour lancer Le subterfuge de la corne et accepter de l'aider à faire croire à Brâkmar que la corne possède un grand pouvoir.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta - Milice",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montez à l'étage de la Milice et prévenez le Capitaine Koda afin qu'il rejoigne Amayiro.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta - Milice",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Toujours à l'étage de la Milice, allez dans la pièce à droite et prévenez Ture Inge afin qu'il rejoigne Amayiro.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta - Milice",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à l'atelier des bijoutiers et prévenez Marge Gondersun afin qu'elle rejoigne Amayiro.",
+          "position": "[-33,-55]",
+          "zoneHint": "Bonta - Atelier des bijoutiers",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez à l'entrée sud de Bonta et prévenez Niamuh Boulkier afin qu'il rejoigne Amayiro.",
+          "position": "[-29,-53]",
+          "zoneHint": "Bonta - Entrée sud",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès d'Amayiro à la Milice. Écoutez son plan jusqu'à ce qu'il vous demande de vous procurer 3 Miteters et 1 Graisse mammaire de Kanig, puis arrêtez votre progression ici.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta - Milice",
+          "warning": "Ne faites pas encore la Grotte de Kanigroula et n'obtenez pas la Graisse mammaire de Kanig : cette partie est volontairement reportée à une étape ultérieure du guide.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La Graisse mammaire de Kanig s'obtient automatiquement sur Kanigroula dans la Grotte de Kanigroula en [-5,-54], mais le guide impose de reporter ce donjon.",
+        "Les 3 Miteters et la Graisse mammaire de Kanig seront nécessaires pour poursuivre la quête après cet arrêt."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Capitaine Koda",
+        "Ture Inge",
+        "Marge Gondersun",
+        "Niamuh Boulkier"
+      ],
+      "items": [
+        {
+          "name": "Miteters",
+          "itemId": 9265,
+          "imageUrl": "/items/9265.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9265"
+        },
+        {
+          "name": "Graisse mammaire de Kanig",
+          "itemId": 9266,
+          "imageUrl": "/items/9266.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9266"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-33,-55",
+              "-29,-53"
+            ]
+          },
+          {
+            "id": 811,
+            "name": "Grotte de Kanigroula",
+            "coordinates": [
+              "-32,-57"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1054,
+            "name": "Kanigs des Dents de Pierre",
+            "monsters": [
+              {
+                "id": 3557,
+                "name": "Kanihilan",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/3557.png"
+              },
+              {
+                "id": 3559,
+                "name": "Félygiène",
+                "level": 150,
+                "imageUrl": "/bestiary/monsters/3559.png"
+              },
+              {
+                "id": 3560,
+                "name": "Panthègros",
+                "level": 150,
+                "imageUrl": "/bestiary/monsters/3560.png"
+              },
+              {
+                "id": 3561,
+                "name": "Kaniblou",
+                "level": 151,
+                "imageUrl": "/bestiary/monsters/3561.png"
+              },
+              {
+                "id": 3562,
+                "name": "Orfélin",
+                "level": 151,
+                "imageUrl": "/bestiary/monsters/3562.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:194",
+      "relation": "START",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-subterfuge-de-la-corne.html",
+      "sourceTitle": "Alignement 70 : Le subterfuge de la corne",
+      "sourceHash": "62d2eb3c23f612cb995179887133ac69a509a6cb42f874be05a5c193613448cd",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

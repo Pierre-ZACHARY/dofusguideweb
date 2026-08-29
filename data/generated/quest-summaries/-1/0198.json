@@ -1,8 +1,1405 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 198,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T22:28:14.276Z",
+  "summaries": [
+    {
+      "overview": "Poursuivez l'enquête sur Gnerah : capturez-le dans les égouts de Bonta, préparez le procès de Trev, procurez-vous puis faites dresser un Chacharlatan et terminez par le procès. Le choix de vos réponses au tribunal détermine si Trev est déclaré innocent ou coupable.",
+      "recommendedLevel": 174,
+      "prerequisites": [
+        "Avoir terminé De drôles de témoins."
+      ],
+      "rewards": [
+        "11 460 141 XP.",
+        "10 x Brioche Dorée si vous défendez avec succès l'innocence de Trev auprès d'Amayiro."
+      ],
+      "preparation": [
+        "Prévoir 1 x Marteau de Raclage, à acheter ou fabriquer avec 1 x Sourcil de Moskito et 3 x Plume de Piou Vert.",
+        "Prévoir un premier combat obligatoire en solitaire.",
+        "Le combat permettant de capturer le Chacharlatan peut être réalisé en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Depuis la bouche d'égout, descendez dans les égouts de Bonta puis suivez le chemin gauche puis bas jusqu'à Gnerah en [-31,-54]. Parlez-lui et imposez-lui de vous suivre.",
+          "position": "[-29,-58]",
+          "zoneHint": "Égouts de Bonta",
+          "warning": "Le dialogue déclenche un combat obligatoire en solitaire contre Gnerah accompagné de 3 monstres.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Battez Gnerah puis ramenez-le à Amayiro à la Milice.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir Danathor et écoutez sa proposition concernant le procès de Trev.",
+          "position": "[-36,-60]",
+          "zoneHint": null,
+          "warning": "Danathor vous demande de soutenir la culpabilité de Trev en échange d'une récompense ; ce positionnement entre en conflit avec celui d'Amayiro.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez à la Milice, montez à l'étage et entrez dans la salle centrale pour parler au juge Satirev Onivin. Il vous demande un nouveau Marteau de Raclage.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Achetez ou fabriquez 1 x Marteau de Raclage, puis remettez-le à Satirev Onivin afin de permettre l'ouverture du procès.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": "La fabrication nécessite exactement 1 x Sourcil de Moskito et 3 x Plume de Piou Vert.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Amayiro, puis allez voir Ture Inge dans la salle de droite à l'étage. Il vous demande de trouver un Chacharlatan à dresser pour hypnotiser Gnerah.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Oshimo et demandez des précisions sur les Chacharlatans afin d'obtenir une piste.",
+          "position": "[9,21]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "En [3,17], cliquez sur l'étoile dissimulée dans les arbres en haut à droite, entrez sur la carte secrète, pénétrez dans la maison et montez au premier étage. Parlez au Chacharlatan et choisissez de le prendre par la force.",
+          "position": "[3,17]",
+          "zoneHint": "Maison de la carte secrète",
+          "warning": "Le choix déclenche un combat. Pendant celui-ci, évitez d'attaquer au sort une cible protégée par Chataprendra, qui renvoie les sorts jusqu'au rang 6 ; une arme permet de contourner cet effet.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire, apportez le Chacharlatan capturé à Riyou Tchevlakouk et demandez-lui de le dresser.",
+          "position": "[-30,-58]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Ture Inge pour l'informer que le dressage est en cours, puis Amayiro pour lui demander davantage de temps avant le procès.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparlez à Ture Inge : le Chacharlatan est désormais dressé et il tente d'obtenir les aveux de Gnerah. Retournez ensuite auprès d'Amayiro, qui vous annonce qu'il est trop tard pour attendre ces aveux et qu'il faut rejoindre le procès.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Depuis la salle principale de la Milice, montez à l'étage puis entrez directement dans la salle de gauche pour assister au procès. Répondez au juge Satirev Onivin selon le verdict que vous souhaitez obtenir.",
+          "position": "[-32,-57]",
+          "zoneHint": "Salle du procès de la Milice de Bonta",
+          "warning": "Choix déterminant : vos réponses influencent la culpabilité de Trev. Pour l'innocenter, choisissez successivement « Oui, la version de Trev est crédible », « Le témoignage de S’maid n’est pas crédible et indigne de confiance », « Oui, malgré la nullité de ce Sram, c’est fort probable », puis « Innocent ! ». Danathor préfère sa condamnation tandis qu'Amayiro souhaite son acquittement.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Après le verdict, parlez à Danathor puis à Amayiro pour conclure la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Cette occurrence mène jusqu'à la fin de Sram d'Égoutant et débloque la quête d'alignement suivante, Si j'avais un marteau.",
+        "Les aveux de Gnerah ne sont finalement pas obtenus à temps avant le procès."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Gnerah",
+        "Danathor",
+        "Satirev Onivin",
+        "Ture Inge",
+        "Oshimo",
+        "Chacharlatan",
+        "Riyou Tchevlakouk",
+        "Trev Pelsantery"
+      ],
+      "items": [
+        {
+          "name": "Marteau de Raclage",
+          "itemId": 224,
+          "imageUrl": "/items/224.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/224"
+        },
+        {
+          "name": "Sourcil de Moskito",
+          "itemId": 371,
+          "imageUrl": "/items/371.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/371"
+        },
+        {
+          "name": "Plume de Piou Vert",
+          "itemId": 6899,
+          "imageUrl": "/items/6899.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6899"
+        },
+        {
+          "name": "Brioche Dorée",
+          "itemId": 743,
+          "imageUrl": "/items/743.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/743"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-29,-58",
+              "-31,-54",
+              "-30,-58"
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Forêt d'Amakna",
+            "coordinates": [
+              "9,21",
+              "3,17"
+            ]
+          },
+          {
+            "id": 976,
+            "name": "Promontoire des cieux",
+            "coordinates": [
+              "-36,-60"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2323,
+            "name": "Chamchie le Difficile",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2323.png"
+          },
+          {
+            "id": 2349,
+            "name": "Preskapwal le Tendancieux",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2349.png"
+          },
+          {
+            "id": 2353,
+            "name": "Sangria le Fruité",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2353.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 103,
+                "name": "Prespic",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/103.png"
+              },
+              {
+                "id": 104,
+                "name": "Sanglier",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/104.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 1602,
+            "name": "Vermines des champs",
+            "monsters": [
+              {
+                "id": 59,
+                "name": "Champ Champ",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/59.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:187",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/sram-d-egoutant.html",
+      "sourceTitle": "Alignement 74 : Sram d'Égoutant",
+      "sourceHash": "9acfe7f774cbe13a2db22cc3da5475209526a035897bb9abf41b9e61b80e1c62",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Reconstituez la piste du Marteau de Lumière volé : interrogez plusieurs maîtres de temple, négociez avec le culte de Julith dans les égouts, récupérez les éléments permettant d'ouvrir une crypte puis affrontez le Saigneur Vampire. Cette quête intervient après Sram d'Égoutant dans la séquence d'alignement.",
+      "recommendedLevel": 175,
+      "prerequisites": [
+        "Avoir terminé Sram d'Égoutant."
+      ],
+      "rewards": [
+        "5 749 537 XP."
+      ],
+      "preparation": [
+        "Prévoir 500 kamas pour faire tailler l'Écorce sombre pétrifiée.",
+        "Prévoir l'aide de 3 autres personnages pour activer simultanément les 4 dalles de la crypte.",
+        "Deux combats de cette quête peuvent être réalisés en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "À la Tour des ordres, entrez par l'entrée basse en [-34,-57], avancez tout droit puis prenez à gauche pour parler à Ebru of El. Il vous charge de découvrir comment recréer le Marteau de Lumière.",
+          "position": "[-34,-58]",
+          "zoneHint": "Tour des ordres de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez Chaki Triss à propos du Marteau de Lumière.",
+          "position": "[-3,-4]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez Filgar Feel à propos du Marteau de Lumière.",
+          "position": "[1,-5]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez Edrige Valling à propos du Marteau de Lumière.",
+          "position": "[0,3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez Rish Claymore à propos du Marteau de Lumière. Il vous apprend qu'un second marteau a servi à sceller un vampire et que le récupérer libérera ce dernier.",
+          "position": "[1,3]",
+          "zoneHint": null,
+          "warning": "La récupération du marteau scellé implique de libérer le vampire qui le garde.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez Elya Wood à propos du Marteau de Lumière.",
+          "position": "[7,1]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez Hugo Bélo à propos du Marteau de Lumière.",
+          "position": "[12,5]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À la bibliothèque de Brâkmar, questionnez Jean-Sol Patre sur le Marteau de Lumière puis sur la crypte scellée du vampire. Il vous oriente vers des documents du culte de Julith cachés dans les égouts.",
+          "position": "[-24,39]",
+          "zoneHint": "Bibliothèque de Brâkmar",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans les égouts de Brâkmar en [-21,36], rejoignez [-22,36] et parlez au Moine Occulte. Acceptez de lui rapporter le fluide d'une machine semblable située dans les égouts de Bonta.",
+          "position": "[-22,36]",
+          "zoneHint": "Égouts de Brâkmar",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans les égouts de Bonta par la bouche en [-32,-58], rejoignez la machine en [-32,-56] puis cliquez sur la chaîne située à côté d'elle.",
+          "position": "[-32,-56]",
+          "zoneHint": "Égouts de Bonta",
+          "warning": "Cliquer sur la chaîne déclenche un combat réalisable en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire, retournez dans les égouts de Brâkmar en [-22,36] et remettez le fluide au Moine Occulte pour obtenir une Vieille copie usée du livre.",
+          "position": "[-22,36]",
+          "zoneHint": "Égouts de Brâkmar",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montrez la Vieille copie usée du livre à Rish Claymore au temple Iop. Il vous indique qu'il faut récupérer du bois pétrifié, le faire sculpter puis ouvrir une crypte avec trois compagnons.",
+          "position": "[1,3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la Forêt pétrifiée, récupérez l'Écorce sombre pétrifiée sur le tronc qui dépasse de la neige.",
+          "position": "[-78,-68]",
+          "zoneHint": "Forêt pétrifiée",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Apportez l'écorce à Abely Bobeule à l'atelier des sculpteurs et payez 500 kamas pour la faire tailler.",
+          "position": "[3,12]",
+          "zoneHint": "Atelier des sculpteurs",
+          "warning": "Dépense obligatoire de 500 kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Réunissez exactement 3 autres personnages puis rendez-vous en [9,15]. Entrez dans la crypte de droite et cliquez sur la torche la plus à gauche du pan de mur de droite pour ouvrir le passage secret sous une tombe.",
+          "position": "[9,15]",
+          "zoneHint": "Crypte",
+          "warning": "Vous devez être 4 personnages au total pour l'étape suivante.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la salle suivante, placez chacun des 4 personnages sur une dalle différente afin d'ouvrir la grille, puis franchissez la porte ensemble.",
+          "position": null,
+          "zoneHint": "Crypte",
+          "warning": "L'ouverture exige l'activation simultanée des 4 dalles.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Saigneur Vampire, demandez où se trouve le Marteau de Lumière puis adoptez une posture de combat.",
+          "position": null,
+          "zoneHint": "Crypte",
+          "warning": "Le combat est réalisable en groupe et l'aide des compagnons est recommandée.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire, reparlez au Saigneur Vampire et réclamez le Marteau de Lumière. Il vous remet le marteau, désormais privé de son esprit de lumière.",
+          "position": null,
+          "zoneHint": "Crypte",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Ebru of El à la Tour des ordres et remettez-lui le Marteau de Lumière sans esprit pour terminer la quête.",
+          "position": "[-34,-58]",
+          "zoneHint": "Tour des ordres de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête se termine dès que le Marteau de Lumière sans esprit est remis à Ebru of El.",
+        "Cette conclusion débloque la quête d'alignement suivante, Esprit, es-tu là ?"
+      ],
+      "npcs": [
+        "Ebru of El",
+        "Chaki Triss",
+        "Filgar Feel",
+        "Edrige Valling",
+        "Rish Claymore",
+        "Elya Wood",
+        "Hugo Bélo",
+        "Jean-Sol Patre",
+        "Moine Occulte",
+        "Abely Bobeule",
+        "Saigneur Vampire"
+      ],
+      "items": [
+        {
+          "name": "Marteau de Lumière",
+          "itemId": 9215,
+          "imageUrl": "/items/9215.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9215"
+        },
+        {
+          "name": "Vieille copie usée du livre",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Écorce sombre pétrifiée",
+          "itemId": 10177,
+          "imageUrl": "/items/10177.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/10177"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 485,
+            "name": "Campagne d'Amakna",
+            "coordinates": [
+              "7,1"
+            ]
+          },
+          {
+            "id": 6,
+            "name": "Cimetière",
+            "coordinates": [
+              "9,15"
+            ]
+          },
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-34,-57",
+              "-32,-56",
+              "-32,-58"
+            ]
+          },
+          {
+            "id": 179,
+            "name": "Coin des Boos",
+            "coordinates": [
+              "12,5"
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Forêt d'Amakna",
+            "coordinates": [
+              "3,12"
+            ]
+          },
+          {
+            "id": 605,
+            "name": "Forêt pétrifiée",
+            "coordinates": [
+              "-78,-68"
+            ]
+          },
+          {
+            "id": 978,
+            "name": "L'Ancre",
+            "coordinates": [
+              "-24,39"
+            ]
+          },
+          {
+            "id": 980,
+            "name": "La Marmite",
+            "coordinates": [
+              "-22,36",
+              "-21,36"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-34,-58"
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Montagne des Craqueleurs",
+            "coordinates": [
+              "-3,-4",
+              "1,-5"
+            ]
+          },
+          {
+            "id": 976,
+            "name": "Promontoire des cieux",
+            "coordinates": [
+              "-34,-58"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "0,3",
+              "1,3"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4270,
+            "name": "Roub' Ignolles",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/4270.png"
+          },
+          {
+            "id": 2908,
+            "name": "Dremoan",
+            "level": 180,
+            "imageUrl": "/bestiary/monsters/2908.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2310,
+            "name": "Arakule la Revancharde",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2310.png"
+          },
+          {
+            "id": 2323,
+            "name": "Chamchie le Difficile",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2323.png"
+          },
+          {
+            "id": 2336,
+            "name": "Mosketère le Dévoué",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2336.png"
+          },
+          {
+            "id": 2349,
+            "name": "Preskapwal le Tendancieux",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2349.png"
+          },
+          {
+            "id": 2353,
+            "name": "Sangria le Fruité",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2353.png"
+          },
+          {
+            "id": 2549,
+            "name": "Boostif l'Affamé",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2549.png"
+          },
+          {
+            "id": 2321,
+            "name": "Chafalfer l'Optimiste",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2321.png"
+          },
+          {
+            "id": 2319,
+            "name": "Chafemal le Bagarreur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2319.png"
+          },
+          {
+            "id": 2522,
+            "name": "Kwoanneur le Frimeur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2522.png"
+          },
+          {
+            "id": 2357,
+            "name": "Tofumanchou l'Empereur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2357.png"
+          },
+          {
+            "id": 2421,
+            "name": "Chaffoin le Sournois",
+            "level": 33,
+            "imageUrl": "/bestiary/monsters/2421.png"
+          },
+          {
+            "id": 2276,
+            "name": "Ribibi le Cher",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2276.png"
+          },
+          {
+            "id": 2367,
+            "name": "Kwakamole l'Appétissant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2367.png"
+          },
+          {
+            "id": 2369,
+            "name": "Kwaké le Piraté",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2369.png"
+          },
+          {
+            "id": 2451,
+            "name": "Kwakolak le Chocolaté",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2451.png"
+          },
+          {
+            "id": 2368,
+            "name": "Kwakwatique le Trempé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2368.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 103,
+                "name": "Prespic",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/103.png"
+              },
+              {
+                "id": 104,
+                "name": "Sanglier",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/104.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              }
+            ]
+          },
+          {
+            "id": 193,
+            "name": "Bêtes de la nuit",
+            "monsters": [
+              {
+                "id": 154,
+                "name": "Kwoan",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/154.png"
+              },
+              {
+                "id": 111,
+                "name": "Tofu Maléfique",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/111.png"
+              }
+            ]
+          },
+          {
+            "id": 200,
+            "name": "Bouftous",
+            "monsters": [
+              {
+                "id": 134,
+                "name": "Boufton Blanc",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/134.png"
+              },
+              {
+                "id": 149,
+                "name": "Boufton Noir",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/149.png"
+              },
+              {
+                "id": 101,
+                "name": "Bouftou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/101.png"
+              }
+            ]
+          },
+          {
+            "id": 191,
+            "name": "Chafers d'Amakna",
+            "monsters": [
+              {
+                "id": 54,
+                "name": "Chafer",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/54.png"
+              },
+              {
+                "id": 110,
+                "name": "Chafer Invisible",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/110.png"
+              },
+              {
+                "id": 396,
+                "name": "Chafer Fantassin",
+                "level": 33,
+                "imageUrl": "/bestiary/monsters/396.png"
+              },
+              {
+                "id": 108,
+                "name": "Rib",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/108.png"
+              }
+            ]
+          },
+          {
+            "id": 208,
+            "name": "Gadouilleux",
+            "monsters": [
+              {
+                "id": 112,
+                "name": "Boo",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/112.png"
+              }
+            ]
+          },
+          {
+            "id": 190,
+            "name": "Kwakeres",
+            "monsters": [
+              {
+                "id": 269,
+                "name": "Kwakere de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/269.png"
+              },
+              {
+                "id": 271,
+                "name": "Kwakere de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/271.png"
+              },
+              {
+                "id": 270,
+                "name": "Kwakere de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/270.png"
+              },
+              {
+                "id": 272,
+                "name": "Kwakere de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/272.png"
+              }
+            ]
+          },
+          {
+            "id": 189,
+            "name": "Kwaks",
+            "monsters": [
+              {
+                "id": 83,
+                "name": "Kwak de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/83.png"
+              },
+              {
+                "id": 84,
+                "name": "Kwak de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/84.png"
+              },
+              {
+                "id": 235,
+                "name": "Kwak de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/235.png"
+              },
+              {
+                "id": 81,
+                "name": "Kwak de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/81.png"
+              }
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Mulous",
+            "monsters": [
+              {
+                "id": 102,
+                "name": "Mulou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/102.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 214,
+            "name": "Porkass",
+            "monsters": [
+              {
+                "id": 123,
+                "name": "Cochon de Lait",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/123.png"
+              }
+            ]
+          },
+          {
+            "id": 154,
+            "name": "Sylvesprits",
+            "monsters": [
+              {
+                "id": 2898,
+                "name": "Abrazif",
+                "level": 172,
+                "imageUrl": "/bestiary/monsters/2898.png"
+              },
+              {
+                "id": 2895,
+                "name": "Dramanite",
+                "level": 172,
+                "imageUrl": "/bestiary/monsters/2895.png"
+              },
+              {
+                "id": 2896,
+                "name": "Fistulor",
+                "level": 172,
+                "imageUrl": "/bestiary/monsters/2896.png"
+              },
+              {
+                "id": 2897,
+                "name": "Fongeur",
+                "level": 172,
+                "imageUrl": "/bestiary/monsters/2897.png"
+              }
+            ]
+          },
+          {
+            "id": 1602,
+            "name": "Vermines des champs",
+            "monsters": [
+              {
+                "id": 4819,
+                "name": "Campagnoll",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/4819.png"
+              },
+              {
+                "id": 59,
+                "name": "Champ Champ",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/59.png"
+              },
+              {
+                "id": 61,
+                "name": "Moskito",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/61.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:195",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/si-j-avais-un-marteau.html",
+      "sourceTitle": "Alignement 75 : Si j'avais un marteau",
+      "sourceHash": "ebdea33374e7f777ec16211be9721237df3871f53580eca3863f6aecd69cf2a5",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez uniquement la quête auprès de Grobidet. Elle demande d'aider trois habitants via Dépôt de ravitaillement, Un ami qui ne vous veut pas que du bien et Maya la belle. Ces sous-quêtes seront réalisées au fil de l'aventure et le rendu auprès de Grobidet est prévu à une étape ultérieure.",
+      "recommendedLevel": 190,
+      "prerequisites": [
+        "Avoir terminé Les rescapés de Frigost."
+      ],
+      "rewards": [
+        "6 064 732 XP.",
+        "95 712 Kamas.",
+        "4 x Kama de glace."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parlez à Grobidet pour accepter d'aider les trois personnes du Village Enseveli et lancer Les rescapés du Village Enseveli.",
+          "position": "[-77,-72]",
+          "zoneHint": "Le village enseveli",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Ne terminez pas les trois sous-quêtes dans cette occurrence.",
+        "Dépôt de ravitaillement est lancé juste après dans cette même étape.",
+        "Un ami qui ne vous veut pas que du bien et Maya la belle seront effectuées plus tard dans l'aventure.",
+        "Le retour final auprès de Grobidet en [-77,-72] est réservé à l'occurrence FINISH de l'étape 210."
+      ],
+      "npcs": [
+        "Grobidet"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 603,
+            "name": "Village enseveli",
+            "coordinates": [
+              "-77,-72"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          },
+          {
+            "id": 137,
+            "name": "Givrefoux",
+            "monsters": [
+              {
+                "id": 2889,
+                "name": "Maho Givrefoux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/2889.png"
+              },
+              {
+                "id": 2890,
+                "name": "Soryo Givrefoux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/2890.png"
+              },
+              {
+                "id": 2888,
+                "name": "Yokaï Givrefoux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/2888.png"
+              },
+              {
+                "id": 2891,
+                "name": "Yomi Givrefoux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/2891.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:711",
+      "relation": "START",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/les-rescapeacutes-du-village-enseveli.html",
+      "sourceTitle": "Les rescapés du Village Enseveli",
+      "sourceHash": "5434d489d7c3b25411e54fb66c297e8baf76e6f0b2fa04e90d9308640676f6f2",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Commencez Dépôt de ravitaillement et avancez uniquement jusqu'au blocage qui demande de terminer Chaud du S.L.I.P. Vous récupérez les caisses perdues, enquêtez sur la complainte de la forêt puis rencontrez Lulu Cotte. La Potion du S.L.I.P., les bûcherons gelés et la fin de la quête sont volontairement différés.",
+      "recommendedLevel": 180,
+      "prerequisites": [
+        "Avoir terminé À qui profite le boufmouth.",
+        "Le Village Enseveli doit être libéré pour pouvoir parler aux PNJ concernés."
+      ],
+      "rewards": [
+        "4 874 772 XP à la fin de la quête.",
+        "71 960 kamas à la fin de la quête.",
+        "4 x Kama de glace à la fin de la quête.",
+        "1 x Racine d'Abrazif à la fin de la quête.",
+        "1 x Moi, Missiz Frizz à la fin de la quête."
+      ],
+      "preparation": [
+        "Prévoir de parler à Lulu Cotte entre 8h00 et 20h00.",
+        "La suite après l'arrêt de cette occurrence nécessitera une rencontre dans l'Hypogée de l'Obsidiantre entre 20h00 et 8h00."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Moutou Louse pour lancer Dépôt de ravitaillement. Il vous demande de récupérer les caisses abandonnées lors de son attaque.",
+          "position": "[-80,-73]",
+          "zoneHint": "Le village enseveli",
+          "warning": "Le Village Enseveli doit être libéré pour interagir normalement avec les PNJ de cette quête.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous en [-74,-72] et récupérez les caisses de ravitaillement. Une complainte étrange se fait entendre au moment de leur récupération.",
+          "position": "[-74,-72]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rapportez les caisses à Moutou Louse.",
+          "position": "[-80,-73]",
+          "zoneHint": "Le village enseveli",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cherchez l'origine de la complainte en parlant à Adélaïde. Elle vous explique que son grand-père est prisonnier de la glace mais continue de lui parler.",
+          "position": "[-81,-69]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Moutou Louse afin de lui parler d'Adélaïde et de chercher un moyen de l'aider.",
+          "position": "[-80,-73]",
+          "zoneHint": "Le village enseveli",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Père Doby au sujet de l'histoire d'Adélaïde.",
+          "position": "[-77,-73]",
+          "zoneHint": "Le village enseveli",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la Taverne du Village Enseveli et parlez d'abord à Salah Connol.",
+          "position": "[-78,-75]",
+          "zoneHint": "Taverne du village enseveli",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Descendez dans la cave de la taverne et parlez à Lulu Cotte en lui demandant ce qu'elle fait de ses nuits.",
+          "position": "[-78,-75]",
+          "zoneHint": "Cave de la Taverne du village enseveli",
+          "warning": "Lulu Cotte n'est disponible ici qu'entre 8h00 et 20h00.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Prenez connaissance du rendez-vous donné par Lulu Cotte dans une salle annexe de l'Hypogée de l'Obsidiantre en [-71,-83], prévu entre 20h00 et 8h00. Arrêtez ici cette occurrence de Dépôt de ravitaillement.",
+          "position": "[-78,-75]",
+          "zoneHint": "Cave de la Taverne du village enseveli",
+          "warning": "Ne poursuivez pas Dépôt de ravitaillement au-delà de ce point : la progression exige maintenant d'effectuer Chaud du S.L.I.P., prévue à l'étape suivante du guide.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La prochaine portion de Dépôt de ravitaillement demande d'aider les prophètes du S.L.I.P. et d'obtenir une Potion du S.L.I.P.",
+        "Chaud du S.L.I.P. est volontairement laissée pour l'étape 199.",
+        "Après cette quête intermédiaire, Dépôt de ravitaillement reprendra avec Asselo, le Bouton d'Or et la libération des bûcherons gelés.",
+        "La fin complète de Dépôt de ravitaillement est réservée à son occurrence FINISH de l'étape 206."
+      ],
+      "npcs": [
+        "Moutou Louse",
+        "Adélaïde",
+        "Père Doby",
+        "Salah Connol",
+        "Lulu Cotte"
+      ],
+      "items": [
+        {
+          "name": "Caisses de ravitaillement",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 605,
+            "name": "Forêt pétrifiée",
+            "coordinates": [
+              "-74,-72"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "-81,-69"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "-71,-83"
+            ]
+          },
+          {
+            "id": 603,
+            "name": "Village enseveli",
+            "coordinates": [
+              "-80,-73",
+              "-77,-73",
+              "-78,-75"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2908,
+            "name": "Dremoan",
+            "level": 180,
+            "imageUrl": "/bestiary/monsters/2908.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          },
+          {
+            "id": 137,
+            "name": "Givrefoux",
+            "monsters": [
+              {
+                "id": 2889,
+                "name": "Maho Givrefoux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/2889.png"
+              },
+              {
+                "id": 2890,
+                "name": "Soryo Givrefoux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/2890.png"
+              },
+              {
+                "id": 2888,
+                "name": "Yokaï Givrefoux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/2888.png"
+              },
+              {
+                "id": 2891,
+                "name": "Yomi Givrefoux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/2891.png"
+              }
+            ]
+          },
+          {
+            "id": 154,
+            "name": "Sylvesprits",
+            "monsters": [
+              {
+                "id": 2898,
+                "name": "Abrazif",
+                "level": 172,
+                "imageUrl": "/bestiary/monsters/2898.png"
+              },
+              {
+                "id": 2895,
+                "name": "Dramanite",
+                "level": 172,
+                "imageUrl": "/bestiary/monsters/2895.png"
+              },
+              {
+                "id": 2896,
+                "name": "Fistulor",
+                "level": 172,
+                "imageUrl": "/bestiary/monsters/2896.png"
+              },
+              {
+                "id": 2897,
+                "name": "Fongeur",
+                "level": 172,
+                "imageUrl": "/bestiary/monsters/2897.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:364",
+      "relation": "START",
+      "sortOrder": 3,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/deacutepocirct-de-ravitaillement.html",
+      "sourceTitle": "Dépôt de ravitaillement",
+      "sourceHash": "53262a04f86001f532202ed8b4a46c3dcbf4b27d81101e78d08baf46f9fa888f",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Enchaîner les départs au Village Enseveli",
+      "description": "Les deux quêtes de Frigost de cette étape se lancent dans le Village Enseveli. Lancez d'abord Les rescapés du Village Enseveli chez Grobidet, puis passez directement à Dépôt de ravitaillement chez Moutou Louse.",
+      "questKeys": [
+        "quest:711",
+        "quest:364"
+      ],
+      "actions": [
+        "Parler à Grobidet en [-77,-72] pour lancer Les rescapés du Village Enseveli.",
+        "Rejoindre ensuite Moutou Louse en [-80,-73] pour lancer Dépôt de ravitaillement."
+      ]
+    }
+  ]
 }

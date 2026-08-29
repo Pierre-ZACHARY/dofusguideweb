@@ -1,8 +1,853 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 168,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T22:25:12.371Z",
+  "summaries": [
+    {
+      "overview": "Poursuis l'alignement bontarien après La panoplie du milicien. Cette occurrence couvre Ambition ambigüe jusqu'à sa conclusion : enquête sur la Grafioze, fabrication d'un Seau de Pinces à Linge, restauration puis enchantement de la poupée, avant de rendre compte à Danathor puis de revenir vers Amayiro. La quête suivante, Trâknar, ne doit être commencée qu'après cette conclusion.",
+      "recommendedLevel": 137,
+      "prerequisites": [
+        "Avoir terminé La panoplie du milicien.",
+        "Disposer de l'aide d'un personnage possédant l'attitude Fleurs.",
+        "Disposer de l'aide d'un Bûcheron niveau 150 minimum.",
+        "Disposer de l'aide d'un Alchimiste niveau 150 minimum.",
+        "Disposer de l'aide d'un Sadida niveau 56 minimum."
+      ],
+      "rewards": [
+        "10 268 722 XP."
+      ],
+      "preparation": [
+        "Prévoir 500 kamas pour obtenir le Schéma de la Pince à Linge.",
+        "Prévoir 5 x Planche de Gravure.",
+        "Prévoir 3 x Kobalite.",
+        "Prévoir 1 x Cocon de Ver à Soie.",
+        "Prévoir 5 x Sépale de Nerbe.",
+        "Trouver un Bricoleur niveau 137 minimum pour fabriquer le Seau de Pinces à Linge.",
+        "Organiser à l'avance les quatre rôles requis pour l'énigme en [-17,-3] : attitude Fleurs, Bûcheron 150+, Alchimiste 150+ et Sadida 56+. Un même personnage peut remplir l'un de ces rôles, y compris le personnage qui fait la quête."
+      ],
+      "actions": [
+        {
+          "instruction": "À la Milice, parle à Amayiro pour poursuivre la mission et apprendre que Danathor veut te voir.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Va au Palais de Bonta et parle à Danathor au sujet de l'amélioration de l'arsenal magique.",
+          "position": "[-36,-60]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Devant la Tour des ordres, interroge Larry Poller sur l'arsenal magique et choisis de l'interroger sur la magie Bwork afin d'obtenir la piste de la Grafioze.",
+          "position": "[-34,-58]",
+          "zoneHint": "Bonta",
+          "warning": "Le choix documenté par la source est « L'interroger sur la magie Bwork » ; l'effet de l'autre proposition n'est pas établi.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Au temple Sadida, parle à Epuop Tik et interroge-le sur la Grafioze afin d'apprendre le sort réservé au Bwork mage des cavernes.",
+          "position": "[-1,9]",
+          "zoneHint": "Temple Sadida",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parle à Jibworknouille pour découvrir son problème d'odorat et la nécessité de lever son maléfice.",
+          "position": "[-6,7]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À la bibliothèque de Bonta, expose le problème de Jibworknouille à Marcelle Rouste et réponds « Oui » afin d'identifier la solution de la pince à linge.",
+          "position": "[-35,-57]",
+          "zoneHint": "Bibliothèque de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À l'atelier des bricoleurs, demande à Liroye Merline comment fabriquer une Pince à Linge et paie 500 kamas pour recevoir le Schéma de la Pince à Linge.",
+          "position": "[-32,-54]",
+          "zoneHint": "Atelier des bricoleurs",
+          "warning": "Dépense obligatoire de 500 kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Avec un Bricoleur niveau 137 minimum, utilise 5 Planches de Gravure, 3 Kobalites et le Schéma de la Pince à Linge pour fabriquer un Seau de Pinces à Linge.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "La fabrication consomme les ressources indiquées et nécessite un Bricoleur niveau 137 minimum.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne voir Jibworknouille et utilise le Seau de Pinces à Linge pour lui mettre une pince sur le nez. Récupère ensuite les restes de la poupée et ses indications.",
+          "position": "[-6,7]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Va voir Maskara et demande le rafistolage de la poupée afin qu'elle te précise le matériel nécessaire.",
+          "position": "[6,-21]",
+          "zoneHint": null,
+          "warning": "Si le dialogue n'est pas disponible, il peut être nécessaire de lancer la quête Des fleurs épineuses.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parle à Aga Dou et demande une Aiguille Sylvestre.",
+          "position": "[1,1]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne auprès de Maskara avec 1 Cocon de Ver à Soie, 5 Sépales de Nerbe et l'Aiguille Sylvestre pour faire rafistoler la poupée.",
+          "position": "[6,-21]",
+          "zoneHint": null,
+          "warning": "Les ressources demandées doivent être présentes. Si Maskara reste inaccessible, la quête Des fleurs épineuses peut devoir être lancée.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Réunis les aides nécessaires en [-17,-3] et place les personnages sur les dalles correspondant aux quatre rôles : attitude Fleurs, Bûcheron niveau 150 minimum, Alchimiste niveau 150 minimum et Sadida niveau 56 minimum. Ton personnage n'a pas besoin d'occuper une dalle sauf s'il remplit lui-même l'un de ces rôles.",
+          "position": "[-17,-3]",
+          "zoneHint": null,
+          "warning": "Les quatre rôles requis doivent être couverts pour déclencher l'enchantement.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Après l'activation des dalles, récupère la Poupée Enchantée.",
+          "position": "[-17,-3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Apporte la Poupée Enchantée à Danathor au Palais de Bonta. Il te demande ensuite de retourner auprès d'Amayiro pendant que l'enchantement agit.",
+          "position": "[-36,-60]",
+          "zoneHint": "Palais de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne à la Milice et parle à Amayiro pour achever Ambition ambigüe et débloquer Trâknar.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La panoplie du milicien est supposée terminée avant cette occurrence.",
+        "L'Aiguille Sylvestre est un objet de quête obtenu auprès d'Aga Dou et fait partie des trois éléments remis à Maskara.",
+        "L'étape d'enchantement en [-17,-3] nécessite la coopération de personnages remplissant quatre critères distincts, mais ton personnage peut remplacer l'un d'eux s'il remplit le critère correspondant.",
+        "Trâknar est traité séparément dans l'occurrence suivante de cette même étape."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Danathor",
+        "Larry Poller",
+        "Epuop Tik",
+        "Jibworknouille",
+        "Marcelle Rouste",
+        "Liroye Merline",
+        "Maskara",
+        "Aga Dou"
+      ],
+      "items": [
+        {
+          "name": "Planche de Gravure",
+          "itemId": 16496,
+          "imageUrl": "/items/16496.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16496"
+        },
+        {
+          "name": "Kobalite",
+          "itemId": 6458,
+          "imageUrl": "/items/6458.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6458"
+        },
+        {
+          "name": "Schéma de la Pince à Linge",
+          "itemId": 10018,
+          "imageUrl": "/items/10018.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/10018"
+        },
+        {
+          "name": "Seau de Pinces à Linge",
+          "itemId": 10019,
+          "imageUrl": "/items/10019.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/10019"
+        },
+        {
+          "name": "Cocon de Ver à Soie",
+          "itemId": 642,
+          "imageUrl": "/items/642.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/642"
+        },
+        {
+          "name": "Sépale de Nerbe",
+          "itemId": 8780,
+          "imageUrl": "/items/8780.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8780"
+        },
+        {
+          "name": "Aiguille Sylvestre",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Poupée Enchantée",
+          "itemId": 10022,
+          "imageUrl": "/items/10022.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/10022"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 8,
+            "name": "Campement des Bworks",
+            "coordinates": [
+              "-6,7"
+            ]
+          },
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "6,-21"
+            ]
+          },
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57",
+              "-35,-57"
+            ]
+          },
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-32,-54"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "-17,-3"
+            ]
+          },
+          {
+            "id": 231,
+            "name": "Lacs enchantés",
+            "coordinates": [
+              "-17,-3"
+            ]
+          },
+          {
+            "id": 480,
+            "name": "Montagne basse des Craqueleurs",
+            "coordinates": [
+              "-1,9"
+            ]
+          },
+          {
+            "id": 976,
+            "name": "Promontoire des cieux",
+            "coordinates": [
+              "-36,-60",
+              "-34,-58"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "1,1"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          },
+          {
+            "id": 550,
+            "name": "Rok Gnorok",
+            "level": 90,
+            "imageUrl": "/bestiary/monsters/550.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2430,
+            "name": "Chevaustine le Reconstruit",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2430.png"
+          },
+          {
+            "id": 2494,
+            "name": "Gobstiniais le Têtu",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2494.png"
+          },
+          {
+            "id": 2417,
+            "name": "Barchwork le Multicolore",
+            "level": 37,
+            "imageUrl": "/bestiary/monsters/2417.png"
+          },
+          {
+            "id": 2416,
+            "name": "Bworkasse le Dégoutant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2416.png"
+          },
+          {
+            "id": 2418,
+            "name": "Bwormage le Respectueux",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2418.png"
+          },
+          {
+            "id": 2517,
+            "name": "Koalastrof la Naturelle",
+            "level": 60,
+            "imageUrl": "/bestiary/monsters/2517.png"
+          },
+          {
+            "id": 2436,
+            "name": "Crakmitaine le Faucheur",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2436.png"
+          },
+          {
+            "id": 2543,
+            "name": "Craquecrac l'Endurant",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2543.png"
+          },
+          {
+            "id": 2326,
+            "name": "Craquetuss le Piquant",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2326.png"
+          },
+          {
+            "id": 2442,
+            "name": "Doktopuss le Maléfique",
+            "level": 70,
+            "imageUrl": "/bestiary/monsters/2442.png"
+          },
+          {
+            "id": 2271,
+            "name": "Pékeutar le Tireur",
+            "level": 80,
+            "imageUrl": "/bestiary/monsters/2271.png"
+          },
+          {
+            "id": 2270,
+            "name": "Piradain le Pingre",
+            "level": 80,
+            "imageUrl": "/bestiary/monsters/2270.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              }
+            ]
+          },
+          {
+            "id": 182,
+            "name": "Bworks d'Amakna",
+            "monsters": [
+              {
+                "id": 876,
+                "name": "Bwork",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/876.png"
+              },
+              {
+                "id": 74,
+                "name": "Bwork Archer",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/74.png"
+              },
+              {
+                "id": 53,
+                "name": "Bwork Mage",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/53.png"
+              }
+            ]
+          },
+          {
+            "id": 186,
+            "name": "Craqueleurs",
+            "monsters": [
+              {
+                "id": 483,
+                "name": "Craqueboule",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/483.png"
+              },
+              {
+                "id": 106,
+                "name": "Craqueleur",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/106.png"
+              },
+              {
+                "id": 4570,
+                "name": "Élémenterre",
+                "level": 59,
+                "imageUrl": "/bestiary/monsters/4570.png"
+              },
+              {
+                "id": 4571,
+                "name": "Craquelourd",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4571.png"
+              }
+            ]
+          },
+          {
+            "id": 187,
+            "name": "Gobelins d'Amakna",
+            "monsters": [
+              {
+                "id": 178,
+                "name": "Gobet",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/178.png"
+              },
+              {
+                "id": 62,
+                "name": "Gob-trotteur",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/62.png"
+              }
+            ]
+          },
+          {
+            "id": 219,
+            "name": "Koalaks",
+            "monsters": [
+              {
+                "id": 747,
+                "name": "Dok Alako",
+                "level": 70,
+                "imageUrl": "/bestiary/monsters/747.png"
+              },
+              {
+                "id": 748,
+                "name": "Koalak Immature",
+                "level": 60,
+                "imageUrl": "/bestiary/monsters/748.png"
+              },
+              {
+                "id": 784,
+                "name": "Piralak",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/784.png"
+              },
+              {
+                "id": 786,
+                "name": "Pékeualak",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/786.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:154",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/ambition-ambigue.html",
+      "sourceTitle": "Alignement 57 : Ambition ambigüe",
+      "sourceHash": "ffbb98a8b284cb1f0282857495513abe88408ebea8bde8a87d146741b2409f50",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après avoir terminé Ambition ambigüe, poursuis immédiatement avec Trâknar. Il faut voler le registre des rondes brâkmariennes, le remettre à Amayiro, rejoindre l'embuscade bontarienne et gagner seul le combat avec l'aide des soldats alliés, puis revenir annoncer le résultat. Cette occurrence s'arrête à la fin de Trâknar ; La Grafioze appartient à l'étape suivante.",
+      "recommendedLevel": 138,
+      "prerequisites": [
+        "Avoir terminé Ambition ambigüe."
+      ],
+      "rewards": [
+        "5 147 473 XP."
+      ],
+      "preparation": [
+        "Prévoir un combat obligatoire réalisé seul, avec des Bontariens comme alliés."
+      ],
+      "actions": [
+        {
+          "instruction": "À la Milice de Bonta, parle à Amayiro après Ambition ambigüe pour recevoir la mission visant à obtenir les informations sur les patrouilles brâkmariennes.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Va voir l'espion Guerrier Bishom Pot afin qu'il t'indique où sont conservés les documents sur les rondes des patrouilles brâkmariennes.",
+          "position": "[-28,32]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entre dans la milice en [-25,33], descends au sous-sol puis va dans la pièce située à gauche.",
+          "position": "[-25,33]",
+          "zoneHint": "Sous-sol de la milice",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans cette pièce, monte les marches et récupère sur le bureau les documents contenant le registre des rondes.",
+          "position": "[-25,33]",
+          "zoneHint": "Sous-sol de la milice",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne à la Milice de Bonta et remets le registre des rondes à Amayiro. Il t'envoie alors rejoindre les hommes chargés de l'embuscade.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoins le Commandant bontarien Kad et parle-lui pour déclencher l'attaque contre la patrouille brâkmarienne.",
+          "position": "[-17,39]",
+          "zoneHint": null,
+          "warning": "Le combat qui suit doit être effectué seul ; des Bontariens combattent à tes côtés.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Remporte le combat contre la patrouille brâkmarienne avec l'appui des Bontariens. Surveille particulièrement les sorts de poussée et l'érosion ennemie.",
+          "position": "[-17,39]",
+          "zoneHint": null,
+          "warning": "Combat obligatoire en solo. Certains ennemis repoussent de plusieurs cases et peuvent appliquer de l'érosion ainsi que des malus de Force et d'Agilité.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Une fois la patrouille vaincue, retourne auprès d'Amayiro à la Milice de Bonta et annonce le succès de l'embuscade pour terminer Trâknar.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Ambition ambigüe est supposée entièrement terminée avant de commencer cette occurrence.",
+        "Le registre des rondes est récupéré dans le sous-sol de la milice en [-25,33], dans la pièce de gauche, sur le bureau en haut des marches.",
+        "La fin de la quête révèle l'assassinat de Nara et débloque La Grafioze.",
+        "La Grafioze n'est pas à commencer ici : son tutoriel appartient à l'étape 169."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Guerrier Bishom Pot",
+        "Commandant bontarien Kad"
+      ],
+      "items": [
+        {
+          "name": "Registre des rondes",
+          "itemId": 10023,
+          "imageUrl": "/items/10023.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/10023"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 61,
+            "name": "Cimetière des Torturés",
+            "coordinates": [
+              "-17,39"
+            ]
+          },
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 982,
+            "name": "L'Enclume",
+            "coordinates": [
+              "-28,32"
+            ]
+          },
+          {
+            "id": 977,
+            "name": "La Cuirasse",
+            "coordinates": [
+              "-25,33"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 481,
+            "name": "Qil Bil",
+            "level": 70,
+            "imageUrl": "/bestiary/monsters/481.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2320,
+            "name": "Chafmarcel le Fêtard",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2320.png"
+          },
+          {
+            "id": 2422,
+            "name": "Chafrit le Barbare",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2422.png"
+          },
+          {
+            "id": 2322,
+            "name": "Chalan le Commerçant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2322.png"
+          },
+          {
+            "id": 2589,
+            "name": "Ougaould le Parasite",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2589.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 9048,
+            "name": "Chafers des cités",
+            "monsters": [
+              {
+                "id": 3239,
+                "name": "Chafer Draugr",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/3239.png"
+              },
+              {
+                "id": 291,
+                "name": "Chafer Archer",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/291.png"
+              },
+              {
+                "id": 292,
+                "name": "Chafer d'Élite",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/292.png"
+              },
+              {
+                "id": 290,
+                "name": "Chafer Lancier",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/290.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:156",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/traknar.html",
+      "sourceTitle": "Alignement 58 : Trâknar",
+      "sourceHash": "623ad290b998606e6bafdab76341f6e41987a97577d7cc9ef51c892afd818948",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

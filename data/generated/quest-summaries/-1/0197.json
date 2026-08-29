@@ -1,8 +1,1007 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 197,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T22:28:12.402Z",
+  "summaries": [
+    {
+      "overview": "Poursuis l'enquête destinée à innocenter Trev Pelsantery. À cette occurrence, il faut recueillir les indices sur son trajet, vérifier la lanière de son sac auprès de Ture Inge, puis rapporter les résultats à Amayiro. Cette quête doit être terminée avant d'enchaîner sur Un peu de juge hot.",
+      "recommendedLevel": 171,
+      "prerequisites": [
+        "Avoir terminé Le subterfuge de la corne."
+      ],
+      "rewards": [
+        "5 672 793 XP."
+      ],
+      "preparation": [
+        "Aucune ressource ni combat particulier à prévoir."
+      ],
+      "actions": [
+        {
+          "instruction": "À la Milice de Bonta, descends les escaliers situés à droite de la salle principale et parle à Trev Pelsantery afin de recueillir son emploi du temps et de commencer la recherche d'indices.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans l'atelier des cordonniers, clique sur les lanières suspendues au-dessus d'Alphonse Mel afin de récupérer un bout de lanière.",
+          "position": "[-30,-57]",
+          "zoneHint": "Atelier des cordonniers",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entre dans l'atelier des forgerons et interroge Kosuke Ichazum au sujet du passage de Trev.",
+          "position": "[-30,-56]",
+          "zoneHint": "Atelier des forgerons",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parle à Noep : il confirme avoir aperçu quelqu'un suivre Trev.",
+          "position": "[-31,-52]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne dans la prison de la Milice et montre le bout de lanière à Trev Pelsantery. Il reconnaît le modèle de son sac mais affirme ne pas l'avoir endommagé.",
+          "position": "[-32,-57]",
+          "zoneHint": "Prison de la Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Remonte dans la salle principale de la Milice, monte à l'étage puis entre dans la pièce de droite pour parler à Ture Inge. Fais-lui examiner le bout de lanière : il confirme qu'il provient bien du sac de Trev.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne auprès d'Amayiro et fais-lui le compte rendu de l'enquête. Les éléments ne suffisent pas encore à innocenter Trev, mais cette partie de l'enquête est terminée.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les trois recherches effectuées après l'entretien avec Trev peuvent être réalisées dans n'importe quel ordre.",
+        "La suite de l'enquête se poursuit immédiatement avec Un peu de juge hot."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Trev Pelsantery",
+        "Alphonse Mel",
+        "Kosuke Ichazum",
+        "Noep",
+        "Ture Inge"
+      ],
+      "items": [
+        {
+          "name": "Bout de lanière",
+          "itemId": 9207,
+          "imageUrl": "/items/9207.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9207"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-30,-57",
+              "-30,-56",
+              "-31,-52"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:179",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/un-coupable-ideal.html",
+      "sourceTitle": "Alignement 71 : Un coupable idéal",
+      "sourceHash": "40b9454adf660faed25b537554b58b2081286d0f2455774d2336b2aa9293532b",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après les premiers indices réunis pour Trev, obtiens un délai auprès du juge Satirev Onivin. Il faut recueillir cinq refus à Astrub, préparer le matériel permettant d'accéder à une réserve d'alcool, récupérer un tonneau d'hydre au miel après un combat, puis remettre l'ensemble au juge et informer Amayiro.",
+      "recommendedLevel": 172,
+      "prerequisites": [
+        "Avoir terminé Un coupable idéal."
+      ],
+      "rewards": [
+        "11 383 398 XP."
+      ],
+      "preparation": [
+        "Prévoir 1 x Mauvaise Pioche, fabriquée par un forgeron niveau 6 minimum avec 10 x Bois de Frêne et 5 x Fer.",
+        "Prévoir 1 x Tonneau en Bombu, fabriqué par un bricoleur niveau 172 minimum avec 80 x Bois de Bombu et 3 x Ebonite.",
+        "Prévoir un combat pouvant être réalisé à deux personnages maximum."
+      ],
+      "actions": [
+        {
+          "instruction": "À la Milice de Bonta, monte les escaliers depuis la salle principale et entre dans la salle centrale. Parle à Satirev Onivin pour demander un délai avant le jugement de Trev.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": "Le juge n'accepte de repousser le jugement qu'en échange d'alcool et de preuves de refus des femmes sollicitées.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À Astrub, parle à Montrakwartz et choisis de lui parler du juge Satirev Onivin afin d'obtenir son refus.",
+          "position": "[4,-19]",
+          "zoneHint": "Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parle à Gwenolaz Barmumuze et évoque le juge Satirev Onivin afin d'obtenir son refus.",
+          "position": "[6,-20]",
+          "zoneHint": "Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parle à Maskara et évoque le juge Satirev Onivin afin d'obtenir son refus.",
+          "position": "[6,-21]",
+          "zoneHint": "Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parle à Nepra Lido et évoque le juge Satirev Onivin afin d'obtenir son refus.",
+          "position": "[3,-21]",
+          "zoneHint": "Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parle à Enileda et évoque le juge Satirev Onivin afin d'obtenir son refus.",
+          "position": "[2,-16]",
+          "zoneHint": "Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Va voir Bol Pokuz et demande-lui de l'alcool. Il t'indique que tu devras aller te servir toi-même.",
+          "position": "[-2,-1]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Avant d'ouvrir le passage, assure-toi d'avoir fabriqué la Mauvaise Pioche et le Tonneau en Bombu avec les ressources requises.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "La fabrication consomme 10 x Bois de Frêne, 5 x Fer, 80 x Bois de Bombu et 3 x Ebonite.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Équipe la Mauvaise Pioche comme arme de corps-à-corps, puis clique sur le petit rocher pour ouvrir le passage secret.",
+          "position": "[-2,3]",
+          "zoneHint": null,
+          "warning": "La Mauvaise Pioche doit être équipée au corps-à-corps pour ouvrir le passage.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la grotte ouverte par le passage secret, parle au Buveur égaré et choisis de t'en débarrasser pour accéder à l'hydre au miel.",
+          "position": "[-2,3]",
+          "zoneHint": "Grotte",
+          "warning": "Le combat est limité à deux personnages maximum. Le Buveur égaré peut renforcer fortement les résistances, retirer PA et PM, se soigner et repousser au corps-à-corps.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, clique sur le tonneau situé au fond de la grotte afin de récupérer un tonneau d'hydre au miel.",
+          "position": "[-2,3]",
+          "zoneHint": "Grotte",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne voir Satirev Onivin à la Milice et remets-lui le tonneau d'hydre au miel ainsi que les lettres de refus obtenues à Astrub. Il accorde alors le délai demandé.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": "Il faut avoir récupéré l'alcool et les refus demandés avant de revenir auprès du juge.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parle ensuite à Amayiro pour lui annoncer que le jugement de Trev a bien été repoussé.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Cette occurrence commence après l'enquête d'Un coupable idéal et doit être achevée avant De drôles de témoins.",
+        "Le Tonneau en Bombu demande un bricoleur niveau 172 minimum."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Satirev Onivin",
+        "Montrakwartz",
+        "Gwenolaz Barmumuze",
+        "Maskara",
+        "Nepra Lido",
+        "Enileda",
+        "Bol Pokuz",
+        "Buveur égaré"
+      ],
+      "items": [
+        {
+          "name": "Mauvaise Pioche",
+          "itemId": 2276,
+          "imageUrl": "/items/2276.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2276"
+        },
+        {
+          "name": "Bois de Frêne",
+          "itemId": 303,
+          "imageUrl": "/items/303.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/303"
+        },
+        {
+          "name": "Fer",
+          "itemId": 312,
+          "imageUrl": "/items/312.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/312"
+        },
+        {
+          "name": "Tonneau en Bombu",
+          "itemId": 10070,
+          "imageUrl": "/items/10070.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/10070"
+        },
+        {
+          "name": "Bois de Bombu",
+          "itemId": 2892,
+          "imageUrl": "/items/2892.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2892"
+        },
+        {
+          "name": "Ébonite",
+          "itemId": 1976,
+          "imageUrl": "/items/1976.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1976"
+        },
+        {
+          "name": "Tonneau d'hydre au miel",
+          "itemId": 10069,
+          "imageUrl": "/items/10069.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/10069"
+        },
+        {
+          "name": "Lettres de refus",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "4,-19",
+              "6,-20",
+              "6,-21",
+              "3,-21",
+              "2,-16"
+            ]
+          },
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 480,
+            "name": "Montagne basse des Craqueleurs",
+            "coordinates": [
+              "-2,3"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "-2,-1"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2430,
+            "name": "Chevaustine le Reconstruit",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2430.png"
+          },
+          {
+            "id": 2494,
+            "name": "Gobstiniais le Têtu",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2494.png"
+          },
+          {
+            "id": 2417,
+            "name": "Barchwork le Multicolore",
+            "level": 37,
+            "imageUrl": "/bestiary/monsters/2417.png"
+          },
+          {
+            "id": 2416,
+            "name": "Bworkasse le Dégoutant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2416.png"
+          },
+          {
+            "id": 2418,
+            "name": "Bwormage le Respectueux",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2418.png"
+          },
+          {
+            "id": 2436,
+            "name": "Crakmitaine le Faucheur",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2436.png"
+          },
+          {
+            "id": 2543,
+            "name": "Craquecrac l'Endurant",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2543.png"
+          },
+          {
+            "id": 2326,
+            "name": "Craquetuss le Piquant",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2326.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              }
+            ]
+          },
+          {
+            "id": 182,
+            "name": "Bworks d'Amakna",
+            "monsters": [
+              {
+                "id": 876,
+                "name": "Bwork",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/876.png"
+              },
+              {
+                "id": 74,
+                "name": "Bwork Archer",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/74.png"
+              },
+              {
+                "id": 53,
+                "name": "Bwork Mage",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/53.png"
+              }
+            ]
+          },
+          {
+            "id": 186,
+            "name": "Craqueleurs",
+            "monsters": [
+              {
+                "id": 483,
+                "name": "Craqueboule",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/483.png"
+              },
+              {
+                "id": 106,
+                "name": "Craqueleur",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/106.png"
+              },
+              {
+                "id": 4570,
+                "name": "Élémenterre",
+                "level": 59,
+                "imageUrl": "/bestiary/monsters/4570.png"
+              },
+              {
+                "id": 4571,
+                "name": "Craquelourd",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4571.png"
+              }
+            ]
+          },
+          {
+            "id": 187,
+            "name": "Gobelins d'Amakna",
+            "monsters": [
+              {
+                "id": 178,
+                "name": "Gobet",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/178.png"
+              },
+              {
+                "id": 62,
+                "name": "Gob-trotteur",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/62.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:182",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/un-peu-de-juge-hot.html",
+      "sourceTitle": "Alignement 72 : Un peu de juge hot",
+      "sourceHash": "011083e5d1798a1ab6686db2a45130da5f02e6fd0467f2525f31ad09ded2b481",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Le délai obtenu, reprends l'enquête pour identifier l'homme ayant manipulé les témoins autour de Trev. Retrace son trajet dans Bonta, sécurise l'élevage de Nissacram pour obtenir son vrai témoignage, puis enquête dans la cave d'Heticili Ufot. L'objectif de cette occurrence est d'apprendre le nom Gnerah et de le transmettre à Amayiro ; sa capture sera effectuée à l'étape suivante.",
+      "recommendedLevel": 173,
+      "prerequisites": [
+        "Avoir terminé Un peu de juge hot."
+      ],
+      "rewards": [
+        "5 710 790 XP."
+      ],
+      "preparation": [
+        "Prévoir de pouvoir accéder aux échanges de la cave d'Heticili Ufot après 20 heures.",
+        "Une méthode alternative existe pour contourner le créneau horaire, mais elle nécessite plusieurs objets et démarches supplémentaires."
+      ],
+      "actions": [
+        {
+          "instruction": "À la Taverne Alakarte, parle à S’maid. Demande pourquoi elle écoutait la conversation, puis pourquoi elle a accusé Trev sans attendre son contact, afin d'obtenir son témoignage.",
+          "position": "[-36,-58]",
+          "zoneHint": "Taverne Alakarte",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne voir Amayiro à la Milice et montre-lui le témoignage de S’maid. Il te demande alors de refaire le trajet de Trev.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parle à Noep. Il ne possède pas de nouvelle information par rapport à votre précédente rencontre.",
+          "position": "[-31,-52]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Passe simplement sur la carte où Trev Pelsantery était de garde afin de poursuivre la reconstitution de son trajet.",
+          "position": "[-30,-53]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entre dans l'atelier des forgerons et reparle à Kosuke Ichazum.",
+          "position": "[-30,-56]",
+          "zoneHint": "Atelier des forgerons",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interroge Milie Reilloc, l'une des enfants du quartier.",
+          "position": "[-31,-55]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interroge Clara Daule dans le quartier ouest.",
+          "position": "[-33,-54]",
+          "zoneHint": "Quartier ouest",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parle à Vicky Facheyon devant la fontaine.",
+          "position": "[-33,-59]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parle à Nissacram. Il raconte avoir vu Trev discuter de Brâkmar et de documents confidentiels avec un inconnu, puis donne une description peu fiable de cette personne.",
+          "position": "[-28,-54]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À la Milice, monte à l'étage et entre dans la pièce de droite pour parler à Ture Inge. Il estime que Nissacram cache quelque chose et que sa description a probablement été faussée par la peur.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne auprès de Nissacram. Tu peux proposer des Kamas contre des informations, puis le laisser tranquille ; lorsqu'il se ravise, menace de confisquer ses sangliers s'il ne termine pas sa phrase. Il refuse encore de parler car son élevage est menacé.",
+          "position": "[-28,-54]",
+          "zoneHint": null,
+          "warning": "La source indique que la proposition de Kamas pourrait être inutile et qu'il serait peut-être possible de passer directement à la menace. Cette variante n'est pas confirmée.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne voir Amayiro et demande qu'un milicien protège l'enclos de Nissacram.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À la Taverne Alakarte, demande à Rues Nefèd d'assurer la sécurité de Nissacram et de ses bêtes.",
+          "position": "[-36,-58]",
+          "zoneHint": "Taverne Alakarte",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne voir Nissacram. Désormais protégé, il avoue que Trev n'a fait que parler avec un vendeur cordonnier avant d'aller à la Taverne Alakarte. Il révèle surtout qu'un homme gris, masqué et sentant le pichon l'a menacé pour qu'il fournisse une fausse piste, et que cet homme a aussi abordé Clara Daule.",
+          "position": "[-28,-54]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reviens auprès de Clara Daule. Elle précise que l'inconnu était un Sram malodorant qui lui avait proposé de passer la nuit chez Heticili Ufot pour jouer à des jeux d'argent et assister à des combats de tofus.",
+          "position": "[-33,-54]",
+          "zoneHint": "Quartier ouest",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rends-toi dans la maison d'Heticili Ufot, puis descends à la cave.",
+          "position": "[-34,-55]",
+          "zoneHint": "Maison d'Heticili Ufot",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la cave, après 20 heures, commence par parler à Guf Ruheu au sujet du Sram puant. Il t'oriente vers l'Ecaflip qui fréquente les Srams.",
+          "position": "[-34,-55]",
+          "zoneHint": "Cave d'Heticili Ufot",
+          "warning": "Condition horaire : les dialogues nécessaires sont indiqués comme accessibles après 20 heures. La source mentionne un fonctionnement observé dès 19 heures, sans garantie.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parle ensuite à Jeff Marte. Il explique fréquenter des Srams seulement pour jouer et indique que Rei traite plutôt avec eux pour les affaires.",
+          "position": "[-34,-55]",
+          "zoneHint": "Cave d'Heticili Ufot",
+          "warning": "Condition horaire requise pour cette séquence.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parle à Rei Rosert. Il reconnaît avoir des affaires avec des Srams mais t'oriente vers Mente Heur.",
+          "position": "[-34,-55]",
+          "zoneHint": "Cave d'Heticili Ufot",
+          "warning": "Condition horaire requise pour cette séquence.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parle enfin à Mente Heur. Il identifie le Sram qui sent les égouts : son nom est Gnerah.",
+          "position": "[-34,-55]",
+          "zoneHint": "Cave d'Heticili Ufot",
+          "warning": "Condition horaire requise pour cette séquence.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne auprès d'Amayiro et donne-lui le nom de Gnerah. Il te demande de retrouver le Sram et de le ramener.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La capture de Gnerah n'est pas à effectuer dans cette occurrence : elle commence dans Sram d'Égoutant à l'étape suivante.",
+        "Pour contourner le créneau horaire de la cave, la source décrit une alternative nécessitant 1 x Lait de Dragodinde Dorée, 1 x Sac d'épices amaknéennes et 1 x Filet Mignon, à échanger auprès d'Ala Raine contre 1 x Jambon d'Ala Raine, puis des passages auprès de Jett Marte, Rei Rosert et Mente Heur.",
+        "Le Lait de Dragodinde Dorée est indiqué comme objet de quête obtenu à 100 % sur une Dragodinde Dorée ; le Sac d'épices amaknéennes se récupère en cliquant dans la maison en [-5,25]."
+      ],
+      "npcs": [
+        "Amayiro",
+        "S’maid",
+        "Noep",
+        "Kosuke Ichazum",
+        "Milie Reilloc",
+        "Clara Daule",
+        "Vicky Facheyon",
+        "Nissacram",
+        "Ture Inge",
+        "Rues Nefèd",
+        "Heticili Ufot",
+        "Guf Ruheu",
+        "Jeff Marte",
+        "Rei Rosert",
+        "Mente Heur",
+        "Gnerah",
+        "Ala Raine",
+        "Jett Marte"
+      ],
+      "items": [
+        {
+          "name": "Témoignage de S'maid",
+          "itemId": 9228,
+          "imageUrl": "/items/9228.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9228"
+        },
+        {
+          "name": "Lait de Dragodinde Dorée",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Sac d'épices amaknéennes",
+          "itemId": 16012,
+          "imageUrl": "/items/16012.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16012"
+        },
+        {
+          "name": "Filet Mignon",
+          "itemId": 17199,
+          "imageUrl": "/items/17199.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17199"
+        },
+        {
+          "name": "Jambon d'Ala Raine",
+          "itemId": 16013,
+          "imageUrl": "/items/16013.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16013"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57",
+              "-33,-59"
+            ]
+          },
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-31,-52",
+              "-30,-53",
+              "-30,-56",
+              "-31,-55",
+              "-33,-54",
+              "-28,-54"
+            ]
+          },
+          {
+            "id": 974,
+            "name": "Havres d'ivoire",
+            "coordinates": [
+              "-34,-55"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-28,-54"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "-36,-58",
+              "-28,-54"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:186",
+      "relation": "ACTIVE",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/de-droles-de-temoins.html",
+      "sourceTitle": "Alignement 73 : De drôles de témoins",
+      "sourceHash": "4b9b2b49e756938f17ea32c5f678a3e8024afd8170cc998ecd78af9654692972",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

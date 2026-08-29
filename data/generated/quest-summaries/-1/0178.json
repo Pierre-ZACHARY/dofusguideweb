@@ -1,8 +1,865 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 178,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T22:25:34.365Z",
+  "summaries": [
+    {
+      "overview": "Poursuivez l'enquête sur la félithropie commencée auprès de Chakeuspire. Il faut préparer plusieurs yeux de Matougarous, invoquer Charingan, puis participer à l'expérience du professeur Groschinder. Cette portion va jusqu'à la fin de De mauvais poil et débloque L'As du Volans.",
+      "recommendedLevel": 160,
+      "prerequisites": [
+        "Testé et approuvé.",
+        "La quête De mauvais poil doit déjà être lancée auprès de Chakeuspire en [2,2]."
+      ],
+      "rewards": [
+        "2 282 028 XP.",
+        "28 780 Kamas.",
+        "30 x Orichor.",
+        "5 x Poil de Chacrebleu."
+      ],
+      "preparation": [
+        "Prévoir des combats contre des monstres de la Lande Poilue.",
+        "Le combat final contre les Ninchas peut être réalisé en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "À l'avant-poste, interrogez le Professeur Groschinder sur la félithropie. Il vous confie un Œil D'Ush Iwa et vous demande de préparer des yeux de plusieurs Matougarous avant d'invoquer Charingan.",
+          "position": "[-1,-6]",
+          "zoneHint": "Avant-poste",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Chakeuspire. Il refuse de donner son propre œil mais vous remet celui de son voisin Chacrebleu. Cliquez ensuite sur la statue de la carte pour imprégner cet œil de chance.",
+          "position": "[2,2]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Combattez précisément un Chasquatch sur cette carte afin d'obtenir son œil, puis cliquez sur la statue de la même carte pour l'imprégner.",
+          "position": "[3,3]",
+          "zoneHint": "Lande Poilue",
+          "warning": "Le Chasquatch doit impérativement être vaincu sur la carte [3,3].",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Combattez précisément un Chakichan sur cette carte pour récupérer son œil, puis utilisez la statue locale afin de l'imprégner de chance.",
+          "position": "[2,0]",
+          "zoneHint": "Lande Poilue",
+          "warning": "Le Chakichan doit impérativement être vaincu sur la carte [2,0].",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Combattez précisément un Chargus sur cette carte, récupérez son œil puis cliquez sur la statue locale pour l'imprégner.",
+          "position": "[0,1]",
+          "zoneHint": "Lande Poilue",
+          "warning": "Le Chargus doit impérativement être vaincu sur la carte [0,1].",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Cliquez sur la statue pour invoquer l'esprit de Charingan, puis parlez-lui de la félithropie. Après son intervention, Ush Galesh apparaît et vous menace.",
+          "position": "[1,2]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès du Professeur Groschinder et racontez votre rencontre avec Ush Galesh.",
+          "position": "[-1,-6]",
+          "zoneHint": "Avant-poste",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sur la même carte, remettez les yeux préparés à Fizik, comme demandé par le professeur.",
+          "position": "[-1,-6]",
+          "zoneHint": "Avant-poste",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez le Professeur Groschinder au nord et parlez-lui. Shinobite intervient et tente de l'enlever dans une caisse.",
+          "position": "[-3,-8]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": "Un combat de groupe se déclenche immédiatement après la scène.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Vainquez le groupe de 8 adversaires mené par les Ninchas. Le combat peut être rejoint par d'autres joueurs. À la victoire, vous obtenez un sifflet abîmé.",
+          "position": "[-3,-8]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": "Combat contre 8 adversaires ; les Ninchas peuvent appliquer érosion, retrait de PA/PM, Pesanteur, Affaibli, poussée et malus de puissance ou de portée.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, reparlez au professeur, puis à Fizik lorsqu'il arrive. La confusion autour des caisses conclut De mauvais poil et débloque L'As du Volans.",
+          "position": "[-3,-8]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les premières démarches auprès de Chakeuspire sont supposées déjà effectuées puisque cette occurrence est ACTIVE.",
+        "Le sifflet abîmé obtenu pendant cette quête sert immédiatement à la suite L'As du Volans."
+      ],
+      "npcs": [
+        "Chakeuspire",
+        "Professeur Groschinder",
+        "Fizik",
+        "Charingan",
+        "Ush Galesh",
+        "Shinobite"
+      ],
+      "items": [
+        {
+          "name": "Œil D'Ush Iwa",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Œil de Chacrebleu",
+          "itemId": 17657,
+          "imageUrl": "/items/17657.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17657"
+        },
+        {
+          "name": "Œil de Chasquatch",
+          "itemId": 17660,
+          "imageUrl": "/items/17660.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17660"
+        },
+        {
+          "name": "Œil de Chakichan",
+          "itemId": 17658,
+          "imageUrl": "/items/17658.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17658"
+        },
+        {
+          "name": "Œil de Chargus",
+          "itemId": 17659,
+          "imageUrl": "/items/17659.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17659"
+        },
+        {
+          "name": "Sifflet abîmé",
+          "itemId": 17662,
+          "imageUrl": "/items/17662.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17662"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 911,
+            "name": "Jardins à la Crème",
+            "coordinates": [
+              "-1,-6"
+            ]
+          },
+          {
+            "id": 856,
+            "name": "Lande Poilue",
+            "coordinates": [
+              "2,2",
+              "3,3",
+              "2,0",
+              "0,1",
+              "1,2"
+            ]
+          },
+          {
+            "id": 855,
+            "name": "Pierres de l'élévation",
+            "coordinates": [
+              "-3,-8"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1432,
+            "name": "Ecaflipuces",
+            "monsters": [
+              {
+                "id": 4291,
+                "name": "Pupuce",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4291.png"
+              },
+              {
+                "id": 4292,
+                "name": "Morcac",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4292.png"
+              },
+              {
+                "id": 4293,
+                "name": "Pikbul",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4293.png"
+              },
+              {
+                "id": 4294,
+                "name": "Gériatique",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4294.png"
+              }
+            ]
+          },
+          {
+            "id": 1433,
+            "name": "Matougarous",
+            "monsters": [
+              {
+                "id": 4296,
+                "name": "Chasquatch",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4296.png"
+              },
+              {
+                "id": 4297,
+                "name": "Chacrebleu",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4297.png"
+              },
+              {
+                "id": 4298,
+                "name": "Chakichan",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4298.png"
+              },
+              {
+                "id": 4299,
+                "name": "Chargus",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4299.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:963",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/de-mauvais-poil.html",
+      "sourceTitle": "De mauvais poil",
+      "sourceHash": "8fbea62e4177b88d82df36d155f28353b944f66f2b4d53bd4b3b625ecbb803dc",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Utilisez le sifflet récupéré à la fin de De mauvais poil pour remonter la piste des chachas volants. Après plusieurs renseignements, préparez un appât, capturez Nyan et laissez-le vous conduire à Chagun. La quête se termine auprès de Chagun et débloque En rouge et noir.",
+      "recommendedLevel": 160,
+      "prerequisites": [
+        "De mauvais poil.",
+        "Posséder le sifflet abîmé obtenu lors de la quête précédente."
+      ],
+      "rewards": [
+        "2 282 028 XP.",
+        "28 780 Kamas.",
+        "30 x Orichor.",
+        "5 x Queue de Chasquatch."
+      ],
+      "preparation": [
+        "Prévoir 1 x Viande séchée.",
+        "Prévoir 1 000 kamas pour acheter la résine d'herbe à chacha."
+      ],
+      "actions": [
+        {
+          "instruction": "À l'avant-poste, parlez au Professeur Groschinder de la tentative d'enlèvement, puis montrez le sifflet abîmé au Sergent Baste. Il vous oriente vers Taï.",
+          "position": "[-1,-6]",
+          "zoneHint": "Avant-poste",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez Chadoc sur la félithropie avant de poursuivre la piste du sifflet.",
+          "position": "[0,0]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montrez le sifflet abîmé à Taï. Il vous renvoie vers Chavanna, qui connaît mieux l'usage de cet objet.",
+          "position": "[4,2]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montrez le sifflet à Chavanna. Il le débouche et vous explique qu'il sert à appeler les chachas volants. Vous récupérez le sifflet débouché.",
+          "position": "[2,0]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir le Professeur Groschinder. Il propose de tendre un piège aux chachas volants.",
+          "position": "[-1,-6]",
+          "zoneHint": "Avant-poste",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Demandez conseil à Taï : il vous apprend que les chachas volants sont attirés par la pâtée de l'espace.",
+          "position": "[4,2]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Fizik. Il accepte de préparer la pâtée si vous lui apportez 1 Viande séchée et de la résine d'herbe à chacha.",
+          "position": "[-1,-6]",
+          "zoneHint": "Avant-poste",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Demandez de la résine à Chadoc. Il n'en possède pas mais vous indique Chabruti comme gros consommateur.",
+          "position": "[0,0]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Achetez à Chabruti la résine d'herbe à chacha.",
+          "position": "[3,0]",
+          "zoneHint": "Lande Poilue",
+          "warning": "Dépense obligatoire de 1 000 kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si nécessaire, procurez-vous 1 Viande séchée obtenue par les chasseurs sur des monstres des Pierres de l'élévation ou achetée en hôtel de vente.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "La Viande séchée est requise pour poursuivre.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Remettez la Viande séchée et la résine à Fizik. Pendant qu'il cuisine, partez chercher les deux champignons demandés.",
+          "position": "[-1,-6]",
+          "zoneHint": "Avant-poste",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez la Fleur Champignonnière.",
+          "position": "[2,-2]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez le champignon Floral.",
+          "position": "[1,-1]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Fizik. Il vous remet la pâtée de l'espace et un filet à chacha volant.",
+          "position": "[-1,-6]",
+          "zoneHint": "Avant-poste",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez sur la statue Ecaflip, puis utilisez le sifflet débouché depuis votre inventaire de quête. Lorsqu'un chacha volant apparaît, capturez-le avec le filet.",
+          "position": "[4,1]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Nyan. Il explique le rôle réel des chachas volants, vous remet son propre sifflet et vous transporte auprès de Chagun.",
+          "position": "[4,1]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Écoutez Chagun expliquer ses motivations et son besoin d'un allié influent contre les fils d'Ecaflip. Cette conversation termine L'As du Volans et débloque En rouge et noir.",
+          "position": "[5,2]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les événements de De mauvais poil, notamment l'obtention du sifflet abîmé, sont supposés accomplis avant cette occurrence.",
+        "La Viande séchée peut être achetée au lieu d'être obtenue directement par un chasseur."
+      ],
+      "npcs": [
+        "Professeur Groschinder",
+        "Sergent Baste",
+        "Chadoc",
+        "Taï",
+        "Chavanna",
+        "Fizik",
+        "Chabruti",
+        "Nyan",
+        "Chagun"
+      ],
+      "items": [
+        {
+          "name": "Sifflet abîmé",
+          "itemId": 17662,
+          "imageUrl": "/items/17662.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17662"
+        },
+        {
+          "name": "Sifflet débouché",
+          "itemId": 17664,
+          "imageUrl": "/items/17664.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17664"
+        },
+        {
+          "name": "Viande séchée",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Résine d'herbe à chacha",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Fleur Champignonnière",
+          "itemId": 17676,
+          "imageUrl": "/items/17676.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17676"
+        },
+        {
+          "name": "Champignon Floral",
+          "itemId": 17677,
+          "imageUrl": "/items/17677.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17677"
+        },
+        {
+          "name": "Pâtée de l'espace",
+          "itemId": 17679,
+          "imageUrl": "/items/17679.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17679"
+        },
+        {
+          "name": "Filet à chacha volant",
+          "itemId": 17680,
+          "imageUrl": "/items/17680.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17680"
+        },
+        {
+          "name": "Sifflet de Nyan",
+          "itemId": 17678,
+          "imageUrl": "/items/17678.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17678"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 911,
+            "name": "Jardins à la Crème",
+            "coordinates": [
+              "-1,-6"
+            ]
+          },
+          {
+            "id": 856,
+            "name": "Lande Poilue",
+            "coordinates": [
+              "0,0",
+              "4,2",
+              "2,0",
+              "3,0",
+              "4,1",
+              "5,2"
+            ]
+          },
+          {
+            "id": 855,
+            "name": "Pierres de l'élévation",
+            "coordinates": [
+              "2,-2",
+              "1,-1"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1432,
+            "name": "Ecaflipuces",
+            "monsters": [
+              {
+                "id": 4291,
+                "name": "Pupuce",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4291.png"
+              },
+              {
+                "id": 4292,
+                "name": "Morcac",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4292.png"
+              },
+              {
+                "id": 4293,
+                "name": "Pikbul",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4293.png"
+              },
+              {
+                "id": 4294,
+                "name": "Gériatique",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4294.png"
+              }
+            ]
+          },
+          {
+            "id": 1433,
+            "name": "Matougarous",
+            "monsters": [
+              {
+                "id": 4296,
+                "name": "Chasquatch",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4296.png"
+              },
+              {
+                "id": 4297,
+                "name": "Chacrebleu",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4297.png"
+              },
+              {
+                "id": 4298,
+                "name": "Chakichan",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4298.png"
+              },
+              {
+                "id": 4299,
+                "name": "Chargus",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4299.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:964",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/las-du-volans.html",
+      "sourceTitle": "L'As du Volans",
+      "sourceHash": "88dcb6d71ef86c21e83de8df13598ca4e81c22e4859ef6872f66dce2a984fb02",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Aidez l'agent Taï à récupérer et terminer son rapport pour le Sergent Baste. La portion comprend un combat de défense, la récupération des deux parties du rapport et leur remise à l'avant-poste, ce qui termine Le jeu du Chaminou.",
+      "recommendedLevel": 160,
+      "prerequisites": [
+        "Puce de luxe.",
+        "Le jeu du Chaminou doit déjà être lancé auprès du Sergent Baste en [-1,-6]."
+      ],
+      "rewards": [
+        "2 282 028 XP.",
+        "28 780 Kamas.",
+        "30 x Orichor.",
+        "5 x Collier de Chakichan."
+      ],
+      "preparation": [
+        "Prévoir un combat réalisable en groupe ; l'Agent Taï occupe une place et jusqu'à 7 joueurs peuvent participer."
+      ],
+      "actions": [
+        {
+          "instruction": "Retrouvez l'Agent Taï et demandez-lui son rapport. Il explique que sa partie de Chaminou a mal tourné et vous devez le défendre.",
+          "position": "[4,2]",
+          "zoneHint": "Lande Poilue",
+          "warning": "Un combat se déclenche pour défendre Taï ; l'agent occupe une place dans le groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Vainquez les assaillants aux côtés de Taï. À la fin du combat, vous obtenez le Trophée du Chaminou.",
+          "position": "[4,2]",
+          "zoneHint": "Lande Poilue",
+          "warning": "Les adversaires peuvent retirer de la durée d'effets, réduire le tacle et infliger des dommages persistants.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Redemandez le rapport à Taï. Il affirme avoir laissé son début de rapport chez Chanus et vous charge de le récupérer pendant qu'il rédige la suite.",
+          "position": "[4,2]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Chanus et demandez pourquoi il se plaint. Malgré son différend avec Taï, il vous remet la Première partie du rapport de l'agent Taï.",
+          "position": "[0,1]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Taï et demandez la seconde partie. Il prétend que son papier et ses stylos ont été volés.",
+          "position": "[4,2]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez Channen sur le prétendu voleur. Elle révèle que Taï a lui-même caché ses affaires en vous voyant arriver.",
+          "position": "[3,2]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Confrontez Taï au sujet des affaires cachées derrière la statue. Il finit par vous remettre la Deuxième partie du rapport de l'agent Taï.",
+          "position": "[4,2]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez à l'avant-poste et donnez les deux parties du rapport au Sergent Baste. La quête se termine et débloque Le conquérant.",
+          "position": "[-1,-6]",
+          "zoneHint": "Avant-poste",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La prise de quête auprès du Sergent Baste est supposée déjà faite puisque cette occurrence est ACTIVE.",
+        "Le Trophée du Chaminou est obtenu pendant le combat de défense de Taï."
+      ],
+      "npcs": [
+        "Sergent Baste",
+        "Agent Taï",
+        "Chanus",
+        "Channen"
+      ],
+      "items": [
+        {
+          "name": "Trophée du Chaminou",
+          "itemId": 17602,
+          "imageUrl": "/items/17602.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17602"
+        },
+        {
+          "name": "Première partie du rapport de l'agent Taï",
+          "itemId": 17603,
+          "imageUrl": "/items/17603.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17603"
+        },
+        {
+          "name": "Deuxième partie du rapport de l'agent Taï",
+          "itemId": 17604,
+          "imageUrl": "/items/17604.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17604"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 856,
+            "name": "Lande Poilue",
+            "coordinates": [
+              "4,2",
+              "0,1",
+              "3,2"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-1,-6"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1433,
+            "name": "Matougarous",
+            "monsters": [
+              {
+                "id": 4296,
+                "name": "Chasquatch",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4296.png"
+              },
+              {
+                "id": 4297,
+                "name": "Chacrebleu",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4297.png"
+              },
+              {
+                "id": 4298,
+                "name": "Chakichan",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4298.png"
+              },
+              {
+                "id": 4299,
+                "name": "Chargus",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4299.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:945",
+      "relation": "ACTIVE",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-jeu-du-chaminou.html",
+      "sourceTitle": "Le jeu du Chaminou",
+      "sourceHash": "b02d766637532bedafc8a67cae168d5c188b84df3560be39c1ac85df411d9ba4",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez En rouge et noir auprès de Chagun, puis accomplissez le Plateau de Ush afin de vaincre Ush Galesh, comme demandé par le guide. Ne poursuivez pas ici la conversation de fin avec Ush : cette occurrence START s'arrête après le donjon.",
+      "recommendedLevel": 160,
+      "prerequisites": [
+        "L'As du Volans.",
+        "Avoir rejoint Chagun à l'issue de L'As du Volans."
+      ],
+      "rewards": [
+        "4 564 056 XP.",
+        "57 560 Kamas.",
+        "30 x Orichor.",
+        "3 x Dent de Chakaroze."
+      ],
+      "preparation": [
+        "Prévoir d'effectuer le donjon Plateau de Ush."
+      ],
+      "actions": [
+        {
+          "instruction": "Reparlez à Chagun. Il vous révèle qu'Ush Galesh serait responsable de la malédiction de la félithropie et vous demande de le vaincre ; cela lance En rouge et noir.",
+          "position": "[5,2]",
+          "zoneHint": "Lande Poilue",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au Plateau de Ush et effectuez le donjon jusqu'au combat final.",
+          "position": "[7,-3]",
+          "zoneHint": "Plateau de Ush",
+          "warning": "Donjon requis pour cette occurrence.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Vainquez Ush Galesh lors du combat final du Plateau de Ush.",
+          "position": "[7,-3]",
+          "zoneHint": "Plateau de Ush",
+          "warning": "Arrêtez cette occurrence après la victoire : ne poursuivez pas ici le dialogue qui conclut la quête.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "L'As du Volans est supposée terminée juste avant cette occurrence.",
+        "La discussion avec Ush Galesh après le combat, qui permet de demander la levée de la malédiction et de conclure En rouge et noir, est volontairement laissée pour la suite du parcours."
+      ],
+      "npcs": [
+        "Chagun",
+        "Ush Galesh"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 856,
+            "name": "Lande Poilue",
+            "coordinates": [
+              "5,2"
+            ]
+          },
+          {
+            "id": 853,
+            "name": "Plateau de Ush",
+            "coordinates": [
+              "7,-3"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1433,
+            "name": "Matougarous",
+            "monsters": [
+              {
+                "id": 4296,
+                "name": "Chasquatch",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4296.png"
+              },
+              {
+                "id": 4297,
+                "name": "Chacrebleu",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4297.png"
+              },
+              {
+                "id": 4298,
+                "name": "Chakichan",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4298.png"
+              },
+              {
+                "id": 4299,
+                "name": "Chargus",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4299.png"
+              },
+              {
+                "id": 4300,
+                "name": "Chakaroze",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/4300.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:965",
+      "relation": "START",
+      "sortOrder": 3,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/en-rouge-et-noir.html",
+      "sourceTitle": "En rouge et noir",
+      "sourceHash": "439d512ca21bc735daf1e50d239b56c7c643559a6a832820c0e3ea74d9a03001",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Regrouper les passages chez Taï",
+      "description": "L'As du Volans et Le jeu du Chaminou demandent plusieurs interactions avec Taï en [4,2]. Lorsque les deux objectifs sont actifs au même moment, traitez leurs dialogues disponibles lors d'un même passage afin de limiter les allers-retours dans la Lande Poilue.",
+      "questKeys": [
+        "quest:964",
+        "quest:945"
+      ],
+      "actions": [
+        "À chaque passage en [4,2], vérifiez et avancez les objectifs disponibles de L'As du Volans et du Jeu du Chaminou avant de repartir.",
+        "Profitez de vos retours vers l'avant-poste [-1,-6] pour rendre ou poursuivre les objectifs des deux quêtes lorsque leur progression le permet."
+      ]
+    }
+  ]
 }

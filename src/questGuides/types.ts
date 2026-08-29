@@ -1,6 +1,8 @@
 import { z } from "zod";
 import { questBestiarySchema } from "../bestiary/types.js";
 
+export const MAX_QUEST_GUIDE_ACTIONS = 100;
+
 export const questGuideActionSchema = z.object({
   instruction: z.string().trim().min(1).max(1200),
   position: z.string().trim().min(1).max(80).nullable(),
@@ -22,7 +24,7 @@ export const questGuideContentSchema = z.object({
   prerequisites: z.array(z.string().trim().min(1).max(1200)).max(20),
   rewards: z.array(z.string().trim().min(1).max(1200)).max(20),
   preparation: z.array(z.string().trim().min(1).max(1200)).max(30),
-  actions: z.array(questGuideActionSchema).min(1).max(30),
+  actions: z.array(questGuideActionSchema).min(1).max(MAX_QUEST_GUIDE_ACTIONS),
   notes: z.array(z.string().trim().min(1).max(1200)).max(20),
   npcs: z.array(z.string().trim().min(1).max(120)).max(40).default([]),
   items: z.array(questGuideItemSchema).max(40).default([]),
@@ -114,6 +116,7 @@ export const questGuideJsonSchema = {
     preparation: { type: "array", maxItems: 30, items: { type: "string", maxLength: 1200 } },
     actions: {
       type: "array",
+      maxItems: MAX_QUEST_GUIDE_ACTIONS,
       items: {
         type: "object",
         additionalProperties: false,

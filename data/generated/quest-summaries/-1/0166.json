@@ -1,8 +1,434 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 166,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T22:25:09.315Z",
+  "summaries": [
+    {
+      "overview": "La Galerie du Phossile demandée lors de l'occurrence précédente est supposée terminée et le Phossile vaincu. Il reste uniquement à confirmer auprès de Dyane Phossé qu'elle a récupéré la pelle sacrée, puis à rendre compte au Professeur Maximilio pour achever la quête.",
+      "recommendedLevel": 150,
+      "prerequisites": [
+        "Avoir terminé la portion précédente de la quête, notamment la Galerie du Phossile et la victoire contre le Phossile.",
+        "Le phormidiable au corps."
+      ],
+      "rewards": [
+        "4 431 000 XP.",
+        "50 960 kamas.",
+        "30 x Orichor.",
+        "1 x Kamatrix."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Après la Galerie du Phossile, parlez à Dyane Phossé pour vérifier qu'elle a pu récupérer la pelle de la Phorrée pendant que vous occupiez le Phossile.",
+          "position": "[-2,-3]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez ensuite le Professeur Maximilio et dites-lui que vous avez aidé Dyane afin de terminer la quête.",
+          "position": "[-1,-1]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le donjon Galerie du Phossile appartient à la portion déjà réalisée lors de l'occurrence START de l'étape précédente et ne doit pas être recommencé ici."
+      ],
+      "npcs": [
+        "Dyane Phossé",
+        "Professeur Maximilio"
+      ],
+      "items": [
+        {
+          "name": "Pelle de la Phorrée",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Kamatrix",
+          "itemId": 15182,
+          "imageUrl": "/items/15182.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15182"
+        },
+        {
+          "name": "Orichor",
+          "itemId": 15206,
+          "imageUrl": "/items/15206.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15206"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 820,
+            "name": "Creuset des Fortunés",
+            "coordinates": [
+              "-2,-3",
+              "-1,-1"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3670,
+            "name": "Maxi-Malle",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/3670.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1093,
+            "name": "Koffrefors",
+            "monsters": [
+              {
+                "id": 3666,
+                "name": "Berserkoffre",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3666.png"
+              },
+              {
+                "id": 3663,
+                "name": "Boursoin",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3663.png"
+              },
+              {
+                "id": 3664,
+                "name": "Mimikado",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3664.png"
+              },
+              {
+                "id": 3665,
+                "name": "Trésantène",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3665.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:788",
+      "relation": "FINISH",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-pelle-de-la-phorreacutee.html",
+      "sourceTitle": "La pelle de la phorrée",
+      "sourceHash": "ccd2d6effbb7ef53b7310e9a2e1a5146bcc63d8d7fd29857bf43ed93d108b3b6",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "La quête est supposée avancée jusqu'à l'objectif des 5 Pépites aurifière, récupérables notamment pendant la Galerie du Phossile de l'étape précédente. À cette occurrence, utilisez ces 5 pépites pour fabriquer la gaufre en or, puis vendez-la à Chipsou en choisissant une réponse compatible avec vos caractéristiques ou succès afin de conclure la quête.",
+      "recommendedLevel": 150,
+      "prerequisites": [
+        "Un cœur d'or.",
+        "Avoir accompli la portion précédente de Maudite générosité jusqu'à l'objectif demandant 5 Pépites aurifière.",
+        "Posséder 5 Pépites aurifière avant de reprendre cette occurrence.",
+        "Pour convaincre Chipsou : avoir au moins 600 agilité, ou 600 chance, ou 600 force, ou 600 intelligence, ou 700 vitalité, ou remplir l'une des alternatives de succès prévues pour certaines réponses."
+      ],
+      "rewards": [
+        "2 215 500 XP.",
+        "25 480 kamas.",
+        "30 x Orichor.",
+        "3 x Queue de Mère Veilleuse."
+      ],
+      "preparation": [
+        "Vérifiez que les 5 Pépites aurifière sont bien dans vos objets de quête.",
+        "Prévoyez une option de dialogue valide chez Chipsou : 600 agilité minimum ; 600 chance minimum ; 600 force minimum ou succès \"L'éleveur c'est moi\" ; 600 intelligence minimum ou succès \"Ma petite entreprise\" ; ou 700 vitalité minimum."
+      ],
+      "actions": [
+        {
+          "instruction": "Avec les 5 Pépites aurifière obtenues précédemment, rendez-vous à l'enclume et cliquez dessus pour fabriquer la gaufre en or.",
+          "position": "[2,-3]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": "Cette reprise suppose que les 5 Pépites aurifière ont déjà été obtenues ; ne poursuivez pas sans elles.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir Chipsou et proposez-lui la gaufre en or. Sélectionnez une réponse dont vous remplissez la condition : 600 agilité minimum ; 600 chance minimum ; 600 force minimum ou succès \"L'éleveur c'est moi\" ; 600 intelligence minimum ou succès \"Ma petite entreprise\" ; ou 700 vitalité minimum.",
+          "position": "[1,-5]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": "Le choix de dialogue est conditionné par vos caractéristiques ou succès. Un personnage dont les caractéristiques ont été entièrement investies en sagesse risque de ne disposer d'aucune réponse valide.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Une fois la vente acceptée, demandez votre paiement à Chipsou. Il achète la gaufre ainsi que le Joyau écarlate, ce qui termine la quête.",
+          "position": "[1,-5]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": "La remise du Joyau écarlate à Chipsou clôt la quête.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les étapes antérieures — Rubis étincelant, dépôt sur le piédestal, combat solitaire contre le Phozami agressif puis collecte des 5 Pépites aurifière — sont supposées déjà accomplies et ne sont pas à refaire ici.",
+        "Les Pépites aurifière peuvent avoir été obtenues automatiquement sur les monstres de la Carrière Aurifière pendant la progression précédente."
+      ],
+      "npcs": [
+        "Chipsou"
+      ],
+      "items": [
+        {
+          "name": "Pépites aurifière",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Gaufre en or",
+          "itemId": 16434,
+          "imageUrl": "/items/16434.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16434"
+        },
+        {
+          "name": "Joyau écarlate",
+          "itemId": 15318,
+          "imageUrl": "/items/15318.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15318"
+        },
+        {
+          "name": "Orichor",
+          "itemId": 15206,
+          "imageUrl": "/items/15206.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15206"
+        },
+        {
+          "name": "Queue de Mère Veilleuse",
+          "itemId": 15175,
+          "imageUrl": "/items/15175.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15175"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 982,
+            "name": "L'Enclume",
+            "coordinates": [
+              "2,-3"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "1,-5"
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Montagne des Craqueleurs",
+            "coordinates": [
+              "1,-5"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2367,
+            "name": "Kwakamole l'Appétissant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2367.png"
+          },
+          {
+            "id": 2369,
+            "name": "Kwaké le Piraté",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2369.png"
+          },
+          {
+            "id": 2451,
+            "name": "Kwakolak le Chocolaté",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2451.png"
+          },
+          {
+            "id": 2368,
+            "name": "Kwakwatique le Trempé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2368.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 190,
+            "name": "Kwakeres",
+            "monsters": [
+              {
+                "id": 269,
+                "name": "Kwakere de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/269.png"
+              },
+              {
+                "id": 271,
+                "name": "Kwakere de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/271.png"
+              },
+              {
+                "id": 270,
+                "name": "Kwakere de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/270.png"
+              },
+              {
+                "id": 272,
+                "name": "Kwakere de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/272.png"
+              }
+            ]
+          },
+          {
+            "id": 189,
+            "name": "Kwaks",
+            "monsters": [
+              {
+                "id": 83,
+                "name": "Kwak de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/83.png"
+              },
+              {
+                "id": 84,
+                "name": "Kwak de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/84.png"
+              },
+              {
+                "id": 235,
+                "name": "Kwak de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/235.png"
+              },
+              {
+                "id": 81,
+                "name": "Kwak de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/81.png"
+              }
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Mulous",
+            "monsters": [
+              {
+                "id": 102,
+                "name": "Mulou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/102.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 214,
+            "name": "Porkass",
+            "monsters": [
+              {
+                "id": 123,
+                "name": "Cochon de Lait",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/123.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:797",
+      "relation": "FINISH",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/maudite-geacuteneacuterositeacute.html",
+      "sourceTitle": "Maudite générosité",
+      "sourceHash": "f5a2e8521e047aa8dcba52c04898fd34185017289825bf7205a4a6108fb87e25",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

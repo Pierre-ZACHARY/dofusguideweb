@@ -1,8 +1,886 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 181,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T22:25:38.560Z",
+  "summaries": [
+    {
+      "overview": "Poursuis l'enquête d'Ogivol Victor sur l'eau des Larmes d'Ouronigride : effectue les six prélèvements, fais-les examiner, puis consulte Otomaï et Kimiya. Après avoir fourni les ressources demandées à Kimiya, ramène la créature aquatique aux Larmes d'Ouronigride pour achever cette portion de quête.",
+      "recommendedLevel": 160,
+      "prerequisites": [
+        "Niveau recommandé : 160."
+      ],
+      "rewards": [
+        "4 564 056 XP.",
+        "57 560 kamas.",
+        "2 x Kama de glace."
+      ],
+      "preparation": [
+        "Prévoir 10 x Bave du Kaskargo.",
+        "Prévoir 1 x Pistil du Tynril.",
+        "Prévoir 5 x Oeuf de Crapeur."
+      ],
+      "actions": [
+        {
+          "instruction": "Visite cette carte des Larmes d'Ouronigride pour obtenir automatiquement un prélèvement d'eau ; aucun élément du décor n'est à cliquer.",
+          "position": "[-68,-86]",
+          "zoneHint": "Larmes d'Ouronigride",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Visite cette carte pour obtenir le prélèvement suivant.",
+          "position": "[-66,-85]",
+          "zoneHint": "Larmes d'Ouronigride",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Visite cette carte pour obtenir le prélèvement suivant.",
+          "position": "[-70,-84]",
+          "zoneHint": "Larmes d'Ouronigride",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Visite cette carte pour obtenir le prélèvement suivant.",
+          "position": "[-72,-85]",
+          "zoneHint": "Larmes d'Ouronigride",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Visite cette carte pour obtenir le prélèvement suivant.",
+          "position": "[-72,-84]",
+          "zoneHint": "Larmes d'Ouronigride",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Visite cette carte pour obtenir le sixième prélèvement.",
+          "position": "[-73,-84]",
+          "zoneHint": "Larmes d'Ouronigride",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne voir Ogivol Victor et montre-lui les prélèvements ainsi que la découverte de l'étrange créature d'eau.",
+          "position": "[-71,-87]",
+          "zoneHint": "Larmes d'Ouronigride",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À l'épicerie, parle à Ernest Laye afin de déposer les prélèvements d'eau.",
+          "position": "[-77,-45]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Va voir Eric Azaraille à l'atelier des alchimistes et interroge-le au sujet de la créature d'eau.",
+          "position": "[-81,-44]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Consulte Otomaï ; il te redirige vers son assistante Kimiya.",
+          "position": "[-55,15]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parle à Kimiya dans son laboratoire et remets-lui 10 x Bave du Kaskargo, 1 x Pistil du Tynril et 5 x Oeuf de Crapeur afin qu'elle traite la créature.",
+          "position": "[-49,9]",
+          "zoneHint": "Plage de Corail",
+          "warning": "Les ressources sont consommées lors de cette étape.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne dans les Larmes d'Ouronigride et clique sur le bassin pour y replacer la créature ; parle ensuite à Oynop lorsqu'elle apparaît.",
+          "position": "[-73,-84]",
+          "zoneHint": "Larmes d'Ouronigride",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête débloque ensuite l'accès à « Art nacre ».",
+        "Les ressources réclamées par Kimiya peuvent être préparées avant le déplacement jusqu'à son laboratoire afin d'éviter un aller-retour."
+      ],
+      "npcs": [
+        "Ogivol Victor",
+        "Ernest Laye",
+        "Eric Azaraille",
+        "Otomaï",
+        "Kimiya",
+        "Oynop"
+      ],
+      "items": [
+        {
+          "name": "Bave du Kaskargo",
+          "itemId": 8832,
+          "imageUrl": "/items/8832.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8832"
+        },
+        {
+          "name": "Pistil du Tynril",
+          "itemId": 8777,
+          "imageUrl": "/items/8777.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8777"
+        },
+        {
+          "name": "Oeuf de Crapeur",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 455,
+            "name": "Jungle obscure",
+            "coordinates": [
+              "-55,15"
+            ]
+          },
+          {
+            "id": 601,
+            "name": "La Bourgade",
+            "coordinates": [
+              "-77,-45",
+              "-81,-44"
+            ]
+          },
+          {
+            "id": 610,
+            "name": "Larmes d'Ouronigride",
+            "coordinates": [
+              "-68,-86",
+              "-66,-85",
+              "-70,-84",
+              "-72,-85",
+              "-72,-84",
+              "-73,-84",
+              "-71,-87"
+            ]
+          },
+          {
+            "id": 453,
+            "name": "Plage de Corail",
+            "coordinates": [
+              "-49,9"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3528,
+            "name": "Amy l'empoisonneuse",
+            "level": 140,
+            "imageUrl": "/bestiary/monsters/3528.png"
+          },
+          {
+            "id": 2905,
+            "name": "Vengeuse Masquée",
+            "level": 160,
+            "imageUrl": "/bestiary/monsters/2905.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2559,
+            "name": "Cruskof le Rustre",
+            "level": 36,
+            "imageUrl": "/bestiary/monsters/2559.png"
+          },
+          {
+            "id": 2560,
+            "name": "Crusmeyer le Pervers",
+            "level": 36,
+            "imageUrl": "/bestiary/monsters/2560.png"
+          },
+          {
+            "id": 2558,
+            "name": "Crustensyl le Pragmatique",
+            "level": 36,
+            "imageUrl": "/bestiary/monsters/2558.png"
+          },
+          {
+            "id": 2557,
+            "name": "Crustterus l'Organique",
+            "level": 36,
+            "imageUrl": "/bestiary/monsters/2557.png"
+          },
+          {
+            "id": 2581,
+            "name": "Palmbytch la Bronzée",
+            "level": 37,
+            "imageUrl": "/bestiary/monsters/2581.png"
+          },
+          {
+            "id": 2583,
+            "name": "Palmiche le Serein",
+            "level": 37,
+            "imageUrl": "/bestiary/monsters/2583.png"
+          },
+          {
+            "id": 2584,
+            "name": "Palmiflette le Convivial",
+            "level": 37,
+            "imageUrl": "/bestiary/monsters/2584.png"
+          },
+          {
+            "id": 2582,
+            "name": "Palmito le Menteur",
+            "level": 37,
+            "imageUrl": "/bestiary/monsters/2582.png"
+          },
+          {
+            "id": 2555,
+            "name": "Corboyard l'Enigmatique",
+            "level": 38,
+            "imageUrl": "/bestiary/monsters/2555.png"
+          },
+          {
+            "id": 2554,
+            "name": "Chiendanlémin l'Illusionniste",
+            "level": 125,
+            "imageUrl": "/bestiary/monsters/2554.png"
+          },
+          {
+            "id": 2579,
+            "name": "Nerdeubeu le Flagellant",
+            "level": 126,
+            "imageUrl": "/bestiary/monsters/2579.png"
+          },
+          {
+            "id": 2550,
+            "name": "Brouste l'Humiliant",
+            "level": 127,
+            "imageUrl": "/bestiary/monsters/2550.png"
+          },
+          {
+            "id": 2360,
+            "name": "Ecorfé la Vive",
+            "level": 128,
+            "imageUrl": "/bestiary/monsters/2360.png"
+          },
+          {
+            "id": 2565,
+            "name": "Floanna la Blonde",
+            "level": 129,
+            "imageUrl": "/bestiary/monsters/2565.png"
+          },
+          {
+            "id": 2546,
+            "name": "Bitoven le Musicien",
+            "level": 130,
+            "imageUrl": "/bestiary/monsters/2546.png"
+          },
+          {
+            "id": 2544,
+            "name": "Abrakine le Sombre",
+            "level": 131,
+            "imageUrl": "/bestiary/monsters/2544.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2913,
+                "name": "Chachachovage",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2913.png"
+              },
+              {
+                "id": 2893,
+                "name": "Crabe Hijacob",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2893.png"
+              },
+              {
+                "id": 2914,
+                "name": "Gélikan",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2914.png"
+              },
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          },
+          {
+            "id": 165,
+            "name": "Colonie du Magistral",
+            "monsters": [
+              {
+                "id": 1022,
+                "name": "Corailleur",
+                "level": 38,
+                "imageUrl": "/bestiary/monsters/1022.png"
+              },
+              {
+                "id": 1060,
+                "name": "Crustorail Kouraçao",
+                "level": 36,
+                "imageUrl": "/bestiary/monsters/1060.png"
+              },
+              {
+                "id": 1061,
+                "name": "Crustorail Malibout",
+                "level": 36,
+                "imageUrl": "/bestiary/monsters/1061.png"
+              },
+              {
+                "id": 1063,
+                "name": "Crustorail Morito",
+                "level": 36,
+                "imageUrl": "/bestiary/monsters/1063.png"
+              },
+              {
+                "id": 1062,
+                "name": "Crustorail Passaoh",
+                "level": 36,
+                "imageUrl": "/bestiary/monsters/1062.png"
+              },
+              {
+                "id": 1064,
+                "name": "Palmifleur Kouraçao",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/1064.png"
+              },
+              {
+                "id": 1065,
+                "name": "Palmifleur Malibout",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/1065.png"
+              },
+              {
+                "id": 1067,
+                "name": "Palmifleur Morito",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/1067.png"
+              },
+              {
+                "id": 1066,
+                "name": "Palmifleur Passaoh",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/1066.png"
+              }
+            ]
+          },
+          {
+            "id": 164,
+            "name": "Florifaune obscure",
+            "monsters": [
+              {
+                "id": 1077,
+                "name": "Abrakleur Sombre",
+                "level": 131,
+                "imageUrl": "/bestiary/monsters/1077.png"
+              },
+              {
+                "id": 1041,
+                "name": "Bitouf Sombre",
+                "level": 130,
+                "imageUrl": "/bestiary/monsters/1041.png"
+              },
+              {
+                "id": 1073,
+                "name": "Brouture",
+                "level": 127,
+                "imageUrl": "/bestiary/monsters/1073.png"
+              },
+              {
+                "id": 1076,
+                "name": "Chiendent",
+                "level": 125,
+                "imageUrl": "/bestiary/monsters/1076.png"
+              },
+              {
+                "id": 1029,
+                "name": "Floribonde",
+                "level": 129,
+                "imageUrl": "/bestiary/monsters/1029.png"
+              },
+              {
+                "id": 1075,
+                "name": "Fécorce",
+                "level": 128,
+                "imageUrl": "/bestiary/monsters/1075.png"
+              },
+              {
+                "id": 1074,
+                "name": "Nerbe",
+                "level": 126,
+                "imageUrl": "/bestiary/monsters/1074.png"
+              }
+            ]
+          },
+          {
+            "id": 158,
+            "name": "Sulfurieux",
+            "monsters": [
+              {
+                "id": 2866,
+                "name": "Atomystique",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/2866.png"
+              },
+              {
+                "id": 2865,
+                "name": "Crapeur",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/2865.png"
+              },
+              {
+                "id": 2869,
+                "name": "Solfataré",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/2869.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:405",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/un-volcan-seacuteteint.html",
+      "sourceTitle": "Un volcan s'éteint",
+      "sourceHash": "3944f6f9d27b0b33a05a79188b8038784c04069aca9f8b2c951b53dedae50c0e",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Les récoltes demandées ont été effectuées lors de l'occurrence précédente. À cette étape, il ne reste qu'à rendre les 40 x Rose à lys Cullen et les 5 x Rose Delima à Bisale Vinlenta pour terminer la quête et débloquer « Fleuries mais rougissent ».",
+      "recommendedLevel": 160,
+      "prerequisites": [
+        "Mes lys fleurs.",
+        "Avoir déjà récupéré 40 x Rose à lys Cullen et 5 x Rose Delima lors de la portion précédente."
+      ],
+      "rewards": [
+        "4 564 056 XP.",
+        "57 560 kamas.",
+        "3 x Kama de glace.",
+        "5 x Pierre d'Atomystique."
+      ],
+      "preparation": [
+        "Vérifier que 40 x Rose à lys Cullen sont présentes dans les objets de quête.",
+        "Vérifier que 5 x Rose Delima sont présentes dans les objets de quête."
+      ],
+      "actions": [
+        {
+          "instruction": "Retourne auprès de Bisale Vinlenta et remets-lui les 40 x Rose à lys Cullen et les 5 x Rose Delima pour terminer la quête.",
+          "position": "[-72,-31]",
+          "zoneHint": "Champs de glace",
+          "warning": "Les fleurs sont remises au PNJ lors de la validation.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les combats et récoltes des Larmes d'Ouronigride sont supposés déjà terminés à cette occurrence.",
+        "La fin de cette quête permet immédiatement de lancer « Fleuries mais rougissent » au même PNJ."
+      ],
+      "npcs": [
+        "Bisale Vinlenta"
+      ],
+      "items": [
+        {
+          "name": "Rose à lys Cullen",
+          "itemId": 11162,
+          "imageUrl": "/items/11162.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11162"
+        },
+        {
+          "name": "Rose Delima",
+          "itemId": 11163,
+          "imageUrl": "/items/11163.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11163"
+        },
+        {
+          "name": "Pierre d'Atomystique",
+          "itemId": 11323,
+          "imageUrl": "/items/11323.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11323"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 602,
+            "name": "Champs de glace",
+            "coordinates": [
+              "-72,-31"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2901,
+            "name": "Bouflouth",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/2901.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 156,
+            "name": "Boufmouths",
+            "monsters": [
+              {
+                "id": 2850,
+                "name": "Boufmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2850.png"
+              },
+              {
+                "id": 2851,
+                "name": "Boufmouth de guerre",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2851.png"
+              },
+              {
+                "id": 2852,
+                "name": "Boufmouth légendaire",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2852.png"
+              },
+              {
+                "id": 2853,
+                "name": "Bouftonmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2853.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:339",
+      "relation": "FINISH",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/rose-a-lys-rose-a-lys-oh.html",
+      "sourceTitle": "Rose à lys, Rose à lys, oh !",
+      "sourceHash": "33e945a12cb35cdc178e06cb59188b3edabce6c9daf238ae39131511dd83746d",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lance « Fleuries mais rougissent » auprès de Bisale Vinlenta. La quête exigera 40 x Ellébore d'Hel obtenues uniquement sur les monstres de l'Hypogée de l'Obsidiantre et 1 x Bétoine Agayne récoltée dans le donjon. Le guide diffère cette collecte afin de la combiner avec « À la recherche de Dan Lavy » ; n'entre donc pas encore dans le donjon au titre de cette occurrence.",
+      "recommendedLevel": 160,
+      "prerequisites": [
+        "Rose à lys, Rose à lys, oh !"
+      ],
+      "rewards": [
+        "4 564 056 XP.",
+        "57 560 kamas.",
+        "3 x Kama de glace.",
+        "5 x Pierre de Fumrirolle."
+      ],
+      "preparation": [
+        "Prévoir de combattre des monstres dans l'Hypogée de l'Obsidiantre lors de la portion différée.",
+        "La collecte future demandera 40 x Ellébore d'Hel et 1 x Bétoine Agayne."
+      ],
+      "actions": [
+        {
+          "instruction": "Parle à Bisale Vinlenta après avoir terminé « Rose à lys, Rose à lys, oh ! » et accepte sa nouvelle demande afin de lancer « Fleuries mais rougissent ».",
+          "position": "[-72,-31]",
+          "zoneHint": "Champs de glace",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Ne cherche pas encore les 40 x Ellébore d'Hel ni la Bétoine Agayne : le guide prévoit de profiter d'un passage dans l'Hypogée de l'Obsidiantre avec d'autres quêtes de cette étape.",
+        "Les Ellébores d'Hel ne tombent que sur les monstres combattus à l'intérieur du donjon ; le drop ne fonctionne pas à l'extérieur.",
+        "La Bétoine Agayne est disponible dans les salles 3, 4, 5, 6 ou à la sortie du donjon."
+      ],
+      "npcs": [
+        "Bisale Vinlenta"
+      ],
+      "items": [
+        {
+          "name": "Ellébore d'Hel",
+          "itemId": 11164,
+          "imageUrl": "/items/11164.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11164"
+        },
+        {
+          "name": "Bétoine Agayne",
+          "itemId": 11165,
+          "imageUrl": "/items/11165.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11165"
+        },
+        {
+          "name": "Pierre de Fumrirolle",
+          "itemId": 11329,
+          "imageUrl": "/items/11329.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11329"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 602,
+            "name": "Champs de glace",
+            "coordinates": [
+              "-72,-31"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2901,
+            "name": "Bouflouth",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/2901.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 156,
+            "name": "Boufmouths",
+            "monsters": [
+              {
+                "id": 2850,
+                "name": "Boufmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2850.png"
+              },
+              {
+                "id": 2851,
+                "name": "Boufmouth de guerre",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2851.png"
+              },
+              {
+                "id": 2852,
+                "name": "Boufmouth légendaire",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2852.png"
+              },
+              {
+                "id": 2853,
+                "name": "Bouftonmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2853.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:340",
+      "relation": "START",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/fleuries-mais-rougissent.html",
+      "sourceTitle": "Fleuries mais rougissent",
+      "sourceHash": "bf6698f1c014772db61db37db770a878ea99efd4c81dc8d9266b860f99aa79f0",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après avoir terminé « Chauffage à moindre frais », lance la recherche de Dan Lavy, recueille les renseignements nécessaires puis avance jusqu'à l'objectif demandant de fouiller l'Hypogée de l'Obsidiantre. Profite alors du passage dans le donjon pour progresser jusqu'à la salle 4, sans poursuivre les étapes ultérieures de la quête qui seront reprises à l'étape suivante.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Niveau ⩾ 130.",
+        "Chauffage à moindre frais."
+      ],
+      "rewards": [
+        "4 564 056 XP.",
+        "57 560 kamas.",
+        "3 x Kama de glace.",
+        "1 x Tuf de Mofette."
+      ],
+      "preparation": [
+        "Terminer « Chauffage à moindre frais » avant de lancer cette quête.",
+        "Prévoir les quatre premières salles de l'Hypogée de l'Obsidiantre.",
+        "Éviter de déclencher par erreur un combat sur la carte de la salle 4 au moment de chercher Dan Lavy."
+      ],
+      "actions": [
+        {
+          "instruction": "Parle à Annette Daimpeau et accepte de rechercher son fiancé Dan Lavy afin de lui transmettre sa lettre.",
+          "position": "[-72,-40]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interroge Ogivol Victor sur Dan Lavy ; il indique que celui-ci est parti vers l'Hypogée de l'Obsidiantre.",
+          "position": "[-71,-87]",
+          "zoneHint": "Larmes d'Ouronigride",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À l'entrée de l'Hypogée de l'Obsidiantre, parle à Lave Azza jusqu'à obtenir l'objectif de fouiller le donjon à la recherche de Dan Lavy.",
+          "position": "[-71,-83]",
+          "zoneHint": "Entrée de l'Hypogée de l'Obsidiantre",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entre dans l'Hypogée de l'Obsidiantre et franchis les premières salles jusqu'à atteindre la salle 4. Arrête ici la progression spécifique de « À la recherche de Dan Lavy » pour cette occurrence.",
+          "position": "[-71,-83]",
+          "zoneHint": "Hypogée de l'Obsidiantre",
+          "warning": "Les salles du donjon impliquent des combats de groupe. Sur la carte de la salle 4, ne lance pas inutilement un combat avant d'effectuer les interactions de quête prévues lors de la reprise.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "La suite avec Dan Lavy, le retour auprès d'Annette et le combat contre Gros Med appartient à l'occurrence FINISH de l'étape suivante et n'est pas à effectuer maintenant.",
+        "Le passage dans le donjon peut servir simultanément à la collecte de « Fleuries mais rougissent »."
+      ],
+      "npcs": [
+        "Annette Daimpeau",
+        "Ogivol Victor",
+        "Lave Azza",
+        "Dan Lavy"
+      ],
+      "items": [
+        {
+          "name": "Tuf de Mofette",
+          "itemId": 11332,
+          "imageUrl": "/items/11332.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11332"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 620,
+            "name": "Hypogée de l'Obsidiantre",
+            "coordinates": [
+              "-71,-83"
+            ]
+          },
+          {
+            "id": 601,
+            "name": "La Bourgade",
+            "coordinates": [
+              "-72,-40"
+            ]
+          },
+          {
+            "id": 610,
+            "name": "Larmes d'Ouronigride",
+            "coordinates": [
+              "-71,-87"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2905,
+            "name": "Vengeuse Masquée",
+            "level": 160,
+            "imageUrl": "/bestiary/monsters/2905.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2913,
+                "name": "Chachachovage",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2913.png"
+              },
+              {
+                "id": 2893,
+                "name": "Crabe Hijacob",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2893.png"
+              },
+              {
+                "id": 2914,
+                "name": "Gélikan",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2914.png"
+              },
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          },
+          {
+            "id": 158,
+            "name": "Sulfurieux",
+            "monsters": [
+              {
+                "id": 2866,
+                "name": "Atomystique",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/2866.png"
+              },
+              {
+                "id": 2865,
+                "name": "Crapeur",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/2865.png"
+              },
+              {
+                "id": 2868,
+                "name": "Fumrirolle",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/2868.png"
+              },
+              {
+                "id": 2867,
+                "name": "Mofette",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/2867.png"
+              },
+              {
+                "id": 2869,
+                "name": "Solfataré",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/2869.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:362",
+      "relation": "START",
+      "sortOrder": 3,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/a-la-recherche-de-dan-lavy.html",
+      "sourceTitle": "À la recherche de Dan Lavy",
+      "sourceHash": "3bec864fdd130cf109d473758010aad061f3b383a4a50fc8d57f50ac6b0779ee",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Mutualiser l'Hypogée de l'Obsidiantre",
+      "description": "Le passage demandé par « À la recherche de Dan Lavy » se déroule dans le même donjon que les ressources de « Fleuries mais rougissent ». Profite des combats des premières salles pour avancer les deux objectifs sans refaire immédiatement le trajet.",
+      "questKeys": [
+        "quest:340",
+        "quest:362"
+      ],
+      "actions": [
+        "Après avoir lancé les deux quêtes, entre dans l'Hypogée de l'Obsidiantre pour « À la recherche de Dan Lavy ».",
+        "Pendant les combats du donjon, récupère les Ellébores d'Hel nécessaires à « Fleuries mais rougissent ».",
+        "À partir de la salle 3, récolte une Bétoine Agayne dès que l'occasion se présente."
+      ]
+    }
+  ]
 }

@@ -1,8 +1,1654 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 191,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T22:28:02.631Z",
+  "summaries": [
+    {
+      "overview": "La quête a été déclenchée lors de la discussion avec Koumiho pendant Requiem pour un Yokai. Cette occurrence consiste à enquêter sur le Guide errant, rejoindre le chemin des âmes, retrouver le Hoshinotama de Koumiho, rassembler les secrets des quatre vents à Aerdala puis rendre sa mémoire à la Kitsoune. La fin de cette quête débloque immédiatement la reprise de Requiem pour un Yokai.",
+      "recommendedLevel": 170,
+      "prerequisites": [
+        "Requiem pour un Yokai avancée jusqu'à la discussion avec Koumiho à la fin de la Demeure des Esprits."
+      ],
+      "rewards": [
+        "4 711 728 XP",
+        "64 560 Kamas",
+        "3 x Yokayu",
+        "3 x Étoffe de Samouraï fantôme"
+      ],
+      "preparation": [
+        "Prévoir 3 x Viscères de Scarafeuille, 3 x Fraise et 8 x Bananagrume pour l'Offrande à l'esprit du Vent.",
+        "Prévoir 12 x Ginseng, 2 x Malt et 4 x Étoffe de Samouraï fantôme pour l'Élixir des Trépasseurs.",
+        "Prévoir 2 000 kamas pour acheter 1 x Dernière pour la route, sauf si vous possédez déjà cet objet.",
+        "Prévoir 4 444 kamas obligatoires pour Karon le Trépasseur.",
+        "Un Alchimiste niveau 140 ou plus est nécessaire pour fabriquer l'Élixir des Trépasseurs.",
+        "Plusieurs combats sont réalisables en groupe, mais les combats contre les Tanukis morts pour les Pierres de Sélénite se font seul."
+      ],
+      "actions": [
+        {
+          "instruction": "Allez à la bibliothèque de Pandala et interrogez Narber Rihen Levihawa au sujet de la Kitsoune.",
+          "position": "[21,-27]",
+          "zoneHint": "Bibliothèque de Pandala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montez à l'étage et cliquez sur le livre rouge posé au sommet de la pile à gauche de la table afin de consulter Le conte du guide errant.",
+          "position": "[21,-27]",
+          "zoneHint": "Étage de la bibliothèque de Pandala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au palais de bambou, dans la salle de la Daimya, et parlez au Samouraï Khou du rônin surnommé le Guide errant.",
+          "position": "[22,-29]",
+          "zoneHint": "Palais de bambou",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Fabriquez 1 x Offrande à l'esprit du Vent à l'atelier Moudre avec 3 x Viscères de Scarafeuille, 3 x Fraise et 8 x Bananagrume.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "La fabrication exige le métier Paysan niveau 1 ou plus et le craft coopératif est impossible.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Au temple du Vent, cliquez sur le panier de bananagrumes pour déposer l'Offrande à l'esprit du Vent et obtenir l'accès au temple.",
+          "position": "[23,-36]",
+          "zoneHint": "Temple du Vent",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans le temple et parlez au Vieux Kozaru pour obtenir une piste concernant une descendante d'une voyageuse autrefois sauvée par le Guide errant.",
+          "position": "[23,-36]",
+          "zoneHint": "Temple du Vent",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez la Montagnarde d'Aerdala et intervenez lorsqu'elle est agressée par les Kozaru.",
+          "position": "[22,-35]",
+          "zoneHint": "Aerdala",
+          "warning": "Un combat se déclenche et peut être effectué à plusieurs.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, reparlez à la Montagnarde d'Aerdala afin de recevoir le lys araknawa autrefois offert par le Guide errant.",
+          "position": "[22,-35]",
+          "zoneHint": "Aerdala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sur Grobe, parlez au Nocher de Grobe et demandez comment suivre le chemin des âmes. Il vous indique qu'un Élixir des Trépasseurs et une Lanterne d'Externam seront nécessaires.",
+          "position": "[34,-40]",
+          "zoneHint": "Grobe",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Achetez 1 x Dernière pour la route auprès de Namabiru.",
+          "position": "[36,-43]",
+          "zoneHint": "Grobe",
+          "warning": "L'achat coûte 2 000 kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À la taverne d'Osakwa, parlez à l'Akwalique anonyme afin d'obtenir la bénédiction Œil de pluie.",
+          "position": "[20,-20]",
+          "zoneHint": "Taverne d'Osakwa",
+          "warning": "Œil de pluie disparaît si vous lancez un combat. Si cela arrive avant d'avoir terminé la collecte, revenez parler à l'Akwalique anonyme.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Avec Œil de pluie actif, récupérez l'eau de la Jarre de pluie.",
+          "position": "[22,-19]",
+          "zoneHint": "Akwadala",
+          "warning": "Évitez tout combat pendant la collecte afin de conserver Œil de pluie.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récupérez l'eau de la Jarre de pluie.",
+          "position": "[20,-21]",
+          "zoneHint": "Akwadala",
+          "warning": "Évitez tout combat pendant la collecte afin de conserver Œil de pluie.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récupérez l'eau de la Jarre de pluie.",
+          "position": "[18,-23]",
+          "zoneHint": "Akwadala",
+          "warning": "Évitez tout combat pendant la collecte afin de conserver Œil de pluie.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récupérez l'eau de la Jarre de pluie.",
+          "position": "[21,-24]",
+          "zoneHint": "Akwadala",
+          "warning": "Évitez tout combat pendant la collecte afin de conserver Œil de pluie.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récupérez l'eau de la dernière Jarre de pluie afin de réunir 5 x Pluie de Pandala.",
+          "position": "[19,-26]",
+          "zoneHint": "Akwadala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez sur la corde pour descendre dans la crevasse, puis cliquez sur la grosse fumerolle de la caverne afin d'obtenir la bénédiction Souffle d'airgile pour 4 combats.",
+          "position": "[25,-23]",
+          "zoneHint": "Caverne du souffle d'airgile",
+          "warning": "La source indique qu'une Corde d'escalade n'était pas nécessaire sur la bêta, mais conseille d'en prévoir une si la descente vous est refusée. Souffle d'airgile ne dure que 4 combats.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la mine et, dans la première salle, parlez au Tanuki mort de fatigue pour lancer le premier combat de collecte de Pierre de Sélénite.",
+          "position": "[25,-22]",
+          "zoneHint": "Première salle de la mine",
+          "warning": "Combat seul. La Pierre de Sélénite se récupère à 25% de taux de base, donc sa chute n'est pas garantie.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Dans la seconde salle de la même mine, partez directement à gauche et parlez au Tanuki mort de fatigue pour lancer le deuxième combat.",
+          "position": "[25,-22]",
+          "zoneHint": "Seconde salle de la mine",
+          "warning": "Combat seul. La Pierre de Sélénite se récupère à 25% de taux de base.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Parlez au Tanuki mort de fatigue pour lancer un autre combat de collecte.",
+          "position": "[24,-25]",
+          "zoneHint": null,
+          "warning": "Combat seul. La Pierre de Sélénite se récupère à 25% de taux de base.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Parlez au Tanuki mort de fatigue pour lancer le quatrième combat de collecte.",
+          "position": "[26,-26]",
+          "zoneHint": null,
+          "warning": "Combat seul. La Pierre de Sélénite se récupère à 25% de taux de base. Si vous n'obtenez pas 4 pierres avant la fin de Souffle d'airgile, reprenez la bénédiction. Les groupes peuvent demander environ 1 heure avant de réapparaître ; les Pierres de Sélénite sont également échangeables.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Une fois 4 x Pierre de Sélénite réunies, faites fabriquer 1 x Élixir des Trépasseurs avec 1 x Dernière pour la route, 4 x Pierre de Sélénite, 2 x Malt, 4 x Étoffe de Samouraï fantôme, 5 x Pluie de Pandala et 12 x Ginseng.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "La fabrication nécessite un Alchimiste niveau 140 ou plus.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sur Grobe, utilisez l'Élixir des Trépasseurs afin d'obtenir la bénédiction Je vois des gens qui sont morts pour 44 combats.",
+          "position": null,
+          "zoneHint": "Grobe",
+          "warning": "L'Élixir est incompatible avec certaines autres bénédictions, notamment Souffle d'airgile. Vérifiez qu'aucune bénédiction incompatible n'est encore active avant de l'utiliser.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récupérez la Lanterne d'Externam sur la carte du phénix.",
+          "position": "[35,-40]",
+          "zoneHint": "Grobe",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Suivez la route des âmes en passant d'abord par la carte de la taverne du cimetière.",
+          "position": "[36,-43]",
+          "zoneHint": "Grobe",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Continuez jusqu'au pied du Mont des Tombeaux.",
+          "position": "[37,-44]",
+          "zoneHint": "Mont des Tombeaux",
+          "warning": "Un combat se déclenche et peut être effectué à plusieurs.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Poursuivez jusqu'au ponton brumeux, parlez à Karon le Trépasseur et choisissez de payer la somme sans hésiter afin de monter sur la jonque.",
+          "position": "[37,-47]",
+          "zoneHint": "Ponton brumeux",
+          "warning": "Le passage coûte obligatoirement 4 444 kamas. La source avertit que marchander entraîne la mort du personnage.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sur le bateau fantomatique, reparlez à Karon le Trépasseur et choisissez de continuer la traversée.",
+          "position": null,
+          "zoneHint": "Bateau fantomatique",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparlez à Karon le Trépasseur et affrontez les Lémures qui attaquent la traversée.",
+          "position": null,
+          "zoneHint": "Bateau fantomatique",
+          "warning": "Le combat peut être effectué à plusieurs.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire, reparlez à Karon et choisissez de naviguer en aval, puis poursuivez les dialogues et les haltes de la traversée.",
+          "position": null,
+          "zoneHint": "Bateau fantomatique",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans les ruines des songes perdus, parlez au Visiteur de passage et répondez que le lieu vous rappelle le Domaine des Dieux.",
+          "position": null,
+          "zoneHint": "Ruines des songes perdus",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparlez à Karon et poursuivez le voyage jusqu'au rivage de la Mer de poussière, où vous retrouvez le Guide errant.",
+          "position": null,
+          "zoneHint": "Mer de poussière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Affrontez les ennemis aux côtés du Guide errant.",
+          "position": null,
+          "zoneHint": "Mer de poussière",
+          "warning": "Le combat peut être effectué à plusieurs.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, reparlez au Guide errant, montrez-lui le lys araknawa et évoquez Koumiho. À la fin de son récit, récupérez le globe du Hoshinotama contenant le Kitsounebi de Koumiho.",
+          "position": null,
+          "zoneHint": "Mer de poussière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez au temple du Vent et parlez au Vieux Kozaru en choisissant de patienter. Il vous demande de récupérer les secrets des quatre vents.",
+          "position": "[23,-36]",
+          "zoneHint": "Temple du Vent",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Kitsou de nuée afin de récupérer le secret du vent du nord.",
+          "position": "[21,-38]",
+          "zoneHint": "Aerdala",
+          "warning": "Un combat se déclenche et peut être effectué à plusieurs.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Parlez au Kitsou de sable afin de récupérer le secret du vent de l'est.",
+          "position": "[23,-33]",
+          "zoneHint": "Aerdala",
+          "warning": "Un combat se déclenche et peut être effectué à plusieurs.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Parlez au Kitsou de pluie afin de récupérer le secret du vent du sud.",
+          "position": "[21,-33]",
+          "zoneHint": "Aerdala",
+          "warning": "Un combat se déclenche et peut être effectué à plusieurs.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Parlez au Kitsou de foudre afin de récupérer le secret du vent de l'ouest.",
+          "position": "[19,-35]",
+          "zoneHint": "Aerdala",
+          "warning": "Un combat se déclenche et peut être effectué à plusieurs.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Une fois les quatre secrets récupérés, retournez auprès du Vieux Kozaru et confiez-les-lui avec le globe et le lys afin qu'il ravive les flammes du Kitsounebi.",
+          "position": "[23,-36]",
+          "zoneHint": "Temple du Vent",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez sur Grobe et parlez à Jibakurei en indiquant que vous avez quelque chose d'important à remettre à Koumiho.",
+          "position": "[39,-44]",
+          "zoneHint": "Demeure des Esprits",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Koumiho et remettez-lui son Hoshinotama, puis reparlez-lui après son changement d'apparence. Elle retrouve ses souvenirs et accepte de vous confier une flamme de son Kitsounebi, ce qui termine la quête.",
+          "position": "[39,-44]",
+          "zoneHint": "Demeure des Esprits",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête a déjà été lancée pendant la progression de Requiem pour un Yokai ; il ne faut pas recommencer les actions précédentes de cette quête.",
+        "La bénédiction Je vois des gens qui sont morts dure 44 combats.",
+        "La source indique qu'il est possible de profiter de cette bénédiction pour lancer Sécurité routière en [37,-46], mais cette quête n'appartient pas aux occurrences de l'étape 191 et n'est donc pas ajoutée aux actions.",
+        "Après restitution du Hoshinotama, Jusqu'à leur dernier soupir se termine et Requiem pour un Yokai peut reprendre immédiatement."
+      ],
+      "npcs": [
+        "Narber Rihen Levihawa",
+        "Samouraï Khou",
+        "Vieux Kozaru",
+        "Montagnarde d’Aerdala",
+        "Nocher de Grobe",
+        "Namabiru",
+        "Akwalique anonyme",
+        "Jarre de pluie",
+        "Tanuki mort de fatigue",
+        "Karon le Trépasseur",
+        "Visiteur de passage",
+        "Guide errant",
+        "Kitsou de nuée",
+        "Kitsou de sable",
+        "Kitsou de pluie",
+        "Kitsou de foudre",
+        "Jibakurei",
+        "Koumiho"
+      ],
+      "items": [
+        {
+          "name": "Offrande à l'esprit du Vent",
+          "itemId": 23118,
+          "imageUrl": "/items/23118.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23118"
+        },
+        {
+          "name": "Viscères de Scarafeuille",
+          "itemId": 2294,
+          "imageUrl": "/items/2294.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2294"
+        },
+        {
+          "name": "Fraise",
+          "itemId": 381,
+          "imageUrl": "/items/381.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/381"
+        },
+        {
+          "name": "Bananagrume",
+          "itemId": 10831,
+          "imageUrl": "/items/10831.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/10831"
+        },
+        {
+          "name": "Lys araknawa",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Dernière pour la route",
+          "itemId": 23595,
+          "imageUrl": "/items/23595.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23595"
+        },
+        {
+          "name": "Pluie de Pandala",
+          "itemId": 23593,
+          "imageUrl": "/items/23593.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23593"
+        },
+        {
+          "name": "Pierre de Sélénite",
+          "itemId": 23592,
+          "imageUrl": "/items/23592.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23592"
+        },
+        {
+          "name": "Malt",
+          "itemId": 405,
+          "imageUrl": "/items/405.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/405"
+        },
+        {
+          "name": "Étoffe de Samouraï fantôme",
+          "itemId": 7384,
+          "imageUrl": "/items/7384.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/7384"
+        },
+        {
+          "name": "Ginseng",
+          "itemId": 16385,
+          "imageUrl": "/items/16385.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16385"
+        },
+        {
+          "name": "Élixir des Trépasseurs",
+          "itemId": 23598,
+          "imageUrl": "/items/23598.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23598"
+        },
+        {
+          "name": "Lanterne d'Externam",
+          "itemId": 23596,
+          "imageUrl": "/items/23596.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23596"
+        },
+        {
+          "name": "Globe du Hoshinotama",
+          "itemId": 23599,
+          "imageUrl": "/items/23599.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23599"
+        },
+        {
+          "name": "Hoshinotama",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 945,
+            "name": "Aerdala",
+            "coordinates": [
+              "23,-36",
+              "22,-35",
+              "21,-38",
+              "23,-33",
+              "21,-33",
+              "19,-35"
+            ]
+          },
+          {
+            "id": 941,
+            "name": "Akwadala",
+            "coordinates": [
+              "22,-19",
+              "20,-21",
+              "18,-23",
+              "21,-24",
+              "19,-26"
+            ]
+          },
+          {
+            "id": 1035,
+            "name": "Beta",
+            "coordinates": [
+              "25,-23"
+            ]
+          },
+          {
+            "id": 6,
+            "name": "Cimetière",
+            "coordinates": [
+              "36,-43"
+            ]
+          },
+          {
+            "id": 952,
+            "name": "Cimetière de Grobe",
+            "coordinates": [
+              "34,-40",
+              "36,-43",
+              "35,-40"
+            ]
+          },
+          {
+            "id": 954,
+            "name": "Demeure des Esprits",
+            "coordinates": [
+              "39,-44"
+            ]
+          },
+          {
+            "id": 1014,
+            "name": "Mer de Poussière",
+            "coordinates": []
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "25,-22"
+            ]
+          },
+          {
+            "id": 955,
+            "name": "Mont des Tombeaux",
+            "coordinates": [
+              "37,-44",
+              "37,-47"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "20,-20"
+            ]
+          },
+          {
+            "id": 944,
+            "name": "Terrdala",
+            "coordinates": [
+              "24,-25",
+              "26,-26"
+            ]
+          },
+          {
+            "id": 951,
+            "name": "Village de Pandala",
+            "coordinates": [
+              "21,-27",
+              "22,-29"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4270,
+            "name": "Roub' Ignolles",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/4270.png"
+          },
+          {
+            "id": 4949,
+            "name": "Jérart Dupaindur",
+            "level": 130,
+            "imageUrl": "/bestiary/monsters/4949.png"
+          },
+          {
+            "id": 5083,
+            "name": "Crasper",
+            "level": 170,
+            "imageUrl": "/bestiary/monsters/5083.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2321,
+            "name": "Chafalfer l'Optimiste",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2321.png"
+          },
+          {
+            "id": 2319,
+            "name": "Chafemal le Bagarreur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2319.png"
+          },
+          {
+            "id": 2522,
+            "name": "Kwoanneur le Frimeur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2522.png"
+          },
+          {
+            "id": 2357,
+            "name": "Tofumanchou l'Empereur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2357.png"
+          },
+          {
+            "id": 2421,
+            "name": "Chaffoin le Sournois",
+            "level": 33,
+            "imageUrl": "/bestiary/monsters/2421.png"
+          },
+          {
+            "id": 2276,
+            "name": "Ribibi le Cher",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2276.png"
+          },
+          {
+            "id": 2591,
+            "name": "Akaka le Souillé",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2591.png"
+          },
+          {
+            "id": 2510,
+            "name": "Bebetto l'Intellectuel",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2510.png"
+          },
+          {
+            "id": 2598,
+            "name": "Bonpake le Chavireur",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2598.png"
+          },
+          {
+            "id": 2592,
+            "name": "Koko la Violente",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2592.png"
+          },
+          {
+            "id": 2527,
+            "name": "Parapadkouï l'Émasculé",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2527.png"
+          },
+          {
+            "id": 2590,
+            "name": "Sarkastik l'Incompris",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2590.png"
+          },
+          {
+            "id": 2414,
+            "name": "Tétonée la Plantureuse",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2414.png"
+          },
+          {
+            "id": 2434,
+            "name": "Tilolo la Bien Moulée",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2434.png"
+          },
+          {
+            "id": 2512,
+            "name": "Fangshui la Dysorthographiée",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2512.png"
+          },
+          {
+            "id": 2511,
+            "name": "Inopenope le Négatif",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2511.png"
+          },
+          {
+            "id": 2412,
+            "name": "Lichangora l'Immaculée",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2412.png"
+          },
+          {
+            "id": 2398,
+            "name": "Rooroku l'Imposant",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2398.png"
+          },
+          {
+            "id": 2374,
+            "name": "Jiankor le Radoteur",
+            "level": 152,
+            "imageUrl": "/bestiary/monsters/2374.png"
+          },
+          {
+            "id": 2471,
+            "name": "Onabuémangé la Rassasiée",
+            "level": 152,
+            "imageUrl": "/bestiary/monsters/2471.png"
+          },
+          {
+            "id": 2469,
+            "name": "Tambouille le Gastronome",
+            "level": 152,
+            "imageUrl": "/bestiary/monsters/2469.png"
+          },
+          {
+            "id": 2370,
+            "name": "Tsucékoi la Colporteuse",
+            "level": 152,
+            "imageUrl": "/bestiary/monsters/2370.png"
+          },
+          {
+            "id": 2483,
+            "name": "Bakaglace le Congelé",
+            "level": 162,
+            "imageUrl": "/bestiary/monsters/2483.png"
+          },
+          {
+            "id": 2470,
+            "name": "Kaonucléair l'Instable",
+            "level": 162,
+            "imageUrl": "/bestiary/monsters/2470.png"
+          },
+          {
+            "id": 2564,
+            "name": "Madgang le Docteur",
+            "level": 162,
+            "imageUrl": "/bestiary/monsters/2564.png"
+          },
+          {
+            "id": 2477,
+            "name": "Tsumani l'Inondeur",
+            "level": 162,
+            "imageUrl": "/bestiary/monsters/2477.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 3070,
+            "name": "Armée de Brume",
+            "monsters": [
+              {
+                "id": 6383,
+                "name": "Tsukinochi",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/6383.png"
+              },
+              {
+                "id": 6384,
+                "name": "Tambouraï",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/6384.png"
+              },
+              {
+                "id": 6385,
+                "name": "Onabu-Geisha",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/6385.png"
+              },
+              {
+                "id": 6386,
+                "name": "Jiangshi-Nobi",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/6386.png"
+              }
+            ]
+          },
+          {
+            "id": 193,
+            "name": "Bêtes de la nuit",
+            "monsters": [
+              {
+                "id": 154,
+                "name": "Kwoan",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/154.png"
+              },
+              {
+                "id": 111,
+                "name": "Tofu Maléfique",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/111.png"
+              }
+            ]
+          },
+          {
+            "id": 191,
+            "name": "Chafers d'Amakna",
+            "monsters": [
+              {
+                "id": 54,
+                "name": "Chafer",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/54.png"
+              },
+              {
+                "id": 110,
+                "name": "Chafer Invisible",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/110.png"
+              },
+              {
+                "id": 396,
+                "name": "Chafer Fantassin",
+                "level": 33,
+                "imageUrl": "/bestiary/monsters/396.png"
+              },
+              {
+                "id": 108,
+                "name": "Rib",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/108.png"
+              }
+            ]
+          },
+          {
+            "id": 3018,
+            "name": "Kozaru",
+            "monsters": [
+              {
+                "id": 6214,
+                "name": "Ino-Naru",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6214.png"
+              },
+              {
+                "id": 6215,
+                "name": "Kurookin",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6215.png"
+              },
+              {
+                "id": 6216,
+                "name": "Fangshu",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6216.png"
+              },
+              {
+                "id": 6217,
+                "name": "Lichangoro",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6217.png"
+              }
+            ]
+          },
+          {
+            "id": 3019,
+            "name": "Kwapa",
+            "monsters": [
+              {
+                "id": 6203,
+                "name": "Sarkapwane",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6203.png"
+              },
+              {
+                "id": 6229,
+                "name": "Kokom",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6229.png"
+              },
+              {
+                "id": 6230,
+                "name": "Akakwa",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6230.png"
+              },
+              {
+                "id": 6231,
+                "name": "Betto",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6231.png"
+              }
+            ]
+          },
+          {
+            "id": 3003,
+            "name": "Tanuki",
+            "monsters": [
+              {
+                "id": 6220,
+                "name": "Ishigro Pake",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6220.png"
+              },
+              {
+                "id": 6221,
+                "name": "Tétonuki",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6221.png"
+              },
+              {
+                "id": 6222,
+                "name": "Parashukouï",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6222.png"
+              },
+              {
+                "id": 6223,
+                "name": "Lolojiki",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6223.png"
+              }
+            ]
+          },
+          {
+            "id": 3069,
+            "name": "Yokai des Tombeaux",
+            "monsters": [
+              {
+                "id": 6389,
+                "name": "Madura",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/6389.png"
+              },
+              {
+                "id": 6390,
+                "name": "Bakazako",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/6390.png"
+              },
+              {
+                "id": 6391,
+                "name": "Kaonashi",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/6391.png"
+              },
+              {
+                "id": 6392,
+                "name": "Tsume-bozu",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/6392.png"
+              },
+              {
+                "id": 6393,
+                "name": "Onigori",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/6393.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1362",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/jusqu-a-leur-dernier-soupir.html",
+      "sourceTitle": "Jusqu'à leur dernier soupir",
+      "sourceHash": "aad8640b0940de75d42d459fc398b1faf3dedcd51509569fbaa2e1eeb6bb54fc",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Requiem pour un Yokai a déjà été lancée à l'étape précédente et avancée jusqu'à la rencontre avec Koumiho dans la Demeure des Esprits. Jusqu'à leur dernier soupir vient maintenant de rendre son Hoshinotama à Koumiho et de raviver son Kitsounebi. Reprenez donc ici pour obtenir la flamme, trouver le Péki Garou, lever l'obstacle du Feu Noir, récupérer le Dorigami et terminer la quête.",
+      "recommendedLevel": 170,
+      "prerequisites": [
+        "Maudite disparition.",
+        "Jusqu'à leur dernier soupir terminée.",
+        "Le voleur d'âmes terminée afin d'avoir déjà rencontré Tonam Etamwa.",
+        "La portion précédente de Requiem pour un Yokai, jusqu'à la discussion avec Koumiho à la fin de la Demeure des Esprits, est supposée accomplie."
+      ],
+      "rewards": [
+        "4 711 728 XP",
+        "64 560 Kamas",
+        "3 x Masque brisé",
+        "Dofus Dorigami",
+        "Succès Le gardien de l’immaculé",
+        "Accès à la quête Si loin, si proches",
+        "Déblocage de la quête Main dans la main"
+      ],
+      "preparation": [
+        "Prévoir ou fabriquer 1 x Outil de gravure.",
+        "Pour fabriquer l'Outil de gravure : 3 x Planche de Gravure, 1 x Diamant et 5 x Bauxite.",
+        "La fabrication de l'Outil de gravure nécessite un Forgeron niveau 140 ou plus.",
+        "Le combat contre le Péki Garou s'effectue seul."
+      ],
+      "actions": [
+        {
+          "instruction": "Après la fin de Jusqu'à leur dernier soupir, approchez-vous du Kitsounebi de Koumiho et parlez-lui afin de récupérer une flamme.",
+          "position": "[39,-44]",
+          "zoneHint": "Demeure des Esprits",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez au cimetière de Grobe et parlez à Yinchika en indiquant que les spectres vous laisseront passer puisque vous avez vaincu le Shogun Tofugawa.",
+          "position": "[36,-44]",
+          "zoneHint": "Cimetière de Grobe",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Shogun Tofugawa, montrez-lui la flamme ardente du Kitsounebi de Koumiho et demandez où se trouve le Yokai mangeur de morts. Il vous révèle qu'il s'agit du Péki Garou à la Cime Maudite.",
+          "position": "[36,-44]",
+          "zoneHint": "Cimetière de Grobe",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez l'entrée de l'antre du Péki Garou et cliquez sur les marches en haut de la carte. Le Feu Noir vous empêche encore de monter.",
+          "position": "[39,-45]",
+          "zoneHint": "Mont des Tombeaux",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Danaba Retzu et demandez-lui comment approcher de la Cime Maudite.",
+          "position": "[36,-40]",
+          "zoneHint": "Grobe",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la cabane délabrée et parlez à Hakamori. Elle vous demande de récupérer le grimoire de Tonam Etamwa.",
+          "position": "[37,-42]",
+          "zoneHint": "Cabane délabrée",
+          "warning": "La progression exige d'avoir déjà terminé Le voleur d'âmes afin d'avoir rencontré Tonam Etamwa.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la cabane et parlez à Melazutam pour obtenir les emplacements où peut se trouver l'esprit de Tonam Etamwa.",
+          "position": "[36,-46]",
+          "zoneHint": "Cabane de Melazutam",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cherchez Tonam parmi les trois tombes possibles. Cliquez d'abord sur l'une des tombes proposées afin de déclencher le combat obligatoire, puis vérifiez l'une des tombes restantes pour faire apparaître l'esprit : tombe centrale en [38,-46], tombe de gauche en [40,-43] ou tombe cassée à gauche en [39,-41].",
+          "position": null,
+          "zoneHint": "Cimetière de Grobe",
+          "warning": "Le premier clic déclenche automatiquement un combat obligatoire réalisable à plusieurs. Si vous avez rejoint le combat lancé par quelqu'un d'autre, passez directement à une autre tombe après la victoire.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Lorsque l'Esprit torturé de Tonam Etamwa apparaît, parlez-lui. Il exige une tombe portant son nom avant de céder son grimoire.",
+          "position": null,
+          "zoneHint": "Cimetière de Grobe",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Melazutam et convainquez-le d'accorder une tombe à Tonam. Il vous demande de fournir un outil permettant de graver son nom.",
+          "position": "[36,-46]",
+          "zoneHint": "Cabane de Melazutam",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Procurez-vous ou faites fabriquer 1 x Outil de gravure avec 3 x Planche de Gravure, 1 x Diamant et 5 x Bauxite.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "La fabrication nécessite un Forgeron niveau 140 ou plus. L'Outil de gravure est échangeable.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montrez l'Outil de gravure à Melazutam afin qu'il vous désigne une tombe à attribuer à Tonam.",
+          "position": "[36,-46]",
+          "zoneHint": "Cabane de Melazutam",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous auprès de la Tombe vierge et équipez l'Outil de gravure à la place de votre arme de corps à corps.",
+          "position": "[34,-43]",
+          "zoneHint": "Cimetière de Grobe",
+          "warning": "L'Outil de gravure doit être équipé à la place de l'arme de corps à corps.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à la Tombe vierge et gravez le nom en choisissant successivement TO, NAM, ETA puis MWA.",
+          "position": "[34,-43]",
+          "zoneHint": "Cimetière de Grobe",
+          "warning": "Respectez exactement l'ordre TO, NAM, ETA, MWA.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à l'Esprit apaisé de Tonam Etamwa. Il vous révèle que son grimoire est caché à la bibliothèque de Pandala et vous permet de lever son enchantement.",
+          "position": "[34,-43]",
+          "zoneHint": "Cimetière de Grobe",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À l'étage de la bibliothèque de Pandala, cliquez sur le livre au sol à gauche afin de récupérer le Grimoire de Tonam Etamwa.",
+          "position": "[21,-27]",
+          "zoneHint": "Étage de la bibliothèque de Pandala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez dans la cabane de Hakamori et confiez-lui le grimoire. Elle vous remet une protection permettant d'atteindre la Cime Maudite pendant 30 minutes.",
+          "position": "[37,-42]",
+          "zoneHint": "Cabane délabrée",
+          "warning": "L'accès à la Cime Maudite ne dure que 30 minutes. Si le délai expire, revenez voir Hakamori pour renouveler la protection.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montez depuis les marches de [39,-45] jusqu'à la Cime Maudite, puis entrez dans la grotte dont l'entrée forme un crâne.",
+          "position": "[39,-46]",
+          "zoneHint": "Cime Maudite",
+          "warning": "Vous devez encore bénéficier de la protection de Hakamori.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Péki Garou afin de lancer le combat.",
+          "position": "[39,-46]",
+          "zoneHint": "Grotte de la Cime Maudite",
+          "warning": "Le combat s'effectue seul. Le Péki Garou commence invulnérable.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Pendant le combat, éloignez-vous suffisamment pour pousser le Péki Garou à utiliser son invisibilité, puis invoquez la Flamme du Kitsounebi près de lui lorsqu'il est invisible afin de le rendre visible et vulnérable. Terminez ensuite le combat.",
+          "position": null,
+          "zoneHint": "Grotte de la Cime Maudite",
+          "warning": "La source présente cette méthode comme une tactique encore à confirmer : la flamme n'aurait d'effet qu'une fois le Péki Garou invisible. En Phase II, après le seuil de 4 200 PV, il gagne notamment 2 000 Vitalité et 10 PM.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après la victoire, récupérez automatiquement le Dorigami puis sortez de la grotte et parlez au Shogun Tofugawa.",
+          "position": null,
+          "zoneHint": "Cime Maudite",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Ronald le sage lenald. La scène vous transporte ensuite dans le rêve des morts devant Imagiro.",
+          "position": null,
+          "zoneHint": "Rêve des morts",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Suivez les dialogues avec le Shogun Tofugawa, Imagiro puis de nouveau le Shogun afin d'assister au jugement du Shogun.",
+          "position": null,
+          "zoneHint": "Rêve des morts",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Ronald le sage lenald lorsqu'il reprend connaissance. Il vous désigne comme nouveau gardien du Dorigami.",
+          "position": null,
+          "zoneHint": "Rêve des morts",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez enfin à Imagiro et tendez-lui le Dorigami pour qu'il le restaure. La quête se termine et vous obtenez le Dofus Dorigami.",
+          "position": null,
+          "zoneHint": "Rêve des morts",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "L'entrée dans la salle 1 de la Demeure des Esprits, le donjon et la première discussion avec Koumiho appartiennent à la portion déjà effectuée à l'étape précédente et ne sont pas répétés ici.",
+        "Jusqu'à leur dernier soupir doit être terminée avant cette reprise afin que le Kitsounebi de Koumiho soit de nouveau actif.",
+        "Après la fin, la quête Main dans la main est débloquée et l'accès à Si loin, si proches devient également disponible."
+      ],
+      "npcs": [
+        "Kitsounebi de Koumiho",
+        "Yinchika",
+        "Shogun Tofugawa",
+        "Danaba Retzu",
+        "Hakamori",
+        "Melazutam",
+        "Esprit torturé de Tonam Etamwa",
+        "Tombe vierge",
+        "Esprit apaisé de Tonam Etamwa",
+        "Péki Garou",
+        "Ronald le sage lenald",
+        "Imagiro"
+      ],
+      "items": [
+        {
+          "name": "Flamme du Kitsounebi",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Outil de gravure",
+          "itemId": 23578,
+          "imageUrl": "/items/23578.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23578"
+        },
+        {
+          "name": "Planche de Gravure",
+          "itemId": 16496,
+          "imageUrl": "/items/16496.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16496"
+        },
+        {
+          "name": "Diamant",
+          "itemId": 315,
+          "imageUrl": "/items/315.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/315"
+        },
+        {
+          "name": "Bauxite",
+          "itemId": 446,
+          "imageUrl": "/items/446.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/446"
+        },
+        {
+          "name": "Grimoire de Tonam Etamwa",
+          "itemId": 23579,
+          "imageUrl": "/items/23579.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23579"
+        },
+        {
+          "name": "Porte-bonheur de la sorcière",
+          "itemId": 23705,
+          "imageUrl": "/items/23705.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23705"
+        },
+        {
+          "name": "Dorigami",
+          "itemId": 23581,
+          "imageUrl": "/items/23581.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23581"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 952,
+            "name": "Cimetière de Grobe",
+            "coordinates": [
+              "36,-44",
+              "36,-40",
+              "38,-46",
+              "40,-43",
+              "39,-41",
+              "34,-43",
+              "37,-42"
+            ]
+          },
+          {
+            "id": 954,
+            "name": "Demeure des Esprits",
+            "coordinates": [
+              "39,-44"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "36,-46"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "37,-42"
+            ]
+          },
+          {
+            "id": 955,
+            "name": "Mont des Tombeaux",
+            "coordinates": [
+              "39,-45",
+              "36,-46",
+              "39,-46"
+            ]
+          },
+          {
+            "id": 951,
+            "name": "Village de Pandala",
+            "coordinates": [
+              "21,-27"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 5083,
+            "name": "Crasper",
+            "level": 170,
+            "imageUrl": "/bestiary/monsters/5083.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2374,
+            "name": "Jiankor le Radoteur",
+            "level": 152,
+            "imageUrl": "/bestiary/monsters/2374.png"
+          },
+          {
+            "id": 2471,
+            "name": "Onabuémangé la Rassasiée",
+            "level": 152,
+            "imageUrl": "/bestiary/monsters/2471.png"
+          },
+          {
+            "id": 2469,
+            "name": "Tambouille le Gastronome",
+            "level": 152,
+            "imageUrl": "/bestiary/monsters/2469.png"
+          },
+          {
+            "id": 2370,
+            "name": "Tsucékoi la Colporteuse",
+            "level": 152,
+            "imageUrl": "/bestiary/monsters/2370.png"
+          },
+          {
+            "id": 2483,
+            "name": "Bakaglace le Congelé",
+            "level": 162,
+            "imageUrl": "/bestiary/monsters/2483.png"
+          },
+          {
+            "id": 2470,
+            "name": "Kaonucléair l'Instable",
+            "level": 162,
+            "imageUrl": "/bestiary/monsters/2470.png"
+          },
+          {
+            "id": 2564,
+            "name": "Madgang le Docteur",
+            "level": 162,
+            "imageUrl": "/bestiary/monsters/2564.png"
+          },
+          {
+            "id": 2477,
+            "name": "Tsumani l'Inondeur",
+            "level": 162,
+            "imageUrl": "/bestiary/monsters/2477.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 3070,
+            "name": "Armée de Brume",
+            "monsters": [
+              {
+                "id": 6383,
+                "name": "Tsukinochi",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/6383.png"
+              },
+              {
+                "id": 6384,
+                "name": "Tambouraï",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/6384.png"
+              },
+              {
+                "id": 6385,
+                "name": "Onabu-Geisha",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/6385.png"
+              },
+              {
+                "id": 6386,
+                "name": "Jiangshi-Nobi",
+                "level": 152,
+                "imageUrl": "/bestiary/monsters/6386.png"
+              }
+            ]
+          },
+          {
+            "id": 3069,
+            "name": "Yokai des Tombeaux",
+            "monsters": [
+              {
+                "id": 6389,
+                "name": "Madura",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/6389.png"
+              },
+              {
+                "id": 6390,
+                "name": "Bakazako",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/6390.png"
+              },
+              {
+                "id": 6391,
+                "name": "Kaonashi",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/6391.png"
+              },
+              {
+                "id": 6392,
+                "name": "Tsume-bozu",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/6392.png"
+              },
+              {
+                "id": 6393,
+                "name": "Onigori",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/6393.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1345",
+      "relation": "FINISH",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/requiem-pour-un-yokai.html",
+      "sourceTitle": "Requiem pour un Yokai",
+      "sourceHash": "a3e2fbe298bc8bcdbc0182cc1e344ff3e2e3cf46f66bfc0e760c7ad2602c3535",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Cette quête a été lancée à l'étape précédente et avancée jusqu'à l'objectif demandant d'attirer l'attention de la Kitsoune à neuf queues par une démonstration de force. La Demeure des Esprits vient d'être effectuée conformément au guide. Cette occurrence reprend donc après le donjon : obtenez l'aide de Koumiho, neutralisez l'Esprit boutefeu puis revenez au Sceau de Terrakourial pour terminer la quête.",
+      "recommendedLevel": 170,
+      "prerequisites": [
+        "Pas de fumée sans feu.",
+        "La progression précédente jusqu'à l'objectif demandant une démonstration de force auprès de la Kitsoune à neuf queues est supposée accomplie.",
+        "La Demeure des Esprits est supposée avoir été effectuée juste avant cette occurrence."
+      ],
+      "rewards": [
+        "5 654 073 XP",
+        "77 472 Kamas",
+        "6 x Truk divin"
+      ],
+      "preparation": [
+        "Prévoir 12 x Délice des Kitsous ou les ressources permettant de les fabriquer : 12 x Épices, 12 x Viande Saignante et 12 x Riz.",
+        "La fabrication des Délice des Kitsous nécessite un Chasseur niveau 120 ou plus.",
+        "Prévoir 1 x Enchanterelle si vous ne possédez plus le buff Au-delà des apparences ni l'objet de quête nécessaire.",
+        "Le combat final contre l'Esprit boutefeu s'effectue seul."
+      ],
+      "actions": [
+        {
+          "instruction": "Après la Demeure des Esprits, parlez à Koumiho, évoquez la raison de votre présence puis acceptez sa proposition : elle contactera Inali si vous nourrissez ses messagers sacrés.",
+          "position": "[39,-44]",
+          "zoneHint": "Demeure des Esprits",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Procurez-vous ou fabriquez 12 x Délice des Kitsous avec au total 12 x Épices, 12 x Viande Saignante et 12 x Riz.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "La fabrication nécessite un Chasseur niveau 120 ou plus.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Devant la Demeure des Esprits, remettez les 12 x Délice des Kitsous à Jibakurei. Vous obtenez alors la Volonté d'Inali, représentée par un petit kitsou qui vous suit.",
+          "position": "[39,-44]",
+          "zoneHint": "Devant la Demeure des Esprits",
+          "warning": "Vous devez conserver la Volonté d'Inali pour la suite. Si elle disparaît après des combats, revenez la récupérer auprès de Jibakurei.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez dans la cave de la chaumière des Blairouiche et cliquez sur la flamme froide au centre du pentacle afin de vous téléporter dans le monde des esprits.",
+          "position": "[-6,18]",
+          "zoneHint": "Cave de la chaumière des Blairouiche",
+          "warning": "Vérifiez que la Volonté d'Inali vous accompagne avant de vous téléporter.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à l'Esprit boutefeu et sommez-le une dernière fois de cesser d'attiser le feu du Sceau de Terrakourial.",
+          "position": "[-6,18]",
+          "zoneHint": "Monde des esprits",
+          "warning": "Un combat seul se déclenche.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Pendant le combat, frappez l'Esprit boutefeu deux fois dans un même élément pour lui retirer 25% de résistance dans cet élément. Répétez le mécanisme pour réduire suffisamment ses résistances et battez-le.",
+          "position": null,
+          "zoneHint": "Monde des esprits",
+          "warning": "L'Esprit boutefeu possède 9 300 PV de base et 60% de résistances dans chaque élément. Après deux frappes dans le même élément, il devient invisible pendant 1 tour et gagne des caractéristiques dans cet élément en échange de sa perte de résistance.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Avant de retourner au Sceau de Terrakourial, vérifiez que vous disposez encore du buff Au-delà des apparences. Sinon, récupérez 1 x Enchanterelle sur les Malters de l'Orée enchantée.",
+          "position": null,
+          "zoneHint": "Orée enchantée",
+          "warning": "L'Enchanterelle se récupère à 5% de taux de base sur les Malters lorsque la quête est en cours ou terminée. Les PNJ lançant ces combats ont un temps de réapparition annoncé de 15 minutes et les idoles ne peuvent pas améliorer le taux de drop.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez devant le donjon et parlez à Hell Mina en prétendant avoir aperçu Karnhell en bas du tumulus afin de la distraire.",
+          "position": "[-3,19]",
+          "zoneHint": "Devant le donjon",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si nécessaire, consommez 1 x Enchanterelle afin d'obtenir Au-delà des apparences et de pouvoir voir le Sceau de Terrakourial.",
+          "position": "[-3,19]",
+          "zoneHint": "Devant le Sceau de Terrakourial",
+          "warning": "Cette étape n'est nécessaire que si le buff Au-delà des apparences n'est plus actif.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Sceau de Terrakourial maintenant débarrassé des flammes froides. La quête se termine ; poursuivre la conversation débloque Le serment de l'ambre.",
+          "position": "[-3,19]",
+          "zoneHint": "Sceau de Terrakourial",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les actions effectuées avant la Demeure des Esprits, notamment la rencontre initiale avec l'Esprit boutefeu, le combat de la forêt pétrifiée et la consultation de Surivitna, appartiennent à la portion déjà réalisée à l'étape précédente.",
+        "La Demeure des Esprits elle-même est également supposée terminée avant cette occurrence et n'est pas répétée dans les actions.",
+        "Si la Volonté d'Inali est perdue avant le retour dans le monde des esprits, il faut la récupérer de nouveau auprès de Jibakurei en [39,-44].",
+        "Continuer la discussion avec le Sceau de Terrakourial après la fin débloque Le serment de l'ambre."
+      ],
+      "npcs": [
+        "Koumiho",
+        "Jibakurei",
+        "Esprit boutefeu",
+        "Hell Mina",
+        "Sceau de Terrakourial",
+        "Malters"
+      ],
+      "items": [
+        {
+          "name": "Délice des Kitsous",
+          "itemId": 26753,
+          "imageUrl": "/items/26753.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26753"
+        },
+        {
+          "name": "Épices",
+          "itemId": 1977,
+          "imageUrl": "/items/1977.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1977"
+        },
+        {
+          "name": "Viande Saignante",
+          "itemId": 17144,
+          "imageUrl": "/items/17144.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17144"
+        },
+        {
+          "name": "Riz",
+          "itemId": 7018,
+          "imageUrl": "/items/7018.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/7018"
+        },
+        {
+          "name": "Volonté d'Inali",
+          "itemId": 26750,
+          "imageUrl": "/items/26750.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26750"
+        },
+        {
+          "name": "Enchanterelle",
+          "itemId": 26710,
+          "imageUrl": "/items/26710.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26710"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 9,
+            "name": "Dédale du Dark Vlad",
+            "coordinates": [
+              "-3,19"
+            ]
+          },
+          {
+            "id": 954,
+            "name": "Demeure des Esprits",
+            "coordinates": [
+              "39,-44"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-3,19"
+            ]
+          },
+          {
+            "id": 963,
+            "name": "Monde des esprits",
+            "coordinates": [
+              "-6,18"
+            ]
+          },
+          {
+            "id": 1019,
+            "name": "Orée enchantée",
+            "coordinates": []
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 5212,
+            "name": "Malters",
+            "monsters": [
+              {
+                "id": 6864,
+                "name": "Malzerb",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/6864.png"
+              },
+              {
+                "id": 6871,
+                "name": "Maltrio",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/6871.png"
+              },
+              {
+                "id": 6872,
+                "name": "Malépik",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/6872.png"
+              },
+              {
+                "id": 6873,
+                "name": "Malalfa",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/6873.png"
+              }
+            ]
+          },
+          {
+            "id": 3069,
+            "name": "Yokai des Tombeaux",
+            "monsters": [
+              {
+                "id": 6389,
+                "name": "Madura",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/6389.png"
+              },
+              {
+                "id": 6390,
+                "name": "Bakazako",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/6390.png"
+              },
+              {
+                "id": 6391,
+                "name": "Kaonashi",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/6391.png"
+              },
+              {
+                "id": 6392,
+                "name": "Tsume-bozu",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/6392.png"
+              },
+              {
+                "id": 6393,
+                "name": "Onigori",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/6393.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1408",
+      "relation": "FINISH",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/quand-les-esprits-s-echauffent.html",
+      "sourceTitle": "Quand les esprits s'échauffent",
+      "sourceHash": "275d83830cc0f3aa8b4a03ebf8b05f75d5ca9b0f165c671911daf7c1f1be1d27",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

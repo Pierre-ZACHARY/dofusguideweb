@@ -1,8 +1,1602 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 193,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T22:28:06.920Z",
+  "summaries": [
+    {
+      "overview": "Poursuivez la quête lancée après « Aux origines du mal » : demandez l'aide d'Henual, réunissez les ressources nécessaires pour réparer la trame du temps, puis protégez-le pendant qu'il referme la déchirure. Cette occurrence va jusqu'au retour auprès du Doc à l'avant-poste et termine la quête.",
+      "recommendedLevel": 170,
+      "prerequisites": [
+        "Aux origines du mal"
+      ],
+      "rewards": [
+        "2 355 864 XP",
+        "32 280 Kamas",
+        "40 x Orichor",
+        "1 x Sablier miniature"
+      ],
+      "preparation": [
+        "Prévoir des combats aléatoires contre les Vers à Soie du temps.",
+        "Prévoir un combat final réalisable en groupe.",
+        "Si l'énigme d'Henual n'a jamais été résolue, réunir au moins 7 personnages pour les deux salles à dalles.",
+        "Prévoir l'achat de 1 x Trame Dimensionnelle."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez au Doc Emiett Borgne pour apprendre qu'il faut réparer la trame du temps et qu'Henual, le Surveillant du Temps, peut aider.",
+          "position": "[1,6]",
+          "zoneHint": "Xélorium - Chemin d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à la battisse du temps, entrez, puis rejoignez Henual. Si vous avez déjà résolu l'énigme, touchez le Cadran d'Henual à l'entrée. Sinon, cliquez sur une étoile du mobile au plafond pour ouvrir le passage secret, franchissez les deux salles à dalles et actionnez les leviers après avoir reproduit les formes des tonneaux avec respectivement 5 puis 6 personnages sur les dalles.",
+          "position": "[2,1]",
+          "zoneHint": "Amakna",
+          "warning": "La première résolution de l'énigme exige au moins 7 personnages.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Henual du grave problème et expliquez qu'une déchirure temporelle a permis aux Hordémons de pénétrer le Xélorium. Il demande du fil produit par les Vers à Soie du temps et une Trame Dimensionnelle.",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez des Feuilles d'Ephémûrier en cliquant sur la plante près du temple Xélor.",
+          "position": "[3,1]",
+          "zoneHint": "Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez à la Tour des Voyageurs Dimensionnels et achetez 1 x Trame Dimensionnelle.",
+          "position": "[-22,-24]",
+          "zoneHint": null,
+          "warning": "Cette étape implique une dépense pour acheter la Trame Dimensionnelle.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez dans le Xélorium. En [1,1], arrachez un fil au Ver à Soie du temps, puis faites de même en [2,2], [3,1] et [4,1]. Pour atteindre le dernier, utilisez la montre en retard, allez à droite puis utilisez la montre en avance. Chaque ver fournit un Fil de Soie du Temps après l'éventuel combat.",
+          "position": "[1,1]",
+          "zoneHint": null,
+          "warning": "À chacune des 4 interactions, vous avez une chance sur 2 d'être agressé par le ver.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Rejoignez Henual devant la déchirure, dans les Chemins d'hier, en empruntant le passage secret derrière la cascade, puis donnez-lui toutes les ressources.",
+          "position": "[3,6]",
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Protégez Henual pendant qu'il recoud la faille : survivez au combat en 3 vagues de Hordémons, avec de nouveaux monstres toutes les 3 tours. Une fois la dernière vague vaincue, laissez Henual renvoyer Karandeux et refermer la déchirure.",
+          "position": "[3,6]",
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": "Combat en 3 vagues, avec des arrivées toutes les 3 tours.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez à l'avant-poste et annoncez au Doc que la déchirure est refermée pour terminer la quête.",
+          "position": "[1,6]",
+          "zoneHint": "Xélorium - Chemin d'hier",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête suppose « Aux origines du mal » accomplie.",
+        "Si l'énigme des dalles d'Henual a déjà été résolue, le Cadran d'Henual évite de la refaire.",
+        "Après la fin, continuer la discussion avec le Doc peut lancer « La Vie, l'Hormonde et le Reste », qui possède sa propre occurrence START plus loin dans cette étape."
+      ],
+      "npcs": [
+        "Doc Emiett Borgne",
+        "Henual",
+        "Karandeux"
+      ],
+      "items": [
+        {
+          "name": "Feuille d'Ephémûrier",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Trame Dimensionnelle",
+          "itemId": 15219,
+          "imageUrl": "/items/15219.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15219"
+        },
+        {
+          "name": "Fil de Soie du Temps",
+          "itemId": 15894,
+          "imageUrl": "/items/15894.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15894"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 836,
+            "name": "Chemins d'hier",
+            "coordinates": [
+              "3,6"
+            ]
+          },
+          {
+            "id": 482,
+            "name": "Milifutaie",
+            "coordinates": [
+              "1,6"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "1,6"
+            ]
+          },
+          {
+            "id": 525,
+            "name": "Routes Rocailleuses",
+            "coordinates": [
+              "-22,-24"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "2,1",
+              "3,1",
+              "1,1",
+              "2,2",
+              "4,1"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3845,
+            "name": "Morblok",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/3845.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2310,
+            "name": "Arakule la Revancharde",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2310.png"
+          },
+          {
+            "id": 2333,
+            "name": "Milipatte la Griffe",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2333.png"
+          },
+          {
+            "id": 2349,
+            "name": "Preskapwal le Tendancieux",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2349.png"
+          },
+          {
+            "id": 2503,
+            "name": "Kanasukr le Mielleux",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2503.png"
+          },
+          {
+            "id": 2359,
+            "name": "Maître Champeur le Sabreur",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2359.png"
+          },
+          {
+            "id": 2445,
+            "name": "Fouflay le Retombé",
+            "level": 64,
+            "imageUrl": "/bestiary/monsters/2445.png"
+          },
+          {
+            "id": 2455,
+            "name": "Vétaurine l'Énergisé",
+            "level": 66,
+            "imageUrl": "/bestiary/monsters/2455.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 4823,
+                "name": "Écurouille",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/4823.png"
+              },
+              {
+                "id": 159,
+                "name": "Milimulou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/159.png"
+              },
+              {
+                "id": 103,
+                "name": "Prespic",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/103.png"
+              }
+            ]
+          },
+          {
+            "id": 213,
+            "name": "Animaux des Champs",
+            "monsters": [
+              {
+                "id": 288,
+                "name": "Serpentin",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/288.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              },
+              {
+                "id": 259,
+                "name": "Arakne Majeure",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/259.png"
+              }
+            ]
+          },
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 186,
+            "name": "Craqueleurs",
+            "monsters": [
+              {
+                "id": 293,
+                "name": "Craqueleur des Plaines",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/293.png"
+              },
+              {
+                "id": 4571,
+                "name": "Craquelourd",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4571.png"
+              },
+              {
+                "id": 4573,
+                "name": "Craquelope",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4573.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 1518,
+            "name": "Ruffians de Cania",
+            "monsters": [
+              {
+                "id": 4574,
+                "name": "Foufayteur",
+                "level": 64,
+                "imageUrl": "/bestiary/monsters/4574.png"
+              },
+              {
+                "id": 4575,
+                "name": "Vétauran",
+                "level": 66,
+                "imageUrl": "/bestiary/monsters/4575.png"
+              },
+              {
+                "id": 287,
+                "name": "Kanigrou",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/287.png"
+              },
+              {
+                "id": 371,
+                "name": "Maître Bolet",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/371.png"
+              }
+            ]
+          },
+          {
+            "id": 1171,
+            "name": "Xélomorphes",
+            "monsters": [
+              {
+                "id": 3854,
+                "name": "Gromorso",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3854.png"
+              },
+              {
+                "id": 3855,
+                "name": "Farfacette",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3855.png"
+              },
+              {
+                "id": 3856,
+                "name": "Brikablak",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3856.png"
+              },
+              {
+                "id": 3857,
+                "name": "Éklatleth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3857.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:864",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/de-fil-en-aiguille.html",
+      "sourceTitle": "De fil en aiguille",
+      "sourceHash": "518f12790c8cef35575b44a69325bae570ab6c7d91797d2bfe65d674cfd38490",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Aidez la Caporale Tarte à reprendre contact avec ses agents dans le Jour présent. Défendez Valérien, retrouvez Dauredine, réunissez les appareils technomagiques endommagés et la caisse à outils du Doc, puis rapportez les résultats à la Caporale pour terminer la quête.",
+      "recommendedLevel": 170,
+      "prerequisites": [
+        "Anomalies temporelles"
+      ],
+      "rewards": [
+        "2 355 864 XP",
+        "32 280 Kamas",
+        "35 x Orichor",
+        "5 x Barbe de Seith"
+      ],
+      "preparation": [
+        "Prévoir des combats contre les monstres de la zone.",
+        "Prévoir un combat réalisable en groupe.",
+        "Prévoir de récupérer 4 Pièces technomagiques endommagées sur 4 monstres différents de la seconde zone, au taux de base de 50%, plus 3 pièces ramassables dans la zone."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à la Caporale Tarte et demandez une autre mission que l'épluchage des patates. Elle vous envoie vérifier la situation de l'Agent Valérien.",
+          "position": "[1,6]",
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous dans le Jour présent en [2,0]. Le trajet conseillé consiste à passer par [2,5] dans les Chemins d'hier puis à utiliser une fois la montre.",
+          "position": "[2,0]",
+          "zoneHint": "Xélorium - Jour présent",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à l'Agent Valérien, puis défendez-le contre Soiçante et 7 alliés de la zone. Après la victoire, récupérez la Touffe de cheveux de Soiçante et demandez où se trouve l'Agent Dauredine.",
+          "position": "[2,0]",
+          "zoneHint": "Xélorium - Jour présent",
+          "warning": "Le combat accepte 7 joueurs maximum car l'Agent Valérien occupe une place. Pour mettre à jour la quête sur plusieurs personnages, un personnage doit lancer le combat et les autres doivent avoir appelé du renfort.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retrouvez l'Agent Dauredine et parlez-lui des appareils étranges. Elle vous remet une Fleur de L'intemporel permettant de retrouver sa position en la double-cliquant.",
+          "position": null,
+          "zoneHint": "Xélorium - Jour présent",
+          "warning": "La source indique, avec réserve, que Dauredine changerait de position selon l'heure : [4,-1] de 00h00 à 5h59, [5,0] de 6h00 à 11h59, [6,1] de 12h00 à 17h59 et [0,3] de 18h00 à 23h59.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir le Doc Emiette Borgne, demandez-lui une caisse à outils et expliquez pourquoi vous en avez besoin pour obtenir la Caisse à outils du Doc.",
+          "position": "[1,6]",
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la seconde zone, obtenez 4 Pièces technomagiques endommagées sur les monstres : chaque type de monstre ne peut fournir sa pièce qu'une fois, avec un taux de base de 50%. Ramassez également les 3 autres pièces technomagiques indiquées dans la zone.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Il faut obtenir les 4 drops sur 4 monstres différents ; un monstre déjà utilisé pour sa pièce ne la redonne plus.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de l'Agent Dauredine avec la Caisse à outils du Doc et toutes les pièces technomagiques, donnez-les-lui puis reparlez-lui pour confirmer qu'elle a réparé l'appareil.",
+          "position": null,
+          "zoneHint": "Xélorium - Jour présent",
+          "warning": "La position de Dauredine peut varier selon l'heure ; utilisez la Fleur de L'intemporel pour la retrouver.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez à l'avant-poste et faites votre rapport à la Caporale Tarte pour terminer la quête.",
+          "position": "[1,6]",
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête suppose « Anomalies temporelles » accomplie.",
+        "La source précise que les horaires et positions de Dauredine sont des informations à confirmer.",
+        "La quête se termine au rapport à la Caporale Tarte et débloque « Déchirures temporelles »."
+      ],
+      "npcs": [
+        "Caporale Tarte",
+        "Agent Valérien",
+        "Soiçante",
+        "Agent Dauredine",
+        "Doc Emiette Borgne"
+      ],
+      "items": [
+        {
+          "name": "Touffe de cheveux de Soiçante",
+          "itemId": 15831,
+          "imageUrl": "/items/15831.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15831"
+        },
+        {
+          "name": "Fleur de L'intemporel",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Caisse à outils du Doc",
+          "itemId": 15832,
+          "imageUrl": "/items/15832.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15832"
+        },
+        {
+          "name": "Pièce technomagique endommagée",
+          "itemId": 15839,
+          "imageUrl": "/items/15839.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15839"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 836,
+            "name": "Chemins d'hier",
+            "coordinates": [
+              "1,6"
+            ]
+          },
+          {
+            "id": 837,
+            "name": "Jour présent",
+            "coordinates": [
+              "2,0",
+              "2,5",
+              "4,-1",
+              "5,0",
+              "6,1",
+              "0,3"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3845,
+            "name": "Morblok",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/3845.png"
+          },
+          {
+            "id": 3848,
+            "name": "Hin",
+            "level": 170,
+            "imageUrl": "/bestiary/monsters/3848.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1172,
+            "name": "Hordémons",
+            "monsters": [
+              {
+                "id": 3840,
+                "name": "Trezz",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3840.png"
+              },
+              {
+                "id": 3841,
+                "name": "Vindeux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3841.png"
+              },
+              {
+                "id": 3842,
+                "name": "Trantroa",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3842.png"
+              },
+              {
+                "id": 3843,
+                "name": "Seith",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3843.png"
+              }
+            ]
+          },
+          {
+            "id": 1171,
+            "name": "Xélomorphes",
+            "monsters": [
+              {
+                "id": 3854,
+                "name": "Gromorso",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3854.png"
+              },
+              {
+                "id": 3855,
+                "name": "Farfacette",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3855.png"
+              },
+              {
+                "id": 3856,
+                "name": "Brikablak",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3856.png"
+              },
+              {
+                "id": 3857,
+                "name": "Éklatleth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3857.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:867",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/failles-spatio-temporelles.html",
+      "sourceTitle": "Failles spatio-temporelles",
+      "sourceHash": "7188e5e07d5fd2226585bcacc96492954ac472172c5c86f5939f1041892b3750",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Aidez Trezz énamouré à apprendre les bases du romantisme et du civisme. Récupérez le matériel pédagogique à l'avant-poste, composez un bouquet convenable, transmettez son invitation à Agent Da, préparez le repas puis éliminez le double temporel de Trezz pour terminer la quête.",
+      "recommendedLevel": 170,
+      "prerequisites": [],
+      "rewards": [
+        "2 355 864 XP",
+        "32 280 Kamas",
+        "35 x Orichor",
+        "5 x Dent de Trezz"
+      ],
+      "preparation": [
+        "Prévoir 1 combat seul contre Trezz énamouré dupliqué."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Trezz énamouré, sortez-le de ses pensées, proposez-lui de devenir plus romantique, puis reparlez-lui pour commencer son éducation. Expliquez-lui notamment qu'il ne faut pas siffler une fille ; il vous faudra alors trouver un précepteur.",
+          "position": "[4,1]",
+          "zoneHint": "Xélorium - Jour présent",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez à l'avant-poste et demandez de l'aide à Hibuspokus. Il organise l'éducation générale de Trezz mais vous charge de lui apprendre le civisme.",
+          "position": "[1,6]",
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sur la map de droite, demandez à l'Agent Pascal le nécessaire pour une démonstration de civisme et récupérez le Livre de l'agent Pascal. Dans les cuisines, demandez ensuite à Rachelle Kiki de la viande et récupérez un Morceau de viande de choix.",
+          "position": "[1,6]",
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramenez le Morceau de viande de choix à Trezz énamouré, utilisez le livre et la viande pour lui expliquer la différence entre une femme et un morceau de viande, puis dites-lui d'arrêter ses mauvaises habitudes et de préparer un bouquet.",
+          "position": "[4,1]",
+          "zoneHint": "Xélorium - Jour présent",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez à l'avant-poste, rendez le livre à l'Agent Pascal, puis demandez à Rita de participer à l'éducation de Trezz. Sur la map de gauche, demandez au Lieutenant Braylle de quoi le nettoyer et récupérez une Caisse de nettoyage.",
+          "position": "[1,6]",
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Donnez la Caisse de nettoyage à Trezz énamouré et expliquez-lui comment l'utiliser. Comme son bouquet est composé d'herbes toxiques, partez chercher de vraies fleurs.",
+          "position": "[4,1]",
+          "zoneHint": "Xélorium - Jour présent",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans les Chemins d'hier, cliquez sur les fleurs au sol pour obtenir une Fleur du passé.",
+          "position": "[3,5]",
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans les Lendemains incertains, cliquez sur le feu follet pour obtenir une Fleur du futur.",
+          "position": "[6,-4]",
+          "zoneHint": "Xélorium - Lendemains incertains",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Trezz énamouré, montrez-lui votre bouquet et faites-lui préparer une invitation à dîner. Comme il ne sait pas écrire, rédigez le message à sa place et récupérez le Billet doux de Trezz énamouré ainsi que le Bouquet de Trezz énamouré.",
+          "position": "[4,1]",
+          "zoneHint": "Xélorium - Jour présent",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Apportez le bouquet et le billet à Agent Da ; donnez-les-lui pour qu'elle accepte l'invitation.",
+          "position": "[3,-4]",
+          "zoneHint": "Xélorium - Lendemains incertains",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez à l'avant-poste et demandez à Rachelle Kiki de préparer un repas digne de ce nom pour les deux futurs tourtereaux.",
+          "position": "[1,6]",
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Annoncez la bonne nouvelle à Trezz énamouré. Son double temporel apparaît : combattez Trezz énamouré dupliqué seul, puis reparlez au vrai Trezz pour lui donner les derniers conseils et terminer la quête.",
+          "position": "[4,1]",
+          "zoneHint": "Xélorium - Jour présent",
+          "warning": "Trezz énamouré dupliqué frappe en ligne et vole jusqu'à 3 PM. Évitez de rester aligné avec lui ou restez à distance ; le retrait PM ou PO peut aussi le neutraliser.",
+          "combat": "SOLO"
+        }
+      ],
+      "notes": [
+        "La quête se termine après le combat contre le double de Trezz et débloque « Demain ne meurt jamais »."
+      ],
+      "npcs": [
+        "Trezz énamouré",
+        "Hibuspokus",
+        "Agent Pascal",
+        "Rachelle Kiki",
+        "Rita",
+        "Lieutenant Braylle",
+        "Agent Da",
+        "Trezz énamouré dupliqué"
+      ],
+      "items": [
+        {
+          "name": "Livre de l'agent Pascal",
+          "itemId": 15972,
+          "imageUrl": "/items/15972.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15972"
+        },
+        {
+          "name": "Morceau de viande de choix",
+          "itemId": 15971,
+          "imageUrl": "/items/15971.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15971"
+        },
+        {
+          "name": "Caisse de nettoyage",
+          "itemId": 15973,
+          "imageUrl": "/items/15973.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15973"
+        },
+        {
+          "name": "Fleur du passé",
+          "itemId": 15974,
+          "imageUrl": "/items/15974.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15974"
+        },
+        {
+          "name": "Fleur du futur",
+          "itemId": 15975,
+          "imageUrl": "/items/15975.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15975"
+        },
+        {
+          "name": "Billet doux de Trezz énamouré",
+          "itemId": 15976,
+          "imageUrl": "/items/15976.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15976"
+        },
+        {
+          "name": "Bouquet de Trezz énamouré",
+          "itemId": 15977,
+          "imageUrl": "/items/15977.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15977"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 836,
+            "name": "Chemins d'hier",
+            "coordinates": [
+              "1,6",
+              "3,5"
+            ]
+          },
+          {
+            "id": 837,
+            "name": "Jour présent",
+            "coordinates": [
+              "4,1"
+            ]
+          },
+          {
+            "id": 838,
+            "name": "Lendemains incertains",
+            "coordinates": [
+              "6,-4",
+              "3,-4"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3845,
+            "name": "Morblok",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/3845.png"
+          },
+          {
+            "id": 3848,
+            "name": "Hin",
+            "level": 170,
+            "imageUrl": "/bestiary/monsters/3848.png"
+          },
+          {
+            "id": 3851,
+            "name": "Sicogne",
+            "level": 200,
+            "imageUrl": "/bestiary/monsters/3851.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1173,
+            "name": "Égarés",
+            "monsters": [
+              {
+                "id": 3834,
+                "name": "Ikargn",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/3834.png"
+              },
+              {
+                "id": 3836,
+                "name": "Méjaire",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/3836.png"
+              },
+              {
+                "id": 3837,
+                "name": "Harpille",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/3837.png"
+              },
+              {
+                "id": 3838,
+                "name": "Buboxor",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/3838.png"
+              }
+            ]
+          },
+          {
+            "id": 1172,
+            "name": "Hordémons",
+            "monsters": [
+              {
+                "id": 3840,
+                "name": "Trezz",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3840.png"
+              },
+              {
+                "id": 3841,
+                "name": "Vindeux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3841.png"
+              },
+              {
+                "id": 3842,
+                "name": "Trantroa",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3842.png"
+              },
+              {
+                "id": 3843,
+                "name": "Seith",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3843.png"
+              }
+            ]
+          },
+          {
+            "id": 1171,
+            "name": "Xélomorphes",
+            "monsters": [
+              {
+                "id": 3854,
+                "name": "Gromorso",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3854.png"
+              },
+              {
+                "id": 3855,
+                "name": "Farfacette",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3855.png"
+              },
+              {
+                "id": 3856,
+                "name": "Brikablak",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3856.png"
+              },
+              {
+                "id": 3857,
+                "name": "Éklatleth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3857.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:872",
+      "relation": "ACTIVE",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/cest-quoi-ton-06.html",
+      "sourceTitle": "C'est quoi ton 06 ?",
+      "sourceHash": "99d4efc9768bc3d77f0b57fbe00b419612c61e2d734a47d98db99e9f0323a9de",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Vérifiez les prototypes d'armement pour Elvis Irr puis traversez plusieurs boucles temporelles provoquées par les attaques de Hordémons. À force de répéter les événements et de sauver Rita, vous identifiez le syndrome d'Hiroshi ; la Lieutenant Braylle finit par fabriquer un appareil destiné à neutraliser le stabilisateur temporel manquant, ce qui termine la quête.",
+      "recommendedLevel": 170,
+      "prerequisites": [],
+      "rewards": [
+        "2 355 864 XP",
+        "32 280 Kamas",
+        "35 x Orichor",
+        "5 x Peau de Vindeux"
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parlez à Elvis Irr, acceptez de vérifier les prototypes, rejoignez les caisses d'armement, cliquez dessus puis parlez à Rita Foulmétal, qui vous apprend que deux prototypes sont défectueux. Retournez ensuite faire votre rapport à Elvis.",
+          "position": "[1,6]",
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Après l'assaut des Hordémons et votre mort, reparlez à Elvis. Comme il ne se souvient de rien, vous êtes emprisonné ; cliquez sur le squelette pour sortir, puis constatez que la boucle recommence.",
+          "position": null,
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": "Les morts décrites ici font partie du scénario de la boucle temporelle : vous ne finissez ni au cimetière ni en fantôme et vous n'êtes pas éjecté de la dimension.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparlez à Elvis, vérifiez de nouveau les prototypes, reparlez à Rita puis allez deux maps à gauche prévenir la Caporale Tarte de l'assaut imminent. Quand Rita est menacée, plaquez-la au sol pour la sauver, en encaissant le coup à sa place.",
+          "position": null,
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez au portail, utilisez-le pour y passer la tête ; il se referme et déclenche une nouvelle mort suivie d'un retour dans le passé.",
+          "position": "[0,5]",
+          "zoneHint": null,
+          "warning": "Événement scénarisé mortel nécessaire à la progression de la boucle.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Recommencez auprès d'Elvis : vérifiez les prototypes, reparlez à Rita, faites votre rapport à Elvis puis laissez-le se débrouiller lors de l'attaque. Allez sauver Rita sur la map de gauche en la plaquant au sol tout en évitant cette fois le premier coup, jusqu'à ce que la boucle vous rattrape de nouveau.",
+          "position": null,
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Rita et expliquez-lui la boucle temporelle. Allez sur la map de gauche parler à la Lieutenant Braylle ; elle identifie le syndrome d'Hiroshi, mais l'attaque interrompt la discussion et la boucle recommence.",
+          "position": null,
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Rita, reparlez-lui de la boucle, puis retournez auprès de la Lieutenant Braylle. Expliquez que vous avez besoin de son aide à propos du syndrome : elle déduit qu'un stabilisateur temporel manque et fabrique un appareil pour le neutraliser, ce qui termine la quête.",
+          "position": null,
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête se termine auprès de la Lieutenant Braylle et permet ensuite de lancer « Tout ce qu'il te faut, c'est tuer »."
+      ],
+      "npcs": [
+        "Elvis Irr",
+        "Rita Foulmétal",
+        "Caporale Tarte",
+        "Lieutenant Braylle"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 836,
+            "name": "Chemins d'hier",
+            "coordinates": [
+              "1,6"
+            ]
+          },
+          {
+            "id": 482,
+            "name": "Milifutaie",
+            "coordinates": [
+              "0,5"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3845,
+            "name": "Morblok",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/3845.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2310,
+            "name": "Arakule la Revancharde",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2310.png"
+          },
+          {
+            "id": 2333,
+            "name": "Milipatte la Griffe",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2333.png"
+          },
+          {
+            "id": 2349,
+            "name": "Preskapwal le Tendancieux",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2349.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 4823,
+                "name": "Écurouille",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/4823.png"
+              },
+              {
+                "id": 159,
+                "name": "Milimulou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/159.png"
+              },
+              {
+                "id": 103,
+                "name": "Prespic",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/103.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              }
+            ]
+          },
+          {
+            "id": 1171,
+            "name": "Xélomorphes",
+            "monsters": [
+              {
+                "id": 3854,
+                "name": "Gromorso",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3854.png"
+              },
+              {
+                "id": 3855,
+                "name": "Farfacette",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3855.png"
+              },
+              {
+                "id": 3856,
+                "name": "Brikablak",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3856.png"
+              },
+              {
+                "id": 3857,
+                "name": "Éklatleth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3857.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:873",
+      "relation": "ACTIVE",
+      "sortOrder": 3,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/aujourdhui-agrave-jamais.html",
+      "sourceTitle": "Aujourd'hui à jamais",
+      "sourceHash": "247c28d96666059559822a4c7d10914e00dbd9b08f4f99b222b765371fcd7e91",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Enchaînez après « Aujourd'hui à jamais » : enquêtez sur l'explosion de l'avant-poste, poursuivez une silhouette vers [3,7] et affrontez les Hordémons avec Rita. Une nouvelle boucle temporelle vous force à récupérer un Neutralisateur de stabilisateur temporel, refaire le combat puis empêcher Trantroa Avant-gardiste de saboter le stabilisateur avant de revenir à l'avant-poste.",
+      "recommendedLevel": 170,
+      "prerequisites": [
+        "Aujourd'hui à jamais"
+      ],
+      "rewards": [
+        "2 355 864 XP",
+        "32 280 Kamas",
+        "35 x Orichor",
+        "5 x Pagne de Trantroa"
+      ],
+      "preparation": [
+        "Prévoir 2 combats seul."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à la Lieutenant Braylle et dites-lui de se dépêcher. L'explosion vous tue et la boucle vous ramène en arrière.",
+          "position": "[1,6]",
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": "Mort scénarisée liée à la boucle temporelle.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sur la map de droite, interrogez l'Agent de sécurité puis l'Agent Pascal sur d'éventuelles intrusions ou anomalies. Rendez-vous ensuite dans les cuisines et questionnez Rachelle Kiki.",
+          "position": null,
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Après l'explosion dans les cuisines, retournez-y, repérez la silhouette qui s'enfuit et poursuivez-la hors de l'avant-poste. En [3,6], cliquez sur la dalle de pierre qui dépasse du sol puis descendez d'une map vers le sud.",
+          "position": "[3,6]",
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": "L'explosion et les blessures qui suivent sont scénarisées.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Seith Avant-gardiste en [3,7] et attaquez-le. Cette première confrontation se termine par votre mort.",
+          "position": "[3,7]",
+          "zoneHint": null,
+          "warning": "Défaite scénarisée nécessaire à la progression.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Rita Foulmétal à l'avant-poste, expliquez la situation et demandez son aide, puis revenez traquer la silhouette en [3,7]. Reparlez à Seith Avant-gardiste et combattez les 4 Hordémons avec Rita.",
+          "position": "[3,7]",
+          "zoneHint": null,
+          "warning": "Le combat se fait seul avec Rita Foulmétal comme alliée. Son IA est agressive et elle va au corps-à-corps ; restez à distance. Si Rita meurt, le combat continue.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après la victoire, récupérez une Barbe de Seith avant-gardiste, reparlez à Rita puis allez sur la map de droite. Parlez à Trantroa Avant-gardiste et tentez de l'empêcher de trafiquer le stabilisateur ; il provoque une explosion qui relance la boucle temporelle.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Le sabotage de Trantroa déclenche une nouvelle boucle temporelle.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Rita à l'avant-poste, expliquez que la boucle recommence, puis allez sur la map de gauche demander à la Lieutenant Braylle un appareil capable de neutraliser un stabilisateur temporel. Récupérez le Neutralisateur de stabilisateur temporel.",
+          "position": null,
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez en [3,7], reparlez à Seith Avant-gardiste et refaites le combat avec Rita. Récupérez de nouveau une Barbe de Seith avant-gardiste, reparlez à Rita puis partez sur la map de droite.",
+          "position": "[3,7]",
+          "zoneHint": null,
+          "warning": "Deuxième combat seul avec Rita Foulmétal comme alliée.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Parlez de nouveau à Trantroa Avant-gardiste et utilisez cette fois le Neutralisateur de stabilisateur temporel pour l'empêcher de trafiquer le stabilisateur.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Le choix attendu est d'utiliser le Neutralisateur de stabilisateur temporel.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez parler à Rita à l'avant-poste, puis rendez visite à Elvis sur la première map de l'avant-poste. Le fait qu'il ne se souvienne pas de vous marque la fin de la quête.",
+          "position": "[1,6]",
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Cette quête suppose « Aujourd'hui à jamais » terminée dans l'occurrence précédente de l'étape."
+      ],
+      "npcs": [
+        "Lieutenant Braylle",
+        "Agent de sécurité",
+        "Agent Pascal",
+        "Rachelle Kiki",
+        "Seith Avant-gardiste",
+        "Rita Foulmétal",
+        "Trantroa Avant-gardiste",
+        "Elvis Irr"
+      ],
+      "items": [
+        {
+          "name": "Barbe de Seith avant-gardiste",
+          "itemId": 15925,
+          "imageUrl": "/items/15925.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15925"
+        },
+        {
+          "name": "Neutralisateur de stabilisateur temporel",
+          "itemId": 15926,
+          "imageUrl": "/items/15926.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15926"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 836,
+            "name": "Chemins d'hier",
+            "coordinates": [
+              "1,6",
+              "3,6"
+            ]
+          },
+          {
+            "id": 482,
+            "name": "Milifutaie",
+            "coordinates": [
+              "3,7"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "3,7"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3845,
+            "name": "Morblok",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/3845.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2310,
+            "name": "Arakule la Revancharde",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2310.png"
+          },
+          {
+            "id": 2333,
+            "name": "Milipatte la Griffe",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2333.png"
+          },
+          {
+            "id": 2349,
+            "name": "Preskapwal le Tendancieux",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2349.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 4823,
+                "name": "Écurouille",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/4823.png"
+              },
+              {
+                "id": 159,
+                "name": "Milimulou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/159.png"
+              },
+              {
+                "id": 103,
+                "name": "Prespic",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/103.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              }
+            ]
+          },
+          {
+            "id": 1171,
+            "name": "Xélomorphes",
+            "monsters": [
+              {
+                "id": 3854,
+                "name": "Gromorso",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3854.png"
+              },
+              {
+                "id": 3855,
+                "name": "Farfacette",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3855.png"
+              },
+              {
+                "id": 3856,
+                "name": "Brikablak",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3856.png"
+              },
+              {
+                "id": 3857,
+                "name": "Éklatleth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3857.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:874",
+      "relation": "ACTIVE",
+      "sortOrder": 4,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/tout-ce-quil-te-faut-cest-tuer.html",
+      "sourceTitle": "Tout ce qu'il te faut, c'est tuer",
+      "sourceHash": "477928f3a4d45906d4a5271b3dbd06bedba4bc545bb88f2b7ca55b70f1a7445a",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez la quête après « De fil en aiguille », puis accomplissez uniquement l'objectif de cette occurrence : effectuer l'Horologium de XLII et vaincre XLII. L'interrogatoire de XLII, la menace concernant le Dieu Xélor et le retour au Doc sont volontairement réservés à l'occurrence FINISH de l'étape 194.",
+      "recommendedLevel": 170,
+      "prerequisites": [
+        "De fil en aiguille"
+      ],
+      "rewards": [
+        "4 711 728 XP",
+        "64 560 Kamas",
+        "35 x Orichor",
+        "3 x Touffe de cheveux de Soissanth"
+      ],
+      "preparation": [
+        "Prévoir 1 x Donjon Horologium de XLII."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez au Doc Emiette Borgne pour lancer la quête et recevoir la mission d'interroger XLII sur la façon dont les Hordémons ont pu rester dans le Xélorium.",
+          "position": "[1,6]",
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous devant le Gardien de l'Horologium, effectuez l'Horologium de XLII et vainquez XLII. Arrêtez-vous là pour cette occurrence.",
+          "position": null,
+          "zoneHint": "Horologium de XLII",
+          "warning": "Ne poursuivez pas encore le dialogue avec XLII et ne retournez pas au Doc : ces actions appartiennent à l'occurrence FINISH de l'étape 194.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "Cette occurrence suppose « De fil en aiguille » terminée plus tôt dans l'étape 193.",
+        "Après la victoire sur XLII, l'interrogatoire de XLII et le rendu final au Doc seront effectués à l'étape 194."
+      ],
+      "npcs": [
+        "Doc Emiette Borgne",
+        "Gardien de l'Horologium",
+        "XLII"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 836,
+            "name": "Chemins d'hier",
+            "coordinates": [
+              "1,6"
+            ]
+          },
+          {
+            "id": 840,
+            "name": "Horologium de XLII",
+            "coordinates": []
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3845,
+            "name": "Morblok",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/3845.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1172,
+            "name": "Hordémons",
+            "monsters": [
+              {
+                "id": 3840,
+                "name": "Trezz",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3840.png"
+              },
+              {
+                "id": 3841,
+                "name": "Vindeux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3841.png"
+              },
+              {
+                "id": 3842,
+                "name": "Trantroa",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3842.png"
+              },
+              {
+                "id": 3843,
+                "name": "Seith",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3843.png"
+              },
+              {
+                "id": 3844,
+                "name": "Soissanth",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3844.png"
+              }
+            ]
+          },
+          {
+            "id": 1171,
+            "name": "Xélomorphes",
+            "monsters": [
+              {
+                "id": 3854,
+                "name": "Gromorso",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3854.png"
+              },
+              {
+                "id": 3855,
+                "name": "Farfacette",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3855.png"
+              },
+              {
+                "id": 3856,
+                "name": "Brikablak",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3856.png"
+              },
+              {
+                "id": 3857,
+                "name": "Éklatleth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3857.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:865",
+      "relation": "START",
+      "sortOrder": 5,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-vie-lhormonde-et-le-reste.html",
+      "sourceTitle": "La Vie, l'Hormonde et le Reste",
+      "sourceHash": "ebe2d3cce48fff649f03ef87253e03f97e3bcb960453a5262d714c9d820acd20",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

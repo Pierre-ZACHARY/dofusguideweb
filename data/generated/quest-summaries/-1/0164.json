@@ -1,8 +1,1358 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 164,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T22:23:17.288Z",
+  "summaries": [
+    {
+      "overview": "Poursuis la mission du Major Qiu en Enutrosor : équipe son Cracheur, teste-le successivement sur trois phorreurs de la Carrière Aurifière, puis rapporte les trois résultats à Maximilio au Creuset des Fortunés. Les interactions avec les phorreurs peuvent déclencher des agressions.",
+      "recommendedLevel": 150,
+      "prerequisites": [
+        "Niveau recommandé : 150.",
+        "Avoir obtenu le Cracheur du Major Qiu et être à l'étape des tests en Enutrosor."
+      ],
+      "rewards": [
+        "2 215 500 XP.",
+        "25 480 kamas.",
+        "30 x Orichor.",
+        "5 x Œil de Phozami."
+      ],
+      "preparation": [
+        "Équiper le Cracheur du Major Qiu en tant que Corps à Corps avant de commencer les tests.",
+        "Prévoir de pouvoir gérer des combats aléatoires lors des interactions avec les phorreurs."
+      ],
+      "actions": [
+        {
+          "instruction": "Dans la Carrière Aurifière, parle au Jeune Phorrêveur pour effectuer le premier test avec le Cracheur du Major Qiu équipé.",
+          "position": "[0,-5]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": "L'interaction peut provoquer une agression.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Parle au Phozami Mature pour réaliser le deuxième test du Cracheur.",
+          "position": "[2,-3]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": "Le Phozami Mature peut t'agresser pendant le test.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Parle au Vieux Métaphorreur pour effectuer le troisième et dernier test.",
+          "position": "[3,-3]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": "Le Vieux Métaphorreur peut t'agresser pendant le test.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Une fois les trois Rapports de Test obtenus, rends-toi auprès de Maximilio et donne-lui les résultats pour terminer la quête.",
+          "position": "[-1,-1]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les trois tests doivent être réalisés avant le retour auprès de Maximilio."
+      ],
+      "npcs": [
+        "Jeune Phorrêveur",
+        "Phozami Mature",
+        "Vieux Métaphorreur",
+        "Professeur Maximilio",
+        "Major Qiu"
+      ],
+      "items": [
+        {
+          "name": "Cracheur du Major Qiu",
+          "itemId": 15282,
+          "imageUrl": "/items/15282.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15282"
+        },
+        {
+          "name": "Rapports de Test",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 820,
+            "name": "Creuset des Fortunés",
+            "coordinates": [
+              "-1,-1"
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Montagne des Craqueleurs",
+            "coordinates": [
+              "0,-5"
+            ]
+          },
+          {
+            "id": 479,
+            "name": "Rivière Kawaii",
+            "coordinates": [
+              "2,-3",
+              "3,-3"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3670,
+            "name": "Maxi-Malle",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/3670.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2310,
+            "name": "Arakule la Revancharde",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2310.png"
+          },
+          {
+            "id": 2323,
+            "name": "Chamchie le Difficile",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2323.png"
+          },
+          {
+            "id": 2336,
+            "name": "Mosketère le Dévoué",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2336.png"
+          },
+          {
+            "id": 2367,
+            "name": "Kwakamole l'Appétissant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2367.png"
+          },
+          {
+            "id": 2369,
+            "name": "Kwaké le Piraté",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2369.png"
+          },
+          {
+            "id": 2451,
+            "name": "Kwakolak le Chocolaté",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2451.png"
+          },
+          {
+            "id": 2368,
+            "name": "Kwakwatique le Trempé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2368.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              }
+            ]
+          },
+          {
+            "id": 1093,
+            "name": "Koffrefors",
+            "monsters": [
+              {
+                "id": 3666,
+                "name": "Berserkoffre",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3666.png"
+              },
+              {
+                "id": 3663,
+                "name": "Boursoin",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3663.png"
+              },
+              {
+                "id": 3664,
+                "name": "Mimikado",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3664.png"
+              },
+              {
+                "id": 3665,
+                "name": "Trésantène",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3665.png"
+              }
+            ]
+          },
+          {
+            "id": 190,
+            "name": "Kwakeres",
+            "monsters": [
+              {
+                "id": 269,
+                "name": "Kwakere de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/269.png"
+              },
+              {
+                "id": 271,
+                "name": "Kwakere de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/271.png"
+              },
+              {
+                "id": 270,
+                "name": "Kwakere de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/270.png"
+              },
+              {
+                "id": 272,
+                "name": "Kwakere de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/272.png"
+              }
+            ]
+          },
+          {
+            "id": 189,
+            "name": "Kwaks",
+            "monsters": [
+              {
+                "id": 83,
+                "name": "Kwak de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/83.png"
+              },
+              {
+                "id": 84,
+                "name": "Kwak de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/84.png"
+              },
+              {
+                "id": 235,
+                "name": "Kwak de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/235.png"
+              },
+              {
+                "id": 81,
+                "name": "Kwak de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/81.png"
+              }
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Mulous",
+            "monsters": [
+              {
+                "id": 102,
+                "name": "Mulou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/102.png"
+              }
+            ]
+          },
+          {
+            "id": 214,
+            "name": "Porkass",
+            "monsters": [
+              {
+                "id": 123,
+                "name": "Cochon de Lait",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/123.png"
+              }
+            ]
+          },
+          {
+            "id": 1602,
+            "name": "Vermines des champs",
+            "monsters": [
+              {
+                "id": 4819,
+                "name": "Campagnoll",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/4819.png"
+              },
+              {
+                "id": 59,
+                "name": "Champ Champ",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/59.png"
+              },
+              {
+                "id": 61,
+                "name": "Moskito",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/61.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:776",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/crache-test.html",
+      "sourceTitle": "Crache Test",
+      "sourceHash": "a936a20abee7272faa0552c1a13ede9f1378b370813098a5daa34a81097632b5",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Utilise l'holodateur expérimental de Rol Sterding sur cinq cristaux de la Carrière Aurifière, puis rejoins son Krosmoglob au Creuset des Fortunés pour transmettre les mesures et achever la quête.",
+      "recommendedLevel": 150,
+      "prerequisites": [
+        "Niveau recommandé : 150.",
+        "Avoir reçu l'holodateur expérimental de Rol Sterding."
+      ],
+      "rewards": [
+        "2 215 500 XP.",
+        "25 480 kamas.",
+        "30 x Orichor.",
+        "1 x Kamatrix."
+      ],
+      "preparation": [
+        "Garder l'holodateur expérimental de Rol Sterding disponible pendant les cinq prélèvements."
+      ],
+      "actions": [
+        {
+          "instruction": "Effectue un prélèvement sur le cristal avec l'holodateur expérimental.",
+          "position": "[0,-4]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectue le deuxième prélèvement sur le cristal.",
+          "position": "[1,-3]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectue le troisième prélèvement sur le cristal.",
+          "position": "[2,-5]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectue le quatrième prélèvement sur le cristal.",
+          "position": "[1,-5]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectue le cinquième prélèvement sur le cristal.",
+          "position": "[2,-4]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Après les cinq mesures, rejoins le Krosmoglob de Rol, engage la conversation avec Rol Sterding à travers lui et remets l'holodateur pour terminer la quête.",
+          "position": "[-1,-1]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les cinq prélèvements de la Carrière Aurifière doivent être terminés avant de remettre l'holodateur."
+      ],
+      "npcs": [
+        "Rol Sterding",
+        "Krosmoglob de Rol"
+      ],
+      "items": [
+        {
+          "name": "Holodateur expérimental",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 180,
+            "name": "Château d'Amakna",
+            "coordinates": [
+              "2,-5",
+              "2,-4"
+            ]
+          },
+          {
+            "id": 820,
+            "name": "Creuset des Fortunés",
+            "coordinates": [
+              "-1,-1"
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Montagne des Craqueleurs",
+            "coordinates": [
+              "1,-5"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "0,-4",
+              "1,-3"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3670,
+            "name": "Maxi-Malle",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/3670.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2367,
+            "name": "Kwakamole l'Appétissant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2367.png"
+          },
+          {
+            "id": 2369,
+            "name": "Kwaké le Piraté",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2369.png"
+          },
+          {
+            "id": 2451,
+            "name": "Kwakolak le Chocolaté",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2451.png"
+          },
+          {
+            "id": 2368,
+            "name": "Kwakwatique le Trempé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2368.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1093,
+            "name": "Koffrefors",
+            "monsters": [
+              {
+                "id": 3666,
+                "name": "Berserkoffre",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3666.png"
+              },
+              {
+                "id": 3663,
+                "name": "Boursoin",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3663.png"
+              },
+              {
+                "id": 3664,
+                "name": "Mimikado",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3664.png"
+              },
+              {
+                "id": 3665,
+                "name": "Trésantène",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3665.png"
+              }
+            ]
+          },
+          {
+            "id": 190,
+            "name": "Kwakeres",
+            "monsters": [
+              {
+                "id": 269,
+                "name": "Kwakere de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/269.png"
+              },
+              {
+                "id": 271,
+                "name": "Kwakere de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/271.png"
+              },
+              {
+                "id": 270,
+                "name": "Kwakere de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/270.png"
+              },
+              {
+                "id": 272,
+                "name": "Kwakere de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/272.png"
+              }
+            ]
+          },
+          {
+            "id": 189,
+            "name": "Kwaks",
+            "monsters": [
+              {
+                "id": 83,
+                "name": "Kwak de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/83.png"
+              },
+              {
+                "id": 84,
+                "name": "Kwak de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/84.png"
+              },
+              {
+                "id": 235,
+                "name": "Kwak de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/235.png"
+              },
+              {
+                "id": 81,
+                "name": "Kwak de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/81.png"
+              }
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Mulous",
+            "monsters": [
+              {
+                "id": 102,
+                "name": "Mulou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/102.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 214,
+            "name": "Porkass",
+            "monsters": [
+              {
+                "id": 123,
+                "name": "Cochon de Lait",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/123.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:778",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-quatriegraveme-dimension.html",
+      "sourceTitle": "La quatrième dimension",
+      "sourceHash": "f9533254f1ee06e480f55701f69ecf402bb83ab5c3260cca44296384c9d9da51",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Élimine les trois groupes de braconniers de la Carrière Aurifère dans l'ordre imposé, récupère leurs défenses de phorreur, puis remets-les à Dyane Phossé afin qu'elle les détruise et clôture la quête.",
+      "recommendedLevel": 150,
+      "prerequisites": [
+        "Niveau recommandé : 150.",
+        "Malladie."
+      ],
+      "rewards": [
+        "2 215 500 XP.",
+        "25 480 kamas.",
+        "30 x Orichor.",
+        "1 x Kamatrix."
+      ],
+      "preparation": [
+        "Prévoir 3 combats, réalisables en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Lance le premier combat contre un Braconnier Solitaire.",
+          "position": "[0,-4]",
+          "zoneHint": "Carrière Aurifère",
+          "warning": "Premier des trois combats obligatoires ; respecte l'ordre indiqué.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Affronte ensuite trois Braconniers en Famille.",
+          "position": "[1,-3]",
+          "zoneHint": "Carrière Aurifère",
+          "warning": "Deuxième combat obligatoire, après le Braconnier Solitaire.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Termine la série en affrontant cinq Braconniers en Bande organisée.",
+          "position": "[2,-4]",
+          "zoneHint": "Carrière Aurifère",
+          "warning": "Troisième combat obligatoire, à effectuer après les deux groupes précédents.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Apporte les défenses de phorreur récupérées à Dyane Phossé afin qu'elle les détruise, puis parle-lui pour terminer la quête.",
+          "position": "[-2,-3]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La discussion supplémentaire avec Dyane peut ensuite ouvrir Phorreurs dans la brume, mais ce lancement n'est pas une action de cette occurrence."
+      ],
+      "npcs": [
+        "Professeur Maximilio",
+        "Dyane Phossé",
+        "Braconnier Solitaire",
+        "Braconniers en Famille",
+        "Braconniers en Bande organisée"
+      ],
+      "items": [
+        {
+          "name": "Défenses de phorreur",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 821,
+            "name": "Carrière Aurifère",
+            "coordinates": [
+              "0,-4",
+              "1,-3",
+              "2,-4"
+            ]
+          },
+          {
+            "id": 820,
+            "name": "Creuset des Fortunés",
+            "coordinates": [
+              "-2,-3"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3670,
+            "name": "Maxi-Malle",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/3670.png"
+          },
+          {
+            "id": 3669,
+            "name": "Aigripoil",
+            "level": 150,
+            "imageUrl": "/bestiary/monsters/3669.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1093,
+            "name": "Koffrefors",
+            "monsters": [
+              {
+                "id": 3666,
+                "name": "Berserkoffre",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3666.png"
+              },
+              {
+                "id": 3663,
+                "name": "Boursoin",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3663.png"
+              },
+              {
+                "id": 3664,
+                "name": "Mimikado",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3664.png"
+              },
+              {
+                "id": 3665,
+                "name": "Trésantène",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3665.png"
+              }
+            ]
+          },
+          {
+            "id": 1094,
+            "name": "Phorreurs",
+            "monsters": [
+              {
+                "id": 3659,
+                "name": "Métaphorreur",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/3659.png"
+              },
+              {
+                "id": 3658,
+                "name": "Phorrêveur",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/3658.png"
+              },
+              {
+                "id": 3661,
+                "name": "Phozami",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/3661.png"
+              },
+              {
+                "id": 3660,
+                "name": "Père Phorreur",
+                "level": 142,
+                "imageUrl": "/bestiary/monsters/3660.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:785",
+      "relation": "ACTIVE",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-meilleure-deacutefense-cest-lattaque.html",
+      "sourceTitle": "La meilleure défense, c'est l'attaque",
+      "sourceHash": "f828f751caa633d96b6d3606f67834f488c315c36502bc00b9198039e7ab191f",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Applique la sueur de prespic sur les six Phorreuses Amoureuses indiquées dans la Carrière Aurifière, puis reviens auprès de Dyane Phossé pour lui confirmer que son dispositif est en place et terminer la quête.",
+      "recommendedLevel": 150,
+      "prerequisites": [
+        "Niveau recommandé : 150.",
+        "La meilleure défense, c'est l'attaque."
+      ],
+      "rewards": [
+        "1 107 750 XP.",
+        "12 740 kamas.",
+        "30 x Orichor.",
+        "1 x Kamatrix."
+      ],
+      "preparation": [
+        "Avoir reçu de Dyane Phossé le nécessaire permettant d'asperger les Phorreuses Amoureuses de sueur de prespic."
+      ],
+      "actions": [
+        {
+          "instruction": "Vaporise la sueur de prespic sur la Phorreuse Amoureuse présente sur la carte.",
+          "position": "[0,-3]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Vaporise la sueur de prespic sur la Phorreuse Amoureuse.",
+          "position": "[1,-5]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Vaporise la sueur de prespic sur la Phorreuse Amoureuse.",
+          "position": "[2,-5]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Vaporise la sueur de prespic sur la Phorreuse Amoureuse.",
+          "position": "[0,-5]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Vaporise la sueur de prespic sur la Phorreuse Amoureuse.",
+          "position": "[2,-3]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Vaporise la sueur de prespic sur la dernière Phorreuse Amoureuse.",
+          "position": "[3,-4]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne auprès de Dyane Phossé et parle-lui pour terminer la quête.",
+          "position": "[-2,-3]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La conversation qui suit peut lancer Le phormidiable au corps, prévu plus tard dans le guide et non dans les actions de cette occurrence."
+      ],
+      "npcs": [
+        "Dyane Phossé",
+        "Phorreuse Amoureuse"
+      ],
+      "items": [
+        {
+          "name": "Sueur de prespic",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 180,
+            "name": "Château d'Amakna",
+            "coordinates": [
+              "2,-5",
+              "3,-4"
+            ]
+          },
+          {
+            "id": 820,
+            "name": "Creuset des Fortunés",
+            "coordinates": [
+              "-2,-3"
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Montagne des Craqueleurs",
+            "coordinates": [
+              "1,-5",
+              "0,-5"
+            ]
+          },
+          {
+            "id": 479,
+            "name": "Rivière Kawaii",
+            "coordinates": [
+              "2,-3"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "0,-3"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3670,
+            "name": "Maxi-Malle",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/3670.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2310,
+            "name": "Arakule la Revancharde",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2310.png"
+          },
+          {
+            "id": 2323,
+            "name": "Chamchie le Difficile",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2323.png"
+          },
+          {
+            "id": 2336,
+            "name": "Mosketère le Dévoué",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2336.png"
+          },
+          {
+            "id": 2367,
+            "name": "Kwakamole l'Appétissant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2367.png"
+          },
+          {
+            "id": 2369,
+            "name": "Kwaké le Piraté",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2369.png"
+          },
+          {
+            "id": 2451,
+            "name": "Kwakolak le Chocolaté",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2451.png"
+          },
+          {
+            "id": 2368,
+            "name": "Kwakwatique le Trempé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2368.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              }
+            ]
+          },
+          {
+            "id": 1093,
+            "name": "Koffrefors",
+            "monsters": [
+              {
+                "id": 3666,
+                "name": "Berserkoffre",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3666.png"
+              },
+              {
+                "id": 3663,
+                "name": "Boursoin",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3663.png"
+              },
+              {
+                "id": 3664,
+                "name": "Mimikado",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3664.png"
+              },
+              {
+                "id": 3665,
+                "name": "Trésantène",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3665.png"
+              }
+            ]
+          },
+          {
+            "id": 190,
+            "name": "Kwakeres",
+            "monsters": [
+              {
+                "id": 269,
+                "name": "Kwakere de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/269.png"
+              },
+              {
+                "id": 271,
+                "name": "Kwakere de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/271.png"
+              },
+              {
+                "id": 270,
+                "name": "Kwakere de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/270.png"
+              },
+              {
+                "id": 272,
+                "name": "Kwakere de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/272.png"
+              }
+            ]
+          },
+          {
+            "id": 189,
+            "name": "Kwaks",
+            "monsters": [
+              {
+                "id": 83,
+                "name": "Kwak de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/83.png"
+              },
+              {
+                "id": 84,
+                "name": "Kwak de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/84.png"
+              },
+              {
+                "id": 235,
+                "name": "Kwak de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/235.png"
+              },
+              {
+                "id": 81,
+                "name": "Kwak de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/81.png"
+              }
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Mulous",
+            "monsters": [
+              {
+                "id": 102,
+                "name": "Mulou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/102.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 214,
+            "name": "Porkass",
+            "monsters": [
+              {
+                "id": 123,
+                "name": "Cochon de Lait",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/123.png"
+              }
+            ]
+          },
+          {
+            "id": 1602,
+            "name": "Vermines des champs",
+            "monsters": [
+              {
+                "id": 4819,
+                "name": "Campagnoll",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/4819.png"
+              },
+              {
+                "id": 59,
+                "name": "Champ Champ",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/59.png"
+              },
+              {
+                "id": 61,
+                "name": "Moskito",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/61.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:786",
+      "relation": "ACTIVE",
+      "sortOrder": 3,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/phorreurs-dans-la-brume.html",
+      "sourceTitle": "Phorreurs dans la brume",
+      "sourceHash": "59c66941d74325d78a6976ecb998882ce2615ac7985c527e7682b21383f1c2c8",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Trouve de l'aide pour les mineurs ensevelis : convaincs Drayefontaine et Foolk en répondant honnêtement à leurs questions, obtiens trois phorreurs apprivoisés auprès de Yanacoché, puis ramène-les à Grabergue pour libérer les mineurs. Le Joyau écarlate obtenu permettra de lancer Un cœur d'or à l'étape suivante ; ne le double-clique pas encore dans cette occurrence.",
+      "recommendedLevel": 150,
+      "prerequisites": [
+        "Niveau recommandé : 150.",
+        "Avoir parlé à Grabergue en [3,-4] et appris que des mineurs sont bloqués sous un éboulement."
+      ],
+      "rewards": [
+        "1 107 750 XP.",
+        "12 740 kamas.",
+        "30 x Orichor.",
+        "1 x Joyau écarlate.",
+        "5 x Corne de Père Phorreur."
+      ],
+      "preparation": [
+        "Vérifier si tu as déjà vaincu le Phossile.",
+        "Vérifier ton nombre d'Orichor dans l'inventaire de quêtes : la réponse à Foolk dépend du fait d'en posséder strictement plus de 10 ou non.",
+        "Vérifier si la quête Trésorphelinat a déjà été terminée, ce qui détermine si tu as déjà vaincu un Koffromage."
+      ],
+      "actions": [
+        {
+          "instruction": "Depuis Grabergue, va sur la carte à droite et parle à Drayefontaine. Dis la vérité : reconnais être avec les Voyageurs Dimensionnels, réponds Oui si tu as déjà vaincu le Phossile et Non sinon, puis suppose que les mineurs lui seront reconnaissants de son aide.",
+          "position": null,
+          "zoneHint": "Carrière Aurifière",
+          "warning": "Les réponses dépendent de ta progression réelle. Ne mens pas sur le Phossile.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Suis le chemin vers Foolk et parle-lui des mineurs prisonniers. Réponds honnêtement à ses questions : pour les Orichor, réponds Oui uniquement si tu en possèdes plus de 10, sinon Non ; pour le Koffromage, réponds Oui uniquement si tu as terminé Trésorphelinat, sinon Non.",
+          "position": null,
+          "zoneHint": "Carrière Aurifière",
+          "warning": "Les choix de dialogue varient selon ton inventaire et tes quêtes déjà accomplies ; donner une réponse fausse peut empêcher la progression correcte.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Va voir Yanacoché, explique-lui le problème des mineurs et demande-lui de prêter des phorreurs. Il te confie alors 3 phorreurs apprivoisés en personnages suiveurs.",
+          "position": "[0,-5]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne auprès de Grabergue et donne-lui les 3 phorreurs apprivoisés pour permettre le sauvetage des mineurs. Williamwadui apparaît ensuite et te remet notamment le Joyau écarlate, ce qui termine la quête.",
+          "position": "[3,-4]",
+          "zoneHint": "Carrière Aurifière",
+          "warning": "Ne double-clique pas encore sur le Joyau écarlate : il sert à lancer Un cœur d'or à l'étape suivante du guide.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les réponses à Drayefontaine et Foolk sont conditionnelles : elles doivent refléter exactement ta progression et ton inventaire.",
+        "Le Joyau écarlate obtenu à la fin est volontairement conservé pour l'étape suivante, où il lancera Un cœur d'or."
+      ],
+      "npcs": [
+        "Grabergue",
+        "Drayefontaine",
+        "Foolk",
+        "Yanacoché",
+        "Williamwadui"
+      ],
+      "items": [
+        {
+          "name": "Orichor",
+          "itemId": 15206,
+          "imageUrl": "/items/15206.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15206"
+        },
+        {
+          "name": "3 phorreurs apprivoisés",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Joyau écarlate",
+          "itemId": 15318,
+          "imageUrl": "/items/15318.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15318"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "0,-5",
+              "3,-4"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": []
+      },
+      "questKey": "quest:795",
+      "relation": "ACTIVE",
+      "sortOrder": 4,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/les-grandes-galeries.html",
+      "sourceTitle": "Les grandes galeries",
+      "sourceHash": "c70736cace037fa5749852ad44db23b267bfeea8da135f1d5d0b2efd1f0e4094",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Regrouper les objectifs de la Carrière",
+      "description": "Plusieurs objectifs des quêtes actives utilisent les mêmes cartes de la Carrière Aurifière. En gardant les objets de quête nécessaires sur toi, tu peux limiter les allers-retours tout en respectant l'ordre interne propre à chaque quête.",
+      "questKeys": [
+        "quest:776",
+        "quest:778",
+        "quest:785",
+        "quest:786"
+      ],
+      "actions": [
+        "En [0,-4], combine le prélèvement de La quatrième dimension avec le combat du Braconnier Solitaire de La meilleure défense, c'est l'attaque.",
+        "En [1,-3], fais le prélèvement de La quatrième dimension puis le combat contre les Braconniers en Famille.",
+        "En [2,-4], réalise le prélèvement de La quatrième dimension et, lorsque l'ordre des combats de la quête le permet, affronte les Braconniers en Bande organisée.",
+        "Profite des passages en [0,-5], [2,-3], [1,-5] et [2,-5] pour avancer les tests de Crache Test, les prélèvements et les Phorreuses Amoureuses correspondant à ces cartes."
+      ]
+    },
+    {
+      "title": "Profiter du passage en [3,-4]",
+      "description": "Deux quêtes actives de cette étape ont un objectif en [3,-4], ce qui permet d'éviter un déplacement supplémentaire.",
+      "questKeys": [
+        "quest:786",
+        "quest:795"
+      ],
+      "actions": [
+        "Asperge la Phorreuse Amoureuse de Phorreurs dans la brume en [3,-4].",
+        "Sur la même carte, poursuis Les grandes galeries auprès de Grabergue lorsque tu as obtenu les 3 phorreurs apprivoisés."
+      ]
+    }
+  ]
 }
