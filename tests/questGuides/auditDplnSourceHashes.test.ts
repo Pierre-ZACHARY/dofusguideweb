@@ -31,7 +31,10 @@ describe("auditDplnSourceHashes", () => {
     await writeFile(path.join(inputDirectory, "0001.json"), JSON.stringify({
       guideId: -1,
       stepNumber: 1,
-      summaries: [{ questKey: "quest:1", sourceUrl: currentUrl, sourceTitle: "Quête A", sourceHash: currentHash }],
+      summaries: [
+        { questKey: "quest:1", sourceUrl: currentUrl, sourceTitle: "Quête A", sourceHash: currentHash },
+        { questKey: "quest:2504", sourceUrl: "https://beta.dofusdb.fr/fr/database/quest/2504", sourceTitle: "Quête DofusDB", sourceHash: "f".repeat(64) },
+      ],
     }));
     await writeFile(path.join(inputDirectory, "0002.json"), JSON.stringify({
       guideId: -1,

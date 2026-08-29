@@ -4,8 +4,7 @@ import { z } from "zod";
 import { SqliteDofusGuideRepository } from "../repositories/sqliteDofusGuideRepository.js";
 import { atomicWriteFile } from "../utils/fs.js";
 import { sleep } from "../utils/sleep.js";
-import { canonicalSourceUrl } from "./dplnArticleCache.js";
-import { fetchDplnArticle } from "./fetchDplnArticle.js";
+import { assertAllowedDplnSource, fetchDplnArticle } from "./fetchDplnArticle.js";
 
 const sourceReferenceSchema = z.object({
   questKey: z.string().trim().min(1),
@@ -63,6 +62,14 @@ function occurrenceKey(stepNumber: number, questKey: string, relation: string, s
   return [stepNumber, questKey, relation, sortOrder].join("|");
 }
 
+function dplnSourceUrl(rawUrl: string): string | null {
+  try {
+    return assertAllowedDplnSource(rawUrl).toString();
+  } catch {
+    return null;
+  }
+}
+
 function emptyUsage(): SourceUsage {
   return {
     generatedHashes: new Set<string>(),
@@ -88,7 +95,8 @@ async function loadSourceUsages(inputDirectory: string): Promise<{ guideId: numb
     if (archive.guideId !== guideId) throw new Error("Mixed guide ids in " + inputDirectory);
 
     for (const summary of archive.summaries) {
-      const sourceUrl = canonicalSourceUrl(summary.sourceUrl);
+      const sourceUrl = dplnSourceUrl(summary.sourceUrl);
+      if (sourceUrl === null) continue;
       const usage = usages.get(sourceUrl) ?? emptyUsage();
       usage.generatedHashes.add(summary.sourceHash);
       usage.affectedSteps.add(archive.stepNumber);
@@ -120,7 +128,8 @@ export async function auditDplnSourceHashes(options: AuditDplnSourceHashesOption
         if (step === undefined) continue;
         for (const quest of step.quests) {
           if (quest.externalUrl === null) continue;
-          const sourceUrl = canonicalSourceUrl(quest.externalUrl);
+          const sourceUrl = dplnSourceUrl(quest.externalUrl);
+          if (sourceUrl === null) continue;
           const usage = usages.get(sourceUrl) ?? emptyUsage();
           usage.affectedSteps.add(step.stepNumber);
           usage.questKeys.add(quest.questKey);
