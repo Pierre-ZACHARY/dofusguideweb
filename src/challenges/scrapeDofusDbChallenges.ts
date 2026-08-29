@@ -4,6 +4,7 @@ import { dofusDbChallengePageSchema, type DofusDbChallenge, type DofusDbChalleng
 import { atomicWriteFile } from "../utils/fs.js";
 import { retry } from "../utils/retry.js";
 import { sleep } from "../utils/sleep.js";
+import { preserveScrapedAtIfUnchanged } from "../utils/stableArchive.js";
 
 const DEFAULT_BASE_URL = "https://api.dofusdb.fr";
 const USER_AGENT = "DofusGuideScraper/0.1.0 (local DofusDB challenge archival client)";
@@ -84,12 +85,12 @@ export async function scrapeDofusDbChallenges(options: ScrapeChallengeOptions = 
     if (challenges.length < total) await sleep(pageDelayMs);
   }
 
-  const archive: DofusDbChallengeArchive = {
+  const archive = await preserveScrapedAtIfUnchanged<DofusDbChallengeArchive>(outputPath, {
     source: new URL("/challenges", baseUrl).toString(),
     scrapedAt: new Date().toISOString(),
     total: challenges.length,
     challenges,
-  };
+  });
   await atomicWriteFile(path.resolve(outputPath), Buffer.from(JSON.stringify(archive, null, 2) + "\n", "utf8"));
 
   if (!options.metadataOnly) {

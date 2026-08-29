@@ -1,0 +1,102 @@
+name: Weekly content refresh
+
+on:
+  schedule:
+    - cron: "17 4 * * 1"
+  workflow_dispatch:
+
+concurrency:
+  group: weekly-content-refresh
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  refresh:
+    name: Refresh archived content
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Checkout main with LFS assets
+        uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+          lfs: true
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 24.13.0
+          cache: npm
+
+      - name: Use stable npm version
+        run: npm install --global npm@11.19.0
+
+      - name: Install dependencies
+        run: npm ci --no-audit --no-fund
+
+      - name: Refresh DofusGuide archive and database
+        run: |
+          npm run guides
+          npm run scrape -- --guide=-1 --refresh --delay-ms 350
+          npm run import-db
+
+      - name: Refresh DofusDB archives and new assets
+        run: |
+          npm run scrape-challenges
+          npm run scrape-breeds
+          npm run scrape-dofus
+          npm run scrape-bestiary
+          npm run scrape-world-tour
+
+      - name: Check DofusPourLesNoobs source hashes
+        run: npm run audit-dpln-sources -- --delay-ms 500
+
+      - name: Validate refreshed content
+        run: |
+          npm run validate-quest-summaries
+          npm run generate-web-content
+          npm run typecheck
+          npm test -- --run
+
+      - name: Commit content changes
+        id: commit
+        shell: bash
+        run: |
+          git add -A -- \
+            data/dofusguide.sqlite \
+            data/dofusdb \
+            data/generated/dofuspourlesnoobs-source-hashes.json \
+            public/bestiary \
+            public/breeds \
+            public/challenges \
+            public/dofus \
+            public/profile-avatars \
+            public/world-tour
+
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No source content changed." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(data): refresh weekly content"
+          git push origin HEAD:main
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          echo "A content refresh commit was pushed to main." >> "$GITHUB_STEP_SUMMARY"
+
+      # Pushes made with GITHUB_TOKEN intentionally do not start other push
+      # workflows. Explicit dispatch keeps deployment automatic without a PAT.
+      - name: Deploy refreshed content
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh workflow run cloudflare.yml --ref main
+          gh workflow run docker.yml --ref main

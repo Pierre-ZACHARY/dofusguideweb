@@ -243,7 +243,13 @@ describe("importRawDatabase", () => {
     };
 
     await importRawDatabase(options);
+    const firstHash = sha256(await readFile(databasePath));
+    await writeFile(
+      path.join(fixture.rawDirectory, "guides", "-1", "scrape-state.json"),
+      JSON.stringify({ updatedAt: "2026-08-29T05:00:00.000Z" }),
+    );
     await importRawDatabase(options);
+    expect(sha256(await readFile(databasePath))).toBe(firstHash);
 
     const database = new Database(databasePath, { readonly: true });
     try {

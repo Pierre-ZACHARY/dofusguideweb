@@ -3,6 +3,7 @@ import path from "node:path";
 import { atomicWriteFile } from "../utils/fs.js";
 import { retry } from "../utils/retry.js";
 import { sleep } from "../utils/sleep.js";
+import { preserveScrapedAtIfUnchanged } from "../utils/stableArchive.js";
 import { dofusDbBreedPageSchema, type DofusDbBreed, type DofusDbBreedArchive } from "./types.js";
 
 const DEFAULT_BASE_URL = "https://api.dofusdb.fr";
@@ -104,12 +105,12 @@ export async function scrapeDofusDbBreeds(options: ScrapeBreedOptions = {}): Pro
   const response = await request(url.toString());
   const page = dofusDbBreedPageSchema.parse(await response.json());
   const breeds = [...page.data].sort((left, right) => left.id - right.id);
-  const archive: DofusDbBreedArchive = {
+  const archive = await preserveScrapedAtIfUnchanged<DofusDbBreedArchive>(outputPath, {
     source: new URL("/breeds", baseUrl).toString(),
     scrapedAt: new Date().toISOString(),
     total: breeds.length,
     breeds,
-  };
+  });
   await atomicWriteFile(path.resolve(outputPath), Buffer.from(JSON.stringify(archive, null, 2) + "\n", "utf8"));
 
   if (!options.metadataOnly) {

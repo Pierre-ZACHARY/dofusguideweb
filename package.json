@@ -9,6 +9,7 @@
   },
   "scripts": {
     "audit-data": "tsx src/auditDataCli.ts",
+    "audit-dpln-sources": "tsx src/auditDplnSourceHashesCli.ts",
     "build": "npm run build:cli && npm run web:build",
     "build:cli": "tsc -p tsconfig.build.json",
     "dev": "vite dev --host 127.0.0.1 --port 3001",

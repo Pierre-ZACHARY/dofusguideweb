@@ -3,6 +3,7 @@ import path from "node:path";
 import { atomicWriteFile } from "../utils/fs.js";
 import { retry } from "../utils/retry.js";
 import { sleep } from "../utils/sleep.js";
+import { preserveScrapedAtIfUnchanged } from "../utils/stableArchive.js";
 import { dofusDbItemPageSchema, type DofusDbItemArchive } from "./types.js";
 
 const DEFAULT_BASE_URL = "https://api.dofusdb.fr";
@@ -64,12 +65,12 @@ export async function scrapeDofusDbItems(options: ScrapeDofusOptions = {}): Prom
   const response = await request(url.toString());
   const page = dofusDbItemPageSchema.parse(await response.json());
   const items = page.data.filter((item) => item.typeId === 23).sort((left, right) => right.id - left.id);
-  const archive: DofusDbItemArchive = {
+  const archive = await preserveScrapedAtIfUnchanged<DofusDbItemArchive>(outputPath, {
     source: url.toString(),
     scrapedAt: new Date().toISOString(),
     total: items.length,
     items,
-  };
+  });
   await atomicWriteFile(path.resolve(outputPath), Buffer.from(JSON.stringify(archive, null, 2) + "\n", "utf8"));
 
   if (!options.metadataOnly) {

@@ -4,6 +4,7 @@ import { normalizeName } from "../normalizer/names.js";
 import { atomicWriteFile } from "../utils/fs.js";
 import { retry } from "../utils/retry.js";
 import { sleep } from "../utils/sleep.js";
+import { preserveScrapedAtIfUnchanged } from "../utils/stableArchive.js";
 import {
   dofusDbAchievementSchema,
   dofusDbDungeonSchema,
@@ -265,12 +266,12 @@ export async function scrapeWorldTour(options: ScrapeWorldTourOptions = {}): Pro
     console.warn("[dofusdb] no local guide step for: " + unmatched.map((dungeon) => dungeon.dungeonName).join(", "));
   }
 
-  const archive: WorldTourArchive = {
+  const archive = await preserveScrapedAtIfUnchanged<WorldTourArchive>(outputPath, {
     source: new URL("/achievements", baseUrl).toString(),
     scrapedAt: new Date().toISOString(),
     tracks,
     raw: { achievements, quests, dungeons, monsters },
-  };
+  });
   await atomicWriteFile(path.resolve(outputPath), Buffer.from(JSON.stringify(archive, null, 2) + "\n", "utf8"));
   console.info("[dofusdb] world tour saved to " + path.resolve(outputPath));
   return archive;

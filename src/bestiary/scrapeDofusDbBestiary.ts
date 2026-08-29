@@ -2,6 +2,7 @@ import path from "node:path";
 import { atomicWriteFile } from "../utils/fs.js";
 import { retry } from "../utils/retry.js";
 import { sleep } from "../utils/sleep.js";
+import { preserveScrapedAtIfUnchanged } from "../utils/stableArchive.js";
 import { buildBestiaryCatalog } from "./buildCatalog.js";
 import { dofusDbPageSchema, type BestiaryCatalog } from "./types.js";
 
@@ -54,7 +55,9 @@ async function fetchCollection(baseUrl: string, endpoint: string, pageSize: numb
 }
 
 async function writeRaw(outputDirectory: string, endpoint: string, source: string, scrapedAt: string, records: RawRecord[]): Promise<void> {
-  await atomicWriteFile(path.resolve(outputDirectory, "raw", endpoint + ".json"), Buffer.from(JSON.stringify({ source, scrapedAt, total: records.length, data: records }, null, 2) + "\n", "utf8"));
+  const outputPath = path.resolve(outputDirectory, "raw", endpoint + ".json");
+  const archive = await preserveScrapedAtIfUnchanged(outputPath, { source, scrapedAt, total: records.length, data: records });
+  await atomicWriteFile(outputPath, Buffer.from(JSON.stringify(archive, null, 2) + "\n", "utf8"));
 }
 
 export interface ScrapeBestiaryOptions {
@@ -79,7 +82,8 @@ export async function scrapeDofusDbBestiary(options: ScrapeBestiaryOptions = {})
     collections.set(endpoint, records);
     await writeRaw(outputDirectory, endpoint, new URL("/" + endpoint, baseUrl).toString(), scrapedAt, records);
   }
-  const catalog = buildBestiaryCatalog({
+  const catalogPath = path.resolve(outputDirectory, "bestiary.json");
+  const catalog = await preserveScrapedAtIfUnchanged<BestiaryCatalog>(catalogPath, buildBestiaryCatalog({
     source: baseUrl,
     scrapedAt,
     monsters: collections.get("monsters") ?? [],
@@ -87,8 +91,8 @@ export async function scrapeDofusDbBestiary(options: ScrapeBestiaryOptions = {})
     achievements: collections.get("achievements") ?? [],
     subareas: collections.get("subareas") ?? [],
     mapPositions: collections.get("map-positions") ?? [],
-  });
-  await atomicWriteFile(path.resolve(outputDirectory, "bestiary.json"), Buffer.from(JSON.stringify(catalog, null, 2) + "\n", "utf8"));
+  }));
+  await atomicWriteFile(catalogPath, Buffer.from(JSON.stringify(catalog, null, 2) + "\n", "utf8"));
   console.info("[dofusdb] bestiary catalog saved: " + catalog.monsters.length + " monsters, " + catalog.dungeons.length + " dungeons, " + catalog.achievements.length + " monster achievements");
   return catalog;
 }

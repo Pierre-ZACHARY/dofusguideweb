@@ -122,8 +122,10 @@ async function loadGuide(
   }
 
   const statePath = path.join(guideDirectory, "scrape-state.json");
-  let scrapedAt: string | undefined;
-  if (await pathExists(statePath)) {
+  let scrapedAt: string | undefined = typeof metadataValue.updated_at === "string"
+    ? metadataValue.updated_at
+    : undefined;
+  if (scrapedAt === undefined && await pathExists(statePath)) {
     const stateValue = parseJson((await readFile(statePath)).toString("utf8"), statePath);
     if (isRecord(stateValue) && typeof stateValue.updatedAt === "string") {
       scrapedAt = stateValue.updatedAt;
@@ -345,6 +347,41 @@ async function replaceDatabase(temporaryPath: string, databasePath: string): Pro
   }
 }
 
+function databasesAreEquivalent(existingPath: string, candidatePath: string): boolean {
+  let existing: Database.Database | undefined;
+  let candidate: Database.Database | undefined;
+  try {
+    existing = new Database(existingPath, { readonly: true });
+    candidate = new Database(candidatePath, { readonly: true });
+    const schemaQuery = `
+      SELECT type, name, sql
+      FROM sqlite_master
+      WHERE name NOT LIKE 'sqlite_%'
+      ORDER BY type, name
+    `;
+    const existingSchema = existing.prepare(schemaQuery).all();
+    const candidateSchema = candidate.prepare(schemaQuery).all();
+    if (JSON.stringify(existingSchema) !== JSON.stringify(candidateSchema)) return false;
+
+    const tableNames = (existingSchema as Array<{ type: string; name: string }>)
+      .filter((entry) => entry.type === "table")
+      .map((entry) => entry.name);
+    for (const tableName of tableNames) {
+      const quotedName = '"' + tableName.replaceAll('"', '""') + '"';
+      const selection = tableName === "schema_migrations" ? "name" : "*";
+      const existingRows = existing.prepare("SELECT " + selection + " FROM " + quotedName + " ORDER BY rowid").all();
+      const candidateRows = candidate.prepare("SELECT " + selection + " FROM " + quotedName + " ORDER BY rowid").all();
+      if (JSON.stringify(existingRows) !== JSON.stringify(candidateRows)) return false;
+    }
+    return true;
+  } catch {
+    return false;
+  } finally {
+    existing?.close();
+    candidate?.close();
+  }
+}
+
 export async function importRawDatabase(
   options: ImportRawOptions = {},
 ): Promise<ImportRawResult> {
@@ -369,7 +406,11 @@ export async function importRawDatabase(
     const result = importDocuments(database, documents);
     database.close();
     database = undefined;
-    await replaceDatabase(temporaryPath, databasePath);
+    if (await pathExists(databasePath) && databasesAreEquivalent(databasePath, temporaryPath)) {
+      await rm(temporaryPath, { force: true });
+    } else {
+      await replaceDatabase(temporaryPath, databasePath);
+    }
     return { databasePath, ...result };
   } catch (error) {
     if (database?.open === true) {
