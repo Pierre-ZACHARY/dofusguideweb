@@ -17,6 +17,8 @@ import {
   profileAvatarUrl,
   publishProfileChanged,
 } from "./runtime.js";
+import { getProfileAvatars, getSharedProfileGuideIndex } from "../data/staticContentClient.js";
+import { buildSharedProfileEmbedData } from "../social/sharedProfileEmbed.js";
 
 const SESSION_COOKIE = "dofusguide_session";
 const profileNameSchema = z.string().trim().min(2).max(40);
@@ -179,6 +181,21 @@ export const sharePlayerProfile = createServerFn({ method: "POST" }).validator(s
 const shareInput = z.object({ shareToken: z.string().min(20).max(100) });
 export const getSharedPlayerProfile = createServerFn({ method: "GET" }).validator(shareInput).handler(({ data }) =>
   withAccounts((repository) => repository.getSharedProfile(data.shareToken)),
+);
+
+export const getSharedPlayerEmbed = createServerFn({ method: "GET" }).validator(shareInput).handler(({ data }) =>
+  withAccounts(async (repository) => {
+    const profile = await repository.getSharedProfile(data.shareToken);
+    if (profile === null) return null;
+    const [guides, avatars, character] = await Promise.all([
+      getSharedProfileGuideIndex(),
+      getProfileAvatars(),
+      profile.serverId === null
+        ? Promise.resolve(null)
+        : findDofusCharacter(profile.name, profile.serverId).catch(() => null),
+    ]);
+    return buildSharedProfileEmbedData(profile, guides, avatars, character);
+  }),
 );
 
 export const followSharedPlayerProfile = createServerFn({ method: "POST" }).validator(shareInput).handler(({ data }) =>

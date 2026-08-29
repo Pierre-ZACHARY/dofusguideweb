@@ -2,6 +2,9 @@ import { createHash } from "node:crypto";
 import { cp, mkdir, readFile, rename, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { loadProfileAvatars } from "../../accounts/avatarCatalog.js";
+import { loadBestiaryCatalog } from "../../bestiary/resolveBestiary.js";
+import type { BestiaryCatalog } from "../../bestiary/types.js";
+import { normalizeName } from "../../normalizer/names.js";
 import { SqliteDofusGuideRepository } from "../../repositories/sqliteDofusGuideRepository.js";
 import {
   loadGuideData,
@@ -11,8 +14,9 @@ import {
   loadQuestSearchData,
   loadStepData,
 } from "./contentService.js";
+import type { GuideElementDto, SharedProfileBossDto, SharedProfileGuideIndexDto } from "./models.js";
 
-const SCHEMA_VERSION = 1;
+const SCHEMA_VERSION = 2;
 
 export interface StaticContentManifest {
   schemaVersion: number;
@@ -21,12 +25,33 @@ export interface StaticContentManifest {
   guidesIndex: string;
   questSearchIndex: string;
   profileAvatars: string;
+  sharedProfileIndex: string;
   guides: Array<{
     id: number;
     asset: string;
     steps: Array<{ stepNumber: number; asset: string }>;
   }>;
   quests: Array<{ questKey: string; asset: string }>;
+}
+
+function firstBoss(
+  elements: readonly GuideElementDto[],
+  catalog: BestiaryCatalog,
+): SharedProfileBossDto | null {
+  const dungeonElement = elements.find((element) => element.type === "DUNGEON");
+  const value = dungeonElement?.value;
+  if (typeof value !== "object" || value === null || Array.isArray(value)) return null;
+  const dungeonName = typeof value.name === "string" ? value.name.trim() : "";
+  if (dungeonName === "") return null;
+  const normalizedDungeon = normalizeName(dungeonName);
+  const dungeon = catalog.dungeons.find((candidate) => normalizeName(candidate.name) === normalizedDungeon);
+  const bossId = dungeon?.bossIds[0];
+  const boss = bossId === undefined ? undefined : catalog.monsters.find((monster) => monster.id === bossId);
+  return {
+    dungeonName,
+    bossName: boss?.name ?? dungeonName,
+    bossImageUrl: boss?.imageUrl ?? null,
+  };
 }
 
 export interface GenerateStaticContentOptions {
@@ -84,6 +109,8 @@ export async function generateStaticContent(
   try {
     const guideSummaries = loadGuidesData(repository);
     const home = loadHomeData(repository);
+    const bestiary = await loadBestiaryCatalog();
+    const sharedProfileGuides: SharedProfileGuideIndexDto[] = [];
     const manifest: StaticContentManifest = {
       schemaVersion: SCHEMA_VERSION,
       sourceSha256,
@@ -91,6 +118,7 @@ export async function generateStaticContent(
       guidesIndex: assetPath("guides.json"),
       questSearchIndex: assetPath("quests/index.json"),
       profileAvatars: assetPath("profile-avatars.json"),
+      sharedProfileIndex: assetPath("shared-profiles.json"),
       guides: [],
       quests: [],
     };
@@ -106,16 +134,31 @@ export async function generateStaticContent(
       await writeJson(temporaryDirectory, guideRelativePath, guide);
 
       const steps: Array<{ stepNumber: number; asset: string }> = [];
+      const socialSteps: SharedProfileGuideIndexDto["steps"] = [];
       for (const step of guide.steps) {
         const stepRelativePath = path.join("guides", String(guideSummary.id), "steps", String(step.stepNumber) + ".json");
         const detail = await loadStepData(repository, guideSummary.id, step.stepNumber);
         if (detail === null) throw new Error("Guide step disappeared while generating static content: " + guideSummary.id + ":" + step.stepNumber);
         await writeJson(temporaryDirectory, stepRelativePath, detail);
         steps.push({ stepNumber: step.stepNumber, asset: assetPath(stepRelativePath) });
+        socialSteps.push({
+          stepNumber: step.stepNumber,
+          chapterNumber: detail.chapter?.chapterNumber ?? null,
+          chapterName: detail.chapter?.name ?? null,
+          boss: firstBoss(detail.elements, bestiary),
+        });
       }
 
       manifest.guides.push({ id: guideSummary.id, asset: assetPath(guideRelativePath), steps });
+      sharedProfileGuides.push({
+        guideId: guideSummary.id,
+        guideName: guideSummary.name,
+        totalSteps: guideSummary.totalSteps,
+        steps: socialSteps,
+      });
     }
+
+    await writeJson(temporaryDirectory, "shared-profiles.json", { guides: sharedProfileGuides });
 
     const questCount = repository.searchQuests({ limit: 1 }).total;
     const questSearch = loadQuestSearchData(repository, { page: 1, limit: Math.max(questCount, 1) });

@@ -11,6 +11,7 @@ import type {
 } from "./contentService.js";
 import type { QuestDto } from "./models.js";
 import type { ProfileAvatar } from "../../accounts/types.js";
+import type { SharedProfileGuideIndexDto } from "./models.js";
 
 type HomeData = ReturnType<typeof loadHomeData>;
 type GuidesData = ReturnType<typeof loadGuidesData>;
@@ -28,6 +29,7 @@ interface StaticContentManifest {
   guidesIndex: string;
   questSearchIndex: string;
   profileAvatars: string;
+  sharedProfileIndex: string;
   guides: Array<{
     id: number;
     asset: string;
@@ -75,6 +77,11 @@ export async function getHomeData(): Promise<HomeData> {
 
 export async function getProfileAvatars(): Promise<ProfileAvatar[]> {
   return fetchJson((await manifest()).profileAvatars);
+}
+
+export async function getSharedProfileGuideIndex(): Promise<SharedProfileGuideIndexDto[]> {
+  return fetchJson<{ guides: SharedProfileGuideIndexDto[] }>((await manifest()).sharedProfileIndex)
+    .then((value) => value.guides);
 }
 
 export async function getGuidesData(): Promise<GuidesData> {

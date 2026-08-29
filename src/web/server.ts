@@ -9,6 +9,7 @@ import {
   type PresenceInternalHeartbeat,
   type QuestHelperPresence,
 } from "../presence/types.js";
+import { sharedProfileImageResponse } from "./social/sharedProfileImage.js";
 
 export { ProfileEvents } from "./profileEvents.js";
 export { SitePresence } from "./sitePresence.js";
@@ -16,6 +17,7 @@ export { SitePresence } from "./sitePresence.js";
 const PROFILE_EVENTS_PREFIX = "/api/realtime/profiles/";
 const DOFUS_CHARACTER_PATH = "/api/dofus/character";
 const PRESENCE_PATH = "/api/presence";
+const SHARED_PROFILE_IMAGE_PATH = "/api/social/shared-profile.png";
 const SESSION_COOKIE = "dofusguide_session";
 const UUID_PATTERN = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/iu;
 const CHARACTER_NAME_PATTERN = /^[\p{L}\p{N}' -]{2,40}$/u;
@@ -160,6 +162,7 @@ export default {
     }
     if (url.pathname === DOFUS_CHARACTER_PATH) return dofusCharacterResponse(request);
     if (url.pathname === PRESENCE_PATH) return presenceResponse(request, env);
+    if (url.pathname === SHARED_PROFILE_IMAGE_PATH) return sharedProfileImageResponse(request);
     return handler.fetch(request);
   },
 } satisfies ExportedHandler<CloudflareEnv>;

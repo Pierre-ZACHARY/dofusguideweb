@@ -6,21 +6,57 @@ import { DofusProfileStats } from "../accounts/DofusProfileIdentity.js";
 import { useProfileEvents } from "../accounts/profileEventsClient.js";
 import { ProfileAvatarImage } from "../accounts/ProfileEditor.js";
 import { NotFoundPanel } from "../components/NotFoundPanel.js";
-import { getSharedPlayerProfile } from "../accounts/serverFunctions.js";
+import { getSharedPlayerEmbed, getSharedPlayerProfile } from "../accounts/serverFunctions.js";
+import {
+  sharedProfileDescription,
+  sharedProfileImageUrl,
+  sharedProfileTitle,
+  SITE_ORIGIN,
+} from "../social/sharedProfileEmbed.js";
 
 export const Route = createFileRoute("/shared/$shareToken")({
   loader: async ({ params }) => {
     if (params.shareToken.length < 20 || params.shareToken.length > 100) throw notFound();
-    const profile = await getSharedPlayerProfile({ data: { shareToken: params.shareToken } });
-    if (profile === null) throw notFound();
-    return profile;
+    const embed = await getSharedPlayerEmbed({ data: { shareToken: params.shareToken } });
+    if (embed === null) throw notFound();
+    return embed;
+  },
+  head: ({ loaderData, params }) => {
+    if (loaderData === undefined) return {};
+    const title = sharedProfileTitle(loaderData);
+    const description = sharedProfileDescription(loaderData);
+    const image = sharedProfileImageUrl(loaderData);
+    const url = `${SITE_ORIGIN}/shared/${encodeURIComponent(params.shareToken)}`;
+    return {
+      meta: [
+        { title },
+        { name: "description", content: description },
+        { property: "og:type", content: "profile" },
+        { property: "og:locale", content: "fr_FR" },
+        { property: "og:site_name", content: "DofusGuide Web" },
+        { property: "og:title", content: title },
+        { property: "og:description", content: description },
+        { property: "og:url", content: url },
+        { property: "og:image", content: image },
+        { property: "og:image:type", content: "image/png" },
+        { property: "og:image:width", content: "1200" },
+        { property: "og:image:height", content: "630" },
+        { property: "og:image:alt", content: `Progression DOFUS de ${loaderData.profile.name}` },
+        { name: "twitter:card", content: "summary_large_image" },
+        { name: "twitter:title", content: title },
+        { name: "twitter:description", content: description },
+        { name: "twitter:image", content: image },
+      ],
+      links: [{ rel: "canonical", href: url }],
+    };
   },
   component: SharedProfilePage,
   notFoundComponent: () => <NotFoundPanel message="Ce lien de partage n’est plus disponible." />,
 });
 
 function SharedProfilePage() {
-  const loadedShared = Route.useLoaderData();
+  const loadedEmbed = Route.useLoaderData();
+  const loadedShared = loadedEmbed.profile;
   const params = Route.useParams();
   const { account, followShare } = useAccount();
   const [shared, setShared] = useState(loadedShared);

@@ -29,6 +29,24 @@ export interface StepSummaryDto {
   quests?: Array<{ questKey: string; relation: GuideRelation; sortOrder: number }>;
 }
 
+export interface SharedProfileBossDto {
+  dungeonName: string;
+  bossName: string;
+  bossImageUrl: string | null;
+}
+
+export interface SharedProfileGuideIndexDto {
+  guideId: number;
+  guideName: string;
+  totalSteps: number;
+  steps: Array<{
+    stepNumber: number;
+    chapterNumber: number | null;
+    chapterName: string | null;
+    boss: SharedProfileBossDto | null;
+  }>;
+}
+
 export interface DofusProgressDto {
   tag: string;
   itemId: number;
