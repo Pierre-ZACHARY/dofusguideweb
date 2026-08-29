@@ -1,8 +1,468 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 155,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T15:05:17.359Z",
+  "summaries": [
+    {
+      "overview": "Poursuivez la série de donjons de La voie du guerrier. Le Repaire de Skeunk est supposé avoir déjà été effectué lors des occurrences précédentes. À cette occurrence, réalisez uniquement l'Atelier du Tanukouï San. Les donjons suivants, à commencer par la Fabrique de foux d'artifice, seront traités plus tard.",
+      "recommendedLevel": 30,
+      "prerequisites": [
+        "Niveau > 29.",
+        "Des donjons, encore des donjons.",
+        "Avoir déjà effectué le Donjon Repaire de Skeunk dans le cadre de cette quête."
+      ],
+      "rewards": [
+        "30 324 978 XP.",
+        "349 872 kamas.",
+        "1 x Peau de Skeunk.",
+        "1 x Poils magiques de Tanuki.",
+        "1 x Étoffe de Firefoux.",
+        "1 x Ambre du Chêne Mou.",
+        "1 x Sabot du Minotot.",
+        "1 x Peau de Bworker."
+      ],
+      "preparation": [
+        "Prévoir l'accès au Donjon Atelier du Tanukouï San."
+      ],
+      "actions": [
+        {
+          "instruction": "Effectuez le Donjon Atelier du Tanukouï San et vainquez son boss afin de valider ce deuxième donjon de la série.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Ne poursuivez pas encore avec le Donjon Fabrique de foux d'artifice : il correspond à une occurrence ultérieure du guide.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "L'ordre imposé par la quête est : Repaire de Skeunk, Atelier du Tanukouï San, Fabrique de foux d'artifice, Clairière du Chêne Mou, Donjon du Minotot puis Grotte du Bworker.",
+        "La quête ne doit pas être rendue à Metag Robill à cette étape."
+      ],
+      "npcs": [],
+      "items": [
+        {
+          "name": "Poils magiques de Tanuki",
+          "itemId": 7305,
+          "imageUrl": "/items/7305.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/7305"
+        }
+      ],
+      "bestiary": {
+        "zones": [],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": []
+      },
+      "questKey": "quest:75",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-voie-du-guerrier.html",
+      "sourceTitle": "La voie du guerrier",
+      "sourceHash": "c1ce85c6230349d750d3f0186396981509f68055d47a6202c8097751fde24a9d",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez le contrat d'élimination des Kwapas à Akwadala. Il demande au total 25 Sarkapwane, 25 Kokom, 25 Akakwa et 25 Betto. À cette étape, profitez surtout des combats de La jetée des enfants perdus et de la Vallée de la Dame des eaux pour faire progresser ces compteurs ; terminer les 100 éliminations n'est pas indispensable maintenant.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Le réveil de Pandala."
+      ],
+      "rewards": [
+        "3 971 945 XP.",
+        "20 000 Kamas."
+      ],
+      "preparation": [
+        "Prévoir de combattre des monstres de type Kwapa dans la zone d'Akwadala."
+      ],
+      "actions": [
+        {
+          "instruction": "En [21,-21], lisez l'affiche au centre de la carte puis choisissez « Répondre à l’appel et partir combattre des Kwapa » pour lancer la quête.",
+          "position": "[21,-21]",
+          "zoneHint": "Akwadala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Pendant votre progression à Akwadala et dans la Vallée de la Dame des eaux, éliminez les Kwapas rencontrés afin d'avancer les objectifs de 25 Sarkapwane, 25 Kokom, 25 Akakwa et 25 Betto.",
+          "position": null,
+          "zoneHint": "Akwadala",
+          "warning": "Il n'est pas nécessaire de terminer tous les compteurs à cette étape ; vous pouvez achever la quête après le donjon.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "La quête se termine automatiquement lorsque 25 Sarkapwane, 25 Kokom, 25 Akakwa et 25 Betto ont été vaincus.",
+        "Le guide recommande de profiter de la Vallée de la Dame des eaux pour avancer cette quête.",
+        "Avant de lancer la Vallée de la Dame des eaux, récupérez le sort Révérence et lancez La jetée des enfants perdus."
+      ],
+      "npcs": [],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 941,
+            "name": "Akwadala",
+            "coordinates": [
+              "21,-21"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2591,
+            "name": "Akaka le Souillé",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2591.png"
+          },
+          {
+            "id": 2510,
+            "name": "Bebetto l'Intellectuel",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2510.png"
+          },
+          {
+            "id": 2592,
+            "name": "Koko la Violente",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2592.png"
+          },
+          {
+            "id": 2590,
+            "name": "Sarkastik l'Incompris",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2590.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 3019,
+            "name": "Kwapa",
+            "monsters": [
+              {
+                "id": 6203,
+                "name": "Sarkapwane",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6203.png"
+              },
+              {
+                "id": 6229,
+                "name": "Kokom",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6229.png"
+              },
+              {
+                "id": 6230,
+                "name": "Akakwa",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6230.png"
+              },
+              {
+                "id": 6231,
+                "name": "Betto",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6231.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1336",
+      "relation": "START",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/cent-kamas-pour-un-kwapa.html",
+      "sourceTitle": "Cent kamas pour un Kwapa",
+      "sourceHash": "47d7c14c84f772d7f5707028feb96af20f3e289e3d5e25f45220cd4c066349eb",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez La jetée des enfants perdus auprès de Daimya Hikomi, enquêtez à Akwadala jusqu'à pouvoir entrer dans la Vallée de la Dame des eaux, puis effectuez le donjon et vainquez Nagate. Arrêtez-vous après le combat contre Nagate : les échanges avec la Dame des eaux et toute la conclusion de la quête seront réalisés à l'occurrence FINISH de l'étape suivante.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Au nom de l'Art."
+      ],
+      "rewards": [
+        "3 971 945 XP.",
+        "38 960 Kamas.",
+        "3 x Katana de Kwamouraï.",
+        "3 x Eau de Kwapa."
+      ],
+      "preparation": [
+        "Prévoir 1 Donjon Vallée de la Dame des eaux.",
+        "Prévoir 2 combats réalisables en groupe avant le donjon.",
+        "Prévoir 1 combat seul en compagnie de Kwatalo avant l'entrée du donjon.",
+        "Récupérer le sort Révérence auprès de Rei Beransu dans la taverne en [20,-20] avant de lancer le donjon."
+      ],
+      "actions": [
+        {
+          "instruction": "En [22,-29], parlez à Daimya Hikomi à la suite de Au nom de l'Art afin de lancer La jetée des enfants perdus et d'être envoyé enquêter sur les Kwapas d'Akwadala.",
+          "position": "[22,-29]",
+          "zoneHint": "Village de Pandala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la taverne en [20,-20], parlez à Sakwaba au sujet des Kwapas. Profitez de votre passage pour parler à Rei Beransu et récupérer le sort Révérence avant le futur donjon.",
+          "position": "[20,-20]",
+          "zoneHint": "Akwadala",
+          "warning": "Le guide demande explicitement de récupérer Révérence avant de lancer la Vallée de la Dame des eaux.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "En [20,-26], interrogez la Paysanne lenalde sur les Kwapas et la disparition de son fils.",
+          "position": "[20,-26]",
+          "zoneHint": "Akwadala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "En [18,-25], parlez à Yuminh et défendez-le contre les Kwapas qui l'attaquent. Après le combat, reparlez-lui pour obtenir ses informations et conserver l'Eau enchantée récupérée.",
+          "position": "[18,-25]",
+          "zoneHint": "Akwadala",
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "En [20,-24], parlez au Chasseur enutrof qui empêche l'accès au Kwapa isolé et affrontez son groupe.",
+          "position": "[20,-24]",
+          "zoneHint": "Akwadala",
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat en [20,-24], parlez à Kwatalo, choisissez de vous incliner poliment puis donnez-lui l'Eau enchantée obtenue précédemment.",
+          "position": "[20,-24]",
+          "zoneHint": "Akwadala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez un Concombre sauvage en [20,-23].",
+          "position": "[20,-23]",
+          "zoneHint": "Akwadala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez un Concombre sauvage en [21,-22].",
+          "position": "[21,-22]",
+          "zoneHint": "Akwadala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez un Concombre sauvage en [22,-23].",
+          "position": "[22,-23]",
+          "zoneHint": "Akwadala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez un Concombre sauvage en [23,-23].",
+          "position": "[23,-23]",
+          "zoneHint": "Akwadala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez un Concombre sauvage en [18,-24].",
+          "position": "[18,-24]",
+          "zoneHint": "Akwadala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez un Concombre sauvage en [18,-22].",
+          "position": "[18,-22]",
+          "zoneHint": "Akwadala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez en [20,-24] et donnez les 6 Concombres sauvages à Kwatalo afin d'apprendre qu'un jeune Pandawa a été enlevé pour être livré à la Dame des eaux.",
+          "position": "[20,-24]",
+          "zoneHint": "Akwadala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous en [22,-24] devant la Vallée de la Dame des eaux et parlez au Petit Pandawa pour déclencher le combat contre les Kwapas, avec Kwatalo à vos côtés.",
+          "position": "[22,-24]",
+          "zoneHint": "Akwadala",
+          "warning": "Ce combat s'effectue seul, avec Kwatalo comme allié.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après le combat, parlez à Kyhuri en [22,-24] afin d'entrer dans la Vallée de la Dame des eaux.",
+          "position": "[22,-24]",
+          "zoneHint": "Vallée de la Dame des eaux",
+          "warning": "Assurez-vous d'avoir récupéré Révérence avant d'entrer dans le donjon.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuez la Vallée de la Dame des eaux et vainquez Nagate.",
+          "position": null,
+          "zoneHint": "Vallée de la Dame des eaux",
+          "warning": "Arrêtez la progression de cette quête après avoir vaincu Nagate. Les dialogues et objectifs qui suivent le donjon appartiennent à l'occurrence FINISH de l'étape 156.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "Les trois témoignages initiaux peuvent être recueillis dans n'importe quel ordre.",
+        "La suite après Nagate, notamment les révélations concernant Akwanokima, le pont des Granouilles, le retour du jeune Lenald à sa mère et le rendu à Daimya Hikomi, est volontairement différée jusqu'à l'étape 156.",
+        "La quête complète prévoit 15 kamas pour le passage ultérieur des Granouilles, mais cette dépense n'est pas requise dans les actions de l'étape actuelle."
+      ],
+      "npcs": [
+        "Daimya Hikomi",
+        "Sakwaba",
+        "Rei Beransu",
+        "Paysanne lenalde",
+        "Yuminh",
+        "Chasseur enutrof",
+        "Kwatalo",
+        "Petit Pandawa",
+        "Kyhuri",
+        "Nagate"
+      ],
+      "items": [
+        {
+          "name": "Eau enchantée",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Concombre sauvage",
+          "itemId": 23097,
+          "imageUrl": "/items/23097.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23097"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 941,
+            "name": "Akwadala",
+            "coordinates": [
+              "20,-20",
+              "20,-26",
+              "18,-25",
+              "20,-24",
+              "20,-23",
+              "21,-22",
+              "22,-23",
+              "23,-23",
+              "18,-24",
+              "18,-22",
+              "22,-24"
+            ]
+          },
+          {
+            "id": 947,
+            "name": "Vallée de la Dame des eaux",
+            "coordinates": [
+              "22,-24"
+            ]
+          },
+          {
+            "id": 951,
+            "name": "Village de Pandala",
+            "coordinates": [
+              "22,-29"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2591,
+            "name": "Akaka le Souillé",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2591.png"
+          },
+          {
+            "id": 2510,
+            "name": "Bebetto l'Intellectuel",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2510.png"
+          },
+          {
+            "id": 2592,
+            "name": "Koko la Violente",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2592.png"
+          },
+          {
+            "id": 2590,
+            "name": "Sarkastik l'Incompris",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2590.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 3019,
+            "name": "Kwapa",
+            "monsters": [
+              {
+                "id": 6203,
+                "name": "Sarkapwane",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6203.png"
+              },
+              {
+                "id": 6229,
+                "name": "Kokom",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6229.png"
+              },
+              {
+                "id": 6230,
+                "name": "Akakwa",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6230.png"
+              },
+              {
+                "id": 6231,
+                "name": "Betto",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6231.png"
+              },
+              {
+                "id": 6247,
+                "name": "Kwamouraï",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6247.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1318",
+      "relation": "START",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-jetee-des-enfants-perdus.html",
+      "sourceTitle": "La jetée des enfants perdus",
+      "sourceHash": "beadf476c3aee3f8d6a3ae1349f3605431853f3ceb836860810557c5acbff703",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Profiter des combats de Kwapas",
+      "description": "Une fois Cent kamas pour un Kwapa lancé, les combats contre les Kwapas rencontrés pendant La jetée des enfants perdus et la Vallée de la Dame des eaux peuvent faire progresser simultanément le contrat d'élimination.",
+      "questKeys": [
+        "quest:1336",
+        "quest:1318"
+      ],
+      "actions": [
+        "Lancez Cent kamas pour un Kwapa en [21,-21] avant de poursuivre l'enquête de La jetée des enfants perdus.",
+        "Pendant les combats de La jetée des enfants perdus et du donjon, profitez des Kwapas vaincus pour avancer les compteurs Sarkapwane, Kokom, Akakwa et Betto.",
+        "Ne retardez pas le parcours si les 25 exemplaires de chaque type ne sont pas encore atteints : le contrat peut être terminé après le donjon."
+      ]
+    }
+  ]
 }

@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 13,
-  "updatedAt": "2026-08-27T13:32:09.196Z",
+  "updatedAt": "2026-08-28T13:36:15.836Z",
   "summaries": [
     {
       "overview": "À votre arrivée à Astrub, l’Envoyée des Douze vous oriente vers la Conseillère Archie. Cette courte quête sert d’introduction à la ville et ouvre la suite de l’enquête sur les faux Dofus.",
@@ -690,23 +690,11 @@
             "name": "Cité d'Astrub",
             "coordinates": [
               "7,-20",
+              "6,-19",
               "3,-19",
               "3,-17",
+              "6,-17",
               "7,-19"
-            ]
-          },
-          {
-            "id": 442,
-            "name": "Lac",
-            "coordinates": [
-              "6,-19"
-            ]
-          },
-          {
-            "id": 778,
-            "name": "Mine",
-            "coordinates": [
-              "6,-17"
             ]
           },
           {
@@ -893,6 +881,13 @@
             "name": "Cité d'Astrub",
             "coordinates": [
               "3,-21"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-4,-24"
             ]
           },
           {

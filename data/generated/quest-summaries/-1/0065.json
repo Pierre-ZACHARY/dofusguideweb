@@ -2,7 +2,554 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 65,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T10:17:28.184Z",
+  "summaries": [
+    {
+      "overview": "Lelievwe vous envoie explorer les profondeurs de l'Îlot des Tombeaux. Après être tombé dans un trou, inspectez une tombe, poursuivez l'exploration puis affrontez des Wabbit Squelette agressif. Le combat permet d'obtenir un livre de quête qu'il faut ouvrir dans l'inventaire pour terminer la quête et enchaîner directement avec Voyage au centre du Wabbit.",
+      "recommendedLevel": 54,
+      "prerequisites": [
+        "Avoir terminé Art gastronomique."
+      ],
+      "rewards": [
+        "241 131 XP.",
+        "3 976 kamas.",
+        "3 x Étoffe du Wabbit."
+      ],
+      "preparation": [
+        "Prévoir 1 combat réalisable en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Lelievwe pour commencer la quête, puis laissez-vous tomber dans le trou indiqué afin de poursuivre l'enquête.",
+          "position": "[21,-12]",
+          "zoneHint": "Îlot des Tombeaux",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans les profondeurs, cliquez sur l'une des trois tombes pour examiner un premier indice, puis continuez à avancer jusqu'à la salle suivante.",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à l'un des Wabbit Squelette agressif présents dans la salle afin de déclencher le combat.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Un combat est obligatoire et peut être effectué en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, ouvrez dans votre inventaire de quête le livre obtenu pour terminer Expédition culinaire.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Restez sur cette même carte après la validation si vous souhaitez lancer immédiatement Voyage au centre du Wabbit depuis le lien du livre.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête suivante, Voyage au centre du Wabbit, se lance depuis le lien situé à la fin du livre obtenu ici."
+      ],
+      "npcs": [
+        "Lelievwe",
+        "Wabbit Squelette agressif"
+      ],
+      "items": [
+        {
+          "name": "Livre obtenu après le combat",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Étoffe du Wabbit",
+          "itemId": 654,
+          "imageUrl": "/items/654.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/654"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 163,
+            "name": "Îlot des Tombeaux",
+            "coordinates": [
+              "21,-12"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2305,
+            "name": "Watdogue le Bien Nommé",
+            "level": 48,
+            "imageUrl": "/bestiary/monsters/2305.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 172,
+            "name": "Wabbits",
+            "monsters": [
+              {
+                "id": 179,
+                "name": "Wabbit Squelette",
+                "level": 48,
+                "imageUrl": "/bestiary/monsters/179.png"
+              },
+              {
+                "id": 3469,
+                "name": "Black Wabbit Squelette",
+                "level": 50,
+                "imageUrl": "/bestiary/monsters/3469.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:545",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/expeacutedition-culinaire.html",
+      "sourceTitle": "Expédition culinaire",
+      "sourceHash": "04f050a489dbda63fd3c2f1626031a860263714a3a0c09143a26516aaea49c20",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "La quête démarre depuis le lien du livre obtenu à la fin d'Expédition culinaire. Revenez vers [22,-10], examinez la tombe wabbit pour faire apparaître Betamoche, puis ouvrez le passage secret caché derrière une cawotte. Dans la salle suivante, trois personnages suffisamment avancés dans la série doivent se placer sur les dalles pour ouvrir la grille. Traversez-la rapidement et parlez au Gawdien Wabbit avant sa fermeture.",
+      "recommendedLevel": 56,
+      "prerequisites": [
+        "Avoir terminé Expédition culinaire.",
+        "Lancer la quête en cliquant sur le lien à la fin du livre obtenu lors de la quête précédente.",
+        "Être accompagné de 2 autres personnages ayant terminé cette quête ou étant au même point, ou plus avancés, dans cette série."
+      ],
+      "rewards": [
+        "261 360 XP.",
+        "4 236 kamas.",
+        "1 x Oreille du Grand Pa Wabbit."
+      ],
+      "preparation": [
+        "Former un groupe d'au moins 3 personnages éligibles pour activer simultanément les dalles."
+      ],
+      "actions": [
+        {
+          "instruction": "Après avoir lancé la quête depuis le livre, faites demi-tour et rendez-vous en [22,-10] pour découvrir le campement.",
+          "position": "[22,-10]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez sur la tombe wabbit, puis parlez à Betamoche lorsqu'il apparaît.",
+          "position": "[22,-10]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sur la même carte, cliquez sur la cawotte qui dissimule le passage secret et empruntez-le.",
+          "position": "[22,-10]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la salle des dalles, placez au minimum 3 personnages sur les dalles requises afin d'ouvrir la grille.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Les 3 personnages doivent avoir terminé la quête ou être au même point, ou plus avancés, dans cette série de quêtes.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dès que la grille s'ouvre, franchissez-la et parlez au Gawdien Wabbit pour terminer la quête.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Parlez au Gawdien Wabbit avant que la grille ne se referme. Sinon, votre personnage sera replacé à l'extérieur de la grille.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête suivante, Des pwinces pas très charmants, continue en franchissant la porte après cette étape."
+      ],
+      "npcs": [
+        "Betamoche",
+        "Gawdien Wabbit"
+      ],
+      "items": [
+        {
+          "name": "Oreille du Grand Pa Wabbit",
+          "itemId": 419,
+          "imageUrl": "/items/419.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/419"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 1035,
+            "name": "Beta",
+            "coordinates": [
+              "22,-10"
+            ]
+          },
+          {
+            "id": 163,
+            "name": "Îlot des Tombeaux",
+            "coordinates": [
+              "22,-10"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2305,
+            "name": "Watdogue le Bien Nommé",
+            "level": 48,
+            "imageUrl": "/bestiary/monsters/2305.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 172,
+            "name": "Wabbits",
+            "monsters": [
+              {
+                "id": 179,
+                "name": "Wabbit Squelette",
+                "level": 48,
+                "imageUrl": "/bestiary/monsters/179.png"
+              },
+              {
+                "id": 3469,
+                "name": "Black Wabbit Squelette",
+                "level": 50,
+                "imageUrl": "/bestiary/monsters/3469.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:546",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/voyage-au-centre-du-wabbit.html",
+      "sourceTitle": "Voyage au centre du Wabbit",
+      "sourceHash": "656a216dc035426565e0fc36bf005fae51850cabaa2104acb263cd9ba381c84a",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après Voyage au centre du Wabbit, franchissez la porte située derrière la grille et parlez aux trois Pwinces. Un combat de groupe se déclenche ; certains adversaires disposent d'un renvoi de sort. À l'issue du combat, vous obtenez un livre et êtes téléporté dans une autre salle. Parlez à Tim Bweton, utilisez son assistant pour sortir, puis retournez auprès de Lilou afin de terminer la quête et débloquer le succès Rusé comme une Lenalde.",
+      "recommendedLevel": 60,
+      "prerequisites": [
+        "Avoir terminé Voyage au centre du Wabbit.",
+        "Franchir la porte accessible après l'ouverture de la grille de la quête précédente."
+      ],
+      "rewards": [
+        "610 092 XP.",
+        "9 560 kamas.",
+        "1 x Poils de Barbe du Grand Pa Wabbit.",
+        "Déblocage du succès Rusé comme une Lenalde, permettant de récupérer le titre Cwoqueuw de Cawotte."
+      ],
+      "preparation": [
+        "Prévoir 1 combat réalisable en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Après avoir franchi la porte derrière la grille, parlez aux trois Pwinces.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Cette interaction déclenche un combat obligatoire.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Remportez le combat contre les adversaires présents.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Certains monstres disposent d'un renvoi de sort ; adaptez vos attaques pour ne pas subir inutilement les dégâts renvoyés.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, récupérez le livre obtenu. Vous êtes ensuite téléporté automatiquement dans une autre salle.",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la nouvelle salle, parlez à Tim Bweton.",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à l'assistant pour quitter les lieux, puis rendez-vous auprès de Lilou et parlez-lui pour terminer la quête.",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La validation finale débloque le succès Rusé comme une Lenalde et le titre Cwoqueuw de Cawotte."
+      ],
+      "npcs": [
+        "Pwinces",
+        "Tim Bweton",
+        "Assistant",
+        "Lilou"
+      ],
+      "items": [
+        {
+          "name": "Livre obtenu après le combat",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Poils de Barbe du Grand Pa Wabbit",
+          "itemId": 418,
+          "imageUrl": "/items/418.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/418"
+        }
+      ],
+      "bestiary": {
+        "zones": [],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": []
+      },
+      "questKey": "quest:547",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/des-pwinces-pas-tregraves-charmants.html",
+      "sourceTitle": "Des pwinces pas très charmants",
+      "sourceHash": "4287ae61e83e6bb8aab311e9979c159774d5a0bf075e27007ef33cb103f3f687",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Wanald le Sage Lenald vous demande de réunir trois clefs détenues par des Wabbits répartis sur l'Île de la Cawotte. Récupérez-les dans l'ordre en [24,-6], [27,-11] puis [22,-5], puis rejoignez l'entrée du Château du Wa Wabbit. Une Cocawotte peut raccourcir le trajet vers le château. Parlez enfin à Powte-clef pour valider la quête et débloquer Le château du Wa.",
+      "recommendedLevel": 60,
+      "prerequisites": [
+        "Avoir terminé Intrusion chez les wabbits.",
+        "Avoir terminé Un sage parmi les sages."
+      ],
+      "rewards": [
+        "305 046 XP.",
+        "4 780 kamas."
+      ],
+      "preparation": [
+        "Facultatif : prévoir une Cocawotte pour éviter une partie du trajet vers le Château du Wa Wabbit.",
+        "La fabrication d'une Cocawotte nécessite 1 x Cawotte, 1 x Eau Potable et 3 x Os de Wabbit Squelette, par un Alchimiste de niveau 45 minimum."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Wanald le Sage Lenald en [23,-4] pour lancer la quête.",
+          "position": "[23,-4]",
+          "zoneHint": "Île de la Cawotte",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous en [24,-6] et récupérez la première clef auprès du Wabbit du Midi Wayonnant.",
+          "position": "[24,-6]",
+          "zoneHint": "Île de la Cawotte",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Poursuivez jusqu'en [27,-11] et récupérez la deuxième clef auprès du Wabbit du Matin Pewlant.",
+          "position": "[27,-11]",
+          "zoneHint": "Île de la Cawotte",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez ensuite en [22,-5] et récupérez la troisième et dernière clef.",
+          "position": "[22,-5]",
+          "zoneHint": "Île de la Cawotte",
+          "warning": "Le trajet comprend une salle dont le chemin sûr diffère entre Dofus sur ordinateur et Dofus Touch ; utilisez le parcours correspondant à votre version pour éviter de tomber.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez ensuite l'entrée du Château du Wa Wabbit. Vous pouvez suivre le chemin normal ou utiliser une Cocawotte pour vous téléporter devant le château.",
+          "position": "[24,-13]",
+          "zoneHint": "Château du Wa Wabbit",
+          "warning": "L'utilisation d'une Cocawotte est facultative et consomme la potion.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Powte-clef devant le Château du Wa Wabbit pour terminer Jamais deux sans trois.",
+          "position": "[24,-13]",
+          "zoneHint": "Château du Wa Wabbit",
+          "warning": "Cette validation débloque la quête suivante, Le château du Wa.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête suivante, Le château du Wa, commence au Château du Wa Wabbit après Jamais deux sans trois."
+      ],
+      "npcs": [
+        "Wanald le Sage Lenald",
+        "Wabbit du Midi Wayonnant",
+        "Wabbit du Matin Pewlant",
+        "Powte-clef"
+      ],
+      "items": [
+        {
+          "name": "Première clef",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Deuxième clef",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Troisième clef",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Cocawotte",
+          "itemId": 14488,
+          "imageUrl": "/items/14488.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/14488"
+        },
+        {
+          "name": "Cawotte",
+          "itemId": 361,
+          "imageUrl": "/items/361.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/361"
+        },
+        {
+          "name": "Eau Potable",
+          "itemId": 311,
+          "imageUrl": "/items/311.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/311"
+        },
+        {
+          "name": "Os de Wabbit Squelette",
+          "itemId": 14462,
+          "imageUrl": "/items/14462.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/14462"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 537,
+            "name": "Château du Wa Wabbit",
+            "coordinates": [
+              "24,-13"
+            ]
+          },
+          {
+            "id": 161,
+            "name": "Île de la Cawotte",
+            "coordinates": [
+              "23,-4",
+              "24,-6",
+              "27,-11",
+              "22,-5"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2294,
+            "name": "Tiwoflan le Lâche",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/2294.png"
+          },
+          {
+            "id": 2293,
+            "name": "Tiwalpé le Dévêtu",
+            "level": 41,
+            "imageUrl": "/bestiary/monsters/2293.png"
+          },
+          {
+            "id": 2402,
+            "name": "Tiwa'Missou le Gateux",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2402.png"
+          },
+          {
+            "id": 2304,
+            "name": "Wabbitud le Constant",
+            "level": 44,
+            "imageUrl": "/bestiary/monsters/2304.png"
+          },
+          {
+            "id": 2403,
+            "name": "Wagnagnah le Sanglant",
+            "level": 46,
+            "imageUrl": "/bestiary/monsters/2403.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 172,
+            "name": "Wabbits",
+            "monsters": [
+              {
+                "id": 68,
+                "name": "Black Tiwabbit",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/68.png"
+              },
+              {
+                "id": 65,
+                "name": "Black Wabbit",
+                "level": 46,
+                "imageUrl": "/bestiary/monsters/65.png"
+              },
+              {
+                "id": 99,
+                "name": "Grand Pa Wabbit",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/99.png"
+              },
+              {
+                "id": 72,
+                "name": "Tiwabbit Kiafin",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/72.png"
+              },
+              {
+                "id": 96,
+                "name": "Tiwabbit",
+                "level": 41,
+                "imageUrl": "/bestiary/monsters/96.png"
+              },
+              {
+                "id": 64,
+                "name": "Wabbit",
+                "level": 44,
+                "imageUrl": "/bestiary/monsters/64.png"
+              },
+              {
+                "id": 97,
+                "name": "Wo Wabbit",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/97.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:537",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/jamais-deux-sans-trois.html",
+      "sourceTitle": "Jamais deux sans trois",
+      "sourceHash": "2fdbf5a82be1d52a5b12eb5ad3f300c9ad8f84ece6d721310090923318174e35",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

@@ -19,7 +19,7 @@ import {
 import { questGuideStepPath } from "./resolveQuestGuides.js";
 
 const rawArchiveSchema = z.object({
-  version: z.literal(2),
+  version: z.union([z.literal(2), z.literal(3)]),
   guideId: z.number().int(),
   stepNumber: z.number().int().positive(),
   updatedAt: z.unknown().optional(),
@@ -30,6 +30,11 @@ const rawArchiveSchema = z.object({
 const nullableMetadataSchema = z.object({
   generatedAt: z.iso.datetime().nullable().optional(),
   model: z.string().trim().min(1).nullable().optional(),
+});
+
+const occurrenceMetadataSchema = z.object({
+  relation: z.enum(["START", "ACTIVE", "FINISH", "UNKNOWN"]),
+  sortOrder: z.number().int().nonnegative(),
 });
 
 export interface EnrichStepArchivesOptions extends ResolveDofusDbItemsOptions, LocalizeBestiaryImageOptions {
@@ -114,7 +119,12 @@ export async function enrichStepArchives(
 
     for (const rawSummary of rawArchive.summaries) {
       const questKey = z.string().trim().min(1).parse(rawSummary.questKey);
-      const quest = questByKey.get(questKey);
+      const occurrence = rawArchive.version === 3 ? occurrenceMetadataSchema.parse(rawSummary) : null;
+      const quest = occurrence === null
+        ? questByKey.get(questKey)
+        : step.quests.find((candidate) => candidate.questKey === questKey
+          && candidate.relationType === occurrence.relation
+          && candidate.sortOrder === occurrence.sortOrder);
       if (quest === undefined) throw new Error("Step " + step.stepNumber + " summarizes an unrelated quest: " + questKey);
       if (quest.externalUrl === null) throw new Error("Quest " + questKey + " has no source URL");
       const expectedUrl = canonicalSourceUrl(quest.externalUrl);
@@ -140,11 +150,12 @@ export async function enrichStepArchives(
       result.itemsResolved += unresolvedBefore - unresolvedAfter.length;
       result.unresolvedItems.push(...unresolvedAfter.map((item) => ({ stepNumber: step.stepNumber, questKey, itemName: item.name })));
 
-      const bestiary = await localizeBestiaryImages(enrichQuestGuideBestiary(enrichedItems, catalog), options);
+      const bestiary = await localizeBestiaryImages(enrichQuestGuideBestiary(enrichedItems, catalog, [step.title]), options);
       summaries.push({
         ...enrichedItems,
         bestiary,
         questKey,
+        ...(occurrence === null ? {} : { relation: occurrence.relation, sortOrder: occurrence.sortOrder }),
         sourceUrl: article.sourceUrl,
         sourceTitle: article.title,
         sourceHash: article.sourceHash,
@@ -160,7 +171,7 @@ export async function enrichStepArchives(
       return resolved.tip;
     });
     const contents = {
-      version: 2,
+      version: rawArchive.version,
       guideId: options.guideId,
       stepNumber: step.stepNumber,
       summaries,

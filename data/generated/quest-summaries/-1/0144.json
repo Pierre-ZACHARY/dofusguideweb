@@ -1,8 +1,374 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 144,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T14:23:12.775Z",
+  "summaries": [
+    {
+      "overview": "L'Excavation du Mansot Royal demandée à l'étape précédente est supposée terminée et l'Alliance de Damar récupérée sur le Mansot Royal. Il ne reste ici qu'à remettre l'alliance à Valy Domidat, puis à retourner auprès de Damar pour conclure la quête.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Bricole Girl doit être terminée pour avoir pu atteindre cette partie de la quête.",
+        "Avoir effectué l'Excavation du Mansot Royal et récupéré automatiquement l'Alliance de Damar lors du combat final."
+      ],
+      "rewards": [
+        "7 943 890 XP.",
+        "77 920 kamas.",
+        "6 x Kama de glace.",
+        "1 x Oreille du Fu Mansot.",
+        "5 x Queue du Fu Mansot.",
+        "1 x Arête géante du Shamansot.",
+        "5 x Poil de barbe du Shamansot."
+      ],
+      "preparation": [
+        "Vérifier que l'Alliance de Damar obtenue pendant l'Excavation du Mansot Royal est bien disponible comme objet de quête."
+      ],
+      "actions": [
+        {
+          "instruction": "À l'atelier des bricoleurs, parler à Valy Domidat et lui remettre l'Alliance de Damar.",
+          "position": "[-75,-38]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourner voir Damar et lui annoncer que Valy veut désormais le faire attendre à son tour afin de terminer Pêche en eaux gelées.",
+          "position": "[-67,-54]",
+          "zoneHint": "Lac gelé",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les collectes de ressources, les 50 Graisses de mansot et les échanges précédents avec Damar et Valy sont supposés déjà accomplis.",
+        "La quête suivante liée aux pêcheurs, La pêche à Mel, sera traitée à l'étape suivante du guide."
+      ],
+      "npcs": [
+        "Valy Domidat",
+        "Damar"
+      ],
+      "items": [
+        {
+          "name": "Alliance de Damar",
+          "itemId": 11262,
+          "imageUrl": "/items/11262.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11262"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 601,
+            "name": "La Bourgade",
+            "coordinates": [
+              "-75,-38"
+            ]
+          },
+          {
+            "id": 615,
+            "name": "Lac gelé",
+            "coordinates": [
+              "-67,-54"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2902,
+            "name": "Monsieur Pingouin",
+            "level": 130,
+            "imageUrl": "/bestiary/monsters/2902.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2913,
+                "name": "Chachachovage",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2913.png"
+              },
+              {
+                "id": 2893,
+                "name": "Crabe Hijacob",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2893.png"
+              },
+              {
+                "id": 2914,
+                "name": "Gélikan",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2914.png"
+              },
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          },
+          {
+            "id": 160,
+            "name": "Mansots",
+            "monsters": [
+              {
+                "id": 2858,
+                "name": "Fu Mansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2858.png"
+              },
+              {
+                "id": 2857,
+                "name": "Mamansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2857.png"
+              },
+              {
+                "id": 2856,
+                "name": "Mansobèse",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2856.png"
+              },
+              {
+                "id": 2855,
+                "name": "Shamansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2855.png"
+              },
+              {
+                "id": 2849,
+                "name": "Timansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2849.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1467",
+      "relation": "FINISH",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/pecircche-en-eaux-geleacutees.html",
+      "sourceTitle": "Pêche en eaux gelées",
+      "sourceHash": "9510b80c5d8f33be65e01d89cef4d05709607eaca38e6a47d2bead60e62e5aa7",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "La recherche de Gérard et l'Excavation du Mansot Royal sont supposées déjà effectuées. Les Bijoux de famille de Gérard ayant été obtenus automatiquement à la fin du donjon, cette occurrence consiste uniquement à les rapporter à Clyde Parker et à lui annoncer la mort de Gérard.",
+      "recommendedLevel": 140,
+      "prerequisites": [
+        "Promenons-nous dans les bois.",
+        "Avoir fouillé la caverne et trouvé le message de Gérard avant cette étape.",
+        "Avoir terminé l'Excavation du Mansot Royal et obtenu automatiquement les Bijoux de famille de Gérard."
+      ],
+      "rewards": [
+        "4 311 804 XP.",
+        "44 760 kamas.",
+        "2 x Kama de glace.",
+        "1 x Arête géante du Shamansot."
+      ],
+      "preparation": [
+        "Vérifier que les Bijoux de famille de Gérard obtenus à la fin de l'Excavation du Mansot Royal sont disponibles comme objet de quête."
+      ],
+      "actions": [
+        {
+          "instruction": "Retourner auprès de Clyde Parker, lui remettre les Bijoux de famille de Gérard et lui annoncer la mort de Gérard pour terminer la quête.",
+          "position": "[-76,-42]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les discussions avec Dramar, Aurore Boréale et Mel ainsi que la fouille de la caverne sont supposées déjà réalisées.",
+        "Cette fin de quête valide l'un des prérequis de Il préfère la mort en mer."
+      ],
+      "npcs": [
+        "Clyde Parker",
+        "Gérard"
+      ],
+      "items": [
+        {
+          "name": "Bijoux de famille de Gérard",
+          "itemId": 11245,
+          "imageUrl": "/items/11245.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11245"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 601,
+            "name": "La Bourgade",
+            "coordinates": [
+              "-76,-42"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2913,
+                "name": "Chachachovage",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2913.png"
+              },
+              {
+                "id": 2893,
+                "name": "Crabe Hijacob",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2893.png"
+              },
+              {
+                "id": 2914,
+                "name": "Gélikan",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2914.png"
+              },
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:359",
+      "relation": "FINISH",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/les-chasseurs.html",
+      "sourceTitle": "Les chasseurs",
+      "sourceHash": "b8ac5f3eaf68ca55112290e4fe0dfa4b52392fd5f6463bc2d4bd2542c9e65db2",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Les 40 Rhubarbes à papa demandées depuis l'étape précédente sont supposées avoir été récupérées sur les monstres du Lac gelé, notamment pendant les autres activités de l'étape. Il reste seulement à les remettre à Bisale Vinlenta pour terminer la quête.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Botanique-nique-nique.",
+        "Avoir récupéré 40 x Rhubarbe à papa sur les monstres de la zone Lac gelé."
+      ],
+      "rewards": [
+        "3 971 945 XP.",
+        "38 960 kamas.",
+        "2 x Kama de glace.",
+        "5 x Peau de Mansobèse."
+      ],
+      "preparation": [
+        "Avoir exactement au moins 40 x Rhubarbe à papa obtenues comme objets de quête."
+      ],
+      "actions": [
+        {
+          "instruction": "Retourner voir Bisale Vinlenta et lui remettre 40 x Rhubarbe à papa pour terminer A fleur de peau.",
+          "position": "[-72,-31]",
+          "zoneHint": "Champs de glace",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les combats nécessaires à la collecte des 40 Rhubarbes à papa sont supposés déjà effectués avant cette occurrence.",
+        "La fin de cette quête débloque Mes lys fleurs, qui n'est pas traitée dans cette étape."
+      ],
+      "npcs": [
+        "Bisale Vinlenta"
+      ],
+      "items": [
+        {
+          "name": "Rhubarbe à papa",
+          "itemId": 11160,
+          "imageUrl": "/items/11160.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11160"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 602,
+            "name": "Champs de glace",
+            "coordinates": [
+              "-72,-31"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2901,
+            "name": "Bouflouth",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/2901.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 156,
+            "name": "Boufmouths",
+            "monsters": [
+              {
+                "id": 2850,
+                "name": "Boufmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2850.png"
+              },
+              {
+                "id": 2851,
+                "name": "Boufmouth de guerre",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2851.png"
+              },
+              {
+                "id": 2852,
+                "name": "Boufmouth légendaire",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2852.png"
+              },
+              {
+                "id": 2853,
+                "name": "Bouftonmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2853.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:337",
+      "relation": "FINISH",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/a-fleur-de-peau.html",
+      "sourceTitle": "A fleur de peau",
+      "sourceHash": "b2900c69266d998454b5aee47be674b25b0841754d52d6e823a53c2f55918e6b",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Rentabiliser l'Excavation du Mansot Royal",
+      "description": "Le même passage dans l'Excavation du Mansot Royal permet d'obtenir les objets nécessaires à la reprise de Pêche en eaux gelées et Les chasseurs. Après le boss, les deux quêtes peuvent donc être rendues sans refaire le donjon.",
+      "questKeys": [
+        "quest:1467",
+        "quest:359"
+      ],
+      "actions": [
+        "Vérifier après le combat final que l'Alliance de Damar et les Bijoux de famille de Gérard ont bien été obtenus.",
+        "Enchaîner ensuite les rendus auprès de Valy Domidat, Damar et Clyde Parker."
+      ]
+    }
+  ]
 }

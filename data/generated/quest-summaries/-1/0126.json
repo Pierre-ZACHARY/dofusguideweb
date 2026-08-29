@@ -1,171 +1,119 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 126,
-  "updatedAt": "2026-08-27T13:32:25.191Z",
+  "updatedAt": "2026-08-29T12:51:48.020Z",
   "summaries": [
     {
-      "overview": "Lancez la quête auprès de Kal Vissi en [-19,30] aux Terres Désacrées, puis enchaînez cinq donjons : Bibliothèque du Maître Corbac, Serre du Royalmouth, Labyrinthe du Minotoror, Tofulailler Royal et Antre de Crocabulia. Après chaque donjon, retournez voir Kal Vissi pour obtenir la clé du suivant.",
-      "recommendedLevel": 50,
+      "overview": "Lancez Taures et détours auprès de Mériana, gagnez l'île du Minotoror et progressez dans le Labyrinthe du Minotoror. Cette occurrence doit aller jusqu'au Centre du Labyrinthe du Minotoror afin d'y vaincre le Minotoror, puis utiliser le trône de pierre avant de quitter la salle. Cette progression permet également d'avancer la mission de donjon en cours et débloque immédiatement Le trésor de Totankama.",
+      "recommendedLevel": 120,
       "prerequisites": [
-        "Niveau supérieur à 29",
-        "Quête Un juge hystérique"
+        "Le livre des Taures."
       ],
       "rewards": [
-        "18 651 520 XP",
-        "195 360 Kamas",
-        "1 x Clakoss",
-        "1 x Queue du Royalmouth",
-        "1 x Corne Brûlée du Minotoror",
-        "1 x Plume Vibrante du Tofu Royal",
-        "1 x Corne brisée de Crocabulia"
+        "3 883 723 XP.",
+        "40 272 kamas.",
+        "5 x Poils du Minotoror.",
+        "5 x Carapace de Scaratos."
       ],
       "preparation": [
-        "Donjon Bibliothèque du Maître Corbac",
-        "Donjon Serre du Royalmouth",
-        "Donjon Labyrinthe du Minotoror",
-        "Donjon Tofulailler Royal",
-        "Antre de Crocabulia (donjon)"
+        "Prévoir 1 x Donjon Labyrinthe du Minotoror.",
+        "Dans le labyrinthe, vaincre le Déminoboule et le Minotoror pour obtenir les reliques nécessaires à l'accès au donjon."
       ],
       "actions": [
         {
-          "instruction": "Aller en [-19,30] et parler à Kal Vissi pour lancer la quête.",
-          "position": "[-19,30]",
-          "zoneHint": "Terres Désacrées",
+          "instruction": "Parlez à Mériana, acceptez sa demande et récupérez l'Os Enchanté du Maître Corbac destiné au trône de pierre du labyrinthe.",
+          "position": "[-6,-3]",
+          "zoneHint": "Marécages nauséabonds",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller en [-15,-62] dans le donjon Bibliothèque du Maître Corbac et vaincre le Maître Corbac.",
-          "position": "[-15,-62]",
-          "zoneHint": null,
-          "warning": "Combat de donjon contre le Maître Corbac.",
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retourner en [-19,30] parler à Kal Vissi pour obtenir la clé du prochain donjon.",
-          "position": "[-19,30]",
-          "zoneHint": "Terres Désacrées",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller en [-34,-16] prendre le bateau pour Frigost I.",
-          "position": "[-34,-16]",
-          "zoneHint": null,
-          "warning": "Niveau 50 minimum requis pour accéder à Frigost I.",
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller en [-84,-49] dans le donjon Serre du Royalmouth et vaincre le Royalmouth.",
-          "position": "[-84,-49]",
-          "zoneHint": null,
-          "warning": "Combat de donjon contre le Royalmouth.",
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retourner en [-19,30] parler à Kal Vissi pour obtenir la clé du prochain donjon.",
-          "position": "[-19,30]",
-          "zoneHint": "Terres Désacrées",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller en [-42,-17] dans le donjon Labyrinthe du Minotoror et vaincre le Minotoror.",
+          "instruction": "Rendez-vous sur l'île du Minotoror et parlez à Lorkos en précisant que vous venez pour le Dofus Pourpre.",
           "position": "[-42,-17]",
-          "zoneHint": null,
-          "warning": "Combat de donjon contre le Minotoror. Il est recommandé d'entrer dans la salle du Minotot avant de quitter pour obtenir une sauvegarde utile pour une prochaine quête.",
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retourner en [-19,30] parler à Kal Vissi pour obtenir la clé du prochain donjon.",
-          "position": "[-19,30]",
-          "zoneHint": "Terres Désacrées",
+          "zoneHint": "Île du Minotoror",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller dans le donjon Tofulailler Royal et vaincre le Tofu Royal.",
+          "instruction": "Entrez dans le labyrinthe, cliquez sur la fiole de l'entrée puis parlez à Apisaphé afin d'obtenir son aide et la potion permettant de revenir dans le Refuge des Cent Détours.",
           "position": null,
-          "zoneHint": null,
-          "warning": "Combat de donjon contre le Tofu Royal.",
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retourner en [-19,30] parler à Kal Vissi pour obtenir la clé du prochain donjon.",
-          "position": "[-19,30]",
-          "zoneHint": "Terres Désacrées",
-          "warning": null,
+          "zoneHint": "Refuge des Cent Détours",
+          "warning": "La téléportation associée à cette potion nécessite d'avoir tué le Maître Corbac dans la quête actuelle ou d'avoir terminé cette quête.",
           "combat": "NONE"
         },
         {
-          "instruction": "Aller dans l'Antre de Crocabulia et vaincre Crocabulia.",
-          "position": null,
-          "zoneHint": null,
-          "warning": "Combat de donjon contre Crocabulia.",
+          "instruction": "Retournez parler à Lorkos, puis progressez dans le Labyrinthe du Minotoror jusqu'à disposer des reliques du Déminoboule et du Minotoror permettant d'accéder au Centre du Labyrinthe du Minotoror.",
+          "position": "[-42,-17]",
+          "zoneHint": "Labyrinthe du Minotoror",
+          "warning": "Le parcours du labyrinthe et l'obtention des deux reliques sont nécessaires avant l'entrée dans le donjon.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Retourner en [-19,30] parler à Kal Vissi pour terminer la quête.",
-          "position": "[-19,30]",
-          "zoneHint": "Terres Désacrées",
+          "instruction": "Effectuez le Centre du Labyrinthe du Minotoror et vainquez le Minotoror. Cette victoire satisfait aussi la portion actuelle de [TDM] Des donjons, encore des donjons.",
+          "position": "[-42,-17]",
+          "zoneHint": "Centre du Labyrinthe du Minotoror",
+          "warning": "Ne quittez pas le donjon après le combat : le trône de pierre doit encore être utilisé.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Avant de sortir, cliquez sur le trône de pierre afin d'utiliser la magie confiée par Mériana et de faire apparaître le Minotot.",
+          "position": null,
+          "zoneHint": "Salle du Minotoror",
+          "warning": "Quitter la salle avant d'avoir cliqué sur le trône obligerait à revenir pour terminer cette portion.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Minotot pour achever Taures et détours, puis poursuivez le dialogue afin d'obtenir la quête Le trésor de Totankama, qui constitue l'occurrence suivante de cette étape.",
+          "position": null,
+          "zoneHint": "Salle du Minotoror",
           "warning": null,
           "combat": "NONE"
         }
       ],
       "notes": [
-        "Il est recommandé d'entrer dans la salle du Minotot avant de quitter le Labyrinthe du Minotoror pour obtenir une sauvegarde utile dans une prochaine quête.",
-        "L'accès à Frigost I nécessite le bateau en [-34,-16] et un niveau minimum de 50."
+        "Le point demandé par le guide est atteint dans le Centre du Labyrinthe du Minotoror ; profitez de cette même traversée pour terminer Taures et détours sans sortir avant le trône.",
+        "La rencontre avec le Minotot enchaîne directement sur Le trésor de Totankama."
       ],
       "npcs": [
-        "Kal Vissi"
+        "Mériana",
+        "Lorkos",
+        "Apisaphé",
+        "Minotot"
       ],
       "items": [
         {
-          "name": "Clakoss",
-          "itemId": 2527,
-          "imageUrl": "/items/2527.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2527"
+          "name": "Os Enchanté du Maître Corbac",
+          "itemId": 15597,
+          "imageUrl": "/items/15597.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15597"
         },
         {
-          "name": "Queue du Royalmouth",
-          "itemId": 11219,
-          "imageUrl": "/items/11219.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11219"
+          "name": "Potion du Refuge des Cent Détours",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
         },
         {
-          "name": "Corne Brûlée du Minotoror",
-          "itemId": 1680,
-          "imageUrl": "/items/1680.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1680"
+          "name": "Relique du Déminoboule",
+          "itemId": 8306,
+          "imageUrl": "/items/8306.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8306"
         },
         {
-          "name": "Plume Vibrante du Tofu Royal",
-          "itemId": 8387,
-          "imageUrl": "/items/8387.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8387"
-        },
-        {
-          "name": "Corne brisée de Crocabulia",
-          "itemId": 8365,
-          "imageUrl": "/items/8365.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8365"
+          "name": "Relique du Minotoror",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
         }
       ],
       "bestiary": {
         "zones": [
           {
-            "id": 334,
-            "name": "Baie de Cania",
+            "id": 209,
+            "name": "Île du Minotoror",
             "coordinates": [
-              "-34,-16"
-            ]
-          },
-          {
-            "id": 1038,
-            "name": "Bibliothèque du Maître Corbac",
-            "coordinates": [
-              "-15,-62"
+              "-42,-17"
             ]
           },
           {
@@ -176,64 +124,57 @@
             ]
           },
           {
-            "id": 617,
-            "name": "Serre du Royalmouth",
+            "id": 232,
+            "name": "Marécages nauséabonds",
             "coordinates": [
-              "-84,-49"
-            ]
-          },
-          {
-            "id": 517,
-            "name": "Terres Désacrées",
-            "coordinates": [
-              "-19,30"
+              "-6,-3"
             ]
           }
         ],
         "bounties": [
           {
-            "id": 552,
-            "name": "Musha L'Oni",
-            "level": 80,
-            "imageUrl": "/bestiary/monsters/552.png"
+            "id": 5074,
+            "name": "Vashkiwi",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/5074.png"
           }
         ],
         "archmonsters": [
           {
-            "id": 2391,
-            "name": "Ameur la Laide",
-            "level": 35,
-            "imageUrl": "/bestiary/monsters/2391.png"
+            "id": 2549,
+            "name": "Boostif l'Affamé",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2549.png"
           },
           {
-            "id": 2433,
-            "name": "Codenlgaz le Problème",
-            "level": 35,
-            "imageUrl": "/bestiary/monsters/2433.png"
+            "id": 2439,
+            "name": "Crolnareff l'Exilé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2439.png"
           },
           {
-            "id": 2508,
-            "name": "Kiroyal le Sirupeux",
-            "level": 35,
-            "imageUrl": "/bestiary/monsters/2508.png"
+            "id": 2428,
+            "name": "Crok le Beau",
+            "level": 61,
+            "imageUrl": "/bestiary/monsters/2428.png"
           },
           {
-            "id": 2525,
-            "name": "Let le Rond",
-            "level": 35,
-            "imageUrl": "/bestiary/monsters/2525.png"
+            "id": 2529,
+            "name": "Mandalo l'Aqueuse",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/2529.png"
           },
           {
-            "id": 2289,
-            "name": "Susbewl l'Hypocrite",
-            "level": 35,
-            "imageUrl": "/bestiary/monsters/2289.png"
-          },
-          {
-            "id": 2437,
-            "name": "Corpat le Vampire",
+            "id": 2533,
+            "name": "Minoskour le Sauveur",
             "level": 102,
-            "imageUrl": "/bestiary/monsters/2437.png"
+            "imageUrl": "/bestiary/monsters/2533.png"
+          },
+          {
+            "id": 2521,
+            "name": "Krapahut le Randonneur",
+            "level": 110,
+            "imageUrl": "/bestiary/monsters/2521.png"
           },
           {
             "id": 2615,
@@ -256,155 +197,170 @@
         ],
         "achievements": [
           {
-            "id": 156,
-            "name": "Boufmouths",
+            "id": 208,
+            "name": "Gadouilleux",
             "monsters": [
               {
-                "id": 2850,
-                "name": "Boufmouth",
-                "level": 112,
-                "imageUrl": "/bestiary/monsters/2850.png"
+                "id": 263,
+                "name": "Chef Crocodaille",
+                "level": 61,
+                "imageUrl": "/bestiary/monsters/263.png"
               },
               {
-                "id": 2851,
-                "name": "Boufmouth de guerre",
-                "level": 112,
-                "imageUrl": "/bestiary/monsters/2851.png"
+                "id": 261,
+                "name": "Crocodaille",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/261.png"
               },
               {
-                "id": 2852,
-                "name": "Boufmouth légendaire",
-                "level": 112,
-                "imageUrl": "/bestiary/monsters/2852.png"
+                "id": 112,
+                "name": "Boo",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/112.png"
               },
               {
-                "id": 2853,
-                "name": "Bouftonmouth",
-                "level": 112,
-                "imageUrl": "/bestiary/monsters/2853.png"
+                "id": 4833,
+                "name": "Arakne Olithique",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4833.png"
               }
             ]
           },
           {
-            "id": 211,
-            "name": "Corbacs",
+            "id": 173,
+            "name": "Minos",
             "monsters": [
               {
-                "id": 818,
-                "name": "Corbac Apprivoisé",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/818.png"
+                "id": 668,
+                "name": "Gamino",
+                "level": 120,
+                "imageUrl": "/bestiary/monsters/668.png"
               },
               {
-                "id": 819,
-                "name": "Buveur",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/819.png"
+                "id": 832,
+                "name": "Déminoboule",
+                "level": 108,
+                "imageUrl": "/bestiary/monsters/832.png"
               },
               {
-                "id": 281,
-                "name": "Corbac",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/281.png"
-              },
-              {
-                "id": 824,
-                "name": "Horace le Corbac Apprivoisé",
+                "id": 836,
+                "name": "Kraméléhon",
                 "level": 110,
-                "imageUrl": "/bestiary/monsters/824.png"
+                "imageUrl": "/bestiary/monsters/836.png"
               },
               {
-                "id": 825,
-                "name": "Kapotie le Buveur",
-                "level": 110,
-                "imageUrl": "/bestiary/monsters/825.png"
-              },
-              {
-                "id": 820,
-                "name": "Renarbo",
+                "id": 835,
+                "name": "Mandrine",
                 "level": 102,
-                "imageUrl": "/bestiary/monsters/820.png"
+                "imageUrl": "/bestiary/monsters/835.png"
               },
               {
-                "id": 823,
-                "name": "Rono le Renarbo",
+                "id": 834,
+                "name": "Minoskito",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/834.png"
+              },
+              {
+                "id": 831,
+                "name": "Mominotor",
+                "level": 108,
+                "imageUrl": "/bestiary/monsters/831.png"
+              },
+              {
+                "id": 830,
+                "name": "Scaratos",
                 "level": 110,
-                "imageUrl": "/bestiary/monsters/823.png"
+                "imageUrl": "/bestiary/monsters/830.png"
+              },
+              {
+                "id": 829,
+                "name": "Serpiplume",
+                "level": 120,
+                "imageUrl": "/bestiary/monsters/829.png"
               }
             ]
+          }
+        ]
+      },
+      "questKey": "quest:807",
+      "relation": "START",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/taures-et-deacutetours.html",
+      "sourceTitle": "Taures et détours",
+      "sourceHash": "f62d6aee91e6f79d069ca5027c889856dede3b939ef46c492225533488aaa050",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Les étapes précédentes de cette longue mission de donjons sont déjà engagées. Ici, profitez du passage imposé au Centre du Labyrinthe du Minotoror pour vaincre le Minotoror. Ne retournez pas encore auprès de Kal Vissi : le guide prévoit la reprise de cette quête à l'étape 129.",
+      "recommendedLevel": 30,
+      "prerequisites": [
+        "Niveau supérieur à 29.",
+        "Un juge hystérique.",
+        "Avoir déjà avancé la quête jusqu'à l'objectif demandant de vaincre le Minotoror."
+      ],
+      "rewards": [
+        "18 651 520 XP.",
+        "195 360 Kamas.",
+        "1 x Clakoss.",
+        "1 x Queue du Royalmouth.",
+        "1 x Corne Brûlée du Minotoror.",
+        "1 x Plume Vibrante du Tofu Royal.",
+        "1 x Corne brisée de Crocabulia."
+      ],
+      "preparation": [
+        "Prévoir 1 x Donjon Labyrinthe du Minotoror.",
+        "Cette occurrence se réalise pendant le même passage que Taures et détours."
+      ],
+      "actions": [
+        {
+          "instruction": "Dans le Centre du Labyrinthe du Minotoror, vainquez le Minotoror afin de valider l'objectif de donjon actuellement demandé par Kal Vissi.",
+          "position": "[-42,-17]",
+          "zoneHint": "Centre du Labyrinthe du Minotoror",
+          "warning": "Ne retournez pas auprès de Kal Vissi à cette occurrence : le guide reprend cette quête à l'étape 129.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "Le Maître Corbac et le Royalmouth sont supposés avoir été traités lors des occurrences précédentes de la quête.",
+        "Le retour auprès de Kal Vissi, ainsi que les donjons suivants, sont volontairement différés jusqu'à la prochaine occurrence du guide."
+      ],
+      "npcs": [
+        "Kal Vissi"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 319,
+            "name": "Labyrinthe du Minotoror",
+            "coordinates": [
+              "-42,-17"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2615,
+            "name": "Scaratyn l'Huître",
+            "level": 110,
+            "imageUrl": "/bestiary/monsters/2615.png"
           },
           {
-            "id": 1068,
-            "name": "Dopeuls",
-            "monsters": [
-              {
-                "id": 385,
-                "name": "Amlub",
-                "level": 35,
-                "imageUrl": "/bestiary/monsters/385.png"
-              },
-              {
-                "id": 386,
-                "name": "Codem",
-                "level": 35,
-                "imageUrl": "/bestiary/monsters/386.png"
-              },
-              {
-                "id": 570,
-                "name": "Idemas",
-                "level": 35,
-                "imageUrl": "/bestiary/monsters/570.png"
-              },
-              {
-                "id": 388,
-                "name": "Kirevam",
-                "level": 35,
-                "imageUrl": "/bestiary/monsters/388.png"
-              },
-              {
-                "id": 389,
-                "name": "Let Emoliug",
-                "level": 35,
-                "imageUrl": "/bestiary/monsters/389.png"
-              },
-              {
-                "id": 393,
-                "name": "Susej",
-                "level": 35,
-                "imageUrl": "/bestiary/monsters/393.png"
-              }
-            ]
+            "id": 2568,
+            "name": "Germinol l'Indigent",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/2568.png"
           },
           {
-            "id": 1612,
-            "name": "Goules",
-            "monsters": [
-              {
-                "id": 4878,
-                "name": "Kérigoule",
-                "level": 200,
-                "imageUrl": "/bestiary/monsters/4878.png"
-              },
-              {
-                "id": 4881,
-                "name": "Pipisteuse",
-                "level": 200,
-                "imageUrl": "/bestiary/monsters/4881.png"
-              },
-              {
-                "id": 4879,
-                "name": "Gouligane",
-                "level": 200,
-                "imageUrl": "/bestiary/monsters/4879.png"
-              },
-              {
-                "id": 4880,
-                "name": "Goultime",
-                "level": 200,
-                "imageUrl": "/bestiary/monsters/4880.png"
-              }
-            ]
-          },
+            "id": 2287,
+            "name": "Serpistule le Purulent",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/2287.png"
+          }
+        ],
+        "achievements": [
           {
             "id": 173,
             "name": "Minos",
@@ -444,12 +400,193 @@
         ]
       },
       "questKey": "quest:74",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/des-donjons-encore-des-donjons.html",
       "sourceTitle": "Des donjons, encore des donjons",
       "sourceHash": "b13c418c97b8d82cbf9ac712ef9e4a15acc8ffba6cd80d25800afbac9ac64d98",
-      "generatedAt": "2026-08-24T18:04:12.264Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après Taures et détours, lancez Le trésor de Totankama auprès du Minotot. Avancez seulement jusqu'au moment où Mériana vous demande de réunir trois ressources obtenues dans Il faut battre le lait quand il est chaud, Regrets d'éternailes et L'anneau de Tot, puis lancez Il faut battre le lait quand il est chaud. La collecte de la Tablette de Totankama, la protection contre la malédiction, la chasse légendaire et le retour final au Minotot seront réalisés plus tard.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Niveau recommandé : 130.",
+        "Taures et détours.",
+        "Comment perdre ses plumes bloque une étape ultérieure de cette quête."
+      ],
+      "rewards": [
+        "4 766 334 XP.",
+        "46 752 kamas.",
+        "1 x Parchemin Doré."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Après avoir terminé Taures et détours, poursuivez le dialogue avec le Minotot et acceptez de rechercher le Masque de Totankama afin de lancer Le trésor de Totankama.",
+          "position": "[-39,-11]",
+          "zoneHint": "Donjon Minotoror",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Quittez le donjon puis rendez-vous auprès de Mériana et racontez-lui votre rencontre avec le Minotot.",
+          "position": "[-6,-3]",
+          "zoneHint": "Marécages nauséabonds",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Poursuivez le dialogue jusqu'à l'objectif demandant d'obtenir une Perle de lait doré, une Poudre d'éternaile et un Anneau de Tot via les trois quêtes correspondantes.",
+          "position": "[-6,-3]",
+          "zoneHint": "Marécages nauséabonds",
+          "warning": "Ne poursuivez pas encore vers la Tablette de Totankama, le rituel de protection, la chasse légendaire ou le Masque Maudit de Totankama : ces portions sont prévues plus tard dans le guide.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Lancez maintenant la quête Il faut battre le lait quand il est chaud, comme demandé par le parcours de l'étape, puis arrêtez la progression de Le trésor de Totankama à ce point.",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les quêtes Regrets d'éternailes et L'anneau de Tot seront également nécessaires, mais elles ne doivent pas être effectuées dans cette occurrence.",
+        "La quête Comment perdre ses plumes sera lancée à l'étape suivante et conditionnera plus tard l'achat des Morceaux de tablette de Totankama.",
+        "La fin de Le trésor de Totankama est prévue à l'étape 135."
+      ],
+      "npcs": [
+        "Minotot",
+        "Mériana"
+      ],
+      "items": [
+        {
+          "name": "Perle de lait doré",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Poudre d'éternaile",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Anneau de Tot",
+          "itemId": 15420,
+          "imageUrl": "/items/15420.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15420"
+        },
+        {
+          "name": "Tablette de Totankama",
+          "itemId": 15391,
+          "imageUrl": "/items/15391.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15391"
+        },
+        {
+          "name": "Masque Maudit de Totankama",
+          "itemId": 15400,
+          "imageUrl": "/items/15400.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15400"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 232,
+            "name": "Marécages nauséabonds",
+            "coordinates": [
+              "-6,-3"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-39,-11"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2549,
+            "name": "Boostif l'Affamé",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2549.png"
+          },
+          {
+            "id": 2439,
+            "name": "Crolnareff l'Exilé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2439.png"
+          },
+          {
+            "id": 2428,
+            "name": "Crok le Beau",
+            "level": 61,
+            "imageUrl": "/bestiary/monsters/2428.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 208,
+            "name": "Gadouilleux",
+            "monsters": [
+              {
+                "id": 263,
+                "name": "Chef Crocodaille",
+                "level": 61,
+                "imageUrl": "/bestiary/monsters/263.png"
+              },
+              {
+                "id": 261,
+                "name": "Crocodaille",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/261.png"
+              },
+              {
+                "id": 112,
+                "name": "Boo",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/112.png"
+              },
+              {
+                "id": 4833,
+                "name": "Arakne Olithique",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4833.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:808",
+      "relation": "START",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-treacutesor-de-totankama.html",
+      "sourceTitle": "Le trésor de Totankama",
+      "sourceHash": "65e44908e84bef84e26bcab638529d2f862f4131f61842f73ac8305e9b961dd6",
+      "generatedAt": null,
+      "model": null
     }
   ],
-  "tips": []
+  "tips": [
+    {
+      "title": "Mutualiser le Minotoror",
+      "description": "Le combat contre le Minotoror demandé par Taures et détours valide en même temps l'objectif actuel de [TDM] Des donjons, encore des donjons. Faites donc un seul passage dans le Centre du Labyrinthe du Minotoror.",
+      "questKeys": [
+        "quest:807",
+        "quest:74"
+      ],
+      "actions": [
+        "Progressez dans le Labyrinthe du Minotoror avec Taures et détours jusqu'au Centre du Labyrinthe du Minotoror.",
+        "Vainquez le Minotoror une seule fois pour mettre à jour Taures et détours et [TDM] Des donjons, encore des donjons.",
+        "Après le combat, restez dans la salle pour cliquer sur le trône requis par Taures et détours ; ne retournez pas encore auprès de Kal Vissi."
+      ]
+    }
+  ]
 }

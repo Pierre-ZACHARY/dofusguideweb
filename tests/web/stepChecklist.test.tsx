@@ -2,6 +2,7 @@ import { renderToStaticMarkup } from "react-dom/server";
 import { describe, expect, it } from "vitest";
 import { ElementRenderer } from "../../src/web/components/ElementRenderer.js";
 import { QuestChecklist } from "../../src/web/components/QuestChecklist.js";
+import { QuestGuideFacts } from "../../src/web/components/QuestGuideSummary.js";
 import type { StepQuestDto } from "../../src/web/data/models.js";
 import { ProgressProvider } from "../../src/web/progress/progressStore.js";
 
@@ -69,5 +70,24 @@ describe("step checklist", () => {
     expect(html).toContain("x18");
     expect(html).not.toContain("Quantité");
     expect(html).toContain("h-10 w-10");
+    expect(html).toContain("Copier Blé");
+  });
+
+  it("rend les objets enrichis comme des boutons de copie sans lien DofusDB", () => {
+    const html = renderToStaticMarkup(<QuestGuideFacts summary={{
+      sourceUrl: "https://example.test/guide",
+      sourceTitle: "Guide",
+      overview: "Récupérez l’Os sans confondre ce mot avec possession.",
+      recommendedLevel: null,
+      prerequisites: [],
+      rewards: [],
+      preparation: ["Récupérez un Os"],
+      actions: [],
+      notes: [],
+      npcs: [],
+      items: [{ name: "Os", itemId: 1, imageUrl: "/items/1.png", dofusDbUrl: "https://dofusdb.fr/fr/database/item/1" }],
+    }} />);
+    expect(html).toContain("Copier Os");
+    expect(html).not.toContain("dofusdb.fr");
   });
 });

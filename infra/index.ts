@@ -7,6 +7,19 @@ import path from "node:path";
 
 const config = new pulumi.Config();
 const cloudflareConfig = new pulumi.Config("cloudflare");
+
+function localDevelopmentVariable(name: string): string | undefined {
+  try {
+    const contents = readFileSync(path.resolve(__dirname, "..", ".dev.vars"), "utf8");
+    const prefix = name + "=";
+    const line = contents.split(/\r?\n/u).find((candidate) => candidate.startsWith(prefix));
+    const value = line?.slice(prefix.length).trim();
+    return value === "" ? undefined : value;
+  } catch {
+    return undefined;
+  }
+}
+
 const accountId = config.get("cloudflareAccountId")
   ?? process.env.CLOUDFLARE_ACCOUNT_ID
   ?? "aaf857a57ff01f7b5c961b37053782e1";
@@ -17,6 +30,11 @@ const workerName = config.get("workerName") ?? "dofusguideweb";
 const googleClientId = config.get("googleClientId")
   ?? process.env.GOOGLE_CLIENT_ID
   ?? "559765229314-g71qdbv43se29qv3hnpfr9vnsd648ra5.apps.googleusercontent.com";
+const localMetaMobCredentialsKey = process.env.METAMOB_CREDENTIALS_KEY
+  ?? localDevelopmentVariable("METAMOB_CREDENTIALS_KEY");
+const metaMobCredentialsKey = localMetaMobCredentialsKey
+  ? pulumi.secret(localMetaMobCredentialsKey)
+  : config.requireSecret("metamobCredentialsKey");
 const apiToken = process.env.CLOUDFLARE_API_TOKEN
   ? pulumi.secret(process.env.CLOUDFLARE_API_TOKEN)
   : cloudflareConfig.requireSecret("apiToken");
@@ -44,6 +62,7 @@ for (const source of [
   "vite.config.ts",
   "vite.shared.ts",
   "src/accounts",
+  "src/presence",
   "src/web",
   "src/cloudflare-env.d.ts",
   "public",
@@ -76,6 +95,7 @@ const workerDeployment = new command.local.Command("worker-deployment", {
     D1_DATABASE_ID: userDatabase.uuid,
     DEPLOYMENT_SOURCE_HASH: sourceHash.digest("hex"),
     GOOGLE_CLIENT_ID: googleClientId,
+    METAMOB_CREDENTIALS_KEY: metaMobCredentialsKey,
   },
 }, {
   dependsOn: [userDatabase],

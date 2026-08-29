@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 39,
-  "updatedAt": "2026-08-27T13:32:15.223Z",
+  "updatedAt": "2026-08-29T09:59:06.801Z",
   "summaries": [
     {
       "overview": "Aidez à sécuriser et réparer l'accès à Pandala, faites préparer un sérum contre la Pandrista puis traversez le pont. Une fois sur l'île, buvez le lait de bambou fermenté proposé par le Garde Chopynju afin de percevoir les esprits et rencontrer Doukwang.",
@@ -717,6 +717,13 @@
             "name": "Faubourgs des artisans",
             "coordinates": [
               "-33,-55"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
             ]
           },
           {

@@ -1,14 +1,14 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 117,
-  "updatedAt": "2026-08-27T15:07:31.407Z",
+  "updatedAt": "2026-08-29T12:51:39.766Z",
   "summaries": [
     {
-      "overview": "Aidez Chaknoris à se débarrasser de trois Matougarous qui le harcèlent dans la Lande Poilue. Après avoir combattu Chadik et convaincu Chalamalek puis Chabruti avec les bonnes affirmations, retournez voir Chaknoris pour obtenir la position de Chester. Retrouvez ensuite le chacha avant de faire votre rapport au Sergent Baste.",
+      "overview": "Après avoir retrouvé la piste de Chester grâce à « Chacun cherche son chacha », aidez Chaknoris à faire cesser le harcèlement des trois Matougarous, puis suivez l'indication obtenue jusqu'à Chester. La quête se conclut à l'avant-poste auprès du Sergent Baste et débloque « Matou vu ».",
       "recommendedLevel": 110,
       "prerequisites": [
-        "Chacun cherche son chacha."
+        "Avoir terminé Chacun cherche son chacha."
       ],
       "rewards": [
         "2 625 000 XP.",
@@ -16,53 +16,54 @@
         "50 x Orichor."
       ],
       "preparation": [
-        "Prévoir 1 combat."
+        "Prévoir un combat obligatoire contre Chadik.",
+        "Éviter autant que possible le corps à corps contre Chadik."
       ],
       "actions": [
         {
-          "instruction": "Parlez à Chaknoris et acceptez de l'aider à convaincre ses trois principaux harceleurs de le laisser tranquille.",
+          "instruction": "Parlez à Chaknoris et acceptez de régler le problème posé par ses trois principaux harceleurs.",
           "position": "[1,0]",
           "zoneHint": "Lande Poilue",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Allez voir Chadik et tentez de le convaincre. Quel que soit le choix de dialogue, le combat est obligatoire. Après la victoire, vous obtenez un Poil de Chadik.",
+          "instruction": "Allez voir Chadik et tentez de le convaincre. Quel que soit le choix de dialogue, affrontez-le puis récupérez le Poil de Chadik obtenu après la victoire.",
           "position": "[0,1]",
           "zoneHint": "Lande Poilue",
-          "warning": "Combat obligatoire. Il est conseillé d'éviter le corps à corps avec Chadik.",
+          "warning": "Combat obligatoire. Chadik frappe notamment feu et terre, peut gagner un important bouclier et pénalise le combat au contact ; restez à distance si possible.",
           "combat": "SOLO"
         },
         {
-          "instruction": "Parlez à Chalamalek et affirmez que lorsque Chaknoris assiste à un match de Boufbowl, Khan Karkass monte dans les gradins pour lui demander un autographe.",
+          "instruction": "Parlez à Chalamalek et affirmez que, lorsque Chaknoris assiste à un match de Boufbowl, Khan Karkass monte dans les gradins pour lui demander un autographe.",
           "position": "[3,3]",
           "zoneHint": "Lande Poilue",
-          "warning": null,
+          "warning": "Choisissez précisément cette affirmation pour le convaincre.",
           "combat": "NONE"
         },
         {
-          "instruction": "Parlez à Chabruti. Dites que Chaknoris a réuni les six Dofus pour en faire une omelette puis que, lorsque Gein le Silencieux s'approche de lui, Chaknoris se retourne pour lui dire « chut! ». Chabruti accepte alors de ne plus l'importuner.",
+          "instruction": "Parlez à Chabruti. Dites que Chaknoris a réuni les six Dofus pour en faire une omelette, puis que lorsque Gein le Silencieux s'approche de lui, Chaknoris se retourne pour lui dire « chut! ».",
           "position": "[3,0]",
           "zoneHint": "Lande Poilue",
-          "warning": null,
+          "warning": "Respectez ces réponses de dialogue pour obtenir son accord.",
           "combat": "NONE"
         },
         {
-          "instruction": "Retournez auprès de Chaknoris et annoncez-lui que les trois matous vont désormais le laisser tranquille. Il vous révèle alors où se trouve Chester.",
+          "instruction": "Retournez voir Chaknoris et annoncez-lui que les trois Matougarous le laisseront désormais tranquille afin qu'il vous révèle où se trouve Chester.",
           "position": "[1,0]",
           "zoneHint": "Lande Poilue",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Rendez-vous au sud de la zone et tentez de caresser Chester. Le chacha disparaît soudainement.",
+          "instruction": "Rejoignez Chester au sud de la zone et tentez de le caresser. Il disparaît avant que vous puissiez le ramener.",
           "position": "[1,3]",
           "zoneHint": "Lande Poilue",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Retournez à l'avant-poste et parlez au Sergent Baste. Il vous explique que Chester semble capable de disparaître à volonté, ce qui termine la quête et débloque Matou vu.",
+          "instruction": "Retournez à l'avant-poste et faites votre rapport au Sergent Baste. La quête se termine et « Matou vu » devient disponible.",
           "position": "[-1,-6]",
           "zoneHint": "Pierres de l'élévation",
           "warning": null,
@@ -70,8 +71,8 @@
         }
       ],
       "notes": [
-        "Le choix de dialogue face à Chadik ne permet pas d'éviter le combat.",
-        "Cette quête débloque Matou vu."
+        "La disparition de Chester est normale et sert de transition vers la quête suivante.",
+        "La prochaine occurrence de l'étape est « Matou vu »."
       ],
       "npcs": [
         "Chaknoris",
@@ -176,6 +177,8 @@
         ]
       },
       "questKey": "quest:949",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/question-de-reacuteputation.html",
       "sourceTitle": "Question de réputation",
       "sourceHash": "b81cc270b0333ff643e8af5f5cc2b4c6322e7f8b72f282356df809d4fb2282cd",
@@ -183,10 +186,10 @@
       "model": null
     },
     {
-      "overview": "Poursuivez la recherche de Chester grâce à une Loupe d'improbabilité. Pour obtenir définitivement cette loupe, récupérez trois étincelles divines en l'équipant sur votre tête. Partez ensuite vers le Temple de Kerubim, retrouvez Chester et remportez un combat en trois vagues avant de transmettre sa décision au Major Qiu.",
+      "overview": "Après la disparition de Chester, obtenez une Loupe d'improbabilité en aidant Kantik à récupérer trois étincelles divines. Utilisez ensuite la loupe pour retrouver Chester près du Temple de Kerubim, survivez au combat en trois vagues et transmettez sa décision au Major Qiu. Cette quête ouvre ensuite « Acides animés ».",
       "recommendedLevel": 110,
       "prerequisites": [
-        "Question de réputation."
+        "Avoir terminé Question de réputation."
       ],
       "rewards": [
         "2 625 000 XP.",
@@ -194,82 +197,76 @@
         "50 x Orichor."
       ],
       "preparation": [
-        "Prévoir plusieurs combats.",
-        "Penser à équiper la Loupe d'improbabilité sur la tête pour voir les étincelles divines et Chester."
+        "Prévoir plusieurs combats possibles pendant la collecte des étincelles.",
+        "La Loupe d'improbabilité doit être équipée sur la tête pour voir les étincelles et, plus tard, Chester.",
+        "Prévoir un combat obligatoire en trois vagues près de Chester."
       ],
       "actions": [
         {
-          "instruction": "À l'avant-poste, écoutez Baste puis parlez au Professeur Groschinder sur la même carte au sujet du chacha disparu. Il vous indique qu'une Loupe d'improbabilité permet d'observer les phénomènes invisibles.",
+          "instruction": "À l'avant-poste, parlez au Professeur Groschinder de la disparition de Chester. Il vous oriente vers une Loupe d'improbabilité.",
           "position": "[-1,-6]",
           "zoneHint": "Pierres de l'élévation",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Allez voir l'assistant Kantik. Il accepte de vous céder la loupe à condition que vous lui rapportiez des étincelles divines.",
+          "instruction": "Allez voir Kantik. Acceptez de lui rapporter trois étincelles divines afin qu'il vous cède la loupe, puis équipez la Loupe d'improbabilité sur votre tête.",
           "position": "[-1,-4]",
           "zoneHint": "Pierres de l'élévation",
-          "warning": null,
+          "warning": "Sans la loupe équipée, les étincelles ne peuvent pas être vues ni interrogées.",
           "combat": "NONE"
         },
         {
-          "instruction": "Équipez la Loupe d'improbabilité sur votre tête, puis parlez à la première étincelle divine.",
+          "instruction": "Trouvez et abordez la première étincelle divine avec la loupe équipée.",
           "position": "[1,-5]",
           "zoneHint": "Pierres de l'élévation",
-          "warning": "Chaque étincelle a une chance sur deux de déclencher un combat.",
+          "warning": "Un combat a une chance sur deux de se déclencher. Les ennemis peuvent frapper feu, voler de la vie et retirer 2 PM.",
           "combat": "CHOICE"
         },
         {
-          "instruction": "Toujours avec la loupe équipée, récupérez la deuxième étincelle divine.",
+          "instruction": "Avec la loupe toujours équipée, récupérez l'étincelle divine suivante.",
           "position": "[1,-8]",
           "zoneHint": "Pierres de l'élévation",
-          "warning": "Un combat peut se déclencher aléatoirement.",
+          "warning": "Un combat a une chance sur deux de se déclencher.",
           "combat": "CHOICE"
         },
         {
           "instruction": "Avec la loupe toujours équipée, récupérez la troisième étincelle divine.",
           "position": "[-2,-7]",
           "zoneHint": "Pierres de l'élévation",
-          "warning": "Un combat peut se déclencher aléatoirement.",
+          "warning": "Un combat a une chance sur deux de se déclencher.",
           "combat": "CHOICE"
         },
         {
-          "instruction": "Retournez auprès de Kantik et remettez-lui les trois étincelles. Il vous laisse alors la Loupe d'improbabilité.",
+          "instruction": "Rapportez les trois étincelles à Kantik afin d'obtenir définitivement la Loupe d'improbabilité.",
           "position": "[-1,-4]",
           "zoneHint": "Pierres de l'élévation",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Dirigez-vous vers le Temple de Kerubim.",
+          "instruction": "Dirigez-vous vers le secteur du Temple de Kerubim.",
           "position": "[-10,-11]",
           "zoneHint": "Temple de Kerubim",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Équipez la Loupe d'improbabilité sur votre tête puis allez retrouver Chester et tentez de le caresser.",
+          "instruction": "Équipez la Loupe d'improbabilité sur votre tête, rejoignez Chester et tentez de le caresser. Remportez ensuite le combat composé de trois vagues : Valet du Grand Jeu, puis Soldat du Grand Jeu, puis Valet du Grand Jeu.",
           "position": "[-12,-20]",
           "zoneHint": "Temple de Kerubim",
-          "warning": "La loupe doit être équipée pour poursuivre.",
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Remportez le combat en trois vagues : Valet du Grand Jeu, puis Soldat du Grand Jeu, puis un second Valet du Grand Jeu. À la fin du combat, vous obtenez une Carte Battue.",
-          "position": "[-12,-20]",
-          "zoneHint": "Temple de Kerubim",
-          "warning": "Combat en 3 vagues. Évitez le corps à corps avec les Valets et utilisez les obstacles pour réduire la portée du Soldat.",
+          "warning": "Combat obligatoire en trois vagues. Les Valets sont dangereux au corps à corps et peuvent voler des PM ; le Soldat dispose d'attaques à grande portée et peut appliquer Pacifiste ou Insoignable. Utilisez les obstacles et gardez vos distances.",
           "combat": "SOLO"
         },
         {
-          "instruction": "Reparlez à Chester avec la loupe équipée. Il vous annonce qu'il ne souhaite pas retourner à la tour des voyageurs.",
+          "instruction": "Après le combat, récupérez la Carte Battue puis reparlez à Chester avec la loupe équipée. Il vous annonce qu'il refuse de retourner à la tour des voyageurs.",
           "position": "[-12,-20]",
           "zoneHint": "Temple de Kerubim",
-          "warning": "La Loupe d'improbabilité doit rester équipée.",
+          "warning": "Gardez la Loupe d'improbabilité équipée pour pouvoir interagir correctement avec Chester.",
           "combat": "NONE"
         },
         {
-          "instruction": "Retournez à l'avant-poste et utilisez le Krosmoglob du Major Qiu pour lui annoncer que Chester ne reviendra pas. La quête se termine et débloque notamment Acides animés.",
+          "instruction": "Retournez à l'avant-poste et utilisez le Krosmoglob du Major Qiu pour lui annoncer que Chester ne reviendra pas. Terminez la conversation pour conclure la quête et débloquer « Acides animés ».",
           "position": "[-1,-6]",
           "zoneHint": "Pierres de l'élévation",
           "warning": null,
@@ -277,8 +274,8 @@
         }
       ],
       "notes": [
-        "Les étincelles divines ne sont visibles qu'avec la Loupe d'improbabilité équipée.",
-        "La quête débloque le succès Errances félines et l'accès à Acides animés."
+        "La quête précédente a déjà établi que Chester peut disparaître à volonté.",
+        "La fin de cette quête débloque directement la prochaine occurrence de l'étape, « Acides animés »."
       ],
       "npcs": [
         "Sergent Baste",
@@ -402,6 +399,8 @@
         ]
       },
       "questKey": "quest:950",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/matou-vu.html",
       "sourceTitle": "Matou vu​",
       "sourceHash": "bdc5dcbd768dd41e20bf70b3060b43efa0797147338c6a64f71ef7c90cf10076",
@@ -409,10 +408,10 @@
       "model": null
     },
     {
-      "overview": "Aidez le Professeur Groschinder à tester la résistance de plusieurs boucliers contre les sécrétions acides des Ecaflipuces. Récupérez deux premiers prototypes auprès de Fizik et affrontez deux Ecaflipuces acariâtres avec un bouclier différent à chaque fois. Après leur destruction, testez un troisième bouclier en etrok, qui résiste finalement à l'expérience.",
+      "overview": "Le Professeur Groschinder vous demande de tester plusieurs boucliers expérimentaux contre des Ecaflipuces acariâtres. Les deux premiers prototypes se brisent ; un troisième, fabriqué en etrok, résiste. Faites les trois essais et rendez compte au professeur afin d'enchaîner sur « Faut pas pousser ».",
       "recommendedLevel": 110,
       "prerequisites": [
-        "Matou vu."
+        "Avoir terminé Matou vu."
       ],
       "rewards": [
         "1 298 594 XP.",
@@ -421,61 +420,48 @@
         "5 x Peau de Gériatique."
       ],
       "preparation": [
-        "Prévoir 3 combats.",
-        "Chaque combat nécessite d'équiper le bouclier expérimental correspondant avant de parler à l'Ecaflipuce acariâtre."
+        "Prévoir trois combats contre des Ecaflipuces acariâtres.",
+        "Équiper le bouclier expérimental correspondant avant chacun des combats.",
+        "Les combats de test doivent être effectués seul."
       ],
       "actions": [
         {
-          "instruction": "Parlez au Professeur Groschinder. Il vous demande de tester des prototypes de boucliers contre les acides des Ecaflipuces.",
+          "instruction": "Parlez au Professeur Groschinder afin d'accepter les essais de résistance de ses boucliers, puis récupérez auprès de Fizik les deux premiers boucliers expérimentaux.",
           "position": "[-1,-6]",
           "zoneHint": "Pierres de l'élévation",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Récupérez les deux boucliers expérimentaux auprès de Fizik, situé au même endroit.",
-          "position": "[-1,-6]",
-          "zoneHint": "Pierres de l'élévation",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Équipez l'un des boucliers expérimentaux puis parlez à l'Ecaflipuce acariâtre et remportez le combat.",
+          "instruction": "Équipez l'un des boucliers expérimentaux et parlez à l'Ecaflipuce acariâtre pour lancer le premier test. Remportez le combat.",
           "position": "[-4,-8]",
           "zoneHint": "Pierres de l'élévation",
-          "warning": "Le bouclier doit être équipé avant de lancer le combat. Le combat doit être effectué seul.",
+          "warning": "Le bouclier doit être équipé avant le lancement. Combat seul. Tacler l'Ecaflipuce permet de fortement limiter son efficacité.",
           "combat": "SOLO"
         },
         {
-          "instruction": "Équipez le second bouclier expérimental puis affrontez la deuxième Ecaflipuce acariâtre.",
+          "instruction": "Équipez le second bouclier expérimental et remportez le deuxième combat contre l'Ecaflipuce acariâtre.",
           "position": "[0,-4]",
           "zoneHint": "Pierres de l'élévation",
-          "warning": "Le second bouclier doit être équipé avant de lancer le combat. Le combat doit être effectué seul.",
+          "warning": "Le second bouclier doit être équipé avant le combat. Combat seul.",
           "combat": "SOLO"
         },
         {
-          "instruction": "Retournez voir le Professeur Groschinder et annoncez-lui que les deux prototypes ont été détruits. Il décide de tester une nouvelle matière, l'etrok.",
+          "instruction": "Retournez auprès du Professeur Groschinder pour signaler que les deux prototypes se sont brisés. Récupérez ensuite auprès de Fizik le nouveau bouclier fabriqué en etrok.",
           "position": "[-1,-6]",
           "zoneHint": "Pierres de l'élévation",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Récupérez auprès de Fizik le nouveau bouclier expérimental en etrok.",
-          "position": "[-1,-6]",
-          "zoneHint": "Pierres de l'élévation",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Équipez le nouveau bouclier puis affrontez une troisième Ecaflipuce acariâtre. Cette fois, le prototype résiste.",
+          "instruction": "Équipez le bouclier en etrok puis lancez et remportez le troisième test contre une Ecaflipuce acariâtre.",
           "position": "[2,-8]",
           "zoneHint": "Pierres de l'élévation",
-          "warning": "Le bouclier doit être équipé avant le combat. Le combat doit être effectué seul.",
+          "warning": "Le bouclier en etrok doit être équipé avant le combat. Combat seul.",
           "combat": "SOLO"
         },
         {
-          "instruction": "Retournez auprès du Professeur Groschinder et montrez-lui le bouclier intact. La quête se termine et la discussion permet d'enchaîner sur Faut pas pousser.",
+          "instruction": "Retournez montrer le bouclier intact au Professeur Groschinder. Terminez le dialogue pour conclure la quête ; en poursuivant la conversation, vous enchaînez sur « Faut pas pousser ».",
           "position": "[-1,-6]",
           "zoneHint": "Pierres de l'élévation",
           "warning": null,
@@ -483,13 +469,13 @@
         }
       ],
       "notes": [
-        "Les Ecaflipuces acariâtres ont les mêmes caractéristiques que les gériatiques du Miausolée du Pounicheur.",
-        "La source indique qu'en les taclant, elles ne vous infligent aucun dégât.",
-        "La quête s'enchaîne directement avec Faut pas pousser."
+        "Les deux premiers boucliers sont destinés à se briser ; ce résultat fait partie du déroulement normal.",
+        "La prochaine occurrence de l'étape, « Faut pas pousser », s'enchaîne auprès du même PNJ."
       ],
       "npcs": [
         "Professeur Groschinder",
-        "Fizik"
+        "Fizik",
+        "Ecaflipuce acariâtre"
       ],
       "items": [
         {
@@ -499,7 +485,7 @@
           "dofusDbUrl": null
         },
         {
-          "name": "Bouclier expérimental en etrok",
+          "name": "Bouclier en etrok",
           "itemId": null,
           "imageUrl": null,
           "dofusDbUrl": null
@@ -554,6 +540,8 @@
         ]
       },
       "questKey": "quest:958",
+      "relation": "ACTIVE",
+      "sortOrder": 2,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/acides-animeacutes.html",
       "sourceTitle": "Acides animés",
       "sourceHash": "8ad95e241d3a1478292c149ee153d94968c7b441e20ff1322b3fa0275e942b5e",
@@ -561,10 +549,10 @@
       "model": null
     },
     {
-      "overview": "Testez successivement trois prototypes de robot conçus par le Professeur Groschinder contre des croqueurs de pierre. Le FMR combat à vos côtés mais ne résiste pas, le ICKC finit par prendre la fuite, puis le GACOBI se rebelle et devient votre adversaire. Après ce dernier essai raté, retournez faire votre rapport au professeur.",
+      "overview": "Dans la continuité d'« Acides animés », testez successivement trois prototypes de robots du Professeur Groschinder contre des croqueurs de pierre. Les essais du FMR et de l'ICKC échouent, puis le GACOBI se retourne contre vous. Faites chaque rapport au professeur pour terminer cette portion avant l'étape suivante du guide.",
       "recommendedLevel": 110,
       "prerequisites": [
-        "Acides animés."
+        "Avoir terminé Acides animés."
       ],
       "rewards": [
         "1 298 594 XP.",
@@ -573,53 +561,55 @@
         "5 x Œil de Morcac."
       ],
       "preparation": [
-        "Prévoir 3 combats."
+        "Prévoir trois combats.",
+        "Les prototypes FMR et ICKC interviennent comme alliés pendant leurs essais.",
+        "Lors du dernier essai, le prototype GACOBI devient votre adversaire."
       ],
       "actions": [
         {
-          "instruction": "Après Acides animés, poursuivez immédiatement la discussion avec le Professeur Groschinder. Il vous confie des prototypes de robots à tester contre des croqueurs de pierre.",
+          "instruction": "Poursuivez la conversation avec le Professeur Groschinder afin d'accepter les tests de robots contre les croqueurs de pierre.",
           "position": "[-1,-6]",
           "zoneHint": "Pierres de l'élévation",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Affrontez un premier croqueur de pierre avec le prototype FMR comme allié. Le robot repousse de 4 cases et inflige de faibles dégâts neutres.",
+          "instruction": "Affrontez le premier croqueur de pierre avec le prototype FMR comme allié. Le robot repousse de 4 cases et peut mourir sans bloquer la quête.",
           "position": "[0,-3]",
           "zoneHint": "Pierres de l'élévation",
-          "warning": "La mort du prototype FMR pendant le combat n'empêche pas la progression de la quête.",
+          "warning": "La survie du prototype FMR n'est pas une condition de réussite.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Retournez voir le Professeur Groschinder après l'échec du FMR. Il vous confie le prototype ICKC.",
+          "instruction": "Retournez faire votre rapport au Professeur Groschinder et recevez le prototype ICKC pour le deuxième essai.",
           "position": "[-1,-6]",
           "zoneHint": "Pierres de l'élévation",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Combattez un nouveau croqueur de pierre avec le prototype ICKC. L'adversaire est identique, mais votre allié est plus résistant. Le robot finit toutefois par prendre la fuite.",
+          "instruction": "Affrontez un nouveau croqueur de pierre avec le prototype ICKC. Terminez le combat même si le robot finit par prendre la fuite.",
           "position": "[-2,-5]",
           "zoneHint": "Pierres de l'élévation",
-          "warning": null,
+          "warning": "La fuite du prototype est prévue par la quête.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Retournez raconter la fuite du ICKC au Professeur Groschinder. Il vous remet alors le robot GACOBI.",
+          "instruction": "Retournez raconter l'échec de l'ICKC au Professeur Groschinder et récupérez le prototype GACOBI.",
           "position": "[-1,-6]",
           "zoneHint": "Pierres de l'élévation",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Rendez-vous au troisième lieu de test. Cette fois, le prototype GACOBI se rebelle et vous attaque. Battez-le pour poursuivre.",
+          "instruction": "Lancez le troisième essai. Le GACOBI se rebelle : remportez le combat contre ce prototype, capable de pousser de 4 cases en ligne ou en diagonale tout en infligeant des dégâts neutres.",
           "position": "[-6,-9]",
           "zoneHint": "Pierres de l'élévation",
-          "warning": "Le GACOBI inflige des dégâts neutres et pousse de 4 cases, en ligne ou en diagonale.",
+          "warning": "Le robot supposé allié devient ici un ennemi ; anticipez ses poussées de 4 cases.",
           "combat": "SOLO"
         },
         {
-          "instruction": "Retournez auprès du Professeur Groschinder pour signaler la rébellion du prototype. La quête se termine et Testé et approuvé devient accessible.",
+          "instruction": "Retournez auprès du Professeur Groschinder et faites-lui votre rapport sur le comportement du GACOBI. La quête se termine lorsqu'il évoque la synthèse de l'etork.",
           "position": "[-1,-6]",
           "zoneHint": "Pierres de l'élévation",
           "warning": null,
@@ -627,11 +617,15 @@
         }
       ],
       "notes": [
-        "L'ordre des croqueurs de pierre mentionné par la source n'a pas d'importance pour les différentes étapes de test.",
-        "La quête débloque Testé et approuvé."
+        "Ne poursuivez pas ici la quête suivante « Testé et approuvé » : elle appartient à l'étape 118.",
+        "La mort du FMR et la fuite de l'ICKC n'empêchent pas la progression."
       ],
       "npcs": [
-        "Professeur Groschinder"
+        "Professeur Groschinder",
+        "Prototype FMR",
+        "Prototype ICKC",
+        "Robot GACOBI",
+        "Croqueur de pierre"
       ],
       "items": [],
       "bestiary": {
@@ -683,6 +677,8 @@
         ]
       },
       "questKey": "quest:959",
+      "relation": "ACTIVE",
+      "sortOrder": 3,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/faut-pas-pousser.html",
       "sourceTitle": "Faut pas pousser",
       "sourceHash": "e4d29d5e2b5dbee7a55060e2d2350961d14ec8718d3df7b21c4f5810480cfb7e",
@@ -690,7 +686,7 @@
       "model": null
     },
     {
-      "overview": "Aidez le Sergent Baste à transmettre un plan d'extraction à l'agent Gélik. Après une attaque massive d'Ecaflipuces, récupérez les vieilles sandales de Gélik, nettoyez-les puis rapportez-les à leur propriétaire avant de revenir faire votre compte-rendu au sergent.",
+      "overview": "Aidez le Sergent Baste à transmettre un plan d'extraction à l'agent Gélik. Après une attaque massive d'Ecaflipuces, récupérez ses vieilles sandales, faites-les nettoyer à l'avant-poste et rapportez-les à Gélik avant de rendre votre compte-rendu au Sergent.",
       "recommendedLevel": 110,
       "prerequisites": [],
       "rewards": [
@@ -700,53 +696,47 @@
         "5 x Palpe de Pikbul."
       ],
       "preparation": [
-        "Prévoir 1 combat réalisable en groupe."
+        "Prévoir un combat contre huit monstres de la zone.",
+        "Pendant ce combat, l'agent Gélik doit rester en vie."
       ],
       "actions": [
         {
-          "instruction": "Parlez au Sergent Baste et proposez votre aide. Prenez le plan de fonctionnement de l'extraction qu'il souhaite faire transmettre à l'agent Gélik.",
+          "instruction": "Parlez au Sergent Baste, proposez votre aide et prenez le plan de fonctionnement de l'extraction destiné à l'agent Gélik.",
           "position": "[-1,-6]",
           "zoneHint": "Pierres de l'élévation",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Retrouvez l'agent Gélik et remettez-lui le plan. Elle constate que l'extraction a déjà été réalisée dans le secteur, ce qui déclenche la colère des Ecaflipuces.",
+          "instruction": "Retrouvez l'agent Gélik et remettez-lui le plan. Une attaque se déclenche : protégez Gélik et éliminez les huit monstres de la zone.",
           "position": "[-5,-9]",
           "zoneHint": "Pierres de l'élévation",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Remportez le combat contre huit monstres de la zone en protégeant l'agent Gélik. Après la victoire, vous obtenez un Furoncle d'Ecaflipuce.",
-          "position": "[-5,-9]",
-          "zoneHint": "Pierres de l'élévation",
-          "warning": "Le combat échoue si l'agent Gélik meurt.",
+          "warning": "Combat de groupe possible. L'échec est provoqué si l'agent Gélik meurt ; surveillez sa survie pendant tout l'affrontement.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Après le combat, parlez à Gélik. Incapable de marcher, elle vous demande de récupérer sa paire de vieilles sandales.",
+          "instruction": "Après la victoire, récupérez le Furoncle d'Ecaflipuce puis écoutez Gélik, qui vous demande de retrouver sa paire de vieilles sandales.",
           "position": "[-5,-9]",
           "zoneHint": "Pierres de l'élévation",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Retournez à l'avant-poste et interrogez l'agent Léon. Il vous apprend qu'il a jeté les sandales plus bas dans la zone.",
+          "instruction": "Retournez à l'avant-poste et interrogez l'agent Léon au sujet des sandales. Il vous apprend qu'il les a jetées plus bas dans la zone.",
           "position": "[-1,-6]",
           "zoneHint": "Pierres de l'élévation",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Récupérez les vieilles sandales gardées par une gériatique en insistant pour vous en emparer.",
+          "instruction": "Récupérez les vieilles sandales gardées par une gériatique et insistez pour vous en emparer.",
           "position": "[1,-3]",
           "zoneHint": "Pierres de l'élévation",
-          "warning": null,
+          "warning": "Une gériatique garde les sandales.",
           "combat": "NONE"
         },
         {
-          "instruction": "Retournez à l'avant-poste et donnez les sandales à l'agent Léon. Il vous demande finalement de les nettoyer vous-même.",
+          "instruction": "Retournez à l'avant-poste et présentez les sandales à l'agent Léon. Suivez le dialogue afin de vous charger de leur décrassage.",
           "position": "[-1,-6]",
           "zoneHint": "Pierres de l'élévation",
           "warning": null,
@@ -760,7 +750,7 @@
           "combat": "NONE"
         },
         {
-          "instruction": "Revenez auprès du Sergent Baste pour faire votre compte-rendu et terminer la quête.",
+          "instruction": "Retournez enfin auprès du Sergent Baste et faites votre compte-rendu pour terminer la quête.",
           "position": "[-1,-6]",
           "zoneHint": "Pierres de l'élévation",
           "warning": null,
@@ -768,9 +758,8 @@
         }
       ],
       "notes": [
-        "Le combat principal oppose le groupe à huit monstres de la zone.",
-        "La survie de l'agent Gélik est obligatoire pendant le combat.",
-        "La quête débloque Le Jeu du Chaminou."
+        "La quête débloque ensuite « Le Jeu du Chaminou », mais cette quête n'est pas à effectuer dans cette occurrence.",
+        "Le combat principal est la seule étape où la survie d'un PNJ allié constitue une condition importante."
       ],
       "npcs": [
         "Sergent Baste",
@@ -845,6 +834,8 @@
         ]
       },
       "questKey": "quest:944",
+      "relation": "ACTIVE",
+      "sortOrder": 4,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/puce-de-luxe.html",
       "sourceTitle": "Puce de luxe",
       "sourceHash": "cc9237871215f23d1dedcf4258edd1da0874fe268cfcf7f1ac1e507ebba2d70b",
@@ -852,9 +843,11 @@
       "model": null
     },
     {
-      "overview": "Terminez la mission confiée par le Docteur Gaw en récoltant cinq œufs d'Ecaflipuce dans les Pierres de l'élévation. Les œufs se trouvent dans des trous répartis sur cinq cartes et leur collecte peut provoquer une agression par une Ecaflipuce vigilante. Une fois les cinq œufs obtenus, remettez-les au sergent de l'avant-poste.",
+      "overview": "La quête a déjà été lancée auprès du Docteur Gaw à l'étape 116. Reprenez-la maintenant à Ecaflipus : récoltez cinq œufs d'Ecaflipuce dans les Pierres de l'élévation, puis remettez-les au Sergent Blaste pour terminer la quête.",
       "recommendedLevel": 110,
-      "prerequisites": [],
+      "prerequisites": [
+        "Avoir déjà lancé Ça saute aux oeufs auprès du Docteur Gaw en [-22,-24] à l'étape précédente."
+      ],
       "rewards": [
         "1 298 594 XP.",
         "14 280 kamas.",
@@ -862,46 +855,19 @@
         "5 x Patte de Pupuce."
       ],
       "preparation": [
-        "Prévoir des combats aléatoires pendant la collecte."
+        "Prévoir d'éventuelles agressions par une Ecaflipuce vigilante pendant la récolte.",
+        "Il faut récupérer exactement cinq œufs d'Ecaflipuce."
       ],
       "actions": [
         {
-          "instruction": "Dans les Pierres de l'élévation, fouillez le trou présent sur cette carte pour récupérer un œuf d'Ecaflipuce.",
-          "position": "[-2,-7]",
+          "instruction": "Dans les Pierres de l'élévation, cliquez sur les trous contenant des œufs d'Ecaflipuce jusqu'à en obtenir cinq. Les emplacements disponibles sont [-2,-7], [-1,-7], [-1,-8], [0,-7] et [2,-8].",
+          "position": null,
           "zoneHint": "Pierres de l'élévation",
-          "warning": "Une Ecaflipuce vigilante peut vous agresser pendant la collecte.",
+          "warning": "Une Ecaflipuce vigilante peut vous agresser aléatoirement pendant la collecte.",
           "combat": "CHOICE"
         },
         {
-          "instruction": "Fouillez le trou de cette carte afin de récupérer un autre œuf d'Ecaflipuce.",
-          "position": "[-1,-7]",
-          "zoneHint": "Pierres de l'élévation",
-          "warning": "Une Ecaflipuce vigilante peut vous agresser pendant la collecte.",
-          "combat": "CHOICE"
-        },
-        {
-          "instruction": "Fouillez le trou de cette carte pour obtenir un œuf d'Ecaflipuce supplémentaire.",
-          "position": "[-1,-8]",
-          "zoneHint": "Pierres de l'élévation",
-          "warning": "Une Ecaflipuce vigilante peut vous agresser pendant la collecte.",
-          "combat": "CHOICE"
-        },
-        {
-          "instruction": "Récupérez un autre œuf d'Ecaflipuce dans le trou présent sur cette carte.",
-          "position": "[0,-7]",
-          "zoneHint": "Pierres de l'élévation",
-          "warning": "Une Ecaflipuce vigilante peut vous agresser pendant la collecte.",
-          "combat": "CHOICE"
-        },
-        {
-          "instruction": "Récupérez le dernier des cinq œufs d'Ecaflipuce dans le trou présent sur cette carte.",
-          "position": "[2,-8]",
-          "zoneHint": "Pierres de l'élévation",
-          "warning": "Une Ecaflipuce vigilante peut vous agresser pendant la collecte.",
-          "combat": "CHOICE"
-        },
-        {
-          "instruction": "Une fois les cinq œufs réunis, allez à l'avant-poste et remettez-les au Sergent Baste pour terminer la quête.",
+          "instruction": "Une fois les cinq œufs réunis, remettez-les au Sergent Blaste pour terminer la quête.",
           "position": "[-1,-6]",
           "zoneHint": "Pierres de l'élévation",
           "warning": null,
@@ -909,12 +875,12 @@
         }
       ],
       "notes": [
-        "Cette étape correspond à la fin d'une quête commencée précédemment auprès du Docteur Gaw en [-22,-24].",
-        "Il faut réunir exactement cinq œufs d'Ecaflipuce."
+        "Le lancement auprès du Docteur Gaw a déjà été effectué à l'étape 116 et ne doit pas être répété ici.",
+        "Cette occurrence ne demande que la collecte des cinq œufs puis leur remise au Sergent Blaste."
       ],
       "npcs": [
         "Docteur Gaw",
-        "Sergent Baste"
+        "Sergent Blaste"
       ],
       "items": [
         {
@@ -975,6 +941,8 @@
         ]
       },
       "questKey": "quest:947",
+      "relation": "FINISH",
+      "sortOrder": 5,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/ccedila-saute-aux-oeufs.html",
       "sourceTitle": "Ça saute aux oeufs",
       "sourceHash": "d032b6d6049e2f0a9561f6c3cac489678827a5c87a8e03d11ae4b4e7c429c669",
@@ -984,16 +952,16 @@
   ],
   "tips": [
     {
-      "title": "Profiter du passage aux Pierres de l'élévation",
-      "description": "Puce de Luxe et la fin de Ça saute aux oeufs se déroulent toutes deux dans les Pierres de l'élévation et passent par l'avant-poste en [-1,-6]. Si les deux quêtes sont actives, profitez de vos déplacements dans la zone pour ramasser les cinq œufs et avancer les trajets de Gélik et de ses sandales avant de revenir voir Baste.",
+      "title": "Profiter des Pierres de l'élévation",
+      "description": "La majorité des objectifs de cette étape se déroulent dans les Pierres de l'élévation. La collecte des œufs de « Ça saute aux oeufs », indépendante des quêtes séquentielles de Groschinder, peut être avancée pendant vos déplacements dans cette zone, tout comme « Puce de Luxe ».",
       "questKeys": [
+        "quest:947",
         "quest:944",
-        "quest:947"
+        "quest:950"
       ],
       "actions": [
-        "Prenez Puce de Luxe auprès de Baste en [-1,-6] avant de parcourir la zone.",
-        "Lors de vos déplacements, passez par [-2,-7], [-1,-7], [-1,-8], [0,-7] et [2,-8] pour récupérer les cinq œufs.",
-        "Regroupez vos retours à l'avant-poste en [-1,-6] lorsque les objectifs des deux quêtes le permettent."
+        "Cliquez sur les trous à œufs rencontrés aux positions [-2,-7], [-1,-7], [-1,-8], [0,-7] et [2,-8] pendant vos trajets de « Matou vu » ou « Puce de Luxe ».",
+        "Lorsque vous repassez en [-1,-6], regroupez autant que possible les dialogues auprès des PNJ de l'avant-poste correspondant aux quêtes déjà rendues disponibles."
       ]
     }
   ]

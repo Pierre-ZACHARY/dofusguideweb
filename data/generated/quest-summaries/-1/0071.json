@@ -1,8 +1,387 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 71,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T11:28:43.364Z",
+  "summaries": [
+    {
+      "overview": "Lancez La vengeance du Kito auprès du pilote du scaéroplane du village côtier. La quête demandera ensuite de vaincre un Sparo, un Barboussa et un Flib, mais ces combats sont volontairement reportés : le guide enchaîne d'abord sur Le Gardien du Pont de la Mort afin d'obtenir l'accès nécessaire à la Cale de l'Arche d'Otomaï.",
+      "recommendedLevel": 80,
+      "prerequisites": [],
+      "rewards": [
+        "594 972 XP.",
+        "7 980 kamas.",
+        "5 x Barbe inexistante du Barbroussa.",
+        "Scaéroplane du village côtier."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parlez à Kito, pilote du scaéroplane du village côtier, et acceptez sa mission contre les pirates de l'Arche d'Otomaï.",
+          "position": "[-49,14]",
+          "zoneHint": "Plaines herbeuses",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Ne cherchez pas encore à vaincre le Sparo, le Barboussa et le Flib à cette occurrence.",
+        "Ces trois monstres pourront notamment être vaincus dans la Cale de l'Arche d'Otomaï ou son donjon, après avoir terminé Le Gardien du Pont de la Mort ; l'arène est également une possibilité.",
+        "La quête se terminera automatiquement plus tard lorsque vous aurez vaincu au moins un Sparo, un Barboussa et un Flib."
+      ],
+      "npcs": [
+        "Kito"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 454,
+            "name": "Plaines herbeuses",
+            "coordinates": [
+              "-49,14"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 5073,
+            "name": "Gobrechaun",
+            "level": 110,
+            "imageUrl": "/bestiary/monsters/5073.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2556,
+            "name": "Craquetou le Fissuré",
+            "level": 93,
+            "imageUrl": "/bestiary/monsters/2556.png"
+          },
+          {
+            "id": 2580,
+            "name": "Mufguedin le Suprême",
+            "level": 94,
+            "imageUrl": "/bestiary/monsters/2580.png"
+          },
+          {
+            "id": 2571,
+            "name": "Kido l'Âtre",
+            "level": 95,
+            "imageUrl": "/bestiary/monsters/2571.png"
+          },
+          {
+            "id": 2561,
+            "name": "Crathdogue le Cruel",
+            "level": 96,
+            "imageUrl": "/bestiary/monsters/2561.png"
+          },
+          {
+            "id": 2547,
+            "name": "Toufou le Benêt",
+            "level": 97,
+            "imageUrl": "/bestiary/monsters/2547.png"
+          },
+          {
+            "id": 2572,
+            "name": "Kilimanj'haro le Grimpeur",
+            "level": 98,
+            "imageUrl": "/bestiary/monsters/2572.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 166,
+            "name": "Herboricoles",
+            "monsters": [
+              {
+                "id": 1019,
+                "name": "Bitouf des Plaines",
+                "level": 97,
+                "imageUrl": "/bestiary/monsters/1019.png"
+              },
+              {
+                "id": 1026,
+                "name": "Craqueboule Poli",
+                "level": 93,
+                "imageUrl": "/bestiary/monsters/1026.png"
+              },
+              {
+                "id": 1025,
+                "name": "Craqueleur Poli",
+                "level": 96,
+                "imageUrl": "/bestiary/monsters/1025.png"
+              },
+              {
+                "id": 1069,
+                "name": "Kido",
+                "level": 95,
+                "imageUrl": "/bestiary/monsters/1069.png"
+              },
+              {
+                "id": 1070,
+                "name": "Kilibriss",
+                "level": 98,
+                "imageUrl": "/bestiary/monsters/1070.png"
+              },
+              {
+                "id": 1068,
+                "name": "Mufafah",
+                "level": 94,
+                "imageUrl": "/bestiary/monsters/1068.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:114",
+      "relation": "START",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-vengeance-du-kito.html",
+      "sourceTitle": "La vengeance du Kito",
+      "sourceHash": "02b83d3bb93339b2027fadcb9dc1cd185552dfc7a48f0e1ff07d26efee1f052c",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Reprenez Le Gardien du Pont de la Mort et franchissez son questionnaire sans erreur. Les réponses dépendent en partie de votre personnage, de l'attitude Croiser les Bras et de vos pods libres. Une bonne série de réponses termine la quête et ouvre l'accès à la tourbière sans fond, nécessaire pour poursuivre le parcours sur Otomaï.",
+      "recommendedLevel": 80,
+      "prerequisites": [
+        "Avoir déjà lancé Le Gardien du Pont de la Mort."
+      ],
+      "rewards": [
+        "148 743 XP.",
+        "Accès à la tourbière sans fond."
+      ],
+      "preparation": [
+        "Vérifiez le sexe de votre personnage.",
+        "Vérifiez si votre personnage connaît l'attitude Croiser les Bras.",
+        "Contrôlez le nombre de pods actuellement libres afin de choisir la bonne réponse à la question des coraux morito."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez au gardien du pont et, à la question sur votre couleur préférée, choisissez une couleur quelconque sauf « J'aime une autre couleur ».",
+          "position": "[-56,0]",
+          "zoneHint": "Plage de Corail",
+          "warning": "Une seule mauvaise réponse déclenche un combat punitif contre le gardien.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "À la question sur l'enfant de vos parents qui n'est ni votre frère ni votre sœur, indiquez le sexe de votre personnage.",
+          "position": "[-56,0]",
+          "zoneHint": "Plage de Corail",
+          "warning": "La réponse dépend du sexe de votre personnage en jeu.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "À la question sur le fait de savoir croiser les bras, répondez oui uniquement si vous connaissez l'attitude Croiser les Bras ; sinon répondez non.",
+          "position": "[-56,0]",
+          "zoneHint": "Plage de Corail",
+          "warning": "La réponse dépend des attitudes apprises par votre personnage.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Pour la question des coraux morito et des pods, répondez 100 coraux si vous avez de 0 à 499 pods libres, 200 si vous en avez de 500 à 1499, 400 si vous en avez de 1500 à 2499, ou 600 si vous avez au moins 2500 pods libres.",
+          "position": "[-56,0]",
+          "zoneHint": "Plage de Corail",
+          "warning": "Ne choisissez pas la dernière proposition destinée à recommencer la quête : elle entraîne une défaite certaine. Une réponse incorrecte au questionnaire déclenche également le combat contre le gardien.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "À la question sur la couleur de la Dragodinde blanche d'Henry Kard, répondez qu'elle est blanche.",
+          "position": "[-56,0]",
+          "zoneHint": "Plage de Corail",
+          "warning": "Une erreur déclenche le combat contre le gardien.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "À la question sur le nombre de noix de grokoko qu'un Corbac peut porter, demandez s'il s'agit d'un Corbac normal ou d'un vilain petit Corbac.",
+          "position": "[-56,0]",
+          "zoneHint": "Plage de Corail",
+          "warning": "Ne choisissez pas une réponse numérique au hasard : une mauvaise réponse déclenche le combat contre le gardien.",
+          "combat": "CHOICE"
+        }
+      ],
+      "notes": [
+        "Après la dernière bonne réponse, le gardien reconnaît sa défaite, la quête se termine et l'accès à la tourbière sans fond est débloqué.",
+        "Cet accès permettra ensuite de poursuivre La vengeance du Kito en allant combattre les pirates demandés, mais ces combats ne font pas partie des actions de cette occurrence."
+      ],
+      "npcs": [
+        "Gardien du Pont de la Mort",
+        "Henry Kard"
+      ],
+      "items": [
+        {
+          "name": "Corail morito",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Ceinture du Bouftou",
+          "itemId": 2428,
+          "imageUrl": "/items/2428.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2428"
+        },
+        {
+          "name": "Ceinture du Rasboul",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Sac en poils de Bitouf",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Noix de grokoko",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 453,
+            "name": "Plage de Corail",
+            "coordinates": [
+              "-56,0",
+              "499,400"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2559,
+            "name": "Cruskof le Rustre",
+            "level": 36,
+            "imageUrl": "/bestiary/monsters/2559.png"
+          },
+          {
+            "id": 2560,
+            "name": "Crusmeyer le Pervers",
+            "level": 36,
+            "imageUrl": "/bestiary/monsters/2560.png"
+          },
+          {
+            "id": 2558,
+            "name": "Crustensyl le Pragmatique",
+            "level": 36,
+            "imageUrl": "/bestiary/monsters/2558.png"
+          },
+          {
+            "id": 2557,
+            "name": "Crustterus l'Organique",
+            "level": 36,
+            "imageUrl": "/bestiary/monsters/2557.png"
+          },
+          {
+            "id": 2581,
+            "name": "Palmbytch la Bronzée",
+            "level": 37,
+            "imageUrl": "/bestiary/monsters/2581.png"
+          },
+          {
+            "id": 2583,
+            "name": "Palmiche le Serein",
+            "level": 37,
+            "imageUrl": "/bestiary/monsters/2583.png"
+          },
+          {
+            "id": 2584,
+            "name": "Palmiflette le Convivial",
+            "level": 37,
+            "imageUrl": "/bestiary/monsters/2584.png"
+          },
+          {
+            "id": 2582,
+            "name": "Palmito le Menteur",
+            "level": 37,
+            "imageUrl": "/bestiary/monsters/2582.png"
+          },
+          {
+            "id": 2555,
+            "name": "Corboyard l'Enigmatique",
+            "level": 38,
+            "imageUrl": "/bestiary/monsters/2555.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 165,
+            "name": "Colonie du Magistral",
+            "monsters": [
+              {
+                "id": 1022,
+                "name": "Corailleur",
+                "level": 38,
+                "imageUrl": "/bestiary/monsters/1022.png"
+              },
+              {
+                "id": 1060,
+                "name": "Crustorail Kouraçao",
+                "level": 36,
+                "imageUrl": "/bestiary/monsters/1060.png"
+              },
+              {
+                "id": 1061,
+                "name": "Crustorail Malibout",
+                "level": 36,
+                "imageUrl": "/bestiary/monsters/1061.png"
+              },
+              {
+                "id": 1063,
+                "name": "Crustorail Morito",
+                "level": 36,
+                "imageUrl": "/bestiary/monsters/1063.png"
+              },
+              {
+                "id": 1062,
+                "name": "Crustorail Passaoh",
+                "level": 36,
+                "imageUrl": "/bestiary/monsters/1062.png"
+              },
+              {
+                "id": 1064,
+                "name": "Palmifleur Kouraçao",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/1064.png"
+              },
+              {
+                "id": 1065,
+                "name": "Palmifleur Malibout",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/1065.png"
+              },
+              {
+                "id": 1067,
+                "name": "Palmifleur Morito",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/1067.png"
+              },
+              {
+                "id": 1066,
+                "name": "Palmifleur Passaoh",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/1066.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:102",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-gardien-du-pont-de-la-mort.html",
+      "sourceTitle": "Le gardien du pont de la mort",
+      "sourceHash": "87c81b126bbb10b77172f6945afd2d5e73aa64162de5a5d6d690cc3400e0d0f6",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

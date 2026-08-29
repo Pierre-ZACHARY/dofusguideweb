@@ -6,6 +6,7 @@ dist/
 coverage/
 prompt/
 .env
+.dev.vars
 *.log
 *.sql
 !drizzle/

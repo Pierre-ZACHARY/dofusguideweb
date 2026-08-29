@@ -1,8 +1,843 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 143,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T14:23:12.412Z",
+  "summaries": [
+    {
+      "overview": "Lancez A fleur de peau afin d'obtenir l'objectif de récupérer 40 Rhubarbe à papa. Ne cherchez pas encore à terminer la collecte : le parcours demande d'abord de lancer Les chasseurs, et les combats effectués ensuite au Lac gelé permettront d'obtenir progressivement ces objets de quête.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Niveau recommandé : 130.",
+        "Avoir terminé Botanique-nique-nique."
+      ],
+      "rewards": [
+        "3 971 945 XP.",
+        "38 960 kamas.",
+        "2 x Kama de glace.",
+        "5 x Peau de Mansobèse."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parlez à Bisale Vinlenta et acceptez de l'aider afin de lancer A fleur de peau. La quête demande alors de récupérer 40 Rhubarbe à papa sur les monstres du Lac gelé.",
+          "position": "[-72,-31]",
+          "zoneHint": "Champs de glace",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Arrêtez-vous après le lancement de la quête et passez à Les chasseurs, conformément à l'ordre du guide.",
+        "Les 40 Rhubarbe à papa s'obtiennent automatiquement en combattant des monstres du Lac gelé ; leur collecte et le retour à Bisale Vinlenta seront effectués plus tard."
+      ],
+      "npcs": [
+        "Bisale Vinlenta"
+      ],
+      "items": [
+        {
+          "name": "Rhubarbe à papa",
+          "itemId": 11160,
+          "imageUrl": "/items/11160.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11160"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 602,
+            "name": "Champs de glace",
+            "coordinates": [
+              "-72,-31"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2901,
+            "name": "Bouflouth",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/2901.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 156,
+            "name": "Boufmouths",
+            "monsters": [
+              {
+                "id": 2850,
+                "name": "Boufmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2850.png"
+              },
+              {
+                "id": 2851,
+                "name": "Boufmouth de guerre",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2851.png"
+              },
+              {
+                "id": 2852,
+                "name": "Boufmouth légendaire",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2852.png"
+              },
+              {
+                "id": 2853,
+                "name": "Bouftonmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2853.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:337",
+      "relation": "START",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/a-fleur-de-peau.html",
+      "sourceTitle": "A fleur de peau",
+      "sourceHash": "b2900c69266d998454b5aee47be674b25b0841754d52d6e823a53c2f55918e6b",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez Les chasseurs puis suivez la piste de Gérard jusqu'à l'entrée de la caverne des mansots. Cette occurrence s'arrête dès que la quête demande de fouiller la caverne à sa recherche : ne cliquez pas encore sur le chariot de glace et ne faites pas l'Excavation du Mansot Royal.",
+      "recommendedLevel": 140,
+      "prerequisites": [
+        "Niveau recommandé : 140.",
+        "Avoir terminé Promenons-nous dans les bois."
+      ],
+      "rewards": [
+        "4 311 804 XP.",
+        "44 760 kamas.",
+        "2 x Kama de glace.",
+        "1 x Arête géante du Shamansot."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parlez à Clyde Parker et demandez-lui une autre mission pour lancer Les chasseurs et partir à la recherche de Gérard.",
+          "position": "[-76,-42]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez Dramar au sujet de Gérard.",
+          "position": "[-67,-54]",
+          "zoneHint": "Lac gelé",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir Aurore Boréale et demandez-lui des renseignements sur Gérard.",
+          "position": "[-61,-58]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Mel à l'entrée du donjon des Mansots. Elle vous indique que Gérard est parti vers la caverne des mansots.",
+          "position": "[-64,-55]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Descendez vers la caverne des mansots jusqu'à obtenir l'objectif demandant de fouiller la caverne à la recherche de Gérard, puis arrêtez-vous ici.",
+          "position": null,
+          "zoneHint": "Caverne des mansots",
+          "warning": "Ne cliquez pas encore sur le chariot de glace et ne lancez pas l'Excavation du Mansot Royal à cette occurrence.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La fouille du chariot, l'Excavation du Mansot Royal, l'obtention des Bijoux de famille de Gérard et le retour à Clyde Parker sont volontairement reportés à l'étape suivante."
+      ],
+      "npcs": [
+        "Clyde Parker",
+        "Dramar",
+        "Aurore Boréale",
+        "Mel"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 601,
+            "name": "La Bourgade",
+            "coordinates": [
+              "-76,-42"
+            ]
+          },
+          {
+            "id": 615,
+            "name": "Lac gelé",
+            "coordinates": [
+              "-67,-54",
+              "-61,-58",
+              "-64,-55"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2902,
+            "name": "Monsieur Pingouin",
+            "level": 130,
+            "imageUrl": "/bestiary/monsters/2902.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2913,
+                "name": "Chachachovage",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2913.png"
+              },
+              {
+                "id": 2893,
+                "name": "Crabe Hijacob",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2893.png"
+              },
+              {
+                "id": 2914,
+                "name": "Gélikan",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2914.png"
+              },
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          },
+          {
+            "id": 160,
+            "name": "Mansots",
+            "monsters": [
+              {
+                "id": 2858,
+                "name": "Fu Mansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2858.png"
+              },
+              {
+                "id": 2857,
+                "name": "Mamansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2857.png"
+              },
+              {
+                "id": 2856,
+                "name": "Mansobèse",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2856.png"
+              },
+              {
+                "id": 2855,
+                "name": "Shamansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2855.png"
+              },
+              {
+                "id": 2849,
+                "name": "Timansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2849.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:359",
+      "relation": "START",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/les-chasseurs.html",
+      "sourceTitle": "Les chasseurs",
+      "sourceHash": "b8ac5f3eaf68ca55112290e4fe0dfa4b52392fd5f6463bc2d4bd2542c9e65db2",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez Pêche en eaux gelées auprès de Damar et avancez uniquement jusqu'à l'apparition de l'objectif comprenant la récupération de 50 Graisse de mansot. Ne cherchez pas encore à réunir toute la liste ni à la rendre : les combats de La marche de l'impératrice feront progresser cette collecte passivement.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Niveau recommandé : 130.",
+        "Bricole Girl sera nécessaire plus tard pour franchir une étape de la quête."
+      ],
+      "rewards": [
+        "7 943 890 XP.",
+        "77 920 kamas.",
+        "6 x Kama de glace.",
+        "1 x Oreille du Fu Mansot.",
+        "5 x Queue du Fu Mansot.",
+        "1 x Arête géante du Shamansot.",
+        "5 x Poil de barbe du Shamansot."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parlez à Damar et acceptez de l'aider à réparer et alimenter son matériel. Vérifiez que l'objectif de collecte est actif, notamment 50 x Graisse de mansot, puis arrêtez cette quête pour le moment.",
+          "position": "[-67,-54]",
+          "zoneHint": "Lac gelé",
+          "warning": "Les ressources devront être remises ensemble plus tard ; ne cherchez pas à rendre une collecte partielle.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "L'objectif complet demande également 35 x Bois de Tremble, 30 x Laine de Boufmouth, 15 x Laine de Boufmouth légendaire, 1 x Laine du Royalmouth, 5 x Défense du Sanglacier et 5 x Dent de Smilomouth.",
+        "Les 50 Graisse de mansot sont des objets de quête obtenus automatiquement en tuant des mansots ; leur collecte commence utilement pendant La marche de l'impératrice.",
+        "La suite auprès de Valy Domidat et la récupération de l'Alliance de Damar sont volontairement reportées à une occurrence ultérieure de cette étape."
+      ],
+      "npcs": [
+        "Damar"
+      ],
+      "items": [
+        {
+          "name": "Bois de Tremble",
+          "itemId": 11107,
+          "imageUrl": "/items/11107.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11107"
+        },
+        {
+          "name": "Laine de Boufmouth",
+          "itemId": 11117,
+          "imageUrl": "/items/11117.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11117"
+        },
+        {
+          "name": "Laine de Boufmouth légendaire",
+          "itemId": 11136,
+          "imageUrl": "/items/11136.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11136"
+        },
+        {
+          "name": "Laine du Royalmouth",
+          "itemId": 11221,
+          "imageUrl": "/items/11221.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11221"
+        },
+        {
+          "name": "Défense du Sanglacier",
+          "itemId": 11242,
+          "imageUrl": "/items/11242.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11242"
+        },
+        {
+          "name": "Dent de Smilomouth",
+          "itemId": 11240,
+          "imageUrl": "/items/11240.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11240"
+        },
+        {
+          "name": "Graisse de mansot",
+          "itemId": 11260,
+          "imageUrl": "/items/11260.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11260"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 615,
+            "name": "Lac gelé",
+            "coordinates": [
+              "-67,-54"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2902,
+            "name": "Monsieur Pingouin",
+            "level": 130,
+            "imageUrl": "/bestiary/monsters/2902.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 160,
+            "name": "Mansots",
+            "monsters": [
+              {
+                "id": 2858,
+                "name": "Fu Mansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2858.png"
+              },
+              {
+                "id": 2857,
+                "name": "Mamansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2857.png"
+              },
+              {
+                "id": 2856,
+                "name": "Mansobèse",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2856.png"
+              },
+              {
+                "id": 2855,
+                "name": "Shamansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2855.png"
+              },
+              {
+                "id": 2849,
+                "name": "Timansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2849.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:345",
+      "relation": "START",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/pecircche-en-eaux-geleacutees.html",
+      "sourceTitle": "Pêche en eaux gelées",
+      "sourceHash": "9510b80c5d8f33be65e01d89cef4d05709607eaca38e6a47d2bead60e62e5aa7",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Terminez entièrement La marche de l'impératrice. Capturez une Mamansot en combattant un groupe qui en contient une, ramenez-la immédiatement à Ken Tucky, puis répétez l'opération six fois. Au sixième retour, choisissez de garder le silence contre des kamas ou de dénoncer Ken à Clyde Parker pour obtenir des Kamas de glace.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Niveau recommandé : 130."
+      ],
+      "rewards": [
+        "1 985 972 XP.",
+        "19 480 kamas.",
+        "1 x Huile de Mamansot.",
+        "Selon le choix final : 25 000 kamas en acceptant de garder le silence, ou 2 x Kama de glace en dénonçant Ken Tucky."
+      ],
+      "preparation": [
+        "Prévoir plusieurs combats contre des groupes contenant une Mamansot au Lac gelé."
+      ],
+      "actions": [
+        {
+          "instruction": "Au Lac gelé, combattez un groupe contenant une Mamansot. Après la victoire, la Mamansot devient un personnage suiveur.",
+          "position": null,
+          "zoneHint": "Lac gelé",
+          "warning": "Vous devez ramener chaque Mamansot séparément : n'enchaînez pas plusieurs captures avant de retourner voir Ken Tucky.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Retournez auprès de Ken Tucky avec la Mamansot suiveuse pour la lui livrer.",
+          "position": "[-80,-46]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Répétez le cycle combat contre un groupe avec une Mamansot puis livraison à Ken Tucky jusqu'à avoir effectué six livraisons au total.",
+          "position": null,
+          "zoneHint": "Lac gelé",
+          "warning": "Chaque capture exige un nouveau combat et un retour à Ken Tucky avant la suivante.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après la sixième livraison, choisissez soit « Accepter de ne rien dire » pour terminer immédiatement avec 25 000 kamas, soit l'option de dénoncer la supercherie à la milice.",
+          "position": "[-80,-46]",
+          "zoneHint": "La bourgade",
+          "warning": "Choix de fin irréversible : garder le silence donne 25 000 kamas ; dénoncer mène à une remise auprès de Clyde Parker et donne 2 x Kama de glace.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Si vous avez choisi de dénoncer Ken Tucky, allez parler à Clyde Parker et dénoncez Ken pour terminer la quête.",
+          "position": "[-76,-42]",
+          "zoneHint": "La bourgade",
+          "warning": "Cette action ne concerne que le choix de dénonciation.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les combats contre les Mamansots peuvent faire progresser en parallèle les objectifs de Rhubarbe à papa et de Graisse de mansot déjà activés.",
+        "Une fois cette quête terminée, reprenez Pêche en eaux gelées conformément au parcours du guide."
+      ],
+      "npcs": [
+        "Ken Tucky",
+        "Clyde Parker"
+      ],
+      "items": [
+        {
+          "name": "Huile de Mamansot",
+          "itemId": 11226,
+          "imageUrl": "/items/11226.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11226"
+        },
+        {
+          "name": "Rhubarbe à papa",
+          "itemId": 11160,
+          "imageUrl": "/items/11160.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11160"
+        },
+        {
+          "name": "Graisse de mansot",
+          "itemId": 11260,
+          "imageUrl": "/items/11260.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11260"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 601,
+            "name": "La Bourgade",
+            "coordinates": [
+              "-80,-46",
+              "-76,-42"
+            ]
+          },
+          {
+            "id": 615,
+            "name": "Lac gelé",
+            "coordinates": []
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2902,
+            "name": "Monsieur Pingouin",
+            "level": 130,
+            "imageUrl": "/bestiary/monsters/2902.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2913,
+                "name": "Chachachovage",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2913.png"
+              },
+              {
+                "id": 2893,
+                "name": "Crabe Hijacob",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2893.png"
+              },
+              {
+                "id": 2914,
+                "name": "Gélikan",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2914.png"
+              },
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          },
+          {
+            "id": 160,
+            "name": "Mansots",
+            "monsters": [
+              {
+                "id": 2858,
+                "name": "Fu Mansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2858.png"
+              },
+              {
+                "id": 2857,
+                "name": "Mamansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2857.png"
+              },
+              {
+                "id": 2856,
+                "name": "Mansobèse",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2856.png"
+              },
+              {
+                "id": 2855,
+                "name": "Shamansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2855.png"
+              },
+              {
+                "id": 2849,
+                "name": "Timansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2849.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:322",
+      "relation": "ACTIVE",
+      "sortOrder": 3,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-marche-de-limpeacuteratrice.html",
+      "sourceTitle": "La marche de l'impératrice",
+      "sourceHash": "8435e997ed8a2c0da9a8339dd2fc7c31268252dd559400884ba17ae34fe0d730",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Reprenez Pêche en eaux gelées après les collectes commencées plus tôt. Réunissez toutes les ressources demandées et remettez-les en une seule fois à Damar, puis suivez les échanges avec Valy Domidat et Damar jusqu'à recevoir l'objectif de récupérer l'Alliance de Damar sur le Mansot Royal. Arrêtez-vous avant d'effectuer l'Excavation du Mansot Royal.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Niveau recommandé : 130.",
+        "Avoir terminé Bricole Girl avant l'étape auprès de Valy Domidat.",
+        "Avoir activé précédemment la collecte demandée par Damar."
+      ],
+      "rewards": [
+        "7 943 890 XP.",
+        "77 920 kamas.",
+        "6 x Kama de glace.",
+        "1 x Oreille du Fu Mansot.",
+        "5 x Queue du Fu Mansot.",
+        "1 x Arête géante du Shamansot.",
+        "5 x Poil de barbe du Shamansot."
+      ],
+      "preparation": [
+        "35 x Bois de Tremble.",
+        "30 x Laine de Boufmouth.",
+        "15 x Laine de Boufmouth légendaire.",
+        "1 x Laine du Royalmouth.",
+        "5 x Défense du Sanglacier.",
+        "5 x Dent de Smilomouth.",
+        "50 x Graisse de mansot."
+      ],
+      "actions": [
+        {
+          "instruction": "Complétez si nécessaire les ressources demandées par Damar : 35 x Bois de Tremble, 30 x Laine de Boufmouth, 15 x Laine de Boufmouth légendaire, 1 x Laine du Royalmouth, 5 x Défense du Sanglacier, 5 x Dent de Smilomouth et 50 x Graisse de mansot.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Les 50 Graisse de mansot sont des objets de quête obtenus automatiquement sur les mansots et ne s'achètent pas comme une ressource classique.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Lorsque vous possédez toute la liste, remettez l'ensemble des ressources à Damar en une seule fois.",
+          "position": "[-67,-54]",
+          "zoneHint": "Lac gelé",
+          "warning": "Damar exige l'ensemble des ressources simultanément.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à l'atelier des bricoleurs et parlez à Valy Domidat. Elle refuse d'abord d'aider Damar.",
+          "position": "[-75,-38]",
+          "zoneHint": "La bourgade",
+          "warning": "Cette étape nécessite d'avoir terminé Bricole Girl.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez parler à Damar pour lui rapporter le refus de Valy. Il vous apprend alors avoir perdu l'anneau de Valy dans l'Excavation du Mansot Royal.",
+          "position": "[-67,-54]",
+          "zoneHint": "Lac gelé",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Arrêtez-vous dès que l'objectif demande de récupérer l'Alliance de Damar sur le Mansot Royal.",
+          "position": "[-67,-54]",
+          "zoneHint": "Lac gelé",
+          "warning": "N'entrez pas encore dans l'Excavation du Mansot Royal : le donjon doit être effectué après cet arrêt du guide.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les Graisse de mansot déjà obtenues pendant La marche de l'impératrice comptent pour la collecte.",
+        "La récupération de l'Alliance de Damar sur le Mansot Royal, sa remise à Valy Domidat puis le dernier retour à Damar seront effectués après l'Excavation du Mansot Royal."
+      ],
+      "npcs": [
+        "Damar",
+        "Valy Domidat"
+      ],
+      "items": [
+        {
+          "name": "Bois de Tremble",
+          "itemId": 11107,
+          "imageUrl": "/items/11107.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11107"
+        },
+        {
+          "name": "Laine de Boufmouth",
+          "itemId": 11117,
+          "imageUrl": "/items/11117.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11117"
+        },
+        {
+          "name": "Laine de Boufmouth légendaire",
+          "itemId": 11136,
+          "imageUrl": "/items/11136.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11136"
+        },
+        {
+          "name": "Laine du Royalmouth",
+          "itemId": 11221,
+          "imageUrl": "/items/11221.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11221"
+        },
+        {
+          "name": "Défense du Sanglacier",
+          "itemId": 11242,
+          "imageUrl": "/items/11242.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11242"
+        },
+        {
+          "name": "Dent de Smilomouth",
+          "itemId": 11240,
+          "imageUrl": "/items/11240.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11240"
+        },
+        {
+          "name": "Graisse de mansot",
+          "itemId": 11260,
+          "imageUrl": "/items/11260.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11260"
+        },
+        {
+          "name": "Alliance de Damar",
+          "itemId": 11262,
+          "imageUrl": "/items/11262.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11262"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 601,
+            "name": "La Bourgade",
+            "coordinates": [
+              "-75,-38"
+            ]
+          },
+          {
+            "id": 615,
+            "name": "Lac gelé",
+            "coordinates": [
+              "-67,-54"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2902,
+            "name": "Monsieur Pingouin",
+            "level": 130,
+            "imageUrl": "/bestiary/monsters/2902.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2913,
+                "name": "Chachachovage",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2913.png"
+              },
+              {
+                "id": 2893,
+                "name": "Crabe Hijacob",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2893.png"
+              },
+              {
+                "id": 2914,
+                "name": "Gélikan",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2914.png"
+              },
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          },
+          {
+            "id": 160,
+            "name": "Mansots",
+            "monsters": [
+              {
+                "id": 2858,
+                "name": "Fu Mansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2858.png"
+              },
+              {
+                "id": 2857,
+                "name": "Mamansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2857.png"
+              },
+              {
+                "id": 2856,
+                "name": "Mansobèse",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2856.png"
+              },
+              {
+                "id": 2855,
+                "name": "Shamansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2855.png"
+              },
+              {
+                "id": 2849,
+                "name": "Timansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2849.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1467",
+      "relation": "START",
+      "sortOrder": 4,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/pecircche-en-eaux-geleacutees.html",
+      "sourceTitle": "Pêche en eaux gelées",
+      "sourceHash": "9510b80c5d8f33be65e01d89cef4d05709607eaca38e6a47d2bead60e62e5aa7",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Rentabiliser les combats du Lac gelé",
+      "description": "Pendant La marche de l'impératrice, privilégiez les groupes du Lac gelé contenant une Mamansot : ces combats servent à capturer les Mamansots tout en faisant progresser les collectes déjà actives pour A fleur de peau et Pêche en eaux gelées.",
+      "questKeys": [
+        "quest:337",
+        "quest:345",
+        "quest:322"
+      ],
+      "actions": [
+        "Avant les combats, vérifiez que A fleur de peau et Pêche en eaux gelées sont bien lancées.",
+        "Choisissez au Lac gelé des groupes contenant une Mamansot afin de cumuler capture, Rhubarbe à papa et Graisse de mansot.",
+        "Après chaque capture, livrez immédiatement la Mamansot à Ken Tucky avant de reprendre les combats."
+      ]
+    }
+  ]
 }

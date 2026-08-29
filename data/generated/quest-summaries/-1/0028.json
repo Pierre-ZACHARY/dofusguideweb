@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 28,
-  "updatedAt": "2026-08-27T13:32:13.795Z",
+  "updatedAt": "2026-08-28T13:36:20.836Z",
   "summaries": [
     {
       "overview": "Paule Amploa vous charge de fabriquer entièrement une quintaine animée destinée à Badufron. Vous devez obtenir quatre composants auprès d'artisans d'Astrub, fabriquer chaque pièce dans l'atelier correspondant, assembler la Quintaine chez Sylvie Lebrekin, la faire enchanter par Mage Ax puis effectuer la livraison.",
@@ -437,15 +437,9 @@
             "name": "Forêt d'Astrub",
             "coordinates": [
               "-3,-15",
+              "-2,-18",
               "-3,-22",
               "-2,-24"
-            ]
-          },
-          {
-            "id": 442,
-            "name": "Lac",
-            "coordinates": [
-              "-2,-18"
             ]
           }
         ],

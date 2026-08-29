@@ -1,8 +1,409 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 95,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T11:29:22.035Z",
+  "summaries": [
+    {
+      "overview": "La quête a été avancée à l'étape précédente jusqu'à la rencontre avec Malléfisk, et la Fabrique de Malléfisk vient d'être effectuée. Il reste à convaincre Malléfisk de réveiller les Koffrefors du Professeur Maximilio, puis à retourner auprès du professeur pour terminer la quête.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Trésorphelinat",
+        "Avoir avancé Malladie jusqu'à l'étape demandant d'aller voir Malléfisk.",
+        "Avoir terminé la Fabrique de Malléfisk."
+      ],
+      "rewards": [
+        "1 023 750 XP.",
+        "11 980 kamas.",
+        "15 x Orichor.",
+        "5 x Corne de Berserkoffre."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Après avoir terminé la Fabrique de Malléfisk, parlez à Malléfisk avant de quitter le donjon et commencez par la flatter pour obtenir son attention.",
+          "position": null,
+          "zoneHint": "Fabrique de Malléfisk",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Poursuivez la conversation avec Malléfisk. Elle explique qu'elle endort les Koffrefors à distance pour éviter de rouiller, mais refuse d'abord de réveiller ceux du Professeur Maximilio.",
+          "position": null,
+          "zoneHint": "Fabrique de Malléfisk",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Krosmoglob du Professeur Maximilio qui apparaît et expliquez-lui la situation.",
+          "position": null,
+          "zoneHint": "Fabrique de Malléfisk",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparlez à Malléfisk, excusez-vous et poursuivez le dialogue jusqu'à ce qu'elle accepte de réveiller les Koffrefors du professeur.",
+          "position": null,
+          "zoneHint": "Fabrique de Malléfisk",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sortez du donjon puis retournez voir le Professeur Maximilio. Parlez-lui pour recevoir ses remerciements et terminer la quête.",
+          "position": "[-1,-1]",
+          "zoneHint": "Enutrosor - Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les démarches précédentes auprès de Ribériche, Kamalonnête, du Trésoracle et d'Inès Karcel sont supposées déjà accomplies.",
+        "Le kama, la Clef de la Fabrique de Malléfisk et le donjon étaient nécessaires avant cette occurrence et ne sont pas à refaire ici."
+      ],
+      "npcs": [
+        "Malléfisk",
+        "Krosmoglob du Professeur Maximilio",
+        "Professeur Maximilio"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 820,
+            "name": "Creuset des Fortunés",
+            "coordinates": [
+              "-1,-1"
+            ]
+          },
+          {
+            "id": 823,
+            "name": "Fabrique de Malléfisk",
+            "coordinates": []
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3670,
+            "name": "Maxi-Malle",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/3670.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1093,
+            "name": "Koffrefors",
+            "monsters": [
+              {
+                "id": 3666,
+                "name": "Berserkoffre",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3666.png"
+              },
+              {
+                "id": 3663,
+                "name": "Boursoin",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3663.png"
+              },
+              {
+                "id": 3664,
+                "name": "Mimikado",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3664.png"
+              },
+              {
+                "id": 3667,
+                "name": "Précieux",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3667.png"
+              },
+              {
+                "id": 3665,
+                "name": "Trésantène",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3665.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:794",
+      "relation": "FINISH",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/malladie.html",
+      "sourceTitle": "Malladie",
+      "sourceHash": "eef1a35b5857deaf5131355d3221b5d18a5cf0fa66a8f1551fdbc78fe2094b88",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "La quête a déjà été avancée jusqu'à l'objectif demandant de rapporter 1 x Diamant Dimensionnel à Marie Ride, et le donjon correspondant à la tranche de niveau a été effectué. À cette occurrence, remettez le diamant à Marie, suivez les coordonnées obtenues grâce au sous-marin, libérez Vardo Tercar puis rapportez de ses nouvelles à Tatine pour terminer la quête.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "D'un monde à l'autre.",
+        "Aux portes de la nuit.",
+        "Générations futures.",
+        "Avoir avancé la quête jusqu'à l'objectif de ramener 1 x Diamant Dimensionnel à Marie Ride.",
+        "Posséder 1 x Diamant Dimensionnel obtenu sur le boss correspondant à votre tranche de niveau."
+      ],
+      "rewards": [
+        "5 250 000 XP.",
+        "87 960 Kamas.",
+        "1 x Boîte de fragments impressionnante."
+      ],
+      "preparation": [
+        "Gardez le Diamant Dimensionnel obtenu lors du donjon précédent dans votre inventaire de quête."
+      ],
+      "actions": [
+        {
+          "instruction": "Retournez voir Marie Ride et donnez-lui le Diamant Dimensionnel comme convenu. Elle vous remet un parchemin indiquant des coordonnées sous-marines.",
+          "position": "[7,22]",
+          "zoneHint": "Rivage Sufokien",
+          "warning": "La position de l'équipage de Marie Ride peut varier selon l'heure d'après la source.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous auprès de Rita Byrla, la conductrice du sous-marin steamer. Pour atteindre le sous-marin, prenez le chemin des sous-sols du Merkator puis tournez à gauche dès que possible, en direction du temple.",
+          "position": "[22,19]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Rita Byrla et demandez-lui de vous conduire aux coordonnées inscrites sur le parchemin. Après son refus initial, poursuivez le dialogue jusqu'à ce qu'elle accepte.",
+          "position": "[22,19]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la grotte où le sous-marin vous dépose, cliquez sur le point lumineux du mur pour ouvrir la porte, franchissez-la puis traversez la salle suivante jusqu'à Vardo Tercar.",
+          "position": null,
+          "zoneHint": "Grotte sous-marine",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Vardo Tercar et expliquez les raisons de votre venue. Épuisez le dialogue pour apprendre ce qu'il a découvert sur l'Explorancienne, puis prenez Vardo comme personnage suiveur.",
+          "position": null,
+          "zoneHint": "Grotte sous-marine",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramenez Vardo Tercar jusqu'au sous-marin accosté.",
+          "position": "[22,19]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Rita Byrla pour remonter à la surface, puis reparlez à Vardo. Il vous confie une Lettre de Vardo à remettre à Tatine.",
+          "position": "[22,19]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez dans la Malle aux Trésors et remettez à Tatine les nouvelles de Vardo pour terminer la quête.",
+          "position": "[-25,-36]",
+          "zoneHint": "Malle aux Trésors",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les recherches initiales sur Vardo, les deux combats contre les contrebandiers puis Marie Ride et l'obtention de l'objectif du Diamant Dimensionnel sont supposés déjà accomplis.",
+        "Le boss donnant le Diamant Dimensionnel dépend du niveau : Malléfisk du niveau 100 à 114, Fraktale du niveau 115 à 139, Phossile du niveau 140 à 164, XLII du niveau 165 à 189 et Toxoliath du niveau 190 à 200.",
+        "Après cette quête, Rendez-vous avec la mort devient disponible."
+      ],
+      "npcs": [
+        "Marie Ride",
+        "Rita Byrla",
+        "Vardo Tercar",
+        "Tatine"
+      ],
+      "items": [
+        {
+          "name": "Diamant Dimensionnel",
+          "itemId": 16050,
+          "imageUrl": "/items/16050.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16050"
+        },
+        {
+          "name": "Parchemin",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Lettre de Vardo",
+          "itemId": 16020,
+          "imageUrl": "/items/16020.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16020"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-25,-36"
+            ]
+          },
+          {
+            "id": 490,
+            "name": "Rivage sufokien",
+            "coordinates": [
+              "7,22"
+            ]
+          },
+          {
+            "id": 32,
+            "name": "Sufokia",
+            "coordinates": [
+              "22,19"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2327,
+            "name": "Craraboss le Féérique",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2327.png"
+          },
+          {
+            "id": 2431,
+            "name": "Étoilette la Bouchée",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2431.png"
+          },
+          {
+            "id": 2457,
+            "name": "Moumoute la Douce",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2457.png"
+          },
+          {
+            "id": 2351,
+            "name": "Rauligo le Sale",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2351.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1668,
+            "name": "Monstres des plages",
+            "monsters": [
+              {
+                "id": 63,
+                "name": "Crabe",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/63.png"
+              },
+              {
+                "id": 926,
+                "name": "Raul Mops",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/926.png"
+              },
+              {
+                "id": 927,
+                "name": "Étoile de la Mer d'Asse",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/927.png"
+              },
+              {
+                "id": 954,
+                "name": "Moumoule",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/954.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:882",
+      "relation": "FINISH",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-disparu-de-sufokia.html",
+      "sourceTitle": "Le disparu de Sufokia",
+      "sourceHash": "b8b39bd7c58ebae039fffd8b594e09d0f6b5b9642bd850f2bb06699da6df7554",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

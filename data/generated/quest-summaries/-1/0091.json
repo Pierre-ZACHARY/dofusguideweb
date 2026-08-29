@@ -1,8 +1,431 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 91,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T11:29:09.656Z",
+  "summaries": [
+    {
+      "overview": "Poursuis l'initiation des Voyageurs Dimensionnels dans leur tour des Routes Rocailleuses. Tu dois rencontrer les responsables de l'ordre, découvrir le rôle de l'orichor et rejoindre la salle de localisation des portails. Cette portion se termine auprès de Gladis ; la quête suivante, La porte d'Enutrosor, est ensuite traitée séparément dans cette même étape.",
+      "recommendedLevel": 80,
+      "prerequisites": [
+        "Niveau supérieur ou égal à 80.",
+        "Avoir déjà lancé Voyage, voyage auprès du Sergent Zlatzom en [-22,-24]."
+      ],
+      "rewards": [
+        "1 312 500 XP.",
+        "21 990 Kamas."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Entre dans la tour des Voyageurs Dimensionnels en [-22,-24] et parle au Colonel Oneuil pour poursuivre ton admission dans l'ordre.",
+          "position": "[-22,-24]",
+          "zoneHint": "Routes Rocailleuses",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sur la même carte intérieure, parle à l'Explorancienne et confirme que tu es prêt à aider les Voyageurs Dimensionnels afin qu'elle valide ton intégration.",
+          "position": "[-22,-24]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne parler au Colonel Oneuil sur la même carte pour lui annoncer que l'Explorancienne t'a accepté et obtenir les explications sur les portails dimensionnels et l'orichor.",
+          "position": "[-22,-24]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parle au Collecteur Hystik afin de prendre connaissance du fonctionnement de la collecte d'orichor et de son utilisation par les Voyageurs.",
+          "position": "[-22,-24]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Utilise le transporteur à lumière orange pour rejoindre la salle de localisation des portails.",
+          "position": "[-22,-24]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parle à Gladis dans la salle de localisation des portails pour achever Voyage, voyage.",
+          "position": "[-22,-24]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La discussion avec Gladis permet ensuite d'enchaîner sur La porte d'Enutrosor, qui constitue l'occurrence suivante de cette étape.",
+        "Ne poursuis pas ici les objectifs de recherche du portail d'Enutrosor : ils appartiennent au tutoriel suivant."
+      ],
+      "npcs": [
+        "Colonel Oneuil",
+        "Explorancienne",
+        "Collecteur Hystik",
+        "Gladis"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 525,
+            "name": "Routes Rocailleuses",
+            "coordinates": [
+              "-22,-24"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2503,
+            "name": "Kanasukr le Mielleux",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2503.png"
+          },
+          {
+            "id": 2359,
+            "name": "Maître Champeur le Sabreur",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2359.png"
+          },
+          {
+            "id": 2445,
+            "name": "Fouflay le Retombé",
+            "level": 64,
+            "imageUrl": "/bestiary/monsters/2445.png"
+          },
+          {
+            "id": 2455,
+            "name": "Vétaurine l'Énergisé",
+            "level": 66,
+            "imageUrl": "/bestiary/monsters/2455.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 213,
+            "name": "Animaux des Champs",
+            "monsters": [
+              {
+                "id": 288,
+                "name": "Serpentin",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/288.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 259,
+                "name": "Arakne Majeure",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/259.png"
+              }
+            ]
+          },
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 186,
+            "name": "Craqueleurs",
+            "monsters": [
+              {
+                "id": 293,
+                "name": "Craqueleur des Plaines",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/293.png"
+              },
+              {
+                "id": 4571,
+                "name": "Craquelourd",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4571.png"
+              },
+              {
+                "id": 4573,
+                "name": "Craquelope",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4573.png"
+              }
+            ]
+          },
+          {
+            "id": 1518,
+            "name": "Ruffians de Cania",
+            "monsters": [
+              {
+                "id": 4574,
+                "name": "Foufayteur",
+                "level": 64,
+                "imageUrl": "/bestiary/monsters/4574.png"
+              },
+              {
+                "id": 4575,
+                "name": "Vétauran",
+                "level": 66,
+                "imageUrl": "/bestiary/monsters/4575.png"
+              },
+              {
+                "id": 287,
+                "name": "Kanigrou",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/287.png"
+              },
+              {
+                "id": 371,
+                "name": "Maître Bolet",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/371.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:772",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/voyage-voyage.html",
+      "sourceTitle": "Voyage, voyage",
+      "sourceHash": "084506a3e9c4876c61df6c76f0fcb2205333e3da29d52b8ffc51e32f77b95009",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après Voyage, voyage, Gladis te confie ta première mission dimensionnelle : localiser le portail d'Enutrosor grâce à une recherche en trois étapes, l'emprunter, puis prendre contact avec l'avant-poste des Voyageurs. La quête se termine lorsque tu te présentes à la Collectrice Megisthe. Orichomania ne doit être commencée qu'à l'étape suivante.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Niveau recommandé : 100 à 200.",
+        "Avoir terminé Voyage, voyage.",
+        "Être auprès de Gladis dans la tour des Voyageurs Dimensionnels en [-22,-24]."
+      ],
+      "rewards": [
+        "2 625 000 XP.",
+        "43 980 Kamas."
+      ],
+      "preparation": [
+        "Prévois de suivre une recherche de portail fonctionnant comme une chasse aux trésors en trois étapes.",
+        "Le point de départ et les indices de la recherche sont générés par le jeu : suis ceux affichés dans ton interface plutôt qu'un trajet fixe."
+      ],
+      "actions": [
+        {
+          "instruction": "Parle à Gladis et accepte la mission consistant à trouver Enutrosor puis à contacter le Sergent Frinklan.",
+          "position": "[-22,-24]",
+          "zoneHint": "Routes Rocailleuses",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Clique sur la console située en bas à droite de la salle pour lancer la recherche du portail d'Enutrosor.",
+          "position": "[-22,-24]",
+          "zoneHint": null,
+          "warning": "Un portail peut disparaître après un certain temps sans passage ou après le passage de 32 aventuriers.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Suis le point de départ et les indices affichés par la recherche de portail. À chaque fin d'étape, valide la carte correcte avec la loupe, puis poursuis jusqu'à terminer les trois étapes et faire apparaître le portail d'Enutrosor.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Les coordonnées et indices varient selon la recherche générée. Ne te fie pas à l'exemple [-70,-33] comme à un trajet obligatoire.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Emprunte le portail trouvé pour entrer dans Enutrosor.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Si le portail se ferme avant ton passage, il faudra relancer une recherche pour le retrouver.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Une fois en Enutrosor, monte l'escalier de l'avant-poste et parle au Sergent Frinklan.",
+          "position": null,
+          "zoneHint": "Enutrosor",
+          "warning": "Les monstres de la zone n'agressent pas spontanément, mais mourir dans un combat te fait quitter la dimension et impose de retrouver un portail pour revenir.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parle ensuite à la Collectrice Megisthe en précisant que le Sergent Frinklan t'envoie afin de terminer La porte d'Enutrosor.",
+          "position": null,
+          "zoneHint": "Enutrosor",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le contact avec la Collectrice Megisthe clôt cette quête.",
+        "Ne continue pas son dialogue pour réaliser Orichomania dans cette étape : cette quête appartient à l'étape 92."
+      ],
+      "npcs": [
+        "Gladis",
+        "Sergent Frinklan",
+        "Collectrice Megisthe"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-70,-33"
+            ]
+          },
+          {
+            "id": 525,
+            "name": "Routes Rocailleuses",
+            "coordinates": [
+              "-22,-24"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2503,
+            "name": "Kanasukr le Mielleux",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2503.png"
+          },
+          {
+            "id": 2359,
+            "name": "Maître Champeur le Sabreur",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2359.png"
+          },
+          {
+            "id": 2445,
+            "name": "Fouflay le Retombé",
+            "level": 64,
+            "imageUrl": "/bestiary/monsters/2445.png"
+          },
+          {
+            "id": 2455,
+            "name": "Vétaurine l'Énergisé",
+            "level": 66,
+            "imageUrl": "/bestiary/monsters/2455.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 213,
+            "name": "Animaux des Champs",
+            "monsters": [
+              {
+                "id": 288,
+                "name": "Serpentin",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/288.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 259,
+                "name": "Arakne Majeure",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/259.png"
+              }
+            ]
+          },
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 186,
+            "name": "Craqueleurs",
+            "monsters": [
+              {
+                "id": 293,
+                "name": "Craqueleur des Plaines",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/293.png"
+              },
+              {
+                "id": 4571,
+                "name": "Craquelourd",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4571.png"
+              },
+              {
+                "id": 4573,
+                "name": "Craquelope",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4573.png"
+              }
+            ]
+          },
+          {
+            "id": 1518,
+            "name": "Ruffians de Cania",
+            "monsters": [
+              {
+                "id": 4574,
+                "name": "Foufayteur",
+                "level": 64,
+                "imageUrl": "/bestiary/monsters/4574.png"
+              },
+              {
+                "id": 4575,
+                "name": "Vétauran",
+                "level": 66,
+                "imageUrl": "/bestiary/monsters/4575.png"
+              },
+              {
+                "id": 287,
+                "name": "Kanigrou",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/287.png"
+              },
+              {
+                "id": 371,
+                "name": "Maître Bolet",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/371.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:773",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-porte-denutrosor.html",
+      "sourceTitle": "La porte d'Enutrosor",
+      "sourceHash": "dcbaffe7d1b566f1e61c51f753a32e7a18e3b1d8c67d7add793ce787cee6018c",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

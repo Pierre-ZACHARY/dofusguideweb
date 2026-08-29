@@ -1,8 +1,841 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 156,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T15:05:19.577Z",
+  "summaries": [
+    {
+      "overview": "La Vallée de la Dame des eaux et le combat contre Nagate sont supposés déjà effectués à l'étape précédente. Reprenez sur la sortie du donjon, découvrez la vérité sur Nagate et Akwanokima, rendez Maltalo à sa mère puis confiez le jeune Pandawa à Daimya Hikomi pour terminer la quête.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Au nom de l'Art.",
+        "Avoir avancé La jetée des enfants perdus jusqu'à la Vallée de la Dame des eaux et avoir vaincu Nagate lors de l'occurrence précédente."
+      ],
+      "rewards": [
+        "3 971 945 XP.",
+        "38 960 Kamas.",
+        "3 x Katana de Kwamouraï.",
+        "3 x Eau de Kwapa."
+      ],
+      "preparation": [
+        "Prévoir 15 kamas pour les quatre Granouilles du pont."
+      ],
+      "actions": [
+        {
+          "instruction": "Sur la map de sortie de la Vallée de la Dame des eaux, parlez à Nagate la Dame des eaux et choisissez d'en savoir plus sur elle. Menacez ensuite de détruire sa vallée afin qu'elle renonce au jeune Pandawa.",
+          "position": null,
+          "zoneHint": "Vallée de la Dame des eaux",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Toujours sur la sortie du donjon, parlez à Kwatalo, près du petit Pandawa, afin d'apprendre comment tenter de rencontrer Akwanokima.",
+          "position": null,
+          "zoneHint": "Vallée de la Dame des eaux",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez au pont des Granouilles en [23,-22]. Faites disparaître les quatre Granouilles strictement de la plus grosse à la plus petite : donnez 8 kamas à la Grosse Granouille tout à droite, 4 à la Moyenne Granouille tout à gauche, 2 à la Granouille au centre droit, puis 1 à la Petite Granouille au centre gauche.",
+          "position": "[23,-22]",
+          "zoneHint": "Pont des Granouilles",
+          "warning": "Cette séquence coûte exactement 15 kamas et doit respecter l'ordre indiqué.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez sur la perturbation dans l'eau près du pont et faites le vœu de rencontrer l'esprit de l'Eau.",
+          "position": "[23,-22]",
+          "zoneHint": "Pont des Granouilles",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Après l'échec du vœu, parlez à Kwatalo, puis reparlez-lui lorsqu'il observe son reflet. La scène révèle qu'il était autrefois le jeune Lenald disparu et déclenche votre téléportation.",
+          "position": "[23,-22]",
+          "zoneHint": "Pont des Granouilles",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans le lieu où vous êtes téléporté, parlez à Akwanokima. Ressentez de la mélancolie et inclinez-vous devant l'esprit. Suivez le dialogue jusqu'à ce qu'elle libère Kwatalo de sa forme de Kwapa, bénisse le jeune Pandawa et vous remette la Griffe de l'Eau.",
+          "position": null,
+          "zoneHint": "Akwadala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "De retour au pont des Granouilles, parlez au Jeune Lenald afin de le conduire auprès de sa mère.",
+          "position": "[23,-22]",
+          "zoneHint": "Pont des Granouilles",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous en [20,-26] et parlez à la Paysanne lenalde. Elle reconnaît son fils et vous apprend que son véritable nom est Maltalo.",
+          "position": "[20,-26]",
+          "zoneHint": "Akwadala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Daimya Hikomi en [22,-29], racontez-lui les événements d'Akwadala et présentez-lui le jeune Pandawa orphelin. Elle accepte de s'en occuper, ce qui termine La jetée des enfants perdus.",
+          "position": "[22,-29]",
+          "zoneHint": "Village de Pandala",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les investigations à Akwadala, les combats contre les Kwapas, la collecte des 6 Concombres sauvages, le sauvetage du petit Pandawa et la Vallée de la Dame des eaux ont déjà été traités avant cette occurrence.",
+        "Continuer la conversation avec Daimya Hikomi peut lancer Le festival de la lanterne, mais cette nouvelle quête n'est pas une action requise ici.",
+        "Terminer cette quête permet également de rencontrer l'esprit chagrin dans Présence d'esprits."
+      ],
+      "npcs": [
+        "Nagate la Dame des eaux",
+        "Kwatalo",
+        "Akwanokima",
+        "Jeune Lenald",
+        "Paysanne lenalde",
+        "Daimya Hikomi",
+        "Petit Pandawa",
+        "Grosse Granouille",
+        "Moyenne Granouille",
+        "Granouille",
+        "Petite Granouille"
+      ],
+      "items": [
+        {
+          "name": "Griffe de l'Eau",
+          "itemId": 23246,
+          "imageUrl": "/items/23246.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23246"
+        },
+        {
+          "name": "Katana de Kwamouraï",
+          "itemId": 7274,
+          "imageUrl": "/items/7274.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/7274"
+        },
+        {
+          "name": "Eau de Kwapa",
+          "itemId": 2654,
+          "imageUrl": "/items/2654.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2654"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 941,
+            "name": "Akwadala",
+            "coordinates": [
+              "23,-22",
+              "20,-26"
+            ]
+          },
+          {
+            "id": 947,
+            "name": "Vallée de la Dame des eaux",
+            "coordinates": []
+          },
+          {
+            "id": 951,
+            "name": "Village de Pandala",
+            "coordinates": [
+              "22,-29"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2591,
+            "name": "Akaka le Souillé",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2591.png"
+          },
+          {
+            "id": 2510,
+            "name": "Bebetto l'Intellectuel",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2510.png"
+          },
+          {
+            "id": 2592,
+            "name": "Koko la Violente",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2592.png"
+          },
+          {
+            "id": 2590,
+            "name": "Sarkastik l'Incompris",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2590.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 3019,
+            "name": "Kwapa",
+            "monsters": [
+              {
+                "id": 6203,
+                "name": "Sarkapwane",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6203.png"
+              },
+              {
+                "id": 6229,
+                "name": "Kokom",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6229.png"
+              },
+              {
+                "id": 6230,
+                "name": "Akakwa",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6230.png"
+              },
+              {
+                "id": 6231,
+                "name": "Betto",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6231.png"
+              },
+              {
+                "id": 6247,
+                "name": "Kwamouraï",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6247.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1318",
+      "relation": "FINISH",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-jetee-des-enfants-perdus.html",
+      "sourceTitle": "La jetée des enfants perdus",
+      "sourceHash": "beadf476c3aee3f8d6a3ae1349f3605431853f3ceb836860810557c5acbff703",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Effectuez ici toute la progression restante de La barrière des langues : récupérez les lunettes de James Aystouffe, apprenez le langage Cacterre auprès de Paul Iglotte puis revenez valider la quête. Cette maîtrise du langage permet ensuite d'éviter les affrontements de Taper ou parler, il faut choisir.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Avoir La barrière des langues en cours."
+      ],
+      "rewards": [
+        "1 985 972 XP.",
+        "19 480 kamas.",
+        "5 x Fleur de Cactiflore."
+      ],
+      "preparation": [
+        "Prévoir un combat contre 4 Cacterres, réalisable en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Rendez-vous en [17,-62], parlez à Dobby Gleux et choisissez « Balbutier \"Pik pikouille\" ».",
+          "position": "[17,-62]",
+          "zoneHint": "Dunes des ossements",
+          "warning": "La discussion déclenche un combat contre 4 Cacterres.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Remportez le combat contre les 4 Cacterres afin de récupérer les lunettes volées.",
+          "position": "[17,-62]",
+          "zoneHint": "Dunes des ossements",
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Rapportez les lunettes à James Aystouffe en [14,-60].",
+          "position": "[14,-60]",
+          "zoneHint": "Dunes des ossements",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir Paul Iglotte en [14,-64]. Demandez ce que signifie « piiiipipik » avec le choix « \"Piki Piiiipipik ?\" (Que veut dire piiiipipik ?) », puis hochez la tête avec entrain pour apprendre le langage des Cacterres.",
+          "position": "[14,-64]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir James Aystouffe en [14,-60] avec votre nouvelle connaissance du langage Cacterre pour terminer La barrière des langues.",
+          "position": "[14,-60]",
+          "zoneHint": "Dunes des ossements",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête est déjà lancée à cette occurrence ; il n'est pas nécessaire de reparler à James Aystouffe pour son lancement.",
+        "Terminer cette quête avant de poursuivre Taper ou parler, il faut choisir débloque les dialogues pacifiques avec les Cacterres."
+      ],
+      "npcs": [
+        "James Aystouffe",
+        "Dobby Gleux",
+        "Paul Iglotte"
+      ],
+      "items": [
+        {
+          "name": "Lunettes de James Aystouffe",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Fleur de Cactiflore",
+          "itemId": 18361,
+          "imageUrl": "/items/18361.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18361"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 872,
+            "name": "Dunes des ossements",
+            "coordinates": [
+              "17,-62",
+              "14,-60"
+            ]
+          },
+          {
+            "id": 873,
+            "name": "Territoire Cacterre",
+            "coordinates": [
+              "14,-64"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4618,
+            "name": "Tournade",
+            "level": 80,
+            "imageUrl": "/bestiary/monsters/4618.png"
+          },
+          {
+            "id": 4622,
+            "name": "Roi Camole",
+            "level": 130,
+            "imageUrl": "/bestiary/monsters/4622.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1527,
+            "name": "Animaux du désert",
+            "monsters": [
+              {
+                "id": 4616,
+                "name": "Fennex",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4616.png"
+              },
+              {
+                "id": 4619,
+                "name": "Léolhyène",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4619.png"
+              },
+              {
+                "id": 4620,
+                "name": "Ouroboulos",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4620.png"
+              },
+              {
+                "id": 4615,
+                "name": "Scordion Bleu",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4615.png"
+              }
+            ]
+          },
+          {
+            "id": 1528,
+            "name": "Cacterres",
+            "monsters": [
+              {
+                "id": 4605,
+                "name": "Cactana",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/4605.png"
+              },
+              {
+                "id": 4604,
+                "name": "Cactiflore",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/4604.png"
+              },
+              {
+                "id": 4606,
+                "name": "Cactoblongo",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/4606.png"
+              },
+              {
+                "id": 4607,
+                "name": "Pampactus",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/4607.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1056",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-barriere-des-langues.html",
+      "sourceTitle": "La barrière des langues",
+      "sourceHash": "4de85aced65e506ea670532a7b18226dcf3038bffa5f9dd5c4ea977a3ac22d2f",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "La quête est déjà en cours. Après avoir terminé La barrière des langues dans cette même étape, interrogez successivement l'Érudit Cactoblongo, l'Ancien Cactana et le Jeune Pampactus, en rapportant les observations à Aria du Soleil après chaque entretien. La connaissance du langage Cacterre permet de suivre la voie pacifique.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Avoir Taper ou parler, il faut choisir en cours.",
+        "Terminer La barrière des langues avant ces entretiens afin de pouvoir éviter les combats."
+      ],
+      "rewards": [
+        "1 985 972 XP.",
+        "19 480 kamas.",
+        "5 x Fleur de Cactiflore."
+      ],
+      "preparation": [
+        "Aucune ressource particulière n'est requise si La barrière des langues est terminée."
+      ],
+      "actions": [
+        {
+          "instruction": "Allez voir l'Érudit Cactoblongo en [14,-64] et assurez-lui que vous n'avez pas d'envie meurtrière.",
+          "position": "[14,-64]",
+          "zoneHint": null,
+          "warning": "Le choix pacifique n'est disponible que si La barrière des langues est terminée ; sinon un combat se déclenche.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Retournez auprès d'Aria du Soleil en [13,-63] et donnez-lui les notes d'observations du Cactoblongo.",
+          "position": "[13,-63]",
+          "zoneHint": "Territoire Cacterre",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous auprès de l'Ancien Cactana en [15,-65]. Assurez-lui que vous n'avez pas d'envie meurtrière, puis demandez si les Cacterres avaient déjà la peau dure lorsqu'ils étaient un peuple pacifique.",
+          "position": "[15,-65]",
+          "zoneHint": null,
+          "warning": "Le choix pacifique n'est disponible que si La barrière des langues est terminée ; sinon un combat se déclenche.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Retournez auprès d'Aria du Soleil en [13,-63] et donnez-lui les notes d'observations du Cactana.",
+          "position": "[13,-63]",
+          "zoneHint": "Territoire Cacterre",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir le Jeune Pampactus en [14,-61] et assurez-lui que vous n'avez pas d'envie meurtrière.",
+          "position": "[14,-61]",
+          "zoneHint": null,
+          "warning": "Le choix pacifique n'est disponible que si La barrière des langues est terminée ; sinon un combat se déclenche.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Revenez une dernière fois auprès d'Aria du Soleil en [13,-63] et donnez-lui les notes d'observations du Pampactus pour terminer Taper ou parler, il faut choisir.",
+          "position": "[13,-63]",
+          "zoneHint": "Territoire Cacterre",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le lancement auprès d'Aria du Soleil en [13,-63] est supposé déjà effectué avant cette occurrence.",
+        "L'ordre des trois Cacterres et des retours auprès d'Aria doit être conservé : Cactoblongo, Cactana, puis Pampactus."
+      ],
+      "npcs": [
+        "Aria du Soleil",
+        "Érudit Cactoblongo",
+        "Ancien Cactana",
+        "Jeune Pampactus"
+      ],
+      "items": [
+        {
+          "name": "Notes d'observations du Cactoblongo",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Notes d'observations du Cactana",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Notes d'observations du Pampactus",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Fleur de Cactiflore",
+          "itemId": 18361,
+          "imageUrl": "/items/18361.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18361"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "14,-64",
+              "15,-65",
+              "14,-61"
+            ]
+          },
+          {
+            "id": 873,
+            "name": "Territoire Cacterre",
+            "coordinates": [
+              "13,-63"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4622,
+            "name": "Roi Camole",
+            "level": 130,
+            "imageUrl": "/bestiary/monsters/4622.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1528,
+            "name": "Cacterres",
+            "monsters": [
+              {
+                "id": 4605,
+                "name": "Cactana",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/4605.png"
+              },
+              {
+                "id": 4604,
+                "name": "Cactiflore",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/4604.png"
+              },
+              {
+                "id": 4606,
+                "name": "Cactoblongo",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/4606.png"
+              },
+              {
+                "id": 4607,
+                "name": "Pampactus",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/4607.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1058",
+      "relation": "ACTIVE",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/taper-ou-parler-il-faut-choisir.html",
+      "sourceTitle": "Taper ou parler, il faut choisir",
+      "sourceHash": "954e8e9fec9d3b6a17bf814b74878ef2517d134d15e8b700f241cc2aa5f4b282",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez L'Étoile de la Mer et avancez uniquement jusqu'à l'objectif lié à El Piko, puis effectuez la Caverne d'El Piko comme demandé par le guide. Les opérations sur la boîte noire et le rendu final auprès d'Airen Kraken sont volontairement laissés pour l'occurrence FINISH de l'étape 157.",
+      "recommendedLevel": 130,
+      "prerequisites": [],
+      "rewards": [
+        "3 971 945 XP.",
+        "38 960 kamas.",
+        "3 x Maraca de Lévito."
+      ],
+      "preparation": [
+        "Prévoir le donjon Caverne d'El Piko."
+      ],
+      "actions": [
+        {
+          "instruction": "En [13,-58], parlez à ERDE et demandez à accéder au message de détresse pour lancer L'Étoile de la Mer.",
+          "position": "[13,-58]",
+          "zoneHint": "Dunes des ossements",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au Palais de Sufokia en [23,24] et demandez à Deks une clef de déchiffrement.",
+          "position": "[23,24]",
+          "zoneHint": "Palais de Sufokia",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès d'ERDE en [13,-58], insérez la clé de déchiffrement puis choisissez de vous diriger vers Sarakech pour trouver la femme au chapeau.",
+          "position": "[13,-58]",
+          "zoneHint": "Dunes des ossements",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez au Sabloon en [15,-57] et interrogez Ovée Hasch au sujet de l'épave du vaisseau.",
+          "position": "[15,-57]",
+          "zoneHint": "Sabloon",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à la Caverne d'El Piko en [15,-65] et effectuez le donjon jusqu'à vaincre El Piko.",
+          "position": "[15,-65]",
+          "zoneHint": "Caverne d'El Piko",
+          "warning": "Cette occurrence s'arrête après l'accomplissement du donjon et la victoire sur El Piko ; ne poursuivez pas les étapes de récupération de la boîte noire prévues pour l'étape suivante.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "Le guide impose ici un arrêt après la progression jusqu'à l'objectif de vaincre El Piko et l'exécution de la Caverne d'El Piko.",
+        "La libération d'Airen Kraken puis les actions devant le vaisseau, le déverrouillage de la boîte noire et la fin de quête seront traités à l'occurrence FINISH de l'étape 157."
+      ],
+      "npcs": [
+        "ERDE",
+        "Deks",
+        "Ovée Hasch",
+        "El Piko"
+      ],
+      "items": [
+        {
+          "name": "Clef de déchiffrement",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Maraca de Lévito",
+          "itemId": 18358,
+          "imageUrl": "/items/18358.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18358"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 876,
+            "name": "Caverne d'El Piko",
+            "coordinates": [
+              "15,-65"
+            ]
+          },
+          {
+            "id": 872,
+            "name": "Dunes des ossements",
+            "coordinates": [
+              "13,-58"
+            ]
+          },
+          {
+            "id": 874,
+            "name": "Port de Sarakech",
+            "coordinates": [
+              "15,-57"
+            ]
+          },
+          {
+            "id": 32,
+            "name": "Sufokia",
+            "coordinates": [
+              "23,24"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4618,
+            "name": "Tournade",
+            "level": 80,
+            "imageUrl": "/bestiary/monsters/4618.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1527,
+            "name": "Animaux du désert",
+            "monsters": [
+              {
+                "id": 4616,
+                "name": "Fennex",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4616.png"
+              },
+              {
+                "id": 4619,
+                "name": "Léolhyène",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4619.png"
+              },
+              {
+                "id": 4620,
+                "name": "Ouroboulos",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4620.png"
+              },
+              {
+                "id": 4615,
+                "name": "Scordion Bleu",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4615.png"
+              }
+            ]
+          },
+          {
+            "id": 1528,
+            "name": "Cacterres",
+            "monsters": [
+              {
+                "id": 4605,
+                "name": "Cactana",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/4605.png"
+              },
+              {
+                "id": 4604,
+                "name": "Cactiflore",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/4604.png"
+              },
+              {
+                "id": 4606,
+                "name": "Cactoblongo",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/4606.png"
+              },
+              {
+                "id": 4608,
+                "name": "Lévito",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/4608.png"
+              },
+              {
+                "id": 4607,
+                "name": "Pampactus",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/4607.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1049",
+      "relation": "START",
+      "sortOrder": 3,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/l-etoile-de-la-mer.html",
+      "sourceTitle": "L'Étoile de la Mer",
+      "sourceHash": "8b3a941d5f2fd1758338bb5b2db048a617345fd790b47a94169589b735707bf3",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Enchaîner les Cacterres",
+      "description": "Terminez d'abord La barrière des langues, puis profitez immédiatement du langage Cacterre pour poursuivre Taper ou parler, il faut choisir sans déclencher les combats évitables.",
+      "questKeys": [
+        "quest:1056",
+        "quest:1058"
+      ],
+      "actions": [
+        "À [14,-64], terminez l'apprentissage auprès de Paul Iglotte pour La barrière des langues avant de revenir dans le secteur.",
+        "Une fois La barrière des langues terminée, utilisez immédiatement le dialogue pacifique avec l'Érudit Cactoblongo en [14,-64] pour Taper ou parler, il faut choisir."
+      ]
+    }
+  ]
 }

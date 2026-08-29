@@ -1,8 +1,899 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 151,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T14:56:45.119Z",
+  "summaries": [
+    {
+      "overview": "Poursuivez « Le port salue » en allant soutenir la patrouille de Bonta dans la Baie de Cania, puis faites votre rapport à Jerhyn Gholein et à Amayiro. Cette occurrence va jusqu'à la fin de la quête afin de permettre d'enchaîner immédiatement sur « L'équipe ment ».",
+      "recommendedLevel": 131,
+      "prerequisites": [
+        "La capture."
+      ],
+      "rewards": [
+        "2 416 755 XP."
+      ],
+      "preparation": [
+        "Prévoir un combat effectué seul, avec 4 miliciens alliés."
+      ],
+      "actions": [
+        {
+          "instruction": "Rendez-vous dans la Baie de Cania en [-29,-12]. Le combat se déclenche dès votre arrivée sur la carte ; remportez-le avec l'aide des 4 miliciens.",
+          "position": "[-29,-12]",
+          "zoneHint": "Baie de Cania",
+          "warning": "Le combat démarre automatiquement dès l'arrivée sur la carte. Les ennemis disposent notamment d'une attaque terre au corps à corps et d'une attaque air au corps à corps qui repousse de 2 cases.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Allez à la tour des ordres, entrez par l'accès supérieur, montez les escaliers puis continuez tout droit jusqu'à Jerhyn Gholein. Annoncez-lui votre victoire.",
+          "position": "[-34,-58]",
+          "zoneHint": "tour des ordres",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Amayiro à la Milice et faites-lui votre rapport : la patrouille a gagné, mais l'équipement des miliciens de Brâkmar semble de meilleure qualité que celui de Bonta. Cette conversation termine la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La victoire dans la Baie de Cania est supposée être la portion active à accomplir ici avant les deux rapports successifs.",
+        "La fin de cette quête débloque « L'équipe ment », traitée par l'occurrence suivante de cette même étape."
+      ],
+      "npcs": [
+        "Jerhyn Gholein",
+        "Amayiro"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 334,
+            "name": "Baie de Cania",
+            "coordinates": [
+              "-29,-12"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 976,
+            "name": "Promontoire des cieux",
+            "coordinates": [
+              "-34,-58"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 552,
+            "name": "Musha L'Oni",
+            "level": 80,
+            "imageUrl": "/bestiary/monsters/552.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2391,
+            "name": "Ameur la Laide",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2391.png"
+          },
+          {
+            "id": 2433,
+            "name": "Codenlgaz le Problème",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2433.png"
+          },
+          {
+            "id": 2508,
+            "name": "Kiroyal le Sirupeux",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2508.png"
+          },
+          {
+            "id": 2525,
+            "name": "Let le Rond",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2525.png"
+          },
+          {
+            "id": 2289,
+            "name": "Susbewl l'Hypocrite",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2289.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1068,
+            "name": "Dopeuls",
+            "monsters": [
+              {
+                "id": 385,
+                "name": "Amlub",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/385.png"
+              },
+              {
+                "id": 386,
+                "name": "Codem",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/386.png"
+              },
+              {
+                "id": 570,
+                "name": "Idemas",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/570.png"
+              },
+              {
+                "id": 388,
+                "name": "Kirevam",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/388.png"
+              },
+              {
+                "id": 389,
+                "name": "Let Emoliug",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/389.png"
+              },
+              {
+                "id": 393,
+                "name": "Susej",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/393.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:148",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-port-salue.html",
+      "sourceTitle": "Alignement 51 : Le port salue",
+      "sourceHash": "ade85c43deab810a7fa242b512cc151c8785cac2c6fe5ac2873f015310d85a69",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après « Le port salue », enquêtez sur la mauvaise qualité de l'équipement de la milice. Interrogez le forgeron de Bonta, faites fabriquer une Hache Léenne à Astrub avec les ressources demandées, confrontez Danathor puis rapportez vos conclusions à Amayiro. Cette occurrence se termine avec la quête.",
+      "recommendedLevel": 132,
+      "prerequisites": [
+        "Le port salue."
+      ],
+      "rewards": [
+        "4 957 425 XP."
+      ],
+      "preparation": [
+        "8 x Bois d'Erable.",
+        "12 x Bois de Frêne.",
+        "1 x Kriptonite."
+      ],
+      "actions": [
+        {
+          "instruction": "À l'atelier des forgerons de Bonta, parlez à Kosuke Ichazum au sujet de l'équipement de la milice. Il vous indique que Latem Sa, actuellement à Astrub, en est responsable.",
+          "position": "[-30,-56]",
+          "zoneHint": "atelier des forgerons",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à l'atelier des forgerons d'Astrub et parlez à Latem Sa. Donnez-lui 8 Bois d'Erable, 12 Bois de Frêne et 1 Kriptonite afin qu'il fabrique une Hache Léenne.",
+          "position": "[7,-16]",
+          "zoneHint": "atelier des forgerons",
+          "warning": "Les ressources remises à Latem Sa sont consommées.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir Danathor et discutez avec lui de la qualité insuffisante de l'équipement fourni à la milice. Il défend les compétences de Latem Sa et présente la situation comme une erreur.",
+          "position": "[-36,-60]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez à la Milice auprès d'Amayiro. Montrez-lui l'arme fabriquée par Latem Sa et signalez-lui que Danathor semble minimiser le problème. Cette conversation termine la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "« Le port salue » doit être terminé avant cette occurrence.",
+        "La conclusion débloque « Une partie de cache-cache », qui est l'occurrence suivante de l'étape."
+      ],
+      "npcs": [
+        "Kosuke Ichazum",
+        "Latem Sa",
+        "Danathor",
+        "Amayiro"
+      ],
+      "items": [
+        {
+          "name": "Bois d'Erable",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Bois de Frêne",
+          "itemId": 303,
+          "imageUrl": "/items/303.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/303"
+        },
+        {
+          "name": "Kriptonite",
+          "itemId": 6457,
+          "imageUrl": "/items/6457.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6457"
+        },
+        {
+          "name": "Hache Léenne",
+          "itemId": 10016,
+          "imageUrl": "/items/10016.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/10016"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "7,-16"
+            ]
+          },
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-30,-56"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 976,
+            "name": "Promontoire des cieux",
+            "coordinates": [
+              "-36,-60"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:149",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/l-equipe-ment.html",
+      "sourceTitle": "Alignement 52 : L'équipe ment",
+      "sourceHash": "3208e31da2c1c12970d7ed946b6d605831389a27e396e48a263c2c73cd3ac1ee",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Cherchez un nouveau forgeron pour la milice en interrogeant plusieurs artisans, puis obtenez de Norb l'emplacement de Nara contre 5 000 kamas. Entrez dans la grotte de Nara avec les ressources requises, satisfaites ses demandes et réussissez son dernier test en slip. Cette occurrence va jusqu'à la fin de la quête ; « Pour vivre heureux » ne sera commencé qu'à l'étape suivante.",
+      "recommendedLevel": 133,
+      "prerequisites": [
+        "L'équipe ment."
+      ],
+      "rewards": [
+        "10 052 733 XP."
+      ],
+      "preparation": [
+        "4 x Poils d’Arakne Malade pour entrer dans la grotte.",
+        "2 x Défense du Sanglier pour entrer dans la grotte.",
+        "1 x Bière du Chabrulé.",
+        "1 x Aile de Raie.",
+        "1 x Philtre de Dragofesse.",
+        "Un Slip équipable, conservé après la quête.",
+        "5 000 kamas à remettre à Norb."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Kosuke Ichazum et demandez-lui s'il connaît un autre forgeron compétent.",
+          "position": "[-30,-56]",
+          "zoneHint": "atelier des forgerons",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir Hanniboul Smisse et proposez-lui de travailler pour Bonta. Après son refus, retenez sa recommandation concernant un forgeron au nord du village d'Amakna.",
+          "position": "[-1,2]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Proposez à Otho Laringo de travailler pour la milice de Bonta. Il refuse à son tour et vous oriente vers un forgeron ermite.",
+          "position": "[-2,-3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Proposez à Graham Finame de travailler pour Bonta. Après son refus, il vous conseille de demander à Norb où se trouve le forgeron disparu.",
+          "position": "[6,0]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À l'atelier des forgerons, parlez à Norb, proposez-lui de travailler pour Bonta puis choisissez « Proposer 5000 Kamas pour le faire changer d’avis » afin qu'il révèle la cachette de Nara.",
+          "position": "[3,29]",
+          "zoneHint": "atelier des forgerons",
+          "warning": "Cette étape coûte 5 000 kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À l'entrée de la grotte, donnez à Bellus Sel 4 Poils d’Arakne Malade et 2 Défense du Sanglier pour obtenir l'accès.",
+          "position": "[10,11]",
+          "zoneHint": "entrée de la grotte",
+          "warning": "Les ressources d'entrée sont consommées. Si vous quittez la grotte avant d'avoir terminé cette portion, une nouvelle entrée peut nécessiter de nouveau 4 Poils d’Arakne Malade et 2 Défense du Sanglier.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Traversez la première salle de la grotte puis parlez à Nara et transmettez-lui la proposition de Bonta.",
+          "position": "[10,11]",
+          "zoneHint": "grotte de Nara",
+          "warning": "Un Mulou peut agresser dans la première salle ; évitez-le si vous ne souhaitez pas combattre.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparlez à Nara et donnez-lui 1 Aile de Raie et 1 Bière du Chabrulé.",
+          "position": "[10,11]",
+          "zoneHint": "grotte de Nara",
+          "warning": "L'Aile de Raie et la Bière du Chabrulé sont remises à Nara, qui les jette ensuite.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparlez à Nara et donnez-lui 1 Philtre de Dragofesse pour poursuivre ses tests.",
+          "position": "[10,11]",
+          "zoneHint": "grotte de Nara",
+          "warning": "Le Philtre de Dragofesse est consommé.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez encore à Nara, puis équipez votre Slip à la place de votre ceinture comme il le demande.",
+          "position": "[10,11]",
+          "zoneHint": "grotte de Nara",
+          "warning": "Le Slip doit être un objet équipable. Vous ne le perdez pas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparlez à Nara et choisissez successivement « Se mettre en slip », « Se mettre à quatre pattes », « Aboyer » puis « Se curer le nez avec les orteils ». Ne choisissez pas « Lui dire d’aller se faire voir ». La bonne séquence termine la quête.",
+          "position": "[10,11]",
+          "zoneHint": "grotte de Nara",
+          "warning": "Choix de dialogue à respecter dans cet ordre ; évitez explicitement la dernière proposition « Lui dire d’aller se faire voir ».",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "« L'équipe ment » est supposée terminée avant cette occurrence.",
+        "Préparer toutes les ressources avant d'entrer dans la grotte évite d'avoir à payer de nouveau son accès en cas d'aller-retour.",
+        "La quête suivante, « Pour vivre heureux », commence auprès de Nara dans cette même grotte mais appartient à l'étape 152 et ne doit pas être lancée dans les actions de cette occurrence."
+      ],
+      "npcs": [
+        "Kosuke Ichazum",
+        "Hanniboul Smisse",
+        "Otho Laringo",
+        "Graham Finame",
+        "Norb",
+        "Bellus Sel",
+        "Nara"
+      ],
+      "items": [
+        {
+          "name": "Poils d'Arakne Malade",
+          "itemId": 388,
+          "imageUrl": "/items/388.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/388"
+        },
+        {
+          "name": "Défense du Sanglier",
+          "itemId": 387,
+          "imageUrl": "/items/387.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/387"
+        },
+        {
+          "name": "Bière du Chabrulé",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Aile de Raie",
+          "itemId": 1815,
+          "imageUrl": "/items/1815.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1815"
+        },
+        {
+          "name": "Philtre de Dragofesse",
+          "itemId": 33380,
+          "imageUrl": "/items/33380.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/33380"
+        },
+        {
+          "name": "Slip",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 485,
+            "name": "Campagne d'Amakna",
+            "coordinates": [
+              "6,0"
+            ]
+          },
+          {
+            "id": 481,
+            "name": "Clairière de Brouce Boulgoure",
+            "coordinates": [
+              "10,11"
+            ]
+          },
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-30,-56"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "10,11"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "10,11"
+            ]
+          },
+          {
+            "id": 170,
+            "name": "Plaine des Scarafeuilles",
+            "coordinates": [
+              "3,29"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "-1,2",
+              "-2,-3"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2310,
+            "name": "Arakule la Revancharde",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2310.png"
+          },
+          {
+            "id": 2323,
+            "name": "Chamchie le Difficile",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2323.png"
+          },
+          {
+            "id": 2336,
+            "name": "Mosketère le Dévoué",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2336.png"
+          },
+          {
+            "id": 2353,
+            "name": "Sangria le Fruité",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2353.png"
+          },
+          {
+            "id": 2280,
+            "name": "Scapé l'Epée",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2280.png"
+          },
+          {
+            "id": 2283,
+            "name": "Scaramel le Fondant",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2283.png"
+          },
+          {
+            "id": 2281,
+            "name": "Scarfayss le Balafré",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2281.png"
+          },
+          {
+            "id": 2282,
+            "name": "Scarouarze l'Epopée",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2282.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 104,
+                "name": "Sanglier",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/104.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              }
+            ]
+          },
+          {
+            "id": 212,
+            "name": "Dragodindes",
+            "monsters": [
+              {
+                "id": 171,
+                "name": "Dragodinde amande sauvage",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/171.png"
+              },
+              {
+                "id": 200,
+                "name": "Dragodinde rousse sauvage",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/200.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 181,
+            "name": "Scarafeuilles",
+            "monsters": [
+              {
+                "id": 198,
+                "name": "Scarafeuille Bleu",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/198.png"
+              },
+              {
+                "id": 241,
+                "name": "Scarafeuille Blanc",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/241.png"
+              },
+              {
+                "id": 194,
+                "name": "Scarafeuille Rouge",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/194.png"
+              },
+              {
+                "id": 240,
+                "name": "Scarafeuille Vert",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/240.png"
+              }
+            ]
+          },
+          {
+            "id": 1602,
+            "name": "Vermines des champs",
+            "monsters": [
+              {
+                "id": 4819,
+                "name": "Campagnoll",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/4819.png"
+              },
+              {
+                "id": 59,
+                "name": "Champ Champ",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/59.png"
+              },
+              {
+                "id": 61,
+                "name": "Moskito",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/61.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:150",
+      "relation": "ACTIVE",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/une-partie-de-cache-cache.html",
+      "sourceTitle": "Alignement 53 : Une partie de cache-cache",
+      "sourceHash": "1eb669ceba62c9f880ac90005ddafd56fe9a0cf745101e684d03d2723219e919",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

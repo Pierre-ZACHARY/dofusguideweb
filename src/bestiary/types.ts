@@ -21,6 +21,7 @@ export const bestiaryMonsterSchema = z.object({
 
 export const bestiarySubareaSchema = z.object({
   id: z.number().int().positive(),
+  areaId: z.number().int().nonnegative().nullable().optional().default(null),
   name: z.string().min(1),
   monsterIds: z.array(z.number().int().positive()),
 });

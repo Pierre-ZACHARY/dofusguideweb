@@ -1,8 +1,125 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 85,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T11:29:03.931Z",
+  "summaries": [
+    {
+      "overview": "Lancez La grande parade auprès de Chourave, puis rendez-vous au Chapiteau des Magik Riktus et effectuez le donjon jusqu'à vaincre Choudini dans la cinquième salle. Arrêtez-vous après la victoire contre le boss : les discussions avec Choudini, MC Dimote, Chourave et Magik Ermitus seront effectuées plus tard dans le guide.",
+      "recommendedLevel": null,
+      "prerequisites": [
+        "Avoir terminé Retour aux sources."
+      ],
+      "rewards": [],
+      "preparation": [
+        "Prévoir d'effectuer le donjon Chapiteau des Magik Riktus."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Chourave pour lancer La grande parade à la suite de Retour aux sources.",
+          "position": "[-21,14]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous sous le chapiteau pour commencer le donjon Chapiteau des Magik Riktus.",
+          "position": "[-22,12]",
+          "zoneHint": "Chapiteau des Magik Riktus",
+          "warning": "Cette occurrence demande d'effectuer le donjon et de progresser jusqu'au combat contre Choudini.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Parcourez le Chapiteau des Magik Riktus jusqu'à la cinquième salle, puis vainquez x1 Choudini en un seul combat.",
+          "position": null,
+          "zoneHint": "Chapiteau des Magik Riktus - Cinquième salle",
+          "warning": "Ne poursuivez pas les dialogues de fin de quête après le combat à cette occurrence.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "La portion demandée ici s'arrête une fois Choudini vaincu dans la cinquième salle.",
+        "Après le boss, la quête prévoit encore plusieurs dialogues avec Choudini, MC Dimote, Chourave et Magik Ermitus, mais ils sont volontairement différés."
+      ],
+      "npcs": [
+        "Chourave",
+        "Choudini"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 888,
+            "name": "Chapiteau des Magik Riktus",
+            "coordinates": [
+              "-22,12"
+            ]
+          },
+          {
+            "id": 526,
+            "name": "Route des Roulottes",
+            "coordinates": [
+              "-21,14"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4814,
+            "name": "Simbadas",
+            "level": 90,
+            "imageUrl": "/bestiary/monsters/4814.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1591,
+            "name": "Magik Riktus",
+            "monsters": [
+              {
+                "id": 4865,
+                "name": "Graboule",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4865.png"
+              },
+              {
+                "id": 4864,
+                "name": "Roukouto",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4864.png"
+              },
+              {
+                "id": 4863,
+                "name": "Pirolienne",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4863.png"
+              },
+              {
+                "id": 4862,
+                "name": "Tivelo",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4862.png"
+              },
+              {
+                "id": 4861,
+                "name": "Bozoteur",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4861.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1118",
+      "relation": "START",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-grande-parade.html",
+      "sourceTitle": "La grande parade",
+      "sourceHash": "676d3fdb6cbe6b70d889d171a4cd501f43b5612acded6e95f85f2d7ffd17e160",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

@@ -1,8 +1,879 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 135,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T14:23:02.480Z",
+  "summaries": [
+    {
+      "overview": "Reprenez après le lancement des quêtes nécessaires à la protection contre la malédiction. Il faut réunir la Perle de lait doré, la Poudre d'éternaile et l'Anneau de Tot, fabriquer la Tablette de Totankama, effectuer la chasse légendaire puis remettre le Masque Maudit de Totankama au Minotot. L'interaction finale avec le faux Dofus clôt cette quête et déclenche la situation traitée immédiatement par Une âme en peine.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Taures et détours.",
+        "Comment perdre ses plumes doit être terminée pour acheter les morceaux de tablette.",
+        "Disposer des trois ressources obtenues via Il faut battre le lait quand il est chaud, Regrets d'éternailes et L'anneau de Tot avant le rituel de Mériana."
+      ],
+      "rewards": [
+        "4 766 334 XP.",
+        "46 752 kamas.",
+        "1 x Parchemin Doré."
+      ],
+      "preparation": [
+        "Prévoir 25 x Trésor archéologique pour acheter les 5 morceaux de tablette de Totankama si ce n'est pas déjà fait.",
+        "Les Trésors archéologiques peuvent notamment provenir de la quête quotidienne Chasse au trésor archéologique ou des boss de donjons de niveau 120 à 130 concernés.",
+        "Prévoir un combat contre la Momie Nova, réalisable en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Si la Tablette de Totankama n'est pas encore assemblée, achetez les 5 morceaux de tablette auprès de Éner Brelloq puis utilisez le pupitre de la salle centrale pour les réunir.",
+          "position": "[-24,-36]",
+          "zoneHint": "Malle aux Trésors",
+          "warning": "Chaque morceau coûte 5 x Trésor archéologique, soit 25 au total, et l'achat exige d'avoir terminé Comment perdre ses plumes. Les morceaux sont liés au compte.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montrez la Tablette de Totankama à Tatine afin de confirmer qu'elle peut guider la chasse au masque.",
+          "position": "[-24,-36]",
+          "zoneHint": "Malle aux Trésors",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rapportez à Mériana la Perle de lait doré, la Poudre d'éternaile et l'Anneau de Tot afin qu'elle réalise le rituel de protection. Si ces ressources lui ont déjà été remises, poursuivez directement.",
+          "position": "[-6,-3]",
+          "zoneHint": null,
+          "warning": "Les trois ressources sont nécessaires à la protection contre la malédiction sauf si cette étape a déjà été validée.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À l'extérieur de la cabane, cliquez sur le rocher pour y enterrer le sac remis par Mériana.",
+          "position": "[-6,-3]",
+          "zoneHint": "extérieur de la cabane de Mériana",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Lancez avec la Tablette de Totankama la chasse légendaire du Trésor de Totankama et suivez-la jusqu'à son terme.",
+          "position": "[-25,-36]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À la fin de la chasse, affrontez la Momie Nova pour obtenir le Coffre de Totankama.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Combat réalisable en groupe. La Momie Nova peut frapper toute l'équipe, se soigner, attirer et appliquer pesanteur, retrait de PA, poison, vol de vie et érosion.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Ouvrez le Coffre de Totankama pour récupérer le Masque Maudit de Totankama.",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez sur l'île du Minotoror et parlez à Lorkos pour rejoindre la salle où se trouve le Minotot.",
+          "position": "[-42,-17]",
+          "zoneHint": "île du Minotoror",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montrez puis confiez le Masque Maudit de Totankama au Minotot afin qu'il vous conduise vers le Dofus Pourpre.",
+          "position": "[-42,-17]",
+          "zoneHint": "salle du Minotot",
+          "warning": "Le masque est remis au Minotot pour poursuivre.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interagissez avec le Dofus Pourpre posé sur son socle. Il s'agit d'un piège : vous êtes envoyé dans le labyrinthe, ce qui termine cette portion et enchaîne sur Une âme en peine.",
+          "position": null,
+          "zoneHint": "salle du Dofus",
+          "warning": "Cette interaction déclenche immédiatement la séquence suivante.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les trois quêtes donnant la Perle de lait doré, la Poudre d'éternaile et l'Anneau de Tot sont supposées avoir été effectuées depuis l'occurrence précédente de cette quête.",
+        "Une fois les 5 morceaux achetés, les Trésors archéologiques ne sont plus obtenus sur les boss concernés, mais la quête quotidienne permet encore d'en récupérer.",
+        "Le combat tactique déclenché après le piège appartient à Une âme en peine et n'est donc pas inclus dans les actions de ce résumé."
+      ],
+      "npcs": [
+        "Éner Brelloq",
+        "Tatine",
+        "Mériana",
+        "Lorkos",
+        "Minotot",
+        "Momie Nova"
+      ],
+      "items": [
+        {
+          "name": "Perle de lait doré",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Poudre d'éternaile",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Anneau de Tot",
+          "itemId": 15420,
+          "imageUrl": "/items/15420.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15420"
+        },
+        {
+          "name": "Trésor archéologique",
+          "itemId": 32378,
+          "imageUrl": "/items/32378.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/32378"
+        },
+        {
+          "name": "Morceau de tablette de Totankama",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Tablette de Totankama",
+          "itemId": 15391,
+          "imageUrl": "/items/15391.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15391"
+        },
+        {
+          "name": "Coffre de Totankama",
+          "itemId": 15399,
+          "imageUrl": "/items/15399.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15399"
+        },
+        {
+          "name": "Masque Maudit de Totankama",
+          "itemId": 15400,
+          "imageUrl": "/items/15400.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15400"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 923,
+            "name": "Ankama",
+            "coordinates": [
+              "-24,-36",
+              "-25,-36",
+              "-42,-17"
+            ]
+          },
+          {
+            "id": 209,
+            "name": "Île du Minotoror",
+            "coordinates": [
+              "-42,-17"
+            ]
+          },
+          {
+            "id": 232,
+            "name": "Marécages nauséabonds",
+            "coordinates": [
+              "-6,-3"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-24,-36"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 5074,
+            "name": "Vashkiwi",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/5074.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2549,
+            "name": "Boostif l'Affamé",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2549.png"
+          },
+          {
+            "id": 2439,
+            "name": "Crolnareff l'Exilé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2439.png"
+          },
+          {
+            "id": 2428,
+            "name": "Crok le Beau",
+            "level": 61,
+            "imageUrl": "/bestiary/monsters/2428.png"
+          },
+          {
+            "id": 2529,
+            "name": "Mandalo l'Aqueuse",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/2529.png"
+          },
+          {
+            "id": 2533,
+            "name": "Minoskour le Sauveur",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2533.png"
+          },
+          {
+            "id": 2521,
+            "name": "Krapahut le Randonneur",
+            "level": 110,
+            "imageUrl": "/bestiary/monsters/2521.png"
+          },
+          {
+            "id": 2287,
+            "name": "Serpistule le Purulent",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/2287.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 208,
+            "name": "Gadouilleux",
+            "monsters": [
+              {
+                "id": 263,
+                "name": "Chef Crocodaille",
+                "level": 61,
+                "imageUrl": "/bestiary/monsters/263.png"
+              },
+              {
+                "id": 261,
+                "name": "Crocodaille",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/261.png"
+              },
+              {
+                "id": 112,
+                "name": "Boo",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/112.png"
+              },
+              {
+                "id": 4833,
+                "name": "Arakne Olithique",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4833.png"
+              }
+            ]
+          },
+          {
+            "id": 173,
+            "name": "Minos",
+            "monsters": [
+              {
+                "id": 836,
+                "name": "Kraméléhon",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/836.png"
+              },
+              {
+                "id": 835,
+                "name": "Mandrine",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/835.png"
+              },
+              {
+                "id": 834,
+                "name": "Minoskito",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/834.png"
+              },
+              {
+                "id": 829,
+                "name": "Serpiplume",
+                "level": 120,
+                "imageUrl": "/bestiary/monsters/829.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:808",
+      "relation": "FINISH",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-treacutesor-de-totankama.html",
+      "sourceTitle": "Le trésor de Totankama",
+      "sourceHash": "65e44908e84bef84e26bcab638529d2f862f4131f61842f73ac8305e9b961dd6",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après le piège du Minotot, traversez le combat tactique du labyrinthe sous forme de Momie sans âme, puis obtenez l'aide d'Apisaphé. Cette portion doit être menée jusqu'à l'obtention de la clef du Trône et la fin de la quête, car Le pouvoir derrière le trône est lancé juste après dans cette même étape.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Le trésor de Totankama."
+      ],
+      "rewards": [
+        "2 383 167 XP.",
+        "23 376 kamas.",
+        "1 x Poils du Minotoror."
+      ],
+      "preparation": [
+        "Le combat tactique est obligatoirement réalisé seul.",
+        "Le personnage transformé dispose de 50 PV, 10 PA et 1 PM et perd 1 PV par tour."
+      ],
+      "actions": [
+        {
+          "instruction": "Dans le labyrinthe, utilisez les sorts de la Momie sans âme et atteignez la case verte pour remporter le combat contre le Minogolem séculaire.",
+          "position": "[-39,-11]",
+          "zoneHint": "labyrinthe de l'Antichambre du Minotoror",
+          "warning": "Combat tactique en solo. Anticipez quel Minogolem jouera afin d'éviter les murs. Déplacement rapide donne 1 PM, Décalage pousse un mur d'une case et Placidité coûte 1 PV mais réduit leurs délais de relance. Une défaite ne fait pas perdre d'énergie et vous replace sur la carte.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après la victoire, parlez à Lorkos à l'entrée du labyrinthe au sujet de la trahison du Minotot et insistez pour accéder au Dofus.",
+          "position": null,
+          "zoneHint": "entrée du labyrinthe",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Utilisez la potion indiquée pour rejoindre Apisaphé.",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Expliquez la trahison du Minotot à Apisaphé. Elle vous remet la clef du Trône et vous indique qu'un allié Taure sera nécessaire pour ouvrir l'accès.",
+          "position": "[-42,-17]",
+          "zoneHint": "Refuge des cent détours",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Pour progresser dans le labyrinthe, il peut être préférable d'attendre, de reculer ou de faire un détour plutôt que de laisser un mur fermer le passage.",
+        "La conversation suivante avec Apisaphé sert à lancer Le pouvoir derrière le trône ; elle est traitée dans le résumé START distinct de cette quête."
+      ],
+      "npcs": [
+        "Minogolem séculaire",
+        "Lorkos",
+        "Apisaphé"
+      ],
+      "items": [
+        {
+          "name": "Clef du Trône",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 209,
+            "name": "Île du Minotoror",
+            "coordinates": [
+              "-42,-17"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "-39,-11"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 5074,
+            "name": "Vashkiwi",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/5074.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2529,
+            "name": "Mandalo l'Aqueuse",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/2529.png"
+          },
+          {
+            "id": 2533,
+            "name": "Minoskour le Sauveur",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2533.png"
+          },
+          {
+            "id": 2521,
+            "name": "Krapahut le Randonneur",
+            "level": 110,
+            "imageUrl": "/bestiary/monsters/2521.png"
+          },
+          {
+            "id": 2287,
+            "name": "Serpistule le Purulent",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/2287.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 173,
+            "name": "Minos",
+            "monsters": [
+              {
+                "id": 836,
+                "name": "Kraméléhon",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/836.png"
+              },
+              {
+                "id": 835,
+                "name": "Mandrine",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/835.png"
+              },
+              {
+                "id": 834,
+                "name": "Minoskito",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/834.png"
+              },
+              {
+                "id": 829,
+                "name": "Serpiplume",
+                "level": 120,
+                "imageUrl": "/bestiary/monsters/829.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:813",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/une-acircme-en-peine.html",
+      "sourceTitle": "Une âme en peine",
+      "sourceHash": "4b9da965c19c1eac35bd27d972ad7d363b9041ba57deb7df2060b57311bfddf2",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez la quête auprès d'Apisaphé puis suivez la piste du Gamino jusqu'à apprendre qu'il se trouve à Frigost. Arrêtez-vous lorsque l'objectif devient de trouver Gavroch dans la Serre du Royalmouth : le donjon et la suite seront traités conjointement avec Monarchie absolue puis la quête sera rendue à l'étape suivante.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Une âme en peine."
+      ],
+      "rewards": [
+        "4 766 334 XP.",
+        "46 752 kamas.",
+        "1 x Corne Brûlée du Minotoror."
+      ],
+      "preparation": [
+        "Conservez la clef du Trône confiée par Apisaphé.",
+        "La Serre du Royalmouth sera effectuée ensuite, en parallèle avec Monarchie absolue."
+      ],
+      "actions": [
+        {
+          "instruction": "Continuez à parler à Apisaphé pour lancer Le pouvoir derrière le trône et acceptez de rechercher un allié Taure.",
+          "position": "[-42,-17]",
+          "zoneHint": "Refuge des cent détours",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à l'entrée du Donjon des Blops et demandez à Bibiblop où se trouve le Gamino.",
+          "position": "[-7,-43]",
+          "zoneHint": "entrée du Donjon des Blops",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Après l'indication de Bibiblop vers Frigost, arrêtez la progression de cette quête lorsque l'objectif demande de trouver Gavroch dans la Serre du Royalmouth.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Ne faites pas encore la suite spécifique de cette quête dans ce résumé ; le passage par la Serre du Royalmouth est effectué avec Monarchie absolue dans cette étape.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La conversation avec Gavroch, le Royalmouth puis le retour sur l'île du Minotoror appartiennent à la suite du parcours et ne doivent pas être anticipés ici.",
+        "Le rendu final de Le pouvoir derrière le trône est prévu à l'étape 136."
+      ],
+      "npcs": [
+        "Apisaphé",
+        "Bibiblop",
+        "Gavroch"
+      ],
+      "items": [
+        {
+          "name": "Clef du Trône",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 209,
+            "name": "Île du Minotoror",
+            "coordinates": [
+              "-42,-17"
+            ]
+          },
+          {
+            "id": 56,
+            "name": "Lac de Cania",
+            "coordinates": [
+              "-7,-43"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 5074,
+            "name": "Vashkiwi",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/5074.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2400,
+            "name": "Bi le Partageur",
+            "level": 24,
+            "imageUrl": "/bestiary/monsters/2400.png"
+          },
+          {
+            "id": 2399,
+            "name": "Bilvoezé le Bonimenteur",
+            "level": 24,
+            "imageUrl": "/bestiary/monsters/2399.png"
+          },
+          {
+            "id": 2396,
+            "name": "Bistou le Quêteur",
+            "level": 24,
+            "imageUrl": "/bestiary/monsters/2396.png"
+          },
+          {
+            "id": 2401,
+            "name": "Bistou le Rieur",
+            "level": 24,
+            "imageUrl": "/bestiary/monsters/2401.png"
+          },
+          {
+            "id": 2407,
+            "name": "Blof l'Apathique",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2407.png"
+          },
+          {
+            "id": 2406,
+            "name": "Bloporte le Veule",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2406.png"
+          },
+          {
+            "id": 2405,
+            "name": "Blordur l'Infect",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2405.png"
+          },
+          {
+            "id": 2404,
+            "name": "Blorie l'Assourdissante",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2404.png"
+          },
+          {
+            "id": 2529,
+            "name": "Mandalo l'Aqueuse",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/2529.png"
+          },
+          {
+            "id": 2533,
+            "name": "Minoskour le Sauveur",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2533.png"
+          },
+          {
+            "id": 2521,
+            "name": "Krapahut le Randonneur",
+            "level": 110,
+            "imageUrl": "/bestiary/monsters/2521.png"
+          },
+          {
+            "id": 2287,
+            "name": "Serpistule le Purulent",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/2287.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 210,
+            "name": "Blops",
+            "monsters": [
+              {
+                "id": 278,
+                "name": "Biblop Coco",
+                "level": 24,
+                "imageUrl": "/bestiary/monsters/278.png"
+              },
+              {
+                "id": 279,
+                "name": "Biblop Griotte",
+                "level": 24,
+                "imageUrl": "/bestiary/monsters/279.png"
+              },
+              {
+                "id": 277,
+                "name": "Biblop Indigo",
+                "level": 24,
+                "imageUrl": "/bestiary/monsters/277.png"
+              },
+              {
+                "id": 280,
+                "name": "Biblop Reinette",
+                "level": 24,
+                "imageUrl": "/bestiary/monsters/280.png"
+              },
+              {
+                "id": 273,
+                "name": "Blop Coco",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/273.png"
+              },
+              {
+                "id": 275,
+                "name": "Blop Griotte",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/275.png"
+              },
+              {
+                "id": 274,
+                "name": "Blop Indigo",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/274.png"
+              },
+              {
+                "id": 276,
+                "name": "Blop Reinette",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/276.png"
+              }
+            ]
+          },
+          {
+            "id": 173,
+            "name": "Minos",
+            "monsters": [
+              {
+                "id": 836,
+                "name": "Kraméléhon",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/836.png"
+              },
+              {
+                "id": 835,
+                "name": "Mandrine",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/835.png"
+              },
+              {
+                "id": 834,
+                "name": "Minoskito",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/834.png"
+              },
+              {
+                "id": 829,
+                "name": "Serpiplume",
+                "level": 120,
+                "imageUrl": "/bestiary/monsters/829.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:814",
+      "relation": "START",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-pouvoir-derriegravere-le-trocircne.html",
+      "sourceTitle": "Le pouvoir derrière le trône",
+      "sourceHash": "9966067a265154e30ee0b9cc365dbefd996e0ab44dadaedc08f51f1bfe0a0167",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez Monarchie absolue auprès de l'agent correspondant à votre alignement, puis effectuez la Serre du Royalmouth et vainquez le Royalmouth comme demandé. Ne retournez pas encore rendre la quête à l'agent : ce rendu est réservé à l'occurrence FINISH de l'étape 136.",
+      "recommendedLevel": 120,
+      "prerequisites": [
+        "Être Brakmarien ou Bontarien d'alignement niveau 1 minimum.",
+        "Antiroyaliste."
+      ],
+      "rewards": [
+        "3 082 320 XP.",
+        "33 560 Kamas.",
+        "2 x Kama de glace."
+      ],
+      "preparation": [
+        "Prévoir d'effectuer la Serre du Royalmouth en [-84,-49].",
+        "Profitez du même donjon pour avancer Le pouvoir derrière le trône en parlant à Gavroch dans la dernière salle."
+      ],
+      "actions": [
+        {
+          "instruction": "À La bourgade, parlez à Jamy Rocaille si vous êtes Brakmarien ou à Michèle Seyroth si vous êtes Bontarien et acceptez la mission de capturer le Royalmouth.",
+          "position": "[-76,-46]",
+          "zoneHint": "La bourgade",
+          "warning": "La quête nécessite un alignement Brakmarien ou Bontarien de niveau 1 minimum.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à la Serre du Royalmouth et progressez dans le donjon jusqu'à la dernière salle.",
+          "position": "[-84,-49]",
+          "zoneHint": "Serre du Royalmouth",
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Vainquez le Royalmouth afin de valider l'objectif de Monarchie absolue.",
+          "position": "[-84,-49]",
+          "zoneHint": "dernière salle de la Serre du Royalmouth",
+          "warning": "Combat de boss. Ne quittez pas précipitamment la dernière salle : Le pouvoir derrière le trône comporte des interactions avec Gavroch à effectuer autour de ce combat.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "Après la victoire, ne retournez pas encore auprès de Jamy Rocaille ou Michèle Seyroth : le rendu de Monarchie absolue est prévu à l'étape 136.",
+        "Le guide signale également qu'une quête Le mal a dit peut demander un Échantillon de Sang du Royalmouth, mais elle n'a pas d'occurrence à résumer dans cette étape."
+      ],
+      "npcs": [
+        "Jamy Rocaille",
+        "Michèle Seyroth",
+        "Royalmouth",
+        "Gavroch"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 601,
+            "name": "La Bourgade",
+            "coordinates": [
+              "-76,-46"
+            ]
+          },
+          {
+            "id": 617,
+            "name": "Serre du Royalmouth",
+            "coordinates": [
+              "-84,-49"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2913,
+                "name": "Chachachovage",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2913.png"
+              },
+              {
+                "id": 2893,
+                "name": "Crabe Hijacob",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2893.png"
+              },
+              {
+                "id": 2914,
+                "name": "Gélikan",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2914.png"
+              },
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          },
+          {
+            "id": 156,
+            "name": "Boufmouths",
+            "monsters": [
+              {
+                "id": 2850,
+                "name": "Boufmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2850.png"
+              },
+              {
+                "id": 2851,
+                "name": "Boufmouth de guerre",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2851.png"
+              },
+              {
+                "id": 2852,
+                "name": "Boufmouth légendaire",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2852.png"
+              },
+              {
+                "id": 2853,
+                "name": "Bouftonmouth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/2853.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:455",
+      "relation": "START",
+      "sortOrder": 3,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/monarchie-absolue.html",
+      "sourceTitle": "Monarchie absolue",
+      "sourceHash": "37c129102864775842f1ad1d7dd71335ad3296f1ae5ab26bccd5a8e3fe11845d",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Rentabiliser la Serre du Royalmouth",
+      "description": "Le pouvoir derrière le trône et Monarchie absolue passent tous deux par la Serre du Royalmouth. Faites un seul parcours du donjon : avancez la recherche de Gavroch dans la dernière salle tout en réalisant la victoire sur le Royalmouth demandée par Monarchie absolue.",
+      "questKeys": [
+        "quest:814",
+        "quest:455"
+      ],
+      "actions": [
+        "Avant le combat contre le Royalmouth, parlez à Gavroch dans la dernière salle pour Le pouvoir derrière le trône.",
+        "Battez le Royalmouth pour valider l'objectif de Monarchie absolue.",
+        "Après le combat, reparlez à Gavroch avant de quitter le donjon afin de conserver la progression de Le pouvoir derrière le trône."
+      ]
+    }
+  ]
 }

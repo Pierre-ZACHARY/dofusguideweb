@@ -1,112 +1,25 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 119,
-  "updatedAt": "2026-08-27T15:07:35.162Z",
+  "updatedAt": "2026-08-29T12:51:40.945Z",
   "summaries": [
     {
-      "overview": "Aidez Albert Paisse à mettre au point un vaccin provisoire contre le rube. La quête commence par la collecte de 6 échantillons de sang sur les Boufmouths des Champs de glace, puis impose plusieurs allers-retours entre Albert Paisse, le Capitaine Gneux et Éric Azaraille afin d'obtenir de l'eau de mer isotonique. Un rendez-vous à heure choisie doit ensuite avoir lieu à la Taverne du Paradis Frigostien. La dernière partie se déroule dans la cave d'Albert : 3 autres personnages sont nécessaires pour ouvrir l'accès à La Bête, qu'il faut combattre après avoir utilisé le Sortilège d'Albert Paisse sur elle avant sa mort.",
+      "overview": "Lancez Les monologues du vaccin auprès d'Albert Paisse. L'objectif utile à cette étape est de préparer la collecte de 6 échantillons de sang de Boufmouth. Ne poursuivez pas encore la longue suite auprès du Capitaine Gneux : commencez d'abord les deux autres quêtes de l'étape afin de mutualiser les combats dans les Champs de glace.",
       "recommendedLevel": 110,
-      "prerequisites": [
-        "Niveau recommandé : 100-120."
-      ],
+      "prerequisites": [],
       "rewards": [
-        "2 047 500 XP.",
-        "23 960 kamas.",
-        "Vaccin contre le rube, temporaire pendant 7 jours."
+        "2 047 500 XP",
+        "23 960 kamas",
+        "Vaccin contre le rube temporaire pendant 7 jours"
       ],
       "preparation": [
-        "Prévoir des combats contre des monstres des Champs de glace.",
-        "Prévoir 1 combat contre La Bête, réalisable en groupe.",
-        "Prévoir l'aide de 3 personnages pour ouvrir la grille dans la cave d'Albert Paisse."
+        "Prévoyez des combats contre les Boufmouths des Champs de glace.",
+        "Gardez de la place dans l'inventaire de quête pour 6 échantillons de sang de Boufmouth."
       ],
       "actions": [
         {
-          "instruction": "Parlez à Albert Paisse et acceptez de l'aider à chercher un remède contre le rube.",
-          "position": "[-80,-45]",
-          "zoneHint": "La Bourgade",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Rendez-vous dans les Champs de glace, combattez des Boufmouths malades et récupérez 6 échantillons de sang. Le taux de base indiqué est de 30 %.",
-          "position": null,
-          "zoneHint": "Champs de glace",
-          "warning": "Les 6 échantillons sont nécessaires avant de revenir auprès d'Albert Paisse.",
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Rapportez les 6 échantillons de sang à Albert Paisse.",
-          "position": "[-80,-45]",
-          "zoneHint": "La Bourgade",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Allez voir le Capitaine Gneux au phare et demandez-lui de l'eau de mer isotonique. Il exige de l'armoise en échange.",
-          "position": "[-85,-36]",
-          "zoneHint": "Phare",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Allez voir Éric Azaraille et demandez-lui de l'armoise. Il refuse tant que Gneux ne vient pas lui présenter ses excuses.",
-          "position": "[-81,-44]",
-          "zoneHint": "La Bourgade",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Retournez auprès du Capitaine Gneux, annoncez-lui le refus d'Éric puis proposez un rendez-vous en tête-à-tête. Choisissez la tranche horaire du rendez-vous.",
-          "position": "[-85,-36]",
-          "zoneHint": "Phare",
-          "warning": "Le choix de la tranche horaire conditionne la suite immédiate de la quête. Elle peut être changée en reparlant à Gneux, mais seulement après 24 heures. Les horaires choisis sont rappelés sur un papier dans l'inventaire de quête.",
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Pendant la tranche horaire choisie, rendez-vous à la Taverne du Paradis Frigostien, parlez au Capitaine Gneux et poursuivez la discussion en buvant avec lui.",
-          "position": "[-77,-38]",
-          "zoneHint": "Taverne du Paradis Frigostien",
-          "warning": "Cette étape doit être effectuée pendant la tranche horaire choisie auparavant.",
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Retournez voir Éric Azaraille. Après les excuses de Gneux, il vous remet de l'armoise.",
-          "position": "[-81,-44]",
-          "zoneHint": "La Bourgade",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Apportez l'armoise au Capitaine Gneux. Il vous remet alors l'eau de mer isotonique en échange.",
-          "position": "[-85,-36]",
-          "zoneHint": "Phare",
-          "warning": "L'armoise est remise à Gneux en échange de l'eau de mer isotonique.",
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Rapportez l'eau de mer isotonique à Albert Paisse. Il vous demande ensuite d'intervenir sur son cobaye dans la cave.",
-          "position": "[-80,-45]",
-          "zoneHint": "La Bourgade",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Descendez dans la cave d'Albert Paisse et faites placer 3 autres personnages sur les emplacements requis afin d'ouvrir la grille. Passez de l'autre côté pour recevoir le Sortilège d'Albert Paisse.",
-          "position": "[-80,-45]",
-          "zoneHint": "Cave d'Albert Paisse",
-          "warning": "L'aide de 3 personnages est obligatoire pour franchir la grille. Seul le personnage qui passe la grille obtient le Sortilège d'Albert Paisse.",
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Lancez le combat contre La Bête. Utilisez impérativement le Sortilège d'Albert Paisse sur La Bête avant de la tuer, puis remportez le combat pour obtenir un Echantillon de sang de La Bête.",
-          "position": "[-80,-45]",
-          "zoneHint": "Cave d'Albert Paisse",
-          "warning": "Si La Bête meurt sans avoir reçu le Sortilège d'Albert Paisse, son effet tue toute l'équipe. Son poison Hexakosioihexekontahexaphobie dure 1 tour et inflige environ 500 à 600 dégâts neutres à la cible et aux personnages à son corps-à-corps au début du tour du personnage empoisonné. Gévaudan frappe environ 250 dans l'élément eau.",
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Remontez voir Albert Paisse et remettez-lui l'Echantillon de sang de La Bête pour terminer la quête.",
+          "instruction": "Parlez à Albert Paisse et acceptez de l'aider à mettre au point un remède contre le rube. Il vous confie la collecte de 6 échantillons de sang sur les Boufmouths malades.",
           "position": "[-80,-45]",
           "zoneHint": "La Bourgade",
           "warning": null,
@@ -114,16 +27,12 @@
         }
       ],
       "notes": [
-        "Le vaccin obtenu est efficace pendant 1 semaine.",
-        "Après la quête, un nouveau vaccin contre le rube peut être obtenu chaque semaine en échange d'un échantillon de sang de boufmouth.",
-        "La quête débloque l'accès à Épis d'Emi."
+        "Les 6 échantillons de sang se récupèrent en combattant des Boufmouths dans les Champs de glace, avec un taux de base indiqué de 30 %.",
+        "La collecte est volontairement différée jusqu'après le lancement de Cent vingt trois fleurs, point comme les autres et de Gène et tique, afin de cumuler plusieurs objectifs sur les mêmes monstres.",
+        "Après la remise des 6 échantillons à Albert, la quête continue avec une longue série d'étapes ; elles ne sont pas à effectuer à cette occurrence."
       ],
       "npcs": [
-        "Albert Paisse",
-        "Capitaine Gneux",
-        "Éric Azaraille",
-        "La Bête",
-        "Gévaudan"
+        "Albert Paisse"
       ],
       "items": [
         {
@@ -131,71 +40,19 @@
           "itemId": null,
           "imageUrl": null,
           "dofusDbUrl": null
-        },
-        {
-          "name": "Armoise",
-          "itemId": 11203,
-          "imageUrl": "/items/11203.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11203"
-        },
-        {
-          "name": "Eau de mer isotonique",
-          "itemId": 11202,
-          "imageUrl": "/items/11202.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11202"
-        },
-        {
-          "name": "Papier du rendez-vous",
-          "itemId": null,
-          "imageUrl": null,
-          "dofusDbUrl": null
-        },
-        {
-          "name": "Echantillon de sang de La Bête",
-          "itemId": 11204,
-          "imageUrl": "/items/11204.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11204"
-        },
-        {
-          "name": "Vaccin contre le rube",
-          "itemId": 11198,
-          "imageUrl": "/items/11198.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11198"
         }
       ],
       "bestiary": {
         "zones": [
           {
-            "id": 602,
-            "name": "Champs de glace",
-            "coordinates": [
-              "-85,-36"
-            ]
-          },
-          {
             "id": 601,
             "name": "La Bourgade",
             "coordinates": [
-              "-80,-45",
-              "-81,-44"
-            ]
-          },
-          {
-            "id": 448,
-            "name": "Taverne",
-            "coordinates": [
-              "-77,-38"
+              "-80,-45"
             ]
           }
         ],
-        "bounties": [
-          {
-            "id": 2901,
-            "name": "Bouflouth",
-            "level": 120,
-            "imageUrl": "/bestiary/monsters/2901.png"
-          }
-        ],
+        "bounties": [],
         "archmonsters": [],
         "achievements": [
           {
@@ -227,40 +84,12 @@
                 "imageUrl": "/bestiary/monsters/2892.png"
               }
             ]
-          },
-          {
-            "id": 156,
-            "name": "Boufmouths",
-            "monsters": [
-              {
-                "id": 2850,
-                "name": "Boufmouth",
-                "level": 112,
-                "imageUrl": "/bestiary/monsters/2850.png"
-              },
-              {
-                "id": 2851,
-                "name": "Boufmouth de guerre",
-                "level": 112,
-                "imageUrl": "/bestiary/monsters/2851.png"
-              },
-              {
-                "id": 2852,
-                "name": "Boufmouth légendaire",
-                "level": 112,
-                "imageUrl": "/bestiary/monsters/2852.png"
-              },
-              {
-                "id": 2853,
-                "name": "Bouftonmouth",
-                "level": 112,
-                "imageUrl": "/bestiary/monsters/2853.png"
-              }
-            ]
           }
         ]
       },
       "questKey": "quest:382",
+      "relation": "START",
+      "sortOrder": 0,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/les-monologues-du-vaccin.html",
       "sourceTitle": "Les monologues du vaccin​",
       "sourceHash": "44e987b4a702e44f3986c753c814f23fb65df2b399c34639a388207234fe5520",
@@ -268,53 +97,22 @@
       "model": null
     },
     {
-      "overview": "Bisale Vinlenta cherche à croiser plusieurs plantes pour obtenir une variété plus résistante. Vous devez réunir 2 Perce-Neige, 40 Yucca Lélé obtenus sur les Boufmouths des Champs de glace ou du donjon, et 5 Tulipe Ossucion à récolter parmi plusieurs emplacements. Une fois les trois lots réunis, rapportez-les à Bisale Vinlenta en [-72,-31].",
+      "overview": "Lancez la quête auprès de Bisale Vinlenta afin d'activer la collecte des plantes. Ne rendez rien maintenant : cette quête réapparaît plus tard en FINISH. À cette occurrence, le but est surtout d'avoir l'objectif des 40 Yucca Lélé actif avant les combats contre les Boufmouths.",
       "recommendedLevel": 110,
-      "prerequisites": [
-        "Niveau recommandé : 110."
-      ],
+      "prerequisites": [],
       "rewards": [
-        "2 597 190 XP.",
-        "28 560 Kamas.",
-        "1 x kama de glace.",
-        "5 x Oreille de Bouftonmouth."
+        "2 597 190 XP",
+        "28 560 kamas",
+        "1 x Kama de glace",
+        "5 x Oreille de Bouftonmouth"
       ],
       "preparation": [
-        "Prévoir 2 x Perce-Neige, achetables en HDV ou récoltables par un alchimiste 200.",
-        "Prévoir des combats contre des Boufmouths pour obtenir 40 x Yucca Lélé.",
-        "Prévoir la récolte de 5 x Tulipe Ossucion."
+        "Prévoyez 2 x Perce-Neige pour la remise ultérieure.",
+        "La quête demandera également 40 x Yucca Lélé et 5 x Tulipe Ossucion."
       ],
       "actions": [
         {
-          "instruction": "Parlez à Bisale Vinlenta pour lancer la collecte des plantes nécessaires à ses croisements.",
-          "position": "[-72,-31]",
-          "zoneHint": "Champ de glace",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Obtenez 2 x Perce-Neige, soit à l'HDV, soit par récolte avec un alchimiste 200.",
-          "position": null,
-          "zoneHint": null,
-          "warning": "L'achat en HDV entraîne une dépense variable en kamas.",
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Dans les Champs de glace, combattez des Boufmouths jusqu'à obtenir 40 x Yucca Lélé. Ces objets de quête sont indiqués comme tombant à 100 % sur les monstres de type Boufmouth, dans la zone ou le donjon.",
-          "position": null,
-          "zoneHint": "Champs de glace",
-          "warning": "Il faut réunir exactement 40 x Yucca Lélé.",
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Récoltez des Tulipe Ossucion jusqu'à en posséder 5. Les emplacements indiqués sont [-73,-33], [-68,-35], [-68,-38], [-69,-45], [-72,-45], [-75,-47], [-86,-44], [-87,-39] et [-85,-36].",
-          "position": null,
-          "zoneHint": null,
-          "warning": "Le temps de réapparition annoncé est de 5 minutes. Sur Dofus Touch, seules les positions [-68,-35], [-69,-45] et [-85,-36] sont indiquées.",
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Une fois les 2 Perce-Neige, 40 Yucca Lélé et 5 Tulipe Ossucion réunis, retournez voir Bisale Vinlenta et remettez-lui les plantes.",
+          "instruction": "Parlez à Bisale Vinlenta et acceptez de rechercher les plantes nécessaires à ses expériences. Cela active notamment l'objectif de récupérer 40 Yucca Lélé sur les Boufmouths.",
           "position": "[-72,-31]",
           "zoneHint": "Champ de glace",
           "warning": null,
@@ -322,7 +120,9 @@
         }
       ],
       "notes": [
-        "En reparlant à Bisale Vinlenta après cette quête, vous pouvez lancer Botanique-nique-nique."
+        "Les 40 Yucca Lélé sont des objets de quête obtenus à 100 % sur les monstres de type Boufmouth dans les Champs de glace ou le donjon indiqué par la source.",
+        "Les 5 Tulipe Ossucion et les 2 Perce-Neige seront nécessaires avant le rendu, mais le parcours du guide prévoit la fin de cette quête à l'étape 123.",
+        "Ne retournez donc pas encore rendre les plantes à Bisale Vinlenta dans cette occurrence."
       ],
       "npcs": [
         "Bisale Vinlenta"
@@ -345,87 +145,25 @@
           "itemId": 11157,
           "imageUrl": "/items/11157.png",
           "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11157"
-        },
-        {
-          "name": "Oreille de Bouftonmouth",
-          "itemId": 11119,
-          "imageUrl": "/items/11119.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11119"
-        },
-        {
-          "name": "Kama de glace",
-          "itemId": 11196,
-          "imageUrl": "/items/11196.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11196"
         }
       ],
       "bestiary": {
         "zones": [
           {
-            "id": 602,
-            "name": "Champs de glace",
-            "coordinates": []
-          },
-          {
             "id": 442,
             "name": "Lac",
             "coordinates": [
-              "-72,-31",
-              "-73,-33",
-              "-68,-35",
-              "-68,-38",
-              "-69,-45",
-              "-72,-45",
-              "-75,-47",
-              "-86,-44",
-              "-87,-39",
-              "-85,-36"
+              "-72,-31"
             ]
           }
         ],
-        "bounties": [
-          {
-            "id": 2901,
-            "name": "Bouflouth",
-            "level": 120,
-            "imageUrl": "/bestiary/monsters/2901.png"
-          }
-        ],
+        "bounties": [],
         "archmonsters": [],
-        "achievements": [
-          {
-            "id": 156,
-            "name": "Boufmouths",
-            "monsters": [
-              {
-                "id": 2850,
-                "name": "Boufmouth",
-                "level": 112,
-                "imageUrl": "/bestiary/monsters/2850.png"
-              },
-              {
-                "id": 2851,
-                "name": "Boufmouth de guerre",
-                "level": 112,
-                "imageUrl": "/bestiary/monsters/2851.png"
-              },
-              {
-                "id": 2852,
-                "name": "Boufmouth légendaire",
-                "level": 112,
-                "imageUrl": "/bestiary/monsters/2852.png"
-              },
-              {
-                "id": 2853,
-                "name": "Bouftonmouth",
-                "level": 112,
-                "imageUrl": "/bestiary/monsters/2853.png"
-              }
-            ]
-          }
-        ]
+        "achievements": []
       },
       "questKey": "quest:335",
+      "relation": "START",
+      "sortOrder": 1,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/cent-vingt-trois-fleurs-point-comme-les-autres.html",
       "sourceTitle": "Cent vingt trois fleurs, point comme les autres",
       "sourceHash": "96c3c6e8cf61fe68114e1cb6fe0df795291b737d0da3ed6818981b1955b0b393",
@@ -433,125 +171,72 @@
       "model": null
     },
     {
-      "overview": "Jozébo Vez cherche une solution contre les tiques qui infestent son élevage de Boufmouths. Après avoir consulté Oshimo puis Wogew l'hewmite, vous devez combattre plusieurs espèces de Boufmouths dans les Champs de glace afin de récupérer un échantillon de sang de chaque espèce ainsi que 10 Tiques de Boufmouth. Wogew vous confie ensuite une enveloppe destinée à Otomaï. Après l'avoir remise à Otomaï, revenez successivement auprès de Wogew puis de Jozébo Vez pour conclure la quête.",
-      "recommendedLevel": 100,
-      "prerequisites": [
-        "Niveau recommandé : 100."
-      ],
+      "overview": "Lancez Gène et tique puis avancez jusqu'à ce que Wogew l'hewmite vous demande les tiques vivantes et les échantillons de sang. Profitez ensuite des combats dans les Champs de glace pour obtenir 10 Tiques de Boufmouth et un échantillon de sang de chaque espèce demandée. Le guide enchaîne ensuite sur la Serre du Royalmouth, mais la source précise que les drops propres à cette quête ne fonctionnent pas dans ce donjon : terminez donc ces collectes à l'extérieur avant de compter sur le donjon.",
+      "recommendedLevel": 110,
+      "prerequisites": [],
       "rewards": [
-        "2 047 500 XP.",
-        "23 960 kamas.",
-        "1 x Kama de glace.",
-        "1 x Clavicule de Boufmouth."
+        "2 047 500 XP",
+        "23 960 kamas",
+        "1 x Kama de glace",
+        "1 x Clavicule de Boufmouth"
       ],
       "preparation": [
-        "Prévoir des combats contre plusieurs types de Boufmouths dans les Champs de glace.",
-        "Prévoir d'obtenir 10 x Tiques de Boufmouth et un échantillon de sang de chaque espèce de Boufmouth demandée."
+        "Prévoyez plusieurs combats contre différents types de Boufmouths dans les Champs de glace.",
+        "Les échantillons de sang ont un taux de base indiqué de 25 %.",
+        "Il faut obtenir 10 x Tiques de Boufmouth en plus des différents échantillons de sang."
       ],
       "actions": [
         {
-          "instruction": "Parlez à Jozébo Vez. Il vous demande de trouver sur le continent quelqu'un capable de l'aider à lutter contre les tiques de son élevage.",
+          "instruction": "Parlez à Jozébo Vez et acceptez de chercher une solution au problème de tiques de son élevage.",
           "position": "[-69,-42]",
           "zoneHint": "Champs de glace",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Allez voir Oshimo au Chanil. Il ne peut pas résoudre le problème mais vous oriente vers Wogew l'hewmite.",
+          "instruction": "Allez au Chanil et consultez Oshimo au sujet des tiques. Il vous orientera vers Wogew l'hewmite.",
           "position": "[9,21]",
           "zoneHint": "Chanil",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Rendez-vous auprès de Wogew l'hewmite. L'accès se trouve sur une map cachée en haut à gauche de la carte, puis il faut descendre d'un étage par l'échelle.",
+          "instruction": "Rejoignez Wogew l'hewmite. L'accès est sur une map cachée en haut à gauche, puis il faut descendre d'un étage par l'échelle. Parlez-lui jusqu'à ce qu'il vous demande des tiques vivantes et des échantillons de sang de Boufmouth.",
           "position": "[-1,-39]",
           "zoneHint": null,
-          "warning": "L'entrée menant à Wogew est cachée en haut à gauche de la carte.",
+          "warning": "L'entrée vers Wogew est cachée ; pensez à descendre d'un étage par l'échelle.",
           "combat": "NONE"
         },
         {
-          "instruction": "Parlez à Wogew. Il vous demande des tiques vivantes et des échantillons de sang de Boufmouth.",
-          "position": "[-1,-39]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Retournez dans les Champs de glace et combattez les différents types de Boufmouths. Obtenez un sang de chaque espèce, avec un taux de base annoncé de 25 %, ainsi que 10 x Tiques de Boufmouth, qui peuvent tomber sur tous les types de Boufmouths.",
+          "instruction": "Retournez dans les Champs de glace et combattez différents types de Boufmouths jusqu'à obtenir 10 Tiques de Boufmouth ainsi qu'un échantillon de sang de chaque espèce demandée par la quête.",
           "position": null,
           "zoneHint": "Champs de glace",
-          "warning": "Les drops requis pour cette quête ne fonctionnent pas dans le donjon du Royalmouth.",
+          "warning": "La source indique explicitement que les drops de Gène et tique ne fonctionnent pas dans la Serre du Royalmouth. Faites donc cette collecte sur les Boufmouths des Champs de glace hors donjon.",
           "combat": "GROUP"
-        },
-        {
-          "instruction": "Rapportez tous les sangs et les 10 Tiques de Boufmouth à Wogew l'hewmite. Il vous remet une enveloppe destinée à Otomaï.",
-          "position": "[-1,-39]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Allez voir Otomaï dans son arbre et donnez-lui l'enveloppe afin qu'il commence ses recherches.",
-          "position": "[-55,15]",
-          "zoneHint": "Arbre d'Otomaï",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Retournez voir Wogew l'hewmite et annoncez-lui qu'Otomaï a commencé ses recherches.",
-          "position": "[-1,-39]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Retournez enfin auprès de Jozébo Vez et annoncez-lui qu'Otomaï et Wogew travaillent désormais sur son problème de tiques.",
-          "position": "[-69,-42]",
-          "zoneHint": "Champs de glace",
-          "warning": null,
-          "combat": "NONE"
         }
       ],
       "notes": [
-        "Wogew constate des ressemblances entre les tiques des Boufmouths et celles qu'il a déjà étudiées sur les wabbits."
+        "La suite normale de Gène et tique consiste à remettre les tiques et les sangs à Wogew, porter ensuite une enveloppe à Otomaï, revenir voir Wogew puis Jozébo Vez. Cette partie n'est pas requise ici par le parcours de l'étape.",
+        "Le guide demande ensuite d'effectuer la Serre du Royalmouth. Cette activité peut servir à d'autres objectifs du parcours, mais elle ne doit pas être considérée comme une source fiable des drops de Gène et tique puisque la source de la quête les exclut explicitement du donjon.",
+        "Cette quête n'est pas indispensable à la progression immédiate indiquée par le guide, mais elle sera une condition utile pour une quête ultérieure."
       ],
       "npcs": [
         "Jozébo Vez",
         "Oshimo",
-        "Wogew l'hewmite",
-        "Otomaï"
+        "Wogew l'hewmite"
       ],
       "items": [
         {
-          "name": "Tiques de Boufmouth",
-          "itemId": 11213,
-          "imageUrl": "/items/11213.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11213"
-        },
-        {
-          "name": "Échantillon de sang de Boufmouth",
+          "name": "Tique de Boufmouth",
           "itemId": null,
           "imageUrl": null,
           "dofusDbUrl": null
         },
         {
-          "name": "Enveloppe pour Otomaï",
-          "itemId": 11218,
-          "imageUrl": "/items/11218.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11218"
-        },
-        {
-          "name": "Kama de glace",
-          "itemId": 11196,
-          "imageUrl": "/items/11196.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11196"
-        },
-        {
-          "name": "Clavicule de Boufmouth",
-          "itemId": 11118,
-          "imageUrl": "/items/11118.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11118"
+          "name": "Échantillons de sang de Boufmouth",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
         }
       ],
       "bestiary": {
@@ -571,13 +256,6 @@
             ]
           },
           {
-            "id": 455,
-            "name": "Jungle obscure",
-            "coordinates": [
-              "-55,15"
-            ]
-          },
-          {
             "id": 56,
             "name": "Lac de Cania",
             "coordinates": [
@@ -591,12 +269,6 @@
             "name": "Bouflouth",
             "level": 120,
             "imageUrl": "/bestiary/monsters/2901.png"
-          },
-          {
-            "id": 3528,
-            "name": "Amy l'empoisonneuse",
-            "level": 140,
-            "imageUrl": "/bestiary/monsters/3528.png"
           }
         ],
         "archmonsters": [
@@ -665,48 +337,6 @@
             "name": "Blorie l'Assourdissante",
             "level": 52,
             "imageUrl": "/bestiary/monsters/2404.png"
-          },
-          {
-            "id": 2554,
-            "name": "Chiendanlémin l'Illusionniste",
-            "level": 125,
-            "imageUrl": "/bestiary/monsters/2554.png"
-          },
-          {
-            "id": 2579,
-            "name": "Nerdeubeu le Flagellant",
-            "level": 126,
-            "imageUrl": "/bestiary/monsters/2579.png"
-          },
-          {
-            "id": 2550,
-            "name": "Brouste l'Humiliant",
-            "level": 127,
-            "imageUrl": "/bestiary/monsters/2550.png"
-          },
-          {
-            "id": 2360,
-            "name": "Ecorfé la Vive",
-            "level": 128,
-            "imageUrl": "/bestiary/monsters/2360.png"
-          },
-          {
-            "id": 2565,
-            "name": "Floanna la Blonde",
-            "level": 129,
-            "imageUrl": "/bestiary/monsters/2565.png"
-          },
-          {
-            "id": 2546,
-            "name": "Bitoven le Musicien",
-            "level": 130,
-            "imageUrl": "/bestiary/monsters/2546.png"
-          },
-          {
-            "id": 2544,
-            "name": "Abrakine le Sombre",
-            "level": 131,
-            "imageUrl": "/bestiary/monsters/2544.png"
           }
         ],
         "achievements": [
@@ -813,54 +443,6 @@
             ]
           },
           {
-            "id": 164,
-            "name": "Florifaune obscure",
-            "monsters": [
-              {
-                "id": 1077,
-                "name": "Abrakleur Sombre",
-                "level": 131,
-                "imageUrl": "/bestiary/monsters/1077.png"
-              },
-              {
-                "id": 1041,
-                "name": "Bitouf Sombre",
-                "level": 130,
-                "imageUrl": "/bestiary/monsters/1041.png"
-              },
-              {
-                "id": 1073,
-                "name": "Brouture",
-                "level": 127,
-                "imageUrl": "/bestiary/monsters/1073.png"
-              },
-              {
-                "id": 1076,
-                "name": "Chiendent",
-                "level": 125,
-                "imageUrl": "/bestiary/monsters/1076.png"
-              },
-              {
-                "id": 1029,
-                "name": "Floribonde",
-                "level": 129,
-                "imageUrl": "/bestiary/monsters/1029.png"
-              },
-              {
-                "id": 1075,
-                "name": "Fécorce",
-                "level": 128,
-                "imageUrl": "/bestiary/monsters/1075.png"
-              },
-              {
-                "id": 1074,
-                "name": "Nerbe",
-                "level": 126,
-                "imageUrl": "/bestiary/monsters/1074.png"
-              }
-            ]
-          },
-          {
             "id": 1602,
             "name": "Vermines des champs",
             "monsters": [
@@ -875,6 +457,8 @@
         ]
       },
       "questKey": "quest:323",
+      "relation": "START",
+      "sortOrder": 2,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/gegravene-et-tique.html",
       "sourceTitle": "Gène et tique​",
       "sourceHash": "e7ea0104ce956ea657e91370e3688d6dbcd85459ef3966c6fdf21ef555f48a83",
@@ -884,19 +468,18 @@
   ],
   "tips": [
     {
-      "title": "Regrouper les combats dans les Champs de glace",
-      "description": "Les trois quêtes demandent des ressources liées aux Boufmouths dans les Champs de glace. En les ayant toutes avancées jusqu'à leur phase de collecte, vous pouvez cumuler les combats pour obtenir simultanément les 6 échantillons des Monologues du vaccin, les 40 Yucca Lélé et les sangs ainsi que les 10 Tiques de Boufmouth de Gène et tique.",
+      "title": "Cumuler les drops des Champs de glace",
+      "description": "Après avoir lancé les trois quêtes, combattez les Boufmouths des Champs de glace pour avancer simultanément les collectes de sang, de Yucca Lélé et de tiques. Cela évite de refaire plusieurs séries de combats dans la même zone.",
       "questKeys": [
         "quest:382",
         "quest:335",
         "quest:323"
       ],
       "actions": [
-        "Lancer les trois quêtes avant la session de combats dans les Champs de glace.",
-        "Avancer Les monologues du vaccin jusqu'à la demande des 6 échantillons de sang.",
-        "Avancer Gène et tique jusqu'à la demande de Wogew concernant les sangs et les 10 Tiques de Boufmouth.",
-        "Combattre les Boufmouths dans les Champs de glace tout en suivant les compteurs des trois quêtes.",
-        "Pour Gène et tique, rester hors du donjon du Royalmouth car ses drops spécifiques n'y fonctionnent pas."
+        "Lancer Les monologues du vaccin auprès d'Albert Paisse.",
+        "Lancer Cent vingt trois fleurs, point comme les autres auprès de Bisale Vinlenta.",
+        "Avancer Gène et tique jusqu'à la demande de Wogew l'hewmite.",
+        "Combattre ensuite les Boufmouths des Champs de glace afin de cumuler les objectifs des trois quêtes."
       ]
     }
   ]

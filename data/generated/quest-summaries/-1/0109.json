@@ -1,102 +1,48 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 109,
-  "updatedAt": "2026-08-27T13:32:20.875Z",
+  "updatedAt": "2026-08-29T12:51:25.386Z",
   "summaries": [
     {
-      "overview": "Enquête sur la disparition d'un marchand de vin à Bonta. Parlez aux témoins, suivez la piste d'une Épée étrange, puis affrontez le Rat Blanc dans son donjon pour récupérer le Grelot d'Hersa et obtenir des informations.",
+      "overview": "Le Rat Blanc a déjà été vaincu lors de la progression demandée précédemment dans le Donjon des Rats de Bonta, ce qui a permis d’obtenir le Grelot d’Hersa. Il reste maintenant à rapporter ce grelot à Hersa Griffe Sombre, puis à faire le compte rendu de l’enquête à Amayiro pour terminer « 41. Vin diou ».",
       "recommendedLevel": 111,
       "prerequisites": [
-        "Quête « C'est stupéfiant » terminée"
+        "Avoir terminé « C'est stupéfiant ».",
+        "Avoir déjà avancé « 41. Vin diou » jusqu’à vaincre le Rat Blanc dans le Donjon des Rats de Bonta.",
+        "Avoir obtenu le Grelot d’Hersa après la victoire contre le Rat Blanc."
       ],
       "rewards": [
-        "6 334 872 XP"
+        "6 334 872 XP."
       ],
       "preparation": [
-        "1 x Donjon des Rats de Bonta (accès requis)"
+        "Vérifier que le Grelot d’Hersa obtenu sur le Rat Blanc est disponible pour poursuivre le rendu de la quête."
       ],
       "actions": [
         {
-          "instruction": "Se rendre à la Milice en [-32,-57] et parler à Amayiro. Il vous informe de la disparition du marchand de vin et vous charge d'enquêter.",
-          "position": "[-32,-57]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller à la Taverne de la Bagrutte en [-29,-59] et parler à Bagrutta Ventrepierre. Elle vous apprend que le marchand est rentré chez lui vers l'Est après son passage.",
-          "position": "[-29,-59]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Sortir de la taverne et parler à Tertofi Ablaru qui vous interpelle. Il vous montre des traces de combat et une Épée étrange trouvée sur les lieux.",
-          "position": null,
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Se rendre à l'atelier des forgerons en [-30,-56] et montrer l'Épée étrange à Kosuke Ichazum. Il identifie l'arme comme appartenant probablement à un Ecaflip.",
-          "position": "[-30,-56]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller à la sortie Sud de Bonta en [-30,-53] et parler à Hersa Griffe Sombre. Elle accepte de partager ses informations en échange de la récupération de son grelot, volé par les sbires du Rat Blanc.",
+          "instruction": "Retournez voir Hersa Griffe Sombre et remettez-lui son grelot. Elle vous indique seulement que des Ecaflips étrangers à Bonta ont déjà possédé des épées semblables à celle trouvée pendant l’enquête.",
           "position": "[-30,-53]",
           "zoneHint": null,
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Entrer dans les égouts par l'accès en [-32,-58] ou [-35,-55].",
-          "position": "[-32,-58]",
-          "zoneHint": "Égouts",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Entrer dans le Donjon des Rats de Bonta en [-34,-59], vaincre le Rat Blanc et récupérer le Grelot d'Hersa.",
-          "position": "[-34,-59]",
-          "zoneHint": "Donjon des Rats de Bonta",
-          "warning": "Combat de groupe contre le Rat Blanc. Nécessite l'accès au Donjon des Rats de Bonta.",
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retourner voir Hersa Griffe Sombre en [-30,-53] et lui rapporter le Grelot d'Hersa. Elle vous révèle avoir déjà vu des Ecaflips étrangers à Bonta posséder ce type d'épée.",
-          "position": "[-30,-53]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Retourner voir Amayiro en [-32,-57] et lui résumer les éléments recueillis pour terminer la quête.",
+          "instruction": "Retournez à la Milice et parlez à Amayiro pour lui résumer les éléments recueillis pendant l’enquête. Ce dialogue termine « 41. Vin diou » et débloque « 42. Les Ecas ne flippent pas ».",
           "position": "[-32,-57]",
-          "zoneHint": null,
+          "zoneHint": "Milice de Bonta",
           "warning": null,
           "combat": "NONE"
         }
       ],
-      "notes": [],
+      "notes": [
+        "Les étapes d’enquête précédentes, notamment la Taverne de la Bagrutte, l’examen de l’Épée étrange, la rencontre avec Hersa et le combat contre le Rat Blanc, sont supposées déjà accomplies à cette occurrence FINISH.",
+        "La quête suivante, « 42. Les Ecas ne flippent pas », appartient au contexte de l’étape suivante et ne doit pas être commencée dans ce tutoriel."
+      ],
       "npcs": [
-        "Amayiro",
-        "Bagrutta Ventrepierre",
-        "Tertofi Ablaru",
-        "Kosuke Ichazum",
         "Hersa Griffe Sombre",
-        "Rat Blanc"
+        "Amayiro"
       ],
       "items": [
-        {
-          "name": "Épée étrange",
-          "itemId": 9070,
-          "imageUrl": "/items/9070.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9070"
-        },
         {
           "name": "Grelot d'Hersa",
           "itemId": 17061,
@@ -107,26 +53,10 @@
       "bestiary": {
         "zones": [
           {
-            "id": 975,
-            "name": "Cœur immaculé",
-            "coordinates": [
-              "-32,-57",
-              "-32,-58"
-            ]
-          },
-          {
             "id": 973,
             "name": "Faubourgs des artisans",
             "coordinates": [
-              "-30,-56",
               "-30,-53"
-            ]
-          },
-          {
-            "id": 974,
-            "name": "Havres d'ivoire",
-            "coordinates": [
-              "-35,-55"
             ]
           },
           {
@@ -134,20 +64,6 @@
             "name": "Mine",
             "coordinates": [
               "-32,-57"
-            ]
-          },
-          {
-            "id": 976,
-            "name": "Promontoire des cieux",
-            "coordinates": [
-              "-34,-59"
-            ]
-          },
-          {
-            "id": 448,
-            "name": "Taverne",
-            "coordinates": [
-              "-29,-59"
             ]
           }
         ],
@@ -236,11 +152,13 @@
         ]
       },
       "questKey": "quest:126",
+      "relation": "FINISH",
+      "sortOrder": 0,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/vin-diou.html",
       "sourceTitle": "Alignement 41 : Vin Diou",
       "sourceHash": "5ab04cbff64d595d728679fd4b04d6f274e3c0178bdb192b5c9c358f29069b9d",
-      "generatedAt": "2026-08-24T18:09:04.879Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     }
   ],
   "tips": []

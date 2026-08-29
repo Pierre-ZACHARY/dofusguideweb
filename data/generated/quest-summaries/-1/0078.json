@@ -1,8 +1,1067 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 78,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T11:28:56.160Z",
+  "summaries": [
+    {
+      "overview": "La quête a déjà été avancée jusqu'au Laboratoire de Brumen Tinctorias lors d'une étape précédente. Après avoir vaincu Nelween, récupérez le Venin de scorbute dans la salle de sortie avant de quitter le donjon, puis rapportez-le au Capitaine Essacarf pour terminer la mission.",
+      "recommendedLevel": 59,
+      "prerequisites": [
+        "Le décès de Rimaraf.",
+        "Avoir terminé ou au minimum lancé Où est passée la 7e compagnie ?."
+      ],
+      "rewards": [
+        "1 360 666 XP."
+      ],
+      "preparation": [
+        "Avoir vaincu Nelween dans le Laboratoire de Brumen Tinctorias sans avoir quitté la salle de sortie."
+      ],
+      "actions": [
+        {
+          "instruction": "Dans la salle de sortie du Laboratoire de Brumen Tinctorias, cliquez sur le tube phosphorescent situé en haut à droite afin de récupérer le Venin de scorbute.",
+          "position": "[-27,17]",
+          "zoneHint": "Salle de sortie du Laboratoire de Brumen Tinctorias",
+          "warning": "Ne quittez pas le donjon avant d'avoir récupéré le Venin de scorbute.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez dans les prisons de la milice de Bonta et remettez le Venin de scorbute au Capitaine Essacarf pour terminer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Prisons de la milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La partie consistant à lancer la quête et à progresser jusqu'au combat contre Nelween est supposée déjà accomplie.",
+        "La fin de cette quête débloque Dike Tarak, la menace, également traité dans cette étape."
+      ],
+      "npcs": [
+        "Capitaine Essacarf",
+        "Nelween"
+      ],
+      "items": [
+        {
+          "name": "Venin de scorbute",
+          "itemId": 1874,
+          "imageUrl": "/items/1874.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1874"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 756,
+            "name": "Laboratoire de Brumen Tinctorias",
+            "coordinates": [
+              "-27,17"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 207,
+            "name": "Sidimonstres",
+            "monsters": [
+              {
+                "id": 299,
+                "name": "Croc Gland",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/299.png"
+              },
+              {
+                "id": 300,
+                "name": "Kolérat",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/300.png"
+              },
+              {
+                "id": 301,
+                "name": "Macien",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/301.png"
+              },
+              {
+                "id": 298,
+                "name": "Scorbute",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/298.png"
+              },
+              {
+                "id": 3096,
+                "name": "Crowneille",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/3096.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:31",
+      "relation": "FINISH",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/poison-de-scorbute-pour-la-prison.html",
+      "sourceTitle": "Alignement 29 : Poison de scorbute pour la prison",
+      "sourceHash": "16fd8f938ec5f66aab98178daf6a2f771185d177f72f0dd97da00fc1b316b4ba",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Poursuivez la recherche d'un éventuel Dofus en vous rendant au Cimetière des Mastodontes. Terminez le donjon en vainquant le Mantiscore, puis revenez faire votre rapport à Thelma Geur.",
+      "recommendedLevel": 60,
+      "prerequisites": [
+        "Niveau supérieur à 59.",
+        "Histoire de chiens."
+      ],
+      "rewards": [
+        "1 427 932 XP.",
+        "19 152 Kamas.",
+        "1 x Cœur de Mantiscore."
+      ],
+      "preparation": [
+        "Prévoir l'accès au donjon Cimetière des Mastodontes."
+      ],
+      "actions": [
+        {
+          "instruction": "Rendez-vous à l'entrée du Cimetière des Mastodontes sur Saharach et effectuez le donjon jusqu'au Mantiscore.",
+          "position": "[19,-61]",
+          "zoneHint": "Cimetière des Mastodontes",
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Vainquez le Mantiscore afin de valider la recherche menée dans le donjon.",
+          "position": "[19,-61]",
+          "zoneHint": "Cimetière des Mastodontes",
+          "warning": "Combat de boss du donjon.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Une fois le donjon terminé, retournez voir Thelma Geur et annoncez-lui qu'aucun Dofus n'a été trouvé dans le Cimetière des Mastodontes.",
+          "position": "[-16,2]",
+          "zoneHint": "Montagne des Koalaks",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête a été lancée auparavant auprès de Thelma Geur.",
+        "La conversation suivant cette mission permet de débloquer Un défilé de Wobots, mais cette quête suivante n'est pas à traiter ici."
+      ],
+      "npcs": [
+        "Thelma Geur",
+        "Mantiscore"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 6,
+            "name": "Cimetière",
+            "coordinates": [
+              "-16,2"
+            ]
+          },
+          {
+            "id": 875,
+            "name": "Cimetière des Mastodontes",
+            "coordinates": [
+              "19,-61"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4270,
+            "name": "Roub' Ignolles",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/4270.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2321,
+            "name": "Chafalfer l'Optimiste",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2321.png"
+          },
+          {
+            "id": 2319,
+            "name": "Chafemal le Bagarreur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2319.png"
+          },
+          {
+            "id": 2522,
+            "name": "Kwoanneur le Frimeur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2522.png"
+          },
+          {
+            "id": 2357,
+            "name": "Tofumanchou l'Empereur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2357.png"
+          },
+          {
+            "id": 2421,
+            "name": "Chaffoin le Sournois",
+            "level": 33,
+            "imageUrl": "/bestiary/monsters/2421.png"
+          },
+          {
+            "id": 2276,
+            "name": "Ribibi le Cher",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2276.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1527,
+            "name": "Animaux du désert",
+            "monsters": [
+              {
+                "id": 4616,
+                "name": "Fennex",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4616.png"
+              },
+              {
+                "id": 4619,
+                "name": "Léolhyène",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4619.png"
+              },
+              {
+                "id": 4620,
+                "name": "Ouroboulos",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4620.png"
+              },
+              {
+                "id": 4617,
+                "name": "Boulépique",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4617.png"
+              },
+              {
+                "id": 4615,
+                "name": "Scordion Bleu",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4615.png"
+              }
+            ]
+          },
+          {
+            "id": 193,
+            "name": "Bêtes de la nuit",
+            "monsters": [
+              {
+                "id": 154,
+                "name": "Kwoan",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/154.png"
+              },
+              {
+                "id": 111,
+                "name": "Tofu Maléfique",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/111.png"
+              }
+            ]
+          },
+          {
+            "id": 191,
+            "name": "Chafers d'Amakna",
+            "monsters": [
+              {
+                "id": 54,
+                "name": "Chafer",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/54.png"
+              },
+              {
+                "id": 110,
+                "name": "Chafer Invisible",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/110.png"
+              },
+              {
+                "id": 396,
+                "name": "Chafer Fantassin",
+                "level": 33,
+                "imageUrl": "/bestiary/monsters/396.png"
+              },
+              {
+                "id": 108,
+                "name": "Rib",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/108.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:611",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-fossile-et-le-marteau.html",
+      "sourceTitle": "Le fossile et le marteau",
+      "sourceHash": "27398157eb03f7714106fa4ad7b2285f6d69115a634bfddadb40aa579bded188",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après avoir terminé Poison de scorbute pour la prison, acceptez la nouvelle mission d'Amayiro. Vous devez provoquer Dike Tarak en défi puis perdre volontairement sans être transformé en fantôme. Cette séquence débloque immédiatement la quête d'alignement suivante.",
+      "recommendedLevel": 60,
+      "prerequisites": [
+        "Poison de scorbute pour la prison."
+      ],
+      "rewards": [
+        "176 791 XP."
+      ],
+      "preparation": [
+        "Avant le défi, disposer de plus de 10,5 fois votre niveau en points d'énergie afin d'éviter la transformation en fantôme après l'abandon."
+      ],
+      "actions": [
+        {
+          "instruction": "À la milice de Bonta, parlez à Amayiro et acceptez de défier son neveu en faisant volontairement en sorte de perdre.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir Dike Tarak et proposez-lui un défi.",
+          "position": "[-35,-56]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Lancez le combat contre Dike Tarak puis abandonnez volontairement le combat pour valider la mission.",
+          "position": "[-35,-56]",
+          "zoneHint": "Bonta",
+          "warning": "Vous devez perdre volontairement. Ayez plus de 10,5 fois votre niveau en points d'énergie avant l'abandon ; si vous devenez fantôme, la quête ne se met pas à jour et il faudra recommencer le combat.",
+          "combat": "SOLO"
+        }
+      ],
+      "notes": [
+        "Exemple de seuil d'énergie : au niveau 200, il faut plus de 2100 points ; au niveau 105, plus de 1102 points.",
+        "La validation débloque Des combats pas très légaux..., qui constitue l'occurrence suivante de cette étape."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Dike Tarak"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 3,
+            "name": "Champ des Ingalsse",
+            "coordinates": [
+              "10,5"
+            ]
+          },
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57",
+              "-35,-56"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3525,
+            "name": "Ambi Guman",
+            "level": 30,
+            "imageUrl": "/bestiary/monsters/3525.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2355,
+            "name": "Tofuldebeu l'Explosif",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2355.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 205,
+            "name": "Tofus",
+            "monsters": [
+              {
+                "id": 804,
+                "name": "Tofoune",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/804.png"
+              },
+              {
+                "id": 796,
+                "name": "Tofu Noir",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/796.png"
+              },
+              {
+                "id": 806,
+                "name": "Tofukaz",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/806.png"
+              },
+              {
+                "id": 98,
+                "name": "Tofu",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/98.png"
+              },
+              {
+                "id": 4824,
+                "name": "Tofu Mutant",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/4824.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:32",
+      "relation": "ACTIVE",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/dike-tarak-la-menace.html",
+      "sourceTitle": "Alignement 30 : Dike Tarak, la menace",
+      "sourceHash": "ca1e1974afe47a6075f60828e5a3460b4a85adcc27cf2e49de4f21e0e11414c5",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Cette mission commence après Dike Tarak, la menace. Enquêtez dans le quartier des boulangers, obtenez auprès du tavernier les informations nécessaires pour entrer chez Heticili Ufot, faites cesser son activité illégale puis rapportez l'affaire à Amayiro.",
+      "recommendedLevel": 61,
+      "prerequisites": [
+        "Dike Tarak, la menace."
+      ],
+      "rewards": [
+        "239 384 XP."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "À la milice de Bonta, parlez à Amayiro pour recevoir la mission concernant des activités suspectes dans le quartier des boulangers.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous dans la taverne et interrogez le Tavernier Garret Abass sur le quartier, puis obtenez de lui le code permettant d'accéder à la maison signalée.",
+          "position": "[-35,-55]",
+          "zoneHint": "Taverne du quartier des boulangers",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la maison d'Ufot et parlez à Heticili Ufot. Exigez l'arrêt immédiat de son commerce illégal afin de récupérer l'acte de propriété dans votre inventaire de quête.",
+          "position": "[-34,-55]",
+          "zoneHint": "Maison d'Ufot",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès d'Amayiro et faites votre rapport pour valider la mission.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Dike Tarak, la menace est supposée terminée juste avant cette occurrence.",
+        "La validation débloque Mission de reconnaissance au cimetière, traitée immédiatement après dans cette étape."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Tavernier Garret Abass",
+        "Heticili Ufot"
+      ],
+      "items": [
+        {
+          "name": "Acte de propriété",
+          "itemId": 2360,
+          "imageUrl": "/items/2360.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2360"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 974,
+            "name": "Havres d'ivoire",
+            "coordinates": [
+              "-34,-55"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "-35,-55"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:33",
+      "relation": "ACTIVE",
+      "sortOrder": 3,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/des-combats-pas-tregraves-leacutegaux.html",
+      "sourceTitle": "Alignement 31 : Des combats pas très légaux",
+      "sourceHash": "6cec6bd4c45d831c4d9f54b38d6a288498eaafc947a2b3619d94e6e6cece06af",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après la mission précédente, Amayiro vous envoie reconnaître une faiblesse des remparts près du cimetière des Torturés. Achetez et équipez l'Arc de Mech Riorrax, affrontez les archers à très longue portée en Bordure de Brâkmar, puis rapportez le Compte-rend de mission à Bonta.",
+      "recommendedLevel": 62,
+      "prerequisites": [
+        "Des combats pas très légaux."
+      ],
+      "rewards": [
+        "991 100 XP."
+      ],
+      "preparation": [
+        "Prévoir 1000 kamas pour acheter l'Arc de Mech Riorrax.",
+        "Prévoir de l'aide de personnages Bontariens pour le combat à distance.",
+        "Équiper obligatoirement l'Arc de Mech Riorrax en arme de corps-à-corps avant de lancer le combat."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Amayiro à la milice de Bonta pour recevoir la mission de reconnaissance concernant les remparts proches du cimetière des Torturés.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir Anik Mech, demandez-lui l'arc spécial puis achetez un Arc de Mech Riorrax pour 1000 kamas.",
+          "position": "[-32,-54]",
+          "zoneHint": "Bonta",
+          "warning": "Dépense obligatoire de 1000 kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Équipez l'Arc de Mech Riorrax à votre emplacement de corps-à-corps, puis rendez-vous face au groupe d'archers.",
+          "position": "[-19,35]",
+          "zoneHint": "Bordure de Brâkmar",
+          "warning": "L'arc spécial doit être équipé avant le combat.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez sur le groupe d'archers situé de l'autre côté du fossé de lave et remportez le combat. Seul l'Arc de Mech Riorrax permet de frapper les ennemis à cette distance ; des alliés Bontariens peuvent rejoindre le combat pour vous protéger ou vous soigner.",
+          "position": "[-19,35]",
+          "zoneHint": "Bordure de Brâkmar",
+          "warning": "Combat à très longue distance, fortement déconseillé en solo. Si vous perdez, l'Arc de Mech Riorrax est détruit et vous devrez en racheter un autre auprès d'Anik Mech pour 1000 kamas.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire, récupérez le Compte-rend de mission obtenu à l'issue du combat.",
+          "position": "[-19,35]",
+          "zoneHint": "Bordure de Brâkmar",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez à la milice de Bonta et donnez le Compte-rend de mission à Amayiro.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Des combats pas très légaux... est supposée terminée juste avant cette occurrence.",
+        "Les alliés Bontariens qui n'ont pas atteint le même stade de quête peuvent aider à survivre, mais ils ne disposent pas nécessairement de l'arc spécial leur permettant de toucher les ennemis.",
+        "La validation débloque Vengeance par procuration, qui sera réalisée plus tard."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Anik Mech"
+      ],
+      "items": [
+        {
+          "name": "Arc de Mech Riorrax",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Compte-rend de mission",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 280,
+            "name": "Bordure de Brâkmar",
+            "coordinates": [
+              "-19,35"
+            ]
+          },
+          {
+            "id": 6,
+            "name": "Cimetière",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-32,-54"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 397,
+            "name": "Croc Gland Enragé",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/397.png"
+          },
+          {
+            "id": 4270,
+            "name": "Roub' Ignolles",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/4270.png"
+          },
+          {
+            "id": 462,
+            "name": "Ogivol Scalarcin",
+            "level": 50,
+            "imageUrl": "/bestiary/monsters/462.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2321,
+            "name": "Chafalfer l'Optimiste",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2321.png"
+          },
+          {
+            "id": 2319,
+            "name": "Chafemal le Bagarreur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2319.png"
+          },
+          {
+            "id": 2522,
+            "name": "Kwoanneur le Frimeur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2522.png"
+          },
+          {
+            "id": 2357,
+            "name": "Tofumanchou l'Empereur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2357.png"
+          },
+          {
+            "id": 2421,
+            "name": "Chaffoin le Sournois",
+            "level": 33,
+            "imageUrl": "/bestiary/monsters/2421.png"
+          },
+          {
+            "id": 2276,
+            "name": "Ribibi le Cher",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2276.png"
+          },
+          {
+            "id": 2467,
+            "name": "Fandanleuil le Précis",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2467.png"
+          },
+          {
+            "id": 2466,
+            "name": "Fanlabiz le Véloce",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2466.png"
+          },
+          {
+            "id": 2563,
+            "name": "Fantoch le Pantin",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2563.png"
+          },
+          {
+            "id": 2468,
+            "name": "Fantrask la Rêveuse",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2468.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 193,
+            "name": "Bêtes de la nuit",
+            "monsters": [
+              {
+                "id": 154,
+                "name": "Kwoan",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/154.png"
+              },
+              {
+                "id": 111,
+                "name": "Tofu Maléfique",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/111.png"
+              }
+            ]
+          },
+          {
+            "id": 191,
+            "name": "Chafers d'Amakna",
+            "monsters": [
+              {
+                "id": 54,
+                "name": "Chafer",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/54.png"
+              },
+              {
+                "id": 110,
+                "name": "Chafer Invisible",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/110.png"
+              },
+              {
+                "id": 396,
+                "name": "Chafer Fantassin",
+                "level": 33,
+                "imageUrl": "/bestiary/monsters/396.png"
+              },
+              {
+                "id": 108,
+                "name": "Rib",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/108.png"
+              }
+            ]
+          },
+          {
+            "id": 192,
+            "name": "Fantômes de Brâkmar",
+            "monsters": [
+              {
+                "id": 932,
+                "name": "Fantôme Apero",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/932.png"
+              },
+              {
+                "id": 378,
+                "name": "Fantôme Aux Plates",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/378.png"
+              },
+              {
+                "id": 380,
+                "name": "Fantôme Hicide",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/380.png"
+              },
+              {
+                "id": 379,
+                "name": "Fantôme Égérie",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/379.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:34",
+      "relation": "ACTIVE",
+      "sortOrder": 4,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/mission-de-reconnaissance-au-cimetiegravere.html",
+      "sourceTitle": "Alignement 32 : Mission de reconnaissance au cimetière",
+      "sourceHash": "4397f2bf1dbfec18be59bd17a6e0638bd1e7ace0ad3f3e760887da58d0cd5cb7",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

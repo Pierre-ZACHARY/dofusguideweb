@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 10,
-  "updatedAt": "2026-08-27T13:32:08.760Z",
+  "updatedAt": "2026-08-28T13:36:15.511Z",
   "summaries": [
     {
       "overview": "Acceptez une offre de dératisation à la taverne d'Incarnam, achetez une limonade à Grobid, utilisez-la dans la cave pour faire sortir le Rat Soiffé, éliminez-le puis rendez compte à l'aubergiste.",
@@ -70,6 +70,13 @@
       ],
       "bestiary": {
         "zones": [
+          {
+            "id": 450,
+            "name": "Route des âmes",
+            "coordinates": [
+              "0,-3"
+            ]
+          },
           {
             "id": 448,
             "name": "Taverne",
@@ -154,24 +161,17 @@
       "bestiary": {
         "zones": [
           {
-            "id": 180,
-            "name": "Château d'Amakna",
-            "coordinates": [
-              "3,-5"
-            ]
-          },
-          {
-            "id": 442,
-            "name": "Lac",
-            "coordinates": [
-              "3,-5"
-            ]
-          },
-          {
             "id": 778,
             "name": "Mine",
             "coordinates": [
               "2,-4"
+            ]
+          },
+          {
+            "id": 445,
+            "name": "Pâturages",
+            "coordinates": [
+              "3,-5"
             ]
           }
         ],
@@ -289,93 +289,25 @@
             "coordinates": []
           },
           {
-            "id": 778,
-            "name": "Mine",
+            "id": 443,
+            "name": "Forêt",
             "coordinates": [
-              "0,0"
+              "1,-2"
             ]
           },
           {
-            "id": 10,
-            "name": "Village d'Amakna",
+            "id": 442,
+            "name": "Lac",
             "coordinates": [
+              "0,0",
               "0,-2",
-              "1,-2",
               "0,1"
             ]
           }
         ],
         "bounties": [],
-        "archmonsters": [
-          {
-            "id": 2343,
-            "name": "Pioufe la Maquillée",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2343.png"
-          },
-          {
-            "id": 2345,
-            "name": "Pioukas la Plante",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2345.png"
-          },
-          {
-            "id": 2342,
-            "name": "Pioulbrineur le Mercenaire",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2342.png"
-          },
-          {
-            "id": 2347,
-            "name": "Pioussokrim le Délétère",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2347.png"
-          },
-          {
-            "id": 2341,
-            "name": "Pioustone le Problème",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2341.png"
-          }
-        ],
-        "achievements": [
-          {
-            "id": 217,
-            "name": "Pious",
-            "monsters": [
-              {
-                "id": 491,
-                "name": "Piou Bleu",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/491.png"
-              },
-              {
-                "id": 493,
-                "name": "Piou Jaune",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/493.png"
-              },
-              {
-                "id": 492,
-                "name": "Piou Rose",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/492.png"
-              },
-              {
-                "id": 490,
-                "name": "Piou Vert",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/490.png"
-              },
-              {
-                "id": 236,
-                "name": "Piou Violet",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/236.png"
-              }
-            ]
-          }
-        ]
+        "archmonsters": [],
+        "achievements": []
       },
       "questKey": "quest:530",
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-fin-du-regravegne.html",
@@ -447,79 +379,17 @@
       "bestiary": {
         "zones": [
           {
-            "id": 778,
-            "name": "Mine",
+            "id": 450,
+            "name": "Route des âmes",
             "coordinates": [
-              "2,-3"
-            ]
-          },
-          {
-            "id": 479,
-            "name": "Rivière Kawaii",
-            "coordinates": [
+              "2,-3",
               "4,-3"
             ]
           }
         ],
         "bounties": [],
-        "archmonsters": [
-          {
-            "id": 2310,
-            "name": "Arakule la Revancharde",
-            "level": 16,
-            "imageUrl": "/bestiary/monsters/2310.png"
-          },
-          {
-            "id": 2323,
-            "name": "Chamchie le Difficile",
-            "level": 16,
-            "imageUrl": "/bestiary/monsters/2323.png"
-          },
-          {
-            "id": 2336,
-            "name": "Mosketère le Dévoué",
-            "level": 16,
-            "imageUrl": "/bestiary/monsters/2336.png"
-          }
-        ],
-        "achievements": [
-          {
-            "id": 175,
-            "name": "Araknes",
-            "monsters": [
-              {
-                "id": 52,
-                "name": "Arakne",
-                "level": 16,
-                "imageUrl": "/bestiary/monsters/52.png"
-              }
-            ]
-          },
-          {
-            "id": 1602,
-            "name": "Vermines des champs",
-            "monsters": [
-              {
-                "id": 4819,
-                "name": "Campagnoll",
-                "level": 16,
-                "imageUrl": "/bestiary/monsters/4819.png"
-              },
-              {
-                "id": 59,
-                "name": "Champ Champ",
-                "level": 16,
-                "imageUrl": "/bestiary/monsters/59.png"
-              },
-              {
-                "id": 61,
-                "name": "Moskito",
-                "level": 16,
-                "imageUrl": "/bestiary/monsters/61.png"
-              }
-            ]
-          }
-        ]
+        "archmonsters": [],
+        "achievements": []
       },
       "questKey": "quest:1222",
       "sourceUrl": "https://www.dofuspourlesnoobs.com/destination-astrub.html",

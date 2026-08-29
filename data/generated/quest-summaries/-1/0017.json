@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 17,
-  "updatedAt": "2026-08-27T13:32:11.530Z",
+  "updatedAt": "2026-08-28T13:38:08.840Z",
   "summaries": [
     {
       "overview": "Votre chef de classe vous envoie auprès du Conseil d’Astrub. Après avoir reçu un présent pour négocier avec les Rats Strubiens, vous enquêtez dans les égouts puis dans une mine où les Sidoas exploitent Rathrosk. Libérez le jeune dragon, affrontez les Gardoa vétéran et rapportez les faits à Fallanster puis à Aisling.",
@@ -224,6 +224,13 @@
       "bestiary": {
         "zones": [
           {
+            "id": 96,
+            "name": "Carrière d'Astrub",
+            "coordinates": [
+              "10,-19"
+            ]
+          },
+          {
             "id": 95,
             "name": "Cité d'Astrub",
             "coordinates": [
@@ -327,6 +334,36 @@
                 "name": "Piou Violet",
                 "level": 11,
                 "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 1670,
+            "name": "Sidoas",
+            "monsters": [
+              {
+                "id": 5228,
+                "name": "Martoa",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/5228.png"
+              },
+              {
+                "id": 5229,
+                "name": "Sherpoa",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/5229.png"
+              },
+              {
+                "id": 5230,
+                "name": "Douzdoa",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/5230.png"
+              },
+              {
+                "id": 5231,
+                "name": "Pikdoa",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/5231.png"
               }
             ]
           }
@@ -560,7 +597,9 @@
           {
             "id": 97,
             "name": "Forêt d'Astrub",
-            "coordinates": []
+            "coordinates": [
+              "1,-23"
+            ]
           },
           {
             "id": 442,
@@ -571,18 +610,12 @@
             "id": 778,
             "name": "Mine",
             "coordinates": [
-              "1,-23",
               "10,-19"
             ]
           },
           {
             "id": 29,
             "name": "Souterrains",
-            "coordinates": []
-          },
-          {
-            "id": 99,
-            "name": "Souterrains d'Astrub",
             "coordinates": [
               "1,-17"
             ]
@@ -603,12 +636,6 @@
           }
         ],
         "archmonsters": [
-          {
-            "id": 2312,
-            "name": "Arachitik la Souffreteuse",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2312.png"
-          },
           {
             "id": 2343,
             "name": "Pioufe la Maquillée",
@@ -644,12 +671,6 @@
             "name": "Pioustone le Problème",
             "level": 11,
             "imageUrl": "/bestiary/monsters/2341.png"
-          },
-          {
-            "id": 2356,
-            "name": "Tofurapin le Pétri",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2356.png"
           },
           {
             "id": 2348,
@@ -689,36 +710,6 @@
           }
         ],
         "achievements": [
-          {
-            "id": 1601,
-            "name": "Animalades",
-            "monsters": [
-              {
-                "id": 4818,
-                "name": "Arakmuté",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/4818.png"
-              },
-              {
-                "id": 474,
-                "name": "Arakne Malade",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/474.png"
-              },
-              {
-                "id": 4817,
-                "name": "Araknosé",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/4817.png"
-              },
-              {
-                "id": 473,
-                "name": "Tofu Malade",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/473.png"
-              }
-            ]
-          },
           {
             "id": 1600,
             "name": "Animaux de la forêt",
@@ -1216,13 +1207,6 @@
       ],
       "bestiary": {
         "zones": [
-          {
-            "id": 778,
-            "name": "Mine",
-            "coordinates": [
-              "3,-9"
-            ]
-          },
           {
             "id": 173,
             "name": "Prairies d'Astrub",

@@ -1,8 +1,1018 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 132,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T14:22:59.184Z",
+  "summaries": [
+    {
+      "overview": "La quête est déjà en cours. Pour cette occurrence, vérifiez l'hypothèse de Lorie Culère en terminant le Laboratoire du Tynril, puis revenez lui faire votre rapport afin de clore la quête.",
+      "recommendedLevel": 120,
+      "prerequisites": [
+        "Niveau supérieur à 119.",
+        "Avoir terminé Tour de table.",
+        "La quête Tour de passe-passe doit déjà être active."
+      ],
+      "rewards": [
+        "5 174 164 XP.",
+        "53 712 kamas.",
+        "1 x Ambre du Tynril."
+      ],
+      "preparation": [
+        "Prévoir de terminer le donjon Laboratoire du Tynril.",
+        "Lorie Culère fournit une clef du donjon ; si votre trousseau de clefs est disponible, vous pouvez l'utiliser à la place."
+      ],
+      "actions": [
+        {
+          "instruction": "Rendez-vous à l'entrée du Laboratoire du Tynril et effectuez le donjon jusqu'à vaincre le Tynril Perfide.",
+          "position": "[-53,20]",
+          "zoneHint": null,
+          "warning": "Le donjon est obligatoire pour faire progresser cette occurrence.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez auprès de Lorie Culère et expliquez-lui que le Tynril provient d'une expérience d'Otomaï et que sa magie ne vient pas d'un Dofus. Ce dialogue termine Tour de passe-passe.",
+          "position": "[16,27]",
+          "zoneHint": "Sufokia",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le lancement de la quête auprès de Lorie Culère est supposé déjà effectué avant cette occurrence.",
+        "Poursuivre la conversation après la fin peut lancer Tour de rein, mais ce lancement ne fait pas partie des actions demandées ici."
+      ],
+      "npcs": [
+        "Lorie Culère",
+        "Tynril Perfide",
+        "Otomaï"
+      ],
+      "items": [
+        {
+          "name": "Ambre du Tynril",
+          "itemId": 8916,
+          "imageUrl": "/items/8916.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8916"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 463,
+            "name": "Laboratoire du Tynril",
+            "coordinates": [
+              "-53,20"
+            ]
+          },
+          {
+            "id": 32,
+            "name": "Sufokia",
+            "coordinates": [
+              "16,27"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 164,
+            "name": "Florifaune obscure",
+            "monsters": [
+              {
+                "id": 1077,
+                "name": "Abrakleur Sombre",
+                "level": 131,
+                "imageUrl": "/bestiary/monsters/1077.png"
+              },
+              {
+                "id": 1041,
+                "name": "Bitouf Sombre",
+                "level": 130,
+                "imageUrl": "/bestiary/monsters/1041.png"
+              },
+              {
+                "id": 1073,
+                "name": "Brouture",
+                "level": 127,
+                "imageUrl": "/bestiary/monsters/1073.png"
+              },
+              {
+                "id": 1076,
+                "name": "Chiendent",
+                "level": 125,
+                "imageUrl": "/bestiary/monsters/1076.png"
+              },
+              {
+                "id": 1029,
+                "name": "Floribonde",
+                "level": 129,
+                "imageUrl": "/bestiary/monsters/1029.png"
+              },
+              {
+                "id": 1075,
+                "name": "Fécorce",
+                "level": 128,
+                "imageUrl": "/bestiary/monsters/1075.png"
+              },
+              {
+                "id": 1074,
+                "name": "Nerbe",
+                "level": 126,
+                "imageUrl": "/bestiary/monsters/1074.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:615",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/tour-de-passe-passe.html",
+      "sourceTitle": "Tour de passe-passe",
+      "sourceHash": "8ec5dd0f5b8ff7afa07593de229e7983b3a746067d7b09fa3453567ee42107f9",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "La partie précédente est supposée accomplie jusqu'à la victoire sur le Blop Multicolore Royal. Reprenez avec le Bout de Blop Multicolore Royal obtenu, rassemblez le chaudron et l'Etork nécessaires chez Mériana, puis cristallisez la Perle de Lait Doré pour terminer la quête.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Le trésor de Totankama doit être avancé jusqu'au dialogue avec Mériana.",
+        "Avoir effectué la portion précédente de cette quête jusqu'à vaincre x1 Blop Multicolore Royal.",
+        "Disposer du Bout de Blop Multicolore Royal obtenu après le donjon."
+      ],
+      "rewards": [
+        "4 766 334 XP.",
+        "46 752 kamas.",
+        "5 x Feuille de Blop Multicolore Royal.",
+        "5 x Peau de Kraméléhon."
+      ],
+      "preparation": [
+        "Conservez le Bout de Blop Multicolore Royal obtenu lors de la portion précédente.",
+        "Lors du dialogue final avec Lired, suivez attentivement ses indications afin d'éviter un délai en cas de mauvais choix."
+      ],
+      "actions": [
+        {
+          "instruction": "Rapportez le Bout de Blop Multicolore Royal à Mériana, puis demandez-lui un Chaudron magique.",
+          "position": "[-6,-3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sortez de la cabane et demandez de l'Etork à Arlo afin d'obtenir une Etork de Gob.",
+          "position": "[-6,-3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez dans la cabane, parlez à Lired et demandez-lui de cristalliser la perle. Donnez-lui l'Etork de Gob pour maintenir correctement la température du chaudron, puis choisissez les réponses conformes à ses conseils jusqu'à obtenir la Perle de Lait Doré et terminer la quête.",
+          "position": "[-6,-3]",
+          "zoneHint": null,
+          "warning": "Un mauvais choix de dialogue peut imposer environ 10 minutes d'attente avant de pouvoir reparler à Lired.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le lait doré, l'affrontement contre les Roublards, l'aide de Gavroch et le donjon jusqu'au Blop Multicolore Royal sont supposés déjà effectués lors de l'occurrence précédente.",
+        "La Perle de Lait Doré obtenue sert ensuite dans Le trésor de Totankama."
+      ],
+      "npcs": [
+        "Mériana",
+        "Arlo",
+        "Lired"
+      ],
+      "items": [
+        {
+          "name": "Bout de Blop Multicolore Royal",
+          "itemId": 15421,
+          "imageUrl": "/items/15421.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15421"
+        },
+        {
+          "name": "Chaudron magique",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Etork de Gob",
+          "itemId": 15599,
+          "imageUrl": "/items/15599.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15599"
+        },
+        {
+          "name": "Perle de Lait Doré",
+          "itemId": 15418,
+          "imageUrl": "/items/15418.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15418"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 232,
+            "name": "Marécages nauséabonds",
+            "coordinates": [
+              "-6,-3"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-6,-3"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2549,
+            "name": "Boostif l'Affamé",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2549.png"
+          },
+          {
+            "id": 2439,
+            "name": "Crolnareff l'Exilé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2439.png"
+          },
+          {
+            "id": 2428,
+            "name": "Crok le Beau",
+            "level": 61,
+            "imageUrl": "/bestiary/monsters/2428.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 208,
+            "name": "Gadouilleux",
+            "monsters": [
+              {
+                "id": 263,
+                "name": "Chef Crocodaille",
+                "level": 61,
+                "imageUrl": "/bestiary/monsters/263.png"
+              },
+              {
+                "id": 261,
+                "name": "Crocodaille",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/261.png"
+              },
+              {
+                "id": 112,
+                "name": "Boo",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/112.png"
+              },
+              {
+                "id": 4833,
+                "name": "Arakne Olithique",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4833.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:809",
+      "relation": "FINISH",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/il-faut-battre-le-lait-quand-il-est-chaud.html",
+      "sourceTitle": "Il faut battre le lait quand il est chaud",
+      "sourceHash": "c925051403268515659f695a5dcce2645f901e0dc2b1d2117ea7af6b73c1ea31",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez L'anneau de Tot et remontez la piste de son propriétaire jusqu'à Srambad. Cette occurrence s'arrête dès que la quête vous demande de vaincre le Capitaine Ekarlatte : n'effectuez pas encore le Ring du Capitaine Ekarlatte, car le guide demande d'abord de poursuivre les quêtes de Srambad en commençant par Ça katche ou ça casse.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Le trésor de Totankama doit être avancé jusqu'au dialogue avec Mériana."
+      ],
+      "rewards": [
+        "4 766 334 XP.",
+        "46 752 kamas.",
+        "5 x Slip d'Elsoummo.",
+        "5 x Peau de Minoskito."
+      ],
+      "preparation": [
+        "Prévoir 1 x Tête de mort avant de parler à Vensitard Smisse ; elle peut être obtenue sur les monstres de Srambad ou achetée à un PNJ de la base de Srambad.",
+        "Prévoir 1 000 kamas pour acheter une bière triple à Sévériant le Bourreau.",
+        "Le Ring du Capitaine Ekarlatte sera nécessaire plus tard ; gardez sa clef disponible, mais ne faites pas encore le donjon dans cette occurrence."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Kerubim, indiquez que vous venez de la part de Mériana et demandez un anneau de Tot. Il vous apprend avoir vendu le dernier exemplaire et vous donne l'identité de son ancien client.",
+          "position": "[3,-17]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Nanoc Elyod de Kerubim puis demandez l'anneau de Tot pour conjurer une malédiction. Il explique avoir perdu l'anneau au jeu contre Karte.",
+          "position": "[11,-1]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez Karte sur l'anneau de Tot. Elle vous apprend qu'un trafiquant de reliques de Srambad le possède désormais.",
+          "position": "[-42,-17]",
+          "zoneHint": "Refuge des cent détours",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Trouvez puis empruntez le portail vers Srambad et rejoignez la taverne.",
+          "position": "[5,2]",
+          "zoneHint": "Srambad",
+          "warning": "Ayez 1 x Tête de mort et au moins 1 000 kamas avant de poursuivre dans la taverne.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Achetez une bière triple à Sévériant le Bourreau pour 1 000 kamas afin de faire apparaître Vensitard Smisse.",
+          "position": "[5,2]",
+          "zoneHint": "Taverne de Srambad",
+          "warning": "Dépense obligatoire de 1 000 kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Vensitard Smisse, demandez l'anneau de Tot et remettez-lui 1 x Tête de mort. Lorsqu'il refuse d'identifier son acheteur, choisissez l'option de dialogue permettant de vous éloigner avant de l'affronter.",
+          "position": "[5,2]",
+          "zoneHint": "Taverne de Srambad",
+          "warning": "La Tête de mort est consommée pour faire progresser la quête. Pour que plusieurs personnages valident le combat, chacun doit avoir parlé à Vensitard et choisi « Hausser les épaules et s'en aller » avant l'affrontement.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Battez Vensitard Smisse. La Note trouvée sur le trafiquant révèle que le Capitaine Ekarlatte possède désormais l'anneau.",
+          "position": "[5,2]",
+          "zoneHint": "Taverne de Srambad",
+          "warning": "Le combat est réalisable en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Arrêtez cette quête dès que l'objectif devient de vaincre x1 Capitaine Ekarlatte. Ne lancez pas encore le Ring du Capitaine Ekarlatte : poursuivez maintenant le parcours Srambad demandé par le guide, en commençant par Ça katche ou ça casse.",
+          "position": null,
+          "zoneHint": "Srambad",
+          "warning": "Le donjon et la récupération de l'Anneau de Tot sont volontairement différés à une occurrence ultérieure.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La victoire sur le Capitaine Ekarlatte, le dialogue de fin de donjon et l'obtention de l'Anneau de Tot ne doivent pas être effectués à cette occurrence.",
+        "Le parcours du guide impose de traiter d'abord les quêtes de Srambad après avoir atteint l'objectif « Vaincre x1 Capitaine Ekarlatte »."
+      ],
+      "npcs": [
+        "Kerubim",
+        "Nanoc Elyod",
+        "Karte",
+        "Sévériant le Bourreau",
+        "Vensitard Smisse",
+        "Capitaine Ekarlatte"
+      ],
+      "items": [
+        {
+          "name": "Tête de mort",
+          "itemId": 15444,
+          "imageUrl": "/items/15444.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15444"
+        },
+        {
+          "name": "Bière triple",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Note trouvée sur le trafiquant",
+          "itemId": 15595,
+          "imageUrl": "/items/15595.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15595"
+        },
+        {
+          "name": "Anneau de Tot",
+          "itemId": 15420,
+          "imageUrl": "/items/15420.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15420"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "3,-17"
+            ]
+          },
+          {
+            "id": 209,
+            "name": "Île du Minotoror",
+            "coordinates": [
+              "-42,-17"
+            ]
+          },
+          {
+            "id": 1,
+            "name": "Port de Madrestam",
+            "coordinates": [
+              "11,-1"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "5,2"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          },
+          {
+            "id": 5074,
+            "name": "Vashkiwi",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/5074.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2332,
+            "name": "Larchimaide la Poussée",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2332.png"
+          },
+          {
+            "id": 2331,
+            "name": "Larvapstrè le Subjectif",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2331.png"
+          },
+          {
+            "id": 2339,
+            "name": "Larvomatik le Propre",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2339.png"
+          },
+          {
+            "id": 2574,
+            "name": "Larvonika l'Instrument",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2574.png"
+          },
+          {
+            "id": 2529,
+            "name": "Mandalo l'Aqueuse",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/2529.png"
+          },
+          {
+            "id": 2533,
+            "name": "Minoskour le Sauveur",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2533.png"
+          },
+          {
+            "id": 2521,
+            "name": "Krapahut le Randonneur",
+            "level": 110,
+            "imageUrl": "/bestiary/monsters/2521.png"
+          },
+          {
+            "id": 2287,
+            "name": "Serpistule le Purulent",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/2287.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 203,
+            "name": "Larves",
+            "monsters": [
+              {
+                "id": 31,
+                "name": "Larve Bleue",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/31.png"
+              },
+              {
+                "id": 46,
+                "name": "Larve Orange",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/46.png"
+              },
+              {
+                "id": 34,
+                "name": "Larve Verte",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/34.png"
+              },
+              {
+                "id": 5225,
+                "name": "Larve Jaune",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/5225.png"
+              }
+            ]
+          },
+          {
+            "id": 173,
+            "name": "Minos",
+            "monsters": [
+              {
+                "id": 836,
+                "name": "Kraméléhon",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/836.png"
+              },
+              {
+                "id": 835,
+                "name": "Mandrine",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/835.png"
+              },
+              {
+                "id": 834,
+                "name": "Minoskito",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/834.png"
+              },
+              {
+                "id": 829,
+                "name": "Serpiplume",
+                "level": 120,
+                "imageUrl": "/bestiary/monsters/829.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:811",
+      "relation": "START",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/lanneau-de-tot.html",
+      "sourceTitle": "L'anneau de Tot",
+      "sourceHash": "0692e0f1e9bd30a1568708bb3a3dc6923294093d179d25172b98e7d3ba615cdc",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "La quête est déjà active. Rejoignez l'Agent Durhan à Srambad et accompagnez-le dans ses trois combats de Katche, tous effectués seul avec lui comme allié, puis ramenez-le à l'avant-poste pour terminer la quête.",
+      "recommendedLevel": 110,
+      "prerequisites": [
+        "Niveau supérieur à 109.",
+        "Avoir terminé Voyage, voyage.",
+        "Ça katche ou ça casse doit déjà être active."
+      ],
+      "rewards": [
+        "1 985 972 XP.",
+        "19 480 kamas.",
+        "25 x Orichor.",
+        "5 x Foulard de Milimaître."
+      ],
+      "preparation": [
+        "Préparez un personnage capable de gérer trois combats seul avec l'Agent Durhan.",
+        "Pour le premier combat, privilégiez le contrôle de placement afin d'empêcher Durhan de frapper El Troolito pendant son effet de régénération."
+      ],
+      "actions": [
+        {
+          "instruction": "À l'avant-poste de Srambad, parlez à l'Agent Durhan sur le ring d'entraînement. Il vous accompagne ensuite comme personnage suiveur.",
+          "position": "[2,2]",
+          "zoneHint": "Avant-poste de Srambad",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez El Troolito et parlez à son entraîneur pour lancer le premier affrontement contre El Troolito et son Toolito, avec l'Agent Durhan à vos côtés.",
+          "position": "[3,2]",
+          "zoneHint": "Srambad",
+          "warning": "Combat seul avec Durhan. Lorsque l'effet d'El Troolito lui permet de récupérer toute sa vitalité s'il est frappé, évitez qu'il soit atteint. Éloignez-le de Durhan et laissez de préférence Durhan s'occuper du gobelin ; éliminez El Troolito avant que Durhan ne puisse revenir le frapper pendant sa régénération.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Avec Durhan toujours à vos côtés, allez affronter Dédé le Géant en lui parlant.",
+          "position": "[6,3]",
+          "zoneHint": "Srambad",
+          "warning": "Combat seul avec l'Agent Durhan. Dédé utilise notamment des attaques de Katche en zone.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Rejoignez Jogle et demandez-lui où se trouve Leny le Lenald. Leny apparaît alors et le troisième combat commence avec Durhan.",
+          "position": "[9,3]",
+          "zoneHint": "Srambad",
+          "warning": "Combat seul avec l'Agent Durhan. Leny possède beaucoup de résistances.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Raccompagnez l'Agent Durhan à l'avant-poste, puis parlez-lui pour valider son entraînement et terminer Ça katche ou ça casse.",
+          "position": "[2,2]",
+          "zoneHint": "Avant-poste de Srambad",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le lancement auprès du Colonel Oneuil en [-22,-24] est supposé déjà effectué avant cette occurrence.",
+        "La quête doit être terminée ici afin de poursuivre la série de quêtes de Srambad prévue par le guide."
+      ],
+      "npcs": [
+        "Agent Durhan",
+        "El Troolito",
+        "Toolito",
+        "Dédé le Géant",
+        "Jogle",
+        "Leny le Lenald",
+        "Colonel Oneuil"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 485,
+            "name": "Campagne d'Amakna",
+            "coordinates": [
+              "6,3"
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Champ des Ingalsse",
+            "coordinates": [
+              "9,3"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "3,2",
+              "2,2"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "2,2"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3525,
+            "name": "Ambi Guman",
+            "level": 30,
+            "imageUrl": "/bestiary/monsters/3525.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2310,
+            "name": "Arakule la Revancharde",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2310.png"
+          },
+          {
+            "id": 2323,
+            "name": "Chamchie le Difficile",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2323.png"
+          },
+          {
+            "id": 2336,
+            "name": "Mosketère le Dévoué",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2336.png"
+          },
+          {
+            "id": 2355,
+            "name": "Tofuldebeu l'Explosif",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2355.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 205,
+            "name": "Tofus",
+            "monsters": [
+              {
+                "id": 804,
+                "name": "Tofoune",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/804.png"
+              },
+              {
+                "id": 796,
+                "name": "Tofu Noir",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/796.png"
+              },
+              {
+                "id": 806,
+                "name": "Tofukaz",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/806.png"
+              },
+              {
+                "id": 98,
+                "name": "Tofu",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/98.png"
+              },
+              {
+                "id": 4824,
+                "name": "Tofu Mutant",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/4824.png"
+              }
+            ]
+          },
+          {
+            "id": 1602,
+            "name": "Vermines des champs",
+            "monsters": [
+              {
+                "id": 4819,
+                "name": "Campagnoll",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/4819.png"
+              },
+              {
+                "id": 59,
+                "name": "Champ Champ",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/59.png"
+              },
+              {
+                "id": 61,
+                "name": "Moskito",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/61.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:818",
+      "relation": "ACTIVE",
+      "sortOrder": 3,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/ccedila-katche-ou-ccedila-casse.html",
+      "sourceTitle": "Ça katche ou ça casse",
+      "sourceHash": "570cdde5fd09144fac20e59d4e6c5ee9d5f7f696d4b0b367b9f4ad9b755fb2f2",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Enchaîner les objectifs de Srambad",
+      "description": "L'anneau de Tot vous amène déjà à Srambad avant de devoir interrompre sa progression. Profitez de cette présence dans la dimension pour poursuivre immédiatement Ça katche ou ça casse sans repartir sur le Monde des Douze.",
+      "questKeys": [
+        "quest:811",
+        "quest:818"
+      ],
+      "actions": [
+        "Avancez L'anneau de Tot jusqu'à obtenir l'objectif de vaincre le Capitaine Ekarlatte.",
+        "Sans effectuer le Ring du Capitaine Ekarlatte, rejoignez l'avant-poste en [2,2] et réalisez les trois combats de Ça katche ou ça casse.",
+        "Restez dans Srambad pour la suite du parcours dimensionnel prévue par le guide."
+      ]
+    }
+  ]
 }

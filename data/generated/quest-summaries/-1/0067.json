@@ -2,7 +2,158 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 67,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T10:17:29.013Z",
+  "summaries": [
+    {
+      "overview": "À cette étape, lancez la quête « L'oeuf ou la cawotte ? » auprès de Wanald le Sage Lenald sur l'Île de la Cawotte. La quête demande ensuite de réunir la panoplie du Wa Wabbit et d'accomplir le Terrier du Wa Wabbit, mais ces actions et la remise finale appartiennent à la suite du parcours et ne sont pas à effectuer dans cette étape.",
+      "recommendedLevel": 80,
+      "prerequisites": [
+        "Avoir terminé « Le château du Wa ».",
+        "Avoir terminé « Des pwinces pas très charmants ».",
+        "Niveau recommandé : 80."
+      ],
+      "rewards": [
+        "1 189 944 XP.",
+        "15 960 kamas.",
+        "1 x Cawotte Maudite."
+      ],
+      "preparation": [
+        "Prévoir ultérieurement 1 x Donjon Terrier du Wa Wabbit.",
+        "Prévoir ultérieurement 1 x Couronne du Wa Wabbit.",
+        "Prévoir ultérieurement 1 x Bâton du Wa Wabbit.",
+        "Prévoir ultérieurement 1 x Cape du Wa Wabbit."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Wanald le Sage Lenald pour lancer « L'oeuf ou la cawotte ? ». Arrêtez-vous après l'acceptation de la quête pour respecter l'ordre du guide.",
+          "position": "[23,-4]",
+          "zoneHint": "Île de la Cawotte",
+          "warning": "La quête exige d'avoir terminé « Le château du Wa » et « Des pwinces pas très charmants ». Les achats ou crafts de la Couronne du Wa Wabbit, du Bâton du Wa Wabbit et de la Cape du Wa Wabbit, ainsi que le Terrier du Wa Wabbit, sont à effectuer dans la suite du parcours, pas à cette étape.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête est lancée auprès de Wanald le Sage Lenald en [23,-4].",
+        "La suite mène au Terrier du Wa Wabbit en [28,-12], mais elle n'est pas à réaliser pendant cette étape."
+      ],
+      "npcs": [
+        "Wanald le Sage Lenald"
+      ],
+      "items": [
+        {
+          "name": "Couronne du Wa Wabbit",
+          "itemId": 2125,
+          "imageUrl": "/items/2125.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2125"
+        },
+        {
+          "name": "Bâton du Wa Wabbit",
+          "itemId": 2126,
+          "imageUrl": "/items/2126.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2126"
+        },
+        {
+          "name": "Cape du Wa Wabbit",
+          "itemId": 2127,
+          "imageUrl": "/items/2127.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2127"
+        },
+        {
+          "name": "Cawotte Maudite",
+          "itemId": 8621,
+          "imageUrl": "/items/8621.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8621"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 161,
+            "name": "Île de la Cawotte",
+            "coordinates": [
+              "23,-4"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2294,
+            "name": "Tiwoflan le Lâche",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/2294.png"
+          },
+          {
+            "id": 2293,
+            "name": "Tiwalpé le Dévêtu",
+            "level": 41,
+            "imageUrl": "/bestiary/monsters/2293.png"
+          },
+          {
+            "id": 2402,
+            "name": "Tiwa'Missou le Gateux",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2402.png"
+          },
+          {
+            "id": 2304,
+            "name": "Wabbitud le Constant",
+            "level": 44,
+            "imageUrl": "/bestiary/monsters/2304.png"
+          },
+          {
+            "id": 2403,
+            "name": "Wagnagnah le Sanglant",
+            "level": 46,
+            "imageUrl": "/bestiary/monsters/2403.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 172,
+            "name": "Wabbits",
+            "monsters": [
+              {
+                "id": 68,
+                "name": "Black Tiwabbit",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/68.png"
+              },
+              {
+                "id": 65,
+                "name": "Black Wabbit",
+                "level": 46,
+                "imageUrl": "/bestiary/monsters/65.png"
+              },
+              {
+                "id": 72,
+                "name": "Tiwabbit Kiafin",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/72.png"
+              },
+              {
+                "id": 96,
+                "name": "Tiwabbit",
+                "level": 41,
+                "imageUrl": "/bestiary/monsters/96.png"
+              },
+              {
+                "id": 64,
+                "name": "Wabbit",
+                "level": 44,
+                "imageUrl": "/bestiary/monsters/64.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:539",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/lrsquooeliguf-ou-la-cawotte.html",
+      "sourceTitle": "L’œuf ou la cawotte ?",
+      "sourceHash": "a50d37b99e7d86bdb96459d23312248ef03890b1f8605a9951e0cdcda3cad296",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

@@ -1,95 +1,117 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 113,
-  "updatedAt": "2026-08-27T13:32:21.465Z",
+  "updatedAt": "2026-08-29T12:51:34.403Z",
   "summaries": [
     {
-      "overview": "Dexter Minateur, un dératiseur de Brâkmar, vous engage pour vérifier ses pièges dans les égouts puis vous envoie affronter le Rat Noir dans la Sousouricière.",
+      "overview": "La quête a déjà été avancée jusqu'à la recherche de Stanis Ast dans la Sousouricière du Rat Noir. Reprenez dans le donjon, trouvez Stanis, obtenez l'accord du Rat Noir pour sa libération, puis fournissez-lui une remplaçante avant de retourner innocenter Stanis auprès de Dexter Minateur.",
       "recommendedLevel": 110,
-      "prerequisites": [],
+      "prerequisites": [
+        "Avoir lancé et avancé Fait comme un rat à l'étape demandant de trouver Stanis Ast dans la Sousouricière du Rat Noir.",
+        "Pouvoir parcourir et terminer le donjon Sousouricière du Rat Noir."
+      ],
       "rewards": [
-        "2 597 190 XP",
-        "28 560 Kamas",
-        "3 x Pistule de Rat Sio"
+        "2 597 190 XP.",
+        "28 560 Kamas.",
+        "3 x Pistule de Rat Sio."
       ],
       "preparation": [
-        "3 x combats (réalisable en groupe)",
-        "1 x combat (seul)",
-        "1 x Donjon Sousouricière du Rat Noir"
+        "Prévoir de terminer la Sousouricière du Rat Noir et d'affronter le Rat Noir.",
+        "Prévoir un combat en solo contre la Milicienne déprimée après le donjon."
       ],
       "actions": [
         {
-          "instruction": "Se rendre à Brâkmar - La Marmite en [-23,37] et parler à Dexter Minateur.",
-          "position": "[-23,37]",
-          "zoneHint": "La Marmite",
-          "warning": null,
+          "instruction": "Dans la salle 3 de la Sousouricière du Rat Noir, parlez à Stanis Ast derrière les barreaux afin d'apprendre qu'il nie avoir saboté les pièges et accuse les rats.",
+          "position": null,
+          "zoneHint": "Sousouricière du Rat Noir - salle 3",
+          "warning": "Ne quittez pas la salle 3 sans parler à Stanis Ast : cette interaction est nécessaire à la progression de la quête.",
           "combat": "NONE"
         },
         {
-          "instruction": "Entrer dans les égouts par l'entrée en [-21,36]. Vérifier les pièges : en [-21,36] cliquer sur les deux tapettes (celle du haut avec le squelette lance un combat), en [-22,36] cliquer sur le piège avec un Brâkmarien, en [-22,37] vérifier le piège en haut à droite, en [-23,38] vérifier la tapette à droite, en [-28,37] vérifier les deux pièges devant le donjon.",
-          "position": "[-21,36]",
-          "zoneHint": "Égouts de Brâkmar",
-          "warning": "Combats en [-21,36] (tapette du haut), [-22,37] (piège en haut à droite) et [-28,37] (tapette du centre) contre 4 x Sousouris démineuse chacun, réalisables en groupe.",
+          "instruction": "Continuez la Sousouricière du Rat Noir jusqu'à la dernière salle et vainquez le Rat Noir.",
+          "position": null,
+          "zoneHint": "Sousouricière du Rat Noir",
+          "warning": "Combat de donjon requis.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Retourner voir Dexter Minateur en [-23,37] à La Marmite.",
-          "position": "[-23,37]",
-          "zoneHint": "La Marmite",
-          "warning": null,
+          "instruction": "Après sa défaite, parlez au Rat Noir et choisissez l'option concernant Stanis pour demander sa libération. Acceptez de lui trouver un Brâkmarien de remplacement.",
+          "position": null,
+          "zoneHint": "Sousouricière du Rat Noir - salle du Rat Noir",
+          "warning": "La libération de Stanis est conditionnée au remplacement demandé par le Rat Noir.",
           "combat": "NONE"
         },
         {
-          "instruction": "Aller au donjon Sousouricière du Rat Noir et vaincre le Rat Noir.",
-          "position": null,
-          "zoneHint": "Sousouricière du Rat Noir",
-          "warning": "Combat seul contre le Rat Noir.",
+          "instruction": "Allez voir la Milicienne déprimée et proposez-lui de divertir le Rat Noir. Acceptez ensuite son duel.",
+          "position": "[-28,33]",
+          "zoneHint": null,
+          "warning": "Le combat qui suit doit être effectué seul.",
           "combat": "SOLO"
+        },
+        {
+          "instruction": "Remportez le duel contre la Milicienne déprimée afin qu'elle devienne votre personnage suiveur.",
+          "position": "[-28,33]",
+          "zoneHint": null,
+          "warning": "La Milicienne peut augmenter ses dommages, frapper terre au contact et attaquer air à distance.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Avec la milicienne en personnage suiveur, rejoignez Rat Pido devant la Sousouricière et choisissez de vous rendre auprès du Rat Noir avec la Brâkmarienne.",
+          "position": "[-29,35]",
+          "zoneHint": "Devant la Sousouricière du Rat Noir",
+          "warning": "Conservez la Milicienne comme personnage suiveur jusqu'à l'échange.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Rat Noir et présentez-lui la Brâkmarienne afin d'effectuer l'échange et de récupérer Stanis Ast.",
+          "position": null,
+          "zoneHint": "Sousouricière du Rat Noir - auprès du Rat Noir",
+          "warning": "La Milicienne est remise au Rat Noir en échange de la libération de Stanis Ast.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Dexter Minateur et racontez-lui les événements afin d'innocenter son assistant et terminer la quête.",
+          "position": "[-23,37]",
+          "zoneHint": "Brâkmar - La Marmite",
+          "warning": null,
+          "combat": "NONE"
         }
       ],
-      "notes": [],
+      "notes": [
+        "Les vérifications des pièges, l'enquête auprès de Norat Go et l'avancée jusqu'à la recherche de Stanis Ast sont supposées déjà accomplies à l'étape précédente.",
+        "La Sousouricière du Rat Noir sert également à progresser La lumière au bout des égouts en récupérant les Touffes de rat de Brâkmar sur les rats compatibles."
+      ],
       "npcs": [
+        "Stanis Ast",
+        "Rat Noir",
+        "Milicienne déprimée",
+        "Rat Pido",
         "Dexter Minateur"
       ],
-      "items": [
-        {
-          "name": "Pistule de Rat Sio",
-          "itemId": null,
-          "imageUrl": null,
-          "dofusDbUrl": null
-        }
-      ],
+      "items": [],
       "bestiary": {
         "zones": [
-          {
-            "id": 978,
-            "name": "L'Ancre",
-            "coordinates": [
-              "-23,38"
-            ]
-          },
           {
             "id": 982,
             "name": "L'Enclume",
             "coordinates": [
-              "-28,37"
+              "-28,33"
             ]
           },
           {
             "id": 980,
             "name": "La Marmite",
             "coordinates": [
-              "-23,37",
-              "-21,36",
-              "-22,36",
-              "-22,37"
+              "-23,37"
             ]
           },
           {
             "id": 1010,
             "name": "Sousouricière du Rat Noir",
-            "coordinates": []
+            "coordinates": [
+              "-29,35"
+            ]
           }
         ],
         "bounties": [],
@@ -213,67 +235,126 @@
         ]
       },
       "questKey": "quest:1393",
+      "relation": "FINISH",
+      "sortOrder": 0,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/fait-comme-un-rat.html",
       "sourceTitle": "Fait comme un rat",
       "sourceHash": "d4ba1333fc485d1f57d0a0394efac191c23d33bdd3dc2d64447046b8b432920c",
-      "generatedAt": "2026-08-24T17:34:52.726Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     },
     {
-      "overview": "Dras Fours, un rat dans les égouts de Brâkmar, n'ose plus retourner dans la mine de Brâkmar qu'il croit hantée par les fantômes des rats tombés dans la lave. Enquêtez sur les gémissements, gagnez la confiance d'une chachatonne égarée en lui prouvant votre courage face aux rats, puis explorez la mine pour découvrir la vérité.",
+      "overview": "La quête a déjà été avancée jusqu'à l'objectif de récupérer 20 Touffes de rat de Brâkmar, normalement obtenues pendant la Sousouricière du Rat Noir. Montrez-les à la Chachatonne égarée, puis fabriquez une ou plusieurs Pioches à usage unique pour extraire un Éclat de minerai précieux et guider la chachatonne hors des entrailles avant de rendre la quête à Dras Fours.",
       "recommendedLevel": 110,
       "prerequisites": [
-        "Niveau recommandé : 110"
+        "Avoir lancé La lumière au bout des égouts et atteint l'objectif demandant 20 x Touffe de rat de Brâkmar.",
+        "Avoir récupéré 20 x Touffe de rat de Brâkmar sur les rats des Entrailles de Brâkmar ou pendant la Sousouricière du Rat Noir, hors monstre propre au donjon.",
+        "Disposer des composants nécessaires à la fabrication d'au moins une Pioche à usage unique et de l'aide d'un Forgeron niveau 10 ou plus."
       ],
       "rewards": [
-        "1 298 594 XP",
-        "14 280 Kamas",
-        "3 x Vieux Bouquin de Rat Li"
+        "1 298 594 XP.",
+        "14 280 Kamas.",
+        "3 x Vieux Bouquin de Rat Li."
       ],
       "preparation": [
-        "1 x Fragment de Pierre Pointue",
-        "1 x Bois de Châtaignier",
-        "1 x Ferrite",
-        "Combats contre les rats de la zone Entrailles de Brâkmar (drop à 100%)"
+        "Prévoir 1 x Fragment de Pierre Pointue, 1 x Bois de Châtaignier et 1 x Ferrite par tentative de fabrication d'une Pioche à usage unique.",
+        "Il peut être utile de préparer plusieurs exemplaires des composants, car chaque tentative d'extraction détruit une Pioche à usage unique et peut échouer."
       ],
       "actions": [
         {
-          "instruction": "Allez dans les égouts de Brâkmar en [-23,38] et parlez à Dras Fours pour lancer la quête.",
+          "instruction": "Avec les 20 Touffes de rat de Brâkmar obtenues, retournez voir la Chachatonne égarée et montrez-lui les touffes afin qu'elle accepte de vous suivre.",
+          "position": "[-22,37]",
+          "zoneHint": "Entrailles de Brâkmar",
+          "warning": "Il faut disposer de 20 x Touffe de rat de Brâkmar avant cette interaction.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez sur la carte voisine et parlez à la Chachatonne égarée devant le gisement vert. Quel que soit le dialogue choisi, constatez qu'elle refuse de partir puis abandonnez pour retourner en parler à Dras Fours.",
+          "position": "[-21,37]",
+          "zoneHint": "Entrailles de Brâkmar",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Dras Fours, expliquez-lui que les prétendus fantômes étaient une chachatonne et apprenez qu'il faut extraire un morceau du minerai lumineux pour l'attirer vers la sortie.",
           "position": "[-23,38]",
           "zoneHint": "Entrailles de Brâkmar",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Allez en [-22,37] et cliquez sur la caisse de bombes roublardes au pied des roches en haut à gauche.",
-          "position": "[-22,37]",
-          "zoneHint": "Entrailles de Brâkmar",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Parlez à la Chachatonne égarée qui apparaît et choisissez « Tenter de caresser la chachatonne ».",
-          "position": "[-22,37]",
-          "zoneHint": "Entrailles de Brâkmar",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Combattez les rats de la zone Entrailles de Brâkmar jusqu'à obtenir 20 x Touffe de rat de Brâkmar (drop à 100% sur tous les rats de la zone).",
+          "instruction": "Faites fabriquer au moins 1 x Pioche à usage unique par un Forgeron niveau 10 ou plus avec 1 x Fragment de Pierre Pointue, 1 x Bois de Châtaignier et 1 x Ferrite.",
           "position": null,
+          "zoneHint": null,
+          "warning": "Chaque Pioche à usage unique est consommée lors d'une tentative d'extraction, même en cas d'échec. Plusieurs fabrications peuvent être nécessaires.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Présentez la Pioche à usage unique à Dras Fours avant de tenter l'extraction.",
+          "position": "[-23,38]",
           "zoneHint": "Entrailles de Brâkmar",
           "warning": null,
-          "combat": "GROUP"
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Équipez une Pioche à usage unique à la place de votre arme puis cliquez sur le plus petit gisement vert devant la Chachatonne égarée. Recommencez avec une nouvelle pioche après chaque échec jusqu'à obtenir 1 x Éclat de minerai précieux.",
+          "position": "[-21,37]",
+          "zoneHint": "Entrailles de Brâkmar",
+          "warning": "La pioche équipée est détruite à chaque clic et l'obtention de l'Éclat de minerai précieux n'est pas garantie.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Une fois l'Éclat de minerai précieux obtenu, double-cliquez dessus pour attirer la Chachatonne égarée vers la lumière.",
+          "position": "[-21,37]",
+          "zoneHint": "Entrailles de Brâkmar",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montez jusqu'à la carte suivante puis double-cliquez de nouveau sur l'Éclat de minerai précieux pour faire avancer la Chachatonne.",
+          "position": "[-21,36]",
+          "zoneHint": "Égouts de Brâkmar",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sortez des égouts en [-21,36], puis utilisez une troisième fois l'Éclat de minerai précieux pour attirer la Chachatonne à l'extérieur.",
+          "position": "[-21,36]",
+          "zoneHint": "Extérieur de Brâkmar",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à la Chachatonne égarée et montrez-lui l'éclat. Elle s'en empare et s'enfuit, ce qui libère les lieux.",
+          "position": "[-21,36]",
+          "zoneHint": "Extérieur de Brâkmar",
+          "warning": "L'Éclat de minerai précieux est perdu lors de cette interaction.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Redescendez dans les égouts et retournez auprès de Dras Fours pour lui annoncer que les fantômes comme la chachatonne ne sont plus un problème et terminer la quête.",
+          "position": "[-23,38]",
+          "zoneHint": "Entrailles de Brâkmar",
+          "warning": null,
+          "combat": "NONE"
         }
       ],
       "notes": [
-        "Vous pouvez aussi droper les Touffes de rat de Brâkmar dans le donjon, mais pas sur le monstre unique du donjon."
+        "La découverte de la Chachatonne égarée et l'arrivée à l'objectif des 20 Touffes de rat de Brâkmar sont supposées déjà accomplies à l'étape précédente.",
+        "Les 20 Touffes de rat de Brâkmar peuvent avoir été récupérées pendant la Sousouricière du Rat Noir effectuée en parallèle de Fait comme un rat.",
+        "Le taux de récupération de l'Éclat de minerai précieux lors de l'extraction est aléatoire ; prévoyez plusieurs pioches pour éviter des allers-retours de fabrication."
       ],
       "npcs": [
-        "Dras Fours",
-        "Chachatonne égarée"
+        "Chachatonne égarée",
+        "Dras Fours"
       ],
       "items": [
+        {
+          "name": "Touffe de rat de Brâkmar",
+          "itemId": 26197,
+          "imageUrl": "/items/26197.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26197"
+        },
         {
           "name": "Fragment de Pierre Pointue",
           "itemId": 2305,
@@ -293,16 +374,16 @@
           "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16440"
         },
         {
-          "name": "Touffe de rat de Brâkmar",
-          "itemId": 26197,
-          "imageUrl": "/items/26197.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26197"
+          "name": "Pioche à usage unique",
+          "itemId": 26198,
+          "imageUrl": "/items/26198.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26198"
         },
         {
-          "name": "Vieux Bouquin de Rat Li",
-          "itemId": 25760,
-          "imageUrl": "/items/25760.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/25760"
+          "name": "Éclat de minerai précieux",
+          "itemId": 26204,
+          "imageUrl": "/items/26204.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26204"
         }
       ],
       "bestiary": {
@@ -311,8 +392,16 @@
             "id": 985,
             "name": "Entrailles de Brâkmar",
             "coordinates": [
-              "-23,38",
-              "-22,37"
+              "-22,37",
+              "-21,37",
+              "-23,38"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-21,36"
             ]
           }
         ],
@@ -352,12 +441,28 @@
         ]
       },
       "questKey": "quest:1397",
+      "relation": "FINISH",
+      "sortOrder": 1,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-lumiere-au-bout-des-egouts.html",
       "sourceTitle": "La lumière au bout des égouts",
       "sourceHash": "131270edc614be2e8f69417bbd21e673062d05abaac6327ab1607de5ecc8020a",
-      "generatedAt": "2026-08-24T17:39:08.618Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     }
   ],
-  "tips": []
+  "tips": [
+    {
+      "title": "Rentabiliser la Sousouricière",
+      "description": "La Sousouricière du Rat Noir sert aux deux quêtes : progressez Fait comme un rat jusqu'à Stanis Ast puis au Rat Noir tout en complétant les 20 Touffes de rat de Brâkmar nécessaires à La lumière au bout des égouts.",
+      "questKeys": [
+        "quest:1393",
+        "quest:1397"
+      ],
+      "actions": [
+        "Dans la Sousouricière, parlez impérativement à Stanis Ast en salle 3 pour Fait comme un rat.",
+        "Sur les rats éligibles du donjon, complétez les 20 Touffes de rat de Brâkmar avant de repartir.",
+        "Terminez ensuite le donjon et battez le Rat Noir afin de poursuivre la libération de Stanis."
+      ]
+    }
+  ]
 }

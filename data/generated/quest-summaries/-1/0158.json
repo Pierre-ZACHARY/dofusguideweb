@@ -1,8 +1,432 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 158,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T15:05:21.105Z",
+  "summaries": [
+    {
+      "overview": "Lancez Le festival de la lanterne auprès de Daimya Hikomi, puis participez aux préparatifs de Feudala : fabriquez et consacrez votre lanterne, aidez Ozulan et Pandako Shazaki, récupérez et replacez les huit talismans, préparez les pâtisseries, protégez le Qilin de papier et rejoignez Hinaba. Cette occurrence va jusqu'à l'exécution de la Fabrique de foux d'artifice et la victoire sur Founoroshi. Les échanges et le choix de camp qui suivent le donjon seront traités lors de la reprise suivante.",
+      "recommendedLevel": 140,
+      "prerequisites": [
+        "Avoir terminé La jetée des enfants perdus."
+      ],
+      "rewards": [
+        "Récompenses finales de la quête : 4 311 804 XP.",
+        "Récompenses finales de la quête : 44 760 Kamas.",
+        "Récompenses finales de la quête : 3 x Étoffe de Firefoux.",
+        "Récompenses finales de la quête : 3 x Poils de Founamboul."
+      ],
+      "preparation": [
+        "Prévoir 100 x Graine de Sésame.",
+        "Prévoir 100 x Riz.",
+        "Prévoir 50 x Haricot.",
+        "Prévoir 20 x Eau Potable.",
+        "Prévoir de combattre des Firefoux de Feudala jusqu'à obtenir 8 x Énigme du festival des lanternes, avec un taux de base de 12%.",
+        "Prévoir un combat réalisable en groupe contre les Feux follets.",
+        "Prévoir un combat solo avec le Qilin de papier, qui doit impérativement survivre.",
+        "Prévoir de réaliser le donjon Fabrique de foux d'artifice."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Daimya Hikomi et choisissez de lui dire que vous avez hâte de partir pour Feudala afin de lancer Le festival de la lanterne.",
+          "position": "[22,-29]",
+          "zoneHint": "Village de Pandala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à la Garde de Feudala. Elle vous confie le papier de riz nécessaire à votre lanterne et vous demande de récupérer de l'encre et du bambou.",
+          "position": "[18,-30]",
+          "zoneHint": "Feudala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans l'atelier des alchimistes et demandez à Phang de l'Encre Noire pour votre lanterne en précisant être envoyé par la Daimya.",
+          "position": "[23,-29]",
+          "zoneHint": "atelier des alchimistes",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Takeono et demandez-lui du Bois de Bambou Souple pour fabriquer l'armature de votre lanterne.",
+          "position": "[24,-29]",
+          "zoneHint": "Feudala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez par la porte de l'Étincelle et utilisez la Table de Travail pour confectionner votre Lanterne avec le papier de riz, l'Encre Noire et le Bois de Bambou Souple.",
+          "position": "[18,-30]",
+          "zoneHint": "porte de l'Étincelle",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sortez puis montrez votre lanterne à la Garde de Feudala afin qu'elle l'allume.",
+          "position": "[18,-30]",
+          "zoneHint": "Feudala",
+          "warning": "La tradition exige que la lanterne reste allumée pendant le trajet vers la Lanterne Primordiale.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez sur la Lanterne Primordiale pour rendre hommage à l'esprit du Feu, puis parlez au Feu follet apparu sur place et choisissez de refroidir les ardeurs des feux follets.",
+          "position": "[17,-32]",
+          "zoneHint": "Feudala",
+          "warning": "Un combat démarre après le dialogue.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire, reparlez au Feu follet et expliquez que vous êtes venu assurer le bon déroulement du festival.",
+          "position": "[17,-32]",
+          "zoneHint": "Feudala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans le temple et parlez à Ozulan. Il vous demande d'aider Pandako Shazaki pour poursuivre les préparatifs.",
+          "position": "[15,-35]",
+          "zoneHint": "temple de Feudala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Pandako Shazaki dans l'atelier de papier. Elle vous charge de récupérer les talismans volés par les Firefoux.",
+          "position": "[18,-34]",
+          "zoneHint": "atelier de papier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Combattez les Firefoux de Feudala jusqu'à obtenir 8 x Énigme du festival des lanternes.",
+          "position": null,
+          "zoneHint": "Feudala",
+          "warning": "Chaque Énigme du festival des lanternes a un taux de drop de base de 12% sur les Firefoux de la zone.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez voir Pandako Shazaki avec les 8 x Énigme du festival des lanternes. Elle vous demande de les replacer sur huit arbres-lanternes.",
+          "position": "[18,-34]",
+          "zoneHint": "atelier de papier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Accrochez une Énigme du festival des lanternes à l'Arbre-Lanterne.",
+          "position": "[18,-33]",
+          "zoneHint": "Feudala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Accrochez une Énigme du festival des lanternes à l'Arbre-Lanterne.",
+          "position": "[17,-35]",
+          "zoneHint": "Feudala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Accrochez une Énigme du festival des lanternes à l'Arbre-Lanterne.",
+          "position": "[16,-36]",
+          "zoneHint": "Feudala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Accrochez une Énigme du festival des lanternes à l'Arbre-Lanterne.",
+          "position": "[16,-34]",
+          "zoneHint": "Feudala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Accrochez une Énigme du festival des lanternes à l'Arbre-Lanterne.",
+          "position": "[15,-34]",
+          "zoneHint": "Feudala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Accrochez une Énigme du festival des lanternes à l'Arbre-Lanterne.",
+          "position": "[14,-34]",
+          "zoneHint": "Feudala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Accrochez une Énigme du festival des lanternes à l'Arbre-Lanterne.",
+          "position": "[15,-33]",
+          "zoneHint": "Feudala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Accrochez la dernière Énigme du festival des lanternes à l'Arbre-Lanterne.",
+          "position": "[16,-32]",
+          "zoneHint": "Feudala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Stayfun Bonnawa de la commande de wanchiaos d'Ozulan.",
+          "position": "[23,-27]",
+          "zoneHint": "Feudala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Utilisez l'atelier derrière Stayfun Bonnawa pour fabriquer 10 x Wanchio au sésame avec au total 100 x Graine de Sésame, 10 x Eau Potable et 50 x Riz, puis 10 x Wanchio aux haricots avec 50 x Haricot, 10 x Eau Potable et 50 x Riz.",
+          "position": "[23,-27]",
+          "zoneHint": "atelier de Stayfun Bonnawa",
+          "warning": "La fabrication consomme au total 100 x Graine de Sésame, 100 x Riz, 50 x Haricot et 20 x Eau Potable.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez dans le temple et donnez les 10 x Wanchio au sésame et les 10 x Wanchio aux haricots à Ozulan.",
+          "position": "[15,-35]",
+          "zoneHint": "temple de Feudala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Pandako Shazaki et choisissez de vous interposer entre les Firefoux et la structure de papier.",
+          "position": "[18,-34]",
+          "zoneHint": "atelier de papier",
+          "warning": "Le combat se fait seul avec le Qilin de papier. Si le Qilin de papier meurt, le combat est perdu.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après le combat, reparlez à Pandako Shazaki. Elle vous envoie auprès de Hinaba pour régler le problème des Firefoux à la Fabrique de foux d'artifice.",
+          "position": "[18,-34]",
+          "zoneHint": "atelier de papier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Hinaba et proposez votre aide pour mettre un terme à la menace Firefoux. Il vous demande de récupérer son mortier enchanté auprès de leur chef.",
+          "position": "[14,-32]",
+          "zoneHint": "Feudala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la Fabrique de foux d'artifice, parcourez le donjon et vainquez Founoroshi.",
+          "position": "[14,-32]",
+          "zoneHint": "Fabrique de foux d'artifice",
+          "warning": "Cette occurrence s'arrête à la réalisation du donjon et à la victoire sur Founoroshi. Ne faites pas encore le dialogue post-donjon ni le choix entre les Firefoux et les Pandawas.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "La quête débute après l'obtention de la griffe de l'eau dans la séquence de Pandala.",
+        "Après Founoroshi, la quête se poursuit avec un dialogue, la récupération du Mortier enchanté, puis un choix entre les Firefoux et les Pandawas. Cette partie est volontairement laissée pour l'occurrence FINISH de l'étape suivante.",
+        "La rencontre avec l'Esprit du Feu, l'obtention de la Griffe du Feu et le retour auprès de Daimya Hikomi ne doivent pas être effectués dans cette occurrence."
+      ],
+      "npcs": [
+        "Daimya Hikomi",
+        "Garde de Feudala",
+        "Phang",
+        "Takeono",
+        "Feu follet",
+        "Ozulan",
+        "Pandako Shazaki",
+        "Stayfun Bonnawa",
+        "Hinaba",
+        "Founoroshi",
+        "Qilin de papier"
+      ],
+      "items": [
+        {
+          "name": "Encre Noire",
+          "itemId": 23144,
+          "imageUrl": "/items/23144.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23144"
+        },
+        {
+          "name": "Bois de Bambou Souple",
+          "itemId": 23145,
+          "imageUrl": "/items/23145.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23145"
+        },
+        {
+          "name": "Lanterne",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Énigme du festival des lanternes",
+          "itemId": 23166,
+          "imageUrl": "/items/23166.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23166"
+        },
+        {
+          "name": "Graine de Sésame",
+          "itemId": 1699,
+          "imageUrl": "/items/1699.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1699"
+        },
+        {
+          "name": "Riz",
+          "itemId": 3671,
+          "imageUrl": "/items/3671.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/3671"
+        },
+        {
+          "name": "Haricot",
+          "itemId": 3433,
+          "imageUrl": "/items/3433.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/3433"
+        },
+        {
+          "name": "Eau Potable",
+          "itemId": 1719,
+          "imageUrl": "/items/1719.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1719"
+        },
+        {
+          "name": "Wanchio au sésame",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Wanchio aux haricots",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 949,
+            "name": "Fabrique de foux d'artifice",
+            "coordinates": [
+              "18,-34",
+              "14,-32"
+            ]
+          },
+          {
+            "id": 943,
+            "name": "Feudala",
+            "coordinates": [
+              "18,-30",
+              "24,-29",
+              "17,-32",
+              "15,-35",
+              "18,-34",
+              "18,-33",
+              "17,-35",
+              "16,-36",
+              "16,-34",
+              "15,-34",
+              "14,-34",
+              "15,-33",
+              "16,-32",
+              "23,-27",
+              "14,-32"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "18,-34"
+            ]
+          },
+          {
+            "id": 951,
+            "name": "Village de Pandala",
+            "coordinates": [
+              "22,-29",
+              "23,-29",
+              "23,-27"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 555,
+            "name": "Zatoïshwan",
+            "level": 150,
+            "imageUrl": "/bestiary/monsters/555.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2526,
+            "name": "Bigbadaboum l'Élémentaire",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2526.png"
+          },
+          {
+            "id": 2303,
+            "name": "Crachefouxtre le Surpris",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2303.png"
+          },
+          {
+            "id": 2278,
+            "name": "Pétarfoutu le Mouillé",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2278.png"
+          },
+          {
+            "id": 2597,
+            "name": "Tronquette la Réduite",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2597.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 3035,
+            "name": "Firefoux",
+            "monsters": [
+              {
+                "id": 6251,
+                "name": "Crachefoux",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6251.png"
+              },
+              {
+                "id": 6252,
+                "name": "Rouquette",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6252.png"
+              },
+              {
+                "id": 6253,
+                "name": "Boumbardier",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6253.png"
+              },
+              {
+                "id": 6254,
+                "name": "Pétartifoux",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6254.png"
+              },
+              {
+                "id": 6255,
+                "name": "Founamboul",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6255.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1319",
+      "relation": "START",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-festival-de-la-lanterne.html",
+      "sourceTitle": "Le festival de la lanterne",
+      "sourceHash": "35741702944bdfaf1469c672711dc4b54360a019726945e7971ce762a2a733b1",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

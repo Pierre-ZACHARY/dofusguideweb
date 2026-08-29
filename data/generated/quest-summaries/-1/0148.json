@@ -1,8 +1,996 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 148,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T14:23:17.927Z",
+  "summaries": [
+    {
+      "overview": "Poursuivez Dites-le avec des fleurs jusqu'à avoir aidé Sobomori et obtenu son moyen magique de comprendre les fleurs. Cette progression est nécessaire pour pouvoir avancer Le saule du promeneur plus tard dans l'étape. Ne terminez pas Dites-le avec des fleurs ici.",
+      "recommendedLevel": 110,
+      "prerequisites": [
+        "Le réveil de Pandala.",
+        "Avoir déjà lancé Dites-le avec des fleurs et atteint la portion actuelle de la quête."
+      ],
+      "rewards": [
+        "Récompenses finales de la quête : 1 298 594 XP.",
+        "Récompenses finales de la quête : 14 280 Kamas.",
+        "Récompenses finales de la quête : 5 x Épine de Bulbuisson.",
+        "Récompenses finales de la quête : 5 x Langue de Grenufar."
+      ],
+      "preparation": [
+        "Prévoir deux combats réalisables en groupe contre des PNJ de Plantala."
+      ],
+      "actions": [
+        {
+          "instruction": "Si ce n'est pas déjà fait dans votre progression actuelle, suivez les objectifs de Dites-le avec des fleurs jusqu'à rencontrer Sobomori dans sa maison et lui demander un moyen de comprendre le langage des fleurs.",
+          "position": "[24,-31]",
+          "zoneHint": "Plantala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Braconnier aviné pour tenter d'obtenir sa bave, puis remportez le combat afin de récupérer la Bave de braconnier.",
+          "position": "[24,-34]",
+          "zoneHint": "Plantala",
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Parlez au Crapodo et remportez le combat afin de récupérer la Bave de crapodo.",
+          "position": "[25,-28]",
+          "zoneHint": "Plantala",
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez chez Sobomori et donnez-lui les deux échantillons de bave. Elle vous fait alors utiliser son pot-pourri des mille senteurs pour vous permettre de comprendre temporairement le langage des fleurs.",
+          "position": "[24,-31]",
+          "zoneHint": "Maison de Sobomori",
+          "warning": "Arrêtez cette occurrence après avoir aidé Sobomori et obtenu l'apprentissage magique du langage des fleurs ; la suite de Dites-le avec des fleurs sera effectuée plus tard.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête complète continue ensuite avec plusieurs conversations avec des fleurs, puis la recherche de Wanakotoba et d'un pot magique ; ces actions ne sont pas à effectuer dans cette occurrence.",
+        "La progression auprès de Sobomori sert notamment de condition à une étape ultérieure de Le saule du promeneur."
+      ],
+      "npcs": [
+        "Sobomori",
+        "Braconnier aviné",
+        "Crapodo"
+      ],
+      "items": [
+        {
+          "name": "Bave de braconnier",
+          "itemId": 23018,
+          "imageUrl": "/items/23018.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23018"
+        },
+        {
+          "name": "Bave de crapodo",
+          "itemId": 23019,
+          "imageUrl": "/items/23019.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23019"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 942,
+            "name": "Plantala",
+            "coordinates": [
+              "24,-31",
+              "24,-34",
+              "25,-28"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2548,
+            "name": "Bambouské le Camouflé",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2548.png"
+          },
+          {
+            "id": 2415,
+            "name": "Bulsavon le Gonflé",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2415.png"
+          },
+          {
+            "id": 2392,
+            "name": "Floriste la Cannibale",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2392.png"
+          },
+          {
+            "id": 2593,
+            "name": "Grenuche la Gentille",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2593.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 3045,
+            "name": "Plantalas",
+            "monsters": [
+              {
+                "id": 6318,
+                "name": "Bambouto",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6318.png"
+              },
+              {
+                "id": 6320,
+                "name": "Floristile",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6320.png"
+              },
+              {
+                "id": 6321,
+                "name": "Bulbuisson",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6321.png"
+              },
+              {
+                "id": 6323,
+                "name": "Grenufar",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6323.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1329",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/dites-le-avec-des-fleurs.html",
+      "sourceTitle": "Dites-le avec des fleurs",
+      "sourceHash": "daa777f72cb18351dbc8691838862e9bc240c5e5d4e6bfe2144a04a595f77ea2",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez Infâme pourriture auprès de Phang. L'objectif est de récupérer 20 x Mildiou de Pandala sur les monstres de Plantala ; le guide prévoit de profiter notamment de la Bambusaie de Damadrya pour avancer ce drop. La quête est facultative pour la suite de l'aventure.",
+      "recommendedLevel": 110,
+      "prerequisites": [
+        "Le réveil de Pandala."
+      ],
+      "rewards": [
+        "Récompenses finales de la quête : 1 298 594 XP.",
+        "Récompenses finales de la quête : 14 280 Kamas."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Entrez dans l'atelier des alchimistes et parlez à Phang. Proposez votre aide afin de lancer Infâme pourriture et recevoir l'objectif de récolter des échantillons de mildiou.",
+          "position": "[23,-29]",
+          "zoneHint": "Village de Pandala",
+          "warning": "Cette quête n'est pas essentielle pour la suite de l'aventure selon le guide.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "L'objectif reçu est de récupérer 20 x Mildiou de Pandala, avec un taux de base de 8 % sur les monstres de Plantala.",
+        "Ne rendez pas nécessairement la quête maintenant : les Mildiou peuvent être recherchés pendant les combats de Plantala et notamment lors du passage prévu à la Bambusaie de Damadrya."
+      ],
+      "npcs": [
+        "Phang"
+      ],
+      "items": [
+        {
+          "name": "Mildiou de Pandala",
+          "itemId": 23534,
+          "imageUrl": "/items/23534.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23534"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 951,
+            "name": "Village de Pandala",
+            "coordinates": [
+              "23,-29"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": []
+      },
+      "questKey": "quest:1328",
+      "relation": "START",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/infame-pourriture.html",
+      "sourceTitle": "Infâme pourriture",
+      "sourceHash": "9332d6338fffafebb2e18e80f3c48512f223f0de511cc0e92ea51d9146bfc009",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez La voix de la soif avant d'effectuer la Bambusaie de Damadrya. La suite complète de cette longue quête, qui demande notamment plusieurs ressources et combats, n'est pas à réaliser à cette occurrence.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Le réveil de Pandala."
+      ],
+      "rewards": [
+        "Récompenses finales de la quête : 1 023 750 XP.",
+        "Récompenses finales de la quête : 11 980 Kamas.",
+        "Récompense finale de la quête : 1 x Parchemin Doré."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parlez à Tuf Debiayr et proposez-lui d'aller voir Doukwang, l'esprit connaisseur en boissons, afin de lancer La voix de la soif.",
+          "position": "[19,-31]",
+          "zoneHint": "Village de Pandala",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête demandera plus tard de nombreuses ressources, dont des Racines sauvages récupérables sur les créatures de Plantala, ainsi que plusieurs combats.",
+        "Pour cette occurrence, contentez-vous de lancer la quête avant la séquence menant à la Bambusaie de Damadrya."
+      ],
+      "npcs": [
+        "Tuf Debiayr"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 951,
+            "name": "Village de Pandala",
+            "coordinates": [
+              "19,-31"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": []
+      },
+      "questKey": "quest:1324",
+      "relation": "START",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-voix-de-la-soif.html",
+      "sourceTitle": "La voix de la soif",
+      "sourceHash": "826893cbcbc9a4472a9475440193d1af79b81c5d73be3606c12e763fbd4de2a3",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez Rester planté là et avancez jusqu'à ce que la Lumière dorée entre dans la Bambusaie de Damadrya. Arrêtez-vous alors devant le donjon : le guide demande d'abord de lancer Le saule du promeneur puis Sous le bois de sa colère avant d'effectuer la Bambusaie.",
+      "recommendedLevel": 110,
+      "prerequisites": [
+        "Comme un corbac sur sa branche."
+      ],
+      "rewards": [
+        "Récompenses finales de la quête : 3 116 628 XP.",
+        "Récompenses finales de la quête : 34 272 Kamas.",
+        "Récompenses finales de la quête : 3 x Truk divin."
+      ],
+      "preparation": [
+        "Prévoir un combat à vagues réalisable en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Silvosse pour lancer Rester planté là et accepter de chercher l'ambre spirituel en renouant le contact avec les esprits de la forêt.",
+          "position": "[-11,-13]",
+          "zoneHint": "Forêt Sombre",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous dans Plantala et cliquez sur la petite statue de Pandawa méditant en bas à droite pour méditer.",
+          "position": "[24,-35]",
+          "zoneHint": "Plantala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à un Moskito agaçant et remportez le combat à vagues : 4 Moskitos agaçants en vague 1, puis 2 en vague 2 après 2 tours et 2 en vague 3 après encore 2 tours.",
+          "position": "[24,-35]",
+          "zoneHint": "Plantala",
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, cliquez de nouveau sur la petite statue pour reprendre la méditation, puis parlez à l'Esprit serein.",
+          "position": "[24,-35]",
+          "zoneHint": "Plantala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Placez-vous sur une cellule adjacente à la Lumière dorée et touchez-la pour commencer à la suivre.",
+          "position": "[24,-35]",
+          "zoneHint": "Plantala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez la Lumière dorée, placez-vous à côté d'elle et touchez-la de nouveau.",
+          "position": "[24,-33]",
+          "zoneHint": "Plantala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez encore la Lumière dorée, placez-vous sur une cellule adjacente et touchez-la.",
+          "position": "[25,-31]",
+          "zoneHint": "Plantala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez la Lumière dorée devant la Bambusaie et touchez-la. Elle entre dans le donjon : arrêtez-vous ici avant d'entrer.",
+          "position": "[26,-30]",
+          "zoneHint": "Entrée de la Bambusaie de Damadrya",
+          "warning": "N'entrez pas encore dans la Bambusaie : lancez d'abord Le saule du promeneur puis Sous le bois de sa colère afin de mutualiser le donjon.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La suite de Rester planté là demande de vaincre Damadrya, de lui parler avant de quitter le donjon puis de poursuivre la Lumière dorée. Cette partie sera reprise à l'occurrence FINISH de l'étape suivante."
+      ],
+      "npcs": [
+        "Silvosse",
+        "Moskito agaçant",
+        "Esprit serein",
+        "Lumière dorée"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 946,
+            "name": "Bambusaie de Damadrya",
+            "coordinates": [
+              "26,-30"
+            ]
+          },
+          {
+            "id": 168,
+            "name": "Forêt Sombre",
+            "coordinates": [
+              "-11,-13"
+            ]
+          },
+          {
+            "id": 942,
+            "name": "Plantala",
+            "coordinates": [
+              "24,-35",
+              "24,-33",
+              "25,-31"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4014,
+            "name": "Tyranne la Terrible",
+            "level": 80,
+            "imageUrl": "/bestiary/monsters/4014.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2389,
+            "name": "Abrakildas le Vénérable",
+            "level": 74,
+            "imageUrl": "/bestiary/monsters/2389.png"
+          },
+          {
+            "id": 2388,
+            "name": "Abrakanette l'Encapsulé",
+            "level": 78,
+            "imageUrl": "/bestiary/monsters/2388.png"
+          },
+          {
+            "id": 2386,
+            "name": "Abraklette le Fondant",
+            "level": 82,
+            "imageUrl": "/bestiary/monsters/2386.png"
+          },
+          {
+            "id": 2548,
+            "name": "Bambouské le Camouflé",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2548.png"
+          },
+          {
+            "id": 2415,
+            "name": "Bulsavon le Gonflé",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2415.png"
+          },
+          {
+            "id": 2392,
+            "name": "Floriste la Cannibale",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2392.png"
+          },
+          {
+            "id": 2593,
+            "name": "Grenuche la Gentille",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2593.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1201,
+            "name": "Abraknydiens Sombres",
+            "monsters": [
+              {
+                "id": 651,
+                "name": "Abrakne Sombre",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/651.png"
+              },
+              {
+                "id": 253,
+                "name": "Abraknyde Sombre",
+                "level": 78,
+                "imageUrl": "/bestiary/monsters/253.png"
+              },
+              {
+                "id": 254,
+                "name": "Abraknyde Vénérable",
+                "level": 74,
+                "imageUrl": "/bestiary/monsters/254.png"
+              }
+            ]
+          },
+          {
+            "id": 3045,
+            "name": "Plantalas",
+            "monsters": [
+              {
+                "id": 6318,
+                "name": "Bambouto",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6318.png"
+              },
+              {
+                "id": 6320,
+                "name": "Floristile",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6320.png"
+              },
+              {
+                "id": 6321,
+                "name": "Bulbuisson",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6321.png"
+              },
+              {
+                "id": 6323,
+                "name": "Grenufar",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6323.png"
+              },
+              {
+                "id": 6322,
+                "name": "Bulbiflore",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6322.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1406",
+      "relation": "START",
+      "sortOrder": 3,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/rester-plante-la.html",
+      "sourceTitle": "Rester planté là",
+      "sourceHash": "daea1beafd6b85abb03eaa2321c41688b0db63fe87f35d347bd530234b1a12e9",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez Le saule du promeneur et effectuez toute la partie précédant la Bambusaie de Damadrya, jusqu'à ce que Sobomori vous demande 1 x Feuille de Damadrya. La feuille sera obtenue pendant le donjon mutualisé avec les autres quêtes de l'étape ; ne retournez pas encore la rendre.",
+      "recommendedLevel": 110,
+      "prerequisites": [
+        "Le réveil de Pandala.",
+        "Avoir suffisamment avancé Dites-le avec des fleurs pour avoir rencontré et aidé Sobomori."
+      ],
+      "rewards": [
+        "Récompenses finales de la quête : 2 597 190 XP.",
+        "Récompenses finales de la quête : 28 560 Kamas.",
+        "Récompenses finales de la quête : 5 x Tige de Bambouto.",
+        "Récompenses finales de la quête : 5 x Pistil de Floristile."
+      ],
+      "preparation": [
+        "5 x Eau Potable.",
+        "1 x Huile de Koode.",
+        "Métier Alchimiste niveau 1 minimum pour fabriquer le Remède pour Yinagi ; craft coopératif impossible.",
+        "Prévoir un combat seul.",
+        "Prévoir un combat réalisable en groupe.",
+        "Prévoir du temps pour récupérer 5 x Feuille de Fujibakama ; les points de récolte ont un temps de réapparition d'environ 5 à 7 minutes.",
+        "Prévoir des combats contre les monstres de Plantala pour récupérer 5 x Spores soporifiques et 1 x Bulbe de Grenufar, au taux de base de 5 %."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Inataba et acceptez de l'aider à trouver de la fujibakama pour préparer un remède destiné à Yinagi.",
+          "position": "[26,-31]",
+          "zoneHint": "Plantala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récupérez au total 5 x Feuille de Fujibakama sur les points de récolte de Plantala : [25,-31], [25,-30], [25,-29], [25,-28], [24,-28], [26,-28], [26,-29], [26,-30], [27,-30] ou [25,-32].",
+          "position": null,
+          "zoneHint": "Plantala",
+          "warning": "Les feuilles sont des ressources partagées : si un autre joueur vient de les récolter, attendez leur réapparition, environ 5 à 7 minutes.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès d'Inataba avec les 5 feuilles et protégez-le des Plantalas enragés dans le combat qui se déclenche.",
+          "position": "[26,-31]",
+          "zoneHint": "Plantala",
+          "warning": "Ce combat s'effectue seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après le combat, reparlez à Inataba puis escortez-le jusqu'à l'atelier des alchimistes.",
+          "position": "[23,-29]",
+          "zoneHint": "Village de Pandala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À l'Alambic, fabriquez 1 x Remède pour Yinagi avec 5 x Eau Potable, 1 x Huile de Koode et 5 x Feuille de Fujibakama, puis reparlez à Inataba.",
+          "position": "[23,-29]",
+          "zoneHint": "Atelier des alchimistes",
+          "warning": "Le Remède pour Yinagi doit être fabriqué avec votre propre métier Alchimiste niveau 1 minimum ; le craft coopératif est impossible.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez dans la maison du chaman, administrez le remède à Yinagi puis expliquez la situation à Surivitna.",
+          "position": "[20,-27]",
+          "zoneHint": "Village de Pandala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récupérez 5 x Spores soporifiques sur les monstres de Plantala et 1 x Bulbe de Grenufar sur un Grenufar de Plantala.",
+          "position": null,
+          "zoneHint": "Plantala",
+          "warning": "Le taux de base indiqué est de 5 % pour les Spores soporifiques et de 5 % pour le Bulbe de Grenufar.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Rapportez les ingrédients à Surivitna et écoutez le résultat de sa transe, qui révèle un saule pleureur au feuillage argenté.",
+          "position": "[20,-27]",
+          "zoneHint": "Village de Pandala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Trouvez le saule pleureur et cliquez sur les buissons au centre-gauche pour récupérer la branche entourée d'un ruban.",
+          "position": "[27,-29]",
+          "zoneHint": "Plantala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Inataba avec la branche puis parlez à Yinagi lorsqu'elle se réveille et révèle sa véritable nature d'esprit du saule.",
+          "position": "[20,-27]",
+          "zoneHint": "Village de Pandala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez devant le Saule argenté, parlez au Bûcheron menaçant et empêchez les bûcherons de l'abattre en remportant le combat.",
+          "position": "[27,-29]",
+          "zoneHint": "Plantala",
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, parlez à Inataba puis à Yinagi. Elle fusionne avec le saule pour préserver sa conscience.",
+          "position": "[27,-29]",
+          "zoneHint": "Plantala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparlez à Inataba et acceptez de chercher un moyen de le transformer lui aussi en arbre.",
+          "position": "[27,-29]",
+          "zoneHint": "Plantala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir Sobomori et demandez-lui de transformer Inataba en arbre. Elle vous explique avoir besoin de 1 x Feuille de Damadrya.",
+          "position": "[24,-31]",
+          "zoneHint": "Maison de Sobomori",
+          "warning": "Arrêtez-vous dès que l'objectif demande de ramener à Sobomori 1 x Feuille de Damadrya. Ne faites pas encore le donjon avant d'avoir lancé Sous le bois de sa colère.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La Feuille de Damadrya s'obtient automatiquement en vainquant Damadrya dans la Bambusaie.",
+        "La suite — remise de la feuille à Sobomori, récupération du Philtre végétalisant puis transformation d'Inataba — sera effectuée à l'occurrence FINISH de l'étape suivante."
+      ],
+      "npcs": [
+        "Inataba",
+        "Yinagi",
+        "Surivitna",
+        "Bûcheron menaçant",
+        "Sobomori"
+      ],
+      "items": [
+        {
+          "name": "Feuille de Fujibakama",
+          "itemId": 23345,
+          "imageUrl": "/items/23345.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23345"
+        },
+        {
+          "name": "Eau Potable",
+          "itemId": 311,
+          "imageUrl": "/items/311.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/311"
+        },
+        {
+          "name": "Huile de Koode",
+          "itemId": 397,
+          "imageUrl": "/items/397.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/397"
+        },
+        {
+          "name": "Remède pour Yinagi",
+          "itemId": 23346,
+          "imageUrl": "/items/23346.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23346"
+        },
+        {
+          "name": "Spores soporifiques",
+          "itemId": 23347,
+          "imageUrl": "/items/23347.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23347"
+        },
+        {
+          "name": "Bulbe de Grenufar",
+          "itemId": 23348,
+          "imageUrl": "/items/23348.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23348"
+        },
+        {
+          "name": "Feuille de Damadrya",
+          "itemId": 23350,
+          "imageUrl": "/items/23350.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23350"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 942,
+            "name": "Plantala",
+            "coordinates": [
+              "26,-31",
+              "25,-31",
+              "25,-30",
+              "25,-29",
+              "25,-28",
+              "24,-28",
+              "26,-28",
+              "26,-29",
+              "26,-30",
+              "27,-30",
+              "25,-32",
+              "27,-29",
+              "24,-31"
+            ]
+          },
+          {
+            "id": 951,
+            "name": "Village de Pandala",
+            "coordinates": [
+              "23,-29",
+              "20,-27"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2548,
+            "name": "Bambouské le Camouflé",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2548.png"
+          },
+          {
+            "id": 2415,
+            "name": "Bulsavon le Gonflé",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2415.png"
+          },
+          {
+            "id": 2392,
+            "name": "Floriste la Cannibale",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2392.png"
+          },
+          {
+            "id": 2593,
+            "name": "Grenuche la Gentille",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2593.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 3045,
+            "name": "Plantalas",
+            "monsters": [
+              {
+                "id": 6318,
+                "name": "Bambouto",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6318.png"
+              },
+              {
+                "id": 6320,
+                "name": "Floristile",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6320.png"
+              },
+              {
+                "id": 6321,
+                "name": "Bulbuisson",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6321.png"
+              },
+              {
+                "id": 6323,
+                "name": "Grenufar",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6323.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1326",
+      "relation": "START",
+      "sortOrder": 4,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-saule-du-promeneur.html",
+      "sourceTitle": "Le Saule du Promeneur",
+      "sourceHash": "529816fe89cfb0987f3752769193397da64315c40197739dc5b4d5a9f1f775b2",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez Sous le bois de sa colère, enquêtez sur l'exploitation de la forêt puis effectuez la Bambusaie de Damadrya. Pendant ce même passage, avancez les autres quêtes de l'étape liées au donjon. Arrêtez cette occurrence après avoir vaincu Damadrya et obtenu les mises à jour nécessaires ; la poursuite de Kykori et la fin de la quête auront lieu à l'étape suivante.",
+      "recommendedLevel": 110,
+      "prerequisites": [
+        "À la croisée des mondes."
+      ],
+      "rewards": [
+        "Récompenses finales de la quête : 2 597 190 XP.",
+        "Récompenses finales de la quête : 28 560 Kamas.",
+        "Récompenses finales de la quête : 3 x Nectar Vivifiant.",
+        "Récompenses finales de la quête : 3 x Pollen de Bulbiflore."
+      ],
+      "preparation": [
+        "Prévoir un combat à vagues réalisable en groupe devant la Bambusaie.",
+        "Prévoir le Donjon Bambusaie de Damadrya.",
+        "Avoir lancé Le saule du promeneur et atteint l'objectif demandant 1 x Feuille de Damadrya.",
+        "Avoir avancé Rester planté là jusqu'à la Lumière dorée entrant dans la Bambusaie.",
+        "Si vous souhaitez avancer Infâme pourriture, conserver son objectif de 20 x Mildiou de Pandala actif pendant les combats."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Daimya Hikomi après À la croisée des mondes et confirmez votre volonté de rechercher les griffes élémentaires pour lancer Sous le bois de sa colère.",
+          "position": "[22,-29]",
+          "zoneHint": "Village de Pandala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Kykori afin de l'interroger sur les attaques des esprits et sur l'exploitation du bambou.",
+          "position": "[24,-29]",
+          "zoneHint": "Village de Pandala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À la bibliothèque, montez à l'étage et consultez les livres près de la table basse pour vérifier le registre de récolte du bambou.",
+          "position": "[21,-27]",
+          "zoneHint": "Bibliothèque de Pandala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sortez de la bibliothèque et parlez à Chochi pour apprendre que le registre consulté pourrait être une copie et que l'original manque.",
+          "position": "[21,-27]",
+          "zoneHint": "Village de Pandala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez à l'atelier des bûcherons et parlez à Takeono, qui vous apprend que Kykori est partie chercher une solution dans la forêt.",
+          "position": "[24,-29]",
+          "zoneHint": "Village de Pandala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez l'entrée de la Bambusaie de Damadrya. À votre arrivée, remportez le combat à vagues contre les Plantalas : vague 1 avec 1 Bambouto rentiel, 1 Bambouto maturge et 1 Bambouto nitruant ; vague 2 après 3 tours avec 1 Bambouto maturge et 1 Bambouto nitruant ; vague 3 au tour 5 avec 1 Bambouto rentiel.",
+          "position": "[26,-30]",
+          "zoneHint": "Entrée de la Bambusaie de Damadrya",
+          "warning": "Le combat se déclenche à l'arrivée sur la carte.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, parlez à Vusi et utilisez le trousseau de clefs pour entrer dans la Bambusaie de Damadrya.",
+          "position": "[26,-30]",
+          "zoneHint": "Entrée de la Bambusaie de Damadrya",
+          "warning": "Vérifiez avant d'entrer que Rester planté là et Le saule du promeneur sont bien au point prévu par le guide afin de mutualiser ce donjon.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Progressez dans le donjon jusqu'à la salle 4 et cliquez sur le squelette sous la tente pour récupérer la Page du registre d'exploitation de la bambusaie.",
+          "position": null,
+          "zoneHint": "Bambusaie de Damadrya - salle 4",
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Consultez impérativement la Page du registre d'exploitation de la bambusaie avant de poursuivre le donjon.",
+          "position": null,
+          "zoneHint": "Bambusaie de Damadrya - salle 4",
+          "warning": "Si vous ne lisez pas le document avant de continuer, Sous le bois de sa colère ne se met pas correctement à jour et vous risquez de devoir refaire le donjon.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Continuez jusqu'à la salle du boss et affrontez Damadrya. Cette victoire permet aussi de récupérer automatiquement 1 x Feuille de Damadrya pour Le saule du promeneur et fait progresser la portion de Rester planté là liée au donjon.",
+          "position": null,
+          "zoneHint": "Bambusaie de Damadrya - salle du boss",
+          "warning": "Combat de boss du donjon. Profitez des combats pour tenter d'obtenir les Mildiou de Pandala d'Infâme pourriture si cette quête est active.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire, parlez à Damadrya pour en apprendre davantage sur la surexploitation du bambou et sur Kykori. Pour Rester planté là, choisissez aussi le dialogue permettant de retrouver votre calme après la frénésie des combats avant de quitter le donjon.",
+          "position": null,
+          "zoneHint": "Bambusaie de Damadrya - salle du boss",
+          "warning": "Ne quittez pas le donjon avant d'avoir effectué les dialogues requis avec Damadrya pour les quêtes actives.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Sous le bois de sa colère continuera à l'étape suivante avec la poursuite de Kykori en [18,-29], les preuves de sa culpabilité puis la rencontre avec l'Esprit du Bois.",
+        "Le saule du promeneur continuera également à l'étape suivante avec la Feuille de Damadrya obtenue ici.",
+        "Rester planté là reprendra après le donjon en suivant la Lumière dorée vers le Bois de Litneg."
+      ],
+      "npcs": [
+        "Daimya Hikomi",
+        "Kykori",
+        "Chochi",
+        "Takeono",
+        "Vusi",
+        "Damadrya"
+      ],
+      "items": [
+        {
+          "name": "Page du registre d'exploitation de la bambusaie",
+          "itemId": 23206,
+          "imageUrl": "/items/23206.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23206"
+        },
+        {
+          "name": "Feuille de Damadrya",
+          "itemId": 23350,
+          "imageUrl": "/items/23350.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23350"
+        },
+        {
+          "name": "Mildiou de Pandala",
+          "itemId": 23534,
+          "imageUrl": "/items/23534.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23534"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 946,
+            "name": "Bambusaie de Damadrya",
+            "coordinates": [
+              "26,-30"
+            ]
+          },
+          {
+            "id": 951,
+            "name": "Village de Pandala",
+            "coordinates": [
+              "22,-29",
+              "24,-29",
+              "21,-27"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 3045,
+            "name": "Plantalas",
+            "monsters": [
+              {
+                "id": 6318,
+                "name": "Bambouto",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6318.png"
+              },
+              {
+                "id": 6320,
+                "name": "Floristile",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6320.png"
+              },
+              {
+                "id": 6321,
+                "name": "Bulbuisson",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6321.png"
+              },
+              {
+                "id": 6323,
+                "name": "Grenufar",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6323.png"
+              },
+              {
+                "id": 6322,
+                "name": "Bulbiflore",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6322.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1316",
+      "relation": "START",
+      "sortOrder": 5,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/sous-le-bois-de-sa-colere.html",
+      "sourceTitle": "Sous le bois de sa colère",
+      "sourceHash": "033b8f8ff99a8261c8f804688432a97d0d03876b9f5718f423d008539c9a7ecc",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Mutualiser la Bambusaie de Damadrya",
+      "description": "Avant d'entrer dans la Bambusaie, placez les quêtes concernées à leur bon objectif. Le même passage dans le donjon peut faire avancer Sous le bois de sa colère, Rester planté là et Le saule du promeneur, tout en donnant des occasions de récupérer les Mildiou de Pandala demandés par Infâme pourriture.",
+      "questKeys": [
+        "quest:1316",
+        "quest:1406",
+        "quest:1326",
+        "quest:1328"
+      ],
+      "actions": [
+        "Avancez Rester planté là jusqu'à ce que la Lumière dorée entre dans la Bambusaie.",
+        "Avancez Le saule du promeneur jusqu'à l'objectif demandant 1 x Feuille de Damadrya.",
+        "Lancez Sous le bois de sa colère et progressez jusqu'à l'entrée du donjon.",
+        "Gardez Infâme pourriture active si vous souhaitez profiter des combats pour rechercher les 20 x Mildiou de Pandala.",
+        "Dans la salle 4, récupérez puis lisez la Page du registre avant de poursuivre.",
+        "Battez Damadrya, récupérez la Feuille de Damadrya et effectuez tous les dialogues de quête nécessaires avant de quitter."
+      ]
+    }
+  ]
 }

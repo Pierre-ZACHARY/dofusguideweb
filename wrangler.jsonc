@@ -25,6 +25,10 @@
       {
         "name": "PROFILE_EVENTS",
         "class_name": "ProfileEvents"
+      },
+      {
+        "name": "SITE_PRESENCE",
+        "class_name": "SitePresence"
       }
     ]
   },
@@ -32,6 +36,10 @@
     {
       "tag": "v1",
       "new_sqlite_classes": ["ProfileEvents"]
+    },
+    {
+      "tag": "v2",
+      "new_sqlite_classes": ["SitePresence"]
     }
   ]
 }

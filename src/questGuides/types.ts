@@ -31,6 +31,8 @@ export const questGuideContentSchema = z.object({
 
 export const questGuideSummarySchema = questGuideContentSchema.extend({
   questKey: z.string().trim().min(1),
+  relation: z.enum(["START", "ACTIVE", "FINISH", "UNKNOWN"]).optional(),
+  sortOrder: z.number().int().nonnegative().optional(),
   sourceUrl: z.url(),
   sourceTitle: z.string().trim().min(1),
   sourceHash: z.string().regex(/^[a-f0-9]{64}$/u),
@@ -53,7 +55,7 @@ export const questGuideStepTipSchema = z.object({
 });
 
 export const questGuideStepArchiveSchema = z.object({
-  version: z.literal(2),
+  version: z.union([z.literal(2), z.literal(3)]),
   guideId: z.number().int(),
   stepNumber: z.number().int().positive(),
   updatedAt: z.iso.datetime().nullable().default(null),
@@ -61,11 +63,30 @@ export const questGuideStepArchiveSchema = z.object({
   tips: z.array(questGuideStepTipSchema).max(20),
 }).superRefine((archive, context) => {
   const summaryKeys = new Set<string>();
-  for (const summary of archive.summaries) {
-    if (summaryKeys.has(summary.questKey)) {
-      context.addIssue({ code: "custom", path: ["summaries"], message: "questKey must be unique inside a step" });
-    }
+  const summaryOccurrences = new Set<string>();
+  for (const [summaryIndex, summary] of archive.summaries.entries()) {
     summaryKeys.add(summary.questKey);
+    if (archive.version === 3 && (summary.relation === undefined || summary.sortOrder === undefined)) {
+      context.addIssue({
+        code: "custom",
+        path: ["summaries", summaryIndex],
+        message: "version 3 summaries require relation and sortOrder",
+      });
+      continue;
+    }
+    const identity = archive.version === 3
+      ? [summary.questKey, summary.relation, summary.sortOrder].join("|")
+      : summary.questKey;
+    if (summaryOccurrences.has(identity)) {
+      context.addIssue({
+        code: "custom",
+        path: ["summaries", summaryIndex],
+        message: archive.version === 3
+          ? "quest occurrence must be unique inside a step"
+          : "questKey must be unique inside a version 2 step",
+      });
+    }
+    summaryOccurrences.add(identity);
   }
   for (const [tipIndex, tip] of archive.tips.entries()) {
     for (const questKey of tip.questKeys) {
@@ -131,7 +152,7 @@ export const questGuideStepJsonSchema = {
   type: "object",
   additionalProperties: false,
   properties: {
-    version: { type: "integer", const: 2 },
+    version: { type: "integer", const: 3 },
     guideId: { type: "integer" },
     stepNumber: { type: "integer", minimum: 1 },
     updatedAt: { type: ["string", "null"], format: "date-time" },
@@ -143,6 +164,8 @@ export const questGuideStepJsonSchema = {
         additionalProperties: false,
         properties: {
           questKey: { type: "string" },
+          relation: { type: "string", enum: ["START", "ACTIVE", "FINISH", "UNKNOWN"] },
+          sortOrder: { type: "integer", minimum: 0 },
           sourceUrl: { type: "string", format: "uri" },
           sourceTitle: { type: "string" },
           sourceHash: { type: "string", pattern: "^[a-f0-9]{64}$" },
@@ -151,7 +174,7 @@ export const questGuideStepJsonSchema = {
           ...questGuideJsonSchema.properties,
         },
         required: [
-          "questKey", "sourceUrl", "sourceTitle", "sourceHash", "generatedAt", "model",
+          "questKey", "relation", "sortOrder", "sourceUrl", "sourceTitle", "sourceHash", "generatedAt", "model",
           ...questGuideJsonSchema.required,
         ],
       },

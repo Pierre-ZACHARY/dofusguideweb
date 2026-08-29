@@ -1,49 +1,804 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 99,
-  "updatedAt": "2026-08-27T13:32:19.155Z",
+  "updatedAt": "2026-08-29T11:29:32.465Z",
   "summaries": [
     {
-      "overview": "Lancez la quête auprès du Captain Amakna au Village d'Amakna, puis rendez-vous au donjon Théâtre de Dramak en [21,7] pour vaincre Dramak. Interrogez-le sur le traité des Six et Makia Vhel avant de sortir, puis retournez annoncer votre victoire au Captain Amakna.",
-      "recommendedLevel": 80,
-      "prerequisites": [
-        "Niveau supérieur à 79",
-        "Quelque chose de pourri au royaume d'Amakna"
-      ],
+      "overview": "Poursuivez et terminez la quête en retrouvant la piste des enfants, puis en préparant la Filtounga exigée par Paindep. Cette quête doit être achevée avant la partie de À la croisée des mondes concernant les Yokai affamés, afin d'obtenir gratuitement la Filtounga pokuzienne.",
+      "recommendedLevel": 90,
+      "prerequisites": [],
       "rewards": [
-        "2 457 000 XP",
-        "28 752 Kamas",
-        "Brandir son bouclier (attitude)"
+        "1 580 654 XP.",
+        "19 760 Kamas.",
+        "1 x Boomerang du Warko Marron."
       ],
       "preparation": [
-        "3 combats (seul)",
-        "1 Donjon Théâtre de Dramak"
+        "20 x Fraise.",
+        "10 x Orge.",
+        "3 x Viande Exsudative.",
+        "2 x Terrine Bontarienne.",
+        "5 x Graine de Sésame.",
+        "4 x Fleur de Gloutovore.",
+        "1 x Huile de Noix.",
+        "2 x Citron.",
+        "3 x Aubergine.",
+        "5 x Pomme de Terre.",
+        "3 x Feuille de Salace.",
+        "4 x Oignon.",
+        "8 x Greuvette.",
+        "15 x Kralamoure.",
+        "10 x Carré de Chocolat Noir.",
+        "1 x Pandapiler."
       ],
       "actions": [
         {
-          "instruction": "Parler au Captain Amakna pour lancer la quête.",
+          "instruction": "Si les premiers dialogues ne sont pas encore faits, parlez à Monsieur El puis à Madame El, et acceptez de rechercher les enfants disparus.",
+          "position": "[3,-6]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez Marie Zoto.",
+          "position": "[6,-7]",
+          "zoneHint": null,
+          "warning": "Respectez l'ordre des témoins indiqué.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez Fred Austère afin d'apprendre que les enfants jouaient avec Jorg Dy.",
+          "position": "[4,-6]",
+          "zoneHint": null,
+          "warning": "Respectez l'ordre des témoins indiqué.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Jorg Dy pour apprendre que Hans voulait capturer une dragodinde et avait découvert une cabane dans la forêt.",
+          "position": "[1,0]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans le Territoire des Dragodindes sauvages, entrez dans la maison en pain d'épice et parlez à Paindep. Acceptez de lui rapporter de quoi manger pour obtenir la libération des enfants.",
+          "position": "[-12,8]",
+          "zoneHint": "Territoire des Dragodindes sauvages",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Demandez à Bol Pokuz un plat suffisamment exceptionnel pour satisfaire Paindep. Il vous oriente vers le Filtounga.",
+          "position": "[-2,-1]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À Bonta, parlez à Mouss Bouff et expliquez que la recette servira à sauver des enfants afin d'obtenir la Recette de la filtounga.",
+          "position": "[-31,-52]",
+          "zoneHint": "Bonta",
+          "warning": "Mouss Bouff exige que sa recette lui soit rendue après la préparation.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Bol Pokuz, montrez-lui la Recette de la filtounga et obtenez la liste des ingrédients nécessaires.",
+          "position": "[-2,-1]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rassemblez tous les ingrédients demandés. Les 10 Carré de Chocolat Noir peuvent être achetés à Stayfun Bonnawa pour 200 kamas l'unité.",
+          "position": "[23,-27]",
+          "zoneHint": "Village de Pandala",
+          "warning": "L'achat des 10 Carré de Chocolat Noir coûte 2 000 kamas au total si vous les achetez à Stayfun Bonnawa.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Achetez si nécessaire 1 x Pandapiler à Hintikou.",
+          "position": "[20,-29]",
+          "zoneHint": "Village de Pandala",
+          "warning": "Le Pandapiler coûte 40 kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Une fois tous les ingrédients réunis, remettez-les à Bol Pokuz pour lancer la préparation.",
+          "position": "[-2,-1]",
+          "zoneHint": null,
+          "warning": "Tous les ingrédients requis doivent être disponibles.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Pendant la préparation, rendez la Recette de la filtounga à Mouss Bouff.",
+          "position": "[-31,-52]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Revenez auprès de Bol Pokuz et récupérez le Plat de Filtounga Tiède. Vous recevez également 1 x Plat de Filtounga pour votre usage personnel.",
+          "position": "[-2,-1]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez dans la maison en pain d'épice et donnez le Plat de Filtounga Tiède à Paindep pour qu'elle libère les enfants et termine la quête.",
+          "position": "[-12,8]",
+          "zoneHint": "Territoire des Dragodindes sauvages",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Terminer cette quête avant la tâche des Yokai voraces de À la croisée des mondes permet à Bol Pokuz de fournir gratuitement la Filtounga pokuzienne.",
+        "Le Plat de Filtounga personnel rend 51 à 250 Vie, 2000 Points d'énergie et donne +1 Vitalité lorsqu'il est utilisé."
+      ],
+      "npcs": [
+        "Monsieur El",
+        "Madame El",
+        "Marie Zoto",
+        "Fred Austère",
+        "Jorg Dy",
+        "Paindep",
+        "Bol Pokuz",
+        "Mouss Bouff",
+        "Stayfun Bonnawa",
+        "Hintikou"
+      ],
+      "items": [
+        {
+          "name": "Fraise",
+          "itemId": 381,
+          "imageUrl": "/items/381.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/381"
+        },
+        {
+          "name": "Orge",
+          "itemId": 400,
+          "imageUrl": "/items/400.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/400"
+        },
+        {
+          "name": "Viande Exsudative",
+          "itemId": 17140,
+          "imageUrl": "/items/17140.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17140"
+        },
+        {
+          "name": "Terrine Bontarienne",
+          "itemId": 17181,
+          "imageUrl": "/items/17181.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17181"
+        },
+        {
+          "name": "Graine de Sésame",
+          "itemId": 287,
+          "imageUrl": "/items/287.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/287"
+        },
+        {
+          "name": "Fleur de Gloutovore",
+          "itemId": 2253,
+          "imageUrl": "/items/2253.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2253"
+        },
+        {
+          "name": "Huile de Noix",
+          "itemId": 390,
+          "imageUrl": "/items/390.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/390"
+        },
+        {
+          "name": "Citron",
+          "itemId": 1736,
+          "imageUrl": "/items/1736.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1736"
+        },
+        {
+          "name": "Aubergine",
+          "itemId": 2331,
+          "imageUrl": "/items/2331.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2331"
+        },
+        {
+          "name": "Pomme de Terre",
+          "itemId": 537,
+          "imageUrl": "/items/537.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/537"
+        },
+        {
+          "name": "Feuille de Salace",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Oignon",
+          "itemId": 1975,
+          "imageUrl": "/items/1975.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1975"
+        },
+        {
+          "name": "Greuvette",
+          "itemId": 598,
+          "imageUrl": "/items/598.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/598"
+        },
+        {
+          "name": "Kralamoure",
+          "itemId": 600,
+          "imageUrl": "/items/600.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/600"
+        },
+        {
+          "name": "Carré de Chocolat Noir",
+          "itemId": 7149,
+          "imageUrl": "/items/7149.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/7149"
+        },
+        {
+          "name": "Pandapiler",
+          "itemId": 7046,
+          "imageUrl": "/items/7046.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/7046"
+        },
+        {
+          "name": "Recette de la filtounga",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Plat de Filtounga Tiède",
+          "itemId": 8508,
+          "imageUrl": "/items/8508.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8508"
+        },
+        {
+          "name": "Plat de Filtounga",
+          "itemId": 8507,
+          "imageUrl": "/items/8507.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8507"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 180,
+            "name": "Château d'Amakna",
+            "coordinates": [
+              "3,-6",
+              "6,-7",
+              "4,-6"
+            ]
+          },
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-31,-52"
+            ]
+          },
+          {
+            "id": 443,
+            "name": "Forêt",
+            "coordinates": [
+              "1,0"
+            ]
+          },
+          {
+            "id": 235,
+            "name": "Territoire des dragodindes sauvages",
+            "coordinates": [
+              "-12,8"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "-2,-1"
+            ]
+          },
+          {
+            "id": 951,
+            "name": "Village de Pandala",
+            "coordinates": [
+              "23,-27",
+              "20,-29"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4275,
+            "name": "Dragodingo",
+            "level": 80,
+            "imageUrl": "/bestiary/monsters/4275.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2379,
+            "name": "Draglida la Disparue",
+            "level": 55,
+            "imageUrl": "/bestiary/monsters/2379.png"
+          },
+          {
+            "id": 2465,
+            "name": "Dragnoute l'Irascible",
+            "level": 60,
+            "imageUrl": "/bestiary/monsters/2465.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 212,
+            "name": "Dragodindes",
+            "monsters": [
+              {
+                "id": 171,
+                "name": "Dragodinde amande sauvage",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/171.png"
+              },
+              {
+                "id": 200,
+                "name": "Dragodinde rousse sauvage",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/200.png"
+              },
+              {
+                "id": 666,
+                "name": "Dragodinde dorée sauvage",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/666.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:76",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/ca-est-frugal-une-fois.html",
+      "sourceTitle": "Ça est frugal, une fois",
+      "sourceHash": "d1522e0263bec9fd7cc3ee15ede9f81795618014eec1cb7f4e7ac0d0dcfb3a59",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez À la croisée des mondes et avancez seulement jusqu'à ce que l'objectif vous demande d'aller voir Maître Kwatimbe. Il faut notamment obtenir trois recommandations puis rencontrer la Daimya Hikomi. Ne commencez pas l'épreuve du Pandasiman à cette occurrence : la suite de la quête sera reprise plus tard.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Le réveil de Pandala.",
+        "Ça est frugal, une fois est recommandé avant la tâche de Ghao Zuo afin d'éviter le paiement de 50 000 kamas."
+      ],
+      "rewards": [
+        "1 023 750 XP à la fin complète de la quête.",
+        "11 980 Kamas à la fin complète de la quête."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Dans la Taverne du Pandazaap, parlez à Hintikou pour lancer la quête, puis cliquez sur le bocal posé sur son comptoir.",
+          "position": "[20,-29]",
+          "zoneHint": "Taverne du Pandazaap",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans l'Ether à la croisée des mondes, parlez à Le Grandapan, puis laissez la vision se terminer.",
+          "position": null,
+          "zoneHint": "Ether à la croisée des mondes",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "De retour à la taverne, racontez la vision à Hintikou.",
+          "position": "[20,-29]",
+          "zoneHint": "Taverne du Pandazaap",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Surivitna de votre vision et du Grandapan.",
+          "position": "[20,-27]",
+          "zoneHint": "Village de Pandala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Au palais de bambou, demandez à Pandarin Sudopong une audience avec la Daimya. Insistez en évoquant votre vision et les esprits de Pandala jusqu'à ce qu'il vous demande trois recommandations.",
+          "position": "[22,-29]",
+          "zoneHint": "Palais de bambou",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À la Bibliothèque de Pandala, annoncez à Narber Rihen Levihawa que vous allez faire cesser le vacarme des Yokai.",
+          "position": "[21,-27]",
+          "zoneHint": "Bibliothèque de Pandala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montez à l'étage. Si des Yokai sont présents, provoquez-les pour lancer le combat. Utilisez Yokaido Do afin que les 5 Yokai soient tous dans l'état Somnolent pendant le même tour ; ils sont invulnérables aux dommages directs.",
+          "position": "[21,-27]",
+          "zoneHint": "Étage de la Bibliothèque de Pandala",
+          "warning": "Combat seul. Yokaido Do ne peut être utilisé qu'une fois par tour sur une même cible. Sur un Yokai braillard il inflige -2PA pour 1 tour, sur un Yokai bruyant -2PM pour 1 tour, et sur un Yokai hilare l'état Indéplaçable pour 1 tour.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Redescendez et confirmez à Narber Rihen Levihawa le départ des esprits pour recevoir 1 x Recommandation de Narber Rihen Levihawa.",
+          "position": "[21,-27]",
+          "zoneHint": "Bibliothèque de Pandala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À l'hôtel de vente des consommables, parlez à Ghao Zuo au sujet des Yokai qui dévorent les provisions.",
+          "position": "[21,-29]",
+          "zoneHint": "Hôtel de vente des consommables",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Demandez à Bol Pokuz quelque chose de suffisamment consistant pour les Yokai et récupérez la Filtounga pokuzienne.",
+          "position": "[-2,-1]",
+          "zoneHint": null,
+          "warning": "Si Ça est frugal, une fois est terminée, Bol Pokuz doit proposer gratuitement la Filtounga revisitée. Sinon, la solution alternative indiquée coûte 50 000 kamas.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Retournez voir Ghao Zuo et remettez-lui la Filtounga pokuzienne, puis parlez au Yokai vorace qui vient la manger.",
+          "position": "[21,-29]",
+          "zoneHint": "Hôtel de vente des consommables",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparlez à Ghao Zuo afin de recevoir 1 x Recommandation de Ghao Zuo.",
+          "position": "[21,-29]",
+          "zoneHint": "Hôtel de vente des consommables",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Devant la Banque, descendez au sous-sol par l'escalier situé sur la droite.",
+          "position": "[20,-30]",
+          "zoneHint": "Sous-sol de la Banque",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Donnez un kama au petit Yokai influençable puis promettez-lui que le banquier lui offrira un kama par jour pendant un siècle. Une fois l'esprit parti, affrontez les trois Pandissidans.",
+          "position": "[20,-30]",
+          "zoneHint": "Sous-sol de la Banque",
+          "warning": "Vous dépensez 1 kama. Le combat contre les trois Pandissidans s'effectue seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Sortez du sous-sol, entrez dans la Banque et annoncez à Yendong que les Pandissidans ont été neutralisés afin de recevoir 1 x Recommandation de Yendong.",
+          "position": "[20,-30]",
+          "zoneHint": "Banque",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Présentez les trois recommandations à Pandarin Sudopong afin d'obtenir enfin l'audience.",
+          "position": "[22,-29]",
+          "zoneHint": "Palais de bambou",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Demandez au Samouraï Holi de vous laisser passer, puis parlez à Daimya Hikomi. Inclinez-vous devant elle et expliquez votre vision ainsi que votre désir de rencontrer Le Grandapan.",
+          "position": "[22,-29]",
+          "zoneHint": "Palais de bambou",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Arrêtez-vous lorsque la quête vous demande d'aller voir Maître Kwatimbe pour passer l'épreuve du Pandasiman.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "N'allez pas encore parler à Maître Kwatimbe et ne fabriquez pas le Pandaclier à cette occurrence.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les trois recommandations peuvent être obtenues dans n'importe quel ordre.",
+        "La suite à partir de Maître Kwatimbe, comprenant la fabrication du Pandaclier, l'épreuve du Pandasiman et la rencontre avec Le Grandapan, est volontairement reportée à une occurrence ultérieure.",
+        "La rencontre avec Daimya Hikomi débloque le passage nécessaire pour poursuivre Quelque chose de pourri au royaume d'Amakna."
+      ],
+      "npcs": [
+        "Hintikou",
+        "Le Grandapan",
+        "Surivitna",
+        "Pandarin Sudopong",
+        "Narber Rihen Levihawa",
+        "Yokai bruyant",
+        "Yokai hilare",
+        "Yokai braillard",
+        "Ghao Zuo",
+        "Bol Pokuz",
+        "Yokai vorace",
+        "Yokai influençable",
+        "Yendong",
+        "Samouraï Holi",
+        "Daimya Hikomi",
+        "Maître Kwatimbe"
+      ],
+      "items": [
+        {
+          "name": "Recommandation de Narber Rihen Levihawa",
+          "itemId": 23136,
+          "imageUrl": "/items/23136.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23136"
+        },
+        {
+          "name": "Filtounga pokuzienne",
+          "itemId": 23148,
+          "imageUrl": "/items/23148.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23148"
+        },
+        {
+          "name": "Recommandation de Ghao Zuo",
+          "itemId": 23143,
+          "imageUrl": "/items/23143.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23143"
+        },
+        {
+          "name": "Recommandation de Yendong",
+          "itemId": 23165,
+          "imageUrl": "/items/23165.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23165"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 961,
+            "name": "Croisée des mondes",
+            "coordinates": []
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "21,-27"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-2,-1"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "20,-29"
+            ]
+          },
+          {
+            "id": 951,
+            "name": "Village de Pandala",
+            "coordinates": [
+              "20,-27",
+              "22,-29",
+              "21,-27",
+              "21,-29",
+              "20,-30"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": []
+      },
+      "questKey": "quest:1315",
+      "relation": "START",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/a-la-croisee-des-mondes.html",
+      "sourceTitle": "À la croisée des mondes",
+      "sourceHash": "c8657052cea18cdc93202aaef2ed2a018a76c81b771a1cc44856d85523a6eaa2",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Poursuivez cette enquête sur l'édit de Vhel jusqu'à son terme. La portion à Pandala exige d'avoir avancé À la croisée des mondes jusqu'à la rencontre avec Daimya Hikomi, ce qui est justement effectué dans cette étape. Balade en forêt doit aussi être terminée avant l'interrogatoire final de Fallanster.",
+      "recommendedLevel": 80,
+      "prerequisites": [
+        "Niveau > 79.",
+        "Protéger et sévir.",
+        "Balade en forêt doit être terminée avant la partie concernant Fallanster.",
+        "À la croisée des mondes doit avoir été avancée jusqu'à la rencontre de la Daimya avant de pouvoir interroger Daimya Hikomi."
+      ],
+      "rewards": [
+        "2 457 000 XP.",
+        "28 752 Kamas."
+      ],
+      "preparation": [
+        "Prévoir 1 combat seul."
+      ],
+      "actions": [
+        {
+          "instruction": "Si cette partie n'est pas encore faite, demandez au Captain Amakna des nouvelles du royaume.",
           "position": "[0,0]",
           "zoneHint": "Village d'Amakna",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Se rendre à l'entrée du donjon de Dramak.",
-          "position": "[21,7]",
+          "instruction": "Au château d'Allister, rejoignez la salle tout au fond et interrogez Makia Vhel.",
+          "position": "[4,-6]",
+          "zoneHint": "Château d'Allister",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Au temple des alliances, lisez le document en cliquant sur la stèle.",
+          "position": "[14,36]",
+          "zoneHint": "Temple des alliances",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Au Palais de Bonta, traversez la première pièce, allez à droite dans la salle du trône et interrogez Danathor à propos de l'édit de Vhel.",
+          "position": "[-36,-60]",
+          "zoneHint": "Palais de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la Milice de Bonta, traversez la première salle et interrogez Amayiro à propos de l'édit de Vhel.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la Milice de Brâkmar, interrogez Oto Mustam à propos de l'édit de Vhel.",
+          "position": "[-25,33]",
+          "zoneHint": "Milice de Brâkmar",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Après avoir rencontré Daimya Hikomi dans À la croisée des mondes, demandez au Samouraï Holi de vous laisser entrer puis interrogez Daimya Hikomi au sujet de l'édit de Vhel.",
+          "position": "[22,-29]",
+          "zoneHint": "Palais de bambou",
+          "warning": "Cette étape est bloquée tant que À la croisée des mondes n'a pas été avancée jusqu'à la rencontre de Daimya Hikomi.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez la Reine Viktorie au sujet de l'édit de Vhel.",
+          "position": "[23,24]",
           "zoneHint": null,
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Effectuer le donjon Théâtre de Dramak, vaincre Dramak, puis lui parler du traité des Six et de Makia Vhel.",
-          "position": "[21,7]",
-          "zoneHint": "Théâtre de Dramak",
-          "warning": "Ne pas sortir du donjon avant d'avoir parlé à Dramak.",
+          "instruction": "Interrogez le Capitaine Ardier. Il peut être rencontré à l'une ou l'autre des deux positions indiquées par la quête.",
+          "position": "[-34,-16]",
+          "zoneHint": null,
+          "warning": "Le Capitaine Ardier peut également être trouvé en [-81,-37].",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Une fois Balade en forêt terminée, entrez dans la tour du conseil et montez au second étage pour interroger Fallanster à propos de l'édit de Vhel.",
+          "position": "[4,-19]",
+          "zoneHint": "Tour du conseil",
+          "warning": "La progression est bloquée ici si Balade en forêt n'est pas terminée.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez au Temple des alliances, entrez dans la salle de l'assemblée avec le sceau de Fallanster et montrez le sceau à Hal Hans.",
+          "position": "[13,35]",
+          "zoneHint": "Salle de l'assemblée du Temple des alliances",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Examinez le premier indice situé sur le dossier de la chaise du milieu à la table de droite.",
+          "position": "[13,35]",
+          "zoneHint": "Salle de l'assemblée du Temple des alliances",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à la Marionnette, touchez le symbole sur sa tête puis attaquez-la.",
+          "position": "[13,35]",
+          "zoneHint": "Salle de l'assemblée du Temple des alliances",
+          "warning": "Un combat seul se déclenche.",
           "combat": "SOLO"
         },
         {
-          "instruction": "Retourner voir le Captain Amakna et lui annoncer la victoire.",
+          "instruction": "Rapportez la tête de la Marionnette au Captain Amakna pour terminer la quête.",
           "position": "[0,0]",
           "zoneHint": "Village d'Amakna",
           "warning": null,
@@ -51,8 +806,339 @@
         }
       ],
       "notes": [
-        "La quête se termine après avoir annoncé la victoire au Captain Amakna.",
-        "L'attitude Brandir son bouclier est apprise à la fin de la quête."
+        "La position alternative du Capitaine Ardier est [-81,-37].",
+        "En poursuivant la conversation avec le Captain Amakna après la fin, vous obtenez Ainsi font les petites marionnettes, qui est lancée dans cette même étape."
+      ],
+      "npcs": [
+        "Captain Amakna",
+        "Makia Vhel",
+        "Danathor",
+        "Amayiro",
+        "Oto Mustam",
+        "Samouraï Holi",
+        "Daimya Hikomi",
+        "Reine Viktorie",
+        "Capitaine Ardier",
+        "Fallanster",
+        "Hal Hans",
+        "Marionnette"
+      ],
+      "items": [
+        {
+          "name": "Sceau de Fallanster",
+          "itemId": 14571,
+          "imageUrl": "/items/14571.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/14571"
+        },
+        {
+          "name": "Tête de la Marionnette",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 334,
+            "name": "Baie de Cania",
+            "coordinates": [
+              "-34,-16"
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Château d'Amakna",
+            "coordinates": [
+              "4,-6"
+            ]
+          },
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 961,
+            "name": "Croisée des mondes",
+            "coordinates": [
+              "22,-29"
+            ]
+          },
+          {
+            "id": 443,
+            "name": "Forêt",
+            "coordinates": [
+              "4,-19"
+            ]
+          },
+          {
+            "id": 977,
+            "name": "La Cuirasse",
+            "coordinates": [
+              "-25,33"
+            ]
+          },
+          {
+            "id": 625,
+            "name": "Mer Kantil",
+            "coordinates": [
+              "-81,-37"
+            ]
+          },
+          {
+            "id": 976,
+            "name": "Promontoire des cieux",
+            "coordinates": [
+              "-36,-60"
+            ]
+          },
+          {
+            "id": 32,
+            "name": "Sufokia",
+            "coordinates": [
+              "23,24"
+            ]
+          },
+          {
+            "id": 797,
+            "name": "Temple des alliances",
+            "coordinates": [
+              "14,36",
+              "13,35"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "0,0"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 552,
+            "name": "Musha L'Oni",
+            "level": 80,
+            "imageUrl": "/bestiary/monsters/552.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2391,
+            "name": "Ameur la Laide",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2391.png"
+          },
+          {
+            "id": 2433,
+            "name": "Codenlgaz le Problème",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2433.png"
+          },
+          {
+            "id": 2508,
+            "name": "Kiroyal le Sirupeux",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2508.png"
+          },
+          {
+            "id": 2525,
+            "name": "Let le Rond",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2525.png"
+          },
+          {
+            "id": 2289,
+            "name": "Susbewl l'Hypocrite",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2289.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1068,
+            "name": "Dopeuls",
+            "monsters": [
+              {
+                "id": 385,
+                "name": "Amlub",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/385.png"
+              },
+              {
+                "id": 386,
+                "name": "Codem",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/386.png"
+              },
+              {
+                "id": 570,
+                "name": "Idemas",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/570.png"
+              },
+              {
+                "id": 388,
+                "name": "Kirevam",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/388.png"
+              },
+              {
+                "id": 389,
+                "name": "Let Emoliug",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/389.png"
+              },
+              {
+                "id": 393,
+                "name": "Susej",
+                "level": 35,
+                "imageUrl": "/bestiary/monsters/393.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:722",
+      "relation": "ACTIVE",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/quelque-chose-de-pourri-au-royaume-damakna.html",
+      "sourceTitle": "Quelque chose de pourri au royaume d'Amakna",
+      "sourceHash": "a46fd94713ee715d7f0f05cd67860b6b031866712150a879d1b38aa103f3f87e",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez la quête après avoir terminé Quelque chose de pourri au royaume d'Amakna, puis suivez l'objectif jusqu'au Théâtre de Dramak et effectuez le donjon. Arrêtez-vous après avoir vaincu Dramak : les dialogues avec Dramak puis le retour au Captain Amakna sont réservés à l'occurrence FINISH de l'étape 100.",
+      "recommendedLevel": 80,
+      "prerequisites": [
+        "Niveau > 79.",
+        "Quelque chose de pourri au royaume d'Amakna."
+      ],
+      "rewards": [
+        "2 457 000 XP à la fin complète de la quête.",
+        "28 752 Kamas à la fin complète de la quête.",
+        "Brandir son bouclier à la fin complète de la quête."
+      ],
+      "preparation": [
+        "Prévoir le Donjon Théâtre de Dramak.",
+        "La quête complète comporte 3 combats seuls, mais cette occurrence s'arrête avant les dialogues de fin."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez au Captain Amakna pour lancer Ainsi font les petites marionnettes. Il vous demande de retrouver et défier Dramak.",
+          "position": "[0,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au Théâtre de Dramak afin de découvrir où se cache Dramak.",
+          "position": "[21,7]",
+          "zoneHint": "Théâtre de Dramak",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuez le donjon Théâtre de Dramak et vainquez Dramak.",
+          "position": "[21,7]",
+          "zoneHint": "Théâtre de Dramak",
+          "warning": "Donjon requis. Ne poursuivez pas les dialogues de quête après la victoire dans cette occurrence.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire contre Dramak, arrêtez la progression de cette quête avant de lui demander des informations sur le traité des Six et Makia Vhel.",
+          "position": "[21,7]",
+          "zoneHint": "Théâtre de Dramak",
+          "warning": "Ne sortez pas en poursuivant la fin de quête : les dialogues avec Dramak et le rendu au Captain Amakna seront effectués à l'étape 100.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête sera reprise à l'étape 100 en relation FINISH.",
+        "À la reprise, il faudra parler à Dramak avant de quitter les lieux, puis retourner auprès du Captain Amakna pour terminer la quête et obtenir l'attitude Brandir son bouclier."
       ],
       "npcs": [
         "Captain Amakna",
@@ -61,13 +1147,6 @@
       "items": [],
       "bestiary": {
         "zones": [
-          {
-            "id": 799,
-            "name": "Île de Kartonpath",
-            "coordinates": [
-              "21,7"
-            ]
-          },
           {
             "id": 800,
             "name": "Théâtre de Dramak",
@@ -83,14 +1162,7 @@
             ]
           }
         ],
-        "bounties": [
-          {
-            "id": 4027,
-            "name": "Naganita",
-            "level": 100,
-            "imageUrl": "/bestiary/monsters/4027.png"
-          }
-        ],
+        "bounties": [],
         "archmonsters": [
           {
             "id": 2343,
@@ -199,11 +1271,13 @@
         ]
       },
       "questKey": "quest:723",
+      "relation": "START",
+      "sortOrder": 3,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/ainsi-font-les-petites-marionnettes.html",
       "sourceTitle": "Ainsi font les petites marionnettes",
       "sourceHash": "7d1a62c874f0310ad3e91d300e0bd232163012a543f71703e2e85e19f5894530",
-      "generatedAt": "2026-08-24T17:10:55.455Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     }
   ],
   "tips": []

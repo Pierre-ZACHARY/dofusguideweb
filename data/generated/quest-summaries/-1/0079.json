@@ -1,8 +1,819 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 79,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T11:28:58.280Z",
+  "summaries": [
+    {
+      "overview": "Poursuivez L'Épice rit sur Saharach jusqu'à son terme. Cette portion vous fait aider la Corporation, défendre un convoi contre des Léolhyènes, enquêter sur l'Épice puis secourir Bento Mology avec 5 Eaux Potables et 1 Potion Eau de fée. La fin auprès d'Eole Suk débloque Le roi scorpion, qui doit ensuite être lancé dans cette même étape.",
+      "recommendedLevel": 80,
+      "prerequisites": [
+        "Avoir la quête L'Épice rit en cours."
+      ],
+      "rewards": [
+        "594 972 XP.",
+        "7 980 kamas.",
+        "1 x Sable Fin."
+      ],
+      "preparation": [
+        "Prévoir 5 x Eau Potable.",
+        "Prévoir 1 x Potion Eau de fée.",
+        "Un combat contre 8 x Léolhyènes est à effectuer ; il peut être réalisé en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "À l'étage du Sabloon, parlez à Idarfen Madjika et proposez vos services. Cette discussion ouvre également l'accès aux quêtes Désert de revanche et Les bizarreries du Phare Ouest.",
+          "position": "[15,-57]",
+          "zoneHint": "Sabloon",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Barbara Kis afin d'être orienté vers un travail adapté.",
+          "position": "[14,-56]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Bashar Daukar et acceptez de participer à la défense du convoi.",
+          "position": "[15,-56]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez Guillaume Oisson au convoi et aidez-le à repousser les Léolhyènes.",
+          "position": "[15,-59]",
+          "zoneHint": null,
+          "warning": "Le combat oppose le groupe à 8 x Léolhyènes. Il est réalisable à plusieurs.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire, reparlez à Guillaume Oisson pour confirmer que le convoi est sécurisé.",
+          "position": "[15,-59]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Bashar Daukar pour rendre compte de la défense du convoi.",
+          "position": "[15,-56]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Barbara Kis, puis à Charlot Darvin de la Corporation afin de vous renseigner sur les expériences de la Corporation Parafiole.",
+          "position": "[14,-56]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À la banque, interrogez Spice Dikoune au sujet de la Corporation.",
+          "position": "[15,-57]",
+          "zoneHint": "Banque",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montez à l'étage du Sabloon et demandez à Idarfen Madjika des informations sur l'Épice.",
+          "position": "[15,-57]",
+          "zoneHint": "Sabloon",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez Bento Mology, blessé, et parlez-lui pour apprendre ce dont il a besoin.",
+          "position": "[19,-60]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Remettez à Bento Mology 5 x Eau Potable et 1 x Potion Eau de fée afin de le soigner.",
+          "position": "[19,-60]",
+          "zoneHint": null,
+          "warning": "Cette étape consomme 5 x Eau Potable et 1 x Potion Eau de fée.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramenez Bento Mology devant Idarfen Madjika puis annoncez son sauvetage.",
+          "position": "[15,-57]",
+          "zoneHint": "Sabloon",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès d'Eole Suk et faites votre rapport sur l'Épice pour terminer la quête et débloquer Le roi scorpion.",
+          "position": "[14,-55]",
+          "zoneHint": "Port de Sarakech",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le roi scorpion est la suite directe et doit être lancé juste après dans cette étape."
+      ],
+      "npcs": [
+        "Idarfen Madjika",
+        "Barbara Kis",
+        "Bashar Daukar",
+        "Guillaume Oisson",
+        "Charlot Darvin",
+        "Spice Dikoune",
+        "Bento Mology",
+        "Eole Suk"
+      ],
+      "items": [
+        {
+          "name": "Eau Potable",
+          "itemId": 1719,
+          "imageUrl": "/items/1719.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1719"
+        },
+        {
+          "name": "Potion Eau de fée",
+          "itemId": 2266,
+          "imageUrl": "/items/2266.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2266"
+        },
+        {
+          "name": "Sable Fin",
+          "itemId": 18366,
+          "imageUrl": "/items/18366.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18366"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 872,
+            "name": "Dunes des ossements",
+            "coordinates": [
+              "15,-59",
+              "19,-60"
+            ]
+          },
+          {
+            "id": 874,
+            "name": "Port de Sarakech",
+            "coordinates": [
+              "15,-57",
+              "14,-56",
+              "15,-56",
+              "14,-55"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4618,
+            "name": "Tournade",
+            "level": 80,
+            "imageUrl": "/bestiary/monsters/4618.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1527,
+            "name": "Animaux du désert",
+            "monsters": [
+              {
+                "id": 4616,
+                "name": "Fennex",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4616.png"
+              },
+              {
+                "id": 4619,
+                "name": "Léolhyène",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4619.png"
+              },
+              {
+                "id": 4620,
+                "name": "Ouroboulos",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4620.png"
+              },
+              {
+                "id": 4615,
+                "name": "Scordion Bleu",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4615.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1051",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/l-epice-rit.html",
+      "sourceTitle": "L'Épice rit",
+      "sourceHash": "2acb400133dbcbb332c223e59befef30c60321accf74f303e83abfa86f82ce4c",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez Le roi scorpion après L'Épice rit et avancez seulement jusqu'à l'objectif demandant de vaincre 1 x Mantiscore dans la dernière salle du Cimetière des Mastodontes. Préparez la flûte avec l'Os de Mastodonte et 10 x Manganèse, puis arrêtez-vous avant d'affronter le boss. Le combat contre le Mantiscore et tout le rendu final seront effectués à l'étape suivante. Avant d'attaquer le donjon, le guide demande aussi de lancer Retrouver un fémur dans une botte d'ossements.",
+      "recommendedLevel": 80,
+      "prerequisites": [
+        "Avoir terminé L'Épice rit."
+      ],
+      "rewards": [
+        "1 189 944 XP.",
+        "15 960 kamas.",
+        "3 x Boule de Boulépique."
+      ],
+      "preparation": [
+        "Prévoir 10 x Manganèse.",
+        "Prévoir l'accès à un sculpteur de niveau 80 minimum ; le craft coopératif est possible.",
+        "Le donjon Cimetière des Mastodontes sera effectué ensuite, mais ne combattez pas le Mantiscore dans cette occurrence."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Eole Suk et acceptez de continuer à travailler pour la Corporation afin de lancer Le roi scorpion.",
+          "position": "[14,-55]",
+          "zoneHint": "Port de Sarakech",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À l'étage du Sabloon, parlez à Idarfen Madjika et proposez de vous rendre utile.",
+          "position": "[15,-57]",
+          "zoneHint": "Sabloon",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Remettez les documents à Cormac Gargan et écoutez ses accusations concernant les archéologues.",
+          "position": "[19,-61]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Zuber Pierrevivante pour recueillir sa version des faits.",
+          "position": "[18,-59]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Cormac Gargan ; il vous demande un gros os destiné à la fabrication d'une flûte.",
+          "position": "[19,-61]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Zuber Pierrevivante et demandez-lui un os des environs. Vous obtenez l'Os de Mastodonte nécessaire à la flûte.",
+          "position": "[18,-59]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Faites fabriquer la flûte par un sculpteur de niveau 80 minimum avec 1 x Os de Mastodonte et 10 x Manganèse. Le craft coopératif est possible.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Le craft consomme 1 x Os de Mastodonte et 10 x Manganèse et requiert un sculpteur de niveau 80 minimum.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez montrer la flûte à Zuber Pierrevivante. Avancez le dialogue jusqu'à obtenir l'objectif demandant de vaincre 1 x Mantiscore sur la carte Cimetière des Mastodontes - Dernière Salle en un seul combat.",
+          "position": "[18,-59]",
+          "zoneHint": null,
+          "warning": "Arrêtez cette occurrence dès que l'objectif de vaincre le Mantiscore est actif. Ne combattez pas le boss maintenant.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Avant d'entrer dans le Cimetière des Mastodontes, lancez Retrouver un fémur dans une botte d'ossements, occurrence suivante de cette étape.",
+        "Lorsque vous affronterez le Mantiscore à l'étape suivante, pensez impérativement à équiper les gants obtenus dans votre inventaire avant le combat.",
+        "Les dialogues avec Carl Os, Cormac Gargan, Zuber Pierrevivante, Eole Suk puis Idarfen Madjika après le Mantiscore sont volontairement différés à l'occurrence FINISH de l'étape 80."
+      ],
+      "npcs": [
+        "Eole Suk",
+        "Idarfen Madjika",
+        "Cormac Gargan",
+        "Zuber Pierrevivante"
+      ],
+      "items": [
+        {
+          "name": "Manganèse",
+          "itemId": 445,
+          "imageUrl": "/items/445.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/445"
+        },
+        {
+          "name": "Os de Mastodonte",
+          "itemId": 18347,
+          "imageUrl": "/items/18347.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18347"
+        },
+        {
+          "name": "Flûte",
+          "itemId": 1505,
+          "imageUrl": "/items/1505.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1505"
+        },
+        {
+          "name": "Gants obtenus dans la quête",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Boule de Boulépique",
+          "itemId": 18367,
+          "imageUrl": "/items/18367.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18367"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 6,
+            "name": "Cimetière",
+            "coordinates": [
+              "18,-59"
+            ]
+          },
+          {
+            "id": 872,
+            "name": "Dunes des ossements",
+            "coordinates": [
+              "19,-61",
+              "18,-59"
+            ]
+          },
+          {
+            "id": 874,
+            "name": "Port de Sarakech",
+            "coordinates": [
+              "14,-55",
+              "15,-57"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4270,
+            "name": "Roub' Ignolles",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/4270.png"
+          },
+          {
+            "id": 4618,
+            "name": "Tournade",
+            "level": 80,
+            "imageUrl": "/bestiary/monsters/4618.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2321,
+            "name": "Chafalfer l'Optimiste",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2321.png"
+          },
+          {
+            "id": 2319,
+            "name": "Chafemal le Bagarreur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2319.png"
+          },
+          {
+            "id": 2522,
+            "name": "Kwoanneur le Frimeur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2522.png"
+          },
+          {
+            "id": 2357,
+            "name": "Tofumanchou l'Empereur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2357.png"
+          },
+          {
+            "id": 2421,
+            "name": "Chaffoin le Sournois",
+            "level": 33,
+            "imageUrl": "/bestiary/monsters/2421.png"
+          },
+          {
+            "id": 2276,
+            "name": "Ribibi le Cher",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2276.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1527,
+            "name": "Animaux du désert",
+            "monsters": [
+              {
+                "id": 4616,
+                "name": "Fennex",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4616.png"
+              },
+              {
+                "id": 4619,
+                "name": "Léolhyène",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4619.png"
+              },
+              {
+                "id": 4620,
+                "name": "Ouroboulos",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4620.png"
+              },
+              {
+                "id": 4615,
+                "name": "Scordion Bleu",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4615.png"
+              }
+            ]
+          },
+          {
+            "id": 193,
+            "name": "Bêtes de la nuit",
+            "monsters": [
+              {
+                "id": 154,
+                "name": "Kwoan",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/154.png"
+              },
+              {
+                "id": 111,
+                "name": "Tofu Maléfique",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/111.png"
+              }
+            ]
+          },
+          {
+            "id": 191,
+            "name": "Chafers d'Amakna",
+            "monsters": [
+              {
+                "id": 54,
+                "name": "Chafer",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/54.png"
+              },
+              {
+                "id": 110,
+                "name": "Chafer Invisible",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/110.png"
+              },
+              {
+                "id": 396,
+                "name": "Chafer Fantassin",
+                "level": 33,
+                "imageUrl": "/bestiary/monsters/396.png"
+              },
+              {
+                "id": 108,
+                "name": "Rib",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/108.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1052",
+      "relation": "START",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-roi-scorpion.html",
+      "sourceTitle": "Le roi scorpion",
+      "sourceHash": "3a0bbb19f243322a8f2fe92c1db0753f6dc450770ae9249418040500b1858497",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez la quête auprès de Sydney Fax puis fouillez les trois amas d'ossements extérieurs. Deux fouilles déclenchent chacune un combat contre 3 x Scordions Bleu. Avancez ensuite jusqu'au moment où la quête vous demande de fouiller le dernier tas d'os dans le Cimetière des Mastodontes, sans effectuer cette fouille. Avant d'entrer dans le donjon, le guide impose de lancer Sans chair et en os, qui appartient à l'étape suivante. La fouille de la salle 1 et le retour à Sydney Fax seront donc faits plus tard.",
+      "recommendedLevel": 80,
+      "prerequisites": [],
+      "rewards": [
+        "594 972 XP au niveau 200.",
+        "7 980 kamas.",
+        "3 x Boule de Boulépique."
+      ],
+      "preparation": [
+        "Prévoir deux combats contre 3 x Scordions Bleu ; ils sont réalisables en groupe.",
+        "Il faudra accéder à la première salle du Cimetière des Mastodontes, mais ne fouillez pas le dernier tas d'os dans cette occurrence."
+      ],
+      "actions": [
+        {
+          "instruction": "Au bar la Pikantina, parlez à Sydney Fax et demandez-lui pourquoi elle ne fait pas quelque chose afin de lancer la quête.",
+          "position": "[15,-64]",
+          "zoneHint": "Bar la Pikantina",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Fouillez les ossements indiqués.",
+          "position": "[18,-59]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Fouillez les ossements. Un groupe de 3 x Scordions Bleu vous attaque.",
+          "position": "[19,-60]",
+          "zoneHint": null,
+          "warning": "Combat obligatoire contre 3 x Scordions Bleu ; il peut être réalisé en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Fouillez les ossements. Un second groupe de 3 x Scordions Bleu vous attaque.",
+          "position": "[19,-61]",
+          "zoneHint": null,
+          "warning": "Combat obligatoire contre 3 x Scordions Bleu ; il peut être réalisé en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Avant d'entrer dans le Cimetière des Mastodontes, lancez Sans chair et en os auprès de Mayko Zouzoo afin de respecter l'ordre du guide.",
+          "position": "[15,-60]",
+          "zoneHint": null,
+          "warning": "Sans chair et en os appartient à l'étape 80 : ne réalisez ici que son lancement, pas son tutoriel complet.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez en [19,-61] et parlez à Carl Os pour entrer dans le Cimetière des Mastodontes. Avancez jusqu'à ce que l'objectif demande de fouiller le dernier tas d'os dans le donjon, puis arrêtez-vous avant de cliquer sur les ossements de la première salle.",
+          "position": "[19,-61]",
+          "zoneHint": "Cimetière des Mastodontes",
+          "warning": "Ne fouillez pas encore le tas d'os de la première salle : cette action et le rendu auprès de Sydney Fax sont réservés à l'occurrence FINISH de l'étape 80.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La fouille du dernier tas d'os dans la première salle du donjon est volontairement différée à l'étape 80.",
+        "Après cette fouille future, il faudra retourner voir Sydney Fax en [15,-64] pour donner l'os porte-bonheur et terminer la quête."
+      ],
+      "npcs": [
+        "Sydney Fax",
+        "Mayko Zouzoo",
+        "Carl Os"
+      ],
+      "items": [
+        {
+          "name": "Os porte-bonheur",
+          "itemId": 18333,
+          "imageUrl": "/items/18333.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18333"
+        },
+        {
+          "name": "Boule de Boulépique",
+          "itemId": 18367,
+          "imageUrl": "/items/18367.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18367"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 6,
+            "name": "Cimetière",
+            "coordinates": [
+              "15,-60"
+            ]
+          },
+          {
+            "id": 875,
+            "name": "Cimetière des Mastodontes",
+            "coordinates": [
+              "19,-61"
+            ]
+          },
+          {
+            "id": 872,
+            "name": "Dunes des ossements",
+            "coordinates": [
+              "18,-59",
+              "19,-60",
+              "19,-61"
+            ]
+          },
+          {
+            "id": 873,
+            "name": "Territoire Cacterre",
+            "coordinates": [
+              "15,-64"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4270,
+            "name": "Roub' Ignolles",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/4270.png"
+          },
+          {
+            "id": 4618,
+            "name": "Tournade",
+            "level": 80,
+            "imageUrl": "/bestiary/monsters/4618.png"
+          },
+          {
+            "id": 4622,
+            "name": "Roi Camole",
+            "level": 130,
+            "imageUrl": "/bestiary/monsters/4622.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2321,
+            "name": "Chafalfer l'Optimiste",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2321.png"
+          },
+          {
+            "id": 2319,
+            "name": "Chafemal le Bagarreur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2319.png"
+          },
+          {
+            "id": 2522,
+            "name": "Kwoanneur le Frimeur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2522.png"
+          },
+          {
+            "id": 2357,
+            "name": "Tofumanchou l'Empereur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2357.png"
+          },
+          {
+            "id": 2421,
+            "name": "Chaffoin le Sournois",
+            "level": 33,
+            "imageUrl": "/bestiary/monsters/2421.png"
+          },
+          {
+            "id": 2276,
+            "name": "Ribibi le Cher",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2276.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1527,
+            "name": "Animaux du désert",
+            "monsters": [
+              {
+                "id": 4616,
+                "name": "Fennex",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4616.png"
+              },
+              {
+                "id": 4619,
+                "name": "Léolhyène",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4619.png"
+              },
+              {
+                "id": 4620,
+                "name": "Ouroboulos",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4620.png"
+              },
+              {
+                "id": 4617,
+                "name": "Boulépique",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4617.png"
+              },
+              {
+                "id": 4615,
+                "name": "Scordion Bleu",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4615.png"
+              }
+            ]
+          },
+          {
+            "id": 193,
+            "name": "Bêtes de la nuit",
+            "monsters": [
+              {
+                "id": 154,
+                "name": "Kwoan",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/154.png"
+              },
+              {
+                "id": 111,
+                "name": "Tofu Maléfique",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/111.png"
+              }
+            ]
+          },
+          {
+            "id": 1528,
+            "name": "Cacterres",
+            "monsters": [
+              {
+                "id": 4605,
+                "name": "Cactana",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/4605.png"
+              },
+              {
+                "id": 4604,
+                "name": "Cactiflore",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/4604.png"
+              },
+              {
+                "id": 4606,
+                "name": "Cactoblongo",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/4606.png"
+              },
+              {
+                "id": 4607,
+                "name": "Pampactus",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/4607.png"
+              }
+            ]
+          },
+          {
+            "id": 191,
+            "name": "Chafers d'Amakna",
+            "monsters": [
+              {
+                "id": 54,
+                "name": "Chafer",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/54.png"
+              },
+              {
+                "id": 110,
+                "name": "Chafer Invisible",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/110.png"
+              },
+              {
+                "id": 396,
+                "name": "Chafer Fantassin",
+                "level": 33,
+                "imageUrl": "/bestiary/monsters/396.png"
+              },
+              {
+                "id": 108,
+                "name": "Rib",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/108.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1047",
+      "relation": "START",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/retrouver-un-femur-dans-une-botte-d-ossements.html",
+      "sourceTitle": "Retrouver un fémur dans une botte d'ossements",
+      "sourceHash": "cabe9c6170cdfd54ad77e0e24fb1cecd24724dd16ff6901412232780c48536fd",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Préparer le Cimetière des Mastodontes",
+      "description": "Le roi scorpion et Retrouver un fémur dans une botte d'ossements convergent vers le Cimetière des Mastodontes. Lancez et avancez les deux quêtes avant de poursuivre le donjon afin d'éviter des allers-retours inutiles.",
+      "questKeys": [
+        "quest:1052",
+        "quest:1047"
+      ],
+      "actions": [
+        "Avancez Le roi scorpion jusqu'à l'objectif de vaincre le Mantiscore.",
+        "Lancez puis avancez Retrouver un fémur dans une botte d'ossements jusqu'à l'objectif du dernier tas d'os.",
+        "Avant l'entrée du donjon, lancez aussi Sans chair et en os comme demandé par le guide, puis conservez les objectifs de donjon pour l'étape 80."
+      ]
+    }
+  ]
 }

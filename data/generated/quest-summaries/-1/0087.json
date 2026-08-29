@@ -1,8 +1,927 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 87,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T11:29:05.286Z",
+  "summaries": [
+    {
+      "overview": "Lancez la quête auprès de Hell Munster, puis obtenez l'accord de l'Abraknyde Ancestral jusqu'à ce qu'il vous demande de récupérer l'objet volé par Nyée. Arrêtez-vous avant d'entrer dans l'Antre de la Reine Nyée : le donjon et toute la suite de la quête sont volontairement réservés à l'étape suivante.",
+      "recommendedLevel": 90,
+      "prerequisites": [
+        "Avoir terminé Après lui, le déluge."
+      ],
+      "rewards": [
+        "1 896 785 XP.",
+        "23 712 Kamas.",
+        "3 x Truk divin."
+      ],
+      "preparation": [
+        "Prévoir à terme 30 x Ambre.",
+        "Prévoir à terme 6 x Ambre d'Abraknyde.",
+        "Prévoir à terme 6 x Ambre d'Abraknyde Sombre.",
+        "Prévoir à terme 6 x Métaria jaune.",
+        "Prévoir à terme 1 x Substrat de Futaie.",
+        "Préparez-vous à un combat obligatoire en solo avant le prochain arrêt."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Hell Munster pour lancer Comme un corbac sur sa branche et accepter de chercher l'aide de l'Abraknyde Ancestral.",
+          "position": "[-5,-13]",
+          "zoneHint": "Bois des Arak-haï",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous devant le Domaine Ancestral et parlez à Tronkny Baussope. Dites que vous venez de la part d'Hel Munster et souhaitez parler à l'ancêtre afin d'être conduit directement auprès de l'Abraknyde Ancestral.",
+          "position": "[-9,-14]",
+          "zoneHint": "Domaine Ancestral",
+          "warning": "Il n'est pas nécessaire d'effectuer le donjon Domaine Ancestral pour cette étape.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à l'Abraknyde Ancestral puis tentez de le brutaliser pour attirer son attention. Remportez le combat déclenché contre ses serviteurs.",
+          "position": "[-9,-14]",
+          "zoneHint": "Domaine Ancestral",
+          "warning": "Combat obligatoire réalisable seul uniquement. Les ennemis disposent notamment de boucliers, de soins, de retraits de PA, de téléportation et de réduction de durée des effets.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Reparlez à l'Abraknyde Ancestral. Lorsqu'il réclame une contrepartie, choisissez « Faire miroiter un Dofus », puis acceptez son marché lorsqu'il vous demande de récupérer l'objet que Nyée lui a volé.",
+          "position": "[-9,-14]",
+          "zoneHint": "Domaine Ancestral",
+          "warning": "Respectez ces choix de dialogue. Les autres propositions n'apportent rien et l'une d'elles coûte 1 000 Kamas.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "À ce stade, la quête doit vous envoyer vers l'Antre de la Reine Nyée en [-6,-15]. N'entrez pas encore dans le donjon pour cette occurrence.",
+        "L'Œuf noir, la fabrication de l'Ambre enchanté, le second combat solo, la purification de l'ambre et la rencontre avec Silvosse seront effectués lors de la reprise à l'étape suivante.",
+        "Avoir déjà les 30 x Ambre, 6 x Ambre d'Abraknyde, 6 x Ambre d'Abraknyde Sombre, 6 x Métaria jaune et 1 x Substrat de Futaie évitera un détour lors de la reprise."
+      ],
+      "npcs": [
+        "Hell Munster",
+        "Tronkny Baussope",
+        "Abraknyde Ancestral"
+      ],
+      "items": [
+        {
+          "name": "Ambre",
+          "itemId": 463,
+          "imageUrl": "/items/463.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/463"
+        },
+        {
+          "name": "Ambre d'Abraknyde",
+          "itemId": 464,
+          "imageUrl": "/items/464.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/464"
+        },
+        {
+          "name": "Ambre d'Abraknyde Sombre",
+          "itemId": 1660,
+          "imageUrl": "/items/1660.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1660"
+        },
+        {
+          "name": "Métaria jaune",
+          "itemId": 1528,
+          "imageUrl": "/items/1528.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1528"
+        },
+        {
+          "name": "Substrat de Futaie",
+          "itemId": 2540,
+          "imageUrl": "/items/2540.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2540"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 33,
+            "name": "Bois des Arak-haï",
+            "coordinates": [
+              "-5,-13"
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Domaine Ancestral",
+            "coordinates": [
+              "-9,-14"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1201,
+            "name": "Abraknydiens Sombres",
+            "monsters": [
+              {
+                "id": 651,
+                "name": "Abrakne Sombre",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/651.png"
+              },
+              {
+                "id": 253,
+                "name": "Abraknyde Sombre",
+                "level": 78,
+                "imageUrl": "/bestiary/monsters/253.png"
+              },
+              {
+                "id": 254,
+                "name": "Abraknyde Vénérable",
+                "level": 74,
+                "imageUrl": "/bestiary/monsters/254.png"
+              },
+              {
+                "id": 917,
+                "name": "Araknotron",
+                "level": 76,
+                "imageUrl": "/bestiary/monsters/917.png"
+              }
+            ]
+          },
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 159,
+                "name": "Milimulou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/159.png"
+              }
+            ]
+          },
+          {
+            "id": 1196,
+            "name": "Arak-haï",
+            "monsters": [
+              {
+                "id": 3992,
+                "name": "Dardalaine",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3992.png"
+              },
+              {
+                "id": 3993,
+                "name": "Néfileuse",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3993.png"
+              },
+              {
+                "id": 3994,
+                "name": "Saltik",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3994.png"
+              },
+              {
+                "id": 3995,
+                "name": "Gargantûl",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3995.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 259,
+                "name": "Arakne Majeure",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/259.png"
+              }
+            ]
+          },
+          {
+            "id": 191,
+            "name": "Chafers d'Amakna",
+            "monsters": [
+              {
+                "id": 110,
+                "name": "Chafer Invisible",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/110.png"
+              }
+            ]
+          },
+          {
+            "id": 9048,
+            "name": "Chafers des cités",
+            "monsters": [
+              {
+                "id": 291,
+                "name": "Chafer Archer",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/291.png"
+              },
+              {
+                "id": 292,
+                "name": "Chafer d'Élite",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/292.png"
+              },
+              {
+                "id": 290,
+                "name": "Chafer Lancier",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/290.png"
+              }
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Mulous",
+            "monsters": [
+              {
+                "id": 102,
+                "name": "Mulou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/102.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1405",
+      "relation": "START",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/comme-un-corbac-sur-sa-branche.html",
+      "sourceTitle": "Comme un corbac sur sa branche",
+      "sourceHash": "221f73cf3825b641ce04237f661966ca860a9331d8c07311fe21f535da77ea44",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Poursuivez C'est tout Simple en recherchant le fils de Saule dans le Bois des Arak-haï. Après plusieurs lieux à inspecter, suivez Arbabra jusqu'à Simple, secourez-le, conduisez-le au temple Sadida puis avertissez la milice du Château d'Amakna. La quête doit être menée jusqu'au Colonel Rumo afin d'enchaîner immédiatement avec Arak-haï en pagaille.",
+      "recommendedLevel": 80,
+      "prerequisites": [
+        "Être de niveau supérieur à 79.",
+        "La quête C'est tout Simple est supposée déjà lancée auprès de Saule le Sadida mort en [-6,-15]."
+      ],
+      "rewards": [
+        "790 326 XP.",
+        "9 880 Kamas.",
+        "1 x Laine de Dardalaine.",
+        "1 x Œil de Saltik."
+      ],
+      "preparation": [
+        "Prévoir un combat réalisable en groupe ; Simple occupe la huitième place, jusqu'à 7 joueurs peuvent donc l'accompagner."
+      ],
+      "actions": [
+        {
+          "instruction": "Inspectez la maison d'Hel Munster en entrant dans le bâtiment.",
+          "position": "[-5,-13]",
+          "zoneHint": "Bois des Arak-haï",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Visitez la carte de l'Arbre du barbare.",
+          "position": "[-6,-12]",
+          "zoneHint": "Bois des Arak-haï",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la mine Est du Bois des Arak-haï pour vérifier si Simple s'y cache.",
+          "position": "[-8,-13]",
+          "zoneHint": "Mine Est du Bois des Arak-haï",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la mine Nord du Bois des Arak-haï et inspectez-la.",
+          "position": "[-11,-16]",
+          "zoneHint": "Mine Nord du Bois des Arak-haï",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au petit Arbabra devant la maison abandonnée afin qu'il vous indique la piste de Simple.",
+          "position": "[-15,-16]",
+          "zoneHint": "Bois des Arak-haï",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Suivez Arbabra puis reparlez-lui lorsqu'il s'arrête afin qu'il vous demande de continuer à le suivre.",
+          "position": "[-15,-14]",
+          "zoneHint": "Bois des Arak-haï",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez Simple et aidez-le à vaincre les créatures qui l'attaquent.",
+          "position": "[-16,-13]",
+          "zoneHint": "Bois des Arak-haï",
+          "warning": "Le combat peut accueillir jusqu'à 7 joueurs en plus de Simple. Les ennemis peuvent infliger des poisons, retirer PA ou PM, réduire la fuite et pousser de 3 cases.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, parlez à Simple, dites-lui que vous venez de la part de son père et expliquez que Saule souhaite le mettre en sécurité au temple Sadida. Simple devient alors votre personnage suiveur.",
+          "position": "[-16,-13]",
+          "zoneHint": "Bois des Arak-haï",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Conduisez Simple au temple Sadida puis parlez à Epuop Tik pour lui confier l'enfant et expliquer la situation.",
+          "position": "[-1,9]",
+          "zoneHint": "Temple Sadida",
+          "warning": "Simple doit être conservé comme personnage suiveur jusqu'à son arrivée au temple.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au Château d'Amakna, entrez dans le bâtiment de la Milice puis parlez au Colonel Rumo. Signalez l'invasion de la forêt des Abraknydes par les Arak-haï et racontez ce qui est arrivé à Saule et Simple.",
+          "position": "[5,-6]",
+          "zoneHint": "Milice du Château d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La discussion avec le Colonel Rumo termine C'est tout Simple.",
+        "Continuez ensuite à parler au Colonel Rumo uniquement au moment de l'occurrence suivante de cette étape pour lancer Arak-haï en pagaille."
+      ],
+      "npcs": [
+        "Saule le Sadida mort",
+        "Arbabra",
+        "Simple",
+        "Epuop Tik",
+        "Colonel Rumo"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 33,
+            "name": "Bois des Arak-haï",
+            "coordinates": [
+              "-5,-13",
+              "-6,-12",
+              "-8,-13",
+              "-11,-16",
+              "-15,-16",
+              "-15,-14",
+              "-16,-13"
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Château d'Amakna",
+            "coordinates": [
+              "5,-6"
+            ]
+          },
+          {
+            "id": 480,
+            "name": "Montagne basse des Craqueleurs",
+            "coordinates": [
+              "-1,9"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2430,
+            "name": "Chevaustine le Reconstruit",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2430.png"
+          },
+          {
+            "id": 2494,
+            "name": "Gobstiniais le Têtu",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2494.png"
+          },
+          {
+            "id": 2417,
+            "name": "Barchwork le Multicolore",
+            "level": 37,
+            "imageUrl": "/bestiary/monsters/2417.png"
+          },
+          {
+            "id": 2416,
+            "name": "Bworkasse le Dégoutant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2416.png"
+          },
+          {
+            "id": 2418,
+            "name": "Bwormage le Respectueux",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2418.png"
+          },
+          {
+            "id": 2436,
+            "name": "Crakmitaine le Faucheur",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2436.png"
+          },
+          {
+            "id": 2543,
+            "name": "Craquecrac l'Endurant",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2543.png"
+          },
+          {
+            "id": 2326,
+            "name": "Craquetuss le Piquant",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2326.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 159,
+                "name": "Milimulou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/159.png"
+              }
+            ]
+          },
+          {
+            "id": 1196,
+            "name": "Arak-haï",
+            "monsters": [
+              {
+                "id": 3992,
+                "name": "Dardalaine",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3992.png"
+              },
+              {
+                "id": 3993,
+                "name": "Néfileuse",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3993.png"
+              },
+              {
+                "id": 3994,
+                "name": "Saltik",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3994.png"
+              },
+              {
+                "id": 3995,
+                "name": "Gargantûl",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3995.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              },
+              {
+                "id": 259,
+                "name": "Arakne Majeure",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/259.png"
+              }
+            ]
+          },
+          {
+            "id": 182,
+            "name": "Bworks d'Amakna",
+            "monsters": [
+              {
+                "id": 876,
+                "name": "Bwork",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/876.png"
+              },
+              {
+                "id": 74,
+                "name": "Bwork Archer",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/74.png"
+              },
+              {
+                "id": 53,
+                "name": "Bwork Mage",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/53.png"
+              }
+            ]
+          },
+          {
+            "id": 191,
+            "name": "Chafers d'Amakna",
+            "monsters": [
+              {
+                "id": 110,
+                "name": "Chafer Invisible",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/110.png"
+              }
+            ]
+          },
+          {
+            "id": 9048,
+            "name": "Chafers des cités",
+            "monsters": [
+              {
+                "id": 291,
+                "name": "Chafer Archer",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/291.png"
+              },
+              {
+                "id": 292,
+                "name": "Chafer d'Élite",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/292.png"
+              },
+              {
+                "id": 290,
+                "name": "Chafer Lancier",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/290.png"
+              }
+            ]
+          },
+          {
+            "id": 186,
+            "name": "Craqueleurs",
+            "monsters": [
+              {
+                "id": 483,
+                "name": "Craqueboule",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/483.png"
+              },
+              {
+                "id": 106,
+                "name": "Craqueleur",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/106.png"
+              },
+              {
+                "id": 4570,
+                "name": "Élémenterre",
+                "level": 59,
+                "imageUrl": "/bestiary/monsters/4570.png"
+              },
+              {
+                "id": 4571,
+                "name": "Craquelourd",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4571.png"
+              }
+            ]
+          },
+          {
+            "id": 187,
+            "name": "Gobelins d'Amakna",
+            "monsters": [
+              {
+                "id": 178,
+                "name": "Gobet",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/178.png"
+              },
+              {
+                "id": 62,
+                "name": "Gob-trotteur",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/62.png"
+              }
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Mulous",
+            "monsters": [
+              {
+                "id": 102,
+                "name": "Mulou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/102.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:892",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/cest-tout-simple.html",
+      "sourceTitle": "C'est tout simple",
+      "sourceHash": "0045c48f21515a1956e35e92c32fe2f7246318a50c358eb06e4984914e7c6401",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après avoir terminé C'est tout Simple, lancez Arak-haï en pagaille auprès du Colonel Rumo. Étudiez les Arak-haï en éliminant trois fois chacun des quatre monstres demandés, faites votre rapport à Cornelia Granpa puis remportez l'embuscade. Arrêtez-vous dès que Cornelia vous envoie rencontrer la Reine Nyée : l'Antre de la Reine Nyée et le rendu final seront effectués à l'étape suivante.",
+      "recommendedLevel": 80,
+      "prerequisites": [
+        "Être de niveau supérieur à 79.",
+        "Avoir terminé C'est tout Simple."
+      ],
+      "rewards": [
+        "1 580 654 XP.",
+        "19 760 Kamas.",
+        "1 x Fil de Néfileuse.",
+        "1 x Chélicères d'Arapex.",
+        "1 x Dent de Gargantûl."
+      ],
+      "preparation": [
+        "Prévoir des combats contre les Arak-haï du Bois des Arak-haï.",
+        "Prévoir un combat de quête réalisable en groupe auprès de Cornelia Granpa."
+      ],
+      "actions": [
+        {
+          "instruction": "Après la fin de C'est tout Simple, continuez la conversation avec le Colonel Rumo et acceptez d'aider les Forestiers d'Amakna afin de lancer Arak-haï en pagaille.",
+          "position": "[5,-6]",
+          "zoneHint": "Milice du Château d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans le Bois des Arak-haï, vainquez trois fois chacun des quatre monstres Arak-haï demandés par l'objectif de quête afin d'observer leur comportement.",
+          "position": null,
+          "zoneHint": "Bois des Arak-haï",
+          "warning": "Vérifiez le suivi de quête pour confirmer les quatre catégories de monstres et les trois victoires requises pour chacune.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Allez voir Cornelia Granpa et faites-lui votre rapport sur les Arak-haï.",
+          "position": "[-6,-10]",
+          "zoneHint": "Orée de la forêt des Abraknydes",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Lorsque les Arak-haï attaquent, remportez le combat avec Cornelia.",
+          "position": "[-6,-10]",
+          "zoneHint": "Orée de la forêt des Abraknydes",
+          "warning": "Combat réalisable en groupe. L'objectif de quête se met normalement à jour pour la personne qui lance le combat ; la source indique qu'un autre participant peut choisir « fuir lâchement » puis revenir sur la carte pour déclencher son propre combat. Évitez de rester dans l'état Cocon à portée de l'attaque Exécution.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire, reparlez à Cornelia Granpa, vérifiez qu'elle n'est pas blessée puis expliquez que ces créatures viennent de la maison de Saule.",
+          "position": "[-6,-10]",
+          "zoneHint": "Orée de la forêt des Abraknydes",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le combat auprès de Cornelia ajoute 1 x Glande de Tisseuse à l'inventaire de quête.",
+        "Après la dernière conversation, Cornelia vous demande de vous rendre à l'Antre de la Reine Nyée en [-6,-15]. Arrêtez-vous avant d'effectuer le donjon.",
+        "La rencontre avec la Reine Nyée puis le retour auprès de Cornelia Granpa pour terminer la quête sont volontairement réservés à l'étape suivante."
+      ],
+      "npcs": [
+        "Colonel Rumo",
+        "Cornelia Granpa"
+      ],
+      "items": [
+        {
+          "name": "Glande de Tisseuse",
+          "itemId": 16226,
+          "imageUrl": "/items/16226.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16226"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 33,
+            "name": "Bois des Arak-haï",
+            "coordinates": []
+          },
+          {
+            "id": 180,
+            "name": "Château d'Amakna",
+            "coordinates": [
+              "5,-6"
+            ]
+          },
+          {
+            "id": 169,
+            "name": "Orée de la forêt des Abraknydes",
+            "coordinates": [
+              "-6,-10"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2299,
+            "name": "Tronkoneuz la Tranchante",
+            "level": 33,
+            "imageUrl": "/bestiary/monsters/2299.png"
+          },
+          {
+            "id": 2309,
+            "name": "Abrakroc l'édenté",
+            "level": 38,
+            "imageUrl": "/bestiary/monsters/2309.png"
+          },
+          {
+            "id": 2311,
+            "name": "Arabord la Cruche",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/2311.png"
+          },
+          {
+            "id": 2385,
+            "name": "Abrakadnuzar",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2385.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 174,
+            "name": "Abraknydiens",
+            "monsters": [
+              {
+                "id": 650,
+                "name": "Abrakne",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/650.png"
+              },
+              {
+                "id": 47,
+                "name": "Abraknyde",
+                "level": 38,
+                "imageUrl": "/bestiary/monsters/47.png"
+              },
+              {
+                "id": 256,
+                "name": "Tronknyde",
+                "level": 33,
+                "imageUrl": "/bestiary/monsters/256.png"
+              }
+            ]
+          },
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 159,
+                "name": "Milimulou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/159.png"
+              }
+            ]
+          },
+          {
+            "id": 1196,
+            "name": "Arak-haï",
+            "monsters": [
+              {
+                "id": 3992,
+                "name": "Dardalaine",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3992.png"
+              },
+              {
+                "id": 3993,
+                "name": "Néfileuse",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3993.png"
+              },
+              {
+                "id": 3994,
+                "name": "Saltik",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3994.png"
+              },
+              {
+                "id": 3995,
+                "name": "Gargantûl",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3995.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 259,
+                "name": "Arakne Majeure",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/259.png"
+              }
+            ]
+          },
+          {
+            "id": 191,
+            "name": "Chafers d'Amakna",
+            "monsters": [
+              {
+                "id": 110,
+                "name": "Chafer Invisible",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/110.png"
+              }
+            ]
+          },
+          {
+            "id": 9048,
+            "name": "Chafers des cités",
+            "monsters": [
+              {
+                "id": 291,
+                "name": "Chafer Archer",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/291.png"
+              },
+              {
+                "id": 292,
+                "name": "Chafer d'Élite",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/292.png"
+              },
+              {
+                "id": 290,
+                "name": "Chafer Lancier",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/290.png"
+              }
+            ]
+          },
+          {
+            "id": 187,
+            "name": "Gobelins d'Amakna",
+            "monsters": [
+              {
+                "id": 178,
+                "name": "Gobet",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/178.png"
+              },
+              {
+                "id": 62,
+                "name": "Gob-trotteur",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/62.png"
+              }
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Mulous",
+            "monsters": [
+              {
+                "id": 102,
+                "name": "Mulou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/102.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:893",
+      "relation": "START",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/arak-haiuml-en-pagaille.html",
+      "sourceTitle": "Arak-haï en pagaille",
+      "sourceHash": "aa8f3ef66e100736ffcd26c79f0f8f563bbf10600157d390d128dffa70c6d1ac",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Préparer un seul passage chez Nyée",
+      "description": "Comme un corbac sur sa branche et Arak-haï en pagaille finissent toutes deux cette étape juste avant l'Antre de la Reine Nyée en [-6,-15]. Avancez les deux quêtes jusqu'à ce point afin de pouvoir profiter du même passage dans le donjon lors de l'étape suivante.",
+      "questKeys": [
+        "quest:1405",
+        "quest:893"
+      ],
+      "actions": [
+        "Pour Comme un corbac sur sa branche, arrêtez-vous après avoir accepté le marché de l'Abraknyde Ancestral.",
+        "Pour Arak-haï en pagaille, arrêtez-vous après que Cornelia Granpa vous a envoyée rencontrer la Reine Nyée.",
+        "Ne lancez l'Antre de la Reine Nyée qu'une fois les deux objectifs prêts."
+      ]
+    }
+  ]
 }

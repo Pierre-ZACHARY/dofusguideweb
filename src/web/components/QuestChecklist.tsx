@@ -1,4 +1,4 @@
-import { ChevronDown, ExternalLink } from "lucide-react";
+import { ChevronDown, ExternalLink, HandHelping } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import type { GuideRelation, StepQuestDto } from "../data/models.js";
 import { isObjectiveCompleted, useProgress, type ObjectiveIdentity } from "../progress/progressStore.js";
@@ -8,6 +8,8 @@ import { QuestGuideFacts, QuestGuideSummary } from "./QuestGuideSummary.js";
 import { asObject, textValue } from "./valueUtils.js";
 import type { FollowedProfile } from "../../accounts/types.js";
 import { FollowerAvatarStack } from "../accounts/FollowerMarkers.js";
+import { helperMatchesObjective, sameHelpObjective, type QuestHelperPresence } from "../../presence/types.js";
+import { useOptionalPresence } from "../presence/PresenceProvider.js";
 
 const relationLabels: Record<GuideRelation, string> = {
   START: "À lancer",
@@ -74,6 +76,29 @@ function QuestInformationPanel({ quest }: Readonly<{ quest: StepQuestDto }>) {
   );
 }
 
+function HelperAvatarStack({ helpers }: Readonly<{ helpers: QuestHelperPresence[] }>) {
+  if (helpers.length === 0) return null;
+  return (
+    <div className="flex -space-x-2" aria-label={helpers.length + " joueur(s) demande(nt) de l’aide"}>
+      {helpers.slice(0, 4).map((helper) => (
+        <a
+          key={helper.profileId}
+          className="avatar tooltip tooltip-left z-10 transition-transform hover:z-20 hover:-translate-y-0.5"
+          data-tip={helper.name + " demande de l’aide sur " + helper.serverName}
+          href={"/shared/" + encodeURIComponent(helper.shareToken)}
+        >
+          <div className="h-8 w-8 rounded-full border-2 border-warning bg-base-200 ring-1 ring-base-100">
+            {helper.avatarUrl
+              ? <img src={helper.avatarUrl} alt={helper.name} />
+              : <HandHelping className="m-1.5 h-4 w-4 text-warning" aria-hidden="true" />}
+          </div>
+        </a>
+      ))}
+      {helpers.length > 4 && <span className="badge badge-warning badge-sm z-20 self-center">+{helpers.length - 4}</span>}
+    </div>
+  );
+}
+
 export function QuestChecklist({
   guideId,
   stepNumber,
@@ -82,6 +107,7 @@ export function QuestChecklist({
   followers = [],
 }: Readonly<{ guideId: number; stepNumber: number; quests: StepQuestDto[]; totalObjectives?: number; followers?: FollowedProfile[] }>) {
   const { profile, setObjectiveCompleted } = useProgress();
+  const presence = useOptionalPresence();
   const objectives = quests.map((quest) => ({ quest, identity: identityFor(guideId, stepNumber, quest) }));
   const firstIncomplete = objectives.find(({ identity }) => !isObjectiveCompleted(profile, identity))?.identity;
   const firstIncompleteKey = firstIncomplete === undefined ? null : identityKey(firstIncomplete);
@@ -124,6 +150,9 @@ export function QuestChecklist({
             && friendObjective.relation === identity.relation
             && friendObjective.sortOrder === identity.sortOrder;
         });
+        const helpObjective = { ...identity };
+        const questHelpers = presence?.helpers.filter((helper) => helperMatchesObjective(helper, helpObjective)) ?? [];
+        const requestingHelp = presence !== null && sameHelpObjective(presence.activeHelp, helpObjective);
 
         return (
           <li className={"grid grid-cols-[auto_minmax(0,1fr)] items-start gap-x-3 border-b border-base-300 p-4 last:border-b-0 " + (current ? "quest-current bg-primary/5" : "")} key={JSON.stringify(identity)}>
@@ -146,10 +175,30 @@ export function QuestChecklist({
                 <ChevronDown size={17} className={"shrink-0 transition-transform " + (expanded ? "rotate-180" : "")} aria-hidden="true" />
               </button>
               <FollowerAvatarStack profiles={questFollowers} />
+              <HelperAvatarStack helpers={questHelpers} />
             </div>
             {expanded && (
               <div className="col-span-2 mt-4 grid w-full items-start gap-4 lg:grid-cols-[minmax(0,1fr)_19rem]">
                 <main className="relative z-20 order-1 min-w-0 overflow-visible">
+                  {presence && <div className="mb-3 flex flex-wrap items-center gap-2 rounded-box border border-base-300 bg-base-200/60 p-3">
+                    <button
+                      type="button"
+                      className={"btn btn-sm gap-2 " + (requestingHelp ? "btn-warning" : "btn-outline")}
+                      disabled={!presence.canRequestHelp}
+                      aria-pressed={requestingHelp}
+                      title={presence.canRequestHelp ? undefined : "Connectez-vous avec un personnage et un serveur DOFUS vérifiés"}
+                      onClick={() => presence.toggleHelp(helpObjective)}
+                    >
+                      <HandHelping size={16} aria-hidden="true" />
+                      {requestingHelp ? "Ne plus demander d’aide" : "J’ai besoin d’aide"}
+                    </button>
+                    <span className="text-xs text-base-content/65">
+                      {questHelpers.length > 0
+                        ? questHelpers.length + " joueur" + (questHelpers.length > 1 ? "s" : "") + " disponible" + (questHelpers.length > 1 ? "s" : "") + " sur votre serveur"
+                        : presence.canRequestHelp ? "Votre profil public sera visible ici pendant votre demande." : "Un personnage et un serveur vérifiés sont nécessaires."}
+                    </span>
+                    {requestingHelp && presence.error && <span className="text-xs text-error">{presence.error}</span>}
+                  </div>}
                   {quest.guideSummary
                     ? <QuestGuideSummary summary={quest.guideSummary} objective={identity} totalObjectives={totalObjectives} followers={questFollowers} />
                     : quest.externalUrl && (

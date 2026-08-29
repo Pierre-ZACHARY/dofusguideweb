@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 8,
-  "updatedAt": "2026-08-27T13:32:08.301Z",
+  "updatedAt": "2026-08-28T13:38:06.604Z",
   "summaries": [
     {
       "overview": "Le Capitaine des Kerubims vous confie une dernière mission : éliminer les différents types de chafers du cimetière, retrouver Percy Klop dans son tombeau et récupérer le Sac de Bijoux qu'il a volé avant de le rapporter à la milice.",
@@ -87,9 +87,11 @@
       "bestiary": {
         "zones": [
           {
-            "id": 6,
-            "name": "Cimetière",
-            "coordinates": []
+            "id": 444,
+            "name": "Champs",
+            "coordinates": [
+              "0,-4"
+            ]
           },
           {
             "id": 449,
@@ -97,178 +99,11 @@
             "coordinates": [
               "4,1"
             ]
-          },
-          {
-            "id": 10,
-            "name": "Village d'Amakna",
-            "coordinates": [
-              "0,-4",
-              "4,1"
-            ]
           }
         ],
-        "bounties": [
-          {
-            "id": 4270,
-            "name": "Roub' Ignolles",
-            "level": 40,
-            "imageUrl": "/bestiary/monsters/4270.png"
-          }
-        ],
-        "archmonsters": [
-          {
-            "id": 2343,
-            "name": "Pioufe la Maquillée",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2343.png"
-          },
-          {
-            "id": 2345,
-            "name": "Pioukas la Plante",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2345.png"
-          },
-          {
-            "id": 2342,
-            "name": "Pioulbrineur le Mercenaire",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2342.png"
-          },
-          {
-            "id": 2347,
-            "name": "Pioussokrim le Délétère",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2347.png"
-          },
-          {
-            "id": 2341,
-            "name": "Pioustone le Problème",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2341.png"
-          },
-          {
-            "id": 2321,
-            "name": "Chafalfer l'Optimiste",
-            "level": 25,
-            "imageUrl": "/bestiary/monsters/2321.png"
-          },
-          {
-            "id": 2319,
-            "name": "Chafemal le Bagarreur",
-            "level": 32,
-            "imageUrl": "/bestiary/monsters/2319.png"
-          },
-          {
-            "id": 2522,
-            "name": "Kwoanneur le Frimeur",
-            "level": 32,
-            "imageUrl": "/bestiary/monsters/2522.png"
-          },
-          {
-            "id": 2357,
-            "name": "Tofumanchou l'Empereur",
-            "level": 32,
-            "imageUrl": "/bestiary/monsters/2357.png"
-          },
-          {
-            "id": 2421,
-            "name": "Chaffoin le Sournois",
-            "level": 33,
-            "imageUrl": "/bestiary/monsters/2421.png"
-          },
-          {
-            "id": 2276,
-            "name": "Ribibi le Cher",
-            "level": 34,
-            "imageUrl": "/bestiary/monsters/2276.png"
-          }
-        ],
-        "achievements": [
-          {
-            "id": 193,
-            "name": "Bêtes de la nuit",
-            "monsters": [
-              {
-                "id": 154,
-                "name": "Kwoan",
-                "level": 32,
-                "imageUrl": "/bestiary/monsters/154.png"
-              },
-              {
-                "id": 111,
-                "name": "Tofu Maléfique",
-                "level": 32,
-                "imageUrl": "/bestiary/monsters/111.png"
-              }
-            ]
-          },
-          {
-            "id": 191,
-            "name": "Chafers d'Amakna",
-            "monsters": [
-              {
-                "id": 54,
-                "name": "Chafer",
-                "level": 32,
-                "imageUrl": "/bestiary/monsters/54.png"
-              },
-              {
-                "id": 110,
-                "name": "Chafer Invisible",
-                "level": 25,
-                "imageUrl": "/bestiary/monsters/110.png"
-              },
-              {
-                "id": 396,
-                "name": "Chafer Fantassin",
-                "level": 33,
-                "imageUrl": "/bestiary/monsters/396.png"
-              },
-              {
-                "id": 108,
-                "name": "Rib",
-                "level": 34,
-                "imageUrl": "/bestiary/monsters/108.png"
-              }
-            ]
-          },
-          {
-            "id": 217,
-            "name": "Pious",
-            "monsters": [
-              {
-                "id": 491,
-                "name": "Piou Bleu",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/491.png"
-              },
-              {
-                "id": 493,
-                "name": "Piou Jaune",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/493.png"
-              },
-              {
-                "id": 492,
-                "name": "Piou Rose",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/492.png"
-              },
-              {
-                "id": 490,
-                "name": "Piou Vert",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/490.png"
-              },
-              {
-                "id": 236,
-                "name": "Piou Violet",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/236.png"
-              }
-            ]
-          }
-        ]
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": []
       },
       "questKey": "quest:914",
       "sourceUrl": "https://www.dofuspourlesnoobs.com/des-chafers-qui-marchent.html",
@@ -379,9 +214,20 @@
       "bestiary": {
         "zones": [
           {
-            "id": 479,
-            "name": "Rivière Kawaii",
+            "id": 444,
+            "name": "Champs",
             "coordinates": [
+              "0,-4"
+            ]
+          },
+          {
+            "id": 450,
+            "name": "Route des âmes",
+            "coordinates": [
+              "-2,-3",
+              "-1,-3",
+              "0,-3",
+              "1,-3",
               "2,-3"
             ]
           },
@@ -391,144 +237,11 @@
             "coordinates": [
               "0,-3"
             ]
-          },
-          {
-            "id": 10,
-            "name": "Village d'Amakna",
-            "coordinates": [
-              "-2,-3",
-              "-1,-3",
-              "0,-3",
-              "1,-3",
-              "0,-4"
-            ]
           }
         ],
         "bounties": [],
-        "archmonsters": [
-          {
-            "id": 2343,
-            "name": "Pioufe la Maquillée",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2343.png"
-          },
-          {
-            "id": 2345,
-            "name": "Pioukas la Plante",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2345.png"
-          },
-          {
-            "id": 2342,
-            "name": "Pioulbrineur le Mercenaire",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2342.png"
-          },
-          {
-            "id": 2347,
-            "name": "Pioussokrim le Délétère",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2347.png"
-          },
-          {
-            "id": 2341,
-            "name": "Pioustone le Problème",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2341.png"
-          },
-          {
-            "id": 2310,
-            "name": "Arakule la Revancharde",
-            "level": 16,
-            "imageUrl": "/bestiary/monsters/2310.png"
-          },
-          {
-            "id": 2323,
-            "name": "Chamchie le Difficile",
-            "level": 16,
-            "imageUrl": "/bestiary/monsters/2323.png"
-          },
-          {
-            "id": 2336,
-            "name": "Mosketère le Dévoué",
-            "level": 16,
-            "imageUrl": "/bestiary/monsters/2336.png"
-          }
-        ],
-        "achievements": [
-          {
-            "id": 175,
-            "name": "Araknes",
-            "monsters": [
-              {
-                "id": 52,
-                "name": "Arakne",
-                "level": 16,
-                "imageUrl": "/bestiary/monsters/52.png"
-              }
-            ]
-          },
-          {
-            "id": 217,
-            "name": "Pious",
-            "monsters": [
-              {
-                "id": 491,
-                "name": "Piou Bleu",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/491.png"
-              },
-              {
-                "id": 493,
-                "name": "Piou Jaune",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/493.png"
-              },
-              {
-                "id": 492,
-                "name": "Piou Rose",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/492.png"
-              },
-              {
-                "id": 490,
-                "name": "Piou Vert",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/490.png"
-              },
-              {
-                "id": 236,
-                "name": "Piou Violet",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/236.png"
-              }
-            ]
-          },
-          {
-            "id": 1602,
-            "name": "Vermines des champs",
-            "monsters": [
-              {
-                "id": 4819,
-                "name": "Campagnoll",
-                "level": 16,
-                "imageUrl": "/bestiary/monsters/4819.png"
-              },
-              {
-                "id": 59,
-                "name": "Champ Champ",
-                "level": 16,
-                "imageUrl": "/bestiary/monsters/59.png"
-              },
-              {
-                "id": 61,
-                "name": "Moskito",
-                "level": 16,
-                "imageUrl": "/bestiary/monsters/61.png"
-              }
-            ]
-          }
-        ]
+        "archmonsters": [],
+        "achievements": []
       },
       "questKey": "quest:899",
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-village-dans-les-nuages.html",
@@ -622,10 +335,18 @@
       "bestiary": {
         "zones": [
           {
-            "id": 479,
-            "name": "Rivière Kawaii",
+            "id": 443,
+            "name": "Forêt",
             "coordinates": [
-              "2,-3"
+              "2,-1"
+            ]
+          },
+          {
+            "id": 450,
+            "name": "Route des âmes",
+            "coordinates": [
+              "2,-3",
+              "-2,-3"
             ]
           },
           {
@@ -634,141 +355,11 @@
             "coordinates": [
               "0,-3"
             ]
-          },
-          {
-            "id": 10,
-            "name": "Village d'Amakna",
-            "coordinates": [
-              "-2,-3",
-              "2,-1"
-            ]
           }
         ],
         "bounties": [],
-        "archmonsters": [
-          {
-            "id": 2343,
-            "name": "Pioufe la Maquillée",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2343.png"
-          },
-          {
-            "id": 2345,
-            "name": "Pioukas la Plante",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2345.png"
-          },
-          {
-            "id": 2342,
-            "name": "Pioulbrineur le Mercenaire",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2342.png"
-          },
-          {
-            "id": 2347,
-            "name": "Pioussokrim le Délétère",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2347.png"
-          },
-          {
-            "id": 2341,
-            "name": "Pioustone le Problème",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2341.png"
-          },
-          {
-            "id": 2310,
-            "name": "Arakule la Revancharde",
-            "level": 16,
-            "imageUrl": "/bestiary/monsters/2310.png"
-          },
-          {
-            "id": 2323,
-            "name": "Chamchie le Difficile",
-            "level": 16,
-            "imageUrl": "/bestiary/monsters/2323.png"
-          },
-          {
-            "id": 2336,
-            "name": "Mosketère le Dévoué",
-            "level": 16,
-            "imageUrl": "/bestiary/monsters/2336.png"
-          }
-        ],
-        "achievements": [
-          {
-            "id": 175,
-            "name": "Araknes",
-            "monsters": [
-              {
-                "id": 52,
-                "name": "Arakne",
-                "level": 16,
-                "imageUrl": "/bestiary/monsters/52.png"
-              }
-            ]
-          },
-          {
-            "id": 217,
-            "name": "Pious",
-            "monsters": [
-              {
-                "id": 491,
-                "name": "Piou Bleu",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/491.png"
-              },
-              {
-                "id": 493,
-                "name": "Piou Jaune",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/493.png"
-              },
-              {
-                "id": 492,
-                "name": "Piou Rose",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/492.png"
-              },
-              {
-                "id": 490,
-                "name": "Piou Vert",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/490.png"
-              },
-              {
-                "id": 236,
-                "name": "Piou Violet",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/236.png"
-              }
-            ]
-          },
-          {
-            "id": 1602,
-            "name": "Vermines des champs",
-            "monsters": [
-              {
-                "id": 4819,
-                "name": "Campagnoll",
-                "level": 16,
-                "imageUrl": "/bestiary/monsters/4819.png"
-              },
-              {
-                "id": 59,
-                "name": "Champ Champ",
-                "level": 16,
-                "imageUrl": "/bestiary/monsters/59.png"
-              },
-              {
-                "id": 61,
-                "name": "Moskito",
-                "level": 16,
-                "imageUrl": "/bestiary/monsters/61.png"
-              }
-            ]
-          }
-        ]
+        "archmonsters": [],
+        "achievements": []
       },
       "questKey": "quest:901",
       "sourceUrl": "https://www.dofuspourlesnoobs.com/espoirs-et-trageacutedies.html",
@@ -912,7 +503,9 @@
           {
             "id": 444,
             "name": "Champs",
-            "coordinates": []
+            "coordinates": [
+              "-1,-4"
+            ]
           },
           {
             "id": 443,
@@ -922,90 +515,22 @@
           {
             "id": 442,
             "name": "Lac",
-            "coordinates": []
-          },
-          {
-            "id": 10,
-            "name": "Village d'Amakna",
             "coordinates": [
-              "0,-3",
-              "-1,-4",
               "-2,-2",
               "0,-1"
+            ]
+          },
+          {
+            "id": 450,
+            "name": "Route des âmes",
+            "coordinates": [
+              "0,-3"
             ]
           }
         ],
         "bounties": [],
-        "archmonsters": [
-          {
-            "id": 2343,
-            "name": "Pioufe la Maquillée",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2343.png"
-          },
-          {
-            "id": 2345,
-            "name": "Pioukas la Plante",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2345.png"
-          },
-          {
-            "id": 2342,
-            "name": "Pioulbrineur le Mercenaire",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2342.png"
-          },
-          {
-            "id": 2347,
-            "name": "Pioussokrim le Délétère",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2347.png"
-          },
-          {
-            "id": 2341,
-            "name": "Pioustone le Problème",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2341.png"
-          }
-        ],
-        "achievements": [
-          {
-            "id": 217,
-            "name": "Pious",
-            "monsters": [
-              {
-                "id": 491,
-                "name": "Piou Bleu",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/491.png"
-              },
-              {
-                "id": 493,
-                "name": "Piou Jaune",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/493.png"
-              },
-              {
-                "id": 492,
-                "name": "Piou Rose",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/492.png"
-              },
-              {
-                "id": 490,
-                "name": "Piou Vert",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/490.png"
-              },
-              {
-                "id": 236,
-                "name": "Piou Violet",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/236.png"
-              }
-            ]
-          }
-        ]
+        "archmonsters": [],
+        "achievements": []
       },
       "questKey": "quest:915",
       "sourceUrl": "https://www.dofuspourlesnoobs.com/produits-naturels.html",
@@ -1174,8 +699,22 @@
       "bestiary": {
         "zones": [
           {
-            "id": 479,
-            "name": "Rivière Kawaii",
+            "id": 444,
+            "name": "Champs",
+            "coordinates": [
+              "-1,-4"
+            ]
+          },
+          {
+            "id": 443,
+            "name": "Forêt",
+            "coordinates": [
+              "1,-2"
+            ]
+          },
+          {
+            "id": 450,
+            "name": "Route des âmes",
             "coordinates": [
               "2,-3"
             ]
@@ -1186,141 +725,11 @@
             "coordinates": [
               "0,-3"
             ]
-          },
-          {
-            "id": 10,
-            "name": "Village d'Amakna",
-            "coordinates": [
-              "1,-2",
-              "-1,-4"
-            ]
           }
         ],
         "bounties": [],
-        "archmonsters": [
-          {
-            "id": 2343,
-            "name": "Pioufe la Maquillée",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2343.png"
-          },
-          {
-            "id": 2345,
-            "name": "Pioukas la Plante",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2345.png"
-          },
-          {
-            "id": 2342,
-            "name": "Pioulbrineur le Mercenaire",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2342.png"
-          },
-          {
-            "id": 2347,
-            "name": "Pioussokrim le Délétère",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2347.png"
-          },
-          {
-            "id": 2341,
-            "name": "Pioustone le Problème",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2341.png"
-          },
-          {
-            "id": 2310,
-            "name": "Arakule la Revancharde",
-            "level": 16,
-            "imageUrl": "/bestiary/monsters/2310.png"
-          },
-          {
-            "id": 2323,
-            "name": "Chamchie le Difficile",
-            "level": 16,
-            "imageUrl": "/bestiary/monsters/2323.png"
-          },
-          {
-            "id": 2336,
-            "name": "Mosketère le Dévoué",
-            "level": 16,
-            "imageUrl": "/bestiary/monsters/2336.png"
-          }
-        ],
-        "achievements": [
-          {
-            "id": 175,
-            "name": "Araknes",
-            "monsters": [
-              {
-                "id": 52,
-                "name": "Arakne",
-                "level": 16,
-                "imageUrl": "/bestiary/monsters/52.png"
-              }
-            ]
-          },
-          {
-            "id": 217,
-            "name": "Pious",
-            "monsters": [
-              {
-                "id": 491,
-                "name": "Piou Bleu",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/491.png"
-              },
-              {
-                "id": 493,
-                "name": "Piou Jaune",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/493.png"
-              },
-              {
-                "id": 492,
-                "name": "Piou Rose",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/492.png"
-              },
-              {
-                "id": 490,
-                "name": "Piou Vert",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/490.png"
-              },
-              {
-                "id": 236,
-                "name": "Piou Violet",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/236.png"
-              }
-            ]
-          },
-          {
-            "id": 1602,
-            "name": "Vermines des champs",
-            "monsters": [
-              {
-                "id": 4819,
-                "name": "Campagnoll",
-                "level": 16,
-                "imageUrl": "/bestiary/monsters/4819.png"
-              },
-              {
-                "id": 59,
-                "name": "Champ Champ",
-                "level": 16,
-                "imageUrl": "/bestiary/monsters/59.png"
-              },
-              {
-                "id": 61,
-                "name": "Moskito",
-                "level": 16,
-                "imageUrl": "/bestiary/monsters/61.png"
-              }
-            ]
-          }
-        ]
+        "archmonsters": [],
+        "achievements": []
       },
       "questKey": "quest:903",
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-galette-secregravete.html",
@@ -1428,168 +837,16 @@
             ]
           },
           {
-            "id": 6,
-            "name": "Cimetière",
-            "coordinates": []
-          },
-          {
-            "id": 479,
-            "name": "Rivière Kawaii",
+            "id": 450,
+            "name": "Route des âmes",
             "coordinates": [
               "2,-3"
             ]
           }
         ],
-        "bounties": [
-          {
-            "id": 4270,
-            "name": "Roub' Ignolles",
-            "level": 40,
-            "imageUrl": "/bestiary/monsters/4270.png"
-          }
-        ],
-        "archmonsters": [
-          {
-            "id": 2310,
-            "name": "Arakule la Revancharde",
-            "level": 16,
-            "imageUrl": "/bestiary/monsters/2310.png"
-          },
-          {
-            "id": 2323,
-            "name": "Chamchie le Difficile",
-            "level": 16,
-            "imageUrl": "/bestiary/monsters/2323.png"
-          },
-          {
-            "id": 2336,
-            "name": "Mosketère le Dévoué",
-            "level": 16,
-            "imageUrl": "/bestiary/monsters/2336.png"
-          },
-          {
-            "id": 2321,
-            "name": "Chafalfer l'Optimiste",
-            "level": 25,
-            "imageUrl": "/bestiary/monsters/2321.png"
-          },
-          {
-            "id": 2319,
-            "name": "Chafemal le Bagarreur",
-            "level": 32,
-            "imageUrl": "/bestiary/monsters/2319.png"
-          },
-          {
-            "id": 2522,
-            "name": "Kwoanneur le Frimeur",
-            "level": 32,
-            "imageUrl": "/bestiary/monsters/2522.png"
-          },
-          {
-            "id": 2357,
-            "name": "Tofumanchou l'Empereur",
-            "level": 32,
-            "imageUrl": "/bestiary/monsters/2357.png"
-          },
-          {
-            "id": 2421,
-            "name": "Chaffoin le Sournois",
-            "level": 33,
-            "imageUrl": "/bestiary/monsters/2421.png"
-          },
-          {
-            "id": 2276,
-            "name": "Ribibi le Cher",
-            "level": 34,
-            "imageUrl": "/bestiary/monsters/2276.png"
-          }
-        ],
-        "achievements": [
-          {
-            "id": 175,
-            "name": "Araknes",
-            "monsters": [
-              {
-                "id": 52,
-                "name": "Arakne",
-                "level": 16,
-                "imageUrl": "/bestiary/monsters/52.png"
-              }
-            ]
-          },
-          {
-            "id": 193,
-            "name": "Bêtes de la nuit",
-            "monsters": [
-              {
-                "id": 154,
-                "name": "Kwoan",
-                "level": 32,
-                "imageUrl": "/bestiary/monsters/154.png"
-              },
-              {
-                "id": 111,
-                "name": "Tofu Maléfique",
-                "level": 32,
-                "imageUrl": "/bestiary/monsters/111.png"
-              }
-            ]
-          },
-          {
-            "id": 191,
-            "name": "Chafers d'Amakna",
-            "monsters": [
-              {
-                "id": 54,
-                "name": "Chafer",
-                "level": 32,
-                "imageUrl": "/bestiary/monsters/54.png"
-              },
-              {
-                "id": 110,
-                "name": "Chafer Invisible",
-                "level": 25,
-                "imageUrl": "/bestiary/monsters/110.png"
-              },
-              {
-                "id": 396,
-                "name": "Chafer Fantassin",
-                "level": 33,
-                "imageUrl": "/bestiary/monsters/396.png"
-              },
-              {
-                "id": 108,
-                "name": "Rib",
-                "level": 34,
-                "imageUrl": "/bestiary/monsters/108.png"
-              }
-            ]
-          },
-          {
-            "id": 1602,
-            "name": "Vermines des champs",
-            "monsters": [
-              {
-                "id": 4819,
-                "name": "Campagnoll",
-                "level": 16,
-                "imageUrl": "/bestiary/monsters/4819.png"
-              },
-              {
-                "id": 59,
-                "name": "Champ Champ",
-                "level": 16,
-                "imageUrl": "/bestiary/monsters/59.png"
-              },
-              {
-                "id": 61,
-                "name": "Moskito",
-                "level": 16,
-                "imageUrl": "/bestiary/monsters/61.png"
-              }
-            ]
-          }
-        ]
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": []
       },
       "questKey": "quest:902",
       "sourceUrl": "https://www.dofuspourlesnoobs.com/dans-la-gueule-du-milimilou.html",

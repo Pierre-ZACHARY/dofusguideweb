@@ -21,6 +21,14 @@ export async function googleClientId(): Promise<string> {
   return process.env.GOOGLE_CLIENT_ID?.trim() ?? "";
 }
 
+export async function metaMobCredentialsKey(): Promise<string> {
+  if (__CLOUDFLARE_WORKER__) {
+    const { env } = await import("cloudflare:workers");
+    return (env as CloudflareEnv).METAMOB_CREDENTIALS_KEY?.trim() ?? "";
+  }
+  return process.env.METAMOB_CREDENTIALS_KEY?.trim() ?? "";
+}
+
 export function profileAvatarUrl(breedId: number, gender: ProfileGender): string {
   return "/profile-avatars/" + breedId + "-" + (gender === "MALE" ? "male" : "female") + "-full.png";
 }

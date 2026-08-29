@@ -19,6 +19,7 @@ pulumi config set cloudflareAccountId aaf857a57ff01f7b5c961b37053782e1
 pulumi config set domainName dofusguideweb.com
 pulumi config set googleClientId 559765229314-g71qdbv43se29qv3hnpfr9vnsd648ra5.apps.googleusercontent.com
 pulumi config set --secret cloudflare:apiToken <token>
+pulumi config set --secret metamobCredentialsKey <cle-aes-256-en-base64>
 pulumi preview
 pulumi up
 ```
@@ -44,6 +45,20 @@ dépôt :
 
 - `PULUMI_ACCESS_TOKEN`
 - `CLOUDFLARE_API_TOKEN`
+- `METAMOB_CREDENTIALS_KEY`
+
+Génère `METAMOB_CREDENTIALS_KEY` une seule fois, puis utilise exactement la
+même valeur dans la stack locale et dans GitHub Actions :
+
+```powershell
+[Convert]::ToBase64String([Security.Cryptography.RandomNumberGenerator]::GetBytes(32))
+```
+
+En développement Cloudflare local, copie `.dev.vars.example` vers `.dev.vars`
+et renseigne cette valeur. Le fichier `.dev.vars` est ignoré par Git. La stack
+Pulumi locale lit également ce fichier si `metamobCredentialsKey` n'est pas
+encore présent dans `Pulumi.dev.yaml`. En CI, le secret GitHub Actions reste la
+source utilisée pour réinjecter la même clé dans le Worker à chaque déploiement.
 
 La stack utilisée par défaut est
 `Pierre-ZACHARY/dofusguideweb-cloudflare/dev`. Une variable GitHub Actions

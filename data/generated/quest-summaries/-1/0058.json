@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 58,
-  "updatedAt": "2026-08-27T14:09:32.345Z",
+  "updatedAt": "2026-08-29T09:59:15.470Z",
   "summaries": [
     {
       "overview": "Amayiro vous charge de contacter le fantôme du capitaine Tsog afin de récupérer les informations qu'il voulait transmettre avant sa mort. Après avoir localisé sa tombe dans le Cimetière des Héros et écouté son fantôme, vous devrez retrouver à Sufokia le coffre qu'il a dissimulé, en utilisant impérativement une Pelle de Boisaille équipée avant d'entrer sur la carte concernée, puis rapporter le coffre à Amayiro.",
@@ -121,13 +121,6 @@
       "bestiary": {
         "zones": [
           {
-            "id": 1119,
-            "name": "Bassin des Muldos",
-            "coordinates": [
-              "22,21"
-            ]
-          },
-          {
             "id": 59,
             "name": "Cimetière des Héros",
             "coordinates": [
@@ -143,10 +136,24 @@
             ]
           },
           {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "22,21"
+            ]
+          },
+          {
             "id": 778,
             "name": "Mine",
             "coordinates": [
               "-32,-57"
+            ]
+          },
+          {
+            "id": 32,
+            "name": "Sufokia",
+            "coordinates": [
+              "-21,-61"
             ]
           }
         ],
@@ -241,42 +248,6 @@
                 "name": "Chafer Lancier",
                 "level": 42,
                 "imageUrl": "/bestiary/monsters/290.png"
-              }
-            ]
-          },
-          {
-            "id": 9047,
-            "name": "Muldos sauvages",
-            "monsters": [
-              {
-                "id": 4438,
-                "name": "Muldo doré sauvage",
-                "level": 62,
-                "imageUrl": "/bestiary/monsters/4438.png"
-              },
-              {
-                "id": 4434,
-                "name": "Muldo indigo sauvage",
-                "level": 62,
-                "imageUrl": "/bestiary/monsters/4434.png"
-              },
-              {
-                "id": 4436,
-                "name": "Muldo orchidée sauvage",
-                "level": 62,
-                "imageUrl": "/bestiary/monsters/4436.png"
-              },
-              {
-                "id": 4437,
-                "name": "Muldo pourpre sauvage",
-                "level": 62,
-                "imageUrl": "/bestiary/monsters/4437.png"
-              },
-              {
-                "id": 4435,
-                "name": "Muldo ébène sauvage",
-                "level": 62,
-                "imageUrl": "/bestiary/monsters/4435.png"
               }
             ]
           },

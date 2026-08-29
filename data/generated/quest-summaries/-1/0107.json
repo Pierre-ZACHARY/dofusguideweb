@@ -1,11 +1,11 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 107,
-  "updatedAt": "2026-08-27T13:32:20.757Z",
+  "updatedAt": "2026-08-29T12:51:23.574Z",
   "summaries": [
     {
-      "overview": "Aidez Ramy, un rat des égouts, à réaliser son rêve de cuisiner avec de vrais aliments en convainquant le Chef Tonego de l'embaucher comme commis dans les cuisines du Palais de Bonta.",
+      "overview": "Lancez Cuisine raffinée dans les cuisines du Palais de Bonta, puis enquêtez sur les bruits venant du vide à ordures et cherchez comment convaincre Chef Tonego de donner sa chance à Ramy. Cette occurrence s'arrête dès que la quête vous demande de réunir les ingrédients, notamment 5 x Morceau d'emmental. Ne commencez pas encore leur drop : cette collecte sera effectuée plus tard dans le parcours du guide.",
       "recommendedLevel": 110,
       "prerequisites": [],
       "rewards": [
@@ -13,90 +13,108 @@
         "14 280 Kamas",
         "3 x Ouvrage magique d'Aloevée Rate"
       ],
-      "preparation": [
-        "10 x Oignon",
-        "10 x Aubergine",
-        "5 x Kole",
-        "1 x Sachet d'Épices",
-        "1 x Bol",
-        "1 combat (réalisable en groupe)",
-        "Combats contre des monstres pour drop à 6%"
-      ],
+      "preparation": [],
       "actions": [
         {
-          "instruction": "Allez dans les cuisines du Palais de Bonta en [-36,-60] et parlez au Commis à l'ouïe fine pour lancer la quête.",
+          "instruction": "Dans les cuisines du Palais de Bonta, parlez au Commis à l’ouïe fine pour lancer Cuisine raffinée et vous renseigner sur les bruits provenant du vide à ordures.",
           "position": "[-36,-60]",
-          "zoneHint": "Promontoire des cieux",
+          "zoneHint": "Cuisines du Palais de Bonta",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Cliquez sur la grille du vide à ordures pour descendre dans les égouts.",
-          "position": null,
+          "instruction": "Cliquez sur la grille du vide à ordures afin de descendre dans les égouts de Bonta.",
+          "position": "[-36,-60]",
+          "zoneHint": "Cuisines du Palais de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans les égouts, parlez à Ramy. Écoutez son explication puis proposez d'essayer de convaincre le chef des cuisines de l'embaucher comme commis.",
+          "position": "[-36,-60]",
           "zoneHint": "Égouts de Bonta",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Parlez à Ramy qui fouille dans les ordures. Proposez-lui de convaincre le chef des cuisines de l'embaucher comme commis.",
-          "position": null,
-          "zoneHint": "Égouts de Bonta",
+          "instruction": "Remontez dans les cuisines du Palais et parlez à Chef Tonego au sujet de Ramy. Il refuse de recruter le rat.",
+          "position": "[-36,-60]",
+          "zoneHint": "Cuisines du Palais de Bonta",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Retournez dans les cuisines du Palais de Bonta en [-36,-60] et parlez au Chef Tonego.",
+          "instruction": "Parlez de nouveau au Commis à l’ouïe fine. Il vous suggère de prouver à Chef Tonego que Ramy sait réellement cuisiner.",
           "position": "[-36,-60]",
-          "zoneHint": "Promontoire des cieux",
+          "zoneHint": "Cuisines du Palais de Bonta",
           "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez le Commis de cuisine : il vous apprend que Chef Tonego apprécie les légumes d'été et les plats épicés rappelant son enfance en Amakna.",
+          "position": "[-36,-60]",
+          "zoneHint": "Cuisines du Palais de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez la Commise de cuisine : elle estime qu'un plat sucré-salé pourrait également plaire au chef. Arrêtez-vous lorsque la quête demande de réunir les ingrédients, dont 5 x Morceau d'emmental.",
+          "position": "[-36,-60]",
+          "zoneHint": "Cuisines du Palais de Bonta",
+          "warning": "Ne récupérez pas encore les 5 x Morceau d'emmental dans cette occurrence : le guide impose un arrêt dès l'apparition de cet objectif.",
           "combat": "NONE"
         }
       ],
       "notes": [
-        "Le contenu source est tronqué ; la suite de la quête n'est pas détaillée.",
-        "Drop d'objets sur des monstres à 6% de taux."
+        "L'objectif qui suit demande notamment 5 x Morceau d'emmental, 5 x Kole, 1 x Sachet d’Épices, 10 x Oignon, 10 x Aubergine et 1 x Bol.",
+        "Les Morceaux d'emmental se récupèrent sur les rats des égouts de Bonta avec un taux de base de 6 %. Le guide prévoit de profiter ultérieurement du Garde-manger du Rat Blanc pour cette collecte.",
+        "Le Bol peut être acheté plus tard à Huta Wouite en [-33,-57] pour 6 kamas.",
+        "Le combat de quête et la préparation du Rat Tatouille auront lieu après la collecte des ingrédients et ne font pas partie de cette occurrence."
       ],
       "npcs": [
-        "Commis à l'ouïe fine",
+        "Commis à l’ouïe fine",
         "Ramy",
-        "Chef Tonego"
+        "Chef Tonego",
+        "Commis de cuisine",
+        "Commise de cuisine",
+        "Huta Wouite"
       ],
       "items": [
         {
-          "name": "Oignon",
-          "itemId": 1975,
-          "imageUrl": "/items/1975.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1975"
-        },
-        {
-          "name": "Aubergine",
-          "itemId": 2331,
-          "imageUrl": "/items/2331.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2331"
+          "name": "Morceau d'emmental",
+          "itemId": 26102,
+          "imageUrl": "/items/26102.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26102"
         },
         {
           "name": "Kole",
-          "itemId": 1018,
-          "imageUrl": "/items/1018.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1018"
+          "itemId": 2157,
+          "imageUrl": "/items/2157.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2157"
         },
         {
           "name": "Sachet d'Épices",
-          "itemId": 16825,
-          "imageUrl": "/items/16825.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16825"
+          "itemId": 11314,
+          "imageUrl": "/items/11314.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11314"
+        },
+        {
+          "name": "Oignon",
+          "itemId": 2608,
+          "imageUrl": "/items/2608.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2608"
+        },
+        {
+          "name": "Aubergine",
+          "itemId": 2869,
+          "imageUrl": "/items/2869.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2869"
         },
         {
           "name": "Bol",
-          "itemId": 1732,
-          "imageUrl": "/items/1732.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1732"
-        },
-        {
-          "name": "Ouvrage magique d'Aloevée Rate",
-          "itemId": 25761,
-          "imageUrl": "/items/25761.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/25761"
+          "itemId": 2469,
+          "imageUrl": "/items/2469.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2469"
         }
       ],
       "bestiary": {
@@ -194,97 +212,72 @@
         ]
       },
       "questKey": "quest:1392",
+      "relation": "START",
+      "sortOrder": 0,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/cuisine-raffinee.html",
       "sourceTitle": "Cuisine raffinée",
       "sourceHash": "65c867ca9ecd2583e14435baa3a9848b0c46869c10302313215cb6049f47a8cf",
-      "generatedAt": "2026-08-24T17:17:39.020Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     },
     {
-      "overview": "Enquête sur la disparition d'un marchand de vin à Bonta. Parlez aux témoins, suivez la piste d'une Épée étrange, puis affrontez le Rat Blanc dans son donjon pour récupérer le Grelot d'Hersa et obtenir des informations.",
+      "overview": "Lancez 41. Vin diou auprès d'Amayiro et menez l'enquête sur la disparition du marchand de vin jusqu'à identifier la piste liée aux sbires du Rat Blanc. Cette occurrence s'arrête dès que Hersa Griffe Sombre vous demande de vaincre le Rat Blanc pour récupérer son grelot. Le donjon et la suite de l'enquête seront réalisés lors d'une étape ultérieure du guide.",
       "recommendedLevel": 111,
       "prerequisites": [
-        "Quête « C'est stupéfiant » terminée"
+        "C'est stupéfiant."
       ],
       "rewards": [
         "6 334 872 XP"
       ],
-      "preparation": [
-        "1 x Donjon des Rats de Bonta (accès requis)"
-      ],
+      "preparation": [],
       "actions": [
         {
-          "instruction": "Se rendre à la Milice en [-32,-57] et parler à Amayiro. Il vous informe de la disparition du marchand de vin et vous charge d'enquêter.",
+          "instruction": "À la Milice de Bonta, parlez à Amayiro pour lancer 41. Vin diou. Il vous charge d'enquêter sur la disparition du marchand de vin.",
           "position": "[-32,-57]",
-          "zoneHint": null,
+          "zoneHint": "Milice de Bonta",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller à la Taverne de la Bagrutte en [-29,-59] et parler à Bagrutta Ventrepierre. Elle vous apprend que le marchand est rentré chez lui vers l'Est après son passage.",
+          "instruction": "Rendez-vous à la Taverne de la Bagrutte et parlez à Bagrutta Ventrepierre. Elle indique que le marchand est reparti vers l'est après son passage à la taverne.",
+          "position": "[-29,-59]",
+          "zoneHint": "Taverne de la Bagrutte",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sortez de la taverne et parlez à Tertofi Ablaru. Examinez avec lui les traces de lutte et récupérez l'information concernant l'Épée étrange trouvée sur place.",
           "position": "[-29,-59]",
           "zoneHint": null,
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Sortir de la taverne et parler à Tertofi Ablaru qui vous interpelle. Il vous montre des traces de combat et une Épée étrange trouvée sur les lieux.",
-          "position": null,
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Se rendre à l'atelier des forgerons en [-30,-56] et montrer l'Épée étrange à Kosuke Ichazum. Il identifie l'arme comme appartenant probablement à un Ecaflip.",
+          "instruction": "Allez à l'atelier des forgerons et montrez l'Épée étrange à Kosuke Ichazum. Il vous apprend que cette arme peu commune doit appartenir à un Ecaflip.",
           "position": "[-30,-56]",
-          "zoneHint": null,
+          "zoneHint": "Atelier des forgerons",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller à la sortie Sud de Bonta en [-30,-53] et parler à Hersa Griffe Sombre. Elle accepte de partager ses informations en échange de la récupération de son grelot, volé par les sbires du Rat Blanc.",
+          "instruction": "Dirigez-vous vers la sortie sud de Bonta et parlez à Hersa Griffe Sombre au sujet de l'épée. Elle accepte de vous renseigner à condition de récupérer son grelot dérobé par les sbires du Rat Blanc. Arrêtez-vous dès que l'objectif demande de vaincre 1 x Rat Blanc.",
           "position": "[-30,-53]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Entrer dans les égouts par l'accès en [-32,-58] ou [-35,-55].",
-          "position": "[-32,-58]",
-          "zoneHint": "Égouts",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Entrer dans le Donjon des Rats de Bonta en [-34,-59], vaincre le Rat Blanc et récupérer le Grelot d'Hersa.",
-          "position": "[-34,-59]",
-          "zoneHint": "Donjon des Rats de Bonta",
-          "warning": "Combat de groupe contre le Rat Blanc. Nécessite l'accès au Donjon des Rats de Bonta.",
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retourner voir Hersa Griffe Sombre en [-30,-53] et lui rapporter le Grelot d'Hersa. Elle vous révèle avoir déjà vu des Ecaflips étrangers à Bonta posséder ce type d'épée.",
-          "position": "[-30,-53]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Retourner voir Amayiro en [-32,-57] et lui résumer les éléments recueillis pour terminer la quête.",
-          "position": "[-32,-57]",
-          "zoneHint": null,
-          "warning": null,
+          "zoneHint": "Sortie sud de Bonta",
+          "warning": "Ne faites pas encore le Garde-manger du Rat Blanc dans cette occurrence : le guide impose un arrêt dès que l'objectif Vaincre x1 Rat Blanc apparaît.",
           "combat": "NONE"
         }
       ],
-      "notes": [],
+      "notes": [
+        "La prochaine portion demandera d'entrer dans le Garde-manger du Rat Blanc et de vaincre le Rat Blanc afin d'obtenir le Grelot d’Hersa.",
+        "Après ce donjon, il faudra plus tard rendre le grelot à Hersa Griffe Sombre puis faire le compte rendu à Amayiro pour terminer la quête.",
+        "Le donjon des Rats de Bonta est explicitement prévu par la quête, mais il ne doit pas être commencé dans cette occurrence."
+      ],
       "npcs": [
         "Amayiro",
         "Bagrutta Ventrepierre",
         "Tertofi Ablaru",
         "Kosuke Ichazum",
-        "Hersa Griffe Sombre",
-        "Rat Blanc"
+        "Hersa Griffe Sombre"
       ],
       "items": [
         {
@@ -306,37 +299,28 @@
             "id": 975,
             "name": "Cœur immaculé",
             "coordinates": [
-              "-32,-57",
-              "-32,-58"
+              "-32,-57"
             ]
           },
           {
             "id": 973,
             "name": "Faubourgs des artisans",
             "coordinates": [
-              "-30,-56",
+              "-30,-56"
+            ]
+          },
+          {
+            "id": 1013,
+            "name": "Garde-manger du Rat Blanc",
+            "coordinates": [
               "-30,-53"
             ]
           },
           {
-            "id": 974,
-            "name": "Havres d'ivoire",
+            "id": 442,
+            "name": "Lac",
             "coordinates": [
-              "-35,-55"
-            ]
-          },
-          {
-            "id": 778,
-            "name": "Mine",
-            "coordinates": [
-              "-32,-57"
-            ]
-          },
-          {
-            "id": 976,
-            "name": "Promontoire des cieux",
-            "coordinates": [
-              "-34,-59"
+              "-29,-59"
             ]
           },
           {
@@ -428,15 +412,53 @@
                 "imageUrl": "/bestiary/monsters/236.png"
               }
             ]
+          },
+          {
+            "id": 5160,
+            "name": "Rats Bontariens",
+            "monsters": [
+              {
+                "id": 6743,
+                "name": "Chika Rat",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6743.png"
+              },
+              {
+                "id": 6744,
+                "name": "Aloevée Rate",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6744.png"
+              },
+              {
+                "id": 941,
+                "name": "Chak Rat",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/941.png"
+              },
+              {
+                "id": 938,
+                "name": "Scélée Rate",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/938.png"
+              },
+              {
+                "id": 942,
+                "name": "Capoei Rat",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/942.png"
+              }
+            ]
           }
         ]
       },
       "questKey": "quest:126",
+      "relation": "START",
+      "sortOrder": 1,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/vin-diou.html",
       "sourceTitle": "Alignement 41 : Vin Diou",
       "sourceHash": "5ab04cbff64d595d728679fd4b04d6f274e3c0178bdb192b5c9c358f29069b9d",
-      "generatedAt": "2026-08-24T18:09:04.879Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     }
   ],
   "tips": []

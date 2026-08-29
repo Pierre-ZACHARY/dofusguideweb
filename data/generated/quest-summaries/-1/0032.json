@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 32,
-  "updatedAt": "2026-08-27T13:32:14.088Z",
+  "updatedAt": "2026-08-28T13:36:21.068Z",
   "summaries": [
     {
       "overview": "Aidez Cindy Cah à récupérer 15 Caissettes de Babioles volées par les Vilinsekts. Une Baguette Rikiki équipée permet d'entrer dans leurs quatre planques d'Astrub ; une fois à l'intérieur, vous pouvez reprendre votre arme habituelle. Après avoir vaincu 15 Vilinsekts et obtenu automatiquement les 15 caissettes, rapportez-les à Cindy Cah.",
@@ -265,6 +265,13 @@
       "bestiary": {
         "zones": [
           {
+            "id": 335,
+            "name": "Calanques d'Astrub",
+            "coordinates": [
+              "11,-24"
+            ]
+          },
+          {
             "id": 95,
             "name": "Cité d'Astrub",
             "coordinates": [
@@ -274,10 +281,9 @@
             ]
           },
           {
-            "id": 778,
-            "name": "Mine",
+            "id": 30,
+            "name": "Tainéla",
             "coordinates": [
-              "11,-24",
               "2,-31"
             ]
           }
@@ -326,9 +332,117 @@
             "name": "Pioustone le Problème",
             "level": 11,
             "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2272,
+            "name": "Pichakoté le Dégoutant",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2272.png"
+          },
+          {
+            "id": 2338,
+            "name": "Pichdourse le Puissant",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2338.png"
+          },
+          {
+            "id": 2346,
+            "name": "Pichduitre le Totem",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2346.png"
+          },
+          {
+            "id": 2340,
+            "name": "Pichtoire l'Erudit",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2340.png"
+          },
+          {
+            "id": 2315,
+            "name": "Boudalf le Blanc",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2315.png"
+          },
+          {
+            "id": 2317,
+            "name": "Boufdégou le Refoulant",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2317.png"
+          },
+          {
+            "id": 2324,
+            "name": "Bouflet le Puéril",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2324.png"
+          },
+          {
+            "id": 2316,
+            "name": "Boulgourvil le Lointain",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2316.png"
           }
         ],
         "achievements": [
+          {
+            "id": 200,
+            "name": "Bouftous",
+            "monsters": [
+              {
+                "id": 134,
+                "name": "Boufton Blanc",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/134.png"
+              },
+              {
+                "id": 149,
+                "name": "Boufton Noir",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/149.png"
+              },
+              {
+                "id": 148,
+                "name": "Chef de Guerre Bouftou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/148.png"
+              },
+              {
+                "id": 101,
+                "name": "Bouftou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/101.png"
+              }
+            ]
+          },
+          {
+            "id": 209,
+            "name": "Pichons",
+            "monsters": [
+              {
+                "id": 922,
+                "name": "Pichon Blanc",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/922.png"
+              },
+              {
+                "id": 921,
+                "name": "Pichon Bleu",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/921.png"
+              },
+              {
+                "id": 920,
+                "name": "Pichon Orange",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/920.png"
+              },
+              {
+                "id": 923,
+                "name": "Pichon Vert",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/923.png"
+              }
+            ]
+          },
           {
             "id": 217,
             "name": "Pious",

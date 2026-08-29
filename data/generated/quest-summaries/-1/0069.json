@@ -1,8 +1,417 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 69,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T11:28:40.954Z",
+  "summaries": [
+    {
+      "overview": "Lance la quête auprès de Mage Hellan. Il demande 10 Jus concentré de gelée. Le guide prévoit de les récupérer pendant la Gelaxième Dimension, mais il faut d'abord lancer « Moins on en a et plus on l'étale » à l'occurrence suivante ; ne commence donc pas encore le donjon ici.",
+      "recommendedLevel": 55,
+      "prerequisites": [],
+      "rewards": [
+        "198 584 XP",
+        "8 210 Kamas"
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parle à Mage Hellan pour lancer « Comment se mettre au jus » et recevoir l'objectif de rapporter 10 Jus concentré de gelée.",
+          "position": "[13,25]",
+          "zoneHint": "Sufokia",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête est journalière.",
+        "Les 10 Jus concentré de gelée sont obtenus sur les gelées à 100 % selon la source.",
+        "Dans ce parcours, leur récupération est volontairement différée afin de lancer d'abord « Moins on en a et plus on l'étale », puis de profiter de la Gelaxième Dimension."
+      ],
+      "npcs": [
+        "Mage Hellan"
+      ],
+      "items": [
+        {
+          "name": "Jus concentré de gelée",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 32,
+            "name": "Sufokia",
+            "coordinates": [
+              "13,25"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:651",
+      "relation": "START",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/comment-se-mettre-au-jus.html",
+      "sourceTitle": "Comment se mettre au jus",
+      "sourceHash": "ceb937d2aaef7bb64b93432886e1a1a31de82faa6aea9618118a4eeab28cd65a",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lance la quête du Petit Chacha Péron Rose, puis effectue la Gelaxième Dimension comme demandé par le guide afin d'y récupérer des Confitures de Gelée tout en avançant « Comment se mettre au jus ». Le guide précise qu'un seul passage ne permettra pas d'obtenir toutes les confitures nécessaires : ne cherche pas à terminer cette quête à cette occurrence.",
+      "recommendedLevel": 50,
+      "prerequisites": [],
+      "rewards": [
+        "610 092 XP",
+        "9 560 kamas",
+        "2 x Gelée Bleutée",
+        "2 x Gelée à la Fraise",
+        "2 x Gelée à la Menthe"
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parle au Petit Chacha Péron Rose pour lancer la quête. L'objectif final demande 10 Confiture Bleue, 10 Confiture Fraise et 10 Confiture Menthe.",
+          "position": "[6,30]",
+          "zoneHint": "Péninsule des gelées",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectue maintenant le donjon de la Gelaxième Dimension et récupère au passage les Confitures de Gelée disponibles ainsi que les 10 Jus concentré de gelée nécessaires à « Comment se mettre au jus ».",
+          "position": null,
+          "zoneHint": "Gelaxième Dimension",
+          "warning": "Des combats sont nécessaires. Le guide indique qu'un seul passage dans le donjon ne fournit pas toutes les Confitures de Gelée requises pour terminer cette quête.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "La source indique que les confitures se récupèrent sur les gelées à 100 % dans la Péninsule des gelées.",
+        "La quête complète exige 10 Confiture Bleue, 10 Confiture Fraise et 10 Confiture Menthe.",
+        "Le parcours considère cette quête comme facultative pour la suite de l'aventure : son achèvement éventuel est laissé pour plus tard."
+      ],
+      "npcs": [
+        "Petit Chacha Péron Rose"
+      ],
+      "items": [
+        {
+          "name": "Confiture Bleue",
+          "itemId": 18477,
+          "imageUrl": "/items/18477.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18477"
+        },
+        {
+          "name": "Confiture Fraise",
+          "itemId": 18475,
+          "imageUrl": "/items/18475.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18475"
+        },
+        {
+          "name": "Confiture Menthe",
+          "itemId": 18474,
+          "imageUrl": "/items/18474.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18474"
+        },
+        {
+          "name": "Jus concentré de gelée",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 77,
+            "name": "Gelaxième dimension",
+            "coordinates": []
+          },
+          {
+            "id": 12,
+            "name": "Péninsule des gelées",
+            "coordinates": [
+              "6,30"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2487,
+            "name": "Gelanal le Huileux",
+            "level": 54,
+            "imageUrl": "/bestiary/monsters/2487.png"
+          },
+          {
+            "id": 2376,
+            "name": "Gelaviv le Glaçon",
+            "level": 54,
+            "imageUrl": "/bestiary/monsters/2376.png"
+          },
+          {
+            "id": 2371,
+            "name": "Geloliaine l'Aérien",
+            "level": 54,
+            "imageUrl": "/bestiary/monsters/2371.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 179,
+            "name": "Gelées",
+            "monsters": [
+              {
+                "id": 55,
+                "name": "Gelée Bleuet",
+                "level": 54,
+                "imageUrl": "/bestiary/monsters/55.png"
+              },
+              {
+                "id": 429,
+                "name": "Gelée Citron",
+                "level": 54,
+                "imageUrl": "/bestiary/monsters/429.png"
+              },
+              {
+                "id": 57,
+                "name": "Gelée Fraise",
+                "level": 54,
+                "imageUrl": "/bestiary/monsters/57.png"
+              },
+              {
+                "id": 56,
+                "name": "Gelée Menthe",
+                "level": 54,
+                "imageUrl": "/bestiary/monsters/56.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1067",
+      "relation": "START",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/moins-on-en-a-et-plus-on-letale.html",
+      "sourceTitle": "Moins on en a et plus on l'étale",
+      "sourceHash": "e422cec7febfe68b40c25f926b04ba858380e55de1fc222ce7a7446179ca94e6",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après le passage dans la Gelaxième Dimension prévu à l'occurrence précédente, les 10 Jus concentré de gelée sont supposés être en ta possession. Reviens simplement auprès de Mage Hellan pour les remettre et terminer la quête.",
+      "recommendedLevel": 55,
+      "prerequisites": [
+        "Avoir lancé « Comment se mettre au jus ».",
+        "Posséder 10 Jus concentré de gelée, récupérés lors de la portion précédente du parcours."
+      ],
+      "rewards": [
+        "198 584 XP",
+        "8 210 Kamas"
+      ],
+      "preparation": [
+        "Vérifie que tu possèdes bien 10 Jus concentré de gelée avant de retourner à Sufokia."
+      ],
+      "actions": [
+        {
+          "instruction": "Retourne voir Mage Hellan et remets-lui les 10 Jus concentré de gelée pour terminer « Comment se mettre au jus ».",
+          "position": "[13,25]",
+          "zoneHint": "Sufokia",
+          "warning": "Les 10 Jus concentré de gelée sont consommés lors de leur remise pour valider l'objectif.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La collecte des jus n'est pas à refaire ici : elle est supposée avoir été effectuée pendant la Gelaxième Dimension à l'occurrence précédente.",
+        "« Moins on en a et plus on l'étale » peut rester inachevée ; sa finalisation n'est pas requise par cette occurrence."
+      ],
+      "npcs": [
+        "Mage Hellan"
+      ],
+      "items": [
+        {
+          "name": "Jus concentré de gelée",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 32,
+            "name": "Sufokia",
+            "coordinates": [
+              "13,25"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:651",
+      "relation": "FINISH",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/comment-se-mettre-au-jus.html",
+      "sourceTitle": "Comment se mettre au jus",
+      "sourceHash": "ceb937d2aaef7bb64b93432886e1a1a31de82faa6aea9618118a4eeab28cd65a",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Mutualiser les drops de gelées",
+      "description": "Le passage dans la Gelaxième Dimension prévu après le lancement des deux quêtes permet d'avancer simultanément les objectifs de drops de « Comment se mettre au jus » et de « Moins on en a et plus on l'étale ».",
+      "questKeys": [
+        "quest:651",
+        "quest:1067"
+      ],
+      "actions": [
+        "Lance d'abord « Comment se mettre au jus » auprès de Mage Hellan.",
+        "Lance ensuite « Moins on en a et plus on l'étale » auprès du Petit Chacha Péron Rose.",
+        "Pendant la Gelaxième Dimension, récupère les 10 Jus concentré de gelée et autant de Confitures de Gelée que possible."
+      ]
+    }
+  ]
 }

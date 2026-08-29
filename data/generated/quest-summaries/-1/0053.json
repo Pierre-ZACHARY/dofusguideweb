@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 53,
-  "updatedAt": "2026-08-27T13:32:18.816Z",
+  "updatedAt": "2026-08-29T09:59:13.306Z",
   "summaries": [
     {
       "overview": "Aidez Steff Taff à retrouver ses souvenirs. Après lui avoir apporté une Pomme, récupérez trois de ses anciennes créations dispersées dans la région, en affrontant les créatures qui les protègent, puis rapportez-les-lui.",
@@ -765,17 +765,17 @@
       "bestiary": {
         "zones": [
           {
-            "id": 472,
-            "name": "Feuillage de l'arbre Hakam",
-            "coordinates": [
-              "-55,15"
-            ]
-          },
-          {
             "id": 232,
             "name": "Marécages nauséabonds",
             "coordinates": [
               "-6,-3"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-55,15"
             ]
           }
         ],
@@ -798,24 +798,6 @@
             "name": "Crok le Beau",
             "level": 61,
             "imageUrl": "/bestiary/monsters/2428.png"
-          },
-          {
-            "id": 2383,
-            "name": "Poolopo la Traditionnelle",
-            "level": 142,
-            "imageUrl": "/bestiary/monsters/2383.png"
-          },
-          {
-            "id": 2382,
-            "name": "Toutouf le Velu",
-            "level": 144,
-            "imageUrl": "/bestiary/monsters/2382.png"
-          },
-          {
-            "id": 2570,
-            "name": "Kaskapointhe la Couverte",
-            "level": 152,
-            "imageUrl": "/bestiary/monsters/2570.png"
           }
         ],
         "achievements": [
@@ -846,30 +828,6 @@
                 "name": "Arakne Olithique",
                 "level": 62,
                 "imageUrl": "/bestiary/monsters/4833.png"
-              }
-            ]
-          },
-          {
-            "id": 162,
-            "name": "Peuple de l'Arbre",
-            "monsters": [
-              {
-                "id": 1020,
-                "name": "Bitouf Aérien",
-                "level": 144,
-                "imageUrl": "/bestiary/monsters/1020.png"
-              },
-              {
-                "id": 1044,
-                "name": "Kaskargo",
-                "level": 152,
-                "imageUrl": "/bestiary/monsters/1044.png"
-              },
-              {
-                "id": 1043,
-                "name": "Poolay",
-                "level": 142,
-                "imageUrl": "/bestiary/monsters/1043.png"
               }
             ]
           }

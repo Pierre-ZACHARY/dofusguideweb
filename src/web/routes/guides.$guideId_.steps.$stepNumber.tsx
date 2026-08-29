@@ -9,12 +9,14 @@ import { QuestStepTips } from "../components/QuestStepTips.js";
 import { ClassQuestGrid } from "../components/ClassQuestGrid.js";
 import { extractClassQuestGroups } from "../components/classQuestGroups.js";
 import { DungeonCard } from "../components/DungeonCard.js";
+import { buildStepInteractiveSections } from "../components/stepContentSections.js";
 import { getGuideData, getStepData } from "../data/staticContentClient.js";
 import { summarizeChapterProgress } from "../progress/chapterProgress.js";
 import { getStepProgress, isObjectiveCompleted, useProgress, type ObjectiveIdentity } from "../progress/progressStore.js";
 import { useAccount } from "../accounts/AccountProvider.js";
 import { FollowerProgressMarkers } from "../accounts/FollowerMarkers.js";
 import { chapterPercentForProfile, currentStepForProfile, followersInChapter } from "../accounts/followedProgress.js";
+import { usePresenceLocation } from "../presence/PresenceProvider.js";
 
 export const Route = createFileRoute("/guides/$guideId_/steps/$stepNumber")({
   loader: async ({ params }) => {
@@ -37,10 +39,10 @@ function isHeaderMarker(element: ReturnType<typeof Route.useLoaderData>["element
 
 function StepPage() {
   const step = Route.useLoaderData();
+  usePresenceLocation({ guideId: step.guide.id, stepNumber: step.stepNumber });
   const { profile, setStepStatus } = useProgress();
   const { account } = useAccount();
   const elements = [...step.elements].sort((a, b) => a.visualOrder - b.visualOrder);
-  const dungeons = elements.filter((element) => element.type === "DUNGEON");
   const items = elements.filter((element) => element.type === "ITEMS");
   const headerImage = elements.find((element) => element.type === "IMAGE" && typeof element.value === "string");
   const classQuestGroups = extractClassQuestGroups(elements);
@@ -82,17 +84,15 @@ function StepPage() {
     : questObjectives.filter((objective) => isObjectiveCompleted(profile, objective)).length;
   const objectiveCount = usesManualCompletion ? 1 : questObjectives.length;
   const firstOrder = (matchingElements: typeof elements): number => matchingElements[0]?.visualOrder ?? Number.MAX_SAFE_INTEGER;
+  const interactiveSections = buildStepInteractiveSections(elements, step.quests);
+  const firstDungeonId = interactiveSections.find((section) => section.kind === "dungeons")?.dungeons[0]?.id;
   const contentSections = [
     ...((instructions.length > 0 || items.length > 0 || classQuestGroups.groups.length > 0)
       ? [{ kind: "instructions" as const, order: firstOrder(instructionElements) }]
       : []),
-    ...(step.quests.length > 0
-      ? [{ kind: "quests" as const, order: firstOrder(elements.filter((element) => element.type.startsWith("QUEST"))) }]
-      : []),
-    ...(dungeons.length > 0
-      ? [{ kind: "dungeons" as const, order: firstOrder(dungeons) }]
-      : []),
+    ...interactiveSections,
   ].sort((left, right) => left.order - right.order);
+  const firstQuestSection = contentSections.find((section) => section.kind === "quests");
 
   return (
     <div className="mx-auto max-w-5xl space-y-7">
@@ -170,7 +170,7 @@ function StepPage() {
         </div>
       </header>
 
-      {contentSections.map((section) => {
+      {contentSections.map((section, sectionIndex) => {
         if (section.kind === "instructions") return (
           <section className="space-y-4" key={section.kind}>
             <div className="divider">Instructions</div>
@@ -184,21 +184,21 @@ function StepPage() {
           </section>
         );
         if (section.kind === "quests") return (
-          <section key={section.kind}>
+          <section key={"quests-" + section.order + "-" + sectionIndex}>
             <div className="divider">Quêtes</div>
-            <QuestStepTips tips={step.tips} quests={step.quests} />
-            <QuestChecklist guideId={step.guide.id} stepNumber={step.stepNumber} quests={step.quests} totalObjectives={objectiveCount} followers={stepFollowers} />
+            {section === firstQuestSection && <QuestStepTips tips={step.tips} quests={step.quests} />}
+            <QuestChecklist guideId={step.guide.id} stepNumber={step.stepNumber} quests={section.quests} totalObjectives={objectiveCount} followers={stepFollowers} />
           </section>
         );
         return (
-          <section key={section.kind}>
+          <section key={"dungeons-" + section.order + "-" + sectionIndex}>
             <div className="divider">Donjons</div>
             <div className="flex flex-wrap justify-center gap-5">
-              {dungeons.map((element, index) => (
+              {section.dungeons.map((element) => (
                 <DungeonCard
                   key={element.id}
                   element={element}
-                  featured={index === 0}
+                  featured={element.id === firstDungeonId}
                   guideId={step.guide.id}
                   stepNumber={step.stepNumber}
                 />

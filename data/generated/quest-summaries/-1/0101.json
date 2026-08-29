@@ -1,50 +1,45 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 101,
-  "updatedAt": "2026-08-27T13:32:19.679Z",
+  "updatedAt": "2026-08-29T11:29:33.668Z",
   "summaries": [
     {
-      "overview": "Lancer la quête auprès d'Amayiro à la milice de Bonta, se rendre à l'embarcadère de Brâkmar pour y affronter un Commando Brâkmarien, puis rapporter les Badges Brâkmarien à Amayiro.",
+      "overview": "Poursuivez la mission confiée par Amayiro en neutralisant le commando brâkmarien à l'embarcadère de Brâkmar, puis rapportez les Badges Brâkmarien à la milice de Bonta. Cette étape doit être terminée avant de pouvoir lancer Leçon de cuisine.",
       "recommendedLevel": 66,
       "prerequisites": [
-        "Tabi t'a fleuri"
+        "Avoir terminé Tabi t'a fleuri.",
+        "Avoir déjà lancé Des badges pour la bonne cause auprès de Amayiro."
       ],
       "rewards": [
-        "1 100 139 XP"
+        "1 100 139 XP."
       ],
       "preparation": [
-        "Prévoir un combat contre des membres d'un Commando Brâkmarien."
+        "Prévoir un combat contre les membres d'un Commando Brâkmarien.",
+        "Le combat peut être effectué à plusieurs."
       ],
       "actions": [
         {
-          "instruction": "Parler à Amayiro à la milice de Bonta pour accepter la quête.",
-          "position": "[-32,-57]",
-          "zoneHint": "Bonta",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Se rendre à l'embarcadère de Brâkmar et attaquer les membres du Commando Brâkmarien. Ramasser les Badges Brâkmarien.",
+          "instruction": "Rendez-vous à l'embarcadère de Brâkmar et attaquez les membres du Commando Brâkmarien. Remportez le combat afin d'obtenir les Badges Brâkmarien dans votre inventaire de quête.",
           "position": "[-20,39]",
-          "zoneHint": "Brâkmar",
-          "warning": "Combat contre des membres d'un Commando Brâkmarien. Peut s'effectuer à plusieurs.",
+          "zoneHint": "Embarcadère de Brâkmar",
+          "warning": "Combat obligatoire contre le Commando Brâkmarien ; il peut être réalisé en groupe.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Retourner voir Amayiro à la milice de Bonta pour lui remettre les Badges Brâkmarien et terminer la quête.",
+          "instruction": "Retournez à la milice de Bonta et remettez les preuves de votre victoire à Amayiro pour terminer la quête et débloquer Leçon de cuisine.",
           "position": "[-32,-57]",
-          "zoneHint": "Bonta",
+          "zoneHint": "Milice de Bonta",
           "warning": null,
           "combat": "NONE"
         }
       ],
       "notes": [
-        "Débloque la quête d'alignement Bontarien niveau 37 : Leçon de cuisine."
+        "Cette quête doit être rendue avant de lancer Leçon de cuisine, qui en dépend directement."
       ],
       "npcs": [
         "Amayiro",
-        "Commando Brâkmarien"
+        "Membres du Commando Brâkmarien"
       ],
       "items": [
         {
@@ -57,17 +52,17 @@
       "bestiary": {
         "zones": [
           {
-            "id": 975,
-            "name": "Cœur immaculé",
-            "coordinates": [
-              "-32,-57"
-            ]
-          },
-          {
             "id": 978,
             "name": "L'Ancre",
             "coordinates": [
               "-20,39"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
             ]
           }
         ],
@@ -156,63 +151,47 @@
         ]
       },
       "questKey": "quest:38",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/des-badges-pour-la-bonne-cause.html",
       "sourceTitle": "Alignement 36 : Des badges pour la bonne cause",
       "sourceHash": "075094b4df2dccc1e15d2b3a1bd94efbae1c0c90c6f61a98cd3f0d01dcf00840",
-      "generatedAt": "2026-08-24T17:18:52.711Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     },
     {
-      "overview": "Aider le cuisinier Rei Nisuc à la milice de Bonta en allant chercher des ingrédients sur l'île de Moon : 3 Boule de Trukikol sur les Trukikol et 1 Cervelle de Tortue périssable sur les Tortues.",
+      "overview": "Lancez Leçon de cuisine et avancez uniquement jusqu'à recevoir la demande de ressources de Rei Nisuc. Les 3 Boules de Trukikol seront récupérées pendant le passage à l'Arbre de Moon avec Rendez-vous avec la lune ; la Cervelle de tortue sera volontairement obtenue après le donjon, juste avant le retour au cuisinier.",
       "recommendedLevel": 67,
       "prerequisites": [
-        "Des badges pour la bonne cause"
+        "Avoir terminé Des badges pour la bonne cause."
       ],
       "rewards": [
-        "1 120 294 XP"
+        "1 120 294 XP."
       ],
       "preparation": [
-        "Il faudra combattre des Trukikol et des Tortues"
+        "La quête demandera 3 Boules de Trukikol et 1 Cervelle de tortue.",
+        "Ne cherchez pas encore la Cervelle de tortue : elle doit être récupérée en dernier car elle devient inutilisable après 5 minutes dans l'inventaire."
       ],
       "actions": [
         {
-          "instruction": "Parler à Amayiro à la milice de Bonta.",
+          "instruction": "À la milice de Bonta, parlez à Amayiro pour lancer Leçon de cuisine et apprendre que le cuisinier a besoin de votre aide.",
           "position": "[-32,-57]",
           "zoneHint": "Milice de Bonta",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller aux cuisines de la milice (deux fois à droite depuis Amayiro) et parler à Rei Nisuc. Accepter de l'aider.",
-          "position": null,
-          "zoneHint": "Cuisines de la milice",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Entrer dans la jungle profonde de Moon et combattre des Trukikol pour obtenir 3 Boule de Trukikol.",
-          "position": null,
-          "zoneHint": "Jungle profonde de Moon",
-          "warning": "Combat contre des Trukikol.",
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Dans la jungle profonde de Moon, combattre des Tortues pour obtenir 1 Cervelle de Tortue.",
-          "position": null,
-          "zoneHint": "Jungle profonde de Moon",
-          "warning": "Taux de drop de base : 50 %. La Cervelle de Tortue devient inutilisable après 5 minutes dans l'inventaire. La dropper en dernier et la rapporter immédiatement au cuisinier.",
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retourner à la milice de Bonta et donner la Cervelle de Tortue à Rei Nisuc.",
+          "instruction": "Depuis Amayiro, allez deux fois à droite pour rejoindre les cuisines de la milice, puis parlez à Rei Nisuc et acceptez de lui rapporter les ressources demandées sur l'île de Moon.",
           "position": "[-32,-57]",
-          "zoneHint": "Milice de Bonta",
+          "zoneHint": "Cuisines de la milice de Bonta",
           "warning": null,
           "combat": "NONE"
         }
       ],
       "notes": [
-        "La quête débloque la quête suivante : Alignement 38 - Ras le bol de Lenglad."
+        "Arrêtez ici la progression de Leçon de cuisine pour lancer Rendez-vous avec la lune avant l'Arbre de Moon.",
+        "Les 3 Boules de Trukikol peuvent être obtenues pendant l'Arbre de Moon.",
+        "La Cervelle de tortue sera obtenue après le donjon puis rendue rapidement à Rei Nisuc lors de l'étape suivante."
       ],
       "npcs": [
         "Amayiro",
@@ -226,10 +205,10 @@
           "dofusDbUrl": null
         },
         {
-          "name": "Cervelle de Tortue",
-          "itemId": null,
-          "imageUrl": null,
-          "dofusDbUrl": null
+          "name": "Cervelle de tortue",
+          "itemId": 2354,
+          "imageUrl": "/items/2354.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2354"
         }
       ],
       "bestiary": {
@@ -327,77 +306,65 @@
         ]
       },
       "questKey": "quest:39",
+      "relation": "START",
+      "sortOrder": 1,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/leccedilon-de-cuisine.html",
       "sourceTitle": "Alignement 37 : Leçon de cuisine",
       "sourceHash": "b77e3cd3cac1ab12ec5b4a7593a298c68c11a7a239eb8d461a982e733eb15728",
-      "generatedAt": "2026-08-24T17:42:32.439Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     },
     {
-      "overview": "Mamie, dans la Forêt des Masques, vous confie un jeune pousse de ginsengoku. Récupérez 5 Engrais de Moon sur les monstres de la Jungle Interdite, enterrez le pousse au pied d'un totem pour obtenir une Racine lunaire de ginsengoku, puis affrontez le Moon dans son donjon pour lui offrir la racine et recevoir le Dokoko.",
+      "overview": "Lancez Rendez-vous avec la lune et avancez jusqu'à l'objectif demandant d'enterrer la Jeune pousse de ginsengoku avec 5 Engrais de Moon au pied du totem. Profitez ensuite de l'Arbre de Moon pour récupérer les 5 Engrais pendant les quatre premières salles, ressortez pour mettre l'objectif à jour au totem, puis retournez dans le donjon et battez le Moon. Arrêtez-vous après cette victoire : les interactions finales avec le Moon ne font pas partie des actions demandées à cette occurrence.",
       "recommendedLevel": 100,
       "prerequisites": [
-        "Squelettes et amulettes"
+        "Avoir terminé Squelettes et amulettes."
       ],
       "rewards": [
-        "2 047 500 XP",
-        "23 960 kamas",
-        "2 x Fleur de Gloutovore",
-        "2 x Feuille de Fourbasse",
-        "2 x Trukikol Mort"
+        "2 047 500 XP.",
+        "23 960 kamas.",
+        "2 Fleurs de Gloutovore.",
+        "2 Feuilles de Fourbasse.",
+        "2 Trukikols Morts."
       ],
       "preparation": [
-        "Avoir la clef du donjon Arbre de Moon",
-        "Prévoir des combats de groupe"
+        "Prévoir un passage dans le donjon Arbre de Moon.",
+        "Conserver la Jeune pousse de ginsengoku reçue pour la quête.",
+        "Il faut obtenir exactement 5 Engrais de Moon."
       ],
       "actions": [
         {
-          "instruction": "Aller en Forêt des Masques [31,9] et parler à Mamie pour lancer la quête. Vous recevez un Jeune pousse de ginsengoku.",
+          "instruction": "Dans la Forêt des Masques, lancez ou poursuivez le dialogue de la quête jusqu'à obtenir l'objectif demandant d'enterrer la Jeune pousse de ginsengoku et 5 Engrais de Moon au pied d'un totem.",
           "position": "[31,9]",
           "zoneHint": "Forêt des Masques",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Tuer des monstres dans la Jungle Interdite jusqu'à obtenir 5 x Engrais de Moon.",
-          "position": null,
-          "zoneHint": "Jungle Interdite",
-          "warning": "Taux de drop de base de 30%",
+          "instruction": "Rendez-vous auprès de la servante de Moon, entrez dans l'Arbre de Moon puis effectuez les quatre premières salles. Profitez de ces combats pour obtenir les 5 Engrais de Moon nécessaires.",
+          "position": "[29,6]",
+          "zoneHint": "Arbre de Moon",
+          "warning": "Des combats de donjon sont obligatoires. Ne poursuivez pas directement jusqu'au boss avant d'avoir obtenu les 5 Engrais de Moon et effectué la sortie prévue par le guide.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Aller en [31,7] et cliquer sur le totem pour enterrer le Jeune pousse de ginsengoku. Récupérer la Racine lunaire de ginsengoku.",
+          "instruction": "Sortez du donjon une fois les 5 Engrais de Moon obtenus, rendez-vous au totem et cliquez dessus pour enterrer la Jeune pousse de ginsengoku avec les 5 doses d'engrais et récupérer la Racine lunaire de ginsengoku.",
           "position": "[31,7]",
           "zoneHint": null,
-          "warning": null,
+          "warning": "Cette sortie intermédiaire est nécessaire pour mettre la quête à jour avant le combat contre le Moon.",
           "combat": "NONE"
         },
         {
-          "instruction": "Aller voir la Servante de Moon en [29,6] et lui donner la clef du donjon.",
+          "instruction": "Retournez à l'Arbre de Moon, rejoignez la salle du boss et vainquez le Moon.",
           "position": "[29,6]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Entrer dans l'Arbre de Moon, effectuer le donjon et vaincre le petit singe.",
-          "position": null,
           "zoneHint": "Arbre de Moon",
-          "warning": "Donjon, prévoir un groupe",
+          "warning": "Combat de boss obligatoire. Arrêtez la progression de cette occurrence après la victoire : n'effectuez pas encore les échanges finaux avec le Moon.",
           "combat": "GROUP"
-        },
-        {
-          "instruction": "Offrir la Racine lunaire de ginsengoku au Moon, puis lui demander un Dokoko. Parler de Gropinson au Moon pour qu'il lui en fasse livrer un.",
-          "position": null,
-          "zoneHint": "Arbre de Moon",
-          "warning": null,
-          "combat": "NONE"
         }
       ],
       "notes": [
-        "Premier succès de l'île de Moon",
-        "Suite possible : succès Monnaie de singe",
-        "Le Dokoko est un faux Dofus : tous les 3 tours à partir du tour 4, le lanceur regagne 10% de sa vitalité maximale"
+        "Les 5 Engrais de Moon sont volontairement récupérés pendant les quatre premières salles de l'Arbre de Moon afin de mutualiser ce passage avec Leçon de cuisine.",
+        "Après la victoire contre le Moon, la source prévoit encore de lui offrir la Racine lunaire de ginsengoku et de demander un Dokoko, mais ces actions sont volontairement laissées pour plus tard."
       ],
       "npcs": [
         "Mamie",
@@ -422,36 +389,6 @@
           "itemId": 17282,
           "imageUrl": "/items/17282.png",
           "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17282"
-        },
-        {
-          "name": "Clef du donjon",
-          "itemId": null,
-          "imageUrl": null,
-          "dofusDbUrl": null
-        },
-        {
-          "name": "Dokoko",
-          "itemId": 17078,
-          "imageUrl": "/items/17078.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17078"
-        },
-        {
-          "name": "Fleur de Gloutovore",
-          "itemId": 2253,
-          "imageUrl": "/items/2253.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2253"
-        },
-        {
-          "name": "Feuille de Fourbasse",
-          "itemId": 2254,
-          "imageUrl": "/items/2254.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2254"
-        },
-        {
-          "name": "Trukikol Mort",
-          "itemId": 2607,
-          "imageUrl": "/items/2607.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2607"
         }
       ],
       "bestiary": {
@@ -459,7 +396,9 @@
           {
             "id": 847,
             "name": "Arbre de Moon",
-            "coordinates": []
+            "coordinates": [
+              "29,6"
+            ]
           },
           {
             "id": 166,
@@ -472,8 +411,7 @@
             "id": 165,
             "name": "Jungle Interdite",
             "coordinates": [
-              "31,7",
-              "29,6"
+              "31,7"
             ]
           }
         ],
@@ -599,12 +537,28 @@
         ]
       },
       "questKey": "quest:935",
+      "relation": "START",
+      "sortOrder": 2,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/rendez-vous-avec-la-lune.html",
       "sourceTitle": "Rendez-vous avec la lune",
       "sourceHash": "23718e92f4eb95f0886cacdee470e5516cc27a253e0d70ba8fe424922eddca57",
-      "generatedAt": "2026-08-24T18:01:57.116Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     }
   ],
-  "tips": []
+  "tips": [
+    {
+      "title": "Mutualiser l'Arbre de Moon",
+      "description": "Le passage dans l'Arbre de Moon sert simultanément à Rendez-vous avec la lune et à préparer Leçon de cuisine : profitez des combats du donjon pour récupérer les ressources compatibles avant de ressortir pour mettre la quête du Moon à jour.",
+      "questKeys": [
+        "quest:39",
+        "quest:935"
+      ],
+      "actions": [
+        "Pendant les quatre premières salles de l'Arbre de Moon, récupérez les 5 Engrais de Moon pour Rendez-vous avec la lune.",
+        "Profitez du même passage pour récupérer les 3 Boules de Trukikol nécessaires à 37. Leçon de cuisine.",
+        "Gardez la Cervelle de tortue pour après le donjon afin d'éviter son expiration au bout de 5 minutes."
+      ]
+    }
+  ]
 }

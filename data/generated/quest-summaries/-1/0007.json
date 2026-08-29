@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 7,
-  "updatedAt": "2026-08-27T13:32:07.902Z",
+  "updatedAt": "2026-08-28T13:36:14.893Z",
   "summaries": [
     {
       "overview": "Proposez vos services au Capitaine des Kerubims puis passez son test d'aptitude en affrontant seul la Caporale Mynerve en haut de la tour. Une fois Mynerve vaincue, reparlez au Capitaine pour terminer la quête et accéder à la mission suivante, Champs de bataille.",
@@ -57,91 +57,16 @@
       "bestiary": {
         "zones": [
           {
-            "id": 778,
-            "name": "Mine",
-            "coordinates": [
-              "0,-4"
-            ]
-          },
-          {
-            "id": 10,
-            "name": "Village d'Amakna",
+            "id": 444,
+            "name": "Champs",
             "coordinates": [
               "0,-4"
             ]
           }
         ],
         "bounties": [],
-        "archmonsters": [
-          {
-            "id": 2343,
-            "name": "Pioufe la Maquillée",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2343.png"
-          },
-          {
-            "id": 2345,
-            "name": "Pioukas la Plante",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2345.png"
-          },
-          {
-            "id": 2342,
-            "name": "Pioulbrineur le Mercenaire",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2342.png"
-          },
-          {
-            "id": 2347,
-            "name": "Pioussokrim le Délétère",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2347.png"
-          },
-          {
-            "id": 2341,
-            "name": "Pioustone le Problème",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2341.png"
-          }
-        ],
-        "achievements": [
-          {
-            "id": 217,
-            "name": "Pious",
-            "monsters": [
-              {
-                "id": 491,
-                "name": "Piou Bleu",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/491.png"
-              },
-              {
-                "id": 493,
-                "name": "Piou Jaune",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/493.png"
-              },
-              {
-                "id": 492,
-                "name": "Piou Rose",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/492.png"
-              },
-              {
-                "id": 490,
-                "name": "Piou Vert",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/490.png"
-              },
-              {
-                "id": 236,
-                "name": "Piou Violet",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/236.png"
-              }
-            ]
-          }
-        ]
+        "archmonsters": [],
+        "achievements": []
       },
       "questKey": "quest:908",
       "sourceUrl": "https://www.dofuspourlesnoobs.com/mise-agrave-leacutepreuve.html",
@@ -207,86 +132,11 @@
             "coordinates": [
               "0,-4"
             ]
-          },
-          {
-            "id": 10,
-            "name": "Village d'Amakna",
-            "coordinates": [
-              "0,-4"
-            ]
           }
         ],
         "bounties": [],
-        "archmonsters": [
-          {
-            "id": 2343,
-            "name": "Pioufe la Maquillée",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2343.png"
-          },
-          {
-            "id": 2345,
-            "name": "Pioukas la Plante",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2345.png"
-          },
-          {
-            "id": 2342,
-            "name": "Pioulbrineur le Mercenaire",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2342.png"
-          },
-          {
-            "id": 2347,
-            "name": "Pioussokrim le Délétère",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2347.png"
-          },
-          {
-            "id": 2341,
-            "name": "Pioustone le Problème",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2341.png"
-          }
-        ],
-        "achievements": [
-          {
-            "id": 217,
-            "name": "Pious",
-            "monsters": [
-              {
-                "id": 491,
-                "name": "Piou Bleu",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/491.png"
-              },
-              {
-                "id": 493,
-                "name": "Piou Jaune",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/493.png"
-              },
-              {
-                "id": 492,
-                "name": "Piou Rose",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/492.png"
-              },
-              {
-                "id": 490,
-                "name": "Piou Vert",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/490.png"
-              },
-              {
-                "id": 236,
-                "name": "Piou Violet",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/236.png"
-              }
-            ]
-          }
-        ]
+        "archmonsters": [],
+        "achievements": []
       },
       "questKey": "quest:909",
       "sourceUrl": "https://www.dofuspourlesnoobs.com/champs-de-bataille.html",
@@ -357,86 +207,11 @@
             "id": 442,
             "name": "Lac",
             "coordinates": []
-          },
-          {
-            "id": 10,
-            "name": "Village d'Amakna",
-            "coordinates": [
-              "0,-4"
-            ]
           }
         ],
         "bounties": [],
-        "archmonsters": [
-          {
-            "id": 2343,
-            "name": "Pioufe la Maquillée",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2343.png"
-          },
-          {
-            "id": 2345,
-            "name": "Pioukas la Plante",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2345.png"
-          },
-          {
-            "id": 2342,
-            "name": "Pioulbrineur le Mercenaire",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2342.png"
-          },
-          {
-            "id": 2347,
-            "name": "Pioussokrim le Délétère",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2347.png"
-          },
-          {
-            "id": 2341,
-            "name": "Pioustone le Problème",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2341.png"
-          }
-        ],
-        "achievements": [
-          {
-            "id": 217,
-            "name": "Pious",
-            "monsters": [
-              {
-                "id": 491,
-                "name": "Piou Bleu",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/491.png"
-              },
-              {
-                "id": 493,
-                "name": "Piou Jaune",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/493.png"
-              },
-              {
-                "id": 492,
-                "name": "Piou Rose",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/492.png"
-              },
-              {
-                "id": 490,
-                "name": "Piou Vert",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/490.png"
-              },
-              {
-                "id": 236,
-                "name": "Piou Violet",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/236.png"
-              }
-            ]
-          }
-        ]
+        "archmonsters": [],
+        "achievements": []
       },
       "questKey": "quest:910",
       "sourceUrl": "https://www.dofuspourlesnoobs.com/coups-deacutepeacutee-dans-leau.html",
@@ -497,8 +272,8 @@
       "bestiary": {
         "zones": [
           {
-            "id": 778,
-            "name": "Mine",
+            "id": 444,
+            "name": "Champs",
             "coordinates": [
               "0,-4"
             ]
@@ -507,86 +282,11 @@
             "id": 445,
             "name": "Pâturages",
             "coordinates": []
-          },
-          {
-            "id": 10,
-            "name": "Village d'Amakna",
-            "coordinates": [
-              "0,-4"
-            ]
           }
         ],
         "bounties": [],
-        "archmonsters": [
-          {
-            "id": 2343,
-            "name": "Pioufe la Maquillée",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2343.png"
-          },
-          {
-            "id": 2345,
-            "name": "Pioukas la Plante",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2345.png"
-          },
-          {
-            "id": 2342,
-            "name": "Pioulbrineur le Mercenaire",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2342.png"
-          },
-          {
-            "id": 2347,
-            "name": "Pioussokrim le Délétère",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2347.png"
-          },
-          {
-            "id": 2341,
-            "name": "Pioustone le Problème",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2341.png"
-          }
-        ],
-        "achievements": [
-          {
-            "id": 217,
-            "name": "Pious",
-            "monsters": [
-              {
-                "id": 491,
-                "name": "Piou Bleu",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/491.png"
-              },
-              {
-                "id": 493,
-                "name": "Piou Jaune",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/493.png"
-              },
-              {
-                "id": 492,
-                "name": "Piou Rose",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/492.png"
-              },
-              {
-                "id": 490,
-                "name": "Piou Vert",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/490.png"
-              },
-              {
-                "id": 236,
-                "name": "Piou Violet",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/236.png"
-              }
-            ]
-          }
-        ]
+        "archmonsters": [],
+        "achievements": []
       },
       "questKey": "quest:911",
       "sourceUrl": "https://www.dofuspourlesnoobs.com/deacutecime-moi-des-bouftous.html",
@@ -647,91 +347,16 @@
       "bestiary": {
         "zones": [
           {
-            "id": 778,
-            "name": "Mine",
-            "coordinates": [
-              "0,-4"
-            ]
-          },
-          {
-            "id": 10,
-            "name": "Village d'Amakna",
+            "id": 444,
+            "name": "Champs",
             "coordinates": [
               "0,-4"
             ]
           }
         ],
         "bounties": [],
-        "archmonsters": [
-          {
-            "id": 2343,
-            "name": "Pioufe la Maquillée",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2343.png"
-          },
-          {
-            "id": 2345,
-            "name": "Pioukas la Plante",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2345.png"
-          },
-          {
-            "id": 2342,
-            "name": "Pioulbrineur le Mercenaire",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2342.png"
-          },
-          {
-            "id": 2347,
-            "name": "Pioussokrim le Délétère",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2347.png"
-          },
-          {
-            "id": 2341,
-            "name": "Pioustone le Problème",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2341.png"
-          }
-        ],
-        "achievements": [
-          {
-            "id": 217,
-            "name": "Pious",
-            "monsters": [
-              {
-                "id": 491,
-                "name": "Piou Bleu",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/491.png"
-              },
-              {
-                "id": 493,
-                "name": "Piou Jaune",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/493.png"
-              },
-              {
-                "id": 492,
-                "name": "Piou Rose",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/492.png"
-              },
-              {
-                "id": 490,
-                "name": "Piou Vert",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/490.png"
-              },
-              {
-                "id": 236,
-                "name": "Piou Violet",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/236.png"
-              }
-            ]
-          }
-        ]
+        "archmonsters": [],
+        "achievements": []
       },
       "questKey": "quest:912",
       "sourceUrl": "https://www.dofuspourlesnoobs.com/chasse-aux-chapardams.html",
@@ -795,92 +420,23 @@
       "bestiary": {
         "zones": [
           {
-            "id": 778,
-            "name": "Mine",
+            "id": 444,
+            "name": "Champs",
             "coordinates": [
               "0,-4"
             ]
           },
           {
-            "id": 10,
-            "name": "Village d'Amakna",
+            "id": 443,
+            "name": "Forêt",
             "coordinates": [
-              "1,0",
-              "0,-4"
+              "1,0"
             ]
           }
         ],
         "bounties": [],
-        "archmonsters": [
-          {
-            "id": 2343,
-            "name": "Pioufe la Maquillée",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2343.png"
-          },
-          {
-            "id": 2345,
-            "name": "Pioukas la Plante",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2345.png"
-          },
-          {
-            "id": 2342,
-            "name": "Pioulbrineur le Mercenaire",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2342.png"
-          },
-          {
-            "id": 2347,
-            "name": "Pioussokrim le Délétère",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2347.png"
-          },
-          {
-            "id": 2341,
-            "name": "Pioustone le Problème",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2341.png"
-          }
-        ],
-        "achievements": [
-          {
-            "id": 217,
-            "name": "Pious",
-            "monsters": [
-              {
-                "id": 491,
-                "name": "Piou Bleu",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/491.png"
-              },
-              {
-                "id": 493,
-                "name": "Piou Jaune",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/493.png"
-              },
-              {
-                "id": 492,
-                "name": "Piou Rose",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/492.png"
-              },
-              {
-                "id": 490,
-                "name": "Piou Vert",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/490.png"
-              },
-              {
-                "id": 236,
-                "name": "Piou Violet",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/236.png"
-              }
-            ]
-          }
-        ]
+        "archmonsters": [],
+        "achievements": []
       },
       "questKey": "quest:913",
       "sourceUrl": "https://www.dofuspourlesnoobs.com/leccedilon-dhumiliteacute.html",

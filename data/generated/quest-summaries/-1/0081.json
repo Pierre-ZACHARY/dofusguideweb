@@ -1,8 +1,423 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 81,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T11:29:00.221Z",
+  "summaries": [
+    {
+      "overview": "La collecte des trois prélèvements extérieurs puis des échantillons osseux dans les salles 3, 4 et 5 du Cimetière des mastodontes est supposée déjà effectuée à l'étape précédente. Reprenez auprès de Mayko Zouzoo avec ces échantillons, faites analyser la substance, achetez la boisson nécessaire puis protégez Mayko lors du combat final afin de terminer la quête.",
+      "recommendedLevel": 80,
+      "prerequisites": [
+        "Avoir atteint l'objectif de récupération des échantillons osseux dans les salles 3, 4 et 5 du Cimetière des mastodontes lors de l'occurrence précédente.",
+        "Disposer de 50 kamas pour acheter la boisson cacterre."
+      ],
+      "rewards": [
+        "297 486 XP au niveau 200.",
+        "3 990 kamas.",
+        "3 x Œil de Léolhyène."
+      ],
+      "preparation": [
+        "Prévoir 50 kamas.",
+        "Prévoir un combat à effectuer seul contre deux Léolhyène."
+      ],
+      "actions": [
+        {
+          "instruction": "Retournez voir Mayko Zouzoo et remettez-lui les échantillons prélevés dans le Cimetière des mastodontes.",
+          "position": "[15,-60]",
+          "zoneHint": "Saharach",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir Eole Suk et demandez-lui de vérifier si la substance découverte dans les ossements est un poison.",
+          "position": "[14,-55]",
+          "zoneHint": "Port de Sarakech",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Revenez auprès de Mayko Zouzoo et annoncez-lui que la substance n'est pas un poison.",
+          "position": "[15,-60]",
+          "zoneHint": "Saharach",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous auprès de Pikmama et achetez la boisson cacterre destinée à neutraliser les effets de la substance.",
+          "position": "[15,-64]",
+          "zoneHint": "Saharach",
+          "warning": "Cette étape coûte 50 kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Mayko Zouzoo et indiquez-lui que vous avez la boisson cacterre. Après qu'il a ingéré la substance, intervenez pour vaincre les deux Léolhyène et le sauver.",
+          "position": "[15,-60]",
+          "zoneHint": "Saharach",
+          "warning": "Un combat obligatoire se déclenche contre deux Léolhyène et doit être réalisé seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après le combat, reparlez à Mayko Zouzoo et faites-lui boire l'alcool afin qu'il évacue la substance. La conversation conclut l'enquête et termine la quête.",
+          "position": "[15,-60]",
+          "zoneHint": "Saharach",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les prélèvements extérieurs en [17,-60], [18,-59] et [18,-61], ainsi que les échantillons des salles 3, 4 et 5 du Cimetière des mastodontes, appartiennent à la portion déjà accomplie et ne sont pas à refaire ici.",
+        "La conclusion établit que la substance provoquait un état dépressif susceptible d'expliquer la disparition des mastodontes."
+      ],
+      "npcs": [
+        "Mayko Zouzoo",
+        "Eole Suk",
+        "Pikmama"
+      ],
+      "items": [
+        {
+          "name": "Échantillons osseux",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Boisson cacterre",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 6,
+            "name": "Cimetière",
+            "coordinates": [
+              "15,-60"
+            ]
+          },
+          {
+            "id": 872,
+            "name": "Dunes des ossements",
+            "coordinates": [
+              "15,-60"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "15,-60"
+            ]
+          },
+          {
+            "id": 874,
+            "name": "Port de Sarakech",
+            "coordinates": [
+              "14,-55"
+            ]
+          },
+          {
+            "id": 873,
+            "name": "Territoire Cacterre",
+            "coordinates": [
+              "15,-64"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4270,
+            "name": "Roub' Ignolles",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/4270.png"
+          },
+          {
+            "id": 4618,
+            "name": "Tournade",
+            "level": 80,
+            "imageUrl": "/bestiary/monsters/4618.png"
+          },
+          {
+            "id": 4622,
+            "name": "Roi Camole",
+            "level": 130,
+            "imageUrl": "/bestiary/monsters/4622.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2321,
+            "name": "Chafalfer l'Optimiste",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2321.png"
+          },
+          {
+            "id": 2319,
+            "name": "Chafemal le Bagarreur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2319.png"
+          },
+          {
+            "id": 2522,
+            "name": "Kwoanneur le Frimeur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2522.png"
+          },
+          {
+            "id": 2357,
+            "name": "Tofumanchou l'Empereur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2357.png"
+          },
+          {
+            "id": 2421,
+            "name": "Chaffoin le Sournois",
+            "level": 33,
+            "imageUrl": "/bestiary/monsters/2421.png"
+          },
+          {
+            "id": 2276,
+            "name": "Ribibi le Cher",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2276.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1527,
+            "name": "Animaux du désert",
+            "monsters": [
+              {
+                "id": 4616,
+                "name": "Fennex",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4616.png"
+              },
+              {
+                "id": 4619,
+                "name": "Léolhyène",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4619.png"
+              },
+              {
+                "id": 4620,
+                "name": "Ouroboulos",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4620.png"
+              },
+              {
+                "id": 4615,
+                "name": "Scordion Bleu",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4615.png"
+              }
+            ]
+          },
+          {
+            "id": 193,
+            "name": "Bêtes de la nuit",
+            "monsters": [
+              {
+                "id": 154,
+                "name": "Kwoan",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/154.png"
+              },
+              {
+                "id": 111,
+                "name": "Tofu Maléfique",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/111.png"
+              }
+            ]
+          },
+          {
+            "id": 1528,
+            "name": "Cacterres",
+            "monsters": [
+              {
+                "id": 4605,
+                "name": "Cactana",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/4605.png"
+              },
+              {
+                "id": 4604,
+                "name": "Cactiflore",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/4604.png"
+              },
+              {
+                "id": 4606,
+                "name": "Cactoblongo",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/4606.png"
+              },
+              {
+                "id": 4607,
+                "name": "Pampactus",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/4607.png"
+              }
+            ]
+          },
+          {
+            "id": 191,
+            "name": "Chafers d'Amakna",
+            "monsters": [
+              {
+                "id": 54,
+                "name": "Chafer",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/54.png"
+              },
+              {
+                "id": 110,
+                "name": "Chafer Invisible",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/110.png"
+              },
+              {
+                "id": 396,
+                "name": "Chafer Fantassin",
+                "level": 33,
+                "imageUrl": "/bestiary/monsters/396.png"
+              },
+              {
+                "id": 108,
+                "name": "Rib",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/108.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1064",
+      "relation": "FINISH",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/sans-chair-et-en-os.html",
+      "sourceTitle": "Sans chair et en os",
+      "sourceHash": "0082e5d275b84b63ad161fbc7d3b1ef4505332c68214e46c34e80b66e8f39124",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "La quête est déjà lancée auprès de Thelma Geur. Pour cette occurrence, rendez-vous au Terrier du Wa Wabbit et accomplissez le donjon jusqu'à vaincre le Wa Wobot. Le retour auprès de Thelma Geur et la clôture de la quête ne font pas partie des actions de cette occurrence.",
+      "recommendedLevel": 60,
+      "prerequisites": [
+        "Être de niveau supérieur à 59.",
+        "Avoir terminé Le fossile et le marteau.",
+        "Avoir déjà accepté la quête auprès de Thelma Geur en [-16,2]."
+      ],
+      "rewards": [
+        "1 427 932 XP.",
+        "19 152 kamas.",
+        "1 x Barbe du Wa Wobot."
+      ],
+      "preparation": [
+        "Prévoir de réaliser le donjon Terrier du Wa Wabbit.",
+        "Une clef du donjon est fournie par la quête ; le trousseau de clefs peut également être utilisé s'il est disponible."
+      ],
+      "actions": [
+        {
+          "instruction": "Rendez-vous à l'entrée du Terrier du Wa Wabbit puis entrez dans le donjon avec la clef reçue pour la quête ou avec votre trousseau de clefs disponible.",
+          "position": "[28,-12]",
+          "zoneHint": "Île des Wabbits",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parcourez le Terrier du Wa Wabbit jusqu'au boss et battez le Wa Wobot.",
+          "position": "[28,-12]",
+          "zoneHint": "Terrier du Wa Wabbit",
+          "warning": "Cette occurrence demande d'effectuer le donjon et de vaincre le Wa Wobot. Arrêtez-vous après cette victoire pour respecter le découpage du guide.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "Le lancement auprès de Thelma Geur en [-16,2] est supposé déjà effectué.",
+        "La source prévoit ensuite de retourner voir Thelma Geur pour faire le rapport et terminer la quête, mais cette remise est volontairement laissée pour une occurrence ultérieure du parcours."
+      ],
+      "npcs": [
+        "Thelma Geur",
+        "Wa Wobot"
+      ],
+      "items": [
+        {
+          "name": "Clef du Terrier du Wa Wabbit",
+          "itemId": 14465,
+          "imageUrl": "/items/14465.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/14465"
+        },
+        {
+          "name": "Trousseau de clefs",
+          "itemId": 10207,
+          "imageUrl": "/items/10207.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/10207"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 538,
+            "name": "Terrier du Wa Wabbit",
+            "coordinates": [
+              "28,-12"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1008,
+            "name": "Gawde du Wa",
+            "monsters": [
+              {
+                "id": 3461,
+                "name": "Black Wo Wabbit",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/3461.png"
+              },
+              {
+                "id": 3462,
+                "name": "Wobot Kiafin",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/3462.png"
+              },
+              {
+                "id": 3463,
+                "name": "Blanc Pa Wabbit",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/3463.png"
+              },
+              {
+                "id": 3474,
+                "name": "Tiwobot",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/3474.png"
+              },
+              {
+                "id": 181,
+                "name": "Wobot",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/181.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:725",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/un-deacutefileacute-de-wobots.html",
+      "sourceTitle": "Un défilé de Wobots",
+      "sourceHash": "446f5e0f2f1eff81313cf70df7dc15647e01539a90dd4799273ce6f747c51813",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

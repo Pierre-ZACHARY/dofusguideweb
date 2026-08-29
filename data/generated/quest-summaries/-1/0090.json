@@ -1,8 +1,288 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 90,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T11:29:09.598Z",
+  "summaries": [
+    {
+      "overview": "La quête a déjà été lancée après « Vengeance par procuration ». Pour cette occurrence, avance jusqu'à réunir les deux ressources demandées par Paro Cabanne : la Poussière magik du Chapiteau des Magik Riktus et la Bave de Crapopo des Lacs enchantés. Ne rapporte pas encore les ressources à Paro Cabanne et ne poursuis pas jusqu'à la prédiction ni au compte rendu final à Danathor ou Larry Poller.",
+      "recommendedLevel": 64,
+      "prerequisites": [
+        "Niveau recommandé 64.",
+        "Avoir terminé « Vengeance par procuration ».",
+        "Avoir suffisamment avancé dans « La lettre anonyme » pour que Paro Cabanne demande les ressources nécessaires à sa prédiction."
+      ],
+      "rewards": [
+        "1 044 683 XP à la fin complète de la quête, non obtenus à cette occurrence."
+      ],
+      "preparation": [
+        "Prévoir l'accès au donjon Chapiteau des Magik Riktus en [-22,12].",
+        "Il n'est pas nécessaire de terminer le Chapiteau des Magik Riktus ni de vaincre son boss pour cette portion."
+      ],
+      "actions": [
+        {
+          "instruction": "Entre dans le Chapiteau des Magik Riktus et affronte un Bozoteur afin d'obtenir 1 x Poussière magik. La ressource est obtenue à 100 % sur ce monstre lorsque l'objectif de quête est actif.",
+          "position": "[-22,12]",
+          "zoneHint": "Chapiteau des Magik Riktus",
+          "warning": "Un combat est nécessaire, mais il n'est pas obligatoire d'aller jusqu'au boss ni de terminer le donjon.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Rends-toi aux Lacs enchantés et collecte la Bave de Crapopo demandée pour la prédiction de Paro Cabanne.",
+          "position": "[-16,-7]",
+          "zoneHint": "Lacs enchantés",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Cette occurrence s'arrête une fois la Poussière magik et la Bave de Crapopo récupérées.",
+        "Le retour auprès de Paro Cabanne en [-33,-54], la prédiction électorale puis le compte rendu à Danathor en [-36,-60] ou à Larry Poller en [-34,-58] selon le choix effectué dans « Au service de Danathor » sont volontairement laissés pour plus tard."
+      ],
+      "npcs": [
+        "Paro Cabanne",
+        "Bozoteur",
+        "Danathor",
+        "Larry Poller"
+      ],
+      "items": [
+        {
+          "name": "Poussière magik",
+          "itemId": 2355,
+          "imageUrl": "/items/2355.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2355"
+        },
+        {
+          "name": "Bave de Crapopo",
+          "itemId": 16373,
+          "imageUrl": "/items/16373.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16373"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 888,
+            "name": "Chapiteau des Magik Riktus",
+            "coordinates": [
+              "-22,12"
+            ]
+          },
+          {
+            "id": 231,
+            "name": "Lacs enchantés",
+            "coordinates": [
+              "-16,-7"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 550,
+            "name": "Rok Gnorok",
+            "level": 90,
+            "imageUrl": "/bestiary/monsters/550.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2517,
+            "name": "Koalastrof la Naturelle",
+            "level": 60,
+            "imageUrl": "/bestiary/monsters/2517.png"
+          },
+          {
+            "id": 2442,
+            "name": "Doktopuss le Maléfique",
+            "level": 70,
+            "imageUrl": "/bestiary/monsters/2442.png"
+          },
+          {
+            "id": 2271,
+            "name": "Pékeutar le Tireur",
+            "level": 80,
+            "imageUrl": "/bestiary/monsters/2271.png"
+          },
+          {
+            "id": 2270,
+            "name": "Piradain le Pingre",
+            "level": 80,
+            "imageUrl": "/bestiary/monsters/2270.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 219,
+            "name": "Koalaks",
+            "monsters": [
+              {
+                "id": 747,
+                "name": "Dok Alako",
+                "level": 70,
+                "imageUrl": "/bestiary/monsters/747.png"
+              },
+              {
+                "id": 748,
+                "name": "Koalak Immature",
+                "level": 60,
+                "imageUrl": "/bestiary/monsters/748.png"
+              },
+              {
+                "id": 784,
+                "name": "Piralak",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/784.png"
+              },
+              {
+                "id": 786,
+                "name": "Pékeualak",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/786.png"
+              }
+            ]
+          },
+          {
+            "id": 1591,
+            "name": "Magik Riktus",
+            "monsters": [
+              {
+                "id": 4865,
+                "name": "Graboule",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4865.png"
+              },
+              {
+                "id": 4864,
+                "name": "Roukouto",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4864.png"
+              },
+              {
+                "id": 4863,
+                "name": "Pirolienne",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4863.png"
+              },
+              {
+                "id": 4862,
+                "name": "Tivelo",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4862.png"
+              },
+              {
+                "id": 4861,
+                "name": "Bozoteur",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4861.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:36",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-lettre-anonyme.html",
+      "sourceTitle": "Alignement 34 : La lettre anonyme",
+      "sourceHash": "91d87a845e94d6366da2366d070c69b4333affbce32c30704610b20c7cbcb5c3",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Anne Ullaire a déjà confié la mission consistant à vérifier la véritable situation de Dramak. Pour cette occurrence, effectue le Théâtre de Dramak et vaincs le Maître des Pantins. Arrête-toi après le combat : le retour auprès d'Anne Ullaire, qui clôt la quête et peut enchaîner sur « Tour d'horizon », sera réalisé ultérieurement.",
+      "recommendedLevel": 80,
+      "prerequisites": [
+        "Niveau supérieur à 79.",
+        "Avoir terminé « Tour d'honneur ».",
+        "Avoir accepté la mission d'Anne Ullaire en [-45,19]."
+      ],
+      "rewards": [
+        "2 457 000 XP à la fin complète de la quête, non obtenus à cette occurrence.",
+        "28 752 kamas à la fin complète de la quête, non obtenus à cette occurrence.",
+        "1 x Slip troué de Dramak à la fin complète de la quête, non obtenu à cette occurrence."
+      ],
+      "preparation": [
+        "Prévoir 1 x Donjon Théâtre de Dramak.",
+        "Anne Ullaire fournit une clef du donjon ; si le trousseau de clefs est disponible, il peut être utilisé à la place."
+      ],
+      "actions": [
+        {
+          "instruction": "Rends-toi au Théâtre de Dramak, parcours le donjon et vaincs le Maître des Pantins.",
+          "position": "[21,7]",
+          "zoneHint": "Théâtre de Dramak",
+          "warning": "Le donjon doit être parcouru jusqu'au boss et le Maître des Pantins doit être vaincu.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "Cette occurrence s'arrête après la victoire contre le Maître des Pantins.",
+        "Ne retourne pas encore auprès d'Anne Ullaire en [-45,19] : cette discussion achève « Tour de marionnettes » et peut ensuite lancer « Tour d'horizon »."
+      ],
+      "npcs": [
+        "Anne Ullaire",
+        "Maître des Pantins"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 800,
+            "name": "Théâtre de Dramak",
+            "coordinates": [
+              "21,7"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1018,
+            "name": "Serviteurs de Dramak",
+            "monsters": [
+              {
+                "id": 3487,
+                "name": "Bouledogre",
+                "level": 89,
+                "imageUrl": "/bestiary/monsters/3487.png"
+              },
+              {
+                "id": 3486,
+                "name": "Gobvious",
+                "level": 90,
+                "imageUrl": "/bestiary/monsters/3486.png"
+              },
+              {
+                "id": 3485,
+                "name": "Molette",
+                "level": 91,
+                "imageUrl": "/bestiary/monsters/3485.png"
+              },
+              {
+                "id": 3484,
+                "name": "Rhinoféroce",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3484.png"
+              },
+              {
+                "id": 3482,
+                "name": "Dramak",
+                "level": 100,
+                "imageUrl": "/bestiary/monsters/3482.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:726",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/tour-de-marionnettes.html",
+      "sourceTitle": "Tour de marionnettes",
+      "sourceHash": "0470d631e0bb3d14daf2e4c21234a932f190ef5caa654e990dd7d291cb8376fa",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

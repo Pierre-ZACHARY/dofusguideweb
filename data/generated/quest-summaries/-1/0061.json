@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 61,
-  "updatedAt": "2026-08-27T14:18:12.068Z",
+  "updatedAt": "2026-08-29T09:59:17.136Z",
   "summaries": [
     {
       "overview": "Enquêtez sur le sabotage du barrage d'Albuera avec l'aide de Bentlaitue. Vous découvrirez une réunion secrète des P.O.M.S, affronterez ses membres puis ramènerez les responsables à Thorbjarn afin d'établir leur culpabilité et d'amorcer une entente avec les animaux de la forêt.",
@@ -157,6 +157,20 @@
           {
             "id": 1026,
             "name": "Futaie enneigée",
+            "coordinates": [
+              "37,-84"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "37,-84"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
             "coordinates": [
               "37,-84"
             ]

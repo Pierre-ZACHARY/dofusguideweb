@@ -1,8 +1,858 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 154,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T15:05:16.775Z",
+  "summaries": [
+    {
+      "overview": "Le parcours précédent vous a déjà conduit jusqu'à l'Atelier du Tanukouï San et vous a fait effectuer le donjon. Reprenez après la victoire sur le boss : interrogez le Tanukouï San, déchiffrez les géoglyphes, résolvez l'affaire du minerai et terminez l'œuvre destinée à l'Esprit du Roc avant de rendre la quête à Daimya Hikomi.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Sous le bois de sa colère.",
+        "Avoir déjà avancé cette occurrence jusqu'à l'Atelier du Tanukouï San et effectué le donjon, comme demandé à l'étape précédente."
+      ],
+      "rewards": [
+        "3 971 945 XP.",
+        "38 960 Kamas.",
+        "3 x Poils magiques de Tanuki.",
+        "3 x Masque de Shinibaru."
+      ],
+      "preparation": [
+        "1 x Huile de Riz.",
+        "3 x Poils magiques de Tanuki.",
+        "Prévoir au moins 7 000 kamas selon la liste de préparation de la quête ; la portion restante impose notamment 1 000 kamas pour l'Alcool à 99%, 1 000 kamas pour le livre et 5 000, 7 500 ou 10 000 kamas pour l'emplacement d'exposition.",
+        "Métier Alchimiste niveau 1 ou plus pour fabriquer le Baume Hakouï ; le craft coopératif est impossible.",
+        "Prévoir deux combats réalisables en groupe et un combat seul dans cette portion."
+      ],
+      "actions": [
+        {
+          "instruction": "Après avoir vaincu le boss, parlez au Tanukouï San et abordez les Kaskouïs ainsi que le minerai pris aux Pandawas afin d'apprendre que ses ordres sont transmis par code géoglyphique.",
+          "position": "[26,-24]",
+          "zoneHint": "Atelier du Tanukouï San",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sortez du donjon et parlez à Tanukaï Aïhaye. Demandez-lui des informations sur le code géoglyphique ; il vous remet la Recette facile du Baume Hakouï. Consultez cette recette.",
+          "position": "[23,-26]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez sur la grande colonne de cailloux au centre de la carte pour récupérer 2 x Poussière de Roche.",
+          "position": "[25,-25]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Achetez 1 x Alcool à 99% auprès de Hintikou.",
+          "position": "[20,-29]",
+          "zoneHint": null,
+          "warning": "Dépense obligatoire : 1 000 kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans un atelier des alchimistes, fabriquez le Baume Hakouï avec 1 x Huile de Riz, 3 x Poils magiques de Tanuki, 1 x Alcool à 99% et 2 x Poussière de Roche.",
+          "position": null,
+          "zoneHint": "Atelier des alchimistes",
+          "warning": "Métier Alchimiste niveau 1 ou plus requis ; craft coopératif impossible.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rapportez le Baume Hakouï à Tanukaï Aïhaye pour obtenir l'indice menant à un ouvrage consacré aux géoglyphes.",
+          "position": "[23,-26]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À la Bibliothèque, parlez à Narber Rihen Levihawa, achetez « Les Géoglyphes pour les nuls » puis lisez le livre.",
+          "position": "[21,-27]",
+          "zoneHint": "Bibliothèque de Pandala",
+          "warning": "Dépense obligatoire : 1 000 kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez d'abord sur le cercle géoglyphique tracé au sol.",
+          "position": "[24,-27]",
+          "zoneHint": null,
+          "warning": "L'ordre des trois géoglyphes doit être respecté.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez ensuite sur le deuxième cercle géoglyphique tracé au sol.",
+          "position": "[24,-22]",
+          "zoneHint": null,
+          "warning": "L'ordre des trois géoglyphes doit être respecté.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez enfin sur le troisième cercle géoglyphique afin de déchiffrer le message donnant les lieux de rendez-vous des Kaskouïs.",
+          "position": "[24,-25]",
+          "zoneHint": null,
+          "warning": "L'ordre des trois géoglyphes doit être respecté.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Kaskouï en service et choisissez de ne pas vous laisser démonter afin d'attaquer le groupe de Tanuki. Sortez les Tanukis de leurs glyphes pour les rendre vulnérables.",
+          "position": "[27,-28]",
+          "zoneHint": null,
+          "warning": "Combat réalisable en groupe. Les Tanukis sont invulnérables tant qu'ils restent sur leur glyphe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Rejoignez le second rendez-vous, parlez à la Kaskouï en service et attaquez son groupe. Là encore, retirez les Tanukis de leurs glyphes pour pouvoir les blesser.",
+          "position": "[25,-24]",
+          "zoneHint": null,
+          "warning": "Combat réalisable en groupe. Les Tanukis sont invulnérables tant qu'ils restent sur leur glyphe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Dans la dernière salle de la mine, écoutez Tanuwang Yuanzhong, puis Whaska, puis de nouveau Tanuwang Yuanzhong. Empêchez-les de partir et obtenez leurs explications sur le minerai et la statue commandée par l'Esprit du Roc.",
+          "position": "[25,-22]",
+          "zoneHint": "Dernière salle de la mine",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Tanuki Durtouki et affrontez-le pour le convaincre de laisser Whaska utiliser ses outils. Éloignez-le de son glyphe pour supprimer son invulnérabilité.",
+          "position": "[26,-27]",
+          "zoneHint": null,
+          "warning": "Combat à effectuer seul. Tanuki Durtouki est invulnérable tant qu'il reste sur son glyphe.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après le combat, reparlez à Tanuki Durtouki, puis à Tanuwang Yuanzhong. Celui-ci vous charge de réserver un carré d'exposition sur la Place de la Bourse.",
+          "position": "[26,-27]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Tanunag Ma pour obtenir le carré d'exposition. Choisissez entre la solution musclée à 10 000 kamas, la solution rapide à 5 000 kamas ou la solution pacifiste à 7 500 kamas.",
+          "position": "[25,-26]",
+          "zoneHint": "Place de la Bourse",
+          "warning": "Choix avec dépense : 10 000, 5 000 ou 7 500 kamas selon la réponse choisie.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Tanuwang Yuanzhong et assistez à l'assemblage : « Attendre sans bouger », « Sentir vos bras commencer à s'engourdir mais ne pas bouger », « Faire pivoter la base vers la gauche », puis utilisez successivement la barre en métal bleue et la barre en métal verte.",
+          "position": "[26,-27]",
+          "zoneHint": null,
+          "warning": "Respectez l'ordre exact des cinq réponses.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sur la Place de la Bourse, parlez à Whaska pour placer la statue, puis à l'Esprit du Roc et choisissez de tenter d'attirer son attention. Vous recevez la Griffe du Roc.",
+          "position": "[25,-26]",
+          "zoneHint": "Place de la Bourse",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Mira Hagate pour lui rendre le minerai volé et lui expliquer la situation.",
+          "position": "[24,-22]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Daimya Hikomi, annoncez-lui la reprise attendue des livraisons et l'obtention de la Griffe du Roc afin de terminer la quête.",
+          "position": "[22,-29]",
+          "zoneHint": "Village de Pandala",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La partie précédant l'Atelier du Tanukouï San est supposée accomplie lors de l'occurrence précédente et n'est pas répétée ici.",
+        "En poursuivant la conversation finale avec Daimya Hikomi, vous obtenez la quête « La jetée des enfants perdus ».",
+        "Terminer cette quête permet également de rencontrer l'esprit critique dans « Présence d'esprits »."
+      ],
+      "npcs": [
+        "Tanukouï San",
+        "Tanukaï Aïhaye",
+        "Hintikou",
+        "Narber Rihen Levihawa",
+        "Kaskouï en service",
+        "Tanuwang Yuanzhong",
+        "Whaska",
+        "Tanuki Durtouki",
+        "Tanunag Ma",
+        "Esprit du Roc",
+        "Mira Hagate",
+        "Daimya Hikomi"
+      ],
+      "items": [
+        {
+          "name": "Recette facile du Baume Hakouï",
+          "itemId": 23126,
+          "imageUrl": "/items/23126.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23126"
+        },
+        {
+          "name": "Poussière de Roche",
+          "itemId": 23481,
+          "imageUrl": "/items/23481.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23481"
+        },
+        {
+          "name": "Alcool à 99%",
+          "itemId": 23482,
+          "imageUrl": "/items/23482.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23482"
+        },
+        {
+          "name": "Huile de Riz",
+          "itemId": 23480,
+          "imageUrl": "/items/23480.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23480"
+        },
+        {
+          "name": "Poils magiques de Tanuki",
+          "itemId": 7305,
+          "imageUrl": "/items/7305.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/7305"
+        },
+        {
+          "name": "Baume Hakouï",
+          "itemId": 23098,
+          "imageUrl": "/items/23098.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23098"
+        },
+        {
+          "name": "Les Géoglyphes pour les nuls",
+          "itemId": 23127,
+          "imageUrl": "/items/23127.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23127"
+        },
+        {
+          "name": "Griffe du Roc",
+          "itemId": 23123,
+          "imageUrl": "/items/23123.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23123"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 948,
+            "name": "Atelier du Tanukouï San",
+            "coordinates": [
+              "26,-24"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "26,-27",
+              "25,-26",
+              "000,5"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "25,-22",
+              "24,-22"
+            ]
+          },
+          {
+            "id": 944,
+            "name": "Terrdala",
+            "coordinates": [
+              "23,-26",
+              "25,-25",
+              "24,-27",
+              "24,-22",
+              "24,-25",
+              "27,-28",
+              "25,-24",
+              "26,-27"
+            ]
+          },
+          {
+            "id": 951,
+            "name": "Village de Pandala",
+            "coordinates": [
+              "20,-29",
+              "21,-27",
+              "22,-29"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4949,
+            "name": "Jérart Dupaindur",
+            "level": 130,
+            "imageUrl": "/bestiary/monsters/4949.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2598,
+            "name": "Bonpake le Chavireur",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2598.png"
+          },
+          {
+            "id": 2527,
+            "name": "Parapadkouï l'Émasculé",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2527.png"
+          },
+          {
+            "id": 2414,
+            "name": "Tétonée la Plantureuse",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2414.png"
+          },
+          {
+            "id": 2434,
+            "name": "Tilolo la Bien Moulée",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2434.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 3003,
+            "name": "Tanuki",
+            "monsters": [
+              {
+                "id": 6219,
+                "name": "Shinibaru",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6219.png"
+              },
+              {
+                "id": 6220,
+                "name": "Ishigro Pake",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6220.png"
+              },
+              {
+                "id": 6221,
+                "name": "Tétonuki",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6221.png"
+              },
+              {
+                "id": 6222,
+                "name": "Parashukouï",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6222.png"
+              },
+              {
+                "id": 6223,
+                "name": "Lolojiki",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6223.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1317",
+      "relation": "FINISH",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/au-nom-de-l-art.html",
+      "sourceTitle": "Au nom de l'Art",
+      "sourceHash": "e4158b6660565cc191d1dad0c34505be9fd02f445037a8f93293779dc48957f5",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Les deux objets « Défaite de Tanuki Femelle » et « Défaite de Tanuki Mâle » sont supposés déjà obtenus pendant l'étape précédente. Reprenez auprès des Pandawas en [22,-25], recrutez successivement un Tanuki mâle puis une Tanuki femelle, et terminez par le combat destiné à démontrer l'égalité des Tanukis.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Le réveil de Pandala.",
+        "Avoir déjà obtenu 1 x Défaite de Tanuki Femelle et 1 x Défaite de Tanuki Mâle lors de l'occurrence précédente."
+      ],
+      "rewards": [
+        "1 985 972 XP.",
+        "19 480 Kamas.",
+        "5 x Poing rocheux d'Ishigro Pake.",
+        "5 x Poterie cassée de Lolojiki."
+      ],
+      "preparation": [
+        "Conserver 1 x Défaite de Tanuki Femelle et 1 x Défaite de Tanuki Mâle obtenues précédemment.",
+        "Prévoir plus de 750 pods libres avant de récolter les cinq cailloux plats : chacun pèse 150 pods.",
+        "Prévoir deux combats à effectuer seul dans cette portion."
+      ],
+      "actions": [
+        {
+          "instruction": "Retournez auprès du groupe en [22,-25]. Parlez à Chiwhan pour lui présenter la preuve obtenue sur les Tanuki mâles, puis à Jiugwi pour lui présenter celle obtenue sur les Tanuki femelles. Parlez ensuite à Wotta pour constater que cette première démonstration ne les a pas convaincus.",
+          "position": "[22,-25]",
+          "zoneHint": "Terrdala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Tanuwa Kang et proposez-lui de venir défendre l'égalité des Tanukis. Il vous demande d'abord d'éloigner le Boo qui menace sa sculpture.",
+          "position": "[27,-26]",
+          "zoneHint": "Terrdala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Boo Récalcitrant et attaquez-le.",
+          "position": "[27,-27]",
+          "zoneHint": "Terrdala",
+          "warning": "Combat à effectuer seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Retournez auprès de Tanuwu Kang après la victoire afin qu'il accepte de vous suivre.",
+          "position": "[27,-26]",
+          "zoneHint": "Terrdala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Conduisez Tanuwu Kang jusqu'aux trois Pandawas. Vous devez déposer ce premier Tanuki avant d'aller recruter l'autre.",
+          "position": "[22,-25]",
+          "zoneHint": "Terrdala",
+          "warning": "Il faut ramener chaque Tanuki en [22,-25] avant de partir recruter l'autre.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Tanuli Huan et proposez-lui de défendre l'égalité des Tanukis. Elle vous demande de récupérer cinq cailloux plats.",
+          "position": "[26,-25]",
+          "zoneHint": "Terrdala",
+          "warning": "Libérez plus de 750 pods avant la récolte : les cinq cailloux pèsent 150 pods chacun.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez le caillou rond posé sur le gros caillou à droite.",
+          "position": "[25,-24]",
+          "zoneHint": "Terrdala",
+          "warning": "Le caillou pèse 150 pods.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez le petit caillou au pied du trio de tonneaux à droite.",
+          "position": "[25,-25]",
+          "zoneHint": "Terrdala",
+          "warning": "Le caillou pèse 150 pods.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez le petit caillou en haut à droite de la carte.",
+          "position": "[25,-26]",
+          "zoneHint": "Terrdala",
+          "warning": "Le caillou pèse 150 pods.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez le petit caillou au pied du rocher en haut à droite.",
+          "position": "[24,-27]",
+          "zoneHint": "Terrdala",
+          "warning": "Le caillou pèse 150 pods.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez le petit caillou plat à gauche de la carte.",
+          "position": "[26,-27]",
+          "zoneHint": "Terrdala",
+          "warning": "Le caillou pèse 150 pods.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rapportez les cinq cailloux plats à Tanuli Huan afin qu'elle accepte de vous suivre.",
+          "position": "[26,-25]",
+          "zoneHint": "Terrdala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Conduisez Tanuli Huan jusqu'aux trois Pandawas.",
+          "position": "[22,-25]",
+          "zoneHint": "Terrdala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Présentez les deux Tanukis à Jiugwi puis à Chiwhan. Parlez ensuite à Tanuli Huan, puis à Tanuwu Kang pour préparer une démonstration par le combat.",
+          "position": "[22,-25]",
+          "zoneHint": "Terrdala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Wotta et choisissez votre camp : affirmer que les Tanukis sont égaux et combattre à ses côtés, soutenir la supériorité des mâles avec Jiugwi, ou soutenir celle des femelles avec Chiwhan.",
+          "position": "[22,-25]",
+          "zoneHint": "Terrdala",
+          "warning": "Votre choix détermine vos alliés pour le combat. La source indique que le combat est le plus simple en choisissant l'égalité ; les deux autres réponses vous laissent seulement avec Chiwhan ou Jiugwi face aux autres.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuez le combat avec les alliés correspondant au choix précédent.",
+          "position": "[22,-25]",
+          "zoneHint": "Terrdala",
+          "warning": "Combat à effectuer seul, avec des alliés contrôlés selon le choix précédent.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après la victoire, reparlez à Wotta pour terminer la quête.",
+          "position": "[22,-25]",
+          "zoneHint": "Terrdala",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les deux drops à 6% demandés au début de la quête sont supposés déjà obtenus et ne font donc pas partie des actions actuelles.",
+        "Tanuwu Kang doit être ramené en [22,-25] avant de partir recruter Tanuli Huan."
+      ],
+      "npcs": [
+        "Wotta",
+        "Chiwhan",
+        "Jiugwi",
+        "Tanuwa Kang",
+        "Tanuwu Kang",
+        "Boo Récalcitrant",
+        "Tanuli Huan"
+      ],
+      "items": [
+        {
+          "name": "Défaite de Tanuki Femelle",
+          "itemId": 23242,
+          "imageUrl": "/items/23242.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23242"
+        },
+        {
+          "name": "Défaite de Tanuki Mâle",
+          "itemId": 23243,
+          "imageUrl": "/items/23243.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23243"
+        },
+        {
+          "name": "Caillou plat",
+          "itemId": 23244,
+          "imageUrl": "/items/23244.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23244"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 944,
+            "name": "Terrdala",
+            "coordinates": [
+              "22,-25",
+              "27,-26",
+              "27,-27",
+              "26,-25",
+              "25,-24",
+              "25,-25",
+              "25,-26",
+              "24,-27",
+              "26,-27"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4949,
+            "name": "Jérart Dupaindur",
+            "level": 130,
+            "imageUrl": "/bestiary/monsters/4949.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2598,
+            "name": "Bonpake le Chavireur",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2598.png"
+          },
+          {
+            "id": 2527,
+            "name": "Parapadkouï l'Émasculé",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2527.png"
+          },
+          {
+            "id": 2414,
+            "name": "Tétonée la Plantureuse",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2414.png"
+          },
+          {
+            "id": 2434,
+            "name": "Tilolo la Bien Moulée",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2434.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 3003,
+            "name": "Tanuki",
+            "monsters": [
+              {
+                "id": 6220,
+                "name": "Ishigro Pake",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6220.png"
+              },
+              {
+                "id": 6221,
+                "name": "Tétonuki",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6221.png"
+              },
+              {
+                "id": 6222,
+                "name": "Parashukouï",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6222.png"
+              },
+              {
+                "id": 6223,
+                "name": "Lolojiki",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6223.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1333",
+      "relation": "FINISH",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/l-egalite-des-sexes.html",
+      "sourceTitle": "L'égalité des sexes",
+      "sourceHash": "07fa67e0b6ecd7dfd9089a8725b34faa49fd6e0ba00bb3b8ac3a53dc1221ebce",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "La progression précédente vous a déjà conduit jusqu'au Débarras de l'Atelier du Tanukouï San. Reprenez avec Dréna Nassema : aidez-le à sortir, ramenez le tacticien à Bonta puis rendez compte à Amayiro pour terminer l'alignement 55.",
+      "recommendedLevel": 135,
+      "prerequisites": [
+        "Pour vivre heureux.",
+        "Le réveil de Pandala.",
+        "Avoir déjà progressé jusqu'à la découverte du Débarras de l'Atelier du Tanukouï San lors de l'occurrence précédente."
+      ],
+      "rewards": [
+        "10 217 201 XP."
+      ],
+      "preparation": [
+        "Prévoir un combat réalisable à trois joueurs maximum."
+      ],
+      "actions": [
+        {
+          "instruction": "Dans le Débarras de l'Atelier du Tanukouï San, parlez à Dréna Nassema. Acceptez de l'aider à sortir puis remportez le combat qui se déclenche.",
+          "position": null,
+          "zoneHint": "Débarras de l'Atelier du Tanukouï San",
+          "warning": "Combat réalisable à trois joueurs maximum.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, Dréna Nassema devient votre personnage suiveur. Quittez l'Atelier avec lui.",
+          "position": null,
+          "zoneHint": "Débarras de l'Atelier du Tanukouï San",
+          "warning": "Dréna Nassema doit vous suivre pour la suite.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez à la tour des ordres par l'entrée haute, montez les escaliers, allez tout droit et parlez à Jerhyn Gholein pour lui présenter le tacticien.",
+          "position": "[-34,-58]",
+          "zoneHint": "Tour des ordres",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès d'Amayiro et annoncez-lui que vous avez trouvé un tacticien compétent afin de terminer la mission.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les combats et déplacements antérieurs jusqu'au Débarras sont supposés accomplis lors de l'occurrence précédente et ne sont pas répétés.",
+        "La fin de cette quête débloque « Alignement 56 : La panoplie du milicien »."
+      ],
+      "npcs": [
+        "Dréna Nassema",
+        "Jerhyn Gholein",
+        "Amayiro"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 948,
+            "name": "Atelier du Tanukouï San",
+            "coordinates": []
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 976,
+            "name": "Promontoire des cieux",
+            "coordinates": [
+              "-34,-58"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 3003,
+            "name": "Tanuki",
+            "monsters": [
+              {
+                "id": 6219,
+                "name": "Shinibaru",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6219.png"
+              },
+              {
+                "id": 6220,
+                "name": "Ishigro Pake",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6220.png"
+              },
+              {
+                "id": 6221,
+                "name": "Tétonuki",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6221.png"
+              },
+              {
+                "id": 6222,
+                "name": "Parashukouï",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6222.png"
+              },
+              {
+                "id": 6223,
+                "name": "Lolojiki",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6223.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:152",
+      "relation": "FINISH",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-tactique-des-gens-d-armes.html",
+      "sourceTitle": "Alignement 55 : La tactique des gens d'armes",
+      "sourceHash": "a1a797df31fa21463a7328601bcfcd8de3abf866d1548f5828614f8ef5c2c6a2",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Profiter des passages communs en Terrdala",
+      "description": "« Au nom de l'Art » et « L'égalité des sexes » passent par plusieurs cartes identiques de Terrdala. Tant que les deux quêtes sont actives, profitez de ces passages pour éviter des allers-retours.",
+      "questKeys": [
+        "quest:1317",
+        "quest:1333"
+      ],
+      "actions": [
+        "En [25,-24], combinez le passage du second rendez-vous Kaskouï avec la récolte du caillou de Tanuli Huan si cette étape de « L'égalité des sexes » est déjà ouverte.",
+        "En [25,-25], profitez du passage pour la Poussière de Roche et le caillou plat lorsque les deux objectifs sont disponibles.",
+        "En [24,-27], combinez le géoglyphe avec le caillou plat lorsque les deux objectifs sont actifs.",
+        "En [26,-27], enchaînez les objectifs liés à Tanuwang Yuanzhong ou Tanuki Durtouki avec le caillou plat si Tanuli Huan vous l'a déjà demandé."
+      ]
+    }
+  ]
 }

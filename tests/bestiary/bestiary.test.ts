@@ -19,15 +19,17 @@ const catalog = buildBestiaryCatalog({
     objectives: [{ criterion: "PL&Ef>493,0" }],
   }],
   subareas: [
-    { id: 10, name: { fr: "Village d'Amakna" }, monsters: [493, 2345] },
-    { id: 95, name: { fr: "Cité d'Astrub" }, monsters: [463, 493, 2345] },
-    { id: 96, name: { fr: "Carrière d'Astrub" }, monsters: [] },
-    { id: 99, name: { fr: "Souterrains d'Astrub" }, monsters: [] },
-    { id: 100, name: { fr: "Égouts d'Astrub" }, monsters: [] },
+    { id: 10, areaId: 0, name: { fr: "Village d'Amakna" }, monsters: [493, 2345] },
+    { id: 95, areaId: 18, name: { fr: "Cité d'Astrub" }, monsters: [463, 493, 2345] },
+    { id: 96, areaId: 18, name: { fr: "Carrière d'Astrub" }, monsters: [] },
+    { id: 99, areaId: 18, name: { fr: "Souterrains d'Astrub" }, monsters: [] },
+    { id: 100, areaId: 18, name: { fr: "Égouts d'Astrub" }, monsters: [] },
+    { id: 442, areaId: 45, name: { fr: "Lac" }, monsters: [] },
   ],
   mapPositions: [
     { id: 1, posX: -32, posY: -57, subAreaId: 95, worldMap: 1, hasPriorityOnWorldmap: true },
     { id: 2, posX: -32, posY: -57, subAreaId: 10, worldMap: 2 },
+    { id: 6, posX: -32, posY: -57, subAreaId: 442, worldMap: 2 },
     { id: 3, posX: 7, posY: -19, subAreaId: 95, worldMap: 1, hasPriorityOnWorldmap: true },
     { id: 4, posX: 9, posY: -19, subAreaId: 96, worldMap: 1, hasPriorityOnWorldmap: true },
     { id: 5, posX: 5, posY: -17, subAreaId: 95, worldMap: 1, hasPriorityOnWorldmap: true },
@@ -43,7 +45,7 @@ const content: QuestGuideContent = {
 describe("bestiary catalog", () => {
   it("classe les monstres et indexe la zone prioritaire d'une coordonnée", () => {
     expect(catalog.monsters.find((monster) => monster.id === 2345)).toMatchObject({ level: 11, isArchmonster: true, isBounty: false });
-    expect(catalog.coordinates["-32,-57"]).toEqual([95, 10]);
+    expect(catalog.coordinates["-32,-57"]).toEqual([95, 10, 442]);
     expect(queryBestiaryZone(catalog, "cite astrub").monsters.map((monster) => monster.id)).toEqual([463, 493, 2345]);
   });
 
@@ -66,6 +68,32 @@ describe("bestiary catalog", () => {
       actions: [{ ...content.actions[0]!, zoneHint: null, instruction: "Parlez au PNJ." }],
     }, catalog);
     expect(fallback.zones[0]?.id).toBe(95);
+  });
+
+  it("utilise la zone de l'étape avant les coordonnées ambiguës et les lieux seulement cités", () => {
+    const incarnam = enrichQuestGuideBestiary({
+      ...content,
+      actions: [{
+        ...content.actions[0]!,
+        zoneHint: null,
+        instruction: "Observez Astrub depuis Incarnam en [-32,-57].",
+      }],
+    }, catalog, ["1. Débuts à Incarnam"]);
+    expect(incarnam.zones).toEqual([{ id: 442, name: "Lac", coordinates: ["-32,-57"] }]);
+    expect(incarnam.archmonsters).toEqual([]);
+    expect(incarnam.achievements).toEqual([]);
+
+    const genericVillage = enrichQuestGuideBestiary({
+      ...content,
+      actions: [{ ...content.actions[0]!, zoneHint: "Village", instruction: "Parlez au maire en [-32,-57]." }],
+    }, catalog, ["1. Débuts à Incarnam"]);
+    expect(genericVillage.zones[0]?.id).toBe(442);
+
+    const astrub = enrichQuestGuideBestiary({
+      ...content,
+      actions: [{ ...content.actions[0]!, zoneHint: null, instruction: "Parlez au PNJ en [-32,-57]." }],
+    }, catalog, ["2. Grandir à Astrub"]);
+    expect(astrub.zones[0]?.id).toBe(95);
   });
 
   it("sélectionne une sous-zone intérieure nommée absente de l'index de l'entrée extérieure", () => {

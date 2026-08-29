@@ -1,8 +1,336 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 159,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T15:05:21.502Z",
+  "summaries": [
+    {
+      "overview": "La Fabrique de foux d'artifice et le combat contre Founoroshi sont supposés déjà terminés à cette occurrence. Reprenez auprès de Founoroshi pour récupérer le Mortier enchanté et choisir votre camp, puis rencontrez l'Esprit du Feu, obtenez la Griffe du Feu et rendez la quête à Daimya Hikomi. La conversation finale peut enchaîner sur L'équilibre des forces, qui appartient à l'étape suivante.",
+      "recommendedLevel": 140,
+      "prerequisites": [
+        "La jetée des enfants perdus.",
+        "Avoir accompli les portions précédentes de Le festival de la lanterne jusqu'à la fin de la Fabrique de foux d'artifice et la victoire contre Founoroshi."
+      ],
+      "rewards": [
+        "4 311 804 XP.",
+        "44 760 Kamas.",
+        "3 x Étoffe de Firefoux.",
+        "3 x Poils de Founamboul."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Après la victoire dans la Fabrique de foux d'artifice, parlez à Founoroshi et sommez-le de stopper ses sabotages afin qu'il vous rende le Mortier enchanté.",
+          "position": null,
+          "zoneHint": "Fabrique de foux d'artifice",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Choisissez avec quel camp vous souhaitez rencontrer l'Esprit du Feu : reparlez à Founoroshi avant de quitter le donjon pour choisir les Firefoux, ou quittez le donjon et montrez le mortier à Ozulan en [15,-35] pour rester avec les Pandawas.",
+          "position": null,
+          "zoneHint": "Fabrique de foux d'artifice",
+          "warning": "Ce choix détermine avec quel camp vous rencontrerez l'Esprit du Feu, mais n'empêche pas de poursuivre ni de terminer la quête.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous avez choisi les Pandawas, rendez-vous auprès d'Ozulan et montrez-lui que vous avez récupéré le Mortier enchanté.",
+          "position": "[15,-35]",
+          "zoneHint": "Feudala",
+          "warning": "Cette action concerne uniquement le choix du camp des Pandawas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous en haut des escaliers et utilisez le Mortier enchanté depuis votre inventaire de quête.",
+          "position": "[17,-36]",
+          "zoneHint": "Feudala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la grotte pour rejoindre l'Esprit du Feu.",
+          "position": "[17,-36]",
+          "zoneHint": "grotte de l'Esprit du Feu",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à l'Esprit du Feu afin d'obtenir la Griffe du Feu.",
+          "position": null,
+          "zoneHint": "grotte de l'Esprit du Feu",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Ozulan devant l'Esprit du Feu si vous aviez choisi les Pandawas. Si vous aviez choisi Founoroshi, retournez plutôt voir Ozulan en [15,-35].",
+          "position": null,
+          "zoneHint": "grotte de l'Esprit du Feu",
+          "warning": "L'emplacement d'Ozulan dépend du camp choisi précédemment.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous aviez choisi Founoroshi, rendez-vous au temple et parlez à Ozulan.",
+          "position": "[15,-35]",
+          "zoneHint": "Feudala",
+          "warning": "Cette action est nécessaire uniquement après avoir choisi le camp des Firefoux.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Daimya Hikomi, annoncez-lui que vous avez récupéré la Griffe du Feu, puis répondez que vous vous reposerez plus tard et questionnez-la à propos de l'Esprit du Vent pour terminer Le festival de la lanterne.",
+          "position": "[22,-29]",
+          "zoneHint": "Village de Pandala",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La confection de la lanterne, les talismans, les wanchios, les combats précédents et la Fabrique de foux d'artifice sont supposés déjà accomplis avant cette occurrence.",
+        "En poursuivant la conversation avec Daimya Hikomi après la fin de la quête, vous obtenez L'équilibre des forces ; son tutoriel relève de l'étape suivante."
+      ],
+      "npcs": [
+        "Founoroshi",
+        "Ozulan",
+        "Esprit du Feu",
+        "Daimya Hikomi"
+      ],
+      "items": [
+        {
+          "name": "Mortier enchanté",
+          "itemId": 23176,
+          "imageUrl": "/items/23176.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23176"
+        },
+        {
+          "name": "Griffe du Feu",
+          "itemId": 23177,
+          "imageUrl": "/items/23177.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23177"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 949,
+            "name": "Fabrique de foux d'artifice",
+            "coordinates": [
+              "15,-35"
+            ]
+          },
+          {
+            "id": 943,
+            "name": "Feudala",
+            "coordinates": [
+              "15,-35",
+              "17,-36"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "15,-35"
+            ]
+          },
+          {
+            "id": 951,
+            "name": "Village de Pandala",
+            "coordinates": [
+              "22,-29"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 555,
+            "name": "Zatoïshwan",
+            "level": 150,
+            "imageUrl": "/bestiary/monsters/555.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2526,
+            "name": "Bigbadaboum l'Élémentaire",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2526.png"
+          },
+          {
+            "id": 2303,
+            "name": "Crachefouxtre le Surpris",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2303.png"
+          },
+          {
+            "id": 2278,
+            "name": "Pétarfoutu le Mouillé",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2278.png"
+          },
+          {
+            "id": 2597,
+            "name": "Tronquette la Réduite",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2597.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 3035,
+            "name": "Firefoux",
+            "monsters": [
+              {
+                "id": 6251,
+                "name": "Crachefoux",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6251.png"
+              },
+              {
+                "id": 6252,
+                "name": "Rouquette",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6252.png"
+              },
+              {
+                "id": 6253,
+                "name": "Boumbardier",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6253.png"
+              },
+              {
+                "id": 6254,
+                "name": "Pétartifoux",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6254.png"
+              },
+              {
+                "id": 6255,
+                "name": "Founamboul",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6255.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1319",
+      "relation": "FINISH",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-festival-de-la-lanterne.html",
+      "sourceTitle": "Le festival de la lanterne",
+      "sourceHash": "35741702944bdfaf1469c672711dc4b54360a019726945e7971ce762a2a733b1",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "À cette occurrence de La voie du guerrier, effectuez uniquement la Fabrique de foux d'artifice afin de valider le troisième donjon de la série. Le Repaire de Skeunk et l'Atelier du Tanukouï San sont supposés déjà faits. Les donjons Clairière du Chêne Mou, Minotot et Grotte du Bworker seront effectués lors de prochaines occurrences.",
+      "recommendedLevel": 30,
+      "prerequisites": [
+        "Niveau supérieur à 29.",
+        "Des donjons, encore des donjons.",
+        "Avoir déjà effectué le Repaire de Skeunk puis l'Atelier du Tanukouï San dans cet ordre."
+      ],
+      "rewards": [
+        "30 324 978 XP.",
+        "349 872 kamas.",
+        "1 x Peau de Skeunk.",
+        "1 x Poils magiques de Tanuki.",
+        "1 x Étoffe de Firefoux.",
+        "1 x Ambre du Chêne Mou.",
+        "1 x Sabot du Minotot.",
+        "1 x Peau de Bworker."
+      ],
+      "preparation": [
+        "Prévoir l'accès à la Fabrique de foux d'artifice."
+      ],
+      "actions": [
+        {
+          "instruction": "Effectuez la Fabrique de foux d'artifice et vainquez son boss afin de valider ce donjon pour La voie du guerrier.",
+          "position": null,
+          "zoneHint": "Fabrique de foux d'artifice",
+          "warning": "Ne poursuivez pas encore avec la Clairière du Chêne Mou : les donjons restants de la série sont prévus lors de prochaines occurrences du guide.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "La quête impose une suite de donjons dans un ordre précis : Repaire de Skeunk, Atelier du Tanukouï San, Fabrique de foux d'artifice, Clairière du Chêne Mou, Minotot puis Grotte du Bworker.",
+        "À cette étape, arrêtez-vous après la Fabrique de foux d'artifice.",
+        "Le rendu final auprès de Metag Robill en [6,-18] n'est pas à faire maintenant."
+      ],
+      "npcs": [
+        "Metag Robill"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 949,
+            "name": "Fabrique de foux d'artifice",
+            "coordinates": []
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 3035,
+            "name": "Firefoux",
+            "monsters": [
+              {
+                "id": 6251,
+                "name": "Crachefoux",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6251.png"
+              },
+              {
+                "id": 6252,
+                "name": "Rouquette",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6252.png"
+              },
+              {
+                "id": 6253,
+                "name": "Boumbardier",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6253.png"
+              },
+              {
+                "id": 6254,
+                "name": "Pétartifoux",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6254.png"
+              },
+              {
+                "id": 6255,
+                "name": "Founamboul",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6255.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:75",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-voie-du-guerrier.html",
+      "sourceTitle": "La voie du guerrier",
+      "sourceHash": "c1ce85c6230349d750d3f0186396981509f68055d47a6202c8097751fde24a9d",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Valider deux quêtes dans le même donjon",
+      "description": "La Fabrique de foux d'artifice sert à la fois à la progression de Le festival de la lanterne et à l'occurrence actuelle de La voie du guerrier. Un seul passage permet donc d'avancer les deux quêtes.",
+      "questKeys": [
+        "quest:1319",
+        "quest:75"
+      ],
+      "actions": [
+        "Effectuez la Fabrique de foux d'artifice en ayant les deux quêtes actives.",
+        "Après la victoire contre Founoroshi, considérez le donjon validé pour La voie du guerrier puis poursuivez immédiatement la reprise de Le festival de la lanterne auprès de Founoroshi."
+      ]
+    }
+  ]
 }

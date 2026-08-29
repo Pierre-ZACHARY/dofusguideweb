@@ -1,87 +1,60 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 118,
-  "updatedAt": "2026-08-27T15:07:32.066Z",
+  "updatedAt": "2026-08-29T12:51:39.956Z",
   "summaries": [
     {
-      "overview": "Le professeur Groschinder vous charge de retrouver un assistant envoyé au Miausolée du Pounicheur avec un bouclier en etork. Vous devez terminer le donjon, examiner le squelette de l'agent disparu avant de quitter la dernière salle, puis rapporter le bouclier et la mauvaise nouvelle au professeur.",
+      "overview": "Lancez Testé et approuvé auprès du professeur Groschinder, puis retrouvez l'agent disparu en terminant le Miausolée du Pounicheur. Cette occurrence s'arrête après l'inspection du squelette dans le donjon ; le rapport au professeur et la fin de la quête sont réservés à l'occurrence FINISH suivante.",
       "recommendedLevel": 110,
       "prerequisites": [
-        "Faut pas pousser"
+        "Avoir terminé Faut pas pousser."
       ],
       "rewards": [
         "2 597 190 XP.",
         "28 560 kamas.",
         "15 x Orichor.",
-        "3 x Épine de Grath"
+        "3 x Épine de Grath."
       ],
       "preparation": [
-        "Prévoir de terminer 1 x Donjon Miausolée du Pounicheur."
+        "Prévoir de terminer le donjon Miausolée du Pounicheur."
       ],
       "actions": [
         {
-          "instruction": "Parlez au professeur Groschinder. Il vous demande de retrouver son assistant, parti au Miausolée du Pounicheur avec un bouclier en etork.",
+          "instruction": "Parlez au professeur Groschinder et acceptez de rechercher son assistant, parti au Miausolée du Pounicheur avec un bouclier en etork.",
           "position": "[-1,-6]",
           "zoneHint": "Pierres de l'élévation",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Rendez-vous au Miausolée du Pounicheur et terminez le donjon.",
+          "instruction": "Rendez-vous au Miausolée du Pounicheur et terminez entièrement le donjon.",
           "position": null,
           "zoneHint": "Miausolée du Pounicheur",
-          "warning": "Cette étape impose de terminer le donjon Miausolée du Pounicheur.",
+          "warning": "Cette étape impose un donjon complet et les combats associés.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Après le dernier combat, restez dans la salle et inspectez le squelette avant de sortir. Vous découvrez qu'il s'agit de l'agent disparu.",
+          "instruction": "Après le dernier combat, ne quittez pas immédiatement le donjon : inspectez le squelette présent sur place afin d'identifier l'agent disparu et de récupérer les éléments nécessaires à la suite.",
           "position": null,
           "zoneHint": "Miausolée du Pounicheur",
-          "warning": "Ne quittez pas le donjon immédiatement après le combat : inspectez d'abord le squelette.",
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Retournez auprès du professeur Groschinder pour lui annoncer la mort de son assistant.",
-          "position": "[-1,-6]",
-          "zoneHint": "Pierres de l'élévation",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Remettez le bouclier au professeur Groschinder et faites une courte prière en l'honneur de l'agent Zym. La quête se termine et l'accès à De mauvais poil est débloqué.",
-          "position": "[-1,-6]",
-          "zoneHint": "Pierres de l'élévation",
-          "warning": null,
+          "warning": "Ne sortez pas avant d'avoir inspecté le squelette.",
           "combat": "NONE"
         }
       ],
       "notes": [
-        "Après cette quête, le professeur Groschinder suggère d'étudier les matougarous de la lande poilue.",
-        "La quête débloque l'accès à De mauvais poil."
+        "Le retour auprès de Groschinder, la remise du bouclier et la conclusion de la quête sont volontairement laissés à l'occurrence FINISH d'ordre 1."
       ],
       "npcs": [
         "Professeur Groschinder",
-        "agent Zym"
+        "Agent Zym"
       ],
       "items": [
         {
-          "name": "bouclier en etork",
+          "name": "Bouclier en etork",
           "itemId": null,
           "imageUrl": null,
           "dofusDbUrl": null
-        },
-        {
-          "name": "Épine de Grath",
-          "itemId": 17613,
-          "imageUrl": "/items/17613.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17613"
-        },
-        {
-          "name": "Orichor",
-          "itemId": 15206,
-          "imageUrl": "/items/15206.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15206"
         }
       ],
       "bestiary": {
@@ -141,6 +114,8 @@
         ]
       },
       "questKey": "quest:960",
+      "relation": "START",
+      "sortOrder": 0,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/testeacute-et-approuveacute.html",
       "sourceTitle": "Testé et approuvé",
       "sourceHash": "73c316342e11dcdc5fb0ef0afcc2ba52599bb60ce94e20f5f6db7d100f5fac02",
@@ -148,47 +123,122 @@
       "model": null
     },
     {
-      "overview": "La Maire Cantille vous demande d'aider plusieurs habitants de Frigost. Pour progresser, vous devez terminer les quatre quêtes indiquées par la source : La terre banquise, La maire de glace, Full Contact et Les monologues du vaccin. Une fois ces objectifs accomplis, retournez auprès de la maire pour lui annoncer la découverte d'un vaccin provisoire contre le rube.",
+      "overview": "Le Miausolée du Pounicheur a déjà été terminé et le squelette de l'agent disparu a été inspecté lors de l'occurrence précédente. Il reste uniquement à retourner auprès du professeur Groschinder pour lui annoncer la mort de l'agent, lui remettre le bouclier et terminer Testé et approuvé.",
+      "recommendedLevel": 110,
+      "prerequisites": [
+        "Avoir lancé Testé et approuvé.",
+        "Avoir terminé le Miausolée du Pounicheur.",
+        "Avoir inspecté le squelette de l'agent disparu avant de quitter le donjon."
+      ],
+      "rewards": [
+        "2 597 190 XP.",
+        "28 560 kamas.",
+        "15 x Orichor.",
+        "3 x Épine de Grath."
+      ],
+      "preparation": [
+        "Vérifiez que la progression obtenue en inspectant le squelette dans le Miausolée du Pounicheur est bien validée."
+      ],
+      "actions": [
+        {
+          "instruction": "Retournez voir le professeur Groschinder et annoncez-lui la mort de son assistant.",
+          "position": "[-1,-6]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Remettez-lui le bouclier retrouvé et faites la courte prière demandée en mémoire de l'agent Zym afin de conclure la quête.",
+          "position": "[-1,-6]",
+          "zoneHint": "Pierres de l'élévation",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Cette conclusion débloque l'accès à la quête De mauvais poil."
+      ],
+      "npcs": [
+        "Professeur Groschinder",
+        "Agent Zym"
+      ],
+      "items": [
+        {
+          "name": "Bouclier en etork",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 855,
+            "name": "Pierres de l'élévation",
+            "coordinates": [
+              "-1,-6"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1432,
+            "name": "Ecaflipuces",
+            "monsters": [
+              {
+                "id": 4291,
+                "name": "Pupuce",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4291.png"
+              },
+              {
+                "id": 4292,
+                "name": "Morcac",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4292.png"
+              },
+              {
+                "id": 4293,
+                "name": "Pikbul",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4293.png"
+              },
+              {
+                "id": 4294,
+                "name": "Gériatique",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/4294.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:960",
+      "relation": "FINISH",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/testeacute-et-approuveacute.html",
+      "sourceTitle": "Testé et approuvé",
+      "sourceHash": "73c316342e11dcdc5fb0ef0afcc2ba52599bb60ce94e20f5f6db7d100f5fac02",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez uniquement Bienvenue à Frigost auprès de la Maire Cantille. La quête demande ensuite d'accomplir La terre banquise, La maire de glace, Full Contact et Les monologues du vaccin, mais ces objectifs seront réalisés plus tard dans l'aventure ; ils ne font donc pas partie des actions de cette occurrence.",
       "recommendedLevel": 120,
       "prerequisites": [
-        "La maire de glace"
+        "La maire de glace."
       ],
       "rewards": [
         "3 883 723 XP.",
         "40 272 kamas.",
         "1 x Kama de glace."
       ],
-      "preparation": [
-        "Prévoir d'effectuer différentes quêtes.",
-        "Terminer La terre banquise.",
-        "Terminer La maire de glace.",
-        "Terminer Full Contact.",
-        "Terminer Les monologues du vaccin."
-      ],
+      "preparation": [],
       "actions": [
         {
-          "instruction": "Parlez à la Maire Cantille, qui vous demande d'aider les habitants de Frigost.",
-          "position": "[-77,-42]",
-          "zoneHint": "La Bourgade",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Terminez les quatre quêtes demandées : La terre banquise, La maire de glace, Full Contact et Les monologues du vaccin.",
-          "position": null,
-          "zoneHint": null,
-          "warning": "La progression de Bienvenue à Frigost dépend de l'accomplissement de ces quatre quêtes.",
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Une fois les quatre quêtes terminées, retournez voir la Maire Cantille.",
-          "position": "[-77,-42]",
-          "zoneHint": "La Bourgade",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Annoncez à la Maire Cantille que vous avez découvert un vaccin provisoire contre le rube. La quête se termine.",
+          "instruction": "Parlez à la Maire Cantille et acceptez d'aider les habitants de Frigost afin de lancer Bienvenue à Frigost.",
           "position": "[-77,-42]",
           "zoneHint": "La Bourgade",
           "warning": null,
@@ -196,19 +246,14 @@
         }
       ],
       "notes": [
-        "La quête débloque l'accès à L'essentiel est dans le lac gelé et Ennemis d'état."
+        "Ne cherchez pas à terminer la quête maintenant.",
+        "La terre banquise, La maire de glace, Full Contact et Les monologues du vaccin seront accomplies au fil des prochaines étapes du guide.",
+        "Le retour auprès de la Maire Cantille pour valider définitivement Bienvenue à Frigost intervient à l'étape 120."
       ],
       "npcs": [
         "Maire Cantille"
       ],
-      "items": [
-        {
-          "name": "Kama de glace",
-          "itemId": 11196,
-          "imageUrl": "/items/11196.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11196"
-        }
-      ],
+      "items": [],
       "bestiary": {
         "zones": [
           {
@@ -255,6 +300,8 @@
         ]
       },
       "questKey": "quest:412",
+      "relation": "START",
+      "sortOrder": 2,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/bienvenue-agrave-frigost.html",
       "sourceTitle": "Bienvenue à Frigost",
       "sourceHash": "3e9564189adbf5efab79a1c3cdd9d64a962a8132a056eafe26c4af3708a345ac",

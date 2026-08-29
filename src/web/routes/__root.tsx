@@ -5,6 +5,7 @@ import { AppShell } from "../components/AppShell.js";
 import { themeBootScript } from "../components/ThemeController.js";
 import { ProgressProvider } from "../progress/progressStore.js";
 import { AccountProvider } from "../accounts/AccountProvider.js";
+import { PresenceProvider } from "../presence/PresenceProvider.js";
 import "../styles.css";
 
 export const Route = createRootRoute({
@@ -35,7 +36,7 @@ export const Route = createRootRoute({
       { rel: "apple-touch-icon", href: "/favicon.png" },
     ],
   }),
-  component: () => <RootDocument><AccountProvider><ProgressProvider><AppShell><Outlet /></AppShell></ProgressProvider></AccountProvider></RootDocument>,
+  component: () => <RootDocument><AccountProvider><PresenceProvider><ProgressProvider><AppShell><Outlet /></AppShell></ProgressProvider></PresenceProvider></AccountProvider></RootDocument>,
   errorComponent: AppError,
   notFoundComponent: () => <RootDocument><div className="hero min-h-screen"><div className="hero-content text-center"><div><Compass className="mx-auto mb-4 h-14 w-14 text-primary" /><h1 className="text-5xl font-bold">Chemin introuvable</h1><p className="py-6">Cette étape n’existe pas dans le carnet.</p><Link className="btn btn-primary" to="/">Retour à l’accueil</Link></div></div></div></RootDocument>,
 });

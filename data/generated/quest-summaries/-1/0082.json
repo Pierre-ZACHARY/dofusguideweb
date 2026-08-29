@@ -1,8 +1,434 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 82,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T11:29:00.689Z",
+  "summaries": [
+    {
+      "overview": "Lancez Squelettes et amulette auprès de Mamie Voudou, puis rendez-vous au Bateau du Chouque et terminez le donjon en battant le Chouque. Arrêtez-vous à cette progression : l'enquête sur l'amulette, le combat contre le voleur et le retour auprès de Mamie Voudou sont réservés à l'occurrence FINISH qui suit dans cette même étape.",
+      "recommendedLevel": 90,
+      "prerequisites": [
+        "Avoir terminé Un indigeste chez les indigènes."
+      ],
+      "rewards": [
+        "1 580 654 XP à la fin de la quête.",
+        "19 760 kamas à la fin de la quête.",
+        "5 x Nœud de Marin à la fin de la quête."
+      ],
+      "preparation": [
+        "Prévoir de terminer le donjon Bateau du Chouque."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Mamie Voudou pour lancer la quête et accepter de rechercher l'amulette qui lui a été volée.",
+          "position": "[31,9]",
+          "zoneHint": "Forêt des Masques",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous auprès de Jack Martel, gardien du Bateau du Chouque, puis parlez-lui afin d'entrer dans le donjon.",
+          "position": "[33,3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuez le Bateau du Chouque jusqu'au bout et battez le Chouque. Une fois le donjon terminé, ne poursuivez pas encore l'enquête sur l'amulette : cette partie appartient à l'occurrence FINISH suivante.",
+          "position": null,
+          "zoneHint": "Bateau du Chouque",
+          "warning": "Le donjon doit être terminé à cette occurrence. Les interrogatoires des pirates, le combat contre le voleur et le rendu à Mamie Voudou sont volontairement différés.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "La quête n'est pas terminée à cette occurrence.",
+        "La suite immédiate, après le donjon, consiste à interroger le Chouque puis son équipage afin d'identifier le voleur ; elle sera effectuée dans l'occurrence FINISH d'ordre 1."
+      ],
+      "npcs": [
+        "Mamie Voudou",
+        "Jack Martel",
+        "Chouque"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 846,
+            "name": "Bateau du Chouque",
+            "coordinates": [
+              "33,3"
+            ]
+          },
+          {
+            "id": 166,
+            "name": "Forêt des Masques",
+            "coordinates": [
+              "31,9"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2505,
+            "name": "Kannémik le Maigre",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2505.png"
+          },
+          {
+            "id": 2502,
+            "name": "Kannibal le Lecteur",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2502.png"
+          },
+          {
+            "id": 2506,
+            "name": "Kannisterik le Forcené",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2506.png"
+          },
+          {
+            "id": 2507,
+            "name": "Kapota la Fraise",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2507.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 168,
+            "name": "Kannibouls",
+            "monsters": [
+              {
+                "id": 211,
+                "name": "Kanniboul Ark",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/211.png"
+              },
+              {
+                "id": 213,
+                "name": "Kanniboul Jav",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/213.png"
+              },
+              {
+                "id": 214,
+                "name": "Kanniboul Sarbak",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/214.png"
+              },
+              {
+                "id": 212,
+                "name": "Kanniboul Eth",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/212.png"
+              }
+            ]
+          },
+          {
+            "id": 169,
+            "name": "Pirates de Moon",
+            "monsters": [
+              {
+                "id": 228,
+                "name": "Boomba",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/228.png"
+              },
+              {
+                "id": 231,
+                "name": "Canondorf",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/231.png"
+              },
+              {
+                "id": 229,
+                "name": "Nakunbra",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/229.png"
+              },
+              {
+                "id": 4160,
+                "name": "Ricanif",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4160.png"
+              },
+              {
+                "id": 4161,
+                "name": "Ivremor",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4161.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:934",
+      "relation": "START",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/squelettes-et-amulettes.html",
+      "sourceTitle": "Squelettes et amulettes",
+      "sourceHash": "a20e57eeae083ffb8dec51fb2c5efed5f98fd1db6ebe51e8b0c94243f4b823a9",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Reprenez Squelettes et amulette après avoir déjà lancé la quête et terminé le Bateau du Chouque lors de l'occurrence précédente. Interrogez le Chouque et les membres de son équipage, vérifiez les alibis, accusez L'Égorgeur, récupérez l'Amulette de Mamie Voudou puis rendez-la à sa propriétaire pour terminer la quête.",
+      "recommendedLevel": 90,
+      "prerequisites": [
+        "Avoir lancé Squelettes et amulette auprès de Mamie Voudou.",
+        "Avoir terminé le Bateau du Chouque et vaincu le Chouque lors de l'occurrence START précédente."
+      ],
+      "rewards": [
+        "1 580 654 XP.",
+        "19 760 kamas.",
+        "5 x Nœud de Marin."
+      ],
+      "preparation": [
+        "Prévoir un combat contre L'Égorgeur ; il peut être réalisé en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Avant de quitter la zone de fin du donjon, parlez au Chouque et exigez qu'il rende l'amulette volée. Il affirme ne pas être responsable et vous oriente vers ses matelots.",
+          "position": null,
+          "zoneHint": "Bateau du Chouque",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "En remontant depuis le donjon, interrogez Patréfin sur son emploi du temps de la veille. Retenez qu'il affirme avoir préparé une surprise pour le Chouque avec Pilpoil.",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez Gros Bob sur ce qu'il faisait la veille. Il finit par expliquer qu'il était avec un cuisinier Kanniboul pour apprendre de nouvelles recettes.",
+          "position": "[33,5]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez Pilpoil. Il confirme avoir préparé le cadeau du Chouque avec Patréfin.",
+          "position": "[32,5]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez L'Égorgeur. Il prétend avoir bu du rhum avec Patréfin, ce qui contredit l'alibi déjà donné par Patréfin et Pilpoil.",
+          "position": "[31,4]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir Gour et demandez-lui s'il a bien discuté avec Gros Bob. Il confirme l'alibi du cuistot pirate.",
+          "position": "[30,9]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir L'Égorgeur, accusez-le d'avoir volé l'amulette et attaquez-le.",
+          "position": "[31,4]",
+          "zoneHint": null,
+          "warning": "Un combat est obligatoire. Il peut être effectué en groupe ; les personnages voulant valider ensemble doivent avoir avancé le dialogue requis avec L'Égorgeur.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire, récupérez l'Amulette de Mamie Voudou obtenue à l'issue du combat.",
+          "position": "[31,4]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Mamie Voudou et donnez-lui son amulette. Elle révèle que Moon est responsable de la transformation des pirates en squelettes, puis fait germer la graine et termine la quête.",
+          "position": "[31,9]",
+          "zoneHint": "Forêt des Masques",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La portion de lancement et le Bateau du Chouque sont supposés déjà accomplis grâce à l'occurrence START d'ordre 0.",
+        "La fin de cette occurrence termine Squelettes et amulette et débloque Rendez-vous avec la lune."
+      ],
+      "npcs": [
+        "Chouque",
+        "Patréfin",
+        "Gros Bob",
+        "Pilpoil",
+        "L'Égorgeur",
+        "Gour",
+        "Mamie Voudou"
+      ],
+      "items": [
+        {
+          "name": "Amulette de Mamie Voudou",
+          "itemId": 17280,
+          "imageUrl": "/items/17280.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17280"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 846,
+            "name": "Bateau du Chouque",
+            "coordinates": []
+          },
+          {
+            "id": 167,
+            "name": "Chemin du Crâne",
+            "coordinates": [
+              "33,5",
+              "32,5",
+              "31,4"
+            ]
+          },
+          {
+            "id": 166,
+            "name": "Forêt des Masques",
+            "coordinates": [
+              "30,9",
+              "31,9"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4276,
+            "name": "Degolas",
+            "level": 90,
+            "imageUrl": "/bestiary/monsters/4276.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2505,
+            "name": "Kannémik le Maigre",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2505.png"
+          },
+          {
+            "id": 2502,
+            "name": "Kannibal le Lecteur",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2502.png"
+          },
+          {
+            "id": 2506,
+            "name": "Kannisterik le Forcené",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2506.png"
+          },
+          {
+            "id": 2507,
+            "name": "Kapota la Fraise",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2507.png"
+          },
+          {
+            "id": 2408,
+            "name": "Boombata le Garde",
+            "level": 82,
+            "imageUrl": "/bestiary/monsters/2408.png"
+          },
+          {
+            "id": 2419,
+            "name": "Caboume l'Artilleur",
+            "level": 82,
+            "imageUrl": "/bestiary/monsters/2419.png"
+          },
+          {
+            "id": 2538,
+            "name": "Nakuneuye le Borgne",
+            "level": 82,
+            "imageUrl": "/bestiary/monsters/2538.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 168,
+            "name": "Kannibouls",
+            "monsters": [
+              {
+                "id": 211,
+                "name": "Kanniboul Ark",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/211.png"
+              },
+              {
+                "id": 213,
+                "name": "Kanniboul Jav",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/213.png"
+              },
+              {
+                "id": 214,
+                "name": "Kanniboul Sarbak",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/214.png"
+              },
+              {
+                "id": 212,
+                "name": "Kanniboul Eth",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/212.png"
+              }
+            ]
+          },
+          {
+            "id": 169,
+            "name": "Pirates de Moon",
+            "monsters": [
+              {
+                "id": 228,
+                "name": "Boomba",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/228.png"
+              },
+              {
+                "id": 231,
+                "name": "Canondorf",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/231.png"
+              },
+              {
+                "id": 229,
+                "name": "Nakunbra",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/229.png"
+              },
+              {
+                "id": 4160,
+                "name": "Ricanif",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4160.png"
+              },
+              {
+                "id": 4161,
+                "name": "Ivremor",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4161.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:934",
+      "relation": "FINISH",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/squelettes-et-amulettes.html",
+      "sourceTitle": "Squelettes et amulettes",
+      "sourceHash": "a20e57eeae083ffb8dec51fb2c5efed5f98fd1db6ebe51e8b0c94243f4b823a9",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

@@ -43,6 +43,8 @@ try {
   });
   console.info("[prompt] " + result.promptFiles.length + " files written");
   console.info("[prompt] " + result.sourceCount + " unique sources · " + result.fetchedSourceCount + " fetched · " + result.cachedSourceCount + " cached");
+  console.info("[prompt] " + result.regenerationSteps.length + " existing tutorial steps require occurrence-aware regeneration");
+  console.info("[prompt] regeneration report: " + result.regenerationReportPath);
   if (result.failures.length > 0) {
     console.warn("[prompt] " + result.failures.length + " sources unavailable; affected prompts explicitly forbid invention");
   }

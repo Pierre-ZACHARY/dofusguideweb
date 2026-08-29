@@ -1,8 +1,857 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 131,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T14:22:57.102Z",
+  "summaries": [
+    {
+      "overview": "Lancez Des lueurs de désespoir auprès de Kinshi Saweta, puis éliminez les trois groupes de parasites qui menacent les arbres-lanternes de Feudala. Revenez ensuite voir Kinshi afin d'atteindre précisément l'objectif demandant de récupérer 4 x Poudre de foux d’artifice. Le drop de ces poudres et toute la suite de la quête sont volontairement laissés pour plus tard.",
+      "recommendedLevel": 140,
+      "prerequisites": [
+        "Le réveil de Pandala."
+      ],
+      "rewards": [
+        "2 155 902 XP.",
+        "22 380 Kamas.",
+        "5 x Peau de Rouquette.",
+        "5 x Peau de Crachefoux."
+      ],
+      "preparation": [
+        "Prévoir 3 combats obligatoires en solo.",
+        "Les combats contre les parasites peuvent être difficiles ; cette quête peut être laissée de côté si vous ne parvenez pas à les gagner."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Kinshi Saweta pour lancer Des lueurs de désespoir et accepter de débarrasser Feudala des parasites qui attaquent les arbres-lanternes.",
+          "position": "[18,-30]",
+          "zoneHint": "Feudala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Choki Chin puis éliminez les 2 parasites qui attaquent son arbre-lanterne.",
+          "position": "[17,-33]",
+          "zoneHint": "Feudala",
+          "warning": "Combat obligatoire effectué seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Parlez à Hina Baki puis éliminez les 3 parasites présents près de son arbre.",
+          "position": "[17,-35]",
+          "zoneHint": "Feudala",
+          "warning": "Combat obligatoire effectué seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Parlez à Iki Karu puis éliminez les 2 parasites installés près de son arbre.",
+          "position": "[16,-36]",
+          "zoneHint": "Feudala",
+          "warning": "Combat obligatoire effectué seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Retournez auprès de Kinshi Saweta après les trois combats. Poursuivez le dialogue jusqu'à ce qu'il vous demande de récupérer 4 x Poudre de foux d’artifice, puis arrêtez cette quête à cet objectif.",
+          "position": "[18,-30]",
+          "zoneHint": "Feudala",
+          "warning": "Ne récupérez pas encore les 4 x Poudre de foux d’artifice dans les actions de cette occurrence.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "L'ordre des trois combats contre les parasites n'a pas d'importance.",
+        "L'objectif suivant consiste à récupérer 4 x Poudre de foux d’artifice sur les Firefoux de Feudala à un taux de base de 6 %, mais ce drop appartient à la suite et n'est pas une action actuelle.",
+        "Après ce futur drop, la quête demandera encore de fabriquer, allumer et placer de l'encens près de plusieurs arbres-lanternes avant de revenir voir Kinshi Saweta."
+      ],
+      "npcs": [
+        "Kinshi Saweta",
+        "Choki Chin",
+        "Hina Baki",
+        "Iki Karu"
+      ],
+      "items": [
+        {
+          "name": "Poudre de foux d'artifice",
+          "itemId": 23157,
+          "imageUrl": "/items/23157.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23157"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 943,
+            "name": "Feudala",
+            "coordinates": [
+              "18,-30",
+              "17,-33",
+              "17,-35",
+              "16,-36"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 555,
+            "name": "Zatoïshwan",
+            "level": 150,
+            "imageUrl": "/bestiary/monsters/555.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2526,
+            "name": "Bigbadaboum l'Élémentaire",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2526.png"
+          },
+          {
+            "id": 2303,
+            "name": "Crachefouxtre le Surpris",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2303.png"
+          },
+          {
+            "id": 2278,
+            "name": "Pétarfoutu le Mouillé",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2278.png"
+          },
+          {
+            "id": 2597,
+            "name": "Tronquette la Réduite",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2597.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 3035,
+            "name": "Firefoux",
+            "monsters": [
+              {
+                "id": 6251,
+                "name": "Crachefoux",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6251.png"
+              },
+              {
+                "id": 6252,
+                "name": "Rouquette",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6252.png"
+              },
+              {
+                "id": 6253,
+                "name": "Boumbardier",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6253.png"
+              },
+              {
+                "id": 6254,
+                "name": "Pétartifoux",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6254.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1339",
+      "relation": "START",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/des-lueurs-de-desespoir.html",
+      "sourceTitle": "Des lueurs de désespoir",
+      "sourceHash": "7225539bcc9e350d020f2332eb1efe3bc092d1b76ae1b35af21fe51f37f812de",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Poursuivez Regrets d'éternailes en allant voir Dlime Katcheule, réunissez les matériaux nécessaires à l'Attrape-Poussière, puis faites-le fabriquer. Équipez ensuite l'Attrape-Poussière en arme de corps-à-corps sur l'île du Minotoror et passez par les cinq positions indiquées pour ramasser les poudres d'éternailes.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Le trésor de Totankama, jusqu'à avoir parlé à Mériana.",
+        "La quête Regrets d'éternailes doit déjà avoir été lancée auprès de Tolmac au Refuge des cent détours."
+      ],
+      "rewards": [
+        "2 383 167 XP.",
+        "23 376 kamas.",
+        "5 x Artefact Pandawushu Feu.",
+        "5 x Peau de Mandrine."
+      ],
+      "preparation": [
+        "Prévoir 1 x Tige de Bambouto, obtenue sur les Bamboutos de Plantala à un taux de base de 28 % ou achetée en HDV.",
+        "Prévoir de récupérer 13 x Totem Firefoux sur les monstres Firefoux de Feudala à un taux de base de 25 % ; le drop est également possible en donjon.",
+        "Prévoir 1 combat obligatoire effectué seul pour obtenir la Toile Spirituelle."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Dlime Katcheule et demandez son aide pour obtenir de la poudre d'éternaile. Elle vous demandera 1 x Tige de Bambouto, 1 x Toile Spirituelle et 13 x Totem Firefoux pour fabriquer un attrape-poussière.",
+          "position": "[22,-28]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Procurez-vous 1 x Tige de Bambouto sur les Bamboutos de Plantala ou achetez-la en HDV.",
+          "position": null,
+          "zoneHint": "Plantala",
+          "warning": "L'achat en HDV entraîne une dépense de kamas ; le taux de base indiqué pour le drop est de 28 %.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récupérez 13 x Totem Firefoux sur les monstres Firefoux de Feudala. Le drop est possible également en donjon.",
+          "position": null,
+          "zoneHint": "Feudala",
+          "warning": "Ressource de quête avec un taux de base de 25 % sur les Firefoux.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Entrez dans la maison en haut à gauche puis cliquez sur la caisse cassée pour faire apparaître l'Araknesprit.",
+          "position": "[20,-27]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Vainquez 1 x Araknesprit afin d'obtenir la Toile Spirituelle.",
+          "position": "[20,-27]",
+          "zoneHint": null,
+          "warning": "Combat obligatoire effectué seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Ramenez 1 x Tige de Bambouto, 1 x Toile Spirituelle et 13 x Totem Firefoux à Dlime Katcheule, puis donnez-lui les ressources afin qu'elle confectionne l'Attrape-Poussière.",
+          "position": "[22,-28]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous sur l'île du Minotoror et équipez l'Attrape-Poussière en arme de corps-à-corps avant de commencer le ramassage des poudres d'éternailes.",
+          "position": null,
+          "zoneHint": "Île du Minotoror",
+          "warning": "L'Attrape-Poussière doit être équipé en CàC pour le ramassage.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez la poudre d'éternaile à cette position avec l'Attrape-Poussière équipé.",
+          "position": "[-41,-17]",
+          "zoneHint": "Île du Minotoror",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez la poudre d'éternaile à cette position avec l'Attrape-Poussière équipé.",
+          "position": "[-43,-17]",
+          "zoneHint": "Île du Minotoror",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez la poudre d'éternaile à cette position avec l'Attrape-Poussière équipé.",
+          "position": "[-41,-16]",
+          "zoneHint": "Île du Minotoror",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez la poudre d'éternaile à cette position avec l'Attrape-Poussière équipé.",
+          "position": "[-40,-18]",
+          "zoneHint": "Île du Minotoror",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez la poudre d'éternaile à cette position avec l'Attrape-Poussière équipé.",
+          "position": "[-43,-19]",
+          "zoneHint": "Île du Minotoror",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Tolmac a normalement déjà été consulté avant cette occurrence et vous a orienté vers Dlime Katcheule.",
+        "La source fournie pour cette occurrence s'arrête après les cinq positions de ramassage sur l'île du Minotoror ; aucune action ultérieure n'est ajoutée."
+      ],
+      "npcs": [
+        "Tolmac",
+        "Dlime Katcheule"
+      ],
+      "items": [
+        {
+          "name": "Tige de Bambouto",
+          "itemId": 7290,
+          "imageUrl": "/items/7290.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/7290"
+        },
+        {
+          "name": "Toile Spirituelle",
+          "itemId": 15424,
+          "imageUrl": "/items/15424.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15424"
+        },
+        {
+          "name": "Totem Firefoux",
+          "itemId": 15423,
+          "imageUrl": "/items/15423.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15423"
+        },
+        {
+          "name": "Attrape-Poussière",
+          "itemId": 15422,
+          "imageUrl": "/items/15422.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15422"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 943,
+            "name": "Feudala",
+            "coordinates": []
+          },
+          {
+            "id": 209,
+            "name": "Île du Minotoror",
+            "coordinates": [
+              "-41,-17",
+              "-43,-17",
+              "-41,-16",
+              "-40,-18",
+              "-43,-19"
+            ]
+          },
+          {
+            "id": 942,
+            "name": "Plantala",
+            "coordinates": []
+          },
+          {
+            "id": 951,
+            "name": "Village de Pandala",
+            "coordinates": [
+              "22,-28",
+              "20,-27"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 5074,
+            "name": "Vashkiwi",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/5074.png"
+          },
+          {
+            "id": 555,
+            "name": "Zatoïshwan",
+            "level": 150,
+            "imageUrl": "/bestiary/monsters/555.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2529,
+            "name": "Mandalo l'Aqueuse",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/2529.png"
+          },
+          {
+            "id": 2548,
+            "name": "Bambouské le Camouflé",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2548.png"
+          },
+          {
+            "id": 2415,
+            "name": "Bulsavon le Gonflé",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2415.png"
+          },
+          {
+            "id": 2392,
+            "name": "Floriste la Cannibale",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2392.png"
+          },
+          {
+            "id": 2593,
+            "name": "Grenuche la Gentille",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2593.png"
+          },
+          {
+            "id": 2533,
+            "name": "Minoskour le Sauveur",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2533.png"
+          },
+          {
+            "id": 2521,
+            "name": "Krapahut le Randonneur",
+            "level": 110,
+            "imageUrl": "/bestiary/monsters/2521.png"
+          },
+          {
+            "id": 2287,
+            "name": "Serpistule le Purulent",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/2287.png"
+          },
+          {
+            "id": 2526,
+            "name": "Bigbadaboum l'Élémentaire",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2526.png"
+          },
+          {
+            "id": 2303,
+            "name": "Crachefouxtre le Surpris",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2303.png"
+          },
+          {
+            "id": 2278,
+            "name": "Pétarfoutu le Mouillé",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2278.png"
+          },
+          {
+            "id": 2597,
+            "name": "Tronquette la Réduite",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2597.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 3035,
+            "name": "Firefoux",
+            "monsters": [
+              {
+                "id": 6251,
+                "name": "Crachefoux",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6251.png"
+              },
+              {
+                "id": 6252,
+                "name": "Rouquette",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6252.png"
+              },
+              {
+                "id": 6253,
+                "name": "Boumbardier",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6253.png"
+              },
+              {
+                "id": 6254,
+                "name": "Pétartifoux",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6254.png"
+              }
+            ]
+          },
+          {
+            "id": 173,
+            "name": "Minos",
+            "monsters": [
+              {
+                "id": 836,
+                "name": "Kraméléhon",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/836.png"
+              },
+              {
+                "id": 835,
+                "name": "Mandrine",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/835.png"
+              },
+              {
+                "id": 834,
+                "name": "Minoskito",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/834.png"
+              },
+              {
+                "id": 829,
+                "name": "Serpiplume",
+                "level": 120,
+                "imageUrl": "/bestiary/monsters/829.png"
+              }
+            ]
+          },
+          {
+            "id": 3045,
+            "name": "Plantalas",
+            "monsters": [
+              {
+                "id": 6318,
+                "name": "Bambouto",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6318.png"
+              },
+              {
+                "id": 6320,
+                "name": "Floristile",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6320.png"
+              },
+              {
+                "id": 6321,
+                "name": "Bulbuisson",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6321.png"
+              },
+              {
+                "id": 6323,
+                "name": "Grenufar",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6323.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:810",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/regrets-deacuteternailes.html",
+      "sourceTitle": "Regrets d'éternailes",
+      "sourceHash": "481156727198e1c002f6557093d15798e4ed620e969dd2205eb25aca8023a893",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez Il faut battre le lait quand il est chaud auprès d'Apisaphé, récupérez le lait doré, puis rendez-vous au donjon Blop. Après le combat imposé contre les quatre roublards, poursuivez jusqu'à l'objectif demandant de vaincre 1 x Blop Multicolore Royal et effectuez l'Antre du Blop Multicolore Royal. Arrêtez-vous après avoir vaincu le Blop Multicolore Royal ; le retour à Mériana et la fabrication de la Perle de Lait Doré sont réservés à l'occurrence FINISH de l'étape 132.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Le trésor de Totankama, jusqu'à avoir parlé à Mériana."
+      ],
+      "rewards": [
+        "4 766 334 XP.",
+        "46 752 kamas.",
+        "5 x Feuille de Blop Multicolore Royal.",
+        "5 x Peau de Kraméléhon."
+      ],
+      "preparation": [
+        "Prévoir l'accès au donjon Antre du Blop Multicolore Royal.",
+        "Prévoir 1 combat obligatoire effectué seul contre 4 roublards, avec Gavroch comme allié contrôlable."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Apisaphé pour demander où trouver du lait doré, puis précisez que vous cherchez une perle de lait. Elle vous indiquera qu'il faudra un chaudron magique, du lait doré et un bout de blop multicolore.",
+          "position": "[-42,-17]",
+          "zoneHint": "Refuge des cent détours",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez sur le seau dans la même pièce afin de récupérer le lait doré.",
+          "position": "[-42,-17]",
+          "zoneHint": "Refuge des cent détours",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au donjon Blop et parlez à Bibiblop. La conversation déclenche un combat contre 4 roublards avec Gavroch à vos côtés.",
+          "position": "[-7,-43]",
+          "zoneHint": null,
+          "warning": "Gavroch ne doit pas mourir pendant le combat.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Vainquez les 4 roublards en contrôlant également Gavroch. À la fin du combat, récupérez l'Insigne Roublard d'Astrub.",
+          "position": "[-7,-43]",
+          "zoneHint": null,
+          "warning": "Combat obligatoire effectué seul avec Gavroch ; sa mort fait échouer l'objectif.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Parlez à Gavroch après le combat, puis poursuivez jusqu'à ce que la quête vous demande de vaincre 1 x Blop Multicolore Royal.",
+          "position": "[-7,-43]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuez le parcours du donjon Blop puis l'Antre du Blop Multicolore Royal afin d'affronter le Blop Multicolore Royal.",
+          "position": "[-7,-43]",
+          "zoneHint": "Antre du Blop Multicolore Royal",
+          "warning": "Le donjon est requis pour atteindre le Blop Multicolore Royal.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Vainquez 1 x Blop Multicolore Royal, puis arrêtez la progression de cette quête pour cette étape.",
+          "position": "[-7,-43]",
+          "zoneHint": "Antre du Blop Multicolore Royal",
+          "warning": "Ne rapportez pas encore le Bout de Blop Multicolore Royal à Mériana et ne poursuivez pas la fabrication de la Perle de Lait Doré ; ces actions sont prévues à l'étape 132.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "Le Bout de Blop Multicolore Royal obtenu au cours de cette progression sera utilisé lors de la reprise de la quête.",
+        "À l'étape suivante, la quête reprendra avec Mériana, puis Arlo et Lired afin de fabriquer la Perle de Lait Doré.",
+        "Lors de cette future fabrication, de mauvais choix de dialogue avec Lired peuvent imposer environ 10 minutes d'attente avant de pouvoir lui reparler."
+      ],
+      "npcs": [
+        "Apisaphé",
+        "Bibiblop",
+        "Gavroch",
+        "Mériana",
+        "Arlo",
+        "Lired"
+      ],
+      "items": [
+        {
+          "name": "Lait doré",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Insigne Roublard d'Astrub",
+          "itemId": 15594,
+          "imageUrl": "/items/15594.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15594"
+        },
+        {
+          "name": "Bout de Blop Multicolore Royal",
+          "itemId": 15421,
+          "imageUrl": "/items/15421.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15421"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 796,
+            "name": "Antre du Blop Multicolore Royal",
+            "coordinates": [
+              "-7,-43"
+            ]
+          },
+          {
+            "id": 209,
+            "name": "Île du Minotoror",
+            "coordinates": [
+              "-42,-17"
+            ]
+          },
+          {
+            "id": 56,
+            "name": "Lac de Cania",
+            "coordinates": [
+              "-7,-43"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 5074,
+            "name": "Vashkiwi",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/5074.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2400,
+            "name": "Bi le Partageur",
+            "level": 24,
+            "imageUrl": "/bestiary/monsters/2400.png"
+          },
+          {
+            "id": 2399,
+            "name": "Bilvoezé le Bonimenteur",
+            "level": 24,
+            "imageUrl": "/bestiary/monsters/2399.png"
+          },
+          {
+            "id": 2396,
+            "name": "Bistou le Quêteur",
+            "level": 24,
+            "imageUrl": "/bestiary/monsters/2396.png"
+          },
+          {
+            "id": 2401,
+            "name": "Bistou le Rieur",
+            "level": 24,
+            "imageUrl": "/bestiary/monsters/2401.png"
+          },
+          {
+            "id": 2407,
+            "name": "Blof l'Apathique",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2407.png"
+          },
+          {
+            "id": 2406,
+            "name": "Bloporte le Veule",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2406.png"
+          },
+          {
+            "id": 2405,
+            "name": "Blordur l'Infect",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2405.png"
+          },
+          {
+            "id": 2404,
+            "name": "Blorie l'Assourdissante",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2404.png"
+          },
+          {
+            "id": 2529,
+            "name": "Mandalo l'Aqueuse",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/2529.png"
+          },
+          {
+            "id": 2533,
+            "name": "Minoskour le Sauveur",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2533.png"
+          },
+          {
+            "id": 2521,
+            "name": "Krapahut le Randonneur",
+            "level": 110,
+            "imageUrl": "/bestiary/monsters/2521.png"
+          },
+          {
+            "id": 2287,
+            "name": "Serpistule le Purulent",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/2287.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 210,
+            "name": "Blops",
+            "monsters": [
+              {
+                "id": 278,
+                "name": "Biblop Coco",
+                "level": 24,
+                "imageUrl": "/bestiary/monsters/278.png"
+              },
+              {
+                "id": 279,
+                "name": "Biblop Griotte",
+                "level": 24,
+                "imageUrl": "/bestiary/monsters/279.png"
+              },
+              {
+                "id": 277,
+                "name": "Biblop Indigo",
+                "level": 24,
+                "imageUrl": "/bestiary/monsters/277.png"
+              },
+              {
+                "id": 280,
+                "name": "Biblop Reinette",
+                "level": 24,
+                "imageUrl": "/bestiary/monsters/280.png"
+              },
+              {
+                "id": 273,
+                "name": "Blop Coco",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/273.png"
+              },
+              {
+                "id": 275,
+                "name": "Blop Griotte",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/275.png"
+              },
+              {
+                "id": 274,
+                "name": "Blop Indigo",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/274.png"
+              },
+              {
+                "id": 276,
+                "name": "Blop Reinette",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/276.png"
+              },
+              {
+                "id": 1182,
+                "name": "Blopignon",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/1182.png"
+              },
+              {
+                "id": 1183,
+                "name": "Tronkoblop",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/1183.png"
+              }
+            ]
+          },
+          {
+            "id": 173,
+            "name": "Minos",
+            "monsters": [
+              {
+                "id": 836,
+                "name": "Kraméléhon",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/836.png"
+              },
+              {
+                "id": 835,
+                "name": "Mandrine",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/835.png"
+              },
+              {
+                "id": 834,
+                "name": "Minoskito",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/834.png"
+              },
+              {
+                "id": 829,
+                "name": "Serpiplume",
+                "level": 120,
+                "imageUrl": "/bestiary/monsters/829.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:809",
+      "relation": "START",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/il-faut-battre-le-lait-quand-il-est-chaud.html",
+      "sourceTitle": "Il faut battre le lait quand il est chaud",
+      "sourceHash": "c925051403268515659f695a5dcce2645f901e0dc2b1d2117ea7af6b73c1ea31",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Regrouper les objectifs Firefoux",
+      "description": "Des lueurs de désespoir atteint précisément l'étape où 4 x Poudre de foux d’artifice seront demandées, tandis que Regrets d'éternailes demande 13 x Totem Firefoux. Les deux ressources proviennent des Firefoux de Feudala, ce qui permet de mutualiser les combats dès que l'objectif de poudre est débloqué.",
+      "questKeys": [
+        "quest:1339",
+        "quest:810"
+      ],
+      "actions": [
+        "Terminer d'abord les trois combats de parasites de Des lueurs de désespoir et reparler à Kinshi Saweta pour débloquer l'objectif des 4 x Poudre de foux d’artifice.",
+        "Pendant les combats contre les Firefoux nécessaires aux 13 x Totem Firefoux de Regrets d'éternailes, conserver également les 4 x Poudre de foux d’artifice obtenues pour Des lueurs de désespoir."
+      ]
+    }
+  ]
 }

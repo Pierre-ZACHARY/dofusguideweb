@@ -8,9 +8,10 @@ function requiredEnvironment(name) {
   return value;
 }
 
-function run(command, args) {
+function run(command, args, input) {
   const result = spawnSync(command, args, {
-    stdio: "inherit",
+    stdio: input === undefined ? "inherit" : ["pipe", "inherit", "inherit"],
+    input,
     env: process.env,
     shell: process.platform === "win32",
   });
@@ -20,6 +21,7 @@ function run(command, args) {
 
 const databaseId = requiredEnvironment("D1_DATABASE_ID");
 const googleClientId = requiredEnvironment("GOOGLE_CLIENT_ID");
+const metaMobCredentialsKey = requiredEnvironment("METAMOB_CREDENTIALS_KEY");
 requiredEnvironment("CLOUDFLARE_ACCOUNT_ID");
 requiredEnvironment("CLOUDFLARE_API_TOKEN");
 
@@ -42,3 +44,4 @@ run("npx", [
   "--remote", "--config", deploymentConfigPath,
 ]);
 run("npx", ["wrangler", "deploy", "--config", deploymentConfigPath]);
+run("npx", ["wrangler", "secret", "put", "METAMOB_CREDENTIALS_KEY", "--config", deploymentConfigPath], metaMobCredentialsKey + "\n");

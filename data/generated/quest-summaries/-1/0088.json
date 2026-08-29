@@ -1,8 +1,1148 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 88,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T11:29:08.591Z",
+  "summaries": [
+    {
+      "overview": "La quête a été lancée à l’étape précédente et doit maintenant être reprise au jalon de l’Antre de la Reine Nyée. Vainquez la Reine Nyée pour obtenir l’Oeuf noir, retournez auprès de l’Abraknyde Ancestral, fabriquez l’Ambre enchanté, survivez à son attaque, purifiez l’ambre avec l’Anneau Ocre puis rejoignez Silvosse pour terminer la quête.",
+      "recommendedLevel": 90,
+      "prerequisites": [
+        "Niveau recommandé : 90.",
+        "Après lui, le déluge."
+      ],
+      "rewards": [
+        "1 896 785 XP.",
+        "23 712 Kamas.",
+        "3 x Truk divin."
+      ],
+      "preparation": [
+        "Prévoir 30 x Ambre.",
+        "Prévoir 6 x Ambre d'Abraknyde.",
+        "Prévoir 6 x Ambre d'Abraknyde Sombre.",
+        "Prévoir 6 x Métaria jaune.",
+        "Prévoir 1 x Substrat de Futaie.",
+        "Avoir l’Anneau Ocre confié par Otomaï pour purifier l’Ambre enchanté.",
+        "Prévoir de pouvoir gérer un combat seul après la fabrication de l’Ambre enchanté."
+      ],
+      "actions": [
+        {
+          "instruction": "Entrez dans l’Antre de la Reine Nyée et vainquez la Reine Nyée afin d’obtenir automatiquement 1 x Oeuf noir.",
+          "position": "[-6,-15]",
+          "zoneHint": "Antre de la Reine Nyée",
+          "warning": "Le passage par le donjon est nécessaire pour récupérer l’Oeuf noir.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Avant de repartir vers l’Abraknyde Ancestral, vérifiez que vous avez 30 x Ambre, 6 x Ambre d'Abraknyde, 6 x Ambre d'Abraknyde Sombre, 6 x Métaria jaune et 1 x Substrat de Futaie.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Ces ressources seront consommées pour fabriquer l’Ambre enchanté ; les avoir maintenant évite un détour.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez au Domaine Ancestral, parlez à Tronkny Baussope et demandez-lui de vous mener directement devant l’Abraknyde Ancestral, puis remettez l’Oeuf noir à l’Abraknyde Ancestral.",
+          "position": "[-9,-14]",
+          "zoneHint": "Domaine Ancestral",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la salle de l’atelier, reparlez à l’Abraknyde Ancestral et attendez qu’il honore sa part du marché, puis utilisez l’Athanor sylvestre pour fabriquer l’Ambre enchanté avec 30 x Ambre, 6 x Ambre d'Abraknyde, 6 x Ambre d'Abraknyde Sombre, 6 x Métaria jaune et 1 x Substrat de Futaie.",
+          "position": "[-9,-14]",
+          "zoneHint": "Athanor sylvestre",
+          "warning": "La fabrication consomme toutes les ressources indiquées.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montrez l’Ambre enchanté à l’Abraknyde Ancestral et acceptez de le lui confier pour l’examen ; défendez-vous ensuite contre les corbacs qu’il envoie.",
+          "position": "[-9,-14]",
+          "zoneHint": "Athanor sylvestre",
+          "warning": "Le combat qui suit se déroule seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après le combat, reparlez à l’Abraknyde Ancestral et insistez jusqu’à récupérer l’ambre.",
+          "position": "[-9,-14]",
+          "zoneHint": "Athanor sylvestre",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Équipez l’Anneau Ocre à la place de l’un de vos anneaux, puis double-cliquez sur l’Ambre enchanté dans l’inventaire de quête afin d’obtenir 1 x Ambre brun purifié.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "L’Anneau Ocre doit être équipé au moment de la purification.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Suivez la voix jusqu’à Silvosse et parlez-lui pour achever la quête.",
+          "position": "[-11,-13]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les premiers échanges avec Hell Munster, le premier combat contre les serviteurs de l’Abraknyde Ancestral et l’acceptation du marché sont supposés déjà accomplis lors de l’occurrence précédente.",
+        "En poursuivant la conversation avec Silvosse après la fin, la quête suivante Rester planté là est débloquée."
+      ],
+      "npcs": [
+        "Tronkny Baussope",
+        "Abraknyde Ancestral",
+        "Silvosse"
+      ],
+      "items": [
+        {
+          "name": "Oeuf noir",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Ambre",
+          "itemId": 463,
+          "imageUrl": "/items/463.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/463"
+        },
+        {
+          "name": "Ambre d'Abraknyde",
+          "itemId": 464,
+          "imageUrl": "/items/464.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/464"
+        },
+        {
+          "name": "Ambre d'Abraknyde Sombre",
+          "itemId": 1660,
+          "imageUrl": "/items/1660.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1660"
+        },
+        {
+          "name": "Métaria jaune",
+          "itemId": 1528,
+          "imageUrl": "/items/1528.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1528"
+        },
+        {
+          "name": "Substrat de Futaie",
+          "itemId": 2540,
+          "imageUrl": "/items/2540.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2540"
+        },
+        {
+          "name": "Ambre enchanté",
+          "itemId": 26369,
+          "imageUrl": "/items/26369.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26369"
+        },
+        {
+          "name": "Anneau Ocre",
+          "itemId": 26366,
+          "imageUrl": "/items/26366.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26366"
+        },
+        {
+          "name": "Ambre brun purifié",
+          "itemId": 26370,
+          "imageUrl": "/items/26370.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26370"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 844,
+            "name": "Antre de la Reine Nyée",
+            "coordinates": [
+              "-6,-15"
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Domaine Ancestral",
+            "coordinates": [
+              "-9,-14"
+            ]
+          },
+          {
+            "id": 168,
+            "name": "Forêt Sombre",
+            "coordinates": [
+              "-9,-14",
+              "-11,-13"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4014,
+            "name": "Tyranne la Terrible",
+            "level": 80,
+            "imageUrl": "/bestiary/monsters/4014.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2389,
+            "name": "Abrakildas le Vénérable",
+            "level": 74,
+            "imageUrl": "/bestiary/monsters/2389.png"
+          },
+          {
+            "id": 2388,
+            "name": "Abrakanette l'Encapsulé",
+            "level": 78,
+            "imageUrl": "/bestiary/monsters/2388.png"
+          },
+          {
+            "id": 2386,
+            "name": "Abraklette le Fondant",
+            "level": 82,
+            "imageUrl": "/bestiary/monsters/2386.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1201,
+            "name": "Abraknydiens Sombres",
+            "monsters": [
+              {
+                "id": 651,
+                "name": "Abrakne Sombre",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/651.png"
+              },
+              {
+                "id": 253,
+                "name": "Abraknyde Sombre",
+                "level": 78,
+                "imageUrl": "/bestiary/monsters/253.png"
+              },
+              {
+                "id": 254,
+                "name": "Abraknyde Vénérable",
+                "level": 74,
+                "imageUrl": "/bestiary/monsters/254.png"
+              },
+              {
+                "id": 917,
+                "name": "Araknotron",
+                "level": 76,
+                "imageUrl": "/bestiary/monsters/917.png"
+              }
+            ]
+          },
+          {
+            "id": 1196,
+            "name": "Arak-haï",
+            "monsters": [
+              {
+                "id": 3991,
+                "name": "Arapex",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3991.png"
+              },
+              {
+                "id": 3992,
+                "name": "Dardalaine",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3992.png"
+              },
+              {
+                "id": 3993,
+                "name": "Néfileuse",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3993.png"
+              },
+              {
+                "id": 3994,
+                "name": "Saltik",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3994.png"
+              },
+              {
+                "id": 3995,
+                "name": "Gargantûl",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3995.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1405",
+      "relation": "FINISH",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/comme-un-corbac-sur-sa-branche.html",
+      "sourceTitle": "Comme un corbac sur sa branche",
+      "sourceHash": "221f73cf3825b641ce04237f661966ca860a9331d8c07311fe21f535da77ea44",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "La partie précédente est supposée accomplie jusqu’au départ vers l’Antre de la Reine Nyée. Faites maintenant le donjon, parlez à la Reine Nyée avant de sortir, puis rapportez ses intentions à Cornelia Granpa pour terminer la quête et pouvoir enchaîner sur Munster lève le mystère.",
+      "recommendedLevel": 80,
+      "prerequisites": [
+        "Niveau > 79.",
+        "C'est tout simple."
+      ],
+      "rewards": [
+        "1 580 654 XP.",
+        "19 760 Kamas.",
+        "1 x Fil de Néfileuse.",
+        "1 x Chélicères d'Arapex.",
+        "1 x Dent de Gargantûl."
+      ],
+      "preparation": [
+        "Prévoir l’accès à l’Antre de la Reine Nyée."
+      ],
+      "actions": [
+        {
+          "instruction": "Effectuez l’Antre de la Reine Nyée.",
+          "position": "[-6,-15]",
+          "zoneHint": "Antre de la Reine Nyée",
+          "warning": null,
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Une fois le donjon terminé, parlez à la Reine Nyée avant de sortir et écoutez ses intentions concernant la forêt des Abraknydes.",
+          "position": "[-6,-15]",
+          "zoneHint": "Antre de la Reine Nyée",
+          "warning": "Ne quittez pas le donjon avant d’avoir parlé à la Reine Nyée.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Cornelia Granpa et résumez-lui votre discussion avec la Reine Nyée afin de terminer la quête.",
+          "position": "[-6,-10]",
+          "zoneHint": "Orée de la forêt des Abraknydes",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les combats d’observation contre les Arak-haï, le rapport à Cornelia et le combat à ses côtés sont supposés déjà réalisés lors de l’occurrence précédente.",
+        "En continuant la discussion avec Cornelia après le rendu, vous pouvez lancer Munster lève le mystère, qui possède sa propre occurrence dans cette étape."
+      ],
+      "npcs": [
+        "Reine Nyée",
+        "Cornelia Granpa"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 844,
+            "name": "Antre de la Reine Nyée",
+            "coordinates": [
+              "-6,-15"
+            ]
+          },
+          {
+            "id": 169,
+            "name": "Orée de la forêt des Abraknydes",
+            "coordinates": [
+              "-6,-10"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2299,
+            "name": "Tronkoneuz la Tranchante",
+            "level": 33,
+            "imageUrl": "/bestiary/monsters/2299.png"
+          },
+          {
+            "id": 2309,
+            "name": "Abrakroc l'édenté",
+            "level": 38,
+            "imageUrl": "/bestiary/monsters/2309.png"
+          },
+          {
+            "id": 2311,
+            "name": "Arabord la Cruche",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/2311.png"
+          },
+          {
+            "id": 2385,
+            "name": "Abrakadnuzar",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2385.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 174,
+            "name": "Abraknydiens",
+            "monsters": [
+              {
+                "id": 650,
+                "name": "Abrakne",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/650.png"
+              },
+              {
+                "id": 47,
+                "name": "Abraknyde",
+                "level": 38,
+                "imageUrl": "/bestiary/monsters/47.png"
+              },
+              {
+                "id": 256,
+                "name": "Tronknyde",
+                "level": 33,
+                "imageUrl": "/bestiary/monsters/256.png"
+              }
+            ]
+          },
+          {
+            "id": 1196,
+            "name": "Arak-haï",
+            "monsters": [
+              {
+                "id": 3991,
+                "name": "Arapex",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3991.png"
+              },
+              {
+                "id": 3992,
+                "name": "Dardalaine",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3992.png"
+              },
+              {
+                "id": 3993,
+                "name": "Néfileuse",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3993.png"
+              },
+              {
+                "id": 3994,
+                "name": "Saltik",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3994.png"
+              },
+              {
+                "id": 3995,
+                "name": "Gargantûl",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3995.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 259,
+                "name": "Arakne Majeure",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/259.png"
+              }
+            ]
+          },
+          {
+            "id": 187,
+            "name": "Gobelins d'Amakna",
+            "monsters": [
+              {
+                "id": 178,
+                "name": "Gobet",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/178.png"
+              },
+              {
+                "id": 62,
+                "name": "Gob-trotteur",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/62.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:893",
+      "relation": "FINISH",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/arak-haiuml-en-pagaille.html",
+      "sourceTitle": "Arak-haï en pagaille",
+      "sourceHash": "aa8f3ef66e100736ffcd26c79f0f8f563bbf10600157d390d128dffa70c6d1ac",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez la quête auprès d’Amayiro, allez voir le Colonel Lyeno puis rendez-vous devant le Domaine Ancestral. Pour cette occurrence, arrêtez-vous dès que l’objectif demande d’arracher son gland à l’Abraknyde Ancestral : le boss et le rendu seront effectués plus tard.",
+      "recommendedLevel": 63,
+      "prerequisites": [
+        "Niveau recommandé 63.",
+        "Mission de reconnaissance au cimetière."
+      ],
+      "rewards": [
+        "2 019 853 XP."
+      ],
+      "preparation": [
+        "Aucune ressource particulière n’est demandée avant le jalon d’arrêt de cette occurrence."
+      ],
+      "actions": [
+        {
+          "instruction": "À la milice de Bonta, parlez à Amayiro et lancez Vengeance par procuration.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez à la taverne du Feubuk et parlez au Colonel Lyeno pour recevoir sa demande de vengeance contre l’Abraknyde Ancestral.",
+          "position": "[-35,-56]",
+          "zoneHint": "Taverne du Feubuk",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous devant le Domaine Ancestral et arrêtez-vous lorsque la quête vous demande d’arracher son gland à l’Abraknyde Ancestral.",
+          "position": "[-9,-14]",
+          "zoneHint": "Domaine Ancestral",
+          "warning": "Ne tuez pas encore l’Abraknyde Ancestral pour cette occurrence ; le guide fait d’abord avancer Munster lève le mystère afin de mutualiser le Domaine Ancestral.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le Domaine Ancestral, l’obtention de l’Abragland Ancestral, le retour auprès du Colonel Lyeno puis le rendu à Amayiro sont volontairement différés.",
+        "La prochaine occurrence de cette quête est en étape 89 avec la relation FINISH."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Colonel Lyeno"
+      ],
+      "items": [
+        {
+          "name": "Abragland Ancestral",
+          "itemId": 16372,
+          "imageUrl": "/items/16372.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16372"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Domaine Ancestral",
+            "coordinates": [
+              "-9,-14"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "-35,-56"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1201,
+            "name": "Abraknydiens Sombres",
+            "monsters": [
+              {
+                "id": 651,
+                "name": "Abrakne Sombre",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/651.png"
+              },
+              {
+                "id": 253,
+                "name": "Abraknyde Sombre",
+                "level": 78,
+                "imageUrl": "/bestiary/monsters/253.png"
+              },
+              {
+                "id": 254,
+                "name": "Abraknyde Vénérable",
+                "level": 74,
+                "imageUrl": "/bestiary/monsters/254.png"
+              },
+              {
+                "id": 917,
+                "name": "Araknotron",
+                "level": 76,
+                "imageUrl": "/bestiary/monsters/917.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:35",
+      "relation": "START",
+      "sortOrder": 3,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/vengeance-par-procuration.html",
+      "sourceTitle": "Alignement 33 : Vengeance par procuration",
+      "sourceHash": "b1b84280ac033c84af569b426eef9c914132fa78b36eabb3b20e6f8935cd6e6b",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez la quête auprès de Cornelia après Arak-haï en pagaille, enquêtez avec Hel Munster, capturez un Gargantûl, récupérez un Oeuf d'Arak-haï sous déguisement puis allez jusqu’au Domaine Ancestral. Cette occurrence inclut le Domaine Ancestral, mais s’arrête après le donjon : la discussion avec l’Abraknyde Ancestral et toute la suite seront reprises à l’étape suivante.",
+      "recommendedLevel": 80,
+      "prerequisites": [
+        "Niveau > 79.",
+        "Arak-haï en pagaille."
+      ],
+      "rewards": [
+        "1 580 654 XP.",
+        "19 760 Kamas.",
+        "1 x Sceau Sylvestre."
+      ],
+      "preparation": [
+        "Prévoir 6 x Glande d'Arak-haï.",
+        "Prévoir 1 x Donjon Domaine Ancestral."
+      ],
+      "actions": [
+        {
+          "instruction": "Après avoir terminé Arak-haï en pagaille, poursuivez la discussion avec Cornelia pour lancer Munster lève le mystère.",
+          "position": "[-6,-10]",
+          "zoneHint": "Orée de la forêt des Abraknydes",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous dans l’atelier personnel de Hel Munster et demandez-lui ce qu’il sait sur les Arak-haï ; récupérez la Cage Magique qu’il vous confie.",
+          "position": "[-5,-13]",
+          "zoneHint": "atelier de forgemagie personnel",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À l’orée de la forêt, parlez au Gargantûl Solitaire et capturez-le avec la cage pour obtenir un Gargantûl en Cage.",
+          "position": "[-10,-6]",
+          "zoneHint": "Orée de la forêt",
+          "warning": "Le Gargantûl Solitaire peut vous agresser.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rapportez le Gargantûl en Cage à Hel Munster.",
+          "position": "[-5,-13]",
+          "zoneHint": "atelier de forgemagie personnel",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Prenez la Potion Magique dans l’atelier puis donnez-la à Hel Munster.",
+          "position": "[-5,-13]",
+          "zoneHint": "atelier de forgemagie personnel",
+          "warning": "Ne cliquez pas n’importe où dans l’atelier : la source avertit qu’une mauvaise interaction peut donner une malédiction.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Assurez-vous d’avoir 6 x Glande d'Arak-haï ; si nécessaire, obtenez-les sur des monstres de type Arak-haï.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Le taux de base indiqué par la source est de 6,4 %.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Donnez les 6 x Glande d'Arak-haï à Hel Munster, puis avalez la préparation qu’il crée pour être transformé en Arak-haï.",
+          "position": "[-5,-13]",
+          "zoneHint": "atelier de forgemagie personnel",
+          "warning": "La transformation disparaît si vous lancez un combat.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez devant l’Antre de la Reine Nyée, n’entrez pas dans la maison, utilisez les barreaux pour accéder à la cave du Sadida mort puis prenez 1 x Oeuf d'Arak-haï.",
+          "position": "[-6,-15]",
+          "zoneHint": "cave du Sadida mort",
+          "warning": "Évitez tout combat afin de conserver la transformation, et n’entrez pas dans la maison.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rapportez l’Oeuf d'Arak-haï à Hel Munster ; il vous dirigera alors vers l’Abraknyde Ancestral.",
+          "position": "[-5,-13]",
+          "zoneHint": "atelier de forgemagie personnel",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au Domaine Ancestral et effectuez le donjon. Une fois le donjon terminé, arrêtez-vous avant de poursuivre la discussion de quête avec l’Abraknyde Ancestral.",
+          "position": "[-9,-14]",
+          "zoneHint": "Domaine Ancestral",
+          "warning": "La suite de la quête, à commencer par l’interrogatoire de l’Abraknyde Ancestral, appartient à l’occurrence FINISH de l’étape suivante.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "Le guide demande ici d’aller jusqu’au jalon « Se rendre au cœur du Domaine Ancestral », puis d’effectuer le Domaine Ancestral.",
+        "Après le donjon, les échanges avec l’Abraknyde Ancestral, Hel Munster, Silvosse et Cornelia sont volontairement reportés à l’étape 89."
+      ],
+      "npcs": [
+        "Cornelia Granpa",
+        "Hel Munster",
+        "Gargantûl Solitaire",
+        "Abraknyde Ancestral"
+      ],
+      "items": [
+        {
+          "name": "Cage Magique",
+          "itemId": 16199,
+          "imageUrl": "/items/16199.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16199"
+        },
+        {
+          "name": "Gargantûl en Cage",
+          "itemId": 16200,
+          "imageUrl": "/items/16200.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16200"
+        },
+        {
+          "name": "Potion Magique",
+          "itemId": 16227,
+          "imageUrl": "/items/16227.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16227"
+        },
+        {
+          "name": "Glande d'Arak-haï",
+          "itemId": 16215,
+          "imageUrl": "/items/16215.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16215"
+        },
+        {
+          "name": "Oeuf d'Arak-haï",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 844,
+            "name": "Antre de la Reine Nyée",
+            "coordinates": [
+              "-6,-15"
+            ]
+          },
+          {
+            "id": 33,
+            "name": "Bois des Arak-haï",
+            "coordinates": [
+              "-5,-13"
+            ]
+          },
+          {
+            "id": 485,
+            "name": "Campagne d'Amakna",
+            "coordinates": [
+              "6,4"
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Domaine Ancestral",
+            "coordinates": [
+              "-9,-14"
+            ]
+          },
+          {
+            "id": 443,
+            "name": "Forêt",
+            "coordinates": [
+              "-10,-6"
+            ]
+          },
+          {
+            "id": 169,
+            "name": "Orée de la forêt des Abraknydes",
+            "coordinates": [
+              "-6,-10"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2310,
+            "name": "Arakule la Revancharde",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2310.png"
+          },
+          {
+            "id": 2323,
+            "name": "Chamchie le Difficile",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2323.png"
+          },
+          {
+            "id": 2336,
+            "name": "Mosketère le Dévoué",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2336.png"
+          },
+          {
+            "id": 2299,
+            "name": "Tronkoneuz la Tranchante",
+            "level": 33,
+            "imageUrl": "/bestiary/monsters/2299.png"
+          },
+          {
+            "id": 2309,
+            "name": "Abrakroc l'édenté",
+            "level": 38,
+            "imageUrl": "/bestiary/monsters/2309.png"
+          },
+          {
+            "id": 2311,
+            "name": "Arabord la Cruche",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/2311.png"
+          },
+          {
+            "id": 2385,
+            "name": "Abrakadnuzar",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2385.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 174,
+            "name": "Abraknydiens",
+            "monsters": [
+              {
+                "id": 650,
+                "name": "Abrakne",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/650.png"
+              },
+              {
+                "id": 47,
+                "name": "Abraknyde",
+                "level": 38,
+                "imageUrl": "/bestiary/monsters/47.png"
+              },
+              {
+                "id": 256,
+                "name": "Tronknyde",
+                "level": 33,
+                "imageUrl": "/bestiary/monsters/256.png"
+              }
+            ]
+          },
+          {
+            "id": 1201,
+            "name": "Abraknydiens Sombres",
+            "monsters": [
+              {
+                "id": 651,
+                "name": "Abrakne Sombre",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/651.png"
+              },
+              {
+                "id": 253,
+                "name": "Abraknyde Sombre",
+                "level": 78,
+                "imageUrl": "/bestiary/monsters/253.png"
+              },
+              {
+                "id": 254,
+                "name": "Abraknyde Vénérable",
+                "level": 74,
+                "imageUrl": "/bestiary/monsters/254.png"
+              },
+              {
+                "id": 917,
+                "name": "Araknotron",
+                "level": 76,
+                "imageUrl": "/bestiary/monsters/917.png"
+              }
+            ]
+          },
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 159,
+                "name": "Milimulou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/159.png"
+              }
+            ]
+          },
+          {
+            "id": 1196,
+            "name": "Arak-haï",
+            "monsters": [
+              {
+                "id": 3991,
+                "name": "Arapex",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3991.png"
+              },
+              {
+                "id": 3992,
+                "name": "Dardalaine",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3992.png"
+              },
+              {
+                "id": 3993,
+                "name": "Néfileuse",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3993.png"
+              },
+              {
+                "id": 3994,
+                "name": "Saltik",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3994.png"
+              },
+              {
+                "id": 3995,
+                "name": "Gargantûl",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3995.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              },
+              {
+                "id": 259,
+                "name": "Arakne Majeure",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/259.png"
+              }
+            ]
+          },
+          {
+            "id": 191,
+            "name": "Chafers d'Amakna",
+            "monsters": [
+              {
+                "id": 110,
+                "name": "Chafer Invisible",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/110.png"
+              }
+            ]
+          },
+          {
+            "id": 9048,
+            "name": "Chafers des cités",
+            "monsters": [
+              {
+                "id": 291,
+                "name": "Chafer Archer",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/291.png"
+              },
+              {
+                "id": 292,
+                "name": "Chafer d'Élite",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/292.png"
+              },
+              {
+                "id": 290,
+                "name": "Chafer Lancier",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/290.png"
+              }
+            ]
+          },
+          {
+            "id": 187,
+            "name": "Gobelins d'Amakna",
+            "monsters": [
+              {
+                "id": 178,
+                "name": "Gobet",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/178.png"
+              },
+              {
+                "id": 62,
+                "name": "Gob-trotteur",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/62.png"
+              }
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Mulous",
+            "monsters": [
+              {
+                "id": 102,
+                "name": "Mulou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/102.png"
+              }
+            ]
+          },
+          {
+            "id": 1602,
+            "name": "Vermines des champs",
+            "monsters": [
+              {
+                "id": 4819,
+                "name": "Campagnoll",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/4819.png"
+              },
+              {
+                "id": 59,
+                "name": "Champ Champ",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/59.png"
+              },
+              {
+                "id": 61,
+                "name": "Moskito",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/61.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:894",
+      "relation": "START",
+      "sortOrder": 4,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/munster-legraveve-le-mystegravere.html",
+      "sourceTitle": "Munster lève le mystère",
+      "sourceHash": "34754ccbc000611155bd431a86b6f150b81770149a75bd85542729ba9ff856e9",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Un seul Antre pour deux quêtes",
+      "description": "Comme un corbac sur sa branche et Arak-haï en pagaille passent toutes deux par l’Antre de la Reine Nyée à cette étape. Préparez les deux occurrences avant d’entrer afin de rentabiliser un seul passage.",
+      "questKeys": [
+        "quest:1405",
+        "quest:893"
+      ],
+      "actions": [
+        "Vérifiez que les deux quêtes sont arrivées à leur objectif dans l’Antre de la Reine Nyée.",
+        "Faites l’Antre de la Reine Nyée une seule fois.",
+        "Pendant ce passage, obtenez l’Oeuf noir pour Comme un corbac sur sa branche et parlez à la Reine Nyée avant de sortir pour Arak-haï en pagaille."
+      ]
+    },
+    {
+      "title": "Mutualiser le Domaine Ancestral",
+      "description": "Vengeance par procuration doit être mise en attente au boss, puis Munster lève le mystère vous conduit au même Domaine Ancestral. Le même passage permet d’avancer les deux quêtes sans faire le donjon deux fois.",
+      "questKeys": [
+        "quest:35",
+        "quest:894"
+      ],
+      "actions": [
+        "Avancez Vengeance par procuration jusqu’à l’objectif demandant d’arracher son gland à l’Abraknyde Ancestral, sans faire le boss immédiatement.",
+        "Avancez ensuite Munster lève le mystère jusqu’au Domaine Ancestral.",
+        "Effectuez le Domaine Ancestral pour Munster lève le mystère ; la victoire sur l’Abraknyde Ancestral permet aussi de remplir l’objectif de Vengeance par procuration.",
+        "Gardez les rendus et la suite de ces deux quêtes pour leurs occurrences FINISH de l’étape 89."
+      ]
+    }
+  ]
 }

@@ -1,6 +1,7 @@
 import { UserRound } from "lucide-react";
 import { useState } from "react";
 import type { PlayerProfile, ProfileAvatar, ProfileGender } from "../../accounts/types.js";
+import { DOFUS_SERVERS } from "../../dofus/servers.js";
 import { ExternalImage } from "../components/ExternalImage.js";
 
 export function ProfileAvatarImage({
@@ -41,25 +42,43 @@ export function ProfileEditor({
   onSave,
   submitLabel,
 }: Readonly<{
-  profile: Pick<PlayerProfile, "name" | "breedId" | "gender">;
+  profile: Pick<PlayerProfile, "name" | "breedId" | "gender" | "serverId">;
   avatars: ProfileAvatar[];
-  onSave: (name: string, breedId: number, gender: ProfileGender) => Promise<void>;
+  onSave: (name: string, breedId: number, gender: ProfileGender, serverId: number) => Promise<void>;
   submitLabel: string;
 }>) {
   const [name, setName] = useState(profile.name);
   const [selection, setSelection] = useState(profile.breedId + ":" + profile.gender);
+  const [serverId, setServerId] = useState(profile.serverId === null ? "" : String(profile.serverId));
   const [saving, setSaving] = useState(false);
   const selected = avatars.find((avatar) => avatar.key === selection) ?? avatars[0];
   return (
     <form className="space-y-4" onSubmit={(event) => {
       event.preventDefault();
-      if (!selected || name.trim() === "") return;
+      const parsedServerId = Number(serverId);
+      if (!selected || name.trim() === "" || !Number.isInteger(parsedServerId)) return;
       setSaving(true);
-      void onSave(name.trim(), selected.breedId, selected.gender).finally(() => setSaving(false));
+      void onSave(name.trim(), selected.breedId, selected.gender, parsedServerId)
+        .catch(() => undefined)
+        .finally(() => setSaving(false));
     }}>
       <fieldset className="fieldset">
         <legend className="fieldset-legend">Nom du personnage</legend>
         <input className="input w-full" value={name} maxLength={40} onChange={(event) => setName(event.currentTarget.value)} required />
+      </fieldset>
+      <fieldset className="fieldset">
+        <legend className="fieldset-legend">Serveur DOFUS</legend>
+        <select className="select w-full" value={serverId} onChange={(event) => setServerId(event.currentTarget.value)} required>
+          <option value="">Sélectionner un serveur…</option>
+          {[...new Set(DOFUS_SERVERS.map((server) => server.category))].map((category) => (
+            <optgroup label={category} key={category}>
+              {DOFUS_SERVERS.filter((server) => server.category === category).map((server) => (
+                <option value={server.id} key={server.id}>{server.name}</option>
+              ))}
+            </optgroup>
+          ))}
+        </select>
+        <p className="label text-xs opacity-65">Le nom et le serveur seront vérifiés dans le ladder officiel avant l’enregistrement.</p>
       </fieldset>
       <fieldset className="fieldset">
         <legend className="fieldset-legend">Apparence</legend>
@@ -81,7 +100,7 @@ export function ProfileEditor({
           })}
         </div>
       </fieldset>
-      <button className="btn btn-primary w-full" type="submit" disabled={saving || !selected}>
+      <button className="btn btn-primary w-full" type="submit" disabled={saving || !selected || serverId === ""}>
         {saving && <span className="loading loading-spinner loading-xs" />}
         {submitLabel}
       </button>

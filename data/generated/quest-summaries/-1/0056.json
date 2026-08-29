@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 56,
-  "updatedAt": "2026-08-27T13:32:19.028Z",
+  "updatedAt": "2026-08-29T09:59:14.178Z",
   "summaries": [
     {
       "overview": "Amayiro vous confie la nourriture de son Tabi. Vous devez obtenir une Huile de Blop Royal dans le donjon Clos des Blops et fabriquer une Bouillie de Fleurs de Blop à partir de quatre Bouts de Blop, puis rapporter les deux objets à Amayiro.",
@@ -104,17 +104,24 @@
             ]
           },
           {
-            "id": 975,
-            "name": "Cœur immaculé",
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-29,-57"
+            ]
+          },
+          {
+            "id": 84,
+            "name": "Foire du Trool",
             "coordinates": [
               "-32,-57"
             ]
           },
           {
-            "id": 973,
-            "name": "Faubourgs des artisans",
+            "id": 778,
+            "name": "Mine",
             "coordinates": [
-              "-29,-57"
+              "-32,-57"
             ]
           }
         ],

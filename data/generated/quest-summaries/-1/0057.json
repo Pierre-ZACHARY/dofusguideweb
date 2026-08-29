@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 57,
-  "updatedAt": "2026-08-27T14:09:31.013Z",
+  "updatedAt": "2026-08-29T09:59:15.268Z",
   "summaries": [
     {
       "overview": "Alain Deix vous envoie interroger le Kanniboul Ebil sur la magie du Moon. Après avoir accepté la mission dans la taverne d'Amakna, rejoignez l'île de Moon, terminez le donjon Village Kanniboul et battez le Kanniboul Ebil, puis revenez faire votre rapport à Alain Deix.",
@@ -298,17 +298,17 @@
             ]
           },
           {
-            "id": 975,
-            "name": "Cœur immaculé",
-            "coordinates": [
-              "-32,-57"
-            ]
-          },
-          {
             "id": 973,
             "name": "Faubourgs des artisans",
             "coordinates": [
               "-29,-57"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
             ]
           }
         ],

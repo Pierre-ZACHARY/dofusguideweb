@@ -1,8 +1,2364 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 92,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T11:29:16.344Z",
+  "summaries": [
+    {
+      "overview": "Poursuivez votre première mission en Enutrosor pour aider la Collectrice Megisthe à mesurer l'orichor. Il faut d'abord retrouver Zap Gobdon et le libérer d'un Berserkoffre, puis effectuer cinq relevés avant de revenir auprès de la Collectrice.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Niveau recommandé : 100-200.",
+        "Avoir terminé La porte d'Enutrosor."
+      ],
+      "rewards": [
+        "2 625 000 XP.",
+        "43 980 Kamas."
+      ],
+      "preparation": [
+        "Prévoir 1 combat à effectuer seul."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à la Collectrice Megisthe pour recevoir l'Orichomètre et la mission consistant à retrouver Gobdon puis à effectuer des relevés d'orichor.",
+          "position": "[-1,-1]",
+          "zoneHint": "Enutrosor - Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez Zap Gobdon, puis parlez-lui. Combattez le Berserkoffre Affectueux qui le gêne.",
+          "position": "[-5,-1]",
+          "zoneHint": "Enutrosor",
+          "warning": "Le combat se déroule obligatoirement seul. Le Berserkoffre possède beaucoup de vitalité, peut devenir invulnérable et attirer en diagonale.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après le combat, reparlez à Zap Gobdon pour apprendre ce qui lui est arrivé et poursuivre la mission.",
+          "position": "[-5,-1]",
+          "zoneHint": "Enutrosor",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuez le premier relevé d'orichor avec l'Orichomètre.",
+          "position": "[-6,-2]",
+          "zoneHint": "Enutrosor",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuez le deuxième relevé d'orichor en empruntant la petite échelle.",
+          "position": "[-9,-6]",
+          "zoneHint": "Enutrosor",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuez le troisième relevé d'orichor.",
+          "position": "[-5,-5]",
+          "zoneHint": "Enutrosor",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuez le quatrième relevé d'orichor.",
+          "position": "[-2,-3]",
+          "zoneHint": "Enutrosor",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuez le cinquième relevé d'orichor.",
+          "position": "[3,-5]",
+          "zoneHint": "Enutrosor",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de la Collectrice Megisthe après les cinq relevés et parlez-lui pour terminer la quête.",
+          "position": "[-1,-1]",
+          "zoneHint": "Enutrosor - Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "L'ordre indiqué pour les cinq relevés est présenté comme le trajet le plus rapide."
+      ],
+      "npcs": [
+        "Collectrice Megisthe",
+        "Zap Gobdon"
+      ],
+      "items": [
+        {
+          "name": "Orichomètre",
+          "itemId": 15281,
+          "imageUrl": "/items/15281.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15281"
+        },
+        {
+          "name": "Orichor",
+          "itemId": 15206,
+          "imageUrl": "/items/15206.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15206"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 33,
+            "name": "Bois des Arak-haï",
+            "coordinates": [
+              "-9,-6"
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Château d'Amakna",
+            "coordinates": [
+              "3,-5"
+            ]
+          },
+          {
+            "id": 820,
+            "name": "Creuset des Fortunés",
+            "coordinates": [
+              "-1,-1"
+            ]
+          },
+          {
+            "id": 232,
+            "name": "Marécages nauséabonds",
+            "coordinates": [
+              "-5,-1",
+              "-6,-2",
+              "-5,-5"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "-2,-3"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3670,
+            "name": "Maxi-Malle",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/3670.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2549,
+            "name": "Boostif l'Affamé",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2549.png"
+          },
+          {
+            "id": 2439,
+            "name": "Crolnareff l'Exilé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2439.png"
+          },
+          {
+            "id": 2428,
+            "name": "Crok le Beau",
+            "level": 61,
+            "imageUrl": "/bestiary/monsters/2428.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 159,
+                "name": "Milimulou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/159.png"
+              }
+            ]
+          },
+          {
+            "id": 1196,
+            "name": "Arak-haï",
+            "monsters": [
+              {
+                "id": 3992,
+                "name": "Dardalaine",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3992.png"
+              },
+              {
+                "id": 3993,
+                "name": "Néfileuse",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3993.png"
+              },
+              {
+                "id": 3994,
+                "name": "Saltik",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3994.png"
+              },
+              {
+                "id": 3995,
+                "name": "Gargantûl",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3995.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 259,
+                "name": "Arakne Majeure",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/259.png"
+              }
+            ]
+          },
+          {
+            "id": 191,
+            "name": "Chafers d'Amakna",
+            "monsters": [
+              {
+                "id": 110,
+                "name": "Chafer Invisible",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/110.png"
+              }
+            ]
+          },
+          {
+            "id": 9048,
+            "name": "Chafers des cités",
+            "monsters": [
+              {
+                "id": 291,
+                "name": "Chafer Archer",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/291.png"
+              },
+              {
+                "id": 292,
+                "name": "Chafer d'Élite",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/292.png"
+              },
+              {
+                "id": 290,
+                "name": "Chafer Lancier",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/290.png"
+              }
+            ]
+          },
+          {
+            "id": 208,
+            "name": "Gadouilleux",
+            "monsters": [
+              {
+                "id": 263,
+                "name": "Chef Crocodaille",
+                "level": 61,
+                "imageUrl": "/bestiary/monsters/263.png"
+              },
+              {
+                "id": 261,
+                "name": "Crocodaille",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/261.png"
+              },
+              {
+                "id": 112,
+                "name": "Boo",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/112.png"
+              },
+              {
+                "id": 4833,
+                "name": "Arakne Olithique",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4833.png"
+              }
+            ]
+          },
+          {
+            "id": 1093,
+            "name": "Koffrefors",
+            "monsters": [
+              {
+                "id": 3666,
+                "name": "Berserkoffre",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3666.png"
+              },
+              {
+                "id": 3663,
+                "name": "Boursoin",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3663.png"
+              },
+              {
+                "id": 3664,
+                "name": "Mimikado",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3664.png"
+              },
+              {
+                "id": 3665,
+                "name": "Trésantène",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3665.png"
+              }
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Mulous",
+            "monsters": [
+              {
+                "id": 102,
+                "name": "Mulou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/102.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:774",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/orichomania.html",
+      "sourceTitle": "Orichomania",
+      "sourceHash": "fa68c74188d5f7e5dc2753e78ac82cb35476ab91b8d26994efe529d9bd57f43b",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après Orichomania, enquêtez sur l'attaque visant l'Explorancienne. Votre parcours vous mène de la Tour des Voyageurs à Vil Smisse en Amakna, puis jusqu'à Srambad où vous devez rencontrer le Sergent Raskzac et enfin Franche Smisse.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Niveau recommandé : 100-200.",
+        "Avoir terminé Orichomania."
+      ],
+      "rewards": [
+        "2 625 000 XP.",
+        "43 980 Kamas."
+      ],
+      "preparation": [
+        "Prévoir de rechercher puis d'emprunter un portail vers Srambad."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Gladis pour demander des informations sur la découverte de Srambad et l'attaque contre l'Explorancienne.",
+          "position": "[-22,-24]",
+          "zoneHint": "Routes Rocailleuses",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montez voir l'Explorancienne et proposez-lui votre aide. Elle vous charge de rencontrer Vil Smisse et de lui remettre un Lingot d'Enutrosor.",
+          "position": "[-22,-24]",
+          "zoneHint": "Tour des Voyageurs",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au village d'Amakna et accédez à la map secrète où se cache Vil Smisse en cliquant derrière la maison.",
+          "position": "[1,0]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Vil Smisse et remettez-lui le Lingot d'Enutrosor. Écoutez ses informations sur la Reine des Voleurs et récupérez son gant comme passe-droit.",
+          "position": "[1,0]",
+          "zoneHint": "Map secrète",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez faire votre rapport à l'Explorancienne. Elle vous envoie ensuite à Srambad pour rencontrer le Sergent Raskzac.",
+          "position": "[-22,-24]",
+          "zoneHint": "Tour des Voyageurs",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Activez une recherche de portail vers Srambad, trouvez le portail puis empruntez-le.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Le portail doit être localisé avant de pouvoir rejoindre Srambad.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez l'avant-poste des Voyageurs de Srambad et parlez au Sergent Raskzac. Refusez son escorte afin de rester discret.",
+          "position": null,
+          "zoneHint": "Avant-poste des Voyageurs de Srambad",
+          "warning": "Le choix demandé dans le parcours est de refuser l'escorte.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montez dans les Hauts Ténébreux jusqu'à Franche Smisse, puis montrez-lui le gant de Vil Smisse afin d'obtenir son attention.",
+          "position": "[5,1]",
+          "zoneHint": "Srambad - Hauts Ténébreux",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Poursuivez la discussion avec Franche Smisse jusqu'à ce qu'elle exige un service avant de livrer ses informations.",
+          "position": "[5,1]",
+          "zoneHint": "Srambad - Hauts Ténébreux",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Franche Smisse ne donne pas encore ses informations sur la Reine des Voleurs : son service constitue la quête suivante, Messager clandestin."
+      ],
+      "npcs": [
+        "Gladis",
+        "Explorancienne",
+        "Vil Smisse",
+        "Sergent Raskzac",
+        "Franche Smisse"
+      ],
+      "items": [
+        {
+          "name": "Lingot d'Enutrosor",
+          "itemId": 15463,
+          "imageUrl": "/items/15463.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15463"
+        },
+        {
+          "name": "Gant de Vil Smisse",
+          "itemId": 15464,
+          "imageUrl": "/items/15464.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15464"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 829,
+            "name": "Hauts Ténébreux",
+            "coordinates": [
+              "5,1"
+            ]
+          },
+          {
+            "id": 525,
+            "name": "Routes Rocailleuses",
+            "coordinates": [
+              "-22,-24"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "1,0"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3761,
+            "name": "Gein",
+            "level": 1600,
+            "imageUrl": "/bestiary/monsters/3761.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2503,
+            "name": "Kanasukr le Mielleux",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2503.png"
+          },
+          {
+            "id": 2359,
+            "name": "Maître Champeur le Sabreur",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2359.png"
+          },
+          {
+            "id": 2445,
+            "name": "Fouflay le Retombé",
+            "level": 64,
+            "imageUrl": "/bestiary/monsters/2445.png"
+          },
+          {
+            "id": 2455,
+            "name": "Vétaurine l'Énergisé",
+            "level": 66,
+            "imageUrl": "/bestiary/monsters/2455.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 213,
+            "name": "Animaux des Champs",
+            "monsters": [
+              {
+                "id": 288,
+                "name": "Serpentin",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/288.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 259,
+                "name": "Arakne Majeure",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/259.png"
+              }
+            ]
+          },
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 1130,
+            "name": "Cour Sombre",
+            "monsters": [
+              {
+                "id": 3746,
+                "name": "Mâchassin",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/3746.png"
+              },
+              {
+                "id": 3747,
+                "name": "Terristocrate",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/3747.png"
+              },
+              {
+                "id": 3748,
+                "name": "Doublure",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/3748.png"
+              },
+              {
+                "id": 3749,
+                "name": "Bourôliste",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/3749.png"
+              }
+            ]
+          },
+          {
+            "id": 186,
+            "name": "Craqueleurs",
+            "monsters": [
+              {
+                "id": 293,
+                "name": "Craqueleur des Plaines",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/293.png"
+              },
+              {
+                "id": 4571,
+                "name": "Craquelourd",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4571.png"
+              },
+              {
+                "id": 4573,
+                "name": "Craquelope",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4573.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 1518,
+            "name": "Ruffians de Cania",
+            "monsters": [
+              {
+                "id": 4574,
+                "name": "Foufayteur",
+                "level": 64,
+                "imageUrl": "/bestiary/monsters/4574.png"
+              },
+              {
+                "id": 4575,
+                "name": "Vétauran",
+                "level": 66,
+                "imageUrl": "/bestiary/monsters/4575.png"
+              },
+              {
+                "id": 287,
+                "name": "Kanigrou",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/287.png"
+              },
+              {
+                "id": 371,
+                "name": "Maître Bolet",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/371.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:815",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-citeacute-de-lindicible-mal.html",
+      "sourceTitle": "La cité de l'indicible mal",
+      "sourceHash": "d4d1320380c59587337a620a70c850fa2f582697bcd5079be1213952c3bcae5c",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Distribuez pour Franche Smisse des lettres destinées aux chefs de bande de Srambad afin qu'elle puisse organiser une réunion sans attirer l'attention. Une fois toutes les enveloppes remises, revenez auprès d'elle pour obtenir ses révélations.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Niveau recommandé : 100-200.",
+        "Avoir terminé La cité de l'indicible mal."
+      ],
+      "rewards": [
+        "2 625 000 XP.",
+        "43 980 Kamas."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parlez à Franche Smisse pour accepter de distribuer ses lettres aux chefs de bande de Srambad.",
+          "position": "[5,1]",
+          "zoneHint": "Srambad - Hauts Ténébreux",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Remettez une lettre à Mama Phia.",
+          "position": "[5,0]",
+          "zoneHint": "Srambad",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Trouvez la map cachée de Sinedia Zieunoir en cliquant sur le feu bleu, puis remettez-lui la lettre de Franche.",
+          "position": "[5,-2]",
+          "zoneHint": "Srambad",
+          "warning": "Le passage secret ouvert par le feu bleu ne laisse passer qu'un personnage à la fois, sauf passage très rapide.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Remettez une lettre à Goboukhan.",
+          "position": "[4,3]",
+          "zoneHint": "Srambad",
+          "warning": "Goboukhan menace de vous attaquer, mais Zap Gobdon intervient. La source indique avec incertitude qu'Orichomania pourrait être nécessaire pour continuer.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Zap Gobdon après son intervention et remerciez-le.",
+          "position": "[4,3]",
+          "zoneHint": "Srambad",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Remettez une lettre à Madame Hyrda.",
+          "position": "[5,3]",
+          "zoneHint": "Srambad",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montez à la taverne et remettez une lettre à Al Capote.",
+          "position": "[5,2]",
+          "zoneHint": "Srambad - Ruelles des Eaux-Suaires",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Remettez une lettre à Rufiette.",
+          "position": "[8,4]",
+          "zoneHint": "Srambad",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Remettez une lettre à Venimeuse.",
+          "position": "[8,8]",
+          "zoneHint": "Srambad",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Donnez la dernière enveloppe au Bouché et prévenez-le que le message est codé.",
+          "position": "[6,7]",
+          "zoneHint": "Srambad",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Franche Smisse et annoncez-lui que toutes les lettres ont été distribuées.",
+          "position": "[5,1]",
+          "zoneHint": "Srambad - Hauts Ténébreux",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Écoutez les révélations de Franche Smisse sur la mère de la Reine des Voleurs pour terminer la quête.",
+          "position": "[5,1]",
+          "zoneHint": "Srambad - Hauts Ténébreux",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les lettres peuvent être distribuées dans n'importe quel ordre.",
+        "À la fin, Franche Smisse indique que la mère de la Reine des Voleurs pourrait être encore en vie et qu'elle serait la seule à connaître son véritable prénom.",
+        "La quête suivante débloquée est La voix de son maître."
+      ],
+      "npcs": [
+        "Franche Smisse",
+        "Mama Phia",
+        "Sinedia Zieunoir",
+        "Goboukhan",
+        "Zap Gobdon",
+        "Madame Hyrda",
+        "Al Capote",
+        "Rufiette",
+        "Venimeuse",
+        "Bouché"
+      ],
+      "items": [
+        {
+          "name": "Lettres de Franche Smisse",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 485,
+            "name": "Campagne d'Amakna",
+            "coordinates": [
+              "5,3"
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Champ des Ingalsse",
+            "coordinates": [
+              "8,4",
+              "8,8",
+              "6,7"
+            ]
+          },
+          {
+            "id": 829,
+            "name": "Hauts Ténébreux",
+            "coordinates": [
+              "5,1"
+            ]
+          },
+          {
+            "id": 479,
+            "name": "Rivière Kawaii",
+            "coordinates": [
+              "5,-2"
+            ]
+          },
+          {
+            "id": 827,
+            "name": "Ruelles des Eaux-Suaires",
+            "coordinates": [
+              "5,2"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "5,0",
+              "4,3"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3525,
+            "name": "Ambi Guman",
+            "level": 30,
+            "imageUrl": "/bestiary/monsters/3525.png"
+          },
+          {
+            "id": 3762,
+            "name": "Pantèroz",
+            "level": 1040,
+            "imageUrl": "/bestiary/monsters/3762.png"
+          },
+          {
+            "id": 3761,
+            "name": "Gein",
+            "level": 1600,
+            "imageUrl": "/bestiary/monsters/3761.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2310,
+            "name": "Arakule la Revancharde",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2310.png"
+          },
+          {
+            "id": 2323,
+            "name": "Chamchie le Difficile",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2323.png"
+          },
+          {
+            "id": 2336,
+            "name": "Mosketère le Dévoué",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2336.png"
+          },
+          {
+            "id": 2355,
+            "name": "Tofuldebeu l'Explosif",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2355.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              }
+            ]
+          },
+          {
+            "id": 1130,
+            "name": "Cour Sombre",
+            "monsters": [
+              {
+                "id": 3746,
+                "name": "Mâchassin",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/3746.png"
+              },
+              {
+                "id": 3747,
+                "name": "Terristocrate",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/3747.png"
+              },
+              {
+                "id": 3748,
+                "name": "Doublure",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/3748.png"
+              },
+              {
+                "id": 3749,
+                "name": "Bourôliste",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/3749.png"
+              }
+            ]
+          },
+          {
+            "id": 1128,
+            "name": "Malveilleurs",
+            "monsters": [
+              {
+                "id": 3730,
+                "name": "Milimaître",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/3730.png"
+              },
+              {
+                "id": 3731,
+                "name": "Kartouche",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/3731.png"
+              },
+              {
+                "id": 3732,
+                "name": "Sramouraï",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/3732.png"
+              },
+              {
+                "id": 3733,
+                "name": "Tromblion",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/3733.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 205,
+            "name": "Tofus",
+            "monsters": [
+              {
+                "id": 804,
+                "name": "Tofoune",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/804.png"
+              },
+              {
+                "id": 796,
+                "name": "Tofu Noir",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/796.png"
+              },
+              {
+                "id": 806,
+                "name": "Tofukaz",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/806.png"
+              },
+              {
+                "id": 98,
+                "name": "Tofu",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/98.png"
+              },
+              {
+                "id": 4824,
+                "name": "Tofu Mutant",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/4824.png"
+              }
+            ]
+          },
+          {
+            "id": 1602,
+            "name": "Vermines des champs",
+            "monsters": [
+              {
+                "id": 4819,
+                "name": "Campagnoll",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/4819.png"
+              },
+              {
+                "id": 59,
+                "name": "Champ Champ",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/59.png"
+              },
+              {
+                "id": 61,
+                "name": "Moskito",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/61.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:816",
+      "relation": "ACTIVE",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/messager-clandestin.html",
+      "sourceTitle": "Messager clandestin",
+      "sourceHash": "c5dcc3be0cca5ddb358f41ecb9ca048a7adee975421ff49d26936a72c0bfaa4f",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Aidez Zap Gobdon à rechercher la voix de Gein. Vous devez fabriquer un Rossignol, cambrioler une maison des Hauts Ténébreux, vous évader de prison, puis rejoindre vos complices dans l'impasse des Comploteurs. L'enquête aboutit à une rencontre avec la Reine des Voleurs avant votre retour auprès de l'Explorancienne.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Niveau recommandé : 100-200.",
+        "Avoir terminé Messager clandestin."
+      ],
+      "rewards": [
+        "2 625 000 XP.",
+        "43 980 Kamas."
+      ],
+      "preparation": [
+        "Fabriquer 1 Rossignol avec 1 Crochet rouillé, 2 Champignons, 3 Cuirs de Scélérat Strubien, 1 Canine Vampiresque et 3 Poils d'Arakne Malade.",
+        "Le Rossignol doit être fabriqué par un bricoleur, ce qui nécessite de quitter Srambad.",
+        "Prévoir soit de récolter 20 Patates douces, soit d'effectuer un combat seul pour sortir de prison."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Zap Gobdon à la taverne et acceptez de l'aider à rechercher la voix de Gein.",
+          "position": "[5,2]",
+          "zoneHint": "Srambad - Ruelles des Eaux-Suaires",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récupérez le Crochet rouillé fourni par Belle Adrenne, quittez Srambad et faites fabriquer un Rossignol par un bricoleur avec les ressources requises.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Le Rossignol sera consommé lors de l'ouverture de la maison.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez à Srambad puis rendez-vous dans les Hauts Ténébreux.",
+          "position": "[6,-2]",
+          "zoneHint": "Srambad - Hauts Ténébreux",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Coupe-Gorge et montrez-lui le gant de Vil Smisse afin de franchir la grille.",
+          "position": "[6,-2]",
+          "zoneHint": "Srambad - Hauts Ténébreux",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez sur la porte pour entrer dans la maison, puis fouillez le coffre.",
+          "position": "[6,-2]",
+          "zoneHint": "Maison des Hauts Ténébreux",
+          "warning": "L'ouverture de la porte consomme le Rossignol. Le coffre est vide et l'action conduit automatiquement en prison.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Pour sortir de prison, choisissez soit de ramasser 20 Patates douces et de les donner à la geôlière, soit d'attirer la geôlière près des barreaux pour l'affronter.",
+          "position": null,
+          "zoneHint": "Prison",
+          "warning": "Le choix du combat impose un affrontement seul. L'autre solution exige 20 Patates douces.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Une fois libre, retournez à la taverne et annoncez votre échec à Zap Gobdon.",
+          "position": "[5,2]",
+          "zoneHint": "Srambad - Ruelles des Eaux-Suaires",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez dans les Hauts Ténébreux, parlez à Coupe-Gorge et montrez de nouveau le gant de Vil Smisse pour rejoindre l'impasse des Comploteurs.",
+          "position": "[6,-2]",
+          "zoneHint": "Srambad - Hauts Ténébreux",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans l'impasse, parlez d'abord à Franche Smisse, puis à Belle Adrenne. Faites remarquer à Belle qu'elle vous vouvoie afin de révéler son identité.",
+          "position": "[6,-2]",
+          "zoneHint": "Impasse des Comploteurs",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez la Reine des Voleurs sur l'attaque contre l'Explorancienne et écoutez ses explications concernant Gein.",
+          "position": "[6,-2]",
+          "zoneHint": "Impasse des Comploteurs",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de l'Explorancienne et racontez-lui votre rencontre avec la Reine des Voleurs.",
+          "position": "[-22,-24]",
+          "zoneHint": "Tour des Voyageurs",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Pour conclure, choisissez de révéler ou non à l'Explorancienne l'existence de la mère de la Reine des Voleurs.",
+          "position": "[-22,-24]",
+          "zoneHint": "Tour des Voyageurs",
+          "warning": "Les deux choix terminent la quête.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Il est possible de fabriquer plusieurs Rossignols si vous obtenez d'autres Crochets rouillés sur les monstres de Srambad.",
+        "Belle Adrenne rencontrée dans l'impasse est en réalité la Reine des Voleurs.",
+        "La Reine affirme ne pas commander Gein et indique qu'il finira par venir de lui-même."
+      ],
+      "npcs": [
+        "Zap Gobdon",
+        "Belle Adrenne",
+        "Coupe-Gorge",
+        "Franche Smisse",
+        "Reine des Voleurs",
+        "Explorancienne",
+        "Geôlière"
+      ],
+      "items": [
+        {
+          "name": "Rossignol",
+          "itemId": 15533,
+          "imageUrl": "/items/15533.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15533"
+        },
+        {
+          "name": "Crochet rouillé",
+          "itemId": 15531,
+          "imageUrl": "/items/15531.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15531"
+        },
+        {
+          "name": "Champignon",
+          "itemId": 290,
+          "imageUrl": "/items/290.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/290"
+        },
+        {
+          "name": "Cuir de Scélérat Strubien",
+          "itemId": 304,
+          "imageUrl": "/items/304.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/304"
+        },
+        {
+          "name": "Canine Vampiresque",
+          "itemId": 2279,
+          "imageUrl": "/items/2279.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2279"
+        },
+        {
+          "name": "Poils d'Arakne Malade",
+          "itemId": 388,
+          "imageUrl": "/items/388.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/388"
+        },
+        {
+          "name": "Patate douce",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Gant de Vil Smisse",
+          "itemId": 15464,
+          "imageUrl": "/items/15464.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15464"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 829,
+            "name": "Hauts Ténébreux",
+            "coordinates": [
+              "6,-2"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-22,-24"
+            ]
+          },
+          {
+            "id": 1,
+            "name": "Port de Madrestam",
+            "coordinates": [
+              "6,-2"
+            ]
+          },
+          {
+            "id": 525,
+            "name": "Routes Rocailleuses",
+            "coordinates": [
+              "-22,-24"
+            ]
+          },
+          {
+            "id": 827,
+            "name": "Ruelles des Eaux-Suaires",
+            "coordinates": [
+              "5,2"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3762,
+            "name": "Pantèroz",
+            "level": 1040,
+            "imageUrl": "/bestiary/monsters/3762.png"
+          },
+          {
+            "id": 3761,
+            "name": "Gein",
+            "level": 1600,
+            "imageUrl": "/bestiary/monsters/3761.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2332,
+            "name": "Larchimaide la Poussée",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2332.png"
+          },
+          {
+            "id": 2331,
+            "name": "Larvapstrè le Subjectif",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2331.png"
+          },
+          {
+            "id": 2339,
+            "name": "Larvomatik le Propre",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2339.png"
+          },
+          {
+            "id": 2574,
+            "name": "Larvonika l'Instrument",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2574.png"
+          },
+          {
+            "id": 2503,
+            "name": "Kanasukr le Mielleux",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2503.png"
+          },
+          {
+            "id": 2359,
+            "name": "Maître Champeur le Sabreur",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2359.png"
+          },
+          {
+            "id": 2445,
+            "name": "Fouflay le Retombé",
+            "level": 64,
+            "imageUrl": "/bestiary/monsters/2445.png"
+          },
+          {
+            "id": 2455,
+            "name": "Vétaurine l'Énergisé",
+            "level": 66,
+            "imageUrl": "/bestiary/monsters/2455.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 213,
+            "name": "Animaux des Champs",
+            "monsters": [
+              {
+                "id": 288,
+                "name": "Serpentin",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/288.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 259,
+                "name": "Arakne Majeure",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/259.png"
+              }
+            ]
+          },
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 1130,
+            "name": "Cour Sombre",
+            "monsters": [
+              {
+                "id": 3746,
+                "name": "Mâchassin",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/3746.png"
+              },
+              {
+                "id": 3747,
+                "name": "Terristocrate",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/3747.png"
+              },
+              {
+                "id": 3748,
+                "name": "Doublure",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/3748.png"
+              },
+              {
+                "id": 3749,
+                "name": "Bourôliste",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/3749.png"
+              }
+            ]
+          },
+          {
+            "id": 186,
+            "name": "Craqueleurs",
+            "monsters": [
+              {
+                "id": 293,
+                "name": "Craqueleur des Plaines",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/293.png"
+              },
+              {
+                "id": 4571,
+                "name": "Craquelourd",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4571.png"
+              },
+              {
+                "id": 4573,
+                "name": "Craquelope",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4573.png"
+              }
+            ]
+          },
+          {
+            "id": 203,
+            "name": "Larves",
+            "monsters": [
+              {
+                "id": 31,
+                "name": "Larve Bleue",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/31.png"
+              },
+              {
+                "id": 46,
+                "name": "Larve Orange",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/46.png"
+              },
+              {
+                "id": 34,
+                "name": "Larve Verte",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/34.png"
+              },
+              {
+                "id": 5225,
+                "name": "Larve Jaune",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/5225.png"
+              }
+            ]
+          },
+          {
+            "id": 1128,
+            "name": "Malveilleurs",
+            "monsters": [
+              {
+                "id": 3730,
+                "name": "Milimaître",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/3730.png"
+              },
+              {
+                "id": 3731,
+                "name": "Kartouche",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/3731.png"
+              },
+              {
+                "id": 3732,
+                "name": "Sramouraï",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/3732.png"
+              },
+              {
+                "id": 3733,
+                "name": "Tromblion",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/3733.png"
+              }
+            ]
+          },
+          {
+            "id": 1518,
+            "name": "Ruffians de Cania",
+            "monsters": [
+              {
+                "id": 4574,
+                "name": "Foufayteur",
+                "level": 64,
+                "imageUrl": "/bestiary/monsters/4574.png"
+              },
+              {
+                "id": 4575,
+                "name": "Vétauran",
+                "level": 66,
+                "imageUrl": "/bestiary/monsters/4575.png"
+              },
+              {
+                "id": 287,
+                "name": "Kanigrou",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/287.png"
+              },
+              {
+                "id": 371,
+                "name": "Maître Bolet",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/371.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:817",
+      "relation": "ACTIVE",
+      "sortOrder": 3,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-voix-de-son-maicirctre.html",
+      "sourceTitle": "La voix de son maître",
+      "sourceHash": "2a9b4a5acaced7a2024e454d6273c699f5df7b7fbf7e0c379a35c22d22edeadc",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Aidez le Colonel Oneuil et le Major Qiu à réduire la consommation d'orichor du générateur de portails. Vous devez retrouver la Maître des Zaaps sur l'île d'Otomaï, l'escorter jusqu'à la Tour des Voyageurs, accomplir plusieurs démarches sur place, puis rejoindre avec elle l'avant-poste du Xélorium.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Niveau recommandé : 100-200.",
+        "Avoir terminé La voix de son maître."
+      ],
+      "rewards": [
+        "2 625 000 XP.",
+        "43 980 Kamas."
+      ],
+      "preparation": [
+        "Prévoir 1 combat réalisable en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez au Colonel Oneuil et proposez votre aide pour résoudre le problème de consommation du générateur de portails.",
+          "position": "[-22,-24]",
+          "zoneHint": "Tour des Voyageurs",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Prenez le téléporteur de droite, puis encore celui de droite, et parlez au Major Qiu.",
+          "position": "[-22,-24]",
+          "zoneHint": "Tour des Voyageurs",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au Temple Xélor et demandez à Amine où trouver la Maître des Zaaps.",
+          "position": "[3,1]",
+          "zoneHint": "Temple Xélor",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez la Maître des Zaaps sur l'île d'Otomaï puis débarrassez-la des 2 Corailleurs Encombrants.",
+          "position": "[-46,18]",
+          "zoneHint": "Île d'Otomaï",
+          "warning": "Le combat peut se faire jusqu'à 8 personnages et met la quête à jour pour les personnages concernés. Un Morceau de Corailleur est obtenu automatiquement.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, exposez votre problème à la Maître des Zaaps. Elle accepte de vous aider et vous donne rendez-vous au zaap de Cania.",
+          "position": "[-46,18]",
+          "zoneHint": "Île d'Otomaï",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retrouvez la Maître des Zaaps et reparlez-lui pour qu'elle vous suive jusqu'au Major Qiu.",
+          "position": "[-20,-20]",
+          "zoneHint": "Cania",
+          "warning": "La Maître des Zaaps devient un personnage suiveur.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramenez la Maître des Zaaps à la Tour des Voyageurs et présentez-la au Major Qiu.",
+          "position": "[-22,-24]",
+          "zoneHint": "Tour des Voyageurs",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Prenez le flacon confié par le Major Qiu, retournez vers l'entrée de la tour, empruntez le téléporteur de gauche et remettez le flacon au Docteur Gaw.",
+          "position": "[-22,-24]",
+          "zoneHint": "Tour des Voyageurs",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès du Major Qiu et demandez-lui les conclusions de la Maître des Zaaps sur l'entretien de la machine.",
+          "position": "[-22,-24]",
+          "zoneHint": "Tour des Voyageurs",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Lancez une recherche de portail vers Xélorium, trouvez le passage et entrez dans la dimension.",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez la Maître des Zaaps à l'avant-poste du Xélorium et poursuivez la discussion pour terminer la quête.",
+          "position": "[1,6]",
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le Major Qiu et la Maître des Zaaps concluent qu'une Batterie Éternelle doit être fabriquée en Xélorium pour alimenter durablement la machine et réduire sa consommation d'orichor.",
+        "La suite immédiate est Énergie renouvelable."
+      ],
+      "npcs": [
+        "Colonel Oneuil",
+        "Major Qiu",
+        "Amine",
+        "Maître des Zaaps",
+        "Docteur Gaw"
+      ],
+      "items": [
+        {
+          "name": "Morceau de Corailleur",
+          "itemId": 15845,
+          "imageUrl": "/items/15845.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15845"
+        },
+        {
+          "name": "Flacon du Major Qiu",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 836,
+            "name": "Chemins d'hier",
+            "coordinates": [
+              "1,6"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "-22,-24"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "3,1"
+            ]
+          },
+          {
+            "id": 525,
+            "name": "Routes Rocailleuses",
+            "coordinates": [
+              "-22,-24",
+              "-20,-20"
+            ]
+          },
+          {
+            "id": 466,
+            "name": "Village côtier",
+            "coordinates": [
+              "-46,18"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3845,
+            "name": "Morblok",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/3845.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2503,
+            "name": "Kanasukr le Mielleux",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2503.png"
+          },
+          {
+            "id": 2359,
+            "name": "Maître Champeur le Sabreur",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2359.png"
+          },
+          {
+            "id": 2445,
+            "name": "Fouflay le Retombé",
+            "level": 64,
+            "imageUrl": "/bestiary/monsters/2445.png"
+          },
+          {
+            "id": 2455,
+            "name": "Vétaurine l'Énergisé",
+            "level": 66,
+            "imageUrl": "/bestiary/monsters/2455.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 213,
+            "name": "Animaux des Champs",
+            "monsters": [
+              {
+                "id": 288,
+                "name": "Serpentin",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/288.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 259,
+                "name": "Arakne Majeure",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/259.png"
+              }
+            ]
+          },
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 186,
+            "name": "Craqueleurs",
+            "monsters": [
+              {
+                "id": 293,
+                "name": "Craqueleur des Plaines",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/293.png"
+              },
+              {
+                "id": 4571,
+                "name": "Craquelourd",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4571.png"
+              },
+              {
+                "id": 4573,
+                "name": "Craquelope",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4573.png"
+              }
+            ]
+          },
+          {
+            "id": 1518,
+            "name": "Ruffians de Cania",
+            "monsters": [
+              {
+                "id": 4574,
+                "name": "Foufayteur",
+                "level": 64,
+                "imageUrl": "/bestiary/monsters/4574.png"
+              },
+              {
+                "id": 4575,
+                "name": "Vétauran",
+                "level": 66,
+                "imageUrl": "/bestiary/monsters/4575.png"
+              },
+              {
+                "id": 287,
+                "name": "Kanigrou",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/287.png"
+              },
+              {
+                "id": 371,
+                "name": "Maître Bolet",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/371.png"
+              }
+            ]
+          },
+          {
+            "id": 1171,
+            "name": "Xélomorphes",
+            "monsters": [
+              {
+                "id": 3854,
+                "name": "Gromorso",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3854.png"
+              },
+              {
+                "id": 3855,
+                "name": "Farfacette",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3855.png"
+              },
+              {
+                "id": 3856,
+                "name": "Brikablak",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3856.png"
+              },
+              {
+                "id": 3857,
+                "name": "Éklatleth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3857.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:853",
+      "relation": "ACTIVE",
+      "sortOrder": 4,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-maicirctre-des-zaaps.html",
+      "sourceTitle": "Le maître des zaaps",
+      "sourceHash": "bd86448410b5748f47442d4d90028974e7518eaf2bdd8bedcc541070dc67c393",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Aidez la Maître des Zaaps à fabriquer la Batterie Éternelle. Vous devez trouver de l'Orichor instable à l'aide d'un Orichomètre Sélectif, réunir précisément 23 Minutes du Xélorium, survivre à deux combats successifs, puis escorter la Maître des Zaaps jusqu'à un temple du Jour présent. L'expérience tourne mal et la quête s'achève lorsque vous allez chercher l'aide du Doc Emiette Borgne.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Niveau recommandé : 100-200.",
+        "Avoir terminé Le maître des zaaps."
+      ],
+      "rewards": [
+        "2 625 000 XP.",
+        "43 980 Kamas."
+      ],
+      "preparation": [
+        "Prévoir 2 combats à effectuer seul.",
+        "Prévoir 1 Pixel de Brikablak.",
+        "Prévoir 1 Pixel d'Éklatleth.",
+        "Prévoir 1 Pixel de Gromorso.",
+        "Prévoir 1 Pixel de Farfacette.",
+        "Les quatre Pixels servent à fabriquer une Montre en avance et une Montre en retard."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à la Maître des Zaaps à l'avant-poste afin de recevoir la mission de trouver de l'Orichor instable.",
+          "position": "[1,6]",
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sur la même map, parlez au Collecteur Sup pour obtenir l'Orichomètre Sélectif.",
+          "position": "[1,6]",
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Suivez l'indication de l'Orichomètre Sélectif et traversez deux maps sur la gauche jusqu'au Vieux Coffre. Relevez la valeur XXIII, soit 23.",
+          "position": "[6,6]",
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": "Le coffre exige exactement 23 Minutes du Xélorium.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Collectez 23 Minutes du Xélorium en utilisant les deux cadrans : prenez 3 fois 7 minutes sur celui de gauche et 1 fois 2 minutes sur celui de droite.",
+          "position": "[2,6]",
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": "Les cadrans peuvent ajouter ou retirer des minutes et devenir temporairement inutilisables après de nombreuses utilisations.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez devant le Vieux Coffre et ouvrez-le avec vos 23 Minutes du Xélorium, puis cliquez de nouveau rapidement dessus.",
+          "position": "[6,6]",
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": "Cette interaction déclenche immédiatement un combat solo en 3 vagues contre des monstres renforcés. La source recommande de jouer à distance.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Gagnez le premier combat en 3 vagues. À sa fin, vous êtes immédiatement agressé par 4 monstres avec un Krosmoglob allié.",
+          "position": "[6,6]",
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": "Le deuxième combat commence directement après le premier. Il se déroule seul côté joueur, avec le Krosmoglob comme allié. Gromorso possède une attaque de mise à mort au corps à corps.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après le deuxième combat, cliquez de nouveau sur le coffre afin de récupérer l'Orichor Instable.",
+          "position": "[6,6]",
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Krosmoglob de Belle Adrenne pour apprendre que vous étiez pris dans une boucle temporelle.",
+          "position": "[6,6]",
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez à l'avant-poste et donnez l'Orichor Instable à la Maître des Zaaps.",
+          "position": "[1,6]",
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": "La Maître des Zaaps devient ensuite un personnage suiveur.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Au fond de l'avant-poste, fabriquez une Montre en avance avec 1 Pixel de Brikablak et 1 Pixel d'Éklatleth, puis une Montre en retard avec 1 Pixel de Gromorso et 1 Pixel de Farfacette.",
+          "position": "[1,6]",
+          "zoneHint": "Avant-poste du Xélorium",
+          "warning": "Les montres sont réutilisables et ne sont pas consommées.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sortez du bâtiment en [1,6], utilisez la Montre en avance pour passer des Chemins d'hier au Jour présent, puis suivez le chemin vers le temple : droite, droite, bas droite, droite.",
+          "position": "[1,6]",
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": "Les montres doivent être utilisées à l'extérieur. Le changement temporel conserve votre cellule exacte ; un obstacle ou un groupe de monstres peut gêner la téléportation.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Au temple du Jour présent, parlez à la Maître des Zaaps puis déposez l'Orichor Instable dans la boîte comme elle vous l'indique.",
+          "position": null,
+          "zoneHint": "Xélorium - Jour présent - temple",
+          "warning": "Le processus provoque une lueur aveuglante et immobilise la Maître des Zaaps.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparlez à la Maître des Zaaps, désormais figée, puis revenez à l'avant-poste à l'aide de la Montre en retard.",
+          "position": null,
+          "zoneHint": "Xélorium - Jour présent - temple",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À l'avant-poste, parlez au Doc Emiette Borgne et racontez-lui ce qui s'est produit afin de terminer la quête.",
+          "position": "[1,6]",
+          "zoneHint": "Xélorium - Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La Montre en avance permet de passer des Chemins d'hier au Jour présent, puis du Jour présent aux Lendemains incertains. La Montre en retard permet de revenir vers une période antérieure.",
+        "Le Krosmoglob indique qu'il vous a aidé à sortir d'une boucle temporelle et mentionne la disparition d'Olivie Frange.",
+        "La quête se termine auprès du Doc Emiette Borgne. La suite, Traitement de choc, appartient à l'étape suivante et n'est pas à effectuer ici."
+      ],
+      "npcs": [
+        "Maître des Zaaps",
+        "Collecteur Sup",
+        "Krosmoglob de Belle Adrenne",
+        "Doc Emiette Borgne",
+        "Belle Adrenne",
+        "Olivie Frange"
+      ],
+      "items": [
+        {
+          "name": "Orichomètre Sélectif",
+          "itemId": 15852,
+          "imageUrl": "/items/15852.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15852"
+        },
+        {
+          "name": "Minute du Xélorium",
+          "itemId": 15855,
+          "imageUrl": "/items/15855.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15855"
+        },
+        {
+          "name": "Orichor Instable",
+          "itemId": 15851,
+          "imageUrl": "/items/15851.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15851"
+        },
+        {
+          "name": "Pixel de Brikablak",
+          "itemId": 15730,
+          "imageUrl": "/items/15730.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15730"
+        },
+        {
+          "name": "Pixel d'Éklatleth",
+          "itemId": 15731,
+          "imageUrl": "/items/15731.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15731"
+        },
+        {
+          "name": "Pixel de Gromorso",
+          "itemId": 15728,
+          "imageUrl": "/items/15728.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15728"
+        },
+        {
+          "name": "Pixel de Farfacette",
+          "itemId": 15729,
+          "imageUrl": "/items/15729.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15729"
+        },
+        {
+          "name": "Montre en avance",
+          "itemId": 15910,
+          "imageUrl": "/items/15910.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15910"
+        },
+        {
+          "name": "Montre en retard",
+          "itemId": 15909,
+          "imageUrl": "/items/15909.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15909"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 836,
+            "name": "Chemins d'hier",
+            "coordinates": [
+              "1,6",
+              "6,6",
+              "2,6"
+            ]
+          },
+          {
+            "id": 837,
+            "name": "Jour présent",
+            "coordinates": []
+          },
+          {
+            "id": 482,
+            "name": "Milifutaie",
+            "coordinates": [
+              "1,6"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3845,
+            "name": "Morblok",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/3845.png"
+          },
+          {
+            "id": 3848,
+            "name": "Hin",
+            "level": 170,
+            "imageUrl": "/bestiary/monsters/3848.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2310,
+            "name": "Arakule la Revancharde",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2310.png"
+          },
+          {
+            "id": 2333,
+            "name": "Milipatte la Griffe",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2333.png"
+          },
+          {
+            "id": 2349,
+            "name": "Preskapwal le Tendancieux",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2349.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 4823,
+                "name": "Écurouille",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/4823.png"
+              },
+              {
+                "id": 159,
+                "name": "Milimulou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/159.png"
+              },
+              {
+                "id": 103,
+                "name": "Prespic",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/103.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              }
+            ]
+          },
+          {
+            "id": 1172,
+            "name": "Hordémons",
+            "monsters": [
+              {
+                "id": 3840,
+                "name": "Trezz",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3840.png"
+              },
+              {
+                "id": 3841,
+                "name": "Vindeux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3841.png"
+              },
+              {
+                "id": 3842,
+                "name": "Trantroa",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3842.png"
+              },
+              {
+                "id": 3843,
+                "name": "Seith",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3843.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              }
+            ]
+          },
+          {
+            "id": 1171,
+            "name": "Xélomorphes",
+            "monsters": [
+              {
+                "id": 3854,
+                "name": "Gromorso",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3854.png"
+              },
+              {
+                "id": 3855,
+                "name": "Farfacette",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3855.png"
+              },
+              {
+                "id": 3856,
+                "name": "Brikablak",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3856.png"
+              },
+              {
+                "id": 3857,
+                "name": "Éklatleth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3857.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:854",
+      "relation": "ACTIVE",
+      "sortOrder": 5,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/eacutenergie-renouvelable.html",
+      "sourceTitle": "Énergie renouvelable",
+      "sourceHash": "1db154808e01f563084829583ef82666e394bba850766c97dfb9970e9f98d9f9",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

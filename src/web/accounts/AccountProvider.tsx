@@ -4,13 +4,19 @@ import {
   createPlayerProfile,
   followSharedPlayerProfile,
   getAccountState,
+  getMetaMobConfiguration,
+  linkMetaMobQuest,
   loginWithGoogle,
   logoutAccount,
   savePlayerProgress,
+  saveMetaMobCredentials,
   selectPlayerProfile,
   sharePlayerProfile,
   unfollowPlayerProfile,
+  unlinkMetaMobQuest,
   updatePlayerProfile,
+  setMetaMobArchmonsterCompleted,
+  type MetaMobConfigurationDto,
 } from "./serverFunctions.js";
 import { getProfileAvatars } from "../data/staticContentClient.js";
 import { useProfileEvents } from "./profileEventsClient.js";
@@ -25,12 +31,19 @@ interface AccountContextValue {
   signOut: () => Promise<void>;
   refresh: () => Promise<void>;
   selectProfile: (profileId: string) => Promise<void>;
-  createProfile: (name: string, breedId: number, gender: "MALE" | "FEMALE") => Promise<void>;
-  updateProfile: (profileId: string, name: string, breedId: number, gender: "MALE" | "FEMALE") => Promise<void>;
+  createProfile: (name: string, breedId: number, gender: "MALE" | "FEMALE", serverId: number) => Promise<void>;
+  updateProfile: (profileId: string, name: string, breedId: number, gender: "MALE" | "FEMALE", serverId: number) => Promise<void>;
   saveProgress: (profileId: string, progress: StoredProgressProfile) => Promise<void>;
   shareProfile: (profileId: string) => Promise<string>;
   followShare: (shareToken: string) => Promise<void>;
   unfollowProfile: (profileId: string) => Promise<void>;
+  metaMob: MetaMobConfigurationDto | null;
+  metaMobLoading: boolean;
+  refreshMetaMob: () => Promise<void>;
+  configureMetaMob: (apiKey: string) => Promise<void>;
+  linkMetaMob: (questSlug: string, strategy: "IMPORT_METAMOB" | "EXPORT_LOCAL") => Promise<void>;
+  unlinkMetaMob: () => Promise<void>;
+  setMetaMobArchmonster: (monsterId: number, monsterName: string, completed: boolean) => Promise<void>;
 }
 
 const AccountContext = createContext<AccountContextValue | null>(null);
@@ -44,6 +57,8 @@ export function AccountProvider({ children }: Readonly<{ children: ReactNode }>)
   const [account, setAccount] = useState<AccountSession | null>(null);
   const [avatars, setAvatars] = useState<ProfileAvatar[]>([]);
   const [error, setError] = useState<string | null>(null);
+  const [metaMob, setMetaMob] = useState<MetaMobConfigurationDto | null>(null);
+  const [metaMobLoading, setMetaMobLoading] = useState(false);
   const progressSaveQueue = useRef<Promise<void>>(Promise.resolve());
 
   const refresh = useCallback(async () => {
@@ -107,11 +122,11 @@ export function AccountProvider({ children }: Readonly<{ children: ReactNode }>)
   const selectProfile = useCallback((profileId: string) =>
     runAccountMutation(() => selectPlayerProfile({ data: { profileId } })), [runAccountMutation]);
 
-  const createProfile = useCallback((name: string, breedId: number, gender: "MALE" | "FEMALE") =>
-    runAccountMutation(() => createPlayerProfile({ data: { name, avatar: { breedId, gender } } })), [runAccountMutation]);
+  const createProfile = useCallback((name: string, breedId: number, gender: "MALE" | "FEMALE", serverId: number) =>
+    runAccountMutation(() => createPlayerProfile({ data: { name, avatar: { breedId, gender }, serverId } })), [runAccountMutation]);
 
-  const updateProfile = useCallback((profileId: string, name: string, breedId: number, gender: "MALE" | "FEMALE") =>
-    runAccountMutation(() => updatePlayerProfile({ data: { profileId, name, avatar: { breedId, gender } } })), [runAccountMutation]);
+  const updateProfile = useCallback((profileId: string, name: string, breedId: number, gender: "MALE" | "FEMALE", serverId: number) =>
+    runAccountMutation(() => updatePlayerProfile({ data: { profileId, name, avatar: { breedId, gender }, serverId } })), [runAccountMutation]);
 
   const saveProgress = useCallback((profileId: string, progress: StoredProgressProfile) => {
     const queuedSave = progressSaveQueue.current
@@ -141,6 +156,71 @@ export function AccountProvider({ children }: Readonly<{ children: ReactNode }>)
     runAccountMutation(() => unfollowPlayerProfile({ data: { profileId } })), [runAccountMutation]);
 
   const activeProfile = account?.profiles.find((profile) => profile.id === account.activeProfileId) ?? null;
+  const refreshMetaMob = useCallback(async () => {
+    if (activeProfile === null) {
+      setMetaMob(null);
+      return;
+    }
+    setMetaMobLoading(true);
+    try {
+      setMetaMob(await getMetaMobConfiguration({ data: { profileId: activeProfile.id } }));
+      setError(null);
+    } catch (metaMobError) {
+      setError(errorMessage(metaMobError));
+    } finally {
+      setMetaMobLoading(false);
+    }
+  }, [activeProfile?.id]);
+
+  useEffect(() => {
+    void refreshMetaMob();
+  }, [refreshMetaMob]);
+
+  const configureMetaMob = useCallback(async (apiKey: string) => {
+    if (activeProfile === null) throw new Error("Profil introuvable");
+    setMetaMobLoading(true);
+    try {
+      setMetaMob(await saveMetaMobCredentials({ data: { profileId: activeProfile.id, apiKey } }));
+      setError(null);
+    } catch (metaMobError) {
+      setError(errorMessage(metaMobError));
+      throw metaMobError;
+    } finally {
+      setMetaMobLoading(false);
+    }
+  }, [activeProfile?.id]);
+
+  const linkMetaMob = useCallback(async (questSlug: string, strategy: "IMPORT_METAMOB" | "EXPORT_LOCAL") => {
+    if (activeProfile === null) throw new Error("Profil introuvable");
+    setMetaMobLoading(true);
+    try {
+      setMetaMob(await linkMetaMobQuest({ data: { profileId: activeProfile.id, questSlug, strategy } }));
+      await refresh();
+      setError(null);
+    } catch (metaMobError) {
+      setError(errorMessage(metaMobError));
+      throw metaMobError;
+    } finally {
+      setMetaMobLoading(false);
+    }
+  }, [activeProfile?.id, refresh]);
+
+  const unlinkMetaMob = useCallback(async () => {
+    if (activeProfile === null) throw new Error("Profil introuvable");
+    setMetaMob(await unlinkMetaMobQuest({ data: { profileId: activeProfile.id } }));
+  }, [activeProfile?.id]);
+
+  const setMetaMobArchmonster = useCallback(async (monsterId: number, monsterName: string, completed: boolean) => {
+    if (activeProfile === null || metaMob?.link === null || metaMob === null) return;
+    const updated = await setMetaMobArchmonsterCompleted({ data: { profileId: activeProfile.id, monsterId, monsterName, completed } });
+    setMetaMob((current) => current === null ? current : {
+      ...current,
+      archmonsters: current.archmonsters.map((monster) =>
+        monster.id === updated.monsterId || monster.name === updated.monsterName ? { ...monster, quantity: updated.quantity } : monster),
+    });
+    await refresh();
+  }, [activeProfile?.id, metaMob?.link?.questSlug, refresh]);
+
   const value = useMemo<AccountContextValue>(() => ({
     loading,
     account,
@@ -157,7 +237,14 @@ export function AccountProvider({ children }: Readonly<{ children: ReactNode }>)
     shareProfile,
     followShare,
     unfollowProfile,
-  }), [loading, account, activeProfile, avatars, error, signIn, signOut, refresh, selectProfile, createProfile, updateProfile, saveProgress, shareProfile, followShare, unfollowProfile]);
+    metaMob,
+    metaMobLoading,
+    refreshMetaMob,
+    configureMetaMob,
+    linkMetaMob,
+    unlinkMetaMob,
+    setMetaMobArchmonster,
+  }), [loading, account, activeProfile, avatars, error, signIn, signOut, refresh, selectProfile, createProfile, updateProfile, saveProgress, shareProfile, followShare, unfollowProfile, metaMob, metaMobLoading, refreshMetaMob, configureMetaMob, linkMetaMob, unlinkMetaMob, setMetaMobArchmonster]);
 
   return <AccountContext.Provider value={value}>{children}</AccountContext.Provider>;
 }

@@ -1,114 +1,57 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 106,
-  "updatedAt": "2026-08-27T13:32:20.699Z",
+  "updatedAt": "2026-08-29T11:29:38.669Z",
   "summaries": [
     {
-      "overview": "Quête de suite après La bête intérieure. Cronan le Mérien vous envoie consulter Hyrini pour conjurer la malédiction en rallumant le feu des anciens. Récupérez 6 os disséminés dans la région, placez-les sur les tombes, puis rapportez la réussite à Cronan.",
-      "recommendedLevel": null,
+      "overview": "La Tanière du Meulou vient d'être effectuée comme demandé à l'étape précédente : l'os de fer complète désormais les cinq autres os déjà récupérés. Il reste à remettre les six os à Hyrini, à raviver le feu des anciens puis à annoncer le résultat à Cronan le Mérien pour terminer la quête.",
+      "recommendedLevel": 100,
       "prerequisites": [
-        "La bête intérieure"
+        "Avoir terminé « La bête intérieure ».",
+        "Avoir récupéré les cinq premiers os avant la Tanière du Meulou : os de poussière, os de boue, os de sang, os de pierre et os d'écailles.",
+        "Avoir vaincu le Meulou dans la Tanière du Meulou en [-23,0] afin d'obtenir l'os de fer."
       ],
       "rewards": [],
       "preparation": [
-        "Prévoir 3 combats de quête réalisables en groupe",
-        "Faire le donjon Canidé et vaincre le Meulou"
+        "Vérifier que les six os nécessaires au feu des anciens ont bien été récupérés."
       ],
       "actions": [
         {
-          "instruction": "Parler à Cronan le Mérien pour lancer la quête.",
-          "position": "[-26,-5]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller voir Hyrini qui propose de raviver le feu des anciens.",
+          "instruction": "Retourner voir Hyrini et lui remettre les six os récupérés.",
           "position": "[-27,-3]",
           "zoneHint": null,
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Entrer dans le trou en haut de la carte et cliquer sur le squelette pour récupérer l'os de poussière.",
-          "position": "[-28,-2]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Parler à Caillus Pupuce, répondre que les crocofailles possèdent quelque chose qui vous intéresse, puis vaincre 2 Crocofailles pour obtenir l'os de boue.",
-          "position": "[-25,-3]",
-          "zoneHint": null,
-          "warning": "Combat de quête réalisable à plusieurs.",
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Parler et attaquer le Monstre sanguinaire (un wabbit) pour obtenir l'os de sang.",
-          "position": "[-23,-2]",
-          "zoneHint": null,
-          "warning": "Combat de quête réalisable à plusieurs.",
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Parler au Contremaître Kanig, demander poliment s'il a un os de pierre, puis le battre pour l'obtenir.",
-          "position": "[-21,-7]",
-          "zoneHint": null,
-          "warning": "Combat de quête réalisable à plusieurs.",
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Cliquer sur le squelette d'un dragon pour récupérer l'os d'écailles.",
-          "position": "[-24,-9]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Entrer dans le donjon Canidé et vaincre le Meulou pour obtenir l'os de fer.",
-          "position": "[-23,0]",
-          "zoneHint": "Donjon Canidé",
-          "warning": "Combat de quête réalisable à plusieurs.",
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Rapporter les 6 os à Hyrini.",
+          "instruction": "Sur la même carte, cliquer sur chacune des 6 tombes afin d'y placer les os.",
           "position": "[-27,-3]",
           "zoneHint": null,
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Cliquer sur les 6 tombes de la carte pour y placer les os.",
+          "instruction": "Reparler à Hyrini après avoir utilisé les 6 tombes afin de constater que le feu des anciens brûle de nouveau.",
           "position": "[-27,-3]",
           "zoneHint": null,
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Reparler à Hyrini qui confirme que le feu brûle de nouveau.",
-          "position": "[-27,-3]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Retourner annoncer la bonne nouvelle à Cronan le Mérien pour terminer la quête.",
+          "instruction": "Retourner auprès de Cronan le Mérien et lui annoncer que le feu des anciens a été ravivé pour terminer la quête.",
           "position": "[-26,-5]",
           "zoneHint": null,
           "warning": null,
           "combat": "NONE"
         }
       ],
-      "notes": [],
+      "notes": [
+        "Les combats nécessaires à la récupération des autres os et le donjon du Meulou sont supposés déjà accomplis à cette occurrence FINISH."
+      ],
       "npcs": [
-        "Cronan le Mérien",
         "Hyrini",
-        "Caillus Pupuce",
-        "Monstre sanguinaire",
-        "Contremaître Kanig",
-        "Meulou"
+        "Cronan le Mérien"
       ],
       "items": [
         {
@@ -154,14 +97,7 @@
             "id": 522,
             "name": "Hauts des Hurlements",
             "coordinates": [
-              "-26,-5",
-              "-27,-3",
-              "-28,-2",
-              "-25,-3",
-              "-23,-2",
-              "-21,-7",
-              "-24,-9",
-              "-23,0"
+              "-27,-3"
             ]
           },
           {
@@ -229,231 +165,50 @@
         ]
       },
       "questKey": "quest:1109",
+      "relation": "FINISH",
+      "sortOrder": 0,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/allumer-le-feu.html",
       "sourceTitle": "Allumer le feu",
       "sourceHash": "a0c1f5c94fb0f4837a3b17a0db532e2517d3ed84ba3ab7655da85b8d3ad58298",
-      "generatedAt": "2026-08-24T17:12:30.105Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     },
     {
-      "overview": "Vaincre 6 boss de donjons (Abraknyde Ancestral, Dragon Cochon, Koulosse, Meulou, Rat Blanc, Rat Noir) sur ordre de Chris de Naire, puis rencontrer Kal Vissi pour débloquer la quête suivante.",
-      "recommendedLevel": 30,
+      "overview": "Le Meulou vient d'être vaincu dans la Tanière du Meulou lors du passage précédent. Pour cette occurrence, il faut uniquement retourner voir Chris de Naire afin de valider cette étape de sa série de donjons et recevoir la clef correspondant à la suite. Le prochain donjon de cette quête sera traité lors d'une occurrence ultérieure du guide.",
+      "recommendedLevel": 100,
       "prerequisites": [
-        "Niveau > 29",
-        "Les sbires du maître"
+        "Niveau supérieur à 29.",
+        "Avoir terminé « Les sbires du maître ».",
+        "Avoir déjà validé les étapes précédentes d'« Un juge hystérique » jusqu'au Koulosse.",
+        "Avoir vaincu le Meulou dans la Tanière du Meulou en [-23,0]."
       ],
       "rewards": [
-        "Bourgeon d'Abraknyde Ancestral",
-        "Poil de Dragon Cochon",
-        "Pierre du Koulosse",
-        "Testicules Magiques du Meulou"
+        "La récompense globale de la quête, versée uniquement à sa fin, comprend 15 501 041 XP, 178 512 Kamas, 1 x Bourgeon d'Abraknyde Ancestral, 1 x Poil de Dragon Cochon, 1 x Pierre du Koulosse et 1 x Testicules Magiques du Meulou."
       ],
-      "preparation": [
-        "1 x Donjon Domaine Ancestral",
-        "1 x Donjon Antre du Dragon Cochon",
-        "1 x Donjon Caverne du Koulosse",
-        "1 x Donjon Tanière du Meulou",
-        "1 x Donjon Garde-manger du Rat Blanc",
-        "1 x Donjon Sousouricière du Rat Noir"
-      ],
+      "preparation": [],
       "actions": [
         {
-          "instruction": "Se rendre en [-29,-47] (Champs de Cania), parler à Chris de Naire pour lancer la quête.",
+          "instruction": "Retourner parler à Chris de Naire après la victoire contre le Meulou afin de valider cette partie de la quête et récupérer la clef du prochain donjon.",
           "position": "[-29,-47]",
           "zoneHint": "Champs de Cania",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller au donjon Domaine Ancestral en [-9,-14], vaincre l'Abraknyde Ancestral.",
-          "position": "[-9,-14]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
-          "position": "[-29,-47]",
-          "zoneHint": "Champs de Cania",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller au donjon Antre du Dragon Cochon en [-1,33], vaincre le Dragon Cochon.",
-          "position": "[-1,33]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
-          "position": "[-29,-47]",
-          "zoneHint": "Champs de Cania",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller au donjon Caverne du Koulosse en [-17,8], vaincre le Koulosse.",
-          "position": "[-17,8]",
-          "zoneHint": null,
-          "warning": "Il faut être devant le PNJ sur la corniche pour entrer dans le donjon.",
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
-          "position": "[-29,-47]",
-          "zoneHint": "Champs de Cania",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller au donjon Tanière du Meulou en [-23,0], vaincre le Meulou.",
-          "position": "[-23,0]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
-          "position": "[-29,-47]",
-          "zoneHint": "Champs de Cania",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller au donjon Garde-manger du Rat Blanc en [-36,-60] (entrer par le Palais en [-36,-60] et descendre par le vide à ordure des cuisines, ou entrer par les égouts en [-32,-58] puis traverser), vaincre le Rat Blanc.",
-          "position": "[-36,-60]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
-          "position": "[-29,-47]",
-          "zoneHint": "Champs de Cania",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller au donjon Sousouricière du Rat Noir en [-29,-35] (entrée via la bouche d'égout en [-29,35]), vaincre le Rat Noir.",
-          "position": "[-29,-35]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania). Il n'a plus de donjons à confier et oriente vers un autre commanditaire.",
-          "position": "[-29,-47]",
-          "zoneHint": "Champs de Cania",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller voir Kal Vissi en [-19,30], choisir « J'accepte cette mission » pour terminer la quête.",
-          "position": "[-19,30]",
-          "zoneHint": null,
           "warning": null,
           "combat": "NONE"
         }
       ],
       "notes": [
-        "Terminer cette quête débloque la quête suivante : Des donjons, encore des donjons.",
-        "Étape 5 : deux chemins possibles pour accéder au Garde-manger du Rat Blanc — via le Palais en [-36,-60] (vide à ordure des cuisines) ou via les égouts en [-32,-58]."
+        "Ne pas poursuivre ici jusqu'au Rat Blanc : cette portion est volontairement reportée à une occurrence ultérieure du parcours."
       ],
       "npcs": [
-        "Chris de Naire",
-        "Kal Vissi",
-        "Abraknyde Ancestral",
-        "Dragon Cochon",
-        "Koulosse",
-        "Meulou",
-        "Rat Blanc",
-        "Rat Noir"
+        "Chris de Naire"
       ],
-      "items": [
-        {
-          "name": "Bourgeon d'Abraknyde Ancestral",
-          "itemId": 8495,
-          "imageUrl": "/items/8495.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8495"
-        },
-        {
-          "name": "Poil de Dragon Cochon",
-          "itemId": 8393,
-          "imageUrl": "/items/8393.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8393"
-        },
-        {
-          "name": "Pierre du Koulosse",
-          "itemId": 8402,
-          "imageUrl": "/items/8402.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8402"
-        },
-        {
-          "name": "Testicules Magiques du Meulou",
-          "itemId": 2806,
-          "imageUrl": "/items/2806.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2806"
-        }
-      ],
+      "items": [],
       "bestiary": {
         "zones": [
-          {
-            "id": 154,
-            "name": "Antre du Dragon Cochon",
-            "coordinates": [
-              "-1,33"
-            ]
-          },
-          {
-            "id": 223,
-            "name": "Caverne du Koulosse",
-            "coordinates": [
-              "-17,8"
-            ]
-          },
           {
             "id": 68,
             "name": "Champs de Cania",
             "coordinates": [
               "-29,-47"
-            ]
-          },
-          {
-            "id": 175,
-            "name": "Domaine Ancestral",
-            "coordinates": [
-              "-9,-14"
-            ]
-          },
-          {
-            "id": 1013,
-            "name": "Garde-manger du Rat Blanc",
-            "coordinates": [
-              "-36,-60",
-              "-32,-58"
-            ]
-          },
-          {
-            "id": 778,
-            "name": "Mine",
-            "coordinates": [
-              "-19,30"
-            ]
-          },
-          {
-            "id": 1010,
-            "name": "Sousouricière du Rat Noir",
-            "coordinates": [
-              "-29,-35",
-              "-29,35"
-            ]
-          },
-          {
-            "id": 213,
-            "name": "Tanière du Meulou",
-            "coordinates": [
-              "-23,0"
             ]
           }
         ],
@@ -493,36 +248,6 @@
         ],
         "achievements": [
           {
-            "id": 1201,
-            "name": "Abraknydiens Sombres",
-            "monsters": [
-              {
-                "id": 651,
-                "name": "Abrakne Sombre",
-                "level": 82,
-                "imageUrl": "/bestiary/monsters/651.png"
-              },
-              {
-                "id": 253,
-                "name": "Abraknyde Sombre",
-                "level": 78,
-                "imageUrl": "/bestiary/monsters/253.png"
-              },
-              {
-                "id": 254,
-                "name": "Abraknyde Vénérable",
-                "level": 74,
-                "imageUrl": "/bestiary/monsters/254.png"
-              },
-              {
-                "id": 917,
-                "name": "Araknotron",
-                "level": 76,
-                "imageUrl": "/bestiary/monsters/917.png"
-              }
-            ]
-          },
-          {
             "id": 213,
             "name": "Animaux des Champs",
             "monsters": [
@@ -551,249 +276,17 @@
                 "imageUrl": "/bestiary/monsters/294.png"
               }
             ]
-          },
-          {
-            "id": 221,
-            "name": "Boufcools",
-            "monsters": [
-              {
-                "id": 671,
-                "name": "Bouftou des cavernes",
-                "level": 84,
-                "imageUrl": "/bestiary/monsters/671.png"
-              }
-            ]
-          },
-          {
-            "id": 219,
-            "name": "Koalaks",
-            "monsters": [
-              {
-                "id": 747,
-                "name": "Dok Alako",
-                "level": 70,
-                "imageUrl": "/bestiary/monsters/747.png"
-              },
-              {
-                "id": 748,
-                "name": "Koalak Immature",
-                "level": 60,
-                "imageUrl": "/bestiary/monsters/748.png"
-              },
-              {
-                "id": 784,
-                "name": "Piralak",
-                "level": 80,
-                "imageUrl": "/bestiary/monsters/784.png"
-              },
-              {
-                "id": 746,
-                "name": "Warko Marron",
-                "level": 74,
-                "imageUrl": "/bestiary/monsters/746.png"
-              }
-            ]
-          },
-          {
-            "id": 5803,
-            "name": "Koalaks sauvages",
-            "monsters": [
-              {
-                "id": 763,
-                "name": "Drakoalak",
-                "level": 90,
-                "imageUrl": "/bestiary/monsters/763.png"
-              },
-              {
-                "id": 752,
-                "name": "Koalak Coco",
-                "level": 80,
-                "imageUrl": "/bestiary/monsters/752.png"
-              },
-              {
-                "id": 753,
-                "name": "Koalak Griotte",
-                "level": 80,
-                "imageUrl": "/bestiary/monsters/753.png"
-              },
-              {
-                "id": 751,
-                "name": "Koalak Indigo",
-                "level": 80,
-                "imageUrl": "/bestiary/monsters/751.png"
-              },
-              {
-                "id": 754,
-                "name": "Koalak Reinette",
-                "level": 80,
-                "imageUrl": "/bestiary/monsters/754.png"
-              },
-              {
-                "id": 755,
-                "name": "Mama Koalak",
-                "level": 90,
-                "imageUrl": "/bestiary/monsters/755.png"
-              }
-            ]
-          },
-          {
-            "id": 180,
-            "name": "Mulous",
-            "monsters": [
-              {
-                "id": 102,
-                "name": "Mulou",
-                "level": 92,
-                "imageUrl": "/bestiary/monsters/102.png"
-              },
-              {
-                "id": 4867,
-                "name": "Cocholou",
-                "level": 92,
-                "imageUrl": "/bestiary/monsters/4867.png"
-              },
-              {
-                "id": 4868,
-                "name": "Mulounoké",
-                "level": 92,
-                "imageUrl": "/bestiary/monsters/4868.png"
-              },
-              {
-                "id": 4869,
-                "name": "Mergranlou",
-                "level": 92,
-                "imageUrl": "/bestiary/monsters/4869.png"
-              },
-              {
-                "id": 4866,
-                "name": "Muloubard",
-                "level": 92,
-                "imageUrl": "/bestiary/monsters/4866.png"
-              }
-            ]
-          },
-          {
-            "id": 185,
-            "name": "Porcos",
-            "monsters": [
-              {
-                "id": 603,
-                "name": "Cochon de Farle",
-                "level": 90,
-                "imageUrl": "/bestiary/monsters/603.png"
-              },
-              {
-                "id": 601,
-                "name": "Don Dorgan",
-                "level": 92,
-                "imageUrl": "/bestiary/monsters/601.png"
-              },
-              {
-                "id": 600,
-                "name": "Don Duss Ang",
-                "level": 92,
-                "imageUrl": "/bestiary/monsters/600.png"
-              },
-              {
-                "id": 3304,
-                "name": "Porsalu",
-                "level": 80,
-                "imageUrl": "/bestiary/monsters/3304.png"
-              }
-            ]
-          },
-          {
-            "id": 5160,
-            "name": "Rats Bontariens",
-            "monsters": [
-              {
-                "id": 6743,
-                "name": "Chika Rat",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/6743.png"
-              },
-              {
-                "id": 6744,
-                "name": "Aloevée Rate",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/6744.png"
-              },
-              {
-                "id": 941,
-                "name": "Chak Rat",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/941.png"
-              },
-              {
-                "id": 938,
-                "name": "Scélée Rate",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/938.png"
-              },
-              {
-                "id": 942,
-                "name": "Capoei Rat",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/942.png"
-              }
-            ]
-          },
-          {
-            "id": 5159,
-            "name": "Rats Brâkmariens",
-            "monsters": [
-              {
-                "id": 6739,
-                "name": "Rate Atinée",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/6739.png"
-              },
-              {
-                "id": 6742,
-                "name": "Rate Iboisée",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/6742.png"
-              },
-              {
-                "id": 935,
-                "name": "Rat Plapla",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/935.png"
-              },
-              {
-                "id": 936,
-                "name": "Rat Li",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/936.png"
-              },
-              {
-                "id": 937,
-                "name": "Rat Sio",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/937.png"
-              }
-            ]
-          },
-          {
-            "id": 207,
-            "name": "Sidimonstres",
-            "monsters": [
-              {
-                "id": 299,
-                "name": "Croc Gland",
-                "level": 62,
-                "imageUrl": "/bestiary/monsters/299.png"
-              }
-            ]
           }
         ]
       },
       "questKey": "quest:73",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/un-juge-hysterique.html",
       "sourceTitle": "Un juge hystérique",
       "sourceHash": "5189a5003336188ba9c2062fbe1504352733438f35efd98131fb5f946b178711",
-      "generatedAt": "2026-08-24T18:32:41.222Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     }
   ],
   "tips": []

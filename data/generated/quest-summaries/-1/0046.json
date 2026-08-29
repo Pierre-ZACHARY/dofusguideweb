@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 46,
-  "updatedAt": "2026-08-27T13:32:17.932Z",
+  "updatedAt": "2026-08-29T09:59:10.742Z",
   "summaries": [
     {
       "overview": "Ronald le sage lenald vous oriente vers Mériana, une puissante magicienne vivant dans les marécages. Il suffit de la rejoindre et de lui expliquer que Ronald vous envoie. Cette courte quête ouvre ensuite les premières quêtes associées à cinq Dofus primordiaux.",
@@ -333,13 +333,6 @@
             "name": "Marécages nauséabonds",
             "coordinates": [
               "-6,-3"
-            ]
-          },
-          {
-            "id": 778,
-            "name": "Mine",
-            "coordinates": [
-              "5,1"
             ]
           },
           {

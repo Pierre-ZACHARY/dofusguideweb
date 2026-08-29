@@ -1,8 +1,680 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 140,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T14:23:06.544Z",
+  "summaries": [
+    {
+      "overview": "Poursuivez « C'est ton destin » dans les Chemins d'hier : récupérez les 5 œufs d'araignée du temps demandés par Doc Emiette Borgne, puis rapportez-les à l'avant-poste pour terminer la quête et rendre disponible « Retour vers le présent ».",
+      "recommendedLevel": 120,
+      "prerequisites": [],
+      "rewards": [
+        "809 109 XP",
+        "8 390 Kamas",
+        "20 x Orichor",
+        "5 x Pixel de Brikablak"
+      ],
+      "preparation": [
+        "Prévoir de parcourir plusieurs cartes des Chemins d'hier.",
+        "Les œufs sont des éléments interactifs partagés : s'ils viennent d'être ramassés par un autre joueur, leur réapparition prend environ 5 minutes."
+      ],
+      "actions": [
+        {
+          "instruction": "Ramassez au total 5 œufs d'araignée du temps sur les points de collecte des Chemins d'hier. Les emplacements connus sont [5,6], [1,7], [2,5], [3,5] et [3,6] ; un même emplacement peut être utilisé plusieurs fois après réapparition.",
+          "position": null,
+          "zoneHint": "Chemins d'hier",
+          "warning": "Les œufs disparaissent aussi pour vous lorsqu'un autre joueur les collecte ; attendez leur réapparition ou changez de carte.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Une fois les 5 œufs obtenus, retournez auprès de Doc Emiette Borgne et remettez-les-lui pour achever « C'est ton destin ».",
+          "position": "[1,6]",
+          "zoneHint": "Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Cette occurrence reprend une quête déjà lancée ; son lancement auprès de Doc Emiette Borgne est supposé accompli.",
+        "La fin de cette quête permet d'enchaîner immédiatement avec « Retour vers le présent », occurrence suivante de l'étape."
+      ],
+      "npcs": [
+        "Doc Emiette Borgne"
+      ],
+      "items": [
+        {
+          "name": "Œuf d'araignée du temps",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 836,
+            "name": "Chemins d'hier",
+            "coordinates": [
+              "5,6",
+              "1,7",
+              "2,5",
+              "3,5",
+              "3,6",
+              "1,6"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3845,
+            "name": "Morblok",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/3845.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1171,
+            "name": "Xélomorphes",
+            "monsters": [
+              {
+                "id": 3854,
+                "name": "Gromorso",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3854.png"
+              },
+              {
+                "id": 3855,
+                "name": "Farfacette",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3855.png"
+              },
+              {
+                "id": 3856,
+                "name": "Brikablak",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3856.png"
+              },
+              {
+                "id": 3857,
+                "name": "Éklatleth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3857.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:869",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/cest-ton-destin.html",
+      "sourceTitle": "C'est ton destin",
+      "sourceHash": "fce8fbfbfaa4439ff7bc0a5b2dac7be4b91fc21fb87ff22953035959d4c23c31",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez « Retour vers le présent » après « C'est ton destin », récupérez le Tournevis sonique et les pièces détachées, puis faites débloquer par Doc Emiette Borgne la collecte des fragments. Obtenez ensuite 10 Fragments de mémoire de Xélomorphe, mais ne les rendez pas encore : le guide impose de suspendre cette quête ici afin d'effectuer « Anomalies temporelles ».",
+      "recommendedLevel": 120,
+      "prerequisites": [
+        "Avoir terminé « C'est ton destin »."
+      ],
+      "rewards": [
+        "1 618 218 XP",
+        "16 780 Kamas",
+        "20 x Orichor",
+        "5 x Pixel de Farfacette"
+      ],
+      "preparation": [
+        "Prévoir des déplacements entre le Xélorium, Sufokia et la position du Major Qiu.",
+        "Prévoir des combats contre les monstres des Chemins d'hier pour obtenir 10 Fragments de mémoire de Xélomorphe."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Doc Emiette Borgne à l'avant-poste pour lancer « Retour vers le présent » et accepter de chercher l'aide du Docteur Hou ainsi que les pièces commandées au Major Qiu.",
+          "position": "[1,6]",
+          "zoneHint": "Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Quittez le Xélorium, rendez-vous auprès du Docteur Hou et expliquez-lui que Doc Emiette Borgne a besoin de son aide afin d'obtenir son Tournevis sonique.",
+          "position": "[20,25]",
+          "zoneHint": "Sufokia",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous auprès du Major Qiu et demandez-lui les pièces détachées commandées par Doc Emiette Borgne afin de recevoir le Sac de pièces détachées.",
+          "position": "[-22,-24]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez à l'avant-poste du Xélorium et donnez le Sac de pièces détachées à Doc Emiette Borgne. Il vous demandera alors de récupérer des fragments de mémoire sur les Xélomorphes avec le Tournevis sonique.",
+          "position": "[1,6]",
+          "zoneHint": "Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Combattez des monstres de la zone Chemins d'hier jusqu'à obtenir exactement 10 Fragments de mémoire de Xélomorphe. Le taux d'obtention indiqué est de 100 %.",
+          "position": null,
+          "zoneHint": "Chemins d'hier",
+          "warning": "Arrêtez-vous dès que les 10 Fragments de mémoire de Xélomorphe sont obtenus : ne les remettez pas à Doc Emiette Borgne pendant cette occurrence.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "La remise des 10 Fragments de mémoire de Xélomorphe, celle du Tournevis sonique et la conclusion de la quête sont volontairement reportées à l'occurrence FINISH de l'étape 141.",
+        "Une fois les 10 fragments en inventaire, poursuivez l'étape actuelle avec « Anomalies temporelles »."
+      ],
+      "npcs": [
+        "Doc Emiette Borgne",
+        "Docteur Hou",
+        "Major Qiu"
+      ],
+      "items": [
+        {
+          "name": "Tournevis sonique",
+          "itemId": 15871,
+          "imageUrl": "/items/15871.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15871"
+        },
+        {
+          "name": "Sac de pièces détachées",
+          "itemId": 15872,
+          "imageUrl": "/items/15872.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15872"
+        },
+        {
+          "name": "Fragment de mémoire de Xélomorphe",
+          "itemId": 15879,
+          "imageUrl": "/items/15879.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15879"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 836,
+            "name": "Chemins d'hier",
+            "coordinates": [
+              "1,6"
+            ]
+          },
+          {
+            "id": 525,
+            "name": "Routes Rocailleuses",
+            "coordinates": [
+              "-22,-24"
+            ]
+          },
+          {
+            "id": 32,
+            "name": "Sufokia",
+            "coordinates": [
+              "20,25"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3845,
+            "name": "Morblok",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/3845.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2503,
+            "name": "Kanasukr le Mielleux",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2503.png"
+          },
+          {
+            "id": 2359,
+            "name": "Maître Champeur le Sabreur",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2359.png"
+          },
+          {
+            "id": 2445,
+            "name": "Fouflay le Retombé",
+            "level": 64,
+            "imageUrl": "/bestiary/monsters/2445.png"
+          },
+          {
+            "id": 2455,
+            "name": "Vétaurine l'Énergisé",
+            "level": 66,
+            "imageUrl": "/bestiary/monsters/2455.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 213,
+            "name": "Animaux des Champs",
+            "monsters": [
+              {
+                "id": 288,
+                "name": "Serpentin",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/288.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 259,
+                "name": "Arakne Majeure",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/259.png"
+              }
+            ]
+          },
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 186,
+            "name": "Craqueleurs",
+            "monsters": [
+              {
+                "id": 293,
+                "name": "Craqueleur des Plaines",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/293.png"
+              },
+              {
+                "id": 4571,
+                "name": "Craquelourd",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4571.png"
+              },
+              {
+                "id": 4573,
+                "name": "Craquelope",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4573.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 1518,
+            "name": "Ruffians de Cania",
+            "monsters": [
+              {
+                "id": 4574,
+                "name": "Foufayteur",
+                "level": 64,
+                "imageUrl": "/bestiary/monsters/4574.png"
+              },
+              {
+                "id": 4575,
+                "name": "Vétauran",
+                "level": 66,
+                "imageUrl": "/bestiary/monsters/4575.png"
+              },
+              {
+                "id": 287,
+                "name": "Kanigrou",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/287.png"
+              },
+              {
+                "id": 371,
+                "name": "Maître Bolet",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/371.png"
+              }
+            ]
+          },
+          {
+            "id": 1171,
+            "name": "Xélomorphes",
+            "monsters": [
+              {
+                "id": 3854,
+                "name": "Gromorso",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3854.png"
+              },
+              {
+                "id": 3855,
+                "name": "Farfacette",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3855.png"
+              },
+              {
+                "id": 3856,
+                "name": "Brikablak",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3856.png"
+              },
+              {
+                "id": 3857,
+                "name": "Éklatleth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3857.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:870",
+      "relation": "START",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/retour-vers-le-preacutesent.html",
+      "sourceTitle": "Retour vers le présent",
+      "sourceHash": "fd6f9b6a64e7cfd4647654f525bef9b5ded9ae022d14f7dd56319facefda09ea",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Effectuez la portion restante d'« Anomalies temporelles » : aidez Nick Couteau à défendre le stabilisateur, renvoyez Grozilla du passé et Primeval dans leur époque à l'aide des bracelets, puis rendez compte à Nick et à la Caporale Tarte pour terminer la quête.",
+      "recommendedLevel": 120,
+      "prerequisites": [],
+      "rewards": [
+        "1 618 218 XP",
+        "16 780 Kamas",
+        "20 x Orichor",
+        "5 x Pixel d'Éklatleth"
+      ],
+      "preparation": [
+        "Prévoir 1 x Pétale de Rose Démoniaque.",
+        "Prévoir 1 x Huile de Tournesol Sauvage.",
+        "Prévoir 1 x Noix de Kokoko.",
+        "Le combat auprès de Nick Couteau est réalisable en groupe, avec 7 personnages maximum puisque Nick occupe une place."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à l'agent Nick Couteau et proposez votre aide pour le stabilisateur spatio-temporel. Défendez-le ensuite contre un Segmantidiot accompagné de monstres de la zone.",
+          "position": "[2,5]",
+          "zoneHint": "Chemins d'hier",
+          "warning": "Le groupe est limité à 7 joueurs car Nick Couteau participe au combat. Pour valider la quête, chaque personnage concerné doit avoir parlé à Nick avant le lancement du combat.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire, reparlez à Nick Couteau. Vous obtenez 2 Bracelets de Nick Couteau et devez renvoyer deux êtres du passé dans leur époque.",
+          "position": "[2,5]",
+          "zoneHint": "Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montez jusqu'à Grozilla du passé et parlez-lui pour constater qu'un bracelet ne peut pas être placé directement et qu'une Savonnette géante est nécessaire.",
+          "position": "[2,7]",
+          "zoneHint": "Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au fond de l'avant-poste et utilisez l'atelier pour fabriquer une Savonnette géante avec 1 Pétale de Rose Démoniaque, 1 Huile de Tournesol Sauvage et 1 Noix de Kokoko.",
+          "position": null,
+          "zoneHint": "Avant-poste",
+          "warning": "Cette fabrication consomme les trois ressources indiquées.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez devant Grozilla du passé, placez-vous devant lui et utilisez la Savonnette géante en lui parlant. Une fois qu'il a glissé, placez l'un des Bracelets de Nick Couteau autour de son orteil pour le renvoyer dans son époque.",
+          "position": "[2,7]",
+          "zoneHint": "Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Pour rejoindre Primeval, passez d'abord par [5,6], utilisez votre montre en avance une fois, montez d'une carte, utilisez votre montre en retard, puis déplacez-vous d'une carte vers la gauche jusqu'en [4,5].",
+          "position": "[4,5]",
+          "zoneHint": "Chemins d'hier",
+          "warning": "Respectez les changements temporels indiqués avec la montre pour atteindre la bonne carte.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Primeval, puis montez d'une carte et ramassez la touffe d'herbe située à gauche afin d'obtenir des Herbes des chemins d'hier.",
+          "position": null,
+          "zoneHint": "Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Redescendez en [4,5], déposez les Herbes des chemins d'hier sur l'arbre, placez-vous près de celui-ci et parlez à Primeval pour l'attirer. Posez ensuite le second Bracelet de Nick Couteau sur l'un de ses membres.",
+          "position": "[4,5]",
+          "zoneHint": "Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir l'Agent Nick Couteau et demandez-lui s'il faut d'autres bracelets. Il vous indiquera avoir géré lui-même les autres êtres du passé.",
+          "position": "[2,5]",
+          "zoneHint": "Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez la Caporale Tarte à l'avant-poste et annoncez-lui la réussite de la mission pour terminer « Anomalies temporelles ».",
+          "position": "[1,6]",
+          "zoneHint": "Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Cette occurrence est ACTIVE : le lancement initial auprès de la Caporale Tarte est supposé déjà effectué.",
+        "Le combat auprès de Nick Couteau fournit également un Sablier miniature cassé en objet de quête.",
+        "La fin de cette quête débloque « Failles spatio-temporelles », mais cette nouvelle quête n'est pas à effectuer dans l'étape 140."
+      ],
+      "npcs": [
+        "Caporale Tarte",
+        "Agent Nick Couteau",
+        "Grozilla du passé",
+        "Primeval"
+      ],
+      "items": [
+        {
+          "name": "Sablier miniature cassé",
+          "itemId": 15823,
+          "imageUrl": "/items/15823.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15823"
+        },
+        {
+          "name": "Bracelet de Nick Couteau",
+          "itemId": 15824,
+          "imageUrl": "/items/15824.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15824"
+        },
+        {
+          "name": "Pétale de Rose Démoniaque",
+          "itemId": 1717,
+          "imageUrl": "/items/1717.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1717"
+        },
+        {
+          "name": "Huile de Tournesol Sauvage",
+          "itemId": 1783,
+          "imageUrl": "/items/1783.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1783"
+        },
+        {
+          "name": "Noix de Kokoko",
+          "itemId": 2140,
+          "imageUrl": "/items/2140.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2140"
+        },
+        {
+          "name": "Savonnette géante",
+          "itemId": 15828,
+          "imageUrl": "/items/15828.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15828"
+        },
+        {
+          "name": "Herbes des chemins d'hier",
+          "itemId": 15956,
+          "imageUrl": "/items/15956.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15956"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 836,
+            "name": "Chemins d'hier",
+            "coordinates": [
+              "2,5",
+              "2,7",
+              "4,5",
+              "5,6",
+              "1,6"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3845,
+            "name": "Morblok",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/3845.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1171,
+            "name": "Xélomorphes",
+            "monsters": [
+              {
+                "id": 3854,
+                "name": "Gromorso",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3854.png"
+              },
+              {
+                "id": 3855,
+                "name": "Farfacette",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3855.png"
+              },
+              {
+                "id": 3856,
+                "name": "Brikablak",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3856.png"
+              },
+              {
+                "id": 3857,
+                "name": "Éklatleth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3857.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:866",
+      "relation": "ACTIVE",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/anomalies-temporelles.html",
+      "sourceTitle": "Anomalies temporelles",
+      "sourceHash": "cef475aadc069bf1ef090bd3bbb255e2f9a3a7e60a1aca56a17778088383ea65",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Profiter des Chemins d'hier",
+      "description": "Après avoir débloqué la collecte des fragments de « Retour vers le présent », profitez des déplacements et combats d'« Anomalies temporelles » dans les Chemins d'hier pour avancer simultanément vers les 10 Fragments de mémoire de Xélomorphe.",
+      "questKeys": [
+        "quest:870",
+        "quest:866"
+      ],
+      "actions": [
+        "Débloquez d'abord auprès de Doc Emiette Borgne l'objectif de collecte des 10 Fragments de mémoire de Xélomorphe.",
+        "Pendant les déplacements et combats d'« Anomalies temporelles » dans les Chemins d'hier, combattez au besoin les Xélomorphes pour compléter les 10 fragments.",
+        "Conservez les 10 fragments sans les rendre à Doc Emiette Borgne avant l'étape 141."
+      ]
+    }
+  ]
 }

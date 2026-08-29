@@ -1,139 +1,134 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 120,
-  "updatedAt": "2026-08-27T15:07:40.544Z",
+  "updatedAt": "2026-08-29T12:51:42.694Z",
   "summaries": [
     {
-      "overview": "Aidez Albert Paisse à mettre au point un vaccin provisoire contre le rube. Vous devrez récupérer du sang de Boufmouths, obtenir de l'eau de mer isotonique après avoir réconcilié le Capitaine Gneux et Éric Azaraille, puis affronter La Bête dans la cave du médecin. Le vaccin obtenu reste efficace pendant 7 jours.",
-      "recommendedLevel": 110,
+      "overview": "À cette occurrence, avancez Les monologues du vaccin jusqu'à son terme, mais respectez l'arrêt demandé autour de La Bête : complétez d'abord les échantillons de sang de boufmouth manquants, poursuivez les démarches d'Albert Paisse jusqu'au combat contre La Bête, récupérez son échantillon sans le remettre immédiatement, puis obtenez Le Rube sur des monstres avant de terminer la quête. Conservez impérativement Le Rube pour pouvoir lancer ensuite Le mal a dit.",
+      "recommendedLevel": 120,
       "prerequisites": [
-        "Niveau recommandé : 100-120."
+        "Niveau recommandé par la source : 100-120.",
+        "Prévoir des combats contre des Boufmouths dans les Champs de glace.",
+        "Prévoir l'aide de 3 personnages pour ouvrir le passage vers La Bête."
       ],
       "rewards": [
         "2 047 500 XP.",
         "23 960 kamas.",
-        "Vaccin contre le rube, temporaire pendant 7 jours."
+        "Vaccin contre le rube temporaire pendant 7 jours."
       ],
       "preparation": [
-        "Prévoir des combats contre les Boufmouths des Champs de glace.",
-        "Prévoir un combat contre La Bête, réalisable en groupe.",
-        "Prévoir l'aide de 3 personnages pour ouvrir le passage dans la cave."
+        "Avoir terminé le donjon mentionné par le parcours avant de reprendre cette portion.",
+        "Prévoir un groupe si nécessaire pour le combat contre La Bête.",
+        "Ne pas remettre immédiatement l'Echantillon de sang de La Bête à Albert Paisse après le combat."
       ],
       "actions": [
         {
-          "instruction": "Parlez à Albert Paisse et acceptez de l'aider à trouver un remède contre le rube.",
-          "position": "[-80,-45]",
-          "zoneHint": "La Bourgade",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Dans les Champs de glace, combattez des Boufmouths jusqu'à récupérer 6 échantillons de sang de Boufmouth. Le taux de base indiqué est de 30%.",
+          "instruction": "Dans les Champs de glace, combattez des Boufmouths jusqu'à compléter les 6 échantillons de sang de boufmouth demandés, en ne récupérant ici que ceux qui vous manquent encore.",
           "position": null,
           "zoneHint": "Champs de glace",
           "warning": null,
           "combat": "GROUP"
         },
         {
-          "instruction": "Rapportez les 6 échantillons de sang à Albert Paisse.",
+          "instruction": "Rapportez les 6 échantillons à Albert Paisse.",
           "position": "[-80,-45]",
           "zoneHint": "La Bourgade",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Allez au phare parler au Capitaine Gneux afin d'obtenir de l'eau de mer isotonique. Il exige de l'armoise en échange.",
+          "instruction": "Allez voir le Capitaine Gneux et demandez l'eau de mer isotonique. Il exige de l'armoise en échange.",
           "position": "[-85,-36]",
           "zoneHint": null,
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Demandez de l'armoise à Éric Azaraille. Il refuse tant que Gneux ne lui a pas présenté ses excuses.",
+          "instruction": "Demandez de l'armoise à Éric Azaraille. Après son refus, épuisez la discussion afin d'apprendre qu'il attend des excuses de Gneux.",
           "position": "[-81,-44]",
-          "zoneHint": null,
+          "zoneHint": "La Bourgade",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Retournez voir le Capitaine Gneux, annoncez-lui le refus d'Éric et proposez-lui un rendez-vous. Choisissez une tranche horaire.",
+          "instruction": "Retournez auprès de Gneux, annoncez le refus d'Éric et choisissez une tranche horaire pour leur rendez-vous.",
           "position": "[-85,-36]",
           "zoneHint": null,
-          "warning": "Choisissez une tranche horaire à laquelle vous pourrez vous connecter. Un changement n'est possible qu'après 24 heures. L'horaire choisi est indiqué sur un papier dans l'inventaire de quête.",
+          "warning": "Le choix de la tranche horaire conditionne la suite. Si l'horaire choisi ne convient pas, son changement n'est possible qu'après 24 heures.",
           "combat": "NONE"
         },
         {
-          "instruction": "Pendant la tranche horaire choisie, rendez-vous à la Taverne du Paradis Frigostien et parlez plusieurs fois au Capitaine Gneux pour boire avec lui.",
+          "instruction": "Pendant la tranche horaire choisie, rendez-vous à la Taverne du Paradis Frigostien, parlez à Gneux et poursuivez la conversation jusqu'à avoir bu avec lui.",
           "position": "[-77,-38]",
           "zoneHint": "Taverne du Paradis Frigostien",
-          "warning": "Cette étape doit être effectuée pendant la tranche horaire choisie auparavant.",
+          "warning": "Cette étape doit être effectuée pendant la tranche horaire enregistrée dans l'objet de quête.",
           "combat": "NONE"
         },
         {
-          "instruction": "Retournez voir Éric Azaraille. Après les excuses de Gneux, il vous remet l'armoise.",
+          "instruction": "Retournez voir Éric Azaraille après les excuses de Gneux afin de récupérer l'armoise.",
           "position": "[-81,-44]",
-          "zoneHint": null,
+          "zoneHint": "La Bourgade",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Apportez l'armoise au Capitaine Gneux, qui vous remet l'eau de mer isotonique en échange.",
+          "instruction": "Remettez l'armoise au Capitaine Gneux afin d'obtenir l'eau de mer isotonique.",
           "position": "[-85,-36]",
           "zoneHint": null,
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Apportez l'eau de mer isotonique à Albert Paisse.",
+          "instruction": "Apportez l'eau de mer isotonique à Albert Paisse, puis acceptez de vous occuper de son cobaye.",
           "position": "[-80,-45]",
           "zoneHint": "La Bourgade",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Descendez dans la cave d'Albert Paisse.",
+          "instruction": "Descendez dans la cave et faites placer 3 personnages sur les emplacements nécessaires afin d'ouvrir la grille. Franchissez-la pour obtenir le Sortilège d'Albert Paisse.",
           "position": "[-80,-45]",
           "zoneHint": "Cave",
-          "warning": "Vous aurez besoin de 3 autres personnages pour actionner le mécanisme permettant de franchir la grille.",
+          "warning": "L'aide de 3 personnages est nécessaire pour ouvrir le passage.",
           "combat": "NONE"
         },
         {
-          "instruction": "Faites placer les 3 personnages requis afin d'ouvrir le passage, puis franchissez seul la grille. Vous obtenez alors le Sortilège d'Albert Paisse.",
+          "instruction": "Affrontez La Bête. Lancez impérativement le Sortilège d'Albert Paisse sur La Bête avant de la tuer, puis remportez le combat afin d'obtenir l'Echantillon de sang de La Bête.",
           "position": "[-80,-45]",
           "zoneHint": "Cave",
-          "warning": "Seul le personnage qui franchit la grille obtient le Sortilège d'Albert Paisse nécessaire au combat.",
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Affrontez La Bête. Utilisez impérativement le Sortilège d'Albert Paisse sur La Bête avant de la tuer, puis remportez le combat pour obtenir un Echantillon de sang de La Bête.",
-          "position": "[-80,-45]",
-          "zoneHint": "Cave",
-          "warning": "Si La Bête meurt sans avoir reçu le Sortilège d'Albert Paisse, son effet tue toute l'équipe. Elle peut aussi appliquer Hexakosioihexekontahexaphobie pendant 1 tour, un poison infligeant environ 500 à 600 dommages neutres à la cible et aux personnages à son corps-à-corps au début du tour de la cible. Gévaudan frappe environ 250 dans l'élément eau.",
+          "warning": "Si La Bête meurt sans avoir reçu le Sortilège d'Albert Paisse, son effet peut tuer toute l'équipe. Son poison peut aussi frapper la cible et les personnages à son corps-à-corps au début de son tour.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Remontez voir Albert Paisse et remettez-lui l'Echantillon de sang de La Bête pour terminer la quête.",
+          "instruction": "Après le combat, gardez temporairement l'Echantillon de sang de La Bête au lieu de le remettre tout de suite à Albert Paisse, puis combattez les monstres requis jusqu'à obtenir Le Rube.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Ne rendez pas encore l'Echantillon de sang de La Bête avant d'avoir obtenu Le Rube.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Revenez ensuite auprès d'Albert Paisse et remettez l'Echantillon de sang de La Bête pour terminer la quête.",
           "position": "[-80,-45]",
           "zoneHint": "La Bourgade",
-          "warning": "Le vaccin obtenu n'est efficace que pendant 7 jours.",
+          "warning": "Conservez Le Rube après la fin de la quête : il est nécessaire pour pouvoir lancer Le mal a dit.",
           "combat": "NONE"
         }
       ],
       "notes": [
-        "Après la quête, il est possible d'obtenir chaque semaine un vaccin contre le rube en échange d'un échantillon de sang de Boufmouth.",
-        "La quête débloque Épis d'Emi."
+        "Le parcours de l'étape demande d'aller jusqu'au bout de cette quête à cette occurrence.",
+        "Le vaccin obtenu à la fin est temporaire et dure 7 jours.",
+        "La quête suivante de la série est Épis d'Emi."
       ],
       "npcs": [
         "Albert Paisse",
         "Capitaine Gneux",
         "Éric Azaraille",
-        "La Bête",
-        "Gévaudan"
+        "La Bête"
       ],
       "items": [
         {
-          "name": "Échantillon de sang de Boufmouth",
+          "name": "Echantillon de sang de boufmouth",
           "itemId": null,
           "imageUrl": null,
           "dofusDbUrl": null
@@ -157,6 +152,12 @@
           "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11204"
         },
         {
+          "name": "Le Rube",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
           "name": "Vaccin contre le rube",
           "itemId": 11198,
           "imageUrl": "/items/11198.png",
@@ -178,6 +179,13 @@
             "coordinates": [
               "-80,-45",
               "-81,-44"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "-80,-45"
             ]
           },
           {
@@ -261,6 +269,8 @@
         ]
       },
       "questKey": "quest:1462",
+      "relation": "START",
+      "sortOrder": 0,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/les-monologues-du-vaccin.html",
       "sourceTitle": "Les monologues du vaccin​",
       "sourceHash": "44e987b4a702e44f3986c753c814f23fb65df2b399c34639a388207234fe5520",
@@ -268,11 +278,11 @@
       "model": null
     },
     {
-      "overview": "À la suite des recherches d'Albert Paisse, vaccinez les personnes qu'Emi a pu contaminer pendant ses livraisons de Frostiz. Sept habitants doivent recevoir une injection avant de retourner faire votre rapport au médecin.",
-      "recommendedLevel": 110,
+      "overview": "Après Les monologues du vaccin, effectuez maintenant Épis d'Emi : Albert Paisse vous charge de vacciner sept personnes ayant pu être contaminées par Emi. Faites la tournée complète dans l'ordre indiqué, puis revenez auprès d'Albert pour terminer la quête et débloquer Le mal a dit.",
+      "recommendedLevel": 120,
       "prerequisites": [
-        "Niveau recommandé : 100-120.",
-        "Avoir terminé Les monologues du vaccin."
+        "Les monologues du vaccin.",
+        "Niveau recommandé par la source : 100-120."
       ],
       "rewards": [
         "1 618 218 XP.",
@@ -282,7 +292,7 @@
       "preparation": [],
       "actions": [
         {
-          "instruction": "Après Les monologues du vaccin, parlez à Albert Paisse pour apprendre qu'Emi a pu contaminer plusieurs personnes lors de ses livraisons de Frostiz.",
+          "instruction": "Parlez à Albert Paisse pour poursuivre Épis d'Emi et recevoir la mission de vacciner les personnes rencontrées lors des livraisons d'Emi.",
           "position": "[-80,-45]",
           "zoneHint": "La Bourgade",
           "warning": null,
@@ -291,28 +301,28 @@
         {
           "instruction": "Vaccinez Ken Tucky.",
           "position": "[-80,-46]",
-          "zoneHint": null,
+          "zoneHint": "La Bourgade",
           "warning": null,
           "combat": "NONE"
         },
         {
           "instruction": "Vaccinez Barin enrubé.",
           "position": "[-84,-42]",
-          "zoneHint": null,
+          "zoneHint": "La Bourgade",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Vaccinez le Docker enrubé malgré ses inquiétudes concernant les effets du vaccin.",
+          "instruction": "Vaccinez le Docker enrubé après l'avoir rassuré sur les effets du vaccin.",
           "position": "[-77,-38]",
-          "zoneHint": null,
+          "zoneHint": "La Bourgade",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Vaccinez Ernest Laye après lui avoir fait comprendre qu'il s'agit bien d'un vaccin venant du médecin.",
+          "instruction": "Vaccinez Ernest Laye après lui avoir fait comprendre qu'il s'agit du vaccin du médecin.",
           "position": "[-77,-45]",
-          "zoneHint": null,
+          "zoneHint": "La Bourgade",
           "warning": null,
           "combat": "NONE"
         },
@@ -338,7 +348,7 @@
           "combat": "NONE"
         },
         {
-          "instruction": "Retournez auprès d'Albert Paisse pour lui annoncer que toutes les personnes ont été vaccinées.",
+          "instruction": "Retournez auprès d'Albert Paisse après avoir vacciné les sept personnes afin de terminer Épis d'Emi.",
           "position": "[-80,-45]",
           "zoneHint": "La Bourgade",
           "warning": null,
@@ -346,27 +356,20 @@
         }
       ],
       "notes": [
-        "La quête débloque Le mal a dit."
+        "La fin de cette quête débloque Le mal a dit, qui doit être lancé juste après dans cette étape."
       ],
       "npcs": [
         "Albert Paisse",
-        "Emi",
-        "Circé Réal",
         "Ken Tucky",
         "Barin enrubé",
         "Docker enrubé",
         "Ernest Laye",
+        "Circé Réal",
         "Bambelle",
-        "Jarvi Jukkas"
+        "Jarvi Jukkas",
+        "Emi"
       ],
-      "items": [
-        {
-          "name": "Vaccin contre le rube",
-          "itemId": 11198,
-          "imageUrl": "/items/11198.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11198"
-        }
-      ],
+      "items": [],
       "bestiary": {
         "zones": [
           {
@@ -389,6 +392,8 @@
             "coordinates": [
               "-80,-45",
               "-80,-46",
+              "-84,-42",
+              "-77,-38",
               "-77,-45"
             ]
           },
@@ -397,14 +402,6 @@
             "name": "Lac gelé",
             "coordinates": [
               "-60,-59"
-            ]
-          },
-          {
-            "id": 600,
-            "name": "Port de givre",
-            "coordinates": [
-              "-84,-42",
-              "-77,-38"
             ]
           }
         ],
@@ -565,6 +562,8 @@
         ]
       },
       "questKey": "quest:396",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/eacutepis-demi.html",
       "sourceTitle": "Épis d'Emi",
       "sourceHash": "9a5f727ab308c791298a912053b63cf069e04b603905b1c8bcf68803068fe92c",
@@ -572,316 +571,66 @@
       "model": null
     },
     {
-      "overview": "Aidez Albert Paisse à élaborer un vaccin permanent contre le rube. La quête demande notamment de vaincre le Royalmouth, de solliciter plusieurs habitants de Frigost, de choisir entre la branche paysanne ou alchimiste pour une ressource expérimentale, de récupérer des Racines Hiques et de fabriquer un Jus d'Ecumouth pressé.",
+      "overview": "Lancez uniquement Le mal a dit auprès d'Albert Paisse. La première mission consiste à récupérer un Echantillon de Sang du Royalmouth dans la Serre du Royalmouth, mais le guide demande expressément de laisser cette quête de côté à ce stade : le donjon sera refait plus tard. N'entamez donc aucune autre collecte ni démarche de cette longue quête maintenant.",
       "recommendedLevel": 120,
       "prerequisites": [
-        "Niveau recommandé : 120.",
-        "Avoir terminé Épis d'Emi.",
-        "Attendre que le vaccin temporaire de la quête précédente ne fasse plus effet, soit 1 semaine.",
-        "Pour progresser auprès des PNJ concernés, avoir terminé Bienvenue à Frigost, Pauvre Kiki, Gène et Tique, ainsi que En semant se ment ou Cent vingt trois fleurs, point comme les autres selon la branche choisie."
+        "Épis d'Emi.",
+        "Le vaccin temporaire de la quête précédente doit ne plus faire effet, soit après 1 semaine selon la source.",
+        "La progression peut dépendre de Bienvenue à Frigost, Pauvre Kiki, Gène et Tique, ainsi que de En semant se ment ou Cent vingt trois fleurs, point comme les autres.",
+        "Conserver Le Rube obtenu précédemment comme demandé par le parcours."
       ],
       "rewards": [
-        "3 236 436 XP.",
-        "33 560 kamas.",
-        "4 x Kama de glace.",
-        "Vaccin contre le rube permanent."
+        "3 236 436 XP à la fin complète de la quête.",
+        "33 560 kamas à la fin complète de la quête.",
+        "4 x Kama de glace à la fin complète de la quête.",
+        "Vaccin contre le rube permanent à la fin complète de la quête."
       ],
       "preparation": [
-        "Prévoir le donjon Serre du Royalmouth.",
-        "Prévoir 1 x Huile de Mamansot.",
-        "Prévoir 5 x Poil de Smilomouth.",
-        "Prévoir 5 x Cuir du Sanglacier.",
-        "Prévoir 1 x Gland de l'Ecumouth.",
-        "Prévoir 10 x Eau Calme.",
-        "Prévoir 5 x Frigrowka.",
-        "Prévoir 5 x Friswein.",
-        "Prévoir un Alchimiste de niveau 60 minimum pour fabriquer le Jus d'Ecumouth pressé."
+        "Aucune ressource de la suite n'est à réunir maintenant.",
+        "Ne refaites pas la Serre du Royalmouth pour cette quête à cette occurrence."
       ],
       "actions": [
         {
-          "instruction": "Parlez à Albert Paisse. Il vous demande un échantillon de sang du Royalmouth.",
+          "instruction": "Parlez à Albert Paisse et lancez Le mal a dit jusqu'à recevoir l'objectif de récupérer 1 x Echantillon de Sang du Royalmouth.",
           "position": "[-80,-45]",
           "zoneHint": "La Bourgade",
-          "warning": "La quête exige que le vaccin temporaire obtenu précédemment ne fasse plus effet, soit après 1 semaine.",
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Terminez la Serre du Royalmouth et vainquez le Royalmouth afin d'obtenir son échantillon de sang.",
-          "position": "[-84,-49]",
-          "zoneHint": "Serre du Royalmouth",
-          "warning": null,
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Rapportez l'échantillon de sang du Royalmouth à Albert Paisse.",
-          "position": "[-80,-45]",
-          "zoneHint": "La Bourgade",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Demandez à la Maire Cantile des fonds supplémentaires pour la recherche médicale et récupérez une Promesse de don pour la recherche.",
-          "position": "[-77,-42]",
-          "zoneHint": null,
-          "warning": "Cette ressource n'est obtenue que si Bienvenue à Frigost est terminée.",
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Parlez au Grand-père, puis descendez dans sa cave et cliquez sur la tireuse afin d'obtenir du Friswein artisanal.",
-          "position": "[-79,-42]",
-          "zoneHint": "Cave",
-          "warning": "L'interaction nécessite d'avoir terminé Pauvre Kiki.",
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Parlez à Éric Azaraille afin qu'il vous indique l'emplacement des Racines Hiques en [-64,-48].",
-          "position": "[-81,-44]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Choisissez une seule branche pour obtenir la ressource expérimentale : si vous avez suivi la série paysanne, parlez à Cassiopée Hisane pour obtenir une céréale expérimentale.",
-          "position": "[-82,-48]",
-          "zoneHint": null,
-          "warning": "Choix exclusif : cette branche demande En semant se ment. N'allez pas également récupérer la plante expérimentale de l'autre branche.",
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Autre possibilité exclusive : si vous avez suivi la série alchimiste, parlez à Bisale Vinlenta pour obtenir une plante expérimentale.",
-          "position": "[-72,-31]",
-          "zoneHint": null,
-          "warning": "Choix exclusif : cette branche demande Cent vingt trois fleurs, point comme les autres. N'allez pas également récupérer la céréale expérimentale de l'autre branche.",
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Demandez des Tiques Sovihé à Jozébo Vez.",
-          "position": "[-69,-42]",
-          "zoneHint": null,
-          "warning": "Cette ressource n'est obtenue que si Gène et Tique est terminée.",
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Avec 5 Poils de Smilomouth et 5 Cuirs du Sanglacier, parlez à Gormor l'Équarisseur. Il vous remet un Ecumouth vivant et la recette du Jus d'Ecumouth pressé.",
-          "position": "[-65,-50]",
-          "zoneHint": null,
-          "warning": "Cette étape consomme 5 x Poil de Smilomouth et 5 x Cuir du Sanglacier.",
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Récupérez les Racines Hiques à l'emplacement indiqué par Éric Azaraille. Une agression se déclenche immédiatement ; remportez le combat pour obtenir les racines.",
-          "position": "[-64,-48]",
-          "zoneHint": null,
-          "warning": "Le temps de réapparition indiqué est d'environ 1 heure. Le combat déclenché doit être gagné pour obtenir les Racines Hiques.",
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Achetez 5 Friswein à la taverne indiquée.",
-          "position": "[-77,-44]",
-          "zoneHint": "Taverne",
-          "warning": "Dépense nécessaire pour acheter 5 Friswein.",
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Achetez 5 Frigrowka à la taverne indiquée.",
-          "position": "[-81,-41]",
-          "zoneHint": "Taverne",
-          "warning": "Dépense nécessaire pour acheter 5 Frigrowka.",
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Faites fabriquer le Jus d'Ecumouth pressé par un Alchimiste de niveau 60 minimum avec 1 Ecumouth vivant, 1 Gland de l'Ecumouth, 10 Eau Calme, 5 Frigrowka et 5 Friswein.",
-          "position": null,
-          "zoneHint": null,
-          "warning": "La fabrication consomme les ingrédients indiqués.",
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Rapportez toutes les ressources demandées à Albert Paisse, sans oublier l'Huile de Mamansot, puis remettez-les-lui pour terminer la quête.",
-          "position": "[-80,-45]",
-          "zoneHint": "La Bourgade",
-          "warning": null,
+          "warning": "La quête comporte plus tard un donjon, un combat et plusieurs collectes, mais aucune de ces actions ne doit être effectuée à cette occurrence.",
           "combat": "NONE"
         }
       ],
       "notes": [
-        "La quête débloque Convoi humanitaire.",
-        "Elle débloque aussi la quête hebdomadaire Pas de vaccin pour les vilains."
+        "L'objectif du Royalmouth est volontairement laissé en attente.",
+        "Le guide prévoit de refaire la Serre du Royalmouth plus tard dans l'aventure avant de poursuivre cette quête.",
+        "Les ressources et PNJ décrits par la source après l'échantillon du Royalmouth appartiennent à une portion ultérieure et ne sont pas à traiter maintenant."
       ],
       "npcs": [
-        "Albert Paisse",
-        "Royalmouth",
-        "Maire Cantile",
-        "Grand-père",
-        "Éric Azaraille",
-        "Cassiopée Hisane",
-        "Bisale Vinlenta",
-        "Jozébo Vez",
-        "Gormor l'Équarisseur"
+        "Albert Paisse"
       ],
       "items": [
         {
-          "name": "Échantillon de sang du Royalmouth",
+          "name": "Le Rube",
           "itemId": null,
           "imageUrl": null,
           "dofusDbUrl": null
         },
         {
-          "name": "Huile de Mamansot",
-          "itemId": 11226,
-          "imageUrl": "/items/11226.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11226"
-        },
-        {
-          "name": "Promesse de don pour la recherche",
-          "itemId": 11700,
-          "imageUrl": "/items/11700.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11700"
-        },
-        {
-          "name": "Friswein artisanal",
-          "itemId": 11698,
-          "imageUrl": "/items/11698.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11698"
-        },
-        {
-          "name": "Céréale expérimentale",
-          "itemId": 11702,
-          "imageUrl": "/items/11702.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11702"
-        },
-        {
-          "name": "Plante expérimentale",
-          "itemId": 11703,
-          "imageUrl": "/items/11703.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11703"
-        },
-        {
-          "name": "Tiques Sovihé",
-          "itemId": 11699,
-          "imageUrl": "/items/11699.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11699"
-        },
-        {
-          "name": "Poil de Smilomouth",
-          "itemId": null,
-          "imageUrl": null,
-          "dofusDbUrl": null
-        },
-        {
-          "name": "Cuir du Sanglacier",
-          "itemId": 11243,
-          "imageUrl": "/items/11243.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11243"
-        },
-        {
-          "name": "Ecumouth vivant",
-          "itemId": null,
-          "imageUrl": null,
-          "dofusDbUrl": null
-        },
-        {
-          "name": "Racines Hiques",
-          "itemId": 11704,
-          "imageUrl": "/items/11704.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11704"
-        },
-        {
-          "name": "Gland de l'Ecumouth",
-          "itemId": null,
-          "imageUrl": null,
-          "dofusDbUrl": null
-        },
-        {
-          "name": "Eau Calme",
-          "itemId": null,
-          "imageUrl": null,
-          "dofusDbUrl": null
-        },
-        {
-          "name": "Frigrowka",
-          "itemId": 11371,
-          "imageUrl": "/items/11371.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11371"
-        },
-        {
-          "name": "Friswein",
-          "itemId": 11370,
-          "imageUrl": "/items/11370.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11370"
-        },
-        {
-          "name": "Jus d'Ecumouth pressé",
-          "itemId": null,
-          "imageUrl": null,
-          "dofusDbUrl": null
-        },
-        {
-          "name": "Vaccin contre le rube",
-          "itemId": 11198,
-          "imageUrl": "/items/11198.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11198"
+          "name": "Echantillon de Sang du Royalmouth",
+          "itemId": 11697,
+          "imageUrl": "/items/11697.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11697"
         }
       ],
       "bestiary": {
         "zones": [
           {
-            "id": 602,
-            "name": "Champs de glace",
-            "coordinates": [
-              "-82,-48",
-              "-72,-31"
-            ]
-          },
-          {
             "id": 601,
             "name": "La Bourgade",
             "coordinates": [
-              "-80,-45",
-              "-79,-42"
-            ]
-          },
-          {
-            "id": 442,
-            "name": "Lac",
-            "coordinates": [
-              "-81,-44",
-              "-64,-48",
-              "-65,-50"
-            ]
-          },
-          {
-            "id": 778,
-            "name": "Mine",
-            "coordinates": [
-              "-77,-42",
-              "-69,-42"
-            ]
-          },
-          {
-            "id": 617,
-            "name": "Serre du Royalmouth",
-            "coordinates": [
-              "-84,-49"
-            ]
-          },
-          {
-            "id": 448,
-            "name": "Taverne",
-            "coordinates": [
-              "-77,-44",
-              "-81,-41"
+              "-80,-45"
             ]
           }
         ],
-        "bounties": [
-          {
-            "id": 2901,
-            "name": "Bouflouth",
-            "level": 120,
-            "imageUrl": "/bestiary/monsters/2901.png"
-          }
-        ],
+        "bounties": [],
         "archmonsters": [],
         "achievements": [
           {
@@ -913,40 +662,12 @@
                 "imageUrl": "/bestiary/monsters/2892.png"
               }
             ]
-          },
-          {
-            "id": 156,
-            "name": "Boufmouths",
-            "monsters": [
-              {
-                "id": 2850,
-                "name": "Boufmouth",
-                "level": 112,
-                "imageUrl": "/bestiary/monsters/2850.png"
-              },
-              {
-                "id": 2851,
-                "name": "Boufmouth de guerre",
-                "level": 112,
-                "imageUrl": "/bestiary/monsters/2851.png"
-              },
-              {
-                "id": 2852,
-                "name": "Boufmouth légendaire",
-                "level": 112,
-                "imageUrl": "/bestiary/monsters/2852.png"
-              },
-              {
-                "id": 2853,
-                "name": "Bouftonmouth",
-                "level": 112,
-                "imageUrl": "/bestiary/monsters/2853.png"
-              }
-            ]
           }
         ]
       },
       "questKey": "quest:436",
+      "relation": "START",
+      "sortOrder": 2,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-mal-a-dit.html",
       "sourceTitle": "Le mal a dit",
       "sourceHash": "0781b077924858078fb6b5b6db169724c588172ccf04d4d8b3bf17681621378f",
@@ -954,40 +675,23 @@
       "model": null
     },
     {
-      "overview": "Terminez l'aide demandée par la Maire Cantile aux habitants de Frigost. Cette quête se valide après avoir achevé La terre banquise, La maire de glace, Full Contact et Les monologues du vaccin, puis être revenu faire votre rapport.",
+      "overview": "Bienvenue à Frigost a été lancée plus tôt et demandait de terminer La terre banquise, La maire de glace, Full Contact et Les monologues du vaccin. Ces prérequis sont désormais supposés accomplis. Il ne reste qu'à retourner auprès de la Maire Cantille pour annoncer la découverte du vaccin provisoire et valider la quête.",
       "recommendedLevel": 120,
       "prerequisites": [
-        "Niveau recommandé : 120.",
-        "Avoir terminé La maire de glace."
+        "La terre banquise terminée.",
+        "La maire de glace terminée.",
+        "Full Contact terminée.",
+        "Les monologues du vaccin terminée."
       ],
       "rewards": [
         "3 883 723 XP.",
         "40 272 kamas.",
         "1 x Kama de glace."
       ],
-      "preparation": [
-        "Terminer La terre banquise.",
-        "Terminer La maire de glace.",
-        "Terminer Full Contact.",
-        "Terminer Les monologues du vaccin."
-      ],
+      "preparation": [],
       "actions": [
         {
-          "instruction": "Parlez à la Maire Cantile pour prendre en compte sa demande d'aide aux habitants de Frigost.",
-          "position": "[-77,-42]",
-          "zoneHint": "La Bourgade",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Terminez La terre banquise, La maire de glace, Full Contact et Les monologues du vaccin.",
-          "position": null,
-          "zoneHint": null,
-          "warning": "Les quatre quêtes sont nécessaires avant de pouvoir valider Bienvenue à Frigost.",
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Une fois les quatre quêtes terminées, retournez voir la Maire Cantile et annoncez-lui que vous avez découvert un vaccin provisoire contre le rube.",
+          "instruction": "Retournez voir la Maire Cantille et annoncez-lui que vous avez découvert un vaccin provisoire contre le rube afin de terminer Bienvenue à Frigost.",
           "position": "[-77,-42]",
           "zoneHint": "La Bourgade",
           "warning": null,
@@ -995,10 +699,11 @@
         }
       ],
       "notes": [
-        "La quête débloque L'essentiel est dans le lac gelé et Ennemis d'état."
+        "Les quatre quêtes demandées ont été traitées avant cette occurrence ; ne les recommencez pas.",
+        "La validation débloque notamment L'essentiel est dans Lac Gelé, qui doit être lancé plus loin dans cette même étape."
       ],
       "npcs": [
-        "Maire Cantile"
+        "Maire Cantille"
       ],
       "items": [],
       "bestiary": {
@@ -1047,6 +752,8 @@
         ]
       },
       "questKey": "quest:412",
+      "relation": "FINISH",
+      "sortOrder": 3,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/bienvenue-agrave-frigost.html",
       "sourceTitle": "Bienvenue à Frigost",
       "sourceHash": "3e9564189adbf5efab79a1c3cdd9d64a962a8132a056eafe26c4af3708a345ac",
@@ -1054,216 +761,52 @@
       "model": null
     },
     {
-      "overview": "Kal Vissi vous confie une série de cinq donjons à terminer successivement : Bibliothèque du Maître Corbac, Serre du Royalmouth, Labyrinthe du Minotoror, Tofulailler Royal et Antre de Crocabulia. Après chaque victoire, revenez chercher la mission suivante, puis terminez auprès du Maître des clefs.",
+      "overview": "Poursuivez uniquement l'étape Royalmouth de cette quête de donjons. Les portions précédentes sont supposées accomplies. Vainquez le Royalmouth dans la Serre du Royalmouth puis retournez auprès de Kal Vissi pour valider cette étape et recevoir la clef du donjon suivant. Ne partez pas encore au Labyrinthe du Minotoror : cette suite est réservée à une occurrence ultérieure du guide.",
       "recommendedLevel": null,
       "prerequisites": [
-        "Niveau supérieur à 29.",
-        "Avoir terminé Un juge hystérique."
+        "Niveau supérieur à 29 selon la source.",
+        "Un juge hystérique.",
+        "Les étapes antérieures de cette quête, dont le Maître Corbac, sont supposées déjà validées.",
+        "Avoir accès à Frigost I."
       ],
       "rewards": [
-        "18 651 520 XP.",
-        "195 360 Kamas.",
-        "1 x Clakoss.",
-        "1 x Queue du Royalmouth.",
-        "1 x Corne Brûlée du Minotoror.",
-        "1 x Plume Vibrante du Tofu Royal.",
-        "1 x Corne brisée de Crocabulia."
+        "Les récompenses globales de la quête ne sont obtenues qu'à sa fin : 18 651 520 XP, 195 360 Kamas, 1 x Clakoss, 1 x Queue du Royalmouth, 1 x Corne Brûlée du Minotoror, 1 x Plume Vibrante du Tofu Royal et 1 x Corne brisée de Crocabulia."
       ],
       "preparation": [
-        "Prévoir le donjon Bibliothèque du Maître Corbac.",
-        "Prévoir le donjon Serre du Royalmouth.",
-        "Prévoir le donjon Labyrinthe du Minotoror.",
-        "Prévoir le donjon Tofulailler Royal.",
-        "Prévoir le donjon Antre de Crocabulia."
+        "Prévoir l'accès à la Serre du Royalmouth."
       ],
       "actions": [
         {
-          "instruction": "Parlez à Kal Vissi et acceptez la mission.",
-          "position": "[-19,30]",
-          "zoneHint": "Terres Désacrées",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Vainquez le Maître Corbac dans la Bibliothèque du Maître Corbac.",
-          "position": "[-15,-62]",
-          "zoneHint": "Bibliothèque du Maître Corbac",
-          "warning": null,
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retournez auprès de Kal Vissi pour obtenir la clef et la mission du donjon suivant.",
-          "position": "[-19,30]",
-          "zoneHint": "Terres Désacrées",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Vainquez le Royalmouth dans la Serre du Royalmouth.",
+          "instruction": "Entrez dans la Serre du Royalmouth et terminez le donjon en vainquant le Royalmouth.",
           "position": "[-84,-49]",
           "zoneHint": "Serre du Royalmouth",
-          "warning": "L'accès à ce donjon nécessite Frigost I. Pour un premier voyage vers Frigost, le bateau se prend en [-34,-16] à partir du niveau 50.",
+          "warning": "Il s'agit d'un donjon. La quête Le mal a dit, lancée plus tôt dans l'étape, doit malgré tout rester volontairement en attente conformément au parcours.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Retournez auprès de Kal Vissi pour obtenir la clef et la mission du donjon suivant.",
+          "instruction": "Après la victoire, retournez auprès de Kal Vissi afin de valider l'étape Royalmouth et recevoir la clef du prochain donjon.",
           "position": "[-19,30]",
           "zoneHint": "Terres Désacrées",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Vainquez le Minotoror dans le Labyrinthe du Minotoror.",
-          "position": "[-42,-17]",
-          "zoneHint": "Labyrinthe du Minotoror",
-          "warning": null,
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Avant de quitter le donjon, vous pouvez entrer dans la salle du Minotot afin d'enregistrer une sauvegarde utile pour une quête ultérieure.",
-          "position": "[-42,-17]",
-          "zoneHint": "Labyrinthe du Minotoror",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Retournez auprès de Kal Vissi pour obtenir la clef et la mission du donjon suivant.",
-          "position": "[-19,30]",
-          "zoneHint": "Terres Désacrées",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Vainquez le Tofu Royal dans le Tofulailler Royal.",
-          "position": "[5,6]",
-          "zoneHint": "Tofulailler Royal",
-          "warning": null,
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retournez auprès de Kal Vissi pour obtenir la clef et la mission du dernier donjon.",
-          "position": "[-19,30]",
-          "zoneHint": "Terres Désacrées",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Pour rejoindre l'Antre de Crocabulia, descendez d'abord dans le sanctuaire en parlant à Ziho.",
-          "position": "[-4,24]",
-          "zoneHint": "Sanctuaire",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Vainquez Crocabulia dans l'Antre de Crocabulia.",
-          "position": "[-2,25]",
-          "zoneHint": "Antre de Crocabulia",
-          "warning": null,
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retournez auprès de Kal Vissi. Il vous demande alors de retourner voir le Maître des clefs.",
-          "position": "[-19,30]",
-          "zoneHint": "Terres Désacrées",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Parlez au Maître des clefs et poursuivez la discussion pour terminer la quête.",
-          "position": "[-6,-37]",
-          "zoneHint": null,
           "warning": null,
           "combat": "NONE"
         }
       ],
       "notes": [
-        "En continuant la discussion avec le Maître des clefs, vous obtenez la quête La voie du guerrier."
+        "Le prochain objectif de cette quête est le Minotoror, mais il ne doit pas être commencé ici.",
+        "La quête réapparaît à des étapes ultérieures du guide pour les donjons suivants."
       ],
       "npcs": [
         "Kal Vissi",
-        "Maître Corbac",
-        "Royalmouth",
-        "Minotoror",
-        "Tofu Royal",
-        "Crocabulia",
-        "Ziho",
-        "Maître des clefs"
+        "Royalmouth"
       ],
-      "items": [
-        {
-          "name": "Clakoss",
-          "itemId": 2527,
-          "imageUrl": "/items/2527.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2527"
-        },
-        {
-          "name": "Queue du Royalmouth",
-          "itemId": 11219,
-          "imageUrl": "/items/11219.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11219"
-        },
-        {
-          "name": "Corne Brûlée du Minotoror",
-          "itemId": 1680,
-          "imageUrl": "/items/1680.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1680"
-        },
-        {
-          "name": "Plume Vibrante du Tofu Royal",
-          "itemId": 8387,
-          "imageUrl": "/items/8387.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8387"
-        },
-        {
-          "name": "Corne brisée de Crocabulia",
-          "itemId": 8365,
-          "imageUrl": "/items/8365.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8365"
-        }
-      ],
+      "items": [],
       "bestiary": {
         "zones": [
-          {
-            "id": 325,
-            "name": "Antre de Crocabulia",
-            "coordinates": [
-              "-2,25"
-            ]
-          },
-          {
-            "id": 1038,
-            "name": "Bibliothèque du Maître Corbac",
-            "coordinates": [
-              "-15,-62"
-            ]
-          },
-          {
-            "id": 319,
-            "name": "Labyrinthe du Minotoror",
-            "coordinates": [
-              "-42,-17"
-            ]
-          },
-          {
-            "id": 778,
-            "name": "Mine",
-            "coordinates": [
-              "-6,-37"
-            ]
-          },
-          {
-            "id": 314,
-            "name": "Sanctuaire des Dragoeufs",
-            "coordinates": [
-              "-4,24"
-            ]
-          },
           {
             "id": 617,
             "name": "Serre du Royalmouth",
             "coordinates": [
-              "-84,-49",
-              "-34,-16"
+              "-84,-49"
             ]
           },
           {
@@ -1272,66 +815,10 @@
             "coordinates": [
               "-19,30"
             ]
-          },
-          {
-            "id": 780,
-            "name": "Tofulailler Royal",
-            "coordinates": [
-              "5,6"
-            ]
           }
         ],
         "bounties": [],
-        "archmonsters": [
-          {
-            "id": 2437,
-            "name": "Corpat le Vampire",
-            "level": 102,
-            "imageUrl": "/bestiary/monsters/2437.png"
-          },
-          {
-            "id": 2615,
-            "name": "Scaratyn l'Huître",
-            "level": 110,
-            "imageUrl": "/bestiary/monsters/2615.png"
-          },
-          {
-            "id": 2464,
-            "name": "Dragdikal le Décisif",
-            "level": 112,
-            "imageUrl": "/bestiary/monsters/2464.png"
-          },
-          {
-            "id": 2459,
-            "name": "Dragioli le Succulent",
-            "level": 112,
-            "imageUrl": "/bestiary/monsters/2459.png"
-          },
-          {
-            "id": 2452,
-            "name": "Dragobert le Monarque",
-            "level": 112,
-            "imageUrl": "/bestiary/monsters/2452.png"
-          },
-          {
-            "id": 2461,
-            "name": "Dragonienne l'Econome",
-            "level": 112,
-            "imageUrl": "/bestiary/monsters/2461.png"
-          },
-          {
-            "id": 2568,
-            "name": "Germinol l'Indigent",
-            "level": 120,
-            "imageUrl": "/bestiary/monsters/2568.png"
-          },
-          {
-            "id": 2287,
-            "name": "Serpistule le Purulent",
-            "level": 120,
-            "imageUrl": "/bestiary/monsters/2287.png"
-          }
-        ],
+        "archmonsters": [],
         "achievements": [
           {
             "id": 156,
@@ -1364,90 +851,6 @@
             ]
           },
           {
-            "id": 211,
-            "name": "Corbacs",
-            "monsters": [
-              {
-                "id": 818,
-                "name": "Corbac Apprivoisé",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/818.png"
-              },
-              {
-                "id": 819,
-                "name": "Buveur",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/819.png"
-              },
-              {
-                "id": 281,
-                "name": "Corbac",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/281.png"
-              },
-              {
-                "id": 824,
-                "name": "Horace le Corbac Apprivoisé",
-                "level": 110,
-                "imageUrl": "/bestiary/monsters/824.png"
-              },
-              {
-                "id": 825,
-                "name": "Kapotie le Buveur",
-                "level": 110,
-                "imageUrl": "/bestiary/monsters/825.png"
-              },
-              {
-                "id": 820,
-                "name": "Renarbo",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/820.png"
-              },
-              {
-                "id": 823,
-                "name": "Rono le Renarbo",
-                "level": 110,
-                "imageUrl": "/bestiary/monsters/823.png"
-              }
-            ]
-          },
-          {
-            "id": 178,
-            "name": "Dragoeufs Protecteurs",
-            "monsters": [
-              {
-                "id": 853,
-                "name": "Dragnarok",
-                "level": 112,
-                "imageUrl": "/bestiary/monsters/853.png"
-              },
-              {
-                "id": 862,
-                "name": "Draguaindrop",
-                "level": 112,
-                "imageUrl": "/bestiary/monsters/862.png"
-              },
-              {
-                "id": 855,
-                "name": "Dragueuse",
-                "level": 112,
-                "imageUrl": "/bestiary/monsters/855.png"
-              },
-              {
-                "id": 5804,
-                "name": "Dragacé",
-                "level": 112,
-                "imageUrl": "/bestiary/monsters/5804.png"
-              },
-              {
-                "id": 5805,
-                "name": "Dragmatique",
-                "level": 112,
-                "imageUrl": "/bestiary/monsters/5805.png"
-              }
-            ]
-          },
-          {
             "id": 1612,
             "name": "Goules",
             "monsters": [
@@ -1476,94 +879,12 @@
                 "imageUrl": "/bestiary/monsters/4880.png"
               }
             ]
-          },
-          {
-            "id": 206,
-            "name": "Gros Tofus",
-            "monsters": [
-              {
-                "id": 3302,
-                "name": "Tofu Dodu",
-                "level": 112,
-                "imageUrl": "/bestiary/monsters/3302.png"
-              },
-              {
-                "id": 3301,
-                "name": "Tofubine",
-                "level": 112,
-                "imageUrl": "/bestiary/monsters/3301.png"
-              },
-              {
-                "id": 3300,
-                "name": "Tofutoflamme",
-                "level": 108,
-                "imageUrl": "/bestiary/monsters/3300.png"
-              },
-              {
-                "id": 807,
-                "name": "Tofuzmo",
-                "level": 110,
-                "imageUrl": "/bestiary/monsters/807.png"
-              },
-              {
-                "id": 3299,
-                "name": "Vilain Petit Tofu",
-                "level": 103,
-                "imageUrl": "/bestiary/monsters/3299.png"
-              }
-            ]
-          },
-          {
-            "id": 173,
-            "name": "Minos",
-            "monsters": [
-              {
-                "id": 668,
-                "name": "Gamino",
-                "level": 120,
-                "imageUrl": "/bestiary/monsters/668.png"
-              },
-              {
-                "id": 832,
-                "name": "Déminoboule",
-                "level": 108,
-                "imageUrl": "/bestiary/monsters/832.png"
-              },
-              {
-                "id": 831,
-                "name": "Mominotor",
-                "level": 108,
-                "imageUrl": "/bestiary/monsters/831.png"
-              },
-              {
-                "id": 830,
-                "name": "Scaratos",
-                "level": 110,
-                "imageUrl": "/bestiary/monsters/830.png"
-              },
-              {
-                "id": 829,
-                "name": "Serpiplume",
-                "level": 120,
-                "imageUrl": "/bestiary/monsters/829.png"
-              }
-            ]
-          },
-          {
-            "id": 205,
-            "name": "Tofus",
-            "monsters": [
-              {
-                "id": 98,
-                "name": "Tofu",
-                "level": 32,
-                "imageUrl": "/bestiary/monsters/98.png"
-              }
-            ]
           }
         ]
       },
       "questKey": "quest:74",
+      "relation": "ACTIVE",
+      "sortOrder": 4,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/des-donjons-encore-des-donjons.html",
       "sourceTitle": "Des donjons, encore des donjons",
       "sourceHash": "b13c418c97b8d82cbf9ac712ef9e4a15acc8ffba6cd80d25800afbac9ac64d98",
@@ -1571,65 +892,21 @@
       "model": null
     },
     {
-      "overview": "La Maire Cantile vous charge d'aider les pêcheurs du Lac gelé. Pour valider cette quête, terminez successivement Pêche en eaux gelées, La pêche à Mel, Mel odieuse, Mel au drame et Il est frais mon pichon, puis revenez auprès de la maire.",
+      "overview": "Maintenant que Bienvenue à Frigost est terminée, lancez L'essentiel est dans Lac Gelé auprès de la Maire Cantille. La quête demande ensuite d'accomplir cinq quêtes de pêche dans un ordre précis, mais le guide prévoit de les faire bien plus tard. Arrêtez-vous donc immédiatement après le lancement.",
       "recommendedLevel": 140,
       "prerequisites": [
-        "Niveau recommandé : 140.",
-        "Avoir terminé Bienvenue à Frigost."
+        "Bienvenue à Frigost terminée.",
+        "Niveau recommandé par la source : 140."
       ],
       "rewards": [
-        "5 174 164 XP.",
-        "53 712 kamas.",
-        "1 x Kama de glace."
+        "5 174 164 XP à la fin complète de la quête.",
+        "53 712 kamas à la fin complète de la quête.",
+        "1 x Kama de glace à la fin complète de la quête."
       ],
-      "preparation": [
-        "Terminer dans l'ordre Pêche en eaux gelées, La pêche à Mel, Mel odieuse, Mel au drame et Il est frais mon pichon."
-      ],
+      "preparation": [],
       "actions": [
         {
-          "instruction": "Parlez à la Maire Cantile, qui vous demande d'aider les pêcheurs du Lac gelé.",
-          "position": "[-77,-42]",
-          "zoneHint": "La Bourgade",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Terminez Pêche en eaux gelées.",
-          "position": null,
-          "zoneHint": null,
-          "warning": "Les quêtes demandées doivent être effectuées dans l'ordre indiqué.",
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Terminez La pêche à Mel.",
-          "position": null,
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Terminez Mel odieuse.",
-          "position": null,
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Terminez Mel au drame.",
-          "position": null,
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Terminez Il est frais mon pichon.",
-          "position": null,
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Après avoir terminé les cinq quêtes, retournez voir la Maire Cantile pour valider la quête.",
+          "instruction": "Parlez à la Maire Cantille et acceptez d'aider les pêcheurs du lac gelé afin de lancer L'essentiel est dans Lac Gelé.",
           "position": "[-77,-42]",
           "zoneHint": "La Bourgade",
           "warning": null,
@@ -1637,10 +914,12 @@
         }
       ],
       "notes": [
-        "La quête débloque Les rescapés de Frigost."
+        "Ne commencez pas encore Pêche en eaux gelées, La pêche à Mel, Mel odieuse, Mel au drame ni Il est frais mon pichon.",
+        "Ces cinq quêtes devront être accomplies plus tard, dans cet ordre, avant le retour final auprès de la Maire Cantille.",
+        "Le parcours indique ensuite de poursuivre avec Bricole Girl à l'étape suivante."
       ],
       "npcs": [
-        "Maire Cantile"
+        "Maire Cantille"
       ],
       "items": [],
       "bestiary": {
@@ -1689,6 +968,8 @@
         ]
       },
       "questKey": "quest:413",
+      "relation": "START",
+      "sortOrder": 5,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/lessentiel-est-dans-le-lac-geleacute.html",
       "sourceTitle": "L'essentiel est dans lac gelé",
       "sourceHash": "bc113c65806309d11865b3ea67e7a4a81097e54f7037d150523264cc86404bda",
@@ -1696,19 +977,5 @@
       "model": null
     }
   ],
-  "tips": [
-    {
-      "title": "Regrouper le Royalmouth",
-      "description": "Si votre avancement le permet, profitez d'un même passage dans la Serre du Royalmouth pour faire progresser Le mal a dit et l'étape Royalmouth de Des donjons, encore des donjons.",
-      "questKeys": [
-        "quest:436",
-        "quest:74"
-      ],
-      "actions": [
-        "Vérifiez que Le mal a dit demande déjà l'échantillon du Royalmouth.",
-        "Vérifiez que Des donjons, encore des donjons est arrivée à son étape Royalmouth.",
-        "Terminez alors la Serre du Royalmouth en [-84,-49] pour faire avancer les deux quêtes lors du même donjon."
-      ]
-    }
-  ]
+  "tips": []
 }

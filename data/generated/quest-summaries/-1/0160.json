@@ -1,8 +1,383 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 160,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T15:05:21.920Z",
+  "summaries": [
+    {
+      "overview": "Lancez « Halte aux singeries » auprès de l’Artisan Pandawa en Aerdala. Pour cette occurrence, arrêtez-vous lorsque l’objectif demande de vaincre les monstres de la zone d’Aerdala : les éliminations seront effectuées ensuite, notamment en profitant si possible du passage au Dojo du Vent demandé par « L'équilibre des forces ».",
+      "recommendedLevel": 140,
+      "prerequisites": [
+        "Le réveil de Pandala."
+      ],
+      "rewards": [
+        "2 155 902 XP.",
+        "22 380 Kamas.",
+        "5 x Bracelet de Ino-Naru.",
+        "5 x Lame brisée de Lichangoro."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parlez à l’Artisan Pandawa pour lancer « Halte aux singeries » et accepter de repousser les Kozaru qui sabotent le chantier du Grand Pouddah. Arrêtez-vous dès que l’objectif demande de vaincre des monstres de la zone d’Aerdala.",
+          "position": "[23,-35]",
+          "zoneHint": "Aerdala",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La suite demandera de vaincre 10 Lichangoro, 10 Fangshu, 10 Kurookin et 10 Ino-Naru, mais ces éliminations ne font pas partie des actions de cette occurrence.",
+        "Le guide indique qu’il est possible d’avancer cette quête pendant le Dojo du Vent.",
+        "Terminer entièrement cette quête après le donjon est facultatif pour la suite du parcours du guide."
+      ],
+      "npcs": [
+        "Artisan Pandawa"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 945,
+            "name": "Aerdala",
+            "coordinates": [
+              "23,-35"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2512,
+            "name": "Fangshui la Dysorthographiée",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2512.png"
+          },
+          {
+            "id": 2511,
+            "name": "Inopenope le Négatif",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2511.png"
+          },
+          {
+            "id": 2412,
+            "name": "Lichangora l'Immaculée",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2412.png"
+          },
+          {
+            "id": 2398,
+            "name": "Rooroku l'Imposant",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2398.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 3018,
+            "name": "Kozaru",
+            "monsters": [
+              {
+                "id": 6214,
+                "name": "Ino-Naru",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6214.png"
+              },
+              {
+                "id": 6215,
+                "name": "Kurookin",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6215.png"
+              },
+              {
+                "id": 6216,
+                "name": "Fangshu",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6216.png"
+              },
+              {
+                "id": 6217,
+                "name": "Lichangoro",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6217.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1343",
+      "relation": "START",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/halte-aux-singeries.html",
+      "sourceTitle": "Halte aux singeries",
+      "sourceHash": "4e8e52892f3dd4ef9971f35c0c38a84cadb00b91f742b8120aa06c5dd06b48f8",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez « L'équilibre des forces », préparez l’offrande à l’Esprit du Vent, réglez les deux situations d’Aerdala puis obtenez le droit de défendre Ten Rowa devant les maîtres. Cette occurrence va jusqu’au Dojo du Vent inclus : vainquez Hanshi, puis arrêtez-vous avant de poursuivre les dialogues et le rendu qui seront traités à l’étape suivante.",
+      "recommendedLevel": 140,
+      "prerequisites": [
+        "Le festival de la lanterne.",
+        "Métier Paysan niveau 1 ou plus pour fabriquer l’Offrande à l’esprit du Vent ; le craft coopératif est impossible."
+      ],
+      "rewards": [
+        "4 311 804 XP.",
+        "44 760 Kamas.",
+        "3 x Pelage aérodynamique.",
+        "3 x Ruban d'Uchiwang."
+      ],
+      "preparation": [
+        "Prévoir 8 x Bananagrume.",
+        "Prévoir 3 x Fraise.",
+        "Prévoir 3 x Viscères de Scarafeuille.",
+        "Prévoir l’accès au Dojo du Vent."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Daimya Hikomi pour lancer « L'équilibre des forces » et accepter de rechercher l’Esprit du Vent.",
+          "position": "[22,-29]",
+          "zoneHint": "Village de Pandala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Avec un Paysan niveau 1 ou plus, utilisez l’atelier « moudre » pour fabriquer 1 x Offrande à l’esprit du Vent avec 3 Viscères de Scarafeuille, 3 Fraises et 8 Bananagrumes.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Le craft coopératif est impossible.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Déposez l’Offrande à l’esprit du Vent dans le panier de fruits en haut du rocher, puis parlez à l’Esprit du Vent apparu après votre transformation en Moon.",
+          "position": "[21,-39]",
+          "zoneHint": "Sommet d’Aerdala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Yokaïkido afin qu’il vous indique deux personnes susceptibles de prouver à l’Esprit du Vent que certains habitants d’Aerdala recherchent la paix.",
+          "position": "[21,-39]",
+          "zoneHint": "Sommet d’Aerdala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Jun Pandawane pour apprendre le projet des Pandissidans et accepter d’empêcher les attentats prévus dans les deux villages.",
+          "position": "[22,-37]",
+          "zoneHint": "Camp des Pandissidans",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Poseur de bombe Pandissidan et battez les 2 Poseurs de bombe.",
+          "position": "[19,-32]",
+          "zoneHint": null,
+          "warning": "Combat obligatoire réalisable seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Parlez au second Poseur de bombe Pandissidan et battez les 2 Poseurs de bombe.",
+          "position": "[19,-33]",
+          "zoneHint": null,
+          "warning": "Combat obligatoire réalisable seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Retournez voir Jun Pandawane pour lui annoncer que les deux attentats ont été empêchés ; il acceptera de rejoindre le sommet d’Aerdala pour témoigner devant l’Esprit du Vent.",
+          "position": "[22,-37]",
+          "zoneHint": "Camp des Pandissidans",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Capitaine de la garde Kozaru et intervenez pour empêcher l’exécution de Ten Rowa.",
+          "position": "[21,-35]",
+          "zoneHint": "Tour de guet",
+          "warning": "Un combat obligatoire se déclenche et peut être réalisé en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, parlez à Ten Rowa, puis à Yokaïkido afin d’apprendre qu’elle peut invoquer le code d’honneur des Kozaru pour défendre son cas.",
+          "position": "[21,-35]",
+          "zoneHint": "Tour de guet",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparlez au Capitaine de la garde Kozaru et proposez-vous pour combattre les maîtres au nom de Ten Rowa.",
+          "position": "[21,-35]",
+          "zoneHint": "Tour de guet",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans le Dojo du Vent et effectuez le donjon jusqu’à vaincre Hanshi. Arrêtez-vous après la victoire : les dialogues avec Hanshi, Shihan et Ten Rowa ainsi que la suite de la quête sont réservés à l’occurrence suivante.",
+          "position": "[20,-37]",
+          "zoneHint": "Dojo du Vent",
+          "warning": "Donjon obligatoire ; ne poursuivez pas les dialogues de quête après le combat contre Hanshi dans cette occurrence.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "En déposant l’offrande, vous obtenez l’apparence de Moon et la bénédiction Air malin.",
+        "Cette transformation permet aussi de rechercher l’esprit Malin pour la quête « Présence d’esprits » pendant qu’elle est active, mais cette quête ne fait pas partie des tutoriels de l’étape actuelle.",
+        "Les deux branches concernant Jun Pandawane et Ten Rowa peuvent être réalisées dans n’importe quel ordre.",
+        "Après le Dojo du Vent, ne poursuivez pas ici le dialogue avec Hanshi ni la séquence conduisant à la Permission de circuler : la reprise de « L'équilibre des forces » est prévue à l’étape 161."
+      ],
+      "npcs": [
+        "Daimya Hikomi",
+        "Esprit du Vent",
+        "Yokaïkido",
+        "Jun Pandawane",
+        "Poseur de bombe Pandissidan",
+        "Capitaine de la garde Kozaru",
+        "Ten Rowa",
+        "Hanshi"
+      ],
+      "items": [
+        {
+          "name": "Bananagrume",
+          "itemId": 6309,
+          "imageUrl": "/items/6309.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6309"
+        },
+        {
+          "name": "Fraise",
+          "itemId": 1775,
+          "imageUrl": "/items/1775.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1775"
+        },
+        {
+          "name": "Viscères de Scarafeuille",
+          "itemId": 2837,
+          "imageUrl": "/items/2837.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2837"
+        },
+        {
+          "name": "Offrande à l'esprit du Vent",
+          "itemId": 23118,
+          "imageUrl": "/items/23118.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23118"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 945,
+            "name": "Aerdala",
+            "coordinates": [
+              "21,-39",
+              "22,-37",
+              "19,-32",
+              "19,-33",
+              "21,-35"
+            ]
+          },
+          {
+            "id": 950,
+            "name": "Dojo du Vent",
+            "coordinates": [
+              "20,-37"
+            ]
+          },
+          {
+            "id": 951,
+            "name": "Village de Pandala",
+            "coordinates": [
+              "22,-29"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2512,
+            "name": "Fangshui la Dysorthographiée",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2512.png"
+          },
+          {
+            "id": 2511,
+            "name": "Inopenope le Négatif",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2511.png"
+          },
+          {
+            "id": 2412,
+            "name": "Lichangora l'Immaculée",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2412.png"
+          },
+          {
+            "id": 2398,
+            "name": "Rooroku l'Imposant",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2398.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 3018,
+            "name": "Kozaru",
+            "monsters": [
+              {
+                "id": 6213,
+                "name": "Uchiwang",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6213.png"
+              },
+              {
+                "id": 6214,
+                "name": "Ino-Naru",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6214.png"
+              },
+              {
+                "id": 6215,
+                "name": "Kurookin",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6215.png"
+              },
+              {
+                "id": 6216,
+                "name": "Fangshu",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6216.png"
+              },
+              {
+                "id": 6217,
+                "name": "Lichangoro",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6217.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1320",
+      "relation": "START",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/l-equilibre-des-forces.html",
+      "sourceTitle": "L'équilibre des forces",
+      "sourceHash": "982c5157146b55a4d1a11a2a45cceff9faa8eac95bfd05df2f1926b1b47a71fd",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Profiter du Dojo du Vent",
+      "description": "Le passage au Dojo du Vent imposé par « L'équilibre des forces » peut également faire progresser les éliminations demandées par « Halte aux singeries » lorsque les monstres rencontrés correspondent aux objectifs de cette quête.",
+      "questKeys": [
+        "quest:1343",
+        "quest:1320"
+      ],
+      "actions": [
+        "Lancez d’abord « Halte aux singeries » afin que son objectif d’élimination soit actif.",
+        "Avancez ensuite « L'équilibre des forces » jusqu’au Dojo du Vent.",
+        "Pendant le donjon, vérifiez la progression des objectifs de « Halte aux singeries » afin de profiter des combats compatibles."
+      ]
+    }
+  ]
 }

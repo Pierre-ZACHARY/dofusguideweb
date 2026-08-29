@@ -1,8 +1,356 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 138,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T14:23:03.718Z",
+  "summaries": [
+    {
+      "overview": "Lancez L'épée du rocher auprès de Mériana, enquêtez sur Crocobur et progressez jusqu'à la recherche des poudres nécessaires. Pour cette occurrence, arrêtez-vous après avoir effectué le Repaire de Skeunk et récupéré la Poudre scintillante dans la Bouate à maquillage. Les autres poudres et toute la suite de la restauration de Crocobur seront traitées plus tard.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Niveau > 100.",
+        "Avoir terminé Mais où sont les Dofus ?",
+        "Avoir terminé Mieux vaut ne pas se fier à la première impression pour une étape ultérieure de la quête."
+      ],
+      "rewards": [
+        "3 883 723 XP à la fin de la quête complète.",
+        "40 272 kamas à la fin de la quête complète.",
+        "1 x Peau de Skeunk à la fin de la quête complète."
+      ],
+      "preparation": [
+        "Prévoir l'accès au Repaire de Skeunk.",
+        "Les 18 x Mesure de sel, 36 x Poudre de Perlinpainpain et 18 x Seigle seront nécessaires plus tard, mais ne sont pas requis pour terminer la portion actuelle."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Mériana pour lancer L'épée du rocher, puis acceptez de vous renseigner sur la légende de Crocoburio.",
+          "position": "[-6,-3]",
+          "zoneHint": "Marécages nauséabonds",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la maison de Mériana, descendez par la trappe au sous-sol et consultez les livres à droite pour lire La Légende de Crocoburio.",
+          "position": "[-6,-3]",
+          "zoneHint": "Sous-sol de la maison de Mériana",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Remontez et reparlez à Mériana afin de valider la lecture et d'apprendre qu'il faut retrouver l'épée Crocobur.",
+          "position": "[-6,-3]",
+          "zoneHint": "Maison de Mériana",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Examinez l'épée Crocobur plantée dans le rocher, tentez de la retirer, puis examinez de nouveau l'épée et choisissez d'examiner le rocher afin de repérer le signe magique.",
+          "position": "[-7,10]",
+          "zoneHint": "Marécage",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Mériana et décrivez-lui le signe observé. Elle vous oriente vers la fabrication de Poudre d'Oubn-Ghazou et vous conduit notamment à chercher de la Poudre scintillante.",
+          "position": "[-6,-3]",
+          "zoneHint": "Maison de Mériana",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au Repaire de Skeunk et effectuez le donjon jusqu'à vaincre le Skeunk.",
+          "position": "[-20,10]",
+          "zoneHint": "Repaire de Skeunk",
+          "warning": "Ne quittez surtout pas le donjon après la victoire contre le Skeunk : la Poudre scintillante doit être récupérée avant de sortir.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat final, restez dans le Repaire de Skeunk et parlez à la Bouate à maquillage afin de récupérer la Poudre scintillante. Arrêtez ici la progression de cette quête pour l'étape 138.",
+          "position": "[-20,10]",
+          "zoneHint": "Repaire de Skeunk",
+          "warning": "Sortir du donjon avant d'avoir récupéré la Poudre scintillante vous ferait manquer l'objectif prévu à cette occurrence.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La Poudre révélatrice usagée, les 3 x Poudre de superlinpainpain, la fabrication de la Poudre d'Oubn-Ghazou, le Xélorium, les Craqueleurs de verre et la libération de Crocobur sont volontairement laissés pour des étapes ultérieures.",
+        "Le Repaire de Skeunk effectué ici peut également servir à la progression actuelle de [TDM] La voie du guerrier."
+      ],
+      "npcs": [
+        "Mériana",
+        "Crocobur",
+        "Skeunk",
+        "Bouate à maquillage"
+      ],
+      "items": [
+        {
+          "name": "Poudre scintillante",
+          "itemId": 20232,
+          "imageUrl": "/items/20232.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/20232"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 232,
+            "name": "Marécages nauséabonds",
+            "coordinates": [
+              "-6,-3"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-7,10"
+            ]
+          },
+          {
+            "id": 254,
+            "name": "Repaire de Skeunk",
+            "coordinates": [
+              "-20,10"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2549,
+            "name": "Boostif l'Affamé",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2549.png"
+          },
+          {
+            "id": 2439,
+            "name": "Crolnareff l'Exilé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2439.png"
+          },
+          {
+            "id": 2428,
+            "name": "Crok le Beau",
+            "level": 61,
+            "imageUrl": "/bestiary/monsters/2428.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 208,
+            "name": "Gadouilleux",
+            "monsters": [
+              {
+                "id": 263,
+                "name": "Chef Crocodaille",
+                "level": 61,
+                "imageUrl": "/bestiary/monsters/263.png"
+              },
+              {
+                "id": 261,
+                "name": "Crocodaille",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/261.png"
+              },
+              {
+                "id": 112,
+                "name": "Boo",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/112.png"
+              },
+              {
+                "id": 4833,
+                "name": "Arakne Olithique",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4833.png"
+              }
+            ]
+          },
+          {
+            "id": 220,
+            "name": "Koalaks mortels",
+            "monsters": [
+              {
+                "id": 783,
+                "name": "Fauchalak",
+                "level": 108,
+                "imageUrl": "/bestiary/monsters/783.png"
+              },
+              {
+                "id": 749,
+                "name": "Guerrier Koalak",
+                "level": 101,
+                "imageUrl": "/bestiary/monsters/749.png"
+              },
+              {
+                "id": 756,
+                "name": "Koalak Farouche",
+                "level": 104,
+                "imageUrl": "/bestiary/monsters/756.png"
+              },
+              {
+                "id": 744,
+                "name": "Koalak Sanguin",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/744.png"
+              },
+              {
+                "id": 745,
+                "name": "Warko Violet",
+                "level": 106,
+                "imageUrl": "/bestiary/monsters/745.png"
+              }
+            ]
+          },
+          {
+            "id": 5803,
+            "name": "Koalaks sauvages",
+            "monsters": [
+              {
+                "id": 754,
+                "name": "Koalak Reinette",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/754.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1238",
+      "relation": "START",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/l-epee-du-rocher.html",
+      "sourceTitle": "L'épée du rocher",
+      "sourceHash": "5ddf5fccbace675fa9f9fbe593af029a3f56507e6fd751f37f1e75563d156c44",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "La voie du guerrier est déjà en cours depuis l'étape précédente. À cette occurrence, accomplissez uniquement le premier donjon demandé dans la série : le Repaire de Skeunk. Les donjons Atelier du Tanukouï San, Fabrique de foux d'artifice, Clairière du Chêne Mou, Minotot et Grotte du Bworker restent à effectuer lors des occurrences ultérieures du guide.",
+      "recommendedLevel": 30,
+      "prerequisites": [
+        "Niveau > 29.",
+        "Avoir lancé La voie du guerrier auprès du maître des clefs en [-6,-37].",
+        "Avoir accès au Repaire de Skeunk."
+      ],
+      "rewards": [
+        "30 324 978 XP à la fin de la quête complète.",
+        "349 872 kamas à la fin de la quête complète.",
+        "1 x Peau de Skeunk à la fin de la quête complète.",
+        "1 x Poils magiques de Tanuki à la fin de la quête complète.",
+        "1 x Étoffe de Firefoux à la fin de la quête complète.",
+        "1 x Ambre du Chêne Mou à la fin de la quête complète.",
+        "1 x Sabot du Minotot à la fin de la quête complète.",
+        "1 x Peau de Bworker à la fin de la quête complète."
+      ],
+      "preparation": [
+        "Prévoir de réaliser le Repaire de Skeunk.",
+        "Cette quête impose plusieurs donjons dans un ordre précis ; ne poursuivez pas vers le suivant pendant cette occurrence."
+      ],
+      "actions": [
+        {
+          "instruction": "Effectuez le Repaire de Skeunk et vainquez le Skeunk afin de valider le premier donjon demandé par La voie du guerrier.",
+          "position": "[-20,10]",
+          "zoneHint": "Repaire de Skeunk",
+          "warning": "La série de donjons doit être suivie dans l'ordre. Après le Repaire de Skeunk, n'enchaînez pas ici sur l'Atelier du Tanukouï San : le guide prévoit la suite lors d'une occurrence ultérieure.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "Le lancement de la quête et les démarches précédentes sont supposés déjà effectués.",
+        "Les prochains donjons de la série sont, dans l'ordre : Atelier du Tanukouï San, Fabrique de foux d'artifice, Clairière du Chêne Mou, Minotot puis Grotte du Bworker. Ils ne font pas partie des actions de l'étape 138.",
+        "La remise finale à Metag Robill en [6,-18] n'intervient qu'après avoir terminé toute la série de donjons."
+      ],
+      "npcs": [
+        "Skeunk"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 254,
+            "name": "Repaire de Skeunk",
+            "coordinates": [
+              "-20,10"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 220,
+            "name": "Koalaks mortels",
+            "monsters": [
+              {
+                "id": 783,
+                "name": "Fauchalak",
+                "level": 108,
+                "imageUrl": "/bestiary/monsters/783.png"
+              },
+              {
+                "id": 749,
+                "name": "Guerrier Koalak",
+                "level": 101,
+                "imageUrl": "/bestiary/monsters/749.png"
+              },
+              {
+                "id": 756,
+                "name": "Koalak Farouche",
+                "level": 104,
+                "imageUrl": "/bestiary/monsters/756.png"
+              },
+              {
+                "id": 744,
+                "name": "Koalak Sanguin",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/744.png"
+              },
+              {
+                "id": 745,
+                "name": "Warko Violet",
+                "level": 106,
+                "imageUrl": "/bestiary/monsters/745.png"
+              }
+            ]
+          },
+          {
+            "id": 5803,
+            "name": "Koalaks sauvages",
+            "monsters": [
+              {
+                "id": 754,
+                "name": "Koalak Reinette",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/754.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:75",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-voie-du-guerrier.html",
+      "sourceTitle": "La voie du guerrier",
+      "sourceHash": "c1ce85c6230349d750d3f0186396981509f68055d47a6202c8097751fde24a9d",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Mutualiser le Repaire de Skeunk",
+      "description": "Le même passage au Repaire de Skeunk peut faire avancer simultanément L'épée du rocher et La voie du guerrier. Profitez d'un seul donjon pour vaincre le Skeunk, puis restez dans la salle de fin afin de récupérer la Poudre scintillante avant de sortir.",
+      "questKeys": [
+        "quest:1238",
+        "quest:75"
+      ],
+      "actions": [
+        "Ayez les deux quêtes au bon stade avant d'entrer dans le Repaire de Skeunk.",
+        "Terminez le Repaire de Skeunk : la victoire sur le Skeunk valide le donjon demandé par [TDM] La voie du guerrier.",
+        "Après la victoire, ne quittez pas la zone et récupérez la Poudre scintillante auprès de la Bouate à maquillage pour L'épée du rocher."
+      ]
+    }
+  ]
 }

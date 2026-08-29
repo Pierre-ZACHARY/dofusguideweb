@@ -14,27 +14,69 @@ import { ExternalImage } from "./ExternalImage.js";
 import type { FollowedProfile } from "../../accounts/types.js";
 import { FollowerAvatarStack } from "../accounts/FollowerMarkers.js";
 import { useDocumentOverlayEnvironment } from "./DocumentOverlay.js";
+import { useOptionalAccount } from "../accounts/AccountProvider.js";
+import { normalizeMetaMobMonsterName } from "../../metamob/client.js";
+import { CopyableItemName } from "./CopyableItemName.js";
 
 type TutorialItem = QuestGuideSummaryDto["items"][number];
-
-function escapeRegExp(value: string): string {
-  return value.replace(/[.*+?^${}()|[\]\\]/gu, "\\$&");
-}
 
 function canonicalText(value: string): string {
   return value.replace(/[’‘]/gu, "'").toLocaleLowerCase("fr-FR");
 }
 
-function termPattern(value: string): string {
-  return escapeRegExp(value).replace(/[’‘']/gu, "[’‘']");
+function isWordCharacter(value: string | undefined): boolean {
+  return value !== undefined && /[\p{L}\p{N}]/u.test(value);
+}
+
+export interface RichTextPart {
+  text: string;
+  term: string | null;
+}
+
+export function splitRichTextTerms(text: string, terms: string[]): RichTextPart[] {
+  const candidates = [...new Set(terms)]
+    .filter((term) => term.length > 1)
+    .sort((left, right) => right.length - left.length)
+    .map((term) => ({ term, canonical: canonicalText(term) }));
+  if (candidates.length === 0) return [{ text, term: null }];
+
+  const canonical = canonicalText(text);
+  const parts: RichTextPart[] = [];
+  let cursor = 0;
+  while (cursor < text.length) {
+    let next: { index: number; term: string; length: number } | null = null;
+    for (const candidate of candidates) {
+      let index = canonical.indexOf(candidate.canonical, cursor);
+      while (index !== -1) {
+        const before = index === 0 ? undefined : text[index - 1];
+        const afterIndex = index + candidate.canonical.length;
+        const after = afterIndex >= text.length ? undefined : text[afterIndex];
+        const startsWithWord = isWordCharacter(candidate.term[0]);
+        const endsWithWord = isWordCharacter(candidate.term.at(-1));
+        if ((!startsWithWord || !isWordCharacter(before)) && (!endsWithWord || !isWordCharacter(after))) break;
+        index = canonical.indexOf(candidate.canonical, index + 1);
+      }
+      if (index !== -1 && (next === null || index < next.index || (index === next.index && candidate.term.length > next.length))) {
+        next = { index, term: candidate.term, length: candidate.canonical.length };
+      }
+    }
+    if (next === null) {
+      parts.push({ text: text.slice(cursor), term: null });
+      break;
+    }
+    if (next.index > cursor) parts.push({ text: text.slice(cursor, next.index), term: null });
+    parts.push({ text: text.slice(next.index, next.index + next.length), term: next.term });
+    cursor = next.index + next.length;
+  }
+  return parts;
 }
 
 function InlineItem({ item, label }: Readonly<{ item: TutorialItem; label: string }>) {
   const content = <><ExternalImage src={item.imageUrl} alt="" className="h-4 w-4 shrink-0 object-contain" hideOnError /><strong>{label}</strong></>;
-  const className = "badge badge-outline mx-0.5 inline-flex h-auto gap-1 px-1.5 py-0.5 align-middle text-current no-underline";
-  return item.dofusDbUrl === null
-    ? <span className={className}>{content}</span>
-    : <a className={className + " hover:badge-primary"} href={item.dofusDbUrl} target="_blank" rel="noreferrer" title={"Voir " + item.name + " sur DofusDB"}>{content}</a>;
+  return <CopyableItemName
+    name={item.name}
+    className="badge badge-outline mx-0.5 inline-flex h-auto cursor-copy gap-1 px-1.5 py-0.5 align-middle text-current hover:badge-primary"
+  >{content}</CopyableItemName>;
 }
 
 function RichText({ text, summary }: Readonly<{ text: string; summary: QuestGuideSummaryDto }>) {
@@ -42,15 +84,14 @@ function RichText({ text, summary }: Readonly<{ text: string; summary: QuestGuid
     .filter((term) => term.length > 1)
     .sort((left, right) => right.length - left.length);
   if (terms.length === 0) return <CopyableCoordinates text={text} />;
-  const expression = new RegExp("(" + terms.map(termPattern).join("|") + ")", "giu");
   const normalizedNpcs = new Set(summary.npcs.map(canonicalText));
   const items = new Map(summary.items.map((item) => [canonicalText(item.name), item]));
-  return <>{text.split(expression).map((part, index) => {
-    const canonical = canonicalText(part);
+  return <>{splitRichTextTerms(text, terms).map((part, index) => {
+    const canonical = canonicalText(part.term ?? "");
     const item = items.get(canonical);
-    if (item !== undefined) return <InlineItem key={index + ":" + part} item={item} label={part} />;
-    if (normalizedNpcs.has(canonical)) return <strong key={index + ":" + part}>{part}</strong>;
-    return <CopyableCoordinates key={index + ":" + part} text={part} />;
+    if (item !== undefined) return <InlineItem key={index + ":" + part.text} item={item} label={part.text} />;
+    if (normalizedNpcs.has(canonical)) return <strong key={index + ":" + part.text}>{part.text}</strong>;
+    return <CopyableCoordinates key={index + ":" + part.text} text={part.text} />;
   })}</>;
 }
 
@@ -98,14 +139,36 @@ type BestiaryMonster = BestiaryData["bounties"][number];
 
 function BestiaryMonsterRow({ monster, objective }: Readonly<{ monster: BestiaryMonster; objective: BestiaryObjectiveIdentity }>) {
   const { profile, setBestiaryObjectiveCompleted } = useProgress();
-  const checked = isBestiaryObjectiveCompleted(profile, objective);
+  const account = useOptionalAccount();
+  const [pending, setPending] = useState(false);
+  const metaMobMonster = objective.kind === "ARCHMONSTER" && account?.metaMob?.link
+    ? account.metaMob.archmonsters.find((candidate) => candidate.id === monster.id
+      || normalizeMetaMobMonsterName(candidate.name) === normalizeMetaMobMonsterName(monster.name))
+    : undefined;
+  const checked = metaMobMonster === undefined
+    ? isBestiaryObjectiveCompleted(profile, objective)
+    : metaMobMonster.quantity > 0;
+  async function changeCompleted(completed: boolean) {
+    if (objective.kind === "ARCHMONSTER" && account?.metaMob?.link) {
+      setPending(true);
+      try {
+        await account.setMetaMobArchmonster(monster.id, monster.name, completed);
+        setBestiaryObjectiveCompleted(objective, completed);
+      } finally {
+        setPending(false);
+      }
+      return;
+    }
+    setBestiaryObjectiveCompleted(objective, completed);
+  }
   return (
     <label className="flex cursor-pointer items-center gap-2 rounded-box px-1 py-1.5 hover:bg-base-300/60">
       <input
         type="checkbox"
         className="checkbox checkbox-primary checkbox-xs"
         checked={checked}
-        onChange={(event) => setBestiaryObjectiveCompleted(objective, event.currentTarget.checked)}
+        disabled={pending}
+        onChange={(event) => void changeCompleted(event.currentTarget.checked)}
       />
       <ExternalImage src={monster.imageUrl} alt="" className="h-9 w-9 shrink-0 object-contain" hideOnError />
       <span className={"min-w-0 flex-1 text-sm font-semibold " + (checked ? "line-through opacity-55" : "")}>{monster.name}</span>

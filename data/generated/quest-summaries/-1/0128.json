@@ -1,8 +1,538 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 128,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T12:51:50.126Z",
+  "summaries": [
+    {
+      "overview": "Lancez la quête auprès de Mériana, retrouvez la piste d'Alain, terminez la Volière de la Haute Truche, explorez le laboratoire secret et récupérez les trois œufs demandés. Arrêtez-vous dès que l'objectif consiste à rapporter l'Oeuf Surprenant, l'Oeuf Végétal et l'Oeuf de Monarque à Mériana : leur remise et la fin de la quête seront effectuées à une étape ultérieure du guide.",
+      "recommendedLevel": null,
+      "prerequisites": [
+        "Avoir terminé la quête Taures et détours."
+      ],
+      "rewards": [],
+      "preparation": [
+        "Prévoir de terminer le donjon Volière de la Haute Truche.",
+        "Prévoir des combats de boss pour obtenir l'Oeuf Végétal et l'Oeuf de Monarque."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Mériana et signalez-lui le tofu introduit dans sa cabane afin de lancer la quête et d'obtenir la mission de rechercher trois sortes d'œufs.",
+          "position": "[-6,-3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au Cirque de Cania pour rechercher des traces d'Alain.",
+          "position": "[-10,-44]",
+          "zoneHint": "Cirque de Cania",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuez le donjon Volière de la Haute Truche. À la fin, parlez à Janseb avant de quitter les lieux afin d'obtenir des informations sur Alain.",
+          "position": null,
+          "zoneHint": "Volière de la Haute Truche",
+          "warning": "Ne quittez pas le donjon avant d'avoir parlé à Janseb.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Descendez dans le laboratoire secret situé en contre-bas du donjon, puis parlez à Elbert Weskarre. Choisissez la réponse indiquant que vous voulez vous enfuir afin de déclencher le combat contre la mutatruche.",
+          "position": null,
+          "zoneHint": "laboratoire secret",
+          "warning": "Pour que la quête se mette à jour pour plusieurs personnages, chacun doit avoir parlé à Elbert Weskarre et choisi de vouloir s'enfuir.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Vainquez la mutatruche en la frappant pour augmenter progressivement ses PV jusqu'à 1000, seuil auquel elle explose d'elle-même. Après le combat, parlez à Alain Bougredefrain apparu sur la carte pour apprendre la nature des trois œufs recherchés.",
+          "position": null,
+          "zoneHint": "laboratoire secret",
+          "warning": "La mutatruche est invulnérable aux dégâts classiques : chaque attaque reçue lui ajoute 10 PV et 20 puissance. Elle devient plus dangereuse à mesure que ses PV augmentent.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Au Chanil d'Amakna, cliquez sur la cage afin de récupérer 1 x Oeuf Surprenant.",
+          "position": "[9,21]",
+          "zoneHint": "Chanil d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Obtenez 1 x Oeuf Végétal sur Silf le Rasboul Majeur.",
+          "position": "[-51,9]",
+          "zoneHint": null,
+          "warning": "L'obtention nécessite d'affronter Silf le Rasboul Majeur.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Obtenez 1 x Oeuf de Monarque sur le Tofu Royal. Une fois cet œuf et les deux précédents en votre possession, arrêtez-vous : l'objectif doit désormais demander de rapporter les trois œufs à Mériana.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "L'obtention nécessite d'affronter le Tofu Royal. Ne rapportez pas encore les trois œufs à Mériana à cette occurrence.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "À la fin de cette occurrence, vous devez posséder 1 x Oeuf Surprenant, 1 x Oeuf Végétal et 1 x Oeuf de Monarque.",
+        "La remise des trois œufs à Mériana, les échanges avec Éner Brelloq et la conclusion de la quête sont volontairement reportés à l'occurrence FINISH de l'étape 130."
+      ],
+      "npcs": [
+        "Mériana",
+        "Janseb",
+        "Elbert Weskarre",
+        "Alain Bougredefrain"
+      ],
+      "items": [
+        {
+          "name": "Oeuf Surprenant",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Oeuf Végétal",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Oeuf de Monarque",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 523,
+            "name": "Cirque de Cania",
+            "coordinates": [
+              "-10,-44"
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Forêt d'Amakna",
+            "coordinates": [
+              "9,21"
+            ]
+          },
+          {
+            "id": 232,
+            "name": "Marécages nauséabonds",
+            "coordinates": [
+              "-6,-3"
+            ]
+          },
+          {
+            "id": 454,
+            "name": "Plaines herbeuses",
+            "coordinates": [
+              "-51,9"
+            ]
+          },
+          {
+            "id": 818,
+            "name": "Volière de la Haute Truche",
+            "coordinates": []
+          }
+        ],
+        "bounties": [
+          {
+            "id": 5073,
+            "name": "Gobrechaun",
+            "level": 110,
+            "imageUrl": "/bestiary/monsters/5073.png"
+          },
+          {
+            "id": 4015,
+            "name": "Fojumo",
+            "level": 140,
+            "imageUrl": "/bestiary/monsters/4015.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2323,
+            "name": "Chamchie le Difficile",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2323.png"
+          },
+          {
+            "id": 2349,
+            "name": "Preskapwal le Tendancieux",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2349.png"
+          },
+          {
+            "id": 2353,
+            "name": "Sangria le Fruité",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2353.png"
+          },
+          {
+            "id": 2549,
+            "name": "Boostif l'Affamé",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2549.png"
+          },
+          {
+            "id": 2439,
+            "name": "Crolnareff l'Exilé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2439.png"
+          },
+          {
+            "id": 2428,
+            "name": "Crok le Beau",
+            "level": 61,
+            "imageUrl": "/bestiary/monsters/2428.png"
+          },
+          {
+            "id": 2556,
+            "name": "Craquetou le Fissuré",
+            "level": 93,
+            "imageUrl": "/bestiary/monsters/2556.png"
+          },
+          {
+            "id": 2580,
+            "name": "Mufguedin le Suprême",
+            "level": 94,
+            "imageUrl": "/bestiary/monsters/2580.png"
+          },
+          {
+            "id": 2571,
+            "name": "Kido l'Âtre",
+            "level": 95,
+            "imageUrl": "/bestiary/monsters/2571.png"
+          },
+          {
+            "id": 2561,
+            "name": "Crathdogue le Cruel",
+            "level": 96,
+            "imageUrl": "/bestiary/monsters/2561.png"
+          },
+          {
+            "id": 2547,
+            "name": "Toufou le Benêt",
+            "level": 97,
+            "imageUrl": "/bestiary/monsters/2547.png"
+          },
+          {
+            "id": 2572,
+            "name": "Kilimanj'haro le Grimpeur",
+            "level": 98,
+            "imageUrl": "/bestiary/monsters/2572.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 103,
+                "name": "Prespic",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/103.png"
+              },
+              {
+                "id": 104,
+                "name": "Sanglier",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/104.png"
+              }
+            ]
+          },
+          {
+            "id": 208,
+            "name": "Gadouilleux",
+            "monsters": [
+              {
+                "id": 263,
+                "name": "Chef Crocodaille",
+                "level": 61,
+                "imageUrl": "/bestiary/monsters/263.png"
+              },
+              {
+                "id": 261,
+                "name": "Crocodaille",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/261.png"
+              },
+              {
+                "id": 112,
+                "name": "Boo",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/112.png"
+              },
+              {
+                "id": 4833,
+                "name": "Arakne Olithique",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4833.png"
+              }
+            ]
+          },
+          {
+            "id": 166,
+            "name": "Herboricoles",
+            "monsters": [
+              {
+                "id": 1019,
+                "name": "Bitouf des Plaines",
+                "level": 97,
+                "imageUrl": "/bestiary/monsters/1019.png"
+              },
+              {
+                "id": 1026,
+                "name": "Craqueboule Poli",
+                "level": 93,
+                "imageUrl": "/bestiary/monsters/1026.png"
+              },
+              {
+                "id": 1025,
+                "name": "Craqueleur Poli",
+                "level": 96,
+                "imageUrl": "/bestiary/monsters/1025.png"
+              },
+              {
+                "id": 1069,
+                "name": "Kido",
+                "level": 95,
+                "imageUrl": "/bestiary/monsters/1069.png"
+              },
+              {
+                "id": 1070,
+                "name": "Kilibriss",
+                "level": 98,
+                "imageUrl": "/bestiary/monsters/1070.png"
+              },
+              {
+                "id": 1068,
+                "name": "Mufafah",
+                "level": 94,
+                "imageUrl": "/bestiary/monsters/1068.png"
+              }
+            ]
+          },
+          {
+            "id": 1060,
+            "name": "Truches",
+            "monsters": [
+              {
+                "id": 3619,
+                "name": "Gruche",
+                "level": 114,
+                "imageUrl": "/bestiary/monsters/3619.png"
+              },
+              {
+                "id": 3620,
+                "name": "Truchmuche",
+                "level": 113,
+                "imageUrl": "/bestiary/monsters/3620.png"
+              },
+              {
+                "id": 3621,
+                "name": "Truchideur",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3621.png"
+              },
+              {
+                "id": 3622,
+                "name": "Truchtine",
+                "level": 111,
+                "imageUrl": "/bestiary/monsters/3622.png"
+              },
+              {
+                "id": 3623,
+                "name": "Truchon",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/3623.png"
+              }
+            ]
+          },
+          {
+            "id": 1602,
+            "name": "Vermines des champs",
+            "monsters": [
+              {
+                "id": 59,
+                "name": "Champ Champ",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/59.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1463",
+      "relation": "START",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/comment-perdre-ses-plumes.html",
+      "sourceTitle": "Comment perdre ses plumes",
+      "sourceHash": "e9a67cc1f59d9cc45cf6343533b40f485be6ee04ac3b95fbaca57837c6aabba5",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "La quête a été lancée à l'étape précédente et l'Oeuf Fécondé de Haute Truche devait déjà être récupéré. Reprenez uniquement pour remettre cet œuf à Kerubim Crépin et terminer la quête afin d'obtenir le Dotruche.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Avoir terminé Faire le keke.",
+        "Avoir lancé Un oeuf pour Ecaflip à l'étape précédente.",
+        "Avoir récupéré 1 x Oeuf Fécondé de Haute Truche à la Volière de la Haute Truche."
+      ],
+      "rewards": [
+        "3 971 945 XP.",
+        "38 960 Kamas.",
+        "1 x Dotruche, donnant 25 Soins."
+      ],
+      "preparation": [
+        "Vérifiez que 1 x Oeuf Fécondé de Haute Truche est déjà en votre possession."
+      ],
+      "actions": [
+        {
+          "instruction": "Retournez voir Kerubim Crépin au premier étage de sa demeure et remettez-lui l'Oeuf Fécondé de Haute Truche afin de terminer la quête et recevoir le Dotruche.",
+          "position": "[3,-17]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le passage à la Volière de la Haute Truche et l'obtention de l'œuf appartenaient à l'occurrence START de l'étape précédente et ne sont pas à refaire ici.",
+        "La quête Frankenstruche a également été lancée à l'étape précédente, mais son déroulement ne fait pas partie de cette occurrence."
+      ],
+      "npcs": [
+        "Kerubim Crépin"
+      ],
+      "items": [
+        {
+          "name": "Oeuf Fécondé de Haute Truche",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Dotruche",
+          "itemId": 15235,
+          "imageUrl": "/items/15235.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15235"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "3,-17"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:805",
+      "relation": "FINISH",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/un-oeuf-pour-ecaflip.html",
+      "sourceTitle": "Un œuf pour Ecaflip",
+      "sourceHash": "28b9673c2899ea599d1d6859dd3ace94768c8f47a69cef53f9906cdaad598019",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

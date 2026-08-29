@@ -1,8 +1,1122 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 153,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T15:05:13.884Z",
+  "summaries": [
+    {
+      "overview": "Lancez la mission d'alignement à Bonta et faites avancer l'enquête jusqu'à ce que l'objectif vous demande de découvrir la carte du Débarras de l'Atelier du Tanukouï San. Ne secourez pas encore Dréna Nassema : cette partie sera réalisée pendant le passage coordonné dans l'Atelier.",
+      "recommendedLevel": 135,
+      "prerequisites": [
+        "Avoir terminé Pour vivre heureux.",
+        "Avoir terminé Le réveil de Pandala pour pouvoir poursuivre la partie située à Pandala."
+      ],
+      "rewards": [
+        "10 217 201 XP à la fin complète de la quête."
+      ],
+      "preparation": [
+        "Prévoir un premier combat pouvant être réalisé en groupe.",
+        "La suite de la quête nécessitera un passage dans l'Atelier du Tanukouï San et un autre combat limité à 3 personnages."
+      ],
+      "actions": [
+        {
+          "instruction": "À la Milice, parlez à Amayiro pour lancer 55. La tactique des gens d'armes.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à William Lenglad et affrontez-le avec son nouvel acolyte.",
+          "position": "[-35,-58]",
+          "zoneHint": "Bonta",
+          "warning": "Le combat peut être réalisé en groupe. William Lenglad dispose notamment d'effets de poussée et d'attaques à distance, tandis que son acolyte peut réduire les dommages, devenir invulnérable en mêlée pendant 1 tour et augmenter les résistances.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire, retournez voir Amayiro et montrez-lui le caleçon de Lenglad pour prouver votre succès.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous dans la tour des ordres par l'entrée haute, montez les escaliers, continuez tout droit et parlez à Jerhyn Gholein. Il vous demande de trouver un tacticien pour les troupes de Bonta.",
+          "position": "[-34,-58]",
+          "zoneHint": "Tour des ordres",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la bibliothèque de Pandala, interrogez Narber Rihen Levihawa au sujet d'un tacticien. Il vous indique que Dréna Nassema a disparu dans l'Atelier du Tanukouï San.",
+          "position": "[21,-27]",
+          "zoneHint": "Bibliothèque de Pandala",
+          "warning": "Le réveil de Pandala doit être terminé pour atteindre cette partie de la quête.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous devant l'Atelier du Tanukouï San afin d'avoir comme prochain objectif la découverte de la carte Débarras de l'Atelier du Tanukouï San. Arrêtez ici la progression propre à cette occurrence avant d'aller secourir Dréna Nassema.",
+          "position": "[26,-24]",
+          "zoneHint": "Entrée de l'Atelier du Tanukouï San",
+          "warning": "Le passage dans le donjon sera exploité plus tard dans cette étape avec les autres quêtes de Terrdala.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La partie effectuée ici s'arrête lorsque la quête demande de découvrir la carte du Débarras de l'Atelier du Tanukouï San.",
+        "Le sauvetage de Dréna Nassema, le combat limité à 3 personnages puis le retour à Bonta ne sont pas à faire à cette occurrence."
+      ],
+      "npcs": [
+        "Amayiro",
+        "William Lenglad",
+        "Jerhyn Gholein",
+        "Narber Rihen Levihawa",
+        "Dréna Nassema"
+      ],
+      "items": [
+        {
+          "name": "Caleçon de Lenglad",
+          "itemId": 9100,
+          "imageUrl": "/items/9100.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9100"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 948,
+            "name": "Atelier du Tanukouï San",
+            "coordinates": [
+              "26,-24"
+            ]
+          },
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "21,-27"
+            ]
+          },
+          {
+            "id": 976,
+            "name": "Promontoire des cieux",
+            "coordinates": [
+              "-35,-58",
+              "-34,-58"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 3003,
+            "name": "Tanuki",
+            "monsters": [
+              {
+                "id": 6219,
+                "name": "Shinibaru",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6219.png"
+              },
+              {
+                "id": 6220,
+                "name": "Ishigro Pake",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6220.png"
+              },
+              {
+                "id": 6221,
+                "name": "Tétonuki",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6221.png"
+              },
+              {
+                "id": 6222,
+                "name": "Parashukouï",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6222.png"
+              },
+              {
+                "id": 6223,
+                "name": "Lolojiki",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6223.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:152",
+      "relation": "START",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-tactique-des-gens-d-armes.html",
+      "sourceTitle": "Alignement 55 : La tactique des gens d'armes",
+      "sourceHash": "a1a797df31fa21463a7328601bcfcd8de3abf866d1548f5828614f8ef5c2c6a2",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Poursuivez la recherche du Tanuki voleur jusqu'à récupérer l'amulette du Pandawa déboussolé. Il faut obtenir une pierre d'âme spéciale auprès de l'Assistant du Chaman, identifier le voleur parmi plusieurs œuvres de Terrdala, le combattre seul avec la pierre équipée puis rendre l'amulette.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Avoir terminé Le réveil de Pandala.",
+        "La quête est déjà en cours à cette occurrence."
+      ],
+      "rewards": [
+        "1 985 972 XP.",
+        "19 480 Kamas.",
+        "5 x Lunettes de Parashukouï.",
+        "5 x Baguette de Tétonuki."
+      ],
+      "preparation": [
+        "Prévoir soit 50 000 kamas, soit un combat réalisable en groupe lors du passage à la taverne d'Akwadala.",
+        "Prévoir ensuite un éventuel combat de groupe contre une Sculpture animée.",
+        "Le combat final contre le Voleur Tanuki se fait seul.",
+        "Le sort Capture d'âmes est indiqué par la source comme nécessaire pour utiliser la pierre, même s'il n'est pas nécessaire de lancer ce sort pendant le combat final."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Tanuya Shisa pour obtenir des renseignements sur le voleur et sur la possibilité de capturer un Tanuki métamorphosé.",
+          "position": "[24,-26]",
+          "zoneHint": "Terrdala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir le Pandawa déboussolé afin qu'il vous oriente vers le Chaman de Pandala.",
+          "position": "[23,-24]",
+          "zoneHint": "Terrdala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à l'Assistant du Chaman. Acceptez de remettre son Mot d'excuse à Sakwaba en échange d'une Pierre d'âme parfaite renforcée.",
+          "position": "[20,-27]",
+          "zoneHint": "Pandala",
+          "warning": "Si Le réceptacle des Dofus est en cours à une certaine étape, l'Assistant du Chaman peut se trouver en [19,-32].",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À la taverne d'Akwadala, tentez de remettre le Mot d'excuse à Sakwaba, puis cliquez sur le verre de lait de bambou fermenté posé sur la table afin d'obtenir un Verre plein.",
+          "position": "[20,-20]",
+          "zoneHint": "Taverne d'Akwadala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Donnez le Verre plein à Sakwaba puis remettez-lui la lettre. Choisissez ensuite soit de payer 50 000 kamas pour régler la dette, soit de refuser et d'affronter les gardes de la taverne.",
+          "position": "[20,-20]",
+          "zoneHint": "Taverne d'Akwadala",
+          "warning": "Le choix entraîne soit une dépense immédiate de 50 000 kamas, soit un combat réalisable en groupe.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Retournez auprès de l'Assistant du Chaman et récupérez la Pierre d'âme parfaite renforcée.",
+          "position": "[20,-27]",
+          "zoneHint": "Pandala",
+          "warning": "La source précise que si vous ne possédez pas Capture d'âmes, ce sort peut être appris via le donjon Nid du Kwakwa en [-4,-7].",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Examinez les blocs de pierre à la base de la grande statue.",
+          "position": "[26,-27]",
+          "zoneHint": "Terrdala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Tanuya Shisa. Elle vous indique de chercher de véritables tas de pierres empilées plutôt que les brouillons examinés précédemment.",
+          "position": "[24,-26]",
+          "zoneHint": "Terrdala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Examinez les rochers situés à côté de la foreuse. Selon le résultat, vous pouvez combattre une Sculpture animée avec des alliés ou être téléporté sur une autre carte.",
+          "position": "[27,-26]",
+          "zoneHint": "Terrdala",
+          "warning": "Respectez l'ordre des œuvres indiqué par la quête.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Examinez ensuite le petit tas de cailloux empilés en haut de la carte. Là encore, une Sculpture animée peut vous attaquer ou vous pouvez être téléporté.",
+          "position": "[25,-24]",
+          "zoneHint": "Terrdala",
+          "warning": "Cette œuvre doit être examinée après celle de [27,-26].",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Examinez enfin la poterie placée en haut de la carte afin de faire apparaître le Voleur Tanuki.",
+          "position": "[25,-27]",
+          "zoneHint": "Terrdala",
+          "warning": "Cette interaction doit être réalisée après les deux œuvres précédentes.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Équipez la Pierre d'âme parfaite renforcée à la place de votre arme, parlez au Voleur Tanuki et attaquez-le.",
+          "position": "[25,-27]",
+          "zoneHint": "Terrdala",
+          "warning": "Le combat se fait seul. La pierre doit impérativement rester équipée pendant le combat. Il n'est pas nécessaire de lancer Capture d'âmes. Le voleur est invulnérable lorsqu'il se trouve sur son glyphe : retirez-le du glyphe pour pouvoir le blesser.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après la victoire, retournez voir le Pandawa déboussolé avec l'Âme du Voleur Tanuki.",
+          "position": "[23,-24]",
+          "zoneHint": "Terrdala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Double-cliquez sur l'Âme du Voleur Tanuki dans l'inventaire de quête afin de libérer le voleur.",
+          "position": "[23,-24]",
+          "zoneHint": "Terrdala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Voleur Tanuki, montrez-lui le Pandawa et réclamez l'amulette. Vous récupérez l'Amulette de Tatie Winette.",
+          "position": "[23,-24]",
+          "zoneHint": "Terrdala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Remettez l'Amulette de Tatie Winette au Pandawa déboussolé pour terminer la quête.",
+          "position": "[23,-24]",
+          "zoneHint": "Terrdala",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le choix de payer ou de combattre à la taverne mène à la même reprise auprès de l'Assistant du Chaman.",
+        "La Pierre d'âme parfaite renforcée doit être équipée comme arme pour le combat final."
+      ],
+      "npcs": [
+        "Pandawa déboussolé",
+        "Tanuya Shisa",
+        "Assistant du Chaman",
+        "Sakwaba",
+        "Voleur Tanuki"
+      ],
+      "items": [
+        {
+          "name": "Mot d'excuse",
+          "itemId": 23247,
+          "imageUrl": "/items/23247.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23247"
+        },
+        {
+          "name": "Verre plein",
+          "itemId": 23323,
+          "imageUrl": "/items/23323.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23323"
+        },
+        {
+          "name": "Pierre d'âme parfaite renforcée",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Âme du Voleur Tanuki",
+          "itemId": 23484,
+          "imageUrl": "/items/23484.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23484"
+        },
+        {
+          "name": "Amulette de Tatie Winette",
+          "itemId": 23325,
+          "imageUrl": "/items/23325.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23325"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 945,
+            "name": "Aerdala",
+            "coordinates": [
+              "19,-32"
+            ]
+          },
+          {
+            "id": 941,
+            "name": "Akwadala",
+            "coordinates": [
+              "20,-20"
+            ]
+          },
+          {
+            "id": 755,
+            "name": "Nid du Kwakwa",
+            "coordinates": [
+              "20,-27",
+              "-4,-7"
+            ]
+          },
+          {
+            "id": 944,
+            "name": "Terrdala",
+            "coordinates": [
+              "24,-26",
+              "23,-24",
+              "26,-27",
+              "27,-26",
+              "25,-24",
+              "25,-27"
+            ]
+          },
+          {
+            "id": 951,
+            "name": "Village de Pandala",
+            "coordinates": [
+              "20,-27"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4949,
+            "name": "Jérart Dupaindur",
+            "level": 130,
+            "imageUrl": "/bestiary/monsters/4949.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2591,
+            "name": "Akaka le Souillé",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2591.png"
+          },
+          {
+            "id": 2510,
+            "name": "Bebetto l'Intellectuel",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2510.png"
+          },
+          {
+            "id": 2598,
+            "name": "Bonpake le Chavireur",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2598.png"
+          },
+          {
+            "id": 2592,
+            "name": "Koko la Violente",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2592.png"
+          },
+          {
+            "id": 2527,
+            "name": "Parapadkouï l'Émasculé",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2527.png"
+          },
+          {
+            "id": 2590,
+            "name": "Sarkastik l'Incompris",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2590.png"
+          },
+          {
+            "id": 2414,
+            "name": "Tétonée la Plantureuse",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2414.png"
+          },
+          {
+            "id": 2434,
+            "name": "Tilolo la Bien Moulée",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2434.png"
+          },
+          {
+            "id": 2512,
+            "name": "Fangshui la Dysorthographiée",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2512.png"
+          },
+          {
+            "id": 2511,
+            "name": "Inopenope le Négatif",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2511.png"
+          },
+          {
+            "id": 2412,
+            "name": "Lichangora l'Immaculée",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2412.png"
+          },
+          {
+            "id": 2398,
+            "name": "Rooroku l'Imposant",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2398.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 188,
+            "name": "Bwaks",
+            "monsters": [
+              {
+                "id": 3283,
+                "name": "Bwak de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/3283.png"
+              },
+              {
+                "id": 3282,
+                "name": "Bwak de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/3282.png"
+              },
+              {
+                "id": 3284,
+                "name": "Bwak de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/3284.png"
+              },
+              {
+                "id": 3281,
+                "name": "Bwak de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/3281.png"
+              }
+            ]
+          },
+          {
+            "id": 3018,
+            "name": "Kozaru",
+            "monsters": [
+              {
+                "id": 6214,
+                "name": "Ino-Naru",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6214.png"
+              },
+              {
+                "id": 6215,
+                "name": "Kurookin",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6215.png"
+              },
+              {
+                "id": 6216,
+                "name": "Fangshu",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6216.png"
+              },
+              {
+                "id": 6217,
+                "name": "Lichangoro",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6217.png"
+              }
+            ]
+          },
+          {
+            "id": 190,
+            "name": "Kwakeres",
+            "monsters": [
+              {
+                "id": 269,
+                "name": "Kwakere de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/269.png"
+              },
+              {
+                "id": 271,
+                "name": "Kwakere de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/271.png"
+              },
+              {
+                "id": 270,
+                "name": "Kwakere de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/270.png"
+              },
+              {
+                "id": 272,
+                "name": "Kwakere de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/272.png"
+              }
+            ]
+          },
+          {
+            "id": 189,
+            "name": "Kwaks",
+            "monsters": [
+              {
+                "id": 83,
+                "name": "Kwak de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/83.png"
+              },
+              {
+                "id": 84,
+                "name": "Kwak de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/84.png"
+              },
+              {
+                "id": 235,
+                "name": "Kwak de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/235.png"
+              },
+              {
+                "id": 81,
+                "name": "Kwak de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/81.png"
+              }
+            ]
+          },
+          {
+            "id": 3019,
+            "name": "Kwapa",
+            "monsters": [
+              {
+                "id": 6203,
+                "name": "Sarkapwane",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6203.png"
+              },
+              {
+                "id": 6229,
+                "name": "Kokom",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6229.png"
+              },
+              {
+                "id": 6230,
+                "name": "Akakwa",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6230.png"
+              },
+              {
+                "id": 6231,
+                "name": "Betto",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6231.png"
+              }
+            ]
+          },
+          {
+            "id": 3003,
+            "name": "Tanuki",
+            "monsters": [
+              {
+                "id": 6220,
+                "name": "Ishigro Pake",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6220.png"
+              },
+              {
+                "id": 6221,
+                "name": "Tétonuki",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6221.png"
+              },
+              {
+                "id": 6222,
+                "name": "Parashukouï",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6222.png"
+              },
+              {
+                "id": 6223,
+                "name": "Lolojiki",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6223.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1332",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/les-metamorphoses-d-un-tanuki.html",
+      "sourceTitle": "Les métamorphoses d'un Tanuki",
+      "sourceHash": "f40019b8d5242ca9b6323043a7db2083216577f1a2df55d889866929e36c0d4f",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez la quête auprès de Wotta et activez les deux objectifs demandant une Défaite de Tanuki Femelle et une Défaite de Tanuki Mâle. Profitez ensuite de l'Atelier du Tanukouï San effectué dans cette étape pour tenter d'obtenir ces deux objets. La suite avec les Pandawas et le recrutement des deux Tanukis est volontairement reportée.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Avoir terminé Le réveil de Pandala."
+      ],
+      "rewards": [
+        "1 985 972 XP à la fin complète de la quête.",
+        "19 480 Kamas à la fin complète de la quête.",
+        "5 x Poing rocheux d'Ishigro Pake à la fin complète de la quête.",
+        "5 x Poterie cassée de Lolojiki à la fin complète de la quête."
+      ],
+      "preparation": [
+        "Les deux objets de quête ont un taux de base de 6%.",
+        "Défaite de Tanuki Femelle peut tomber sur Lolojiki, Shinibaru et Tétonuki.",
+        "Défaite de Tanuki Mâle peut tomber sur Ishigro Pake, Parashukouï et Tanukouï San."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Wotta pour lancer L'égalité des sexes et accepter de démontrer que les Tanukis mâles et femelles résistent aussi bien au combat.",
+          "position": "[22,-25]",
+          "zoneHint": "Terrdala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Obtenez 1 x Défaite de Tanuki Femelle sur un Lolojiki, Shinibaru ou Tétonuki. Profitez en priorité des combats de l'Atelier du Tanukouï San réalisés dans cette étape lorsque ces monstres y sont présents.",
+          "position": null,
+          "zoneHint": "Atelier du Tanukouï San",
+          "warning": "Taux de base indiqué : 6%. L'objet n'est donc pas garanti pendant un seul passage du donjon.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Obtenez 1 x Défaite de Tanuki Mâle sur un Ishigro Pake, Parashukouï ou Tanukouï San. Le boss Tanukouï San du passage prévu dans cette étape peut fournir une tentative.",
+          "position": null,
+          "zoneHint": "Atelier du Tanukouï San",
+          "warning": "Taux de base indiqué : 6%. L'objet n'est donc pas garanti pendant un seul passage du donjon.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "Avant d'effectuer l'Atelier du Tanukouï San, lancez Au nom de l'Art comme l'impose l'ordre du guide.",
+        "Ne retournez pas encore présenter les deux défaites à Chiwhan et Jiugwi : la reprise et la fin de cette quête sont prévues à l'étape suivante.",
+        "Si les deux objets ne tombent pas pendant le donjon, ils restent à obtenir sur les Tanukis correspondants."
+      ],
+      "npcs": [
+        "Wotta",
+        "Chiwhan",
+        "Jiugwi"
+      ],
+      "items": [
+        {
+          "name": "Défaite de Tanuki Femelle",
+          "itemId": 23242,
+          "imageUrl": "/items/23242.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23242"
+        },
+        {
+          "name": "Défaite de Tanuki Mâle",
+          "itemId": 23243,
+          "imageUrl": "/items/23243.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23243"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 948,
+            "name": "Atelier du Tanukouï San",
+            "coordinates": []
+          },
+          {
+            "id": 944,
+            "name": "Terrdala",
+            "coordinates": [
+              "22,-25"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4949,
+            "name": "Jérart Dupaindur",
+            "level": 130,
+            "imageUrl": "/bestiary/monsters/4949.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2598,
+            "name": "Bonpake le Chavireur",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2598.png"
+          },
+          {
+            "id": 2527,
+            "name": "Parapadkouï l'Émasculé",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2527.png"
+          },
+          {
+            "id": 2414,
+            "name": "Tétonée la Plantureuse",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2414.png"
+          },
+          {
+            "id": 2434,
+            "name": "Tilolo la Bien Moulée",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2434.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 3003,
+            "name": "Tanuki",
+            "monsters": [
+              {
+                "id": 6219,
+                "name": "Shinibaru",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6219.png"
+              },
+              {
+                "id": 6220,
+                "name": "Ishigro Pake",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6220.png"
+              },
+              {
+                "id": 6221,
+                "name": "Tétonuki",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6221.png"
+              },
+              {
+                "id": 6222,
+                "name": "Parashukouï",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6222.png"
+              },
+              {
+                "id": 6223,
+                "name": "Lolojiki",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6223.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1333",
+      "relation": "START",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/l-egalite-des-sexes.html",
+      "sourceTitle": "L'égalité des sexes",
+      "sourceHash": "07fa67e0b6ecd7dfd9089a8725b34faa49fd6e0ba00bb3b8ac3a53dc1221ebce",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez Au nom de l'Art auprès de Daimya Hikomi puis enquêtez à Terrdala jusqu'à ce que la quête vous conduise à l'Atelier du Tanukouï San. Effectuez alors le donjon et battez le Tanukouï San, puis parlez-lui au sujet des Kaskouïs et du minerai. La longue enquête sur les géoglyphes et la suite de la quête seront reprises à l'étape suivante.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Avoir terminé Sous le bois de sa colère."
+      ],
+      "rewards": [
+        "3 971 945 XP à la fin complète de la quête.",
+        "38 960 Kamas à la fin complète de la quête.",
+        "3 x Poils magiques de Tanuki à la fin complète de la quête.",
+        "3 x Masque de Shinibaru à la fin complète de la quête."
+      ],
+      "preparation": [
+        "Prévoir un passage complet dans l'Atelier du Tanukouï San.",
+        "Les besoins de 1 x Huile de Riz, 3 x Poils magiques de Tanuki et les dépenses ultérieures de la quête ne sont pas encore nécessaires avant le point d'arrêt de cette occurrence."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Daimya Hikomi pour lancer Au nom de l'Art et être envoyé enquêter en Terrdala sur les retards de livraison des chopes.",
+          "position": "[22,-29]",
+          "zoneHint": "Village de Pandala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la forge et parlez à Anatakwa en précisant que vous venez de la part de la Daimya. Elle explique manquer de minerai de Terrdala.",
+          "position": "[24,-22]",
+          "zoneHint": "Forge de Terrdala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sortez de la forge et parlez à Mira Hagate pour comprendre pourquoi le minerai destiné à Anatakwa n'arrive plus.",
+          "position": "[24,-22]",
+          "zoneHint": "Terrdala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez Tanuha Ping sur le minerai retiré aux Pandawas. Il vous apprend que les Kaskouïs replacent les ressources pour préserver l'œuvre de l'Esprit du Roc.",
+          "position": "[24,-24]",
+          "zoneHint": "Terrdala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Tanutoki pour chercher un Kaskouï. Il vous indique Tanukas Noazeth.",
+          "position": "[26,-25]",
+          "zoneHint": "Terrdala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Tanukas Noazeth et poursuivez le dialogue jusqu'à ce qu'il vous prenne pour un Kaskouï et vous recommande d'aller voir le Tanukouï San.",
+          "position": "[24,-23]",
+          "zoneHint": "Terrdala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à l'entrée de l'Atelier du Tanukouï San puis effectuez le donjon jusqu'au boss.",
+          "position": "[26,-24]",
+          "zoneHint": "Atelier du Tanukouï San",
+          "warning": "Profitez de ce même passage pour les objectifs liés au Débarras de La tactique des gens d'armes et pour tenter les drops de L'égalité des sexes.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Battez le Tanukouï San.",
+          "position": null,
+          "zoneHint": "Atelier du Tanukouï San",
+          "warning": "Ce combat de boss fait partie du donjon requis par la quête.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire, parlez au Tanukouï San et questionnez-le sur les Kaskouïs et les vols de minerai chez les Pandawas. Arrêtez ensuite cette occurrence.",
+          "position": null,
+          "zoneHint": "Atelier du Tanukouï San",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La prochaine partie de la quête commence après la sortie du donjon, avec Tanukaï Aïhaye en [23,-26].",
+        "La fabrication du Baume Hakouï, l'achat du livre sur les géoglyphes, les combats contre les Kaskouïs et toute la fin de la quête sont volontairement laissés pour l'occurrence FINISH de l'étape 154."
+      ],
+      "npcs": [
+        "Daimya Hikomi",
+        "Anatakwa",
+        "Mira Hagate",
+        "Tanuha Ping",
+        "Tanutoki",
+        "Tanukas Noazeth",
+        "Tanukouï San"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 948,
+            "name": "Atelier du Tanukouï San",
+            "coordinates": [
+              "26,-24"
+            ]
+          },
+          {
+            "id": 944,
+            "name": "Terrdala",
+            "coordinates": [
+              "24,-22",
+              "24,-24",
+              "26,-25",
+              "24,-23"
+            ]
+          },
+          {
+            "id": 951,
+            "name": "Village de Pandala",
+            "coordinates": [
+              "22,-29"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4949,
+            "name": "Jérart Dupaindur",
+            "level": 130,
+            "imageUrl": "/bestiary/monsters/4949.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2598,
+            "name": "Bonpake le Chavireur",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2598.png"
+          },
+          {
+            "id": 2527,
+            "name": "Parapadkouï l'Émasculé",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2527.png"
+          },
+          {
+            "id": 2414,
+            "name": "Tétonée la Plantureuse",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2414.png"
+          },
+          {
+            "id": 2434,
+            "name": "Tilolo la Bien Moulée",
+            "level": 122,
+            "imageUrl": "/bestiary/monsters/2434.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 3003,
+            "name": "Tanuki",
+            "monsters": [
+              {
+                "id": 6219,
+                "name": "Shinibaru",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6219.png"
+              },
+              {
+                "id": 6220,
+                "name": "Ishigro Pake",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6220.png"
+              },
+              {
+                "id": 6221,
+                "name": "Tétonuki",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6221.png"
+              },
+              {
+                "id": 6222,
+                "name": "Parashukouï",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6222.png"
+              },
+              {
+                "id": 6223,
+                "name": "Lolojiki",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/6223.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1317",
+      "relation": "START",
+      "sortOrder": 3,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/au-nom-de-l-art.html",
+      "sourceTitle": "Au nom de l'Art",
+      "sourceHash": "e4158b6660565cc191d1dad0c34505be9fd02f445037a8f93293779dc48957f5",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Rentabiliser l'Atelier du Tanukouï San",
+      "description": "Le passage dans l'Atelier demandé par Au nom de l'Art permet d'avancer plusieurs quêtes de cette étape sans refaire immédiatement le donjon.",
+      "questKeys": [
+        "quest:152",
+        "quest:1333",
+        "quest:1317"
+      ],
+      "actions": [
+        "Avant d'entrer, avoir avancé 55. La tactique des gens d'armes jusqu'à l'objectif de découverte du Débarras et avoir lancé L'égalité des sexes ainsi que Au nom de l'Art.",
+        "Pendant la progression, rejoindre la salle 4 et découvrir le Débarras de l'Atelier du Tanukouï San pour 55. La tactique des gens d'armes.",
+        "Profiter des Tanukis rencontrés pour tenter d'obtenir Défaite de Tanuki Femelle et Défaite de Tanuki Mâle pour L'égalité des sexes.",
+        "Poursuivre jusqu'au Tanukouï San, le vaincre puis lui parler pour faire avancer Au nom de l'Art."
+      ]
+    }
+  ]
 }

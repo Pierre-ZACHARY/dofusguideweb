@@ -1,8 +1,1107 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 152,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T15:05:10.320Z",
+  "summaries": [
+    {
+      "overview": "Lance « 54. Pour vivre heureux » auprès de Nara, trouve un lieu adapté à son installation puis reviens lui faire ton rapport. Cette occurrence s'arrête dès que Nara te demande de lui rapporter notamment 5 x Morceau de Truche : ne collecte et ne rends pas encore les ressources demandées, car le guide impose alors de terminer « Frankenstruche ».",
+      "recommendedLevel": 134,
+      "prerequisites": [
+        "Une partie de cache-cache."
+      ],
+      "rewards": [
+        "5 095 948 XP à la fin complète de la quête."
+      ],
+      "preparation": [
+        "Prévoir soit 3 000 kamas, soit 1 x Souvenir d’Enutrof.",
+        "Prévoir l’aide de 4 personnes pour accéder à la partie profonde de la mine du Territoire des Porcos.",
+        "En cas de blocage exceptionnel à l’entrée de la grotte de Nara, prévoir éventuellement 4 x Poils d’Arakne Malade et 2 x Défense du Sanglier."
+      ],
+      "actions": [
+        {
+          "instruction": "Dans la grotte de Nara, parle à Nara pour lancer « 54. Pour vivre heureux » et accepter de chercher un endroit plus calme où il pourra travailler.",
+          "position": "[10,11]",
+          "zoneHint": "Clairière de Brouce Boulgoure",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Va au temple Enutrof et interroge Setag. Pour obtenir sa liste de lieux, donne-lui soit 3 000 kamas, soit 1 x Souvenir d’Enutrof.",
+          "position": "[-1,-4]",
+          "zoneHint": "Temple Enutrof",
+          "warning": "Cette étape impose une dépense : 3 000 kamas ou 1 x Souvenir d’Enutrof.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Visite la mine de la Montagne des Craqueleurs : entre en [-2,-5], va deux fois à gauche puis monte. Le simple passage sur la bonne carte valide le lieu.",
+          "position": "[-2,-5]",
+          "zoneHint": "Mine de la Montagne des Craqueleurs",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Découvre le sous-sol caché de la place d'Amakna en cliquant sur la cellule située derrière la maison. Entrer sur la carte suffit à valider cette visite.",
+          "position": "[1,0]",
+          "zoneHint": "Sous-sol de la place d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entre dans la mine du Territoire des Porcos avec 4 autres personnes. Actionne le premier levier et franchis la grille. Dans la première salle, fais placer deux personnes sur les dalles ; dans la seconde, fais de même avec deux personnes ; puis actionne le levier de la troisième salle pour franchir le chariot. La visite de la carte suivante suffit à valider le lieu.",
+          "position": "[1,32]",
+          "zoneHint": "Mine du Territoire des Porcos",
+          "warning": "L’accès nécessite l’aide de 4 personnes.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne auprès de Bellus Sel pour rentrer dans la grotte de Nara. Il doit normalement te reconnaître et te laisser passer sans nouvelle offrande.",
+          "position": "[10,11]",
+          "zoneHint": "Clairière de Brouce Boulgoure",
+          "warning": "Si Bellus Sel refuse exceptionnellement le passage, il peut être nécessaire de lui donner 4 x Poils d’Arakne Malade et 2 x Défense du Sanglier.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parle à Nara et décris-lui les trois lieux visités. Il choisit la mine des Porcos et te demande alors de préparer 6 x Bois de Noisetier, 1 x Blague de Soufre, 1 x Kriptonite, 2 x Étoffe Zoth, 1 x Caisse de vieux outils et 5 x Morceau de Truche. Arrête-toi ici pour cette occurrence.",
+          "position": "[10,11]",
+          "zoneHint": "Grotte de Nara",
+          "warning": "Ne poursuis pas encore la collecte ni le rendu des ressources : le guide demande maintenant de terminer « Frankenstruche ».",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La collecte et le rendu des ressources demandées par Nara sont volontairement différés jusqu’à l’occurrence FINISH de cette même étape.",
+        "Le parcours impose l’ordre START de « Pour vivre heureux », FINISH de « Frankenstruche », puis FINISH de « Pour vivre heureux »."
+      ],
+      "npcs": [
+        "Nara",
+        "Setag",
+        "Bellus Sel"
+      ],
+      "items": [
+        {
+          "name": "Souvenir d'Enutrof",
+          "itemId": 1498,
+          "imageUrl": "/items/1498.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1498"
+        },
+        {
+          "name": "Poils d'Arakne Malade",
+          "itemId": 388,
+          "imageUrl": "/items/388.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/388"
+        },
+        {
+          "name": "Défense du Sanglier",
+          "itemId": 387,
+          "imageUrl": "/items/387.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/387"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 481,
+            "name": "Clairière de Brouce Boulgoure",
+            "coordinates": [
+              "10,11"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "1,0"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "10,11"
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Montagne des Craqueleurs",
+            "coordinates": [
+              "-2,-5"
+            ]
+          },
+          {
+            "id": 11,
+            "name": "Territoire des Porcos",
+            "coordinates": [
+              "1,32"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "-1,-4"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4277,
+            "name": "Prince Marchand",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/4277.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2336,
+            "name": "Mosketère le Dévoué",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2336.png"
+          },
+          {
+            "id": 2353,
+            "name": "Sangria le Fruité",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2353.png"
+          },
+          {
+            "id": 2367,
+            "name": "Kwakamole l'Appétissant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2367.png"
+          },
+          {
+            "id": 2369,
+            "name": "Kwaké le Piraté",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2369.png"
+          },
+          {
+            "id": 2451,
+            "name": "Kwakolak le Chocolaté",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2451.png"
+          },
+          {
+            "id": 2368,
+            "name": "Kwakwatique le Trempé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2368.png"
+          },
+          {
+            "id": 2453,
+            "name": "Porsalé le Râleur",
+            "level": 80,
+            "imageUrl": "/bestiary/monsters/2453.png"
+          },
+          {
+            "id": 2432,
+            "name": "Farlon l'Enfant",
+            "level": 90,
+            "imageUrl": "/bestiary/monsters/2432.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 104,
+                "name": "Sanglier",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/104.png"
+              }
+            ]
+          },
+          {
+            "id": 190,
+            "name": "Kwakeres",
+            "monsters": [
+              {
+                "id": 269,
+                "name": "Kwakere de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/269.png"
+              },
+              {
+                "id": 271,
+                "name": "Kwakere de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/271.png"
+              },
+              {
+                "id": 270,
+                "name": "Kwakere de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/270.png"
+              },
+              {
+                "id": 272,
+                "name": "Kwakere de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/272.png"
+              }
+            ]
+          },
+          {
+            "id": 189,
+            "name": "Kwaks",
+            "monsters": [
+              {
+                "id": 83,
+                "name": "Kwak de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/83.png"
+              },
+              {
+                "id": 84,
+                "name": "Kwak de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/84.png"
+              },
+              {
+                "id": 235,
+                "name": "Kwak de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/235.png"
+              },
+              {
+                "id": 81,
+                "name": "Kwak de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/81.png"
+              }
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Mulous",
+            "monsters": [
+              {
+                "id": 102,
+                "name": "Mulou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/102.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 185,
+            "name": "Porcos",
+            "monsters": [
+              {
+                "id": 603,
+                "name": "Cochon de Farle",
+                "level": 90,
+                "imageUrl": "/bestiary/monsters/603.png"
+              },
+              {
+                "id": 3304,
+                "name": "Porsalu",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/3304.png"
+              }
+            ]
+          },
+          {
+            "id": 214,
+            "name": "Porkass",
+            "monsters": [
+              {
+                "id": 123,
+                "name": "Cochon de Lait",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/123.png"
+              }
+            ]
+          },
+          {
+            "id": 1602,
+            "name": "Vermines des champs",
+            "monsters": [
+              {
+                "id": 4819,
+                "name": "Campagnoll",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/4819.png"
+              },
+              {
+                "id": 61,
+                "name": "Moskito",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/61.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:151",
+      "relation": "START",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/pour-vivre-heureux.html",
+      "sourceTitle": "Alignement 54 : Pour vivre heureux",
+      "sourceHash": "c743a244b88db9a5b0239585af4bb8bd393c92bb022f935ad79dda3db6fa641c",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "La précédente occurrence du guide t’a déjà fait effectuer la Volière de la Haute Truche et capturer le boss. Reprends donc « Frankenstruche » avec la Pierre d'âme de Haute Truche déjà obtenue, remets-la au Professeur Duvet puis accomplis toute la partie restante jusqu’à la fin de la quête. Les combats contre les Truches du Cirque de Cania peuvent en même temps faire progresser l’objectif des 5 x Morceau de Truche de « Pour vivre heureux ».",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Avoir déjà avancé « Frankenstruche » jusqu’à l’objectif demandant de rapporter l’âme de la Haute Truche.",
+        "Disposer de la Pierre d'âme de Haute Truche capturée lors de la précédente occurrence du guide."
+      ],
+      "rewards": [
+        "3 971 945 XP.",
+        "38 960 kamas.",
+        "3 x Paire de boules de Haute Truche."
+      ],
+      "preparation": [
+        "Avoir la Pierre d'âme de Haute Truche obtenue précédemment.",
+        "Prévoir des combats contre des monstres Truches pour récupérer les ressources restantes."
+      ],
+      "actions": [
+        {
+          "instruction": "Retourne voir le Professeur Duvet et donne-lui la Pierre d'âme de Haute Truche capturée lors de la précédente occurrence.",
+          "position": "[-9,-46]",
+          "zoneHint": "Cirque de Cania",
+          "warning": "La Pierre d'âme de Haute Truche est consommée pour faire progresser la quête.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récupère 5 x Langue de Truchmuche, 10 x Plume de Truchideur et 10 x Cuisse de Truche. Les Cuisses de Truche sont des objets de quête obtenus sur les monstres du Cirque de Cania à cette étape.",
+          "position": null,
+          "zoneHint": "Cirque de Cania",
+          "warning": "Cette phase nécessite des combats contre des Truches.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Rapporte les 5 x Langue de Truchmuche, 10 x Plume de Truchideur et 10 x Cuisse de Truche au Professeur Duvet.",
+          "position": "[-9,-46]",
+          "zoneHint": "Cirque de Cania",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Va voir Vid Cheber et demande-lui une potion de résurrection.",
+          "position": "[11,16]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Va voir Kande Boffler et demande-lui une potion de résurrection. Il ne connaît pas la recette mais te remet gratuitement une Potion de mémoire destinée à Vid Cheber.",
+          "position": "[4,12]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne voir Vid Cheber et donne-lui la Potion de mémoire. Il retrouve ses souvenirs et te remet une Potion de résurrection.",
+          "position": "[11,16]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne auprès du Professeur Duvet et donne-lui la Potion de résurrection.",
+          "position": "[-9,-46]",
+          "zoneHint": "Cirque de Cania",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparle au Professeur Duvet pour constater la résurrection miniature de la Haute Truche et terminer « Frankenstruche ».",
+          "position": "[-9,-46]",
+          "zoneHint": "Cirque de Cania",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le donjon et la capture de la Haute Truche sont supposés déjà réalisés lors de l’occurrence START de l’étape 127 ; ils ne sont donc pas répétés ici.",
+        "Après la fin de « Frankenstruche », reprends « Pour vivre heureux » pour remettre à Nara les ressources qu’il demande."
+      ],
+      "npcs": [
+        "Professeur Duvet",
+        "Vid Cheber",
+        "Kande Boffler"
+      ],
+      "items": [
+        {
+          "name": "Pierre d'âme de Haute Truche",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Langue de Truchmuche",
+          "itemId": 15070,
+          "imageUrl": "/items/15070.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15070"
+        },
+        {
+          "name": "Plume de Truchideur",
+          "itemId": 15071,
+          "imageUrl": "/items/15071.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15071"
+        },
+        {
+          "name": "Cuisse de Truche",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Potion de mémoire",
+          "itemId": 18216,
+          "imageUrl": "/items/18216.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18216"
+        },
+        {
+          "name": "Potion de résurrection",
+          "itemId": 18215,
+          "imageUrl": "/items/18215.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/18215"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 6,
+            "name": "Cimetière",
+            "coordinates": [
+              "11,16"
+            ]
+          },
+          {
+            "id": 523,
+            "name": "Cirque de Cania",
+            "coordinates": [
+              "-9,-46"
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Forêt d'Amakna",
+            "coordinates": [
+              "4,12"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4270,
+            "name": "Roub' Ignolles",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/4270.png"
+          },
+          {
+            "id": 4015,
+            "name": "Fojumo",
+            "level": 140,
+            "imageUrl": "/bestiary/monsters/4015.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2323,
+            "name": "Chamchie le Difficile",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2323.png"
+          },
+          {
+            "id": 2349,
+            "name": "Preskapwal le Tendancieux",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2349.png"
+          },
+          {
+            "id": 2353,
+            "name": "Sangria le Fruité",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2353.png"
+          },
+          {
+            "id": 2321,
+            "name": "Chafalfer l'Optimiste",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2321.png"
+          },
+          {
+            "id": 2319,
+            "name": "Chafemal le Bagarreur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2319.png"
+          },
+          {
+            "id": 2522,
+            "name": "Kwoanneur le Frimeur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2522.png"
+          },
+          {
+            "id": 2357,
+            "name": "Tofumanchou l'Empereur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2357.png"
+          },
+          {
+            "id": 2421,
+            "name": "Chaffoin le Sournois",
+            "level": 33,
+            "imageUrl": "/bestiary/monsters/2421.png"
+          },
+          {
+            "id": 2276,
+            "name": "Ribibi le Cher",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2276.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 103,
+                "name": "Prespic",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/103.png"
+              },
+              {
+                "id": 104,
+                "name": "Sanglier",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/104.png"
+              }
+            ]
+          },
+          {
+            "id": 193,
+            "name": "Bêtes de la nuit",
+            "monsters": [
+              {
+                "id": 154,
+                "name": "Kwoan",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/154.png"
+              },
+              {
+                "id": 111,
+                "name": "Tofu Maléfique",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/111.png"
+              }
+            ]
+          },
+          {
+            "id": 191,
+            "name": "Chafers d'Amakna",
+            "monsters": [
+              {
+                "id": 54,
+                "name": "Chafer",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/54.png"
+              },
+              {
+                "id": 110,
+                "name": "Chafer Invisible",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/110.png"
+              },
+              {
+                "id": 396,
+                "name": "Chafer Fantassin",
+                "level": 33,
+                "imageUrl": "/bestiary/monsters/396.png"
+              },
+              {
+                "id": 108,
+                "name": "Rib",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/108.png"
+              }
+            ]
+          },
+          {
+            "id": 1060,
+            "name": "Truches",
+            "monsters": [
+              {
+                "id": 3620,
+                "name": "Truchmuche",
+                "level": 113,
+                "imageUrl": "/bestiary/monsters/3620.png"
+              },
+              {
+                "id": 3621,
+                "name": "Truchideur",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3621.png"
+              },
+              {
+                "id": 3622,
+                "name": "Truchtine",
+                "level": 111,
+                "imageUrl": "/bestiary/monsters/3622.png"
+              },
+              {
+                "id": 3623,
+                "name": "Truchon",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/3623.png"
+              }
+            ]
+          },
+          {
+            "id": 1602,
+            "name": "Vermines des champs",
+            "monsters": [
+              {
+                "id": 59,
+                "name": "Champ Champ",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/59.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1028",
+      "relation": "FINISH",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/frankenstruche.html",
+      "sourceTitle": "Frankenstruche",
+      "sourceHash": "99e3a47e1ac1d9b81540cac4c0a13a64f71c9f31aaa7828c76326eca9e79d3e5",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Reprends « 54. Pour vivre heureux » après avoir terminé « Frankenstruche ». Nara t’a déjà demandé ses matériaux et le lieu de travail a été choisi. Rassemble ou vérifie maintenant toutes les ressources, récupère la Caisse de vieux outils, complète les 5 x Morceau de Truche si nécessaire, puis apporte le tout à Nara dans la mine des Porcos avant de présenter son Katana à Amayiro.",
+      "recommendedLevel": 134,
+      "prerequisites": [
+        "Avoir réalisé l’occurrence START de « 54. Pour vivre heureux » jusqu’à la demande de ressources de Nara.",
+        "Avoir terminé « Frankenstruche » à l’occurrence précédente de cette étape."
+      ],
+      "rewards": [
+        "5 095 948 XP.",
+        "3 x Potion Pahoa Raide obtenues auprès d’Amayiro."
+      ],
+      "preparation": [
+        "6 x Bois de Noisetier.",
+        "1 x Blague de Soufre, achetable auprès d’Ernest Laye en [-77,-45].",
+        "1 x Kriptonite.",
+        "2 x Étoffe Zoth.",
+        "1 x Caisse de vieux outils.",
+        "5 x Morceau de Truche."
+      ],
+      "actions": [
+        {
+          "instruction": "Réunis 6 x Bois de Noisetier, 1 x Blague de Soufre, 1 x Kriptonite et 2 x Étoffe Zoth. La Blague de Soufre peut être achetée auprès d’Ernest Laye.",
+          "position": "[-77,-45]",
+          "zoneHint": null,
+          "warning": "L’achat de la Blague de Soufre implique une dépense.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Va dans la Vallée de la Morh’Kitu, entre dans la mine en [-18,14], progresse jusqu’au fond puis clique sur la petite caisse pour obtenir la Caisse de vieux outils.",
+          "position": "[-18,14]",
+          "zoneHint": "Mine de la Vallée de la Morh’Kitu",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Vérifie que tu possèdes 5 x Morceau de Truche. Si les combats effectués pendant « Frankenstruche » ne t’en ont pas déjà fourni cinq, combats des monstres Truches dans le Cirque de Cania jusqu’à compléter la quantité.",
+          "position": null,
+          "zoneHint": "Cirque de Cania",
+          "warning": "Les Morceaux de Truche sont des objets de quête obtenus automatiquement sur les monstres Truches lorsque cet objectif est actif.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Lorsque tu possèdes les 6 x Bois de Noisetier, 1 x Blague de Soufre, 1 x Kriptonite, 2 x Étoffe Zoth, 1 x Caisse de vieux outils et 5 x Morceau de Truche, va devant l’entrée de la mine des Porcos et donne toutes ces ressources à Nara.",
+          "position": "[1,32]",
+          "zoneHint": "Mine du Territoire des Porcos",
+          "warning": "Toutes les ressources demandées sont remises à Nara.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparle à Nara et demande-lui de forger une arme afin de vérifier ses talents. Tu obtiens le Katana de Nara.",
+          "position": "[1,32]",
+          "zoneHint": "Mine du Territoire des Porcos",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne auprès d’Amayiro, montre-lui le Katana de Nara et termine « 54. Pour vivre heureux ». Amayiro te remet 3 x Potion Pahoa Raide.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les visites des trois lieux et la demande initiale de matériaux de Nara sont supposées déjà réalisées lors de l’occurrence START.",
+        "La quête suivante, « 55. La tactique des gens d'armes », appartient à l’étape 153 et ne doit pas être commencée ici."
+      ],
+      "npcs": [
+        "Ernest Laye",
+        "Nara",
+        "Amayiro"
+      ],
+      "items": [
+        {
+          "name": "Bois de Noisetier",
+          "itemId": 16488,
+          "imageUrl": "/items/16488.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16488"
+        },
+        {
+          "name": "Blague de Soufre",
+          "itemId": 1334,
+          "imageUrl": "/items/1334.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1334"
+        },
+        {
+          "name": "Kriptonite",
+          "itemId": 6457,
+          "imageUrl": "/items/6457.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6457"
+        },
+        {
+          "name": "Étoffe Zoth",
+          "itemId": 8800,
+          "imageUrl": "/items/8800.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8800"
+        },
+        {
+          "name": "Caisse de vieux outils",
+          "itemId": 17091,
+          "imageUrl": "/items/17091.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17091"
+        },
+        {
+          "name": "Morceau de Truche",
+          "itemId": 17090,
+          "imageUrl": "/items/17090.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17090"
+        },
+        {
+          "name": "Katana de Nara",
+          "itemId": 10017,
+          "imageUrl": "/items/10017.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/10017"
+        },
+        {
+          "name": "Potion Pahoa Raide",
+          "itemId": 1712,
+          "imageUrl": "/items/1712.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1712"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 523,
+            "name": "Cirque de Cania",
+            "coordinates": []
+          },
+          {
+            "id": 601,
+            "name": "La Bourgade",
+            "coordinates": [
+              "-77,-45"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 11,
+            "name": "Territoire des Porcos",
+            "coordinates": [
+              "1,32"
+            ]
+          },
+          {
+            "id": 275,
+            "name": "Vallée de la Morh'Kitu",
+            "coordinates": [
+              "-18,14"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4277,
+            "name": "Prince Marchand",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/4277.png"
+          },
+          {
+            "id": 4015,
+            "name": "Fojumo",
+            "level": 140,
+            "imageUrl": "/bestiary/monsters/4015.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2453,
+            "name": "Porsalé le Râleur",
+            "level": 80,
+            "imageUrl": "/bestiary/monsters/2453.png"
+          },
+          {
+            "id": 2432,
+            "name": "Farlon l'Enfant",
+            "level": 90,
+            "imageUrl": "/bestiary/monsters/2432.png"
+          },
+          {
+            "id": 2497,
+            "name": "Guerrite le Veilleur",
+            "level": 101,
+            "imageUrl": "/bestiary/monsters/2497.png"
+          },
+          {
+            "id": 2519,
+            "name": "Koalvissie le Chauve",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2519.png"
+          },
+          {
+            "id": 2514,
+            "name": "Koalaboi le Calorifère",
+            "level": 104,
+            "imageUrl": "/bestiary/monsters/2514.png"
+          },
+          {
+            "id": 2307,
+            "name": "Wara l'Amer",
+            "level": 106,
+            "imageUrl": "/bestiary/monsters/2307.png"
+          },
+          {
+            "id": 2567,
+            "name": "Faufoll la Joyeuse",
+            "level": 108,
+            "imageUrl": "/bestiary/monsters/2567.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2913,
+                "name": "Chachachovage",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2913.png"
+              },
+              {
+                "id": 2893,
+                "name": "Crabe Hijacob",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2893.png"
+              },
+              {
+                "id": 2914,
+                "name": "Gélikan",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2914.png"
+              },
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          },
+          {
+            "id": 220,
+            "name": "Koalaks mortels",
+            "monsters": [
+              {
+                "id": 783,
+                "name": "Fauchalak",
+                "level": 108,
+                "imageUrl": "/bestiary/monsters/783.png"
+              },
+              {
+                "id": 749,
+                "name": "Guerrier Koalak",
+                "level": 101,
+                "imageUrl": "/bestiary/monsters/749.png"
+              },
+              {
+                "id": 756,
+                "name": "Koalak Farouche",
+                "level": 104,
+                "imageUrl": "/bestiary/monsters/756.png"
+              },
+              {
+                "id": 744,
+                "name": "Koalak Sanguin",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/744.png"
+              },
+              {
+                "id": 745,
+                "name": "Warko Violet",
+                "level": 106,
+                "imageUrl": "/bestiary/monsters/745.png"
+              }
+            ]
+          },
+          {
+            "id": 185,
+            "name": "Porcos",
+            "monsters": [
+              {
+                "id": 603,
+                "name": "Cochon de Farle",
+                "level": 90,
+                "imageUrl": "/bestiary/monsters/603.png"
+              },
+              {
+                "id": 3304,
+                "name": "Porsalu",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/3304.png"
+              }
+            ]
+          },
+          {
+            "id": 1060,
+            "name": "Truches",
+            "monsters": [
+              {
+                "id": 3620,
+                "name": "Truchmuche",
+                "level": 113,
+                "imageUrl": "/bestiary/monsters/3620.png"
+              },
+              {
+                "id": 3621,
+                "name": "Truchideur",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3621.png"
+              },
+              {
+                "id": 3622,
+                "name": "Truchtine",
+                "level": 111,
+                "imageUrl": "/bestiary/monsters/3622.png"
+              },
+              {
+                "id": 3623,
+                "name": "Truchon",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/3623.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:151",
+      "relation": "FINISH",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/pour-vivre-heureux.html",
+      "sourceTitle": "Alignement 54 : Pour vivre heureux",
+      "sourceHash": "c743a244b88db9a5b0239585af4bb8bd393c92bb022f935ad79dda3db6fa641c",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Profiter des combats du Cirque de Cania",
+      "description": "Une fois « Pour vivre heureux » avancée jusqu’à l’objectif des 5 x Morceau de Truche, termine « Frankenstruche ». Ses combats contre les Truches du Cirque de Cania peuvent simultanément fournir les Morceaux de Truche nécessaires à la reprise de « Pour vivre heureux ».",
+      "questKeys": [
+        "quest:151",
+        "quest:1028"
+      ],
+      "actions": [
+        "Active d’abord l’objectif demandant 5 x Morceau de Truche dans « Pour vivre heureux ».",
+        "Termine ensuite « Frankenstruche » et profite des combats dans le Cirque de Cania pour récupérer les Morceaux de Truche.",
+        "Après avoir rendu « Frankenstruche », vérifie ton stock de Morceaux de Truche avant de reprendre « Pour vivre heureux »."
+      ]
+    }
+  ]
 }

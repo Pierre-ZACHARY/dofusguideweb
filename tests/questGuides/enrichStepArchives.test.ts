@@ -38,7 +38,7 @@ describe("enrichStepArchives", () => {
     const catalog = path.join(root, "bestiary.json");
     const sourceUrl = "https://www.dofuspourlesnoobs.com/quete-test.html";
     const step: GuideStepRecord = {
-      id: 9, guideId: -1, stepNumber: 9, chapterId: null, title: "Test", recommendedLevelMin: 1, recommendedLevelMax: 1,
+      id: 9, guideId: -1, stepNumber: 9, chapterId: 1, title: "1. Débuts à Incarnam", recommendedLevelMin: 1, recommendedLevelMax: 1,
       raw: [], elements: [], quests: [{
         id: 1, questKey: "quest:1", sourceQuestKey: null, originalName: "Quête test", normalizedName: "quete test",
         sequenceNumber: null, externalUrl: sourceUrl, category: null, npcName: null, npcImageUrl: null,
@@ -70,7 +70,12 @@ describe("enrichStepArchives", () => {
       await cacheSourceArticle(cache, { sourceUrl, title: "Quête test", sourceHash: "a".repeat(64), content: "Source" });
       await atomicWriteFile(catalog, Buffer.from(JSON.stringify({
         version: 1, source: "https://api.dofusdb.fr", scrapedAt: "2026-01-01T00:00:00.000Z",
-        monsters: [], dungeons: [], achievements: [], subareas: [], coordinates: {},
+        monsters: [], dungeons: [], achievements: [],
+        subareas: [
+          { id: 10, areaId: 0, name: "Village d'Amakna", monsterIds: [] },
+          { id: 442, areaId: 45, name: "Lac", monsterIds: [] },
+        ],
+        coordinates: { "1,2": [10, 442] },
       }), "utf8"));
 
       const result = await enrichStepArchives(repository, {
@@ -82,7 +87,7 @@ describe("enrichStepArchives", () => {
       expect(archive.summaries[0]).toMatchObject({
         sourceUrl, sourceTitle: "Quête test", sourceHash: "a".repeat(64),
         items: [{ name: "Objet test", itemId: 42, imageUrl: "/items/42.png", dofusDbUrl: "https://dofusdb.fr/fr/database/item/42" }],
-        bestiary: { zones: [], bounties: [], archmonsters: [], achievements: [] },
+        bestiary: { zones: [{ id: 442, name: "Lac", coordinates: ["1,2"] }], bounties: [], archmonsters: [], achievements: [] },
       });
       expect([...await readFile(path.join(items, "42.png"))]).toEqual([1, 2, 3]);
 

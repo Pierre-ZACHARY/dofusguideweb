@@ -1,8 +1,544 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 75,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T11:28:48.757Z",
+  "summaries": [
+    {
+      "overview": "Poursuivez la quête d'alignement 25 en retrouvant le Colonel Lyeno dans la mine de l'Orée de la forêt des Abraknydes. Traversez correctement le labyrinthe de trous, protégez Lyeno pendant le combat contre les Gobelins, puis ramenez-le à Bonta pour le désenvoûter et rendre la quête à Amayiro. La quête suivante, Au service de Danathor, sera effectuée juste après dans cette étape.",
+      "recommendedLevel": 55,
+      "prerequisites": [
+        "Avoir terminé Corvée de patate."
+      ],
+      "rewards": [
+        "601 309 XP."
+      ],
+      "preparation": [
+        "Prévoir un combat pouvant être réalisé en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Rendez-vous à l'Orée de la forêt des Abraknydes, entrez dans la mine en [-4,-12], puis montez l'échelle.",
+          "position": "[-4,-12]",
+          "zoneHint": "Orée de la forêt des Abraknydes",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Traversez les cinq cartes piégées du labyrinthe dans cet ordre : prenez le trou aux racines du grand arbre de droite, puis de nouveau celui aux racines du grand arbre de droite, ensuite le trou au-dessus de la première branche du grand arbre de droite, puis le trou juste au-dessus de l'échelle à gauche, et enfin le trou derrière le tronc couché au centre. Sur la carte suivante, avancez simplement vers la droite.",
+          "position": null,
+          "zoneHint": "Mine de l'Orée de la forêt des Abraknydes",
+          "warning": "Les mauvais trous vous font tomber dans une grotte avec des Araknes et vous renvoient vers le début de la mine.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Colonel Lyeno et acceptez de l'aider.",
+          "position": null,
+          "zoneHint": "Mine de l'Orée de la forêt des Abraknydes",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Gobelin situé tout à gauche de la carte pour engager le groupe de Gobelins et remportez le combat.",
+          "position": null,
+          "zoneHint": "Mine de l'Orée de la forêt des Abraknydes",
+          "warning": "Le Colonel Lyeno doit impérativement rester en vie pendant le combat.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire, reparlez au Gobelin afin d'obtenir le Colonel Lyeno comme personnage suiveur ainsi que le Badge de Lyeno.",
+          "position": null,
+          "zoneHint": "Mine de l'Orée de la forêt des Abraknydes",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramenez le Colonel Lyeno à Larry Poller pour qu'il annule sa transformation en Abraknyde.",
+          "position": "[-34,-58]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Conduisez ensuite le Colonel Lyeno, redevenu humain, auprès d'Amayiro à la milice de Bonta et présentez-le-lui pour terminer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le Badge de Lyeno est obtenu après le combat contre les Gobelins.",
+        "Terminer cette quête débloque Au service de Danathor, qui constitue l'occurrence suivante de cette étape."
+      ],
+      "npcs": [
+        "Colonel Lyeno",
+        "Gobelin",
+        "Larry Poller",
+        "Amayiro"
+      ],
+      "items": [
+        {
+          "name": "Badge de Lyeno",
+          "itemId": 2153,
+          "imageUrl": "/items/2153.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2153"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 169,
+            "name": "Orée de la forêt des Abraknydes",
+            "coordinates": [
+              "-4,-12"
+            ]
+          },
+          {
+            "id": 976,
+            "name": "Promontoire des cieux",
+            "coordinates": [
+              "-34,-58"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2299,
+            "name": "Tronkoneuz la Tranchante",
+            "level": 33,
+            "imageUrl": "/bestiary/monsters/2299.png"
+          },
+          {
+            "id": 2309,
+            "name": "Abrakroc l'édenté",
+            "level": 38,
+            "imageUrl": "/bestiary/monsters/2309.png"
+          },
+          {
+            "id": 2311,
+            "name": "Arabord la Cruche",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/2311.png"
+          },
+          {
+            "id": 2385,
+            "name": "Abrakadnuzar",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2385.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 174,
+            "name": "Abraknydiens",
+            "monsters": [
+              {
+                "id": 650,
+                "name": "Abrakne",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/650.png"
+              },
+              {
+                "id": 47,
+                "name": "Abraknyde",
+                "level": 38,
+                "imageUrl": "/bestiary/monsters/47.png"
+              },
+              {
+                "id": 256,
+                "name": "Tronknyde",
+                "level": 33,
+                "imageUrl": "/bestiary/monsters/256.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 259,
+                "name": "Arakne Majeure",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/259.png"
+              }
+            ]
+          },
+          {
+            "id": 187,
+            "name": "Gobelins d'Amakna",
+            "monsters": [
+              {
+                "id": 178,
+                "name": "Gobet",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/178.png"
+              },
+              {
+                "id": 62,
+                "name": "Gob-trotteur",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/62.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:27",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/lyeno-abraknyde-malgreacute-lui.html",
+      "sourceTitle": "Alignement 25 : Lyeno, Abraknyde malgré lui",
+      "sourceHash": "5228489cd58a4f86faefd1388adf8b9e08ebd823a640e687aef6a2a3ab3dea09",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après Lyeno, Abraknyde malgré lui, poursuivez l'alignement auprès de Danathor. Apportez-lui les ingrédients demandés, puis choisissez définitivement entre empoisonner Rimaraf ou refuser. La fin de la quête dépend de ce choix : fabriquer et déposer un Blopisier empoisonné, ou aider Rei Nisuc avec de la Viande Avariée.",
+      "recommendedLevel": 56,
+      "prerequisites": [
+        "Avoir terminé Lyeno, Abraknyde malgré lui."
+      ],
+      "rewards": [
+        "626 065 XP.",
+        "10 000 kamas si vous acceptez d'empoisonner Rimaraf.",
+        "5 000 kamas si vous refusez d'empoisonner Rimaraf."
+      ],
+      "preparation": [
+        "Prévoir 5 x Bout de Blop Reinette.",
+        "Prévoir 1 x Bol.",
+        "Prévoir 3 x Cerise.",
+        "Si vous comptez accepter la proposition de Danathor, prévoir au total 10 x Graine de Scorbute et l'accès à un Paysan niveau 30 ou plus pour la recette secrète.",
+        "Si vous comptez refuser la proposition de Danathor, prévoir 5 x Viande Avariée.",
+        "Un Bol peut être acheté 6 kamas à Huta Wouite en [-33,-57]."
+      ],
+      "actions": [
+        {
+          "instruction": "Allez voir Danathor au palais de Bonta : entrez dans le palais, avancez jusqu'à la salle du trône puis prenez la salle à droite. Parlez-lui pour recevoir sa demande d'ingrédients.",
+          "position": "[-36,-60]",
+          "zoneHint": "Palais de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Réunissez 5 x Bout de Blop Reinette, 1 x Bol et 3 x Cerise. Si nécessaire, achetez le Bol à Huta Wouite.",
+          "position": "[-33,-57]",
+          "zoneHint": "Épicerie de Bonta",
+          "warning": "L'achat du Bol coûte 6 kamas. Les Bouts de Blop Reinette et les Cerises peuvent nécessiter des achats ou des combats pour obtenir les ressources.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Danathor et remettez-lui les ingrédients.",
+          "position": "[-36,-60]",
+          "zoneHint": "Palais de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Choisissez soit « Accepter » puis « Confirmer cette décision » pour empoisonner Rimaraf, soit « Refuser » puis « Confirmer cette décision » pour ne pas participer à l'empoisonnement.",
+          "position": "[-36,-60]",
+          "zoneHint": "Palais de Bonta",
+          "warning": "Ce choix modifie la suite immédiate de la quête, le montant de kamas reçu et des quêtes d'alignement ultérieures. La branche d'empoisonnement rapporte 10 000 kamas ; la branche de refus rapporte 5 000 kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous avez accepté : complétez les ressources pour disposer de 10 x Graine de Scorbute, 5 x Bout de Blop Reinette, 3 x Cerise et 1 x Bol, puis faites fabriquer 1 x Blopisier empoisonné avec la recette secrète par un Paysan niveau 30 ou plus.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Cette action concerne uniquement la branche où vous avez accepté d'empoisonner Rimaraf.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous avez accepté : rendez-vous dans la maison de Rimaraf, entrez dans la maison en haut à gauche puis cliquez sur la bibliothèque située à gauche du canapé pour y déposer le Blopisier empoisonné et terminer la quête.",
+          "position": "[-30,-52]",
+          "zoneHint": "Maison de Rimaraf",
+          "warning": "Déposer le gâteau empoisonné conclut cette branche de la quête.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous avez refusé : retournez voir Amayiro à la milice de Bonta et demandez-lui une autre mission.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": "Cette action concerne uniquement la branche où vous avez refusé d'empoisonner Rimaraf.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous avez refusé : depuis Amayiro, allez deux salles vers la droite et parlez à Rei Nisuc pour proposer votre aide.",
+          "position": "[-32,-57]",
+          "zoneHint": "Cuisines de la milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous avez refusé : récupérez 5 x Viande Avariée, puis remettez-les à Rei Nisuc dans les cuisines de la milice pour recevoir 5 000 kamas et terminer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Cuisines de la milice de Bonta",
+          "warning": "Cette remise termine la branche de refus.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Danathor fournit les éléments de quête liés à la branche d'empoisonnement, notamment une Graine de Scorbute, l'adresse de Rimaraf et une Broche de Danathor.",
+        "Le choix effectué auprès de Danathor a des conséquences sur des quêtes d'alignement ultérieures.",
+        "La quête suivante est Amayiro à l'ombre du Champo, qui appartient à l'étape suivante et n'est pas à effectuer ici."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Danathor",
+        "Huta Wouite",
+        "Rimaraf",
+        "Rei Nisuc"
+      ],
+      "items": [
+        {
+          "name": "Bout de Blop Reinette",
+          "itemId": 2498,
+          "imageUrl": "/items/2498.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2498"
+        },
+        {
+          "name": "Bol",
+          "itemId": 2469,
+          "imageUrl": "/items/2469.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2469"
+        },
+        {
+          "name": "Cerise",
+          "itemId": 2471,
+          "imageUrl": "/items/2471.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2471"
+        },
+        {
+          "name": "Graine de Scorbute",
+          "itemId": 2721,
+          "imageUrl": "/items/2721.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2721"
+        },
+        {
+          "name": "Broche de Danathor",
+          "itemId": 2177,
+          "imageUrl": "/items/2177.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2177"
+        },
+        {
+          "name": "Blopisier empoisonné",
+          "itemId": 2151,
+          "imageUrl": "/items/2151.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2151"
+        },
+        {
+          "name": "Viande Avariée",
+          "itemId": 17134,
+          "imageUrl": "/items/17134.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17134"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-33,-57",
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-30,-52",
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 976,
+            "name": "Promontoire des cieux",
+            "coordinates": [
+              "-36,-60"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:28",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/au-service-de-danathor.html",
+      "sourceTitle": "Alignement 26 : Au service de Danathor",
+      "sourceHash": "b2ef282f0a68cec89bccfd585944ce7a79e9df092ea9ad5819e8ed1f6b525227",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

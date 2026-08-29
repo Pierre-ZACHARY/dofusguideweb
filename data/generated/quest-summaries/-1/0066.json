@@ -2,7 +2,367 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 66,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T10:17:28.676Z",
+  "summaries": [
+    {
+      "overview": "Entrez dans le Château du Wa Wabbit pour déclencher automatiquement la quête, terminez le donjon et battez le Wa Wabbit. Après sa défaite, parlez-lui, puis retournez auprès de Wanald le Sage Lenald pour valider la quête.",
+      "recommendedLevel": 60,
+      "prerequisites": [
+        "Avoir terminé la quête Jamais deux sans trois."
+      ],
+      "rewards": [
+        "610 092 XP.",
+        "9 560 kamas.",
+        "2 x Poils de Wo Wabbit."
+      ],
+      "preparation": [
+        "Prévoir de terminer le donjon Château du Wa Wabbit."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Powte-Clef pour entrer dans le Château du Wa Wabbit. La quête se déclenche automatiquement après votre entrée dans le donjon.",
+          "position": "[24,-13]",
+          "zoneHint": "Château du Wa Wabbit",
+          "warning": "L'étape impose de terminer le donjon Château du Wa Wabbit.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Progressez jusqu'à la fin du donjon et battez le Wa Wabbit.",
+          "position": null,
+          "zoneHint": "Château du Wa Wabbit",
+          "warning": "Combat de fin de donjon obligatoire contre le Wa Wabbit.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Une fois le Wa Wabbit vaincu, parlez-lui avant de quitter la fin du donjon.",
+          "position": null,
+          "zoneHint": "Château du Wa Wabbit",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous auprès de Wanald le Sage Lenald et parlez-lui pour achever la quête.",
+          "position": "[23,-4]",
+          "zoneHint": null,
+          "warning": "Poursuivre ensuite la conversation avec Wanald lance la quête suivante, L'oeuf ou la cawotte ?.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête suivante de la séquence est L'oeuf ou la cawotte ?, mais elle ne doit être lancée qu'après avoir terminé cette quête."
+      ],
+      "npcs": [
+        "Powte-Clef",
+        "Wa Wabbit",
+        "Wanald le Sage Lenald"
+      ],
+      "items": [
+        {
+          "name": "Poils de Wo Wabbit",
+          "itemId": 649,
+          "imageUrl": "/items/649.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/649"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 537,
+            "name": "Château du Wa Wabbit",
+            "coordinates": [
+              "24,-13"
+            ]
+          },
+          {
+            "id": 161,
+            "name": "Île de la Cawotte",
+            "coordinates": [
+              "23,-4"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2294,
+            "name": "Tiwoflan le Lâche",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/2294.png"
+          },
+          {
+            "id": 2293,
+            "name": "Tiwalpé le Dévêtu",
+            "level": 41,
+            "imageUrl": "/bestiary/monsters/2293.png"
+          },
+          {
+            "id": 2402,
+            "name": "Tiwa'Missou le Gateux",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2402.png"
+          },
+          {
+            "id": 2304,
+            "name": "Wabbitud le Constant",
+            "level": 44,
+            "imageUrl": "/bestiary/monsters/2304.png"
+          },
+          {
+            "id": 2403,
+            "name": "Wagnagnah le Sanglant",
+            "level": 46,
+            "imageUrl": "/bestiary/monsters/2403.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 172,
+            "name": "Wabbits",
+            "monsters": [
+              {
+                "id": 68,
+                "name": "Black Tiwabbit",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/68.png"
+              },
+              {
+                "id": 65,
+                "name": "Black Wabbit",
+                "level": 46,
+                "imageUrl": "/bestiary/monsters/65.png"
+              },
+              {
+                "id": 99,
+                "name": "Grand Pa Wabbit",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/99.png"
+              },
+              {
+                "id": 72,
+                "name": "Tiwabbit Kiafin",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/72.png"
+              },
+              {
+                "id": 96,
+                "name": "Tiwabbit",
+                "level": 41,
+                "imageUrl": "/bestiary/monsters/96.png"
+              },
+              {
+                "id": 64,
+                "name": "Wabbit",
+                "level": 44,
+                "imageUrl": "/bestiary/monsters/64.png"
+              },
+              {
+                "id": 97,
+                "name": "Wo Wabbit",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/97.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:538",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-chacircteau-du-wa.html",
+      "sourceTitle": "Le château du Wa",
+      "sourceHash": "ad88268bffa73ce04b99b2b8b1d4bab8d1a1352c4e857357bccb1fdc36e182e4",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Alain Deix vous envoie vérifier si la Gelaxième Dimension est liée à un Dofus. Utilisez obligatoirement la Multygely qu'il vous remet pour rejoindre le donjon, récupérez quatre flaques de couleurs différentes en choisissant à chaque salle un groupe dont la couleur de Gelée majoritaire change, puis battez les quatre Gelées Royales. Revenez enfin voir Alain Deix au Village d'Amakna.",
+      "recommendedLevel": 40,
+      "prerequisites": [
+        "Être de niveau supérieur à 39.",
+        "Avoir terminé Le Wa Pythie."
+      ],
+      "rewards": [
+        "732 110 XP.",
+        "11 472 kamas."
+      ],
+      "preparation": [
+        "Prévoir de terminer le donjon Gelaxième Dimension.",
+        "La Multygely nécessaire à l'accès est remise par Alain Deix au début de la quête ; le trousseau ne peut pas la remplacer."
+      ],
+      "actions": [
+        {
+          "instruction": "Entrez dans la taverne, prenez la salle de gauche et parlez à Alain Deix. Acceptez d'inspecter la dimension peuplée de Gelées.",
+          "position": "[2,-1]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Consommez la Multygely donnée par Alain Deix afin d'être téléporté dans la Gelaxième Dimension.",
+          "position": null,
+          "zoneHint": "Gelaxième Dimension",
+          "warning": "La Multygely est obligatoire pour entrer : aucun trousseau n'est utilisable à sa place.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans chaque salle du donjon, choisissez un groupe dont la couleur de Gelée majoritaire est différente de celles déjà sélectionnées. Obtenez ainsi quatre flaques de couleurs différentes afin de faire apparaître les quatre Gelées Royales à la salle finale.",
+          "position": null,
+          "zoneHint": "Gelaxième Dimension",
+          "warning": "Si vous répétez une couleur majoritaire déjà choisie, vous ne réunirez pas les quatre couleurs nécessaires et pourrez n'affronter qu'une partie des Gelées Royales.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "À la salle finale, battez les quatre Gelées Royales.",
+          "position": null,
+          "zoneHint": "Gelaxième Dimension",
+          "warning": "Pour valider l'objectif, il faut affronter les quatre Gelées Royales, ce qui nécessite d'avoir obtenu quatre flaques de couleurs différentes pendant le donjon.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez dans la taverne en [2,-1] et annoncez à Alain Deix qu'aucun Dofus n'a été trouvé pour terminer la quête.",
+          "position": "[2,-1]",
+          "zoneHint": "Village d'Amakna",
+          "warning": "Continuer la discussion après la validation permet de lancer la quête suivante, C'est radical ici.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La couleur de la flaque obtenue dans une salle dépend de la couleur de Gelée majoritaire du groupe combattu.",
+        "Exemple de principe : après avoir choisi un groupe à majorité fraise dans une salle, choisissez dans les salles suivantes des groupes dont la majorité est d'une autre couleur."
+      ],
+      "npcs": [
+        "Alain Deix"
+      ],
+      "items": [
+        {
+          "name": "Multygely",
+          "itemId": 996,
+          "imageUrl": "/items/996.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/996"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 77,
+            "name": "Gelaxième dimension",
+            "coordinates": []
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "2,-1"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 179,
+            "name": "Gelées",
+            "monsters": [
+              {
+                "id": 55,
+                "name": "Gelée Bleuet",
+                "level": 54,
+                "imageUrl": "/bestiary/monsters/55.png"
+              },
+              {
+                "id": 429,
+                "name": "Gelée Citron",
+                "level": 54,
+                "imageUrl": "/bestiary/monsters/429.png"
+              },
+              {
+                "id": 57,
+                "name": "Gelée Fraise",
+                "level": 54,
+                "imageUrl": "/bestiary/monsters/57.png"
+              },
+              {
+                "id": 56,
+                "name": "Gelée Menthe",
+                "level": 54,
+                "imageUrl": "/bestiary/monsters/56.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:608",
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/geleacutee-bien-eue.html",
+      "sourceTitle": "Gelée bien eue",
+      "sourceHash": "20a36db04d12ccdbce8b48b73c51d60b2b746cdc6c1a5ef3f4b36e70035b4a28",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

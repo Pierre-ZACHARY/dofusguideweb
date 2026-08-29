@@ -1,8 +1,486 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 161,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T15:05:24.237Z",
+  "summaries": [
+    {
+      "overview": "Le Dojo du Vent et le combat contre Hanshi sont supposés déjà effectués à l'étape précédente. Reprenez dans la salle de sortie du dojo pour obtenir le verdict en faveur de Ten Rowa, puis terminez les démarches auprès de la garde Kozaru, de l'Esprit du Vent et enfin de Daimya Hikomi.",
+      "recommendedLevel": 140,
+      "prerequisites": [
+        "Le festival de la lanterne.",
+        "Avoir déjà accompli la portion précédente de la quête jusqu'à la victoire dans le Dojo du Vent contre Hanshi."
+      ],
+      "rewards": [
+        "4 311 804 XP.",
+        "44 760 Kamas.",
+        "3 x Pelage aérodynamique.",
+        "3 x Ruban d'Uchiwang."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Après la victoire dans le Dojo du Vent, ne quittez pas immédiatement la salle de sortie. Parlez à Hanshi et indiquez que vous avez combattu au nom de Ten Rowa afin qu'elle puisse exercer son droit de parole.",
+          "position": "[20,-37]",
+          "zoneHint": "Dojo du Vent",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Écoutez successivement Ten Rowa, Shihan, puis de nouveau Ten Rowa et Shihan afin que la situation du parchemin ancien soit examinée par les maîtres du dojo.",
+          "position": "[20,-37]",
+          "zoneHint": "Dojo du Vent",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Écoutez la décision de Hanshi. Il accepte d'épargner Ten Rowa et vous remet une Permission de circuler destinée à lui permettre de se déplacer librement sur le territoire des Kozaru.",
+          "position": "[20,-37]",
+          "zoneHint": "Dojo du Vent",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir le Capitaine de la garde Kozaru et présentez-lui le verdict écrit des maîtres du Dojo du Vent afin qu'il laisse Ten Rowa tranquille.",
+          "position": "[21,-35]",
+          "zoneHint": "Tour de guet",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au sommet d'Aerdala et parlez à Yokaïkido pour lui annoncer que Jun Pandawane et Ten Rowa sont prêts à témoigner en faveur de la paix. Il part chercher l'Esprit du Vent.",
+          "position": "[21,-39]",
+          "zoneHint": "Sommet d'Aerdala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à l'Esprit du Vent et présentez-lui Jun Pandawane et Ten Rowa comme preuves que l'équilibre subsiste en Aerdala. Il vous remet la Griffe du Vent.",
+          "position": "[21,-39]",
+          "zoneHint": "Sommet d'Aerdala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Daimya Hikomi et annoncez-lui que vous avez obtenu la Griffe du Vent et que l'Esprit du Vent compte de nouveau veiller sur Pandala. Cette conversation termine L'équilibre des forces et enchaîne sur Sang d'encre.",
+          "position": "[22,-29]",
+          "zoneHint": "Village de Pandala",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les combats contre les Poseurs de bombe, la garde Kozaru et Hanshi ainsi que le donjon sont antérieurs à cette occurrence et ne sont pas à refaire ici.",
+        "La fin de la conversation avec Daimya Hikomi donne accès à Sang d'encre, qui constitue l'occurrence suivante de cette étape."
+      ],
+      "npcs": [
+        "Hanshi",
+        "Ten Rowa",
+        "Shihan",
+        "Capitaine de la garde Kozaru",
+        "Yokaïkido",
+        "Jun Pandawane",
+        "Esprit du Vent",
+        "Daimya Hikomi"
+      ],
+      "items": [
+        {
+          "name": "Permission de circuler",
+          "itemId": 23120,
+          "imageUrl": "/items/23120.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23120"
+        },
+        {
+          "name": "Griffe du Vent",
+          "itemId": 23124,
+          "imageUrl": "/items/23124.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23124"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 945,
+            "name": "Aerdala",
+            "coordinates": [
+              "21,-39"
+            ]
+          },
+          {
+            "id": 950,
+            "name": "Dojo du Vent",
+            "coordinates": [
+              "20,-37",
+              "21,-35"
+            ]
+          },
+          {
+            "id": 951,
+            "name": "Village de Pandala",
+            "coordinates": [
+              "22,-29"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2512,
+            "name": "Fangshui la Dysorthographiée",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2512.png"
+          },
+          {
+            "id": 2511,
+            "name": "Inopenope le Négatif",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2511.png"
+          },
+          {
+            "id": 2412,
+            "name": "Lichangora l'Immaculée",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2412.png"
+          },
+          {
+            "id": 2398,
+            "name": "Rooroku l'Imposant",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2398.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 3018,
+            "name": "Kozaru",
+            "monsters": [
+              {
+                "id": 6213,
+                "name": "Uchiwang",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6213.png"
+              },
+              {
+                "id": 6214,
+                "name": "Ino-Naru",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6214.png"
+              },
+              {
+                "id": 6215,
+                "name": "Kurookin",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6215.png"
+              },
+              {
+                "id": 6216,
+                "name": "Fangshu",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6216.png"
+              },
+              {
+                "id": 6217,
+                "name": "Lichangoro",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6217.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1320",
+      "relation": "FINISH",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/l-equilibre-des-forces.html",
+      "sourceTitle": "L'équilibre des forces",
+      "sourceHash": "982c5157146b55a4d1a11a2a45cceff9faa8eac95bfd05df2f1926b1b47a71fd",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "À la suite de L'équilibre des forces, Daimya Hikomi vous charge de récupérer le Dofus d'encre détenu par le Maître Pandore. Suivez la piste d'Ikunochi, infiltrez le repaire pandikaze, battez le Maître Pandore, puis rapportez le Dofus d'encre diaphane à la Daimya et rejoignez Orukam dans l'Éther.",
+      "recommendedLevel": 140,
+      "prerequisites": [
+        "L'équilibre des forces."
+      ],
+      "rewards": [
+        "2 155 902 XP.",
+        "22 380 Kamas."
+      ],
+      "preparation": [
+        "Prévoir 1 000 Kamas pour acheter l'Offrande au Grand Pouddah.",
+        "Prévoir 1 x Pandazahi ou 1 x Pandaporo pour rejoindre l'Éther à la fin du parcours.",
+        "Équiper ou avoir à disposition un Pandaclier pour l'accès à la Pandassemblée."
+      ],
+      "actions": [
+        {
+          "instruction": "Après avoir obtenu Sang d'encre auprès de Daimya Hikomi, parlez à la Marchande aerdalienne et achetez une Offrande au Grand Pouddah pour sauver la face.",
+          "position": "[22,-29]",
+          "zoneHint": "Village de Pandala",
+          "warning": "Cette action coûte 1 000 Kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Utilisez l'Offrande au Grand Pouddah depuis votre inventaire de quête et lisez le message à l'encre fraîche indiquant « Deux courses vers le septentrion ».",
+          "position": "[22,-29]",
+          "zoneHint": "Village de Pandala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montez de deux cartes jusqu'en [19,-34], puis cliquez sur le tronc de bambou situé près de la sculpture de Pandawa.",
+          "position": "[19,-34]",
+          "zoneHint": null,
+          "warning": "Cette interaction déclenche une embuscade.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à l'un des Assassins Pandikazes et choisissez de défendre chèrement votre vie. Le combat se déroule seul, avec Ikunochi comme alliée.",
+          "position": "[19,-34]",
+          "zoneHint": null,
+          "warning": "Combat obligatoire en solo. Ikunochi élimine les ennemis et vous assiste fortement.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après le combat, parlez à Ikunochi et acceptez de jouer la carte de la discrétion. Elle vous révèle que le Maître Pandore possède le Dofus d'encre et vous remet un Flacon d'occultation.",
+          "position": "[19,-34]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous en [22,-37] et utilisez le Flacon d'occultation depuis votre inventaire de quête pour obtenir la Brume de Pandikaze et prendre l'apparence d'un Pandikaze.",
+          "position": "[22,-37]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Gardien Pandissidan en prenant une grosse voix et prétendez disposer d'informations confidentielles pour le Maître. Une fois la garde trompée, montez les escaliers et entrez dans la demeure du Maître Pandore.",
+          "position": "[22,-37]",
+          "zoneHint": "Demeure du Maître Pandore",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Maître Pandore et répondez que le Dofus d'encre ne lui appartient pas.",
+          "position": "[22,-37]",
+          "zoneHint": "Demeure du Maître Pandore",
+          "warning": "Cette réponse déclenche un combat obligatoire en solo.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Battez le Maître Pandore. Des coffres invulnérables et indéplaçables invoquent régulièrement des Pandissidans à 9 900 PV ; laissez Ikunochi gérer autant que possible ces invocations et concentrez vos attaques sur le Maître Pandore.",
+          "position": "[22,-37]",
+          "zoneHint": "Demeure du Maître Pandore",
+          "warning": "Combat obligatoire en solo. Les coffres ne peuvent pas être détruits ou déplacés ; Ikunochi élimine les Pandissidans mais n'attaque pas le Maître Pandore.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "À la victoire, récupérez le Dofus d'encre diaphane, puis retournez auprès de Daimya Hikomi pour lui annoncer que vous avez repris le Dofus au Maître Pandore.",
+          "position": "[22,-29]",
+          "zoneHint": "Village de Pandala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Équipez votre Pandaclier à la place de votre bouclier actuel, puis entrez dans la salle de la Pandassemblée située à gauche.",
+          "position": "[22,-29]",
+          "zoneHint": "Pandassemblée",
+          "warning": "Le Pandaclier doit être équipé pour poursuivre.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Placez-vous sur le tapis devant l'estrade pour faire apparaître Le Grandapan, puis parlez-lui. Choisissez de boire soit une chope de Pandazahi, soit une chope de Pandaporo afin d'être conduit à la croisée des mondes dans l'Éther.",
+          "position": "[22,-29]",
+          "zoneHint": "Pandassemblée",
+          "warning": "Vous devez posséder 1 x Pandazahi ou 1 x Pandaporo. Le Pandazahi peut être acheté 40 Kamas à Chonayu en [22,-27] et le Pandaporo 40 Kamas à Hintikou en [20,-29].",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Dans l'Éther, parlez à Orukam et montrez-lui le Dofus d'encre diaphane. Laissez-le restaurer l'essence de son œuf, puis confirmez que vous êtes certain de vouloir connaître ce dont rêvent les morts.",
+          "position": null,
+          "zoneHint": "Croisée des mondes dans l'Éther",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le combat d'embuscade contre les Assassins Pandikazes et celui contre le Maître Pandore sont tous deux indiqués comme des combats en solo.",
+        "Après la restauration du Dofus par Orukam, la quête se termine, le succès Les grands esprits se rencontrent est débloqué et vous obtenez le Domakuro. La suite annoncée est Maudite disparition."
+      ],
+      "npcs": [
+        "Daimya Hikomi",
+        "Marchande aerdalienne",
+        "Assassin Pandikaze",
+        "Ikunochi",
+        "Gardien Pandissidan",
+        "Maître Pandore",
+        "Le Grandapan",
+        "Chonayu",
+        "Hintikou",
+        "Orukam"
+      ],
+      "items": [
+        {
+          "name": "Offrande au Grand Pouddah",
+          "itemId": 23238,
+          "imageUrl": "/items/23238.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23238"
+        },
+        {
+          "name": "Flacon d'occultation",
+          "itemId": 23241,
+          "imageUrl": "/items/23241.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23241"
+        },
+        {
+          "name": "Brume de Pandikaze",
+          "itemId": 23239,
+          "imageUrl": "/items/23239.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23239"
+        },
+        {
+          "name": "Dofus d'encre diaphane",
+          "itemId": 23240,
+          "imageUrl": "/items/23240.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23240"
+        },
+        {
+          "name": "Pandaclier",
+          "itemId": 23094,
+          "imageUrl": "/items/23094.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23094"
+        },
+        {
+          "name": "Pandazahi",
+          "itemId": 23179,
+          "imageUrl": "/items/23179.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23179"
+        },
+        {
+          "name": "Pandaporo",
+          "itemId": 23180,
+          "imageUrl": "/items/23180.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23180"
+        },
+        {
+          "name": "Domakuro",
+          "itemId": 23237,
+          "imageUrl": "/items/23237.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23237"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 945,
+            "name": "Aerdala",
+            "coordinates": [
+              "19,-34",
+              "22,-37"
+            ]
+          },
+          {
+            "id": 961,
+            "name": "Croisée des mondes",
+            "coordinates": []
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "19,-34",
+              "22,-37",
+              "22,-29",
+              "22,-27",
+              "20,-29"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "19,-34"
+            ]
+          },
+          {
+            "id": 951,
+            "name": "Village de Pandala",
+            "coordinates": [
+              "22,-29"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2512,
+            "name": "Fangshui la Dysorthographiée",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2512.png"
+          },
+          {
+            "id": 2511,
+            "name": "Inopenope le Négatif",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2511.png"
+          },
+          {
+            "id": 2412,
+            "name": "Lichangora l'Immaculée",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2412.png"
+          },
+          {
+            "id": 2398,
+            "name": "Rooroku l'Imposant",
+            "level": 132,
+            "imageUrl": "/bestiary/monsters/2398.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 3018,
+            "name": "Kozaru",
+            "monsters": [
+              {
+                "id": 6214,
+                "name": "Ino-Naru",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6214.png"
+              },
+              {
+                "id": 6215,
+                "name": "Kurookin",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6215.png"
+              },
+              {
+                "id": 6216,
+                "name": "Fangshu",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6216.png"
+              },
+              {
+                "id": 6217,
+                "name": "Lichangoro",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/6217.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1361",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/sang-d-encre.html",
+      "sourceTitle": "Sang d'encre",
+      "sourceHash": "05b281343b78c7fdfaec27ffc2cc95a9a0ac5fcbbb2a6c066d33858e77a0749e",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

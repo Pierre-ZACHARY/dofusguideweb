@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
-import { buildStepPrompt } from "../../src/questGuides/generateStepPrompts.js";
+import { buildQuestJourneys, buildStepPrompt } from "../../src/questGuides/generateStepPrompts.js";
 import type { GuideStepRecord, StepQuestRecord } from "../../src/repositories/contracts.js";
 
-function quest(questKey: string, title: string, sourceUrl: string): StepQuestRecord {
+function quest(questKey: string, title: string, sourceUrl: string, relationType = "ACTIVE", sortOrder = 0, hover: string | null = null): StepQuestRecord {
   return {
     id: 1,
     questKey,
@@ -18,9 +18,9 @@ function quest(questKey: string, title: string, sourceUrl: string): StepQuestRec
     startY: null,
     startMap: null,
     travelCommand: null,
-    rawValue: null,
-    relationType: "ACTIVE",
-    sortOrder: 0,
+    rawValue: hover === null ? null : { hover },
+    relationType,
+    sortOrder,
   };
 }
 
@@ -71,5 +71,28 @@ describe("step tutorial prompts", () => {
     expect(prompt).toContain("data/generated/quest-summaries/-1/0010.json");
     expect(prompt).toContain('"version"');
     expect(prompt).toContain('"summaries"');
+    expect(prompt).toContain("utilise exactement 3, -1 et 10");
+  });
+
+  it("délimite chaque occurrence avec le parcours complet de la quête", () => {
+    const sourceUrl = "https://www.dofuspourlesnoobs.com/star-ski-et-dutch.html";
+    const currentStep = step(125, "Des puces et des tiques", [
+      quest("quest:410", "Star ski et Dutch", sourceUrl, "START", 0, "Avancez jusqu'aux 5 Sèves de Mycos, puis faites Semer ses graines."),
+      quest("quest:385", "Semer ses graines", "https://www.dofuspourlesnoobs.com/semer-ses-graines.html", "ACTIVE", 1),
+      quest("quest:410", "Star ski et Dutch", sourceUrl, "FINISH", 3),
+    ]);
+    const journeys = buildQuestJourneys([
+      step(123, "Préparatifs", [quest("quest:410", "Star ski et Dutch", sourceUrl, "START", 2)]),
+      currentStep,
+    ]);
+    const prompt = buildStepPrompt(null, context(currentStep), null, "data/generated/quest-summaries/-1/0125.json", journeys);
+
+    expect(prompt).toContain("OCCURRENCE ACTUELLE — étape 125 · relation=\"START\" · ordre=0");
+    expect(prompt).toContain("OCCURRENCE ACTUELLE — étape 125 · relation=\"FINISH\" · ordre=3");
+    expect(prompt).toContain("étape 123 · relation=\"START\" · ordre=2");
+    expect(prompt).toContain("Avancez jusqu'aux 5 Sèves de Mycos");
+    expect(prompt).toContain("produis deux summaries distincts");
+    expect(prompt).toContain('"relation"');
+    expect(prompt).toContain('"sortOrder"');
   });
 });

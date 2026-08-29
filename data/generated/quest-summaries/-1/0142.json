@@ -1,8 +1,553 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 142,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T14:23:08.244Z",
+  "summaries": [
+    {
+      "overview": "Reprenez « L'épée du rocher » au point atteint précédemment : les préparatifs, les poudres, la copie du sceau et la rencontre avec Merlan l'Enchaîneur sont supposés déjà effectués, et l'objectif est désormais de vaincre Fraktale après être passé par la carte du portail du Xélorium. Il reste ensuite à vaincre les trois Craqueleurs de verre, remettre les éléments à Merlan, desceller Crocobur, battre la Gardienne de l'épée puis rapporter l'épée à Mériana pour terminer la quête.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Niveau supérieur à 100.",
+        "Mais où sont les Dofus ?",
+        "Mieux vaut ne pas se fier à la première impression doit avoir été terminée pour la portion antérieure de la quête.",
+        "Avoir déjà avancé cette quête jusqu'à l'objectif demandant de vaincre Fraktale, conformément à l'occurrence précédente du guide."
+      ],
+      "rewards": [
+        "3 883 723 XP.",
+        "40 272 kamas.",
+        "1 x Peau de Skeunk."
+      ],
+      "preparation": [
+        "Prévoir de réaliser le Mégalithe de Fraktale si Fraktale n'a pas encore été vaincue à cette occurrence.",
+        "Pour valider l'obtention du Temps fracassé, entrer dans le Xélorium en passant impérativement sur la carte du portail de la dimension avant le combat contre Fraktale ; une Ankre de téléportation ne valide pas cette condition.",
+        "Les combats contre les trois Craqueleurs de verre et contre la Gardienne de l'épée peuvent être réalisés en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Entrez dans la dimension divine du Xélorium en passant par la carte de son portail, puis terminez le Mégalithe de Fraktale et vainquez Fraktale afin d'obtenir 1 x Temps fracassé.",
+          "position": null,
+          "zoneHint": "Xélorium",
+          "warning": "Le passage sur la carte du portail du Xélorium avant le combat est obligatoire pour l'actualisation de la quête. Une Ankre de téléportation ne convient pas.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Parlez au Craqueleur de verre et remportez le combat. Ne cherchez pas à épuiser ses quelque 99 000 PV : ses doubles gagnent 666 points de bouclier chaque tour et retirer leurs boucliers fait progresser leur compteur de 1 à 4. Amenez tous les exemplaires au chiffre 4 ; l'état marqué par un soleil les rend alors invulnérables et, lorsqu'il ne reste qu'eux, ils s'éliminent entre eux.",
+          "position": "[-6,-7]",
+          "zoneHint": "Montagne des Craqueleurs",
+          "warning": "Combat à mécanique particulière ; il est réalisable en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Parlez au Craqueleur de verre et gagnez le combat en appliquant la même mécanique : retirez les boucliers pour faire progresser chaque exemplaire jusqu'au chiffre 4, puis laissez les Craqueleurs devenus invulnérables s'entretuer.",
+          "position": "[-18,-46]",
+          "zoneHint": "Plaines Rocheuses",
+          "warning": "Combat à mécanique particulière ; il est réalisable en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Parlez au Craqueleur de verre et gagnez le combat avec la même méthode, en faisant atteindre le chiffre 4 à tous ses exemplaires grâce au retrait de leurs boucliers.",
+          "position": "[-55,23]",
+          "zoneHint": "Plaines Herbeuses",
+          "warning": "Combat à mécanique particulière ; il est réalisable en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez voir Merlan l'Enchaîneur et remettez-lui les éléments réunis après Fraktale et les trois Craqueleurs de verre. Écoutez ses instructions pour rompre le lien entre Crocobur et le rocher.",
+          "position": "[-29,-54]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Examinez Crocobur puis choisissez de placer les fragments comme indiqué par Merlan.",
+          "position": "[-7,10]",
+          "zoneHint": "Marécages",
+          "warning": "Cette action fait apparaître la Gardienne de l'épée et déclenche la confrontation suivante.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Affrontez et vainquez la Gardienne de l'épée qui tente de vous empêcher de toucher à Crocobur.",
+          "position": "[-7,10]",
+          "zoneHint": "Marécages",
+          "warning": "Le combat peut être réalisé en groupe. La Gardienne peut gagner 1 PM pendant 1 tour avec Débandade de la Gardienne.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, examinez de nouveau Crocobur et retirez l'épée de son socle pour obtenir Crocobur dans votre inventaire.",
+          "position": "[-7,10]",
+          "zoneHint": "Marécages",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Mériana et montrez-lui que vous avez récupéré Crocobur afin de terminer « L'épée du rocher ».",
+          "position": "[-6,-3]",
+          "zoneHint": "Marécages nauséabonds",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les étapes antérieures de cette quête — lecture de la légende, examen du rocher, collecte et fabrication des poudres, création de la Poudre d'Oubn-Ghazou, copie du sceau et première visite à Merlan l'Enchaîneur — sont considérées comme déjà accomplies à l'occurrence précédente.",
+        "La discussion qui suit avec Mériana permet de débloquer « Le forgeur de légende », mais cette quête suivante ne fait pas partie des actions à exécuter pour cette occurrence."
+      ],
+      "npcs": [
+        "Merlan l'Enchaîneur",
+        "Craqueleur de verre",
+        "Gardienne de l'épée",
+        "Mériana",
+        "Crocobur"
+      ],
+      "items": [
+        {
+          "name": "Temps fracassé",
+          "itemId": 20208,
+          "imageUrl": "/items/20208.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/20208"
+        },
+        {
+          "name": "Crocobur",
+          "itemId": 20353,
+          "imageUrl": "/items/20353.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/20353"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-29,-54"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "-7,10"
+            ]
+          },
+          {
+            "id": 31,
+            "name": "Marécages d'Amakna",
+            "coordinates": [
+              "-7,10"
+            ]
+          },
+          {
+            "id": 232,
+            "name": "Marécages nauséabonds",
+            "coordinates": [
+              "-6,-3"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-7,10"
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Montagne des Craqueleurs",
+            "coordinates": [
+              "-6,-7"
+            ]
+          },
+          {
+            "id": 454,
+            "name": "Plaines herbeuses",
+            "coordinates": [
+              "-55,23"
+            ]
+          },
+          {
+            "id": 70,
+            "name": "Plaines Rocheuses",
+            "coordinates": [
+              "-18,-46"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 5073,
+            "name": "Gobrechaun",
+            "level": 110,
+            "imageUrl": "/bestiary/monsters/5073.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2549,
+            "name": "Boostif l'Affamé",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2549.png"
+          },
+          {
+            "id": 2439,
+            "name": "Crolnareff l'Exilé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2439.png"
+          },
+          {
+            "id": 2367,
+            "name": "Kwakamole l'Appétissant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2367.png"
+          },
+          {
+            "id": 2369,
+            "name": "Kwaké le Piraté",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2369.png"
+          },
+          {
+            "id": 2451,
+            "name": "Kwakolak le Chocolaté",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2451.png"
+          },
+          {
+            "id": 2368,
+            "name": "Kwakwatique le Trempé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2368.png"
+          },
+          {
+            "id": 2428,
+            "name": "Crok le Beau",
+            "level": 61,
+            "imageUrl": "/bestiary/monsters/2428.png"
+          },
+          {
+            "id": 2438,
+            "name": "Cramikaz le Suicidaire",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2438.png"
+          },
+          {
+            "id": 2543,
+            "name": "Craquecrac l'Endurant",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2543.png"
+          },
+          {
+            "id": 2556,
+            "name": "Craquetou le Fissuré",
+            "level": 93,
+            "imageUrl": "/bestiary/monsters/2556.png"
+          },
+          {
+            "id": 2580,
+            "name": "Mufguedin le Suprême",
+            "level": 94,
+            "imageUrl": "/bestiary/monsters/2580.png"
+          },
+          {
+            "id": 2571,
+            "name": "Kido l'Âtre",
+            "level": 95,
+            "imageUrl": "/bestiary/monsters/2571.png"
+          },
+          {
+            "id": 2561,
+            "name": "Crathdogue le Cruel",
+            "level": 96,
+            "imageUrl": "/bestiary/monsters/2561.png"
+          },
+          {
+            "id": 2547,
+            "name": "Toufou le Benêt",
+            "level": 97,
+            "imageUrl": "/bestiary/monsters/2547.png"
+          },
+          {
+            "id": 2572,
+            "name": "Kilimanj'haro le Grimpeur",
+            "level": 98,
+            "imageUrl": "/bestiary/monsters/2572.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 186,
+            "name": "Craqueleurs",
+            "monsters": [
+              {
+                "id": 293,
+                "name": "Craqueleur des Plaines",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/293.png"
+              },
+              {
+                "id": 4570,
+                "name": "Élémenterre",
+                "level": 59,
+                "imageUrl": "/bestiary/monsters/4570.png"
+              },
+              {
+                "id": 4571,
+                "name": "Craquelourd",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4571.png"
+              },
+              {
+                "id": 4573,
+                "name": "Craquelope",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4573.png"
+              }
+            ]
+          },
+          {
+            "id": 208,
+            "name": "Gadouilleux",
+            "monsters": [
+              {
+                "id": 263,
+                "name": "Chef Crocodaille",
+                "level": 61,
+                "imageUrl": "/bestiary/monsters/263.png"
+              },
+              {
+                "id": 261,
+                "name": "Crocodaille",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/261.png"
+              },
+              {
+                "id": 112,
+                "name": "Boo",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/112.png"
+              },
+              {
+                "id": 4833,
+                "name": "Arakne Olithique",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4833.png"
+              }
+            ]
+          },
+          {
+            "id": 166,
+            "name": "Herboricoles",
+            "monsters": [
+              {
+                "id": 1019,
+                "name": "Bitouf des Plaines",
+                "level": 97,
+                "imageUrl": "/bestiary/monsters/1019.png"
+              },
+              {
+                "id": 1026,
+                "name": "Craqueboule Poli",
+                "level": 93,
+                "imageUrl": "/bestiary/monsters/1026.png"
+              },
+              {
+                "id": 1025,
+                "name": "Craqueleur Poli",
+                "level": 96,
+                "imageUrl": "/bestiary/monsters/1025.png"
+              },
+              {
+                "id": 1069,
+                "name": "Kido",
+                "level": 95,
+                "imageUrl": "/bestiary/monsters/1069.png"
+              },
+              {
+                "id": 1070,
+                "name": "Kilibriss",
+                "level": 98,
+                "imageUrl": "/bestiary/monsters/1070.png"
+              },
+              {
+                "id": 1068,
+                "name": "Mufafah",
+                "level": 94,
+                "imageUrl": "/bestiary/monsters/1068.png"
+              }
+            ]
+          },
+          {
+            "id": 190,
+            "name": "Kwakeres",
+            "monsters": [
+              {
+                "id": 269,
+                "name": "Kwakere de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/269.png"
+              },
+              {
+                "id": 271,
+                "name": "Kwakere de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/271.png"
+              },
+              {
+                "id": 270,
+                "name": "Kwakere de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/270.png"
+              },
+              {
+                "id": 272,
+                "name": "Kwakere de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/272.png"
+              }
+            ]
+          },
+          {
+            "id": 189,
+            "name": "Kwaks",
+            "monsters": [
+              {
+                "id": 83,
+                "name": "Kwak de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/83.png"
+              },
+              {
+                "id": 84,
+                "name": "Kwak de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/84.png"
+              },
+              {
+                "id": 235,
+                "name": "Kwak de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/235.png"
+              },
+              {
+                "id": 81,
+                "name": "Kwak de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/81.png"
+              }
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Mulous",
+            "monsters": [
+              {
+                "id": 102,
+                "name": "Mulou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/102.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 214,
+            "name": "Porkass",
+            "monsters": [
+              {
+                "id": 123,
+                "name": "Cochon de Lait",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/123.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1466",
+      "relation": "FINISH",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/l-epee-du-rocher.html",
+      "sourceTitle": "L'épée du rocher",
+      "sourceHash": "5ddf5fccbace675fa9f9fbe593af029a3f56507e6fd751f37f1e75563d156c44",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

@@ -1,84 +1,69 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 104,
-  "updatedAt": "2026-08-27T13:32:20.370Z",
+  "updatedAt": "2026-08-29T11:29:35.260Z",
   "summaries": [
     {
-      "overview": "Enquêter sur un trafic de stupéfiant à Bonta pour le compte de la milice en remontant la piste des fleurs de kaliptus des cavernes jusqu'au Koulosse.",
+      "overview": "Lancez « C'est stupéfiant » auprès d'Amayiro puis suivez l'enquête jusqu'à obtenir l'objectif demandant de vaincre le Koulosse dans la Caverne du Koulosse. Ne combattez pas encore le Koulosse pour cette occurrence : le guide prévoit d'abord de lancer deux quêtes de collecte afin de profiter du même donjon.",
       "recommendedLevel": 70,
       "prerequisites": [
-        "Dapyus n'est pas doué"
+        "Avoir terminé « Dapyus n'est pas doué ».",
+        "Pouvoir accéder à Bonta et à la Montagne des Koalaks."
       ],
       "rewards": [
-        "2 433 600 XP"
+        "2 433 600 XP à la fin complète de la quête."
       ],
       "preparation": [
-        "Effectuer le donjon du Koulosse"
+        "Prévoir ultérieurement un passage dans la Caverne du Koulosse."
       ],
       "actions": [
         {
-          "instruction": "Aller à la milice de Bonta et parler à Amayiro pour lancer la quête.",
+          "instruction": "À la milice de Bonta, parlez à Amayiro et acceptez d'enquêter sur le trafic afin de lancer « C'est stupéfiant ».",
           "position": "[-32,-57]",
-          "zoneHint": "milice de Bonta",
+          "zoneHint": "Bonta",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller au village des éleveurs et parler à Thelma Geur.",
+          "instruction": "Rendez-vous au Village des Éleveurs et interrogez Thelma Geur au sujet des extraits de fleurs de kaliptus des cavernes.",
           "position": "[-16,2]",
-          "zoneHint": "village des éleveurs",
+          "zoneHint": "Village des Éleveurs",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller dans la forêt de Kaliptus, faire croire à Wid que vous êtes un client puis le combattre.",
+          "instruction": "Allez voir les trafiquants et faites-vous passer pour un client auprès de Wid. Lorsqu'il dévoile son activité, assommez-le comme demandé par la quête.",
           "position": "[-6,13]",
-          "zoneHint": "forêt de Kaliptus",
-          "warning": "Combat contre Wid",
-          "combat": "SOLO"
+          "zoneHint": null,
+          "warning": "Cette interaction fait progresser l'enquête et conduit à la capture de Wid.",
+          "combat": "NONE"
         },
         {
-          "instruction": "Ramener Wid à Amayiro à la milice de Bonta.",
+          "instruction": "Ramenez Wid auprès d'Amayiro à la milice de Bonta.",
           "position": "[-32,-57]",
-          "zoneHint": "milice de Bonta",
+          "zoneHint": "Bonta",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Descendre dans la prison et interroger Wid.",
+          "instruction": "Descendez dans la prison de la milice et interrogez Wid jusqu'à ce que la quête vous indique que le Koulosse serait impliqué.",
           "position": "[-32,-57]",
-          "zoneHint": "prison",
+          "zoneHint": "Prison de la milice de Bonta",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Effectuer le donjon du Koulosse, vaincre le Koulosse puis lui parler de son trafic.",
+          "instruction": "Arrêtez-vous dès que l'objectif demandant de vaincre x1 Koulosse dans la Caverne du Koulosse est affiché. Ne réalisez pas encore ce combat à cette occurrence.",
           "position": null,
-          "zoneHint": "donjon du Koulosse",
-          "warning": "Combat de donjon contre le Koulosse",
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retourner à la prison et confronter Wid.",
-          "position": "[-32,-57]",
-          "zoneHint": "prison",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Faire le rapport à Amayiro pour terminer la quête.",
-          "position": "[-32,-57]",
-          "zoneHint": "milice de Bonta",
-          "warning": null,
+          "zoneHint": null,
+          "warning": "Le combat contre le Koulosse est volontairement différé afin de lancer d'abord « Charger la mule » et « Épicerie fine ».",
           "combat": "NONE"
         }
       ],
       "notes": [
-        "Débloque la quête Vin Diou",
-        "Débloque Apprentissage : Écuyer (Ordre du Coeur Vaillant)",
-        "Débloque Apprentissage : Espion Silencieux (Ordre de l'Oeil Attentif)",
-        "Débloque Apprentissage : Apprenti Éclairé (Ordre de l'Esprit Salvateur)"
+        "La confrontation avec le Koulosse et la fin de « C'est stupéfiant » sont prévues plus tard dans le guide.",
+        "À l'étape suivante, la quête reprend après le passage dans la Caverne du Koulosse afin de terminer l'enquête auprès de Wid puis d'Amayiro."
       ],
       "npcs": [
         "Amayiro",
@@ -86,14 +71,7 @@
         "Wid",
         "Koulosse"
       ],
-      "items": [
-        {
-          "name": "Fleur de Kaliptus des Cavernes",
-          "itemId": null,
-          "imageUrl": null,
-          "dofusDbUrl": null
-        }
-      ],
+      "items": [],
       "bestiary": {
         "zones": [
           {
@@ -264,96 +242,50 @@
         ]
       },
       "questKey": "quest:42",
+      "relation": "START",
+      "sortOrder": 0,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/cest-stupeacutefiant.html",
       "sourceTitle": "Alignement 40 : C'est stupéfiant",
       "sourceHash": "9f9f9c3fe67e62db3f24066910797a927b168b302caa7daab7a250b68a118b7d",
-      "generatedAt": "2026-08-24T17:15:23.751Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     },
     {
-      "overview": "Quête journalière niveau 85. Koka Dekolak du Village des Eleveurs vous demande de lui rapporter des ressources obtenues sur des monstres, avec un taux de drop de base de 5 %.",
+      "overview": "Activez la quête journalière « Charger la mule » avant d'entrer dans la Caverne du Koulosse. Les ressources demandées peuvent tomber sur les monstres concernés pendant vos combats, avec un taux de base de 5 %. Le guide n'impose pas de terminer cette quête : l'objectif immédiat est seulement de l'avoir active pour profiter du donjon à venir.",
       "recommendedLevel": 85,
       "prerequisites": [
-        "Quête journalière"
+        "Quête journalière : elle doit être disponible au moment où vous la lancez."
       ],
       "rewards": [
-        "10 x Pain de Seigle",
-        "10 x Shigekax Menthe",
-        "5 x Potion de Rappel",
-        "5 x Potion de cité : Brâkmar",
-        "5 x Potion de cité : Bonta",
-        "2 x Pomme"
+        "1 091 961 XP à la fin complète de la quête.",
+        "17 810 Kamas à la fin complète de la quête.",
+        "10 x Pain de Seigle.",
+        "10 x Shigekax Menthe.",
+        "5 x Potion de Rappel.",
+        "5 x Potion de cité : Brâkmar.",
+        "5 x Potion de cité : Bonta.",
+        "2 x Pomme."
       ],
       "preparation": [
-        "Prévoir un équipement avec de la prospection pour augmenter le taux de drop (5 % de base)."
+        "Un équipement augmentant la prospection peut améliorer vos chances sur les ressources de quête dont le taux de base est de 5 %."
       ],
       "actions": [
         {
-          "instruction": "Aller au Village des Eleveurs et parler à Koka Dekolak pour accepter la quête.",
+          "instruction": "Parlez à Koka Dekolak au Village des Éleveurs et acceptez « Charger la mule » afin d'activer les drops de quête avant la Caverne du Koulosse.",
           "position": "[-15,-1]",
-          "zoneHint": "Village des Eleveurs",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Combattre les monstres indiqués par la quête pour obtenir les ressources demandées. Le drop n'est possible que si la quête est active, avec un taux de base de 5 %.",
-          "position": null,
-          "zoneHint": null,
-          "warning": "Les ressources ne tombent que si la quête est active. Drop à 5 % de base (utiliser de la prospection).",
-          "combat": "SOLO"
-        },
-        {
-          "instruction": "Retourner voir Koka Dekolak au Village des Eleveurs pour lui remettre les ressources.",
-          "position": "[-15,-1]",
-          "zoneHint": "Village des Eleveurs",
-          "warning": null,
+          "zoneHint": "Village des Éleveurs",
+          "warning": "Les ressources de quête ne tombent que lorsque la quête est active et leur obtention n'est pas garantie ; le taux de base indiqué est de 5 %.",
           "combat": "NONE"
         }
       ],
       "notes": [
-        "Les ressources et monstres spécifiques sont indiqués dans le suivi de quête en jeu (données visuelles absentes de la source)."
+        "Ne cherchez pas à terminer « Charger la mule » immédiatement : poursuivez d'abord avec le lancement d'« Épicerie fine ».",
+        "Cette quête est facultative pour la suite du guide ; vous pouvez néanmoins profiter des combats de la Caverne du Koulosse pour avancer ses drops."
       ],
       "npcs": [
         "Koka Dekolak"
       ],
-      "items": [
-        {
-          "name": "Pain de Seigle",
-          "itemId": 539,
-          "imageUrl": "/items/539.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/539"
-        },
-        {
-          "name": "Shigekax Menthe",
-          "itemId": 991,
-          "imageUrl": "/items/991.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/991"
-        },
-        {
-          "name": "Potion de Rappel",
-          "itemId": 548,
-          "imageUrl": "/items/548.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/548"
-        },
-        {
-          "name": "Potion de cité : Brâkmar",
-          "itemId": 6964,
-          "imageUrl": "/items/6964.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6964"
-        },
-        {
-          "name": "Potion de cité : Bonta",
-          "itemId": 6965,
-          "imageUrl": "/items/6965.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6965"
-        },
-        {
-          "name": "Pomme",
-          "itemId": 281,
-          "imageUrl": "/items/281.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/281"
-        }
-      ],
+      "items": [],
       "bestiary": {
         "zones": [
           {
@@ -369,63 +301,60 @@
         "achievements": []
       },
       "questKey": "quest:70",
+      "relation": "START",
+      "sortOrder": 1,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/charger-la-mule.html",
       "sourceTitle": "Charger la mule",
       "sourceHash": "9077de456dab79892f7ae58e41963233f67bf039cdd237f2901b294a5947e9ab",
-      "generatedAt": "2026-08-24T17:17:37.702Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     },
     {
-      "overview": "Quête journalière niveau 65. Aider Koka Dekolak au Village des Éleveurs à rassembler des plantes et des peaux de la région.",
+      "overview": "Lancez « Épicerie fine » auprès de Koka Dekolak, puis effectuez la Caverne du Koulosse comme prévu par le guide. Pendant le donjon, cherchez notamment à obtenir x2 Peau parfaite de Koalak Immature sur les Koalak Immature. Cette quête journalière reste facultative pour la progression principale.",
       "recommendedLevel": 65,
       "prerequisites": [
-        "Quête journalière"
+        "Quête journalière : elle doit être disponible au moment où vous la lancez."
       ],
       "rewards": [
-        "579 646 XP",
-        "11 010 Kamas",
-        "10 x Shigekax Citron",
-        "2 x Pomme"
+        "579 646 XP à la fin complète de la quête.",
+        "11 010 Kamas à la fin complète de la quête.",
+        "10 x Shigekax Citron.",
+        "2 x Pomme."
       ],
       "preparation": [
-        "2 x Fleur de Kaliptus"
+        "Prévoir 2 x Fleur de Kaliptus pour la remise complète de la quête.",
+        "Un équipement avec davantage de prospection peut aider pour les Peau parfaite de Koalak Immature, dont le taux de base est de 5 %."
       ],
       "actions": [
         {
-          "instruction": "Aller au Village des Éleveurs et parler à Koka Dekolak pour lancer la quête.",
+          "instruction": "Parlez à Koka Dekolak et acceptez « Épicerie fine » avant de partir vers la Caverne du Koulosse.",
           "position": "[-15,-1]",
           "zoneHint": "Village des Éleveurs",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Se procurer 2 x Fleur de Kaliptus (achat ou récolte).",
-          "position": null,
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
+          "instruction": "Effectuez maintenant la Caverne du Koulosse et affrontez les groupes nécessaires à votre progression dans le donjon. Sur les Koalak Immature, tentez d'obtenir x2 Peau parfaite de Koalak Immature pendant que la quête est active.",
+          "position": "[-17,8]",
+          "zoneHint": "Caverne du Koulosse",
+          "warning": "Le drop des Peau parfaite de Koalak Immature n'est pas automatique : le taux de base indiqué est de 5 %. La quête étant facultative, il n'est pas nécessaire de retarder la progression du guide si les deux peaux ne tombent pas.",
+          "combat": "GROUP"
         },
         {
-          "instruction": "Combattre des Koalak Immature pour obtenir 2 x Peau parfaite de Koalak Immature (drop à 5 % de base, équipez-vous en prospection).",
-          "position": null,
-          "zoneHint": null,
-          "warning": "Drop à 5 % de base uniquement lorsque la quête est activée. Prévoir un équipement avec prospection.",
-          "combat": "SOLO"
-        },
-        {
-          "instruction": "Retourner voir Koka Dekolak au Village des Éleveurs et lui remettre les ressources.",
-          "position": "[-15,-1]",
-          "zoneHint": "Village des Éleveurs",
-          "warning": null,
-          "combat": "NONE"
+          "instruction": "Poursuivez le donjon jusqu'au Koulosse et battez-le afin de satisfaire en parallèle l'objectif préparé dans « C'est stupéfiant ».",
+          "position": "[-17,8]",
+          "zoneHint": "Caverne du Koulosse",
+          "warning": "Combat de boss. Cette victoire sert aussi à la progression de « C'est stupéfiant ».",
+          "combat": "GROUP"
         }
       ],
       "notes": [
-        "La Peau parfaite de Koalak Immature ne se drop que si la quête est activée.",
-        "Pensez à équiper un stuff prospection pour compenser le faible taux de drop (5 % de base)."
+        "La remise des ressources à Koka Dekolak n'est pas exigée à cette occurrence ; « Épicerie fine » est facultative pour la suite de l'aventure.",
+        "Le passage dans la Caverne du Koulosse permet également d'avancer les drops de « Charger la mule » tant que cette quête est active."
       ],
       "npcs": [
-        "Koka Dekolak"
+        "Koka Dekolak",
+        "Koulosse"
       ],
       "items": [
         {
@@ -444,6 +373,13 @@
       "bestiary": {
         "zones": [
           {
+            "id": 223,
+            "name": "Caverne du Koulosse",
+            "coordinates": [
+              "-17,8"
+            ]
+          },
+          {
             "id": 182,
             "name": "Village des Éleveurs",
             "coordinates": [
@@ -453,15 +389,117 @@
         ],
         "bounties": [],
         "archmonsters": [],
-        "achievements": []
+        "achievements": [
+          {
+            "id": 221,
+            "name": "Boufcools",
+            "monsters": [
+              {
+                "id": 671,
+                "name": "Bouftou des cavernes",
+                "level": 84,
+                "imageUrl": "/bestiary/monsters/671.png"
+              }
+            ]
+          },
+          {
+            "id": 219,
+            "name": "Koalaks",
+            "monsters": [
+              {
+                "id": 747,
+                "name": "Dok Alako",
+                "level": 70,
+                "imageUrl": "/bestiary/monsters/747.png"
+              },
+              {
+                "id": 748,
+                "name": "Koalak Immature",
+                "level": 60,
+                "imageUrl": "/bestiary/monsters/748.png"
+              },
+              {
+                "id": 784,
+                "name": "Piralak",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/784.png"
+              },
+              {
+                "id": 746,
+                "name": "Warko Marron",
+                "level": 74,
+                "imageUrl": "/bestiary/monsters/746.png"
+              }
+            ]
+          },
+          {
+            "id": 5803,
+            "name": "Koalaks sauvages",
+            "monsters": [
+              {
+                "id": 763,
+                "name": "Drakoalak",
+                "level": 90,
+                "imageUrl": "/bestiary/monsters/763.png"
+              },
+              {
+                "id": 752,
+                "name": "Koalak Coco",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/752.png"
+              },
+              {
+                "id": 753,
+                "name": "Koalak Griotte",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/753.png"
+              },
+              {
+                "id": 751,
+                "name": "Koalak Indigo",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/751.png"
+              },
+              {
+                "id": 754,
+                "name": "Koalak Reinette",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/754.png"
+              },
+              {
+                "id": 755,
+                "name": "Mama Koalak",
+                "level": 90,
+                "imageUrl": "/bestiary/monsters/755.png"
+              }
+            ]
+          }
+        ]
       },
       "questKey": "quest:68",
+      "relation": "START",
+      "sortOrder": 2,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/eacutepicerie-fine.html",
       "sourceTitle": "Épicerie fine",
       "sourceHash": "aa11913d1c1a43abbd59cbfbf1450b53d10ce0195a5dd45b393ec02b92c7a85d",
-      "generatedAt": "2026-08-24T17:32:40.934Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     }
   ],
-  "tips": []
+  "tips": [
+    {
+      "title": "Rentabiliser la Caverne du Koulosse",
+      "description": "Activez les deux quêtes journalières avant le donjon : les combats de la Caverne du Koulosse peuvent alors faire progresser leurs collectes pendant que vous accomplissez l'objectif de « C'est stupéfiant ».",
+      "questKeys": [
+        "quest:42",
+        "quest:70",
+        "quest:68"
+      ],
+      "actions": [
+        "Avant d'entrer dans la Caverne du Koulosse, vérifiez que « Charger la mule » et « Épicerie fine » sont bien actives.",
+        "Pendant le donjon, surveillez les drops de quête, notamment x2 Peau parfaite de Koalak Immature.",
+        "Battez le Koulosse pour valider en même temps l'objectif préparé dans « C'est stupéfiant »."
+      ]
+    }
+  ]
 }

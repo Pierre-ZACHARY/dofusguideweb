@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 50,
-  "updatedAt": "2026-08-27T13:32:18.617Z",
+  "updatedAt": "2026-08-29T09:59:12.188Z",
   "summaries": [
     {
       "overview": "Edgar Davou enquête sur une série de vols attribués aux Bandits du clan des roublards. Il faut combattre ces bandits dans le Territoire des Bandits jusqu'à récupérer tous les objets volés demandés, puis les rapporter à Edgar pour terminer la quête et débloquer Distribution de pains zizanesques.",
@@ -316,13 +316,6 @@
             ]
           },
           {
-            "id": 528,
-            "name": "Donjon des Forgerons",
-            "coordinates": [
-              "13,21"
-            ]
-          },
-          {
             "id": 973,
             "name": "Faubourgs des artisans",
             "coordinates": [
@@ -330,10 +323,25 @@
             ]
           },
           {
-            "id": 974,
-            "name": "Havres d'ivoire",
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-30,-56",
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
             "coordinates": [
               "-35,-55"
+            ]
+          },
+          {
+            "id": 103,
+            "name": "Territoire des Bandits",
+            "coordinates": [
+              "13,21"
             ]
           }
         ],
@@ -374,6 +382,30 @@
             "name": "Pioustone le Problème",
             "level": 11,
             "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2318,
+            "name": "Boudur le Raide",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2318.png"
+          },
+          {
+            "id": 2314,
+            "name": "Bandson le Tonitruant",
+            "level": 37,
+            "imageUrl": "/bestiary/monsters/2314.png"
+          },
+          {
+            "id": 2328,
+            "name": "Forboyar l'Enigmatique",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2328.png"
+          },
+          {
+            "id": 2335,
+            "name": "Minsinistre l'Elu",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2335.png"
           }
         ],
         "achievements": [
@@ -551,6 +583,13 @@
             "name": "La Marmite",
             "coordinates": [
               "-22,34"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
             ]
           }
         ],
@@ -730,6 +769,13 @@
             "coordinates": [
               "-32,-55",
               "-29,-54"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
             ]
           }
         ],
@@ -915,7 +961,13 @@
             "id": 973,
             "name": "Faubourgs des artisans",
             "coordinates": [
-              "-29,-53",
+              "-29,-53"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
               "-28,-55"
             ]
           },
@@ -1170,16 +1222,24 @@
             "name": "Cœur immaculé",
             "coordinates": [
               "-32,-57",
-              "-32,-58",
-              "-32,-56"
+              "-32,-58"
             ]
           },
           {
             "id": 161,
             "name": "Île de la Cawotte",
             "coordinates": [
+              "26,-8",
+              "24,-3"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57",
               "24,-3",
-              "26,-8"
+              "-32,-56"
             ]
           }
         ],

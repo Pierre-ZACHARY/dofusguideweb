@@ -154,7 +154,13 @@ export async function loadStepData(repository: DofusGuideRepository, guideId: nu
   }));
   const questGuideStep = await loadQuestGuideStepArchive(guideId, stepNumber);
   const quests = await Promise.all(step.quests.map(async (quest) => {
-    const questSummary = questGuideStep?.summaries.find((candidate) => candidate.questKey === quest.questKey) ?? null;
+    const exactQuestSummary = questGuideStep?.summaries.find((candidate) => candidate.questKey === quest.questKey
+      && candidate.relation === quest.relationType
+      && candidate.sortOrder === quest.sortOrder) ?? null;
+    const legacyQuestSummary = questGuideStep?.version === 2
+      ? questGuideStep.summaries.find((candidate) => candidate.questKey === quest.questKey) ?? null
+      : null;
+    const questSummary = exactQuestSummary ?? legacyQuestSummary;
     return {
       ...questDto(quest),
       relation: quest.relationType as "START" | "ACTIVE" | "FINISH" | "UNKNOWN",

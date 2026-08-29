@@ -1,8 +1,51 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 137,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T14:23:03.240Z",
+  "summaries": [
+    {
+      "overview": "Poursuivez La voie du guerrier en respectant l'ordre imposé des donjons. Pour cette occurrence, effectuez uniquement le Repaire de Skeunk et vainquez Skeunk. La suite de la série de donjons sera reprise à l'occurrence suivante de la quête.",
+      "recommendedLevel": null,
+      "prerequisites": [
+        "Niveau > 29.",
+        "Avoir lancé La voie du guerrier et être arrivé à la série de donjons demandée par le maître des clefs."
+      ],
+      "rewards": [],
+      "preparation": [
+        "Prévoir de réaliser le donjon Repaire de Skeunk."
+      ],
+      "actions": [
+        {
+          "instruction": "Effectuez le donjon Repaire de Skeunk et allez jusqu'au bout afin de vaincre Skeunk.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Le parcours de La voie du guerrier impose plusieurs donjons dans un ordre précis. Ne poursuivez pas avec l'Atelier du Tanukouï San à cette occurrence : cette partie est réservée à la prochaine occurrence du guide.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "Le maître des clefs a déjà demandé d'enchaîner plusieurs donjons pour progresser dans cette quête.",
+        "Après le Repaire de Skeunk, l'ordre prévu par la quête continue avec l'Atelier du Tanukouï San, mais cette étape sera traitée plus tard dans le guide.",
+        "Les récompenses globales de La voie du guerrier ne sont pas obtenues à cette occurrence, la quête restant active."
+      ],
+      "npcs": [],
+      "items": [],
+      "bestiary": {
+        "zones": [],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": []
+      },
+      "questKey": "quest:75",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-voie-du-guerrier.html",
+      "sourceTitle": "La voie du guerrier",
+      "sourceHash": "c1ce85c6230349d750d3f0186396981509f68055d47a6202c8097751fde24a9d",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

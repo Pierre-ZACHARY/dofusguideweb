@@ -81,7 +81,7 @@ export function buildBestiaryCatalog(input: {
     const id = numberValue(raw.id);
     const name = localizedFrench(raw.name);
     if (id === null || id <= 0 || name === null) return [];
-    return [{ id, name, monsterIds: numberArray(raw.monsters) }];
+    return [{ id, areaId: numberValue(raw.areaId), name, monsterIds: numberArray(raw.monsters) }];
   }).sort((left, right) => left.id - right.id);
 
   const achievements = input.achievements.flatMap((raw) => {

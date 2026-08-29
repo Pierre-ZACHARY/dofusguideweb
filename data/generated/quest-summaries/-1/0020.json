@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 20,
-  "updatedAt": "2026-08-27T13:32:12.195Z",
+  "updatedAt": "2026-08-28T13:36:19.284Z",
   "summaries": [
     {
       "overview": "Badufron vous confie quatre missions de mercenaire à accomplir auprès de quatre habitants d'Astrub et de ses environs. La quête reste ouverte pendant que vous terminez Les as de la cambriole, Déjeuner à la fourchette, Comme un pichon hors de l'eau et La coupe des vices, puis se conclut en faisant votre rapport à Badufron.",
@@ -356,8 +356,8 @@
       "bestiary": {
         "zones": [
           {
-            "id": 336,
-            "name": "Château Ensablé",
+            "id": 335,
+            "name": "Calanques d'Astrub",
             "coordinates": [
               "13,-28"
             ]
@@ -414,6 +414,30 @@
             "name": "Pioustone le Problème",
             "level": 11,
             "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2272,
+            "name": "Pichakoté le Dégoutant",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2272.png"
+          },
+          {
+            "id": 2338,
+            "name": "Pichdourse le Puissant",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2338.png"
+          },
+          {
+            "id": 2346,
+            "name": "Pichduitre le Totem",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2346.png"
+          },
+          {
+            "id": 2340,
+            "name": "Pichtoire l'Erudit",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2340.png"
           }
         ],
         "achievements": [
@@ -432,12 +456,6 @@
                 "name": "Pichon Bleu",
                 "level": 16,
                 "imageUrl": "/bestiary/monsters/921.png"
-              },
-              {
-                "id": 924,
-                "name": "Pichon Kloune",
-                "level": 16,
-                "imageUrl": "/bestiary/monsters/924.png"
               },
               {
                 "id": 920,

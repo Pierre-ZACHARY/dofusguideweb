@@ -1,186 +1,61 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 110,
-  "updatedAt": "2026-08-27T13:32:21.032Z",
+  "updatedAt": "2026-08-29T12:51:30.626Z",
   "summaries": [
     {
-      "overview": "Vaincre 6 boss de donjons (Abraknyde Ancestral, Dragon Cochon, Koulosse, Meulou, Rat Blanc, Rat Noir) sur ordre de Chris de Naire, puis rencontrer Kal Vissi pour débloquer la quête suivante.",
+      "overview": "Les cinq premiers donjons confiés par Chris de Naire sont supposés déjà accomplis lors des occurrences précédentes. Pour cette occurrence, terminez la série avec la Sousouricière du Rat Noir, revenez auprès de Chris, puis prenez contact avec Kal Vissi pour conclure cette mission.",
       "recommendedLevel": 30,
       "prerequisites": [
-        "Niveau > 29",
-        "Les sbires du maître"
+        "Niveau supérieur à 29.",
+        "Les sbires du maître.",
+        "Avoir déjà accompli les portions précédentes de la quête jusqu'au retour suivant la victoire contre le Rat Blanc."
       ],
       "rewards": [
-        "Bourgeon d'Abraknyde Ancestral",
-        "Poil de Dragon Cochon",
-        "Pierre du Koulosse",
-        "Testicules Magiques du Meulou"
+        "15 501 041 XP.",
+        "178 512 Kamas.",
+        "1 x Bourgeon d'Abraknyde Ancestral.",
+        "1 x Poil de Dragon Cochon.",
+        "1 x Pierre du Koulosse.",
+        "1 x Testicules Magiques du Meulou."
       ],
       "preparation": [
-        "1 x Donjon Domaine Ancestral",
-        "1 x Donjon Antre du Dragon Cochon",
-        "1 x Donjon Caverne du Koulosse",
-        "1 x Donjon Tanière du Meulou",
-        "1 x Donjon Garde-manger du Rat Blanc",
-        "1 x Donjon Sousouricière du Rat Noir"
+        "Prévoir le donjon Sousouricière du Rat Noir."
       ],
       "actions": [
         {
-          "instruction": "Se rendre en [-29,-47] (Champs de Cania), parler à Chris de Naire pour lancer la quête.",
-          "position": "[-29,-47]",
-          "zoneHint": "Champs de Cania",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller au donjon Domaine Ancestral en [-9,-14], vaincre l'Abraknyde Ancestral.",
-          "position": "[-9,-14]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
-          "position": "[-29,-47]",
-          "zoneHint": "Champs de Cania",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller au donjon Antre du Dragon Cochon en [-1,33], vaincre le Dragon Cochon.",
-          "position": "[-1,33]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
-          "position": "[-29,-47]",
-          "zoneHint": "Champs de Cania",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller au donjon Caverne du Koulosse en [-17,8], vaincre le Koulosse.",
-          "position": "[-17,8]",
-          "zoneHint": null,
-          "warning": "Il faut être devant le PNJ sur la corniche pour entrer dans le donjon.",
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
-          "position": "[-29,-47]",
-          "zoneHint": "Champs de Cania",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller au donjon Tanière du Meulou en [-23,0], vaincre le Meulou.",
-          "position": "[-23,0]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
-          "position": "[-29,-47]",
-          "zoneHint": "Champs de Cania",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller au donjon Garde-manger du Rat Blanc en [-36,-60] (entrer par le Palais en [-36,-60] et descendre par le vide à ordure des cuisines, ou entrer par les égouts en [-32,-58] puis traverser), vaincre le Rat Blanc.",
-          "position": "[-36,-60]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
-          "position": "[-29,-47]",
-          "zoneHint": "Champs de Cania",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller au donjon Sousouricière du Rat Noir en [-29,-35] (entrée via la bouche d'égout en [-29,35]), vaincre le Rat Noir.",
+          "instruction": "Rendez-vous au donjon Sousouricière du Rat Noir et vainquez le Rat Noir.",
           "position": "[-29,-35]",
-          "zoneHint": null,
-          "warning": null,
+          "zoneHint": "Sousouricière du Rat Noir",
+          "warning": "L'accès indiqué par la source passe par une bouche d'égout.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania). Il n'a plus de donjons à confier et oriente vers un autre commanditaire.",
+          "instruction": "Après le donjon, retournez voir Chris de Naire. Il n'a plus de donjon à vous confier et vous oriente vers un autre commanditaire.",
           "position": "[-29,-47]",
           "zoneHint": "Champs de Cania",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller voir Kal Vissi en [-19,30], choisir « J'accepte cette mission » pour terminer la quête.",
+          "instruction": "Allez voir Kal Vissi et acceptez sa mission afin d'achever cette quête et de débloquer la suivante.",
           "position": "[-19,30]",
           "zoneHint": null,
-          "warning": null,
+          "warning": "Choisissez « J’accepte cette mission ».",
           "combat": "NONE"
         }
       ],
       "notes": [
-        "Terminer cette quête débloque la quête suivante : Des donjons, encore des donjons.",
-        "Étape 5 : deux chemins possibles pour accéder au Garde-manger du Rat Blanc — via le Palais en [-36,-60] (vide à ordure des cuisines) ou via les égouts en [-32,-58]."
+        "Les étapes Abraknyde Ancestral, Dragon Cochon, Koulosse, Meulou et Rat Blanc sont considérées comme déjà faites dans le parcours du guide."
       ],
       "npcs": [
         "Chris de Naire",
-        "Kal Vissi",
-        "Abraknyde Ancestral",
-        "Dragon Cochon",
-        "Koulosse",
-        "Meulou",
-        "Rat Blanc",
-        "Rat Noir"
+        "Kal Vissi"
       ],
-      "items": [
-        {
-          "name": "Bourgeon d'Abraknyde Ancestral",
-          "itemId": 8495,
-          "imageUrl": "/items/8495.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8495"
-        },
-        {
-          "name": "Poil de Dragon Cochon",
-          "itemId": 8393,
-          "imageUrl": "/items/8393.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8393"
-        },
-        {
-          "name": "Pierre du Koulosse",
-          "itemId": 8402,
-          "imageUrl": "/items/8402.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8402"
-        },
-        {
-          "name": "Testicules Magiques du Meulou",
-          "itemId": 2806,
-          "imageUrl": "/items/2806.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2806"
-        }
-      ],
+      "items": [],
       "bestiary": {
         "zones": [
-          {
-            "id": 154,
-            "name": "Antre du Dragon Cochon",
-            "coordinates": [
-              "-1,33"
-            ]
-          },
-          {
-            "id": 223,
-            "name": "Caverne du Koulosse",
-            "coordinates": [
-              "-17,8"
-            ]
-          },
           {
             "id": 68,
             "name": "Champs de Cania",
@@ -189,40 +64,17 @@
             ]
           },
           {
-            "id": 175,
-            "name": "Domaine Ancestral",
-            "coordinates": [
-              "-9,-14"
-            ]
-          },
-          {
-            "id": 1013,
-            "name": "Garde-manger du Rat Blanc",
-            "coordinates": [
-              "-36,-60",
-              "-32,-58"
-            ]
-          },
-          {
-            "id": 778,
-            "name": "Mine",
-            "coordinates": [
-              "-19,30"
-            ]
-          },
-          {
             "id": 1010,
             "name": "Sousouricière du Rat Noir",
             "coordinates": [
-              "-29,-35",
-              "-29,35"
+              "-29,-35"
             ]
           },
           {
-            "id": 213,
-            "name": "Tanière du Meulou",
+            "id": 517,
+            "name": "Terres Désacrées",
             "coordinates": [
-              "-23,0"
+              "-19,30"
             ]
           }
         ],
@@ -262,36 +114,6 @@
         ],
         "achievements": [
           {
-            "id": 1201,
-            "name": "Abraknydiens Sombres",
-            "monsters": [
-              {
-                "id": 651,
-                "name": "Abrakne Sombre",
-                "level": 82,
-                "imageUrl": "/bestiary/monsters/651.png"
-              },
-              {
-                "id": 253,
-                "name": "Abraknyde Sombre",
-                "level": 78,
-                "imageUrl": "/bestiary/monsters/253.png"
-              },
-              {
-                "id": 254,
-                "name": "Abraknyde Vénérable",
-                "level": 74,
-                "imageUrl": "/bestiary/monsters/254.png"
-              },
-              {
-                "id": 917,
-                "name": "Araknotron",
-                "level": 76,
-                "imageUrl": "/bestiary/monsters/917.png"
-              }
-            ]
-          },
-          {
             "id": 213,
             "name": "Animaux des Champs",
             "monsters": [
@@ -322,188 +144,32 @@
             ]
           },
           {
-            "id": 221,
-            "name": "Boufcools",
+            "id": 1612,
+            "name": "Goules",
             "monsters": [
               {
-                "id": 671,
-                "name": "Bouftou des cavernes",
-                "level": 84,
-                "imageUrl": "/bestiary/monsters/671.png"
-              }
-            ]
-          },
-          {
-            "id": 219,
-            "name": "Koalaks",
-            "monsters": [
-              {
-                "id": 747,
-                "name": "Dok Alako",
-                "level": 70,
-                "imageUrl": "/bestiary/monsters/747.png"
+                "id": 4878,
+                "name": "Kérigoule",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/4878.png"
               },
               {
-                "id": 748,
-                "name": "Koalak Immature",
-                "level": 60,
-                "imageUrl": "/bestiary/monsters/748.png"
+                "id": 4881,
+                "name": "Pipisteuse",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/4881.png"
               },
               {
-                "id": 784,
-                "name": "Piralak",
-                "level": 80,
-                "imageUrl": "/bestiary/monsters/784.png"
+                "id": 4879,
+                "name": "Gouligane",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/4879.png"
               },
               {
-                "id": 746,
-                "name": "Warko Marron",
-                "level": 74,
-                "imageUrl": "/bestiary/monsters/746.png"
-              }
-            ]
-          },
-          {
-            "id": 5803,
-            "name": "Koalaks sauvages",
-            "monsters": [
-              {
-                "id": 763,
-                "name": "Drakoalak",
-                "level": 90,
-                "imageUrl": "/bestiary/monsters/763.png"
-              },
-              {
-                "id": 752,
-                "name": "Koalak Coco",
-                "level": 80,
-                "imageUrl": "/bestiary/monsters/752.png"
-              },
-              {
-                "id": 753,
-                "name": "Koalak Griotte",
-                "level": 80,
-                "imageUrl": "/bestiary/monsters/753.png"
-              },
-              {
-                "id": 751,
-                "name": "Koalak Indigo",
-                "level": 80,
-                "imageUrl": "/bestiary/monsters/751.png"
-              },
-              {
-                "id": 754,
-                "name": "Koalak Reinette",
-                "level": 80,
-                "imageUrl": "/bestiary/monsters/754.png"
-              },
-              {
-                "id": 755,
-                "name": "Mama Koalak",
-                "level": 90,
-                "imageUrl": "/bestiary/monsters/755.png"
-              }
-            ]
-          },
-          {
-            "id": 180,
-            "name": "Mulous",
-            "monsters": [
-              {
-                "id": 102,
-                "name": "Mulou",
-                "level": 92,
-                "imageUrl": "/bestiary/monsters/102.png"
-              },
-              {
-                "id": 4867,
-                "name": "Cocholou",
-                "level": 92,
-                "imageUrl": "/bestiary/monsters/4867.png"
-              },
-              {
-                "id": 4868,
-                "name": "Mulounoké",
-                "level": 92,
-                "imageUrl": "/bestiary/monsters/4868.png"
-              },
-              {
-                "id": 4869,
-                "name": "Mergranlou",
-                "level": 92,
-                "imageUrl": "/bestiary/monsters/4869.png"
-              },
-              {
-                "id": 4866,
-                "name": "Muloubard",
-                "level": 92,
-                "imageUrl": "/bestiary/monsters/4866.png"
-              }
-            ]
-          },
-          {
-            "id": 185,
-            "name": "Porcos",
-            "monsters": [
-              {
-                "id": 603,
-                "name": "Cochon de Farle",
-                "level": 90,
-                "imageUrl": "/bestiary/monsters/603.png"
-              },
-              {
-                "id": 601,
-                "name": "Don Dorgan",
-                "level": 92,
-                "imageUrl": "/bestiary/monsters/601.png"
-              },
-              {
-                "id": 600,
-                "name": "Don Duss Ang",
-                "level": 92,
-                "imageUrl": "/bestiary/monsters/600.png"
-              },
-              {
-                "id": 3304,
-                "name": "Porsalu",
-                "level": 80,
-                "imageUrl": "/bestiary/monsters/3304.png"
-              }
-            ]
-          },
-          {
-            "id": 5160,
-            "name": "Rats Bontariens",
-            "monsters": [
-              {
-                "id": 6743,
-                "name": "Chika Rat",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/6743.png"
-              },
-              {
-                "id": 6744,
-                "name": "Aloevée Rate",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/6744.png"
-              },
-              {
-                "id": 941,
-                "name": "Chak Rat",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/941.png"
-              },
-              {
-                "id": 938,
-                "name": "Scélée Rate",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/938.png"
-              },
-              {
-                "id": 942,
-                "name": "Capoei Rat",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/942.png"
+                "id": 4880,
+                "name": "Goultime",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/4880.png"
               }
             ]
           },
@@ -542,110 +208,105 @@
                 "imageUrl": "/bestiary/monsters/937.png"
               }
             ]
-          },
-          {
-            "id": 207,
-            "name": "Sidimonstres",
-            "monsters": [
-              {
-                "id": 299,
-                "name": "Croc Gland",
-                "level": 62,
-                "imageUrl": "/bestiary/monsters/299.png"
-              }
-            ]
           }
         ]
       },
       "questKey": "quest:73",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/un-juge-hysterique.html",
       "sourceTitle": "Un juge hystérique",
       "sourceHash": "5189a5003336188ba9c2062fbe1504352733438f35efd98131fb5f946b178711",
-      "generatedAt": "2026-08-24T18:32:41.222Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     },
     {
-      "overview": "Amayiro de la Milice de Bonta vous charge d'enquêter sur une épée appartenant à un Ecaflip. Vous interrogez des témoins dans les tavernes de Bonta et à la sortie sud de la ville, puis récupérez des ressources pour le cadeau d'anniversaire du neveu d'Amayiro avant de les remettre à Bowisse.",
+      "overview": "Poursuivez l'enquête sur les Ecaflips en interrogeant plusieurs témoins à Bonta, puis réunissez un Cuir de Porsalu et une Écaille de Draguaindrop pour faire fabriquer les Tataniké destinées au neveu d'Amayiro. Rapportez ensuite les chaussures à la Milice.",
       "recommendedLevel": 112,
       "prerequisites": [
-        "Vin diou"
+        "Vin diou."
       ],
       "rewards": [
-        "3 261 192 XP"
+        "3 261 192 XP."
       ],
       "preparation": [
-        "1 x Cuir de Porsalu",
-        "Combats contre des Draguaindrop dans le Sanctuaire des Dragoeufs"
+        "Prévoir 1 x Cuir de Porsalu, obtenu en HDV ou en butin.",
+        "Prévoir de combattre des Draguaindrop dans le Sanctuaire des Dragoeufs pour obtenir 1 x Écaille de Draguaindrop."
       ],
       "actions": [
         {
-          "instruction": "Aller à la Milice en [-32,-57] et parler à Amayiro pour lancer la quête.",
+          "instruction": "À la Milice, parlez à Amayiro pour poursuivre l'enquête sur le propriétaire de l'épée.",
           "position": "[-32,-57]",
           "zoneHint": "Bonta",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller à la Taverne du Feubuk en [-35,-56] et parler à Nek Feubuk au sujet des Ecaflips.",
+          "instruction": "Interrogez Nek Feubuk à la Taverne du Feubuk. Il évoque des Ecaflips suspects, un certain Loudac et une planque proche de la foire du trooll.",
           "position": "[-35,-56]",
-          "zoneHint": "Bonta",
+          "zoneHint": "Taverne du Feubuk",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller à la Taverne de la Tabasse en [-35,-55] et parler à Garret Abass. Choisir « L'interroger au sujet de voyageurs Ecaflips ».",
+          "instruction": "Interrogez Garret Abass à la Taverne de la Tabasse au sujet des voyageurs Ecaflips.",
           "position": "[-35,-55]",
-          "zoneHint": "Bonta",
+          "zoneHint": "Taverne de la Tabasse",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller à la sortie Sud de Bonta en [-29,-53] et parler à Shere Hacanon.",
+          "instruction": "Parlez à Shere Hacanon. Il confirme le passage d'une bande d'Ecaflips et indique qu'ils devaient rejoindre un camp à l'ouest après leur travail.",
           "position": "[-29,-53]",
-          "zoneHint": "Bonta",
+          "zoneHint": "Sortie Sud de Bonta",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Retourner auprès d'Amayiro en [-32,-57] pour lui rapporter les informations recueillies.",
+          "instruction": "Retournez faire votre rapport à Amayiro. Il vous charge alors de remplacer le cadeau perdu destiné à son neveu.",
           "position": "[-32,-57]",
-          "zoneHint": "Bonta",
+          "zoneHint": "Milice de Bonta",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Obtenir 1 Cuir de Porsalu (acheter à l'HDV ou dropper sur les Porsalu).",
+          "instruction": "Procurez-vous 1 x Cuir de Porsalu.",
           "position": null,
           "zoneHint": null,
-          "warning": "Achat à l'HDV ou drop sur Porsalu.",
-          "combat": "CHOICE"
+          "warning": null,
+          "combat": "NONE"
         },
         {
-          "instruction": "Aller dans le Sanctuaire des Dragoeufs et combattre des Draguaindrop pour obtenir 1 Écaille de Draguaindrop (drop à 100%).",
+          "instruction": "Dans le Sanctuaire des Dragoeufs, combattez des Draguaindrop jusqu'à obtenir l'Écaille de Draguaindrop, objet de quête annoncé à 100 % de taux de butin sur ces monstres.",
           "position": null,
           "zoneHint": "Sanctuaire des Dragoeufs",
-          "warning": "Combats contre des Draguaindrop.",
+          "warning": "Combat contre des monstres de la zone nécessaire pour l'objet de quête.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Aller voir Bowisse en [5,1] et lui donner le Cuir de Porsalu et l'Écaille de Draguaindrop.",
+          "instruction": "Avec le Cuir de Porsalu et l'Écaille de Draguaindrop, parlez à Bowisse et donnez-lui les ressources pour obtenir les Tataniké.",
           "position": "[5,1]",
           "zoneHint": null,
+          "warning": "Les deux ressources sont consommées pour la fabrication.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès d'Amayiro et remettez-lui les Tataniké pour terminer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
           "warning": null,
           "combat": "NONE"
         }
       ],
       "notes": [
-        "L'Écaille de Draguaindrop se drop à 100% sur les Draguaindrop dans le Sanctuaire des Dragoeufs.",
-        "Le Cuir de Porsalu peut être acheté à l'HDV pour éviter le combat."
+        "Cette quête doit être terminée avant de poursuivre avec Plaine de chats."
       ],
       "npcs": [
         "Amayiro",
         "Nek Feubuk",
         "Garret Abass",
         "Shere Hacanon",
-        "Bowisse",
-        "Draguaindrop"
+        "Bowisse"
       ],
       "items": [
         {
@@ -659,6 +320,12 @@
           "itemId": 17417,
           "imageUrl": "/items/17417.png",
           "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17417"
+        },
+        {
+          "name": "Tataniké",
+          "itemId": 17418,
+          "imageUrl": "/items/17418.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17418"
         }
       ],
       "bestiary": {
@@ -667,8 +334,7 @@
             "id": 975,
             "name": "Cœur immaculé",
             "coordinates": [
-              "-32,-57",
-              "-35,-56"
+              "-32,-57"
             ]
           },
           {
@@ -679,16 +345,31 @@
             ]
           },
           {
-            "id": 974,
-            "name": "Havres d'ivoire",
+            "id": 442,
+            "name": "Lac",
             "coordinates": [
-              "-35,-55"
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
             ]
           },
           {
             "id": 314,
             "name": "Sanctuaire des Dragoeufs",
             "coordinates": []
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "-35,-56",
+              "-35,-55"
+            ]
           },
           {
             "id": 10,
@@ -837,66 +518,82 @@
         ]
       },
       "questKey": "quest:127",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/les-ecas-ne-flippent-pas.html",
       "sourceTitle": "Alignement 42 : Les Ecas ne flippent pas",
       "sourceHash": "9c0405bb98031eb27fbbfe357f85a2be353aff7b8e8f3a95e2034d4f131f3f3d",
-      "generatedAt": "2026-08-24T17:45:16.329Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     },
     {
-      "overview": "Infiltrez le repaire des bandits Ecaflips à Bonta en remontant leur piste, en choisissant entre combat et bakchich, puis préparez-vous à y pénétrer avec une Corde d'escalade et un passe.",
+      "overview": "Après Les Ecas ne flippent pas, recherchez le repaire des bandits Ecaflips. Obtenez leur information par la force ou en payant, consultez Hersa Griffe Sombre, puis utilisez une Corde d'escalade pour atteindre leur cache. L'accès à la seconde salle reste bloqué faute de passe : rapportez cette découverte à Amayiro.",
       "recommendedLevel": 113,
       "prerequisites": [
-        "Niveau recommandé 113",
-        "Les Ecas ne flippent pas"
+        "Les Ecas ne flippent pas."
       ],
       "rewards": [
-        "3 313 535 XP"
+        "3 313 535 XP."
       ],
       "preparation": [
-        "3 000 kamas ou 1 combat (réalisable en groupe)",
-        "1 Corde d'escalade (30 Chanvre + 5 Fil de Soie + 1 Fil de Néfileuse)"
+        "Prévoir 3 000 kamas si vous souhaitez éviter le combat contre les trois bandits.",
+        "Prévoir 1 x Corde d'escalade.",
+        "Pour fabriquer la Corde d'escalade : 30 x Chanvre, 5 x Fil de Soie et 1 x Fil de Néfileuse, avec un Bricoleur niveau 1 minimum."
       ],
       "actions": [
         {
-          "instruction": "Lancer la quête à la Milice en [-32,-57] auprès d'Amayiro.",
+          "instruction": "À la Milice, parlez à Amayiro pour commencer la recherche du repaire des bandits Ecaflips.",
           "position": "[-32,-57]",
-          "zoneHint": "Milice",
+          "zoneHint": "Milice de Bonta",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller en [-17,-41] parler au Bandit des plaines, puis choisir entre combattre trois bandits ou les soudoyer avec 1 000 kamas chacun (3 000 kamas au total).",
+          "instruction": "Parlez à l'un des Bandits des plaines et choisissez soit de combattre les trois bandits, soit de leur verser 1 000 kamas chacun.",
           "position": "[-17,-41]",
           "zoneHint": null,
-          "warning": "Dépense de 3 000 kamas si le joueur choisit de soudoyer au lieu de combattre.",
+          "warning": "Choix immédiat : combattre trois bandits ou dépenser 3 000 kamas au total.",
           "combat": "CHOICE"
         },
         {
-          "instruction": "Se rendre en [-30,-53] parler à Hersa Griffe Sombre pour obtenir la position du repaire.",
+          "instruction": "Suivez leur piste jusqu'à Hersa Griffe Sombre. Elle vous révèle l'emplacement du repaire et précise qu'une corde d'escalade ainsi qu'un passe seront nécessaires.",
           "position": "[-30,-53]",
-          "zoneHint": null,
+          "zoneHint": "Sortie Sud de Bonta",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller en [-12,-44], cliquer sur le bois derrière les rochers avec la Corde d'escalade dans l'inventaire, puis tenter d'entrer dans la seconde salle et constater qu'un passe est requis.",
-          "position": "[-12,-44]",
+          "instruction": "Assurez-vous d'avoir 1 x Corde d'escalade dans l'inventaire.",
+          "position": null,
           "zoneHint": null,
-          "warning": "Nécessite 1 Corde d'escalade dans l'inventaire. Un passe est indispensable pour accéder à la seconde salle.",
+          "warning": "Conservez cette corde : elle pourra encore servir dans des quêtes ultérieures.",
           "combat": "NONE"
         },
         {
-          "instruction": "Retourner à la Milice en [-32,-57] faire un récapitulatif à Amayiro.",
+          "instruction": "Cliquez sur le bois derrière les rochers pour accéder au repaire grâce à la Corde d'escalade.",
+          "position": "[-12,-44]",
+          "zoneHint": "Repaire des bandits",
+          "warning": "La Corde d'escalade doit être présente dans votre inventaire.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Essayez d'entrer dans la seconde salle. L'accès échoue car vous ne possédez pas encore le passe requis.",
+          "position": "[-12,-44]",
+          "zoneHint": "Repaire des bandits",
+          "warning": "N'essayez pas d'aller plus loin : cette impossibilité d'accès est l'objectif de cette étape.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Amayiro et faites-lui le compte rendu de votre découverte pour terminer la quête.",
           "position": "[-32,-57]",
-          "zoneHint": "Milice",
+          "zoneHint": "Milice de Bonta",
           "warning": null,
           "combat": "NONE"
         }
       ],
       "notes": [
-        "La Corde d'escalade est conservée après la quête et servira pour d'autres quêtes.",
-        "Craft de la Corde d'escalade : 30 Chanvre, 5 Fil de Soie, 1 Fil de Néfileuse (Bricoleur niveau 1 minimum)."
+        "Le passe permettant d'aller plus loin dans le repaire sera obtenu lors de la quête suivante.",
+        "La Corde d'escalade ne doit pas être jetée après cette quête."
       ],
       "npcs": [
         "Amayiro",
@@ -946,10 +643,17 @@
             ]
           },
           {
-            "id": 973,
-            "name": "Faubourgs des artisans",
+            "id": 442,
+            "name": "Lac",
             "coordinates": [
               "-30,-53"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
             ]
           },
           {
@@ -1112,63 +816,172 @@
         ]
       },
       "questKey": "quest:128",
+      "relation": "ACTIVE",
+      "sortOrder": 2,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/plaine-de-chats.html",
       "sourceTitle": "Alignement 43 : Plaine de chats",
       "sourceHash": "aa8a8718aeb17975c3b487cd790e4c0b462a123c13673afa66bf2ec779dbd0a0",
-      "generatedAt": "2026-08-24T18:29:09.317Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     },
     {
-      "overview": "Escorter un convoi de la Milice de Bonta vers Astrub en effectuant une reconnaissance le long d'un trajet à travers les plaines de Cania, puis affronter les bandits qui attaquent à l'arrivée.",
+      "overview": "Après Plaine de chats, escortez un convoi vers Astrub. Une première reconnaissance débouche sur une attaque de bandits. Amayiro organise ensuite un leurre avec un bijou : vous pouvez conserver le vrai ou l'échanger contre un faux contre 10 000 kamas. Effectuez enfin une seconde escorte puis faites votre rapport.",
       "recommendedLevel": 114,
       "prerequisites": [
-        "Plaine de chats (quête d'alignement précédente)"
+        "Plaine de chats."
       ],
       "rewards": [
-        "3 410 118 XP",
-        "10 000 kamas (en fonction de vos choix)"
+        "3 410 118 XP.",
+        "10 000 kamas selon le choix effectué avec Ekusoyk Ubnan."
       ],
       "preparation": [
-        "1 combat réalisable en groupe"
+        "Prévoir un combat contre des bandits, réalisable en groupe."
       ],
       "actions": [
         {
-          "instruction": "Parler à Amayiro à la Milice de Bonta pour lancer la quête.",
+          "instruction": "Parlez à Amayiro à la Milice pour recevoir la mission d'escorte d'un convoi vers Astrub.",
           "position": "[-32,-57]",
-          "zoneHint": "Bonta",
+          "zoneHint": "Milice de Bonta",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller voir Gueurle, la chef du convoi, et proposer d'escorter le prochain convoi.",
+          "instruction": "Parlez à Gueurle et proposez-vous pour escorter le prochain convoi. Elle vous envoie d'abord reconnaître le trajet.",
           "position": "[-29,-46]",
           "zoneHint": null,
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Suivre le trajet de reconnaissance dans l'ordre : [-25,-45] → [-21,-42] → [-19,-37] → [-14,-36] → [-10,-35] → [-6,-31].",
-          "position": null,
+          "instruction": "Passez par cette première position de reconnaissance.",
+          "position": "[-25,-45]",
+          "zoneHint": null,
+          "warning": "Respectez l'ordre des positions demandé.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Poursuivez la reconnaissance.",
+          "position": "[-21,-42]",
+          "zoneHint": null,
+          "warning": "Respectez l'ordre des positions demandé.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Poursuivez la reconnaissance.",
+          "position": "[-19,-37]",
+          "zoneHint": null,
+          "warning": "Respectez l'ordre des positions demandé.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Poursuivez la reconnaissance.",
+          "position": "[-14,-36]",
+          "zoneHint": null,
+          "warning": "Respectez l'ordre des positions demandé.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Poursuivez la reconnaissance.",
+          "position": "[-10,-35]",
+          "zoneHint": null,
+          "warning": "Respectez l'ordre des positions demandé.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Atteignez la dernière position et parlez à Gueurle ; une attaque de bandits se déclenche. Remportez le combat.",
+          "position": "[-6,-31]",
+          "zoneHint": null,
+          "warning": "Combat réalisable à plusieurs. Certains ennemis peuvent booster PA/PM et dommages, retirer PA/PM/PO, appliquer de l'érosion, soigner, attirer ou repousser.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez voir Amayiro et racontez l'attaque. Il met alors en place un piège reposant sur un bijou destiné à attirer les bandits.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Demandez le Bijou d'Amayiro à Marge Gondersun. Elle vous remet également une lettre confiée par un Xélor.",
+          "position": "[-33,-55]",
           "zoneHint": null,
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Sur la dernière carte, parler à Gueurle. Une attaque de bandits surgit. Vaincre les bandits (combat réalisable en groupe).",
+          "instruction": "Choisissez soit de garder le vrai Bijou d'Amayiro pour le rendre directement, soit de passer voir Ekusoyk Ubnan à la Taverne de la Tabasse, d'accepter son offre et d'échanger le vrai bijou contre un faux en gagnant 10 000 kamas.",
+          "position": "[-35,-55]",
+          "zoneHint": "Taverne de la Tabasse",
+          "warning": "Choix à conséquence : accepter l'offre remplace le vrai bijou par un faux et rapporte 10 000 kamas. Si vous refusez, ne faites pas ce détour.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Donnez à Amayiro le vrai ou le faux bijou selon votre choix, puis reparlez-lui pour indiquer que vous êtes prêt à escorter le convoi.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": "Le bijou remis dépend de votre choix précédent.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez le point de départ du convoi.",
+          "position": "[-29,-46]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Commencez la seconde escorte en passant par cette position.",
+          "position": "[-21,-42]",
+          "zoneHint": null,
+          "warning": "Respectez l'ordre indiqué.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Poursuivez la seconde escorte.",
+          "position": "[-14,-36]",
+          "zoneHint": null,
+          "warning": "Respectez l'ordre indiqué.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Poursuivez la seconde escorte.",
           "position": "[-6,-31]",
           "zoneHint": null,
-          "warning": "Combat en groupe. Des choix peuvent influencer la récompense en kamas.",
-          "combat": "GROUP"
+          "warning": "Respectez l'ordre indiqué.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Terminez le trajet du convoi à cette position.",
+          "position": "[-5,-22]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Amayiro. L'absence d'attaque lui fait soupçonner qu'une personne haut placée renseigne les bandits.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
         }
       ],
       "notes": [
-        "Les ennemis utilisent des sorts variés : boosts (Flair Exacerbé, Discernement), frappes air/eau (Bleuph), air/érosion (Réactif), terre/repoussement (Prédestiné), terre/téléportation (Pensée Féline)."
+        "Cette quête révèle qu'une fuite interne à Bonta pourrait expliquer l'avance constante des bandits."
       ],
       "npcs": [
         "Amayiro",
-        "Gueurle"
+        "Gueurle",
+        "Marge Gondersun",
+        "Ekusoyk Ubnan"
       ],
-      "items": [],
+      "items": [
+        {
+          "name": "Bijou d'Amayiro",
+          "itemId": 9074,
+          "imageUrl": "/items/9074.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9074"
+        }
+      ],
       "bestiary": {
         "zones": [
           {
@@ -1188,6 +1001,20 @@
             ]
           },
           {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-33,-55"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
             "id": 54,
             "name": "Massif de Cania",
             "coordinates": [
@@ -1196,11 +1023,25 @@
             ]
           },
           {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-5,-22"
+            ]
+          },
+          {
             "id": 521,
             "name": "Pics de Cania",
             "coordinates": [
               "-19,-37",
               "-14,-36"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "-35,-55"
             ]
           }
         ],
@@ -1434,82 +1275,152 @@
         ]
       },
       "questKey": "quest:129",
+      "relation": "ACTIVE",
+      "sortOrder": 3,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/agrave-lendroit-agrave-lenvers.html",
       "sourceTitle": "Alignement 44 : À l'endroit, à l'envers",
       "sourceHash": "a04616afa047db754953eb7c9492d7b6c33845c258ed87965cdcb7f0f8f3a2d9",
-      "generatedAt": "2026-08-24T17:10:53.420Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     },
     {
-      "overview": "Parler à Amayiro à la Milice de Bonta pour infiltrer le repaire des bandits et identifier le traître. Obtenir des informations sur Grimpill auprès de Hersa Griffe Sombre, d'Ecaline et du Capitaine Alrok, puis exiger la clef du repaire à Grimpill.",
+      "overview": "Après À l'endroit, à l'envers, recherchez une clef du repaire des bandits, obtenez-la auprès de Grimpill par paiement ou combat, puis préparez éventuellement des copies pour vos alliés. Infiltrez ensuite le repaire avec votre Corde d'escalade, battez les bandits, récupérez les documents confidentiels et rapportez-les à Amayiro.",
       "recommendedLevel": 115,
       "prerequisites": [
-        "À l'endroit, à l'envers"
+        "À l’endroit, à l’envers."
       ],
       "rewards": [
-        "3 464 019 XP"
+        "3 464 019 XP."
       ],
       "preparation": [
-        "2 000 kamas",
-        "10 000 kamas ou 1 x combat (réalisable en groupe)",
-        "5 x Planche à Pâtisserie",
-        "1 x Corde d'escalade",
-        "1 x combat (réalisable en groupe)",
-        "Facultatif : 1 x Herbe Folle + 1 x Bakélélite par personnage accompagnant"
+        "Prévoir 2 000 kamas pour les informations de Hersa Griffe Sombre.",
+        "Prévoir au choix 10 000 kamas ou un combat pour obtenir la clef auprès de Grimpill.",
+        "Prévoir 5 x Planche à Pâtisserie pour obtenir les Gelées Sbihaine nécessaires aux éventuelles copies de clef.",
+        "Prévoir 1 x Corde d'escalade.",
+        "Facultatif pour chaque clef supplémentaire : 1 x Gelée Sbihaine, 1 x Herbe Folle et 1 x Bakélélite, avec un Bricoleur niveau 1 minimum."
       ],
       "actions": [
         {
-          "instruction": "Parler à Amayiro à la Milice pour lancer la quête.",
+          "instruction": "Parlez à Amayiro pour recevoir la mission d'infiltration du repaire des bandits.",
           "position": "[-32,-57]",
-          "zoneHint": null,
+          "zoneHint": "Milice de Bonta",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Parler à Hersa Griffe Sombre pour obtenir des informations sur son ex-amant. Payer 2 000 kamas.",
+          "instruction": "Payez 2 000 kamas à Hersa Griffe Sombre afin d'obtenir le nom de Grimpill et sa piste vers la Taverne de la Bagrutte.",
           "position": "[-30,-53]",
-          "zoneHint": null,
-          "warning": "Dépense de 2 000 kamas.",
+          "zoneHint": "Sortie Sud de Bonta",
+          "warning": "Dépense obligatoire de 2 000 kamas.",
           "combat": "NONE"
         },
         {
-          "instruction": "Parler à Ecaline dans la Taverne de la Bagrutte.",
+          "instruction": "Interrogez Ecaline à la Taverne de la Bagrutte. Elle vous apprend que le Capitaine Alrok est intervenu contre Grimpill.",
           "position": "[-29,-59]",
-          "zoneHint": null,
+          "zoneHint": "Taverne de la Bagrutte",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Parler au Capitaine Alrok au zaap de Bonta.",
+          "instruction": "Interrogez le Capitaine Alrok. Il indique que Grimpill a été libéré sur ordre d'un supérieur et qu'il rôde près de la Tour des ordres.",
           "position": "[-31,-56]",
-          "zoneHint": null,
+          "zoneHint": "Zaap de Bonta",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Parler à Grimpill près de la tour des ordres et exiger une clef du repaire des bandits.",
+          "instruction": "Confrontez Grimpill et exigez la clef du repaire. Choisissez de lui donner 10 000 kamas ou de prendre la clef de force.",
           "position": "[-32,-58]",
           "zoneHint": null,
-          "warning": "Choix entre payer 10 000 kamas ou combattre (réalisable en groupe).",
+          "warning": "Choix immédiat : dépenser 10 000 kamas pour éviter le combat ou combattre. Le combat peut être réalisé à plusieurs.",
           "combat": "CHOICE"
+        },
+        {
+          "instruction": "Si vous avez choisi le combat, reparlez à Grimpill après la victoire pour récupérer la clef du repaire.",
+          "position": "[-32,-58]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montrez la clef à Amayiro et choisissez de partir voir Liroye Merline pour préparer d'éventuelles copies destinées à vos alliés.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Demandez à Liroye Merline comment copier la clef et remettez-lui 5 x Planche à Pâtisserie. Elle vous donne 14 x Gelée Sbihaine.",
+          "position": "[-32,-54]",
+          "zoneHint": null,
+          "warning": "Les 5 Planches à Pâtisserie sont à fournir. Les copies ne sont nécessaires que si vous voulez faire entrer d'autres personnages.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous souhaitez emmener des alliés dans le repaire, fabriquez pour chacun une clef supplémentaire avec 1 x Gelée Sbihaine, 1 x Herbe Folle et 1 x Bakélélite.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Étape facultative. Un personnage suffisamment puissant, éventuellement accompagné d'un compagnon, peut tenter le combat sans fabriquer de copies.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Avec votre Corde d'escalade, cliquez sur le bois derrière les rochers pour descendre au sous-sol, puis entrez dans la pièce adjacente.",
+          "position": "[-12,-44]",
+          "zoneHint": "Repaire des bandits",
+          "warning": "Chaque personnage entrant doit disposer des conditions d'accès nécessaires ; la Corde d'escalade est requise pour descendre.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Affrontez les bandits dans le repaire et remportez le combat.",
+          "position": "[-12,-44]",
+          "zoneHint": "Repaire des bandits",
+          "warning": "Combat réalisable à plusieurs. Les ennemis disposent notamment de boosts PA/PM et dommages, retraits, érosion, soins, attirance et repousse.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, cliquez sur les documents posés sur la table du bas pour récupérer les documents confidentiels bontariens.",
+          "position": "[-12,-44]",
+          "zoneHint": "Repaire des bandits",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rapportez les documents confidentiels à Amayiro pour terminer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
         }
       ],
       "notes": [
-        "Les Herbes Folles et Bakélélites sont facultatives et ne sont nécessaires que pour faire entrer d'autres personnages dans le combat."
+        "Les copies de clef sont facultatives et servent uniquement à faire entrer des alliés dans le combat du repaire."
       ],
       "npcs": [
         "Amayiro",
         "Hersa Griffe Sombre",
         "Ecaline",
         "Capitaine Alrok",
-        "Grimpill"
+        "Grimpill",
+        "Liroye Merline"
       ],
       "items": [
+        {
+          "name": "Clef du repaire des bandits",
+          "itemId": 9997,
+          "imageUrl": "/items/9997.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9997"
+        },
         {
           "name": "Planche à Pâtisserie",
           "itemId": 16495,
           "imageUrl": "/items/16495.png",
           "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16495"
+        },
+        {
+          "name": "Gelée Sbihaine",
+          "itemId": 10003,
+          "imageUrl": "/items/10003.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/10003"
         },
         {
           "name": "Herbe Folle",
@@ -1528,10 +1439,23 @@
           "itemId": 9935,
           "imageUrl": "/items/9935.png",
           "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9935"
+        },
+        {
+          "name": "Documents confidentiels bontariens",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
         }
       ],
       "bestiary": {
         "zones": [
+          {
+            "id": 523,
+            "name": "Cirque de Cania",
+            "coordinates": [
+              "-12,-44"
+            ]
+          },
           {
             "id": 975,
             "name": "Cœur immaculé",
@@ -1545,18 +1469,33 @@
             "id": 973,
             "name": "Faubourgs des artisans",
             "coordinates": [
-              "-30,-53"
+              "-32,-54"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
             ]
           },
           {
             "id": 448,
             "name": "Taverne",
             "coordinates": [
+              "-30,-53",
               "-29,-59"
             ]
           }
         ],
-        "bounties": [],
+        "bounties": [
+          {
+            "id": 4015,
+            "name": "Fojumo",
+            "level": 140,
+            "imageUrl": "/bestiary/monsters/4015.png"
+          }
+        ],
         "archmonsters": [
           {
             "id": 2343,
@@ -1637,85 +1576,155 @@
                 "imageUrl": "/bestiary/monsters/236.png"
               }
             ]
+          },
+          {
+            "id": 1060,
+            "name": "Truches",
+            "monsters": [
+              {
+                "id": 3620,
+                "name": "Truchmuche",
+                "level": 113,
+                "imageUrl": "/bestiary/monsters/3620.png"
+              },
+              {
+                "id": 3621,
+                "name": "Truchideur",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3621.png"
+              },
+              {
+                "id": 3622,
+                "name": "Truchtine",
+                "level": 111,
+                "imageUrl": "/bestiary/monsters/3622.png"
+              },
+              {
+                "id": 3623,
+                "name": "Truchon",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/3623.png"
+              }
+            ]
           }
         ]
       },
       "questKey": "quest:130",
+      "relation": "ACTIVE",
+      "sortOrder": 4,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/dans-la-gueule-du-chacha.html",
       "sourceTitle": "Alignement 45 : Dans la gueule du chacha",
       "sourceHash": "52c1b89ac810a3d003ff300a195290136272c21ecdb5e377aba74fb46bb41886",
-      "generatedAt": "2026-08-24T17:18:52.512Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     },
     {
-      "overview": "Quête d'alignement Bonta niveau 46 consistant à ravitailler trois miliciens en Pemmican aux Haricots, puis tenter de récupérer un rapport confidentiel auprès de Ture Inge à la Milice de Bonta.",
+      "overview": "Après l'infiltration du repaire, Amayiro vous affecte au ravitaillement. Distribuez neuf Pemmicans aux Haricots aux trois miliciens, puis enquêtez sur le rapport qui met en doute votre loyauté. Une Ceinture de Sécurité permet d'obtenir une piste auprès de Ture Inge ; avec l'aide d'une personne, récupérez ensuite le rapport original dans la Tour des ordres, faites constater sa falsification et remettez-le finalement à Amayiro.",
       "recommendedLevel": 116,
       "prerequisites": [
-        "Dans la gueule du chacha"
+        "Dans la gueule du chacha."
       ],
       "rewards": [
-        "3 563 473 XP"
+        "3 563 473 XP."
       ],
       "preparation": [
-        "9 x Pemmican aux Haricots",
-        "1 x Ceinture de Sécurité",
-        "Aide d'une personne"
+        "Prévoir 9 x Pemmican aux Haricots.",
+        "Les Pemmicans peuvent être achetés ou fabriqués par un Chasseur niveau 110 minimum avec, pour chacun, 1 x Viande Séchée, 1 x Lin et 1 x Haricot.",
+        "Prévoir 1 x Ceinture de Sécurité.",
+        "La Ceinture de Sécurité peut être achetée ou fabriquée par un Cordonnier niveau 17 minimum avec 3 x Intestin d’Araknosé et 3 x Peau de Larve Jaune.",
+        "Prévoir l'aide d'une autre personne pour récupérer le rapport dans la Tour des ordres."
       ],
       "actions": [
         {
-          "instruction": "Aller à la Milice de Bonta en [-32,-57] et parler à Amayiro pour lancer la quête.",
+          "instruction": "Parlez à Amayiro. Il vous charge de distribuer neuf Pemmicans aux Haricots aux miliciens.",
           "position": "[-32,-57]",
-          "zoneHint": "Bonta",
+          "zoneHint": "Milice de Bonta",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Se procurer 9 Pemmican aux Haricots, par achat en HDV ou par craft via un chasseur niveau 110 minimum.",
-          "position": null,
-          "zoneHint": null,
-          "warning": "Prévoir l'achat ou le craft des 9 Pemmican aux Haricots.",
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller en [-33,-56] et parler à Finche Aticus, choisir « Donner le repas » pour lui remettre 3 Pemmican aux Haricots.",
+          "instruction": "Donnez 3 x Pemmican aux Haricots à Finche Aticus.",
           "position": "[-33,-56]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller en [-30,-53] et parler à Trev Pelsantery pour lui remettre 3 Pemmican aux Haricots. Il révèle qu'un rapport mettant en doute votre loyauté a été rédigé par le conseil et qu'il est consultable auprès de Ture Inge.",
-          "position": "[-30,-53]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller en [-29,-53] et parler à Shere Hacanon pour lui remettre 3 Pemmican aux Haricots.",
-          "position": "[-29,-53]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Retourner à la Milice en [-32,-57], monter les escaliers depuis la salle principale, entrer dans la pièce de droite et parler à Ture Inge en ayant la Ceinture de Sécurité dans l'inventaire.",
-          "position": "[-32,-57]",
           "zoneHint": "Bonta",
-          "warning": "Prévoir 1 Ceinture de Sécurité. Ture Inge respecte les ordres et ne peut pas montrer le rapport.",
+          "warning": "Trois Pemmicans sont consommés.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Donnez 3 x Pemmican aux Haricots à Trev Pelsantery. Il vous révèle qu'un rapport du conseil remet en cause votre loyauté et qu'il est possible d'en apprendre davantage auprès de Ture Inge.",
+          "position": "[-30,-53]",
+          "zoneHint": "Bonta",
+          "warning": "Trois Pemmicans sont consommés.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Donnez 3 x Pemmican aux Haricots à Shere Hacanon.",
+          "position": "[-29,-53]",
+          "zoneHint": "Bonta",
+          "warning": "Les trois derniers Pemmicans sont consommés.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Munissez-vous de 1 x Ceinture de Sécurité puis rendez-vous à la Milice. Depuis la salle principale, montez les escaliers et entrez dans la pièce de droite.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": "La Ceinture de Sécurité est requise pour poursuivre auprès de Ture Inge.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Ture Inge et proposez la Ceinture de Sécurité afin d'obtenir des informations sur le rapport. Il ne peut pas vous le montrer directement, mais vous indique où trouver l'original.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": "La Ceinture de Sécurité est remise dans le cadre de cette étape.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Avec une autre personne, rendez-vous à la Tour des ordres. Depuis l'entrée haute, entrez, allez à droite puis dans la salle du haut.",
+          "position": "[-34,-58]",
+          "zoneHint": "Tour des ordres",
+          "warning": "La présence d'une seconde personne est nécessaire pour détourner le garde.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Faites placer votre allié sur la cellule située juste devant le garde, puis parlez au Garde de la Tour pour le distraire. Pendant qu'il est occupé, cliquez sur la bibliothèque derrière lui et récupérez le Rapport suspicieux.",
+          "position": "[-34,-58]",
+          "zoneHint": "Tour des ordres",
+          "warning": "Coordination avec une autre personne obligatoire pour accéder au document.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Ture Inge et montrez-lui le Rapport suspicieux. Il constate que le document a été falsifié et que votre nom remplace un nom d'origine commençant par X.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez Larry Poller devant la Tour des ordres au sujet de la Gelée de Dégelée utilisée pour modifier le rapport. Cette piste ne permet pas d'identifier le coupable.",
+          "position": "[-34,-58]",
+          "zoneHint": "Tour des ordres",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Amayiro et remettez-lui le rapport falsifié. Il le conservera comme preuve de votre innocence, ce qui termine la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
           "combat": "NONE"
         }
       ],
       "notes": [
-        "Nécessite l'aide d'une autre personne.",
-        "Les Pemmican aux Haricots peuvent être achetés en HDV ou craftés par un chasseur niveau 110 minimum.",
-        "La Ceinture de Sécurité peut être achetée en HDV ou craftée par un cordonnier niveau 17 minimum."
+        "Le rapport découvert est falsifié : le véritable nom commençait par la lettre X.",
+        "La suite de l'enquête sur le traître est volontairement laissée à l'étape suivante du guide."
       ],
       "npcs": [
         "Amayiro",
         "Finche Aticus",
         "Trev Pelsantery",
         "Shere Hacanon",
-        "Ture Inge"
+        "Ture Inge",
+        "Garde de la Tour",
+        "Larry Poller"
       ],
       "items": [
         {
@@ -1723,12 +1732,6 @@
           "itemId": 17187,
           "imageUrl": "/items/17187.png",
           "dofusDbUrl": "https://dofusdb.fr/fr/database/item/17187"
-        },
-        {
-          "name": "Ceinture de Sécurité",
-          "itemId": 734,
-          "imageUrl": "/items/734.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/734"
         },
         {
           "name": "Viande Séchée",
@@ -1749,6 +1752,12 @@
           "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6671"
         },
         {
+          "name": "Ceinture de Sécurité",
+          "itemId": 734,
+          "imageUrl": "/items/734.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/734"
+        },
+        {
           "name": "Intestin d'Araknosé",
           "itemId": 373,
           "imageUrl": "/items/373.png",
@@ -1759,6 +1768,18 @@
           "itemId": 2563,
           "imageUrl": "/items/2563.png",
           "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2563"
+        },
+        {
+          "name": "Rapport suspicieux",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Gelée de Dégelée",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
         }
       ],
       "bestiary": {
@@ -1777,6 +1798,28 @@
             "coordinates": [
               "-30,-53",
               "-29,-53"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "-34,-58",
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 976,
+            "name": "Promontoire des cieux",
+            "coordinates": [
+              "-34,-58"
             ]
           }
         ],
@@ -1865,11 +1908,13 @@
         ]
       },
       "questKey": "quest:131",
+      "relation": "ACTIVE",
+      "sortOrder": 5,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/alimentaire-mon-cher.html",
       "sourceTitle": "Alignement 46 : Alimentaire mon cher",
       "sourceHash": "57a562f13a6c62247603d1a128adacf40eb5165785df2339f1fbb19fe732bcde",
-      "generatedAt": "2026-08-24T17:12:28.303Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     }
   ],
   "tips": []

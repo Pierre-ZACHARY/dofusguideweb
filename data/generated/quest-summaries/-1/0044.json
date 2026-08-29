@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 44,
-  "updatedAt": "2026-08-27T13:32:16.767Z",
+  "updatedAt": "2026-08-29T09:59:08.913Z",
   "summaries": [
     {
       "overview": "Pat Akess vous fait enchaîner six donjons, avec un retour auprès de lui après chacun des cinq premiers afin de recevoir la clef suivante. Vous devez vaincre successivement le Scarabosse Doré, le Coffre des Forgerons, la Bworkette, la Shin Larve, le Rakoopeur puis le Craqueleur Légendaire. Après le dernier donjon, Pat Akess vous envoie voir Chris de Naire pour conclure la quête et débloquer Un juge hystérique.",
@@ -172,34 +172,6 @@
       "bestiary": {
         "zones": [
           {
-            "id": 284,
-            "name": "Donjon des Bworks",
-            "coordinates": [
-              "-5,10"
-            ]
-          },
-          {
-            "id": 528,
-            "name": "Donjon des Forgerons",
-            "coordinates": [
-              "13,21"
-            ]
-          },
-          {
-            "id": 491,
-            "name": "Donjon des Larves",
-            "coordinates": [
-              "-2,-5"
-            ]
-          },
-          {
-            "id": 297,
-            "name": "Donjon des Scarafeuilles",
-            "coordinates": [
-              "1,26"
-            ]
-          },
-          {
             "id": 778,
             "name": "Mine",
             "coordinates": [
@@ -207,18 +179,39 @@
             ]
           },
           {
-            "id": 243,
-            "name": "Pitons Rocheux des Craqueleurs",
+            "id": 2,
+            "name": "Montagne des Craqueleurs",
             "coordinates": [
+              "-2,-5",
               "-3,-7"
+            ]
+          },
+          {
+            "id": 170,
+            "name": "Plaine des Scarafeuilles",
+            "coordinates": [
+              "1,26"
+            ]
+          },
+          {
+            "id": 1,
+            "name": "Port de Madrestam",
+            "coordinates": [
+              "10,-3"
             ]
           },
           {
             "id": 1022,
             "name": "Refuge sylvestre",
             "coordinates": [
-              "10,-3",
               "40,-84"
+            ]
+          },
+          {
+            "id": 103,
+            "name": "Territoire des Bandits",
+            "coordinates": [
+              "13,21"
             ]
           },
           {
@@ -226,6 +219,13 @@
             "name": "Village d'Amakna",
             "coordinates": [
               "5,0"
+            ]
+          },
+          {
+            "id": 277,
+            "name": "Village des Bworks",
+            "coordinates": [
+              "-5,10"
             ]
           }
         ],
@@ -260,6 +260,120 @@
             "name": "Pioustone le Problème",
             "level": 11,
             "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2332,
+            "name": "Larchimaide la Poussée",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2332.png"
+          },
+          {
+            "id": 2331,
+            "name": "Larvapstrè le Subjectif",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2331.png"
+          },
+          {
+            "id": 2339,
+            "name": "Larvomatik le Propre",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2339.png"
+          },
+          {
+            "id": 2574,
+            "name": "Larvonika l'Instrument",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2574.png"
+          },
+          {
+            "id": 2280,
+            "name": "Scapé l'Epée",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2280.png"
+          },
+          {
+            "id": 2283,
+            "name": "Scaramel le Fondant",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2283.png"
+          },
+          {
+            "id": 2281,
+            "name": "Scarfayss le Balafré",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2281.png"
+          },
+          {
+            "id": 2282,
+            "name": "Scarouarze l'Epopée",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2282.png"
+          },
+          {
+            "id": 2318,
+            "name": "Boudur le Raide",
+            "level": 35,
+            "imageUrl": "/bestiary/monsters/2318.png"
+          },
+          {
+            "id": 2314,
+            "name": "Bandson le Tonitruant",
+            "level": 37,
+            "imageUrl": "/bestiary/monsters/2314.png"
+          },
+          {
+            "id": 2417,
+            "name": "Barchwork le Multicolore",
+            "level": 37,
+            "imageUrl": "/bestiary/monsters/2417.png"
+          },
+          {
+            "id": 2416,
+            "name": "Bworkasse le Dégoutant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2416.png"
+          },
+          {
+            "id": 2418,
+            "name": "Bwormage le Respectueux",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2418.png"
+          },
+          {
+            "id": 2328,
+            "name": "Forboyar l'Enigmatique",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2328.png"
+          },
+          {
+            "id": 2367,
+            "name": "Kwakamole l'Appétissant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2367.png"
+          },
+          {
+            "id": 2369,
+            "name": "Kwaké le Piraté",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2369.png"
+          },
+          {
+            "id": 2451,
+            "name": "Kwakolak le Chocolaté",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2451.png"
+          },
+          {
+            "id": 2368,
+            "name": "Kwakwatique le Trempé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2368.png"
+          },
+          {
+            "id": 2335,
+            "name": "Minsinistre l'Elu",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2335.png"
           }
         ],
         "achievements": [
@@ -318,68 +432,122 @@
             ]
           },
           {
-            "id": 186,
-            "name": "Craqueleurs",
+            "id": 212,
+            "name": "Dragodindes",
             "monsters": [
               {
-                "id": 483,
-                "name": "Craqueboule",
+                "id": 171,
+                "name": "Dragodinde amande sauvage",
                 "level": 62,
-                "imageUrl": "/bestiary/monsters/483.png"
+                "imageUrl": "/bestiary/monsters/171.png"
               },
               {
-                "id": 106,
-                "name": "Craqueleur",
+                "id": 200,
+                "name": "Dragodinde rousse sauvage",
                 "level": 62,
-                "imageUrl": "/bestiary/monsters/106.png"
-              },
-              {
-                "id": 293,
-                "name": "Craqueleur des Plaines",
-                "level": 62,
-                "imageUrl": "/bestiary/monsters/293.png"
-              },
-              {
-                "id": 4570,
-                "name": "Élémenterre",
-                "level": 59,
-                "imageUrl": "/bestiary/monsters/4570.png"
-              },
-              {
-                "id": 4573,
-                "name": "Craquelope",
-                "level": 62,
-                "imageUrl": "/bestiary/monsters/4573.png"
+                "imageUrl": "/bestiary/monsters/200.png"
               }
             ]
           },
           {
-            "id": 1667,
-            "name": "Grosses Larves",
+            "id": 190,
+            "name": "Kwakeres",
             "monsters": [
               {
-                "id": 456,
-                "name": "Larve Dorée",
+                "id": 269,
+                "name": "Kwakere de Flamme",
                 "level": 42,
-                "imageUrl": "/bestiary/monsters/456.png"
+                "imageUrl": "/bestiary/monsters/269.png"
               },
               {
-                "id": 413,
-                "name": "Larve Rubis",
+                "id": 271,
+                "name": "Kwakere de Glace",
                 "level": 42,
-                "imageUrl": "/bestiary/monsters/413.png"
+                "imageUrl": "/bestiary/monsters/271.png"
               },
               {
-                "id": 412,
-                "name": "Larve Saphir",
+                "id": 270,
+                "name": "Kwakere de Terre",
                 "level": 42,
-                "imageUrl": "/bestiary/monsters/412.png"
+                "imageUrl": "/bestiary/monsters/270.png"
               },
               {
-                "id": 414,
-                "name": "Larve Émeraude",
+                "id": 272,
+                "name": "Kwakere de Vent",
                 "level": 42,
-                "imageUrl": "/bestiary/monsters/414.png"
+                "imageUrl": "/bestiary/monsters/272.png"
+              }
+            ]
+          },
+          {
+            "id": 189,
+            "name": "Kwaks",
+            "monsters": [
+              {
+                "id": 83,
+                "name": "Kwak de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/83.png"
+              },
+              {
+                "id": 84,
+                "name": "Kwak de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/84.png"
+              },
+              {
+                "id": 235,
+                "name": "Kwak de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/235.png"
+              },
+              {
+                "id": 81,
+                "name": "Kwak de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/81.png"
+              }
+            ]
+          },
+          {
+            "id": 203,
+            "name": "Larves",
+            "monsters": [
+              {
+                "id": 31,
+                "name": "Larve Bleue",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/31.png"
+              },
+              {
+                "id": 46,
+                "name": "Larve Orange",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/46.png"
+              },
+              {
+                "id": 34,
+                "name": "Larve Verte",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/34.png"
+              },
+              {
+                "id": 5225,
+                "name": "Larve Jaune",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/5225.png"
+              }
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Mulous",
+            "monsters": [
+              {
+                "id": 102,
+                "name": "Mulou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/102.png"
               }
             ]
           },
@@ -416,6 +584,18 @@
                 "name": "Piou Violet",
                 "level": 11,
                 "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 214,
+            "name": "Porkass",
+            "monsters": [
+              {
+                "id": 123,
+                "name": "Cochon de Lait",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/123.png"
               }
             ]
           },
@@ -470,18 +650,6 @@
                 "name": "Scarafeuille Blanc",
                 "level": 34,
                 "imageUrl": "/bestiary/monsters/241.png"
-              },
-              {
-                "id": 798,
-                "name": "Scarafeuille Immature",
-                "level": 30,
-                "imageUrl": "/bestiary/monsters/798.png"
-              },
-              {
-                "id": 795,
-                "name": "Scarafeuille Noir",
-                "level": 36,
-                "imageUrl": "/bestiary/monsters/795.png"
               },
               {
                 "id": 194,

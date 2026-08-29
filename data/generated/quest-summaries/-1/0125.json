@@ -1,93 +1,54 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 125,
-  "updatedAt": "2026-08-27T13:32:25.165Z",
+  "updatedAt": "2026-08-29T10:24:03.572Z",
   "summaries": [
     {
-      "overview": "Aidez Justin Dwa à la Bourgade de Frigost à fabriquer des skis. Rapportez-lui des planches, puis obtenez des outils auprès de Francky en réunissant les matériaux nécessaires. Enfin, retournez voir Justin Dwa pour terminer la quête.",
+      "overview": "Lancez Star ski et Dutch et avancez uniquement jusqu'à la demande de matériaux de Francky comprenant 10 Long poil de Kaniglou et 5 Sève de Mycos. Ne cherchez pas encore à terminer cette quête : Semer ses graines doit être effectuée avant sa reprise.",
       "recommendedLevel": 130,
       "prerequisites": [
-        "Bricole Girl"
+        "Avoir terminé Bricole Girl."
       ],
       "rewards": [
-        "3 971 945 XP",
-        "38 960 kamas",
-        "5 x Kama de glace",
-        "10 x Paire de skis rustiques jetables"
+        "3 971 945 XP.",
+        "38 960 kamas.",
+        "5 x Kama de glace.",
+        "10 x Paire de skis rustiques jetables."
       ],
       "preparation": [
-        "2 x Planche à Repasser",
-        "2 x Planche de Salut",
-        "2 x Planche à Pain",
-        "2 x Planche à Pâtisserie",
-        "35 x Obsidienne",
-        "2 x Fer"
+        "Prévoir 2 x Planche à Repasser.",
+        "Prévoir 2 x Planche de Salut.",
+        "Prévoir 2 x Planche à Pain.",
+        "Prévoir 2 x Planche à Pâtisserie.",
+        "Les 35 x Obsidienne, 2 x Fer, 10 x Long poil de Kaniglou et 5 x Sève de Mycos seront nécessaires à l'étape atteinte, mais les drops de Kaniglou et d'Ecumouth ne sont pas à effectuer dans cette occurrence."
       ],
       "actions": [
         {
-          "instruction": "Allez parler à Justin Dwa à la Bourgade de Frigost et acceptez de l'aider.",
+          "instruction": "Parlez à Justin Dwa, acceptez de l'aider et lancez Star ski et Dutch.",
           "position": "[-82,-46]",
           "zoneHint": "La bourgade",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Donnez à Justin Dwa les planches : 2 Planche à Repasser, 2 Planche de Salut, 2 Planche à Pain et 2 Planche à Pâtisserie.",
+          "instruction": "Remettez à Justin Dwa 2 Planche à Repasser, 2 Planche de Salut, 2 Planche à Pain et 2 Planche à Pâtisserie, puis reparlez-lui afin qu'il vous envoie chercher les outils nécessaires aux skis.",
           "position": "[-82,-46]",
           "zoneHint": "La bourgade",
-          "warning": "Dépense : 2 Planche à Repasser, 2 Planche de Salut, 2 Planche à Pain, 2 Planche à Pâtisserie.",
+          "warning": "Les huit planches sont consommées par la progression de la quête.",
           "combat": "NONE"
         },
         {
-          "instruction": "Reparlez à Justin Dwa. Il a besoin d'outils et vous envoie chez le bricoleur Francky.",
-          "position": "[-82,-46]",
-          "zoneHint": "La bourgade",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Allez voir Francky. Il peut fabriquer une Brosse à farter, un Ciseau à bois en obsidienne et un Rabot double lames si vous lui rapportez les matériaux.",
+          "instruction": "Allez voir Francky et poursuivez le dialogue jusqu'à obtenir sa demande de ressources pour fabriquer la Brosse à farter, les Ciseau à bois en obsidienne et le Rabot double lames : 35 Obsidienne, 2 Fer, 10 Long poil de Kaniglou et 5 Sève de Mycos.",
           "position": "[-75,-38]",
           "zoneHint": "La bourgade",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Combattez des Kaniglous pour obtenir 10 Long poil de Kaniglou (drop à 100%).",
-          "position": null,
-          "zoneHint": null,
-          "warning": "Combat contre des Kaniglous. Drop garanti à 100%.",
-          "combat": "SOLO"
-        },
-        {
-          "instruction": "Combattez des Ecumouth (drop 11-15%) ou des monstres de la Forêt pétrifiée (drop 25%) pour obtenir 5 Sève de Mycos.",
-          "position": null,
-          "zoneHint": "Forêt pétrifiée",
-          "warning": "Combat contre des Ecumouth (drop 11-15%) ou des monstres de la Forêt pétrifiée (drop 25%). Taux de drop faible, prévoyez plusieurs combats.",
-          "combat": "SOLO"
-        },
-        {
-          "instruction": "Retournez voir Francky et donnez-lui les 35 Obsidienne, 2 Fer, 10 Long poil de Kaniglou et 5 Sève de Mycos. Il vous remet la Brosse à farter, le Ciseau à bois en obsidienne et le Rabot double lames.",
-          "position": "[-75,-38]",
-          "zoneHint": "La bourgade",
-          "warning": "Dépense irréversible : 35 Obsidienne, 2 Fer, 10 Long poil de Kaniglou, 5 Sève de Mycos.",
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Retournez voir Justin Dwa et donnez-lui les trois outils fabriqués pour terminer la quête.",
-          "position": "[-82,-46]",
-          "zoneHint": "La bourgade",
-          "warning": null,
+          "warning": "Arrêtez-vous à cette demande de ressources. Ne livrez pas encore les matériaux et ne poursuivez pas la quête au-delà de ce point.",
           "combat": "NONE"
         }
       ],
       "notes": [
-        "Des conditions de caractéristiques peuvent être requises pour parler à certains PNJ.",
-        "L'Obsidienne peut être achetée en HDV ou récoltée par un mineur niveau 200.",
-        "Le Fer peut être acheté en HDV ou récolté par un mineur niveau 1.",
-        "Les Longs poils de Kaniglou sont des objets de quête avec un drop de 100% sur les Kaniglous.",
-        "La Sève de Mycos est un objet de quête avec un drop de 11-15% sur les Ecumouth ou 25% sur les monstres de la Forêt pétrifiée."
+        "La prochaine occurrence de Star ski et Dutch dans cette même étape est sa reprise en FINISH.",
+        "Semer ses graines doit maintenant être terminée ; son combat contre 5 Ecumouths peut aider à obtenir les Sève de Mycos nécessaires à Star ski et Dutch."
       ],
       "npcs": [
         "Justin Dwa",
@@ -159,27 +120,10 @@
           "itemId": 11459,
           "imageUrl": "/items/11459.png",
           "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11459"
-        },
-        {
-          "name": "Kama de glace",
-          "itemId": 11196,
-          "imageUrl": "/items/11196.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11196"
-        },
-        {
-          "name": "Paire de skis rustiques jetables",
-          "itemId": 11994,
-          "imageUrl": "/items/11994.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11994"
         }
       ],
       "bestiary": {
         "zones": [
-          {
-            "id": 605,
-            "name": "Forêt pétrifiée",
-            "coordinates": []
-          },
           {
             "id": 601,
             "name": "La Bourgade",
@@ -189,14 +133,7 @@
             ]
           }
         ],
-        "bounties": [
-          {
-            "id": 2908,
-            "name": "Dremoan",
-            "level": 180,
-            "imageUrl": "/bestiary/monsters/2908.png"
-          }
-        ],
+        "bounties": [],
         "archmonsters": [],
         "achievements": [
           {
@@ -228,151 +165,155 @@
                 "imageUrl": "/bestiary/monsters/2892.png"
               }
             ]
-          },
-          {
-            "id": 154,
-            "name": "Sylvesprits",
-            "monsters": [
-              {
-                "id": 2898,
-                "name": "Abrazif",
-                "level": 172,
-                "imageUrl": "/bestiary/monsters/2898.png"
-              },
-              {
-                "id": 2895,
-                "name": "Dramanite",
-                "level": 172,
-                "imageUrl": "/bestiary/monsters/2895.png"
-              },
-              {
-                "id": 2896,
-                "name": "Fistulor",
-                "level": 172,
-                "imageUrl": "/bestiary/monsters/2896.png"
-              },
-              {
-                "id": 2897,
-                "name": "Fongeur",
-                "level": 172,
-                "imageUrl": "/bestiary/monsters/2897.png"
-              }
-            ]
           }
         ]
       },
       "questKey": "quest:410",
+      "relation": "START",
+      "sortOrder": 0,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/star-ski-et-dutch.html",
       "sourceTitle": "Star ski et Dutch",
       "sourceHash": "4372425d00b994c76a02cbf345e48cf63ea52ed88c7c6282a847e4e7e69e7253",
-      "generatedAt": "2026-08-24T18:04:07.824Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     },
     {
-      "overview": "Panoramist, en Champs de glace [-63,-51], vous charge de planter des Graines de Panoramist à travers la Forêt des Pins Perdus. Certains emplacements déclenchent des combats contre des groupes de monstres. Une fois toutes les graines plantées, retournez le voir pour terminer la quête.",
+      "overview": "Effectuez entièrement Semer ses graines en plantant les graines aux onze emplacements indiqués. Le combat déclenché en [-61,-63] oppose 5 Ecumouths : utilisez la Grande Pierre d'âme parfaite prévue précédemment pour capturer ce groupe. Une fois la quête rendue, rejouez cette capture à l'arène afin de tenter d'obtenir davantage de Sève de Mycos pour Star ski et Dutch.",
       "recommendedLevel": 120,
       "prerequisites": [
-        "Scierie Bambelle"
+        "Avoir terminé Scierie Bambelle.",
+        "Disposer des Graines de Panoramist données par Panoramist.",
+        "Avoir une Grande Pierre d'âme parfaite si vous voulez suivre l'optimisation demandée par le guide."
       ],
       "rewards": [
-        "1 618 218 XP",
-        "16 780 kamas",
-        "3 x Kama de glace",
-        "1 x Étoffe de Kaniglou"
+        "1 618 218 XP.",
+        "16 780 kamas.",
+        "3 x Kama de glace.",
+        "1 x Étoffe de Kaniglou."
       ],
       "preparation": [
-        "4 x combats (réalisable en groupe)"
+        "Équipez ou gardez disponible une Grande Pierre d'âme parfaite pour le combat contre 5 Ecumouths en [-61,-63].",
+        "Les combats de la quête sont réalisables en groupe.",
+        "Une défaite lors des agressions déclenchées par les rochers ne bloque pas la progression de la quête."
       ],
       "actions": [
         {
-          "instruction": "Aller en [-63,-51] et parler à Panoramist. Il vous remet les Graines de Panoramist.",
-          "position": "[-63,-51]",
-          "zoneHint": "Champs de glace",
+          "instruction": "Plantez une Graine de Panoramist à l'emplacement prévu.",
+          "position": "[-63,-52]",
+          "zoneHint": "Forêt des pins perdus",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Planter une graine sur chaque carte : [-63,-52], [-66,-47], [-70,-48], [-70,-56].",
-          "position": null,
-          "zoneHint": "Forêt des Pins Perdus",
+          "instruction": "Plantez une Graine de Panoramist à l'emplacement prévu.",
+          "position": "[-66,-47]",
+          "zoneHint": "Forêt des pins perdus",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Planter une graine en [-66,-58]. En cliquant sur le rocher, un groupe de 2 Fricochères, 2 Sanglaciers et 1 Ecumouth vous agresse. Perdre le combat n'empêche pas de continuer la quête.",
+          "instruction": "Plantez une Graine de Panoramist à l'emplacement prévu.",
+          "position": "[-70,-48]",
+          "zoneHint": "Forêt des pins perdus",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Plantez une Graine de Panoramist à l'emplacement prévu.",
+          "position": "[-70,-56]",
+          "zoneHint": "Forêt des pins perdus",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez sur le rocher pour planter la graine et affrontez le groupe composé de 2 Fricochères, 2 Sanglaciers et 1 Ecumouth.",
           "position": "[-66,-58]",
-          "zoneHint": "Forêt des Pins Perdus",
-          "warning": "Combat déclenché en cliquant sur le rocher.",
+          "zoneHint": "Forêt des pins perdus",
+          "warning": "Le combat se déclenche en cliquant sur le rocher. Une défaite n'empêche pas de continuer la quête.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Planter une graine en [-64,-62].",
+          "instruction": "Plantez une Graine de Panoramist à l'emplacement prévu.",
           "position": "[-64,-62]",
-          "zoneHint": "Forêt des Pins Perdus",
+          "zoneHint": "Forêt des pins perdus",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Planter une graine en [-61,-63]. En cliquant sur le rocher, un groupe de 5 Ecumouths vous agresse. Perdre le combat n'empêche pas de continuer la quête.",
+          "instruction": "Cliquez sur le rocher pour planter la graine et affrontez les 5 Ecumouths. Capturez ce combat avec la Grande Pierre d'âme parfaite.",
           "position": "[-61,-63]",
-          "zoneHint": "Forêt des Pins Perdus",
-          "warning": "Combat déclenché en cliquant sur le rocher.",
+          "zoneHint": "Forêt des pins perdus",
+          "warning": "Le combat se déclenche en cliquant sur le rocher. Pensez à effectuer la capture demandée par le guide ; une défaite ne bloque pas la quête.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Planter une graine sur chaque carte : [-60,-62], [-57,-63].",
-          "position": null,
-          "zoneHint": "Forêt des Pins Perdus",
+          "instruction": "Plantez une Graine de Panoramist à l'emplacement prévu.",
+          "position": "[-60,-62]",
+          "zoneHint": "Forêt des pins perdus",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Planter une graine en [-58,-55]. En cliquant sur le rocher, un groupe de 5 Kaniglous vous agresse. Perdre le combat n'empêche pas de continuer la quête.",
+          "instruction": "Plantez une Graine de Panoramist à l'emplacement prévu.",
+          "position": "[-57,-63]",
+          "zoneHint": "Forêt des pins perdus",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez sur le rocher pour planter la graine et affrontez les 5 Kaniglous.",
           "position": "[-58,-55]",
-          "zoneHint": "Forêt des Pins Perdus",
-          "warning": "Combat déclenché en cliquant sur le rocher.",
+          "zoneHint": "Forêt des pins perdus",
+          "warning": "Le combat se déclenche en cliquant sur le rocher. Une défaite n'empêche pas de continuer la quête.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Planter une graine en [-58,-52]. En cliquant sur le rocher, un groupe de 4 Smilomouths et 1 Kaniglou vous agresse. Perdre le combat n'empêche pas de continuer la quête.",
+          "instruction": "Cliquez sur le rocher pour planter la graine et affrontez 4 Smilomouths et 1 Kaniglou.",
           "position": "[-58,-52]",
-          "zoneHint": "Forêt des Pins Perdus",
-          "warning": "Combat déclenché en cliquant sur le rocher.",
+          "zoneHint": "Forêt des pins perdus",
+          "warning": "Le combat se déclenche en cliquant sur le rocher. Une défaite n'empêche pas de continuer la quête.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Retourner en [-63,-51] parler à Panoramist. Il vous remercie et la quête se termine.",
+          "instruction": "Retournez auprès de Panoramist après avoir planté toutes les graines et validez la fin de Semer ses graines.",
           "position": "[-63,-51]",
           "zoneHint": "Champs de glace",
           "warning": null,
           "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à l'arène et rejouez la pierre d'âme contenant les 5 Ecumouths afin de tenter de récupérer les Sève de Mycos encore nécessaires à Star ski et Dutch.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Cette action consomme la capture. Les Sève de Mycos ne sont pas garanties à chaque Ecumouth.",
+          "combat": "GROUP"
         }
       ],
       "notes": [
-        "Perdre un combat lors de la plantation n'a aucune incidence sur la suite de la quête.",
-        "Tous les combats sont déclenchés en cliquant sur un rocher."
+        "La quête doit être terminée intégralement dans cette occurrence avant de reprendre Star ski et Dutch.",
+        "Les Ecumouths sont particulièrement utiles ici car la quête Star ski et Dutch, momentanément en attente, réclame 5 Sève de Mycos."
       ],
       "npcs": [
         "Panoramist"
       ],
       "items": [
         {
-          "name": "Graine de Panoramist",
-          "itemId": 11369,
-          "imageUrl": "/items/11369.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11369"
+          "name": "Graines de Panoramist",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
         },
         {
-          "name": "Kama de glace",
-          "itemId": 11196,
-          "imageUrl": "/items/11196.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11196"
+          "name": "Grande Pierre d'âme parfaite",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
         },
         {
-          "name": "Étoffe de Kaniglou",
-          "itemId": 11249,
-          "imageUrl": "/items/11249.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11249"
+          "name": "Sève de Mycos",
+          "itemId": 11466,
+          "imageUrl": "/items/11466.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11466"
         }
       ],
       "bestiary": {
@@ -487,60 +428,43 @@
         ]
       },
       "questKey": "quest:385",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/semer-ses-graines.html",
       "sourceTitle": "Semer ses graines",
       "sourceHash": "56b56345fa8ef4bdeb30b0197f672817e5662f7a71f1448458c1d091e1eb1e03",
-      "generatedAt": "2026-08-24T18:02:00.436Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     },
     {
-      "overview": "Récupérer 40 Roses Nelson en combattant les monstres de la Forêt des pins perdus et récolter 5 Mimes Osamodas à des emplacements précis, puis rapporter le tout à Bisale Vinlenta.",
+      "overview": "Les récoltes demandées lors de l'occurrence précédente sont supposées terminées. Il ne reste ici qu'à remettre les 40 Rose Nelson et les 5 Mime Osamodas à Bisale Vinlenta pour achever Botanique-nique-nique.",
       "recommendedLevel": 120,
       "prerequisites": [
-        "Cent vingt trois fleurs, point comme les autres"
+        "Avoir terminé Cent vingt trois fleurs, point comme les autres.",
+        "Avoir déjà récupéré 40 x Rose Nelson.",
+        "Avoir déjà récupéré 5 x Mime Osamodas."
       ],
       "rewards": [
-        "3 236 436 XP",
-        "33 560 Kamas",
-        "1 x Kama de glace",
-        "5 x Oreille percée du Fricochère"
+        "3 236 436 XP.",
+        "33 560 Kamas.",
+        "1 x Kama de glace.",
+        "5 x Oreille percée du Fricochère."
       ],
       "preparation": [
-        "Prévoir des combats contre les monstres de la Forêt des pins perdus"
+        "Vérifiez que les 40 Rose Nelson et les 5 Mime Osamodas demandés sont déjà obtenus avant de retourner auprès de Bisale Vinlenta."
       ],
       "actions": [
         {
-          "instruction": "Parler à Bisale Vinlenta en [-72,-31] pour lancer la quête.",
+          "instruction": "Retournez voir Bisale Vinlenta et remettez-lui les 40 Rose Nelson ainsi que les 5 Mime Osamodas afin de terminer Botanique-nique-nique.",
           "position": "[-72,-31]",
           "zoneHint": "Champs de glace",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Se rendre dans la Forêt des pins perdus et affronter 40 monstres pour obtenir 40 Roses Nelson.",
-          "position": null,
-          "zoneHint": "Forêt des pins perdus",
-          "warning": "40 combats nécessaires",
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Récolter 5 Mimes Osamodas aux positions suivantes : [-66,-48], [-68,-47], [-63,-52], [-61,-52], [-60,-52], [-59,-62], [-56,-60], [-65,-61], [-71,-54]. Temps de repop : ~5 minutes.",
-          "position": null,
-          "zoneHint": "Forêt des pins perdus",
-          "warning": "Dofus Touch : seulement 3 plantes en [-66,-48], [-60,-52], [-59,-62]",
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Retourner parler à Bisale Vinlenta en [-72,-31] pour lui donner les fleurs et terminer la quête.",
-          "position": "[-72,-31]",
-          "zoneHint": "Champs de glace",
-          "warning": null,
+          "warning": "Les fleurs sont remises au PNJ lors de la validation.",
           "combat": "NONE"
         }
       ],
       "notes": [
-        "Débloque la quête suivante : A fleur de peau",
-        "Dofus Touch : seulement 3 Mimes Osamodas aux positions [-66,-48], [-60,-52], [-59,-62]"
+        "La collecte des fleurs appartient à la portion déjà effectuée de cette quête et ne doit pas être recommencée ici.",
+        "La fin de cette quête débloque A fleur de peau."
       ],
       "npcs": [
         "Bisale Vinlenta"
@@ -559,12 +483,6 @@
           "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11159"
         },
         {
-          "name": "Kama de glace",
-          "itemId": 11196,
-          "imageUrl": "/items/11196.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11196"
-        },
-        {
           "name": "Oreille percée du Fricochère",
           "itemId": 11247,
           "imageUrl": "/items/11247.png",
@@ -579,21 +497,6 @@
             "coordinates": [
               "-72,-31"
             ]
-          },
-          {
-            "id": 604,
-            "name": "Forêt des pins perdus",
-            "coordinates": [
-              "-66,-48",
-              "-68,-47",
-              "-63,-52",
-              "-61,-52",
-              "-60,-52",
-              "-59,-62",
-              "-56,-60",
-              "-65,-61",
-              "-71,-54"
-            ]
           }
         ],
         "bounties": [
@@ -602,12 +505,6 @@
             "name": "Bouflouth",
             "level": 120,
             "imageUrl": "/bestiary/monsters/2901.png"
-          },
-          {
-            "id": 2903,
-            "name": "Katigrou",
-            "level": 140,
-            "imageUrl": "/bestiary/monsters/2903.png"
           }
         ],
         "archmonsters": [],
@@ -641,126 +538,377 @@
                 "imageUrl": "/bestiary/monsters/2853.png"
               }
             ]
+          }
+        ]
+      },
+      "questKey": "quest:336",
+      "relation": "FINISH",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/botanique-nique-nique.html",
+      "sourceTitle": "Botanique-nique-nique",
+      "sourceHash": "f4bb17db164d1c8881db75bd6672380cc579ec991263f205dc3501062ba7cf7a",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Reprenez Star ski et Dutch à la demande de matériaux de Francky atteinte plus tôt. Les ressources, notamment les 5 Sève de Mycos et 10 Long poil de Kaniglou, sont supposées désormais disponibles. Faites fabriquer les outils, organisez l'association entre Justin Dwa et Dutch, réalisez les quatre ventes sous leurs conditions de caractéristiques, puis rendez la quête à Justin.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Avoir avancé Star ski et Dutch jusqu'à la demande de matériaux de Francky lors de l'occurrence START de cette étape.",
+        "Disposer de 35 x Obsidienne.",
+        "Disposer de 2 x Fer.",
+        "Disposer de 10 x Long poil de Kaniglou.",
+        "Disposer de 5 x Sève de Mycos."
+      ],
+      "rewards": [
+        "3 971 945 XP.",
+        "38 960 kamas.",
+        "5 x Kama de glace.",
+        "10 x Paire de skis rustiques jetables."
+      ],
+      "preparation": [
+        "Réunissez 35 x Obsidienne, 2 x Fer, 10 x Long poil de Kaniglou et 5 x Sève de Mycos.",
+        "Pour Ken Tucky, prévoyez soit d'avoir terminé La marche de l'impératrice, soit au moins 200 agilité.",
+        "Pour Lisa Kaya, prévoyez au moins 200 chance ou 200 force.",
+        "Pour la Maire Cantile, prévoyez au moins 200 sagesse.",
+        "Pour Jarvi Jukkas, prévoyez au moins 200 intelligence ou 200 sagesse."
+      ],
+      "actions": [
+        {
+          "instruction": "Remettez à Francky les 35 Obsidienne, 2 Fer, 10 Long poil de Kaniglou et 5 Sève de Mycos nécessaires afin qu'il fabrique la Brosse à farter, les Ciseau à bois en obsidienne et le Rabot double lames.",
+          "position": "[-75,-38]",
+          "zoneHint": "La bourgade",
+          "warning": "Les ressources demandées sont consommées pour poursuivre la quête.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Justin Dwa et remettez-lui les outils fabriqués par Francky.",
+          "position": "[-82,-46]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à l'atelier des cordonniers, parlez à Dutch au sujet de Justin et obtenez son accord pour l'association.",
+          "position": "[-74,-42]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Justin Dwa pour lui annoncer que Dutch accepte de s'associer avec lui et recevoir la mission de promotion des skis.",
+          "position": "[-82,-46]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Vendez une paire de skis à Ken Tucky. Utilisez l'option de marchandage si La marche de l'impératrice est terminée, sinon choisissez la démonstration d'habileté avec au moins 200 agilité.",
+          "position": "[-80,-46]",
+          "zoneHint": "La bourgade",
+          "warning": "La validation dépend soit de La marche de l'impératrice, soit d'un minimum de 200 agilité pour l'autre choix.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Vendez une paire de skis à Lisa Kaya en vantant leur esthétique.",
+          "position": "[-81,-41]",
+          "zoneHint": "La bourgade",
+          "warning": "Il faut au moins 200 chance ou 200 force pour réussir cette vente.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Convainquez la Maire Cantile d'acheter les skis en lui parlant d'élection.",
+          "position": "[-77,-42]",
+          "zoneHint": "La bourgade",
+          "warning": "Il faut au moins 200 sagesse.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Vendez la dernière paire à Jarvi Jukkas en choisissant soit de le baratiner avec au moins 200 intelligence, soit d'argumenter sur l'utilité des skis avec au moins 200 sagesse.",
+          "position": "[-60,-59]",
+          "zoneHint": null,
+          "warning": "Cette vente requiert au minimum 200 intelligence pour le premier choix ou 200 sagesse pour le second.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Justin Dwa après les quatre ventes et terminez Star ski et Dutch.",
+          "position": "[-82,-46]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les premières étapes de la quête, jusqu'à la demande de ressources de Francky, sont supposées déjà accomplies dans l'occurrence START.",
+        "Après la quête, le magasin de ski permet d'acheter pour 50 kamas des skis jetables donnant accès à différents points de Frigost lorsqu'ils sont utilisés dans la sous-zone appropriée."
+      ],
+      "npcs": [
+        "Francky",
+        "Justin Dwa",
+        "Dutch",
+        "Ken Tucky",
+        "Lisa Kaya",
+        "Maire Cantile",
+        "Jarvi Jukkas"
+      ],
+      "items": [
+        {
+          "name": "Obsidienne",
+          "itemId": 11110,
+          "imageUrl": "/items/11110.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11110"
+        },
+        {
+          "name": "Fer",
+          "itemId": 312,
+          "imageUrl": "/items/312.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/312"
+        },
+        {
+          "name": "Long poil de Kaniglou",
+          "itemId": 11465,
+          "imageUrl": "/items/11465.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11465"
+        },
+        {
+          "name": "Sève de Mycos",
+          "itemId": 11466,
+          "imageUrl": "/items/11466.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11466"
+        },
+        {
+          "name": "Brosse à farter",
+          "itemId": 11460,
+          "imageUrl": "/items/11460.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11460"
+        },
+        {
+          "name": "Ciseau à bois en obsidienne",
+          "itemId": 11458,
+          "imageUrl": "/items/11458.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11458"
+        },
+        {
+          "name": "Rabot double lames",
+          "itemId": 11459,
+          "imageUrl": "/items/11459.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11459"
+        },
+        {
+          "name": "Paire de skis rustiques jetables",
+          "itemId": 11994,
+          "imageUrl": "/items/11994.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11994"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 601,
+            "name": "La Bourgade",
+            "coordinates": [
+              "-75,-38",
+              "-82,-46",
+              "-74,-42",
+              "-80,-46",
+              "-81,-41",
+              "-77,-42"
+            ]
           },
           {
-            "id": 138,
-            "name": "Faune des Pins Perdus",
+            "id": 615,
+            "name": "Lac gelé",
+            "coordinates": [
+              "-60,-59"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2902,
+            "name": "Monsieur Pingouin",
+            "level": 130,
+            "imageUrl": "/bestiary/monsters/2902.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
             "monsters": [
               {
-                "id": 2859,
-                "name": "Écumouth",
-                "level": 132,
-                "imageUrl": "/bestiary/monsters/2859.png"
+                "id": 2913,
+                "name": "Chachachovage",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2913.png"
               },
               {
-                "id": 2846,
-                "name": "Fricochère",
-                "level": 132,
-                "imageUrl": "/bestiary/monsters/2846.png"
+                "id": 2893,
+                "name": "Crabe Hijacob",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2893.png"
               },
               {
-                "id": 2847,
-                "name": "Kaniglou",
-                "level": 132,
-                "imageUrl": "/bestiary/monsters/2847.png"
+                "id": 2914,
+                "name": "Gélikan",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2914.png"
               },
               {
-                "id": 2845,
-                "name": "Sanglacier",
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          },
+          {
+            "id": 160,
+            "name": "Mansots",
+            "monsters": [
+              {
+                "id": 2858,
+                "name": "Fu Mansot",
                 "level": 132,
-                "imageUrl": "/bestiary/monsters/2845.png"
+                "imageUrl": "/bestiary/monsters/2858.png"
               },
               {
-                "id": 2860,
-                "name": "Smilomouth",
+                "id": 2857,
+                "name": "Mamansot",
                 "level": 132,
-                "imageUrl": "/bestiary/monsters/2860.png"
+                "imageUrl": "/bestiary/monsters/2857.png"
+              },
+              {
+                "id": 2856,
+                "name": "Mansobèse",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2856.png"
+              },
+              {
+                "id": 2855,
+                "name": "Shamansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2855.png"
+              },
+              {
+                "id": 2849,
+                "name": "Timansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2849.png"
               }
             ]
           }
         ]
       },
-      "questKey": "quest:336",
-      "sourceUrl": "https://www.dofuspourlesnoobs.com/botanique-nique-nique.html",
-      "sourceTitle": "Botanique-nique-nique",
-      "sourceHash": "f4bb17db164d1c8881db75bd6672380cc579ec991263f205dc3501062ba7cf7a",
-      "generatedAt": "2026-08-24T17:13:33.112Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "questKey": "quest:410",
+      "relation": "FINISH",
+      "sortOrder": 3,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/star-ski-et-dutch.html",
+      "sourceTitle": "Star ski et Dutch",
+      "sourceHash": "4372425d00b994c76a02cbf345e48cf63ea52ed88c7c6282a847e4e7e69e7253",
+      "generatedAt": null,
+      "model": null
     },
     {
-      "overview": "Aidez le Chef Rhonté à retrouver ses employés disparus dans la réserve de bois. Escortez tour à tour Staurme Sioux, Staurme Jauni, Richard Rouge et Grimebène jusqu'au Port de givre. Face à Grimebène, choisissez entre combattre des Smilomouths ou fuir.",
+      "overview": "Effectuez Promenons-nous dans les bois en parallèle de Faire le tas de pins. Le principe est de récupérer successivement les employés en [-59,-52] et de les escorter au Chef Rhonté en [-76,-33]. Profitez de chaque trajet pour synchroniser les livraisons de Troncs de Pin de l'autre quête.",
       "recommendedLevel": 120,
       "prerequisites": [
-        "Bricole Girl"
+        "Avoir terminé Bricole Girl."
       ],
       "rewards": [
-        "Kama de glace",
-        "Gland de l'Ecumouth"
+        "1 618 218 XP.",
+        "16 780 kamas.",
+        "1 x Kama de glace.",
+        "1 x Gland de l'Ecumouth."
       ],
       "preparation": [
-        "1 combat solo (évitable)"
+        "Une Paire de skis sombres jetables peut faciliter les déplacements vers le Lac Gelée.",
+        "Coordonnez cette quête avec Faire le tas de pins afin d'éviter des allers-retours séparés vers le Chef Rhonté."
       ],
       "actions": [
         {
-          "instruction": "Aller au Port de givre et parler à Chef Rhonté pour proposer vos services.",
+          "instruction": "Parlez au Chef Rhonté et proposez votre aide pour retrouver ses employés disparus.",
           "position": "[-76,-33]",
           "zoneHint": "Le port de givre",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller à la réserve de bois, parler à Richard Rouge puis à Staurme Sioux.",
+          "instruction": "Rendez-vous à la réserve de bois et parlez à Richard Rouge pour localiser les employés à escorter.",
           "position": "[-59,-52]",
-          "zoneHint": "la réserve de bois",
+          "zoneHint": "Forêt des pins perdus",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Retourner au Port de givre et confier Staurme Sioux à Chef Rhonté.",
+          "instruction": "Parlez à Staurme Sioux afin qu'elle vous suive, puis ramenez-la au Chef Rhonté.",
+          "position": "[-59,-52]",
+          "zoneHint": "Forêt des pins perdus",
+          "warning": "Avant de repartir vers le Chef Rhonté, profitez du trajet pour prendre les Troncs de Pin disponibles dans Faire le tas de pins.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Confiez Staurme Sioux au Chef Rhonté.",
           "position": "[-76,-33]",
           "zoneHint": "Le port de givre",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Retourner à la réserve de bois, parler à Richard Rouge puis à Staurme Jauni.",
+          "instruction": "Retournez voir Richard Rouge, puis prenez en charge Staurme Jauni pour l'escorter.",
           "position": "[-59,-52]",
-          "zoneHint": "la réserve de bois",
-          "warning": null,
+          "zoneHint": "Forêt des pins perdus",
+          "warning": "Synchronisez à nouveau ce retour avec une récupération de Troncs de Pin si Faire le tas de pins le permet.",
           "combat": "NONE"
         },
         {
-          "instruction": "Retourner au Port de givre et confier Staurme Jauni à Chef Rhonté.",
+          "instruction": "Ramenez Staurme Jauni au Chef Rhonté.",
           "position": "[-76,-33]",
           "zoneHint": "Le port de givre",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Retourner à la réserve de bois et parler à Richard Rouge.",
+          "instruction": "Retournez en [-59,-52], reparlez à Richard Rouge puis escortez-le à son tour.",
           "position": "[-59,-52]",
-          "zoneHint": "la réserve de bois",
-          "warning": null,
+          "zoneHint": "Forêt des pins perdus",
+          "warning": "Profitez encore du même trajet pour coordonner une livraison de Faire le tas de pins.",
           "combat": "NONE"
         },
         {
-          "instruction": "Retourner au Port de givre et raccompagner Richard Rouge auprès de Chef Rhonté.",
+          "instruction": "Confiez Richard Rouge au Chef Rhonté.",
           "position": "[-76,-33]",
           "zoneHint": "Le port de givre",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Retourner une dernière fois à la réserve de bois et parler à Grimebène. Choisir « Combattre les smilomouths » (combat solo contre 3 Smilomouth) ou « S'enfuir comme un tofu » (téléporte sur la map de gauche, évite le combat).",
+          "instruction": "Retournez une dernière fois à la réserve de bois et parlez à Grimebène. Choisissez de vous enfuir comme un tofu afin d'éviter le combat contre 3 Smilomouths.",
           "position": "[-59,-52]",
-          "zoneHint": "la réserve de bois",
-          "warning": "Combat solo contre 3 Smilomouth si l'option combat est choisie. La fuite est définitive, téléporte vers la gauche.",
+          "zoneHint": "Forêt des pins perdus",
+          "warning": "Le choix de combattre lance un combat seul contre 3 Smilomouths. Le guide recommande de fuir pour éviter ce combat.",
           "combat": "CHOICE"
+        },
+        {
+          "instruction": "Après avoir fui, revenez en [-59,-52] et reparlez à Grimebène afin qu'il vous suive.",
+          "position": "[-59,-52]",
+          "zoneHint": "Forêt des pins perdus",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Escortez Grimebène jusqu'au Chef Rhonté et validez la fin de Promenons-nous dans les bois.",
+          "position": "[-76,-33]",
+          "zoneHint": "Le port de givre",
+          "warning": null,
+          "combat": "NONE"
         }
       ],
       "notes": [
-        "Le combat contre les Smilomouths est évitable en choisissant de fuir.",
-        "Le dialogue de Grimebène propose un choix irréversible."
+        "La quête se termine auprès du Chef Rhonté après le retour de Grimebène.",
+        "Cette progression débloque Les chasseurs.",
+        "Les allers-retours répétés entre la réserve de bois et le Chef Rhonté sont précisément ceux à mutualiser avec Faire le tas de pins."
       ],
       "npcs": [
         "Chef Rhonté",
@@ -771,16 +919,10 @@
       ],
       "items": [
         {
-          "name": "Kama de glace",
-          "itemId": 11196,
-          "imageUrl": "/items/11196.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11196"
-        },
-        {
-          "name": "Gland de l'Ecumouth",
-          "itemId": null,
-          "imageUrl": null,
-          "dofusDbUrl": null
+          "name": "Paire de skis sombres jetables",
+          "itemId": 11996,
+          "imageUrl": "/items/11996.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11996"
         }
       ],
       "bestiary": {
@@ -879,100 +1021,113 @@
         ]
       },
       "questKey": "quest:358",
+      "relation": "START",
+      "sortOrder": 4,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/promenons-nous-dans-les-bois.html",
       "sourceTitle": "Promenons-nous dans les bois",
       "sourceHash": "bccc3fcf56892fdd297de0b58218d29b52e5c52d7b5f42470f2fbe7700c36d77",
-      "generatedAt": "2026-08-24T17:58:12.393Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     },
     {
-      "overview": "Aller voir Gormor l'Équarrisseur dans la forêt des pins perdus pour obtenir des troncs, puis les livrer au Chef Rhonté à la Bourgade. Répéter l'opération quatre fois. Au troisième voyage, un combat automatique se déclenche.",
+      "overview": "Effectuez Faire le tas de pins en même temps que Promenons-nous dans les bois. Alternez les récupérations de Troncs de Pin auprès de Gormor l'Équarrisseur et les livraisons au Chef Rhonté, en profitant des mêmes trajets que les escortes de l'autre quête. La troisième récupération déclenche automatiquement un combat seul contre 3 monstres de la zone.",
       "recommendedLevel": 120,
       "prerequisites": [],
       "rewards": [
-        "1 294 574 XP",
-        "16 780 Kamas",
-        "1 x Kama de glace"
+        "1 294 574 XP.",
+        "16 780 Kamas.",
+        "1 x Kama de glace."
       ],
       "preparation": [
-        "Quête répétable toutes les 24h",
-        "1 x combat (seul)"
+        "La quête est répétable toutes les 24h.",
+        "Préparez-vous à un combat seul contre 3 monstres de la zone lors de la troisième récupération de troncs.",
+        "Synchronisez chaque livraison au Chef Rhonté avec une escorte de Promenons-nous dans les bois lorsque les deux objectifs sont prêts."
       ],
       "actions": [
         {
-          "instruction": "Aller à la forêt des pins perdus et parler à Gormor l'Équarrisseur pour demander du travail. Vous obtenez des troncs dans votre inventaire de quête.",
+          "instruction": "Parlez à Gormor l'Équarrisseur, demandez du travail et récupérez le premier chargement de Troncs de Pin.",
           "position": "[-65,-50]",
-          "zoneHint": "La forêt des pins perdus",
+          "zoneHint": "Forêt des pins perdus",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller à la Bourgade et livrer les troncs au Chef Rhonté.",
+          "instruction": "Apportez le premier chargement au Chef Rhonté. Faites ce trajet au même moment qu'une escorte de Promenons-nous dans les bois si possible.",
           "position": "[-76,-33]",
-          "zoneHint": "La Bourgade",
-          "warning": null,
+          "zoneHint": "Le port de givre",
+          "warning": "Les Troncs de Pin sont remis au Chef Rhonté.",
           "combat": "NONE"
         },
         {
-          "instruction": "Retourner dans la forêt des pins perdus et demander d'autres troncs à Gormor l'Équarrisseur. Il vous met en garde contre les créatures sauvages. Vous obtenez des troncs.",
+          "instruction": "Retournez voir Gormor l'Équarrisseur et demandez un deuxième chargement de Troncs de Pin.",
           "position": "[-65,-50]",
-          "zoneHint": "La forêt des pins perdus",
+          "zoneHint": "Forêt des pins perdus",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller à la Bourgade et donner les troncs de pins au Chef Rhonté. Il en demande encore plus.",
+          "instruction": "Livrez le deuxième chargement au Chef Rhonté en le combinant si possible avec un nouveau retour d'employé de Promenons-nous dans les bois.",
           "position": "[-76,-33]",
-          "zoneHint": "La Bourgade",
-          "warning": null,
+          "zoneHint": "Le port de givre",
+          "warning": "Les Troncs de Pin sont remis au Chef Rhonté.",
           "combat": "NONE"
         },
         {
-          "instruction": "Retourner dans la forêt des pins perdus et demander de nouveaux troncs à Gormor l'Équarrisseur. Attention : vous êtes automatiquement attaqué par un groupe de 3 monstres de la zone (Sanglaciers, Kaniglous...). Une fois le combat terminé, vous obtenez les troncs.",
+          "instruction": "Retournez auprès de Gormor l'Équarrisseur et demandez le troisième chargement. Un groupe de 3 monstres de la zone vous attaque automatiquement ; remportez le combat pour récupérer les troncs.",
           "position": "[-65,-50]",
-          "zoneHint": "La forêt des pins perdus",
-          "warning": "Combat automatique contre 3 monstres de la zone après avoir demandé les troncs.",
+          "zoneHint": "Forêt des pins perdus",
+          "warning": "Combat obligatoire et effectué seul contre 3 monstres de la zone, par exemple des Sanglaciers ou des Kaniglous.",
           "combat": "SOLO"
         },
         {
-          "instruction": "Aller à la Bourgade et donner les troncs au Chef Rhonté. Il en demande encore.",
+          "instruction": "Apportez le troisième chargement au Chef Rhonté, idéalement pendant un trajet d'escorte de Promenons-nous dans les bois.",
           "position": "[-76,-33]",
-          "zoneHint": "La Bourgade",
-          "warning": null,
+          "zoneHint": "Le port de givre",
+          "warning": "Les Troncs de Pin sont remis au Chef Rhonté.",
           "combat": "NONE"
         },
         {
-          "instruction": "Retourner une dernière fois dans la forêt des pins perdus et récupérer un dernier voyage de troncs auprès de Gormor l'Équarrisseur.",
+          "instruction": "Retournez voir Gormor l'Équarrisseur et récupérez le dernier chargement de Troncs de Pin.",
           "position": "[-65,-50]",
-          "zoneHint": "La forêt des pins perdus",
+          "zoneHint": "Forêt des pins perdus",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller à la Bourgade et livrer les derniers troncs au Chef Rhonté pour terminer la quête.",
+          "instruction": "Livrez ce dernier chargement au Chef Rhonté. Il vous remet un reçu qui marque le délai avant une nouvelle réalisation de la quête.",
           "position": "[-76,-33]",
-          "zoneHint": "La Bourgade",
-          "warning": null,
+          "zoneHint": "Le port de givre",
+          "warning": "La quête ne pourra pas être relancée avant l'expiration du délai de 24h.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Gormor l'Équarrisseur ; il vous annonce qu'il n'a plus de troncs disponibles, ce qui termine la quête.",
+          "position": "[-65,-50]",
+          "zoneHint": "Forêt des pins perdus",
+          "warning": "Une nouvelle occurrence de cette quête répétable n'est disponible qu'après 24h.",
           "combat": "NONE"
         }
       ],
-      "notes": [],
+      "notes": [
+        "Cette occurrence est à réaliser intégralement en parallèle de Promenons-nous dans les bois.",
+        "Le reçu du Chef Rhonté matérialise le délai avant de pouvoir relancer la quête."
+      ],
       "npcs": [
         "Gormor l'Équarrisseur",
         "Chef Rhonté"
       ],
       "items": [
         {
-          "name": "Kama de glace",
-          "itemId": 11196,
-          "imageUrl": "/items/11196.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11196"
+          "name": "Troncs de Pin",
+          "itemId": 11259,
+          "imageUrl": "/items/11259.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11259"
         },
         {
-          "name": "Tronc de pin",
-          "itemId": null,
-          "imageUrl": null,
-          "dofusDbUrl": null
+          "name": "Reçu du Chef Rhonté",
+          "itemId": 11258,
+          "imageUrl": "/items/11258.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11258"
         }
       ],
       "bestiary": {
@@ -985,8 +1140,8 @@
             ]
           },
           {
-            "id": 601,
-            "name": "La Bourgade",
+            "id": 600,
+            "name": "Port de givre",
             "coordinates": [
               "-76,-33"
             ]
@@ -1071,12 +1226,41 @@
         ]
       },
       "questKey": "quest:383",
+      "relation": "START",
+      "sortOrder": 5,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/faire-le-tas-de-pin.html",
       "sourceTitle": "Faire le tas de pin",
       "sourceHash": "35deb2f23fbb2872f46c0af7db223caedb61fae25aff70e872a3238d616e724e",
-      "generatedAt": "2026-08-24T17:32:41.979Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     }
   ],
-  "tips": []
+  "tips": [
+    {
+      "title": "Mutualiser les trajets vers Rhonté",
+      "description": "Promenons-nous dans les bois et Faire le tas de pins imposent plusieurs allers-retours vers le Chef Rhonté. Préparez à la fois l'employé à escorter et le chargement de Troncs de Pin avant de revenir au port afin de valider les deux quêtes pendant le même déplacement.",
+      "questKeys": [
+        "quest:358",
+        "quest:383"
+      ],
+      "actions": [
+        "À chaque passage dans la Forêt des pins perdus, avancez d'abord les objectifs disponibles des deux quêtes.",
+        "Avant de repartir vers [-76,-33], vérifiez que vous avez à la fois un PNJ à escorter et, lorsque l'étape le permet, des Troncs de Pin à livrer.",
+        "Validez successivement les deux objectifs auprès du Chef Rhonté avant de retourner dans la forêt."
+      ]
+    },
+    {
+      "title": "Profiter des combats pour les drops",
+      "description": "Semer ses graines et Star ski et Dutch se recoupent sur les Ecumouths et Kaniglous : les combats imposés par Semer ses graines peuvent fournir les objets de quête nécessaires à la reprise de Star ski et Dutch.",
+      "questKeys": [
+        "quest:385",
+        "quest:410"
+      ],
+      "actions": [
+        "Pendant Semer ses graines, surveillez l'obtention des Sève de Mycos et Long poil de Kaniglou demandés par Star ski et Dutch.",
+        "Capturez surtout le combat contre 5 Ecumouths en [-61,-63] avec la Grande Pierre d'âme parfaite.",
+        "Après avoir terminé Semer ses graines, rejouez cette capture à l'arène avant de reprendre Star ski et Dutch."
+      ]
+    }
+  ]
 }

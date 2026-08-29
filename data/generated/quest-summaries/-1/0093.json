@@ -1,8 +1,1406 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 93,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T11:29:19.680Z",
+  "summaries": [
+    {
+      "overview": "Reprenez après Énergie renouvelable auprès du Doc Emiette Borgne. Il faut libérer le Maître des zaaps, d'abord avec l'Électrofoudre puis avec le Marteau Chronomagique, vaincre le Maître des zaaps en combat solo et rapporter la Batterie Éternelle au Major Qiu.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Énergie renouvelable."
+      ],
+      "rewards": [
+        "2 625 000 XP.",
+        "43 980 Kamas."
+      ],
+      "preparation": [
+        "Prévoir 1 combat seul.",
+        "Avoir accès au Xélorium et disposer des montres permettant de changer de période."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez au Doc Emiette Borgne à la suite de la quête précédente et récupérez l'Électrofoudre destiné au Maître des zaaps.",
+          "position": "[1,6]",
+          "zoneHint": "Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Équipez l'Électrofoudre dans votre emplacement de corps-à-corps.",
+          "position": "[1,6]",
+          "zoneHint": "Chemins d'hier",
+          "warning": "L'Électrofoudre doit être équipé au corps-à-corps pour être utilisé.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sortez du bâtiment en [1,6], utilisez la Montre en avance puis rejoignez le temple où se trouve le Maître des zaaps.",
+          "position": "[1,6]",
+          "zoneHint": "Jour présent",
+          "warning": "Utilisez la montre en dehors des bâtiments.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Maître des zaaps et utilisez sur elle l'Électrofoudre équipé au corps-à-corps.",
+          "position": null,
+          "zoneHint": "Jour présent",
+          "warning": "La tentative échoue : vous recevez la malédiction Enfumage et plusieurs doubles du Maître des zaaps apparaissent.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Krosmoglob du Doc et refusez la solution expérimentale proposée afin que le Doc vous conseille d'éliminer les doubles avec un marteau.",
+          "position": null,
+          "zoneHint": "Jour présent",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Récupérez le Marteau Chronomagique transmis par le Krosmoglob et équipez-le au corps-à-corps.",
+          "position": null,
+          "zoneHint": "Jour présent",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Frappez les Maîtres des zaaps avec le Marteau Chronomagique en commençant par le double apparu le plus récemment et en remontant jusqu'à l'originale. Chaque coup fournit une Poudre Chronanomalie.",
+          "position": null,
+          "zoneHint": "Jour présent",
+          "warning": "La source fournie renvoie à une illustration pour l'ordre visuel précis des doubles et ne donne pas cet ordre sous forme textuelle.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Après avoir supprimé les doubles, affrontez le Maître des zaaps.",
+          "position": null,
+          "zoneHint": "Jour présent",
+          "warning": "Le combat s'effectue seul. Le Maître des zaaps peut notamment se téléporter, voler de la portée et retourner des dommages.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après la victoire, reparlez au Maître des zaaps et racontez-lui ce qui vient de se produire afin de recevoir la Batterie Éternelle.",
+          "position": null,
+          "zoneHint": "Jour présent",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Quittez le Xélorium et rendez-vous à la Tour des Voyageurs en [-22,-24].",
+          "position": "[-22,-24]",
+          "zoneHint": "Routes Rocailleuses",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Major Qiu et remettez-lui la Batterie Éternelle pour terminer Traitement de choc.",
+          "position": "[-22,-24]",
+          "zoneHint": "Routes Rocailleuses",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Cette occurrence reprend directement après Énergie renouvelable.",
+        "La fin de la quête achève également le succès Générations futures."
+      ],
+      "npcs": [
+        "Doc Emiette Borgne",
+        "Maître des zaaps",
+        "Krosmoglob du Doc",
+        "Major Qiu"
+      ],
+      "items": [
+        {
+          "name": "Électrofoudre",
+          "itemId": 15860,
+          "imageUrl": "/items/15860.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15860"
+        },
+        {
+          "name": "Marteau Chronomagique",
+          "itemId": 15886,
+          "imageUrl": "/items/15886.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15886"
+        },
+        {
+          "name": "Poudre Chronanomalie",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Poudre du Maître des Zaaps",
+          "itemId": 15880,
+          "imageUrl": "/items/15880.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15880"
+        },
+        {
+          "name": "Batterie Éternelle",
+          "itemId": 15882,
+          "imageUrl": "/items/15882.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15882"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 836,
+            "name": "Chemins d'hier",
+            "coordinates": [
+              "1,6"
+            ]
+          },
+          {
+            "id": 837,
+            "name": "Jour présent",
+            "coordinates": [
+              "1,6"
+            ]
+          },
+          {
+            "id": 525,
+            "name": "Routes Rocailleuses",
+            "coordinates": [
+              "-22,-24"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3845,
+            "name": "Morblok",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/3845.png"
+          },
+          {
+            "id": 3848,
+            "name": "Hin",
+            "level": 170,
+            "imageUrl": "/bestiary/monsters/3848.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2503,
+            "name": "Kanasukr le Mielleux",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2503.png"
+          },
+          {
+            "id": 2359,
+            "name": "Maître Champeur le Sabreur",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2359.png"
+          },
+          {
+            "id": 2445,
+            "name": "Fouflay le Retombé",
+            "level": 64,
+            "imageUrl": "/bestiary/monsters/2445.png"
+          },
+          {
+            "id": 2455,
+            "name": "Vétaurine l'Énergisé",
+            "level": 66,
+            "imageUrl": "/bestiary/monsters/2455.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 213,
+            "name": "Animaux des Champs",
+            "monsters": [
+              {
+                "id": 288,
+                "name": "Serpentin",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/288.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 259,
+                "name": "Arakne Majeure",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/259.png"
+              }
+            ]
+          },
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 186,
+            "name": "Craqueleurs",
+            "monsters": [
+              {
+                "id": 293,
+                "name": "Craqueleur des Plaines",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/293.png"
+              },
+              {
+                "id": 4571,
+                "name": "Craquelourd",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4571.png"
+              },
+              {
+                "id": 4573,
+                "name": "Craquelope",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4573.png"
+              }
+            ]
+          },
+          {
+            "id": 1172,
+            "name": "Hordémons",
+            "monsters": [
+              {
+                "id": 3840,
+                "name": "Trezz",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3840.png"
+              },
+              {
+                "id": 3841,
+                "name": "Vindeux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3841.png"
+              },
+              {
+                "id": 3842,
+                "name": "Trantroa",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3842.png"
+              },
+              {
+                "id": 3843,
+                "name": "Seith",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3843.png"
+              }
+            ]
+          },
+          {
+            "id": 1518,
+            "name": "Ruffians de Cania",
+            "monsters": [
+              {
+                "id": 4574,
+                "name": "Foufayteur",
+                "level": 64,
+                "imageUrl": "/bestiary/monsters/4574.png"
+              },
+              {
+                "id": 4575,
+                "name": "Vétauran",
+                "level": 66,
+                "imageUrl": "/bestiary/monsters/4575.png"
+              },
+              {
+                "id": 287,
+                "name": "Kanigrou",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/287.png"
+              },
+              {
+                "id": 371,
+                "name": "Maître Bolet",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/371.png"
+              }
+            ]
+          },
+          {
+            "id": 1171,
+            "name": "Xélomorphes",
+            "monsters": [
+              {
+                "id": 3854,
+                "name": "Gromorso",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3854.png"
+              },
+              {
+                "id": 3855,
+                "name": "Farfacette",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3855.png"
+              },
+              {
+                "id": 3856,
+                "name": "Brikablak",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3856.png"
+              },
+              {
+                "id": 3857,
+                "name": "Éklatleth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3857.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:855",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/traitement-de-choc.html",
+      "sourceTitle": "Traitement de choc",
+      "sourceHash": "49c684fbceedd2dd9bb1dc65d5f93cab2431a0ebd8ee101e0e25a9dfee67189a",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez Le disparu de Sufokia auprès de Tatine puis enquêtez sur Vardo jusqu'à rencontrer Marie Ride. Cette occurrence s'arrête dès que Marie vous demande de lui ramener 1 Diamant Dimensionnel : le donjon permettant de l'obtenir et toute la suite de la quête sont volontairement différés.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "D'un monde à l'autre.",
+        "Aux portes de la nuit.",
+        "Générations futures."
+      ],
+      "rewards": [
+        "5 250 000 XP.",
+        "87 960 Kamas.",
+        "1 x Boîte de fragments impressionnante."
+      ],
+      "preparation": [
+        "Prévoir 2 combats seuls avant l'arrêt de cette occurrence.",
+        "Le donjon de dimension dépendant du niveau sera nécessaire plus tard, après l'arrêt demandé par le guide."
+      ],
+      "actions": [
+        {
+          "instruction": "Dans la Malle aux Trésors, parlez à Tatine pour lancer la quête et acceptez de rechercher son ami Vardo.",
+          "position": "[-25,-36]",
+          "zoneHint": "Les Champs de Cania",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez Pam Chollion en [21,13] dans les Fouilles sufokiennes de la base abyssale, accessibles par l'entrée en [22,22], puis dites-lui que vous recherchez Vardo.",
+          "position": "[21,13]",
+          "zoneHint": "Fouilles sufokiennes",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Descendez à l'étage inférieur du lieu de travail de Vardo et fouillez la caisse en bois au milieu de la salle.",
+          "position": "[21,13]",
+          "zoneHint": "Fouilles sufokiennes",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Consultez la Page du journal de Vardo obtenue dans la caisse pour apprendre qu'il s'est rendu à une taverne et a traité avec un pirate.",
+          "position": "[21,13]",
+          "zoneHint": "Fouilles sufokiennes",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous vers la taverne du Ripate en [12,24], puis allez d'abord sur la map [11,24] et cliquez sur le tonneau pour récupérer un Seau d'eau de mer.",
+          "position": "[11,24]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez en [12,24], entrez dans la taverne du Ripate et donnez le Seau d'eau de mer à Aloin Bambard pour le faire parler de Vardo et de l'Hyperscampe.",
+          "position": "[12,24]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cherchez l'équipage de Marie Ride sur le Rivage Sufokien, indiqué par la source en [7,22], puis parlez à l'un des trois Contrebandiers et attaquez-les.",
+          "position": "[7,22]",
+          "zoneHint": "Rivage Sufokien",
+          "warning": "La source précise que la position de l'équipage peut éventuellement varier selon l'heure.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après la victoire et l'obtention du Foulard de Contrebandier, parlez à Marie Ride qui apparaît sur la map et affrontez-la avec Willy le Vil.",
+          "position": "[7,22]",
+          "zoneHint": "Rivage Sufokien",
+          "warning": "Combat seul. Marie se protège avec son Sac Animé ; la source recommande de jouer à distance et d'utiliser les décors pour couper les lignes de vue.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après le combat, reparlez à Marie Ride, dites-lui que vous recherchez Vardo Tercar et écoutez les informations sur sa transaction avec l'Hyperscampe.",
+          "position": "[7,22]",
+          "zoneHint": "Rivage Sufokien",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Poursuivez le dialogue jusqu'à ce que Marie Ride vous demande de lui ramener 1 Diamant Dimensionnel. Arrêtez cette quête ici pour cette occurrence.",
+          "position": "[7,22]",
+          "zoneHint": "Rivage Sufokien",
+          "warning": "N'effectuez pas encore le donjon de dimension et ne rapportez pas encore le Diamant Dimensionnel dans les actions de cette occurrence.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête restera active après cette occurrence et sera reprise à l'étape 95 avec une occurrence FINISH.",
+        "Le Diamant Dimensionnel devra ensuite être obtenu sur un boss déterminé par le niveau : Malléfisk pour les niveaux 100 à 114, Fraktale pour 115 à 139, Phossile pour 140 à 164, XLII pour 165 à 189 et Toxoliath pour 190 à 200.",
+        "Toute la partie après la demande de Diamant Dimensionnel, notamment le donjon, le retour auprès de Marie Ride, le sous-marin et la découverte de Vardo, est volontairement différée."
+      ],
+      "npcs": [
+        "Tatine",
+        "Pam Chollion",
+        "Aloin Bambard",
+        "Contrebandiers",
+        "Marie Ride",
+        "Willy le Vil"
+      ],
+      "items": [
+        {
+          "name": "Page du journal de Vardo",
+          "itemId": 16021,
+          "imageUrl": "/items/16021.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16021"
+        },
+        {
+          "name": "Seau d'eau de mer",
+          "itemId": 16039,
+          "imageUrl": "/items/16039.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16039"
+        },
+        {
+          "name": "Foulard de Contrebandier",
+          "itemId": 16043,
+          "imageUrl": "/items/16043.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16043"
+        },
+        {
+          "name": "Diamant Dimensionnel",
+          "itemId": 16050,
+          "imageUrl": "/items/16050.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16050"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 68,
+            "name": "Champs de Cania",
+            "coordinates": [
+              "-25,-36"
+            ]
+          },
+          {
+            "id": 1048,
+            "name": "Fouilles sufokiennes",
+            "coordinates": [
+              "21,13",
+              "22,22"
+            ]
+          },
+          {
+            "id": 490,
+            "name": "Rivage sufokien",
+            "coordinates": [
+              "7,22"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "11,24",
+              "12,24"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 366,
+            "name": "Sanglier agressif",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/366.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2327,
+            "name": "Craraboss le Féérique",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2327.png"
+          },
+          {
+            "id": 2431,
+            "name": "Étoilette la Bouchée",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2431.png"
+          },
+          {
+            "id": 2457,
+            "name": "Moumoute la Douce",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2457.png"
+          },
+          {
+            "id": 2351,
+            "name": "Rauligo le Sale",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2351.png"
+          },
+          {
+            "id": 2446,
+            "name": "Bourde le Maladroit",
+            "level": 51,
+            "imageUrl": "/bestiary/monsters/2446.png"
+          },
+          {
+            "id": 2286,
+            "name": "Serpistol l'Illustre",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2286.png"
+          },
+          {
+            "id": 2447,
+            "name": "Souristiti l'Immortalisée",
+            "level": 54,
+            "imageUrl": "/bestiary/monsters/2447.png"
+          },
+          {
+            "id": 2448,
+            "name": "Larvaloeil l'Émue",
+            "level": 56,
+            "imageUrl": "/bestiary/monsters/2448.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 213,
+            "name": "Animaux des Champs",
+            "monsters": [
+              {
+                "id": 4547,
+                "name": "Bourdard",
+                "level": 51,
+                "imageUrl": "/bestiary/monsters/4547.png"
+              },
+              {
+                "id": 4548,
+                "name": "Larve Champêtre",
+                "level": 56,
+                "imageUrl": "/bestiary/monsters/4548.png"
+              },
+              {
+                "id": 288,
+                "name": "Serpentin",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/288.png"
+              },
+              {
+                "id": 294,
+                "name": "Souris Verte",
+                "level": 54,
+                "imageUrl": "/bestiary/monsters/294.png"
+              }
+            ]
+          },
+          {
+            "id": 1668,
+            "name": "Monstres des plages",
+            "monsters": [
+              {
+                "id": 63,
+                "name": "Crabe",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/63.png"
+              },
+              {
+                "id": 926,
+                "name": "Raul Mops",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/926.png"
+              },
+              {
+                "id": 927,
+                "name": "Étoile de la Mer d'Asse",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/927.png"
+              },
+              {
+                "id": 954,
+                "name": "Moumoule",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/954.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:882",
+      "relation": "START",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-disparu-de-sufokia.html",
+      "sourceTitle": "Le disparu de Sufokia",
+      "sourceHash": "b8b39bd7c58ebae039fffd8b594e09d0f6b5b9642bd850f2bb06699da6df7554",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Accompagnez l'Agent Tiyette en Enutrosor et entraînez-la en remportant trois combats successifs contre des groupes de Koffrefors, puis revenez à l'avant-poste pour terminer la mission.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "La porte d'Enutrosor."
+      ],
+      "rewards": [
+        "1 023 750 XP.",
+        "11 980 kamas.",
+        "15 x Orichor.",
+        "5 x Corde de Boursoin."
+      ],
+      "preparation": [
+        "Prévoir 3 combats réalisables en groupe.",
+        "Chaque combat accepte au maximum 7 personnages joueurs car l'Agent Tiyette occupe une place."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Gladis en [-22,-24], demandez une nouvelle mission et prenez en charge l'Agent Tiyette.",
+          "position": "[-22,-24]",
+          "zoneHint": "Routes Rocailleuses",
+          "warning": "Si vous perdez l'Agent Tiyette avant d'avoir rejoint Enutrosor, vous pouvez la récupérer à la Tour des Voyageurs en [-22,-24].",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cherchez un portail vers Enutrosor et franchissez-le avec l'Agent Tiyette.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Après avoir déjà rejoint Enutrosor avec elle, une Agent Tiyette perdue peut être récupérée à l'avant-poste d'Enutrosor en [-1,-1].",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous en [-3,-2], parlez au Koffrefor Esseulé et remportez le premier combat.",
+          "position": "[-3,-2]",
+          "zoneHint": "Enutrosor",
+          "warning": "7 personnages joueurs maximum car l'Agent Tiyette participe au combat. La quête se met à jour pour les personnages ayant la quête lancée.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Allez en [-4,-1], parlez à l'un des trois Koffrefors du petit groupe et remportez le deuxième combat.",
+          "position": "[-4,-1]",
+          "zoneHint": "Enutrosor",
+          "warning": "7 personnages joueurs maximum car l'Agent Tiyette participe au combat. La quête se met à jour pour les personnages ayant la quête lancée.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Dirigez-vous en [-5,-3], parlez à l'un des six Koffrefors en colonne et remportez le troisième combat.",
+          "position": "[-5,-3]",
+          "zoneHint": "Enutrosor",
+          "warning": "7 personnages joueurs maximum car l'Agent Tiyette participe au combat. La quête se met à jour pour les personnages ayant la quête lancée.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après les trois victoires, retournez à l'avant-poste en [-1,-1] pour recevoir les remerciements de l'Agent Tiyette et terminer la quête.",
+          "position": "[-1,-1]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Cette quête se déroule principalement en Enutrosor et peut être enchaînée avec les autres objectifs de l'étape présents dans cette dimension."
+      ],
+      "npcs": [
+        "Gladis",
+        "Agent Tiyette",
+        "Koffrefor Esseulé",
+        "Koffrefors"
+      ],
+      "items": [
+        {
+          "name": "Orichor",
+          "itemId": 15206,
+          "imageUrl": "/items/15206.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15206"
+        },
+        {
+          "name": "Corde de Boursoin",
+          "itemId": 15165,
+          "imageUrl": "/items/15165.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15165"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 820,
+            "name": "Creuset des Fortunés",
+            "coordinates": [
+              "-4,-1",
+              "-1,-1"
+            ]
+          },
+          {
+            "id": 232,
+            "name": "Marécages nauséabonds",
+            "coordinates": [
+              "-5,-3"
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Montagne des Craqueleurs",
+            "coordinates": [
+              "-3,-2"
+            ]
+          },
+          {
+            "id": 525,
+            "name": "Routes Rocailleuses",
+            "coordinates": [
+              "-22,-24"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "-1,-1"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3670,
+            "name": "Maxi-Malle",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/3670.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2549,
+            "name": "Boostif l'Affamé",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2549.png"
+          },
+          {
+            "id": 2439,
+            "name": "Crolnareff l'Exilé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2439.png"
+          },
+          {
+            "id": 2367,
+            "name": "Kwakamole l'Appétissant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2367.png"
+          },
+          {
+            "id": 2369,
+            "name": "Kwaké le Piraté",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2369.png"
+          },
+          {
+            "id": 2451,
+            "name": "Kwakolak le Chocolaté",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2451.png"
+          },
+          {
+            "id": 2368,
+            "name": "Kwakwatique le Trempé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2368.png"
+          },
+          {
+            "id": 2428,
+            "name": "Crok le Beau",
+            "level": 61,
+            "imageUrl": "/bestiary/monsters/2428.png"
+          },
+          {
+            "id": 2503,
+            "name": "Kanasukr le Mielleux",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2503.png"
+          },
+          {
+            "id": 2359,
+            "name": "Maître Champeur le Sabreur",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2359.png"
+          },
+          {
+            "id": 2445,
+            "name": "Fouflay le Retombé",
+            "level": 64,
+            "imageUrl": "/bestiary/monsters/2445.png"
+          },
+          {
+            "id": 2455,
+            "name": "Vétaurine l'Énergisé",
+            "level": 66,
+            "imageUrl": "/bestiary/monsters/2455.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 213,
+            "name": "Animaux des Champs",
+            "monsters": [
+              {
+                "id": 288,
+                "name": "Serpentin",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/288.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 259,
+                "name": "Arakne Majeure",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/259.png"
+              }
+            ]
+          },
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 186,
+            "name": "Craqueleurs",
+            "monsters": [
+              {
+                "id": 293,
+                "name": "Craqueleur des Plaines",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/293.png"
+              },
+              {
+                "id": 4571,
+                "name": "Craquelourd",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4571.png"
+              },
+              {
+                "id": 4573,
+                "name": "Craquelope",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4573.png"
+              }
+            ]
+          },
+          {
+            "id": 208,
+            "name": "Gadouilleux",
+            "monsters": [
+              {
+                "id": 263,
+                "name": "Chef Crocodaille",
+                "level": 61,
+                "imageUrl": "/bestiary/monsters/263.png"
+              },
+              {
+                "id": 261,
+                "name": "Crocodaille",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/261.png"
+              },
+              {
+                "id": 112,
+                "name": "Boo",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/112.png"
+              },
+              {
+                "id": 4833,
+                "name": "Arakne Olithique",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4833.png"
+              }
+            ]
+          },
+          {
+            "id": 1093,
+            "name": "Koffrefors",
+            "monsters": [
+              {
+                "id": 3666,
+                "name": "Berserkoffre",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3666.png"
+              },
+              {
+                "id": 3663,
+                "name": "Boursoin",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3663.png"
+              },
+              {
+                "id": 3664,
+                "name": "Mimikado",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3664.png"
+              },
+              {
+                "id": 3665,
+                "name": "Trésantène",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3665.png"
+              }
+            ]
+          },
+          {
+            "id": 190,
+            "name": "Kwakeres",
+            "monsters": [
+              {
+                "id": 269,
+                "name": "Kwakere de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/269.png"
+              },
+              {
+                "id": 271,
+                "name": "Kwakere de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/271.png"
+              },
+              {
+                "id": 270,
+                "name": "Kwakere de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/270.png"
+              },
+              {
+                "id": 272,
+                "name": "Kwakere de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/272.png"
+              }
+            ]
+          },
+          {
+            "id": 189,
+            "name": "Kwaks",
+            "monsters": [
+              {
+                "id": 83,
+                "name": "Kwak de Flamme",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/83.png"
+              },
+              {
+                "id": 84,
+                "name": "Kwak de Glace",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/84.png"
+              },
+              {
+                "id": 235,
+                "name": "Kwak de Terre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/235.png"
+              },
+              {
+                "id": 81,
+                "name": "Kwak de Vent",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/81.png"
+              }
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Mulous",
+            "monsters": [
+              {
+                "id": 102,
+                "name": "Mulou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/102.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 214,
+            "name": "Porkass",
+            "monsters": [
+              {
+                "id": 123,
+                "name": "Cochon de Lait",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/123.png"
+              }
+            ]
+          },
+          {
+            "id": 1518,
+            "name": "Ruffians de Cania",
+            "monsters": [
+              {
+                "id": 4574,
+                "name": "Foufayteur",
+                "level": 64,
+                "imageUrl": "/bestiary/monsters/4574.png"
+              },
+              {
+                "id": 4575,
+                "name": "Vétauran",
+                "level": 66,
+                "imageUrl": "/bestiary/monsters/4575.png"
+              },
+              {
+                "id": 287,
+                "name": "Kanigrou",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/287.png"
+              },
+              {
+                "id": 371,
+                "name": "Maître Bolet",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/371.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:775",
+      "relation": "ACTIVE",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/elle-va-finir-par-se-faire-coffrer.html",
+      "sourceTitle": "Elle va finir par se faire coffrer",
+      "sourceHash": "888b59613be99bdffc3f26a993e0cdd0d105545feead52d9ddb0b4e4c7cc867f",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Aidez Kohmer Sial à défendre la pompafric, récupérez ensuite les morceaux de Koffrefors inanimés répartis dans le Creuset des Fortunés, faites-les recycler puis rendez la ferraille à Kohmer avant de faire votre rapport au Sergent Frinklan.",
+      "recommendedLevel": 100,
+      "prerequisites": [],
+      "rewards": [
+        "1 023 750 XP.",
+        "11 980 kamas.",
+        "15 x Orichor.",
+        "5 x Langue de Mimikado."
+      ],
+      "preparation": [
+        "Prévoir 1 combat réalisable en groupe.",
+        "Le combat accepte au maximum 7 personnages joueurs car Kohmer Sial occupe la huitième place."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez au Sergent Frinklan en [-1,-1] et demandez-lui du travail pour recevoir la mission concernant la pompafric.",
+          "position": "[-1,-1]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous en [-5,-2] et parlez à l'agent Kohmer Sial pour l'aider contre le groupe de Koffrefors.",
+          "position": "[-5,-2]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": "7 personnages joueurs maximum car Kohmer Sial prend la huitième place. Pour que la quête se mette à jour chez les autres participants, ils doivent avoir parlé auparavant à Kohmer Sial et choisi « Attendre d'autres renforts ».",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, reparlez à Kohmer Sial pour apprendre que la pompafric a été endommagée et qu'il faut récupérer de la ferraille sur les Koffrefors inanimés.",
+          "position": "[-5,-2]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez le morceau de Koffrefor présent en [-5,-2].",
+          "position": "[-5,-2]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez le morceau de Koffrefor en [-6,-2].",
+          "position": "[-6,-2]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez le morceau de Koffrefor en [-4,-2].",
+          "position": "[-4,-2]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez le morceau de Koffrefor en [-3,-3].",
+          "position": "[-3,-3]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez le morceau de Koffrefor en [-1,-2].",
+          "position": "[-1,-2]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez les deux morceaux de Koffrefor présents en [-5,-3].",
+          "position": "[-5,-3]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": "Cette position contient deux morceaux à collecter.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez le morceau de Koffrefor en [-4,-1].",
+          "position": "[-4,-1]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez le morceau de Koffrefor en [-2,-3].",
+          "position": "[-2,-3]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramassez le morceau de Koffrefor en [-3,-4].",
+          "position": "[-3,-4]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Une fois tous les morceaux récupérés, apportez-les au Maréchal des logis Stik en [-1,-1] afin qu'il les recycle.",
+          "position": "[-1,-1]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rapportez la ferraille recyclée à Kohmer Sial en [-5,-2].",
+          "position": "[-5,-2]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez en [-1,-1] et faites votre rapport au Sergent Frinklan pour terminer la quête.",
+          "position": "[-1,-1]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "L'ordre de collecte indiqué est celui proposé par la source pour limiter les déplacements, mais les morceaux peuvent être ramassés dans un autre ordre.",
+        "Reparler au Sergent Frinklan après la fin permet de lancer Déphorrestation, qui n'appartient pas aux tutoriels de cette étape."
+      ],
+      "npcs": [
+        "Sergent Frinklan",
+        "Kohmer Sial",
+        "Maréchal des logis Stik",
+        "Koffrefors"
+      ],
+      "items": [
+        {
+          "name": "Morceau de Koffrefor",
+          "itemId": 15298,
+          "imageUrl": "/items/15298.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15298"
+        },
+        {
+          "name": "Orichor",
+          "itemId": 15206,
+          "imageUrl": "/items/15206.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15206"
+        },
+        {
+          "name": "Langue de Mimikado",
+          "itemId": 15166,
+          "imageUrl": "/items/15166.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15166"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 820,
+            "name": "Creuset des Fortunés",
+            "coordinates": [
+              "-1,-1",
+              "-5,-2",
+              "-6,-2",
+              "-4,-2",
+              "-3,-3",
+              "-1,-2",
+              "-5,-3",
+              "-4,-1",
+              "-2,-3",
+              "-3,-4"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3670,
+            "name": "Maxi-Malle",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/3670.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1093,
+            "name": "Koffrefors",
+            "monsters": [
+              {
+                "id": 3666,
+                "name": "Berserkoffre",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3666.png"
+              },
+              {
+                "id": 3663,
+                "name": "Boursoin",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3663.png"
+              },
+              {
+                "id": 3664,
+                "name": "Mimikado",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3664.png"
+              },
+              {
+                "id": 3665,
+                "name": "Trésantène",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3665.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:789",
+      "relation": "ACTIVE",
+      "sortOrder": 3,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/pompe-agrave-fric.html",
+      "sourceTitle": "Pompe à fric",
+      "sourceHash": "c92157f62b77f32ba6683da011b34e3b491b0b66f96764f8b44274f91c2b29c9",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Regrouper les objectifs d'Enutrosor",
+      "description": "Elle va finir par se faire coffrer et Pompe à fric se déroulent toutes deux dans le Creuset des Fortunés et passent par plusieurs cartes communes ou voisines. Profitez d'un même séjour en Enutrosor pour avancer les deux quêtes et réduire les allers-retours.",
+      "questKeys": [
+        "quest:775",
+        "quest:789"
+      ],
+      "actions": [
+        "Lancez ou conservez actives les deux quêtes avant de parcourir le Creuset des Fortunés.",
+        "Profitez notamment de vos passages en [-5,-3] et [-4,-1] pour traiter les objectifs disponibles des deux quêtes.",
+        "Regroupez les retours à l'avant-poste en [-1,-1] lorsque l'état de chaque quête le permet."
+      ]
+    }
+  ]
 }

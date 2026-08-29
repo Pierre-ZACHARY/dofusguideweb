@@ -1,8 +1,582 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 77,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T11:28:54.200Z",
+  "summaries": [
+    {
+      "overview": "Lancez l'enquête sur la disparition de la 7e compagnie puis suivez sa piste jusqu'à la cave de l'auberge Number Anticroist. Cette occurrence s'arrête dès l'accès à la cave obtenu : le Laboratoire de Brumen Tinctorias sera effectué ensuite, avant la reprise de cette quête à son occurrence FINISH.",
+      "recommendedLevel": 75,
+      "prerequisites": [
+        "Être au niveau recommandé 75.",
+        "Disposer d'une Clef du Laboratoire de Brumen Tinctorias fabriquée : le trousseau de clefs ne permet pas ce premier accès à la cave."
+      ],
+      "rewards": [
+        "2 014 000 XP.",
+        "Attitude « Mains sur les hanches » à la fin de la quête, lors de l'occurrence FINISH."
+      ],
+      "preparation": [
+        "Préparer 1 x Papatte de Croc Gland.",
+        "Préparer 1 x Graine de Scorbute.",
+        "Préparer 1 x Plume de Crowneille.",
+        "Préparer 1 x Moustache de Kolérat.",
+        "Préparer 5 x Bois de Bombu.",
+        "Préparer 6 x Kobalte.",
+        "Préparer 6 x Menthe Sauvage.",
+        "Préparer 6 x Houblon.",
+        "Fabriquer 1 x Clef du Laboratoire de Brumen Tinctorias avec ces ressources."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Rish Claymore pour lancer « Où est passée la 7e compagnie ? » et accepter de rechercher les soldats disparus.",
+          "position": "[1,3]",
+          "zoneHint": "Le village",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à l'auberge Number Anticroist et interrogez Feruor Mithridate au sujet de la 7e compagnie.",
+          "position": "[-27,17]",
+          "zoneHint": "Auberge Number Anticroist",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Yua le suspect pour apprendre que les soldats l'ont interrogé sur sa captivité avec Brumen Tinctorias puis ont rejoint la tablée d'une Sacrieuse.",
+          "position": "[-27,17]",
+          "zoneHint": "Auberge Number Anticroist",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez Tassa afin qu'elle vous indique la cave de l'auberge.",
+          "position": "[-27,17]",
+          "zoneHint": "Auberge Number Anticroist",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparlez à Tassa et remettez-lui la Clef du Laboratoire de Brumen Tinctorias afin d'entrer dans la cave et valider la découverte demandée.",
+          "position": "[-27,17]",
+          "zoneHint": "Cave de l'auberge Number Anticroist",
+          "warning": "La clef fabriquée est consommée pour ce premier accès ; le trousseau de clefs ne fonctionne pas à cette étape.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Arrêtez cette occurrence une fois la carte « Cave de l'auberge Number Anticroist » découverte.",
+        "Le Laboratoire de Brumen Tinctorias et la victoire contre Nelween sont volontairement réalisés entre cette occurrence START et l'occurrence FINISH de la même quête.",
+        "Ne retournez pas encore voir Rish Claymore : le rapport final appartient à l'occurrence FINISH."
+      ],
+      "npcs": [
+        "Rish Claymore",
+        "Feruor Mithridate",
+        "Yua le suspect",
+        "Tassa"
+      ],
+      "items": [
+        {
+          "name": "Clef du Laboratoire de Brumen Tinctorias",
+          "itemId": 12073,
+          "imageUrl": "/items/12073.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/12073"
+        },
+        {
+          "name": "Papatte de Croc Gland",
+          "itemId": 2502,
+          "imageUrl": "/items/2502.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2502"
+        },
+        {
+          "name": "Graine de Scorbute",
+          "itemId": 2150,
+          "imageUrl": "/items/2150.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2150"
+        },
+        {
+          "name": "Plume de Crowneille",
+          "itemId": 1889,
+          "imageUrl": "/items/1889.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1889"
+        },
+        {
+          "name": "Moustache de Kolérat",
+          "itemId": 2301,
+          "imageUrl": "/items/2301.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2301"
+        },
+        {
+          "name": "Bois de Bombu",
+          "itemId": 2358,
+          "imageUrl": "/items/2358.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2358"
+        },
+        {
+          "name": "Kobalte",
+          "itemId": 443,
+          "imageUrl": "/items/443.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/443"
+        },
+        {
+          "name": "Menthe Sauvage",
+          "itemId": 380,
+          "imageUrl": "/items/380.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/380"
+        },
+        {
+          "name": "Houblon",
+          "itemId": 401,
+          "imageUrl": "/items/401.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/401"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 57,
+            "name": "Désolation de Sidimote",
+            "coordinates": [
+              "-27,17"
+            ]
+          },
+          {
+            "id": 756,
+            "name": "Laboratoire de Brumen Tinctorias",
+            "coordinates": [
+              "-27,17"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "1,3"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 464,
+            "name": "Brumen Tinctorias",
+            "level": 60,
+            "imageUrl": "/bestiary/monsters/464.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2440,
+            "name": "Crognan le Barbare",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2440.png"
+          },
+          {
+            "id": 2378,
+            "name": "Cromikay le Néophyte",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2378.png"
+          },
+          {
+            "id": 2520,
+            "name": "Kolforthe l'Indécollable",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2520.png"
+          },
+          {
+            "id": 2285,
+            "name": "Scorpitène l'Enflammé",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2285.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 207,
+            "name": "Sidimonstres",
+            "monsters": [
+              {
+                "id": 299,
+                "name": "Croc Gland",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/299.png"
+              },
+              {
+                "id": 300,
+                "name": "Kolérat",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/300.png"
+              },
+              {
+                "id": 301,
+                "name": "Macien",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/301.png"
+              },
+              {
+                "id": 298,
+                "name": "Scorbute",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/298.png"
+              },
+              {
+                "id": 3096,
+                "name": "Crowneille",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/3096.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:463",
+      "relation": "START",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/ougrave-est-passeacutee-la-7-e-compagnie.html",
+      "sourceTitle": "Où est passée la 7 e compagnie ?",
+      "sourceHash": "921721444749370828e8425472a37730774c31766326e604c99e4a03ff97aa08",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "La quête a déjà été lancée auprès de Penny Sanfleur et le guide précédent vous a conduit jusqu'à Number Anticroist. Reprenez maintenant avec le Laboratoire de Brumen Tinctorias : effectuez les interactions demandées dans chaque salle, récupérez les échantillons en combat, puis rapportez les prélèvements à Penny. Elle vous confiera enfin trois prélèvements extérieurs à effectuer avant le rendu définitif.",
+      "recommendedLevel": null,
+      "prerequisites": [
+        "Avoir terminé « Trou de mémoire ».",
+        "Avoir lancé « Les morts vivants » auprès de Penny Sanfleur en [-25,26].",
+        "Avoir avancé la quête, lors de l'étape précédente, jusqu'à l'objectif de découverte de Number Anticroist."
+      ],
+      "rewards": [],
+      "preparation": [
+        "Prévoir d'effectuer entièrement le Laboratoire de Brumen Tinctorias.",
+        "Dans chaque salle du donjon, effectuer l'interaction de quête avant de lancer trop vite le combat ou de changer de salle."
+      ],
+      "actions": [
+        {
+          "instruction": "Entrez dans le Laboratoire de Brumen Tinctorias et, dans la salle 1, volez les potions nécessaires à la quête avant de poursuivre.",
+          "position": "[-27,17]",
+          "zoneHint": "Laboratoire de Brumen Tinctorias - salle 1",
+          "warning": "Effectuez l'interaction de quête avant de quitter la salle.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Dans la salle 2, prélevez le liquide demandé avant de poursuivre le donjon.",
+          "position": "[-27,17]",
+          "zoneHint": "Laboratoire de Brumen Tinctorias - salle 2",
+          "warning": "Effectuez le prélèvement avant de changer de salle.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Dans la salle 3, copiez les notes puis lancez le combat et récupérez les échantillons demandés sur les Maciens.",
+          "position": "[-27,17]",
+          "zoneHint": "Laboratoire de Brumen Tinctorias - salle 3",
+          "warning": "Ne lancez pas le combat avant d'avoir effectué l'interaction de la salle ; les échantillons de Maciens sont obtenus pendant ce combat.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Dans la salle 4, volez les potions prévues par l'objectif avant de continuer.",
+          "position": "[-27,17]",
+          "zoneHint": "Laboratoire de Brumen Tinctorias - salle 4",
+          "warning": "Effectuez l'interaction avant de quitter la salle.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Affrontez Nelween et récupérez les échantillons demandés sur le boss.",
+          "position": "[-27,17]",
+          "zoneHint": "Laboratoire de Brumen Tinctorias - salle du boss",
+          "warning": "Le combat contre Nelween est obligatoire pour cette portion de quête.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire sur Nelween, ne sortez pas immédiatement : dans la salle de sortie, copiez les dernières notes requises, puis quittez le donjon.",
+          "position": "[-27,17]",
+          "zoneHint": "Laboratoire de Brumen Tinctorias - salle de sortie",
+          "warning": "Quitter le donjon avant de copier les notes ferait manquer l'interaction de quête de cette salle.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Penny Sanfleur et remettez-lui tout ce qui a été récupéré dans le Laboratoire de Brumen Tinctorias.",
+          "position": "[-25,26]",
+          "zoneHint": "Brakdad Café",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Prélevez l'échantillon de liquide demandé.",
+          "position": "[-25,19]",
+          "zoneHint": null,
+          "warning": "Un combat contre un monstre de la zone peut se déclencher pendant les prélèvements extérieurs.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Prélevez l'échantillon de plantes demandé.",
+          "position": "[-20,17]",
+          "zoneHint": null,
+          "warning": "Un combat contre un monstre de la zone peut se déclencher pendant les prélèvements extérieurs.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Prélevez l'échantillon de cendres demandé.",
+          "position": "[-24,23]",
+          "zoneHint": null,
+          "warning": "Un combat contre un monstre de la zone peut se déclencher pendant les prélèvements extérieurs.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Retournez auprès de Penny Sanfleur, donnez-lui les trois nouveaux échantillons et terminez « Les morts vivants ».",
+          "position": "[-25,26]",
+          "zoneHint": "Brakdad Café",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La partie antérieure de la quête, depuis son lancement jusqu'à Number Anticroist, est supposée déjà accomplie à l'étape 76.",
+        "Après le premier retour à Penny Sanfleur, la quête n'est pas encore terminée : les trois prélèvements extérieurs sont obligatoires avant le dernier rendu."
+      ],
+      "npcs": [
+        "Penny Sanfleur",
+        "Nelween"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 57,
+            "name": "Désolation de Sidimote",
+            "coordinates": [
+              "-25,19",
+              "-20,17",
+              "-24,23"
+            ]
+          },
+          {
+            "id": 756,
+            "name": "Laboratoire de Brumen Tinctorias",
+            "coordinates": [
+              "-27,17",
+              "-25,26"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-25,26"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 464,
+            "name": "Brumen Tinctorias",
+            "level": 60,
+            "imageUrl": "/bestiary/monsters/464.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2440,
+            "name": "Crognan le Barbare",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2440.png"
+          },
+          {
+            "id": 2378,
+            "name": "Cromikay le Néophyte",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2378.png"
+          },
+          {
+            "id": 2520,
+            "name": "Kolforthe l'Indécollable",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2520.png"
+          },
+          {
+            "id": 2285,
+            "name": "Scorpitène l'Enflammé",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2285.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 207,
+            "name": "Sidimonstres",
+            "monsters": [
+              {
+                "id": 299,
+                "name": "Croc Gland",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/299.png"
+              },
+              {
+                "id": 300,
+                "name": "Kolérat",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/300.png"
+              },
+              {
+                "id": 301,
+                "name": "Macien",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/301.png"
+              },
+              {
+                "id": 298,
+                "name": "Scorbute",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/298.png"
+              },
+              {
+                "id": 3096,
+                "name": "Crowneille",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/3096.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1098",
+      "relation": "FINISH",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/les-morts-vivants.html",
+      "sourceTitle": "Les morts vivants",
+      "sourceHash": "5e8ba1057ab4a6f317b5e81f20f2576ef1bcdd5800c64584cf67727ca38640a1",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "La piste de la 7e compagnie a déjà été suivie jusqu'à la cave de Number Anticroist et le Laboratoire de Brumen Tinctorias, avec Nelween vaincu, est supposé terminé entre les deux occurrences de cette quête. Il ne reste ici qu'à revenir auprès de Rish Claymore et à lui faire votre rapport pour clôturer l'enquête.",
+      "recommendedLevel": 75,
+      "prerequisites": [
+        "Avoir réalisé l'occurrence START de « Où est passée la 7e compagnie ? » jusqu'à la cave de l'auberge Number Anticroist.",
+        "Avoir terminé le Laboratoire de Brumen Tinctorias et vaincu Nelween."
+      ],
+      "rewards": [
+        "2 014 000 XP.",
+        "Attitude « Mains sur les hanches »."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Retournez auprès de Rish Claymore et faites-lui votre rapport sur l'auberge Number Anticroist afin de terminer « Où est passée la 7e compagnie ? ».",
+          "position": "[1,3]",
+          "zoneHint": "Le village",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les recherches dans l'auberge, l'accès à la cave et le Laboratoire de Brumen Tinctorias sont supposés déjà accomplis ; ne les recommencez pas pour cette occurrence FINISH."
+      ],
+      "npcs": [
+        "Rish Claymore"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "1,3"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": []
+      },
+      "questKey": "quest:463",
+      "relation": "FINISH",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/ougrave-est-passeacutee-la-7-e-compagnie.html",
+      "sourceTitle": "Où est passée la 7 e compagnie ?",
+      "sourceHash": "921721444749370828e8425472a37730774c31766326e604c99e4a03ff97aa08",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Rentabiliser le Laboratoire de Brumen",
+      "description": "Les deux quêtes de cette étape convergent sur le Laboratoire de Brumen Tinctorias. Pendant le passage utilisé pour terminer « Les morts vivants », la victoire sur Nelween satisfait aussi la portion intermédiaire requise avant le rendu final de « Où est passée la 7e compagnie ? ».",
+      "questKeys": [
+        "quest:463",
+        "quest:1098"
+      ],
+      "actions": [
+        "Avant d'entrer dans le donjon, avoir validé l'accès à la cave pour « Où est passée la 7e compagnie ? ».",
+        "Pendant le Laboratoire, effectuer toutes les interactions de « Les morts vivants » salle par salle avant de poursuivre.",
+        "Après Nelween et la salle de sortie, terminer « Les morts vivants », puis revenir à Rish Claymore pour l'occurrence FINISH de « Où est passée la 7e compagnie ? »."
+      ]
+    }
+  ]
 }

@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 45,
-  "updatedAt": "2026-08-27T13:32:17.586Z",
+  "updatedAt": "2026-08-29T09:59:10.223Z",
   "summaries": [
     {
       "overview": "Aidez l'assistant d'Otomaï à préparer un remède contre la myxomawose afin d'obtenir la protection permanente permettant d'explorer toute l'île des Wabbits.",
@@ -751,8 +751,8 @@
             ]
           },
           {
-            "id": 778,
-            "name": "Mine",
+            "id": 1,
+            "name": "Port de Madrestam",
             "coordinates": [
               "9,-2"
             ]
@@ -775,6 +775,30 @@
         ],
         "bounties": [],
         "archmonsters": [
+          {
+            "id": 2332,
+            "name": "Larchimaide la Poussée",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2332.png"
+          },
+          {
+            "id": 2331,
+            "name": "Larvapstrè le Subjectif",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2331.png"
+          },
+          {
+            "id": 2339,
+            "name": "Larvomatik le Propre",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2339.png"
+          },
+          {
+            "id": 2574,
+            "name": "Larvonika l'Instrument",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2574.png"
+          },
           {
             "id": 2294,
             "name": "Tiwoflan le Lâche",
@@ -834,6 +858,36 @@
                 "name": "Mineur Sombre",
                 "level": 42,
                 "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 203,
+            "name": "Larves",
+            "monsters": [
+              {
+                "id": 31,
+                "name": "Larve Bleue",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/31.png"
+              },
+              {
+                "id": 46,
+                "name": "Larve Orange",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/46.png"
+              },
+              {
+                "id": 34,
+                "name": "Larve Verte",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/34.png"
+              },
+              {
+                "id": 5225,
+                "name": "Larve Jaune",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/5225.png"
               }
             ]
           },
@@ -985,8 +1039,8 @@
       "bestiary": {
         "zones": [
           {
-            "id": 161,
-            "name": "Île de la Cawotte",
+            "id": 443,
+            "name": "Forêt",
             "coordinates": [
               "23,-4"
             ]
@@ -1037,36 +1091,6 @@
             "name": "Pioustone le Problème",
             "level": 11,
             "imageUrl": "/bestiary/monsters/2341.png"
-          },
-          {
-            "id": 2294,
-            "name": "Tiwoflan le Lâche",
-            "level": 40,
-            "imageUrl": "/bestiary/monsters/2294.png"
-          },
-          {
-            "id": 2293,
-            "name": "Tiwalpé le Dévêtu",
-            "level": 41,
-            "imageUrl": "/bestiary/monsters/2293.png"
-          },
-          {
-            "id": 2402,
-            "name": "Tiwa'Missou le Gateux",
-            "level": 42,
-            "imageUrl": "/bestiary/monsters/2402.png"
-          },
-          {
-            "id": 2304,
-            "name": "Wabbitud le Constant",
-            "level": 44,
-            "imageUrl": "/bestiary/monsters/2304.png"
-          },
-          {
-            "id": 2403,
-            "name": "Wagnagnah le Sanglant",
-            "level": 46,
-            "imageUrl": "/bestiary/monsters/2403.png"
           }
         ],
         "achievements": [
@@ -1103,42 +1127,6 @@
                 "name": "Piou Violet",
                 "level": 11,
                 "imageUrl": "/bestiary/monsters/236.png"
-              }
-            ]
-          },
-          {
-            "id": 172,
-            "name": "Wabbits",
-            "monsters": [
-              {
-                "id": 68,
-                "name": "Black Tiwabbit",
-                "level": 42,
-                "imageUrl": "/bestiary/monsters/68.png"
-              },
-              {
-                "id": 65,
-                "name": "Black Wabbit",
-                "level": 46,
-                "imageUrl": "/bestiary/monsters/65.png"
-              },
-              {
-                "id": 72,
-                "name": "Tiwabbit Kiafin",
-                "level": 40,
-                "imageUrl": "/bestiary/monsters/72.png"
-              },
-              {
-                "id": 96,
-                "name": "Tiwabbit",
-                "level": 41,
-                "imageUrl": "/bestiary/monsters/96.png"
-              },
-              {
-                "id": 64,
-                "name": "Wabbit",
-                "level": 44,
-                "imageUrl": "/bestiary/monsters/64.png"
               }
             ]
           }

@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 54,
-  "updatedAt": "2026-08-27T13:32:18.841Z",
+  "updatedAt": "2026-08-29T09:59:13.685Z",
   "summaries": [
     {
       "overview": "La quête ayant été lancée à l'étape précédente, terminez l'enquête confiée par Otomaï sur les événements de la Forêt Maléfique. Vous devrez retrouver l'assistant de Bworknroll, passer par l'Akadémie des Gobs puis la base des Justiciers, combattre seul à deux reprises et finalement rejoindre Jykel et Otomaï.",
@@ -172,8 +172,8 @@
             ]
           },
           {
-            "id": 455,
-            "name": "Jungle obscure",
+            "id": 778,
+            "name": "Mine",
             "coordinates": [
               "-55,15"
             ]
@@ -186,14 +186,7 @@
             ]
           }
         ],
-        "bounties": [
-          {
-            "id": 3528,
-            "name": "Amy l'empoisonneuse",
-            "level": 140,
-            "imageUrl": "/bestiary/monsters/3528.png"
-          }
-        ],
+        "bounties": [],
         "archmonsters": [
           {
             "id": 2417,
@@ -212,48 +205,6 @@
             "name": "Bwormage le Respectueux",
             "level": 42,
             "imageUrl": "/bestiary/monsters/2418.png"
-          },
-          {
-            "id": 2554,
-            "name": "Chiendanlémin l'Illusionniste",
-            "level": 125,
-            "imageUrl": "/bestiary/monsters/2554.png"
-          },
-          {
-            "id": 2579,
-            "name": "Nerdeubeu le Flagellant",
-            "level": 126,
-            "imageUrl": "/bestiary/monsters/2579.png"
-          },
-          {
-            "id": 2550,
-            "name": "Brouste l'Humiliant",
-            "level": 127,
-            "imageUrl": "/bestiary/monsters/2550.png"
-          },
-          {
-            "id": 2360,
-            "name": "Ecorfé la Vive",
-            "level": 128,
-            "imageUrl": "/bestiary/monsters/2360.png"
-          },
-          {
-            "id": 2565,
-            "name": "Floanna la Blonde",
-            "level": 129,
-            "imageUrl": "/bestiary/monsters/2565.png"
-          },
-          {
-            "id": 2546,
-            "name": "Bitoven le Musicien",
-            "level": 130,
-            "imageUrl": "/bestiary/monsters/2546.png"
-          },
-          {
-            "id": 2544,
-            "name": "Abrakine le Sombre",
-            "level": 131,
-            "imageUrl": "/bestiary/monsters/2544.png"
           }
         ],
         "achievements": [
@@ -278,54 +229,6 @@
                 "name": "Bwork Mage",
                 "level": 42,
                 "imageUrl": "/bestiary/monsters/53.png"
-              }
-            ]
-          },
-          {
-            "id": 164,
-            "name": "Florifaune obscure",
-            "monsters": [
-              {
-                "id": 1077,
-                "name": "Abrakleur Sombre",
-                "level": 131,
-                "imageUrl": "/bestiary/monsters/1077.png"
-              },
-              {
-                "id": 1041,
-                "name": "Bitouf Sombre",
-                "level": 130,
-                "imageUrl": "/bestiary/monsters/1041.png"
-              },
-              {
-                "id": 1073,
-                "name": "Brouture",
-                "level": 127,
-                "imageUrl": "/bestiary/monsters/1073.png"
-              },
-              {
-                "id": 1076,
-                "name": "Chiendent",
-                "level": 125,
-                "imageUrl": "/bestiary/monsters/1076.png"
-              },
-              {
-                "id": 1029,
-                "name": "Floribonde",
-                "level": 129,
-                "imageUrl": "/bestiary/monsters/1029.png"
-              },
-              {
-                "id": 1075,
-                "name": "Fécorce",
-                "level": 128,
-                "imageUrl": "/bestiary/monsters/1075.png"
-              },
-              {
-                "id": 1074,
-                "name": "Nerbe",
-                "level": 126,
-                "imageUrl": "/bestiary/monsters/1074.png"
               }
             ]
           },
@@ -603,91 +506,16 @@
       "bestiary": {
         "zones": [
           {
-            "id": 469,
-            "name": "Village de la Canopée",
+            "id": 442,
+            "name": "Lac",
             "coordinates": [
               "-52,17"
             ]
           }
         ],
-        "bounties": [
-          {
-            "id": 5076,
-            "name": "Darma",
-            "level": 140,
-            "imageUrl": "/bestiary/monsters/5076.png"
-          }
-        ],
-        "archmonsters": [
-          {
-            "id": 2562,
-            "name": "Diskord le Belliqueux",
-            "level": 114,
-            "imageUrl": "/bestiary/monsters/2562.png"
-          },
-          {
-            "id": 2566,
-            "name": "Gastroth la Contagieuse",
-            "level": 117,
-            "imageUrl": "/bestiary/monsters/2566.png"
-          },
-          {
-            "id": 2569,
-            "name": "Guerumoth le Collant",
-            "level": 120,
-            "imageUrl": "/bestiary/monsters/2569.png"
-          },
-          {
-            "id": 2587,
-            "name": "Seripoth l'Ennemi",
-            "level": 123,
-            "imageUrl": "/bestiary/monsters/2587.png"
-          },
-          {
-            "id": 2578,
-            "name": "Don Kizoth l'Obstiné",
-            "level": 126,
-            "imageUrl": "/bestiary/monsters/2578.png"
-          }
-        ],
-        "achievements": [
-          {
-            "id": 1067,
-            "name": "Zoths",
-            "monsters": [
-              {
-                "id": 1055,
-                "name": "Disciple Zoth",
-                "level": 114,
-                "imageUrl": "/bestiary/monsters/1055.png"
-              },
-              {
-                "id": 1053,
-                "name": "Gamine Zoth",
-                "level": 117,
-                "imageUrl": "/bestiary/monsters/1053.png"
-              },
-              {
-                "id": 1054,
-                "name": "Guerrier Zoth",
-                "level": 120,
-                "imageUrl": "/bestiary/monsters/1054.png"
-              },
-              {
-                "id": 1056,
-                "name": "Sergent Zoth",
-                "level": 123,
-                "imageUrl": "/bestiary/monsters/1056.png"
-              },
-              {
-                "id": 1052,
-                "name": "Maître Zoth",
-                "level": 126,
-                "imageUrl": "/bestiary/monsters/1052.png"
-              }
-            ]
-          }
-        ]
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": []
       },
       "questKey": "quest:113",
       "sourceUrl": "https://www.dofuspourlesnoobs.com/les-chasses-de-crocodaille-dandi.html",

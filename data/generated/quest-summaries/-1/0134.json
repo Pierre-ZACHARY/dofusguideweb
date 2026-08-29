@@ -1,8 +1,123 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 134,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T14:23:00.502Z",
+  "summaries": [
+    {
+      "overview": "Le Ring du Capitaine Ekarlatte et le combat contre le Capitaine Ekarlatte sont supposés avoir été effectués à l'étape précédente. Reprenez juste après sa défaite : obtenez son témoignage avant de quitter le ring, puis retournez auprès de Kathy Brennan pour rendre votre rapport et terminer la quête.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Ça se katche.",
+        "Avoir suivi l'occurrence précédente de la quête jusqu'au Ring du Capitaine Ekarlatte et avoir vaincu le Capitaine Ekarlatte."
+      ],
+      "rewards": [
+        "3 971 945 XP.",
+        "38 960 kamas.",
+        "25 x Orichor.",
+        "3 x Slip d'Elsoummo.",
+        "1 x Crochet Rouillé."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Après avoir vaincu le Capitaine Ekarlatte, reparlez-lui avant de sortir du Ring. Interrogez-le sur la mort des deux Voyageurs dimensionnels afin d'apprendre qu'une de ses katcheuses les a tués en se défendant lorsqu'ils ont voulu l'agresser.",
+          "position": "[6,3]",
+          "zoneHint": "Ring du Capitaine Ekarlatte",
+          "warning": "Ne quittez pas le Ring avant d'avoir reparlé au Capitaine Ekarlatte, car cette conversation est nécessaire pour poursuivre la quête.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Kathy Brennan et racontez-lui ce que vous avez découvert sur la mort des deux Voyageurs dimensionnels. Terminez le dialogue pour achever la quête.",
+          "position": "[2,2]",
+          "zoneHint": "Ruelles des Eaux-Suaires",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les démarches auprès d'El Rumo, Urluh et Guy Cheutié ainsi que le parcours du Ring ne sont pas à refaire ici : elles appartiennent à la portion déjà réalisée lors de l'occurrence précédente.",
+        "Cette occurrence clôt uniquement Un ring pour les gouverner tous ; le succès suivant, Crache ton venin, sera traité plus tard dans le guide."
+      ],
+      "npcs": [
+        "Capitaine Ekarlatte",
+        "Kathy Brennan"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 830,
+            "name": "Ring du Capitaine Ekarlatte",
+            "coordinates": [
+              "6,3"
+            ]
+          },
+          {
+            "id": 827,
+            "name": "Ruelles des Eaux-Suaires",
+            "coordinates": [
+              "2,2"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3762,
+            "name": "Pantèroz",
+            "level": 1040,
+            "imageUrl": "/bestiary/monsters/3762.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1128,
+            "name": "Malveilleurs",
+            "monsters": [
+              {
+                "id": 3730,
+                "name": "Milimaître",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/3730.png"
+              },
+              {
+                "id": 3731,
+                "name": "Kartouche",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/3731.png"
+              },
+              {
+                "id": 3732,
+                "name": "Sramouraï",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/3732.png"
+              },
+              {
+                "id": 3733,
+                "name": "Tromblion",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/3733.png"
+              },
+              {
+                "id": 3734,
+                "name": "Elsoummo",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/3734.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:828",
+      "relation": "FINISH",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/un-ring-pour-les-gouverner-tous.html",
+      "sourceTitle": "Un ring pour les gouverner tous",
+      "sourceHash": "24af85210414d479d81576caa09dd5c2e438ef7b78c85d43cc5ce45d5292c005",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

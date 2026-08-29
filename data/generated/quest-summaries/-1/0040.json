@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 40,
-  "updatedAt": "2026-08-27T13:32:15.776Z",
+  "updatedAt": "2026-08-29T09:59:07.682Z",
   "summaries": [
     {
       "overview": "Amayiro vous charge de récupérer les badges de trois miliciens qui ont abandonné leur poste pour fréquenter les tavernes de Bonta. Visitez les trois établissements indiqués, récupérez chaque badge auprès du milicien concerné, puis rapportez l'ensemble à la milice.",
@@ -86,6 +86,13 @@
           {
             "id": 975,
             "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
             "coordinates": [
               "-32,-57"
             ]
@@ -426,6 +433,13 @@
           {
             "id": 975,
             "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
             "coordinates": [
               "-32,-57"
             ]

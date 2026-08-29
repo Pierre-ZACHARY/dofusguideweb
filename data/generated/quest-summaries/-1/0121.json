@@ -1,51 +1,51 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 121,
-  "updatedAt": "2026-08-27T13:32:24.568Z",
+  "updatedAt": "2026-08-29T12:51:42.744Z",
   "summaries": [
     {
-      "overview": "Francky s'inquiète de la disparition de sa patronne Valy Domidat. Partez à la recherche d'indices à [-68,-40], interrogez le Bonhomme de neige, rapportez vos trouvailles à Francky, puis obtenez l'aide de Jean-Pierre Kofkof à la taverne de [-77,-38]. Rejoignez-le à [-68,-40] pour faire fondre le Bonhomme de neige et découvrez qu'il s'agissait de Valy ensorcelée.",
+      "overview": "La quête est supposée déjà lancée auprès de Francky. Pour cette occurrence, enquête sur la disparition de Valy Domidat, recrute Jean-Pierre Kofkof pour lever le sort puis retrouve Valy. Cette portion mène jusqu'à la résolution de Bricole Girl.",
       "recommendedLevel": 100,
       "prerequisites": [],
       "rewards": [
-        "1 023 750 XP",
-        "11 980 kamas",
-        "1 x Kama de glace",
-        "1 x Cuir de Bouftonmouth"
+        "1 023 750 XP.",
+        "11 980 kamas.",
+        "1 x Kama de glace.",
+        "1 x Cuir de Bouftonmouth."
       ],
       "preparation": [],
       "actions": [
         {
-          "instruction": "Aller à La Bourgade [-75,-38] et parler à Francky.",
-          "position": "[-75,-38]",
-          "zoneHint": "La Bourgade",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Se rendre en [-68,-40] pour chercher des indices, puis parler au Bonhomme de neige.",
+          "instruction": "Rends-toi en [-68,-40] et examine l'indice en parlant au Bonhomme de neige afin de faire progresser l'enquête sur Valy Domidat.",
           "position": "[-68,-40]",
           "zoneHint": null,
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Retourner à La Bourgade [-75,-38] et faire son rapport à Francky.",
+          "instruction": "Retourne auprès de Francky et rapporte-lui ce que tu as découvert.",
           "position": "[-75,-38]",
-          "zoneHint": "La Bourgade",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller à la taverne en [-77,-38] et demander des renseignements à Jean-Pierre Kofkof.",
-          "position": "[-77,-38]",
           "zoneHint": null,
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Rejoindre Jean-Pierre Kofkof en [-68,-40], le laisser faire fondre le Bonhomme de neige, puis parler à Valy Domidat libérée du sort.",
+          "instruction": "Entre dans la taverne et parle à Jean-Pierre Kofkof pour lui demander de t'aider avec le Bonhomme de neige.",
+          "position": "[-77,-38]",
+          "zoneHint": "taverne",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoins Jean-Pierre Kofkof près du Bonhomme de neige en [-68,-40], puis poursuis le dialogue pour qu'il fasse fondre celui-ci.",
+          "position": "[-68,-40]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parle à Valy Domidat après la fonte du Bonhomme de neige pour apprendre qu'un sort l'avait transformée et valider la résolution de la quête.",
           "position": "[-68,-40]",
           "zoneHint": null,
           "warning": null,
@@ -53,8 +53,8 @@
         }
       ],
       "notes": [
-        "Débloque l'accès à la quête : Promenons nous dans les bois",
-        "Débloque l'accès à une étape de la quête : La fonte des glaces"
+        "Le lancement auprès de Francky est considéré comme déjà effectué avant cette occurrence.",
+        "La résolution débloque Promenons nous dans les bois ainsi qu'une étape de La fonte des glaces."
       ],
       "npcs": [
         "Francky",
@@ -62,20 +62,7 @@
         "Jean-Pierre Kofkof",
         "Valy Domidat"
       ],
-      "items": [
-        {
-          "name": "Kama de glace",
-          "itemId": 11196,
-          "imageUrl": "/items/11196.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11196"
-        },
-        {
-          "name": "Cuir de Bouftonmouth",
-          "itemId": 11120,
-          "imageUrl": "/items/11120.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11120"
-        }
-      ],
+      "items": [],
       "bestiary": {
         "zones": [
           {
@@ -90,6 +77,13 @@
             "name": "La Bourgade",
             "coordinates": [
               "-75,-38"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-68,-40"
             ]
           },
           {
@@ -173,56 +167,51 @@
         ]
       },
       "questKey": "quest:357",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/bricole-girl.html",
       "sourceTitle": "Bricole Girl",
       "sourceHash": "f8d7ae983d8f49401cdbc7a36b6e6e2060f84fe119d7d95e0762ebe3f6612450",
-      "generatedAt": "2026-08-24T17:13:35.087Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     },
     {
-      "overview": "Grand-père, habitant de la bourgade de Frigost, a besoin d'aide pour se débarrasser des rats bougris délavés qui infestent sa cave. Rendez-vous à la bourgade, descendez dans la cave, éliminez le groupe de rats et revenez lui annoncer la bonne nouvelle.",
+      "overview": "La demande du Grand-père est supposée déjà acceptée. Pour cette occurrence, descends dans sa cave, élimine les rats bougris délavés puis remonte lui annoncer que le problème est réglé afin de terminer Pauvre Kiki.",
       "recommendedLevel": 100,
-      "prerequisites": [
-        "Niveau 100"
-      ],
+      "prerequisites": [],
       "rewards": [
-        "255 937 XP",
-        "2 995 kamas"
+        "255 937 XP.",
+        "2 995 kamas."
       ],
       "preparation": [
-        "1 combat (réalisable en groupe)"
+        "Prévois un combat contre le groupe de rats bougris délavés ; le combat peut être réalisé en groupe."
       ],
       "actions": [
         {
-          "instruction": "Aller à [-79,-42] dans la bourgade de Frigost et parler à Grand-père.",
+          "instruction": "Depuis la maison du Grand-père en [-79,-42], descends dans la cave où se trouvent les rats bougris délavés.",
           "position": "[-79,-42]",
-          "zoneHint": "La bourgade",
+          "zoneHint": "cave",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Descendre dans la cave de Grand-père.",
-          "position": null,
-          "zoneHint": "Cave",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Combattre le groupe de rats bougris délavés.",
-          "position": null,
-          "zoneHint": "Cave",
-          "warning": "Combat réalisable en groupe",
+          "instruction": "Attaque et vaincs le groupe de rats bougris délavés présent dans la cave.",
+          "position": "[-79,-42]",
+          "zoneHint": "cave",
+          "warning": "Combat obligatoire ; il peut être réalisé en groupe.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Retourner voir Grand-père à [-79,-42] pour terminer la quête.",
+          "instruction": "Remonte auprès du Grand-père et annonce-lui que les rats ont été éliminés pour terminer la quête.",
           "position": "[-79,-42]",
-          "zoneHint": "La bourgade",
+          "zoneHint": null,
           "warning": null,
           "combat": "NONE"
         }
       ],
-      "notes": [],
+      "notes": [
+        "Le dialogue initial avec le Grand-père est considéré comme déjà effectué avant cette occurrence."
+      ],
       "npcs": [
         "Grand-père"
       ],
@@ -232,6 +221,13 @@
           {
             "id": 601,
             "name": "La Bourgade",
+            "coordinates": [
+              "-79,-42"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
             "coordinates": [
               "-79,-42"
             ]
@@ -273,12 +269,27 @@
         ]
       },
       "questKey": "quest:321",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/pauvre-kiki.html",
       "sourceTitle": "Pauvre Kiki",
       "sourceHash": "142346ce6c0406ea945415ed9238461e40d0602a5f793217e81f8e3964aec6b3",
-      "generatedAt": "2026-08-24T18:29:08.409Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     }
   ],
-  "tips": []
+  "tips": [
+    {
+      "title": "Regrouper les passages dans la Bourgade",
+      "description": "Les deux quêtes de cette étape se déroulent dans ou à proximité immédiate de La Bourgade. Tu peux limiter les déplacements en enchaînant les dialogues de Bricole Girl autour de [-75,-38] et [-77,-38] avec Pauvre Kiki en [-79,-42] avant de partir vers [-68,-40].",
+      "questKeys": [
+        "quest:357",
+        "quest:321"
+      ],
+      "actions": [
+        "Profite de ton passage près de [-77,-38] pour traiter les étapes locales de Bricole Girl.",
+        "Fais le détour par [-79,-42] pour terminer la cave de Pauvre Kiki avant de poursuivre vers [-68,-40]."
+      ]
+    }
+  ]
 }

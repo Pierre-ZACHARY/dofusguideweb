@@ -1,38 +1,36 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 100,
-  "updatedAt": "2026-08-27T13:32:19.189Z",
+  "updatedAt": "2026-08-29T11:29:32.657Z",
   "summaries": [
     {
-      "overview": "Anne Ullaire, au Village côtier, vous envoie sur l'île de Moon enquêter sur les pouvoirs divins attribués à Moon. Rendez-vous au donjon Arbre de Moon, vainquez Moon, puis revenez lui faire votre rapport.",
+      "overview": "Poursuivez Tour d'horizon en vous rendant à l'Arbre de Moon afin d'affronter le Moon. Cette occurrence couvre le donjon et le retour auprès d'Anne Ullaire pour lui faire votre rapport et terminer la quête.",
       "recommendedLevel": 80,
       "prerequisites": [
-        "Tour de marionnettes"
+        "Être de niveau supérieur à 79.",
+        "Avoir terminé Tour de marionnettes.",
+        "La quête doit déjà avoir été lancée auprès d'Anne Ullaire en [-45,19]."
       ],
       "rewards": [
-        "1 x Étoffe Magique de Moon"
+        "2 457 000 XP.",
+        "28 752 kamas.",
+        "1 x Étoffe Magique de Moon."
       ],
       "preparation": [
-        "1 x Donjon Arbre de Moon"
+        "Prévoir le donjon Arbre de Moon.",
+        "Anne Ullaire fournit une clef du donjon ; si votre trousseau de clefs est disponible, vous pouvez l'utiliser à la place."
       ],
       "actions": [
         {
-          "instruction": "Allez au Village côtier et parlez à Anne Ullaire en [-45,19]. Acceptez la quête.",
-          "position": "[-45,19]",
-          "zoneHint": "Village côtier",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Rendez-vous en [29,6] sur l'île de Moon et effectuez le donjon Arbre de Moon. Vainquez Moon.",
+          "instruction": "Rendez-vous à l'entrée de l'Arbre de Moon et effectuez le donjon jusqu'à vaincre le Moon.",
           "position": "[29,6]",
-          "zoneHint": "Île de Moon",
-          "warning": "Combat de donjon. Utilisez de préférence le Trousseau de Clefs pour économiser la clef remise par Anne Ullaire.",
+          "zoneHint": null,
+          "warning": "Cette étape impose d'effectuer le donjon Arbre de Moon et d'en vaincre le boss.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Retournez voir Anne Ullaire en [-45,19] et faites votre rapport.",
+          "instruction": "Après la victoire contre le Moon, retournez voir Anne Ullaire et expliquez-lui que le Moon ne semble pas posséder de Dofus, ou qu'il ne s'en est pas servi contre vous, afin de terminer Tour d'horizon.",
           "position": "[-45,19]",
           "zoneHint": "Village côtier",
           "warning": null,
@@ -40,12 +38,11 @@
         }
       ],
       "notes": [
-        "La quête se termine après avoir fait votre rapport à Anne Ullaire.",
-        "En continuant la discussion avec Anne Ullaire, elle vous confie la quête suivante : Tour à tour."
+        "La quête Tour à tour peut être proposée en poursuivant la discussion avec Anne Ullaire après la fin de Tour d'horizon ; elle n'est pas à traiter dans cette occurrence."
       ],
       "npcs": [
-        "Anne Ullaire",
-        "Moon"
+        "Moon",
+        "Anne Ullaire"
       ],
       "items": [
         {
@@ -58,8 +55,8 @@
       "bestiary": {
         "zones": [
           {
-            "id": 165,
-            "name": "Jungle Interdite",
+            "id": 847,
+            "name": "Arbre de Moon",
             "coordinates": [
               "29,6"
             ]
@@ -72,34 +69,8 @@
             ]
           }
         ],
-        "bounties": [
-          {
-            "id": 4240,
-            "name": "Trukipik",
-            "level": 100,
-            "imageUrl": "/bestiary/monsters/4240.png"
-          }
-        ],
-        "archmonsters": [
-          {
-            "id": 2484,
-            "name": "Fourapin le Chaud",
-            "level": 92,
-            "imageUrl": "/bestiary/monsters/2484.png"
-          },
-          {
-            "id": 2495,
-            "name": "Gloubibou le Gars",
-            "level": 92,
-            "imageUrl": "/bestiary/monsters/2495.png"
-          },
-          {
-            "id": 2301,
-            "name": "Trukul le Lent",
-            "level": 92,
-            "imageUrl": "/bestiary/monsters/2301.png"
-          }
-        ],
+        "bounties": [],
+        "archmonsters": [],
         "achievements": [
           {
             "id": 170,
@@ -128,58 +99,51 @@
                 "name": "Dostrogo",
                 "level": 92,
                 "imageUrl": "/bestiary/monsters/4162.png"
+              },
+              {
+                "id": 4163,
+                "name": "Domoizelle",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/4163.png"
               }
             ]
           }
         ]
       },
       "questKey": "quest:612",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/tour-dhorizon.html",
       "sourceTitle": "Tour d'horizon",
       "sourceHash": "5328852d6431ed1288ec9f481ffab2ee5fcbf6e48800ee702709aa6a3ff61553",
-      "generatedAt": "2026-08-24T18:06:50.709Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     },
     {
-      "overview": "Lancez la quête auprès du Captain Amakna au Village d'Amakna, puis rendez-vous au donjon Théâtre de Dramak en [21,7] pour vaincre Dramak. Interrogez-le sur le traité des Six et Makia Vhel avant de sortir, puis retournez annoncer votre victoire au Captain Amakna.",
+      "overview": "Le Théâtre de Dramak et la victoire contre Dramak sont supposés accomplis à l'étape précédente. Reprenez uniquement après le donjon : interrogez Dramak avant de quitter les lieux, puis retournez auprès du Captain Amakna pour rendre la quête.",
       "recommendedLevel": 80,
       "prerequisites": [
-        "Niveau supérieur à 79",
-        "Quelque chose de pourri au royaume d'Amakna"
+        "Être de niveau supérieur à 79.",
+        "Avoir terminé Quelque chose de pourri au royaume d'Amakna.",
+        "Avoir déjà lancé Ainsi font les petites marionnettes auprès du Captain Amakna.",
+        "Avoir découvert Dramak, effectué le Théâtre de Dramak et vaincu Dramak comme demandé à l'étape précédente."
       ],
       "rewards": [
-        "2 457 000 XP",
-        "28 752 Kamas",
-        "Brandir son bouclier (attitude)"
+        "2 457 000 XP.",
+        "28 752 Kamas.",
+        "Attitude Brandir son bouclier."
       ],
-      "preparation": [
-        "3 combats (seul)",
-        "1 Donjon Théâtre de Dramak"
-      ],
+      "preparation": [],
       "actions": [
         {
-          "instruction": "Parler au Captain Amakna pour lancer la quête.",
-          "position": "[0,0]",
-          "zoneHint": "Village d'Amakna",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Se rendre à l'entrée du donjon de Dramak.",
-          "position": "[21,7]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Effectuer le donjon Théâtre de Dramak, vaincre Dramak, puis lui parler du traité des Six et de Makia Vhel.",
+          "instruction": "Après le combat final du Théâtre de Dramak, parlez à Dramak avant de sortir et demandez-lui des informations sur le traité des Six et Makia Vhel.",
           "position": "[21,7]",
           "zoneHint": "Théâtre de Dramak",
-          "warning": "Ne pas sortir du donjon avant d'avoir parlé à Dramak.",
-          "combat": "SOLO"
+          "warning": "Ne quittez pas le donjon avant d'avoir parlé à Dramak, sous peine de devoir revenir pour cette interaction.",
+          "combat": "NONE"
         },
         {
-          "instruction": "Retourner voir le Captain Amakna et lui annoncer la victoire.",
+          "instruction": "Retournez auprès du Captain Amakna et annoncez-lui votre victoire contre Dramak pour terminer la quête.",
           "position": "[0,0]",
           "zoneHint": "Village d'Amakna",
           "warning": null,
@@ -187,23 +151,17 @@
         }
       ],
       "notes": [
-        "La quête se termine après avoir annoncé la victoire au Captain Amakna.",
-        "L'attitude Brandir son bouclier est apprise à la fin de la quête."
+        "Le lancement de la quête, la découverte de Dramak et le donjon ont volontairement été effectués lors de l'occurrence START de l'étape 99.",
+        "La fin de cette occurrence débloque l'attitude Brandir son bouclier."
       ],
       "npcs": [
+        "Dramak",
         "Captain Amakna",
-        "Dramak"
+        "Makia Vhel"
       ],
       "items": [],
       "bestiary": {
         "zones": [
-          {
-            "id": 799,
-            "name": "Île de Kartonpath",
-            "coordinates": [
-              "21,7"
-            ]
-          },
           {
             "id": 800,
             "name": "Théâtre de Dramak",
@@ -219,14 +177,7 @@
             ]
           }
         ],
-        "bounties": [
-          {
-            "id": 4027,
-            "name": "Naganita",
-            "level": 100,
-            "imageUrl": "/bestiary/monsters/4027.png"
-          }
-        ],
+        "bounties": [],
         "archmonsters": [
           {
             "id": 2343,
@@ -335,71 +286,67 @@
         ]
       },
       "questKey": "quest:723",
+      "relation": "FINISH",
+      "sortOrder": 1,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/ainsi-font-les-petites-marionnettes.html",
       "sourceTitle": "Ainsi font les petites marionnettes",
       "sourceHash": "7d1a62c874f0310ad3e91d300e0bd232163012a543f71703e2e85e19f5894530",
-      "generatedAt": "2026-08-24T17:10:55.455Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     },
     {
-      "overview": "Danathor (ou Larry Poller selon vos choix antérieurs) vous confie une mission : aider Grace Malcean dont le tabi a été piqué par un scorbute. Après avoir consulté Merlan l'Enchaîneur, vous obtiendrez un pouvoir miraculeux auprès d'un écureuil dans le Bois de Litneg en échange d'un gland, puis retournerez soigner le tabi.",
+      "overview": "Aidez Grace Malcean à soigner son Tabi. Consultez Merlan l'Enchaîneur, obtenez le pouvoir de l'écureuil miraculeux contre un Gland, puis revenez toucher le Tabi sans engager de combat entre-temps.",
       "recommendedLevel": 65,
       "prerequisites": [
-        "La lettre anonyme"
+        "Avoir terminé La lettre anonyme.",
+        "Selon votre choix dans Au service de Danathor, la quête a été lancée auprès de Danathor en [-36,-60] si vous avez empoisonné Rimaraf, ou auprès de Larry Poller en [-34,-58] sinon."
       ],
       "rewards": [
-        "532 084 XP"
+        "532 084 XP."
       ],
       "preparation": [
-        "1 Gland"
+        "Avoir 1 x Gland dans l'inventaire avant de se rendre auprès de l'écureuil miraculeux."
       ],
       "actions": [
         {
-          "instruction": "Parlez à Danathor en [-36,-60] (si vous avez empoisonné Rimaraf dans la quête Au service de Danathor) ou à Larry Poller en [-34,-58] (si vous ne l'avez pas empoisonné).",
-          "position": "[-36,-60] ou [-34,-58]",
-          "zoneHint": "Bonta",
-          "warning": "Le PNJ de lancement dépend du choix fait dans la quête Au service de Danathor : Danathor si Rimaraf a été empoisonné, Larry Poller sinon.",
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Allez voir Grace Malcean en [-34,-61] et proposez-lui d'aider son tabi, piqué par un scorbute.",
+          "instruction": "Allez voir Grace Malcean et proposez votre aide pour son Tabi, qui a été piqué par un scorbute.",
           "position": "[-34,-61]",
-          "zoneHint": "Bonta",
+          "zoneHint": null,
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Allez voir Merlan l'Enchaîneur en [-29,-54].",
+          "instruction": "Consultez Merlan l'Enchaîneur afin d'apprendre qu'un écureuil du Bois de Litneg peut vous aider en échange d'un Gland.",
           "position": "[-29,-54]",
-          "zoneHint": "Bonta",
+          "zoneHint": null,
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Rendez-vous dans le Bois de Litneg en [-15,-59] avec un Gland dans l'inventaire. Parlez à l'écureuil miraculeux dans son langage pour obtenir un pouvoir miraculeux.",
+          "instruction": "Avec 1 x Gland dans votre inventaire, rendez-vous auprès de l'écureuil miraculeux, parlez-lui dans son langage et donnez-lui le Gland pour obtenir son pouvoir miraculeux.",
           "position": "[-15,-59]",
           "zoneHint": "Bois de Litneg",
-          "warning": "Ne lancez pas de combat avant d'avoir soigné le tabi, sinon vous perdrez le pouvoir miraculeux et devrez redonner un Gland pour le récupérer.",
+          "warning": "Après avoir obtenu le pouvoir miraculeux, ne lancez aucun combat avant d'avoir soigné le Tabi. Un combat fait perdre le pouvoir et oblige à offrir un nouveau Gland.",
           "combat": "NONE"
         },
         {
-          "instruction": "Retournez auprès du tabi de Grace Malcean en [-34,-61] et touchez l'animal pour le soigner.",
+          "instruction": "Retournez auprès du Tabi de Grace Malcean et touchez l'animal pour le soigner et terminer la quête.",
           "position": "[-34,-61]",
-          "zoneHint": "Bonta",
-          "warning": null,
+          "zoneHint": null,
+          "warning": "Effectuez ce trajet sans engager de combat afin de conserver le pouvoir miraculeux.",
           "combat": "NONE"
         }
       ],
       "notes": [
-        "Quête d'alignement Bontarien niveau 35.",
-        "Débloque la quête suivante : Alignement 36 - Des badges pour la bonne cause."
+        "La quête suivante, Des badges pour la bonne cause, est débloquée après cette guérison mais appartient à l'étape 101 et n'est pas à commencer ici."
       ],
       "npcs": [
         "Danathor",
         "Larry Poller",
         "Grace Malcean",
         "Merlan l'Enchaîneur",
-        "Écureuil miraculeux"
+        "Écureuil miraculeux",
+        "Tabi de Grace Malcean"
       ],
       "items": [
         {
@@ -415,22 +362,21 @@
             "id": 69,
             "name": "Bois de Litneg",
             "coordinates": [
+              "-29,-54",
               "-15,-59"
             ]
           },
           {
-            "id": 973,
-            "name": "Faubourgs des artisans",
+            "id": 778,
+            "name": "Mine",
             "coordinates": [
-              "-29,-54"
+              "-34,-61"
             ]
           },
           {
             "id": 976,
             "name": "Promontoire des cieux",
             "coordinates": [
-              "-36,-60",
-              "-34,-58",
               "-34,-61"
             ]
           }
@@ -647,11 +593,13 @@
         ]
       },
       "questKey": "quest:37",
+      "relation": "ACTIVE",
+      "sortOrder": 2,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/tabi-ta-fleuri.html",
       "sourceTitle": "Alignement 35 : Tabi t'a fleuri ?",
       "sourceHash": "106f43a9aa67d701f0e29c173707b4aa2a205ef9358c5b53589df935f8ac99ea",
-      "generatedAt": "2026-08-24T18:04:09.098Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     }
   ],
   "tips": []

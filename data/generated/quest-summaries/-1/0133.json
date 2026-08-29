@@ -1,8 +1,744 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 133,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T14:23:00.490Z",
+  "summaries": [
+    {
+      "overview": "Poursuivez la mission confiée par le Sergent Raskzac : secourez l'agent Gklung, réunissez de quoi acheter la tranquillité des Malveilleurs, puis faites vos rapports jusqu'à conclure la quête auprès de Sinedia Zieunoir.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Niveau recommandé : 130.",
+        "La quête Fanfouille doit déjà être en cours auprès du Sergent Raskzac en [2,2]."
+      ],
+      "rewards": [
+        "1 985 972 XP.",
+        "19 480 kamas.",
+        "25 x Orichor.",
+        "5 x Sacoche de Kartouche.",
+        "1 x Crochet Rouillé."
+      ],
+      "preparation": [
+        "Prévoir un combat contre 8 monstres de la zone, réalisable en groupe.",
+        "Pendant le combat, l'agent Gklung doit rester en vie."
+      ],
+      "actions": [
+        {
+          "instruction": "Rejoignez l'agent Gklung. En lui parlant, affrontez les 8 Malveilleurs, dont Kartouche Dencre, qui l'empêchent de repartir.",
+          "position": "[7,3]",
+          "zoneHint": "Ruelles des Eaux-Suaires",
+          "warning": "Combat réalisable en groupe avec jusqu'à 6 autres personnages. L'agent Gklung participe et ne doit pas mourir.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire, reparlez à Gklung pour apprendre qu'il faut payer les Malveilleurs afin qu'ils le laissent poursuivre ses auditions.",
+          "position": "[7,3]",
+          "zoneHint": "Ruelles des Eaux-Suaires",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montez les escaliers et parlez à Alradin. Distrayez-le afin de lui dérober un sac de kamas.",
+          "position": "[6,2]",
+          "zoneHint": "Ruelles des Eaux-Suaires",
+          "warning": "Cette étape consiste à voler les kamas nécessaires au paiement des Malveilleurs.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Luc Chateaulent et acceptez de voler les éclairs à sa place afin d'obtenir une petite bourse de kamas en avance.",
+          "position": "[8,4]",
+          "zoneHint": "Ruelles des Eaux-Suaires",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montez sur la carte au-dessus et cliquez sur le sac à la base bleue pour récupérer des kamas supplémentaires.",
+          "position": "[8,3]",
+          "zoneHint": "Ruelles des Eaux-Suaires",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Malveilleur turbulent et demandez-lui de laisser Gklung tranquille, puis utilisez les kamas collectés pour le convaincre.",
+          "position": "[9,3]",
+          "zoneHint": "Ruelles des Eaux-Suaires",
+          "warning": "Vous dépensez les kamas récupérés pour soudoyer le Malveilleur.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Passez par [6,2], puis rejoignez la corniche à droite et parlez à la Malveilleur aux aguets. Payez-la pour qu'elle ferme les yeux et protège Gklung.",
+          "position": "[7,2]",
+          "zoneHint": "Ruelles des Eaux-Suaires",
+          "warning": "Vous devez la soudoyer avec les kamas collectés.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Malveilleur arrogant et payez-le également afin d'assurer la protection de l'agent Gklung.",
+          "position": "[6,1]",
+          "zoneHint": "Ruelles des Eaux-Suaires",
+          "warning": "Vous devez dépenser des kamas pour obtenir sa coopération.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Gklung et annoncez-lui qu'il peut désormais poursuivre ses auditions sans craindre les Malveilleurs.",
+          "position": "[7,3]",
+          "zoneHint": "Ruelles des Eaux-Suaires",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Faites votre rapport au Sergent Raskzac. Il vous confie alors un message de trêve à transmettre à Sinedia Zieunoir.",
+          "position": "[2,2]",
+          "zoneHint": "Ruelles des Eaux-Suaires",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montez dans les Hauts Ténébreux, cliquez sur le feu bleu pour ouvrir le passage secret, puis parlez à Sinedia Zieunoir de la trêve proposée par le Sergent Raskzac afin de terminer la quête.",
+          "position": "[5,-2]",
+          "zoneHint": "Hauts Ténébreux",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête se termine après le dialogue avec Sinedia Zieunoir et débloque Les troupiers et La morte Adèle."
+      ],
+      "npcs": [
+        "Sergent Raskzac",
+        "Gklung",
+        "Kartouche Dencre",
+        "Alradin",
+        "Luc Chateaulent",
+        "Malveilleur turbulent",
+        "Malveilleur aux aguets",
+        "Malveilleur arrogant",
+        "Sinedia Zieunoir"
+      ],
+      "items": [
+        {
+          "name": "Sac de kamas",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Petite bourse de kamas",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Kamas collectés",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 829,
+            "name": "Hauts Ténébreux",
+            "coordinates": [
+              "5,-2"
+            ]
+          },
+          {
+            "id": 827,
+            "name": "Ruelles des Eaux-Suaires",
+            "coordinates": [
+              "7,3",
+              "6,2",
+              "8,4",
+              "8,3",
+              "9,3",
+              "7,2",
+              "6,1",
+              "2,2"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3762,
+            "name": "Pantèroz",
+            "level": 1040,
+            "imageUrl": "/bestiary/monsters/3762.png"
+          },
+          {
+            "id": 3761,
+            "name": "Gein",
+            "level": 1600,
+            "imageUrl": "/bestiary/monsters/3761.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1130,
+            "name": "Cour Sombre",
+            "monsters": [
+              {
+                "id": 3746,
+                "name": "Mâchassin",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/3746.png"
+              },
+              {
+                "id": 3747,
+                "name": "Terristocrate",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/3747.png"
+              },
+              {
+                "id": 3748,
+                "name": "Doublure",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/3748.png"
+              },
+              {
+                "id": 3749,
+                "name": "Bourôliste",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/3749.png"
+              }
+            ]
+          },
+          {
+            "id": 1128,
+            "name": "Malveilleurs",
+            "monsters": [
+              {
+                "id": 3730,
+                "name": "Milimaître",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/3730.png"
+              },
+              {
+                "id": 3731,
+                "name": "Kartouche",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/3731.png"
+              },
+              {
+                "id": 3732,
+                "name": "Sramouraï",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/3732.png"
+              },
+              {
+                "id": 3733,
+                "name": "Tromblion",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/3733.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:823",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/fanfouille.html",
+      "sourceTitle": "Fanfouille",
+      "sourceHash": "0472948622b352f907e92bc413b71e0f43cee0e222ebe64b5e2ce5c0751fc0e8",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Menez l'enquête sur les deux Voyageurs dimensionnels assassinés. Interrogez les témoins adaptés à votre classe, obtenez un Krosmoglob défectueux pour Bonnie Menteuse, puis récupérez sa peluche afin de la contraindre à parler et terminer cette quête.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Niveau recommandé : 130.",
+        "La quête La seinoise doit déjà être en cours auprès de Kathy Brennan en [2,2]."
+      ],
+      "rewards": [
+        "1 985 972 XP.",
+        "19 480 kamas.",
+        "25 x Orichor.",
+        "5 x Os de Sramouraï.",
+        "1 x Crochet Rouillé."
+      ],
+      "preparation": [
+        "Le parcours diffère temporairement selon votre classe : Sram/Roublard ou toute autre classe."
+      ],
+      "actions": [
+        {
+          "instruction": "Interrogez Alradin au sujet des meurtres. Il vous oriente vers les crânes des environs.",
+          "position": "[6,2]",
+          "zoneHint": "Ruelles des Eaux-Suaires",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous n'êtes ni Sram ni Roublard, parlez au Crâne Myope pour apprendre qu'une certaine Bonnie Menteuse se trouvait près du lieu où les corps ont été jetés à l'eau.",
+          "position": "[3,3]",
+          "zoneHint": "Ruelles des Eaux-Suaires",
+          "warning": "Cette action concerne uniquement les classes autres que Sram et Roublard.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous êtes Sram ou Roublard, parlez d'abord à Tonio Socrâno.",
+          "position": "[4,1]",
+          "zoneHint": "Ruelles des Eaux-Suaires",
+          "warning": "Cette action concerne uniquement les personnages Sram ou Roublard.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si vous êtes Sram ou Roublard, parlez ensuite au Crâne Antipathique.",
+          "position": "[4,2]",
+          "zoneHint": "Ruelles des Eaux-Suaires",
+          "warning": "Cette action concerne uniquement les personnages Sram ou Roublard.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez Bonnie Menteuse. Elle réclame un Krosmoglob en échange de ce qu'elle sait.",
+          "position": "[4,2]",
+          "zoneHint": "Ruelles des Eaux-Suaires",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Kathy Brennan pour lui expliquer la demande de Bonnie, puis parlez au Sergent Raskzac sur la même carte afin d'obtenir un Signe de Krosmoglob défectueux.",
+          "position": "[2,2]",
+          "zoneHint": "Ruelles des Eaux-Suaires",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rapportez le Signe de Krosmoglob défectueux à Bonnie Menteuse. Elle le prend mais refuse de fournir les informations promises.",
+          "position": "[4,2]",
+          "zoneHint": "Ruelles des Eaux-Suaires",
+          "warning": "Le Krosmoglob est remis à Bonnie sans obtenir immédiatement l'information attendue.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Si votre piste passait par le Crâne Myope, retournez le voir afin d'apprendre où Bonnie cache ses trésors, puis cliquez sur la grille de la carte pour récupérer sa peluche.",
+          "position": "[3,3]",
+          "zoneHint": "Ruelles des Eaux-Suaires",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Revenez auprès de Bonnie Menteuse et montrez-lui sa peluche pour la faire céder et terminer La seinoise.",
+          "position": "[4,2]",
+          "zoneHint": "Ruelles des Eaux-Suaires",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Une fois La seinoise terminée, poursuivez immédiatement le dialogue avec Bonnie Menteuse pour avancer Ça se katche, qui est également traitée dans cette étape."
+      ],
+      "npcs": [
+        "Kathy Brennan",
+        "Alradin",
+        "Crâne Myope",
+        "Tonio Socrâno",
+        "Crâne Antipathique",
+        "Bonnie Menteuse",
+        "Sergent Raskzac"
+      ],
+      "items": [
+        {
+          "name": "Signe de Krosmoglob défectueux",
+          "itemId": 15491,
+          "imageUrl": "/items/15491.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15491"
+        },
+        {
+          "name": "Peluche de Bonnie Menteuse",
+          "itemId": 15492,
+          "imageUrl": "/items/15492.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15492"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 827,
+            "name": "Ruelles des Eaux-Suaires",
+            "coordinates": [
+              "6,2",
+              "3,3",
+              "4,1",
+              "4,2",
+              "2,2"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3762,
+            "name": "Pantèroz",
+            "level": 1040,
+            "imageUrl": "/bestiary/monsters/3762.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1128,
+            "name": "Malveilleurs",
+            "monsters": [
+              {
+                "id": 3730,
+                "name": "Milimaître",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/3730.png"
+              },
+              {
+                "id": 3731,
+                "name": "Kartouche",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/3731.png"
+              },
+              {
+                "id": 3732,
+                "name": "Sramouraï",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/3732.png"
+              },
+              {
+                "id": 3733,
+                "name": "Tromblion",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/3733.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:826",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-seinoise.html",
+      "sourceTitle": "La seinoise",
+      "sourceHash": "e7577557a8a6d0cd0e926afc2c4c75269c0221f351922d3275dcae027f9c361d",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après les révélations de Bonnie Menteuse, remontez la piste des Malveilleurs jusqu'à la taverne, survivez à l'incarcération, utilisez le déguisement fourni par Kathy Brennan et affrontez El Rumo. La quête s'achève après son interrogatoire.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Niveau recommandé : 130.",
+        "La seinoise.",
+        "La quête Ça se katche doit être en cours après le dialogue avec Bonnie Menteuse en [4,2]."
+      ],
+      "rewards": [
+        "1 985 972 XP.",
+        "19 480 kamas.",
+        "25 x Orichor.",
+        "5 x Bandelette de Tromblion.",
+        "1 x Crochet Rouillé."
+      ],
+      "preparation": [
+        "Prévoir un combat en solo contre le Sramouraï soupe-au-lailait.",
+        "Prévoir ensuite un combat réalisable en groupe contre El Rumo et les Malveilleurs.",
+        "Le déguisement de Milimaître fourni par Kathy Brennan doit être utilisé avant le second passage à la taverne."
+      ],
+      "actions": [
+        {
+          "instruction": "Rendez-vous à la taverne et interrogez le Sramouraï soupe-au-lailait au sujet des deux corps retrouvés dans la rivière. Acceptez son défi et battez-le.",
+          "position": "[5,2]",
+          "zoneHint": "Taverne de Srambad",
+          "warning": "Ce premier combat doit être effectué seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après la victoire, reparlez au Sramouraï soupe-au-lailait. Il vous accuse de tricherie et vous fait emprisonner.",
+          "position": "[5,2]",
+          "zoneHint": "Taverne de Srambad",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la prison, parlez au Prisonnier sobre. Il confirme avoir vu les Malveilleurs jeter les corps à l'eau et utilise la clef qu'il a volée pour vous permettre de sortir.",
+          "position": null,
+          "zoneHint": "Prison de Srambad",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Kathy Brennan. Elle vous remet un déguisement de Milimaître et vous explique qu'il permettra d'interroger les Malveilleurs incognito.",
+          "position": "[2,2]",
+          "zoneHint": "Ruelles des Eaux-Suaires",
+          "warning": "Si vous perdez un combat avec ce déguisement et devez le remplacer, son remplacement coûte 4 000 kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Double-cliquez sur le déguisement de Milimaître pour prendre l'apparence nécessaire avant de retourner à la taverne.",
+          "position": "[2,2]",
+          "zoneHint": "Ruelles des Eaux-Suaires",
+          "warning": "Conservez le déguisement actif pour la suite de l'enquête.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez à la taverne sous déguisement et interrogez de nouveau le Sramouraï soupe-au-lailait. Il reconnaît avoir jeté les corps sur ordre de son chef et vous oriente vers un amateur de pêche aux piranhaabs.",
+          "position": "[5,2]",
+          "zoneHint": "Taverne de Srambad",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sur la carte de pêche, interrogez le Lieutenant Cormoran au sujet des Voyageurs morts, puis parlez à El Rumo. Au dialogue précédant le combat, choisissez d'appeler à l'aide si vous voulez être rejoint.",
+          "position": "[4,3]",
+          "zoneHint": "Ruelles des Eaux-Suaires",
+          "warning": "Le choix « Appeler à l'aide » permet le combat en groupe et conditionne la mise à jour de quête pour les autres personnages concernés.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Vainquez El Rumo et les Malveilleurs présents, puis reparlez à El Rumo, rendez-lui son slip lorsqu'il le demande et interrogez-le pour terminer Ça se katche.",
+          "position": "[4,3]",
+          "zoneHint": "Ruelles des Eaux-Suaires",
+          "warning": null,
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "Après la fin de Ça se katche, poursuivez le dialogue avec El Rumo pour lancer Un ring pour les gouverner tous, dont l'occurrence START suit immédiatement dans cette étape."
+      ],
+      "npcs": [
+        "Bonnie Menteuse",
+        "Sramouraï soupe-au-lailait",
+        "Prisonnier sobre",
+        "Kathy Brennan",
+        "Lieutenant Cormoran",
+        "El Rumo"
+      ],
+      "items": [
+        {
+          "name": "Déguisement de Milimaître",
+          "itemId": 15498,
+          "imageUrl": "/items/15498.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15498"
+        },
+        {
+          "name": "Slip d'El Rumo",
+          "itemId": 15638,
+          "imageUrl": "/items/15638.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15638"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 827,
+            "name": "Ruelles des Eaux-Suaires",
+            "coordinates": [
+              "2,2",
+              "4,3"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "5,2"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3762,
+            "name": "Pantèroz",
+            "level": 1040,
+            "imageUrl": "/bestiary/monsters/3762.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1128,
+            "name": "Malveilleurs",
+            "monsters": [
+              {
+                "id": 3730,
+                "name": "Milimaître",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/3730.png"
+              },
+              {
+                "id": 3731,
+                "name": "Kartouche",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/3731.png"
+              },
+              {
+                "id": 3732,
+                "name": "Sramouraï",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/3732.png"
+              },
+              {
+                "id": 3733,
+                "name": "Tromblion",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/3733.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:827",
+      "relation": "ACTIVE",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/ccedila-se-katche.html",
+      "sourceTitle": "Ça se katche",
+      "sourceHash": "d2c82404b46b5ed0f09c8b8c9bc5b56807e5559604ed5798b6da7c9c9d054e2d",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez Un ring pour les gouverner tous auprès d'El Rumo, obtenez l'accès au Capitaine Ekarlatte et effectuez le Ring du Capitaine Ekarlatte jusqu'à vaincre le capitaine. Arrêtez-vous immédiatement après sa défaite : son interrogatoire et le rapport final à Kathy Brennan sont réservés à l'occurrence FINISH de l'étape 134.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Niveau recommandé : 130.",
+        "Ça se katche doit être terminée.",
+        "Poursuivre le dialogue avec El Rumo en [4,3] pour lancer cette quête."
+      ],
+      "rewards": [
+        "3 971 945 XP.",
+        "38 960 kamas.",
+        "25 x Orichor.",
+        "3 x Slip d'Elsoummo.",
+        "1 x Crochet Rouillé."
+      ],
+      "preparation": [
+        "Prévoir 1 x Donjon Ring du Capitaine Ekarlatte.",
+        "Prévoir les moyens d'accès au donjon avant de vous rendre au Ring."
+      ],
+      "actions": [
+        {
+          "instruction": "Poursuivez la conversation avec El Rumo pour lancer Un ring pour les gouverner tous et l'interroger sur la mort des Voyageurs dimensionnels. Il vous oriente vers les videurs du Ring.",
+          "position": "[4,3]",
+          "zoneHint": "Ruelles des Eaux-Suaires",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au Ring et parlez à Urluh des deux Voyageurs retrouvés morts. Il refuse de parler et vous renvoie vers le Capitaine Ekarlatte.",
+          "position": "[6,3]",
+          "zoneHint": "Ruelles des Eaux-Suaires",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans le Ring et trouvez Guy Cheutié, dissimulé dans le mur. Demandez à rencontrer le Capitaine Ekarlatte : vous apprenez qu'il faut monter sur le ring et l'affronter.",
+          "position": "[6,3]",
+          "zoneHint": "Ring du Capitaine Ekarlatte",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuez le donjon Ring du Capitaine Ekarlatte et vainquez x1 Capitaine Ekarlatte.",
+          "position": "[6,3]",
+          "zoneHint": "Ring du Capitaine Ekarlatte",
+          "warning": "Arrêtez-vous dès que le Capitaine Ekarlatte est vaincu. Ne quittez pas la salle finale et ne poursuivez pas son interrogatoire dans cette occurrence : la reprise est prévue à l'étape 134.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "Cette occurrence START s'arrête exactement après la victoire contre le Capitaine Ekarlatte.",
+        "L'étape 134 reprend sur l'occurrence FINISH : il faudra alors parler au Capitaine Ekarlatte avant de sortir, puis faire le rapport à Kathy Brennan en [2,2]."
+      ],
+      "npcs": [
+        "El Rumo",
+        "Urluh",
+        "Guy Cheutié",
+        "Capitaine Ekarlatte"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 830,
+            "name": "Ring du Capitaine Ekarlatte",
+            "coordinates": [
+              "6,3"
+            ]
+          },
+          {
+            "id": 827,
+            "name": "Ruelles des Eaux-Suaires",
+            "coordinates": [
+              "4,3",
+              "6,3"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3762,
+            "name": "Pantèroz",
+            "level": 1040,
+            "imageUrl": "/bestiary/monsters/3762.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1128,
+            "name": "Malveilleurs",
+            "monsters": [
+              {
+                "id": 3730,
+                "name": "Milimaître",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/3730.png"
+              },
+              {
+                "id": 3731,
+                "name": "Kartouche",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/3731.png"
+              },
+              {
+                "id": 3732,
+                "name": "Sramouraï",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/3732.png"
+              },
+              {
+                "id": 3733,
+                "name": "Tromblion",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/3733.png"
+              },
+              {
+                "id": 3734,
+                "name": "Elsoummo",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/3734.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:828",
+      "relation": "START",
+      "sortOrder": 3,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/un-ring-pour-les-gouverner-tous.html",
+      "sourceTitle": "Un ring pour les gouverner tous",
+      "sourceHash": "24af85210414d479d81576caa09dd5c2e438ef7b78c85d43cc5ce45d5292c005",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Regrouper les passages à l'avant-poste",
+      "description": "Fanfouille et La seinoise repassent toutes deux par [2,2]. Quand leurs objectifs respectifs vous y ramènent, enchaînez les dialogues disponibles avec Sergent Raskzac et Kathy Brennan avant de repartir dans les Ruelles.",
+      "questKeys": [
+        "quest:823",
+        "quest:826"
+      ],
+      "actions": [
+        "À chaque retour en [2,2], vérifiez les dialogues de Fanfouille avec Sergent Raskzac.",
+        "Profitez du même passage pour avancer La seinoise auprès de Kathy Brennan puis de Sergent Raskzac lorsque l'objectif le demande."
+      ]
+    }
+  ]
 }

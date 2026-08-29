@@ -1,179 +1,48 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 103,
-  "updatedAt": "2026-08-27T13:32:20.276Z",
+  "updatedAt": "2026-08-29T11:29:34.892Z",
   "summaries": [
     {
-      "overview": "Vaincre 6 boss de donjons (Abraknyde Ancestral, Dragon Cochon, Koulosse, Meulou, Rat Blanc, Rat Noir) sur ordre de Chris de Naire, puis rencontrer Kal Vissi pour débloquer la quête suivante.",
-      "recommendedLevel": 30,
+      "overview": "Poursuis « Un juge hystérique » avec le troisième donjon confié par Chris de Naire. Les étapes précédentes avec l'Abraknyde Ancestral puis le Dragon Cochon sont supposées terminées. Cette occurrence consiste uniquement à vaincre le Koulosse dans la Caverne du Koulosse, puis à retourner voir Chris pour obtenir la clef du donjon suivant. Le Meulou et les donjons ultérieurs seront traités lors des prochaines occurrences du guide.",
+      "recommendedLevel": null,
       "prerequisites": [
-        "Niveau > 29",
-        "Les sbires du maître"
+        "Avoir déjà terminé les deux portions précédentes de « Un juge hystérique » : Domaine Ancestral puis Antre du Dragon Cochon.",
+        "Avoir reçu de Chris de Naire la clef permettant de poursuivre vers la Caverne du Koulosse."
       ],
-      "rewards": [
-        "Bourgeon d'Abraknyde Ancestral",
-        "Poil de Dragon Cochon",
-        "Pierre du Koulosse",
-        "Testicules Magiques du Meulou"
-      ],
+      "rewards": [],
       "preparation": [
-        "1 x Donjon Domaine Ancestral",
-        "1 x Donjon Antre du Dragon Cochon",
-        "1 x Donjon Caverne du Koulosse",
-        "1 x Donjon Tanière du Meulou",
-        "1 x Donjon Garde-manger du Rat Blanc",
-        "1 x Donjon Sousouricière du Rat Noir"
+        "Prévoir de parcourir la Caverne du Koulosse et de vaincre le Koulosse.",
+        "Rejoindre l'accès au donjon sur la corniche : il faut être devant le PNJ d'entrée pour pouvoir entrer."
       ],
       "actions": [
         {
-          "instruction": "Se rendre en [-29,-47] (Champs de Cania), parler à Chris de Naire pour lancer la quête.",
-          "position": "[-29,-47]",
-          "zoneHint": "Champs de Cania",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller au donjon Domaine Ancestral en [-9,-14], vaincre l'Abraknyde Ancestral.",
-          "position": "[-9,-14]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
-          "position": "[-29,-47]",
-          "zoneHint": "Champs de Cania",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller au donjon Antre du Dragon Cochon en [-1,33], vaincre le Dragon Cochon.",
-          "position": "[-1,33]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
-          "position": "[-29,-47]",
-          "zoneHint": "Champs de Cania",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller au donjon Caverne du Koulosse en [-17,8], vaincre le Koulosse.",
+          "instruction": "Rends-toi à l'entrée de la Caverne du Koulosse et place-toi devant le PNJ d'accès sur la corniche, puis effectue le donjon jusqu'à vaincre le Koulosse.",
           "position": "[-17,8]",
-          "zoneHint": null,
-          "warning": "Il faut être devant le PNJ sur la corniche pour entrer dans le donjon.",
+          "zoneHint": "Caverne du Koulosse",
+          "warning": "Combat de boss obligatoire dans le donjon.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
+          "instruction": "Après la victoire contre le Koulosse, retourne auprès de Chris de Naire afin de valider cette portion et de recevoir la clef du prochain donjon. Arrête-toi ici pour cette occurrence.",
           "position": "[-29,-47]",
           "zoneHint": "Champs de Cania",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller au donjon Tanière du Meulou en [-23,0], vaincre le Meulou.",
-          "position": "[-23,0]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
-          "position": "[-29,-47]",
-          "zoneHint": "Champs de Cania",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller au donjon Garde-manger du Rat Blanc en [-36,-60] (entrer par le Palais en [-36,-60] et descendre par le vide à ordure des cuisines, ou entrer par les égouts en [-32,-58] puis traverser), vaincre le Rat Blanc.",
-          "position": "[-36,-60]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
-          "position": "[-29,-47]",
-          "zoneHint": "Champs de Cania",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller au donjon Sousouricière du Rat Noir en [-29,-35] (entrée via la bouche d'égout en [-29,35]), vaincre le Rat Noir.",
-          "position": "[-29,-35]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania). Il n'a plus de donjons à confier et oriente vers un autre commanditaire.",
-          "position": "[-29,-47]",
-          "zoneHint": "Champs de Cania",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller voir Kal Vissi en [-19,30], choisir « J'accepte cette mission » pour terminer la quête.",
-          "position": "[-19,30]",
-          "zoneHint": null,
           "warning": null,
           "combat": "NONE"
         }
       ],
       "notes": [
-        "Terminer cette quête débloque la quête suivante : Des donjons, encore des donjons.",
-        "Étape 5 : deux chemins possibles pour accéder au Garde-manger du Rat Blanc — via le Palais en [-36,-60] (vide à ordure des cuisines) ou via les égouts en [-32,-58]."
+        "Ne commence pas la Tanière du Meulou à cette étape : elle correspond à une occurrence ultérieure de la même quête.",
+        "Les récompenses globales de la quête ne sont pas obtenues à cette occurrence, puisque « Un juge hystérique » continue encore après le Koulosse."
       ],
       "npcs": [
         "Chris de Naire",
-        "Kal Vissi",
-        "Abraknyde Ancestral",
-        "Dragon Cochon",
-        "Koulosse",
-        "Meulou",
-        "Rat Blanc",
-        "Rat Noir"
+        "Koulosse"
       ],
-      "items": [
-        {
-          "name": "Bourgeon d'Abraknyde Ancestral",
-          "itemId": 8495,
-          "imageUrl": "/items/8495.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8495"
-        },
-        {
-          "name": "Poil de Dragon Cochon",
-          "itemId": 8393,
-          "imageUrl": "/items/8393.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8393"
-        },
-        {
-          "name": "Pierre du Koulosse",
-          "itemId": 8402,
-          "imageUrl": "/items/8402.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8402"
-        },
-        {
-          "name": "Testicules Magiques du Meulou",
-          "itemId": 2806,
-          "imageUrl": "/items/2806.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2806"
-        }
-      ],
+      "items": [],
       "bestiary": {
         "zones": [
-          {
-            "id": 154,
-            "name": "Antre du Dragon Cochon",
-            "coordinates": [
-              "-1,33"
-            ]
-          },
           {
             "id": 223,
             "name": "Caverne du Koulosse",
@@ -186,43 +55,6 @@
             "name": "Champs de Cania",
             "coordinates": [
               "-29,-47"
-            ]
-          },
-          {
-            "id": 175,
-            "name": "Domaine Ancestral",
-            "coordinates": [
-              "-9,-14"
-            ]
-          },
-          {
-            "id": 1013,
-            "name": "Garde-manger du Rat Blanc",
-            "coordinates": [
-              "-36,-60",
-              "-32,-58"
-            ]
-          },
-          {
-            "id": 778,
-            "name": "Mine",
-            "coordinates": [
-              "-19,30"
-            ]
-          },
-          {
-            "id": 1010,
-            "name": "Sousouricière du Rat Noir",
-            "coordinates": [
-              "-29,-35",
-              "-29,35"
-            ]
-          },
-          {
-            "id": 213,
-            "name": "Tanière du Meulou",
-            "coordinates": [
-              "-23,0"
             ]
           }
         ],
@@ -261,36 +93,6 @@
           }
         ],
         "achievements": [
-          {
-            "id": 1201,
-            "name": "Abraknydiens Sombres",
-            "monsters": [
-              {
-                "id": 651,
-                "name": "Abrakne Sombre",
-                "level": 82,
-                "imageUrl": "/bestiary/monsters/651.png"
-              },
-              {
-                "id": 253,
-                "name": "Abraknyde Sombre",
-                "level": 78,
-                "imageUrl": "/bestiary/monsters/253.png"
-              },
-              {
-                "id": 254,
-                "name": "Abraknyde Vénérable",
-                "level": 74,
-                "imageUrl": "/bestiary/monsters/254.png"
-              },
-              {
-                "id": 917,
-                "name": "Araknotron",
-                "level": 76,
-                "imageUrl": "/bestiary/monsters/917.png"
-              }
-            ]
-          },
           {
             "id": 213,
             "name": "Animaux des Champs",
@@ -404,165 +206,17 @@
                 "imageUrl": "/bestiary/monsters/755.png"
               }
             ]
-          },
-          {
-            "id": 180,
-            "name": "Mulous",
-            "monsters": [
-              {
-                "id": 102,
-                "name": "Mulou",
-                "level": 92,
-                "imageUrl": "/bestiary/monsters/102.png"
-              },
-              {
-                "id": 4867,
-                "name": "Cocholou",
-                "level": 92,
-                "imageUrl": "/bestiary/monsters/4867.png"
-              },
-              {
-                "id": 4868,
-                "name": "Mulounoké",
-                "level": 92,
-                "imageUrl": "/bestiary/monsters/4868.png"
-              },
-              {
-                "id": 4869,
-                "name": "Mergranlou",
-                "level": 92,
-                "imageUrl": "/bestiary/monsters/4869.png"
-              },
-              {
-                "id": 4866,
-                "name": "Muloubard",
-                "level": 92,
-                "imageUrl": "/bestiary/monsters/4866.png"
-              }
-            ]
-          },
-          {
-            "id": 185,
-            "name": "Porcos",
-            "monsters": [
-              {
-                "id": 603,
-                "name": "Cochon de Farle",
-                "level": 90,
-                "imageUrl": "/bestiary/monsters/603.png"
-              },
-              {
-                "id": 601,
-                "name": "Don Dorgan",
-                "level": 92,
-                "imageUrl": "/bestiary/monsters/601.png"
-              },
-              {
-                "id": 600,
-                "name": "Don Duss Ang",
-                "level": 92,
-                "imageUrl": "/bestiary/monsters/600.png"
-              },
-              {
-                "id": 3304,
-                "name": "Porsalu",
-                "level": 80,
-                "imageUrl": "/bestiary/monsters/3304.png"
-              }
-            ]
-          },
-          {
-            "id": 5160,
-            "name": "Rats Bontariens",
-            "monsters": [
-              {
-                "id": 6743,
-                "name": "Chika Rat",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/6743.png"
-              },
-              {
-                "id": 6744,
-                "name": "Aloevée Rate",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/6744.png"
-              },
-              {
-                "id": 941,
-                "name": "Chak Rat",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/941.png"
-              },
-              {
-                "id": 938,
-                "name": "Scélée Rate",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/938.png"
-              },
-              {
-                "id": 942,
-                "name": "Capoei Rat",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/942.png"
-              }
-            ]
-          },
-          {
-            "id": 5159,
-            "name": "Rats Brâkmariens",
-            "monsters": [
-              {
-                "id": 6739,
-                "name": "Rate Atinée",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/6739.png"
-              },
-              {
-                "id": 6742,
-                "name": "Rate Iboisée",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/6742.png"
-              },
-              {
-                "id": 935,
-                "name": "Rat Plapla",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/935.png"
-              },
-              {
-                "id": 936,
-                "name": "Rat Li",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/936.png"
-              },
-              {
-                "id": 937,
-                "name": "Rat Sio",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/937.png"
-              }
-            ]
-          },
-          {
-            "id": 207,
-            "name": "Sidimonstres",
-            "monsters": [
-              {
-                "id": 299,
-                "name": "Croc Gland",
-                "level": 62,
-                "imageUrl": "/bestiary/monsters/299.png"
-              }
-            ]
           }
         ]
       },
       "questKey": "quest:73",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/un-juge-hysterique.html",
       "sourceTitle": "Un juge hystérique",
       "sourceHash": "5189a5003336188ba9c2062fbe1504352733438f35efd98131fb5f946b178711",
-      "generatedAt": "2026-08-24T18:32:41.222Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     }
   ],
   "tips": []

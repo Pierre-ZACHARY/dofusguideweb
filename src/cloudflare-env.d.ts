@@ -26,6 +26,14 @@ interface DurableObjectNamespace {
 interface DurableObjectState {
   acceptWebSocket(socket: WebSocket): void;
   getWebSockets(): WebSocket[];
+  storage: {
+    sql: {
+      exec<T = Record<string, unknown>>(query: string, ...bindings: unknown[]): {
+        one(): T;
+        toArray(): T[];
+      };
+    };
+  };
 }
 
 declare class WebSocketPair {
@@ -60,5 +68,7 @@ declare module "cloudflare:workers" {
 interface CloudflareEnv {
   USER_DB: D1Database;
   PROFILE_EVENTS: DurableObjectNamespace;
+  SITE_PRESENCE: DurableObjectNamespace;
   GOOGLE_CLIENT_ID?: string;
+  METAMOB_CREDENTIALS_KEY?: string;
 }

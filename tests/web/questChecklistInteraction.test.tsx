@@ -108,8 +108,11 @@ describe("QuestChecklist interactions", () => {
     expect(screen.getByText("Parlez au PNJ puis rapportez sa réponse.")).toBeTruthy();
     expect(screen.getByText((_content, element) => element?.tagName === "P" && element.textContent === "Parlez à Ganymède.")).toBeTruthy();
     expect(screen.getAllByText("Corde d’escalade").every((element) => element.tagName === "STRONG")).toBe(true);
-    expect(screen.getAllByRole("link", { name: "Corde d’escalade" })).toHaveLength(2);
-    expect(screen.getAllByRole("link", { name: "Corde d’escalade" })[0]?.getAttribute("href")).toBe("https://dofusdb.fr/fr/database/item/9935");
+    const itemButtons = screen.getAllByRole("button", { name: "Copier Corde d'escalade" });
+    expect(itemButtons).toHaveLength(2);
+    await user.click(itemButtons[0]!);
+    expect(await navigator.clipboard.readText()).toBe("Corde d'escalade");
+    expect(document.querySelector('a[href*="dofusdb.fr/fr/database/item"]')).toBeNull();
     expect(document.querySelector('img[src="/items/9935.png"]')).toBeTruthy();
     expect(screen.getByText("100")).toBeTruthy();
     expect(screen.queryByText("100 XP")).toBeNull();

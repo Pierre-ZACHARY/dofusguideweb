@@ -1,8 +1,225 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 163,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T15:05:26.258Z",
+  "summaries": [
+    {
+      "overview": "Poursuis La voie du guerrier à l'étape correspondant au cinquième donjon de la série imposée. Les quatre donjons précédents sont supposés déjà validés lors des occurrences antérieures. À cette occurrence, effectue uniquement le Donjon du Minotot ; la Grotte du Bworker et le rendu final auprès de Metag Robill seront traités plus tard.",
+      "recommendedLevel": null,
+      "prerequisites": [
+        "Niveau > 29.",
+        "Avoir terminé Des donjons, encore des donjons.",
+        "Avoir déjà validé, dans l'ordre, le Repaire de Skeunk, l'Atelier du Tanukouï San, la Fabrique de foux d'artifice et la Clairière du Chêne Mou pour cette quête."
+      ],
+      "rewards": [
+        "Récompenses globales de la quête à sa fin : 30 324 978 XP.",
+        "Récompenses globales de la quête à sa fin : 349 872 kamas.",
+        "Récompenses globales de la quête à sa fin : 1 x Peau de Skeunk.",
+        "Récompenses globales de la quête à sa fin : 1 x Poils magiques de Tanuki.",
+        "Récompenses globales de la quête à sa fin : 1 x Étoffe de Firefoux.",
+        "Récompenses globales de la quête à sa fin : 1 x Ambre du Chêne Mou.",
+        "Récompenses globales de la quête à sa fin : 1 x Sabot du Minotot.",
+        "Récompenses globales de la quête à sa fin : 1 x Peau de Bworker."
+      ],
+      "preparation": [
+        "Prévoir l'accès et les ressources nécessaires au Donjon du Minotot."
+      ],
+      "actions": [
+        {
+          "instruction": "Effectue le Donjon du Minotot et vaincs le Minotot afin de valider cette partie de La voie du guerrier.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Ne poursuis pas avec la Grotte du Bworker à cette étape : elle correspond à une occurrence ultérieure du guide.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "La série de donjons doit respecter l'ordre imposé par la quête.",
+        "Après le Minotot, il restera la Grotte du Bworker avant de pouvoir aller voir Metag Robill en [6,-18] pour terminer la quête."
+      ],
+      "npcs": [],
+      "items": [
+        {
+          "name": "Sabot du Minotot",
+          "itemId": 8408,
+          "imageUrl": "/items/8408.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8408"
+        }
+      ],
+      "bestiary": {
+        "zones": [],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": []
+      },
+      "questKey": "quest:75",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-voie-du-guerrier.html",
+      "sourceTitle": "La voie du guerrier",
+      "sourceHash": "c1ce85c6230349d750d3f0186396981509f68055d47a6202c8097751fde24a9d",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Accomplis Tour de rein en enquêtant sur les rats du château d'Amakna : parle à Lorie Culère, bats le Sphincter Cell dans son donjon, puis reviens lui annoncer qu'aucun Dofus n'a été trouvé. La conversation suivante peut lancer Tour de main, mais elle n'est pas nécessaire pour cette occurrence.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Niveau > 129.",
+        "Avoir terminé Tour de passe-passe."
+      ],
+      "rewards": [
+        "5 317 200 XP.",
+        "61 152 Kamas.",
+        "1 x Étoffe de Sphincter Cell."
+      ],
+      "preparation": [
+        "Prévoir 1 x Donjon Repaire de Sphincter Cell.",
+        "Lorie Culère fournit une clef du donjon ; si le trousseau de clefs est disponible, il peut être utilisé à la place."
+      ],
+      "actions": [
+        {
+          "instruction": "Parle à Lorie Culère et accepte d'aller vérifier si les rats du château d'Amakna possèdent un Dofus.",
+          "position": "[16,27]",
+          "zoneHint": "Sufokia",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rends-toi au Repaire de Sphincter Cell, termine le donjon et vaincs le Sphincter Cell.",
+          "position": "[5,-8]",
+          "zoneHint": null,
+          "warning": "Le combat contre le boss est obligatoire dans le cadre du donjon.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourne voir Lorie Culère et explique-lui que les rats ne possèdent pas de Dofus afin d'achever la mission.",
+          "position": "[16,27]",
+          "zoneHint": "Sufokia",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Continuer la discussion avec Lorie Culère après le rendu permet d'obtenir la quête suivante, Tour de main ; ce lancement n'est pas requis ici."
+      ],
+      "npcs": [
+        "Lorie Culère",
+        "Sphincter Cell"
+      ],
+      "items": [
+        {
+          "name": "Clef du Repaire de Sphincter Cell",
+          "itemId": 12351,
+          "imageUrl": "/items/12351.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/12351"
+        },
+        {
+          "name": "Étoffe de Sphincter Cell",
+          "itemId": 8487,
+          "imageUrl": "/items/8487.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8487"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 339,
+            "name": "Repaire de Sphincter Cell",
+            "coordinates": [
+              "5,-8"
+            ]
+          },
+          {
+            "id": 32,
+            "name": "Sufokia",
+            "coordinates": [
+              "16,27"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:616",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/tour-de-rein.html",
+      "sourceTitle": "Tour de rein",
+      "sourceHash": "86b399e2b03b2a74e39780904ee876e89a277e3262c382d13d2f24e97356d872",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

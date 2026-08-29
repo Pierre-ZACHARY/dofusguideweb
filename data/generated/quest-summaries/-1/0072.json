@@ -1,8 +1,439 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 72,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T11:28:44.737Z",
+  "summaries": [
+    {
+      "overview": "La quête est déjà en cours. Pour cette occurrence, rendez-vous au Laboratoire de Brumen Tinctorias, terminez le donjon et battez Nelween, puis retournez annoncer le résultat à Thelma Geur. Cette remise clôt Histoire de chiens ; ne poursuivez pas la conversation destinée à lancer la quête suivante.",
+      "recommendedLevel": 50,
+      "prerequisites": [
+        "Niveau supérieur à 49.",
+        "Avoir terminé Chéri fais-moi peur.",
+        "Avoir déjà lancé Histoire de chiens auprès de Thelma Geur en [-16,2]."
+      ],
+      "rewards": [
+        "1 042 391 XP.",
+        "15 072 kamas.",
+        "1 x Fiole de fumée de Nelween."
+      ],
+      "preparation": [
+        "Prévoir 1 x Donjon Laboratoire de Brumen Tinctorias.",
+        "Thelma Geur fournit une clef du donjon ; si le trousseau de clefs est disponible, il peut être utilisé à la place."
+      ],
+      "actions": [
+        {
+          "instruction": "Rendez-vous à l'entrée du Laboratoire de Brumen Tinctorias et effectuez le donjon jusqu'à la salle de Nelween.",
+          "position": "[-27,17]",
+          "zoneHint": "Laboratoire de Brumen Tinctorias",
+          "warning": "Le donjon et ses combats doivent être terminés pour poursuivre cette occurrence.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Vainquez Nelween lors du combat final du donjon.",
+          "position": "[-27,17]",
+          "zoneHint": "Laboratoire de Brumen Tinctorias",
+          "warning": "Combat de boss du donjon.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez voir Thelma Geur et annoncez-lui que vous n'avez trouvé aucun Dofus afin de terminer Histoire de chiens.",
+          "position": "[-16,2]",
+          "zoneHint": "Village des Eleveurs",
+          "warning": "La quête se termine à cette remise. Ne continuez pas ensuite le dialogue si vous ne souhaitez pas lancer immédiatement Le fossile et le marteau.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le lancement auprès de Thelma Geur est supposé déjà effectué avant cette occurrence.",
+        "Après la fin de la quête, poursuivre la discussion avec Thelma Geur peut lancer Le fossile et le marteau ; cette action n'appartient pas à l'occurrence actuelle."
+      ],
+      "npcs": [
+        "Thelma Geur",
+        "Nelween"
+      ],
+      "items": [
+        {
+          "name": "Clef du Laboratoire de Brumen Tinctorias",
+          "itemId": 12073,
+          "imageUrl": "/items/12073.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/12073"
+        },
+        {
+          "name": "Fiole de fumée de Nelween",
+          "itemId": 12075,
+          "imageUrl": "/items/12075.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/12075"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 756,
+            "name": "Laboratoire de Brumen Tinctorias",
+            "coordinates": [
+              "-27,17"
+            ]
+          },
+          {
+            "id": 182,
+            "name": "Village des Éleveurs",
+            "coordinates": [
+              "-16,2"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 207,
+            "name": "Sidimonstres",
+            "monsters": [
+              {
+                "id": 299,
+                "name": "Croc Gland",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/299.png"
+              },
+              {
+                "id": 300,
+                "name": "Kolérat",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/300.png"
+              },
+              {
+                "id": 301,
+                "name": "Macien",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/301.png"
+              },
+              {
+                "id": 298,
+                "name": "Scorbute",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/298.png"
+              },
+              {
+                "id": 3096,
+                "name": "Crowneille",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/3096.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:610",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/histoire-de-chiens.html",
+      "sourceTitle": "Histoire de chiens",
+      "sourceHash": "751f2651849cdb9e4f929a81a6d930fdece8f3b158d76efdc9d1741fce4a753e",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez La fureur du Holbaïd auprès d'Amayiro, enquêtez auprès de Zeurg puis de Rish Claymore jusqu'à recevoir l'objectif de vaincre le Craqueleur Légendaire. Effectuez ensuite le donjon Pitons Rocheux des Craqueleurs, battez le boss et récupérez le Coticule avant de quitter les lieux. Les remises à Rish Claymore, Zeurg puis Amayiro seront faites à l'étape suivante.",
+      "recommendedLevel": 52,
+      "prerequisites": [
+        "Niveau recommandé : 52.",
+        "Avoir terminé Des anneaux sur le bout des doigts."
+      ],
+      "rewards": [
+        "1 102 619 XP à la fin de la quête, lors d'une occurrence ultérieure."
+      ],
+      "preparation": [
+        "Prévoir 1 x Donjon Pitons Rocheux des Craqueleurs."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Amayiro à la milice de Bonta pour lancer La fureur du Holbaïd et accepter d'enquêter sur la créature responsable de la défaite bontarienne.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez au temple Osamodas et demandez à Zeurg des informations sur la créature inconnue. Il identifie l'Holbaïd comme un Shushu et vous demande de récupérer un ingrédient nécessaire pour l'affronter.",
+          "position": "[8,2]",
+          "zoneHint": "Temple Osamodas",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au temple Iop et parlez à Rish Claymore. Il exige que vous prouviez votre valeur en vainquant le Craqueleur Légendaire.",
+          "position": "[1,3]",
+          "zoneHint": "Temple Iop",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au donjon Pitons Rocheux des Craqueleurs et progressez jusqu'au Craqueleur Légendaire.",
+          "position": "[-3,-7]",
+          "zoneHint": "Pitons Rocheux des Craqueleurs",
+          "warning": "Cette occurrence impose d'effectuer le donjon.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Vainquez x1 Craqueleur Légendaire en un seul combat.",
+          "position": "[-3,-7]",
+          "zoneHint": "Pitons Rocheux des Craqueleurs",
+          "warning": "Combat de boss requis pour valider l'objectif demandé par le guide.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Avant de quitter le donjon, cliquez sur le rocher situé au pied de l'Orme afin de récupérer le Coticule.",
+          "position": "[-3,-7]",
+          "zoneHint": "Pitons Rocheux des Craqueleurs",
+          "warning": "Ne quittez pas le donjon juste après le boss : le Coticule doit être récupéré sur place pour la reprise de l'étape suivante.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Arrêtez-vous après avoir vaincu le Craqueleur Légendaire et récupéré le Coticule.",
+        "À l'étape suivante, il faudra remettre le Coticule à Rish Claymore, transmettre le Fragment de la lame de Tyraoul à Zeurg, puis apporter la Lettre de Zeurg à Amayiro pour terminer la quête."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Zeurg",
+        "Rish Claymore",
+        "Craqueleur Légendaire"
+      ],
+      "items": [
+        {
+          "name": "Coticule",
+          "itemId": 16359,
+          "imageUrl": "/items/16359.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16359"
+        },
+        {
+          "name": "Fragment de la lame de Tyraoul",
+          "itemId": 16360,
+          "imageUrl": "/items/16360.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16360"
+        },
+        {
+          "name": "Lettre de Zeurg",
+          "itemId": 2127,
+          "imageUrl": "/items/2127.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2127"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 485,
+            "name": "Campagne d'Amakna",
+            "coordinates": [
+              "8,2"
+            ]
+          },
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 243,
+            "name": "Pitons Rocheux des Craqueleurs",
+            "coordinates": [
+              "-3,-7"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "1,3"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2310,
+            "name": "Arakule la Revancharde",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2310.png"
+          },
+          {
+            "id": 2323,
+            "name": "Chamchie le Difficile",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2323.png"
+          },
+          {
+            "id": 2336,
+            "name": "Mosketère le Dévoué",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2336.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              }
+            ]
+          },
+          {
+            "id": 186,
+            "name": "Craqueleurs",
+            "monsters": [
+              {
+                "id": 483,
+                "name": "Craqueboule",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/483.png"
+              },
+              {
+                "id": 106,
+                "name": "Craqueleur",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/106.png"
+              },
+              {
+                "id": 293,
+                "name": "Craqueleur des Plaines",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/293.png"
+              },
+              {
+                "id": 4570,
+                "name": "Élémenterre",
+                "level": 59,
+                "imageUrl": "/bestiary/monsters/4570.png"
+              },
+              {
+                "id": 4573,
+                "name": "Craquelope",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4573.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 1602,
+            "name": "Vermines des champs",
+            "monsters": [
+              {
+                "id": 4819,
+                "name": "Campagnoll",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/4819.png"
+              },
+              {
+                "id": 59,
+                "name": "Champ Champ",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/59.png"
+              },
+              {
+                "id": 61,
+                "name": "Moskito",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/61.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:24",
+      "relation": "START",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-fureur-du-holbaiumld.html",
+      "sourceTitle": "Alignement 22 : La fureur du Holbaïd",
+      "sourceHash": "dc7fcb7462f074bda027dfa971fad377541acc967617351af746110655736167",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

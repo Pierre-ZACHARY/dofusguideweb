@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 23,
-  "updatedAt": "2026-08-27T13:32:12.867Z",
+  "updatedAt": "2026-08-28T13:36:19.836Z",
   "summaries": [
     {
       "overview": "Aidez Vaiguy à réunir des ingrédients végétaux dans les Champs d'Astrub, puis protégez-la contre une Poupée Champêtre et les plantes qui l'accompagnent. Cette quête, commencée à l'étape précédente, se termine auprès de Vaiguy et permet de poursuivre Combat de rue.",
@@ -551,13 +551,6 @@
       ],
       "bestiary": {
         "zones": [
-          {
-            "id": 444,
-            "name": "Champs",
-            "coordinates": [
-              "7,-24"
-            ]
-          },
           {
             "id": 98,
             "name": "Champs d'Astrub",

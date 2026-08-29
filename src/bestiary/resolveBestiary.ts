@@ -51,47 +51,121 @@ function zoneMatchScore(zoneName: string, hint: string): number {
   return matched === tokens.length ? 60 + matched : 0;
 }
 
-function resolveNamedSubarea(catalog: BestiaryCatalog, zoneHint: string): number | null {
+const contextualAreaIds = [
+  { name: "incarnam", id: 45 },
+  { name: "astrub", id: 18 },
+  { name: "amakna", id: 0 },
+] as const;
+
+export function resolveBestiaryContextAreaIds(areaHints: readonly (string | null | undefined)[]): number[] {
+  const result: number[] = [];
+  for (const hint of areaHints) {
+    if (hint === null || hint === undefined) continue;
+    const normalizedHint = normalize(hint);
+    for (const area of contextualAreaIds) {
+      if (normalizedHint.includes(area.name) && !result.includes(area.id)) result.push(area.id);
+    }
+  }
+  return result;
+}
+
+function contextRank(areaId: number | null, contextAreaIds: readonly number[]): number {
+  const index = areaId === null ? -1 : contextAreaIds.indexOf(areaId);
+  return index < 0 ? 0 : contextAreaIds.length - index;
+}
+
+function resolveNamedSubarea(catalog: BestiaryCatalog, zoneHint: string, contextAreaIds: readonly number[] = []): number | null {
   return catalog.subareas
-    .map((subarea) => ({ id: subarea.id, score: zoneMatchScore(subarea.name, zoneHint) }))
+    .map((subarea) => ({
+      id: subarea.id,
+      score: zoneMatchScore(subarea.name, zoneHint),
+      context: contextRank(subarea.areaId, contextAreaIds),
+    }))
     .filter((subarea) => subarea.score >= 90)
-    .sort((left, right) => right.score - left.score || left.id - right.id)[0]?.id ?? null;
+    .sort((left, right) => right.score - left.score || right.context - left.context || left.id - right.id)[0]?.id ?? null;
+}
+
+function rankCoordinateCandidates(
+  catalog: BestiaryCatalog,
+  candidates: readonly number[],
+  hint: string | null | undefined,
+  contextAreaIds: readonly number[],
+): Array<{ id: number; order: number; score: number; context: number }> {
+  const subareas = new Map(catalog.subareas.map((subarea) => [subarea.id, subarea]));
+  return candidates.map((id, order) => {
+    const subarea = subareas.get(id);
+    return {
+      id,
+      order,
+      score: hint === null || hint === undefined || hint.trim() === "" ? 0 : zoneMatchScore(subarea?.name ?? "", hint),
+      context: contextRank(subarea?.areaId ?? null, contextAreaIds),
+    };
+  });
 }
 
 export function resolveCoordinateSubarea(
   catalog: BestiaryCatalog,
   coordinate: string,
   zoneHint: string | null | undefined,
+  contextAreaIds: readonly number[] = [],
+  fallbackHint?: string | null,
 ): number | null {
   const candidates = catalog.coordinates[coordinate] ?? [];
-  if (zoneHint === null || zoneHint === undefined || zoneHint.trim() === "") return candidates[0] ?? null;
-  const subareas = new Map(catalog.subareas.map((subarea) => [subarea.id, subarea]));
-  const ranked = candidates.map((id, order) => ({ id, order, score: zoneMatchScore(subareas.get(id)?.name ?? "", zoneHint) }))
-    .sort((left, right) => right.score - left.score || left.order - right.order);
-  if ((ranked[0]?.score ?? 0) > 0) return ranked[0]!.id;
+  const ranked = rankCoordinateCandidates(catalog, candidates, zoneHint, contextAreaIds)
+    .sort((left, right) => right.score - left.score || right.context - left.context || left.order - right.order);
+  if ((ranked[0]?.score ?? 0) >= 90) return ranked[0]!.id;
 
   // Indoor maps often reuse the coordinates of their outdoor entrance and are
   // therefore absent from the coordinate index. A precise source-backed hint
   // may still select that subarea directly from the complete DofusDB catalog.
-  return resolveNamedSubarea(catalog, zoneHint) ?? candidates[0] ?? null;
+  if (zoneHint !== null && zoneHint !== undefined && zoneHint.trim() !== "") {
+    const namedSubarea = resolveNamedSubarea(catalog, zoneHint, contextAreaIds);
+    if (namedSubarea !== null) return namedSubarea;
+  }
+
+  const contextualCandidate = ranked
+    .filter((candidate) => candidate.context > 0)
+    .sort((left, right) => right.context - left.context || left.order - right.order)[0];
+  if (contextualCandidate !== undefined) return contextualCandidate.id;
+
+  if (fallbackHint !== null && fallbackHint !== undefined && fallbackHint.trim() !== "") {
+    const fallbackRanked = rankCoordinateCandidates(catalog, candidates, fallbackHint, [])
+      .sort((left, right) => right.score - left.score || left.order - right.order);
+    if ((fallbackRanked[0]?.score ?? 0) >= 90) return fallbackRanked[0]!.id;
+    const namedSubarea = resolveNamedSubarea(catalog, fallbackHint);
+    if (namedSubarea !== null) return namedSubarea;
+  }
+  return candidates[0] ?? null;
 }
 
 function publicMonster(monster: BestiaryMonster) {
   return { id: monster.id, name: monster.name, level: monster.level, imageUrl: monster.imageUrl };
 }
 
-export function enrichQuestGuideBestiary(content: QuestGuideContent, catalog: BestiaryCatalog): QuestBestiary {
+export function enrichQuestGuideBestiary(
+  content: QuestGuideContent,
+  catalog: BestiaryCatalog,
+  contextAreaHints: readonly (string | null | undefined)[] = [],
+): QuestBestiary {
   const subareasById = new Map(catalog.subareas.map((subarea) => [subarea.id, subarea]));
+  const stepContextAreaIds = resolveBestiaryContextAreaIds(contextAreaHints);
   const coordinateZones = new Map<number, string[]>();
   for (const action of content.actions) {
-    const contextualHint = action.zoneHint ?? [action.instruction, action.warning].filter((value): value is string => value !== null).join(" ");
+    const fallbackHint = [action.instruction, action.warning].filter((value): value is string => value !== null).join(" ");
+    const actionContextAreaIds = resolveBestiaryContextAreaIds([action.zoneHint, ...contextAreaHints]);
     const coordinates = actionCoordinates(action);
     if (coordinates.length === 0 && action.zoneHint !== null && action.zoneHint !== undefined) {
-      const namedSubareaId = resolveNamedSubarea(catalog, action.zoneHint);
+      const namedSubareaId = resolveNamedSubarea(catalog, action.zoneHint, actionContextAreaIds);
       if (namedSubareaId !== null && !coordinateZones.has(namedSubareaId)) coordinateZones.set(namedSubareaId, []);
     }
     for (const coordinate of coordinates) {
-      const subareaId = resolveCoordinateSubarea(catalog, coordinate, contextualHint);
+      const subareaId = resolveCoordinateSubarea(
+        catalog,
+        coordinate,
+        action.zoneHint,
+        actionContextAreaIds.length > 0 ? actionContextAreaIds : stepContextAreaIds,
+        fallbackHint,
+      );
       if (subareaId !== null) coordinateZones.set(subareaId, [...coordinateZones.get(subareaId) ?? [], coordinate]);
     }
   }

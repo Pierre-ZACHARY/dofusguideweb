@@ -1,14 +1,20 @@
 import { Check, ChevronDown, LogOut, Pencil, Plus, Share2, UserRound, Users, X } from "lucide-react";
-import { Link } from "@tanstack/react-router";
+import { useNavigate } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
 import { useProgress } from "../progress/progressStore.js";
 import { ClientPortal } from "../components/ClientPortal.js";
 import { useAccount } from "./AccountProvider.js";
+import { DofusProfileSummary } from "./DofusProfileIdentity.js";
 import { GoogleOneTap } from "./GoogleOneTap.js";
 import { ProfileAvatarImage, ProfileEditor } from "./ProfileEditor.js";
+import { MetaMobSettings } from "./MetaMobSettings.js";
+import type { FollowedProfile } from "../../accounts/types.js";
+import { currentStepForProfile } from "./followedProgress.js";
+import { getGuideData, getHomeData } from "../data/staticContentClient.js";
 
 export function AccountMenu() {
   const { profile: localProgress } = useProgress();
+  const navigate = useNavigate();
   const state = useAccount();
   const [loginOpen, setLoginOpen] = useState(false);
   const [manageOpen, setManageOpen] = useState(false);
@@ -30,6 +36,20 @@ export function AccountMenu() {
     await navigator.clipboard.writeText(window.location.origin + "/shared/" + token);
     setCopied(true);
     window.setTimeout(() => setCopied(false), 1800);
+  }
+
+  async function openFollowedProfile(profile: FollowedProfile) {
+    const home = await getHomeData();
+    if (home.guide === null) return;
+    const guide = await getGuideData({ data: { guideId: home.guide.id } });
+    if (guide === null) return;
+    const stepNumber = currentStepForProfile(profile.progress, guide.guide.id, guide.steps);
+    if (stepNumber === null) return;
+    setManageOpen(false);
+    await navigate({
+      to: "/guides/$guideId/steps/$stepNumber",
+      params: { guideId: String(guide.guide.id), stepNumber: String(stepNumber) },
+    });
   }
 
   const oneTap = state.account === null ? (
@@ -79,11 +99,11 @@ export function AccountMenu() {
                 <li className="menu-title">Profils suivis</li>
                 {state.account.following.map((profile) => (
                   <li key={profile.id}>
-                    {profile.shareToken ? <Link to="/shared/$shareToken" params={{ shareToken: profile.shareToken }}>
+                    <button type="button" onClick={() => void openFollowedProfile(profile)}>
                       <ProfileAvatarImage src={profile.avatarUrl} name={profile.name} className="h-8 w-8" ownerPictureUrl={profile.ownerPictureUrl} online={profile.isOnline} />
                       <span className="min-w-0"><span className="block truncate">{profile.name}</span><span className="block text-xs opacity-60">{profile.ownerDisplayName}</span></span>
                       <span className="badge badge-ghost badge-xs">Lecture seule</span>
-                    </Link> : <span>{profile.name}</span>}
+                    </button>
                   </li>
                 ))}
               </>
@@ -114,15 +134,19 @@ export function AccountMenu() {
             <h2 id="profiles-title" className="text-2xl font-bold">Mes personnages</h2>
             <div className="mt-5 flex flex-wrap items-center gap-3 rounded-box bg-base-200 p-4">
               <ProfileAvatarImage src={activeAvatar} name={active.name} className="h-16 w-16" ownerPictureUrl={ownerPictureUrl} online={active.isOnline} />
-              <div className="min-w-0 flex-1"><p className="font-bold">{active.name}</p><p className="text-sm opacity-65">Profil actif</p></div>
+              <div className="min-w-0 flex-1">
+                <p className="font-bold">{active.name}</p>
+                <p className="text-sm opacity-65">Profil actif</p>
+                <DofusProfileSummary profile={active} className="mt-1 text-sm opacity-75" />
+              </div>
               <button className="btn btn-sm gap-2" type="button" onClick={() => setEditing((value) => !value)}><Pencil size={15} />Modifier</button>
-              <button className="btn btn-sm btn-primary gap-2" type="button" onClick={() => void copyShareLink()}>{copied ? <Check size={15} /> : <Share2 size={15} />}{copied ? "Lien copié" : "Partager"}</button>
+              <button className="btn btn-sm btn-primary gap-2" type="button" onClick={() => void copyShareLink().catch(() => undefined)}>{copied ? <Check size={15} /> : <Share2 size={15} />}{copied ? "Lien copié" : "Partager"}</button>
             </div>
             <div className="alert alert-warning mt-3 text-sm">
               <span>Le lien de partage est public : toute personne qui le possède peut consulter cette progression en lecture seule.</span>
             </div>
-            {editing && <div className="mt-5"><ProfileEditor profile={active} avatars={state.avatars} submitLabel="Enregistrer" onSave={async (name, breedId, gender) => {
-              await state.updateProfile(active.id, name, breedId, gender);
+            {editing && <div className="mt-5"><ProfileEditor profile={active} avatars={state.avatars} submitLabel="Vérifier et enregistrer" onSave={async (name, breedId, gender, serverId) => {
+              await state.updateProfile(active.id, name, breedId, gender, serverId);
               setEditing(false);
             }} /></div>}
             <div className="divider">Personnages</div>
@@ -131,24 +155,28 @@ export function AccountMenu() {
                 <button className={"card border text-left " + (profile.id === active.id ? "border-primary bg-primary/5" : "border-base-300 bg-base-100")} type="button" onClick={() => void state.selectProfile(profile.id)} key={profile.id}>
                   <div className="card-body flex-row items-center p-4">
                     <ProfileAvatarImage src={profile.avatarUrl} name={profile.name} className="h-12 w-12" ownerPictureUrl={ownerPictureUrl} online={profile.isOnline} />
-                    <div className="min-w-0"><p className="truncate font-bold">{profile.name}</p><p className="text-xs opacity-60">{state.avatars.find((avatar) => avatar.breedId === profile.breedId)?.breedName ?? "Classe"} {profile.gender === "MALE" ? "M" : "F"}</p></div>
+                    <div className="min-w-0"><p className="truncate font-bold">{profile.name}</p><p className="text-xs opacity-60">{state.avatars.find((avatar) => avatar.breedId === profile.breedId)?.breedName ?? "Classe"} {profile.gender === "MALE" ? "M" : "F"}{profile.serverName ? " · " + profile.serverName : " · serveur à vérifier"}</p></div>
                   </div>
                 </button>
               ))}
             </div>
             <button className="btn btn-outline mt-5 gap-2" type="button" onClick={() => setCreating((value) => !value)}><Plus size={16} />Nouveau personnage</button>
-            {creating && defaultAvatar && <div className="mt-5"><ProfileEditor profile={{ name: "Nouveau personnage", breedId: defaultAvatar.breedId, gender: defaultAvatar.gender }} avatars={state.avatars} submitLabel="Créer le personnage" onSave={async (name, breedId, gender) => {
-              await state.createProfile(name, breedId, gender);
+            {creating && defaultAvatar && <div className="mt-5"><ProfileEditor profile={{ name: "Nouveau personnage", breedId: defaultAvatar.breedId, gender: defaultAvatar.gender, serverId: null }} avatars={state.avatars} submitLabel="Vérifier et créer le personnage" onSave={async (name, breedId, gender, serverId) => {
+              await state.createProfile(name, breedId, gender, serverId);
               setCreating(false);
             }} /></div>}
+            <div className="divider">MetaMob</div>
+            <MetaMobSettings />
             {state.account.following.length > 0 && (
               <>
                 <div className="divider"><Users size={16} />Profils suivis</div>
                 <ul className="list rounded-box border border-base-300 bg-base-100">
                   {state.account.following.map((profile) => (
                     <li className="list-row items-center" key={profile.id}>
-                      <ProfileAvatarImage src={profile.avatarUrl} name={profile.name} className="h-10 w-10" ownerPictureUrl={profile.ownerPictureUrl} online={profile.isOnline} />
-                      <div><p className="font-semibold">{profile.name}</p><p className="text-xs opacity-60">{profile.ownerDisplayName}</p></div>
+                      <button className="col-span-2 grid min-w-0 grid-cols-[auto_minmax(0,1fr)] items-center gap-3 rounded-box text-left hover:bg-base-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary" type="button" onClick={() => void openFollowedProfile(profile)} aria-label={`Aller à l’étape actuelle de ${profile.name}`}>
+                        <ProfileAvatarImage src={profile.avatarUrl} name={profile.name} className="h-10 w-10" ownerPictureUrl={profile.ownerPictureUrl} online={profile.isOnline} />
+                        <div className="min-w-0"><span className="block font-semibold">{profile.name}</span><span className="block text-xs opacity-60">{profile.ownerDisplayName}</span><DofusProfileSummary profile={profile} /></div>
+                      </button>
                       <button className="btn btn-ghost btn-square btn-sm" type="button" onClick={() => void state.unfollowProfile(profile.id)} aria-label={"Ne plus suivre " + profile.name}><X size={16} /></button>
                     </li>
                   ))}

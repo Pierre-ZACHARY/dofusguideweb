@@ -1,8 +1,479 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 127,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T12:51:48.331Z",
+  "summaries": [
+    {
+      "overview": "Lancez la quête auprès de Mériana puis avancez jusqu'à obtenir d'Alain Bougredefrain les informations sur les trois œufs recherchés. Cette occurrence s'arrête dès cette révélation : la récupération des œufs et le retour auprès de Mériana seront effectués plus tard.",
+      "recommendedLevel": null,
+      "prerequisites": [
+        "Avoir terminé Taures et détours."
+      ],
+      "rewards": [],
+      "preparation": [
+        "Prévoir de terminer la Volière de la Haute Truche.",
+        "Prévoir un groupe si vous souhaitez faciliter le combat contre la mutatruche dans le laboratoire secret."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Mériana et signalez-lui le tofu introduit dans sa cabane afin de lancer Comment perdre ses plumes. Elle vous demande de retrouver Alain Bougredegrain pour identifier trois sortes d'œufs.",
+          "position": "[-6,-3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au Cirque de Cania pour rechercher les traces d'Alain, puis poursuivez vers la Volière de la Haute Truche comme l'indique la quête.",
+          "position": "[-10,-44]",
+          "zoneHint": "Cirque de Cania",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuez la Volière de la Haute Truche jusqu'au bout. Avant de quitter le donjon, parlez à Janseb et demandez-lui des informations sur Alain.",
+          "position": null,
+          "zoneHint": "Volière de la Haute Truche",
+          "warning": "Ne quittez pas le donjon avant d'avoir parlé à Janseb.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Depuis la fin de la Volière, descendez dans le laboratoire secret situé en contre-bas et parlez à Elbert Weskarre. Choisissez la réponse indiquant que vous voulez vous enfuir afin de déclencher l'affrontement.",
+          "position": null,
+          "zoneHint": "Laboratoire secret",
+          "warning": "Le combat met à jour la quête des personnages participants uniquement s'ils ont parlé à Elbert Weskarre et choisi de vouloir s'enfuir.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Battez la mutatruche. Elle est invulnérable aux dégâts directs : chaque attaque reçue augmente ses PV de 10 et sa puissance de 20. Continuez à l'attaquer jusqu'à ce qu'elle atteigne 1000 PV et explose d'elle-même.",
+          "position": null,
+          "zoneHint": "Laboratoire secret",
+          "warning": "La mutatruche devient progressivement plus dangereuse à mesure que ses PV et sa puissance augmentent.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, parlez à Alain Bougredefrain apparu sur la carte et écoutez ses explications sur la nature des trois œufs. Arrêtez cette quête ici pour cette étape du guide.",
+          "position": null,
+          "zoneHint": "Laboratoire secret",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le guide demande explicitement de s'arrêter une fois les informations obtenues auprès d'Alain Bougredefrain.",
+        "L'Oeuf Surprenant, l'œuf Végétal et l'Oeuf de Monarque ne doivent pas être récupérés dans cette occurrence."
+      ],
+      "npcs": [
+        "Mériana",
+        "Janseb",
+        "Elbert Weskarre",
+        "Alain Bougredefrain"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 523,
+            "name": "Cirque de Cania",
+            "coordinates": [
+              "-10,-44"
+            ]
+          },
+          {
+            "id": 232,
+            "name": "Marécages nauséabonds",
+            "coordinates": [
+              "-6,-3"
+            ]
+          },
+          {
+            "id": 818,
+            "name": "Volière de la Haute Truche",
+            "coordinates": []
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4015,
+            "name": "Fojumo",
+            "level": 140,
+            "imageUrl": "/bestiary/monsters/4015.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2549,
+            "name": "Boostif l'Affamé",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2549.png"
+          },
+          {
+            "id": 2439,
+            "name": "Crolnareff l'Exilé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2439.png"
+          },
+          {
+            "id": 2428,
+            "name": "Crok le Beau",
+            "level": 61,
+            "imageUrl": "/bestiary/monsters/2428.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 208,
+            "name": "Gadouilleux",
+            "monsters": [
+              {
+                "id": 263,
+                "name": "Chef Crocodaille",
+                "level": 61,
+                "imageUrl": "/bestiary/monsters/263.png"
+              },
+              {
+                "id": 261,
+                "name": "Crocodaille",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/261.png"
+              },
+              {
+                "id": 112,
+                "name": "Boo",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/112.png"
+              },
+              {
+                "id": 4833,
+                "name": "Arakne Olithique",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4833.png"
+              }
+            ]
+          },
+          {
+            "id": 1060,
+            "name": "Truches",
+            "monsters": [
+              {
+                "id": 3619,
+                "name": "Gruche",
+                "level": 114,
+                "imageUrl": "/bestiary/monsters/3619.png"
+              },
+              {
+                "id": 3620,
+                "name": "Truchmuche",
+                "level": 113,
+                "imageUrl": "/bestiary/monsters/3620.png"
+              },
+              {
+                "id": 3621,
+                "name": "Truchideur",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3621.png"
+              },
+              {
+                "id": 3622,
+                "name": "Truchtine",
+                "level": 111,
+                "imageUrl": "/bestiary/monsters/3622.png"
+              },
+              {
+                "id": 3623,
+                "name": "Truchon",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/3623.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:812",
+      "relation": "START",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/comment-perdre-ses-plumes.html",
+      "sourceTitle": "Comment perdre ses plumes",
+      "sourceHash": "e9a67cc1f59d9cc45cf6343533b40f485be6ee04ac3b95fbaca57837c6aabba5",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez Un oeuf pour Ecaflip auprès de Kerubim Crépin afin d'obtenir l'objectif de récupérer un Oeuf Fécondé de Haute Truche. Ne rendez pas la quête ici : l'œuf sera récupéré pendant la Volière de la Haute Truche, puis la quête sera terminée à l'étape suivante.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Avoir terminé Faire le keke."
+      ],
+      "rewards": [
+        "3 971 945 XP.",
+        "38 960 Kamas.",
+        "Dotruche, obtenu lors du rendu final de la quête."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Entrez dans la demeure de Kerubim Crépin et parlez-lui au premier étage pour prendre de ses nouvelles et lancer Un oeuf pour Ecaflip. Acceptez de lui rapporter un Oeuf Fécondé de Haute Truche.",
+          "position": "[3,-17]",
+          "zoneHint": "Cité d'Astrub",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Cette occurrence sert uniquement à lancer la quête et à débloquer l'objectif lié à l'Oeuf Fécondé de Haute Truche.",
+        "Ne retournez pas encore rendre l'œuf à Kerubim Crépin : la relation FINISH est prévue à l'étape 128."
+      ],
+      "npcs": [
+        "Kerubim Crépin"
+      ],
+      "items": [
+        {
+          "name": "Oeuf Fécondé de Haute Truche",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "3,-17"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:805",
+      "relation": "START",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/un-oeuf-pour-ecaflip.html",
+      "sourceTitle": "Un œuf pour Ecaflip",
+      "sourceHash": "28b9673c2899ea599d1d6859dd3ace94768c8f47a69cef53f9906cdaad598019",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez Frankenstruche auprès du Professeur Duvet, puis obtenez une Pierre d'âme contenant la Haute Truche. Pour suivre l'étape 127, profitez de la Volière de la Haute Truche et capturez la salle du boss. Ne remettez pas encore la pierre au professeur et ne poursuivez pas les étapes suivantes de Frankenstruche.",
+      "recommendedLevel": 130,
+      "prerequisites": [],
+      "rewards": [
+        "3 971 945 XP.",
+        "38 960 kamas.",
+        "3 x Paire de boules de Haute Truche."
+      ],
+      "preparation": [
+        "Prévoir de quoi capturer l'âme de la Haute Truche lors du combat de boss de la Volière de la Haute Truche."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez au Professeur Duvet pour lancer Frankenstruche. Il vous demande de lui rapporter l'âme de la Haute Truche.",
+          "position": "[-9,-46]",
+          "zoneHint": "Cirque de Cania",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuez la Volière de la Haute Truche et capturez l'âme de la Haute Truche pendant le combat de la salle du boss afin d'obtenir la Pierre d'âme demandée.",
+          "position": null,
+          "zoneHint": "Volière de la Haute Truche",
+          "warning": "La capture de la Haute Truche est nécessaire pour satisfaire cette portion du guide. Ne terminez pas le donjon sans avoir réalisé la capture si vous comptez avancer Frankenstruche ainsi.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "Une Pierre d'âme de Haute Truche déjà obtenue ou achetée satisferait aussi l'objectif de la quête, mais le parcours de cette étape demande de profiter de la Volière et de capturer le boss.",
+        "Ne donnez pas encore la Pierre d'âme au Professeur Duvet : les ressources de truches, les visites à Vid Cheber et Kande Boffler, puis le rendu final sont réservés à la suite du parcours, la fin étant indiquée à l'étape 152."
+      ],
+      "npcs": [
+        "Professeur Duvet"
+      ],
+      "items": [
+        {
+          "name": "Pierre d'âme de Haute Truche",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 523,
+            "name": "Cirque de Cania",
+            "coordinates": [
+              "-9,-46"
+            ]
+          },
+          {
+            "id": 818,
+            "name": "Volière de la Haute Truche",
+            "coordinates": []
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4015,
+            "name": "Fojumo",
+            "level": 140,
+            "imageUrl": "/bestiary/monsters/4015.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1060,
+            "name": "Truches",
+            "monsters": [
+              {
+                "id": 3619,
+                "name": "Gruche",
+                "level": 114,
+                "imageUrl": "/bestiary/monsters/3619.png"
+              },
+              {
+                "id": 3620,
+                "name": "Truchmuche",
+                "level": 113,
+                "imageUrl": "/bestiary/monsters/3620.png"
+              },
+              {
+                "id": 3621,
+                "name": "Truchideur",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3621.png"
+              },
+              {
+                "id": 3622,
+                "name": "Truchtine",
+                "level": 111,
+                "imageUrl": "/bestiary/monsters/3622.png"
+              },
+              {
+                "id": 3623,
+                "name": "Truchon",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/3623.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1028",
+      "relation": "START",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/frankenstruche.html",
+      "sourceTitle": "Frankenstruche",
+      "sourceHash": "99e3a47e1ac1d9b81540cac4c0a13a64f71c9f31aaa7828c76326eca9e79d3e5",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Rentabiliser la Volière de la Haute Truche",
+      "description": "Les trois quêtes de l'étape convergent vers la Volière de la Haute Truche. Lancez d'abord Un oeuf pour Ecaflip et Frankenstruche, puis faites une seule traversée du donjon pour avancer simultanément les trois objectifs.",
+      "questKeys": [
+        "quest:812",
+        "quest:805",
+        "quest:1028"
+      ],
+      "actions": [
+        "Avant d'entrer dans la Volière, assurez-vous que Un oeuf pour Ecaflip et Frankenstruche sont bien lancées.",
+        "Pendant la Volière, récupérez l'Oeuf Fécondé de Haute Truche pour Un oeuf pour Ecaflip et capturez la Haute Truche pour Frankenstruche.",
+        "Après le boss, parlez à Janseb avant de sortir afin de poursuivre Comment perdre ses plumes vers le laboratoire secret."
+      ]
+    }
+  ]
 }

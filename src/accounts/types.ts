@@ -18,6 +18,12 @@ export const storedProgressProfileSchema = z.object({
 export type StoredProgressProfile = z.infer<typeof storedProgressProfileSchema>;
 export type ProfileGender = "MALE" | "FEMALE";
 
+export interface VerifiedDofusIdentity {
+  serverId: number;
+  serverName: string;
+  verifiedAt: string;
+}
+
 export function emptyStoredProgressProfile(): StoredProgressProfile {
   return { version: 2, steps: {}, quests: {}, objectives: {}, dungeonSuccesses: {}, tutorialActions: {}, bestiaryObjectives: {} };
 }
@@ -36,6 +42,9 @@ export interface PlayerProfile {
   breedId: number;
   gender: ProfileGender;
   avatarUrl: string | null;
+  serverId: number | null;
+  serverName: string | null;
+  dofusVerifiedAt: string | null;
   progress: StoredProgressProfile;
   revision: number;
   shareToken: string | null;
@@ -66,4 +75,20 @@ export interface ProfileAvatar {
   breedName: string;
   gender: ProfileGender;
   imageUrl: string | null;
+}
+
+export interface StoredMetaMobCredential {
+  userId: string;
+  username: string;
+  encryptedApiKey: string;
+  encryptionIv: string;
+  updatedAt: string;
+}
+
+export interface MetaMobProfileLink {
+  profileId: string;
+  ownerUserId: string;
+  questSlug: string;
+  characterName: string;
+  updatedAt: string;
 }

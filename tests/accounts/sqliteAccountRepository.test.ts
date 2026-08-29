@@ -35,6 +35,9 @@ describe("SqliteAccountRepository", () => {
     expect(account.profiles[0]?.avatarUrl).toBe("/avatar-iop.png");
 
     const second = store.createProfile(userId, "Deuxième", 1, "FEMALE", "/avatar-feca.png");
+    store.updateProfile(userId, second.id, "Deuxième", 1, "FEMALE", "/avatar-feca.png", {
+      serverId: 353, serverName: "Dakal", verifiedAt: "2026-08-28T12:00:00.000Z",
+    });
     store.setActiveProfile(userId, second.id);
     const nextProgress = emptyStoredProgressProfile();
     nextProgress.steps["-1:1"] = "COMPLETED";
@@ -43,6 +46,9 @@ describe("SqliteAccountRepository", () => {
     const updated = store.getAccount(userId)!;
     expect(updated.activeProfileId).toBe(second.id);
     expect(updated.profiles.find((profile) => profile.id === second.id)?.progress.steps["-1:1"]).toBe("COMPLETED");
+    expect(updated.profiles.find((profile) => profile.id === second.id)).toMatchObject({
+      serverId: 353, serverName: "Dakal", dofusVerifiedAt: "2026-08-28T12:00:00.000Z",
+    });
     expect(updated.profiles.find((profile) => profile.id === account.profiles[0]!.id)?.progress.steps["-1:110"]).toBe("IN_PROGRESS");
     store.close();
   });
@@ -79,6 +85,26 @@ describe("SqliteAccountRepository", () => {
     expect(followed[0]?.shareToken).toBe(shareToken);
     store.deleteSession(token);
     expect(store.getAccount(follower)?.following[0]?.isOnline).toBe(false);
+    store.close();
+  });
+
+  it("stores encrypted MetaMob credentials and links one quest per owned profile", async () => {
+    const store = await repository();
+    const userId = store.upsertGoogleUser({
+      subject: "google-metamob", email: "metamob@example.test", displayName: "MetaMob", pictureUrl: null,
+    }, emptyStoredProgressProfile(), null);
+    const profileId = store.getAccount(userId)!.activeProfileId;
+    store.saveMetaMobCredential(userId, "metamob-user", "encrypted-value", "random-iv");
+    store.saveMetaMobProfileLink(userId, profileId, "ocre-zobal", "Zobal-Test");
+
+    expect(store.getMetaMobCredential(userId)).toMatchObject({
+      username: "metamob-user", encryptedApiKey: "encrypted-value", encryptionIv: "random-iv",
+    });
+    expect(store.getMetaMobProfileLink(userId, profileId)).toMatchObject({
+      questSlug: "ocre-zobal", characterName: "Zobal-Test",
+    });
+    store.deleteMetaMobProfileLink(userId, profileId);
+    expect(store.getMetaMobProfileLink(userId, profileId)).toBeNull();
     store.close();
   });
 });

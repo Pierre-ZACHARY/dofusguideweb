@@ -16,6 +16,35 @@ function canonicalUrl(value: string): string {
   return url.toString();
 }
 
+export function normalizeGeneratedSourceUrl(value: string): string {
+  const match = /https?:\/\/[^\s\])"']+/iu.exec(value.trim());
+  return match?.[0] ?? value;
+}
+
+function normalizeGeneratedArchive(value: unknown): unknown {
+  if (typeof value !== "object" || value === null || Array.isArray(value)) return value;
+  const archive = value as Record<string, unknown>;
+  if (!Array.isArray(archive.summaries)) return value;
+  return {
+    ...archive,
+    summaries: archive.summaries.map((summary) => {
+      if (typeof summary !== "object" || summary === null || Array.isArray(summary)) return summary;
+      const record = summary as Record<string, unknown>;
+      return typeof record.sourceUrl === "string"
+        ? { ...record, sourceUrl: normalizeGeneratedSourceUrl(record.sourceUrl) }
+        : summary;
+    }),
+  };
+}
+
+function parseStepArchive(contents: string, filePath: string): QuestGuideStepArchive {
+  try {
+    return questGuideStepArchiveSchema.parse(normalizeGeneratedArchive(JSON.parse(contents)));
+  } catch (error) {
+    throw new Error("Invalid quest guide step archive: " + filePath, { cause: error });
+  }
+}
+
 function configuredSummaryPath(): string {
   return process.env.DOFUSGUIDE_QUEST_SUMMARIES ?? defaultSummaryPath;
 }
@@ -50,7 +79,7 @@ export async function loadQuestGuideStepArchive(
   if (fileStat === null) return null;
   const cached = stepCache.get(filePath);
   if (cached?.mtimeMs === fileStat.mtimeMs) return cached.archive;
-  const archive = questGuideStepArchiveSchema.parse(JSON.parse(await readFile(filePath, "utf8")));
+  const archive = parseStepArchive(await readFile(filePath, "utf8"), filePath);
   if (archive.guideId !== guideId || archive.stepNumber !== stepNumber) {
     throw new Error("Quest guide step identity does not match its path: " + filePath);
   }
@@ -81,7 +110,7 @@ export async function loadQuestGuideSummaries(
 
   const summaries = new Map<string, QuestGuideSummary>();
   for (const filePath of await jsonFiles(resolvedPath)) {
-    const archive = questGuideStepArchiveSchema.parse(JSON.parse(await readFile(filePath, "utf8")));
+    const archive = parseStepArchive(await readFile(filePath, "utf8"), filePath);
     for (const summary of archive.summaries) summaries.set(canonicalUrl(summary.sourceUrl), summary);
   }
   return summaries;

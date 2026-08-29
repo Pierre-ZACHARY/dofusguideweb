@@ -1,61 +1,104 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 111,
-  "updatedAt": "2026-08-27T13:32:21.217Z",
+  "updatedAt": "2026-08-29T12:51:31.669Z",
   "summaries": [
     {
-      "overview": "Quête d'alignement niveau 47 : enquêtez sur un traître à Bonta en remontant une piste qui mène à une cache de poison à Brâkmar. Nécessite un Saphir et un accompagnateur Sram ou de l'ordre de l'œil Attentif niveau 2.",
+      "overview": "Poursuis l’enquête sur le traître de Bonta avec l’appui d’Amayiro. Tu dois obtenir auprès de Rigal Main Crochue l’identité d’un notable dont le nom commence par X, en récupérant à Brâkmar une fiole de poison et un registre de clients. L’accès au poison nécessite un Sram ou un membre de l’ordre de l’Œil Attentif de niveau 2 minimum. La quête se termine après avoir appris le nom de Xarthan et transmis l’information à Amayiro.",
       "recommendedLevel": 117,
       "prerequisites": [
-        "Alimentaire mon cher"
+        "Alimentaire mon cher."
       ],
       "rewards": [
-        "3 618 955 XP"
+        "3 618 955 XP."
       ],
       "preparation": [
-        "1 x Saphir",
-        "Accompagnement d'un personnage Sram ou de l'ordre de l'œil Attentif de niveau 2 minimum"
+        "Prévoir 1 x Saphir.",
+        "Être accompagné d’un personnage Sram ou d’un membre de l’ordre de l’Œil Attentif de niveau 2 minimum ; un Brâkmarien ne convient pas."
       ],
       "actions": [
         {
-          "instruction": "Lancer la quête auprès d'Amayiro à la Milice.",
+          "instruction": "À la Milice, parle à Amayiro pour poursuivre l’enquête sur le traître de Bonta.",
           "position": "[-32,-57]",
           "zoneHint": "Bonta",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Se rendre au Temple Sram et parler à Rigal Main Crochue pour obtenir des informations sur un notable de Bonta dont le nom commence par un X.",
+          "instruction": "Va au Temple Sram et parle à Rigal Main Crochue afin de lui demander s’il connaît un notable de Bonta dont le nom commence par X. Il exige des éléments récupérés à Brâkmar avant de parler.",
           "position": "[-4,0]",
-          "zoneHint": "Bonta",
+          "zoneHint": "Temple Sram",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller à Brâkmar voir l'espion Bishom Pot pour savoir où trouver les réserves de poison.",
+          "instruction": "À Brâkmar, parle à Bishom Pot pour savoir où se trouvent les réserves de poison ; il t’oriente vers Rekojel.",
           "position": "[-28,32]",
           "zoneHint": "Brâkmar",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Parler à Rekojel, choisir « Demander l'emplacement des réserves de poison », puis lui donner le Saphir pour obtenir l'information.",
+          "instruction": "Parle à Rekojel et demande l’emplacement des réserves de poison.",
           "position": "[-29,36]",
           "zoneHint": "Brâkmar",
-          "warning": "Dépense : 1 Saphir.",
+          "warning": "L’information nécessite de céder 1 x Saphir.",
           "combat": "NONE"
         },
         {
-          "instruction": "Se rendre à la cache du poison, entrer dans la maison centrale et descendre les escaliers. Éviter les cases rouges (cellules trouées et centre de la map) qui téléportent. Franchir la grille avec un accompagnateur Sram ou de l'ordre de l'œil Attentif niveau 2 minimum.",
+          "instruction": "Avec 1 x Saphir dans l’inventaire, reparle à Rekojel et donne-lui le Saphir. Il révèle que le poison est caché près de l’atelier des sculpteurs et que l’accès demande deux personnes, dont une compétente en espionnage.",
+          "position": "[-29,36]",
+          "zoneHint": "Brâkmar",
+          "warning": "Le Saphir est dépensé.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rends-toi dans la maison au centre de la carte puis descends les escaliers pour atteindre la cache du poison.",
           "position": "[-23,39]",
-          "zoneHint": null,
-          "warning": "Pièges au sol : éviter les cases rouges. Nécessite impérativement un accompagnateur Sram ou œil Attentif niveau 2 minimum.",
+          "zoneHint": "Brâkmar",
+          "warning": "Dans la salle souterraine, marcher sur une cellule trouée ou au centre de la carte téléporte vers une autre carte ; évite ces cases.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Fais placer ton accompagnateur Sram ou membre de l’ordre de l’Œil Attentif niveau 2 minimum sur la case prévue, puis actionne toi-même la chaîne située à gauche afin d’ouvrir la grille.",
+          "position": "[-23,39]",
+          "zoneHint": "Cache souterraine du poison",
+          "warning": "L’accompagnateur doit absolument être Sram ou de l’ordre de l’Œil Attentif niveau 2 minimum ; un Brâkmarien ne fonctionne pas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Traverse la grille en évitant les trous, puis clique sur le tonneau pour récupérer la Fiole de poison brâkmarien.",
+          "position": "[-23,39]",
+          "zoneHint": "Cache souterraine du poison",
+          "warning": "Évite les cellules trouées pendant le déplacement.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Va à l’atelier des alchimistes et clique sur les livres de l’étagère afin de voler le registre des clients.",
+          "position": "[-22,35]",
+          "zoneHint": "Brâkmar",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne au Temple Sram et remets les éléments à Rigal Main Crochue. Il te révèle que le notable recherché s’appelle Xarthan.",
+          "position": "[-4,0]",
+          "zoneHint": "Temple Sram",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne voir Amayiro et transmets-lui le nom de Xarthan pour terminer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": null,
           "combat": "NONE"
         }
       ],
       "notes": [
-        "Le texte source était tronqué ; la suite des étapes n'est pas disponible."
+        "Cette occurrence couvre la totalité de Bouc à misère jusqu’à son rendu auprès d’Amayiro.",
+        "La quête suivante de la séquence est Flagrant délire."
       ],
       "npcs": [
         "Amayiro",
@@ -69,6 +112,18 @@
           "itemId": 466,
           "imageUrl": "/items/466.png",
           "dofusDbUrl": "https://dofusdb.fr/fr/database/item/466"
+        },
+        {
+          "name": "Fiole de poison brâkmarien",
+          "itemId": 10007,
+          "imageUrl": "/items/10007.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/10007"
+        },
+        {
+          "name": "Registre des clients de l’atelier des alchimistes",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
         }
       ],
       "bestiary": {
@@ -93,6 +148,28 @@
             "coordinates": [
               "-28,32",
               "-29,36"
+            ]
+          },
+          {
+            "id": 980,
+            "name": "La Marmite",
+            "coordinates": [
+              "-22,35"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "-29,36",
+              "-23,39"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
             ]
           },
           {
@@ -320,56 +397,73 @@
         ]
       },
       "questKey": "quest:132",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/bouc-a-misere.html",
       "sourceTitle": "Alignement 47 : Bouc à misère",
       "sourceHash": "72dc9c695460577ec46a0b3797390e1e46221fbdd40e4a1bcfb9f8a5b27cc98b",
-      "generatedAt": "2026-08-24T17:13:34.702Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     },
     {
-      "overview": "Enquêter sur Xarthan pour le compte d'Amayiro à la Milice de Bonta. Fouiller sa maison avec l'aide d'un Bricoleur, trouver un document compromettant, confronter Xarthan à la Tour des ordres, puis faire votre rapport.",
+      "overview": "Après avoir identifié Xarthan, fouille sa maison pour chercher une preuve de sa trahison. L’entrée exige un Bricoleur niveau 100 minimum, sauf si tu remplis toi-même cette condition. Un document conduit ensuite à Xarthan dans la Tour des ordres, mais son explication le fait paraître innocent. Fais alors ton rapport à Amayiro.",
       "recommendedLevel": 118,
       "prerequisites": [
-        "Bouc à misère"
+        "Bouc à misère."
       ],
       "rewards": [
-        "1 860 658 XP"
+        "1 860 658 XP."
       ],
       "preparation": [
-        "Un Bricoleur niveau 100 minimum (ou être soi-même Bricoleur niveau 100+)"
+        "Prévoir un personnage Bricoleur niveau 100 minimum ; tu peux remplir toi-même cette condition."
       ],
       "actions": [
         {
-          "instruction": "Aller à la Milice en [-32,-57] et parler à Amayiro pour lancer la quête.",
+          "instruction": "À la Milice, parle à Amayiro. Il te demande de fouiller la maison de Xarthan pour trouver des preuves contre lui.",
           "position": "[-32,-57]",
-          "zoneHint": null,
+          "zoneHint": "Bonta",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller en [-33,-53] avec un Bricoleur niveau 100. Placer le Bricoleur en diagonale de la porte et cliquer pour crocheter l'entrée de la maison de Xarthan. Monter à l'étage et cliquer sur la commode à côté du lit pour récupérer le document.",
+          "instruction": "Rends-toi devant la maison de Xarthan avec un Bricoleur niveau 100 minimum. Place le Bricoleur sur la cellule située en diagonale de la porte, puis clique sur la porte pour entrer. Si tu es toi-même Bricoleur niveau 100 ou plus, place-toi sur cette cellule et crochète la porte seul.",
           "position": "[-33,-53]",
-          "zoneHint": null,
-          "warning": "Nécessite un Bricoleur niveau 100 minimum. Si vous êtes Bricoleur niveau 100+, placez-vous en diagonale de la porte pour crocheter seul.",
+          "zoneHint": "Bonta",
+          "warning": "L’accès nécessite un Bricoleur niveau 100 minimum.",
           "combat": "NONE"
         },
         {
-          "instruction": "Aller à la Tour des ordres en [-34,-58]. Depuis l'entrée principale, monter les escaliers, aller à gauche, monter de nouveau les escaliers et entrer dans la salle à gauche. Parler à Xarthan et choisir « Le croire sur parole ».",
-          "position": "[-34,-58]",
-          "zoneHint": null,
+          "instruction": "À l’intérieur, monte à l’étage puis clique sur la commode près du lit. Tu trouves un document annonçant un rendez-vous entre Xarthan et un Brâkmarien à la Tour des ordres.",
+          "position": "[-33,-53]",
+          "zoneHint": "Maison de Xarthan",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Retourner auprès d'Amayiro en [-32,-57] pour l'informer que Xarthan semble hors de cause. La quête se termine.",
+          "instruction": "Va à la Tour des ordres. Depuis l’entrée principale, monte les escaliers, pars à gauche, monte encore les escaliers puis entre dans la salle à gauche.",
+          "position": "[-34,-58]",
+          "zoneHint": "Tour des ordres",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parle à Xarthan et choisis de le croire sur parole lorsqu’il affirme être accro au jus de Ouassingue.",
+          "position": "[-34,-58]",
+          "zoneHint": "Tour des ordres",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne auprès d’Amayiro et indique-lui que Xarthan semble hors de cause pour terminer la quête.",
           "position": "[-32,-57]",
-          "zoneHint": null,
+          "zoneHint": "Bonta",
           "warning": null,
           "combat": "NONE"
         }
       ],
       "notes": [
-        "Débloque la quête suivante : Alignement 49 : Quand y'en a marre de Brâkmar."
+        "Cette occurrence commence après l’identification de Xarthan dans Bouc à misère et se termine après le rapport concluant qu’il semble innocent.",
+        "La quête suivante de la séquence est Quand y’en a marre de Brâkmar."
       ],
       "npcs": [
         "Amayiro",
@@ -377,7 +471,7 @@
       ],
       "items": [
         {
-          "name": "Document",
+          "name": "Document planifiant un rendez-vous entre Xarthan et un Brâkmarien",
           "itemId": null,
           "imageUrl": null,
           "dofusDbUrl": null
@@ -390,6 +484,13 @@
             "name": "Cœur immaculé",
             "coordinates": [
               "-32,-57"
+            ]
+          },
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-33,-53"
             ]
           },
           {
@@ -499,63 +600,65 @@
         ]
       },
       "questKey": "quest:133",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/flagrant-delire.html",
       "sourceTitle": "Alignement 48 : Flagrant délire",
       "sourceHash": "b194e388cc88b2f7a398425991a7e543e52fa37a2343055a34e2c99481b53e9f",
-      "generatedAt": "2026-08-24T17:34:53.228Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     },
     {
-      "overview": "Enquête d'alignement Bonta : infiltrez Brâkmar pour interroger votre espion, les voleurs et le bijoutier Milone Corichel, puis rapportez vos découvertes à Amayiro.",
+      "overview": "Xarthan semblant innocent, enquête directement à Brâkmar. Bishom Pot t’oriente vers des voleurs récemment liés à Oto Mustam. Pour obtenir leurs informations, choisis entre payer 6 000 kamas ou combattre cinq voleurs. Milone Corichel exige ensuite obligatoirement 10 000 kamas et révèle qu’un autre traître bontarien doit rencontrer Brâkmar à la Tour de Bonta. Rapporte ces renseignements à Amayiro.",
       "recommendedLevel": 119,
       "prerequisites": [
-        "Flagrant délire"
+        "Flagrant délire."
       ],
       "rewards": [
-        "3 778 404 XP"
+        "3 778 404 XP."
       ],
       "preparation": [
-        "1 combat (groupe possible) ou 6 000 Kamas",
-        "10 000 Kamas"
+        "Prévoir soit 6 000 kamas, soit un combat réalisable en groupe contre 5 voleurs.",
+        "Prévoir obligatoirement 10 000 kamas pour Milone Corichel."
       ],
       "actions": [
         {
-          "instruction": "Aller à la Milice de Bonta et parler à Amayiro pour lancer la quête.",
+          "instruction": "Parle à Amayiro à la Milice. Pendant qu’il prévoit de confronter Xarthan à Ture Inge, il t’envoie enquêter à Brâkmar.",
           "position": "[-32,-57]",
           "zoneHint": "Bonta",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller à Brâkmar et parler au Guerrier Bishom Pot.",
+          "instruction": "Parle au Guerrier Bishom Pot et utilise la formule « Brâkmar est une ville putride en cette saison ». Il t’apprend que Brâkmar prépare quelque chose contre Bonta et que des voleurs ont récemment rejoint Oto Mustam.",
           "position": "[-28,32]",
           "zoneHint": "Brâkmar",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller en [-27,34] à Brâkmar, entrer dans le repaire des voleurs par la porte en bas au centre, puis monter au premier étage.",
+          "instruction": "Entre dans le repaire des voleurs par la porte en bas au centre de la carte, puis monte au premier étage.",
           "position": "[-27,34]",
-          "zoneHint": "Brâkmar",
+          "zoneHint": "Repaire des voleurs",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Parler au Chef des voleurs. Deux choix : « Monnayer l'information avec 6000 Kamas » (dire ensuite « S'en aller sans attirer l'attention ») ou « Monnayer l'information avec des baffes » (combat contre 5 voleurs, réalisable en groupe).",
-          "position": null,
+          "instruction": "Parle au Chef des voleurs et choisis comment obtenir l’information : payer 6 000 kamas, puis partir sans attirer l’attention, ou imposer l’échange par la force.",
+          "position": "[-27,34]",
           "zoneHint": "Repaire des voleurs",
-          "warning": "Choisir entre payer 6 000 Kamas ou combattre 5 voleurs (groupe possible).",
+          "warning": "Choix entre une dépense irréversible de 6 000 kamas et un combat contre 5 voleurs.",
           "combat": "CHOICE"
         },
         {
-          "instruction": "Aller voir Milone Corichel à Brâkmar et choisir « Proposer 10000 Kamas » pour obtenir les informations.",
+          "instruction": "Va voir Milone Corichel et propose-lui 10 000 kamas. Il confirme qu’un traître existe à Bonta, que ce n’est pas Xarthan et qu’un rendez-vous doit bientôt avoir lieu à la Tour de Bonta pour remettre un bijou au traître.",
           "position": "[-29,34]",
           "zoneHint": "Brâkmar",
-          "warning": "Dépense obligatoire de 10 000 Kamas.",
+          "warning": "Les 10 000 kamas sont obligatoirement dépensés pour obtenir l’information.",
           "combat": "NONE"
         },
         {
-          "instruction": "Retourner voir Amayiro à la Milice de Bonta pour terminer la quête.",
+          "instruction": "Retourne auprès d’Amayiro et transmets-lui les nouvelles informations sur le véritable traître et le rendez-vous prévu pour terminer la quête.",
           "position": "[-32,-57]",
           "zoneHint": "Bonta",
           "warning": null,
@@ -563,13 +666,17 @@
         }
       ],
       "notes": [
-        "Débloque la quête Alignement 50 : La capture."
+        "Cette occurrence reprend après l’innocence apparente de Xarthan établie dans Flagrant délire.",
+        "La quête prépare directement l’embuscade de La capture, mais cette confrontation appartient à l’occurrence suivante."
       ],
       "npcs": [
         "Amayiro",
-        "Guerrier Bishom Pot",
+        "Bishom Pot",
         "Chef des voleurs",
-        "Milone Corichel"
+        "Milone Corichel",
+        "Oto Mustam",
+        "Xarthan",
+        "Ture Inge"
       ],
       "items": [],
       "bestiary": {
@@ -588,6 +695,13 @@
               "-28,32",
               "-27,34",
               "-29,34"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
             ]
           }
         ],
@@ -676,77 +790,87 @@
         ]
       },
       "questKey": "quest:134",
+      "relation": "ACTIVE",
+      "sortOrder": 2,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/quand-y-en-a-marre-de-brakmar.html",
       "sourceTitle": "Alignement 49 : Quand y’en a marre de Brâkmar",
       "sourceHash": "5a253d5d5a05cff3abf0442809779f2b4edba9a45e9396eadb27e2e0181009cc",
-      "generatedAt": "2026-08-24T17:59:56.938Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     },
     {
-      "overview": "Lancez la quête auprès d'Amayiro à la Milice de Bonta. Demandez à quatre miliciens de changer de poste pour surveiller la tour des ordres. Rendez-vous au dernier étage de la tour des ordres, affrontez le traître Xephirès, puis ramenez-le à Amayiro.",
+      "overview": "Les informations obtenues à Brâkmar permettent enfin de tendre un piège au traître. Avant de monter à la Tour des ordres, fais déplacer quatre miliciens afin de couvrir ses entrées. Au dernier étage, Xephirès se révèle être le traître. Vaincs-le, puis conduis-le à Amayiro pour conclure la mission.",
       "recommendedLevel": 120,
       "prerequisites": [
-        "Quand y'en a marre de Brâkmar"
+        "Quand y'en a marre de Brâkmar."
       ],
       "rewards": [
-        "3 883 723 XP"
+        "3 883 723 XP."
       ],
       "preparation": [
-        "1 combat"
+        "Prévoir 1 x combat contre Xephirès ; le renfort est possible."
       ],
       "actions": [
         {
-          "instruction": "Aller à la Milice de Bonta et parler à Amayiro pour lancer la quête.",
+          "instruction": "Parle à Amayiro à la Milice. Il te demande de préparer l’arrestation du traître en faisant poster des miliciens aux entrées de la Tour des ordres.",
           "position": "[-32,-57]",
-          "zoneHint": null,
+          "zoneHint": "Bonta",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller voir Trev Pelsantery et lui demander de changer de poste.",
+          "instruction": "Parle à Trev Pelsantery et demande-lui de changer de poste.",
           "position": "[-30,-53]",
-          "zoneHint": null,
+          "zoneHint": "Bonta",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller voir Sen Eiser et lui demander de changer de poste.",
+          "instruction": "Parle à Sen Eiser et demande-lui de changer de poste.",
           "position": "[-31,-60]",
-          "zoneHint": null,
+          "zoneHint": "Bonta",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller voir Ruth Banke et lui demander de changer de poste.",
+          "instruction": "Parle à Ruth Banke et demande-lui de changer de poste.",
           "position": "[-33,-57]",
-          "zoneHint": null,
+          "zoneHint": "Bonta",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller voir Galde Avout et lui demander de changer de poste.",
+          "instruction": "Parle à Galde Avout et demande-lui de changer de poste.",
           "position": "[-35,-57]",
-          "zoneHint": null,
+          "zoneHint": "Bonta",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Se rendre à la tour des ordres, entrer par l'entrée haute, monter les escaliers, aller à gauche, monter de nouveau les escaliers, aller tout droit puis à gauche pour atteindre le grenier. Parler à Xephirès et l'attaquer.",
+          "instruction": "Rends-toi à la Tour des ordres et monte jusqu’au grenier, juste avant le toit. Depuis l’entrée haute, entre dans la tour, monte les escaliers, va à gauche, remonte les escaliers, avance tout droit puis pars à gauche.",
           "position": "[-34,-58]",
-          "zoneHint": null,
-          "warning": "Combat contre Xephirès. Trait d'Expiation : 300 eau, pesanteur 1 tour. Trait Ralentissant : 300 eau zone cercle 2, retire 3 PA 1 tour. Trait Persécuteur : 150 feu et air. Trait Magique : 200 feu, vole 2 PO 1 tour. Possible en solo ou avec du renfort.",
+          "zoneHint": "Tour des ordres",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parle à Xephirès, qui se révèle être le traître de Bonta, puis attaque-le. Tu peux le combattre seul ou appeler du renfort.",
+          "position": "[-34,-58]",
+          "zoneHint": "Grenier de la Tour des ordres",
+          "warning": "Combat obligatoire. Xephirès peut infliger l’état Pesanteur, retirer des PA et voler de la portée.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Retourner voir Amayiro à la Milice avec Xephirès vaincu pour terminer la quête.",
+          "instruction": "Après avoir vaincu Xephirès, conduis-le auprès d’Amayiro. La capture réussit et la quête se termine.",
           "position": "[-32,-57]",
-          "zoneHint": null,
+          "zoneHint": "Bonta",
           "warning": null,
           "combat": "NONE"
         }
       ],
       "notes": [
-        "Débloque la quête Alignement 51 : Le port salue."
+        "Cette occurrence constitue l’aboutissement de l’enquête menée dans les trois quêtes précédentes de l’étape.",
+        "La victoire contre Xephirès débloque la quête d’alignement suivante : Le port salue."
       ],
       "npcs": [
         "Amayiro",
@@ -876,11 +1000,13 @@
         ]
       },
       "questKey": "quest:135",
+      "relation": "ACTIVE",
+      "sortOrder": 3,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-capture.html",
       "sourceTitle": "Alignement 50 : La capture",
       "sourceHash": "ac4b98527f1f171bb4ee3d2f8256cf588c14d71190dc3fa7103510c225b85221",
-      "generatedAt": "2026-08-24T17:39:07.506Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     }
   ],
   "tips": []

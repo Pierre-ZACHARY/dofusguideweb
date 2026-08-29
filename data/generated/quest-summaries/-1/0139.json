@@ -1,8 +1,428 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 139,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T14:23:04.711Z",
+  "summaries": [
+    {
+      "overview": "Lancez L'épée du rocher auprès de Mériana, réunissez les poudres nécessaires pour révéler le sceau de Crocobur, puis faites identifier ce sceau par Merlan l'Enchaîneur. Pour cette occurrence, arrêtez-vous en Xélorium dès que l'objectif demandant de vaincre Fraktale est correctement affiché : le Mégalithe de Fraktale, les trois Craqueleurs de verre et toute la fin de la quête seront réalisés plus tard. Le passage en Xélorium sert aussi de point de départ à la série de quêtes de Xélorium 1 indiquée par le guide.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Être niveau supérieur à 100.",
+        "Avoir terminé Mais où sont les Dofus ?.",
+        "Avoir terminé Mieux vaut ne pas se fier à la première impression avant de demander la Poudre révélatrice usagée à Prim."
+      ],
+      "rewards": [
+        "Récompenses finales de la quête, non obtenues à cette occurrence : 3 883 723 XP.",
+        "Récompenses finales de la quête, non obtenues à cette occurrence : 40 272 kamas.",
+        "Récompenses finales de la quête, non obtenues à cette occurrence : 1 x Peau de Skeunk."
+      ],
+      "preparation": [
+        "Prévoir 18 x Mesure de sel.",
+        "Prévoir 36 x Poudre de Perlinpainpain.",
+        "Prévoir 18 x Seigle.",
+        "Prévoir l'accès au donjon Repaire de Skeunk.",
+        "Prévoir un moyen d'accéder à la dimension Xélorium par son portail ; une Ankre de téléportation ne valide pas le passage requis.",
+        "Pour fabriquer les 3 x Poudre de superlinpainpain, disposer d'un paysan niveau 10 minimum ou de l'aide d'un paysan répondant à cette condition."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Mériana pour lancer L'épée du rocher et acceptez de vous renseigner sur la légende de Crocoburio.",
+          "position": "[-6,-3]",
+          "zoneHint": "Marécages nauséabonds",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la maison de Mériana, descendez au sous-sol par la trappe puis consultez les livres à droite afin de lire La Légende de Crocoburio.",
+          "position": "[-6,-3]",
+          "zoneHint": "Sous-sol de la maison de Mériana",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Remontez et reparlez à Mériana après la lecture pour poursuivre les recherches sur Crocobur.",
+          "position": "[-6,-3]",
+          "zoneHint": "Maison de Mériana",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Examinez l'épée Crocobur plantée dans le rocher, tentez de la retirer, puis examinez-la de nouveau et choisissez d'examiner le rocher afin de repérer le signe magique.",
+          "position": "[-7,10]",
+          "zoneHint": "Marécage",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Mériana et décrivez-lui le signe gravé sur le rocher. Elle vous indique qu'il faut préparer de la Poudre d'Oubn-Ghazou.",
+          "position": "[-6,-3]",
+          "zoneHint": "Marécages nauséabonds",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Terminez le donjon Repaire de Skeunk en vainquant le Skeunk, mais restez dans la salle de fin après le combat.",
+          "position": "[-20,10]",
+          "zoneHint": "Repaire de Skeunk",
+          "warning": "Ne quittez pas le donjon immédiatement après avoir vaincu le Skeunk, sinon vous manquez l'interaction nécessaire pour récupérer la Poudre scintillante.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Avant de sortir du Repaire de Skeunk, parlez à la Bouate à maquillage afin de récupérer la Poudre scintillante.",
+          "position": "[-20,10]",
+          "zoneHint": "Repaire de Skeunk",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À la bibliothèque d'Astrub, parlez à Prim et demandez-lui la poudre révélatrice usagée pour récupérer la Poudre révélatrice usagée.",
+          "position": "[7,-19]",
+          "zoneHint": "Bibliothèque d'Astrub",
+          "warning": "Cette interaction exige d'avoir terminé Mieux vaut ne pas se fier à la première impression.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans un atelier de paysan, fabriquez 3 x Poudre de superlinpainpain. Chaque fabrication consomme 6 x Mesure de sel, 12 x Poudre de Perlinpainpain et 6 x Seigle, soit 18, 36 et 18 exemplaires au total.",
+          "position": null,
+          "zoneHint": "Atelier de paysan",
+          "warning": "La fabrication demande un paysan niveau 10 minimum et consomme les ressources indiquées.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez chez Mériana, descendez au sous-sol et examinez le Creuset alchimique pour y placer les différentes poudres et obtenir la Poudre d'Oubn-Ghazou.",
+          "position": "[-6,-3]",
+          "zoneHint": "Sous-sol de la maison de Mériana",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Revenez devant Crocobur, examinez l'épée puis parlez-lui et jetez la Poudre d'Oubn-Ghazou sur le rocher afin de révéler le sceau et d'en faire une copie.",
+          "position": "[-7,10]",
+          "zoneHint": "Marécage",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Montrez à Mériana le dessin du sceau révélé. Elle vous oriente vers Merlan l'Enchaîneur.",
+          "position": "[-6,-3]",
+          "zoneHint": "Marécages nauséabonds",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À l'atelier des alchimistes de Bonta, montrez la reproduction du sceau à Merlan l'Enchaîneur et poursuivez le dialogue jusqu'à ce qu'il vous donne la liste des éléments nécessaires pour libérer Crocobur du rocher.",
+          "position": "[-29,-54]",
+          "zoneHint": "Atelier des alchimistes de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Accédez à Xélorium en passant réellement sur la carte du portail de la dimension afin que l'objectif lié à Fraktale s'actualise. Arrêtez cette occurrence dès que la quête vous demande de vaincre x1 Fraktale.",
+          "position": null,
+          "zoneHint": "Portail de Xélorium",
+          "warning": "N'utilisez pas une Ankre de téléportation pour contourner la carte du portail : ce trajet ne valide pas l'actualisation requise. Ne combattez pas encore Fraktale dans cette occurrence.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le guide demande de s'arrêter précisément au moment où L'épée du rocher affiche l'objectif de vaincre x1 Fraktale.",
+        "À partir de l'arrivée en Xélorium, le parcours du guide enchaîne les quêtes de Xélorium 1 en commençant par C'est ton destin ; elles sont traitées aux occurrences suivantes et ne sont pas incluses dans les actions présentes.",
+        "Le Mégalithe de Fraktale, l'obtention du Temps fracassé, les trois combats contre les Craqueleurs de verre, le retour chez Merlan, la Gardienne de l'épée et la récupération de Crocobur sont volontairement différés jusqu'aux prochaines occurrences de L'épée du rocher."
+      ],
+      "npcs": [
+        "Mériana",
+        "Crocobur",
+        "Skeunk",
+        "Bouate à maquillage",
+        "Prim",
+        "Merlan l'Enchaîneur"
+      ],
+      "items": [
+        {
+          "name": "Mesure de sel",
+          "itemId": 2467,
+          "imageUrl": "/items/2467.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2467"
+        },
+        {
+          "name": "Poudre de Perlinpainpain",
+          "itemId": 1874,
+          "imageUrl": "/items/1874.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1874"
+        },
+        {
+          "name": "Seigle",
+          "itemId": 1882,
+          "imageUrl": "/items/1882.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1882"
+        },
+        {
+          "name": "Poudre scintillante",
+          "itemId": 20232,
+          "imageUrl": "/items/20232.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/20232"
+        },
+        {
+          "name": "Poudre révélatrice usagée",
+          "itemId": 20235,
+          "imageUrl": "/items/20235.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/20235"
+        },
+        {
+          "name": "Poudre de superlinpainpain",
+          "itemId": 20234,
+          "imageUrl": "/items/20234.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/20234"
+        },
+        {
+          "name": "Poudre d'Oubn-Ghazou",
+          "itemId": 20236,
+          "imageUrl": "/items/20236.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/20236"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "7,-19"
+            ]
+          },
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-29,-54"
+            ]
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "-6,-3"
+            ]
+          },
+          {
+            "id": 232,
+            "name": "Marécages nauséabonds",
+            "coordinates": [
+              "-6,-3"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-7,10"
+            ]
+          },
+          {
+            "id": 254,
+            "name": "Repaire de Skeunk",
+            "coordinates": [
+              "-20,10"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2549,
+            "name": "Boostif l'Affamé",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2549.png"
+          },
+          {
+            "id": 2439,
+            "name": "Crolnareff l'Exilé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2439.png"
+          },
+          {
+            "id": 2428,
+            "name": "Crok le Beau",
+            "level": 61,
+            "imageUrl": "/bestiary/monsters/2428.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 208,
+            "name": "Gadouilleux",
+            "monsters": [
+              {
+                "id": 263,
+                "name": "Chef Crocodaille",
+                "level": 61,
+                "imageUrl": "/bestiary/monsters/263.png"
+              },
+              {
+                "id": 261,
+                "name": "Crocodaille",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/261.png"
+              },
+              {
+                "id": 112,
+                "name": "Boo",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/112.png"
+              },
+              {
+                "id": 4833,
+                "name": "Arakne Olithique",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4833.png"
+              }
+            ]
+          },
+          {
+            "id": 220,
+            "name": "Koalaks mortels",
+            "monsters": [
+              {
+                "id": 783,
+                "name": "Fauchalak",
+                "level": 108,
+                "imageUrl": "/bestiary/monsters/783.png"
+              },
+              {
+                "id": 749,
+                "name": "Guerrier Koalak",
+                "level": 101,
+                "imageUrl": "/bestiary/monsters/749.png"
+              },
+              {
+                "id": 756,
+                "name": "Koalak Farouche",
+                "level": 104,
+                "imageUrl": "/bestiary/monsters/756.png"
+              },
+              {
+                "id": 744,
+                "name": "Koalak Sanguin",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/744.png"
+              },
+              {
+                "id": 745,
+                "name": "Warko Violet",
+                "level": 106,
+                "imageUrl": "/bestiary/monsters/745.png"
+              }
+            ]
+          },
+          {
+            "id": 5803,
+            "name": "Koalaks sauvages",
+            "monsters": [
+              {
+                "id": 754,
+                "name": "Koalak Reinette",
+                "level": 80,
+                "imageUrl": "/bestiary/monsters/754.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1466",
+      "relation": "START",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/l-epee-du-rocher.html",
+      "sourceTitle": "L'épée du rocher",
+      "sourceHash": "5ddf5fccbace675fa9f9fbe593af029a3f56507e6fd751f37f1e75563d156c44",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

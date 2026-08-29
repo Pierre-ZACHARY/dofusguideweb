@@ -1,8 +1,482 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 94,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T11:29:21.451Z",
+  "summaries": [
+    {
+      "overview": "Poursuivez Koffrologie dans le Creuset des Fortunés : fournissez la pierre d'âme demandée, capturez les quatre types de Koffrefors grâce à l'altération Super capture, puis réalisez les trois expériences de Maximilio. La quête s'achève en ramenant Ribériche au professeur en [-1,-1].",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Posséder 1 x Moyenne pierre d'âme.",
+        "Posséder le sort Capture d'âmes : Super capture donne directement les pierres pleines, mais la capture ne fonctionne pas sans ce sort."
+      ],
+      "rewards": [
+        "511 875 XP.",
+        "5 990 kamas.",
+        "15 x Orichor.",
+        "5 x Antenne de Trésantène."
+      ],
+      "preparation": [
+        "Prévoir 1 x Moyenne pierre d'âme avant de parler au Professeur Maximilio.",
+        "Prévoir des combats contre les monstres du Creuset des Fortunés.",
+        "Vérifier que le personnage possède le sort Capture d'âmes ; aucun filet ou pierre d'âme ne doit être équipé pendant les combats."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez au Professeur Maximilio et remettez-lui 1 x Moyenne pierre d'âme. Vous obtenez l'altération Super capture pour ses recherches.",
+          "position": "[-1,-1]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": "La Moyenne pierre d'âme est consommée/remise au PNJ.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans le Creuset des Fortunés, combattez au moins un Berserkoffre, un Boursoin, un Mimikado et un Trésantène afin d'obtenir Âme de Berserkoffre, Âme de Boursoin, Âme de Mimikado et Âme de Trésantène. Les quatre peuvent être validés dans un seul combat si les quatre monstres sont présents.",
+          "position": null,
+          "zoneHint": "Creuset des Fortunés",
+          "warning": "Le sort Capture d'âmes doit être connu par le personnage, même s'il n'est pas lancé pendant le combat.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Rapportez les quatre âmes au Professeur Maximilio. Il vous confie alors un sifflet à tester.",
+          "position": "[-1,-1]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Utilisez le sifflet depuis l'inventaire de quête, puis parlez au Trésantène apparu et caressez-le. Parlez ensuite au Krosmoglob du Professeur Maximilio pour transmettre le résultat de l'expérience.",
+          "position": "[-3,-3]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez sur le sac rempli de kamas. Parlez au Berserkoffre qui apparaît, éloignez-vous du sac, puis faites votre rapport au Krosmoglob du Professeur Maximilio.",
+          "position": "[-2,-1]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": "Le vol est seulement simulé pour l'expérience ; suivez les dialogues demandés.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Mannequin Enutrofor pour simuler une attaque. Aucun combat réel n'est lancé. Parlez au Boursoin apparu et laissez-le tranquille, puis reparlez au mannequin désormais transformé en Ribériche.",
+          "position": "[-3,-1]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramenez Ribériche auprès du Professeur Maximilio et parlez au professeur pour lui présenter le Koffrefor et terminer Koffrologie.",
+          "position": "[-1,-1]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Ribériche devient l'interlocuteur central de la quête suivante, Trésorphelinat.",
+        "Les pierres d'âmes pleines sont obtenues directement grâce à Super capture : il n'est pas nécessaire de lancer Capture d'âmes pendant le combat."
+      ],
+      "npcs": [
+        "Professeur Maximilio",
+        "Trésantène",
+        "Krosmoglob du Professeur Maximilio",
+        "Berserkoffre",
+        "Mannequin Enutrofor",
+        "Boursoin",
+        "Ribériche"
+      ],
+      "items": [
+        {
+          "name": "Moyenne pierre d'âme",
+          "itemId": 9687,
+          "imageUrl": "/items/9687.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9687"
+        },
+        {
+          "name": "Âme de Berserkoffre",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Âme de Boursoin",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Âme de Mimikado",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Âme de Trésantène",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Sifflet",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 820,
+            "name": "Creuset des Fortunés",
+            "coordinates": [
+              "-1,-1",
+              "-3,-3",
+              "-2,-1",
+              "-3,-1"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3670,
+            "name": "Maxi-Malle",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/3670.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1093,
+            "name": "Koffrefors",
+            "monsters": [
+              {
+                "id": 3666,
+                "name": "Berserkoffre",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3666.png"
+              },
+              {
+                "id": 3663,
+                "name": "Boursoin",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3663.png"
+              },
+              {
+                "id": 3664,
+                "name": "Mimikado",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3664.png"
+              },
+              {
+                "id": 3665,
+                "name": "Trésantène",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3665.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:792",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/koffrologie.html",
+      "sourceTitle": "Koffrologie",
+      "sourceHash": "d46d1d973a8d04b481926df606e345dbc7f76c65ee999df352180627943276cc",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après Koffrologie, aidez Maximilio et Ribériche à retrouver Mimikmatti. Vous devrez vaincre un Koffromage devant le Trésorphelinat, amadouer le jeune coffre avec le Reblochonchon obtenu, puis décider en [-6,-1] de le jeter aux ordures ou de le laisser partir avant de rendre compte à Ribériche.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Koffrologie."
+      ],
+      "rewards": [
+        "1 023 750 XP.",
+        "11 980 kamas.",
+        "15 x Orichor.",
+        "5 x Corne de Berserkoffre."
+      ],
+      "preparation": [
+        "Prévoir 1 combat contre un Koffromage, réalisable en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez au Professeur Maximilio pour apprendre que Ribériche souhaite retrouver Mimikmatti, un jeune Koffrefor échappé du Trésorphelinat.",
+          "position": "[-1,-1]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Devant le Trésorphelinat, cliquez sur le tas de pièces. Parlez au Koffromage qui apparaît et lancez le combat.",
+          "position": "[-2,-4]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": "Pour valider en groupe, chaque personnage concerné doit avoir parlé au Koffromage et choisi d'espérer l'arrivée rapide de renforts avant le lancement.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire et l'obtention du Reblochonchon, parlez à Mimikmatti sur la même carte et utilisez le fromage pour l'amadouer. Il devient personnage suiveur.",
+          "position": "[-2,-4]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramenez Mimikmatti à Ribériche. Parlez à Ribériche, puis à Mimikmatti et au Professeur Maximilio pour examiner la situation. Reparlez enfin à Ribériche et demandez à vous charger vous-même du sort de Mimikmatti.",
+          "position": "[-1,-1]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Mimikmatti près de la benne et choisissez soit de le jeter aux ordures, soit de le laisser partir. Les deux choix permettent de poursuivre la quête.",
+          "position": "[-6,-1]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": "Choix de dialogue : jeter Mimikmatti ou le laisser partir. Les deux issues valident cette étape de la quête.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Ribériche et annoncez que le travail est accompli pour terminer Trésorphelinat.",
+          "position": "[-1,-1]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La fin de Trésorphelinat permet d'enchaîner avec Malladie dans la même étape du guide.",
+        "Le combat contre le Koffromage peut accueillir jusqu'à 8 personnages."
+      ],
+      "npcs": [
+        "Professeur Maximilio",
+        "Ribériche",
+        "Koffromage",
+        "Mimikmatti"
+      ],
+      "items": [
+        {
+          "name": "Reblochonchon",
+          "itemId": 15309,
+          "imageUrl": "/items/15309.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15309"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 820,
+            "name": "Creuset des Fortunés",
+            "coordinates": [
+              "-1,-1",
+              "-2,-4",
+              "-6,-1"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3670,
+            "name": "Maxi-Malle",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/3670.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1093,
+            "name": "Koffrefors",
+            "monsters": [
+              {
+                "id": 3666,
+                "name": "Berserkoffre",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3666.png"
+              },
+              {
+                "id": 3663,
+                "name": "Boursoin",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3663.png"
+              },
+              {
+                "id": 3664,
+                "name": "Mimikado",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3664.png"
+              },
+              {
+                "id": 3665,
+                "name": "Trésantène",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3665.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:793",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/treacutesorphelinat.html",
+      "sourceTitle": "Trésorphelinat",
+      "sourceHash": "d84be9bbd20bb80d03dcc672ea740442a56e20fed4077bafaad1e39fb30d6490",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez Malladie après Trésorphelinat et avancez uniquement jusqu'au passage imposé par le guide : identifiez Malléfisk comme responsable du sommeil des Koffrefors, obtenez les informations d'Inès Karcel, puis effectuez la Fabrique de Malléfisk. Ne poursuivez pas les dialogues avec Malléfisk après le donjon : la reprise et la fin de la quête sont réservées à l'étape 95.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Trésorphelinat."
+      ],
+      "rewards": [
+        "1 023 750 XP à la fin complète de la quête, lors d'une occurrence ultérieure.",
+        "11 980 kamas à la fin complète de la quête.",
+        "15 x Orichor à la fin complète de la quête.",
+        "5 x Corne de Berserkoffre à la fin complète de la quête."
+      ],
+      "preparation": [
+        "Prévoir 1 kama pour l'offrande au Trésoracle.",
+        "Prévoir 1 x Clef de la Fabrique de Malléfisk.",
+        "Prévoir d'effectuer le donjon Fabrique de Malléfisk."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez au Professeur Maximilio pour lancer Malladie et apprendre que les Koffrefors sont victimes d'un sommeil anormal. Parlez ensuite à Ribériche sur la même carte afin d'être envoyé auprès de Kamalonnête.",
+          "position": "[-1,-1]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Kamalonnête devant l'entrée du Fort Thune et précisez que vous venez de la part de Ribériche. Donnez ensuite 1 kama en offrande afin de consulter le Trésoracle et apprendre que Malléfisk est à l'origine du mal.",
+          "position": "[-4,-4]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": "Dépense obligatoire : 1 kama.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à la Fabrique de Malléfisk et parlez à Inès Karcel. Expliquez-lui le problème des Koffrefors ; elle vous indique qu'il faut terminer la Fabrique pour pouvoir rencontrer Malléfisk.",
+          "position": "[-6,-2]",
+          "zoneHint": "Creuset des Fortunés",
+          "warning": "Une Clef de la Fabrique de Malléfisk est nécessaire pour effectuer le donjon, sauf autre moyen d'accès disponible en jeu.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Effectuez maintenant le donjon Fabrique de Malléfisk jusqu'à sa réussite. Arrêtez cette occurrence une fois le donjon terminé, avant de poursuivre les échanges de quête avec Malléfisk.",
+          "position": "[-6,-2]",
+          "zoneHint": "Fabrique de Malléfisk",
+          "warning": "Donjon obligatoire. La discussion avec Malléfisk, les négociations pour réveiller les Koffrefors et le retour final à Maximilio appartiennent à l'occurrence FINISH de l'étape 95 et ne doivent pas être effectués ici.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "À ce stade, le Professeur Maximilio et Ribériche ont été consultés, le Trésoracle a désigné Malléfisk et Inès Karcel a expliqué comment la rencontrer.",
+        "La suite volontairement différée à l'étape 95 commence après le donjon : il faudra parler à Malléfisk, gérer les échanges avec le Krosmoglob et obtenir le réveil des Koffrefors avant de revenir auprès de Maximilio."
+      ],
+      "npcs": [
+        "Professeur Maximilio",
+        "Ribériche",
+        "Kamalonnête",
+        "Trésoracle",
+        "Inès Karcel",
+        "Malléfisk"
+      ],
+      "items": [
+        {
+          "name": "Kama",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Clef de la Fabrique de Malléfisk",
+          "itemId": 15278,
+          "imageUrl": "/items/15278.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15278"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 820,
+            "name": "Creuset des Fortunés",
+            "coordinates": [
+              "-1,-1",
+              "-4,-4",
+              "-6,-2"
+            ]
+          },
+          {
+            "id": 823,
+            "name": "Fabrique de Malléfisk",
+            "coordinates": [
+              "-6,-2"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3670,
+            "name": "Maxi-Malle",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/3670.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1093,
+            "name": "Koffrefors",
+            "monsters": [
+              {
+                "id": 3666,
+                "name": "Berserkoffre",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3666.png"
+              },
+              {
+                "id": 3663,
+                "name": "Boursoin",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3663.png"
+              },
+              {
+                "id": 3664,
+                "name": "Mimikado",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3664.png"
+              },
+              {
+                "id": 3667,
+                "name": "Précieux",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3667.png"
+              },
+              {
+                "id": 3665,
+                "name": "Trésantène",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/3665.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:794",
+      "relation": "START",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/malladie.html",
+      "sourceTitle": "Malladie",
+      "sourceHash": "eef1a35b5857deaf5131355d3221b5d18a5cf0fa66a8f1551fdbc78fe2094b88",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

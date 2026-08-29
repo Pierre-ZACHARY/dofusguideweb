@@ -1,8 +1,1518 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 76,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T11:28:52.043Z",
+  "summaries": [
+    {
+      "overview": "Poursuis l'alignement 27 en récupérant un Champo Banal sur les Maître Bolet, puis fais-le réparer à Bonta. Paro Cabanne t'envoie ramasser un crottin de dragodinde avant de rendre le Champo retapé à Amayiro et de terminer la quête.",
+      "recommendedLevel": 57,
+      "prerequisites": [
+        "Au service de Danathor."
+      ],
+      "rewards": [
+        "320 011 XP."
+      ],
+      "preparation": [
+        "Prévoir des combats contre des Maître Bolet des Routes Rocailleuses jusqu'à obtenir 1 x Champo Banal, avec un taux de base de 6 %."
+      ],
+      "actions": [
+        {
+          "instruction": "Combats des Maître Bolet dans les Routes Rocailleuses jusqu'à obtenir 1 x Champo Banal.",
+          "position": null,
+          "zoneHint": "Routes Rocailleuses",
+          "warning": "Le Champo Banal a un taux de drop de base de 6 %, plusieurs combats peuvent donc être nécessaires.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Apporte le Champo Banal à Amayiro. Il constate que le chapeau est abîmé et t'envoie le faire réparer.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Va voir Paro Cabanne et choisis de lui donner le champo pour qu'elle le remette en état.",
+          "position": "[-33,-54]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramasse un crottin de dragodinde sur l'une des deux cartes proposées : [-28,-63] ou [-27,-64]. Une seule collecte suffit.",
+          "position": "[-28,-63]",
+          "zoneHint": "Pâturages de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne auprès de Paro Cabanne et donne-lui le crottin de dragodinde. Elle te remet le Champo retapé.",
+          "position": "[-33,-54]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Remets le Champo retapé à Amayiro pour terminer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le crottin peut aussi être ramassé en [-27,-64] au lieu de [-28,-63].",
+        "La quête d'alignement 28 débloquée ensuite dépend du choix effectué précédemment dans Au service de Danathor."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Paro Cabanne"
+      ],
+      "items": [
+        {
+          "name": "Champo Banal",
+          "itemId": 2144,
+          "imageUrl": "/items/2144.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2144"
+        },
+        {
+          "name": "Crottin de dragodinde",
+          "itemId": 16369,
+          "imageUrl": "/items/16369.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16369"
+        },
+        {
+          "name": "Champo retapé",
+          "itemId": 16370,
+          "imageUrl": "/items/16370.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16370"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-33,-54"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 279,
+            "name": "Pâturages de Bonta",
+            "coordinates": [
+              "-28,-63",
+              "-27,-64"
+            ]
+          },
+          {
+            "id": 525,
+            "name": "Routes Rocailleuses",
+            "coordinates": []
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2503,
+            "name": "Kanasukr le Mielleux",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2503.png"
+          },
+          {
+            "id": 2359,
+            "name": "Maître Champeur le Sabreur",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2359.png"
+          },
+          {
+            "id": 2445,
+            "name": "Fouflay le Retombé",
+            "level": 64,
+            "imageUrl": "/bestiary/monsters/2445.png"
+          },
+          {
+            "id": 2455,
+            "name": "Vétaurine l'Énergisé",
+            "level": 66,
+            "imageUrl": "/bestiary/monsters/2455.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 213,
+            "name": "Animaux des Champs",
+            "monsters": [
+              {
+                "id": 288,
+                "name": "Serpentin",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/288.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 259,
+                "name": "Arakne Majeure",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/259.png"
+              }
+            ]
+          },
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 186,
+            "name": "Craqueleurs",
+            "monsters": [
+              {
+                "id": 293,
+                "name": "Craqueleur des Plaines",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/293.png"
+              },
+              {
+                "id": 4571,
+                "name": "Craquelourd",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4571.png"
+              },
+              {
+                "id": 4573,
+                "name": "Craquelope",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4573.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 1518,
+            "name": "Ruffians de Cania",
+            "monsters": [
+              {
+                "id": 4574,
+                "name": "Foufayteur",
+                "level": 64,
+                "imageUrl": "/bestiary/monsters/4574.png"
+              },
+              {
+                "id": 4575,
+                "name": "Vétauran",
+                "level": 66,
+                "imageUrl": "/bestiary/monsters/4575.png"
+              },
+              {
+                "id": 287,
+                "name": "Kanigrou",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/287.png"
+              },
+              {
+                "id": 371,
+                "name": "Maître Bolet",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/371.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:29",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/amayiro-agrave-lombre-du-champo.html",
+      "sourceTitle": "Alignement 27 : Amayiro à l'ombre du Champo",
+      "sourceHash": "b45f6aa3832b6b71b834dcc7dc223375bd1104d867b71a5f1a78cac97c03ab50",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Cette version de l'alignement 28 correspond au parcours où Rimaraf a été empoisonné dans Au service de Danathor. Aide Danathor à fabriquer de fausses preuves contre Oni Tnec, récupère puis consulte le Formulaire d'enquête n°33 et désigne le faux coupable à Amayiro.",
+      "recommendedLevel": 58,
+      "prerequisites": [
+        "Amayiro à l'ombre du Champo.",
+        "Avoir suivi le choix consistant à empoisonner Rimaraf dans Au service de Danathor ; si ce choix a été refusé, l'alignement 28 est différent."
+      ],
+      "rewards": [
+        "332 903 XP."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "À la suite de l'annonce de la mort de Rimaraf par Amayiro, va voir Danathor et parle-lui de l'enquête menée par Amayiro.",
+          "position": "[-36,-60]",
+          "zoneHint": "Palais de Bonta",
+          "warning": "Cette branche implique de dissimuler ton implication et de faire accuser Oni Tnec.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Demande à Anik Mech un badge de milicien au nom d'Oni Tnec afin d'obtenir le Badge d'Oni Tnec.",
+          "position": "[-32,-54]",
+          "zoneHint": "Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne voir Danathor, en passant par la salle du trône puis la salle à droite, et reparle-lui de l'enquête pour recevoir de faux aveux.",
+          "position": "[-36,-60]",
+          "zoneHint": "Palais de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "À la milice, monte à l'étage depuis la salle d'Amayiro puis rends-toi dans la salle la plus à droite et parle à Ture Inge pour acheter le formulaire d'aide à l'enquête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": "Cet échange nécessite une dépense ; le montant n'est pas précisé dans la source.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Double-clique sur le Formulaire d'enquête n°33 obtenu afin de le consulter et de valider l'étape correspondante.",
+          "position": null,
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne voir Amayiro et donne-lui la fausse identité du coupable pour terminer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": "Oni Tnec est désigné comme faux coupable dans cette branche.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Cette source ne correspond pas à la variante obtenue si tu as refusé d'empoisonner Rimaraf lors de l'alignement 26.",
+        "La fin débloque l'alignement 29 : Poison de scorbute pour la prison."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Danathor",
+        "Anik Mech",
+        "Oni Tnec",
+        "Ture Inge",
+        "Rimaraf"
+      ],
+      "items": [
+        {
+          "name": "Badge d'Oni Tnec",
+          "itemId": 2149,
+          "imageUrl": "/items/2149.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2149"
+        },
+        {
+          "name": "Faux aveux",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Formulaire d'enquête n°33",
+          "itemId": 2190,
+          "imageUrl": "/items/2190.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2190"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 973,
+            "name": "Faubourgs des artisans",
+            "coordinates": [
+              "-32,-54"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 976,
+            "name": "Promontoire des cieux",
+            "coordinates": [
+              "-36,-60"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:30",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-deacutecegraves-de-rimaraf.html",
+      "sourceTitle": "Alignement 28 : Le décès de Rimaraf",
+      "sourceHash": "0a865709cfe5165fbebc97fd7c59c8a82324a88dffdd8dd396f5f53ca5d84712",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Retrouve les traces d'un ancien manuscrit wabbit : récupère une page dans les égouts d'Astrub, fais-la traduire par Wogew l'hewmite, réveille l'esprit de Gésa dans le Grand Terrier d'Amakna, puis récupère des exemplaires de la prophétie auprès de Prim avant de revenir vers Xiap.",
+      "recommendedLevel": 50,
+      "prerequisites": [
+        "Mieux vaut ne pas se fier à la première impression."
+      ],
+      "rewards": [
+        "203 765 XP.",
+        "3 480 kamas.",
+        "La Prophétie du Grand Wabbit.",
+        "3 x Cawotte."
+      ],
+      "preparation": [
+        "Prévoir au moins un combat dans les égouts pour obtenir une page déchirée, avec un taux de drop de base de 25 % sur les rats d'Égoutant.",
+        "Prévoir le combat déclenché après avoir utilisé la Cawotte Croquante dans le Grand Terrier d'Amakna."
+      ],
+      "actions": [
+        {
+          "instruction": "Retrouve Zoufia Boirbenar.",
+          "position": "[7,-4]",
+          "zoneHint": "Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entre dans les souterrains d'Astrub et suis le passage jusqu'à la zone menant à [6,-6]. Combats des rats d'Égoutant dans les égouts jusqu'à obtenir une page déchirée.",
+          "position": "[6,-6]",
+          "zoneHint": "Égouts d'Astrub",
+          "warning": "La page déchirée a un taux de drop de base de 25 %. Il n'est pas nécessaire de combattre sur une carte précise des égouts.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourne auprès de Xiap et montre-lui la page récupérée. Il t'oriente vers un traducteur du mowse.",
+          "position": "[24,-4]",
+          "zoneHint": "Île des Wabbits",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Trouve la carte cachée en haut à gauche, descends l'échelle et parle à Wogew l'hewmite en lui offrant le jus de Cawotte Fermenté de la part de Xiap. Il traduit la page et te remet une Cawotte Croquante.",
+          "position": "[-1,-39]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rends-toi au Grand Terrier d'Amakna. Clique à la base de la statue wabbit en pierre pour descendre, emprunte la porte wabbit puis clique sur la grosse statue au fond de la salle.",
+          "position": "[7,16]",
+          "zoneHint": "Grand Terrier d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Double-clique sur la Cawotte Croquante pour réveiller Gésa. L'Espwit Wabbit Affamé apparaît et t'agresse ; remporte le combat.",
+          "position": "[7,16]",
+          "zoneHint": "Grand Terrier d'Amakna",
+          "warning": "L'utilisation de la Cawotte Croquante déclenche immédiatement un combat.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, reparle à l'Espwit de Gésa pour obtenir les informations sur son manuscrit et la prophétie.",
+          "position": "[7,16]",
+          "zoneHint": "Grand Terrier d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Va voir Prim et parle-lui de la prophétie du Grand Wabbit. Rappelle-lui que tu l'as aidé avec son problème de gravures afin de récupérer la caisse de livres.",
+          "position": "[7,-19]",
+          "zoneHint": "Astrub",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ramène la caisse de livres à Xiap pour terminer la quête.",
+          "position": "[24,-4]",
+          "zoneHint": "Île des Wabbits",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Wogew révèle que la page appartenait à Gésa, ancien habitant du grand terrier d'Amakna.",
+        "Le passage de Prim repose sur l'option de dialogue rappelant l'aide apportée pour son problème de gravures."
+      ],
+      "npcs": [
+        "Xiap",
+        "Zoufia Boirbenar",
+        "Wogew l'hewmite",
+        "Gésa",
+        "Espwit Wabbit Affamé",
+        "Espwit de Gésa",
+        "Prim"
+      ],
+      "items": [
+        {
+          "name": "Page déchirée",
+          "itemId": 13199,
+          "imageUrl": "/items/13199.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/13199"
+        },
+        {
+          "name": "Jus de Cawotte Fermenté",
+          "itemId": 13201,
+          "imageUrl": "/items/13201.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/13201"
+        },
+        {
+          "name": "Cawotte Croquante",
+          "itemId": 13202,
+          "imageUrl": "/items/13202.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/13202"
+        },
+        {
+          "name": "Caisse de livres",
+          "itemId": 13203,
+          "imageUrl": "/items/13203.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/13203"
+        },
+        {
+          "name": "La Prophétie du Grand Wabbit",
+          "itemId": 13198,
+          "imageUrl": "/items/13198.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/13198"
+        },
+        {
+          "name": "Cawotte",
+          "itemId": 361,
+          "imageUrl": "/items/361.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/361"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 95,
+            "name": "Cité d'Astrub",
+            "coordinates": [
+              "7,-19"
+            ]
+          },
+          {
+            "id": 100,
+            "name": "Égouts d'Astrub",
+            "coordinates": [
+              "6,-6"
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Forêt d'Amakna",
+            "coordinates": [
+              "7,16"
+            ]
+          },
+          {
+            "id": 161,
+            "name": "Île de la Cawotte",
+            "coordinates": [
+              "24,-4"
+            ]
+          },
+          {
+            "id": 56,
+            "name": "Lac de Cania",
+            "coordinates": [
+              "-1,-39"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "24,-4"
+            ]
+          },
+          {
+            "id": 1,
+            "name": "Port de Madrestam",
+            "coordinates": [
+              "7,-4"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 463,
+            "name": "Fouduglen l'Écureuil",
+            "level": 20,
+            "imageUrl": "/bestiary/monsters/463.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2323,
+            "name": "Chamchie le Difficile",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2323.png"
+          },
+          {
+            "id": 2332,
+            "name": "Larchimaide la Poussée",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2332.png"
+          },
+          {
+            "id": 2331,
+            "name": "Larvapstrè le Subjectif",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2331.png"
+          },
+          {
+            "id": 2339,
+            "name": "Larvomatik le Propre",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2339.png"
+          },
+          {
+            "id": 2574,
+            "name": "Larvonika l'Instrument",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2574.png"
+          },
+          {
+            "id": 2393,
+            "name": "Araknay la Galopante",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2393.png"
+          },
+          {
+            "id": 2334,
+            "name": "Milipussien le Géant",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2334.png"
+          },
+          {
+            "id": 2349,
+            "name": "Preskapwal le Tendancieux",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2349.png"
+          },
+          {
+            "id": 2350,
+            "name": "Radoutable le Craint",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2350.png"
+          },
+          {
+            "id": 2353,
+            "name": "Sangria le Fruité",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2353.png"
+          },
+          {
+            "id": 2400,
+            "name": "Bi le Partageur",
+            "level": 24,
+            "imageUrl": "/bestiary/monsters/2400.png"
+          },
+          {
+            "id": 2399,
+            "name": "Bilvoezé le Bonimenteur",
+            "level": 24,
+            "imageUrl": "/bestiary/monsters/2399.png"
+          },
+          {
+            "id": 2396,
+            "name": "Bistou le Quêteur",
+            "level": 24,
+            "imageUrl": "/bestiary/monsters/2396.png"
+          },
+          {
+            "id": 2401,
+            "name": "Bistou le Rieur",
+            "level": 24,
+            "imageUrl": "/bestiary/monsters/2401.png"
+          },
+          {
+            "id": 2294,
+            "name": "Tiwoflan le Lâche",
+            "level": 40,
+            "imageUrl": "/bestiary/monsters/2294.png"
+          },
+          {
+            "id": 2293,
+            "name": "Tiwalpé le Dévêtu",
+            "level": 41,
+            "imageUrl": "/bestiary/monsters/2293.png"
+          },
+          {
+            "id": 2402,
+            "name": "Tiwa'Missou le Gateux",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2402.png"
+          },
+          {
+            "id": 2304,
+            "name": "Wabbitud le Constant",
+            "level": 44,
+            "imageUrl": "/bestiary/monsters/2304.png"
+          },
+          {
+            "id": 2403,
+            "name": "Wagnagnah le Sanglant",
+            "level": 46,
+            "imageUrl": "/bestiary/monsters/2403.png"
+          },
+          {
+            "id": 2407,
+            "name": "Blof l'Apathique",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2407.png"
+          },
+          {
+            "id": 2406,
+            "name": "Bloporte le Veule",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2406.png"
+          },
+          {
+            "id": 2405,
+            "name": "Blordur l'Infect",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2405.png"
+          },
+          {
+            "id": 2404,
+            "name": "Blorie l'Assourdissante",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2404.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 103,
+                "name": "Prespic",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/103.png"
+              },
+              {
+                "id": 104,
+                "name": "Sanglier",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/104.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 255,
+                "name": "Arakne des Égouts",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/255.png"
+              }
+            ]
+          },
+          {
+            "id": 210,
+            "name": "Blops",
+            "monsters": [
+              {
+                "id": 278,
+                "name": "Biblop Coco",
+                "level": 24,
+                "imageUrl": "/bestiary/monsters/278.png"
+              },
+              {
+                "id": 279,
+                "name": "Biblop Griotte",
+                "level": 24,
+                "imageUrl": "/bestiary/monsters/279.png"
+              },
+              {
+                "id": 277,
+                "name": "Biblop Indigo",
+                "level": 24,
+                "imageUrl": "/bestiary/monsters/277.png"
+              },
+              {
+                "id": 280,
+                "name": "Biblop Reinette",
+                "level": 24,
+                "imageUrl": "/bestiary/monsters/280.png"
+              },
+              {
+                "id": 273,
+                "name": "Blop Coco",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/273.png"
+              },
+              {
+                "id": 275,
+                "name": "Blop Griotte",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/275.png"
+              },
+              {
+                "id": 274,
+                "name": "Blop Indigo",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/274.png"
+              },
+              {
+                "id": 276,
+                "name": "Blop Reinette",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/276.png"
+              }
+            ]
+          },
+          {
+            "id": 203,
+            "name": "Larves",
+            "monsters": [
+              {
+                "id": 31,
+                "name": "Larve Bleue",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/31.png"
+              },
+              {
+                "id": 46,
+                "name": "Larve Orange",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/46.png"
+              },
+              {
+                "id": 34,
+                "name": "Larve Verte",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/34.png"
+              },
+              {
+                "id": 5225,
+                "name": "Larve Jaune",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/5225.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 215,
+            "name": "Rats Strubiens",
+            "monsters": [
+              {
+                "id": 3205,
+                "name": "Ramane Strubien",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/3205.png"
+              },
+              {
+                "id": 475,
+                "name": "Milirat Strubien",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/475.png"
+              },
+              {
+                "id": 465,
+                "name": "Scélérat Strubien",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/465.png"
+              }
+            ]
+          },
+          {
+            "id": 1602,
+            "name": "Vermines des champs",
+            "monsters": [
+              {
+                "id": 59,
+                "name": "Champ Champ",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/59.png"
+              }
+            ]
+          },
+          {
+            "id": 172,
+            "name": "Wabbits",
+            "monsters": [
+              {
+                "id": 68,
+                "name": "Black Tiwabbit",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/68.png"
+              },
+              {
+                "id": 65,
+                "name": "Black Wabbit",
+                "level": 46,
+                "imageUrl": "/bestiary/monsters/65.png"
+              },
+              {
+                "id": 72,
+                "name": "Tiwabbit Kiafin",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/72.png"
+              },
+              {
+                "id": 96,
+                "name": "Tiwabbit",
+                "level": 41,
+                "imageUrl": "/bestiary/monsters/96.png"
+              },
+              {
+                "id": 64,
+                "name": "Wabbit",
+                "level": 44,
+                "imageUrl": "/bestiary/monsters/64.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:622",
+      "relation": "ACTIVE",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/guewwe-et-paix.html",
+      "sourceTitle": "Guewwe et Paix",
+      "sourceHash": "2c1a6b1c29fd7bcd8f9411ce4aaa54aafb25251b970157046409c9ac19826f4f",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Reconstitue les événements ayant précédé ton étrange téléportation. Interroge Drenba, Irène Yllar et Pikar, affronte seul les quatre adversaires qui surgissent au camp abandonné des Maciens, récupère les Documents de Mercenaires puis rapporte-les au Brakdad Café pour terminer la quête.",
+      "recommendedLevel": null,
+      "prerequisites": [],
+      "rewards": [],
+      "preparation": [
+        "Prévoir 1 x combat réalisable uniquement seul."
+      ],
+      "actions": [
+        {
+          "instruction": "Après la téléportation en [-24,19], retourne voir Drenba au Brakdad Café pour comprendre ce qui vient de se produire, puis parle à Irène Yllar lorsqu'elle apparaît.",
+          "position": "[-25,26]",
+          "zoneHint": "Brakdad Café",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rends-toi au camp des Pagneuls et parle à Pikar.",
+          "position": "[-20,24]",
+          "zoneHint": "Camp des Pagneuls",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entre sur la carte du camp abandonné des Maciens. Un combat contre quatre classes se déclenche à ton arrivée ; remporte-le seul.",
+          "position": "[-28,20]",
+          "zoneHint": "Camp abandonné des Maciens",
+          "warning": "Le combat se lance en entrant sur la carte et doit être effectué seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après le combat, parle à Pongos le Macien, puis à Mawtwa lorsqu'il apparaît afin de récupérer les Documents de Mercenaires.",
+          "position": "[-28,20]",
+          "zoneHint": "Camp abandonné des Maciens",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne au Brakdad Café et parle à Drenba.",
+          "position": "[-25,26]",
+          "zoneHint": "Brakdad Café",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparle à Irène Yllar lorsqu'elle réapparaît et remets-lui les Documents de Mercenaires pour terminer la quête.",
+          "position": "[-25,26]",
+          "zoneHint": "Brakdad Café",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La fin de Trou de mémoire est nécessaire pour pouvoir lancer Les morts vivants dans cette même étape."
+      ],
+      "npcs": [
+        "Drenba",
+        "Irène Yllar",
+        "Pikar",
+        "Pongos le Macien",
+        "Mawtwa"
+      ],
+      "items": [
+        {
+          "name": "Documents de Mercenaires",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 57,
+            "name": "Désolation de Sidimote",
+            "coordinates": [
+              "-25,26",
+              "-24,19",
+              "-20,24",
+              "-28,20"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-25,26"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 464,
+            "name": "Brumen Tinctorias",
+            "level": 60,
+            "imageUrl": "/bestiary/monsters/464.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2440,
+            "name": "Crognan le Barbare",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2440.png"
+          },
+          {
+            "id": 2378,
+            "name": "Cromikay le Néophyte",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2378.png"
+          },
+          {
+            "id": 2520,
+            "name": "Kolforthe l'Indécollable",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2520.png"
+          },
+          {
+            "id": 2285,
+            "name": "Scorpitène l'Enflammé",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2285.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 207,
+            "name": "Sidimonstres",
+            "monsters": [
+              {
+                "id": 299,
+                "name": "Croc Gland",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/299.png"
+              },
+              {
+                "id": 300,
+                "name": "Kolérat",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/300.png"
+              },
+              {
+                "id": 298,
+                "name": "Scorbute",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/298.png"
+              },
+              {
+                "id": 3096,
+                "name": "Crowneille",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/3096.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1097",
+      "relation": "ACTIVE",
+      "sortOrder": 3,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/trou-de-memoire.html",
+      "sourceTitle": "Trou de mémoire",
+      "sourceHash": "65986860407a2306c78cd7fb81454dfb459afd0363bfcac641e955be0e7f9229",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lance Les morts vivants après avoir terminé Trou de mémoire, puis avance seulement jusqu'au point demandé par le guide avant le Laboratoire de Brumen Tinctorias. Le donjon, ses prélèvements salle par salle et la suite de la quête seront réalisés plus tard. Avant d'entrer dans le donjon, prépare également Poison de scorbute pour la prison comme prévu dans cette étape.",
+      "recommendedLevel": null,
+      "prerequisites": [
+        "Avoir terminé Trou de mémoire."
+      ],
+      "rewards": [],
+      "preparation": [
+        "Ne lance pas les combats du Laboratoire de Brumen Tinctorias trop vite lors de la reprise ultérieure : la quête demande des interactions et prélèvements dans plusieurs salles.",
+        "Avant d'entrer dans le donjon, lance aussi Poison de scorbute pour la prison conformément au parcours de l'étape."
+      ],
+      "actions": [
+        {
+          "instruction": "Parle à Penny Sanfleur pour lancer Les morts vivants et accepter de rechercher les secrets de Brumen Tinctorias.",
+          "position": "[-25,26]",
+          "zoneHint": "Taverne",
+          "warning": "Trou de mémoire doit être terminé avant de pouvoir lancer cette quête.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rends-toi en [-27,17] jusqu'au point précédant l'entrée dans le Laboratoire de Brumen Tinctorias, puis arrête ici cette occurrence.",
+          "position": "[-27,17]",
+          "zoneHint": "Number Anticroist",
+          "warning": "N'entre pas encore dans le donjon. La suite exige des actions spécifiques dans chaque salle ; le guide demande d'abord de lancer Poison de scorbute pour la prison.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les vols de potions, prélèvements de liquide, copies de notes, échantillons sur les Maciens, combat contre Nelween, prélèvements extérieurs et rendu à Penny Sanfleur sont volontairement différés.",
+        "Cette quête sera reprise et terminée à l'étape 77."
+      ],
+      "npcs": [
+        "Penny Sanfleur",
+        "Brumen Tinctorias",
+        "Nelween"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 756,
+            "name": "Laboratoire de Brumen Tinctorias",
+            "coordinates": [
+              "-27,17"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "-25,26"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 207,
+            "name": "Sidimonstres",
+            "monsters": [
+              {
+                "id": 299,
+                "name": "Croc Gland",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/299.png"
+              },
+              {
+                "id": 300,
+                "name": "Kolérat",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/300.png"
+              },
+              {
+                "id": 301,
+                "name": "Macien",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/301.png"
+              },
+              {
+                "id": 298,
+                "name": "Scorbute",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/298.png"
+              },
+              {
+                "id": 3096,
+                "name": "Crowneille",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/3096.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1098",
+      "relation": "START",
+      "sortOrder": 4,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/les-morts-vivants.html",
+      "sourceTitle": "Les morts vivants",
+      "sourceHash": "5e8ba1057ab4a6f317b5e81f20f2576ef1bcdd5800c64584cf67727ca38640a1",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lance l'alignement 29 et prends la mission du Capitaine Essacarf dans les prisons de la milice. Avance uniquement jusqu'à l'objectif demandant de vaincre Nelween en un seul combat. Le donjon, la récupération du Venin de scorbute et le rendu au capitaine sont différés. Avant d'entrer dans le Laboratoire, il faudra aussi avoir lancé Où est passée la 7e compagnie ? à l'étape suivante.",
+      "recommendedLevel": 59,
+      "prerequisites": [
+        "Le décès de Rimaraf.",
+        "Pour poursuivre au-delà de cette occurrence, Où est passée la 7e compagnie ? doit être lancée ou terminée."
+      ],
+      "rewards": [
+        "1 360 666 XP."
+      ],
+      "preparation": [
+        "Le parcours ultérieur nécessite 1 x Donjon Laboratoire de Brumen Tinctorias.",
+        "Ne quitte pas le donjon immédiatement après Nelween lors de la reprise : le Venin de scorbute doit être récupéré dans la salle de sortie.",
+        "Avant d'entrer dans le donjon, lance Où est passée la 7e compagnie ? comme indiqué par le guide."
+      ],
+      "actions": [
+        {
+          "instruction": "Parle à Amayiro à la milice de Bonta pour lancer Poison de scorbute pour la prison et recevoir l'ordre d'aller voir le Capitaine Essacarf.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": "Le décès de Rimaraf doit être terminé.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Depuis la map principale de la milice, descends les escaliers vers les geôles et parle au Capitaine Essacarf. Accepte de lui procurer du venin de scorbute.",
+          "position": "[-32,-57]",
+          "zoneHint": "Prisons de la milice de Bonta",
+          "warning": "La progression suivante est bloquée tant que Où est passée la 7e compagnie ? n'est pas lancée ou terminée.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Arrête cette occurrence lorsque l'objectif demande de vaincre x1 Nelween en un seul combat. Ne lance pas encore le Laboratoire de Brumen Tinctorias.",
+          "position": null,
+          "zoneHint": null,
+          "warning": "Avant d'entrer dans le donjon, le guide demande de lancer Où est passée la 7e compagnie ?. Le combat contre Nelween et la collecte du venin sont différés.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le Venin de scorbute s'obtiendra plus tard après avoir vaincu Nelween, en cliquant sur le tube phosphorescent en haut à droite de la salle de sortie.",
+        "Le retour au Capitaine Essacarf et la fin de l'alignement 29 auront lieu à l'étape 78."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Capitaine Essacarf",
+        "Nelween"
+      ],
+      "items": [
+        {
+          "name": "Venin de scorbute",
+          "itemId": 1874,
+          "imageUrl": "/items/1874.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1874"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": []
+      },
+      "questKey": "quest:31",
+      "relation": "START",
+      "sortOrder": 5,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/poison-de-scorbute-pour-la-prison.html",
+      "sourceTitle": "Alignement 29 : Poison de scorbute pour la prison",
+      "sourceHash": "16fd8f938ec5f66aab98178daf6a2f771185d177f72f0dd97da00fc1b316b4ba",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Préparer le Laboratoire de Brumen Tinctorias",
+      "description": "Les morts vivants et Poison de scorbute pour la prison convergent vers le même donjon. Mets les deux quêtes au bon objectif avant toute entrée afin d'éviter de refaire inutilement le Laboratoire et de pouvoir valider leurs objectifs lors du même passage prévu par le guide.",
+      "questKeys": [
+        "quest:1098",
+        "quest:31"
+      ],
+      "actions": [
+        "Lance Les morts vivants et avance jusqu'à Number Anticroist sans entrer dans le donjon.",
+        "Lance Poison de scorbute pour la prison et avance jusqu'à l'objectif demandant de vaincre Nelween.",
+        "N'entre dans le Laboratoire qu'après avoir également lancé Où est passée la 7e compagnie ? à l'étape suivante."
+      ]
+    }
+  ]
 }

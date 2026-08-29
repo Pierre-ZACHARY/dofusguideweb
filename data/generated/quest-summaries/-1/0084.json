@@ -1,8 +1,920 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 84,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T11:29:03.857Z",
+  "summaries": [
+    {
+      "overview": "Lancez Retour aux sources auprès de Chourave, recueillez l'avis des membres influents du clan, récupérez les documents signés sur les Riktus puis fournissez toutes les ressources demandées. Arrêtez-vous lorsque l'objectif devient de convaincre MC Dimote, Follrence Forestière et Magik Ermitus : les trois quêtes annexes correspondantes sont traitées dans les occurrences suivantes de cette étape.",
+      "recommendedLevel": 80,
+      "prerequisites": [],
+      "rewards": [],
+      "preparation": [
+        "Prévoir 5 x Pelle de Rapage.",
+        "Prévoir 25 x Bois d’Oliviolet.",
+        "Prévoir 30 x Manganèse.",
+        "Prévoir 5 x Cawotte.",
+        "Prévoir 10 x Oignon.",
+        "Prévoir 10 x Pomme de Terre.",
+        "Prévoir 10 x Aubergine.",
+        "Prévoir 1 x Bananagrume.",
+        "Prévoir 1 x Noix de Kokoko.",
+        "Prévoir des combats contre les Riktus de la Route des Roulottes pour obtenir automatiquement 15 x documents des Magik Riktus signés."
+      ],
+      "actions": [
+        {
+          "instruction": "Entrez dans la tente et parlez à Chourave pour lancer Retour aux sources et accepter d'interroger les membres influents de son clan.",
+          "position": "[-21,14]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à MC Dimote pour recueillir son avis sur le retour aux sources.",
+          "position": "[-28,12]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Vegessus et choisissez de discuter innocemment d’un éventuel retour aux sources du clan.",
+          "position": "[-23,8]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Miley Circus pour recueillir son opposition au retour aux sources.",
+          "position": "[-29,7]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Magik Ermitus afin d'obtenir sa réaction à votre démarche pour Chourave.",
+          "position": "[-29,3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans le bâtiment en forme de grande bouche et parlez à Georges Clowney.",
+          "position": "[-23,4]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Chourave et transmettez-lui les avis recueillis.",
+          "position": "[-21,14]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Combattez des Graboule, Pirolienne, Roukouto et Tivelo jusqu'à obtenir automatiquement 15 x documents des Magik Riktus signés.",
+          "position": null,
+          "zoneHint": "Route des Roulottes",
+          "warning": "Plusieurs combats contre des monstres de la zone sont nécessaires.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Une fois les 15 documents obtenus, retournez les remettre à Chourave.",
+          "position": "[-21,14]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Donnez à Chourave 5 x Pelle de Rapage, 25 x Bois d’Oliviolet, 30 x Manganèse, 5 x Cawotte, 10 x Oignon, 10 x Pomme de Terre, 10 x Aubergine, 1 x Bananagrume et 1 x Noix de Kokoko.",
+          "position": "[-21,14]",
+          "zoneHint": null,
+          "warning": "Les ressources sont consommées lors de leur remise. Les 5 x Pelle de Rapage peuvent être fabriquées par un forgeron niveau 19 minimum avec, pour chacune, 1 x Patte d'Arakne Magique et 3 x Nageoire de Compétition.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "À ce stade, ne poursuivez pas Retour aux sources directement : le guide demande maintenant de convaincre MC Dimote, Follrence Forestière et Magik Ermitus via les quêtes annexes.",
+        "Effectuez d'abord Division par deux, puis Cours Forestière, puis L'air mythe, conformément à l'ordre de cette étape.",
+        "La conclusion de Retour aux sources sera obtenue après ces quêtes annexes ; elle n'est pas une action à effectuer dans cette occurrence START."
+      ],
+      "npcs": [
+        "Chourave",
+        "MC Dimote",
+        "Vegessus",
+        "Miley Circus",
+        "Magik Ermitus",
+        "Georges Clowney"
+      ],
+      "items": [
+        {
+          "name": "Pelle de Rapage",
+          "itemId": 247,
+          "imageUrl": "/items/247.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/247"
+        },
+        {
+          "name": "Bois d'Oliviolet",
+          "itemId": 2357,
+          "imageUrl": "/items/2357.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2357"
+        },
+        {
+          "name": "Manganèse",
+          "itemId": 445,
+          "imageUrl": "/items/445.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/445"
+        },
+        {
+          "name": "Cawotte",
+          "itemId": 361,
+          "imageUrl": "/items/361.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/361"
+        },
+        {
+          "name": "Oignon",
+          "itemId": 1975,
+          "imageUrl": "/items/1975.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1975"
+        },
+        {
+          "name": "Pomme de Terre",
+          "itemId": 537,
+          "imageUrl": "/items/537.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/537"
+        },
+        {
+          "name": "Aubergine",
+          "itemId": 2331,
+          "imageUrl": "/items/2331.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2331"
+        },
+        {
+          "name": "Bananagrume",
+          "itemId": 10831,
+          "imageUrl": "/items/10831.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/10831"
+        },
+        {
+          "name": "Noix de Kokoko",
+          "itemId": 997,
+          "imageUrl": "/items/997.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/997"
+        },
+        {
+          "name": "Documents des Magik Riktus signés",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 526,
+            "name": "Route des Roulottes",
+            "coordinates": [
+              "-21,14",
+              "-28,12",
+              "-23,8",
+              "-29,7",
+              "-29,3",
+              "-23,4"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4814,
+            "name": "Simbadas",
+            "level": 90,
+            "imageUrl": "/bestiary/monsters/4814.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1591,
+            "name": "Magik Riktus",
+            "monsters": [
+              {
+                "id": 4865,
+                "name": "Graboule",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4865.png"
+              },
+              {
+                "id": 4864,
+                "name": "Roukouto",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4864.png"
+              },
+              {
+                "id": 4863,
+                "name": "Pirolienne",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4863.png"
+              },
+              {
+                "id": 4862,
+                "name": "Tivelo",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4862.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1114",
+      "relation": "START",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/retour-aux-sources.html",
+      "sourceTitle": "Retour aux sources",
+      "sourceHash": "6b6d3df25eead294a7dbee3b29e5d79fed5659a4103e2c34c4d97cc056a59a67",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Convainquez MC Dimote de soutenir Chourave en l'aidant à piéger Vegessus, puis en participant au plan de repli lors de la réunion. Cette occurrence couvre Division par deux jusqu'à sa fin ; Cours Forestière commence immédiatement après et possède sa propre occurrence.",
+      "recommendedLevel": 80,
+      "prerequisites": [
+        "Avoir avancé Retour aux sources jusqu'au moment où Chourave demande de convaincre les membres influents, après la remise de sa liste de ressources."
+      ],
+      "rewards": [],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parlez à MC Dimote pour lui demander son aide ; acceptez de l'aider en échange de son soutien à Chourave.",
+          "position": "[-28,12]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Vegessus et choisissez de discuter d’une représentation sur la route 666.",
+          "position": "[-23,8]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Au relais de dragodindes, parlez au Convoyeur Malhonnête et prévenez-le de l'embuscade prévue sur la route 666 afin de tendre un piège à Vegessus.",
+          "position": "[-25,3]",
+          "zoneHint": "relais de dragodindes",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retrouvez le Convoyeur Malhonnête ; apprenez que Vegessus n'a pas été capturé.",
+          "position": "[-25,10]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir MC Dimote et annoncez-lui l'échec du premier plan afin de passer au plan B.",
+          "position": "[-28,12]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Remettez la Caisse de Costumes obtenue au Capitaine des Bermanes.",
+          "position": "[-29,5]",
+          "zoneHint": null,
+          "warning": "La Caisse de Costumes est remise au PNJ à cette étape.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Descendez sur la carte suivante, entrez dans la grotte en forme de bouche et rejoignez la salle de réunion.",
+          "position": "[-29,6]",
+          "zoneHint": "grotte en forme de bouche",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à MC Dimote pour déclencher son discours devant la réunion.",
+          "position": "[-29,6]",
+          "zoneHint": "salle de réunion",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Miley Circus, puis à Vegessus, dans cet ordre, jusqu'à ce que Vegessus reconnaisse être à l'origine de l'escroquerie contre les Bermanes.",
+          "position": "[-29,6]",
+          "zoneHint": "salle de réunion",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à l'un des deux Fido afin qu'il exige que Vegessus leur soit livré.",
+          "position": "[-29,6]",
+          "zoneHint": "salle de réunion",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparlez à MC Dimote, qui accepte d'abord de livrer Vegessus.",
+          "position": "[-29,6]",
+          "zoneHint": "salle de réunion",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Miley Circus, qui refuse de livrer un membre du clan et cherche un compromis.",
+          "position": "[-29,6]",
+          "zoneHint": "salle de réunion",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparlez à l'un des deux Fido afin qu'il accepte d'attendre le jugement de Vegessus.",
+          "position": "[-29,6]",
+          "zoneHint": "salle de réunion",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Terminez en parlant à MC Dimote : satisfait de votre aide, il accepte de soutenir Chourave et Division par deux se termine.",
+          "position": "[-29,6]",
+          "zoneHint": "salle de réunion",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La réussite de cette quête fournit le soutien de MC Dimote demandé par Retour aux sources.",
+        "Cours Forestière se débloque à la suite de cette quête et doit être effectuée dans l'occurrence suivante."
+      ],
+      "npcs": [
+        "MC Dimote",
+        "Vegessus",
+        "Convoyeur Malhonnête",
+        "Capitaine des Bermanes",
+        "Miley Circus",
+        "Fido"
+      ],
+      "items": [
+        {
+          "name": "Caisse de Costumes",
+          "itemId": 19055,
+          "imageUrl": "/items/19055.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19055"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-29,6"
+            ]
+          },
+          {
+            "id": 526,
+            "name": "Route des Roulottes",
+            "coordinates": [
+              "-28,12",
+              "-23,8",
+              "-25,3",
+              "-25,10",
+              "-29,5",
+              "-29,6"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4814,
+            "name": "Simbadas",
+            "level": 90,
+            "imageUrl": "/bestiary/monsters/4814.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1591,
+            "name": "Magik Riktus",
+            "monsters": [
+              {
+                "id": 4865,
+                "name": "Graboule",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4865.png"
+              },
+              {
+                "id": 4864,
+                "name": "Roukouto",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4864.png"
+              },
+              {
+                "id": 4863,
+                "name": "Pirolienne",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4863.png"
+              },
+              {
+                "id": 4862,
+                "name": "Tivelo",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4862.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1115",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/division-par-deux.html",
+      "sourceTitle": "Division par deux",
+      "sourceHash": "d1079bced7db3483781ff8c81e145c23266803f4fa151de7b28a5d13004433d8",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après Division par deux, retrouvez la trace de Follrence Forestière dans le Bois des Arak-haï en interrogeant plusieurs personnes, puis rapportez le résultat à Chourave. Cette occurrence s'arrête à la fin de Cours Forestière ; L'air mythe est traité ensuite.",
+      "recommendedLevel": 80,
+      "prerequisites": [
+        "Avoir terminé Division par deux."
+      ],
+      "rewards": [],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Depuis le lancement obtenu à la suite de Division par deux, rendez visite à Hel Munster et posez-lui des questions sur Follrence Forestière.",
+          "position": "[-5,-13]",
+          "zoneHint": "Bois des Arak-haï",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Homme de Leng pour obtenir des informations sur un groupe de Magik Riktus présent dans les environs.",
+          "position": "[-5,-15]",
+          "zoneHint": "Bois des Arak-haï",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la maison et parlez au Magik Riktus Bedonnant afin d'apprendre où se trouve Follrence.",
+          "position": "[-13,-15]",
+          "zoneHint": "maison",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sortez de la maison et parlez à Follrence Forestière, déguisée en Abraknyde Sombre en haut à droite de la carte.",
+          "position": "[-13,-15]",
+          "zoneHint": "extérieur de la maison",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Chourave pour valider le soutien obtenu et terminer Cours Forestière.",
+          "position": "[-21,14]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Division par deux est supposée terminée avant cette occurrence.",
+        "La fin de Cours Forestière débloque L'air mythe, qui doit être réalisée juste après dans l'occurrence suivante."
+      ],
+      "npcs": [
+        "MC Dimote",
+        "Hel Munster",
+        "Homme de Leng",
+        "Magik Riktus Bedonnant",
+        "Follrence Forestière",
+        "Chourave"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 33,
+            "name": "Bois des Arak-haï",
+            "coordinates": [
+              "-5,-13",
+              "-5,-15"
+            ]
+          },
+          {
+            "id": 168,
+            "name": "Forêt Sombre",
+            "coordinates": [
+              "-13,-15"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-21,14"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4014,
+            "name": "Tyranne la Terrible",
+            "level": 80,
+            "imageUrl": "/bestiary/monsters/4014.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2389,
+            "name": "Abrakildas le Vénérable",
+            "level": 74,
+            "imageUrl": "/bestiary/monsters/2389.png"
+          },
+          {
+            "id": 2388,
+            "name": "Abrakanette l'Encapsulé",
+            "level": 78,
+            "imageUrl": "/bestiary/monsters/2388.png"
+          },
+          {
+            "id": 2386,
+            "name": "Abraklette le Fondant",
+            "level": 82,
+            "imageUrl": "/bestiary/monsters/2386.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1201,
+            "name": "Abraknydiens Sombres",
+            "monsters": [
+              {
+                "id": 651,
+                "name": "Abrakne Sombre",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/651.png"
+              },
+              {
+                "id": 253,
+                "name": "Abraknyde Sombre",
+                "level": 78,
+                "imageUrl": "/bestiary/monsters/253.png"
+              },
+              {
+                "id": 254,
+                "name": "Abraknyde Vénérable",
+                "level": 74,
+                "imageUrl": "/bestiary/monsters/254.png"
+              }
+            ]
+          },
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 159,
+                "name": "Milimulou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/159.png"
+              }
+            ]
+          },
+          {
+            "id": 1196,
+            "name": "Arak-haï",
+            "monsters": [
+              {
+                "id": 3992,
+                "name": "Dardalaine",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3992.png"
+              },
+              {
+                "id": 3993,
+                "name": "Néfileuse",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3993.png"
+              },
+              {
+                "id": 3994,
+                "name": "Saltik",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3994.png"
+              },
+              {
+                "id": 3995,
+                "name": "Gargantûl",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/3995.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 259,
+                "name": "Arakne Majeure",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/259.png"
+              }
+            ]
+          },
+          {
+            "id": 191,
+            "name": "Chafers d'Amakna",
+            "monsters": [
+              {
+                "id": 110,
+                "name": "Chafer Invisible",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/110.png"
+              }
+            ]
+          },
+          {
+            "id": 9048,
+            "name": "Chafers des cités",
+            "monsters": [
+              {
+                "id": 291,
+                "name": "Chafer Archer",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/291.png"
+              },
+              {
+                "id": 292,
+                "name": "Chafer d'Élite",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/292.png"
+              },
+              {
+                "id": 290,
+                "name": "Chafer Lancier",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/290.png"
+              }
+            ]
+          },
+          {
+            "id": 180,
+            "name": "Mulous",
+            "monsters": [
+              {
+                "id": 102,
+                "name": "Mulou",
+                "level": 92,
+                "imageUrl": "/bestiary/monsters/102.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1116",
+      "relation": "ACTIVE",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/cours-forestiere.html",
+      "sourceTitle": "Cours Forestière",
+      "sourceHash": "84d7a4a8aae651294a50769de8ed430a521f904464aa6261184ddf4852a2a528",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après Cours Forestière, obtenez de quoi convaincre Magik Ermitus en fouillant ses affaires, en enquêtant auprès de Georges Clowney puis en récupérant le sorbet transporté par un convoi. Un combat en solo est obligatoire. Revenez enfin auprès de Chourave pour terminer L'air mythe ; ce soutien permet également d'achever la progression attendue de Retour aux sources à cette étape.",
+      "recommendedLevel": 80,
+      "prerequisites": [
+        "Avoir terminé Cours Forestière."
+      ],
+      "rewards": [],
+      "preparation": [
+        "Prévoir un combat obligatoire en solo contre les Gardes des Sorbets."
+      ],
+      "actions": [
+        {
+          "instruction": "Après le lancement de la quête auprès de Chourave, allez voir Magik Ermitus et montrez-lui une mouette qui s'étouffe pour détourner son attention.",
+          "position": "[-29,3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Pendant que Magik Ermitus est distraite, cliquez sur les caisses afin de fouiller ses affaires et récupérer ses documents.",
+          "position": "[-29,3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Chourave et remettez-lui les documents récupérés chez Magik Ermitus.",
+          "position": "[-21,14]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la grotte en forme de bouche et parlez à Georges Clowney pour lui demander ce qu'il devait livrer à Magik Ermitus.",
+          "position": "[-23,4]",
+          "zoneHint": "grotte en forme de bouche",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous auprès du convoi que Georges devait attaquer afin de récupérer le sorbet destiné à Magik Ermitus.",
+          "position": "[-24,28]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à l'un des deux Garde des Sorbets et lancez l'affrontement pour récupérer le sorbet.",
+          "position": "[-24,28]",
+          "zoneHint": null,
+          "warning": "Combat obligatoire effectué seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Retournez auprès de Magik Ermitus et donnez-lui un Cerveau de Douzien en Sorbet afin de la rallier à Chourave.",
+          "position": "[-29,3]",
+          "zoneHint": null,
+          "warning": "Le Cerveau de Douzien en Sorbet est remis à Magik Ermitus.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Chourave afin de terminer L'air mythe et lui apporter le soutien de Magik Ermitus.",
+          "position": "[-21,14]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Cours Forestière est supposée terminée avant cette occurrence.",
+        "MC Dimote et Follrence Forestière ont déjà été convaincus lors des deux occurrences précédentes de l'étape.",
+        "Le retour auprès de Chourave après le soutien de Magik Ermitus conclut la séquence nécessaire à Retour aux sources. La quête suivante, La grande parade, appartient à l'étape 85 et ne doit pas être commencée ici."
+      ],
+      "npcs": [
+        "Chourave",
+        "Magik Ermitus",
+        "Georges Clowney",
+        "Garde des Sorbets"
+      ],
+      "items": [
+        {
+          "name": "Documents de Magik Ermitus",
+          "itemId": 19065,
+          "imageUrl": "/items/19065.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19065"
+        },
+        {
+          "name": "Cerveau de Douzien en Sorbet",
+          "itemId": 19066,
+          "imageUrl": "/items/19066.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/19066"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 57,
+            "name": "Désolation de Sidimote",
+            "coordinates": [
+              "-24,28"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-21,14"
+            ]
+          },
+          {
+            "id": 526,
+            "name": "Route des Roulottes",
+            "coordinates": [
+              "-29,3",
+              "-21,14",
+              "-23,4"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 464,
+            "name": "Brumen Tinctorias",
+            "level": 60,
+            "imageUrl": "/bestiary/monsters/464.png"
+          },
+          {
+            "id": 4814,
+            "name": "Simbadas",
+            "level": 90,
+            "imageUrl": "/bestiary/monsters/4814.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2440,
+            "name": "Crognan le Barbare",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2440.png"
+          },
+          {
+            "id": 2378,
+            "name": "Cromikay le Néophyte",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2378.png"
+          },
+          {
+            "id": 2520,
+            "name": "Kolforthe l'Indécollable",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2520.png"
+          },
+          {
+            "id": 2285,
+            "name": "Scorpitène l'Enflammé",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2285.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1591,
+            "name": "Magik Riktus",
+            "monsters": [
+              {
+                "id": 4865,
+                "name": "Graboule",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4865.png"
+              },
+              {
+                "id": 4864,
+                "name": "Roukouto",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4864.png"
+              },
+              {
+                "id": 4863,
+                "name": "Pirolienne",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4863.png"
+              },
+              {
+                "id": 4862,
+                "name": "Tivelo",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/4862.png"
+              }
+            ]
+          },
+          {
+            "id": 207,
+            "name": "Sidimonstres",
+            "monsters": [
+              {
+                "id": 299,
+                "name": "Croc Gland",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/299.png"
+              },
+              {
+                "id": 300,
+                "name": "Kolérat",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/300.png"
+              },
+              {
+                "id": 298,
+                "name": "Scorbute",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/298.png"
+              },
+              {
+                "id": 3096,
+                "name": "Crowneille",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/3096.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1117",
+      "relation": "ACTIVE",
+      "sortOrder": 3,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/l-air-mythe.html",
+      "sourceTitle": "L'air mythe",
+      "sourceHash": "f209108b56e2342bfa5d50c62596de218fe5559f849911fd1b493d8c502051bf",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

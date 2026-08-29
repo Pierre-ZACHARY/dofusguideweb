@@ -6,7 +6,7 @@ import { summarizeChapterProgress } from "../progress/chapterProgress.js";
 import { ExternalImage } from "./ExternalImage.js";
 import { useAccount } from "../accounts/AccountProvider.js";
 import { FollowerProgressMarkers } from "../accounts/FollowerMarkers.js";
-import { chapterPercentForProfile, followersInChapter } from "../accounts/followedProgress.js";
+import { chapterPercentForProfile, currentStepForProfile, followersInChapter } from "../accounts/followedProgress.js";
 
 export function GuideCard({ guide }: Readonly<{ guide: GuideSummaryDto }>) {
   return <article className="card border border-base-300 bg-base-100 shadow-md transition-transform hover:-translate-y-1"><div className="card-body"><div className="flex items-center gap-3"><div className="rounded-box bg-primary/15 p-3 text-primary"><BookOpen aria-hidden="true" /></div><div><h2 className="card-title">{guide.name}</h2><p className="text-sm opacity-65">{guide.author ?? "Guide communautaire"}</p></div></div><div className="stats stats-horizontal bg-base-200 shadow-sm"><div className="stat px-4 py-3"><div className="stat-title">Chapitres</div><div className="stat-value text-2xl">{guide.totalChapters}</div></div><div className="stat px-4 py-3"><div className="stat-title">Étapes</div><div className="stat-value text-2xl">{guide.totalSteps}</div></div></div><div className="card-actions justify-end"><Link className="btn btn-primary gap-2" to="/guides/$guideId" params={{ guideId: String(guide.id) }}>Ouvrir <ArrowRight size={17} aria-hidden="true" /></Link></div></div></article>;
@@ -35,7 +35,14 @@ export function ChapterCard({ chapter, guideId, steps }: Readonly<{ chapter: Cha
         {chapter.levelMin !== null && <span className="badge badge-secondary shrink-0 whitespace-nowrap">Niv. {chapter.levelMin}{chapter.levelMax !== chapter.levelMin ? "–" + chapter.levelMax : ""}</span>}
       </div>
       <div className={"relative " + (reserveFollowerLane ? "pt-11" : "")}>
-        {reserveFollowerLane && <FollowerProgressMarkers profiles={chapterFollowers} percentFor={(friend) => chapterPercentForProfile(friend, guideId, chapter, steps)} />}
+        {reserveFollowerLane && <FollowerProgressMarkers
+          profiles={chapterFollowers}
+          percentFor={(friend) => chapterPercentForProfile(friend, guideId, chapter, steps)}
+          destinationFor={(friend) => {
+            const stepNumber = currentStepForProfile(friend.progress, guideId, steps);
+            return stepNumber === null ? null : { guideId, stepNumber };
+          }}
+        />}
         <progress className={"progress block h-2 w-full " + (isCompleted ? "progress-success" : "progress-primary")} value={percent} max="100" aria-label={"Progression : " + percent + " %"} />
       </div>
       <div className="flex items-center justify-between text-sm opacity-70"><span>{completed}/{summary.total} étapes</span><span>{percent} %</span></div>

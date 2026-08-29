@@ -1,8 +1,205 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 147,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T14:23:15.207Z",
+  "summaries": [
+    {
+      "overview": "Reprenez « À la croisée des mondes » au moment où la Daimya Hikomi vous a envoyé passer l'épreuve du Pandasiman auprès du Maître Kwatimbe. Les démarches précédentes, notamment l'obtention des trois recommandations et l'audience avec la Daimya, sont supposées déjà accomplies. Cette occurrence couvre la fabrication du Pandaclier, l'épreuve du dojo, l'accès à la Pandassemblée, la rencontre avec Le Grandapan et les dragons Imagiro et Orukam, puis le retour auprès de la Daimya pour terminer la quête.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Le réveil de Pandala.",
+        "Ça est frugal, une fois permet d'éviter une dépense lors d'une portion antérieure de la quête, supposée déjà réalisée à cette occurrence.",
+        "Avoir avancé « À la croisée des mondes » jusqu'à l'étape demandant d'aller voir Maître Kwatimbe.",
+        "Être Façonneur niveau 10 minimum pour fabriquer soi-même le Pandaclier ; le craft coopératif ne fonctionne pas."
+      ],
+      "rewards": [
+        "1 023 750 XP.",
+        "11 980 Kamas."
+      ],
+      "preparation": [
+        "Prévoir 2 x Artefact Pandawushu Roc.",
+        "Prévoir 2 x Artefact Pandawushu Vent.",
+        "Prévoir 2 x Artefact Pandawushu Bois.",
+        "Prévoir 2 x Artefact Pandawushu Feu.",
+        "Prévoir 2 x Artefact Pandawushu Eau.",
+        "Prévoir 20 x Bois de Bambou.",
+        "Prévoir 1 x Pandaburg, achetable à la taverne en [20,-29].",
+        "Prévoir 1 x Pandazahi ou 1 x Pandaporo, achetable à la taverne en [20,-29], pour la rencontre avec Le Grandapan.",
+        "Pour l'épreuve du Pandasiman, privilégier le tacle afin de faire perdre des PA ou PM à Maître Kwatimbe lorsqu'il tente de fuir votre corps à corps."
+      ],
+      "actions": [
+        {
+          "instruction": "Entrez dans le dojo et parlez au Maître Kwatimbe. Dites-lui que la Daimya vous envoie passer l'épreuve du Pandasiman. Il vous demande d'abord de fabriquer votre propre bouclier.",
+          "position": "[20,-31]",
+          "zoneHint": "dojo",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans l'atelier des façonneurs du Village de Pandala et fabriquez 1 x Pandaclier avec 2 Artefacts Pandawushu Roc, 1 Pandaburg, 2 Artefacts Pandawushu Vent, 20 Bois de Bambou, 2 Artefacts Pandawushu Bois, 2 Artefacts Pandawushu Feu et 2 Artefacts Pandawushu Eau. Équipez ensuite le Pandaclier à la place de votre bouclier actuel.",
+          "position": "[23,-28]",
+          "zoneHint": "atelier des façonneurs du Village de Pandala",
+          "warning": "Le Pandaclier doit impérativement être fabriqué dans cet atelier. Vous devez être Façonneur niveau 10 minimum et le craft coopératif est impossible.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Maître Kwatimbe avec le Pandaclier équipé et montrez-lui le bouclier en annonçant que vous êtes prêt pour l'épreuve. Neutralisez-le pendant le combat : il est invulnérable tant qu'il n'a pas tenté de fuir votre corps à corps en étant taclé et en perdant des PA ou PM. Si votre tacle est insuffisant, frappez-le en mêlée pour provoquer ses déplacements ; certaines de ses réactions peuvent lui faire perdre 10 Fuite de manière infinie, ce qui facilitera ensuite le tacle.",
+          "position": "[20,-31]",
+          "zoneHint": "dojo",
+          "warning": "Combat obligatoire en solo. Maître Kwatimbe commence avec l'état Invulnérable infini. Son retrait de Fuite ne se produit que lorsque sa réaction est un échange de place ou lorsqu'il retire l'un de ses glyphes.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après la victoire, rendez-vous auprès du Samouraï Holi pour entrer. Équipez de nouveau le Pandaclier si nécessaire, puis accédez à la Pandassemblée par la salle de gauche.",
+          "position": "[22,-29]",
+          "zoneHint": "palais de bambou",
+          "warning": "Le Pandaclier doit être équipé pour accéder à la Pandassemblée.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la Pandassemblée, parlez à Daimya Hikomi. Lorsqu'elle vous demande de vous placer, allez sur le tapis devant l'estrade afin de faire apparaître Le Grandapan.",
+          "position": "[22,-29]",
+          "zoneHint": "Pandassemblée",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Le Grandapan. Lorsqu'il vous le demande, choisissez de boire soit une chope de Pandazahi, soit une chope de Pandaporo afin de pouvoir entendre la voix de la Déesse.",
+          "position": "[22,-29]",
+          "zoneHint": "Pandassemblée",
+          "warning": "Vous devez consommer au choix 1 x Pandazahi ou 1 x Pandaporo.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans l'Éther à la croisée des mondes, parlez à Le Grandapan et demandez où vous êtes exactement. Parlez ensuite à Imagiro, le dragon blanc, puis à Orukam, le dragon noir, afin d'écouter leurs révélations sur Pandala, les Deux qui sont Un, le Dofus d'encre et les cinq griffes élémentaires de la patte divine de la Déesse Pandawa.",
+          "position": null,
+          "zoneHint": "Éther à la croisée des mondes",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Après avoir été expulsé de l'Éther, retournez dans la salle de droite et parlez à Daimya Hikomi. Racontez-lui ce que vous avez vécu puis, lorsqu'elle vous demande si vous comptez rechercher les différentes griffes, répondez que vous accomplirez cette quête jusqu'au bout.",
+          "position": "[22,-29]",
+          "zoneHint": "palais de bambou",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les trois recommandations demandées par Pandarin Sudopong, l'audience avec la Daimya Hikomi et toutes les portions antérieures sont supposées déjà terminées à cette occurrence.",
+        "La quête se termine après votre réponse à Daimya Hikomi.",
+        "En poursuivant la conversation avec la Daimya après la fin, vous débloquez la quête « Sous le bois de sa colère ».",
+        "La fin de cette quête débloque également l'accès aux quêtes du dojo « Les voies du Pandawushu »."
+      ],
+      "npcs": [
+        "Maître Kwatimbe",
+        "Samouraï Holi",
+        "Daimya Hikomi",
+        "Le Grandapan",
+        "Imagiro",
+        "Orukam"
+      ],
+      "items": [
+        {
+          "name": "Artefact Pandawushu Roc",
+          "itemId": 7224,
+          "imageUrl": "/items/7224.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/7224"
+        },
+        {
+          "name": "Artefact Pandawushu Vent",
+          "itemId": 7223,
+          "imageUrl": "/items/7223.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/7223"
+        },
+        {
+          "name": "Artefact Pandawushu Bois",
+          "itemId": 23311,
+          "imageUrl": "/items/23311.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23311"
+        },
+        {
+          "name": "Artefact Pandawushu Feu",
+          "itemId": 7225,
+          "imageUrl": "/items/7225.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/7225"
+        },
+        {
+          "name": "Artefact Pandawushu Eau",
+          "itemId": 7222,
+          "imageUrl": "/items/7222.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/7222"
+        },
+        {
+          "name": "Bois de Bambou",
+          "itemId": 3666,
+          "imageUrl": "/items/3666.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/3666"
+        },
+        {
+          "name": "Pandaburg",
+          "itemId": 3695,
+          "imageUrl": "/items/3695.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/3695"
+        },
+        {
+          "name": "Pandaclier",
+          "itemId": 23094,
+          "imageUrl": "/items/23094.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23094"
+        },
+        {
+          "name": "Pandazahi",
+          "itemId": 23179,
+          "imageUrl": "/items/23179.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23179"
+        },
+        {
+          "name": "Pandaporo",
+          "itemId": 16425,
+          "imageUrl": "/items/16425.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16425"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 961,
+            "name": "Croisée des mondes",
+            "coordinates": []
+          },
+          {
+            "id": 442,
+            "name": "Lac",
+            "coordinates": [
+              "20,-31",
+              "22,-29"
+            ]
+          },
+          {
+            "id": 951,
+            "name": "Village de Pandala",
+            "coordinates": [
+              "20,-31",
+              "23,-28",
+              "22,-29"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": []
+      },
+      "questKey": "quest:1315",
+      "relation": "FINISH",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/a-la-croisee-des-mondes.html",
+      "sourceTitle": "À la croisée des mondes",
+      "sourceHash": "c8657052cea18cdc93202aaef2ed2a018a76c81b771a1cc44856d85523a6eaa2",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

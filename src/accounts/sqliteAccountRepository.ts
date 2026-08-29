@@ -5,16 +5,19 @@ import Database from "better-sqlite3";
 import { and, eq, gt, inArray, sql } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/better-sqlite3";
 import { applyMigrations } from "../db/migrations.js";
-import { accountSessions, accountUsers, accountSchema, playerProfiles, profileFollows } from "./schema.js";
+import { accountSessions, accountUsers, accountSchema, metamobCredentials, metamobProfileLinks, playerProfiles, profileFollows } from "./schema.js";
 import {
   emptyStoredProgressProfile,
   storedProgressProfileSchema,
   type AccountSession,
   type FollowedProfile,
   type GoogleIdentity,
+  type MetaMobProfileLink,
   type PlayerProfile,
   type ProfileGender,
   type StoredProgressProfile,
+  type StoredMetaMobCredential,
+  type VerifiedDofusIdentity,
 } from "./types.js";
 
 const SESSION_DURATION_MS = 30 * 24 * 60 * 60 * 1000;
@@ -43,6 +46,9 @@ function profileFromRow(row: ProfileRow, isOnline = false): PlayerProfile {
     breedId: row.breedId,
     gender: row.gender,
     avatarUrl: row.avatarUrl,
+    serverId: row.serverId,
+    serverName: row.serverName,
+    dofusVerifiedAt: row.dofusVerifiedAt,
     progress: parseProgress(row.progressJson),
     revision: row.revision,
     shareToken: row.shareToken,
@@ -191,6 +197,7 @@ export class SqliteAccountRepository {
     gender: ProfileGender,
     avatarUrl: string | null,
     progress: StoredProgressProfile = emptyStoredProgressProfile(),
+    dofusIdentity: VerifiedDofusIdentity | null = null,
   ): PlayerProfile {
     const timestamp = now();
     const row: ProfileRow = {
@@ -200,6 +207,9 @@ export class SqliteAccountRepository {
       breedId,
       gender,
       avatarUrl,
+      serverId: dofusIdentity?.serverId ?? null,
+      serverName: dofusIdentity?.serverName ?? null,
+      dofusVerifiedAt: dofusIdentity?.verifiedAt ?? null,
       progressJson: JSON.stringify(progress),
       revision: 1,
       shareToken: null,
@@ -219,12 +229,15 @@ export class SqliteAccountRepository {
     this.db.update(accountUsers).set({ activeProfileId: profileId, updatedAt: now() }).where(eq(accountUsers.id, userId)).run();
   }
 
-  updateProfile(userId: string, profileId: string, name: string, breedId: number, gender: ProfileGender, avatarUrl: string | null): void {
+  updateProfile(userId: string, profileId: string, name: string, breedId: number, gender: ProfileGender, avatarUrl: string | null, dofusIdentity: VerifiedDofusIdentity | null): void {
     const changed = this.db.update(playerProfiles).set({
       name,
       breedId,
       gender,
       avatarUrl,
+      serverId: dofusIdentity?.serverId ?? null,
+      serverName: dofusIdentity?.serverName ?? null,
+      dofusVerifiedAt: dofusIdentity?.verifiedAt ?? null,
       updatedAt: now(),
     }).where(and(eq(playerProfiles.id, profileId), eq(playerProfiles.ownerUserId, userId))).run();
     if (changed.changes === 0) throw new Error("Profil introuvable");
@@ -263,6 +276,39 @@ export class SqliteAccountRepository {
     this.db.delete(profileFollows).where(and(
       eq(profileFollows.followerUserId, userId),
       eq(profileFollows.profileId, profileId),
+    )).run();
+  }
+
+  getMetaMobCredential(userId: string): StoredMetaMobCredential | null {
+    const row = this.db.select().from(metamobCredentials).where(eq(metamobCredentials.userId, userId)).get();
+    return row ?? null;
+  }
+
+  saveMetaMobCredential(userId: string, username: string, encryptedApiKey: string, encryptionIv: string): void {
+    this.db.insert(metamobCredentials).values({ userId, username, encryptedApiKey, encryptionIv, updatedAt: now() })
+      .onConflictDoUpdate({ target: metamobCredentials.userId, set: { username, encryptedApiKey, encryptionIv, updatedAt: now() } }).run();
+  }
+
+  getMetaMobProfileLink(userId: string, profileId: string): MetaMobProfileLink | null {
+    const row = this.db.select().from(metamobProfileLinks).where(and(
+      eq(metamobProfileLinks.ownerUserId, userId),
+      eq(metamobProfileLinks.profileId, profileId),
+    )).get();
+    return row ?? null;
+  }
+
+  saveMetaMobProfileLink(userId: string, profileId: string, questSlug: string, characterName: string): void {
+    const owned = this.db.select({ id: playerProfiles.id }).from(playerProfiles).where(and(
+      eq(playerProfiles.id, profileId), eq(playerProfiles.ownerUserId, userId),
+    )).get();
+    if (owned === undefined) throw new Error("Profil introuvable");
+    this.db.insert(metamobProfileLinks).values({ profileId, ownerUserId: userId, questSlug, characterName, updatedAt: now() })
+      .onConflictDoUpdate({ target: metamobProfileLinks.profileId, set: { questSlug, characterName, updatedAt: now() } }).run();
+  }
+
+  deleteMetaMobProfileLink(userId: string, profileId: string): void {
+    this.db.delete(metamobProfileLinks).where(and(
+      eq(metamobProfileLinks.ownerUserId, userId), eq(metamobProfileLinks.profileId, profileId),
     )).run();
   }
 

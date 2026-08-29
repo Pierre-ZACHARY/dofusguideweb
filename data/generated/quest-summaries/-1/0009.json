@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 9,
-  "updatedAt": "2026-08-27T13:32:08.582Z",
+  "updatedAt": "2026-08-28T13:36:15.416Z",
   "summaries": [
     {
       "overview": "Berb Nhin poursuit l'apprentissage des métiers avec la chasse. Équipez le Couteau de chasse de Berb Nhin, obtenez 1 Viande Intangible sur une créature d'Incarnam, puis transformez-la en Bouillon de chair à l'atelier des chasseurs avant de revenir auprès de Berb.",
@@ -81,98 +81,23 @@
       "bestiary": {
         "zones": [
           {
-            "id": 778,
-            "name": "Mine",
-            "coordinates": [
-              "0,-3"
-            ]
-          },
-          {
-            "id": 448,
-            "name": "Taverne",
-            "coordinates": [
-              "0,-3"
-            ]
-          },
-          {
-            "id": 10,
-            "name": "Village d'Amakna",
+            "id": 442,
+            "name": "Lac",
             "coordinates": [
               "-1,-2"
+            ]
+          },
+          {
+            "id": 450,
+            "name": "Route des âmes",
+            "coordinates": [
+              "0,-3"
             ]
           }
         ],
         "bounties": [],
-        "archmonsters": [
-          {
-            "id": 2343,
-            "name": "Pioufe la Maquillée",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2343.png"
-          },
-          {
-            "id": 2345,
-            "name": "Pioukas la Plante",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2345.png"
-          },
-          {
-            "id": 2342,
-            "name": "Pioulbrineur le Mercenaire",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2342.png"
-          },
-          {
-            "id": 2347,
-            "name": "Pioussokrim le Délétère",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2347.png"
-          },
-          {
-            "id": 2341,
-            "name": "Pioustone le Problème",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2341.png"
-          }
-        ],
-        "achievements": [
-          {
-            "id": 217,
-            "name": "Pious",
-            "monsters": [
-              {
-                "id": 491,
-                "name": "Piou Bleu",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/491.png"
-              },
-              {
-                "id": 493,
-                "name": "Piou Jaune",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/493.png"
-              },
-              {
-                "id": 492,
-                "name": "Piou Rose",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/492.png"
-              },
-              {
-                "id": 490,
-                "name": "Piou Vert",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/490.png"
-              },
-              {
-                "id": 236,
-                "name": "Piou Violet",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/236.png"
-              }
-            ]
-          }
-        ]
+        "archmonsters": [],
+        "achievements": []
       },
       "questKey": "quest:1459",
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-metier-des-aventuriers.html",
@@ -280,96 +205,36 @@
           {
             "id": 443,
             "name": "Forêt",
-            "coordinates": []
+            "coordinates": [
+              "2,-2"
+            ]
           },
           {
             "id": 778,
             "name": "Mine",
             "coordinates": [
-              "0,-3",
               "2,-4",
               "3,-4"
             ]
           },
           {
-            "id": 10,
-            "name": "Village d'Amakna",
+            "id": 445,
+            "name": "Pâturages",
             "coordinates": [
-              "2,-2"
+              "2,-4"
+            ]
+          },
+          {
+            "id": 450,
+            "name": "Route des âmes",
+            "coordinates": [
+              "0,-3"
             ]
           }
         ],
         "bounties": [],
-        "archmonsters": [
-          {
-            "id": 2343,
-            "name": "Pioufe la Maquillée",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2343.png"
-          },
-          {
-            "id": 2345,
-            "name": "Pioukas la Plante",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2345.png"
-          },
-          {
-            "id": 2342,
-            "name": "Pioulbrineur le Mercenaire",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2342.png"
-          },
-          {
-            "id": 2347,
-            "name": "Pioussokrim le Délétère",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2347.png"
-          },
-          {
-            "id": 2341,
-            "name": "Pioustone le Problème",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2341.png"
-          }
-        ],
-        "achievements": [
-          {
-            "id": 217,
-            "name": "Pious",
-            "monsters": [
-              {
-                "id": 491,
-                "name": "Piou Bleu",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/491.png"
-              },
-              {
-                "id": 493,
-                "name": "Piou Jaune",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/493.png"
-              },
-              {
-                "id": 492,
-                "name": "Piou Rose",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/492.png"
-              },
-              {
-                "id": 490,
-                "name": "Piou Vert",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/490.png"
-              },
-              {
-                "id": 236,
-                "name": "Piou Violet",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/236.png"
-              }
-            ]
-          }
-        ]
+        "archmonsters": [],
+        "achievements": []
       },
       "questKey": "quest:916",
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-hache-et-la-pioche.html",
@@ -597,105 +462,28 @@
           {
             "id": 442,
             "name": "Lac",
-            "coordinates": []
-          },
-          {
-            "id": 778,
-            "name": "Mine",
             "coordinates": [
-              "0,-3"
+              "0,-2"
             ]
           },
           {
             "id": 445,
             "name": "Pâturages",
-            "coordinates": []
+            "coordinates": [
+              "1,-4"
+            ]
           },
           {
             "id": 450,
             "name": "Route des âmes",
-            "coordinates": []
-          },
-          {
-            "id": 10,
-            "name": "Village d'Amakna",
             "coordinates": [
-              "1,-4",
-              "0,-2"
+              "0,-3"
             ]
           }
         ],
         "bounties": [],
-        "archmonsters": [
-          {
-            "id": 2343,
-            "name": "Pioufe la Maquillée",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2343.png"
-          },
-          {
-            "id": 2345,
-            "name": "Pioukas la Plante",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2345.png"
-          },
-          {
-            "id": 2342,
-            "name": "Pioulbrineur le Mercenaire",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2342.png"
-          },
-          {
-            "id": 2347,
-            "name": "Pioussokrim le Délétère",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2347.png"
-          },
-          {
-            "id": 2341,
-            "name": "Pioustone le Problème",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2341.png"
-          }
-        ],
-        "achievements": [
-          {
-            "id": 217,
-            "name": "Pious",
-            "monsters": [
-              {
-                "id": 491,
-                "name": "Piou Bleu",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/491.png"
-              },
-              {
-                "id": 493,
-                "name": "Piou Jaune",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/493.png"
-              },
-              {
-                "id": 492,
-                "name": "Piou Rose",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/492.png"
-              },
-              {
-                "id": 490,
-                "name": "Piou Vert",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/490.png"
-              },
-              {
-                "id": 236,
-                "name": "Piou Violet",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/236.png"
-              }
-            ]
-          }
-        ]
+        "archmonsters": [],
+        "achievements": []
       },
       "questKey": "quest:917",
       "sourceUrl": "https://www.dofuspourlesnoobs.com/boune-un-jour-boune-toujours.html",
@@ -758,13 +546,6 @@
       "bestiary": {
         "zones": [
           {
-            "id": 778,
-            "name": "Mine",
-            "coordinates": [
-              "-1,-3"
-            ]
-          },
-          {
             "id": 445,
             "name": "Pâturages",
             "coordinates": [
@@ -772,84 +553,16 @@
             ]
           },
           {
-            "id": 10,
-            "name": "Village d'Amakna",
+            "id": 450,
+            "name": "Route des âmes",
             "coordinates": [
               "-1,-3"
             ]
           }
         ],
         "bounties": [],
-        "archmonsters": [
-          {
-            "id": 2343,
-            "name": "Pioufe la Maquillée",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2343.png"
-          },
-          {
-            "id": 2345,
-            "name": "Pioukas la Plante",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2345.png"
-          },
-          {
-            "id": 2342,
-            "name": "Pioulbrineur le Mercenaire",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2342.png"
-          },
-          {
-            "id": 2347,
-            "name": "Pioussokrim le Délétère",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2347.png"
-          },
-          {
-            "id": 2341,
-            "name": "Pioustone le Problème",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2341.png"
-          }
-        ],
-        "achievements": [
-          {
-            "id": 217,
-            "name": "Pious",
-            "monsters": [
-              {
-                "id": 491,
-                "name": "Piou Bleu",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/491.png"
-              },
-              {
-                "id": 493,
-                "name": "Piou Jaune",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/493.png"
-              },
-              {
-                "id": 492,
-                "name": "Piou Rose",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/492.png"
-              },
-              {
-                "id": 490,
-                "name": "Piou Vert",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/490.png"
-              },
-              {
-                "id": 236,
-                "name": "Piou Violet",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/236.png"
-              }
-            ]
-          }
-        ]
+        "archmonsters": [],
+        "achievements": []
       },
       "questKey": "quest:905",
       "sourceUrl": "https://www.dofuspourlesnoobs.com/transport-peu-commun.html",
@@ -954,13 +667,6 @@
             ]
           },
           {
-            "id": 778,
-            "name": "Mine",
-            "coordinates": [
-              "-1,-3"
-            ]
-          },
-          {
             "id": 445,
             "name": "Pâturages",
             "coordinates": [
@@ -971,88 +677,14 @@
             "id": 450,
             "name": "Route des âmes",
             "coordinates": [
+              "-1,-3",
               "0,-3"
-            ]
-          },
-          {
-            "id": 10,
-            "name": "Village d'Amakna",
-            "coordinates": [
-              "-1,-3"
             ]
           }
         ],
         "bounties": [],
-        "archmonsters": [
-          {
-            "id": 2343,
-            "name": "Pioufe la Maquillée",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2343.png"
-          },
-          {
-            "id": 2345,
-            "name": "Pioukas la Plante",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2345.png"
-          },
-          {
-            "id": 2342,
-            "name": "Pioulbrineur le Mercenaire",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2342.png"
-          },
-          {
-            "id": 2347,
-            "name": "Pioussokrim le Délétère",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2347.png"
-          },
-          {
-            "id": 2341,
-            "name": "Pioustone le Problème",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2341.png"
-          }
-        ],
-        "achievements": [
-          {
-            "id": 217,
-            "name": "Pious",
-            "monsters": [
-              {
-                "id": 491,
-                "name": "Piou Bleu",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/491.png"
-              },
-              {
-                "id": 493,
-                "name": "Piou Jaune",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/493.png"
-              },
-              {
-                "id": 492,
-                "name": "Piou Rose",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/492.png"
-              },
-              {
-                "id": 490,
-                "name": "Piou Vert",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/490.png"
-              },
-              {
-                "id": 236,
-                "name": "Piou Violet",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/236.png"
-              }
-            ]
-          }
-        ]
+        "archmonsters": [],
+        "achievements": []
       },
       "questKey": "quest:906",
       "sourceUrl": "https://www.dofuspourlesnoobs.com/des-vestiges-de-leacutegende.html",
@@ -1117,98 +749,30 @@
       "bestiary": {
         "zones": [
           {
-            "id": 778,
-            "name": "Mine",
-            "coordinates": [
-              "-1,-3"
-            ]
-          },
-          {
-            "id": 32,
-            "name": "Sufokia",
+            "id": 444,
+            "name": "Champs",
             "coordinates": [
               "-1,-6"
             ]
           },
           {
-            "id": 10,
-            "name": "Village d'Amakna",
+            "id": 442,
+            "name": "Lac",
             "coordinates": [
               "-1,1"
+            ]
+          },
+          {
+            "id": 450,
+            "name": "Route des âmes",
+            "coordinates": [
+              "-1,-3"
             ]
           }
         ],
         "bounties": [],
-        "archmonsters": [
-          {
-            "id": 2343,
-            "name": "Pioufe la Maquillée",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2343.png"
-          },
-          {
-            "id": 2345,
-            "name": "Pioukas la Plante",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2345.png"
-          },
-          {
-            "id": 2342,
-            "name": "Pioulbrineur le Mercenaire",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2342.png"
-          },
-          {
-            "id": 2347,
-            "name": "Pioussokrim le Délétère",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2347.png"
-          },
-          {
-            "id": 2341,
-            "name": "Pioustone le Problème",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2341.png"
-          }
-        ],
-        "achievements": [
-          {
-            "id": 217,
-            "name": "Pious",
-            "monsters": [
-              {
-                "id": 491,
-                "name": "Piou Bleu",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/491.png"
-              },
-              {
-                "id": 493,
-                "name": "Piou Jaune",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/493.png"
-              },
-              {
-                "id": 492,
-                "name": "Piou Rose",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/492.png"
-              },
-              {
-                "id": 490,
-                "name": "Piou Vert",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/490.png"
-              },
-              {
-                "id": 236,
-                "name": "Piou Violet",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/236.png"
-              }
-            ]
-          }
-        ]
+        "archmonsters": [],
+        "achievements": []
       },
       "questKey": "quest:907",
       "sourceUrl": "https://www.dofuspourlesnoobs.com/vu-du-ciel.html",

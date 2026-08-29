@@ -1,177 +1,224 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 108,
-  "updatedAt": "2026-08-27T13:32:20.834Z",
+  "updatedAt": "2026-08-29T12:51:25.324Z",
   "summaries": [
     {
-      "overview": "Aidez Ratagnan, un rat peureux qui rêve de devenir un gentilrat comme le Rat Blanc. Lancez la quête dans les égouts de Bonta, sauvez-le des brigands, affrontez le Rat Blanc dans son donjon, puis aidez Ratagnan à trouver sa voie à la surface en devenant une fine lame au service d'Emmy Lady.",
+      "overview": "Lancez La Geste de Ratagnan dans les égouts de Bonta, aidez Ratagnan contre les brigands puis avancez jusqu'à l'objectif demandant de vaincre le Rat Blanc. Effectuez ensuite le Garde-manger du Rat Blanc et battez le Rat Blanc. La discussion avec le Rat Blanc et toute la suite de l'histoire de Ratagnan sont volontairement réservées à l'occurrence FINISH suivante.",
       "recommendedLevel": 110,
       "prerequisites": [],
       "rewards": [
         "2 597 190 XP",
         "28 560 Kamas",
-        "3 × Collier de Chak Rat"
+        "3 x Collier de Chak Rat"
       ],
       "preparation": [
-        "1 combat réalisable en groupe",
-        "1 combat solo",
-        "Donjon Garde-manger du Rat Blanc"
+        "Prévoir 1 x Donjon Garde-manger du Rat Blanc.",
+        "Prévoir un groupe si souhaité pour le combat contre les brigands et pour le donjon."
       ],
       "actions": [
         {
-          "instruction": "Descendre dans les égouts de Bonta par l'accès en [-35,-55], puis aller en [-32,-58] parler au Bontarien en détresse.",
+          "instruction": "Dans les égouts de Bonta, rejoignez le Bontarien en détresse et assistez à l'intervention de Ratagnan. Pour atteindre cette zone, la source indique de descendre par l'accès en [-35,-55].",
           "position": "[-32,-58]",
-          "zoneHint": "Égouts de Bonta",
+          "zoneHint": "Canaux méphitiques",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Écouter Ratagnan intervenir face aux brigands.",
+          "instruction": "Reparlez à Ratagnan après l'intervention, puis choisissez « Lever les yeux au ciel et se préparer à combattre » afin d'affronter les deux brigands. Ratagnan fuit pendant tout le combat et ne vous aide pas offensivement.",
           "position": "[-32,-58]",
-          "zoneHint": "Égouts de Bonta",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Parler à Ratagnan qui se fait maltraiter par les brigands.",
-          "position": "[-32,-58]",
-          "zoneHint": "Égouts de Bonta",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Parler à Ratagnan et choisir « Lever les yeux au ciel et se préparer à combattre ». Un combat se lance, réalisable en groupe.",
-          "position": "[-32,-58]",
-          "zoneHint": "Égouts de Bonta",
-          "warning": "Ratagnan ne participe pas au combat, il fuit sans utiliser de sorts.",
+          "zoneHint": "Canaux méphitiques",
+          "warning": "Combat réalisable en groupe.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Après le combat, parler à Ratagnan.",
+          "instruction": "Après la victoire, reparlez à Ratagnan. Il vous explique son admiration pour le Rat Blanc et vous demande implicitement d'aller mesurer votre force à son idole. Arrêtez la progression narrative dès que l'objectif demande de vaincre x1 Rat Blanc.",
           "position": "[-32,-58]",
-          "zoneHint": "Égouts de Bonta",
+          "zoneHint": "Canaux méphitiques",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller en [-34,-59], entrer dans le donjon Garde-manger du Rat Blanc et vaincre le Rat Blanc.",
+          "instruction": "Rendez-vous à l'entrée du Garde-manger du Rat Blanc, effectuez le donjon puis vainquez le Rat Blanc.",
           "position": "[-34,-59]",
-          "zoneHint": "Égouts de Bonta",
-          "warning": "Donjon Garde-manger du Rat Blanc.",
+          "zoneHint": "Garde-manger du Rat Blanc",
+          "warning": "Le donjon doit être terminé à cette occurrence. Ne poursuivez pas ensuite les dialogues de quête avec le Rat Blanc : ils appartiennent à l'occurrence FINISH suivante.",
           "combat": "GROUP"
-        },
+        }
+      ],
+      "notes": [
+        "À la fin de cette occurrence, le Rat Blanc doit être vaincu mais les dialogues postérieurs au combat ne doivent pas encore être déroulés.",
+        "La suite conduira Ratagnan vers la surface et l'ordre des fines lames ; elle est volontairement différée à l'occurrence FINISH."
+      ],
+      "npcs": [
+        "Bontarien en détresse",
+        "Ratagnan",
+        "Rat Blanc"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 1011,
+            "name": "Canaux méphitiques",
+            "coordinates": [
+              "-32,-58",
+              "-35,-55"
+            ]
+          },
+          {
+            "id": 1013,
+            "name": "Garde-manger du Rat Blanc",
+            "coordinates": [
+              "-34,-59"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 5160,
+            "name": "Rats Bontariens",
+            "monsters": [
+              {
+                "id": 6743,
+                "name": "Chika Rat",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6743.png"
+              },
+              {
+                "id": 6744,
+                "name": "Aloevée Rate",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6744.png"
+              },
+              {
+                "id": 941,
+                "name": "Chak Rat",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/941.png"
+              },
+              {
+                "id": 938,
+                "name": "Scélée Rate",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/938.png"
+              },
+              {
+                "id": 942,
+                "name": "Capoei Rat",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/942.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1395",
+      "relation": "START",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-geste-de-ratagnan.html",
+      "sourceTitle": "La Geste de Ratagnan",
+      "sourceHash": "b373395cf447d63a6c6079b845f808785f9f744d1f75f2b8c84219a2c907cf82",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Le Rat Blanc est supposé déjà vaincu pendant l'occurrence START. Reprenez immédiatement après ce combat, faites accepter à Ratagnan qu'il doit chercher sa voie à la surface, puis accompagnez-le dans sa recherche d'un avenir de fine lame jusqu'à ce qu'Emmy Lady le prenne à son service et termine la quête.",
+      "recommendedLevel": 110,
+      "prerequisites": [
+        "Avoir terminé l'occurrence START de La Geste de Ratagnan et vaincu le Rat Blanc dans le Garde-manger du Rat Blanc."
+      ],
+      "rewards": [
+        "2 597 190 XP",
+        "28 560 Kamas",
+        "3 x Collier de Chak Rat"
+      ],
+      "preparation": [
+        "Prévoir un combat en solo contre Faramis."
+      ],
+      "actions": [
         {
-          "instruction": "Après le donjon, parler au Rat Blanc et choisir « Lui demander des informations sur son art du combat ».",
+          "instruction": "Après la victoire contre le Rat Blanc, parlez-lui et demandez des informations sur son art du combat, puis abordez le cas de Ratagnan. Parlez ensuite à Ratagnan pour lui annoncer qu'il devrait chercher un avenir hors des égouts.",
           "position": "[-34,-59]",
-          "zoneHint": "Égouts de Bonta",
+          "zoneHint": "Garde-manger du Rat Blanc",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Parler à Ratagnan.",
+          "instruction": "Reparlez au Rat Blanc et choisissez « Écouter Ratagnan demander confirmation au Rat Blanc ». Ratagnan apprend que les secrets du Rat Blanc ne peuvent pas lui être transmis et qu'il doit monter à la surface. À partir de ce moment, Ratagnan vous suit.",
           "position": "[-34,-59]",
-          "zoneHint": "Égouts de Bonta",
+          "zoneHint": "Garde-manger du Rat Blanc",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Parler au Rat Blanc et choisir « Écouter Ratagnan demander confirmation au Rat Blanc ».",
-          "position": "[-34,-59]",
-          "zoneHint": "Égouts de Bonta",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Remonter à la surface et aller à la bibliothèque de Bonta en [-35,-57] parler à Marcelle Rouste.",
+          "instruction": "Remontez à la surface et rendez-vous à la bibliothèque de Bonta. Parlez à Marcelle Rouste pour vous renseigner sur l'escrime bontarienne et les fines lames ; il vous oriente vers le Promontoire des cieux.",
           "position": "[-35,-57]",
           "zoneHint": null,
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller en [-36,-59] parler à Faramis.",
+          "instruction": "Parlez à Faramis. Présentez-lui le souhait de Ratagnan de devenir une fine lame. Comme Ratagnan n'a pas de sang noble, Faramis accepte de révéler une autre voie uniquement après un duel.",
           "position": "[-36,-59]",
-          "zoneHint": null,
-          "warning": null,
+          "zoneHint": "Promontoire des cieux",
+          "warning": "Le duel qui suit est obligatoire et se joue seul.",
           "combat": "NONE"
         },
         {
-          "instruction": "Vous êtes téléporté dans un dojo. Parler à Faramis et choisir « Affronter Faramis ». Combat solo.",
+          "instruction": "Une fois téléporté dans le dojo, reparlez à Faramis et choisissez « Affronter Faramis ». Combattez-le seul. Lorsqu'il atteint son seuil de très faibles PV, il échange sa position avec vous et devient Invulnérable pendant 1 tour ; attendez la fin de cet état avant de l'achever.",
           "position": null,
           "zoneHint": "Dojo",
-          "warning": "Combat solo. Faramis a un seuil à 42 PV : une fois atteint, il échange de position et devient invulnérable 1 tour.",
+          "warning": "Combat obligatoire en solo. Faramis suit un cycle de bonus et dispose d'un seuil déclenchant 1 tour d'Invulnérable.",
           "combat": "SOLO"
         },
         {
-          "instruction": "Après le combat, parler à Faramis.",
+          "instruction": "Après le duel, reparlez à Faramis. Il révèle que Ratagnan peut devenir une fine lame sans sang noble s'il se met personnellement au service d'une personne noble.",
           "position": null,
           "zoneHint": "Dojo",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Aller en [-35,-59] parler à Emmy Lady.",
+          "instruction": "Allez sur la carte à droite et parlez à Emmy Lady, qui cherche son chacha Neige. Ratagnan lui promet de le retrouver. Reparlez ensuite à Ratagnan afin qu'il vous accompagne pour la recherche.",
           "position": "[-35,-59]",
-          "zoneHint": null,
+          "zoneHint": "Promontoire des cieux",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Parler à Ratagnan pour qu'il vous suive.",
-          "position": "[-35,-59]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller en [-33,-55], trouver Neige le chacha et choisir « Laisser faire Ratagnan ».",
+          "instruction": "Trouvez Neige et choisissez « Laisser faire Ratagnan ». Le chacha blanc se met à poursuivre Ratagnan vers le nord.",
           "position": "[-33,-55]",
           "zoneHint": null,
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Retourner en [-35,-59] parler à Emmy Lady pour terminer la quête.",
+          "instruction": "Retournez auprès d'Emmy Lady au pied de la fontaine. Parlez-lui : Ratagnan a retrouvé Neige et Emmy Lady accepte de faire de lui sa fine lame personnelle, ce qui termine La Geste de Ratagnan.",
           "position": "[-35,-59]",
-          "zoneHint": null,
+          "zoneHint": "Promontoire des cieux",
           "warning": null,
           "combat": "NONE"
         }
       ],
       "notes": [
-        "Le combat contre les brigands se fait en groupe mais Ratagnan ne participe pas.",
-        "Le donjon Garde-manger du Rat Blanc est requis.",
-        "Le combat contre Faramis est solo avec un seuil à 42 PV déclenchant un échange de position et une invulnérabilité d'un tour.",
-        "Faramis suit un cycle de boosts : tour 1 En garde !, tour 2 Prêts ?, tour 3 Allez !, puis recommence."
+        "Le combat contre le Rat Blanc et le parcours du donjon sont supposés terminés avant cette reprise.",
+        "La quête se termine lorsque Emmy Lady accepte Ratagnan comme fine lame personnelle."
       ],
       "npcs": [
-        "Bontarien en détresse",
-        "Ratagnan",
         "Rat Blanc",
+        "Ratagnan",
         "Marcelle Rouste",
         "Faramis",
         "Emmy Lady",
         "Neige"
       ],
-      "items": [
-        {
-          "name": "Collier de Chak Rat",
-          "itemId": 25767,
-          "imageUrl": "/items/25767.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/25767"
-        }
-      ],
+      "items": [],
       "bestiary": {
         "zones": [
-          {
-            "id": 975,
-            "name": "Cœur immaculé",
-            "coordinates": [
-              "-32,-58",
-              "-35,-57"
-            ]
-          },
           {
             "id": 973,
             "name": "Faubourgs des artisans",
@@ -180,24 +227,17 @@
             ]
           },
           {
-            "id": 974,
-            "name": "Havres d'ivoire",
+            "id": 1013,
+            "name": "Garde-manger du Rat Blanc",
             "coordinates": [
-              "-35,-55"
-            ]
-          },
-          {
-            "id": 778,
-            "name": "Mine",
-            "coordinates": [
-              "-35,-59"
+              "-34,-59"
             ]
           },
           {
             "id": 976,
             "name": "Promontoire des cieux",
             "coordinates": [
-              "-34,-59",
+              "-35,-57",
               "-36,-59",
               "-35,-59"
             ]
@@ -284,85 +324,148 @@
                 "imageUrl": "/bestiary/monsters/236.png"
               }
             ]
+          },
+          {
+            "id": 5160,
+            "name": "Rats Bontariens",
+            "monsters": [
+              {
+                "id": 6743,
+                "name": "Chika Rat",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6743.png"
+              },
+              {
+                "id": 6744,
+                "name": "Aloevée Rate",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6744.png"
+              },
+              {
+                "id": 941,
+                "name": "Chak Rat",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/941.png"
+              },
+              {
+                "id": 938,
+                "name": "Scélée Rate",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/938.png"
+              },
+              {
+                "id": 942,
+                "name": "Capoei Rat",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/942.png"
+              }
+            ]
           }
         ]
       },
       "questKey": "quest:1395",
+      "relation": "FINISH",
+      "sortOrder": 1,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-geste-de-ratagnan.html",
       "sourceTitle": "La Geste de Ratagnan",
       "sourceHash": "b373395cf447d63a6c6079b845f808785f9f744d1f75f2b8c84219a2c907cf82",
-      "generatedAt": "2026-08-24T18:27:44.290Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     },
     {
-      "overview": "Aidez Ramy, un rat des égouts, à réaliser son rêve de cuisiner avec de vrais aliments en convainquant le Chef Tonego de l'embaucher comme commis dans les cuisines du Palais de Bonta.",
+      "overview": "La quête Cuisine raffinée a été lancée à l'étape précédente et doit déjà être avancée jusqu'à la recherche de 5 x Morceau d’emmental. Récupérez ces morceaux pendant votre passage parmi les rats, réunissez les autres ingrédients, faites cuisiner Ramy puis apportez sa Rat Tatouille au Chef Tonego pour terminer la quête.",
       "recommendedLevel": 110,
-      "prerequisites": [],
+      "prerequisites": [
+        "Avoir lancé Cuisine raffinée à l'étape précédente et l'avoir avancée jusqu'à l'objectif demandant 5 x Morceau d’emmental."
+      ],
       "rewards": [
         "1 298 594 XP",
         "14 280 Kamas",
         "3 x Ouvrage magique d'Aloevée Rate"
       ],
       "preparation": [
-        "10 x Oignon",
-        "10 x Aubergine",
-        "5 x Kole",
-        "1 x Sachet d'Épices",
-        "1 x Bol",
-        "1 combat (réalisable en groupe)",
-        "Combats contre des monstres pour drop à 6%"
+        "5 x Morceau d’emmental.",
+        "5 x Kole.",
+        "1 x Sachet d’Épices.",
+        "10 x Oignon.",
+        "10 x Aubergine.",
+        "1 x Bol.",
+        "Prévoir 6 kamas si le Bol n'a pas encore été acheté.",
+        "Prévoir un combat réalisable en groupe contre les Sousouris Affamée."
       ],
       "actions": [
         {
-          "instruction": "Allez dans les cuisines du Palais de Bonta en [-36,-60] et parlez au Commis à l'ouïe fine pour lancer la quête.",
-          "position": "[-36,-60]",
-          "zoneHint": "Promontoire des cieux",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Cliquez sur la grille du vide à ordures pour descendre dans les égouts.",
+          "instruction": "Obtenez 5 x Morceau d’emmental sur les rats des égouts de Bonta. Le taux de base indiqué est de 6 %. Profitez du passage lié au Garde-manger du Rat Blanc pour les récupérer si ce n'est pas déjà fait.",
           "position": null,
           "zoneHint": "Égouts de Bonta",
-          "warning": null,
+          "warning": "Drop non garanti : le taux de base indiqué est de 6 %.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Si nécessaire, achetez 1 x Bol auprès de Huta Wouite pour 6 kamas, et assurez-vous également d'avoir 5 x Kole, 1 x Sachet d’Épices, 10 x Oignon et 10 x Aubergine.",
+          "position": "[-33,-57]",
+          "zoneHint": null,
+          "warning": "Dépense obligatoire de 6 kamas pour le Bol si vous ne le possédez pas déjà.",
           "combat": "NONE"
         },
         {
-          "instruction": "Parlez à Ramy qui fouille dans les ordures. Proposez-lui de convaincre le chef des cuisines de l'embaucher comme commis.",
-          "position": null,
+          "instruction": "Retournez voir Ramy dans les égouts avec tous les ingrédients et demandez-lui de confectionner un plat capable d'impressionner le Chef Tonego en tenant compte de ses goûts. Suivez ensuite Ramy en cuisine.",
+          "position": "[-34,-59]",
           "zoneHint": "Égouts de Bonta",
+          "warning": "Tous les ingrédients demandés doivent être disponibles à ce moment.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans le Garde-manger du Rat Blanc, parlez à Ramy et choisissez « Demander quoi faire pour l’aider ». Cliquez ensuite sur la gazinière pour vérifier la cuisson.",
+          "position": null,
+          "zoneHint": "Garde-manger du Rat Blanc",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Retournez dans les cuisines du Palais de Bonta en [-36,-60] et parlez au Chef Tonego.",
-          "position": "[-36,-60]",
-          "zoneHint": "Promontoire des cieux",
+          "instruction": "Reparlez à Ramy et indiquez que la cuisson est parfaite. Cliquez ensuite sur la table de cuisine de mauvaise qualité pour râper le fromage ; deux Sousouris Affamée vous attaquent.",
+          "position": null,
+          "zoneHint": "Garde-manger du Rat Blanc",
+          "warning": "Combat réalisable en groupe. Les deux Sousouris Affamée commencent Invulnérables. Placez une invocation sur un glyphe blanc adjacent à une Sousouris pour sacrifier l'invocation et retirer définitivement l'Invulnérable de cette Sousouris. Elle perd alors 50 % Résistance mais gagne 3PM et 30 % de dommages finaux pour le reste du combat.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, reparlez à Ramy, rassurez-le et remettez-lui le fromage râpé. Il termine sa recette, la Rat Tatouille, que vous obtenez pour la faire goûter au chef.",
+          "position": null,
+          "zoneHint": "Garde-manger du Rat Blanc",
           "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez dans les cuisines du Palais de Bonta et parlez au Chef Tonego pour lui présenter le plat préparé par Ramy. Le chef refuse d'abord de goûter parce qu'il a été cuisiné par un rat ; laissez ensuite l'intervention de Ramy se dérouler.",
+          "position": "[-36,-60]",
+          "zoneHint": "Cuisines du Palais de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparlez au Chef Tonego et donnez-lui la Rat Tatouille. Il accepte finalement le plat, change d'avis sur Ramy et décide de l'embaucher, ce qui termine Cuisine raffinée.",
+          "position": "[-36,-60]",
+          "zoneHint": "Cuisines du Palais de Bonta",
+          "warning": "La Rat Tatouille est remise au Chef Tonego pour conclure la quête.",
           "combat": "NONE"
         }
       ],
       "notes": [
-        "Le contenu source est tronqué ; la suite de la quête n'est pas détaillée.",
-        "Drop d'objets sur des monstres à 6% de taux."
+        "Les discussions initiales avec les commis et la découverte de Ramy sont supposées déjà effectuées à l'étape précédente.",
+        "Les 5 x Morceau d’emmental peuvent être récupérés pendant les combats contre les rats effectués dans cette étape, ce qui évite un trajet dédié."
       ],
       "npcs": [
-        "Commis à l'ouïe fine",
         "Ramy",
+        "Huta Wouite",
         "Chef Tonego"
       ],
       "items": [
         {
-          "name": "Oignon",
-          "itemId": 1975,
-          "imageUrl": "/items/1975.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1975"
-        },
-        {
-          "name": "Aubergine",
-          "itemId": 2331,
-          "imageUrl": "/items/2331.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2331"
+          "name": "Morceau d'emmental",
+          "itemId": 26102,
+          "imageUrl": "/items/26102.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26102"
         },
         {
           "name": "Kole",
@@ -377,24 +480,56 @@
           "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16825"
         },
         {
+          "name": "Oignon",
+          "itemId": 1975,
+          "imageUrl": "/items/1975.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1975"
+        },
+        {
+          "name": "Aubergine",
+          "itemId": 2331,
+          "imageUrl": "/items/2331.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2331"
+        },
+        {
           "name": "Bol",
           "itemId": 1732,
           "imageUrl": "/items/1732.png",
           "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1732"
         },
         {
-          "name": "Ouvrage magique d'Aloevée Rate",
-          "itemId": 25761,
-          "imageUrl": "/items/25761.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/25761"
+          "name": "Rat Tatouille",
+          "itemId": 26103,
+          "imageUrl": "/items/26103.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26103"
         }
       ],
       "bestiary": {
         "zones": [
           {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-33,-57"
+            ]
+          },
+          {
+            "id": 1013,
+            "name": "Garde-manger du Rat Blanc",
+            "coordinates": []
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-36,-60"
+            ]
+          },
+          {
             "id": 976,
             "name": "Promontoire des cieux",
             "coordinates": [
+              "-34,-59",
               "-36,-60"
             ]
           }
@@ -480,16 +615,67 @@
                 "imageUrl": "/bestiary/monsters/236.png"
               }
             ]
+          },
+          {
+            "id": 5160,
+            "name": "Rats Bontariens",
+            "monsters": [
+              {
+                "id": 6743,
+                "name": "Chika Rat",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6743.png"
+              },
+              {
+                "id": 6744,
+                "name": "Aloevée Rate",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6744.png"
+              },
+              {
+                "id": 941,
+                "name": "Chak Rat",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/941.png"
+              },
+              {
+                "id": 938,
+                "name": "Scélée Rate",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/938.png"
+              },
+              {
+                "id": 942,
+                "name": "Capoei Rat",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/942.png"
+              }
+            ]
           }
         ]
       },
       "questKey": "quest:1392",
+      "relation": "FINISH",
+      "sortOrder": 2,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/cuisine-raffinee.html",
       "sourceTitle": "Cuisine raffinée",
       "sourceHash": "65c867ca9ecd2583e14435baa3a9848b0c46869c10302313215cb6049f47a8cf",
-      "generatedAt": "2026-08-24T17:17:39.020Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     }
   ],
-  "tips": []
+  "tips": [
+    {
+      "title": "Rentabiliser le Garde-manger du Rat Blanc",
+      "description": "Le passage dans les égouts et le Garde-manger du Rat Blanc sert à la fois à avancer La Geste de Ratagnan et à récupérer les 5 x Morceau d’emmental nécessaires pour terminer Cuisine raffinée.",
+      "questKeys": [
+        "quest:1395",
+        "quest:1392"
+      ],
+      "actions": [
+        "Avant ou pendant le Garde-manger du Rat Blanc, combattez les rats jusqu'à obtenir les 5 x Morceau d’emmental de Cuisine raffinée.",
+        "Terminez ensuite le Rat Blanc pour valider la portion START de La Geste de Ratagnan, puis poursuivez les deux occurrences FINISH dans leur ordre prévu."
+      ]
+    }
+  ]
 }

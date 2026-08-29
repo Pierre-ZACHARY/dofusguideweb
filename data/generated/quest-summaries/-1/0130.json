@@ -1,8 +1,318 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 130,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T14:22:54.233Z",
+  "summaries": [
+    {
+      "overview": "La recherche des trois œufs demandés précédemment est supposée terminée. Revenez maintenant auprès de Mériana avec l'Oeuf de Monarque, l'Oeuf Végétal et l'Oeuf Surprenant, puis poursuivez les dialogues déclenchés après la levée de la malédiction afin d'achever la quête.",
+      "recommendedLevel": null,
+      "prerequisites": [
+        "Taures et détours",
+        "Avoir déjà récupéré 1 x Oeuf de Monarque, 1 x Oeuf Végétal et 1 x Oeuf Surprenant lors de la portion précédente de la quête."
+      ],
+      "rewards": [
+        "Déblocage de la quête répétable Chasse au trésor archéologique.",
+        "Accès à Éner Brelloq pour obtenir les morceaux nécessaires à la future Tablette de Totankama contre des Trésors archéologiques."
+      ],
+      "preparation": [
+        "Avoir dans l'inventaire 1 x Oeuf de Monarque.",
+        "Avoir dans l'inventaire 1 x Oeuf Végétal.",
+        "Avoir dans l'inventaire 1 x Oeuf Surprenant."
+      ],
+      "actions": [
+        {
+          "instruction": "Retournez auprès de Mériana et remettez-lui les trois œufs demandés : l'Oeuf de Monarque, l'Oeuf Végétal et l'Oeuf Surprenant.",
+          "position": "[-6,-3]",
+          "zoneHint": null,
+          "warning": "Les trois œufs sont consommés pour faire progresser la quête.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Après le rituel de Mériana et le retour du tofu à sa forme humaine, parlez à Éner Brelloq et évoquez le masque de Totankama.",
+          "position": "[-6,-3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Poursuivez la conversation avec Éner Brelloq et demandez où trouver les objets archéologiques qu'il recherche afin de terminer la quête.",
+          "position": "[-6,-3]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les déplacements vers le Cirque de Cania, la Volière de la Haute Truche, le laboratoire secret, le Chanil d'Amakna, Silf le Rasboul Majeur et le Tofu Royal appartiennent à la portion déjà effectuée avant cette occurrence.",
+        "Éner Brelloq explique ensuite le fonctionnement des Trésors archéologiques. La fabrication de la Tablette de Totankama et la collecte des 25 x Trésor archéologique nécessaires à l'achat de 5 morceaux sont des objectifs ultérieurs, pas des actions de cette occurrence.",
+        "Après cette quête, les boss de donjons de niveau 120 à 130 peuvent également fournir 1 x Trésor archéologique."
+      ],
+      "npcs": [
+        "Mériana",
+        "Éner Brelloq"
+      ],
+      "items": [
+        {
+          "name": "Oeuf de Monarque",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Oeuf Végétal",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Oeuf Surprenant",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Trésor archéologique",
+          "itemId": 32378,
+          "imageUrl": "/items/32378.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/32378"
+        },
+        {
+          "name": "Morceau de tablette de Totankama",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Tablette de Totankama",
+          "itemId": 15391,
+          "imageUrl": "/items/15391.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15391"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 923,
+            "name": "Ankama",
+            "coordinates": [
+              "-6,-3"
+            ]
+          },
+          {
+            "id": 232,
+            "name": "Marécages nauséabonds",
+            "coordinates": [
+              "-6,-3"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-6,-3"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2549,
+            "name": "Boostif l'Affamé",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2549.png"
+          },
+          {
+            "id": 2439,
+            "name": "Crolnareff l'Exilé",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2439.png"
+          },
+          {
+            "id": 2428,
+            "name": "Crok le Beau",
+            "level": 61,
+            "imageUrl": "/bestiary/monsters/2428.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 208,
+            "name": "Gadouilleux",
+            "monsters": [
+              {
+                "id": 263,
+                "name": "Chef Crocodaille",
+                "level": 61,
+                "imageUrl": "/bestiary/monsters/263.png"
+              },
+              {
+                "id": 261,
+                "name": "Crocodaille",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/261.png"
+              },
+              {
+                "id": 112,
+                "name": "Boo",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/112.png"
+              },
+              {
+                "id": 4833,
+                "name": "Arakne Olithique",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4833.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1463",
+      "relation": "FINISH",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/comment-perdre-ses-plumes.html",
+      "sourceTitle": "Comment perdre ses plumes",
+      "sourceHash": "e9a67cc1f59d9cc45cf6343533b40f485be6ee04ac3b95fbaca57837c6aabba5",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "La quête est déjà en cours. Pour cette occurrence, rendez-vous au donjon des Blops et battez le Blop Multicolore Royal dans l'Antre du Blop Multicolore Royal. Ne faites pas encore le retour auprès d'Anne Ullaire ni le déplacement vers Lorie Culère : ces dialogues correspondent à la conclusion de la quête.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Niveau > 99.",
+        "Tour à tour.",
+        "Avoir déjà accepté la mission d'Anne Ullaire en [-45,19]."
+      ],
+      "rewards": [
+        "3 883 723 XP.",
+        "40 272 kamas.",
+        "1 x Fleur de Blop Multicolore Royal."
+      ],
+      "preparation": [
+        "Prévoir l'accès à l'Antre du Blop Multicolore Royal.",
+        "Anne Ullaire fournit une clef du donjon, mais le trousseau de clefs peut être utilisé à la place s'il est disponible.",
+        "Une sauvegarde au boss permet d'éviter de refaire le Clos des Blops avant d'accéder à l'Antre du Blop Multicolore Royal."
+      ],
+      "actions": [
+        {
+          "instruction": "Rendez-vous à l'entrée du donjon des Blops en [-7,-43]. Si vous disposez déjà d'une sauvegarde permettant l'accès au boss, utilisez-la ; sinon, progressez par le Clos des Blops pour atteindre l'Antre du Blop Multicolore Royal.",
+          "position": "[-7,-43]",
+          "zoneHint": null,
+          "warning": "Sans sauvegarde au boss, il faut refaire le Clos des Blops avant de pouvoir accéder à l'Antre du Blop Multicolore Royal.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Effectuez l'Antre du Blop Multicolore Royal et battez le Blop Multicolore Royal.",
+          "position": "[-7,-43]",
+          "zoneHint": "Antre du Blop Multicolore Royal",
+          "warning": "Combat de boss de donjon ; préparez un groupe adapté si nécessaire.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "Arrêtez cette occurrence après la victoire contre le Blop Multicolore Royal.",
+        "Le retour auprès d'Anne Ullaire en [-45,19], puis le déplacement auprès de Lorie Culère en [16,27], terminent la quête et sont volontairement laissés pour la reprise prévue par le guide."
+      ],
+      "npcs": [
+        "Anne Ullaire",
+        "Lorie Culère",
+        "Blop Multicolore Royal"
+      ],
+      "items": [
+        {
+          "name": "Fleur de Blop Multicolore Royal",
+          "itemId": 9391,
+          "imageUrl": "/items/9391.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/9391"
+        },
+        {
+          "name": "Clef de l'Antre du Blop Multicolore Royal",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 796,
+            "name": "Antre du Blop Multicolore Royal",
+            "coordinates": [
+              "-7,-43"
+            ]
+          },
+          {
+            "id": 493,
+            "name": "Clos des Blops",
+            "coordinates": [
+              "-7,-43"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 210,
+            "name": "Blops",
+            "monsters": [
+              {
+                "id": 273,
+                "name": "Blop Coco",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/273.png"
+              },
+              {
+                "id": 275,
+                "name": "Blop Griotte",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/275.png"
+              },
+              {
+                "id": 274,
+                "name": "Blop Indigo",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/274.png"
+              },
+              {
+                "id": 276,
+                "name": "Blop Reinette",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/276.png"
+              },
+              {
+                "id": 1182,
+                "name": "Blopignon",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/1182.png"
+              },
+              {
+                "id": 1181,
+                "name": "Gloutoblop",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/1181.png"
+              },
+              {
+                "id": 1183,
+                "name": "Tronkoblop",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/1183.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:614",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/tour-de-table.html",
+      "sourceTitle": "Tour de table",
+      "sourceHash": "35b8fe45ceb7daa7d815a47d6f7c7f01ce5b73ab9a7f75955cc5da1ef0f79669",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

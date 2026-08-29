@@ -1,8 +1,762 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 149,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T14:23:20.518Z",
+  "summaries": [
+    {
+      "overview": "La méditation à Plantala, le combat contre les Moskitos et le suivi de la Lumière dorée jusqu'à l'entrée de la Bambusaie sont supposés déjà accomplis. Reprenez en entrant dans la Bambusaie de Damadrya, puis poursuivez la recherche de l'ambre spirituel jusqu'à sa purification et au retour auprès de l'Esprit serein.",
+      "recommendedLevel": 110,
+      "prerequisites": [
+        "Comme un corbac sur sa branche."
+      ],
+      "rewards": [
+        "3 116 628 XP.",
+        "34 272 Kamas.",
+        "3 x Truk divin."
+      ],
+      "preparation": [
+        "Avoir progressé jusqu'au moment où la Lumière dorée entre dans la Bambusaie de Damadrya.",
+        "Disposer de l'Anneau Ocre confié par Otomaï pour purifier l'Ambre spirituel."
+      ],
+      "actions": [
+        {
+          "instruction": "Entrez dans la Bambusaie de Damadrya en suivant la Lumière dorée et vainquez Damadrya.",
+          "position": "[26,-30]",
+          "zoneHint": "Bambusaie de Damadrya",
+          "warning": "Donjon avec combat contre Damadrya.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Avant de quitter le donjon, parlez à Damadrya et choisissez de retrouver peu à peu votre calme après la frénésie des combats. Écoutez ses indications sur l'ami des Plantalas à ramener sur sa terre natale.",
+          "position": null,
+          "zoneHint": "Bambusaie de Damadrya",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Placez-vous à côté de la Lumière dorée et interagissez avec elle pour avancer dans la lumière et être transporté vers le Bois de Litneg.",
+          "position": null,
+          "zoneHint": "Bambusaie de Damadrya",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à la sépulture en [-14,-59], parlez au Trooll profanateur et envoyez les trois monstres en Externam.",
+          "position": "[-14,-59]",
+          "zoneHint": "Bois de Litneg",
+          "warning": "Un combat contre les Troolls se déclenche et peut être réalisé en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, parlez au Fantôme déraciné, puis placez-vous près de la Pousse apparue et parlez au Pousse de bambou afin de l'emporter vers Pandala.",
+          "position": "[-14,-59]",
+          "zoneHint": "Bois de Litneg",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez devant la source spirituelle de Plantala et cliquez sur la statue Pandawa en bas à droite pour enterrer le pousse.",
+          "position": "[24,-35]",
+          "zoneHint": "Plantala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à l'Âme renaissante afin qu'elle transforme la Lumière dorée en Ambre spirituel.",
+          "position": "[24,-35]",
+          "zoneHint": "Plantala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Équipez l'Anneau Ocre à la place de l'un de vos anneaux, puis double-cliquez sur l'Ambre spirituel dans l'inventaire de quête afin d'obtenir 1 x Ambre jaune purifié.",
+          "position": "[24,-35]",
+          "zoneHint": "Plantala",
+          "warning": "L'Anneau Ocre doit être équipé avant d'utiliser l'Ambre spirituel.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à l'Esprit serein et rassurez-le en expliquant que les trois ambres permettront de renouveler le serment de Terrakourial et d'empêcher le mal de la forêt maléfique de s'échapper.",
+          "position": "[24,-35]",
+          "zoneHint": "Plantala",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête se termine après l'échange avec l'Esprit serein.",
+        "En continuant la conversation avec l'Esprit serein, la quête Pas de fumée sans feu devient disponible."
+      ],
+      "npcs": [
+        "Damadrya",
+        "Trooll profanateur",
+        "Fantôme déraciné",
+        "Pousse de bambou",
+        "Âme renaissante",
+        "Esprit serein"
+      ],
+      "items": [
+        {
+          "name": "Anneau Ocre",
+          "itemId": 26366,
+          "imageUrl": "/items/26366.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26366"
+        },
+        {
+          "name": "Ambre spirituel",
+          "itemId": 26371,
+          "imageUrl": "/items/26371.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26371"
+        },
+        {
+          "name": "Ambre jaune purifié",
+          "itemId": 26372,
+          "imageUrl": "/items/26372.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/26372"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 946,
+            "name": "Bambusaie de Damadrya",
+            "coordinates": [
+              "26,-30"
+            ]
+          },
+          {
+            "id": 69,
+            "name": "Bois de Litneg",
+            "coordinates": [
+              "-14,-59"
+            ]
+          },
+          {
+            "id": 942,
+            "name": "Plantala",
+            "coordinates": [
+              "24,-35"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 459,
+            "name": "Padgref Demoël",
+            "level": 130,
+            "imageUrl": "/bestiary/monsters/459.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2321,
+            "name": "Chafalfer l'Optimiste",
+            "level": 25,
+            "imageUrl": "/bestiary/monsters/2321.png"
+          },
+          {
+            "id": 2319,
+            "name": "Chafemal le Bagarreur",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2319.png"
+          },
+          {
+            "id": 2421,
+            "name": "Chaffoin le Sournois",
+            "level": 33,
+            "imageUrl": "/bestiary/monsters/2421.png"
+          },
+          {
+            "id": 2276,
+            "name": "Ribibi le Cher",
+            "level": 34,
+            "imageUrl": "/bestiary/monsters/2276.png"
+          },
+          {
+            "id": 2320,
+            "name": "Chafmarcel le Fêtard",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2320.png"
+          },
+          {
+            "id": 2322,
+            "name": "Chalan le Commerçant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2322.png"
+          },
+          {
+            "id": 2548,
+            "name": "Bambouské le Camouflé",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2548.png"
+          },
+          {
+            "id": 2415,
+            "name": "Bulsavon le Gonflé",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2415.png"
+          },
+          {
+            "id": 2392,
+            "name": "Floriste la Cannibale",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2392.png"
+          },
+          {
+            "id": 2593,
+            "name": "Grenuche la Gentille",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2593.png"
+          },
+          {
+            "id": 2300,
+            "name": "Trooyé l'Oxydé",
+            "level": 112,
+            "imageUrl": "/bestiary/monsters/2300.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 191,
+            "name": "Chafers d'Amakna",
+            "monsters": [
+              {
+                "id": 54,
+                "name": "Chafer",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/54.png"
+              },
+              {
+                "id": 110,
+                "name": "Chafer Invisible",
+                "level": 25,
+                "imageUrl": "/bestiary/monsters/110.png"
+              },
+              {
+                "id": 396,
+                "name": "Chafer Fantassin",
+                "level": 33,
+                "imageUrl": "/bestiary/monsters/396.png"
+              },
+              {
+                "id": 108,
+                "name": "Rib",
+                "level": 34,
+                "imageUrl": "/bestiary/monsters/108.png"
+              }
+            ]
+          },
+          {
+            "id": 9048,
+            "name": "Chafers des cités",
+            "monsters": [
+              {
+                "id": 291,
+                "name": "Chafer Archer",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/291.png"
+              },
+              {
+                "id": 290,
+                "name": "Chafer Lancier",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/290.png"
+              }
+            ]
+          },
+          {
+            "id": 3045,
+            "name": "Plantalas",
+            "monsters": [
+              {
+                "id": 6318,
+                "name": "Bambouto",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6318.png"
+              },
+              {
+                "id": 6320,
+                "name": "Floristile",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6320.png"
+              },
+              {
+                "id": 6321,
+                "name": "Bulbuisson",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6321.png"
+              },
+              {
+                "id": 6323,
+                "name": "Grenufar",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6323.png"
+              },
+              {
+                "id": 6322,
+                "name": "Bulbiflore",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6322.png"
+              }
+            ]
+          },
+          {
+            "id": 1520,
+            "name": "Troolls de Litneg",
+            "monsters": [
+              {
+                "id": 233,
+                "name": "Troollaraj",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/233.png"
+              },
+              {
+                "id": 4538,
+                "name": "Troolligark",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/4538.png"
+              },
+              {
+                "id": 4540,
+                "name": "Troollogram",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/4540.png"
+              },
+              {
+                "id": 4539,
+                "name": "Troolléolé",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/4539.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1406",
+      "relation": "FINISH",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/rester-plante-la.html",
+      "sourceTitle": "Rester planté là",
+      "sourceHash": "daea1beafd6b85abb03eaa2321c41688b0db63fe87f35d347bd530234b1a12e9",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "L'enquête sur l'exploitation de la bambusaie, la récupération et la lecture de la page du registre en salle 4 ainsi que la progression jusqu'à Damadrya sont supposées accomplies. Après avoir affronté la gardienne, poursuivez l'enquête, obtenez la Griffe du Bois puis rendez compte à la Daimya Hikomi.",
+      "recommendedLevel": 110,
+      "prerequisites": [
+        "À la croisée des mondes."
+      ],
+      "rewards": [
+        "2 597 190 XP.",
+        "28 560 Kamas.",
+        "3 x Nectar Vivifiant.",
+        "3 x Pollen de Bulbiflore."
+      ],
+      "preparation": [
+        "Avoir lu la Page du registre d’exploitation de la bambusaie en salle 4 avant de poursuivre le donjon.",
+        "Être arrivé jusqu'à Damadrya dans la Bambusaie et avoir effectué le combat demandé par le parcours du guide."
+      ],
+      "actions": [
+        {
+          "instruction": "Après le combat contre Damadrya, parlez-lui pour en savoir plus sur elle et apprenez que Kykori organise la surexploitation de la forêt. Quittez ensuite la Bambusaie pour partir à la poursuite de Kykori.",
+          "position": null,
+          "zoneHint": "Bambusaie de Damadrya",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous en [18,-29], parlez à Kykori et accusez-la de ses crimes en vous appuyant sur la page de registre trouvée dans le donjon.",
+          "position": "[18,-29]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Négociant amaknéen, refusez sa proposition et préparez-vous à combattre lorsqu'il vous menace.",
+          "position": "[18,-29]",
+          "zoneHint": null,
+          "warning": "Le refus conduit à un combat réalisable en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, récupérez le Registre d’exploitation de bambusai, puis retournez en [22,-29] auprès de la Daimya Hikomi et présentez-lui cette preuve contre Kykori.",
+          "position": "[22,-29]",
+          "zoneHint": "Village de Pandala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la même pièce, parlez au Serviteur de la Daimya afin de récupérer la Pousse de bambou sacrée.",
+          "position": "[22,-29]",
+          "zoneHint": "Village de Pandala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez devant le donjon en [26,-30], parlez à Vusi et indiquez que vous avez un présent à offrir à la maîtresse des lieux.",
+          "position": "[26,-30]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Damadrya, inclinez-vous respectueusement et offrez-lui la Pousse de bambou sacrée de la part de la Daimya. Elle vous indique ensuite de chercher l'Esprit du Bois auprès de l'arbre Goroku.",
+          "position": "[26,-30]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez en [26,-32], parlez au Fruit de l’arbre Goroku et choisissez de le couper en deux pour accélérer son retour sur l'arbre.",
+          "position": "[26,-32]",
+          "zoneHint": null,
+          "warning": "Ce choix déclenche un combat réalisable en groupe.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, plantez les Pépins spirituels au pied de l'arbre sur cette même carte, puis utilisez le Quartier de fruit Goroku pour rejoindre la clairière des esprits.",
+          "position": "[26,-32]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la clairière des esprits, allez vers la droite et parlez à l'Esprit du Bois. Répondez dans cet ordre : sentir son hostilité et bredouiller des excuses ; essayer de percevoir ce qu'il écoute ; entendre les grincements des tiges des bambous ; entendre la voix de Damadrya qui chante pour une jeune pousse ; entendre le rire d'un fruit en train de mûrir.",
+          "position": null,
+          "zoneHint": "Clairière des esprits",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Expliquez à l'Esprit du Bois que vous êtes guidé par les dragons de Pandala et que vous recherchez sa griffe, puis donnez votre accord au marché qu'il propose sans en révéler immédiatement la contrepartie.",
+          "position": null,
+          "zoneHint": "Clairière des esprits",
+          "warning": "Vous acceptez un marché dont la contrepartie n'est pas encore précisée.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Après avoir obtenu la Griffe du Bois, retournez en [22,-29] auprès de la Daimya Hikomi et racontez-lui que Damadrya a accepté la pousse et que l'Esprit du Bois vous a remis sa griffe en échange d'un marché.",
+          "position": "[22,-29]",
+          "zoneHint": "Village de Pandala",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête se termine auprès de la Daimya Hikomi.",
+        "En poursuivant la conversation avec la Daimya Hikomi, vous obtenez la quête Au nom de l’Art."
+      ],
+      "npcs": [
+        "Damadrya",
+        "Kykori",
+        "Négociant amaknéen",
+        "Daimya Hikomi",
+        "Serviteur de la Daimya",
+        "Vusi",
+        "Fruit de l’arbre Goroku",
+        "Esprit du Bois"
+      ],
+      "items": [
+        {
+          "name": "Page du registre d'exploitation de la bambusaie",
+          "itemId": 23206,
+          "imageUrl": "/items/23206.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23206"
+        },
+        {
+          "name": "Registre d’exploitation de bambusai",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Pousse de bambou sacrée",
+          "itemId": 23096,
+          "imageUrl": "/items/23096.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23096"
+        },
+        {
+          "name": "Pépins spirituels",
+          "itemId": 23494,
+          "imageUrl": "/items/23494.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23494"
+        },
+        {
+          "name": "Quartier de fruit Goroku",
+          "itemId": 23495,
+          "imageUrl": "/items/23495.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23495"
+        },
+        {
+          "name": "Griffe du Bois",
+          "itemId": 23203,
+          "imageUrl": "/items/23203.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23203"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 946,
+            "name": "Bambusaie de Damadrya",
+            "coordinates": []
+          },
+          {
+            "id": 942,
+            "name": "Plantala",
+            "coordinates": [
+              "26,-30",
+              "26,-32"
+            ]
+          },
+          {
+            "id": 951,
+            "name": "Village de Pandala",
+            "coordinates": [
+              "18,-29",
+              "22,-29"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2548,
+            "name": "Bambouské le Camouflé",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2548.png"
+          },
+          {
+            "id": 2415,
+            "name": "Bulsavon le Gonflé",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2415.png"
+          },
+          {
+            "id": 2392,
+            "name": "Floriste la Cannibale",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2392.png"
+          },
+          {
+            "id": 2593,
+            "name": "Grenuche la Gentille",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2593.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 3045,
+            "name": "Plantalas",
+            "monsters": [
+              {
+                "id": 6318,
+                "name": "Bambouto",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6318.png"
+              },
+              {
+                "id": 6320,
+                "name": "Floristile",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6320.png"
+              },
+              {
+                "id": 6321,
+                "name": "Bulbuisson",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6321.png"
+              },
+              {
+                "id": 6323,
+                "name": "Grenufar",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6323.png"
+              },
+              {
+                "id": 6322,
+                "name": "Bulbiflore",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6322.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1316",
+      "relation": "FINISH",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/sous-le-bois-de-sa-colere.html",
+      "sourceTitle": "Sous le bois de sa colère",
+      "sourceHash": "033b8f8ff99a8261c8f804688432a97d0d03876b9f5718f423d008539c9a7ecc",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Toute la quête jusqu'à la demande de Sobomori de rapporter 1 x Feuille de Damadrya est supposée accomplie. Le donjon de la Bambusaie réalisé avec les autres quêtes de l'étape vous a permis d'obtenir automatiquement cette feuille sur Damadrya. Il ne reste qu'à la remettre à Sobomori puis à achever la transformation d'Inataba.",
+      "recommendedLevel": 110,
+      "prerequisites": [
+        "Le réveil de Pandala.",
+        "Dites-le avec des fleurs jusqu'à rencontrer et aider Sobomori (bloque une étape)."
+      ],
+      "rewards": [
+        "2 597 190 XP.",
+        "28 560 Kamas.",
+        "5 x Tige de Bambouto.",
+        "5 x Pistil de Floristile."
+      ],
+      "preparation": [
+        "Avoir obtenu 1 x Feuille de Damadrya en vainquant Damadrya dans la Bambusaie de Damadrya."
+      ],
+      "actions": [
+        {
+          "instruction": "Retournez en [24,-31] auprès de Sobomori et donnez-lui 1 x Feuille de Damadrya. Elle prépare alors un Philtre végétalisant et vous le remet.",
+          "position": "[24,-31]",
+          "zoneHint": "Plantala",
+          "warning": "Cette reprise nécessite 1 x Feuille de Damadrya obtenue automatiquement sur Damadrya.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous en [27,-29] auprès de Inataba et donnez-lui le Philtre végétalisant. Il le boit et se transforme en arbre.",
+          "position": "[27,-29]",
+          "zoneHint": "Plantala",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparlez à Inataba sous sa forme d'arbre, puis accrochez le ruban témoignant de l'amour entre Inataba et Yinagi à leurs branches respectives.",
+          "position": "[27,-29]",
+          "zoneHint": "Plantala",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête se termine après avoir accroché le ruban aux branches d'Inataba et de Yinagi.",
+        "Les étapes antérieures, notamment la collecte des ressources, les combats, la fabrication du remède et la protection du Saule argenté, sont supposées déjà accomplies à cette occurrence."
+      ],
+      "npcs": [
+        "Sobomori",
+        "Inataba",
+        "Yinagi"
+      ],
+      "items": [
+        {
+          "name": "Feuille de Damadrya",
+          "itemId": 23350,
+          "imageUrl": "/items/23350.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23350"
+        },
+        {
+          "name": "Philtre végétalisant",
+          "itemId": 23351,
+          "imageUrl": "/items/23351.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/23351"
+        },
+        {
+          "name": "Ruban",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 942,
+            "name": "Plantala",
+            "coordinates": [
+              "24,-31",
+              "27,-29"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2548,
+            "name": "Bambouské le Camouflé",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2548.png"
+          },
+          {
+            "id": 2415,
+            "name": "Bulsavon le Gonflé",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2415.png"
+          },
+          {
+            "id": 2392,
+            "name": "Floriste la Cannibale",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2392.png"
+          },
+          {
+            "id": 2593,
+            "name": "Grenuche la Gentille",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2593.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 3045,
+            "name": "Plantalas",
+            "monsters": [
+              {
+                "id": 6318,
+                "name": "Bambouto",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6318.png"
+              },
+              {
+                "id": 6320,
+                "name": "Floristile",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6320.png"
+              },
+              {
+                "id": 6321,
+                "name": "Bulbuisson",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6321.png"
+              },
+              {
+                "id": 6323,
+                "name": "Grenufar",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/6323.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1326",
+      "relation": "FINISH",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-saule-du-promeneur.html",
+      "sourceTitle": "Le Saule du Promeneur",
+      "sourceHash": "529816fe89cfb0987f3752769193397da64315c40197739dc5b4d5a9f1f775b2",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Rentabiliser la Bambusaie de Damadrya",
+      "description": "Les trois quêtes de cette étape convergent sur le même passage par la Bambusaie de Damadrya : le combat contre Damadrya permet de reprendre Rester planté là, de poursuivre Sous le bois de sa colère et d'obtenir automatiquement la Feuille de Damadrya nécessaire pour terminer Le saule du promeneur.",
+      "questKeys": [
+        "quest:1406",
+        "quest:1316",
+        "quest:1326"
+      ],
+      "actions": [
+        "Avant de quitter la Bambusaie, validez les dialogues nécessaires auprès de Damadrya pour Rester planté là et Sous le bois de sa colère.",
+        "Conservez la Feuille de Damadrya obtenue sur le boss afin de la remettre ensuite à Sobomori pour Le saule du promeneur."
+      ]
+    }
+  ]
 }

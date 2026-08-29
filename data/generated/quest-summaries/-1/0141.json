@@ -1,8 +1,454 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 141,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T14:23:07.753Z",
+  "summaries": [
+    {
+      "overview": "La quête a déjà été avancée jusqu'à l'objectif demandant de rapporter 10 Fragments de mémoire de Xélomorphe à Doc Emiette Borgne, et ces fragments sont supposés récupérés. Reprenez maintenant à l'avant-poste pour remettre les objets demandés et terminer la quête, ce qui permet d'enchaîner sur Prisonniers du temps.",
+      "recommendedLevel": 120,
+      "prerequisites": [
+        "C'est ton destin",
+        "Avoir déjà avancé Retour vers le présent jusqu'à l'objectif demandant de ramener 10 Fragments de mémoire de Xélomorphe à Doc Emiette Borgne.",
+        "Disposer des 10 Fragments de mémoire de Xélomorphe obtenus sur les monstres des Chemins d'hier.",
+        "Avoir conservé le Tournevis sonique confié par le Docteur Hou."
+      ],
+      "rewards": [
+        "1 618 218 XP",
+        "16 780 Kamas",
+        "20 x Orichor",
+        "5 x Pixel de Farfacette"
+      ],
+      "preparation": [
+        "Vérifiez que les 10 Fragments de mémoire de Xélomorphe et le Tournevis sonique sont disponibles dans vos objets de quête."
+      ],
+      "actions": [
+        {
+          "instruction": "Retournez à l'avant-poste du Xélorium et parlez à Doc Emiette Borgne. Remettez-lui les 10 Fragments de mémoire de Xélomorphe ainsi que le Tournevis sonique.",
+          "position": "[1,6]",
+          "zoneHint": "Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Poursuivez le dialogue avec Doc Emiette Borgne et demandez si l'appareil a fonctionné. Son essai s'avère insuffisant, ce qui clôt Retour vers le présent.",
+          "position": "[1,6]",
+          "zoneHint": "Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les déplacements vers le Docteur Hou, le Major Qiu et la collecte des 10 fragments ont été effectués lors de l'occurrence précédente et ne sont pas à refaire ici.",
+        "La fin de cette quête débloque Prisonniers du temps, qui est lancée dans l'occurrence suivante de cette même étape."
+      ],
+      "npcs": [
+        "Doc Emiette Borgne",
+        "Docteur Hou",
+        "Major Qiu"
+      ],
+      "items": [
+        {
+          "name": "Fragment de mémoire de Xélomorphe",
+          "itemId": 15879,
+          "imageUrl": "/items/15879.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15879"
+        },
+        {
+          "name": "Tournevis sonique",
+          "itemId": 15871,
+          "imageUrl": "/items/15871.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15871"
+        },
+        {
+          "name": "Sac de pièces détachées",
+          "itemId": 15872,
+          "imageUrl": "/items/15872.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15872"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 836,
+            "name": "Chemins d'hier",
+            "coordinates": [
+              "1,6"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3845,
+            "name": "Morblok",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/3845.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1171,
+            "name": "Xélomorphes",
+            "monsters": [
+              {
+                "id": 3854,
+                "name": "Gromorso",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3854.png"
+              },
+              {
+                "id": 3855,
+                "name": "Farfacette",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3855.png"
+              },
+              {
+                "id": 3856,
+                "name": "Brikablak",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3856.png"
+              },
+              {
+                "id": 3857,
+                "name": "Éklatleth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3857.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:870",
+      "relation": "FINISH",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/retour-vers-le-preacutesent.html",
+      "sourceTitle": "Retour vers le présent",
+      "sourceHash": "fd6f9b6a64e7cfd4647654f525bef9b5ded9ae022d14f7dd56319facefda09ea",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Lancez Prisonniers du temps auprès de Doc Emiette Borgne, récupérez les deux objets nécessaires au prélèvement du fragment de Fraktale, puis effectuez le Mégalithe de Fraktale jusqu'à vaincre Fraktale. L'utilisation du Détecteur portable sur la carte de fin et le retour auprès de Doc sont volontairement réservés à l'occurrence FINISH suivante.",
+      "recommendedLevel": 120,
+      "prerequisites": [
+        "Anomalies temporelles",
+        "Retour vers le présent"
+      ],
+      "rewards": [
+        "3 236 436 XP",
+        "33 560 Kamas",
+        "20 x Orichor",
+        "3 x Pixel de Segmantid"
+      ],
+      "preparation": [
+        "Prévoir de réaliser le donjon Mégalithe de Fraktale.",
+        "Préparez un groupe adapté si nécessaire pour vaincre Fraktale."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Doc Emiette Borgne pour lancer Prisonniers du temps et renseignez-vous sur ses recherches concernant les Voyageurs perdus. Il vous envoie demander conseil à la Gardienne du Muséum.",
+          "position": "[1,6]",
+          "zoneHint": "Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous auprès de la Gardienne du Muséum et parlez-lui de Fraktale. Elle vous indique qu'il faut récupérer la Lame de Légende dans le Temple du Temps.",
+          "position": "[3,1]",
+          "zoneHint": "Jour présent",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez au Temple du Temps et utilisez l'appareil situé au fond afin d'obtenir la Lame de Légende.",
+          "position": "[4,2]",
+          "zoneHint": "Jour présent",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Doc Emiette Borgne, montrez-lui la Lame de Légende et récupérez le Détecteur portable destiné à conserver la puissance du fragment.",
+          "position": "[1,6]",
+          "zoneHint": "Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans le Mégalithe de Fraktale, progressez dans le donjon et vainquez Fraktale.",
+          "position": null,
+          "zoneHint": "Mégalithe de Fraktale",
+          "warning": "Ne quittez pas la carte de fin du donjon après la victoire : le Détecteur portable devra impérativement y être utilisé lors de l'occurrence FINISH suivante.",
+          "combat": "GROUP"
+        }
+      ],
+      "notes": [
+        "Cette occurrence s'arrête après la victoire contre Fraktale, conformément au découpage du guide.",
+        "Ne double-cliquez pas encore sur le Détecteur portable dans cette checklist : cette manipulation et le rendu final appartiennent à l'occurrence FINISH immédiatement suivante."
+      ],
+      "npcs": [
+        "Doc Emiette Borgne",
+        "Gardienne du Muséum",
+        "Fraktale"
+      ],
+      "items": [
+        {
+          "name": "Lame de Légende",
+          "itemId": 15873,
+          "imageUrl": "/items/15873.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15873"
+        },
+        {
+          "name": "Détecteur portable",
+          "itemId": 15874,
+          "imageUrl": "/items/15874.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15874"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 836,
+            "name": "Chemins d'hier",
+            "coordinates": [
+              "1,6"
+            ]
+          },
+          {
+            "id": 837,
+            "name": "Jour présent",
+            "coordinates": [
+              "3,1",
+              "4,2"
+            ]
+          },
+          {
+            "id": 839,
+            "name": "Mégalithe de Fraktale",
+            "coordinates": []
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3845,
+            "name": "Morblok",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/3845.png"
+          },
+          {
+            "id": 3848,
+            "name": "Hin",
+            "level": 170,
+            "imageUrl": "/bestiary/monsters/3848.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1172,
+            "name": "Hordémons",
+            "monsters": [
+              {
+                "id": 3840,
+                "name": "Trezz",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3840.png"
+              },
+              {
+                "id": 3841,
+                "name": "Vindeux",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3841.png"
+              },
+              {
+                "id": 3842,
+                "name": "Trantroa",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3842.png"
+              },
+              {
+                "id": 3843,
+                "name": "Seith",
+                "level": 162,
+                "imageUrl": "/bestiary/monsters/3843.png"
+              }
+            ]
+          },
+          {
+            "id": 1171,
+            "name": "Xélomorphes",
+            "monsters": [
+              {
+                "id": 3854,
+                "name": "Gromorso",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3854.png"
+              },
+              {
+                "id": 3855,
+                "name": "Farfacette",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3855.png"
+              },
+              {
+                "id": 3856,
+                "name": "Brikablak",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3856.png"
+              },
+              {
+                "id": 3857,
+                "name": "Éklatleth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3857.png"
+              },
+              {
+                "id": 3858,
+                "name": "Segmantid",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3858.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:871",
+      "relation": "START",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/prisonniers-du-temps.html",
+      "sourceTitle": "Prisonniers du temps",
+      "sourceHash": "ac5818c13bcbaa916175766a276bfd40543197a47e5dbfdab3be8734a25bbbe8",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Fraktale est supposée vaincue lors de l'occurrence START précédente et vous devez reprendre sur la carte de fin du Mégalithe de Fraktale. Activez immédiatement le Détecteur portable avant de quitter le donjon, puis rapportez-le à Doc Emiette Borgne pour terminer la quête.",
+      "recommendedLevel": 120,
+      "prerequisites": [
+        "Anomalies temporelles",
+        "Retour vers le présent",
+        "Avoir lancé Prisonniers du temps, obtenu la Lame de Légende puis le Détecteur portable.",
+        "Avoir vaincu Fraktale et être encore sur la carte de fin du Mégalithe de Fraktale."
+      ],
+      "rewards": [
+        "3 236 436 XP",
+        "33 560 Kamas",
+        "20 x Orichor",
+        "3 x Pixel de Segmantid"
+      ],
+      "preparation": [
+        "Vérifiez que le Détecteur portable est toujours présent dans votre inventaire de quête avant de quitter la carte de fin."
+      ],
+      "actions": [
+        {
+          "instruction": "Sur la carte de fin du Mégalithe de Fraktale, double-cliquez sur le Détecteur portable dans votre inventaire de quête afin d'y enregistrer immédiatement le fragment obtenu après la victoire.",
+          "position": null,
+          "zoneHint": "Mégalithe de Fraktale",
+          "warning": "Cette utilisation doit absolument être effectuée sur la carte de fin du donjon avant d'en sortir.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez à l'avant-poste et parlez à Doc Emiette Borgne. Remettez-lui le détecteur chargé ; il confirme que la localisation des Voyageurs perdus a réussi, ce qui termine la quête.",
+          "position": "[1,6]",
+          "zoneHint": "Chemins d'hier",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La récupération de la Lame de Légende, du Détecteur portable et la victoire contre Fraktale sont supposées déjà accomplies lors de l'occurrence START précédente.",
+        "La fin de Prisonniers du temps clôt également le succès concerné dans cette séquence."
+      ],
+      "npcs": [
+        "Doc Emiette Borgne",
+        "Fraktale"
+      ],
+      "items": [
+        {
+          "name": "Détecteur portable",
+          "itemId": 15874,
+          "imageUrl": "/items/15874.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15874"
+        },
+        {
+          "name": "Lame de Légende",
+          "itemId": 15873,
+          "imageUrl": "/items/15873.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15873"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 836,
+            "name": "Chemins d'hier",
+            "coordinates": [
+              "1,6"
+            ]
+          },
+          {
+            "id": 839,
+            "name": "Mégalithe de Fraktale",
+            "coordinates": []
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3845,
+            "name": "Morblok",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/3845.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1171,
+            "name": "Xélomorphes",
+            "monsters": [
+              {
+                "id": 3854,
+                "name": "Gromorso",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3854.png"
+              },
+              {
+                "id": 3855,
+                "name": "Farfacette",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3855.png"
+              },
+              {
+                "id": 3856,
+                "name": "Brikablak",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3856.png"
+              },
+              {
+                "id": 3857,
+                "name": "Éklatleth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3857.png"
+              },
+              {
+                "id": 3858,
+                "name": "Segmantid",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3858.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:871",
+      "relation": "FINISH",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/prisonniers-du-temps.html",
+      "sourceTitle": "Prisonniers du temps",
+      "sourceHash": "ac5818c13bcbaa916175766a276bfd40543197a47e5dbfdab3be8734a25bbbe8",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

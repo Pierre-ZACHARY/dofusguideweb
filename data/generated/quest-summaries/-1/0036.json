@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 36,
-  "updatedAt": "2026-08-27T13:32:14.651Z",
+  "updatedAt": "2026-08-29T09:59:06.297Z",
   "summaries": [
     {
       "overview": "Devenez Bontarien auprès d'Amayiro, puis affrontez Tarche en duel dans la milice de Bonta avant de rapporter la preuve de votre victoire. Cette première quête d'alignement débloque « La serveuse Dame Cloude » et permet aussi, sous conditions, d'accéder à « La destinée ».",
@@ -76,6 +76,13 @@
           {
             "id": 975,
             "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
             "coordinates": [
               "-32,-57"
             ]
@@ -276,6 +283,13 @@
             "coordinates": [
               "-77,-42",
               "-78,-43"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
             ]
           }
         ],
@@ -516,8 +530,8 @@
       "bestiary": {
         "zones": [
           {
-            "id": 601,
-            "name": "La Bourgade",
+            "id": 778,
+            "name": "Mine",
             "coordinates": [
               "-77,-42"
             ]
@@ -786,6 +800,13 @@
             ]
           },
           {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-77,-42"
+            ]
+          },
+          {
             "id": 600,
             "name": "Port de givre",
             "coordinates": [
@@ -933,8 +954,8 @@
       "bestiary": {
         "zones": [
           {
-            "id": 975,
-            "name": "Cœur immaculé",
+            "id": 778,
+            "name": "Mine",
             "coordinates": [
               "-32,-57"
             ]
@@ -943,93 +964,14 @@
             "id": 448,
             "name": "Taverne",
             "coordinates": [
+              "-32,-57",
               "-29,-59"
             ]
           }
         ],
         "bounties": [],
-        "archmonsters": [
-          {
-            "id": 2343,
-            "name": "Pioufe la Maquillée",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2343.png"
-          },
-          {
-            "id": 2345,
-            "name": "Pioukas la Plante",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2345.png"
-          },
-          {
-            "id": 2342,
-            "name": "Pioulbrineur le Mercenaire",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2342.png"
-          },
-          {
-            "id": 2344,
-            "name": "Pioulette la Coquine",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2344.png"
-          },
-          {
-            "id": 2347,
-            "name": "Pioussokrim le Délétère",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2347.png"
-          },
-          {
-            "id": 2341,
-            "name": "Pioustone le Problème",
-            "level": 11,
-            "imageUrl": "/bestiary/monsters/2341.png"
-          }
-        ],
-        "achievements": [
-          {
-            "id": 217,
-            "name": "Pious",
-            "monsters": [
-              {
-                "id": 491,
-                "name": "Piou Bleu",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/491.png"
-              },
-              {
-                "id": 493,
-                "name": "Piou Jaune",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/493.png"
-              },
-              {
-                "id": 492,
-                "name": "Piou Rose",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/492.png"
-              },
-              {
-                "id": 489,
-                "name": "Piou Rouge",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/489.png"
-              },
-              {
-                "id": 490,
-                "name": "Piou Vert",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/490.png"
-              },
-              {
-                "id": 236,
-                "name": "Piou Violet",
-                "level": 11,
-                "imageUrl": "/bestiary/monsters/236.png"
-              }
-            ]
-          }
-        ]
+        "archmonsters": [],
+        "achievements": []
       },
       "questKey": "quest:4",
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-tenanciegravere-dame-cloude.html",

@@ -8,9 +8,12 @@ import {
   type AccountSession,
   type FollowedProfile,
   type GoogleIdentity,
+  type MetaMobProfileLink,
   type PlayerProfile,
   type ProfileGender,
   type StoredProgressProfile,
+  type StoredMetaMobCredential,
+  type VerifiedDofusIdentity,
 } from "./types.js";
 
 const SESSION_DURATION_MS = 30 * 24 * 60 * 60 * 1000;
@@ -33,6 +36,9 @@ interface PlayerProfileRow {
   breed_id: number;
   gender: ProfileGender;
   avatar_url: string | null;
+  server_id: number | null;
+  server_name: string | null;
+  dofus_verified_at: string | null;
   progress_json: string;
   revision: number;
   share_token: string | null;
@@ -60,6 +66,9 @@ function profileFromRow(row: PlayerProfileRow, isOnline = false): PlayerProfile 
     breedId: row.breed_id,
     gender: row.gender,
     avatarUrl: row.avatar_url,
+    serverId: row.server_id,
+    serverName: row.server_name,
+    dofusVerifiedAt: row.dofus_verified_at,
     progress: parseProgress(row.progress_json),
     revision: row.revision,
     shareToken: row.share_token,
@@ -229,7 +238,8 @@ export class PostgresAccountRepository {
     const onlineProfiles = await this.onlineProfileIds();
     const profiles = (await this.database<PlayerProfileRow[]>`
       SELECT
-        id, owner_user_id, name, breed_id, gender, avatar_url, progress_json, revision, share_token, updated_at
+        id, owner_user_id, name, breed_id, gender, avatar_url, server_id, server_name,
+        dofus_verified_at, progress_json, revision, share_token, updated_at
       FROM player_profiles
       WHERE owner_user_id = ${userId}
     `).map((profile) => profileFromRow(profile, onlineProfiles.has(profile.id)));
@@ -258,6 +268,7 @@ export class PostgresAccountRepository {
     gender: ProfileGender,
     avatarUrl: string | null,
     progress: StoredProgressProfile = emptyStoredProgressProfile(),
+    dofusIdentity: VerifiedDofusIdentity | null = null,
   ): Promise<PlayerProfile> {
     const timestamp = now();
     const row: PlayerProfileRow = {
@@ -267,6 +278,9 @@ export class PostgresAccountRepository {
       breed_id: breedId,
       gender,
       avatar_url: avatarUrl,
+      server_id: dofusIdentity?.serverId ?? null,
+      server_name: dofusIdentity?.serverName ?? null,
+      dofus_verified_at: dofusIdentity?.verifiedAt ?? null,
       progress_json: JSON.stringify(progress),
       revision: 1,
       share_token: null,
@@ -274,10 +288,12 @@ export class PostgresAccountRepository {
     };
     await this.database`
       INSERT INTO player_profiles (
-        id, owner_user_id, name, breed_id, gender, avatar_url, progress_json, revision, share_token, created_at, updated_at
+        id, owner_user_id, name, breed_id, gender, avatar_url, server_id, server_name,
+        dofus_verified_at, progress_json, revision, share_token, created_at, updated_at
       ) VALUES (
         ${row.id}, ${row.owner_user_id}, ${row.name}, ${row.breed_id}, ${row.gender},
-        ${row.avatar_url}, ${row.progress_json}, ${row.revision}, ${row.share_token}, ${timestamp}, ${row.updated_at}
+        ${row.avatar_url}, ${row.server_id}, ${row.server_name}, ${row.dofus_verified_at},
+        ${row.progress_json}, ${row.revision}, ${row.share_token}, ${timestamp}, ${row.updated_at}
       )
     `;
     return profileFromRow(row);
@@ -298,7 +314,7 @@ export class PostgresAccountRepository {
     `;
   }
 
-  async updateProfile(userId: string, profileId: string, name: string, breedId: number, gender: ProfileGender, avatarUrl: string | null): Promise<void> {
+  async updateProfile(userId: string, profileId: string, name: string, breedId: number, gender: ProfileGender, avatarUrl: string | null, dofusIdentity: VerifiedDofusIdentity | null): Promise<void> {
     const changed = await this.database`
       UPDATE player_profiles
       SET
@@ -306,6 +322,9 @@ export class PostgresAccountRepository {
         breed_id = ${breedId},
         gender = ${gender},
         avatar_url = ${avatarUrl},
+        server_id = ${dofusIdentity?.serverId ?? null},
+        server_name = ${dofusIdentity?.serverName ?? null},
+        dofus_verified_at = ${dofusIdentity?.verifiedAt ?? null},
         updated_at = ${now()}
       WHERE id = ${profileId} AND owner_user_id = ${userId}
     `;
@@ -365,10 +384,62 @@ export class PostgresAccountRepository {
     `;
   }
 
+  async getMetaMobCredential(userId: string): Promise<StoredMetaMobCredential | null> {
+    const row = (await this.database<{ user_id: string; username: string; encrypted_api_key: string; encryption_iv: string; updated_at: string }[]>`
+      SELECT user_id, username, encrypted_api_key, encryption_iv, updated_at
+      FROM metamob_credentials WHERE user_id = ${userId} LIMIT 1
+    `)[0];
+    return row === undefined ? null : {
+      userId: row.user_id, username: row.username, encryptedApiKey: row.encrypted_api_key,
+      encryptionIv: row.encryption_iv, updatedAt: row.updated_at,
+    };
+  }
+
+  async saveMetaMobCredential(userId: string, username: string, encryptedApiKey: string, encryptionIv: string): Promise<void> {
+    await this.database`
+      INSERT INTO metamob_credentials (user_id, username, encrypted_api_key, encryption_iv, updated_at)
+      VALUES (${userId}, ${username}, ${encryptedApiKey}, ${encryptionIv}, ${now()})
+      ON CONFLICT (user_id) DO UPDATE SET username = EXCLUDED.username,
+        encrypted_api_key = EXCLUDED.encrypted_api_key, encryption_iv = EXCLUDED.encryption_iv,
+        updated_at = EXCLUDED.updated_at
+    `;
+  }
+
+  async getMetaMobProfileLink(userId: string, profileId: string): Promise<MetaMobProfileLink | null> {
+    const row = (await this.database<{ profile_id: string; owner_user_id: string; quest_slug: string; character_name: string; updated_at: string }[]>`
+      SELECT profile_id, owner_user_id, quest_slug, character_name, updated_at
+      FROM metamob_profile_links WHERE owner_user_id = ${userId} AND profile_id = ${profileId} LIMIT 1
+    `)[0];
+    return row === undefined ? null : {
+      profileId: row.profile_id, ownerUserId: row.owner_user_id, questSlug: row.quest_slug,
+      characterName: row.character_name, updatedAt: row.updated_at,
+    };
+  }
+
+  async saveMetaMobProfileLink(userId: string, profileId: string, questSlug: string, characterName: string): Promise<void> {
+    const owned = (await this.database<{ id: string }[]>`
+      SELECT id FROM player_profiles WHERE id = ${profileId} AND owner_user_id = ${userId} LIMIT 1
+    `)[0];
+    if (owned === undefined) throw new Error("Profil introuvable");
+    await this.database`
+      INSERT INTO metamob_profile_links (profile_id, owner_user_id, quest_slug, character_name, updated_at)
+      VALUES (${profileId}, ${userId}, ${questSlug}, ${characterName}, ${now()})
+      ON CONFLICT (profile_id) DO UPDATE SET quest_slug = EXCLUDED.quest_slug,
+        character_name = EXCLUDED.character_name, updated_at = EXCLUDED.updated_at
+    `;
+  }
+
+  async deleteMetaMobProfileLink(userId: string, profileId: string): Promise<void> {
+    await this.database`
+      DELETE FROM metamob_profile_links WHERE owner_user_id = ${userId} AND profile_id = ${profileId}
+    `;
+  }
+
   async getSharedProfile(shareToken: string): Promise<FollowedProfile | null> {
     const profile = (await this.database<PlayerProfileRow[]>`
       SELECT
-        id, owner_user_id, name, breed_id, gender, avatar_url, progress_json, revision, share_token, updated_at
+        id, owner_user_id, name, breed_id, gender, avatar_url, server_id, server_name,
+        dofus_verified_at, progress_json, revision, share_token, updated_at
       FROM player_profiles
       WHERE share_token = ${shareToken}
       LIMIT 1
@@ -396,7 +467,8 @@ export class PostgresAccountRepository {
     const profileIds = follows.map((item) => item.profile_id);
     const profiles = await this.database<PlayerProfileRow[]>`
       SELECT
-        id, owner_user_id, name, breed_id, gender, avatar_url, progress_json, revision, share_token, updated_at
+        id, owner_user_id, name, breed_id, gender, avatar_url, server_id, server_name,
+        dofus_verified_at, progress_json, revision, share_token, updated_at
       FROM player_profiles
       WHERE id IN ${this.database(profileIds)}
     `;

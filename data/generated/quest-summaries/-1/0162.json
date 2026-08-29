@@ -1,55 +1,483 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 162,
-  "updatedAt": "2026-08-27T13:32:25.329Z",
+  "updatedAt": "2026-08-29T15:05:25.697Z",
   "summaries": [
     {
-      "overview": "Mériana vous révèle que le Dofus Turquoise est retourné à Aguabrial, le Dragon originel. Pour prouver votre valeur et en devenir le prochain gardien, vous devez réunir deux clefs détenues par les anciens protecteurs du Dofus : le Dragon Cochon et le Chêne Mou.",
-      "recommendedLevel": 100,
+      "overview": "Lancez la quête auprès de Silvosse, interrogez les cinq végétaux de la Forêt Sombre avec la Langue de Bois, puis revenez lui faire votre rapport. Poursuivez ensuite jusqu'à la Clairière du Chêne Mou et effectuez le donjon demandé. La suite de l'enquête après cette portion sera traitée à l'occurrence FINISH suivante.",
+      "recommendedLevel": 120,
       "prerequisites": [
-        "La magicienne des marécages"
+        "Niveau > 119.",
+        "Avoir terminé Munster lève le mystère."
       ],
       "rewards": [
-        "5 174 164 XP",
-        "53 712 kamas",
-        "1 x Bourgeon du Chêne Mou",
-        "1 x Crâne du Dragon Cochon"
+        "4 311 804 XP.",
+        "44 760 Kamas.",
+        "1 x Fragment de Rubis Fertile."
       ],
       "preparation": [
-        "1 x Donjon Antre du Dragon Cochon",
-        "1 x Donjon Clairière du Chêne Mou",
-        "2 x combats (réalisable en groupe)"
+        "Prévoir l'accès au donjon Clairière du Chêne Mou.",
+        "Évitez tout combat inutile pendant les interrogatoires : entrer en combat retire l'envoûtement Langue de Bois et oblige à retourner voir Silvosse."
       ],
       "actions": [
         {
-          "instruction": "Allez voir la sorcière Mériana et parlez-lui du Dofus Turquoise.",
-          "position": "[-6,-3]",
-          "zoneHint": "Marécages nauséabonds",
+          "instruction": "Parlez à Silvosse le protecteur de Flovor pour lancer la quête et recevoir l'envoûtement Langue de Bois.",
+          "position": "[-11,-13]",
+          "zoneHint": "Forêt Sombre",
+          "warning": "Si vous entrez en combat avant d'avoir terminé les interrogatoires, vous perdez la Langue de Bois et devez revenir auprès de Silvosse pour la récupérer.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez la Ronce de la Forêt Sombre.",
+          "position": "[-9,-12]",
+          "zoneHint": "Forêt Sombre",
           "warning": null,
           "combat": "NONE"
         },
         {
-          "instruction": "Vaincre le Dragon Cochon dans l'Antre du Dragon Cochon, puis récupérer la Clef Dentée à gauche du trône dans la salle de sortie.",
-          "position": "[-1,33]",
-          "zoneHint": "Antre du Dragon Cochon",
-          "warning": "Vous devez obligatoirement tuer le Dragon Cochon dans son donjon et non en pda pour accéder à la salle de sortie et récupérer la Clef Dentée.",
+          "instruction": "Demandez au Champignon de la Forêt Sombre ce qu'il fait afin d'obtenir ses informations sur Rasamoune le Vert et Nyée.",
+          "position": "[-10,-15]",
+          "zoneHint": "Forêt Sombre",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Présentez-vous au Bulbe de la Forêt Sombre et poursuivez le dialogue jusqu'à obtenir ses informations au sujet du Chêne Mou.",
+          "position": "[-12,-15]",
+          "zoneHint": "Forêt Sombre",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Présentez vos excuses au Buisson de la Forêt Sombre puis écoutez ce qu'il sait sur Silvosse.",
+          "position": "[-13,-13]",
+          "zoneHint": "Forêt Sombre",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à la Souche de la Forêt Sombre pour apprendre pourquoi les plantes se méfient désormais de Silvosse.",
+          "position": "[-14,-12]",
+          "zoneHint": "Forêt Sombre",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Silvosse et résumez-lui les informations recueillies. Il vous envoie alors interroger le Chêne Mou.",
+          "position": "[-11,-13]",
+          "zoneHint": "Forêt Sombre",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la Clairière du Chêne Mou et progressez dans le donjon jusqu'au Chêne Mou, puis vainquez-le.",
+          "position": "[-14,-13]",
+          "zoneHint": "Clairière du Chêne Mou",
+          "warning": "Le Chêne Mou doit être vaincu dans son donjon. Profitez de ce passage pour satisfaire également Plongeon et dragon, qui requiert le même boss.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Vaincre le Chêne Mou dans la Clairière du Chêne Mou, puis passer derrière le grand arbre pour atteindre la salle cachée et récupérer la clef sur la stèle.",
+          "instruction": "Après la victoire, avant de quitter le donjon, parlez au Chêne Mou et adoptez l'approche consistant à exprimer vos doutes au sujet de Silvosse afin d'obtenir ses révélations.",
           "position": "[-14,-13]",
           "zoneHint": "Clairière du Chêne Mou",
-          "warning": "Vous devez obligatoirement tuer le Chêne Mou dans son donjon et non en pda pour accéder à la salle de sortie. Il n'est pas nécessaire d'attaquer les arbres du bosquet, passez directement derrière le grand arbre.",
-          "combat": "GROUP"
+          "warning": "Ne quittez pas le donjon avant d'avoir parlé au Chêne Mou.",
+          "combat": "NONE"
         }
       ],
       "notes": [
-        "Les deux combats sont réalisables en groupe.",
-        "Vous devez impérativement faire les donjons et non les combats en pda pour pouvoir récupérer les clefs dans les salles de sortie.",
-        "Dans le donjon du Chêne Mou, il est inutile d'attaquer les arbres du bosquet."
+        "La prochaine occurrence de L'art de la langue de bois reprend après les révélations du Chêne Mou et couvre le retour auprès de Silvosse, le piège contre la poupée et la fin de quête.",
+        "Plongeon et dragon a déjà demandé de vaincre le Dragon Cochon à l'étape 102 ; la Clairière du Chêne Mou constitue ici le second donjon nécessaire à cette quête."
       ],
       "npcs": [
+        "Silvosse le protecteur de Flovor",
+        "Ronce de la Forêt Sombre",
+        "Champignon de la Forêt Sombre",
+        "Bulbe de la Forêt Sombre",
+        "Buisson de la Forêt Sombre",
+        "Souche de la Forêt Sombre",
+        "Chêne Mou"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 781,
+            "name": "Clairière du Chêne Mou",
+            "coordinates": [
+              "-14,-13"
+            ]
+          },
+          {
+            "id": 168,
+            "name": "Forêt Sombre",
+            "coordinates": [
+              "-11,-13",
+              "-9,-12",
+              "-10,-15",
+              "-12,-15",
+              "-13,-13",
+              "-14,-12"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4014,
+            "name": "Tyranne la Terrible",
+            "level": 80,
+            "imageUrl": "/bestiary/monsters/4014.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2389,
+            "name": "Abrakildas le Vénérable",
+            "level": 74,
+            "imageUrl": "/bestiary/monsters/2389.png"
+          },
+          {
+            "id": 2388,
+            "name": "Abrakanette l'Encapsulé",
+            "level": 78,
+            "imageUrl": "/bestiary/monsters/2388.png"
+          },
+          {
+            "id": 2386,
+            "name": "Abraklette le Fondant",
+            "level": 82,
+            "imageUrl": "/bestiary/monsters/2386.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1202,
+            "name": "Abraknydiens Irascibles",
+            "monsters": [
+              {
+                "id": 992,
+                "name": "Abrakne Sombre Irascible",
+                "level": 128,
+                "imageUrl": "/bestiary/monsters/992.png"
+              },
+              {
+                "id": 991,
+                "name": "Abraknyde Sombre Irascible",
+                "level": 124,
+                "imageUrl": "/bestiary/monsters/991.png"
+              },
+              {
+                "id": 990,
+                "name": "Araknotron Irascible",
+                "level": 126,
+                "imageUrl": "/bestiary/monsters/990.png"
+              },
+              {
+                "id": 260,
+                "name": "Branche Soignante",
+                "level": 136,
+                "imageUrl": "/bestiary/monsters/260.png"
+              },
+              {
+                "id": 258,
+                "name": "Branche Invocatrice",
+                "level": 136,
+                "imageUrl": "/bestiary/monsters/258.png"
+              }
+            ]
+          },
+          {
+            "id": 1201,
+            "name": "Abraknydiens Sombres",
+            "monsters": [
+              {
+                "id": 651,
+                "name": "Abrakne Sombre",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/651.png"
+              },
+              {
+                "id": 253,
+                "name": "Abraknyde Sombre",
+                "level": 78,
+                "imageUrl": "/bestiary/monsters/253.png"
+              },
+              {
+                "id": 254,
+                "name": "Abraknyde Vénérable",
+                "level": 74,
+                "imageUrl": "/bestiary/monsters/254.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:895",
+      "relation": "START",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/lart-de-la-langue-de-bois.html",
+      "sourceTitle": "L'art de la langue de bois",
+      "sourceHash": "083cc3c35728c4986c4bd591979ef962aaf3f0c176e67173b8496feb37b046ad",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Le Chêne Mou a déjà été vaincu et interrogé lors de l'occurrence précédente. Reprenez maintenant l'enquête auprès de Silvosse, utilisez la Pierre Enchantée pour attirer la Comploteuse, remportez le combat puis rendez la quête.",
+      "recommendedLevel": 120,
+      "prerequisites": [
+        "Avoir effectué la portion START de cette étape : interrogatoires terminés, Clairière du Chêne Mou accomplie et Chêne Mou interrogé."
+      ],
+      "rewards": [
+        "4 311 804 XP.",
+        "44 760 Kamas.",
+        "1 x Fragment de Rubis Fertile."
+      ],
+      "preparation": [
+        "Préparez-vous à un combat contre la Comploteuse et ses invocations ; le combat peut être réalisé en groupe."
+      ],
+      "actions": [
+        {
+          "instruction": "Retournez auprès de Silvosse et racontez-lui ce que le Chêne Mou vous a révélé. Il vous remet une Pierre Enchantée destinée à attirer la responsable du complot.",
+          "position": "[-11,-13]",
+          "zoneHint": "Forêt Sombre",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Descendez jusqu'au vieux puits et cliquez dessus pour placer la Pierre Enchantée dans le seau.",
+          "position": "[-11,-11]",
+          "zoneHint": "Forêt Sombre",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Quittez la carte, puis revenez sur celle du puits afin de faire apparaître la Comploteuse.",
+          "position": "[-11,-11]",
+          "zoneHint": "Forêt Sombre",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Affrontez la Comploteuse et ses invocations jusqu'à la victoire. Vous récupérez ensuite la Pierre Enchantée.",
+          "position": "[-11,-11]",
+          "zoneHint": "Forêt Sombre",
+          "warning": "Combat réalisable en groupe. Pour que la progression se mette à jour sur plusieurs personnages, ceux qui ne lancent pas le combat doivent avoir choisi « S'enfuir » au préalable.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez voir Silvosse, annoncez-lui la défaite de la poupée et remettez-lui la Pierre Enchantée pour terminer la quête.",
+          "position": "[-11,-13]",
+          "zoneHint": "Forêt Sombre",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Cette occurrence suppose déjà terminés le lancement, les interrogatoires de la forêt, le donjon Clairière du Chêne Mou et le dialogue avec le Chêne Mou.",
+        "La quête suivante débloquée est Les derniers d'entre nous."
+      ],
+      "npcs": [
+        "Silvosse le protecteur de Flovor",
+        "La Comploteuse"
+      ],
+      "items": [
+        {
+          "name": "Pierre Enchantée",
+          "itemId": 16206,
+          "imageUrl": "/items/16206.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16206"
+        },
+        {
+          "name": "Fragment de Rubis Fertile",
+          "itemId": 16208,
+          "imageUrl": "/items/16208.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16208"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 168,
+            "name": "Forêt Sombre",
+            "coordinates": [
+              "-11,-13",
+              "-11,-11"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4014,
+            "name": "Tyranne la Terrible",
+            "level": 80,
+            "imageUrl": "/bestiary/monsters/4014.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2389,
+            "name": "Abrakildas le Vénérable",
+            "level": 74,
+            "imageUrl": "/bestiary/monsters/2389.png"
+          },
+          {
+            "id": 2388,
+            "name": "Abrakanette l'Encapsulé",
+            "level": 78,
+            "imageUrl": "/bestiary/monsters/2388.png"
+          },
+          {
+            "id": 2386,
+            "name": "Abraklette le Fondant",
+            "level": 82,
+            "imageUrl": "/bestiary/monsters/2386.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1201,
+            "name": "Abraknydiens Sombres",
+            "monsters": [
+              {
+                "id": 651,
+                "name": "Abrakne Sombre",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/651.png"
+              },
+              {
+                "id": 253,
+                "name": "Abraknyde Sombre",
+                "level": 78,
+                "imageUrl": "/bestiary/monsters/253.png"
+              },
+              {
+                "id": 254,
+                "name": "Abraknyde Vénérable",
+                "level": 74,
+                "imageUrl": "/bestiary/monsters/254.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:895",
+      "relation": "FINISH",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/lart-de-la-langue-de-bois.html",
+      "sourceTitle": "L'art de la langue de bois",
+      "sourceHash": "083cc3c35728c4986c4bd591979ef962aaf3f0c176e67173b8496feb37b046ad",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "L'Antre du Dragon Cochon a déjà été effectué à l'étape 102 et le Chêne Mou vient d'être vaincu pendant cette étape. Récupérez maintenant la Clef Griffue dans la sortie de la Clairière du Chêne Mou, rejoignez le sanctuaire d'Aguabrial, accomplissez l'épreuve puis rapportez les révélations à Mériana pour terminer la quête.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Avoir lancé Plongeon et dragon auprès de Mériana.",
+        "Avoir vaincu le Dragon Cochon dans son donjon et récupéré la Clef Dentée lors de la portion réalisée à l'étape 102.",
+        "Avoir vaincu le Chêne Mou dans la Clairière du Chêne Mou pendant cette étape."
+      ],
+      "rewards": [
+        "5 174 164 XP.",
+        "53 712 kamas.",
+        "1 x Bourgeon du Chêne Mou.",
+        "1 x Crâne du Dragon Cochon."
+      ],
+      "preparation": [
+        "Assurez-vous de posséder la Clef Dentée récupérée après le Dragon Cochon.",
+        "Pour obtenir la Clef Griffue, vous devrez vous transformer en Abraknyde dans le bosquet de sortie de la Clairière du Chêne Mou.",
+        "Le combat du sanctuaire d'Aguabrial peut être réalisé en groupe, mais seule la personne qui le lance valide sa progression de quête."
+      ],
+      "actions": [
+        {
+          "instruction": "Avant de quitter la Clairière du Chêne Mou, passez derrière le grand arbre de la salle de sortie pour rejoindre le bosquet contenant la stèle.",
+          "position": "[-14,-13]",
+          "zoneHint": "Clairière du Chêne Mou",
+          "warning": "Ne quittez pas le donjon avant d'avoir récupéré la Clef Griffue.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Obtenez la transformation en Abraknyde : soit en parlant trois fois aux Arbres du Bosquet, soit en les combattant jusqu'à recevoir la transformation.",
+          "position": "[-14,-13]",
+          "zoneHint": "Bosquet de sortie de la Clairière du Chêne Mou",
+          "warning": "Parler aux arbres cumule trois malus durant 20 tours. Les combattre peut nécessiter plusieurs combats et applique Mélancolie, puis Tristesse, puis Désespoir selon le nombre de combats effectués.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Une fois transformé en Abraknyde, cliquez sur la stèle centrale pour récupérer la Clef Griffue.",
+          "position": "[-14,-13]",
+          "zoneHint": "Bosquet de sortie de la Clairière du Chêne Mou",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à la Porte du Village des Brigandins, montez à l'échelle et parlez à Mama Ayuto de la part de Mériana.",
+          "position": "[-19,-23]",
+          "zoneHint": "Porte du Village des Brigandins",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Descendez les escaliers, puis parlez à Girle Pylote afin qu'elle vous conduise au sanctuaire d'Aguabrial.",
+          "position": "[-19,-23]",
+          "zoneHint": "Village des Brigandins",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Traversez la première salle du sanctuaire et insérez la Clef Dentée et la Clef Griffue dans leurs emplacements pour ouvrir la porte.",
+          "position": null,
+          "zoneHint": "Sanctuaire d'Aguabrial",
+          "warning": "Les deux clefs sont indispensables pour poursuivre.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Cliquez au centre de la salle pour déclencher l'épreuve et remportez le combat.",
+          "position": null,
+          "zoneHint": "Sanctuaire d'Aguabrial",
+          "warning": "Le combat peut être réalisé en groupe, mais la quête ne se met à jour que pour le personnage qui lance le combat.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, cliquez de nouveau au centre de la salle pour descendre auprès d'Aguabrial.",
+          "position": null,
+          "zoneHint": "Sanctuaire d'Aguabrial",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Aguabrial, indiquez que Mériana vous envoie puis affirmez que votre destin est de devenir le gardien du Dofus Turquoise.",
+          "position": null,
+          "zoneHint": "Sanctuaire d'Aguabrial",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Ereziah Melkewel et écoutez ses révélations sur Furye et Bolgrot. Il vous remet une Larme d'Aguabrial.",
+          "position": null,
+          "zoneHint": "Sanctuaire d'Aguabrial",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez auprès de Mériana et résumez-lui votre conversation avec Ereziah Melkewel pour terminer Plongeon et dragon.",
+          "position": "[-6,-3]",
+          "zoneHint": "Marécages nauséabonds",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le Dragon Cochon et la Clef Dentée sont supposés déjà réglés depuis l'étape 102 ; ne refaites pas ce donjon.",
+        "La victoire contre le Chêne Mou est mutualisée avec L'art de la langue de bois dans cette étape.",
+        "La quête suivante débloquée est Extinction des feux."
+      ],
+      "npcs": [
+        "Arbre du Bosquet",
+        "Mama Ayuto",
+        "Girle Pylote",
+        "Aguabrial",
+        "Ereziah Melkewel",
         "Mériana"
       ],
       "items": [
@@ -58,6 +486,18 @@
           "itemId": 16899,
           "imageUrl": "/items/16899.png",
           "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16899"
+        },
+        {
+          "name": "Clef Griffue",
+          "itemId": 16898,
+          "imageUrl": "/items/16898.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16898"
+        },
+        {
+          "name": "Larme d'Aguabrial",
+          "itemId": 16888,
+          "imageUrl": "/items/16888.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16888"
         },
         {
           "name": "Bourgeon du Chêne Mou",
@@ -75,13 +515,6 @@
       "bestiary": {
         "zones": [
           {
-            "id": 154,
-            "name": "Antre du Dragon Cochon",
-            "coordinates": [
-              "-1,33"
-            ]
-          },
-          {
             "id": 781,
             "name": "Clairière du Chêne Mou",
             "coordinates": [
@@ -93,6 +526,13 @@
             "name": "Marécages nauséabonds",
             "coordinates": [
               "-6,-3"
+            ]
+          },
+          {
+            "id": 76,
+            "name": "Village des Brigandins",
+            "coordinates": [
+              "-19,-23"
             ]
           }
         ],
@@ -183,46 +623,32 @@
                 "imageUrl": "/bestiary/monsters/4833.png"
               }
             ]
-          },
-          {
-            "id": 185,
-            "name": "Porcos",
-            "monsters": [
-              {
-                "id": 603,
-                "name": "Cochon de Farle",
-                "level": 90,
-                "imageUrl": "/bestiary/monsters/603.png"
-              },
-              {
-                "id": 601,
-                "name": "Don Dorgan",
-                "level": 92,
-                "imageUrl": "/bestiary/monsters/601.png"
-              },
-              {
-                "id": 600,
-                "name": "Don Duss Ang",
-                "level": 92,
-                "imageUrl": "/bestiary/monsters/600.png"
-              },
-              {
-                "id": 3304,
-                "name": "Porsalu",
-                "level": 80,
-                "imageUrl": "/bestiary/monsters/3304.png"
-              }
-            ]
           }
         ]
       },
       "questKey": "quest:919",
+      "relation": "FINISH",
+      "sortOrder": 2,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/plongeon-et-dragon.html",
       "sourceTitle": "Plongeon et dragon",
       "sourceHash": "82815b8dccd0d26146e10e885d411aa0b05872dfba72008392f32418c8d60b9a",
-      "generatedAt": "2026-08-24T17:58:11.993Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
     }
   ],
-  "tips": []
+  "tips": [
+    {
+      "title": "Mutualiser la Clairière du Chêne Mou",
+      "description": "Le passage dans la Clairière du Chêne Mou fait avancer à la fois L'art de la langue de bois et Plongeon et dragon. Profitez d'un seul donjon pour vaincre le Chêne Mou, effectuer le dialogue requis par la première quête puis récupérer la Clef Griffue nécessaire à la seconde avant de sortir.",
+      "questKeys": [
+        "quest:895",
+        "quest:919"
+      ],
+      "actions": [
+        "Entrez dans la Clairière du Chêne Mou avec les deux quêtes au bon état d'avancement.",
+        "Après la victoire, parlez au Chêne Mou pour L'art de la langue de bois.",
+        "Avant de quitter le donjon, rejoignez le bosquet de sortie, obtenez la transformation en Abraknyde et récupérez la Clef Griffue pour Plongeon et dragon."
+      ]
+    }
+  ]
 }

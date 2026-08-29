@@ -1,8 +1,165 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 157,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T15:05:19.592Z",
+  "summaries": [
+    {
+      "overview": "La Caverne d’El Piko et le combat contre El Piko sont supposés déjà terminés lors de l’occurrence précédente. Reprenez juste après le boss pour libérer Airen Kraken, puis retournez à l’épave en [13,-58], désactivez la protection de la boîte noire avec ERDE en respectant exactement la séquence demandée et terminez la quête auprès d’Airen Kraken.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Avoir lancé L'Étoile de la Mer lors de l’occurrence précédente.",
+        "Avoir avancé la quête jusqu’à la Caverne d’El Piko et vaincu El Piko."
+      ],
+      "rewards": [
+        "3 971 945 XP.",
+        "38 960 kamas.",
+        "3 x Maraca de Lévito."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Après avoir vaincu El Piko dans la Caverne d’El Piko, parlez à Airen Kraken, le Steamer disparu, afin de le libérer.",
+          "position": "[15,-65]",
+          "zoneHint": "Caverne d’El Piko",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retrouvez Airen Kraken devant son vaisseau et acceptez de l’aider à récupérer la boîte noire.",
+          "position": "[13,-58]",
+          "zoneHint": "Dunes des ossements",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à ERDE et lancez le processus de déverrouillage de la boîte noire. Sélectionnez ensuite, dans cet ordre exact : « X-Fin », « Modèle 5T4R édition W4R2 », puis « R383773 ».",
+          "position": "[13,-58]",
+          "zoneHint": "Dunes des ossements",
+          "warning": "Respectez exactement l’ordre des trois réponses du système de déverrouillage.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Reparlez à Airen Kraken et indiquez-lui qu’il peut extraire la boîte noire en toute sécurité pour terminer L'Étoile de la Mer.",
+          "position": "[13,-58]",
+          "zoneHint": "Dunes des ossements",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les déplacements vers le Palais de Sufokia, le Sabloon et la progression jusqu’au boss de la Caverne d’El Piko appartiennent à l’occurrence précédente et ne sont pas à refaire ici.",
+        "Cette occurrence est uniquement la reprise après El Piko et le rendu final de la quête."
+      ],
+      "npcs": [
+        "Airen Kraken",
+        "ERDE"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 876,
+            "name": "Caverne d'El Piko",
+            "coordinates": [
+              "15,-65"
+            ]
+          },
+          {
+            "id": 872,
+            "name": "Dunes des ossements",
+            "coordinates": [
+              "13,-58"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 4618,
+            "name": "Tournade",
+            "level": 80,
+            "imageUrl": "/bestiary/monsters/4618.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 1527,
+            "name": "Animaux du désert",
+            "monsters": [
+              {
+                "id": 4616,
+                "name": "Fennex",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4616.png"
+              },
+              {
+                "id": 4619,
+                "name": "Léolhyène",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4619.png"
+              },
+              {
+                "id": 4620,
+                "name": "Ouroboulos",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4620.png"
+              },
+              {
+                "id": 4615,
+                "name": "Scordion Bleu",
+                "level": 72,
+                "imageUrl": "/bestiary/monsters/4615.png"
+              }
+            ]
+          },
+          {
+            "id": 1528,
+            "name": "Cacterres",
+            "monsters": [
+              {
+                "id": 4605,
+                "name": "Cactana",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/4605.png"
+              },
+              {
+                "id": 4604,
+                "name": "Cactiflore",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/4604.png"
+              },
+              {
+                "id": 4606,
+                "name": "Cactoblongo",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/4606.png"
+              },
+              {
+                "id": 4608,
+                "name": "Lévito",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/4608.png"
+              },
+              {
+                "id": 4607,
+                "name": "Pampactus",
+                "level": 122,
+                "imageUrl": "/bestiary/monsters/4607.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:1049",
+      "relation": "FINISH",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/l-etoile-de-la-mer.html",
+      "sourceTitle": "L'Étoile de la Mer",
+      "sourceHash": "8b3a941d5f2fd1758338bb5b2db048a617345fd790b47a94169589b735707bf3",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

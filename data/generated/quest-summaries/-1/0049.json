@@ -2,7 +2,7 @@
   "version": 2,
   "guideId": -1,
   "stepNumber": 49,
-  "updatedAt": "2026-08-27T13:32:18.397Z",
+  "updatedAt": "2026-08-29T09:59:11.491Z",
   "summaries": [
     {
       "overview": "Terminer la mission d’Amayiro en réunissant les bâtons demandés, en aidant Plumalia à obtenir une Bière de Bworkette ferraillée, puis en revenant annoncer à Amayiro que son discours est en préparation. La quête mène notamment au Donjon des Bworks et débloque « Recouvrement de dette à la Tabasse ».",
@@ -184,7 +184,8 @@
             "id": 778,
             "name": "Mine",
             "coordinates": [
-              "-28,-55"
+              "-28,-55",
+              "-32,-57"
             ]
           },
           {
@@ -525,10 +526,16 @@
             ]
           },
           {
+            "id": 1,
+            "name": "Port de Madrestam",
+            "coordinates": [
+              "10,-3"
+            ]
+          },
+          {
             "id": 1022,
             "name": "Refuge sylvestre",
             "coordinates": [
-              "10,-3",
               "40,-84"
             ]
           },
@@ -571,6 +578,30 @@
             "name": "Pioustone le Problème",
             "level": 11,
             "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2332,
+            "name": "Larchimaide la Poussée",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2332.png"
+          },
+          {
+            "id": 2331,
+            "name": "Larvapstrè le Subjectif",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2331.png"
+          },
+          {
+            "id": 2339,
+            "name": "Larvomatik le Propre",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2339.png"
+          },
+          {
+            "id": 2574,
+            "name": "Larvonika l'Instrument",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2574.png"
           }
         ],
         "achievements": [
@@ -691,6 +722,36 @@
                 "name": "Larve Émeraude",
                 "level": 42,
                 "imageUrl": "/bestiary/monsters/414.png"
+              }
+            ]
+          },
+          {
+            "id": 203,
+            "name": "Larves",
+            "monsters": [
+              {
+                "id": 31,
+                "name": "Larve Bleue",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/31.png"
+              },
+              {
+                "id": 46,
+                "name": "Larve Orange",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/46.png"
+              },
+              {
+                "id": 34,
+                "name": "Larve Verte",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/34.png"
+              },
+              {
+                "id": 5225,
+                "name": "Larve Jaune",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/5225.png"
               }
             ]
           },
@@ -957,6 +1018,7 @@
             "id": 778,
             "name": "Mine",
             "coordinates": [
+              "-32,-57",
               "-30,-56"
             ]
           },

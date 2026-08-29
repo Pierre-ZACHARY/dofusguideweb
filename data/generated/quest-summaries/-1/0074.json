@@ -1,186 +1,46 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 74,
-  "updatedAt": "2026-08-27T13:32:19.078Z",
+  "updatedAt": "2026-08-29T11:28:47.605Z",
   "summaries": [
     {
-      "overview": "Vaincre 6 boss de donjons (Abraknyde Ancestral, Dragon Cochon, Koulosse, Meulou, Rat Blanc, Rat Noir) sur ordre de Chris de Naire, puis rencontrer Kal Vissi pour débloquer la quête suivante.",
+      "overview": "Poursuis Un juge hystérique avec le premier donjon demandé par Chris de Naire. À cette occurrence, il faut vaincre l’Abraknyde Ancestral puis revenir auprès de Chris pour recevoir la clef du donjon suivant. Les autres donjons de la quête seront traités lors d’occurrences ultérieures du guide.",
       "recommendedLevel": 30,
       "prerequisites": [
-        "Niveau > 29",
-        "Les sbires du maître"
+        "Niveau supérieur à 29.",
+        "Avoir terminé Les sbires du maître.",
+        "Avoir déjà lancé Un juge hystérique auprès de Chris de Naire en [-29,-47]."
       ],
-      "rewards": [
-        "Bourgeon d'Abraknyde Ancestral",
-        "Poil de Dragon Cochon",
-        "Pierre du Koulosse",
-        "Testicules Magiques du Meulou"
-      ],
+      "rewards": [],
       "preparation": [
-        "1 x Donjon Domaine Ancestral",
-        "1 x Donjon Antre du Dragon Cochon",
-        "1 x Donjon Caverne du Koulosse",
-        "1 x Donjon Tanière du Meulou",
-        "1 x Donjon Garde-manger du Rat Blanc",
-        "1 x Donjon Sousouricière du Rat Noir"
+        "Prévoir de terminer le donjon Domaine Ancestral."
       ],
       "actions": [
         {
-          "instruction": "Se rendre en [-29,-47] (Champs de Cania), parler à Chris de Naire pour lancer la quête.",
-          "position": "[-29,-47]",
-          "zoneHint": "Champs de Cania",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller au donjon Domaine Ancestral en [-9,-14], vaincre l'Abraknyde Ancestral.",
+          "instruction": "Rends-toi au Domaine Ancestral et termine le donjon en vainquant l’Abraknyde Ancestral.",
           "position": "[-9,-14]",
-          "zoneHint": null,
-          "warning": null,
+          "zoneHint": "Domaine Ancestral",
+          "warning": "Combat de boss de donjon.",
           "combat": "GROUP"
         },
         {
-          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
+          "instruction": "Retourne parler à Chris de Naire après la victoire afin de lui signaler la réussite et de recevoir la clef du prochain donjon.",
           "position": "[-29,-47]",
           "zoneHint": "Champs de Cania",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller au donjon Antre du Dragon Cochon en [-1,33], vaincre le Dragon Cochon.",
-          "position": "[-1,33]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
-          "position": "[-29,-47]",
-          "zoneHint": "Champs de Cania",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller au donjon Caverne du Koulosse en [-17,8], vaincre le Koulosse.",
-          "position": "[-17,8]",
-          "zoneHint": null,
-          "warning": "Il faut être devant le PNJ sur la corniche pour entrer dans le donjon.",
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
-          "position": "[-29,-47]",
-          "zoneHint": "Champs de Cania",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller au donjon Tanière du Meulou en [-23,0], vaincre le Meulou.",
-          "position": "[-23,0]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
-          "position": "[-29,-47]",
-          "zoneHint": "Champs de Cania",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller au donjon Garde-manger du Rat Blanc en [-36,-60] (entrer par le Palais en [-36,-60] et descendre par le vide à ordure des cuisines, ou entrer par les égouts en [-32,-58] puis traverser), vaincre le Rat Blanc.",
-          "position": "[-36,-60]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania) pour recevoir la clef du prochain donjon.",
-          "position": "[-29,-47]",
-          "zoneHint": "Champs de Cania",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller au donjon Sousouricière du Rat Noir en [-29,-35] (entrée via la bouche d'égout en [-29,35]), vaincre le Rat Noir.",
-          "position": "[-29,-35]",
-          "zoneHint": null,
-          "warning": null,
-          "combat": "GROUP"
-        },
-        {
-          "instruction": "Retourner voir Chris de Naire en [-29,-47] (Champs de Cania). Il n'a plus de donjons à confier et oriente vers un autre commanditaire.",
-          "position": "[-29,-47]",
-          "zoneHint": "Champs de Cania",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Aller voir Kal Vissi en [-19,30], choisir « J'accepte cette mission » pour terminer la quête.",
-          "position": "[-19,30]",
-          "zoneHint": null,
           "warning": null,
           "combat": "NONE"
         }
       ],
       "notes": [
-        "Terminer cette quête débloque la quête suivante : Des donjons, encore des donjons.",
-        "Étape 5 : deux chemins possibles pour accéder au Garde-manger du Rat Blanc — via le Palais en [-36,-60] (vide à ordure des cuisines) ou via les égouts en [-32,-58]."
+        "Ne poursuis pas avec le Dragon Cochon à cette étape : la suite d’Un juge hystérique est volontairement reportée à une occurrence ultérieure du guide."
       ],
       "npcs": [
-        "Chris de Naire",
-        "Kal Vissi",
-        "Abraknyde Ancestral",
-        "Dragon Cochon",
-        "Koulosse",
-        "Meulou",
-        "Rat Blanc",
-        "Rat Noir"
+        "Chris de Naire"
       ],
-      "items": [
-        {
-          "name": "Bourgeon d'Abraknyde Ancestral",
-          "itemId": 8495,
-          "imageUrl": "/items/8495.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8495"
-        },
-        {
-          "name": "Poil de Dragon Cochon",
-          "itemId": 8393,
-          "imageUrl": "/items/8393.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8393"
-        },
-        {
-          "name": "Pierre du Koulosse",
-          "itemId": 8402,
-          "imageUrl": "/items/8402.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8402"
-        },
-        {
-          "name": "Testicules Magiques du Meulou",
-          "itemId": 2806,
-          "imageUrl": "/items/2806.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2806"
-        }
-      ],
+      "items": [],
       "bestiary": {
         "zones": [
-          {
-            "id": 154,
-            "name": "Antre du Dragon Cochon",
-            "coordinates": [
-              "-1,33"
-            ]
-          },
-          {
-            "id": 223,
-            "name": "Caverne du Koulosse",
-            "coordinates": [
-              "-17,8"
-            ]
-          },
           {
             "id": 68,
             "name": "Champs de Cania",
@@ -193,36 +53,6 @@
             "name": "Domaine Ancestral",
             "coordinates": [
               "-9,-14"
-            ]
-          },
-          {
-            "id": 1013,
-            "name": "Garde-manger du Rat Blanc",
-            "coordinates": [
-              "-36,-60",
-              "-32,-58"
-            ]
-          },
-          {
-            "id": 778,
-            "name": "Mine",
-            "coordinates": [
-              "-19,30"
-            ]
-          },
-          {
-            "id": 1010,
-            "name": "Sousouricière du Rat Noir",
-            "coordinates": [
-              "-29,-35",
-              "-29,35"
-            ]
-          },
-          {
-            "id": 213,
-            "name": "Tanière du Meulou",
-            "coordinates": [
-              "-23,0"
             ]
           }
         ],
@@ -320,249 +150,537 @@
                 "imageUrl": "/bestiary/monsters/294.png"
               }
             ]
+          }
+        ]
+      },
+      "questKey": "quest:73",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/un-juge-hysterique.html",
+      "sourceTitle": "Un juge hystérique",
+      "sourceHash": "5189a5003336188ba9c2062fbe1504352733438f35efd98131fb5f946b178711",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Effectue les tâches demandées pour la cérémonie des soldats bontariens : fournir dix capes au Capitaine Koda avec l’invitation, récupérer l’article du Maître des clefs, acheter un Emballage de félicitations puis rapporter les deux derniers éléments à Amayiro pour terminer la quête.",
+      "recommendedLevel": 53,
+      "prerequisites": [
+        "Avoir terminé La fureur du Holbaïd.",
+        "Être Bontarien pour la fabrication des Cape Bontarienne, ou faire intervenir un client/crafteur répondant à cette condition."
+      ],
+      "rewards": [
+        "564 162 XP."
+      ],
+      "preparation": [
+        "Prévoir 10 x Cape Bontarienne.",
+        "Prévoir 1 000 kamas pour acheter l’Emballage de félicitations si tu ne l’as pas déjà.",
+        "Si tu fabriques les capes : prévoir 10 x Teinture Magique Bleutée, 10 x Laine de Ramane Strubien et 10 x Plume de Crowneille.",
+        "Pour fabriquer 10 x Teinture Magique Bleutée : prévoir 200 x Peau de Larve Bleue et 10 x Gelée Bleuet, avec un Alchimiste niveau 55 ou plus."
+      ],
+      "actions": [
+        {
+          "instruction": "À la milice de Bonta, monte à l’étage depuis la salle d’Amayiro et parle au Capitaine Koda pour lui remettre l’invitation ainsi que les 10 Cape Bontarienne.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": "Les 10 capes doivent être disponibles au moment de l’échange.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Va dans la demeure du Maître des clefs et parle-lui pour récupérer son article consacré aux héros de Bonta.",
+          "position": "[-6,-37]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rends-toi à la foire du Trool et achète 1 x Emballage de félicitations à Jean Balle.",
+          "position": "[-12,-39]",
+          "zoneHint": "Foire du Trool",
+          "warning": "L’achat coûte 1 000 kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retourne à la milice de Bonta et remets à Amayiro l’article du Maître des clefs ainsi que l’Emballage de félicitations pour terminer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La fin de cette quête débloque Corvée de patate, qui est également réalisée dans cette étape mais seulement après avoir terminé Des capes Bontariennes."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Capitaine Koda",
+        "Maître des clefs",
+        "Jean Balle"
+      ],
+      "items": [
+        {
+          "name": "Cape Bontarienne",
+          "itemId": 2694,
+          "imageUrl": "/items/2694.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/2694"
+        },
+        {
+          "name": "Teinture Magique Bleutée",
+          "itemId": 1688,
+          "imageUrl": "/items/1688.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1688"
+        },
+        {
+          "name": "Peau de Larve Bleue",
+          "itemId": 362,
+          "imageUrl": "/items/362.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/362"
+        },
+        {
+          "name": "Gelée Bleuet",
+          "itemId": 757,
+          "imageUrl": "/items/757.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/757"
+        },
+        {
+          "name": "Laine de Ramane Strubien",
+          "itemId": 881,
+          "imageUrl": "/items/881.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/881"
+        },
+        {
+          "name": "Plume de Crowneille",
+          "itemId": 1889,
+          "imageUrl": "/items/1889.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1889"
+        },
+        {
+          "name": "Emballage de félicitations",
+          "itemId": 12904,
+          "imageUrl": "/items/12904.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/12904"
+        },
+        {
+          "name": "Article du maître des clefs",
+          "itemId": 16361,
+          "imageUrl": "/items/16361.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16361"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
           },
           {
-            "id": 221,
-            "name": "Boufcools",
+            "id": 84,
+            "name": "Foire du Trool",
+            "coordinates": [
+              "-12,-39"
+            ]
+          },
+          {
+            "id": 56,
+            "name": "Lac de Cania",
+            "coordinates": [
+              "-6,-37"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2400,
+            "name": "Bi le Partageur",
+            "level": 24,
+            "imageUrl": "/bestiary/monsters/2400.png"
+          },
+          {
+            "id": 2399,
+            "name": "Bilvoezé le Bonimenteur",
+            "level": 24,
+            "imageUrl": "/bestiary/monsters/2399.png"
+          },
+          {
+            "id": 2396,
+            "name": "Bistou le Quêteur",
+            "level": 24,
+            "imageUrl": "/bestiary/monsters/2396.png"
+          },
+          {
+            "id": 2401,
+            "name": "Bistou le Rieur",
+            "level": 24,
+            "imageUrl": "/bestiary/monsters/2401.png"
+          },
+          {
+            "id": 2407,
+            "name": "Blof l'Apathique",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2407.png"
+          },
+          {
+            "id": 2406,
+            "name": "Bloporte le Veule",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2406.png"
+          },
+          {
+            "id": 2405,
+            "name": "Blordur l'Infect",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2405.png"
+          },
+          {
+            "id": 2404,
+            "name": "Blorie l'Assourdissante",
+            "level": 52,
+            "imageUrl": "/bestiary/monsters/2404.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 210,
+            "name": "Blops",
             "monsters": [
               {
-                "id": 671,
-                "name": "Bouftou des cavernes",
-                "level": 84,
-                "imageUrl": "/bestiary/monsters/671.png"
+                "id": 278,
+                "name": "Biblop Coco",
+                "level": 24,
+                "imageUrl": "/bestiary/monsters/278.png"
+              },
+              {
+                "id": 279,
+                "name": "Biblop Griotte",
+                "level": 24,
+                "imageUrl": "/bestiary/monsters/279.png"
+              },
+              {
+                "id": 277,
+                "name": "Biblop Indigo",
+                "level": 24,
+                "imageUrl": "/bestiary/monsters/277.png"
+              },
+              {
+                "id": 280,
+                "name": "Biblop Reinette",
+                "level": 24,
+                "imageUrl": "/bestiary/monsters/280.png"
+              },
+              {
+                "id": 273,
+                "name": "Blop Coco",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/273.png"
+              },
+              {
+                "id": 275,
+                "name": "Blop Griotte",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/275.png"
+              },
+              {
+                "id": 274,
+                "name": "Blop Indigo",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/274.png"
+              },
+              {
+                "id": 276,
+                "name": "Blop Reinette",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/276.png"
               }
             ]
           },
           {
-            "id": 219,
-            "name": "Koalaks",
+            "id": 217,
+            "name": "Pious",
             "monsters": [
               {
-                "id": 747,
-                "name": "Dok Alako",
-                "level": 70,
-                "imageUrl": "/bestiary/monsters/747.png"
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
               },
               {
-                "id": 748,
-                "name": "Koalak Immature",
-                "level": 60,
-                "imageUrl": "/bestiary/monsters/748.png"
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
               },
               {
-                "id": 784,
-                "name": "Piralak",
-                "level": 80,
-                "imageUrl": "/bestiary/monsters/784.png"
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
               },
               {
-                "id": 746,
-                "name": "Warko Marron",
-                "level": 74,
-                "imageUrl": "/bestiary/monsters/746.png"
-              }
-            ]
-          },
-          {
-            "id": 5803,
-            "name": "Koalaks sauvages",
-            "monsters": [
-              {
-                "id": 763,
-                "name": "Drakoalak",
-                "level": 90,
-                "imageUrl": "/bestiary/monsters/763.png"
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
               },
               {
-                "id": 752,
-                "name": "Koalak Coco",
-                "level": 80,
-                "imageUrl": "/bestiary/monsters/752.png"
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
               },
               {
-                "id": 753,
-                "name": "Koalak Griotte",
-                "level": 80,
-                "imageUrl": "/bestiary/monsters/753.png"
-              },
-              {
-                "id": 751,
-                "name": "Koalak Indigo",
-                "level": 80,
-                "imageUrl": "/bestiary/monsters/751.png"
-              },
-              {
-                "id": 754,
-                "name": "Koalak Reinette",
-                "level": 80,
-                "imageUrl": "/bestiary/monsters/754.png"
-              },
-              {
-                "id": 755,
-                "name": "Mama Koalak",
-                "level": 90,
-                "imageUrl": "/bestiary/monsters/755.png"
-              }
-            ]
-          },
-          {
-            "id": 180,
-            "name": "Mulous",
-            "monsters": [
-              {
-                "id": 102,
-                "name": "Mulou",
-                "level": 92,
-                "imageUrl": "/bestiary/monsters/102.png"
-              },
-              {
-                "id": 4867,
-                "name": "Cocholou",
-                "level": 92,
-                "imageUrl": "/bestiary/monsters/4867.png"
-              },
-              {
-                "id": 4868,
-                "name": "Mulounoké",
-                "level": 92,
-                "imageUrl": "/bestiary/monsters/4868.png"
-              },
-              {
-                "id": 4869,
-                "name": "Mergranlou",
-                "level": 92,
-                "imageUrl": "/bestiary/monsters/4869.png"
-              },
-              {
-                "id": 4866,
-                "name": "Muloubard",
-                "level": 92,
-                "imageUrl": "/bestiary/monsters/4866.png"
-              }
-            ]
-          },
-          {
-            "id": 185,
-            "name": "Porcos",
-            "monsters": [
-              {
-                "id": 603,
-                "name": "Cochon de Farle",
-                "level": 90,
-                "imageUrl": "/bestiary/monsters/603.png"
-              },
-              {
-                "id": 601,
-                "name": "Don Dorgan",
-                "level": 92,
-                "imageUrl": "/bestiary/monsters/601.png"
-              },
-              {
-                "id": 600,
-                "name": "Don Duss Ang",
-                "level": 92,
-                "imageUrl": "/bestiary/monsters/600.png"
-              },
-              {
-                "id": 3304,
-                "name": "Porsalu",
-                "level": 80,
-                "imageUrl": "/bestiary/monsters/3304.png"
-              }
-            ]
-          },
-          {
-            "id": 5160,
-            "name": "Rats Bontariens",
-            "monsters": [
-              {
-                "id": 6743,
-                "name": "Chika Rat",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/6743.png"
-              },
-              {
-                "id": 6744,
-                "name": "Aloevée Rate",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/6744.png"
-              },
-              {
-                "id": 941,
-                "name": "Chak Rat",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/941.png"
-              },
-              {
-                "id": 938,
-                "name": "Scélée Rate",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/938.png"
-              },
-              {
-                "id": 942,
-                "name": "Capoei Rat",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/942.png"
-              }
-            ]
-          },
-          {
-            "id": 5159,
-            "name": "Rats Brâkmariens",
-            "monsters": [
-              {
-                "id": 6739,
-                "name": "Rate Atinée",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/6739.png"
-              },
-              {
-                "id": 6742,
-                "name": "Rate Iboisée",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/6742.png"
-              },
-              {
-                "id": 935,
-                "name": "Rat Plapla",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/935.png"
-              },
-              {
-                "id": 936,
-                "name": "Rat Li",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/936.png"
-              },
-              {
-                "id": 937,
-                "name": "Rat Sio",
-                "level": 102,
-                "imageUrl": "/bestiary/monsters/937.png"
-              }
-            ]
-          },
-          {
-            "id": 207,
-            "name": "Sidimonstres",
-            "monsters": [
-              {
-                "id": 299,
-                "name": "Croc Gland",
-                "level": 62,
-                "imageUrl": "/bestiary/monsters/299.png"
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
               }
             ]
           }
         ]
       },
-      "questKey": "quest:73",
-      "sourceUrl": "https://www.dofuspourlesnoobs.com/un-juge-hysterique.html",
-      "sourceTitle": "Un juge hystérique",
-      "sourceHash": "5189a5003336188ba9c2062fbe1504352733438f35efd98131fb5f946b178711",
-      "generatedAt": "2026-08-24T18:32:41.222Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "questKey": "quest:25",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/des-capes-bontariennes.html",
+      "sourceTitle": "Alignement 23 : Des capes Bontariennes",
+      "sourceHash": "94ae9ee1ce09086da7f6dcfc56c1b4ccfceb90f65322e92f90643a0f0d470e69",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après avoir terminé Des capes Bontariennes, prends en charge la corvée de cuisine de la milice. Rei Nisuc demande 25 pommes de terre épluchées ainsi que quatre ailes de chaque type indiqué. Réunis les ressources, épluche les pommes de terre dans la cuisine puis remets le tout au cuisinier.",
+      "recommendedLevel": 54,
+      "prerequisites": [
+        "Avoir terminé Des capes Bontariennes.",
+        "Avoir lancé Corvée de patate auprès d’Amayiro à la milice de Bonta en [-32,-57]."
+      ],
+      "rewards": [
+        "587 910 XP."
+      ],
+      "preparation": [
+        "Prévoir 25 x Pomme de Terre ou récupérer 25 pommes de terre sur place avant de les éplucher.",
+        "Prévoir 4 x Aile de Dragodinde.",
+        "Prévoir 4 x Aile de Dragodinde Rousse Sauvage."
+      ],
+      "actions": [
+        {
+          "instruction": "Depuis Amayiro, va deux salles vers la droite dans la milice et parle à Rei Nisuc pour connaître les ressources à lui apporter.",
+          "position": "[-32,-57]",
+          "zoneHint": "Cuisine de la milice de Bonta",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Réunis 25 x Pomme de Terre. Tu peux notamment ramasser les tas présents dans la zone de la milice ou près de la prison de Bonta.",
+          "position": "[-32,-57]",
+          "zoneHint": "Milice de Bonta",
+          "warning": "Il faut au total l’équivalent de 250 pods, soit 25 pommes de terre.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la cuisine de la milice, utilise l’atelier à côté de Rei Nisuc pour transformer les 25 pommes de terre en Pommes de Terre épluchées.",
+          "position": "[-32,-57]",
+          "zoneHint": "Cuisine de la milice de Bonta",
+          "warning": "Les pommes de terre doivent être épluchées avant de pouvoir être remises au cuisinier.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Donne à Rei Nisuc les 25 Pommes de Terre épluchées, 4 Aile de Dragodinde et 4 Aile de Dragodinde Rousse Sauvage pour terminer la quête.",
+          "position": "[-32,-57]",
+          "zoneHint": "Cuisine de la milice de Bonta",
+          "warning": "Toutes les ressources demandées doivent être présentes lors de la remise.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La quête suivante, Lyeno, Abraknyde malgré lui, est volontairement laissée pour l’étape suivante du guide.",
+        "Des tas de pommes de terre existent aussi dans les sous-sols de la milice de Brâkmar, mais ce détour n’est pas nécessaire pour cette occurrence."
+      ],
+      "npcs": [
+        "Amayiro",
+        "Rei Nisuc"
+      ],
+      "items": [
+        {
+          "name": "Pomme de Terre",
+          "itemId": 537,
+          "imageUrl": "/items/537.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/537"
+        },
+        {
+          "name": "Pommes de Terre épluchées",
+          "itemId": 1886,
+          "imageUrl": "/items/1886.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1886"
+        },
+        {
+          "name": "Aile de Dragodinde",
+          "itemId": 3100,
+          "imageUrl": "/items/3100.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/3100"
+        },
+        {
+          "name": "Aile de Dragodinde Rousse Sauvage",
+          "itemId": 3098,
+          "imageUrl": "/items/3098.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/3098"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 975,
+            "name": "Cœur immaculé",
+            "coordinates": [
+              "-32,-57"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-32,-57"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2344,
+            "name": "Pioulette la Coquine",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2344.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 489,
+                "name": "Piou Rouge",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/489.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:26",
+      "relation": "ACTIVE",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/corveacutee-de-patate.html",
+      "sourceTitle": "Alignement 24 : Corvée de patate",
+      "sourceHash": "4994ca5ce6edab52df38d340c236e71f63eca9fc56468fd9b33eedb9d8d455be",
+      "generatedAt": null,
+      "model": null
     }
   ],
   "tips": []

@@ -1,8 +1,2432 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 96,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
-  "tips": []
+  "updatedAt": "2026-08-29T11:29:26.480Z",
+  "summaries": [
+    {
+      "overview": "Lancez Rendez-vous avec la mort auprès du Messager discret, puis rencontrez Gein le Silencieux au temple Sram. Cette occurrence sert uniquement à découvrir les intentions d'Écho et à obtenir les trois missions destinées à réunir des preuves en Enutrosor, Srambad et Xélorium. Leur réalisation est volontairement laissée aux occurrences suivantes.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Le disparu de Sufokia.",
+        "Niveau recommandé : 100-200."
+      ],
+      "rewards": [
+        "2 625 000 XP.",
+        "43 980 Kamas."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Au pied de la Tour des Voyageurs, parlez au Messager discret, personnage invisible dont seuls les pieds sont visibles, pour lancer la quête.",
+          "position": "[-22,-24]",
+          "zoneHint": "Routes Rocailleuses",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au temple Sram, descendez au plus profond du temple et cliquez sur le cercueil entre-ouvert.",
+          "position": "[-4,0]",
+          "zoneHint": "Temple Sram",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Échangez avec Gein le Silencieux par l'intermédiaire de ses morceaux de papier afin d'apprendre qu'Écho dirige la Fratrie des Oubliés et cherche à réunir de l'Orichor pour fabriquer une boîte magique.",
+          "position": "[-4,0]",
+          "zoneHint": "Temple Sram",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Prenez les trois messages de Gein portant les mentions Enutrosor, Srambad et Xélorium afin d'obtenir respectivement Secret de fabrication, S'emparer des commandes et C'est dans la boîte.",
+          "position": "[-4,0]",
+          "zoneHint": "Temple Sram",
+          "warning": "Arrêtez-vous ici pour cette occurrence : les trois missions sont réalisées dans les occurrences suivantes avant la reprise de Rendez-vous avec la mort.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Gein demande de réunir trois preuves distinctes contre Écho dans les trois dimensions.",
+        "La fin de Rendez-vous avec la mort intervient seulement après les trois missions intermédiaires."
+      ],
+      "npcs": [
+        "Messager discret",
+        "Gein le Silencieux",
+        "Écho"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 480,
+            "name": "Montagne basse des Craqueleurs",
+            "coordinates": [
+              "-4,0"
+            ]
+          },
+          {
+            "id": 525,
+            "name": "Routes Rocailleuses",
+            "coordinates": [
+              "-22,-24"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2430,
+            "name": "Chevaustine le Reconstruit",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2430.png"
+          },
+          {
+            "id": 2494,
+            "name": "Gobstiniais le Têtu",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2494.png"
+          },
+          {
+            "id": 2417,
+            "name": "Barchwork le Multicolore",
+            "level": 37,
+            "imageUrl": "/bestiary/monsters/2417.png"
+          },
+          {
+            "id": 2416,
+            "name": "Bworkasse le Dégoutant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2416.png"
+          },
+          {
+            "id": 2418,
+            "name": "Bwormage le Respectueux",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2418.png"
+          },
+          {
+            "id": 2436,
+            "name": "Crakmitaine le Faucheur",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2436.png"
+          },
+          {
+            "id": 2543,
+            "name": "Craquecrac l'Endurant",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2543.png"
+          },
+          {
+            "id": 2326,
+            "name": "Craquetuss le Piquant",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2326.png"
+          },
+          {
+            "id": 2503,
+            "name": "Kanasukr le Mielleux",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2503.png"
+          },
+          {
+            "id": 2359,
+            "name": "Maître Champeur le Sabreur",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2359.png"
+          },
+          {
+            "id": 2445,
+            "name": "Fouflay le Retombé",
+            "level": 64,
+            "imageUrl": "/bestiary/monsters/2445.png"
+          },
+          {
+            "id": 2455,
+            "name": "Vétaurine l'Énergisé",
+            "level": 66,
+            "imageUrl": "/bestiary/monsters/2455.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 213,
+            "name": "Animaux des Champs",
+            "monsters": [
+              {
+                "id": 288,
+                "name": "Serpentin",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/288.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              },
+              {
+                "id": 259,
+                "name": "Arakne Majeure",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/259.png"
+              }
+            ]
+          },
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 182,
+            "name": "Bworks d'Amakna",
+            "monsters": [
+              {
+                "id": 876,
+                "name": "Bwork",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/876.png"
+              },
+              {
+                "id": 74,
+                "name": "Bwork Archer",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/74.png"
+              },
+              {
+                "id": 53,
+                "name": "Bwork Mage",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/53.png"
+              }
+            ]
+          },
+          {
+            "id": 186,
+            "name": "Craqueleurs",
+            "monsters": [
+              {
+                "id": 483,
+                "name": "Craqueboule",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/483.png"
+              },
+              {
+                "id": 106,
+                "name": "Craqueleur",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/106.png"
+              },
+              {
+                "id": 293,
+                "name": "Craqueleur des Plaines",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/293.png"
+              },
+              {
+                "id": 4570,
+                "name": "Élémenterre",
+                "level": 59,
+                "imageUrl": "/bestiary/monsters/4570.png"
+              },
+              {
+                "id": 4571,
+                "name": "Craquelourd",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4571.png"
+              },
+              {
+                "id": 4573,
+                "name": "Craquelope",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4573.png"
+              }
+            ]
+          },
+          {
+            "id": 187,
+            "name": "Gobelins d'Amakna",
+            "monsters": [
+              {
+                "id": 178,
+                "name": "Gobet",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/178.png"
+              },
+              {
+                "id": 62,
+                "name": "Gob-trotteur",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/62.png"
+              }
+            ]
+          },
+          {
+            "id": 1518,
+            "name": "Ruffians de Cania",
+            "monsters": [
+              {
+                "id": 4574,
+                "name": "Foufayteur",
+                "level": 64,
+                "imageUrl": "/bestiary/monsters/4574.png"
+              },
+              {
+                "id": 4575,
+                "name": "Vétauran",
+                "level": 66,
+                "imageUrl": "/bestiary/monsters/4575.png"
+              },
+              {
+                "id": 287,
+                "name": "Kanigrou",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/287.png"
+              },
+              {
+                "id": 371,
+                "name": "Maître Bolet",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/371.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:883",
+      "relation": "START",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/rendez-vous-avec-la-mort.html",
+      "sourceTitle": "Rendez-vous avec la mort",
+      "sourceHash": "7de920e313d5775128d1e86115a9832dfdf8d5f5a8be717f82d5fd6ddaf9b93a",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Menez l'enquête d'Enutrosor pour prouver le détournement d'Orichor. Contactez l'agent Bloude, fabriquez une Potion de transparence totale, infiltrez le passage clandestin et la raffinerie, puis récupérez un Échantillon d'orichor raffiné et remettez cette preuve à Gein.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Avoir lancé Rendez-vous avec la mort et être arrivé à l'étape où Gein remet ses trois messages.",
+        "Niveau recommandé : 100-200."
+      ],
+      "rewards": [
+        "2 625 000 XP.",
+        "43 980 Kamas.",
+        "2 x Orichor."
+      ],
+      "preparation": [
+        "Prévoir 1 x Cuir de Porsalu.",
+        "Prévoir 1 x Oreille de Bouledogre.",
+        "Prévoir 10 x Oreille de Rhinoféroce.",
+        "Prévoir 10 x Corne du Boufcoul.",
+        "Prévoir un combat seul en 3 vagues."
+      ],
+      "actions": [
+        {
+          "instruction": "Prenez auprès de Gein le Silencieux le message portant la mention Enutrosor pour obtenir la mission.",
+          "position": "[-4,0]",
+          "zoneHint": "Temple Sram",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez à la Tour des Voyageurs pour chercher l'agent Bloude. Après avoir constaté son absence dans la prison et les étages, interrogez Gladis dans la salle de recherche des portails.",
+          "position": "[-22,-24]",
+          "zoneHint": "Tour des Voyageurs",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez dans la prison de la Tour et activez la console du Krosmoglob afin d'entrer en contact avec Bloude.",
+          "position": "[-22,-24]",
+          "zoneHint": "Prison de la Tour des Voyageurs",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Trouvez l'alambic, réunissez 1 Cuir de Porsalu, 1 Oreille de Bouledogre, 10 Oreilles de Rhinoféroce et 10 Cornes du Boufcoul, puis fabriquez une Potion de transparence totale.",
+          "position": null,
+          "zoneHint": "Tour des Voyageurs",
+          "warning": "La Potion de transparence totale n'est utilisable que sur une seule map.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Revenez à l'entrée de la Tour et interrogez le Colonel Oneuil sur les heures de garde d'Yvan Du ; il vous indique qu'Yvan est actuellement de garde.",
+          "position": "[-22,-24]",
+          "zoneHint": "Tour des Voyageurs",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous dans la mine Istairameur et progressez jusqu'au fond en allant toujours à droite.",
+          "position": "[-3,9]",
+          "zoneHint": "Mine Istairameur",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Sur la dernière map de la mine, utilisez la Potion de transparence totale puis empruntez le Portail caché vers Enutrosor.",
+          "position": null,
+          "zoneHint": "Mine Istairameur",
+          "warning": "Sans la potion d'invisibilité, les gardes peuvent engager un combat décrit comme très difficile.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Suivez les traces du convoi en Enutrosor puis grimpez dans le seau au bord de la falaise pour atteindre le lieu caché.",
+          "position": null,
+          "zoneHint": "Enutrosor",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Devant le Digicode, choisissez impérativement « Prendre du temps pour réfléchir ».",
+          "position": null,
+          "zoneHint": "Entrée de la raffinerie",
+          "warning": "Ne tentez pas un code au hasard : cela vous expulse de la dimension et empêche de récupérer normalement le code à cette étape.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Ouvrez ensuite n'importe quel coffre en Enutrosor afin d'obtenir des Notes griffonnées contenant votre code personnel.",
+          "position": null,
+          "zoneHint": "Enutrosor",
+          "warning": "L'ouverture d'un coffre peut déclencher un combat. Le code varie selon le personnage : utilisez celui indiqué dans votre inventaire de quête.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Retournez au Digicode, saisissez votre code personnel et franchissez la première salle de la raffinerie.",
+          "position": null,
+          "zoneHint": "Raffinerie",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Zap Gobdon puis à Belle Andrenne pour apprendre que l'Orichor des Voyageurs est détourné vers cette raffinerie.",
+          "position": null,
+          "zoneHint": "Raffinerie",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez au Gardien Koffrefor et combattez-le pour voler l'Orichor raffiné. Affrontez seul 3 vagues : Gardien Mimikado + Gardien Berserkoffre, puis Gardien Trésantène + Gardien Berserkoffre, puis Gardien Mimikado + Gardien Trésantène.",
+          "position": null,
+          "zoneHint": "Raffinerie",
+          "warning": "Combat seul en 3 vagues.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Récupérez l'Échantillon d'orichor raffiné obtenu à la fin du combat, puis parlez à Amaurykor et assistez à l'intervention du Roi Nidas.",
+          "position": null,
+          "zoneHint": "Raffinerie",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Bloude dans la raffinerie puis retrouvez-la dehors pour obtenir ses conclusions sur le détournement massif d'Orichor.",
+          "position": null,
+          "zoneHint": "Extérieur de la raffinerie",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez au temple Sram et montrez l'Échantillon d'orichor raffiné à Gein le Silencieux afin de terminer la mission.",
+          "position": "[-4,0]",
+          "zoneHint": "Temple Sram",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le code du Digicode est propre au personnage et doit être lu dans les Notes griffonnées.",
+        "Gein remarque une rune sur l'Orichor raffiné, qui constitue un élément susceptible de convaincre les Voyageurs."
+      ],
+      "npcs": [
+        "Gein le Silencieux",
+        "Agent Bloude",
+        "Gladis",
+        "Colonel Oneuil",
+        "Yvan Du",
+        "Zap Gobdon",
+        "Belle Andrenne",
+        "Gardien Koffrefor",
+        "Amaurykor",
+        "Roi Nidas"
+      ],
+      "items": [
+        {
+          "name": "Cuir de Porsalu",
+          "itemId": 14946,
+          "imageUrl": "/items/14946.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/14946"
+        },
+        {
+          "name": "Oreille de Bouledogre",
+          "itemId": 14509,
+          "imageUrl": "/items/14509.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/14509"
+        },
+        {
+          "name": "Oreille de Rhinoféroce",
+          "itemId": 14516,
+          "imageUrl": "/items/14516.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/14516"
+        },
+        {
+          "name": "Corne du Boufcoul",
+          "itemId": 7906,
+          "imageUrl": "/items/7906.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/7906"
+        },
+        {
+          "name": "Potion de transparence totale",
+          "itemId": 16053,
+          "imageUrl": "/items/16053.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16053"
+        },
+        {
+          "name": "Notes griffonnées",
+          "itemId": 16058,
+          "imageUrl": "/items/16058.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16058"
+        },
+        {
+          "name": "Échantillon d'orichor raffiné",
+          "itemId": 16059,
+          "imageUrl": "/items/16059.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16059"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-4,0"
+            ]
+          },
+          {
+            "id": 1034,
+            "name": "Mine Istairameur",
+            "coordinates": [
+              "-3,9"
+            ]
+          },
+          {
+            "id": 480,
+            "name": "Montagne basse des Craqueleurs",
+            "coordinates": [
+              "-4,0"
+            ]
+          },
+          {
+            "id": 525,
+            "name": "Routes Rocailleuses",
+            "coordinates": [
+              "-22,-24"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2430,
+            "name": "Chevaustine le Reconstruit",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2430.png"
+          },
+          {
+            "id": 2494,
+            "name": "Gobstiniais le Têtu",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2494.png"
+          },
+          {
+            "id": 2417,
+            "name": "Barchwork le Multicolore",
+            "level": 37,
+            "imageUrl": "/bestiary/monsters/2417.png"
+          },
+          {
+            "id": 2416,
+            "name": "Bworkasse le Dégoutant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2416.png"
+          },
+          {
+            "id": 2418,
+            "name": "Bwormage le Respectueux",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2418.png"
+          },
+          {
+            "id": 2436,
+            "name": "Crakmitaine le Faucheur",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2436.png"
+          },
+          {
+            "id": 2543,
+            "name": "Craquecrac l'Endurant",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2543.png"
+          },
+          {
+            "id": 2326,
+            "name": "Craquetuss le Piquant",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2326.png"
+          },
+          {
+            "id": 2503,
+            "name": "Kanasukr le Mielleux",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2503.png"
+          },
+          {
+            "id": 2359,
+            "name": "Maître Champeur le Sabreur",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2359.png"
+          },
+          {
+            "id": 2445,
+            "name": "Fouflay le Retombé",
+            "level": 64,
+            "imageUrl": "/bestiary/monsters/2445.png"
+          },
+          {
+            "id": 2455,
+            "name": "Vétaurine l'Énergisé",
+            "level": 66,
+            "imageUrl": "/bestiary/monsters/2455.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 213,
+            "name": "Animaux des Champs",
+            "monsters": [
+              {
+                "id": 288,
+                "name": "Serpentin",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/288.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              },
+              {
+                "id": 259,
+                "name": "Arakne Majeure",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/259.png"
+              }
+            ]
+          },
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 182,
+            "name": "Bworks d'Amakna",
+            "monsters": [
+              {
+                "id": 876,
+                "name": "Bwork",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/876.png"
+              },
+              {
+                "id": 74,
+                "name": "Bwork Archer",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/74.png"
+              },
+              {
+                "id": 53,
+                "name": "Bwork Mage",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/53.png"
+              }
+            ]
+          },
+          {
+            "id": 186,
+            "name": "Craqueleurs",
+            "monsters": [
+              {
+                "id": 483,
+                "name": "Craqueboule",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/483.png"
+              },
+              {
+                "id": 106,
+                "name": "Craqueleur",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/106.png"
+              },
+              {
+                "id": 293,
+                "name": "Craqueleur des Plaines",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/293.png"
+              },
+              {
+                "id": 4570,
+                "name": "Élémenterre",
+                "level": 59,
+                "imageUrl": "/bestiary/monsters/4570.png"
+              },
+              {
+                "id": 4571,
+                "name": "Craquelourd",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4571.png"
+              },
+              {
+                "id": 4573,
+                "name": "Craquelope",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4573.png"
+              }
+            ]
+          },
+          {
+            "id": 187,
+            "name": "Gobelins d'Amakna",
+            "monsters": [
+              {
+                "id": 178,
+                "name": "Gobet",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/178.png"
+              },
+              {
+                "id": 62,
+                "name": "Gob-trotteur",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/62.png"
+              }
+            ]
+          },
+          {
+            "id": 1518,
+            "name": "Ruffians de Cania",
+            "monsters": [
+              {
+                "id": 4574,
+                "name": "Foufayteur",
+                "level": 64,
+                "imageUrl": "/bestiary/monsters/4574.png"
+              },
+              {
+                "id": 4575,
+                "name": "Vétauran",
+                "level": 66,
+                "imageUrl": "/bestiary/monsters/4575.png"
+              },
+              {
+                "id": 287,
+                "name": "Kanigrou",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/287.png"
+              },
+              {
+                "id": 371,
+                "name": "Maître Bolet",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/371.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:884",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/secret-de-fabrication.html",
+      "sourceTitle": "Secret de fabrication",
+      "sourceHash": "89c42e671884c4651bc4606bc48c4c771c987bd326989fe51911d3210dc399d3",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Enquêtez à Srambad sur les rapports d'espionnage dérobés par un imposteur déguisé en Gein. Remontez la piste de San Tress puis du Râtelier Gris, infiltrez les égouts avec une Baguette Rikiki, combattez Svivomito et récupérez finalement une copie des rapports avant de les remettre à Gein.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Avoir lancé Rendez-vous avec la mort et être arrivé à l'étape où Gein remet ses trois messages.",
+        "Niveau recommandé : 100-200."
+      ],
+      "rewards": [
+        "2 625 000 XP.",
+        "43 980 Kamas.",
+        "1 x Orichor."
+      ],
+      "preparation": [
+        "Prévoir 1 x Baguette Rikiki.",
+        "Prévoir 1 x Insigne de Malveilleur ou 30 000 kamas.",
+        "Prévoir 1 x Anneau du Bandit ou 100 000 kamas.",
+        "Prévoir au minimum 1 000 kamas pour le Geôlier.",
+        "Prévoir un combat seul en 3 vagues."
+      ],
+      "actions": [
+        {
+          "instruction": "Prenez auprès de Gein le Silencieux le message portant la mention Srambad.",
+          "position": "[-4,0]",
+          "zoneHint": "Temple Sram",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Empruntez un portail vers Srambad puis allez parler à Anne Saulo.",
+          "position": "[1,6]",
+          "zoneHint": "Srambad",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Après avoir appris qu'un faux Gein a déjà récupéré le colis, rendez-vous auprès d'Arielle et interrogez-la.",
+          "position": "[4,3]",
+          "zoneHint": "Srambad",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Au marché de Srambad, parlez à Ellie Ksire et obtenez une Potion de transformation en sirène contre 30 000 kamas ou 1 Insigne de Malveilleur.",
+          "position": "[8,4]",
+          "zoneHint": "Marché de Srambad",
+          "warning": "Choix de dépense : 30 000 kamas ou 1 Insigne de Malveilleur.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rapportez la Potion de transformation en sirène à Arielle pour apprendre que l'imposteur a rejoint un passage des Hauts Ténébreux.",
+          "position": "[4,3]",
+          "zoneHint": "Srambad",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous au passage indiqué, cliquez sur la boîte en carton et récupérez le Déguisement de Gein.",
+          "position": "[4,1]",
+          "zoneHint": "Hauts Ténébreux",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez Haugne Boidboul sur le déguisement ; il identifie l'imposteur comme San Tress et indique qu'il est parti à la taverne.",
+          "position": "[4,1]",
+          "zoneHint": "Hauts Ténébreux",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez à la Taverne du Bourreau et constatez que les fauteurs de troubles ont été conduits en prison.",
+          "position": "[5,2]",
+          "zoneHint": "Taverne du Bourreau",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous à la prison de Srambad en longeant la paroi au lieu de descendre les escaliers, puis interrogez San Tress.",
+          "position": "[7,2]",
+          "zoneHint": "Prison de Srambad",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Demandez au Geôlier de libérer San Tress et payez au minimum 1 000 kamas.",
+          "position": "[7,2]",
+          "zoneHint": "Prison de Srambad",
+          "warning": "Dépense obligatoire indiquée par la source : au moins 1 000 kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Interrogez ensuite le Geôlier sur les documents, puis sortez devant la prison et questionnez le Malveilleur aux aguets pour apprendre que les hommes d'Al Capote sont partis avec eux.",
+          "position": "[7,2]",
+          "zoneHint": "Extérieur de la prison de Srambad",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Au marché, parlez à Ballotin puis à Grima, la commerçante de crânes.",
+          "position": "[7,4]",
+          "zoneHint": "Marché de Srambad",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Donnez à Grima un Anneau du Bandit ou 100 000 kamas afin qu'elle révèle que le Râtelier Gris est parti vers les Catacombes.",
+          "position": "[7,4]",
+          "zoneHint": "Marché de Srambad",
+          "warning": "Choix de dépense : 1 Anneau du Bandit ou 100 000 kamas.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous dans les Catacombes et retrouvez Ballotin.",
+          "position": "[8,6]",
+          "zoneHint": "Catacombes",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Équipez la Baguette Rikiki et passez entre les barreaux pour entrer dans les égouts, puis écoutez la conversation entre le Râtelier Gris et Morora.",
+          "position": "[8,6]",
+          "zoneHint": "Égouts",
+          "warning": "Pensez à rééquiper votre véritable arme avant le combat.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Svivomito et affrontez-le avec ses acolytes. Le combat se déroule seul en 3 vagues, avec Morora dans votre camp : Milirat Rikiki + Milirat Rokoko, puis Svivomito, puis Milirat Rikiki + Milirat Rokoko.",
+          "position": null,
+          "zoneHint": "Égouts",
+          "warning": "Combat seul en 3 vagues ; Morora combat à vos côtés.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après le combat, récupérez le Contrat de Svivomito puis suivez l'indication de Morora et retournez au marché.",
+          "position": "[8,3]",
+          "zoneHint": "Marché de Srambad",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Madame Loseil puis rendez-vous dans la ruelle à droite.",
+          "position": "[9,3]",
+          "zoneHint": "Ruelle de Srambad",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Échangez avec Ecaflipé, la reine de Srambad, qui vous remet une copie des Rapports d'espionnage concernant le Colonel Oneuil, Gladis, le Major Qiu et le Docteur Gaw.",
+          "position": "[9,3]",
+          "zoneHint": "Ruelle de Srambad",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez au temple Sram et montrez les Rapports d'espionnage à Gein le Silencieux pour terminer la mission.",
+          "position": "[-4,0]",
+          "zoneHint": "Temple Sram",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Les rapports constituent la preuve qu'Écho fait espionner les principaux Voyageurs.",
+        "L'Anneau du Bandit permet d'éviter la dépense de 100 000 kamas demandée par Grima."
+      ],
+      "npcs": [
+        "Gein le Silencieux",
+        "Anne Saulo",
+        "Arielle",
+        "Ellie Ksire",
+        "Haugne Boidboul",
+        "San Tress",
+        "Geôlier",
+        "Malveilleur aux aguets",
+        "Ballotin",
+        "Grima",
+        "Râtelier Gris",
+        "Morora",
+        "Svivomito",
+        "Madame Loseil",
+        "Ecaflipé",
+        "Colonel Oneuil",
+        "Gladis",
+        "Major Qiu",
+        "Docteur Gaw"
+      ],
+      "items": [
+        {
+          "name": "Insigne de Malveilleur",
+          "itemId": 15416,
+          "imageUrl": "/items/15416.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15416"
+        },
+        {
+          "name": "Anneau du Bandit",
+          "itemId": 6961,
+          "imageUrl": "/items/6961.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/6961"
+        },
+        {
+          "name": "Baguette Rikiki",
+          "itemId": 15990,
+          "imageUrl": "/items/15990.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/15990"
+        },
+        {
+          "name": "Potion de transformation en sirène",
+          "itemId": 16064,
+          "imageUrl": "/items/16064.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16064"
+        },
+        {
+          "name": "Déguisement de Gein",
+          "itemId": 16065,
+          "imageUrl": "/items/16065.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16065"
+        },
+        {
+          "name": "Contrat de Svivomito",
+          "itemId": 16066,
+          "imageUrl": "/items/16066.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16066"
+        },
+        {
+          "name": "Rapports d'espionnage",
+          "itemId": 16063,
+          "imageUrl": "/items/16063.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16063"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 485,
+            "name": "Campagne d'Amakna",
+            "coordinates": [
+              "7,2"
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Champ des Ingalsse",
+            "coordinates": [
+              "8,4",
+              "7,4",
+              "8,6",
+              "8,3",
+              "9,3"
+            ]
+          },
+          {
+            "id": 829,
+            "name": "Hauts Ténébreux",
+            "coordinates": [
+              "4,3",
+              "4,1"
+            ]
+          },
+          {
+            "id": 482,
+            "name": "Milifutaie",
+            "coordinates": [
+              "1,6"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-4,0"
+            ]
+          },
+          {
+            "id": 480,
+            "name": "Montagne basse des Craqueleurs",
+            "coordinates": [
+              "-4,0"
+            ]
+          },
+          {
+            "id": 448,
+            "name": "Taverne",
+            "coordinates": [
+              "5,2"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "4,3"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 3525,
+            "name": "Ambi Guman",
+            "level": 30,
+            "imageUrl": "/bestiary/monsters/3525.png"
+          },
+          {
+            "id": 3761,
+            "name": "Gein",
+            "level": 1600,
+            "imageUrl": "/bestiary/monsters/3761.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2310,
+            "name": "Arakule la Revancharde",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2310.png"
+          },
+          {
+            "id": 2323,
+            "name": "Chamchie le Difficile",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2323.png"
+          },
+          {
+            "id": 2336,
+            "name": "Mosketère le Dévoué",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2336.png"
+          },
+          {
+            "id": 2333,
+            "name": "Milipatte la Griffe",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2333.png"
+          },
+          {
+            "id": 2349,
+            "name": "Preskapwal le Tendancieux",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2349.png"
+          },
+          {
+            "id": 2430,
+            "name": "Chevaustine le Reconstruit",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2430.png"
+          },
+          {
+            "id": 2494,
+            "name": "Gobstiniais le Têtu",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2494.png"
+          },
+          {
+            "id": 2355,
+            "name": "Tofuldebeu l'Explosif",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2355.png"
+          },
+          {
+            "id": 2417,
+            "name": "Barchwork le Multicolore",
+            "level": 37,
+            "imageUrl": "/bestiary/monsters/2417.png"
+          },
+          {
+            "id": 2416,
+            "name": "Bworkasse le Dégoutant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2416.png"
+          },
+          {
+            "id": 2418,
+            "name": "Bwormage le Respectueux",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2418.png"
+          },
+          {
+            "id": 2436,
+            "name": "Crakmitaine le Faucheur",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2436.png"
+          },
+          {
+            "id": 2543,
+            "name": "Craquecrac l'Endurant",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2543.png"
+          },
+          {
+            "id": 2326,
+            "name": "Craquetuss le Piquant",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2326.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 4823,
+                "name": "Écurouille",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/4823.png"
+              },
+              {
+                "id": 159,
+                "name": "Milimulou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/159.png"
+              },
+              {
+                "id": 103,
+                "name": "Prespic",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/103.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              }
+            ]
+          },
+          {
+            "id": 182,
+            "name": "Bworks d'Amakna",
+            "monsters": [
+              {
+                "id": 876,
+                "name": "Bwork",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/876.png"
+              },
+              {
+                "id": 74,
+                "name": "Bwork Archer",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/74.png"
+              },
+              {
+                "id": 53,
+                "name": "Bwork Mage",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/53.png"
+              }
+            ]
+          },
+          {
+            "id": 1130,
+            "name": "Cour Sombre",
+            "monsters": [
+              {
+                "id": 3746,
+                "name": "Mâchassin",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/3746.png"
+              },
+              {
+                "id": 3747,
+                "name": "Terristocrate",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/3747.png"
+              },
+              {
+                "id": 3748,
+                "name": "Doublure",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/3748.png"
+              },
+              {
+                "id": 3749,
+                "name": "Bourôliste",
+                "level": 200,
+                "imageUrl": "/bestiary/monsters/3749.png"
+              }
+            ]
+          },
+          {
+            "id": 186,
+            "name": "Craqueleurs",
+            "monsters": [
+              {
+                "id": 483,
+                "name": "Craqueboule",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/483.png"
+              },
+              {
+                "id": 106,
+                "name": "Craqueleur",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/106.png"
+              },
+              {
+                "id": 4570,
+                "name": "Élémenterre",
+                "level": 59,
+                "imageUrl": "/bestiary/monsters/4570.png"
+              },
+              {
+                "id": 4571,
+                "name": "Craquelourd",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4571.png"
+              }
+            ]
+          },
+          {
+            "id": 187,
+            "name": "Gobelins d'Amakna",
+            "monsters": [
+              {
+                "id": 178,
+                "name": "Gobet",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/178.png"
+              },
+              {
+                "id": 62,
+                "name": "Gob-trotteur",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/62.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 205,
+            "name": "Tofus",
+            "monsters": [
+              {
+                "id": 804,
+                "name": "Tofoune",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/804.png"
+              },
+              {
+                "id": 796,
+                "name": "Tofu Noir",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/796.png"
+              },
+              {
+                "id": 806,
+                "name": "Tofukaz",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/806.png"
+              },
+              {
+                "id": 98,
+                "name": "Tofu",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/98.png"
+              },
+              {
+                "id": 4824,
+                "name": "Tofu Mutant",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/4824.png"
+              }
+            ]
+          },
+          {
+            "id": 1602,
+            "name": "Vermines des champs",
+            "monsters": [
+              {
+                "id": 4819,
+                "name": "Campagnoll",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/4819.png"
+              },
+              {
+                "id": 59,
+                "name": "Champ Champ",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/59.png"
+              },
+              {
+                "id": 61,
+                "name": "Moskito",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/61.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:885",
+      "relation": "ACTIVE",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/semparer-des-commandes.html",
+      "sourceTitle": "S'emparer des commandes",
+      "sourceHash": "bc4220686512d265ce6d739d6f5ccf666414dc08a20dddfa867d34655cfbd6b2",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "En Xélorium, cherchez l'histoire de la boîte convoitée par Écho. L'enquête mène de l'Historibus Compendium à Olivie Frange puis au Mégalithe de Fraktale. Récupérez quatre Bouts de Temps, accédez à Méthée, obtenez les Symboles du Dodécariam et rapportez-les à Gein.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Avoir lancé Rendez-vous avec la mort et être arrivé à l'étape où Gein remet ses trois messages.",
+        "Niveau recommandé : 100-200."
+      ],
+      "rewards": [
+        "2 625 000 XP.",
+        "43 980 Kamas."
+      ],
+      "preparation": [
+        "Prévoir jusqu'à 5 combats seuls selon le déroulement indiqué."
+      ],
+      "actions": [
+        {
+          "instruction": "Prenez auprès de Gein le Silencieux le message portant la mention Xélorium.",
+          "position": "[-4,0]",
+          "zoneHint": "Temple Sram",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous en Xélorium, utilisez une fois la montre en avance à votre arrivée, avancez tout droit et demandez à la Gardienne du Muséum l'autorisation de consulter l'Historibus Compendium.",
+          "position": null,
+          "zoneHint": "Muséum du Xélorium",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Entrez dans la salle des temps passés et consultez la légende de Méthée, puis retournez voir la Gardienne au sujet de la page manquante.",
+          "position": null,
+          "zoneHint": "Salle des temps passés",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez le Dévoreur de livres et attaquez-le.",
+          "position": "[1,2]",
+          "zoneHint": "Xélorium",
+          "warning": "Combat seul.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après sa défaite, prenez sa page. Elle appartient en réalité à un livre de Rachelle Kiki et oriente l'enquête vers Olivie Frange.",
+          "position": "[1,2]",
+          "zoneHint": "Xélorium",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez à l'avant-poste et demandez des nouvelles d'Olivie à Caporale Tarte.",
+          "position": "[1,6]",
+          "zoneHint": "Avant-poste du Xélorium",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous devant le Mégalithe de Fraktale et parlez à Hypéria Gritch. Elle vous demande de récupérer quatre Bouts de Temps avant de pouvoir accéder à la pierre portant le Dodécariam.",
+          "position": "[7,3]",
+          "zoneHint": "Entrée du Mégalithe de Fraktale",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Suivez le parcours indiqué en utilisant la montre en avance ou en retard aux changements de décor, puis demandez un Bout de Temps à la première Chasseuse de Temps.",
+          "position": null,
+          "zoneHint": "Xélorium",
+          "warning": "La Chasseuse réclame 100 000 kamas ; en cas de refus, elle vous attaque.",
+          "combat": "CHOICE"
+        },
+        {
+          "instruction": "Si vous refusez de payer, battez seule la première Chasseuse de Temps et récupérez le premier Bout de Temps.",
+          "position": null,
+          "zoneHint": "Xélorium",
+          "warning": "Combat seul si vous refusez les 100 000 kamas.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Utilisez la montre en avance, suivez le chemin et battez seul le deuxième Chasseur de Temps.",
+          "position": null,
+          "zoneHint": "Xélorium",
+          "warning": null,
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Utilisez de nouveau la montre en avance, suivez le chemin puis battez seule la troisième Chasseuse de Temps en duel.",
+          "position": null,
+          "zoneHint": "Xélorium",
+          "warning": null,
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Poursuivez le chemin et battez seul le quatrième Chasseur de Temps afin d'obtenir votre quatrième Bout de Temps.",
+          "position": null,
+          "zoneHint": "Xélorium",
+          "warning": null,
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Retournez devant le Mégalithe de Fraktale et parlez à Hypéria Gritch, qui vous conduit gratuitement à l'intérieur.",
+          "position": "[7,3]",
+          "zoneHint": "Entrée du Mégalithe de Fraktale",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans le Mégalithe, placez-vous sur la dalle correspondant à l'heure actuelle au format de cadran de 12 heures afin d'être transporté jusqu'à la pierre de Méthée.",
+          "position": null,
+          "zoneHint": "Mégalithe de Fraktale",
+          "warning": "Utilisez la dalle correspondant à la tranche horaire : par exemple XI à 11h15, IV à 16h28 ou I à 1h59.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la salle de Méthée, prenez la page tenue par Olivie Frange puis secouez Olivie pour la ramener à la réalité.",
+          "position": null,
+          "zoneHint": "Mégalithe de Fraktale",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Guide Olivie hors du Mégalithe. Vous obtenez les Symboles du Dodécariam ; Olivie refuse ensuite d'être raccompagnée à l'avant-poste.",
+          "position": null,
+          "zoneHint": "Mégalithe de Fraktale",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez au temple Sram et montrez les Symboles du Dodécariam à Gein le Silencieux pour terminer la mission.",
+          "position": "[-4,0]",
+          "zoneHint": "Temple Sram",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La légende indique que Méthée voulait enfermer la mémoire des douze Dieux dans une boîte pour s'emparer de leur pouvoir.",
+        "Olivie Frange quitte ensuite l'ordre des Voyageurs afin de chercher des réponses sur l'influence du puits des âmes."
+      ],
+      "npcs": [
+        "Gein le Silencieux",
+        "Gardienne du Muséum",
+        "Méthée",
+        "Dévoreur de livres",
+        "Rachelle Kiki",
+        "Olivie Frange",
+        "Caporale Tarte",
+        "Hypéria Gritch",
+        "Chasseuse de Temps",
+        "Chasseur de Temps"
+      ],
+      "items": [
+        {
+          "name": "Bout de Temps",
+          "itemId": 16130,
+          "imageUrl": "/items/16130.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16130"
+        },
+        {
+          "name": "Symboles du Dodécariam",
+          "itemId": 16062,
+          "imageUrl": "/items/16062.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16062"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 839,
+            "name": "Mégalithe de Fraktale",
+            "coordinates": [
+              "7,3"
+            ]
+          },
+          {
+            "id": 482,
+            "name": "Milifutaie",
+            "coordinates": [
+              "1,6"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-4,0"
+            ]
+          },
+          {
+            "id": 480,
+            "name": "Montagne basse des Craqueleurs",
+            "coordinates": [
+              "-4,0"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "1,2"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          },
+          {
+            "id": 2310,
+            "name": "Arakule la Revancharde",
+            "level": 16,
+            "imageUrl": "/bestiary/monsters/2310.png"
+          },
+          {
+            "id": 2333,
+            "name": "Milipatte la Griffe",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2333.png"
+          },
+          {
+            "id": 2349,
+            "name": "Preskapwal le Tendancieux",
+            "level": 22,
+            "imageUrl": "/bestiary/monsters/2349.png"
+          },
+          {
+            "id": 2430,
+            "name": "Chevaustine le Reconstruit",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2430.png"
+          },
+          {
+            "id": 2494,
+            "name": "Gobstiniais le Têtu",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2494.png"
+          },
+          {
+            "id": 2417,
+            "name": "Barchwork le Multicolore",
+            "level": 37,
+            "imageUrl": "/bestiary/monsters/2417.png"
+          },
+          {
+            "id": 2416,
+            "name": "Bworkasse le Dégoutant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2416.png"
+          },
+          {
+            "id": 2418,
+            "name": "Bwormage le Respectueux",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2418.png"
+          },
+          {
+            "id": 2436,
+            "name": "Crakmitaine le Faucheur",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2436.png"
+          },
+          {
+            "id": 2543,
+            "name": "Craquecrac l'Endurant",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2543.png"
+          },
+          {
+            "id": 2326,
+            "name": "Craquetuss le Piquant",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2326.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 1600,
+            "name": "Animaux de la forêt",
+            "monsters": [
+              {
+                "id": 4823,
+                "name": "Écurouille",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/4823.png"
+              },
+              {
+                "id": 159,
+                "name": "Milimulou",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/159.png"
+              },
+              {
+                "id": 103,
+                "name": "Prespic",
+                "level": 22,
+                "imageUrl": "/bestiary/monsters/103.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              }
+            ]
+          },
+          {
+            "id": 182,
+            "name": "Bworks d'Amakna",
+            "monsters": [
+              {
+                "id": 876,
+                "name": "Bwork",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/876.png"
+              },
+              {
+                "id": 74,
+                "name": "Bwork Archer",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/74.png"
+              },
+              {
+                "id": 53,
+                "name": "Bwork Mage",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/53.png"
+              }
+            ]
+          },
+          {
+            "id": 186,
+            "name": "Craqueleurs",
+            "monsters": [
+              {
+                "id": 483,
+                "name": "Craqueboule",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/483.png"
+              },
+              {
+                "id": 106,
+                "name": "Craqueleur",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/106.png"
+              },
+              {
+                "id": 4570,
+                "name": "Élémenterre",
+                "level": 59,
+                "imageUrl": "/bestiary/monsters/4570.png"
+              },
+              {
+                "id": 4571,
+                "name": "Craquelourd",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4571.png"
+              }
+            ]
+          },
+          {
+            "id": 187,
+            "name": "Gobelins d'Amakna",
+            "monsters": [
+              {
+                "id": 178,
+                "name": "Gobet",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/178.png"
+              },
+              {
+                "id": 62,
+                "name": "Gob-trotteur",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/62.png"
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 1171,
+            "name": "Xélomorphes",
+            "monsters": [
+              {
+                "id": 3854,
+                "name": "Gromorso",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3854.png"
+              },
+              {
+                "id": 3855,
+                "name": "Farfacette",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3855.png"
+              },
+              {
+                "id": 3856,
+                "name": "Brikablak",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3856.png"
+              },
+              {
+                "id": 3857,
+                "name": "Éklatleth",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3857.png"
+              },
+              {
+                "id": 3858,
+                "name": "Segmantid",
+                "level": 112,
+                "imageUrl": "/bestiary/monsters/3858.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:886",
+      "relation": "ACTIVE",
+      "sortOrder": 3,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/cest-dans-la-boicircte.html",
+      "sourceTitle": "C'est dans la boîte",
+      "sourceHash": "4f3cf20ab190fc74e1566d96e1a8e8d320f7f0dacfa1bfec2de17f3da4eafca0",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Cette reprise suppose que Secret de fabrication, S'emparer des commandes et C'est dans la boîte ont déjà été menées à terme et que leurs trois preuves ont été remises à Gein. Rendez-vous avec la mort peut alors se valider, ouvrant la voie à Crise d'identité.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Avoir lancé Rendez-vous avec la mort.",
+        "Avoir réalisé les trois missions obtenues auprès de Gein : Secret de fabrication, S'emparer des commandes et C'est dans la boîte.",
+        "Niveau recommandé : 100-200."
+      ],
+      "rewards": [
+        "2 625 000 XP.",
+        "43 980 Kamas."
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Après avoir terminé les trois missions de Gein et remis leurs preuves, validez la fin de Rendez-vous avec la mort afin de pouvoir enchaîner sur Crise d'identité.",
+          "position": "[-4,0]",
+          "zoneHint": "Temple Sram",
+          "warning": "Les actions des trois missions intermédiaires sont supposées déjà accomplies à cette occurrence et ne doivent pas être recommencées.",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La source indique qu'une fois cette quête terminée, Crise d'identité devient la prochaine et dernière quête du succès actuel."
+      ],
+      "npcs": [
+        "Gein le Silencieux"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-4,0"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": []
+      },
+      "questKey": "quest:883",
+      "relation": "FINISH",
+      "sortOrder": 4,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/rendez-vous-avec-la-mort.html",
+      "sourceTitle": "Rendez-vous avec la mort",
+      "sourceHash": "7de920e313d5775128d1e86115a9832dfdf8d5f5a8be717f82d5fd6ddaf9b93a",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Révélez publiquement la véritable identité et le projet d'Écho aux principaux Voyageurs. Après avoir présenté les preuves réunies dans les trois dimensions, affrontez Écho avec Gein, puis écoutez les révélations de Septange. Cette portion va jusqu'à la fin de la quête et à l'obtention du Dofus des Veilleurs.",
+      "recommendedLevel": 100,
+      "prerequisites": [
+        "Rendez-vous avec la mort.",
+        "Niveau recommandé : 100-200."
+      ],
+      "rewards": [
+        "2 625 000 XP.",
+        "43 980 Kamas.",
+        "Dofus des Veilleurs."
+      ],
+      "preparation": [
+        "Prévoir un combat seul accompagné de Gein le Silencieux.",
+        "Une arme de type Rhon est conseillée par la source pour pouvoir soigner Gein, mais elle n'est pas obligatoire."
+      ],
+      "actions": [
+        {
+          "instruction": "Parlez à Gein le Silencieux. Il confirme qu'Écho cherche à prendre le pouvoir des Dieux et vous remet une potion lui permettant de rejoindre discrètement la Tour des Voyageurs.",
+          "position": "[-4,0]",
+          "zoneHint": "Temple Sram",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Allez voir le Colonel Oneuil à la Tour des Voyageurs, annoncez que vous avez des révélations importantes et demandez-lui de réunir les Voyageurs importants.",
+          "position": "[-22,-24]",
+          "zoneHint": "Tour des Voyageurs",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rejoignez la Salle de Briefing et confrontez l'Explorancienne à vos révélations.",
+          "position": "[-22,-24]",
+          "zoneHint": "Salle de Briefing",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dissipez la fiole confiée par Gein afin de le faire apparaître, puis lisez le message qu'il vous remet.",
+          "position": "[-22,-24]",
+          "zoneHint": "Salle de Briefing",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Présentez les preuves aux Voyageurs : parlez à Oneuil, Zap, Belle, Gaw, Qiu et Gladis, dans l'ordre de votre choix.",
+          "position": "[-22,-24]",
+          "zoneHint": "Salle de Briefing",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez de nouveau à l'Explorancienne. Elle reprend sa véritable forme d'Écho, fige les Voyageurs dans le temps et déclenche le combat.",
+          "position": "[-22,-24]",
+          "zoneHint": "Salle de Briefing",
+          "warning": null,
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Combattez Écho avec Gein le Silencieux. Vous êtes invulnérable ; Gein est le seul à pouvoir blesser Écho et doit atteindre son corps-à-corps à chaque tour pour conserver et augmenter son bonus de dégâts.",
+          "position": "[-22,-24]",
+          "zoneHint": "Salle de Briefing",
+          "warning": "Combat seul accompagné de Gein. Écho peut s'éloigner par un bond un tour sur deux et rompre la montée en puissance de Gein.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Aidez Gein à rester au contact d'Écho. Lors des tours où Écho peut fuir, utilisez si possible du retrait PM ou l'état Pesanteur ; retirer 1 PM à Écho l'attire vers vous. Une arme de type Rhon peut servir à soigner Gein.",
+          "position": "[-22,-24]",
+          "zoneHint": "Salle de Briefing",
+          "warning": "Bloquer simplement Écho dans un coin est peu fiable car elle peut pousser pour se libérer. L'arme de type Rhon est recommandée mais non obligatoire.",
+          "combat": "SOLO"
+        },
+        {
+          "instruction": "Après la victoire, récupérez la Touffe de Cheveux Noirs.",
+          "position": "[-22,-24]",
+          "zoneHint": "Salle de Briefing",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Parlez à Septange, qui révèle être Olivie Frange. Écoutez son explication : l'ordre des Voyageurs et la fabrication de la boîte doivent continuer sous la surveillance du Dieu Xélor.",
+          "position": "[-22,-24]",
+          "zoneHint": "Salle de Briefing",
+          "warning": "Septange annonce que les autres protagonistes vont oublier les événements ; votre personnage est le seul à en conserver le souvenir.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Terminez l'échange avec Septange pour achever la quête et recevoir le Dofus des Veilleurs.",
+          "position": "[-22,-24]",
+          "zoneHint": "Salle de Briefing",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Gein doit frapper Écho au corps-à-corps à chaque tour pour conserver l'accumulation de puissance de son attaque.",
+        "Écho peut récupérer toute sa vitalité périodiquement, mais la montée en puissance continue de Gein permet de dépasser cette régénération.",
+        "Septange explique qu'Écho doit rester à la tête de l'ordre et que Xélor récupérera la boîte en temps voulu dans un but présenté comme noble.",
+        "À la fin de la quête, Septange offre le Dofus des Veilleurs."
+      ],
+      "npcs": [
+        "Gein le Silencieux",
+        "Colonel Oneuil",
+        "Explorancienne",
+        "Écho",
+        "Zap",
+        "Belle",
+        "Docteur Gaw",
+        "Major Qiu",
+        "Gladis",
+        "Septange",
+        "Olivie Frange"
+      ],
+      "items": [
+        {
+          "name": "Potion confiée par Gein",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Touffe de Cheveux Noirs",
+          "itemId": 16131,
+          "imageUrl": "/items/16131.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16131"
+        },
+        {
+          "name": "Dofus des Veilleurs",
+          "itemId": 16061,
+          "imageUrl": "/items/16061.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/16061"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-22,-24"
+            ]
+          },
+          {
+            "id": 480,
+            "name": "Montagne basse des Craqueleurs",
+            "coordinates": [
+              "-4,0"
+            ]
+          },
+          {
+            "id": 525,
+            "name": "Routes Rocailleuses",
+            "coordinates": [
+              "-22,-24"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2430,
+            "name": "Chevaustine le Reconstruit",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2430.png"
+          },
+          {
+            "id": 2494,
+            "name": "Gobstiniais le Têtu",
+            "level": 32,
+            "imageUrl": "/bestiary/monsters/2494.png"
+          },
+          {
+            "id": 2417,
+            "name": "Barchwork le Multicolore",
+            "level": 37,
+            "imageUrl": "/bestiary/monsters/2417.png"
+          },
+          {
+            "id": 2416,
+            "name": "Bworkasse le Dégoutant",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2416.png"
+          },
+          {
+            "id": 2418,
+            "name": "Bwormage le Respectueux",
+            "level": 42,
+            "imageUrl": "/bestiary/monsters/2418.png"
+          },
+          {
+            "id": 2436,
+            "name": "Crakmitaine le Faucheur",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2436.png"
+          },
+          {
+            "id": 2543,
+            "name": "Craquecrac l'Endurant",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2543.png"
+          },
+          {
+            "id": 2326,
+            "name": "Craquetuss le Piquant",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2326.png"
+          },
+          {
+            "id": 2503,
+            "name": "Kanasukr le Mielleux",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2503.png"
+          },
+          {
+            "id": 2359,
+            "name": "Maître Champeur le Sabreur",
+            "level": 62,
+            "imageUrl": "/bestiary/monsters/2359.png"
+          },
+          {
+            "id": 2445,
+            "name": "Fouflay le Retombé",
+            "level": 64,
+            "imageUrl": "/bestiary/monsters/2445.png"
+          },
+          {
+            "id": 2455,
+            "name": "Vétaurine l'Énergisé",
+            "level": 66,
+            "imageUrl": "/bestiary/monsters/2455.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 213,
+            "name": "Animaux des Champs",
+            "monsters": [
+              {
+                "id": 288,
+                "name": "Serpentin",
+                "level": 52,
+                "imageUrl": "/bestiary/monsters/288.png"
+              }
+            ]
+          },
+          {
+            "id": 175,
+            "name": "Araknes",
+            "monsters": [
+              {
+                "id": 52,
+                "name": "Arakne",
+                "level": 16,
+                "imageUrl": "/bestiary/monsters/52.png"
+              },
+              {
+                "id": 259,
+                "name": "Arakne Majeure",
+                "level": 40,
+                "imageUrl": "/bestiary/monsters/259.png"
+              }
+            ]
+          },
+          {
+            "id": 222,
+            "name": "Bandits d'Amakna",
+            "monsters": [
+              {
+                "id": 118,
+                "name": "Mineur Sombre",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/118.png"
+              }
+            ]
+          },
+          {
+            "id": 182,
+            "name": "Bworks d'Amakna",
+            "monsters": [
+              {
+                "id": 876,
+                "name": "Bwork",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/876.png"
+              },
+              {
+                "id": 74,
+                "name": "Bwork Archer",
+                "level": 37,
+                "imageUrl": "/bestiary/monsters/74.png"
+              },
+              {
+                "id": 53,
+                "name": "Bwork Mage",
+                "level": 42,
+                "imageUrl": "/bestiary/monsters/53.png"
+              }
+            ]
+          },
+          {
+            "id": 186,
+            "name": "Craqueleurs",
+            "monsters": [
+              {
+                "id": 483,
+                "name": "Craqueboule",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/483.png"
+              },
+              {
+                "id": 106,
+                "name": "Craqueleur",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/106.png"
+              },
+              {
+                "id": 293,
+                "name": "Craqueleur des Plaines",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/293.png"
+              },
+              {
+                "id": 4570,
+                "name": "Élémenterre",
+                "level": 59,
+                "imageUrl": "/bestiary/monsters/4570.png"
+              },
+              {
+                "id": 4571,
+                "name": "Craquelourd",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4571.png"
+              },
+              {
+                "id": 4573,
+                "name": "Craquelope",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/4573.png"
+              }
+            ]
+          },
+          {
+            "id": 187,
+            "name": "Gobelins d'Amakna",
+            "monsters": [
+              {
+                "id": 178,
+                "name": "Gobet",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/178.png"
+              },
+              {
+                "id": 62,
+                "name": "Gob-trotteur",
+                "level": 32,
+                "imageUrl": "/bestiary/monsters/62.png"
+              }
+            ]
+          },
+          {
+            "id": 1518,
+            "name": "Ruffians de Cania",
+            "monsters": [
+              {
+                "id": 4574,
+                "name": "Foufayteur",
+                "level": 64,
+                "imageUrl": "/bestiary/monsters/4574.png"
+              },
+              {
+                "id": 4575,
+                "name": "Vétauran",
+                "level": 66,
+                "imageUrl": "/bestiary/monsters/4575.png"
+              },
+              {
+                "id": 287,
+                "name": "Kanigrou",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/287.png"
+              },
+              {
+                "id": 371,
+                "name": "Maître Bolet",
+                "level": 62,
+                "imageUrl": "/bestiary/monsters/371.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:887",
+      "relation": "ACTIVE",
+      "sortOrder": 5,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/crise-didentiteacute.html",
+      "sourceTitle": "Crise d'identité",
+      "sourceHash": "84e724e7eca05eabcdd16494d6c39cf59e48cb226ef3e24f93b908f179e4d7c5",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
+  "tips": [
+    {
+      "title": "Prenez les trois messages avant de partir",
+      "description": "Les trois missions de preuve commencent toutes auprès de Gein au temple Sram. Prenez les messages Enutrosor, Srambad et Xélorium lors du même passage avant de partir dans les dimensions.",
+      "questKeys": [
+        "quest:884",
+        "quest:885",
+        "quest:886"
+      ],
+      "actions": [
+        "Au temple Sram, récupérez les trois messages de Gein avant votre premier départ.",
+        "Préparez ensuite les ressources de Secret de fabrication et la Baguette Rikiki ainsi que les moyens de paiement de S'emparer des commandes."
+      ]
+    },
+    {
+      "title": "Regroupez les retours chez Gein",
+      "description": "Secret de fabrication, S'emparer des commandes et C'est dans la boîte se concluent toutes au temple Sram auprès de Gein. Lorsque votre ordre de progression le permet, gardez en tête ce point commun pour limiter les déplacements inutiles.",
+      "questKeys": [
+        "quest:884",
+        "quest:885",
+        "quest:886"
+      ],
+      "actions": [
+        "Après chaque mission, remettez sa preuve à Gein comme demandé par la quête.",
+        "Depuis le temple Sram, enchaînez directement avec toute autre mission de l'étape encore disponible."
+      ]
+    }
+  ]
 }

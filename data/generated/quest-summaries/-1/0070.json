@@ -1,8 +1,233 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 70,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T11:28:41.439Z",
+  "summaries": [
+    {
+      "overview": "Poursuis l'enquête confiée par Alain Deix sur l'île d'Otomaï : accède à la tourbière sans fond, termine la Cale de l'Arche d'Otomaï et bats Gourlo le Terrible, puis rapporte l'absence de Dofus à Alain avant d'aller voir Thelma Geur. La quête est déjà en cours à cette occurrence ; son lancement auprès d'Alain n'est donc pas à refaire.",
+      "recommendedLevel": 50,
+      "prerequisites": [
+        "Être de niveau supérieur à 49.",
+        "Avoir avancé ou terminé « C'est radical ici » selon la progression requise par la quête.",
+        "Avoir terminé « Le Gardien du Pont de la Mort » afin d'accéder à la tourbière sans fond d'Otomaï."
+      ],
+      "rewards": [
+        "1 042 391 XP.",
+        "15 072 kamas.",
+        "1 x Étoffe de Gourlo le Terrible."
+      ],
+      "preparation": [
+        "Prévoir de terminer le donjon Cale de l'Arche d'Otomaï.",
+        "Alain Deix fournit une clef du donjon ; si le trousseau de clefs est disponible, il peut être utilisé à la place."
+      ],
+      "actions": [
+        {
+          "instruction": "Rends-toi à l'entrée de la Cale de l'Arche d'Otomaï et lance le donjon afin d'atteindre Gourlo le Terrible.",
+          "position": "[-55,-4]",
+          "zoneHint": "Cale de l'Arche d'Otomaï",
+          "warning": "L'accès nécessite d'avoir terminé « Le Gardien du Pont de la Mort ». Une clef donnée par Alain peut être consommée ; le trousseau de clefs est préférable s'il est disponible.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Progresse dans le donjon puis vaincs Gourlo le Terrible.",
+          "position": "[-55,-4]",
+          "zoneHint": "Cale de l'Arche d'Otomaï",
+          "warning": "Combat de donjon obligatoire.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retourne voir Alain Deix dans la taverne, entrée au centre puis salle de gauche, et annonce-lui que tu n'as trouvé aucun Dofus sur Gourlo.",
+          "position": "[2,-1]",
+          "zoneHint": "Village d'Amakna",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Va parler à Thelma Geur, indique que tu viens de la part d'Alain et accepte de l'aider dans ses recherches sur les Dofus.",
+          "position": "[-16,2]",
+          "zoneHint": null,
+          "warning": "Ne poursuis pas la conversation au-delà de cette conclusion si tu ne veux pas lancer immédiatement sa mission suivante, « Histoire de chiens ».",
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Le dialogue initial avec Alain Deix qui lance « Chéri fais-moi peur » est supposé déjà effectué avant cette occurrence ACTIVE.",
+        "Après le rapport sur Gourlo, Alain n'a plus de mission immédiate et redirige vers Thelma Geur.",
+        "Continuer à discuter avec Thelma après la fin peut lancer « Histoire de chiens » ; cette nouvelle quête ne fait pas partie des actions exigées ici."
+      ],
+      "npcs": [
+        "Alain Deix",
+        "Thelma Geur",
+        "Gourlo le Terrible"
+      ],
+      "items": [
+        {
+          "name": "Clef de la Cale de l'Arche d'Otomaï",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Étoffe de Gourlo le Terrible",
+          "itemId": 8995,
+          "imageUrl": "/items/8995.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/8995"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 474,
+            "name": "Cale de l'arche d'Otomaï",
+            "coordinates": [
+              "-55,-4"
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Village d'Amakna",
+            "coordinates": [
+              "2,-1"
+            ]
+          },
+          {
+            "id": 182,
+            "name": "Village des Éleveurs",
+            "coordinates": [
+              "-16,2"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [
+          {
+            "id": 2343,
+            "name": "Pioufe la Maquillée",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2343.png"
+          },
+          {
+            "id": 2345,
+            "name": "Pioukas la Plante",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2345.png"
+          },
+          {
+            "id": 2342,
+            "name": "Pioulbrineur le Mercenaire",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2342.png"
+          },
+          {
+            "id": 2347,
+            "name": "Pioussokrim le Délétère",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2347.png"
+          },
+          {
+            "id": 2341,
+            "name": "Pioustone le Problème",
+            "level": 11,
+            "imageUrl": "/bestiary/monsters/2341.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 217,
+            "name": "Pious",
+            "monsters": [
+              {
+                "id": 491,
+                "name": "Piou Bleu",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/491.png"
+              },
+              {
+                "id": 493,
+                "name": "Piou Jaune",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/493.png"
+              },
+              {
+                "id": 492,
+                "name": "Piou Rose",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/492.png"
+              },
+              {
+                "id": 490,
+                "name": "Piou Vert",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/490.png"
+              },
+              {
+                "id": 236,
+                "name": "Piou Violet",
+                "level": 11,
+                "imageUrl": "/bestiary/monsters/236.png"
+              }
+            ]
+          },
+          {
+            "id": 163,
+            "name": "Pirates de l'Arche d'Otomaï",
+            "monsters": [
+              {
+                "id": 1049,
+                "name": "Barbroussa",
+                "level": 58,
+                "imageUrl": "/bestiary/monsters/1049.png"
+              },
+              {
+                "id": 1050,
+                "name": "Le Flib",
+                "level": 56,
+                "imageUrl": "/bestiary/monsters/1050.png"
+              },
+              {
+                "id": 1048,
+                "name": "Sparo",
+                "level": 57,
+                "imageUrl": "/bestiary/monsters/1048.png"
+              }
+            ]
+          },
+          {
+            "id": 169,
+            "name": "Pirates de Moon",
+            "monsters": [
+              {
+                "id": 228,
+                "name": "Boomba",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/228.png"
+              },
+              {
+                "id": 231,
+                "name": "Canondorf",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/231.png"
+              },
+              {
+                "id": 229,
+                "name": "Nakunbra",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/229.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:609",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/cheacuteri-fais-moi-peur.html",
+      "sourceTitle": "Chéri fais-moi peur",
+      "sourceHash": "e3d9ce584b6193aa25a004519be7b5e9c792744bf855fd4549f81033607e8fbb",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }

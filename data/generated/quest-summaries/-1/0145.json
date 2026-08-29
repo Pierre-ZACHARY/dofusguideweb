@@ -1,14 +1,603 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 145,
-  "updatedAt": "2026-08-27T13:32:25.236Z",
+  "updatedAt": "2026-08-29T14:23:13.234Z",
   "summaries": [
     {
-      "overview": "Parlez à Maire Cantille dans La bourgade, puis accomplissez cinq quêtes de pêche au lac gelé dans l'ordre imposé, et revenez la voir pour valider.",
+      "overview": "Poursuivez la série de quêtes de Mel après avoir terminé Pêche en eaux gelées. Cette occurrence consiste à éliminer un groupe de mansots puis à revenir auprès de Mel ; la quête suivante, Mel odieuse, se déclenche alors automatiquement.",
+      "recommendedLevel": null,
+      "prerequisites": [
+        "Pêche en eaux gelées"
+      ],
+      "rewards": [],
+      "preparation": [
+        "Préparez-vous à combattre un groupe de mansots."
+      ],
+      "actions": [
+        {
+          "instruction": "À proximité de Mel en [-64,-55], affrontez le groupe de mansots demandé pour faire progresser la quête.",
+          "position": "[-64,-55]",
+          "zoneHint": null,
+          "warning": "Combat obligatoire contre un groupe de mansots.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Une fois les mansots vaincus, reparlez à Mel en [-64,-55] et annoncez-lui leur élimination pour terminer La pêche à Mel.",
+          "position": "[-64,-55]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La fin de cette quête lance automatiquement Mel odieuse, qui est traitée à l'occurrence suivante de cette même étape."
+      ],
+      "npcs": [
+        "Mel"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 615,
+            "name": "Lac gelé",
+            "coordinates": [
+              "-64,-55"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-64,-55"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2902,
+            "name": "Monsieur Pingouin",
+            "level": 130,
+            "imageUrl": "/bestiary/monsters/2902.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 160,
+            "name": "Mansots",
+            "monsters": [
+              {
+                "id": 2858,
+                "name": "Fu Mansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2858.png"
+              },
+              {
+                "id": 2857,
+                "name": "Mamansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2857.png"
+              },
+              {
+                "id": 2856,
+                "name": "Mansobèse",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2856.png"
+              },
+              {
+                "id": 2855,
+                "name": "Shamansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2855.png"
+              },
+              {
+                "id": 2849,
+                "name": "Timansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2849.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:346",
+      "relation": "ACTIVE",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/la-pecircche-agrave-mel.html",
+      "sourceTitle": "La pêche à Mel",
+      "sourceHash": "793a6e7895ff2531d18a80c09ab86bd6419f9711e079f1512cc9921037818df7",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Cette quête est normalement déclenchée automatiquement à la fin de La pêche à Mel. Éliminez le nouveau groupe de mansots demandé par Mel, puis revenez lui confirmer le résultat afin d'enchaîner sur Mel au drame.",
+      "recommendedLevel": null,
+      "prerequisites": [
+        "La pêche à Mel"
+      ],
+      "rewards": [],
+      "preparation": [
+        "Préparez-vous à combattre un groupe de mansots."
+      ],
+      "actions": [
+        {
+          "instruction": "Après le lancement de Mel odieuse auprès de Mel en [-64,-55], combattez le groupe de mansots requis.",
+          "position": "[-64,-55]",
+          "zoneHint": null,
+          "warning": "Combat obligatoire contre un groupe de mansots.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Retournez auprès de Mel en [-64,-55] après le combat et confirmez-lui que les mansots ont été éliminés pour terminer la quête.",
+          "position": "[-64,-55]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La validation de Mel odieuse déclenche automatiquement Mel au drame, traité juste après dans l'étape."
+      ],
+      "npcs": [
+        "Mel"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 615,
+            "name": "Lac gelé",
+            "coordinates": [
+              "-64,-55"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-64,-55"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2902,
+            "name": "Monsieur Pingouin",
+            "level": 130,
+            "imageUrl": "/bestiary/monsters/2902.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 160,
+            "name": "Mansots",
+            "monsters": [
+              {
+                "id": 2858,
+                "name": "Fu Mansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2858.png"
+              },
+              {
+                "id": 2857,
+                "name": "Mamansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2857.png"
+              },
+              {
+                "id": 2856,
+                "name": "Mansobèse",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2856.png"
+              },
+              {
+                "id": 2855,
+                "name": "Shamansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2855.png"
+              },
+              {
+                "id": 2849,
+                "name": "Timansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2849.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:394",
+      "relation": "ACTIVE",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/mel-odieuse.html",
+      "sourceTitle": "Mel Odieuse",
+      "sourceHash": "57c7bf563379383041602f59a03111768061e1ef70afeebbce7295d9846a4ca9",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Mel au drame suit directement Mel odieuse. La portion à réaliser ici est encore un combat contre un groupe de mansots, suivi d'un retour auprès de Mel. Sa validation lance automatiquement Il est frais mon pichon.",
+      "recommendedLevel": null,
+      "prerequisites": [
+        "Mel Odieuse"
+      ],
+      "rewards": [],
+      "preparation": [
+        "Préparez-vous à combattre un groupe de mansots."
+      ],
+      "actions": [
+        {
+          "instruction": "Une fois Mel au drame lancée auprès de Mel en [-64,-55], éliminez le groupe de mansots demandé.",
+          "position": "[-64,-55]",
+          "zoneHint": null,
+          "warning": "Combat obligatoire contre un groupe de mansots.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire, reparlez à Mel en [-64,-55] pour lui annoncer la mort des mansots et valider Mel au drame.",
+          "position": "[-64,-55]",
+          "zoneHint": null,
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La fin de cette quête déclenche automatiquement Il est frais mon pichon, qui constitue l'occurrence suivante."
+      ],
+      "npcs": [
+        "Mel"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 615,
+            "name": "Lac gelé",
+            "coordinates": [
+              "-64,-55"
+            ]
+          },
+          {
+            "id": 778,
+            "name": "Mine",
+            "coordinates": [
+              "-64,-55"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2902,
+            "name": "Monsieur Pingouin",
+            "level": 130,
+            "imageUrl": "/bestiary/monsters/2902.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 160,
+            "name": "Mansots",
+            "monsters": [
+              {
+                "id": 2858,
+                "name": "Fu Mansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2858.png"
+              },
+              {
+                "id": 2857,
+                "name": "Mamansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2857.png"
+              },
+              {
+                "id": 2856,
+                "name": "Mansobèse",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2856.png"
+              },
+              {
+                "id": 2855,
+                "name": "Shamansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2855.png"
+              },
+              {
+                "id": 2849,
+                "name": "Timansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2849.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:395",
+      "relation": "ACTIVE",
+      "sortOrder": 2,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/mel-au-drame.html",
+      "sourceTitle": "Mel au drame",
+      "sourceHash": "c9c773a262cf36afcf58e492b8dbe8c40543d9fefd2c137668579e924a54a2b6",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après Mel au drame, poursuivez la remise en route du ravitaillement du Lac gelé. Prévenez Damar puis Ordralfabétist, effectuez successivement trois livraisons de poiskaille avec un Mansobèse transporteur et revenez enfin auprès d'Ordralfabétist. Chaque transport doit être effectué dans la limite annoncée de 30 minutes.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Mel au drame"
+      ],
+      "rewards": [
+        "1 985 972 XP",
+        "19 480 kamas",
+        "2 x Kama de glace",
+        "1 x Oreille du Fu Mansot"
+      ],
+      "preparation": [
+        "Préparez-vous à effectuer trois trajets de livraison successifs.",
+        "Prévoyez 1 combat, réalisable en groupe, lors du trajet vers Bambelle.",
+        "Vérifiez que la quête Épis d'Emi n'est pas en cours avant de devoir parler à Bambelle."
+      ],
+      "actions": [
+        {
+          "instruction": "Allez voir Damar en [-67,-54] et annoncez-lui qu'il n'a désormais plus à craindre les mansots.",
+          "position": "[-67,-54]",
+          "zoneHint": "Lac gelé",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Rendez-vous auprès d'Ordralfabétist en [-66,-54] pour lui signaler que le réapprovisionnement peut reprendre et prenez le premier Mansobèse transporteur de poiskaille.",
+          "position": "[-66,-54]",
+          "zoneHint": "Lac gelé",
+          "warning": "Une fois le transport commencé, vous disposez de 30 minutes maximum pour atteindre le destinataire.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Transportez le premier Mansobèse jusqu'en [-61,-58] et remettez les poisskailles à Aurore Boréale.",
+          "position": "[-61,-58]",
+          "zoneHint": null,
+          "warning": "Respectez la limite de 30 minutes associée au transport.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez voir Ordralfabétist en [-66,-54] et récupérez un deuxième Mansobèse transporteur de poiskaille.",
+          "position": "[-66,-54]",
+          "zoneHint": "Lac gelé",
+          "warning": "Le nouveau transport est lui aussi soumis à la limite de 30 minutes.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Amenez le deuxième Mansobèse en [-64,-51]. À votre arrivée sur la carte, affrontez le groupe de monstres qui vous agresse.",
+          "position": "[-64,-51]",
+          "zoneHint": null,
+          "warning": "Agression obligatoire à l'arrivée. Le combat est réalisable en groupe et le transport reste limité à 30 minutes.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après le combat, donnez les poisskailles à Bambelle.",
+          "position": "[-64,-51]",
+          "zoneHint": null,
+          "warning": "Vous ne pouvez pas parler à Bambelle si la quête Épis d'Emi est en cours.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Revenez auprès d'Ordralfabétist en [-66,-54] pour prendre le troisième et dernier Mansobèse transporteur de poiskaille.",
+          "position": "[-66,-54]",
+          "zoneHint": "Lac gelé",
+          "warning": "Le dernier transport doit également être achevé dans les 30 minutes.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Apportez le dernier Mansobèse en [-82,-42] et remettez les poisskailles à Clarisse Tosha.",
+          "position": "[-82,-42]",
+          "zoneHint": null,
+          "warning": "Respectez la limite de 30 minutes du transport.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Retournez enfin voir Ordralfabétist en [-66,-54] pour valider et terminer Il est frais mon pichon.",
+          "position": "[-66,-54]",
+          "zoneHint": "Lac gelé",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Mel au drame est supposée terminée avant cette occurrence, ce qui lance automatiquement Il est frais mon pichon.",
+        "La réussite de cette quête complète le dernier objectif requis avant le rendu de L'essentiel est dans Lac Gelé à l'occurrence suivante."
+      ],
+      "npcs": [
+        "Mel",
+        "Damar",
+        "Ordralfabétist",
+        "Aurore Boréale",
+        "Bambelle",
+        "Clarisse Tosha"
+      ],
+      "items": [
+        {
+          "name": "Mansobèse transporteur de poiskaille",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Poisskailles",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 604,
+            "name": "Forêt des pins perdus",
+            "coordinates": [
+              "-64,-51"
+            ]
+          },
+          {
+            "id": 601,
+            "name": "La Bourgade",
+            "coordinates": [
+              "-82,-42"
+            ]
+          },
+          {
+            "id": 615,
+            "name": "Lac gelé",
+            "coordinates": [
+              "-67,-54",
+              "-66,-54",
+              "-61,-58"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 2902,
+            "name": "Monsieur Pingouin",
+            "level": 130,
+            "imageUrl": "/bestiary/monsters/2902.png"
+          },
+          {
+            "id": 2903,
+            "name": "Katigrou",
+            "level": 140,
+            "imageUrl": "/bestiary/monsters/2903.png"
+          }
+        ],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2913,
+                "name": "Chachachovage",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2913.png"
+              },
+              {
+                "id": 2893,
+                "name": "Crabe Hijacob",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2893.png"
+              },
+              {
+                "id": 2914,
+                "name": "Gélikan",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2914.png"
+              },
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          },
+          {
+            "id": 138,
+            "name": "Faune des Pins Perdus",
+            "monsters": [
+              {
+                "id": 2859,
+                "name": "Écumouth",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2859.png"
+              },
+              {
+                "id": 2846,
+                "name": "Fricochère",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2846.png"
+              },
+              {
+                "id": 2847,
+                "name": "Kaniglou",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2847.png"
+              },
+              {
+                "id": 2845,
+                "name": "Sanglacier",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2845.png"
+              },
+              {
+                "id": 2860,
+                "name": "Smilomouth",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2860.png"
+              }
+            ]
+          },
+          {
+            "id": 160,
+            "name": "Mansots",
+            "monsters": [
+              {
+                "id": 2858,
+                "name": "Fu Mansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2858.png"
+              },
+              {
+                "id": 2857,
+                "name": "Mamansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2857.png"
+              },
+              {
+                "id": 2856,
+                "name": "Mansobèse",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2856.png"
+              },
+              {
+                "id": 2855,
+                "name": "Shamansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2855.png"
+              },
+              {
+                "id": 2849,
+                "name": "Timansot",
+                "level": 132,
+                "imageUrl": "/bestiary/monsters/2849.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:347",
+      "relation": "ACTIVE",
+      "sortOrder": 3,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/il-est-frais-mon-pichon.html",
+      "sourceTitle": "Il est frais mon pichon",
+      "sourceHash": "50b4e3a803f6847e090cece72cc8c2372b75a6f2aac93b036c5cc9efd90e2903",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Cette quête avait été lancée auparavant puis mise en attente pendant l'accomplissement des cinq quêtes liées aux pêcheurs du Lac gelé. À ce stade, Pêche en eaux gelées, La pêche à Mel, Mel odieuse, Mel au drame et Il est frais mon pichon sont supposées terminées : il ne reste qu'à rendre la quête auprès de Maire Cantille.",
       "recommendedLevel": 140,
       "prerequisites": [
-        "Bienvenue à Frigost"
+        "Bienvenue à Frigost",
+        "Pêche en eaux gelées terminée",
+        "La pêche à Mel terminée",
+        "Mel odieuse terminée",
+        "Mel au drame terminée",
+        "Il est frais mon pichon terminée"
       ],
       "rewards": [
         "5 174 164 XP",
@@ -18,49 +607,7 @@
       "preparation": [],
       "actions": [
         {
-          "instruction": "Parlez à Maire Cantille dans La bourgade pour accepter la quête.",
-          "position": "[-77,-42]",
-          "zoneHint": "La bourgade",
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Accomplissez la quête « Pêche en eaux gelées ».",
-          "position": null,
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Accomplissez la quête « La pêche à Mel ».",
-          "position": null,
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Accomplissez la quête « Mel odieuse ».",
-          "position": null,
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Accomplissez la quête « Mel au drame ».",
-          "position": null,
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Accomplissez la quête « Il est frais mon pichon ».",
-          "position": null,
-          "zoneHint": null,
-          "warning": null,
-          "combat": "NONE"
-        },
-        {
-          "instruction": "Retournez voir Maire Cantille dans La bourgade pour terminer la quête.",
+          "instruction": "Retournez auprès de Maire Cantille en [-77,-42] après avoir terminé les cinq quêtes du Lac gelé, puis validez le dialogue pour terminer L'essentiel est dans Lac Gelé.",
           "position": "[-77,-42]",
           "zoneHint": "La bourgade",
           "warning": null,
@@ -68,19 +615,13 @@
         }
       ],
       "notes": [
-        "Débloque la quête suivante : Les rescapés de Frigost."
+        "La quête avait été lancée à l'étape 120 et volontairement laissée en attente jusqu'à l'accomplissement de ses cinq sous-quêtes.",
+        "Sa validation débloque Les rescapés de Frigost, à lancer immédiatement à l'occurrence suivante."
       ],
       "npcs": [
         "Maire Cantille"
       ],
-      "items": [
-        {
-          "name": "Kama de glace",
-          "itemId": 11196,
-          "imageUrl": "/items/11196.png",
-          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11196"
-        }
-      ],
+      "items": [],
       "bestiary": {
         "zones": [
           {
@@ -127,11 +668,96 @@
         ]
       },
       "questKey": "quest:413",
+      "relation": "FINISH",
+      "sortOrder": 4,
       "sourceUrl": "https://www.dofuspourlesnoobs.com/lessentiel-est-dans-le-lac-geleacute.html",
       "sourceTitle": "L'essentiel est dans lac gelé",
       "sourceHash": "bc113c65806309d11865b3ea67e7a4a81097e54f7037d150523264cc86404bda",
-      "generatedAt": "2026-08-24T17:37:29.926Z",
-      "model": "cline-pass/deepseek-v4-pro"
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "Après avoir terminé L'essentiel est dans Lac Gelé, lancez Les rescapés de Frigost auprès de Maire Cantille. La quête demande de terminer sept autres quêtes, mais le guide impose ici de s'arrêter après le lancement : ces objectifs seront réalisés plus tard avant le rendu prévu à l'étape 182.",
+      "recommendedLevel": 170,
+      "prerequisites": [
+        "L’essentiel est dans Lac Gelé"
+      ],
+      "rewards": [
+        "5 654 073 XP",
+        "77 472 kamas",
+        "2 x Kama de glace"
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Parlez à Maire Cantille en [-77,-42] après la validation de L'essentiel est dans Lac Gelé et acceptez de rechercher les villageois disparus afin de lancer Les rescapés de Frigost.",
+          "position": "[-77,-42]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Ne commencez pas ici les sept quêtes demandées : Bricole Girl, Promenons-nous dans les bois, Les chasseurs, Il préfère la mort en mer, Chauffage à moindre frais, A la recherche de Dan Lavy et A qui profite le boufmouth seront traitées plus tard dans le guide.",
+        "Le rendu final de Les rescapés de Frigost est prévu à l'étape 182."
+      ],
+      "npcs": [
+        "Maire Cantille"
+      ],
+      "items": [],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 601,
+            "name": "La Bourgade",
+            "coordinates": [
+              "-77,-42"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2913,
+                "name": "Chachachovage",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2913.png"
+              },
+              {
+                "id": 2893,
+                "name": "Crabe Hijacob",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2893.png"
+              },
+              {
+                "id": 2914,
+                "name": "Gélikan",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2914.png"
+              },
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:414",
+      "relation": "START",
+      "sortOrder": 5,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/les-rescapeacutes-de-frigost.html",
+      "sourceTitle": "Les rescapés de Frigost",
+      "sourceHash": "e5ff1eed4ebd252d10ab7cc6041bcfd538064365927e6db06e6ac50a796cb631",
+      "generatedAt": null,
+      "model": null
     }
   ],
   "tips": []

@@ -1,8 +1,267 @@
 {
-  "version": 2,
+  "version": 3,
   "guideId": -1,
   "stepNumber": 136,
-  "updatedAt": "2026-08-24T18:32:43.744Z",
-  "summaries": [],
+  "updatedAt": "2026-08-29T14:23:03.229Z",
+  "summaries": [
+    {
+      "overview": "Le Royalmouth a déjà été vaincu et capturé pendant l'étape précédente. Il reste uniquement à retourner auprès de l'agent de votre cité à La bourgade pour annoncer la réussite et terminer Monarchie absolue.",
+      "recommendedLevel": 120,
+      "prerequisites": [
+        "Être Brakmarien ou Bontarien d'alignement niveau 1 minimum.",
+        "Avoir terminé Antiroyaliste.",
+        "Avoir déjà vaincu le Royalmouth pour cette quête lors de l'étape précédente."
+      ],
+      "rewards": [
+        "3 082 320 XP",
+        "33 560 kamas",
+        "2 x Kama de glace"
+      ],
+      "preparation": [],
+      "actions": [
+        {
+          "instruction": "Retournez à La bourgade et parlez à Jamy Rocaille si vous êtes Brakmarien, ou à Michèle Seyroth si vous êtes Bontarien. Annoncez que vous avez bien capturé le Royalmouth afin de terminer la quête.",
+          "position": "[-76,-46]",
+          "zoneHint": "La bourgade",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "La Serre du Royalmouth et la victoire contre le Royalmouth sont supposées déjà accomplies à l'étape 135.",
+        "La quête suivante, Monarchie parlementaire, devient disponible après cette validation mais ne fait pas partie des actions de cette occurrence."
+      ],
+      "npcs": [
+        "Jamy Rocaille",
+        "Michèle Seyroth"
+      ],
+      "items": [
+        {
+          "name": "Kama de glace",
+          "itemId": 11196,
+          "imageUrl": "/items/11196.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/11196"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 601,
+            "name": "La Bourgade",
+            "coordinates": [
+              "-76,-46"
+            ]
+          }
+        ],
+        "bounties": [],
+        "archmonsters": [],
+        "achievements": [
+          {
+            "id": 136,
+            "name": "Bestioles de la Bourgade",
+            "monsters": [
+              {
+                "id": 2913,
+                "name": "Chachachovage",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2913.png"
+              },
+              {
+                "id": 2893,
+                "name": "Crabe Hijacob",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2893.png"
+              },
+              {
+                "id": 2914,
+                "name": "Gélikan",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2914.png"
+              },
+              {
+                "id": 2892,
+                "name": "Rat Bougri",
+                "level": 82,
+                "imageUrl": "/bestiary/monsters/2892.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:455",
+      "relation": "FINISH",
+      "sortOrder": 0,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/monarchie-absolue.html",
+      "sourceTitle": "Monarchie absolue",
+      "sourceHash": "37c129102864775842f1ad1d7dd71335ad3296f1ae5ab26bccd5a8e3fe11845d",
+      "generatedAt": null,
+      "model": null
+    },
+    {
+      "overview": "La recherche de Gavroch, la Serre du Royalmouth, la discussion avec lui dans la dernière salle et la victoire contre le Royalmouth sont déjà faites. Reprenez maintenant sur l'île du Minotoror : rejoignez la salle du trône, faites ouvrir l'accès par Gavroch, battez Soun Rinos en protégeant le Gamino, puis récupérez le Dofus Pourpre pour achever la quête.",
+      "recommendedLevel": 130,
+      "prerequisites": [
+        "Avoir terminé Une âme en peine.",
+        "Avoir déjà rencontré Gavroch dans la Serre du Royalmouth et vaincu le Royalmouth lors de l'étape précédente.",
+        "Disposer de la clef du Trône confiée par Apisaphé."
+      ],
+      "rewards": [
+        "4 766 334 XP",
+        "46 752 kamas",
+        "1 x Corne Brûlée du Minotoror",
+        "Déblocage du succès Pourpre profond et obtention du Dofus Pourpre"
+      ],
+      "preparation": [
+        "Préparez-vous à un combat contre Soun Rinos avec Gavroch.",
+        "Pendant le combat, prévoyez de protéger impérativement le Gamino."
+      ],
+      "actions": [
+        {
+          "instruction": "Retournez sur l'île du Minotoror et parlez à Lorkos. Montrez-lui la clef confiée par Apisaphé afin de rejoindre la salle du trône.",
+          "position": "[-42,-17]",
+          "zoneHint": "Île du Minotoror",
+          "warning": null,
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la salle du trône, donnez la clef à Gavroch afin qu'il ouvre l'accès à la salle du Dofus.",
+          "position": null,
+          "zoneHint": "Salle du trône",
+          "warning": "La clef du Trône est utilisée pour ouvrir l'accès.",
+          "combat": "NONE"
+        },
+        {
+          "instruction": "Dans la salle du Dofus, défiez Soun Rinos et remportez le combat avec Gavroch. Gardez le Gamino en vie pendant tout l'affrontement.",
+          "position": null,
+          "zoneHint": "Salle du Dofus",
+          "warning": "Le Gamino ne doit pas mourir. Soun Rinos peut échanger de position, attirer de 3 cases avec Bombuscade et repousser de 4 cases avec Bottage.",
+          "combat": "GROUP"
+        },
+        {
+          "instruction": "Après la victoire, prenez le Dofus Pourpre sur son socle pour terminer Le pouvoir derrière le trône et débloquer le succès Pourpre profond.",
+          "position": null,
+          "zoneHint": "Salle du Dofus",
+          "warning": null,
+          "combat": "NONE"
+        }
+      ],
+      "notes": [
+        "Toutes les actions liées au Donjon des Blops, au déplacement vers Frigost, à Gavroch dans la Serre du Royalmouth et au Royalmouth lui-même sont supposées déjà réalisées à l'étape 135.",
+        "Bombuscade peut attirer de 3 cases et infliger environ 450 dégâts feu, ou invoquer une explobombe.",
+        "Bottage peut repousser de 4 cases et infliger environ 550 dégâts eau à une distance maximale de 3 PO.",
+        "Détournement permet à Soun Rinos d'échanger sa position avec la vôtre."
+      ],
+      "npcs": [
+        "Lorkos",
+        "Gavroch",
+        "Soun Rinos"
+      ],
+      "items": [
+        {
+          "name": "Clef du Trône",
+          "itemId": null,
+          "imageUrl": null,
+          "dofusDbUrl": null
+        },
+        {
+          "name": "Corne Brûlée du Minotoror",
+          "itemId": 1680,
+          "imageUrl": "/items/1680.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/1680"
+        },
+        {
+          "name": "Dofus Pourpre",
+          "itemId": 694,
+          "imageUrl": "/items/694.png",
+          "dofusDbUrl": "https://dofusdb.fr/fr/database/item/694"
+        }
+      ],
+      "bestiary": {
+        "zones": [
+          {
+            "id": 209,
+            "name": "Île du Minotoror",
+            "coordinates": [
+              "-42,-17"
+            ]
+          }
+        ],
+        "bounties": [
+          {
+            "id": 5074,
+            "name": "Vashkiwi",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/5074.png"
+          }
+        ],
+        "archmonsters": [
+          {
+            "id": 2529,
+            "name": "Mandalo l'Aqueuse",
+            "level": 100,
+            "imageUrl": "/bestiary/monsters/2529.png"
+          },
+          {
+            "id": 2533,
+            "name": "Minoskour le Sauveur",
+            "level": 102,
+            "imageUrl": "/bestiary/monsters/2533.png"
+          },
+          {
+            "id": 2521,
+            "name": "Krapahut le Randonneur",
+            "level": 110,
+            "imageUrl": "/bestiary/monsters/2521.png"
+          },
+          {
+            "id": 2287,
+            "name": "Serpistule le Purulent",
+            "level": 120,
+            "imageUrl": "/bestiary/monsters/2287.png"
+          }
+        ],
+        "achievements": [
+          {
+            "id": 173,
+            "name": "Minos",
+            "monsters": [
+              {
+                "id": 836,
+                "name": "Kraméléhon",
+                "level": 110,
+                "imageUrl": "/bestiary/monsters/836.png"
+              },
+              {
+                "id": 835,
+                "name": "Mandrine",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/835.png"
+              },
+              {
+                "id": 834,
+                "name": "Minoskito",
+                "level": 102,
+                "imageUrl": "/bestiary/monsters/834.png"
+              },
+              {
+                "id": 829,
+                "name": "Serpiplume",
+                "level": 120,
+                "imageUrl": "/bestiary/monsters/829.png"
+              }
+            ]
+          }
+        ]
+      },
+      "questKey": "quest:814",
+      "relation": "FINISH",
+      "sortOrder": 1,
+      "sourceUrl": "https://www.dofuspourlesnoobs.com/le-pouvoir-derriegravere-le-trocircne.html",
+      "sourceTitle": "Le pouvoir derrière le trône",
+      "sourceHash": "9966067a265154e30ee0b9cc365dbefd996e0ab44dadaedc08f51f1bfe0a0167",
+      "generatedAt": null,
+      "model": null
+    }
+  ],
   "tips": []
 }
