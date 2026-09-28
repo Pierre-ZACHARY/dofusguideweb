@@ -2,8 +2,8 @@
   "version": 1,
   "guideId": -1,
   "sourceCount": 663,
-  "currentSourceCount": 253,
-  "staleSourceCount": 410,
+  "currentSourceCount": 248,
+  "staleSourceCount": 415,
   "staleSteps": [
     5,
     6,
@@ -60,7 +60,14 @@
     66,
     67,
     68,
+    79,
+    112,
+    113,
+    126,
+    135,
+    148,
     173,
+    176,
     198,
     201,
     202,
@@ -588,7 +595,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/apprentissage--gardien-du-savoir.html",
       "sourceTitle": "Ordre 5 : Apprentissage : Gardien du Savoir",
-      "currentHash": "1c19ebaee1d96a6d5ba078dbe690d44e1059d45f14a6514f674791c6746f92c3",
+      "currentHash": "3e2bd4fc3c3913d567bc1999364c7d4bdc3dfc64e0da813d9b2f7cf4c118bff5",
       "generatedHashes": [],
       "affectedSteps": [
         263,
@@ -943,7 +950,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/au-dela-de-la-cote.html",
       "sourceTitle": "Au-delà de la Côte",
-      "currentHash": "ae3bccea7f7b7d0c5ef46a731f52639d333fe72f15d9ca0a0bf4c4380983c5c4",
+      "currentHash": "452ab4dd025027f5dc82308ff01483c29421eaa1767186d4cc3d2cd4a02b65f0",
       "generatedHashes": [],
       "affectedSteps": [
         293
@@ -4161,7 +4168,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/il-preacutefegravere-la-mort-en-mer.html",
       "sourceTitle": "Il préfère la mort en mer",
-      "currentHash": "187d3156c5779b97bd7154309000726a7261d63d62096f46daa73fdb0b7ea489",
+      "currentHash": "b046f657aa250cff4b4e02a99d489f9cc6fd6574fbe55274910add24a66d9398",
       "generatedHashes": [
         "187d3156c5779b97bd7154309000726a7261d63d62096f46daa73fdb0b7ea489"
       ],
@@ -4172,7 +4179,7 @@
         "quest:360"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/il-suffira-dun-signe.html",
@@ -4405,7 +4412,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/krobe-en-bourg.html",
       "sourceTitle": "Krobe en bourg",
-      "currentHash": "6ffffe5afda3f6c47739a6b5aa0cde7024d1d57011eaee95f31ad0b7e19503c5",
+      "currentHash": "1a264edda8eb8855d2316fa416d0c7bb73d9e893db1beac0c97df59be9de364d",
       "generatedHashes": [],
       "affectedSteps": [
         313
@@ -4593,7 +4600,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/l-epice-rit.html",
       "sourceTitle": "L'Épice rit",
-      "currentHash": "2acb400133dbcbb332c223e59befef30c60321accf74f303e83abfa86f82ce4c",
+      "currentHash": "03298b079c63ed36ea54f394f5c70a44e47ebfd787db1217142b16ea7737b907",
       "generatedHashes": [
         "2acb400133dbcbb332c223e59befef30c60321accf74f303e83abfa86f82ce4c"
       ],
@@ -4604,7 +4611,7 @@
         "quest:1051"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/l-equilibre-des-forces.html",
@@ -5251,7 +5258,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-lumiere-au-bout-des-egouts.html",
       "sourceTitle": "La lumière au bout des égouts",
-      "currentHash": "131270edc614be2e8f69417bbd21e673062d05abaac6327ab1607de5ecc8020a",
+      "currentHash": "6f31a1866b1bd99d129a05643f9d5d38caf6356b1ef87b394b23f5084f119f2d",
       "generatedHashes": [
         "131270edc614be2e8f69417bbd21e673062d05abaac6327ab1607de5ecc8020a"
       ],
@@ -5263,7 +5270,7 @@
         "quest:1397"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-machine-agrave-deacutemonter-le-temps.html",
@@ -5810,7 +5817,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-voix-de-la-soif.html",
       "sourceTitle": "La voix de la soif",
-      "currentHash": "826893cbcbc9a4472a9475440193d1af79b81c5d73be3606c12e763fbd4de2a3",
+      "currentHash": "74376706b6efbc6b955d60663d30d24027c2458e97fd38e732166e849d51d61a",
       "generatedHashes": [
         "826893cbcbc9a4472a9475440193d1af79b81c5d73be3606c12e763fbd4de2a3"
       ],
@@ -5821,7 +5828,7 @@
         "quest:1324"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-voix-de-son-maicirctre.html",
@@ -6957,7 +6964,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-treacutesor-de-totankama.html",
       "sourceTitle": "Le trésor de Totankama",
-      "currentHash": "65e44908e84bef84e26bcab638529d2f862f4131f61842f73ac8305e9b961dd6",
+      "currentHash": "3b9a0260bc53b858e4be57a1b4d3d46956751c47898ce666ffc0d7a15372b52b",
       "generatedHashes": [
         "65e44908e84bef84e26bcab638529d2f862f4131f61842f73ac8305e9b961dd6"
       ],
@@ -6969,7 +6976,7 @@
         "quest:808"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-trou-du-culte.html",
@@ -9286,7 +9293,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/qui-a-la-plus-grosse.html",
       "sourceTitle": "Qui a la plus grosse ?",
-      "currentHash": "f3249a00d66ea3fd2e875c75a1291d89b8e4b73ad3ef3156c16e912ff7c891dd",
+      "currentHash": "49155f76eba2d0fcc27178e01d9d10e92058013fa5c4a94d22f5622e0ed97b61",
       "generatedHashes": [],
       "affectedSteps": [
         309
