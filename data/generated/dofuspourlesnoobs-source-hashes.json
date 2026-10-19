@@ -2,8 +2,8 @@
   "version": 1,
   "guideId": -1,
   "sourceCount": 663,
-  "currentSourceCount": 248,
-  "staleSourceCount": 415,
+  "currentSourceCount": 184,
+  "staleSourceCount": 479,
   "staleSteps": [
     5,
     6,
@@ -60,15 +60,74 @@
     66,
     67,
     68,
+    70,
+    74,
     79,
+    89,
+    90,
+    92,
+    93,
+    95,
+    96,
+    99,
+    102,
+    103,
+    105,
+    106,
+    107,
+    108,
+    110,
     112,
     113,
+    115,
+    116,
+    117,
+    119,
+    120,
+    123,
+    125,
     126,
+    131,
+    132,
     135,
+    136,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    147,
     148,
+    149,
+    151,
+    155,
+    156,
+    160,
+    161,
+    162,
+    163,
+    164,
     173,
+    174,
     176,
+    177,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    188,
+    190,
+    191,
+    192,
+    193,
     198,
+    199,
+    200,
     201,
     202,
     204,
@@ -196,7 +255,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/a-bas-kralab-rah.html",
       "sourceTitle": "À bas Kralab Rah",
-      "currentHash": "769ad30cac3f906e74e0df4515290b47dc6d111e2654039d646ae9d1476a83b4",
+      "currentHash": "f4f078eaa0555f78b7f4974e697dcafefa06e2c28e4678e4659aa904d1e51ee1",
       "generatedHashes": [],
       "affectedSteps": [
         266
@@ -263,7 +322,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/a-la-croisee-des-mondes.html",
       "sourceTitle": "À la croisée des mondes",
-      "currentHash": "c8657052cea18cdc93202aaef2ed2a018a76c81b771a1cc44856d85523a6eaa2",
+      "currentHash": "bad30a177dc0bb0e75062e5f962249168f738d37c0acee305543adf65b1a6f8d",
       "generatedHashes": [
         "c8657052cea18cdc93202aaef2ed2a018a76c81b771a1cc44856d85523a6eaa2"
       ],
@@ -275,7 +334,7 @@
         "quest:1315"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/a-la-poursuite-d-octolliard-rouge.html",
@@ -296,7 +355,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/a-la-recherche-de-crocoburio.html",
       "sourceTitle": "À la recherche de Crocoburio",
-      "currentHash": "2a5d671ccf5daf8564a022079be226bbcc514638d0fe4c81a03586bd348e8fd4",
+      "currentHash": "017f8cffc35ba24b20466c129c77021444dda842c318757401b9e612c264d7cf",
       "generatedHashes": [],
       "affectedSteps": [
         291,
@@ -314,7 +373,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/a-la-recherche-de-dan-lavy.html",
       "sourceTitle": "À la recherche de Dan Lavy",
-      "currentHash": "3bec864fdd130cf109d473758010aad061f3b383a4a50fc8d57f50ac6b0779ee",
+      "currentHash": "400f3b0ad7d10e02ef36962fa80e1b7c280a3bf87277c4126f20259fc3908bc5",
       "generatedHashes": [
         "3bec864fdd130cf109d473758010aad061f3b383a4a50fc8d57f50ac6b0779ee"
       ],
@@ -326,12 +385,12 @@
         "quest:362"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/a-la-recherche-des-instants-perdus.html",
       "sourceTitle": "À la recherche des instants perdus",
-      "currentHash": "938c142333e2c44eb44a33a5b5e799b775b541aa614ad8a96c813fe14d43c7a9",
+      "currentHash": "068ef41c29b08ad1741f8e6a6938c837c8a4e0ea5809d6665b94dc75266fbb97",
       "generatedHashes": [
         "938c142333e2c44eb44a33a5b5e799b775b541aa614ad8a96c813fe14d43c7a9"
       ],
@@ -349,7 +408,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/a-la-rescousse-des-magypus.html",
       "sourceTitle": "À la rescousse des magypus",
-      "currentHash": "511d0caa48426f72489568d42e7b25166813698d897836ddc6b92a2947123c77",
+      "currentHash": "8ff81df32a1cfb9e02e7239c56b32a079775cac4e0001dcea104336151efa050",
       "generatedHashes": [],
       "affectedSteps": [
         290
@@ -381,7 +440,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/a-qui-profite-le-boufmouth.html",
       "sourceTitle": "À qui profite le boufmouth",
-      "currentHash": "d49bd4d029c5855eab3d2dd5cb135f86e609add3d31039b9c1b26f01419c3ae4",
+      "currentHash": "75004bb3a26eae3c2d328397657c52d783fd7214500552c7ceeb6f63c7a46e12",
       "generatedHashes": [
         "d49bd4d029c5855eab3d2dd5cb135f86e609add3d31039b9c1b26f01419c3ae4"
       ],
@@ -392,7 +451,7 @@
         "quest:363"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/acides-animeacutes.html",
@@ -515,7 +574,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/amaknanomalie.html",
       "sourceTitle": "Amaknanomalie",
-      "currentHash": "8f35c37ba9aac6d015b9eef7467f0e647898172eafc6bc4b3a8ae544152b20b1",
+      "currentHash": "df80a0377bc7572b99ab07708a592d43042454c4e0d31f578d6b2ec217089d4a",
       "generatedHashes": [],
       "affectedSteps": [
         230
@@ -661,7 +720,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/apprentissage-champion-merveilleux.html",
       "sourceTitle": "Ordre 4 : Apprentissage : Champion Merveilleux",
-      "currentHash": "e7c72bf52ebae9de078fac2e2d535b6419c8ffbddc1bb9bff2349736904698ec",
+      "currentHash": "47b8c51f2cdc23d7a7d5ad1e20d239be57e58497fe9b98a031a2261418bbd122",
       "generatedHashes": [],
       "affectedSteps": [
         255,
@@ -829,7 +888,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/apres-lui-le-deluge.html",
       "sourceTitle": "Après lui, le déluge",
-      "currentHash": "b1209ec90c44c63634056706b7bc56b3db5a5f6b8a8708e3b2f330deadd86755",
+      "currentHash": "ad742267e0ec2cdb890d25af08be987aa5e695be03ce0f8cb7526dd9c2aa88fb",
       "generatedHashes": [
         "b1209ec90c44c63634056706b7bc56b3db5a5f6b8a8708e3b2f330deadd86755"
       ],
@@ -898,7 +957,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/association-de-fureteurs.html",
       "sourceTitle": "Association de fureteurs",
-      "currentHash": "52577b7b9e80d24fa1a37f659d0f577d3f78e1b85bee8b92a073c518bed551cb",
+      "currentHash": "e7933185d336d70d1e371fded1dcb3046ec9a81ee015c905830461ac1fa6df12",
       "generatedHashes": [
         "52577b7b9e80d24fa1a37f659d0f577d3f78e1b85bee8b92a073c518bed551cb"
       ],
@@ -966,7 +1025,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/au-delagrave-du-mur.html",
       "sourceTitle": "Au-delà du mur",
-      "currentHash": "687927f313fae4078ebbac00b0bd3f4e98d3bfe135bcbbb57025fd0f23921cdd",
+      "currentHash": "a17138104fda5cc864dfd19da0df936f4f0d95ee718eb75c389f5dd69955640a",
       "generatedHashes": [],
       "affectedSteps": [
         235,
@@ -1067,7 +1126,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/aux-grands-mots-les-grands-remegravedes.html",
       "sourceTitle": "Aux grands mots les grands remèdes​",
-      "currentHash": "90bbdc809044817b120373974e5921aa57cf7f3b438cf75ee4aa424c4a6b6520",
+      "currentHash": "28b1816db19978577b9f82575c52dcd72de21e4849c0ae6757cc38155d1b59e5",
       "generatedHashes": [],
       "affectedSteps": [
         283,
@@ -1444,7 +1503,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/ca-sent-le-gaz.html",
       "sourceTitle": "Ça sent le gaz",
-      "currentHash": "ed085daa6d0ab14229415e42d35c009e9b961285f3d684b6d6781de30b5fba65",
+      "currentHash": "333d9082f607da734eabc2bcd14d52aadf956e83863e195680fc7b7da3770ee0",
       "generatedHashes": [
         "ed085daa6d0ab14229415e42d35c009e9b961285f3d684b6d6781de30b5fba65"
       ],
@@ -1532,7 +1591,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/cauchemar-infini.html",
       "sourceTitle": "Cauchemar infini",
-      "currentHash": "a3632ecceb2af91a1a7d25194c43b33b5bf676a63985e8013a370297cb198b81",
+      "currentHash": "bedf5f1596c0c66a1ff56ba483648d9e900b6966be7022898d872fe959b17266",
       "generatedHashes": [],
       "affectedSteps": [
         323
@@ -1548,7 +1607,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/ccedila-katche-ou-ccedila-casse.html",
       "sourceTitle": "Ça katche ou ça casse",
-      "currentHash": "570cdde5fd09144fac20e59d4e6c5ee9d5f7f696d4b0b367b9f4ad9b755fb2f2",
+      "currentHash": "000f90600f689f1f4c68328670a2976d779160c202a777ac74d382ccec1d3d05",
       "generatedHashes": [
         "570cdde5fd09144fac20e59d4e6c5ee9d5f7f696d4b0b367b9f4ad9b755fb2f2"
       ],
@@ -1559,12 +1618,12 @@
         "quest:818"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/ccedila-saute-aux-oeufs.html",
       "sourceTitle": "Ça saute aux oeufs",
-      "currentHash": "d032b6d6049e2f0a9561f6c3cac489678827a5c87a8e03d11ae4b4e7c429c669",
+      "currentHash": "cce620af3c8d04cae918948a0aebf18f397f8a4e7c8374948258f510a6f591c0",
       "generatedHashes": [
         "d032b6d6049e2f0a9561f6c3cac489678827a5c87a8e03d11ae4b4e7c429c669"
       ],
@@ -1576,7 +1635,7 @@
         "quest:947"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/ccedila-se-katche.html",
@@ -1613,7 +1672,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/ce-sera-mieux-avant.html",
       "sourceTitle": "Ce sera mieux avant",
-      "currentHash": "42400ed503b9775105abb35a251e725032a41f288c089107b43ece392fe907ab",
+      "currentHash": "3c6e4d78b3915859ade808fa661e86a043111695060887cd08033947f3385ff7",
       "generatedHashes": [],
       "affectedSteps": [
         230
@@ -1629,7 +1688,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/celle-qui-glougloutait-dans-les-teacutenegravebres.html",
       "sourceTitle": "Celle qui glougloutait dans les ténèbres",
-      "currentHash": "2d3dbb5f6eadbd00e607569acf628aec861436951e4b166522b65cc8dda8344c",
+      "currentHash": "681e4e59590809d632028b57ac7065f2177863bfaca96503a5407683d6533dcb",
       "generatedHashes": [],
       "affectedSteps": [
         296
@@ -1661,7 +1720,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/cent-vingt-trois-fleurs-point-comme-les-autres.html",
       "sourceTitle": "Cent vingt trois fleurs, point comme les autres",
-      "currentHash": "96c3c6e8cf61fe68114e1cb6fe0df795291b737d0da3ed6818981b1955b0b393",
+      "currentHash": "32cec1abf2b41bf758b5b2b4b1225c4e7cb9102153e8be7978bc2f439894d36a",
       "generatedHashes": [
         "96c3c6e8cf61fe68114e1cb6fe0df795291b737d0da3ed6818981b1955b0b393"
       ],
@@ -1673,12 +1732,12 @@
         "quest:335"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/cest-dans-la-boicircte.html",
       "sourceTitle": "C'est dans la boîte",
-      "currentHash": "4f3cf20ab190fc74e1566d96e1a8e8d320f7f0dacfa1bfec2de17f3da4eafca0",
+      "currentHash": "0f9859281fe143c84100a547ff76006bde4e2d801bb6776367c5e8715262a02f",
       "generatedHashes": [
         "4f3cf20ab190fc74e1566d96e1a8e8d320f7f0dacfa1bfec2de17f3da4eafca0"
       ],
@@ -1689,7 +1748,7 @@
         "quest:886"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/cest-du-costaud.html",
@@ -1813,7 +1872,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/chacun-cherche-son-chacha.html",
       "sourceTitle": "Chacun cherche son chacha",
-      "currentHash": "5288e29831530d09241889eb5d9c11a82194f2f8795c765eaea97492b796e3ab",
+      "currentHash": "9781eee53d817b39d5015d4c871741da9fad967448967a02e3e37d1fc6e57b12",
       "generatedHashes": [
         "5288e29831530d09241889eb5d9c11a82194f2f8795c765eaea97492b796e3ab"
       ],
@@ -1824,7 +1883,7 @@
         "quest:948"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/champs-de-bataille.html",
@@ -1847,7 +1906,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/chaque-chose-en-son-temps.html",
       "sourceTitle": "Chaque chose en son temps",
-      "currentHash": "995719d1093d9f2a4c864a07e0705f4d4aaee337fb9ff5d9ee4c9cde11d3c930",
+      "currentHash": "703284c95ccf3abb94edf64ac3e3ce0dbd1c536c17f07709840796b47aa99a6e",
       "generatedHashes": [],
       "affectedSteps": [
         230
@@ -1897,7 +1956,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/chaud-du-slip.html",
       "sourceTitle": "Chaud du S.L.I.P.",
-      "currentHash": "0a0f779eaac519546b9c8c54be12fba6925ee8d8bc61ec468be8e37561f7e28c",
+      "currentHash": "f9f946eeaded119baf1ce8fcf6d1fe4b83b9c1b355f3c0b9b5b78ecadd4ba5e3",
       "generatedHashes": [
         "0a0f779eaac519546b9c8c54be12fba6925ee8d8bc61ec468be8e37561f7e28c"
       ],
@@ -1908,12 +1967,12 @@
         "quest:440"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/chaud-et-froid.html",
       "sourceTitle": "Chaud et froid",
-      "currentHash": "e42a84a1ec32e963cf8ee125fedd22b581497850b1fa9739e5599b98870c551b",
+      "currentHash": "0829df6e6032eb131418b7e1e084283bbb186030de9f3f7c78549aebb017ec7a",
       "generatedHashes": [],
       "affectedSteps": [
         233,
@@ -1934,7 +1993,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/chauffage-agrave-moindre-frais.html",
       "sourceTitle": "Chauffage à moindre frais",
-      "currentHash": "4eddbf8163b2c5ec270bdb9b0d5ee6afc26f6263271358a0d143ab5a03e883e5",
+      "currentHash": "04391c221159e9f15bbba93117cb5c6051bb0a882978a01da292a64ebe280132",
       "generatedHashes": [
         "4eddbf8163b2c5ec270bdb9b0d5ee6afc26f6263271358a0d143ab5a03e883e5"
       ],
@@ -1945,12 +2004,12 @@
         "quest:361"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/cheacuteri-fais-moi-peur.html",
       "sourceTitle": "Chéri fais-moi peur",
-      "currentHash": "e3d9ce584b6193aa25a004519be7b5e9c792744bf855fd4549f81033607e8fbb",
+      "currentHash": "14f29fab9aae5eb505aaaa81a0bc897db4af7b7591cd3e404b67b7b6ad9b81bc",
       "generatedHashes": [
         "e3d9ce584b6193aa25a004519be7b5e9c792744bf855fd4549f81033607e8fbb"
       ],
@@ -1961,7 +2020,7 @@
         "quest:609"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/coeur-de-pierre.html",
@@ -2128,7 +2187,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/concurrence-deacuteloyale.html",
       "sourceTitle": "Concurrence déloyale",
-      "currentHash": "afa72ae82ad1dcfd9370a81104fa34d4dc7e62231e6ccb2bbe146b25b7486a81",
+      "currentHash": "f2db3644eb934ae2e9e349bfce30137b86361923445aaf205615919400d27e16",
       "generatedHashes": [],
       "affectedSteps": [
         309
@@ -2144,7 +2203,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/conseil-de-classe.html",
       "sourceTitle": "Conseil de classe",
-      "currentHash": "61b00abaf152f7a3bf9585cb86c3d361b3292dfafb0c3301498a40857c0b3c94",
+      "currentHash": "0f759813196cf4d942bba97a336e4396b32bea8ecba635e4517fb1b5b6d2dc99",
       "generatedHashes": [
         "61b00abaf152f7a3bf9585cb86c3d361b3292dfafb0c3301498a40857c0b3c94"
       ],
@@ -2196,7 +2255,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/courir-apregraves-des-ombres.html",
       "sourceTitle": "Courir après des ombres",
-      "currentHash": "8142771b44a2e88e6e66fad0e0cfe2914ef6395b4e1f6cdc548b3e963e1c89d9",
+      "currentHash": "e7257d81f2ff2e84c9487517f43bc8958cc4e8576161c2e56a839cd035a85a89",
       "generatedHashes": [],
       "affectedSteps": [
         224,
@@ -2246,7 +2305,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/crache-test.html",
       "sourceTitle": "Crache Test",
-      "currentHash": "a936a20abee7272faa0552c1a13ede9f1378b370813098a5daa34a81097632b5",
+      "currentHash": "2b005559ac9f51cf5689e6e77cedf469560824ae811e4e999d401d3c82c58de4",
       "generatedHashes": [
         "a936a20abee7272faa0552c1a13ede9f1378b370813098a5daa34a81097632b5"
       ],
@@ -2257,7 +2316,7 @@
         "quest:776"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/craquements-de-coeur.html",
@@ -2278,7 +2337,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/crise-dex-emma.html",
       "sourceTitle": "Crise d'ex-Emma",
-      "currentHash": "db5aeeaa9a8f8a2186b5fdbf7aa96a5284dbce1d7a484e44809092f67a189fdb",
+      "currentHash": "4e5634793afd61c698c9060ca00a66212b75c33655baed1f038d8ff6f375fa7b",
       "generatedHashes": [],
       "affectedSteps": [
         239
@@ -2328,7 +2387,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/crocs-n-en-bourrent.html",
       "sourceTitle": "Crocs n'en bourrent",
-      "currentHash": "455801684a331b023a6092071246e56b1b58609850e1d41814c984eb33acddc6",
+      "currentHash": "742768b7f1f2f29d62d3c8c50657e0b61eae32bb2b525ef34cf9d264622ff5da",
       "generatedHashes": [],
       "affectedSteps": [
         207,
@@ -2346,7 +2405,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/cuisine-raffinee.html",
       "sourceTitle": "Cuisine raffinée",
-      "currentHash": "65c867ca9ecd2583e14435baa3a9848b0c46869c10302313215cb6049f47a8cf",
+      "currentHash": "95fc07f81558dc844b9c4a155ed7f972b4d35feb90e4926c4ada54ae2c82b0f5",
       "generatedHashes": [
         "65c867ca9ecd2583e14435baa3a9848b0c46869c10302313215cb6049f47a8cf"
       ],
@@ -2358,7 +2417,7 @@
         "quest:1392"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/dans-la-gueule-du-chacha.html",
@@ -2431,7 +2490,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/de-brikke-et-de-brokke.html",
       "sourceTitle": "De Brikke et de Brokke",
-      "currentHash": "a3f563ce56150ee3a7bd933cf5298055768c28ad62e673642e0d2545eb08a7be",
+      "currentHash": "5e593f2cd8ca28f0954214aab2175a37028c90943c9066af49569ff917392f9d",
       "generatedHashes": [],
       "affectedSteps": [
         234,
@@ -2469,7 +2528,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/de-fil-en-aiguille.html",
       "sourceTitle": "De fil en aiguille",
-      "currentHash": "518f12790c8cef35575b44a69325bae570ab6c7d91797d2bfe65d674cfd38490",
+      "currentHash": "0209fd15fb03946b18c5a54304270d4736e25fb721a4d811d4f253110821be10",
       "generatedHashes": [
         "518f12790c8cef35575b44a69325bae570ab6c7d91797d2bfe65d674cfd38490"
       ],
@@ -2480,12 +2539,12 @@
         "quest:864"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/de-joyeux-petits-arbres.html",
       "sourceTitle": "De joyeux petits arbres",
-      "currentHash": "e28f30ef79d1347d930e10419e98f5fc13a06160b466e4e46d9fd4d90f1bfecc",
+      "currentHash": "abe37cdc96e55405f84a08c06636e20f280b4795687ba0fb22a4d53cd6a07feb",
       "generatedHashes": [
         "e28f30ef79d1347d930e10419e98f5fc13a06160b466e4e46d9fd4d90f1bfecc"
       ],
@@ -2569,7 +2628,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/de-vrais-rats-de-bibliotheque.html",
       "sourceTitle": "De vrais rats de bibliothèque",
-      "currentHash": "57f2fdc05761eb1c60bd84bd00ee444f1c66368a9ba6760446c61a7072dedf07",
+      "currentHash": "df133ff5dc46a9b724cd54316c7679e676e8eff8d2dda845e9eae2598f2756e1",
       "generatedHashes": [
         "57f2fdc05761eb1c60bd84bd00ee444f1c66368a9ba6760446c61a7072dedf07"
       ],
@@ -2655,7 +2714,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/deacutepocirct-de-ravitaillement.html",
       "sourceTitle": "Dépôt de ravitaillement",
-      "currentHash": "53262a04f86001f532202ed8b4a46c3dcbf4b27d81101e78d08baf46f9fa888f",
+      "currentHash": "e85f05c6516e5002ddb47c00618640032adf97f6eeb65476aafa6738b475cdff",
       "generatedHashes": [
         "53262a04f86001f532202ed8b4a46c3dcbf4b27d81101e78d08baf46f9fa888f"
       ],
@@ -2710,7 +2769,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/demain-jarecircte.html",
       "sourceTitle": "Demain, j'arête​",
-      "currentHash": "e68506d4762134d5e6a9853e8df8776d3d328d6702bbd6a46d4c6141549f3a95",
+      "currentHash": "1c757f2e830f218c40dd624f5beb18ad4d84c6f827e77548b1b5b8d7ee149c30",
       "generatedHashes": [],
       "affectedSteps": [
         310
@@ -2758,7 +2817,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/dernier-contact.html",
       "sourceTitle": "Dernier contact",
-      "currentHash": "7e7000f2d8f477a34a82855750c49b1049c6b223359fbedd89126244b21654a0",
+      "currentHash": "fe1ada97b5995f1aa01170cc09a1b7803c4c67f7ca483a4a1b63d129ff2ec372",
       "generatedHashes": [],
       "affectedSteps": [
         290
@@ -3068,7 +3127,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/donjon-en-mousse.html",
       "sourceTitle": "Donjon en mousse",
-      "currentHash": "852b3f6b99cb0a71987bde09ba86647a069c9b910358890b2847b85352e92b40",
+      "currentHash": "25f25370921cb7a279cb5ec83f0fd251f45543160ab84916a6779852862a61e6",
       "generatedHashes": [
         "852b3f6b99cb0a71987bde09ba86647a069c9b910358890b2847b85352e92b40"
       ],
@@ -3230,7 +3289,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/eacutechantillonnage.html",
       "sourceTitle": "Échantillonnage",
-      "currentHash": "9c22e8a28fc725a1d42ff4430b08a3516f2a8c6addf78f62762df325057edf8c",
+      "currentHash": "8235f1240ab59c9207d2370d09a1560a743c95dc0f10aca562181f486ea6acd2",
       "generatedHashes": [],
       "affectedSteps": [
         275,
@@ -3312,7 +3371,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/elle-n-a-pas-fini-d-aimer-la-viande.html",
       "sourceTitle": "Elle n'a pas fini d'aimer la viande",
-      "currentHash": "d91af6e56ebe0776ed9b4d9d05a62930c188ab29a2ea5fccf031f877125435ec",
+      "currentHash": "a50476cb6405d05929efa1a0bb4681f05d7a8c7c478954d9758904b73efd7eee",
       "generatedHashes": [],
       "affectedSteps": [
         323,
@@ -3432,7 +3491,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/enutrosor.html",
       "sourceTitle": "Enutrosor",
-      "currentHash": "e3a72438c4eb559ce822e245f52b78cd085fc7734371e112ce18d78ea9fe81c5",
+      "currentHash": "a6ae4657ceb5f28027283668cc6e2eab789da84e19036db797890ab599cff1be",
       "generatedHashes": [],
       "affectedSteps": [
         321
@@ -3498,7 +3557,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/examen-de-passage.html",
       "sourceTitle": "Examen de passage",
-      "currentHash": "5a7affd2fa008f14f87baee557b1352a7acb195a8eb2c661f9181c458dc388da",
+      "currentHash": "760da79f9de89a8fa6587404cc78e5aadb41f72070748403ab6343aeff366865",
       "generatedHashes": [],
       "affectedSteps": [
         271,
@@ -3582,7 +3641,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/fait-comme-un-rat.html",
       "sourceTitle": "Fait comme un rat",
-      "currentHash": "d4ba1333fc485d1f57d0a0394efac191c23d33bdd3dc2d64447046b8b432920c",
+      "currentHash": "c81b037c63722c62d719a43b8960662f2b389a1ccd0d8033baf7c9a9984d3e52",
       "generatedHashes": [
         "d4ba1333fc485d1f57d0a0394efac191c23d33bdd3dc2d64447046b8b432920c"
       ],
@@ -3594,7 +3653,7 @@
         "quest:1393"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/faites-lamour-pas-la-guerre.html",
@@ -3665,7 +3724,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/faux-semblants.html",
       "sourceTitle": "Faux-semblants",
-      "currentHash": "9be9f80e102cf97560194f163e4f1a807f4e9a5ca5c7099ff69a22641489f623",
+      "currentHash": "830b80d2b3407d79d91b2788a1e2ee216442795d282d5b40950f2cd715793c17",
       "generatedHashes": [],
       "affectedSteps": [
         316
@@ -3699,7 +3758,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/fhtagn.html",
       "sourceTitle": "Fhtagn !​",
-      "currentHash": "9d38fd17b590d000a67da42dfe7b434f6cee9a6ccce5e1e219a95d778b3d7261",
+      "currentHash": "485501c94a2c5ff9ee4b8e71d4a3a4809dcf5e09b5cac71b44a39484dd5d0e16",
       "generatedHashes": [],
       "affectedSteps": [
         283,
@@ -3785,7 +3844,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/frappez-ami-et-entrez.html",
       "sourceTitle": "Frappez, ami, et entrez",
-      "currentHash": "cac18861c5bd04ab400797b0d703e678a16715951b8beb5813d470704c5cf1f6",
+      "currentHash": "477ff0d6007ddc8eec3b91b831f428e310c533d2f840963ab6b0a6fe79df1b0d",
       "generatedHashes": [],
       "affectedSteps": [
         234
@@ -3801,7 +3860,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/frigost-une-icircle-pas-comme-les-autres.html",
       "sourceTitle": "Frigost, une île pas comme les autres",
-      "currentHash": "66e06c802d7b451057a77cd91ae8d48e4a6e137c382492e1ed1b3d0ce56d05f8",
+      "currentHash": "1ab7a3a3e5a59a6702d7c292ca05f3b2cbef8002424a7c01e45aa9fd22f42b32",
       "generatedHashes": [],
       "affectedSteps": [
         247
@@ -3867,7 +3926,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/gegravene-et-tique.html",
       "sourceTitle": "Gène et tique​",
-      "currentHash": "e7ea0104ce956ea657e91370e3688d6dbcd85459ef3966c6fdf21ef555f48a83",
+      "currentHash": "1089a7c39d9e62965f2316c3a57933c5f03102188c8146293a3cca9c60cefc20",
       "generatedHashes": [
         "e7ea0104ce956ea657e91370e3688d6dbcd85459ef3966c6fdf21ef555f48a83"
       ],
@@ -3878,7 +3937,7 @@
         "quest:323"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/gele-a-pierre-fendre.html",
@@ -3937,7 +3996,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/grand-corps-malade.html",
       "sourceTitle": "Grand corps malade",
-      "currentHash": "6edca10ffd3d16d26a14d23acd83037c1036276453b758e62f992a8c2e97df3e",
+      "currentHash": "69936c0028352af160d241ad29245e5551a10ee892e35b4c9d021c1154d40ab0",
       "generatedHashes": [],
       "affectedSteps": [
         271,
@@ -3955,7 +4014,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/guerre-froide.html",
       "sourceTitle": "Guerre froide",
-      "currentHash": "9c98bdf42b372c0c5360671ef04da7538e16b461d268c9a5a0b74a83e6e3034b",
+      "currentHash": "761a498cead0f61bd9570cfcb73456b532032ae8faeb78e39f28445aec04b7ae",
       "generatedHashes": [],
       "affectedSteps": [
         233,
@@ -4021,7 +4080,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/heureux-qui-comme-les-lys.html",
       "sourceTitle": "Heureux qui, comme les lys",
-      "currentHash": "cbd021037be9e0fcfb16a4836ef68031f477cdc6ff5f731f5ae27081bdbff1a3",
+      "currentHash": "15c2d0ba40da6446bb3464815d609064f9a8a44fbb39c58ec70dcf1b37272ff5",
       "generatedHashes": [
         "cbd021037be9e0fcfb16a4836ef68031f477cdc6ff5f731f5ae27081bdbff1a3"
       ],
@@ -4032,7 +4091,7 @@
         "quest:341"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/histoire-de-chiens.html",
@@ -4069,7 +4128,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/hocirctel-de-glace.html",
       "sourceTitle": "Hôtel de glace",
-      "currentHash": "f54f3bd104974dd470fbb81d1656ccd956a3cada2995986422a2b9828de105ea",
+      "currentHash": "ca3c31ded67a5c50e38d5e1ad1fa1d69f30ee81beff01bd2e4ead93fc7b7bbb8",
       "generatedHashes": [],
       "affectedSteps": [
         245
@@ -4101,7 +4160,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/il-est-frais-mon-pichon.html",
       "sourceTitle": "Il est frais mon pichon",
-      "currentHash": "50b4e3a803f6847e090cece72cc8c2372b75a6f2aac93b036c5cc9efd90e2903",
+      "currentHash": "e7fab87d5a689ac85af095982ec6a65c303a25af85b1fd6c5aa53b10bbc0b5e3",
       "generatedHashes": [
         "50b4e3a803f6847e090cece72cc8c2372b75a6f2aac93b036c5cc9efd90e2903"
       ],
@@ -4112,12 +4171,12 @@
         "quest:347"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/il-est-temps-de-mourir.html",
       "sourceTitle": "Il est temps de mourir",
-      "currentHash": "41e00cd5ee87da6ab82f20d355f3bbf12309896c7957c85c29fe08f5bf8b3f8c",
+      "currentHash": "e9df17476fbc1a338b2e7308497f4175a885eb9eb858f6a1d8844edc917c883c",
       "generatedHashes": [],
       "affectedSteps": [
         289,
@@ -4135,7 +4194,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/il-faut-battre-le-lait-quand-il-est-chaud.html",
       "sourceTitle": "Il faut battre le lait quand il est chaud",
-      "currentHash": "c925051403268515659f695a5dcce2645f901e0dc2b1d2117ea7af6b73c1ea31",
+      "currentHash": "e440e58fc9a41a1b88aa1e8dc89e0a95c4bd26a995b24b812ce3b815265eb60c",
       "generatedHashes": [
         "c925051403268515659f695a5dcce2645f901e0dc2b1d2117ea7af6b73c1ea31"
       ],
@@ -4147,7 +4206,7 @@
         "quest:809"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/il-ne-faut-pas-se-fier-aux-apparences.html",
@@ -4168,7 +4227,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/il-preacutefegravere-la-mort-en-mer.html",
       "sourceTitle": "Il préfère la mort en mer",
-      "currentHash": "b046f657aa250cff4b4e02a99d489f9cc6fd6574fbe55274910add24a66d9398",
+      "currentHash": "69e6137557e26af41ce9adc43229fd05432d60746cc138aac218dd680b2c416f",
       "generatedHashes": [
         "187d3156c5779b97bd7154309000726a7261d63d62096f46daa73fdb0b7ea489"
       ],
@@ -4184,7 +4243,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/il-suffira-dun-signe.html",
       "sourceTitle": "Il suffira d'un signe​",
-      "currentHash": "bda7db39ca8704a7dcad248b435cfe955b5c85fc012403a0f2bdfbb23a228309",
+      "currentHash": "ec1f3ea7fc6eca16d782e52aeae42f37effe4d4dbddd86189b0c33ab334bdb0c",
       "generatedHashes": [],
       "affectedSteps": [
         296
@@ -4200,7 +4259,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/il-y-a-de-leacutelectriciteacute-dans-leau.html",
       "sourceTitle": "Il y a de l'électricité dans l'eau",
-      "currentHash": "d43f356eaa41a5f23227d0db3c99e691e19857ea455937478e64890585e64e0a",
+      "currentHash": "b94d6135ba934ecf752beafe9e2545ebbffbd02ca8d1213b81b745dda9fb8bd3",
       "generatedHashes": [],
       "affectedSteps": [
         287
@@ -4316,7 +4375,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/je-panse-donc-jessuie.html",
       "sourceTitle": "Alignement 93 : Je panse donc j'essuie",
-      "currentHash": "ef7860383b3e64df97429ba4018fb7db6556455c0a80d2e97d3ddb5e5daf2911",
+      "currentHash": "f6aea13e97857ae0db5f8b89bcde30f6083b04c99fb41cb93d14ea95ca76fe9a",
       "generatedHashes": [],
       "affectedSteps": [
         228
@@ -4332,7 +4391,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/jusqu-a-leur-dernier-soupir.html",
       "sourceTitle": "Jusqu'à leur dernier soupir",
-      "currentHash": "aad8640b0940de75d42d459fc398b1faf3dedcd51509569fbaa2e1eeb6bb54fc",
+      "currentHash": "fe844c144c0df464678f152963f5b0de9f81471f547f2d55f61a1262de861587",
       "generatedHashes": [
         "aad8640b0940de75d42d459fc398b1faf3dedcd51509569fbaa2e1eeb6bb54fc"
       ],
@@ -4343,12 +4402,12 @@
         "quest:1362"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/jusqu-au-bout-du-reve.html",
       "sourceTitle": "Jusqu'au bout du rêve",
-      "currentHash": "b478665667c9eb61141dc9726353ccc28f04f0ffaadc8b30d943f9ec1d2da7d0",
+      "currentHash": "77f75e520fcaeffe569b40a6e24a613a9ff6d716ceb69da01f4c80f150b6c217",
       "generatedHashes": [],
       "affectedSteps": [
         291
@@ -4380,7 +4439,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/ko-pour-bosko-tho.html",
       "sourceTitle": "KO pour Bosko Tho",
-      "currentHash": "957da833e0d9f9eab7771dcd20f0730ab8819da7102ec7b52e06799ef383bc21",
+      "currentHash": "c6d0fd0c2cd94d27eee26bc3bdf3e1062a42702b29a65b93a7c2f037e0cafa56",
       "generatedHashes": [],
       "affectedSteps": [
         266
@@ -4412,7 +4471,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/krobe-en-bourg.html",
       "sourceTitle": "Krobe en bourg",
-      "currentHash": "1a264edda8eb8855d2316fa416d0c7bb73d9e893db1beac0c97df59be9de364d",
+      "currentHash": "c606245c3cd90559e7102d04fd4b5944fa2982a915453569572f4d7ef9c765c6",
       "generatedHashes": [],
       "affectedSteps": [
         313
@@ -4581,7 +4640,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/l-epee-du-rocher.html",
       "sourceTitle": "L'épée du rocher",
-      "currentHash": "5ddf5fccbace675fa9f9fbe593af029a3f56507e6fd751f37f1e75563d156c44",
+      "currentHash": "f83ea8b0f97e1aafffadeac502df2d50915d7cf6f4f79243e7d6bf264fee6553",
       "generatedHashes": [
         "5ddf5fccbace675fa9f9fbe593af029a3f56507e6fd751f37f1e75563d156c44"
       ],
@@ -4595,7 +4654,7 @@
         "quest:1466"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/l-epice-rit.html",
@@ -4616,7 +4675,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/l-equilibre-des-forces.html",
       "sourceTitle": "L'équilibre des forces",
-      "currentHash": "982c5157146b55a4d1a11a2a45cceff9faa8eac95bfd05df2f1926b1b47a71fd",
+      "currentHash": "3fa4c67cee568956dd929365c72f457e5628086715745b933f5d3520630918e1",
       "generatedHashes": [
         "982c5157146b55a4d1a11a2a45cceff9faa8eac95bfd05df2f1926b1b47a71fd"
       ],
@@ -4628,7 +4687,7 @@
         "quest:1320"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/l-equipe-ment.html",
@@ -4720,7 +4779,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/l-oeuf-de-crocabulia.html",
       "sourceTitle": "L'oeuf de Crocabulia",
-      "currentHash": "00f255cec5bf4dd23dac04563b6107f96e43e1d11d84d28ee8fad42007cdaa4e",
+      "currentHash": "41384939f5d1583cc2cf185587a4e9b74296801027ff2f0ae2883523ba0d1519",
       "generatedHashes": [],
       "affectedSteps": [
         301,
@@ -4818,7 +4877,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-citeacute-de-lindicible-mal.html",
       "sourceTitle": "La cité de l'indicible mal",
-      "currentHash": "d4d1320380c59587337a620a70c850fa2f582697bcd5079be1213952c3bcae5c",
+      "currentHash": "fb390c0a8c1a1ebe5e5e7059f2d25741cfd7353adfb7b5dcc3fa25a19b1cb8f1",
       "generatedHashes": [
         "d4d1320380c59587337a620a70c850fa2f582697bcd5079be1213952c3bcae5c"
       ],
@@ -4829,12 +4888,12 @@
         "quest:815"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-clef-de-leacutenigme.html",
       "sourceTitle": "La clef de l'énigme​",
-      "currentHash": "b1638b217a91649ac4e8e88f117d3f372469bbbb2a16ce30bd5b56d5e5d2c43a",
+      "currentHash": "d0eb60294a695000557eb4208e69e0c2be4d59f5627af85b818e2d60dd974b30",
       "generatedHashes": [],
       "affectedSteps": [
         308
@@ -4938,7 +4997,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-derniegravere-carte.html",
       "sourceTitle": "La dernière carte",
-      "currentHash": "769eab10739bc6ffe0eb6899822b507aab66b3b8d210ba9848643f1653ed9b54",
+      "currentHash": "e66d1c2975a62936c9f90071eba4195c076ecf4163919af9a8be73fa18f33145",
       "generatedHashes": [],
       "affectedSteps": [
         238
@@ -4972,7 +5031,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-fifille-agrave-son-papa.html",
       "sourceTitle": "La fifille à son papa",
-      "currentHash": "81094b6bf7740824efc421f2dd7ff8c68eca7845d319ce989cfb40a34db860f5",
+      "currentHash": "5b42b7f0a9ff517e7f4be21750408434c6e11bf94f0f08b698f32ac802a821e0",
       "generatedHashes": [],
       "affectedSteps": [
         234
@@ -5024,7 +5083,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-fonte-des-glaces.html",
       "sourceTitle": "La fonte des glaces",
-      "currentHash": "3a6279fb18f2fdfb553e06eda3b421858bc0b428b82710a2a4a0a6d9aed76f07",
+      "currentHash": "f478bd239c01943ae6af52c1d138c17620e4185b277bf7d27f8b3b8c981aaf82",
       "generatedHashes": [],
       "affectedSteps": [
         245
@@ -5159,7 +5218,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-grosse-commission.html",
       "sourceTitle": "La grosse commission",
-      "currentHash": "0aedaa0f665ff22ce8a02adb7382bfda6beec2c52371487467d3a6f05cc8291d",
+      "currentHash": "7bbb0df12fd1668d6f6a980324b206f416b18d63b5f28dc57a1ae42fbfbe5565",
       "generatedHashes": [],
       "affectedSteps": [
         317
@@ -5191,7 +5250,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-gueule-de-lenfer.html",
       "sourceTitle": "La gueule de l'enfer​",
-      "currentHash": "675471d289d92a7bde7efe59fbae068c056f0e33619d60a5f4b54aa02d442f20",
+      "currentHash": "5c72ac547c0b2866bf5650ec37231f995cebe2c1355c7a363133a17d6e7bcb0e",
       "generatedHashes": [],
       "affectedSteps": [
         308
@@ -5225,7 +5284,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-jetee-des-enfants-perdus.html",
       "sourceTitle": "La jetée des enfants perdus",
-      "currentHash": "beadf476c3aee3f8d6a3ae1349f3605431853f3ceb836860810557c5acbff703",
+      "currentHash": "6ffee09ad91b74ba8e0ddb5c450c3cb3f823e7bde7d825584ec1979cd66583b7",
       "generatedHashes": [
         "beadf476c3aee3f8d6a3ae1349f3605431853f3ceb836860810557c5acbff703"
       ],
@@ -5237,7 +5296,7 @@
         "quest:1318"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-lettre-anonyme.html",
@@ -5258,7 +5317,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-lumiere-au-bout-des-egouts.html",
       "sourceTitle": "La lumière au bout des égouts",
-      "currentHash": "6f31a1866b1bd99d129a05643f9d5d38caf6356b1ef87b394b23f5084f119f2d",
+      "currentHash": "857ae816e4349b051cccf4fd1bc280f159539f502df7981b355d4c8cbb06ba8e",
       "generatedHashes": [
         "131270edc614be2e8f69417bbd21e673062d05abaac6327ab1607de5ecc8020a"
       ],
@@ -5275,7 +5334,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-machine-agrave-deacutemonter-le-temps.html",
       "sourceTitle": "La machine à démonter le temps",
-      "currentHash": "863ad3991a936a15971304e019058f37802601c71501baab0d5e4dc1ae73129b",
+      "currentHash": "9fb9e3eacf0ea4cc56f6e84591d17c3da0b739bf482d2235f430c71076000716",
       "generatedHashes": [],
       "affectedSteps": [
         246,
@@ -5293,7 +5352,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-magicienne-des-mareacutecages.html",
       "sourceTitle": "La magicienne des marécages",
-      "currentHash": "6e18a575f5bc2fcb32bf17cce1dbb137d2a6d19a30ea09f622bd6f39eb08deb6",
+      "currentHash": "bb002fa72e6fa2337bb21cff980a8fd7ec1ca5b43030532ecbe9de869a3f7124",
       "generatedHashes": [
         "6e18a575f5bc2fcb32bf17cce1dbb137d2a6d19a30ea09f622bd6f39eb08deb6"
       ],
@@ -5377,7 +5436,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-mere-des-dragoeufs.html",
       "sourceTitle": "La mère des Dragoeufs",
-      "currentHash": "4fb972aee2b030c03487475175d7e68fa890ad2748eb7247ec1ab9c80a0a4dd5",
+      "currentHash": "3561cd83ec6432b92e9407a422fd41f3362e9fd36fc5efa5eb3b3e5f18ff4349",
       "generatedHashes": [],
       "affectedSteps": [
         230,
@@ -5443,7 +5502,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-nuit-qui-rugit.html",
       "sourceTitle": "La Nuit-qui-rugit",
-      "currentHash": "867eff538fa21448c2a4f2a8c9b2773ec94417bb6a7af1640e33b775cb132c77",
+      "currentHash": "d187bbdb1ecf07532b64866f3240715f0bbbfc4acfe6c07beb873295387bb0c8",
       "generatedHashes": [],
       "affectedSteps": [
         325
@@ -5475,7 +5534,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-pecircche-agrave-mel.html",
       "sourceTitle": "La pêche à Mel",
-      "currentHash": "793a6e7895ff2531d18a80c09ab86bd6419f9711e079f1512cc9921037818df7",
+      "currentHash": "6a486982adb42cad6102e9a0c85e5a600a0f35388f09e277d2b81cf344acbbfa",
       "generatedHashes": [
         "793a6e7895ff2531d18a80c09ab86bd6419f9711e079f1512cc9921037818df7"
       ],
@@ -5486,7 +5545,7 @@
         "quest:346"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-pecircche-au-poison.html",
@@ -5542,7 +5601,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-petite-mission-dans-la-prairie.html",
       "sourceTitle": "La petite mission dans la prairie",
-      "currentHash": "77ffedae3b2a5a3e86954f765910a9963283b6d830fb34968ef04ab41723c553",
+      "currentHash": "85f0b1fc2070e4538c074efbb0fdd4cf56bcefb2ca70da7084a06a37b72440f0",
       "generatedHashes": [
         "77ffedae3b2a5a3e86954f765910a9963283b6d830fb34968ef04ab41723c553"
       ],
@@ -5576,7 +5635,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-quatriegraveme-dimension.html",
       "sourceTitle": "La quatrième dimension",
-      "currentHash": "f9533254f1ee06e480f55701f69ecf402bb83ab5c3260cca44296384c9d9da51",
+      "currentHash": "2b4fffa7401ddb42522d1a23f9620f0a53ffdddbd51b7ad30dc9183fcfd63a0d",
       "generatedHashes": [
         "f9533254f1ee06e480f55701f69ecf402bb83ab5c3260cca44296384c9d9da51"
       ],
@@ -5587,7 +5646,7 @@
         "quest:778"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-quete-de-l-oiseau-du-temps.html",
@@ -5624,7 +5683,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-raison-du-plus-fort.html",
       "sourceTitle": "La raison du plus fort",
-      "currentHash": "05b543618bc0c39e6828b49a607231e06d4716d6ccddf7dcfbdd36a5cb597b2a",
+      "currentHash": "b5db1b385127f2d2f991253d8472c63333fb011bc041c646993702e01f42f75e",
       "generatedHashes": [
         "05b543618bc0c39e6828b49a607231e06d4716d6ccddf7dcfbdd36a5cb597b2a"
       ],
@@ -5731,7 +5790,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-vengeance-du-dernier-empereur.html",
       "sourceTitle": "La vengeance du dernier empereur",
-      "currentHash": "6221522ea807ccf38baaba96f4c21b69457f5fc702daa144d65b554a327451c2",
+      "currentHash": "b2da862252255bc29ab7cdd1315b8c7af3fa61efe57f88eeda9c3e1e0839f3b2",
       "generatedHashes": [],
       "affectedSteps": [
         300
@@ -5763,7 +5822,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-vie-de-chacircteau.html",
       "sourceTitle": "La vie de château",
-      "currentHash": "9bb29cf65d134eea8a5678ca4793caa7388246928eb8ff74dc18ae16533203ae",
+      "currentHash": "25fac4aa7b562120bcc290cc08f4f75b21c13366ed6958c39d3f6b4de451f4c7",
       "generatedHashes": [],
       "affectedSteps": [
         233
@@ -5849,7 +5908,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-voix-des-morts.html",
       "sourceTitle": "La voix des morts",
-      "currentHash": "b69dc20f7207a16c0e09d89ed12e6b377a2dcc3c4b2b00dcae0e1f6e2e33d0dd",
+      "currentHash": "b7e2df040fa59fa54fcd9c0b385a93f2b0a65523a5960efa82fe2f2dd010cd3e",
       "generatedHashes": [],
       "affectedSteps": [
         291
@@ -5913,7 +5972,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/lanneau-de-tot.html",
       "sourceTitle": "L'anneau de Tot",
-      "currentHash": "0692e0f1e9bd30a1568708bb3a3dc6923294093d179d25172b98e7d3ba615cdc",
+      "currentHash": "cc437b73b3e4516fd3f4b78f7a0cb742c9e17911a1b056b67e852058e3110cff",
       "generatedHashes": [
         "0692e0f1e9bd30a1568708bb3a3dc6923294093d179d25172b98e7d3ba615cdc"
       ],
@@ -5924,7 +5983,7 @@
         "quest:811"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/larmeacutee-des-12-dingues.html",
@@ -6029,7 +6088,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-bonheur-est-dans-le-spray.html",
       "sourceTitle": "Le bonheur est dans le spray",
-      "currentHash": "97f37adc6c9c7ad490bb58884cdd63159d4a96240a97cc8f60ed16571b56700c",
+      "currentHash": "53cdbd25b8b4374f20b0acc650b76ef29e8d3ece7a7ecf9809652d61db4fb12e",
       "generatedHashes": [],
       "affectedSteps": [
         289
@@ -6063,7 +6122,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-creuset-de-meriana.html",
       "sourceTitle": "Le creuset de Mériana",
-      "currentHash": "b513e1783ca102b109a52bae7ae12c9b9266bd151c4f8f569c75a0b65fecdb03",
+      "currentHash": "0ecd189ea06a6e9d5400f1ac2533844e2de2982dc47721bfa6dd59011736ee54",
       "generatedHashes": [],
       "affectedSteps": [
         294,
@@ -6097,7 +6156,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-disparu-de-sufokia.html",
       "sourceTitle": "Le disparu de Sufokia",
-      "currentHash": "b8b39bd7c58ebae039fffd8b594e09d0f6b5b9642bd850f2bb06699da6df7554",
+      "currentHash": "1ed585df420d758fb5df0bfbb1b9ef5eb9cea012f27eee826954d4a64cb97a0c",
       "generatedHashes": [
         "b8b39bd7c58ebae039fffd8b594e09d0f6b5b9642bd850f2bb06699da6df7554"
       ],
@@ -6109,12 +6168,12 @@
         "quest:882"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-dofus-des-glaces.html",
       "sourceTitle": "Le Dofus des Glaces",
-      "currentHash": "5f50d613370e3b445f6feeb0e1cb11964f6c6c5b31314e6b15c39a383f698725",
+      "currentHash": "a2369056545fa3a828a4175b03bac1df77cf2a283802df598b1da8d92cee29dc",
       "generatedHashes": [],
       "affectedSteps": [
         248
@@ -6130,7 +6189,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-dofus-et-l-alchimiste.html",
       "sourceTitle": "Le Dofus et l'alchimiste",
-      "currentHash": "7bd8f08b7db889e0ef2b928dc2a5e33d56af408a34869bfadbd295e6c9080be8",
+      "currentHash": "e5c13c6502e363e6c0b4c15e9a9d09b91102b95dde0b24fa2c466755b5058664",
       "generatedHashes": [
         "7bd8f08b7db889e0ef2b928dc2a5e33d56af408a34869bfadbd295e6c9080be8"
       ],
@@ -6148,7 +6207,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-dragon-blanc.html",
       "sourceTitle": "Le dragon blanc",
-      "currentHash": "2a3437721a5d80d1f9724297b42bde570d551c33cb4739fa2e3e5888847fe809",
+      "currentHash": "5ba1624e64857c069895d4416ddd6ab31be8d0e6d084a275d116233cdc218815",
       "generatedHashes": [],
       "affectedSteps": [
         270
@@ -6164,7 +6223,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-dragon-noir.html",
       "sourceTitle": "Le dragon noir",
-      "currentHash": "d45be69ecea9ea512cafcbc9415fba28a9613f8224106cb6296ff40d661cbc26",
+      "currentHash": "15971a144892f9c0614a21548ee6063a0dda50e4027be5b65aabefb0a2bb8c64",
       "generatedHashes": [],
       "affectedSteps": [
         298,
@@ -6217,7 +6276,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-fleau-de-burin.html",
       "sourceTitle": "Le fléau de Burin",
-      "currentHash": "211588056464bcf0b6fdfef7c24d2b36a3492ec57b46ddae9aa1226b2173ecf0",
+      "currentHash": "ef18b685285f35adf4c22e93bf37b66433a698b3ce6188c9a6595ac506716737",
       "generatedHashes": [],
       "affectedSteps": [
         291
@@ -6233,7 +6292,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-forgeur-de-legende.html",
       "sourceTitle": "Le forgeur de légende",
-      "currentHash": "b6ba71084eac5c19ab51e587614936bd7ed5e86cb49676ea3e6bb740689b3469",
+      "currentHash": "83d0815d3f6dbdbe8e85e4835c4a84e9986f98ca55ca19c976d11dac3af7d75e",
       "generatedHashes": [],
       "affectedSteps": [
         291
@@ -6265,7 +6324,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-gang-des-toxines.html",
       "sourceTitle": "Le gang des Toxines",
-      "currentHash": "5e0765468894a5ea4afe400ea70f88ab7b7260f246205c0042afc7e8cf4f3eee",
+      "currentHash": "c2ef5029103806be4de639db29cc2d2605c914e94b24eb67f002ad75e9a07c8c",
       "generatedHashes": [],
       "affectedSteps": [
         315
@@ -6317,7 +6376,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-givre-des-reacuteveacutelations.html",
       "sourceTitle": "Le givre des révélations",
-      "currentHash": "fdded37f998cb76476d447932806f03702b0431ac230978194ecdcade13ab0ca",
+      "currentHash": "24db22ae2566ffdc3ceb68cfac321a1fe41d6e12f74e4ae68a0b1873f9b52b5f",
       "generatedHashes": [],
       "affectedSteps": [
         246
@@ -6333,7 +6392,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-guerrier-noir.html",
       "sourceTitle": "Le guerrier noir",
-      "currentHash": "4d0282f546ecbaa5eff76f2c6cee153a7fc6a2ff2f41baf4bf5d4a76872de33a",
+      "currentHash": "8438729ef662f07ba93b7a7298f1a0b858b2aa4f4cd3a32ffb067c2b1ca8d8eb",
       "generatedHashes": [],
       "affectedSteps": [
         282,
@@ -6399,7 +6458,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-jour-des-assassins.html",
       "sourceTitle": "Le jour des assassins",
-      "currentHash": "6325210779a06a030d47766500bcbd82e66c1e59da2a3ec2bae3af2569af0842",
+      "currentHash": "7c28b70c05b72582fb58fd10d7fc434ddaf9c6cc20218e12f57370ab6ec91f7d",
       "generatedHashes": [],
       "affectedSteps": [
         315
@@ -6415,7 +6474,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-livre-des-taures.html",
       "sourceTitle": "Le livre des Taures",
-      "currentHash": "ec9079fe1d4ccfcdedd8914b002159a9d67eeafbc3b43af72535d48d877571e5",
+      "currentHash": "945be173c53adb7a5dead9bb20e32971eaa6ba9ff040879c3bc9a0621ba56262",
       "generatedHashes": [
         "ec9079fe1d4ccfcdedd8914b002159a9d67eeafbc3b43af72535d48d877571e5"
       ],
@@ -6427,12 +6486,12 @@
         "quest:806"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-maicirctre-des-zaaps.html",
       "sourceTitle": "Le maître des zaaps",
-      "currentHash": "bd86448410b5748f47442d4d90028974e7518eaf2bdd8bedcc541070dc67c393",
+      "currentHash": "888f00290d5d8de925a2996212e7860f3825362cee2b00cb55c480d3b6f305ae",
       "generatedHashes": [
         "bd86448410b5748f47442d4d90028974e7518eaf2bdd8bedcc541070dc67c393"
       ],
@@ -6443,7 +6502,7 @@
         "quest:853"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-maitre-des-clefs.html",
@@ -6468,7 +6527,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-mal-a-dit.html",
       "sourceTitle": "Le mal a dit",
-      "currentHash": "0781b077924858078fb6b5b6db169724c588172ccf04d4d8b3bf17681621378f",
+      "currentHash": "28d23baef67661a60a0b84cb4e22b761bb9ffdae7f55c91286f8cb2d5cdb469b",
       "generatedHashes": [
         "0781b077924858078fb6b5b6db169724c588172ccf04d4d8b3bf17681621378f"
       ],
@@ -6479,7 +6538,7 @@
         "quest:436"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-metier-des-aventuriers.html",
@@ -6502,7 +6561,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-mort-dans-l-ame.html",
       "sourceTitle": "Le mort dans l'âme",
-      "currentHash": "580cc35f866fd220009eff02871d91da666f17b9c3a285a0ea299b788d320529",
+      "currentHash": "9edbfbd3d43e611d96549e28ccc080228bb94bfaa7af322484363eccc87806cc",
       "generatedHashes": [],
       "affectedSteps": [
         284,
@@ -6536,7 +6595,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-nom-de-la-mycose.html",
       "sourceTitle": "Le nom de la mycose",
-      "currentHash": "2e219e10c91c2fb0d4b2d247b9940cfd2038c8c9fe9930e5b95abc4c07cc3885",
+      "currentHash": "5e15e99dc0041bef92d3c0ad0da887d1ce429e34511b2122df90d3cfff1adbd1",
       "generatedHashes": [],
       "affectedSteps": [
         204,
@@ -6604,7 +6663,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-piege-se-referme.html",
       "sourceTitle": "Le piège se referme",
-      "currentHash": "7e0cb8ce73609113f3715d313b86569740398adfdbfdefe4b49b9bacdaec3471",
+      "currentHash": "a0ca4ee3661fdcfc7eb6cb83488f16e74d123cc0f52a50854452e271b88c3d5f",
       "generatedHashes": [],
       "affectedSteps": [
         315
@@ -6652,7 +6711,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-pouvoir-derriegravere-le-trocircne.html",
       "sourceTitle": "Le pouvoir derrière le trône",
-      "currentHash": "9966067a265154e30ee0b9cc365dbefd996e0ab44dadaedc08f51f1bfe0a0167",
+      "currentHash": "82088006ce6db1f05810619a58ad6780b3d3b7e056a542fc8aa5e1b0a3c08a5c",
       "generatedHashes": [
         "9966067a265154e30ee0b9cc365dbefd996e0ab44dadaedc08f51f1bfe0a0167"
       ],
@@ -6664,7 +6723,7 @@
         "quest:814"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-radeau-ivre.html",
@@ -6705,7 +6764,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-receptacle-des-dofus.html",
       "sourceTitle": "Le réceptacle des Dofus",
-      "currentHash": "a7d4a32c4f190710662b222f1a47741c6f4e2437c2c0ed52e0edbe50b895bd47",
+      "currentHash": "351a950520052166cbd39fe224b68ad4884da153400acce2939fec4baf52824a",
       "generatedHashes": [
         "a7d4a32c4f190710662b222f1a47741c6f4e2437c2c0ed52e0edbe50b895bd47"
       ],
@@ -6741,7 +6800,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-reveil-de-pandala.html",
       "sourceTitle": "Le réveil de Pandala",
-      "currentHash": "368416839ea37d7d398ebc6ecf251ef125c608ccc89751d7e779f7958aaf322f",
+      "currentHash": "ceba6eb1fd7ba556a972be19033440966ccf497cd9027c1ff498c35cf2c3450e",
       "generatedHashes": [
         "368416839ea37d7d398ebc6ecf251ef125c608ccc89751d7e779f7958aaf322f"
       ],
@@ -6793,7 +6852,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-sens-du-sacrifice.html",
       "sourceTitle": "Le sens du sacrifice",
-      "currentHash": "7595ec0f4a591f90eb05f913c5fdf202137b34641ebbf2fa06298be89f6342c1",
+      "currentHash": "df6c7171fe3aaefbb7aa8e5d8c93b34c22ab7750a8343a4f607f9e29860ea2d2",
       "generatedHashes": [],
       "affectedSteps": [
         323,
@@ -6864,7 +6923,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-temps-des-secrets.html",
       "sourceTitle": "Le temps des secrets",
-      "currentHash": "b61c8b6ddd1079d4d0d58cbf4f6a16a39891ea5ceed0b64e52db6e58e4ac7de3",
+      "currentHash": "6b6f110dc6ac743c41673c28e86b56a8faf45f709e43dccc30fe89d012b965d8",
       "generatedHashes": [],
       "affectedSteps": [
         326
@@ -6898,7 +6957,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-tour-de-guet.html",
       "sourceTitle": "Le tour de guet",
-      "currentHash": "fd1066e4abe8d67b822065f660737287563aa63f99cd17f2b2b42e013eab0d92",
+      "currentHash": "5b9c14bc2799edb5fbc6b6312caef3ae68889725307f7c70d2dd298e55713801",
       "generatedHashes": [],
       "affectedSteps": [
         233
@@ -6932,7 +6991,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-tour-est-joueacute.html",
       "sourceTitle": "Le tour est joué",
-      "currentHash": "0b747bccbdf1c854e48a09bb0622a160fb12540802647efa0a2eca28b96687b9",
+      "currentHash": "a0d38286c39eb664b30765c35183021845a4d7b457f2ba9e051d635bea030fcf",
       "generatedHashes": [],
       "affectedSteps": [
         267
@@ -6964,7 +7023,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/le-treacutesor-de-totankama.html",
       "sourceTitle": "Le trésor de Totankama",
-      "currentHash": "3b9a0260bc53b858e4be57a1b4d3d46956751c47898ce666ffc0d7a15372b52b",
+      "currentHash": "0439ea46de24c29f9d6e0a31abb1c44be48bb404da472b36881b7dccade4c8cb",
       "generatedHashes": [
         "65e44908e84bef84e26bcab638529d2f862f4131f61842f73ac8305e9b961dd6"
       ],
@@ -7132,7 +7191,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/leffet-paula-rice.html",
       "sourceTitle": "L'effet Paula Rice​",
-      "currentHash": "a401a2aa3190c72ecf1bbf4457f5207faa179726ec3855c562693f24b6054b5b",
+      "currentHash": "b1172f7450a98a3e861f81d9ecf6c99c8d83bf82e699f24370d9b550b6338d50",
       "generatedHashes": [],
       "affectedSteps": [
         310
@@ -7148,7 +7207,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/legende-d-automne.html",
       "sourceTitle": "Légende d'automne",
-      "currentHash": "d941a77379630b3434e280034fc41aeab29692069a2b3aadcd12a398554da318",
+      "currentHash": "4e6c5ad153adc0f6f558e210dbe4e49f35e4ffda29a7fa37cec6476324160912",
       "generatedHashes": [
         "d941a77379630b3434e280034fc41aeab29692069a2b3aadcd12a398554da318"
       ],
@@ -7260,7 +7319,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/les-derniers-rescapeacutes.html",
       "sourceTitle": "Les derniers rescapés",
-      "currentHash": "91264e34dbbbf81e544c0b14bb4e0f8c85327dbdf317f6ab3a073a1d8cf63192",
+      "currentHash": "e48097cdbcff7da882516e415c0bf1a4251f8acde2fb32a5f77e82c89a4530a9",
       "generatedHashes": [],
       "affectedSteps": [
         233,
@@ -7282,7 +7341,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/les-desseins-de-sylargh.html",
       "sourceTitle": "Les desseins de Sylargh",
-      "currentHash": "be9ff11f1083fb5b3bff919d50721602796cc03709c28299817c4f789434c2ae",
+      "currentHash": "fd89d5664c6602fbf98fce7721ca336c0f49689dc40d2d67bb3928653fc65e3b",
       "generatedHashes": [],
       "affectedSteps": [
         236,
@@ -7334,7 +7393,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/les-ennemis-de-mes-ennemis-sont-mes-ennemis.html",
       "sourceTitle": "Les ennemis de mes ennemis sont mes ennemis",
-      "currentHash": "5c32f42bc5ec2012fa38016c2a2a8547d8fac7a9e78f2085966124be987309ae",
+      "currentHash": "e423bc1e6a28bf9da6845a7153fcc747b9909a48c58d7c52c0170d387124fa85",
       "generatedHashes": [],
       "affectedSteps": [
         234,
@@ -7400,7 +7459,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/les-mercemers-sont-bien-outilleacutes.html",
       "sourceTitle": "Les Mercemers sont bien outillés",
-      "currentHash": "cb983db54ff39eecb66e34e1e72c653284bc3e92c7210581da5c08271b96db81",
+      "currentHash": "90261e08cd6dd6ab85cf997cc56e62dff55b6f5b53d6e13261a41bae6503c6fb",
       "generatedHashes": [],
       "affectedSteps": [
         312
@@ -7432,7 +7491,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/les-monologues-du-vaccin.html",
       "sourceTitle": "Les monologues du vaccin​",
-      "currentHash": "44e987b4a702e44f3986c753c814f23fb65df2b399c34639a388207234fe5520",
+      "currentHash": "ba40c626c90b82f871818804e1bb2daf551cc248cf1b922d6d57e6a67c9b8fa9",
       "generatedHashes": [
         "44e987b4a702e44f3986c753c814f23fb65df2b399c34639a388207234fe5520"
       ],
@@ -7445,7 +7504,7 @@
         "quest:382"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/les-monstres-aboient-la-diligence-casse.html",
@@ -7483,7 +7542,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/les-ninsoumis.html",
       "sourceTitle": "Les Ninsoumis",
-      "currentHash": "5c264a8ab63d17c4b769fbe62bb19877c3d7935ad1647b57075c64a00989b59f",
+      "currentHash": "1260d97c44db79c1b39a2ddb6aaed3f2442812112560e9bd04667b9d9704e0b7",
       "generatedHashes": [],
       "affectedSteps": [
         299
@@ -7533,7 +7592,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/les-raisons-de-la-colere.html",
       "sourceTitle": "Les raisons de la colère",
-      "currentHash": "8ad4504746c7f8357b460124e2be4bdb4a6adea1622b80b39bff332f9a5d6364",
+      "currentHash": "22e0e311120eab0dbbf423b9c3805bb0558f17d748c1247d1e3c849fff9b69c6",
       "generatedHashes": [],
       "affectedSteps": [
         326
@@ -7647,7 +7706,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/les-sept-mercemers.html",
       "sourceTitle": "Les sept Mercemers",
-      "currentHash": "e1544034cbc963434bdf50840cc33d0d6251b6c745dc550ef2e4a310c7102967",
+      "currentHash": "81efac4e1538d8de1bd15ead06ff06ecef82bf6d42f75fab796eb13dafe5328b",
       "generatedHashes": [],
       "affectedSteps": [
         309
@@ -7783,7 +7842,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/livresse-des-profondeurs.html",
       "sourceTitle": "L'ivresse des profondeurs",
-      "currentHash": "58a3dacee1844936a868038b6e846be622cab479bc1edb7657799c8dca2d56f5",
+      "currentHash": "26ffccfb31813c05015bef024fbbdb1878b56e9051bfa9fb994a435707d151c0",
       "generatedHashes": [],
       "affectedSteps": [
         265
@@ -7799,7 +7858,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/lodeur-devant-le-seuil.html",
       "sourceTitle": "L'odeur devant le seuil",
-      "currentHash": "21d64eebb05d7bb13477b53165f8d7a116977d3249b47da4a77f0af2af6df18c",
+      "currentHash": "17cc76a39df87b095021df6a609df846524730233cc05e544d78c13eb33270d1",
       "generatedHashes": [],
       "affectedSteps": [
         283
@@ -7815,7 +7874,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/lombre-et-la-glace.html",
       "sourceTitle": "L'ombre et la glace",
-      "currentHash": "ad735d7778398c3ea835691f7dcee52f8a2aacd29fa7af72c2cb60e7c6ee68ef",
+      "currentHash": "4676ed289325e16e080b9e80ae8cdcfbf92e3c9e19b8ad5ba1c39c1b3703884f",
       "generatedHashes": [],
       "affectedSteps": [
         246
@@ -7850,7 +7909,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/lumiegravere-sur-lombre.html",
       "sourceTitle": "Lumière sur l'ombre",
-      "currentHash": "90cc45758b7bc40619933b0dc890efd3e48cf343b8ccf480a31fbc5cc1b0a701",
+      "currentHash": "8e7af80480d9380bbef62a7d95bc52057cfbf9947dccb0f26ecbfb104b9d7442",
       "generatedHashes": [],
       "affectedSteps": [
         246
@@ -7898,7 +7957,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/maleacutediction.html",
       "sourceTitle": "Malédiction !",
-      "currentHash": "18557cd221c92a5dfa94b9f2dbec4bbf789b97acb4fe56b3b8419f01022129f4",
+      "currentHash": "5f0ad3c4325e3f5d597b6f10f3bc6b19645df5a799452e7a1226fa95cc89b3b3",
       "generatedHashes": [
         "18557cd221c92a5dfa94b9f2dbec4bbf789b97acb4fe56b3b8419f01022129f4"
       ],
@@ -7909,7 +7968,7 @@
         "quest:698"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/malladie.html",
@@ -7979,7 +8038,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/maudite-disparition.html",
       "sourceTitle": "Maudite disparition",
-      "currentHash": "95364603fb5b8d3daa7953292d036352cb631687ae1c75ff23002cbfcbea129e",
+      "currentHash": "5f857214f9463d36278a1727cfbd334dc8010dcad9704683ca63575fed3de008",
       "generatedHashes": [
         "95364603fb5b8d3daa7953292d036352cb631687ae1c75ff23002cbfcbea129e"
       ],
@@ -7990,7 +8049,7 @@
         "quest:1344"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/maudite-geacuteneacuterositeacute.html",
@@ -8012,7 +8071,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/maya-la-belle.html",
       "sourceTitle": "Maya la belle",
-      "currentHash": "808672f5cb5d626b724129053f0c286adaa295b109dd33177d620d4e2d7ba208",
+      "currentHash": "57543ee3efb53012ee1e9dde7c17d20dbf21bc63e1837fc8d0a42c46ddfb6441",
       "generatedHashes": [],
       "affectedSteps": [
         210
@@ -8028,7 +8087,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/meacutemoires-doutre-tombe.html",
       "sourceTitle": "Mémoires d'outre-tombe",
-      "currentHash": "c84c649e3162d4a5efbd1410f1ba615797602c802c73ab212306914e5d8dafef",
+      "currentHash": "9e34f25bfdc8caf988f8e8113b79e9ab273f5350178e9643c0991790182e80b3",
       "generatedHashes": [],
       "affectedSteps": [
         316
@@ -8044,7 +8103,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/meacutemoires-dun-amneacutesique.html",
       "sourceTitle": "Mémoires d'un amnésique​",
-      "currentHash": "f53c281c5c1d476d90781a7e9bdb6629334866750bce53aaa03b42227489d4d5",
+      "currentHash": "b79270e5c5ce78b9edc45af913e6b50cb79ed832321784d2948451bbcc845ecf",
       "generatedHashes": [],
       "affectedSteps": [
         305,
@@ -8062,7 +8121,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/mel-au-drame.html",
       "sourceTitle": "Mel au drame",
-      "currentHash": "c9c773a262cf36afcf58e492b8dbe8c40543d9fefd2c137668579e924a54a2b6",
+      "currentHash": "474a4de14ed2642f3a8308d813e14ef02c2e329ec17ba5fd2f0199f0f01b7b63",
       "generatedHashes": [
         "c9c773a262cf36afcf58e492b8dbe8c40543d9fefd2c137668579e924a54a2b6"
       ],
@@ -8073,12 +8132,12 @@
         "quest:395"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/mel-odieuse.html",
       "sourceTitle": "Mel Odieuse",
-      "currentHash": "57c7bf563379383041602f59a03111768061e1ef70afeebbce7295d9846a4ca9",
+      "currentHash": "54574c2cadd1028e4ef51839aa4184e5cbfb49c63e0061bf5f59552558e7382e",
       "generatedHashes": [
         "57c7bf563379383041602f59a03111768061e1ef70afeebbce7295d9846a4ca9"
       ],
@@ -8089,7 +8148,7 @@
         "quest:394"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/mer-il-et-foux.html",
@@ -8161,7 +8220,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/mille-et-un-jours-un-destin.html",
       "sourceTitle": "Mille et un jours, un destin",
-      "currentHash": "1ded3348d8a457985c6d6261b9a30dc1b4e11d75060f9119c609b7c7b284f46e",
+      "currentHash": "34633e29b47fddb3e72775aea600905b36cd82b3d5d6570c5031c75027dbe1ee",
       "generatedHashes": [],
       "affectedSteps": [
         247
@@ -8211,7 +8270,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/mission-solution.html",
       "sourceTitle": "Mission Solution",
-      "currentHash": "4f556715de22e81dfd7055413989b83b0b7746ac34fc195e91d45160006d59df",
+      "currentHash": "7924f80e7f171b64e4565bc3d3e3486ac413b51bf62061d050bf5c7c600b7566",
       "generatedHashes": [],
       "affectedSteps": [
         206,
@@ -8299,7 +8358,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/moteur-agrave-explosion.html",
       "sourceTitle": "Moteur à explosion",
-      "currentHash": "7472b42e8cb0b59072e5abeedf45808007cb7ca2e45b0fd08cbdbd2b88b06c42",
+      "currentHash": "6b53ca95baaafebf36f5f338377a22322e041369ca00afbdd4e36bebc3d1ce87",
       "generatedHashes": [],
       "affectedSteps": [
         233
@@ -8332,7 +8391,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/mutinerie-chez-les-armutins.html",
       "sourceTitle": "Mutinerie chez les Armutins",
-      "currentHash": "fe9eae3db09c5322399a977db0cd0fa39fc46603704b21e4d06a18b7565ab0b4",
+      "currentHash": "a0a5ee871d3a0eb7fe28d86f1598fe888faca93dd6c968043ed4eb31e2acb9e8",
       "generatedHashes": [],
       "affectedSteps": [
         234
@@ -8348,7 +8407,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/ne-tirez-pas-sur-le-messager.html",
       "sourceTitle": "Ne tirez pas sur le messager",
-      "currentHash": "ca279c3bee1caa4f71dcd15e4aae86dfeff8abafde47458c518c654f83f259ff",
+      "currentHash": "f4fd2b750319250eb2b7fe734cdbd3769f249984d25ad0b7b757a524a574d184",
       "generatedHashes": [],
       "affectedSteps": [
         216
@@ -8364,7 +8423,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/neacutecrotiques-tiques-tiques.html",
       "sourceTitle": "Nécrotiques, tiques, tiques",
-      "currentHash": "6f9d93e875183acd9bdd9d336f159d8abb88e4877af6206407f7677c71f1f0d8",
+      "currentHash": "c5579ce274873ae52970bcb67308d280431454b2b177fff9897611f1ba2ca404",
       "generatedHashes": [],
       "affectedSteps": [
         211
@@ -8400,7 +8459,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/nordalie.html",
       "sourceTitle": "Nordalie",
-      "currentHash": "3941563435f5ea8f4165fe4293f21594fc59a1a2232071cf9075348377d7af2a",
+      "currentHash": "a5ecd2db2107ad725984f7396ef369067b8a1b76be5044ff20fc93cdcda3a338",
       "generatedHashes": [],
       "affectedSteps": [
         279,
@@ -8621,7 +8680,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/pas-de-fumee-sans-feu.html",
       "sourceTitle": "Pas de fumée sans feu",
-      "currentHash": "6cb9c3cfd3ceaf99e0409ddd46e202337eca80e61a58d2214d7c42fc91dc2ae5",
+      "currentHash": "29293fde7842a350cba3b1e1277113c5f25b242aea02b1535a123d2c88c6919d",
       "generatedHashes": [
         "6cb9c3cfd3ceaf99e0409ddd46e202337eca80e61a58d2214d7c42fc91dc2ae5"
       ],
@@ -8633,7 +8692,7 @@
         "quest:1407"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/pattes-aux-oeufs-frais.html",
@@ -8672,7 +8731,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/pecircche-aux-krabouilleurs.html",
       "sourceTitle": "Pêche aux krabouilleurs",
-      "currentHash": "ab54e0df7404e9563589657fd96fde4462d048bd820203a26735c1eb493fef19",
+      "currentHash": "08f7cee0547722b603d32148d0ac25db906c3518f5d13dc86e4e3bfd09f4577c",
       "generatedHashes": [],
       "affectedSteps": [
         312
@@ -8688,7 +8747,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/pecircche-en-eaux-geleacutees.html",
       "sourceTitle": "Pêche en eaux gelées",
-      "currentHash": "9510b80c5d8f33be65e01d89cef4d05709607eaca38e6a47d2bead60e62e5aa7",
+      "currentHash": "61f621e2886bce23f1f6c87f43573eed6d76fdcb9c34cf156c4b3ed759979fe8",
       "generatedHashes": [
         "9510b80c5d8f33be65e01d89cef4d05709607eaca38e6a47d2bead60e62e5aa7"
       ],
@@ -8701,7 +8760,7 @@
         "quest:345"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/pense-bete.html",
@@ -8820,7 +8879,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/plongee-dans-un-bain-de-sang.html",
       "sourceTitle": "Plongée dans un bain de sang",
-      "currentHash": "8542e0f59eed87cf9a7c8514fd184069ded6574ce88d1bfa609d6d4f6c8c5c32",
+      "currentHash": "4fa19d053f8d8af3b380564a5fd88b18bfce2ccd2aedd7b0fa76f5c38afbf493",
       "generatedHashes": [],
       "affectedSteps": [
         323
@@ -8836,7 +8895,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/plongeon-et-dragon.html",
       "sourceTitle": "Plongeon et dragon",
-      "currentHash": "82815b8dccd0d26146e10e885d411aa0b05872dfba72008392f32418c8d60b9a",
+      "currentHash": "912a2aefeb3c52599324035a55d246afb36621a31e90b8fb51c95c26b529e772",
       "generatedHashes": [
         "82815b8dccd0d26146e10e885d411aa0b05872dfba72008392f32418c8d60b9a"
       ],
@@ -8848,7 +8907,7 @@
         "quest:919"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/poison-de-scorbute-pour-la-prison.html",
@@ -8904,7 +8963,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/ponctions-leacutetales.html",
       "sourceTitle": "Ponctions létales",
-      "currentHash": "134698d4a503c4698ba9c2519840b7cb2e7aa5918b0d6417260d79d0a04fc7ff",
+      "currentHash": "04d4f501e6c2ee967cc084870706fdd963a64edc4e49562f63c4b04f89738ded",
       "generatedHashes": [],
       "affectedSteps": [
         227,
@@ -9040,7 +9099,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/prise-de-notes.html",
       "sourceTitle": "Prise de notes",
-      "currentHash": "be714595eba89fd9794173f30901de1fad758c8a90c8d71347e07e90719903f9",
+      "currentHash": "6fd002b728097b45d02021c96f69c570ed45dfed946dec81d0e65e3135c42861",
       "generatedHashes": [],
       "affectedSteps": [
         265,
@@ -9126,7 +9185,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/promenons-nous-dans-les-bois.html",
       "sourceTitle": "Promenons-nous dans les bois",
-      "currentHash": "bccc3fcf56892fdd297de0b58218d29b52e5c52d7b5f42470f2fbe7700c36d77",
+      "currentHash": "8e22822515825f47b96c49df63a3dd758e1914b4a2a545df410594c7727cc2ce",
       "generatedHashes": [
         "bccc3fcf56892fdd297de0b58218d29b52e5c52d7b5f42470f2fbe7700c36d77"
       ],
@@ -9137,7 +9196,7 @@
         "quest:358"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/proteacuteger-et-seacutevir.html",
@@ -9160,7 +9219,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/protection-divine.html",
       "sourceTitle": "Protection divine",
-      "currentHash": "c462cf18acd9dc4c9ac83f67735d871003c1e0a68d5bf896b412d101ebcde124",
+      "currentHash": "af7fda0c98e367f1c2c0fce16aa515fed9373192605f25115dcd269a60f46432",
       "generatedHashes": [
         "c462cf18acd9dc4c9ac83f67735d871003c1e0a68d5bf896b412d101ebcde124"
       ],
@@ -9194,7 +9253,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/quand-les-astres-seront-propices.html",
       "sourceTitle": "Quand les astres seront propices​",
-      "currentHash": "a3936d4c2896f5ced486a6e98e57c50dbab9a5e9ccede665f023f72411fe8617",
+      "currentHash": "de960e4750a0e49baac8fb0e7ee4bf220b405e704039c7a51bac9b32ddfa0cac",
       "generatedHashes": [],
       "affectedSteps": [
         296
@@ -9210,7 +9269,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/quand-les-esprits-s-echauffent.html",
       "sourceTitle": "Quand les esprits s'échauffent",
-      "currentHash": "275d83830cc0f3aa8b4a03ebf8b05f75d5ca9b0f165c671911daf7c1f1be1d27",
+      "currentHash": "d773e058b7a4566998d59e80d19dbfbaf0495ee158aaf44fe3c1c5c5fc5c656b",
       "generatedHashes": [
         "275d83830cc0f3aa8b4a03ebf8b05f75d5ca9b0f165c671911daf7c1f1be1d27"
       ],
@@ -9222,7 +9281,7 @@
         "quest:1408"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/quand-y-en-a-marre-de-brakmar.html",
@@ -9325,7 +9384,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/qui-dit-baume.html",
       "sourceTitle": "Qui dit baume",
-      "currentHash": "2a56ee10c656e431859585ac8c93a09e85a9cc78b03b0ce481879d29718fe7b1",
+      "currentHash": "0bc44aef4c7b9fa5ae2038ef4294682254461e23a8642e5e19d7b9b21f8c592f",
       "generatedHashes": [],
       "affectedSteps": [
         273
@@ -9375,7 +9434,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/rappel-agrave-la-vie.html",
       "sourceTitle": "Rappel à la vie",
-      "currentHash": "1e619a58776c0ba09d8d3b2ffc75affff2bc2d8889454ac9a07353b993acd351",
+      "currentHash": "d994fe9442cad7132d6956107967908d1054672a44cc7b64b66a8f81a9befc01",
       "generatedHashes": [],
       "affectedSteps": [
         234
@@ -9541,7 +9600,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/requiem-pour-un-yokai.html",
       "sourceTitle": "Requiem pour un Yokai",
-      "currentHash": "a3e2fbe298bc8bcdbc0182cc1e344ff3e2e3cf46f66bfc0e760c7ad2602c3535",
+      "currentHash": "1300d8858437e24271382128d8a41b5278106aa9513df6b12c71a8a6668815ac",
       "generatedHashes": [
         "a3e2fbe298bc8bcdbc0182cc1e344ff3e2e3cf46f66bfc0e760c7ad2602c3535"
       ],
@@ -9553,7 +9612,7 @@
         "quest:1345"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/restauration-rapide.html",
@@ -9576,7 +9635,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/rester-plante-la.html",
       "sourceTitle": "Rester planté là",
-      "currentHash": "daea1beafd6b85abb03eaa2321c41688b0db63fe87f35d347bd530234b1a12e9",
+      "currentHash": "a3d3885880a8914b5833a9fa02f26b78125efa802a5aaa3d31ba74e7bc97908c",
       "generatedHashes": [
         "daea1beafd6b85abb03eaa2321c41688b0db63fe87f35d347bd530234b1a12e9"
       ],
@@ -9588,7 +9647,7 @@
         "quest:1406"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/retour-aux-sources.html",
@@ -9609,7 +9668,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/retour-vers-le-preacutesent.html",
       "sourceTitle": "Retour vers le présent",
-      "currentHash": "fd6f9b6a64e7cfd4647654f525bef9b5ded9ae022d14f7dd56319facefda09ea",
+      "currentHash": "b2cc5636551cf434b83aaf5c56c1c45557f3bdf78e70912a310a3669415e337d",
       "generatedHashes": [
         "fd6f9b6a64e7cfd4647654f525bef9b5ded9ae022d14f7dd56319facefda09ea"
       ],
@@ -9621,12 +9680,12 @@
         "quest:870"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/retourner-voir-le-dark-vlad-toujours-sans-mourir.html",
       "sourceTitle": "Retourner voir le Dark Vlad, toujours sans mourir",
-      "currentHash": "1f695b9f2d5164cf924309c0187f6e978ade854380f52023afce5b84efad53c4",
+      "currentHash": "897808c2f6535bba8f47a3977cbcc6cefc25a8d547a919480787515258ebe0ad",
       "generatedHashes": [
         "1f695b9f2d5164cf924309c0187f6e978ade854380f52023afce5b84efad53c4"
       ],
@@ -9679,7 +9738,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/risquer-un-oeil.html",
       "sourceTitle": "Risquer un oeil​",
-      "currentHash": "4bd94d053045b7b015cc630d2e7a50158de1e8a95d83719a28b214f3f6b0ff9b",
+      "currentHash": "c8e74cd5e176e492e666679a26a65eb0f26ab8e4bc30dd5fbd29fe52ac5f0195",
       "generatedHashes": [],
       "affectedSteps": [
         308
@@ -9695,7 +9754,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/rose-a-lys-rose-a-lys-oh.html",
       "sourceTitle": "Rose à lys, Rose à lys, oh !",
-      "currentHash": "33e945a12cb35cdc178e06cb59188b3edabce6c9daf238ae39131511dd83746d",
+      "currentHash": "540d1c8fd3787945b9017129f904abbcf0dc7b889b8e5c40afc753a7b64b35bb",
       "generatedHashes": [
         "33e945a12cb35cdc178e06cb59188b3edabce6c9daf238ae39131511dd83746d"
       ],
@@ -9707,7 +9766,7 @@
         "quest:339"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/sa-majesteacute-des-neacutecrotiques.html",
@@ -9728,7 +9787,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/sanctuaire-de-famille.html",
       "sourceTitle": "Sanctuaires de famille",
-      "currentHash": "fcef3e0fde0ef08e05914e81b69ac75ac447f9596817eed4df85a58519e25402",
+      "currentHash": "78c2aca94e0d65c0915b52920d877eaf64527a09e00560a1ee0842711982294e",
       "generatedHashes": [
         "fcef3e0fde0ef08e05914e81b69ac75ac447f9596817eed4df85a58519e25402"
       ],
@@ -9739,12 +9798,12 @@
         "quest:954"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/sang-d-encre.html",
       "sourceTitle": "Sang d'encre",
-      "currentHash": "05b281343b78c7fdfaec27ffc2cc95a9a0ac5fcbbb2a6c066d33858e77a0749e",
+      "currentHash": "1e0ad6f4f7b92f299e7525ade0d493a0d27f34645bd241d2cadb0d90fa763c12",
       "generatedHashes": [
         "05b281343b78c7fdfaec27ffc2cc95a9a0ac5fcbbb2a6c066d33858e77a0749e"
       ],
@@ -9755,7 +9814,7 @@
         "quest:1361"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/sans-chair-et-en-os.html",
@@ -9811,7 +9870,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/scierie-bambelle.html",
       "sourceTitle": "Scierie Bambelle",
-      "currentHash": "5c207f680d639c24ccd83fb9d58fbe1c77c10ede5e0a72347c4aa788864f2532",
+      "currentHash": "b78fb6774e6e4ea7d9ad3a98a3a65b5ca3bb37b68587a7bdeefce50d1ecbbb34",
       "generatedHashes": [
         "5c207f680d639c24ccd83fb9d58fbe1c77c10ede5e0a72347c4aa788864f2532"
       ],
@@ -9822,7 +9881,7 @@
         "quest:384"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/secret-de-fabrication.html",
@@ -9843,7 +9902,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/semer-ses-graines.html",
       "sourceTitle": "Semer ses graines",
-      "currentHash": "56b56345fa8ef4bdeb30b0197f672817e5662f7a71f1448458c1d091e1eb1e03",
+      "currentHash": "ff61060d010cc3cae951cef346af85ddc21f3387f8b5969382bdfed0f3fee660",
       "generatedHashes": [
         "56b56345fa8ef4bdeb30b0197f672817e5662f7a71f1448458c1d091e1eb1e03"
       ],
@@ -9854,12 +9913,12 @@
         "quest:385"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/semparer-des-commandes.html",
       "sourceTitle": "S'emparer des commandes",
-      "currentHash": "bc4220686512d265ce6d739d6f5ccf666414dc08a20dddfa867d34655cfbd6b2",
+      "currentHash": "756d11c43bd119a5d8ce17d546a8af5e2438bdba06a10d5ff67e5d4087906c49",
       "generatedHashes": [
         "bc4220686512d265ce6d739d6f5ccf666414dc08a20dddfa867d34655cfbd6b2"
       ],
@@ -9870,12 +9929,12 @@
         "quest:885"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/shushu-et-lulu.html",
       "sourceTitle": "Shushu et Lulu",
-      "currentHash": "0357f69a966ed7c38bff0fb7f6c172d7f184b2923935ff94034405c0ae45fc67",
+      "currentHash": "7e1062eb86b6020e339c223fc49468777564b7ee365d3843a0c4bfc97a8d51f8",
       "generatedHashes": [
         "0357f69a966ed7c38bff0fb7f6c172d7f184b2923935ff94034405c0ae45fc67"
       ],
@@ -9927,7 +9986,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/six-pieds-sous-terre.html",
       "sourceTitle": "Six pieds sous terre",
-      "currentHash": "463c21087078af4b4d642cea9e020341fb18b74fe878fd8195e222bef052315e",
+      "currentHash": "c3067a64b628354511ab18dbad7a464ea90897d40a5d12c994def3492b3f12dd",
       "generatedHashes": [
         "463c21087078af4b4d642cea9e020341fb18b74fe878fd8195e222bef052315e"
       ],
@@ -9945,7 +10004,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/sombres-desseins.html",
       "sourceTitle": "Sombres desseins",
-      "currentHash": "4fb13ccd751f0807939991985c6a55af9fee6931a2b6b3678938f5f330f86e37",
+      "currentHash": "cee8f7d8519dddcd7491bc33a65acd9d9e0e2d14dfda9fd9ce0852893287dd53",
       "generatedHashes": [],
       "affectedSteps": [
         315
@@ -10060,7 +10119,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/srambad.html",
       "sourceTitle": "Srambad",
-      "currentHash": "11fe925de6aa2affe57425c03d9a75bad7d7ef82657c28f6b09c6a32f0b86e30",
+      "currentHash": "d801ace88efcb8719787b49da772f7c2884ecd4c9dc52477abbc9f473cfe3ce5",
       "generatedHashes": [],
       "affectedSteps": [
         321
@@ -10076,7 +10135,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/star-ski-et-dutch.html",
       "sourceTitle": "Star ski et Dutch",
-      "currentHash": "4372425d00b994c76a02cbf345e48cf63ea52ed88c7c6282a847e4e7e69e7253",
+      "currentHash": "4e4893e95e7c69c9cc81a5da17370a6049da3424174c64644592fbff782b909f",
       "generatedHashes": [
         "4372425d00b994c76a02cbf345e48cf63ea52ed88c7c6282a847e4e7e69e7253"
       ],
@@ -10087,7 +10146,7 @@
         "quest:410"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/strateacutegie-en-trithon-reacuteel.html",
@@ -10108,7 +10167,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/sur-fond-de-crise.html",
       "sourceTitle": "Sur fond de crise​",
-      "currentHash": "4f8d717cc28ce042f95fba14e23ae39a785cfb871baf47e63b0996ea8a85d719",
+      "currentHash": "e45f76e7a3f9708fc64d73fa7872503aa117191fcbe20894fdadbba8ad13c5b3",
       "generatedHashes": [],
       "affectedSteps": [
         307
@@ -10156,7 +10215,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/taures-et-deacutetours.html",
       "sourceTitle": "Taures et détours",
-      "currentHash": "f62d6aee91e6f79d069ca5027c889856dede3b939ef46c492225533488aaa050",
+      "currentHash": "f4bc1ecbb9ba40d35b94c13e1314f3b9f2e9c6400b528596e12cafb9b99c1345",
       "generatedHashes": [
         "f62d6aee91e6f79d069ca5027c889856dede3b939ef46c492225533488aaa050"
       ],
@@ -10167,7 +10226,7 @@
         "quest:807"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/tel-est-pris-qui-croyait-prendre.html",
@@ -10190,7 +10249,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/terminutor--le-jugement-de-la-machine.html",
       "sourceTitle": "Terminutor : le jugement de la machine",
-      "currentHash": "40702af27c717460e80ae8a742f0e337e01d88a6ae53999cbe34a06f5a642050",
+      "currentHash": "79040f9292e82cd0f5e0b7fb0cabb693a282cc179dffaeafc9a90078386d0484",
       "generatedHashes": [
         "40702af27c717460e80ae8a742f0e337e01d88a6ae53999cbe34a06f5a642050"
       ],
@@ -10201,7 +10260,7 @@
         "quest:857"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/testeacute-et-approuveacute.html",
@@ -10254,7 +10313,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/topo-le-petit-robot.html",
       "sourceTitle": "Topo le petit robot​",
-      "currentHash": "a51c3426b852cfd48034c8d77d26c59e9dcd3dd972fe75587af83c6b3c75620f",
+      "currentHash": "ae2b6ccbf18858f9cbd4ed99dfc60e6bf6ebae00a346ac1e84f7645113b4d095",
       "generatedHashes": [],
       "affectedSteps": [
         287
@@ -10286,7 +10345,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/touchez-pas-agrave-grisebigle.html",
       "sourceTitle": "Touchez pas à Grisebigle",
-      "currentHash": "e2c0471d840a0edfb5936fc8b27ce928f33a2b55a9a666c2f2bc23a51e5bcb23",
+      "currentHash": "b6956b866ecdefa38b16ee1fd7b0e296519a4326752068145e4ff6ba46fe15fb",
       "generatedHashes": [],
       "affectedSteps": [
         278
@@ -10318,7 +10377,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/tour-de-force.html",
       "sourceTitle": "Tour de force",
-      "currentHash": "4a021327a7a45ba46eac4114fae5c00e33e0dbadf85c0fdc5663dae1a250a7a8",
+      "currentHash": "6416f7ed2758d95067362936cbd972c1ac053228546cdd0baf80488a268f1646",
       "generatedHashes": [
         "4a021327a7a45ba46eac4114fae5c00e33e0dbadf85c0fdc5663dae1a250a7a8"
       ],
@@ -10329,12 +10388,12 @@
         "quest:618"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/tour-de-main.html",
       "sourceTitle": "Tour de main",
-      "currentHash": "97714d2f166771a50774fa827ef2141c7bc1da41edc27e8628d274b6e5f6d69d",
+      "currentHash": "a3f2b2e3390dff1947e1bd9cc50f60a0becf7ce1b19438c5e5322c5e52885e85",
       "generatedHashes": [
         "97714d2f166771a50774fa827ef2141c7bc1da41edc27e8628d274b6e5f6d69d"
       ],
@@ -10345,12 +10404,12 @@
         "quest:617"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/tour-de-marionnettes.html",
       "sourceTitle": "Tour de marionnettes",
-      "currentHash": "0470d631e0bb3d14daf2e4c21234a932f190ef5caa654e990dd7d291cb8376fa",
+      "currentHash": "c7d8e13eea3d7e7aec295c68849f3ba0efce17e0fdd02f2e4fdcab5729feed5e",
       "generatedHashes": [
         "0470d631e0bb3d14daf2e4c21234a932f190ef5caa654e990dd7d291cb8376fa"
       ],
@@ -10361,7 +10420,7 @@
         "quest:726"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/tour-de-passe-passe.html",
@@ -10382,7 +10441,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/tour-de-rein.html",
       "sourceTitle": "Tour de rein",
-      "currentHash": "86b399e2b03b2a74e39780904ee876e89a277e3262c382d13d2f24e97356d872",
+      "currentHash": "f28706fb6460dbd02d8ff220f4279ebf3d23561d7299333c8f118cf2d8a0e9f0",
       "generatedHashes": [
         "86b399e2b03b2a74e39780904ee876e89a277e3262c382d13d2f24e97356d872"
       ],
@@ -10393,7 +10452,7 @@
         "quest:616"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/tour-de-table.html",
@@ -10498,7 +10557,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/traitement-de-choc.html",
       "sourceTitle": "Traitement de choc",
-      "currentHash": "49c684fbceedd2dd9bb1dc65d5f93cab2431a0ebd8ee101e0e25a9dfee67189a",
+      "currentHash": "55d4c145af322f01bf27ec2a3bc8eeca80bfb4cd17c8dae26f03a01ab1e9e2ae",
       "generatedHashes": [
         "49c684fbceedd2dd9bb1dc65d5f93cab2431a0ebd8ee101e0e25a9dfee67189a"
       ],
@@ -10509,7 +10568,7 @@
         "quest:855"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/traknar.html",
@@ -10612,7 +10671,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/un-ami-qui-ne-vous-veut-pas-que-du-bien.html",
       "sourceTitle": "Un ami qui ne vous veut pas que du bien",
-      "currentHash": "14ffc109031aff3399bb6b570562139189d32f38cc6ab8627bc5815a77eaa8e9",
+      "currentHash": "5db4b7db3e5daa1c7fe70b6e70ec4dbecbaed1c919e1ad4f39577d482901b534",
       "generatedHashes": [],
       "affectedSteps": [
         208
@@ -10728,7 +10787,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/un-juge-hysterique.html",
       "sourceTitle": "Un juge hystérique",
-      "currentHash": "5189a5003336188ba9c2062fbe1504352733438f35efd98131fb5f946b178711",
+      "currentHash": "8bbfe2afda2e30e0e8ee53680441a5209bbfdba023a143ce3221eeb5adc64b62",
       "generatedHashes": [
         "5189a5003336188ba9c2062fbe1504352733438f35efd98131fb5f946b178711"
       ],
@@ -10744,7 +10803,7 @@
         "quest:73"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/un-kanniboul-verseacute.html",
@@ -10785,7 +10844,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/un-nouvel-heritier.html",
       "sourceTitle": "Un nouvel héritier",
-      "currentHash": "4df9ce7c93341ae9934d5acea5c153eb3c31405a8e9f00cd013eb67f2c736200",
+      "currentHash": "471d9e69c5917e696c5adf7f1786620674043b57cb631ff2130ef54be0a0ba01",
       "generatedHashes": [],
       "affectedSteps": [
         302,
@@ -10962,7 +11021,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/un-volcan-seacuteteint.html",
       "sourceTitle": "Un volcan s'éteint",
-      "currentHash": "3944f6f9d27b0b33a05a79188b8038784c04069aca9f8b2c951b53dedae50c0e",
+      "currentHash": "d23191a88ca1f52163086fda7c8c9f3ac2362775cf812c7a1a3e1e3aa18c3d17",
       "generatedHashes": [
         "3944f6f9d27b0b33a05a79188b8038784c04069aca9f8b2c951b53dedae50c0e"
       ],
@@ -10973,12 +11032,12 @@
         "quest:405"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/une-acircme-en-peine.html",
       "sourceTitle": "Une âme en peine",
-      "currentHash": "4b9da965c19c1eac35bd27d972ad7d363b9041ba57deb7df2060b57311bfddf2",
+      "currentHash": "7db7a23b89abe3e9b5bdf6dd887bb399491a7d8e5181f6689ba34743c37a45ab",
       "generatedHashes": [
         "4b9da965c19c1eac35bd27d972ad7d363b9041ba57deb7df2060b57311bfddf2"
       ],
@@ -10989,12 +11048,12 @@
         "quest:813"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/une-blague-vaseuse.html",
       "sourceTitle": "Une blague vaseuse ?",
-      "currentHash": "3ffe4628b465f3654e2711cbb8d6e821bbdbd86eb0b37e9153774c325d4db23b",
+      "currentHash": "8bc2af0b350729b80aeafc862c7e5ccdb6666efc958a32d158f6332a7da6b6e5",
       "generatedHashes": [
         "3ffe4628b465f3654e2711cbb8d6e821bbdbd86eb0b37e9153774c325d4db23b"
       ],
@@ -11005,7 +11064,7 @@
         "quest:400"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/une-bregraveche-agrave-bonta.html",
@@ -11044,7 +11103,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/une-douloureuse-separation.html",
       "sourceTitle": "Une douloureuse séparation",
-      "currentHash": "a2588ea8a6109159e1badbc8b3594c616f899b1104bf3b8eabf8794dbd0f1229",
+      "currentHash": "3ca2a0b34cf124829345632c5151d54b9965a2011c0bf24fdc0bc1a9129f0d5b",
       "generatedHashes": [],
       "affectedSteps": [
         298
@@ -11076,7 +11135,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/une-partie-de-cache-cache.html",
       "sourceTitle": "Alignement 53 : Une partie de cache-cache",
-      "currentHash": "1eb669ceba62c9f880ac90005ddafd56fe9a0cf745101e684d03d2723219e919",
+      "currentHash": "af706577dc668e66cad40fcb5e9c0df371cb65da05ee9395bbaba3e19573b1f2",
       "generatedHashes": [
         "1eb669ceba62c9f880ac90005ddafd56fe9a0cf745101e684d03d2723219e919"
       ],
@@ -11087,7 +11146,7 @@
         "quest:150"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/une-porte-vers-le-passeacute.html",
@@ -11124,7 +11183,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/une-voix-de-crystal.html",
       "sourceTitle": "Une voix de crystal",
-      "currentHash": "d50dba92d9b21f5a26834d0758bb4004653c4115af5770c32c9719e487d2b1d3",
+      "currentHash": "4d3143005464b561b6698cbb079f2f35c6c4c99ae2ed51648df09d187a563bdf",
       "generatedHashes": [],
       "affectedSteps": [
         286,
@@ -11175,7 +11234,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/ville-fleurie.html",
       "sourceTitle": "Ville fleurie",
-      "currentHash": "5e8638bbb063af0a8c4a81eb0777cff442ef2279d06647ee865a32a97d1ba251",
+      "currentHash": "33281b45f4fc207605a43e2402d909732f309d68d3da1c9d976120ab8286ff62",
       "generatedHashes": [],
       "affectedSteps": [
         209,
@@ -11298,7 +11357,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/vous-avez-demandeacute-la-peau-lisse.html",
       "sourceTitle": "Vous avez demandé la peau lisse ?",
-      "currentHash": "ad578a4a7afd58af0820712ab7b96249195b33658f4cdc7c34898e478b847160",
+      "currentHash": "222b257dc2a036a5e749c39b781036c49f4a87d1f38ab00fe1ae0059b2096d07",
       "generatedHashes": [],
       "affectedSteps": [
         237
@@ -11366,7 +11425,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/xeacutelorium.html",
       "sourceTitle": "Xélorium",
-      "currentHash": "b42dc94781b892ba52bdf4660535150124825cd9bcf92cd163b26106492d019d",
+      "currentHash": "b0ccf0f2f2786b0d47ea6d24aff045afc11054dfe04298aba11a312fe3af6760",
       "generatedHashes": [],
       "affectedSteps": [
         321
