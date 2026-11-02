@@ -2,8 +2,8 @@
   "version": 1,
   "guideId": -1,
   "sourceCount": 663,
-  "currentSourceCount": 182,
-  "staleSourceCount": 481,
+  "currentSourceCount": 178,
+  "staleSourceCount": 485,
   "staleSteps": [
     5,
     6,
@@ -62,6 +62,7 @@
     68,
     70,
     74,
+    78,
     79,
     89,
     90,
@@ -323,7 +324,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/a-la-croisee-des-mondes.html",
       "sourceTitle": "À la croisée des mondes",
-      "currentHash": "bad30a177dc0bb0e75062e5f962249168f738d37c0acee305543adf65b1a6f8d",
+      "currentHash": "3da62885147e8ce0b7a9bea27832c9af6c72e399785639f6794c3ed7cf334012",
       "generatedHashes": [
         "c8657052cea18cdc93202aaef2ed2a018a76c81b771a1cc44856d85523a6eaa2"
       ],
@@ -441,7 +442,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/a-qui-profite-le-boufmouth.html",
       "sourceTitle": "À qui profite le boufmouth",
-      "currentHash": "75004bb3a26eae3c2d328397657c52d783fd7214500552c7ceeb6f63c7a46e12",
+      "currentHash": "c61cc8af2a92c5afd363a5d9c1c20262f69ba73a3edad32c92f0e5200e25a400",
       "generatedHashes": [
         "d49bd4d029c5855eab3d2dd5cb135f86e609add3d31039b9c1b26f01419c3ae4"
       ],
@@ -2475,7 +2476,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/dapyus-nest-pas-doueacute.html",
       "sourceTitle": "Alignement 39 : Dapyus n'est pas doué",
-      "currentHash": "1671003d0f43b6387900a7fa5183745f72c39f89cc8844c96a6425a347135b65",
+      "currentHash": "c215bf20f770aa6ff77d02e2750e6f7c745bfb3f311312cfae01dca559e0d90c",
       "generatedHashes": [
         "1671003d0f43b6387900a7fa5183745f72c39f89cc8844c96a6425a347135b65"
       ],
@@ -2486,7 +2487,7 @@
         "quest:41"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/de-brikke-et-de-brokke.html",
@@ -2834,7 +2835,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/des-anneaux-sur-le-bout-des-doigts.html",
       "sourceTitle": "Alignement 21 : Des anneaux sur le bout des doigts",
-      "currentHash": "d00c76bfa35503e00057bc91906a6c4642fdd38c44f4f386095eae13bc220cf8",
+      "currentHash": "f12de4a17865c103e8894681c256b6d1020b5e2461a7434ee4995730168c9c78",
       "generatedHashes": [
         "d00c76bfa35503e00057bc91906a6c4642fdd38c44f4f386095eae13bc220cf8"
       ],
@@ -4129,7 +4130,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/hocirctel-de-glace.html",
       "sourceTitle": "Hôtel de glace",
-      "currentHash": "ca3c31ded67a5c50e38d5e1ad1fa1d69f30ee81beff01bd2e4ead93fc7b7bbb8",
+      "currentHash": "ec62c3ebce0aa3b7cd1630e71f9b70584a5075daafb7d860f595f93a626cce1a",
       "generatedHashes": [],
       "affectedSteps": [
         245
@@ -5389,7 +5390,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-marche-de-limpeacuteratrice.html",
       "sourceTitle": "La marche de l'impératrice",
-      "currentHash": "8435e997ed8a2c0da9a8339dd2fc7c31268252dd559400884ba17ae34fe0d730",
+      "currentHash": "e73da9f01a581a93ccbde9b8f3420a797d08802bec3edc7a7b7a727e7cc7d038",
       "generatedHashes": [
         "8435e997ed8a2c0da9a8339dd2fc7c31268252dd559400884ba17ae34fe0d730"
       ],
@@ -5400,7 +5401,7 @@
         "quest:322"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/la-meilleure-deacutefense-cest-lattaque.html",
@@ -8255,7 +8256,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/mission-de-reconnaissance-au-cimetiegravere.html",
       "sourceTitle": "Alignement 32 : Mission de reconnaissance au cimetière",
-      "currentHash": "4397f2bf1dbfec18be59bd17a6e0638bd1e7ace0ad3f3e760887da58d0cd5cb7",
+      "currentHash": "1429672a264844da0101d83fc91699ac3e26facb6d4d200ecdf93d49d4cc6a7b",
       "generatedHashes": [
         "4397f2bf1dbfec18be59bd17a6e0638bd1e7ace0ad3f3e760887da58d0cd5cb7"
       ],
@@ -8266,7 +8267,7 @@
         "quest:34"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/mission-solution.html",
@@ -8497,7 +8498,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/nos-chairs-voisines.html",
       "sourceTitle": "Nos chairs voisines",
-      "currentHash": "72c4fdbaba7cb0722ba7bb7b29fd831f16be0f8263c9ee604ade386d1a7c496e",
+      "currentHash": "e7bdd4dc2f9d7b588d89c0559f1ccf4ff0c783e2818f9e11e2911b18f7d06ca0",
       "generatedHashes": [],
       "affectedSteps": [
         287,
@@ -8515,7 +8516,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/oiseau-de-mauvais-augure.html",
       "sourceTitle": "Oiseau de mauvais augure",
-      "currentHash": "57d2ec52504a3bdf0a429c0451bdd6d2c6b82376b766eb118acf70cf44899702",
+      "currentHash": "b3d782e0dd44ef2b7f8d6611ee852cc76ba8960d3b07b6e0aa1c2c094948799d",
       "generatedHashes": [
         "57d2ec52504a3bdf0a429c0451bdd6d2c6b82376b766eb118acf70cf44899702"
       ],
@@ -8526,7 +8527,7 @@
         "quest:1024"
       ],
       "missingTutorialSteps": [],
-      "needsRegeneration": false
+      "needsRegeneration": true
     },
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/on-marche-sur-des-oeufs.html",
@@ -11152,7 +11153,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/une-porte-vers-le-passeacute.html",
       "sourceTitle": "Une porte vers le passé​",
-      "currentHash": "1b37a8186f05bd686e45f53e8c845f61d8ebbd14841c4ce7323e6acbceb4cd6f",
+      "currentHash": "8b0af947c420ed2e0cf4b55c9338c04a850fad39b355cb372c5f57f3c893fb86",
       "generatedHashes": [],
       "affectedSteps": [
         309
@@ -11374,7 +11375,7 @@
     {
       "sourceUrl": "https://www.dofuspourlesnoobs.com/voyage-au-centre-du-wabbit.html",
       "sourceTitle": "Voyage au centre du Wabbit",
-      "currentHash": "656a216dc035426565e0fc36bf005fae51850cabaa2104acb263cd9ba381c84a",
+      "currentHash": "2a5f1ffd1dfe6d634336daa6dca51efe9ee383624713e0067b73c4be76171fe8",
       "generatedHashes": [
         "656a216dc035426565e0fc36bf005fae51850cabaa2104acb263cd9ba381c84a"
       ],
